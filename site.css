@@ -35,5 +35,6 @@ body > .container {
   font-weight: 500;
 }
 
-.heavy { font-weight: 500; }
-.tiny  { font-size: 75%; }
+.text-heavy { font-weight: 500; }
+.text-large { font-size: 125%; }
+.text-tiny  { font-size: 75%; }

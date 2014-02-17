@@ -25,7 +25,7 @@
   <body>
     <div class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
-        <a class="navbar-brand heavy" href="/"><img src="/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <a class="navbar-brand text-heavy" href="/"><img src="/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -47,35 +47,103 @@
     </div>
 
     <div class="container">
-      <div class="col-md-2 main">
-        <h3></h3><!-- spacing -->
-        <strong>Category</strong>
+      <div class="row">
+        <div class="col-md-10 main">
+          <h4>External Tools</h4>
+          <p>
+            The Taskwarrior distribution contains the essential core components.
+            The open source community provides many non-core components,
+            distributed separately, because they are not tied to Taskwarrior
+            release schedule.
+          </p>
+          <p>
+            Do you have a taskwarrior extension you'd like to see listed here?
+            Please tell us about it.
+          </p>
+        </div>
       </div>
 
-      <div class="col-md-7 main">
-        <h3></h3><!-- spacing -->
-        <table class="table table-striped">
-          <tr>
-            <th>col1</th>
-            <th>col2</th>
-            <th>col3</th>
-          </tr>
-          <tr>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-          </tr>
-          <tr>
-            <td>data</td>
-            <td>data</td>
-            <td>data</td>
-          </tr>
-        </table>
-      </div>
+      <div class="row">
+        <div class="col-md-2 main">
+          <h3></h3><!-- spacing -->
+          <strong>Front Ends</strong>
+        </div>
 
-      <div class="col-md-3 main">
-        <h3></h3><!-- spacing -->
-        Index
+        <div class="col-md-8 main">
+          <h3></h3><!-- spacing -->
+          <table class="table table-striped">
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>License</th>
+              <th>Compatibility</th>
+            </tr>
+            <tr>
+              <td>Vit</td>
+              <td>
+                Vit is a full-screen terminal interface to Taskwarrior with Vim key bindings.
+                <a href="http://taskwarrior.org/projects/taskwarrior/wiki/Vit">Read more here</a>.
+                <br />
+                <small>Authors: Scott Kostyshak, Steve Rader</small>
+              </td>
+              <td>GPLv3</td>
+              <td>2.0.0+</td>
+            </tr>
+            <tr>
+              <td>"tasknc":https://github.com/mjheagle8/tasknc</td>
+              <td>Tasknc is an ncurses shell.
+    See http://taskwarrior.org/boards/6/topics/2173 for details.
+    Github: https://github.com/mjheagle8/tasknc on Github.
+    Author: Mike H</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>[[Taskhelm]]</td>
+              <td>[[Taskhelm]] is a graphical interface for task warrior 2.  A convenient tool for managing large collections of tasks.
+    Also includes "tasknote's":http://taskwarrior.org/projects/taskwarrior/wiki/Tasknote functionality, project activity management, and more.
+    Author: by Bryce W. Harrington.</td>
+              <td>Unknown</td>
+              <td>2.1.2 or earlier</td>
+            </tr>
+            <tr>
+              <td>"tchart":https://github.com/grovesteyn/tchart.git</td>
+              <td>A Gantt chart style front end Taskwarrior.  Tchart allows for rapid selection and modification of tasks, while the GANTT type report enables a rapid visual overview of tasks based on their due dates.
+    Author: Grové Steyn</td>
+              <td>GPLv2</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"taskwarrior-web":https://github.com/theunraveler/taskwarrior-web</td>
+              <td>Taskwarrior-web is a Sinatra-based web front end for Taskwarrior.
+    Author: Jake Bell.
+    Github: https://github.com/theunraveler/taskwarrior-web</td>
+              <td>MIT</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"mirakel-android":http://mirakel.azapps.de/index.html</td>
+              <td>The Android App for Mirakel
+  How To: http://mirakel.azapps.de/taskwarrior.html
+  Author: Anatolij Zelenin, Georg Semmler</td>
+              <td>GPLv3</td>
+              <td>Taskserver beta1 only</td>
+            </tr>
+            <tr>
+              <td>"tasklib":http://tasklib.readthedocs.org/en/latest/</td>
+              <td>Python library for interacting with Taskwarrior data
+  Author: Rob Golding</td>
+              <td>BSD 3 clause</td>
+              <td>2.2.0, 2.3.0beta2</td>
+            </tr>
+
+          </table>
+        </div>
+
+        <div class="col-md-2 main">
+          <h3></h3><!-- spacing -->
+          Index
+        </div>
       </div>
     </div>
 
