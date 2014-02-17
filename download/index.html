@@ -12,7 +12,6 @@
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
-    <link href="/download/download.css" rel="stylesheet">
 
     <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -47,7 +46,7 @@
     </div>
 
     <div class="container">
-      <div class="col-md-9 main">
+      <div class="col-md-10 main">
         <div class="row">
           <h3></h3><!-- spacing -->
 
@@ -56,7 +55,7 @@
             <strong>Download</strong>
           </div>
 
-          <div class="col-md-7 main">
+          <div class="col-md-8 main">
             <p>
               <strong>Latest stable release:</strong>
             </p>
@@ -94,9 +93,36 @@
             <strong>Quick Setup</strong>
           </div>
 
-          <div class="col-md-7 main">
+          <div class="col-md-8 main">
             <p>
-              Content
+              Build the task program according to the directions in the INSTALL
+              file. This transcript illustrates a typical installation:
+            </p>
+
+            <pre>$ ls
+task-2.3.0.tar.gz
+$ gunzip task-2.3.0.tar.gz
+$ tar xf task-2.3.0.tar
+$ cd task-2.3.0
+$ cmake .
+...
+$ make
+...
+$ sudo make install</pre>
+
+            <p>
+              (For those of you wishing to build task from source on Cygwin, see
+              <a href="">Start</a>
+              for details on which components you'll need to install, but don't
+              forget - task is a standard part of the Cygwin distribution, so
+              you do not need to build from source, unless you want the latest
+              development snapshot).
+            </p>
+
+            <p>
+              Ensure that the installed task program is in your PATH environment
+              variable.  On startup, task will check to see if it can find the configuration file and task directory, and if not found, will ask
+              you whether it may create both.
             </p>
           </div>
         </div>
@@ -109,10 +135,98 @@
             <strong>Distributions</strong>
           </div>
 
-          <div class="col-md-7 main">
-            <p>
-              Content
-            </p>
+          <div class="col-md-8 main">
+            <table class="table">
+              <tr>
+                <th>Distribution</th>
+                <th>Command</th>
+                <th>Available since</th>
+              </tr>
+              <tr>
+                <td><a href="http://packages.debian.org/sid/utils/task">Debian SID</a></td>
+                <td><code>sudo apt-get install task</code></td>
+                <td>Debian SID</td>
+              </tr>
+              <tr>
+                <td><a href="http://backports.debian.org/Instructions/">Debian</a></td>
+                <td><code>sudo apt-get -t "wheezy-backports"</code></td>
+                <td>7.0 wheezy</td>
+              </tr>
+              <tr>
+                <td><a href="http://packages.ubuntu.com/search?keywords=task">Ubuntu</a></td>
+                <td><code>sudo apt-get install task</code></td>
+                <td>10.10 Maverick Meerkat</td>
+              </tr>
+              <tr>
+                <td><a href="https://launchpad.net/~ultrafredde/+archive/ppa">Ubuntu PPA</a></td>
+                <td><code>sudo add-apt-repository ppa:ultrafredde/ppa</code>
+                    <br />
+                    <code>sudo apt-get update</code>
+                    <br />
+                    <code>sudo apt-get install task</code></td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td><a href="https://apps.fedoraproject.org/packages/task">Fedora</a></td>
+                <td><code>yum install task</code></td>
+                <td>Fedora 18</td>
+              </tr>
+              <tr>
+                <td>Red Hat Enterprise Linux</td>
+                <td>task has been submitted to the EPEL repositories of Fedora.
+                    Please refer to the
+                    <a href="http://fedoraproject.org/wiki/EPEL/FAQ#howtouse">EPEL documentation</a></td>
+                <td>?</td>
+              </tr>
+              <tr>
+                <td><a href="http://software.opensuse.org/package/taskwarrior?search_term=taskwarrior">OpenSUSE</a></td>
+                <td><code>zypper install taskwarrior</code></td>
+                <td>openSUSE 12.2</td>
+              </tr>
+              <tr>
+                <td><a href="http://www.archlinux.org/packages/community/i686/task">Archlinux</a></td>
+                <td><code>pacman -S task</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td><a href="http://slackbuilds.org/repository/14.0/office/task/">Slackware</a></td>
+                <td><code>sbopkg -i task</td>
+                <td>13.0</td>
+              </tr>
+              <tr>
+                <td><a href="http://packages.gentoo.org/package/app-misc/task">Gentoo</a></td>
+                <td><code>emerge task</td>
+                <td>-</td>
+              </tr>
+              <tr>
+                <td><a href="http://www.freshports.org/deskutils/taskwarrior">FreeBSD</a></td>
+                <td>To install the port:
+                    <br />
+                    <code>cd /usr/ports/deskutils/taskwarrior/</code>
+                    <br />
+                    <code>make install clean</code>
+                    <br />
+                    To add the package:
+                    <br />
+                    <code>pkg_add -r taskwarrior</code></td>
+                <td>?</td>
+              </tr>
+              <tr>
+                <td><a href="http://www.openbsd.org/cgi-bin/cvsweb/ports/productivity/taskwarrior/">OpenBSD</a></td>
+                <td><code>sudo pkg_add -i taskwarrior</code></td>
+                <td>?</td>
+              </tr>
+              <tr>
+                <td><a href="http://github.com/mxcl/homebrew/blob/master/Library/Formula/task.rb">Mac OS X</a></td>
+                <td><code>brew install task</code></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td><a href="http://cygwin.com/cgi-bin2/package-grep.cgi?grep=task%2F">Cygwin</a></td>
+                <td>Add it during setup</td>
+                <td>Windows XP SP3</td>
+              </tr>
+            </table>
           </div>
         </div>
 
@@ -124,10 +238,41 @@
             <strong>Git Repository</strong>
           </div>
 
-          <div class="col-md-7 main">
+          <div class="col-md-8 main">
             <p>
-              Content
+              Get the whole source and history from our git repository. You will
+              need
+              <a href="http://git-scm.com">git</a>
+              installed.
             </p>
+
+            <h5>Disclaimer:</h5>
+            <p>
+              The <code>master</code> branch represents the latest stable
+              release.  All other branches are development branches,
+            </p>
+
+            <p>
+              All other branches are development branches, and are works in
+              progress and may not pass all quality tests, therefore may harm
+              your data.  While we welcome bug reports from the development
+              branch, we do not guarantee proper or timely fixes.
+            </p>
+
+            <ul>
+              <li>Broken functionality may arise from ongoing development work</li>
+              <li>Make proper backups</li>
+              <li>Be aware that using the development branch involves risks</li>
+            </ul>
+
+            <pre>git clone git://tasktools.org/task.git task.git</pre>
+
+            <p>
+              Example backup command:
+            </p>
+            <pre>$ tar czf \
+      ~/.task/task-backup-$(date +'%Y%m%d').tar.gz \
+      ~/.task/*</pre>
           </div>
         </div>
 
@@ -139,15 +284,18 @@
             <strong>Older Versions</strong>
           </div>
 
-          <div class="col-md-7 main">
+          <div class="col-md-8 main">
             <p>
-              Content
+              Please
+              <a href="mailto:support@taskwarrior.org">contact us</a>
+              if you wish to download
+              <a href="">prior versions</a>.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="col-md-3 main">
+      <div class="col-md-2 main">
         <h3></h3><!-- spacing -->
         <div class="alert alert-warning">
           <ul class="list-unstyled">
