@@ -72,7 +72,7 @@
                 <li>taskd.credentials correct?</li>
                 <li>Are you using a self-signed cert? If so, did you specify taskd.ca or set taskd.trust=yes?</li>
                 <li>Have you upgraded from a very old version of Taskwarrior ending up having duplicate UUIDs?</li>
-                <li>Set debug.tls=2 in the configuration. You get great TLS diagnostics that way.</li>
+                <li>Set <code>debug.tls=2</code> in the configuration. You get great TLS diagnostics that way.</li>
               </ul>
             </p>
 
@@ -84,15 +84,15 @@
                 <li>Did you build Taskserver from git? If so, have you updated recently, and are you on the correct branch?</li>
                 <li>Did you build Taskserver from source, and if so, which version of GnuTLS did you use?</li>
                 <li>If you built from source, did the demo work?</li>
-                <li>Is the server running? Check with ps -leaf | grep taskd.</li>
+                <li>Is the server running? Check with <code>ps -leaf | grep taskd</code>.</li>
                 <li>Are there helpful messages in the taskd.log file?</li>
-                <li>Is the client (taskwarrior) able to communicate through your firewall to the server (taskserver)? By default, port 53589 is used, and must be open on the server.</li>
-                <li>If you are unable to open firewall ports, you can use an SSH Tunnel to route port 53589 traffic over port 22.</li>
+                <li>Is the client (taskwarrior) able to communicate through your firewall to the server (taskserver)? By default, port <code>53589</code> is used, and must be open on the server.</li>
+                <li>If you are unable to open firewall ports, you can use an SSH Tunnel to route port <code>53589</code> traffic over port <code>22</code>.</li>
                 <li>Did you follow the instructions for setup exactly? This is the largest cause of misconfiguration.</li>
-                <li>Setting 'debug.tls=2' for both client and server generates diagnostic output that can help diagnose problems with TLS handshake, certs, keys, and ciphers. For Taskserver, with debug.cls=2, run the server interactively rather than as a daemon, to see the diagnostics.</li>
-                <li>Setting 'ciphers' (Taskserver) or 'taskd.ciphers' (Taskwarrior) can force the use of different ciphers. Use 'gnutls-cli --list' to see a list of installed ciphers, and confirm that there is overlap between client and server.</li>
+                <li>Setting <code>debug.tls=2</code> for both client and server generates diagnostic output that can help diagnose problems with TLS handshake, certs, keys, and ciphers. For Taskserver, with <code>debug.cls=2</code>, run the server interactively rather than as a daemon, to see the diagnostics.</li>
+                <li>Setting <code>ciphers</code> (Taskserver) or <code>taskd.ciphers</code> (Taskwarrior) can force the use of different ciphers. Use <code>gnutls-cli --list</code> to see a list of installed ciphers, and confirm that there is overlap between client and server.</li>
                 <li>In the event of a self-signed cert being used, is the CA cert configured?</li>
-                <li>Alternatively, is 'taskd.trust=yes' set for Taskwarrior?</li>
+                <li>Alternatively, is <code>taskd.trust=yes</code> set for Taskwarrior?</li>
               </ul>
             </p>
 
@@ -105,9 +105,9 @@
 
             <p>
               <ul>
-                <li>Output from 'taskd diagnostics' command</li>
-                <li>Output from 'task diagnostics' command</li>
-                <li>The taskd.log contents</li>
+                <li>Output from <code>taskd diagnostics</code> command</li>
+                <li>Output from <code>task diagnostics</code> command</li>
+                <li>The <code>taskd.log</code> contents</li>
               </ul>
             </p>
 
