@@ -23,7 +23,7 @@
   </head>
 
   <body>
-    <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
         <a class="navbar-brand text-heavy" href="/"><img src="/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
         <div class="navbar-header">
@@ -64,13 +64,12 @@
       </div>
 
       <div class="row">
+        <a name="frontends"></a>
         <div class="col-md-2 main">
-          <h3></h3><!-- spacing -->
           <p class="text-large"><strong>Front Ends</strong></p>
         </div>
 
         <div class="col-md-8 main">
-          <h3></h3><!-- spacing -->
           <table class="table table-striped">
             <tr>
               <th>Name</th>
@@ -166,18 +165,23 @@
         </div>
 
         <div class="col-md-2 main">
-          Index
+          <div class="alert alert-warning">
+            <ul class="list-unstyled">
+              <li><a href="#frontends">Front Ends</a></li>
+              <li><a href="#exts">Extensions</a></li>
+              <li><a href="#forks">Forks</a></li>
+            </ul>
+          </div>
         </div>
       </div>
 
       <div class="row">
+        <a name="exts"></a>
         <div class="col-md-2 main">
-          <h3></h3><!-- spacing -->
           <p class="text-large"><strong>Extensions</strong></p>
         </div>
 
         <div class="col-md-8 main">
-          <h3></h3><!-- spacing -->
           <table class="table table-striped">
             <tr>
               <th>Name</th>
@@ -185,18 +189,697 @@
               <th>License</th>
               <th>Compatibility</th>
             </tr>
+            <tr>
+              <td><a href="https://github.com/ralphbean/bugwarrior">bugwarrior</a></td>
+              <td>
+                bugwarrior pulls issues from github, bitbucket, trac, and
+                bugzilla and imports them into taskwarrior.
+                <br />
+                <small>Author: Ralph Bean</small>
+                <br />
+                <small>Github: https://github.com/ralphbean/bugwarrior</small>
+              </td>
+              <td>GPLv3</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/ryansb/gitwarrior">gitwarrior</a></td>
+              <td>
+                Interface between Git Issues and Taskwarrior
+                <br />
+                <small>Author: Ryan Brown</small>
+              </td>
+              <td>Unknown</td>
+              <td>1.9.4</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/proxypoke/git-task">git-task</a></td>
+              <td>
+                mini-issue tracker for git repositories, using Taskwarrior.
+                <br />
+                <small>Author: proxypoke</small>
+              </td>
+              <td>Unknown</td>
+              <td>2.1.2</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/wiki/export-html.py">export-html.py</a></td>
+              <td>
+                Converts the JSON output from the "task export ..." command to
+                an HTML @ol@ tag.  The script is easily modified to allow
+                inclusion on a web page.
+                <br />
+                <small>Author: Brendan O'Flaherty</small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/boards/1/topics/2286">Pinboard HTML</a></td>
+              <td>
+                Inspired by export-html.py, this is a modified version that
+                prints the task list by project into an HTML.
+                <br />
+                <small><a href="http://taskwarrior.org/attachments/479/export-html-pinboard.py">Download</a></small>
+                <br />
+                <small>Author: Satheesh Vattekkat</small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/attachments/411/local-task.sh">local-task.sh</a></td>
+              <td>
+                local-task.sh is a script that provides directory-specific task
+                databases.  Read the script for detailed instructions on
+                installation and usage.
+                <br />
+                <small>See: #875</small>
+                <br />
+                <small>Author: Wim Schuermann</small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/wiki/mess2task">mess2task</a></td>
+              <td>
+                For adding a message ID from a mutt mail directly to the most
+                recently added task.  This is useful in combination with
+                taskopen and the muttjump scripts on this page.
+                <br />
+                <small>Author: Jostein Berntsen</small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/wiki/mess2task2">mess2task2</a></td>
+              <td>
+                For adding a message ID from a mutt mail to the clipboard in
+                KDE, making it possible to add this as an annotation to any
+                task.
+                <br />
+                <small>Author: Jostein Berntsen</small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/wiki/mutt2task">mutt2task</a></td>
+              <td>
+                For adding an email from mutt as a task.
+                <br />
+                <small>See: <a href="http://blog.nixternal.com/category/gtd/">blog article</a></small>
+                <br />
+                <small>Alternative implementation: https://gist.github.com/noqqe/6562350</small>
+                <br />
+                <small>Author: Richard A. Johnson</small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/wiki/muttjump">muttjump</a></td>
+              <td>
+                For jumping to a specific mail in mutt via macro.  This can be
+                used together with taskopen to open a mutt message from a task.
+                <br />
+                <small>Author: Johannes Weissl</small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/wiki/task-anon">task-anon</a></td>
+              <td>
+                Anonymizes project names, task descriptions and annotations with
+                md5 hashes that include a salt to provide a modicum of security.
+                Tags are not anonymized (how would users indicate the problem
+                tasks otherwise?).  Anonymizing data is for helping developers
+                diagnose data-specific problems with Taskwarrior.
+                <br />
+                <small>Author: Cory Donnelly</small>
+              </td>
+              <td>GPLv2</td>
+              <td>All</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/wiki/tasknote">tasknote</a></td>
+              <td>
+                tasknote is used to associate a single textfile with a task.
+                The note file is created automatically and uses the UUID for a
+                filename, for uniqueness.
+                <br />
+                <small>Author: Alan Bowen</small>
+              </td>
+              <td>GPLv2</td>
+              <td>2.2.0</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/wiki/taskopen">taskopen</a></td>
+              <td>
+                taskopen is used for opening files that are added with their
+                paths as a task annotation.  It can also open notes that were
+                added by tasknote.
+                <br />
+                <small><a href="https://github.com/ValiValpas/taskopen">Source</a></small>
+                <br />
+                <small>Author: Johannes Schlatow</small>
+              </td>
+              <td>GPLv2</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://pedramhayati.com/thoughts/linux/284-add-task-from-thunderbird-to-taskwarrior">tb2taskwarrior</a></td>
+              <td>
+                tb2taskwarrior can add a task from email in Thunderbird to
+                Taskwarrior.
+                <br />
+                <small><a href="https://github.com/pi3ch/tb2taskwarrior">Source</a></small>
+                <br />
+                <small>Author: Pedram Hyati</small>
+              </td>
+              <td>GPLv2</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/flickerfly/taskwarrior-notifications">taskwarrior-notifications</a></td>
+              <td>
+                A collection of scripts to alert and bring attention to the task
+                list.
+                <br />
+                <small><a href="https://github.com/flickerfly/taskwarrior-notifications">Source</a></small>
+                <br />
+                <small><a href="http://taskwarrior.org/boards/1/topics/1830">Read more</a></small>
+                <br />
+                <small>Author: Josiah Ritchie</small>
+              </td>
+              <td>Unknown</td>
+              <td>1.9.4</td>
+            </tr>
+            <tr>
+              <td><a href="http://spiegl.de/andy/software/t.tar.gz">t</a></td>
+              <td>
+                't' is a taskwarrior wrapper.  It provides implicit project
+                values on the command line, for adding and filtering, based on
+                the current directory.
+                <br />
+                <small><a href="http://taskwarrior.org/boards/6/topics/2261">Read more</a></small>
+                <br />
+                <small><a href="https://bitbucket.org/ciberandy/t">Source (requires account)</a></small>
+                <br />
+                <small><a href="http://spiegl.de/andy/software/t.tar.gz">Stable snapshot</a></small>
+                <br />
+                <small>Author: by Andy Spiegl</small>
+              </td>
+              <td>MIT</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/attachments/516/backup.py">backup.py</a></td>
+              <td>
+                A Python script that creates a time-stamped archive of your task
+                data.  Included in the archive is the <code>.taskrc</code> file
+                and the <code>.task</code> directory, making a complete snapshot
+                tarball.
+                <br />
+                <small>Author: Štěpán Henek</small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://taskwarrior.org/attachments/540/taskchain">taskchain</a></td>
+              <td>
+                taskchain is a script to create a single dependency chain from
+                the input of task IDs.
+                <br />
+                <small><a href="http://taskwarrior.org/issues/1007#note-3">Read more</a></small>
+                <br />
+                <small>
+                Author: Scott Kostyshak (please contact with any problems
+                  or feature requests)
+                </small>
+              </td>
+              <td>Unknown</td>
+              <td>1.9.3+</td>
+            </tr>
+            <tr>
+              <td><a href="http://pypi.python.org/pypi/taskreport">taskreport</a></td>
+              <td>
+                taskreport allows you to export a list of "reports" (these are
+                just list of tasks defined by a filter rule) to HTML format,
+                and then, print the HTML format to a file or send it by email.
+                The html layout is customizable by the use of Jinja templates.
+                <br />
+                <small>Author: Alicia BEL & Thibaut HOREL</small>
+              </td>
+              <td>GPLv3</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://iamnafets.com/tech/?p=55">Dependency Trees</a></td>
+              <td>
+                <small>Author: Stefan Mai</small>
+                <br />
+                <small><a href="https://github.com/iamnafets/taskwarrior_depends">Source</a></small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://pastebin.com/9EyvEL0M">graphdeps.py</a></td>
+              <td>A Taskwarrior &rarr; GraphViz script that shows dependencies as a colorful graph.
+                <br />
+                <small>Author: mono_1</small>
+                <br />
+                <small><a href="http://pastebin.com/9EyvEL0M">Source</a></small>
+                <br />
+                <small><a href="http://imgur.com/zipAg">Sample</a></small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://spiegl.de/andy/software/task-autodelay.pl">task-autodelay.pl</a></td>
+              <td>
+                Automated task delay - a sophisticated script that can be used
+                to add 10 days to the due date of any tasks.
+                <br />
+                <small><a href="http://taskwarrior.org/boards/1/topics/2767">Read more</a></small>
+                <br />
+                <small>Author: Andy Spiegl</small>
+                <br />
+                <small><a href="http://spiegl.de/andy/software/task-autodelay.pl">Source</a></small>
+              </td>
+              <td>MIT</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="https://raw.github.com/benjaminweb/scripts/master/rea">rea</a></td>
+              <td>
+                Rea shows you the arithmetic mean time you have been active on
+                a <em>recurring</em> task.
+                <br />
+                <small>Author: Benjamin Weber</small>
+              </td>
+              <td>MIT</td>
+              <td>Unknown</td>
+            </tr>
+<!--
+            <tr>
+              <td>"task-indicator":https://github.com/umonkey/task-indicator</td>
+              <td>A simple indicator application that helps do simple things with Taskwarrior, like finding and adding tasks, starting and stopping them, track current activity time, etc.
+                <br />
+    Screenshots: http://umonkey.net/task-indicator/en
+                <br />
+                <small>Author: Justin Forest</td>
+              <td>MIT</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"vimwiki-tasks":https://github.com/teranex/vimwiki-tasks</td>
+              <td>A Vim plugin to integrate Vimwiki tasks with taskwarrior. Syncs tasks between vimwiki and taskwarrior in both directions.
+                <br />
+    Project: https://github.com/teranex/vimwiki-tasks
+                <br />
+                <small>Author: Jeroen Budts</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"taskquery":https://github.com/teranex/taskquery</td>
+              <td>A simply query interface for Taskwarrior.  This script let's you on-the-fly specify which columns you want to see in a report and how the result should be sorted. When you just want to create a simple custom report which you are going to use once, this is much simpler then having to create a custom report, or specify all the rc-override on the commandline.
+                <br />
+   Project: https://github.com/teranex/taskquery
+                <br />
+                <small>Author: Jeroen Budts</td>
+              <td>MIT</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"AlfredTaskwarrior":https://github.com/jbarratt/AlfredTaskwarrior </td>
+              <td>
+                Alfred extension for integration with Taskwarrior.
+                <br />
+                <small>Author: Joshua Barratt</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"taskwarrior-workflow":https://github.com/anazimok/taskwarrior-workflow</td>
+              <td>Taskwarrior workflow for Alfred v2
+                <br />
+                <small>Author: Alex Nazimok</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"taskwarrior-progress":https://github.com/frenchrd/taskwarrior-progress</td>
+              <td>Progress Reports for Taskwarrior Projects
+                <br />
+                <small>Author: Robert D. French</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"sublime-taskwarrior":https://github.com/kostajh/sublime-taskwarrior</td>
+              <td>A plugin for Sublime Text 2 to view, modify and add tasks with Taskwarrior.
+                <br />
+                <small>Author: Kosta Harlan</td>
+              <td>MIT License</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"taskwarrior-dropbox":https://github.com/mitnworb/taskwarrior-dropbox</td>
+              <td>A quick script to take text file from Dropbox and to add it to Taskwarrior.
+                <br />
+                <small>Author: Tim Brown</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"meteor-taskwarrior":https://github.com/venturecommunism/meteor-taskwarrior</td>
+              <td>taskwarrior client in meteor.js
+                <br />
+                <small>Author: venturecommunism</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"awesome-taskwarrior":https://github.com/ValiValpas/awesome-taskwarrior</td>
+              <td>Integrate taskwarrior into awesome wm
+                <br />
+                <small>Author: Johannes S.</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"tb2taskwarrior":https://github.com/pi3ch/tb2taskwarrior</td>
+              <td>Scripts to handle taskwarrior from Thunderbird
+                <br />
+                <small>Author: Pedram Hayati</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"mail2taskwarrior":https://github.com/neingeist/mail2taskwarrior</td>
+              <td>Add a task to taskwarrior via email
+                <br />
+                <small>Author: neingeist</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"mamattd.plugins.taskwarrior":https://github.com/ralphbean/mattd.plugins.taskwarrior</td>
+              <td>A taskwarrior plugin for "mattd":https://github.com/ralphbean/mattd.core
+                <br />
+                <small>Author: Matt Daemon</td>
+              <td>GPLv3</td>
+              <td>Unknown</td>
+            </tr>
+-->
+            <tr>
+              <td><a href="https://github.com/AikidoGuy/twoutline">twoutline</a></td>
+              <td>
+                Taskwarrior to Outline
+                <br />
+                <small>Author: Aikido Guy</small>
+              </td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+<!--
+            <tr>
+              <td>"tw2latex":https://github.com/AikidoGuy/tw2latex</td>
+              <td>Taskwarrior to LaTeX python utility
+                <br />
+                <small>Author: Aikido Guy</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"trev":https://github.com/nocejo/trev</td>
+              <td>sort of a mini-shell focusing on taskwarrior reviewing
+                <br />
+                <small>Author: nocejo</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"taskquery":https://github.com/teranex/taskquery</td>
+              <td>A simple query interface for Taskwarrior
+                <br />
+                <small>Author: Jeroen Budts</td>
+              <td>MIT</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"ac-task-php":https://github.com/kostajh/ac-task-php</td>
+              <td>ActiveCollab and Taskwarrior integration
+                <br />
+                <small>Author: Kosta Harlan</td>
+              <td>GPLv2</td>
+              <td>2.2.0</td>
+            </tr>
+            <tr>
+              <td>"xtw":https://github.com/tmcw/xtw</td>
+              <td>micro interface for Taskwarrior for OS X users
+                <br />
+                <small>Author: Tom MacWright</td>
+              <td>own</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"taskiwi":https://github.com/fdev31/taskiwi</td>
+              <td>A web-interface for taskwarrior
+                <br />
+                <small>Author: fdev31</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"TaskWarriorWeb":https://github.com/jonsterling/TaskWarriorWeb</td>
+              <td>A Yesod-based local web interface to TaskWarrior
+                <br />
+                <small>Author: Jonathan Sterling</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td>"twmail":https://github.com/nerab/TaskWarriorMail</td>
+              <td>@tmail@ allows you to mail new tasks to your Taskwarrior inbox
+                <br />
+                <small>Author: Nicholas E. Rabenau</td>
+              <td>MIT License</td>
+              <td>2.1.0</td>
+            </tr>
+            <tr>
+              <td>"task-git.sh":https://github.com/kostajh/task-git</td>
+              <td>A wrapper around Taskwarrior that places the task database in version control, and generates commits each time the database is altered.
+                <br />
+                <small>Author: Kosta Harlan</td>
+              <td>GPLv3</td>
+              <td>2.2.0</td>
+            </tr>
+            <tr>
+              <td>"taskgv":https://github.com/shushcat/taskgv</td>
+              <td>Generates a pretty, directed graph of Taskwarrior projects, tags, and tasks.
+                <br />
+                <small>Author: John O Brickley</td>
+              <td>Unknown</td>
+              <td>2.0.0</td>
+            </tr>
+            <tr>
+              <td>"trello_to_task":https://github.com/jbarratt/trello_to_task</td>
+              <td>Tool to migrate from "Trello":http://trello.com to Taskwarrior
+                <br />
+                <small>Author: Joshua Barratt</td>
+              <td>Unknown</td>
+              <td>2.0.0</td>
+            </tr>
+            <tr>
+              <td>"taskpacifist":https://github.com/Liberationtech/taskpacifist</td>
+              <td>A vim script for running Taskwarrior.
+                <br />
+                <small>Author: Oivvio Polite</td>
+              <td>Unknown</td>
+              <td>2.0.0</td>
+            </tr>
+            <tr>
+              <td>"tchart":https://github.com/grovesteyn/tchart</td>
+              <td>Python reporting and front-end for Taskwarrior.
+                <br />
+                <small>Author: Grové Steyn</td>
+              <td>GPLv2</td>
+              <td>2.2.0</td>
+            </tr>
+            <tr>
+              <td>"taskattach":https://github.com/tzok/taskattach</td>
+              <td>Provides support for attachment management for Taskwarrior.
+                <br />
+                <small>Author: Tomasz Żok</td>
+              <td>Unknown</td>
+              <td>1.9.4</td>
+            </tr>
+            <tr>
+              <td>"taskjabb":https://github.com/qbit/taskjabb</td>
+              <td>Taskwarrior to jabber interface</td>
+              <td>Unknown</td>
+              <td>2.1.1</td>
+            </tr>
+            <tr>
+              <td>"Taskwarrior XMPP Bot":https://gist.github.com/wbsch/4109562</td>
+              <td>Taskwarrior XMPP (Jabber) Bot proof of concept written in Python
+                <br />
+                <small>Author: Wim Schürmann</td>
+              <td>Unknown</td>
+              <td>*</td>
+            </tr>
+            <tr>
+              <td>"kanban-warrior":https://github.com/keigezellig/kanbanwarrior</td>
+              <td>A python script supporting my kanban workflow for Task Warrior.
+                <br />
+ "More":http://keigezellig.blog.com/2013/03/07/kanban-warrior/
+                <br />
+                <small>Author: M. Joosten</small>
+              </td>
+              <td>THE APPRECIATION LICENSE" (Revision 0xFF)</td>
+              <td>2.1.2</td>
+            </tr>
+            <tr>
+              <td>"taskboy":https://github.com/pi3ch/taskboy</td>
+              <td>Create a new note in Tomboy with individual tasks in Taskwarrior.
+                <br />
+                <small>Author: Pedram Hayati</td>
+              <td>Unknown</td>
+              <td>1.9.4</td>
+            </tr>
+            <tr>
+              <td>"dashborg":https://github.com/lharding/dashborg</td>
+              <td>Curses-based Taskwarrior dashboard for your pocket computer.
+                <br />
+                <small>Author: Leander Harding</td>
+              <td>MIT</td>
+              <td>2.2.0</td>
+            </tr>
+            <tr>
+              <td>"tasktime":https://github.com/svenhertle/tasktime</td>
+              <td>Calculate and print spent time for a project from taskwarrior
+                <br />
+                <small>Author: Sven Hertle</td>
+              <td>own</td>
+              <td>2.1.2</td>
+            </tr>
+            <tr>
+              <td>"twdeps":https://github.com/nerab/twdeps</td>
+              <td>Vizualizes dependencies between Taskwarrior tasks
+                <br />
+                <small>Author: Nicholas E. Rabenau</td>
+              <td>MIT</td>
+              <td>2.1.2</td>
+            </tr>
+            <tr>
+              <td>"taskmailer":https://github.com/ajpierce/taskmailer</td>
+              <td>Email yourself status updates from Taskwarrior
+                <br />
+                <small>Author: Andrew J. Pierce</td>
+              <td>Unknown</td>
+              <td>1.9.4</td>
+            </tr>
+            <tr>
+              <td>"vimwiki-tasks":https://github.com/teranex/vimwiki-tasks</td>
+              <td>A Vim plugin to integrate Vimwiki tasks with taskwarrior. Sync tasks between vimwiki and taskwarrior in both directions.
+                <br />
+                <small>Author: Jeroen Budts</td>
+              <td>MIT</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>"taskweb":https://github.com/erichschroeter/taskweb</td>
+              <td>Simple PHP implementation to display tasks exported from Taskwarrior.
+                <br />
+                <small>Author: Erich Schroeter</td>
+              <td>Unknown</td>
+              <td>1.9.4</td>
+            </tr>
+            <tr>
+              <td>"Pester":https://github.com/TShadwell/Pester</td>
+              <td>PHP script that lets people pester you about not doing Taskwarrior tasks.
+                <br />
+                <small>Author: Thomas Shadwell</td>
+              <td>Unknown</td>
+              <td>1.9.4</td>
+            </tr>
+            <tr>
+              <td>"tasksync":https://github.com/burnison/tasksync</td>
+              <td>A tool for bidirectional synchronization of task repositories, like Taskwarrior and Google Tasks.
+                <br />
+                <small>Author: Richard Burnios</td>
+              <td>GPLv3</td>
+              <td>2.1.1</td>
+            </tr>
+            <tr>
+              <td>"tasknote":https://github.com/mikebobroski/tasknote</td>
+              <td>Associate a single text file with any task.
+                <br />
+                <small>Authors: Alan Bowen, Michael Bobroski, BJoern Doebel</td>
+              <td>Unknown</td>
+              <td>2.1.2</td>
+            </tr>
+            <tr>
+              <td>"TextPuller":https://github.com/Stantheman/TextPuller</td>
+              <td>Pulls in text from a text file online.
+                <br />
+http://taskwarrior.org/news/79
+                <br />
+                <small>Author: Stan Schwertly</td>
+              <td>Unknown</td>
+              <td>1.9.4</td>
+            </tr>
+            <tr>
+              <td>"Tasky":https://github.com/jonsterling/Tasky</td>
+              <td>A Taskwarrior client that doesn't suck very much.
+                <br />
+                <small>Author: Jonathan Sterling</td>
+              <td>Unknown</td>
+              <td>2.1.2</td>
+            </tr>
+-->
           </table>
         </div>
       </div>
 
       <div class="row">
+        <a name="forks"></a>
         <div class="col-md-2 main">
-          <h3></h3><!-- spacing -->
           <p class="text-large"><strong>Forks</strong></p>
         </div>
 
         <div class="col-md-8 main">
-          <h3></h3><!-- spacing -->
+          <table class="table table-striped">
+            <tr>
+              <th>Name</th>
+              <th>Description</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/svijee/taskwarrior-androidapp">taskwarrior-androidapp</a></td>
+              <td>
+                Taskwarrior for Android
+                <br />
+                <small>Author: Sujeevan Vijayakumaran</small>
+              </td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/georghopp/taskrambler">taskrambler</a></td>
+              <td>
+                Multi user task organization and management tool
+                <br />
+                <small>Author: Georg Hopp</small>
+              </td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
