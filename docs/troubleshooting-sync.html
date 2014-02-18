@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/community/">Community</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Troubleshooting Sync</h3>
+            <p>
+              This page is updated to reflect the latest information and help
+              available. If there is something you think should be discussed
+              here, please tell us.
+            </p>
+
+            <a name="tw"></a>
+            <h4>Taskwarrior</h4>
+            <p>
+              <ul>
+                <li>Are you using Taskwarrior 2.3.0 or later? If not, upgrade.</li>
+                <li>Did you build Taskwarrior from git? If so, have you updated recently, and are you on the correct branch?</li>
+                <li>Did you build Taskwarrior from source, and if so, which version of GnuTLS did you use?</li>
+                <li>Cert, key installed and readable?</li>
+                <li>Configuration properly points to cert/key?</li>
+                <li>taskd.credentials correct?</li>
+                <li>Are you using a self-signed cert? If so, did you specify taskd.ca or set taskd.trust=yes?</li>
+                <li>Have you upgraded from a very old version of Taskwarrior ending up having duplicate UUIDs?</li>
+                <li>Set debug.tls=2 in the configuration. You get great TLS diagnostics that way.</li>
+              </ul>
+            </p>
+
+            <a name="td"></a>
+            <h4>Taskserver</h4>
+            <p>
+              <ul>
+                <li>Are you using Taskserver version 1.0.0 or later? If not, upgrade.</li>
+                <li>Did you build Taskserver from git? If so, have you updated recently, and are you on the correct branch?</li>
+                <li>Did you build Taskserver from source, and if so, which version of GnuTLS did you use?</li>
+                <li>If you built from source, did the demo work?</li>
+                <li>Is the server running? Check with ps -leaf | grep taskd.</li>
+                <li>Are there helpful messages in the taskd.log file?</li>
+                <li>Is the client (taskwarrior) able to communicate through your firewall to the server (taskserver)? By default, port 53589 is used, and must be open on the server.</li>
+                <li>If you are unable to open firewall ports, you can use an SSH Tunnel to route port 53589 traffic over port 22.</li>
+                <li>Did you follow the instructions for setup exactly? This is the largest cause of misconfiguration.</li>
+                <li>Setting 'debug.tls=2' for both client and server generates diagnostic output that can help diagnose problems with TLS handshake, certs, keys, and ciphers. For Taskserver, with debug.cls=2, run the server interactively rather than as a daemon, to see the diagnostics.</li>
+                <li>Setting 'ciphers' (Taskserver) or 'taskd.ciphers' (Taskwarrior) can force the use of different ciphers. Use 'gnutls-cli --list' to see a list of installed ciphers, and confirm that there is overlap between client and server.</li>
+                <li>In the event of a self-signed cert being used, is the CA cert configured?</li>
+                <li>Alternatively, is 'taskd.trust=yes' set for Taskwarrior?</li>
+              </ul>
+            </p>
+
+            <a name="bug"></a>
+            <h4>Report Problems</h4>
+            <p>
+              Please report problems that you see. When reporting a problem,
+              please include:
+            </p>
+
+            <p>
+              <ul>
+                <li>Output from 'taskd diagnostics' command</li>
+                <li>Output from 'task diagnostics' command</li>
+                <li>The taskd.log contents</li>
+              </ul>
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a href="#tw">Taskwarrior</a></li>
+            <li><a href="#td">Taskserver</a></li>
+            <li><a href="#bug">Report Problems</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
