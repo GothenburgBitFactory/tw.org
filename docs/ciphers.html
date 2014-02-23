@@ -57,13 +57,17 @@
             <h3>Cipher Selection</h3>
             <p>
               By default, Taskserver uses the GnuTLS cipher set:
+            </p>
 
-              <pre>PERFORMANCE:%SERVER_PRECEDENCE</pre>
+            <pre>PERFORMANCE:%SERVER_PRECEDENCE</pre>
 
+            <p>
               Taskwarrior uses:
+            </p>
 
-              <pre>NORMAL</pre>
+            <pre>NORMAL</pre>
 
+            <p>
               You may wish to override these ciphers with a set that satisfies
               your security needs. A vigilant Taskserver administrator may wish
               to respond to news of various cipher weaknesses.
@@ -71,17 +75,21 @@
 
             <p>
               A more secure set would be to use only TLS 1.2 and these ciphers:
-
-              <pre>ECDHE-ECDSA-AES256-GCM-SHA384</pre>
-
-              If AES is compromised, perhaps use:
-
-              <pre>DHE-RSA-CAMELLIA256-SHA</pre>
-
-              If elliptical curves are compromised, perhaps use:
-
-              <pre>DHE-RSA-AES256-SHA</pre>
             </p>
+
+            <pre>ECDHE-ECDSA-AES256-GCM-SHA384</pre>
+
+            <p>
+              If AES is compromised, perhaps use:
+            </p>
+
+            <pre>DHE-RSA-CAMELLIA256-SHA</pre>
+
+            <p>
+              If elliptical curves are compromised, perhaps use:
+            </p>
+
+            <pre>DHE-RSA-AES256-SHA</pre>
 
             <a name="config"></a>
             <h4>Configuration</h4>

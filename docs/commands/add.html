@@ -47,81 +47,92 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-      </div>
-
       <div class="col-md-10">
         <div class="col-md-2">
         </div>
 
         <div class="col-md-10 main">
           <div class="row">
-            <a name="start"></a>
-            <h5>Getting Started with Taskwarrior</h5>
+            <a name="add"></a>
+            <h3>Add</h3>
+            <p>
+              The <code>add</code> command is the primary means of creating
+              tasks.  The simplest task requires only a description:
+            </p>
+
+            <pre>$ task add Fix the leaky plumbing</pre>
+
+            <p>
+              You can enter the description as above, just by including the
+              words as command line arguments.  You can also provide quoted
+              strings:
+            </p>
+
+            <pre>$ task add "Don't forget to shut off the main water valve first"</pre>
+
+            <p>
+              In this example the double-quotes hide the single unclosed quote
+              in "Don't".  It is a good idea to quote task descriptions to avoid
+              some problems with the shell, although not necessary.  The (outer)
+              quotes are not considered part of the description, in fact
+              Taskwarrior never sees them because the shell removes them first.
+              Dealing with shell issues is covered in detail in the
+              <a href="#">Escaping Shell Characters</a> page.
+            </p>
+
+            <a name="atts"></a>
+            <h4>Other Attributes</h4>
+            <p>
+              In addition to a description, other attributes may be provided in
+              the following manner:
+            </p>
+
+            <pre>$ task add Find the adjustable wrench project:Home priority:H</pre>
+
+            <p>
+              This example sets a project and a priority, to a new task.  Note
+              that the order of the words in the task description are preserved,
+              but there is no need to put the project and priority at the end
+              of the command - they may appear anywhere on the line.  Here are
+              two equivalent commands to illustrate this:
+            </p>
+
+            <pre>$ task add Find the project:Home adjustable priority:H wrench
+$ task add project:Home priority:H Find the adjustable wrench</pre>
+
+            <p>
+              In addition to project and priority, you may set the entry
+              timestamp, start timestamp, due date, tags, recurrence frequency,
+              until date, and status.  You cannot add annotations while
+              creating a task because it interferes with the task description.
+              You may specify anything else except the ID and UUID.  These are
+              created automatically.
+            </p>
+
+            <a name="limitations"></a>
+            <h4>Limitations</h4>
             <ul>
-              <li>30-second Tutorial</li>
-              <li>Complete Tutorials</li>
-              <li><a href="/docs/glossary.html">Glossary of Terms</a></li>
-            </ul>
-          </div>
-          <div class="row">
-            <a name="task"></a>
-            <h5>Using Taskwarrior</h5>
-            <ul>
-              <li><a href="/docs/best-practices.html">Best Practices</a></li>
-              <li>Features</li>
               <li>
-                Commands
-                <ul>
-                  <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                </ul>
+                Task descriptions may only contain one line of text.
+                Taskwarrior will wrap that text when it is displayed, but
+                there is no means of entering multi-line tasks.
               </li>
-              <li>Configuration</li>
-              <li>Cookbook</li>
-              <li><a href="/tools/">External Scripts</a></li>
+              <li>
+                There is no way to simultaneously add a task and annotate it.
+                Annotations must be applied to existing tasks.
+              </li>
             </ul>
-          </div>
-          <div class="row">
-            <a name="taskd"></a>
-            <h5>Taskserver</h5>
+
+            <a name="also"></a>
+            <h4>See Also</h4>
+            <p>
+              Other ways of creating tasks include:
+            </p>
+
             <ul>
-              <li>Setting up your own Taskserver</li>
-              <li>Operations Guide</li>
-              <li><a href="/docs/ciphers.html">Cipher Selection</a></li>
-              <li><a href="/docs/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-            </ul>
-          </div>
-          <div class="row">
-            <a name="l10n"></a>
-            <h5>Translators</h5>
-            <ul>
-              <li>Localizing Taskwarrior</li>
-              <li>The <code>l10n</code> Utility</li>
-            </ul>
-          </div>
-          <div class="row">
-            <a name="bug"></a>
-            <h5>Reporting a Bug</h5>
-            <ul>
-              <li>How to Report a Bug</li>
-            </ul>
-          </div>
-          <div class="row">
-            <a name="feature"></a>
-            <h5>Requesting a Feature</h5>
-            <ul>
-              <li>How to Request a Feature</li>
-            </ul>
-          </div>
-          <div class="row">
-            <a name="dev"></a>
-            <h5>Developers</h5>
-            <ul>
-              <li>Contributing</li>
-              <li>3rd Party Application Guidelines</li>
+              <li><a href="#"><code>log</code> command</a></li>
+              <li><a href="#"><code>duplicate</code> command</a></li>
+              <li><a href="#"><code>import</code> command</a></li>
             </ul>
           </div>
         </div>
@@ -130,13 +141,10 @@
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#bug">Bug Reporting</a></li>
-            <li><a class="alert-link" href="#feature">Feature Requesting</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
+            <li><a href="#add">Add</a></li>
+            <li><a href="#atts">Other Attributes</a></li>
+            <li><a href="#limitations">Limitations</a></li>
+            <li><a href="#also">See Also</a></li>
           </ul>
         </div>
       </div>
