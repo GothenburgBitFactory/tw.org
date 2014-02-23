@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="triage"></a>
+            <h3>Triage</h3>
+            <p>
+              This is the initial assessment of an issue. The purpose is to get
+              it moving in the right direction and make sure it gets noticed in
+              the right context, which means making sure that every issue has a
+              suitable category and version. New issues are reported all the
+              time, sometimes the submitter fills in fields, sometimes not.
+              That cannot be controlled. Everything else can.
+            </p>
+
+            <a name="initial"></a>
+            <h4>Initial Assessment</h4>
+            <p>
+              <ul>
+                <li>
+                  Move the issue to the correct project. Sometimes an issue is
+                  reported as a Taskserver bug, but it is a sync issue with
+                  Taskwarrior.
+                </li>
+                <li>
+                  Move the issue to the correct type, which means bug, feature
+                  or improvement. Sometimes it is not easy to distinguish, and
+                  some folks are clever about reporting a feature request in
+                  the form of a bug, assuming that bugs gets more attention
+                  than feature requests. We're not fooled by that.
+                </li>
+              </ul>
+            </p>
+
+            <a name="bugs"></a>
+            <h4>Bugs</h4>
+            <p>
+              <ul>
+                <li>
+                  All bugs should have the "Target version" set to the current
+                  development effort. This reflects the need to fix as many bugs
+                  in a release as practical because bugs are a priority.
+                </li>
+                <li>
+                  The "To" field should be blank. This indicates that no one is
+                  currently working on it.
+                </li>
+                <li>
+                  "Category" is usually set to "core" unless there is a more
+                  relevant category.
+                </li>
+                <li>
+                  "Priority" should be "Normal" unless the bug causes crashes,
+                  lack of functionality, or the worst possible: data corruption.
+                  Whatever the submitter sets priority to, reassess it, because
+                  it will not influence anything. Only the true nature of the
+                  bug influences priority.
+                </li>
+                <li>
+                  "Status" should stay as "New".
+                </li>
+                <li>
+                  "Due date", nope. We don't work that way.
+                </li>
+                <li>
+                  "Target version" has only two alternatives. Either it is a
+                  Taskwarrior bug in which case the version should be the
+                  current development effort ("2.4.0"), or it refers to an
+                  external script, and should be "extension".
+                </li>
+                <li>
+                  If the bug looks like a duplicate, try to find the other bug
+                  and link the two.  It is not necessary to reject the bug.
+                  Sometimes duplicate bug reports contain complementary
+                  information, which is useful.
+                </li>
+                <li>
+                  If the bug can be replicated, please do so, and add your
+                  finding to the issue.  More evidence is better, and often
+                  helps to narrow down the cause.
+                </li>
+                <li>
+                  If there is a clear workaround to the bug, add the information
+                  to the issue, so the submitter can continue to work. Helping
+                  the submitter work around the problem is important, because
+                  the eventual fix will take time, perhaps months.  Always try
+                  to educate the user and don't forget that these issues are
+                  permanent and therefore searchable and useful to everyone.
+                </li>
+                <li>
+                  If a bug looks like a really big problem, tell people, make a
+                  noise.
+                </li>
+              </ul>
+            </p>
+
+            <a name="features"></a>
+            <h4>Features</h4>
+            <p>
+              Same as "Bugs" above , but with these differences:
+
+              <ul>
+                <li>
+                  "Target version" should always be "BACKLOG". This is a
+                  non-specific future release. Features should be cherry-picked
+                  out of the "BACKLOG" version and moved to the current
+                  development version. They should not default to the current
+                  development version, where we have to defer them constantly.
+                  It gives the wrong impression to have a giant list of
+                  features under the current development effort - it makes
+                  people think the next release is going to be huge, which is
+                  rarely the case.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#triage">Triage</a></li>
+            <li><a class="alert-link" href="#initial">Initial Assessment</a></li>
+            <li><a class="alert-link" href="#bugs">Bugs</a></li>
+            <li><a class="alert-link" href="#features">Features</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
