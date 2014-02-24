@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="3p"></a>
+            <h3>3rd-Party Application Guidelines</h3>
+            <p>
+              Taskwarrior can be extended by means of a third-party application.
+              There are script examples of import and export add-ons that
+              support many different formats (clone the repository, look in
+              <code>task.git/scripts/add-ons</code>).  Then there are more
+              sophisticated applications such as
+              <a href="http://tasktools.org/projects/vit.html">Vit</a>
+              that provide a complete replacement UI.
+            </p>
+
+            <p>
+              All of these provide interesting new features and improve ease of
+              use for different kinds of users.  We encourage you to create
+              such add-ons, but in doing so, there are some rules that must be
+              followed, which will not only protect the users data from
+              mistreatment, but also your application from being sensitive to
+              changes in Taskwarrior.
+            </p>
+
+            <a name="rules"></a>
+            <h4>Rules</h4>
+            <p>
+              <ul>
+                <li>
+                  Produce, consume and handle UTF8 text properly.  UTF8 is the
+                  only text encoding supported by Taskwarrior.
+                </li>
+                <li>
+                  Don't attempt to parse the pending.data file.  Here's why:
+                  the <code>.data</code> file format is currently on its fourth
+                  version. The very first version was never released, so if you
+                  want to read Taskwarrior data properly, you will need to parse
+                  the three supported formats. Those formats are not documented.
+                  Additionally, you will need to handle the GC operations,
+                  implement the task "unwait" feature, observe user defined
+                  attribute handling restrictions, and implement recurring task
+                  synthesis all of which require .taskrc and default value
+                  access. You would essentially be rewriting the data access
+                  and configuration portion of Taskwarrior, which is a major
+                  undertaking. To support filters you would also need to
+                  evaluate the supported clauses, provide DOM access and
+                  implement aliases.  Then there is also the fifth data format,
+                  which is planned...
+                </li>
+                <li>
+                  Use the <code>export</code> command to query data from
+                  Taskwarrior.  The <code>export</code> command implements
+                  filters which you can use, or you can omit a filter, get all
+                  the data, and implement your own filtering.  JSON parsing is
+                  very well supported in all relevant programming languages,
+                  which means you should be using Taskwarrior itself to query
+                  the data, with a commodity JSON parser in conjunction.  While
+                  the JSON format will be tweaked over time, the general form
+                  will not.
+                </li>
+                <li>
+                  Use the command line interface to put data into Taskwarrior.
+                  Composing a valid command line is a simple way to put data in
+                  to Taskwarrior, and the <em>ONLY</em> way to modify data in
+                  Taskwarrior.
+                </li>
+                <li>
+                  Verify feature support by running <code>task --version</code>.
+                  This command returns the version number, which will help you
+                  determine whether or not a particular feature is supported.
+                  Note that this command does not scan for a configuration file,
+                  and is therefore safe to run if Taskwarrior is not yet set up.
+                </li>
+                <li>
+                  UDAs (User Defined Attributes) must be preserved in the data.
+                  When reading the JSON for a task, there may be attributes that
+                  you have never encountered before.  If this is the case, you
+                  must not modify them in any way.  This not only makes your
+                  application future-proof, but allows it to tolerate UDAs from
+                  other data sources.  It also prevents the Taskserver from
+                  stripping out <em>your</em> data.
+                </li>
+              </ul>
+            </p>
+
+            <a name="guidelines"></a>
+            <h4>Guidelines</h4>
+            <p>
+              <ul>
+                <li>
+                  If you need to store additional data, consider putting your
+                  own data file in the <code>~/.task</code> directory.  Just
+                  don't use the file names <code>pending.data</code>,
+                  <code>completed.data</code>, <code>backlog.data</code>,
+                  <code>undo.data</code> or <code>synch.key</code>.
+                </li>
+                <li>
+                  There are many helper commands designed to assist add-on
+                  scripts such as shell completion scripts.  These commands all
+                  begin with an underscore, see them with this command:
+                  <code>task help | grep ' _'</code>.
+                </li>
+                <li>
+                  Familiarize yourself with the means of forcing color on or
+                  off, disabling word wrapping, disabling bulk operation
+                  limitations, disabling confirmation, disabling gc, modifying
+                  verbosity and so on.  There are ways around almost all the
+                  restrictions, and while these don't make sense for regular
+                  users, they can be critical for add-on authors.
+                </li>
+              </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#3p">3rd Party</a></li>
+            <li><a class="alert-link" href="#rules">Rules</a></li>
+            <li><a class="alert-link" href="#guidelines">Guidelines</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
