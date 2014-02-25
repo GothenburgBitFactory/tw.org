@@ -53,88 +53,81 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <a name="intro"></a>
-            <h3>Introduction</h3>
+            <a name="30sec"></a>
+            <h3>30-Second Tutorial</h3>
             <p>
-              Hello, and welcome to Taskwarrior. This is the first of many
-              tutorials, and covers first-time use.
+              Let's get started. Here is a quick lesson showing how to perform
+              basic task management. First add two tasks.
             </p>
 
-            <a name="first"></a>
-            <h4>First Time Use</h4>
+            <pre>$ task add Read Taskwarrior documents later
+Created task 1.
+
+$ task add priority:H Pay bills
+Created task 2.</pre>
+
             <p>
-              As a first-time user, you are going to need a configuration file and a data directory. Taskwarrior will create both of these for you, in your home directory, the first time you run taskwarrior. Here is an example:
+              Easy. Do you see that second one has a High priority? Now look at
+              those tasks, using the report `next`. Notice that the two tasks
+              are ordered by urgency, and the urgency is affected by the
+              priority, among other things.
             </p>
 
-            <pre>$ task version
-A configuration file could not be found in ~
+            <pre>$ task next
 
-Would you like a sample /home/alice/.taskrc created, so taskwarrior can
-proceed? (yes/no) yes
-
-task 2.3.0 built for linux
-Copyright (C) 2006 - 2014 P. Beckingham, F. Hernandez.
-
-Taskwarrior may be copied only under the terms of the MIT license, which may
-be found in the taskwarrior source kit.
-
-Documentation for taskwarrior can be found using 'man task', 'man taskrc',
-'man task-tutorial', 'man task-color', 'man task-sync', 'man task-faq' or
-at http://taskwarrior.org</pre>
+ID Age P Description                      Urg
+-- --- - -------------------------------- ----
+ 2 10s H Pay bills                           6
+ 1 20s   Read Taskwarrior documents later    0</pre>
 
             <p>
-              Answer `yes` to the question. After creating the missing file and
-              directory, you'll see the current version displayed. The
-              configuration file that was just created contains very little.
+              Suppose the bills are paid and we wish to mark task 2 as
+              completed.
             </p>
 
-            <pre>$ cat ~/.taskrc
-# [Created by task 2.4.0.dev 2/7/2014 09:09:09]
-# Taskwarrior program configuration file.
-# For more documentation, see http://taskwarrior.org or try 'man task',
-# 'man task-faq', 'man task-tutorial', 'man task-color', 'man task-sync' or
-# 'man taskrc'
-
-# Here is an example of entries that use the default, override and blank values
-#   variable=foo   -- By specifying a value, this overrides the default
-#   variable=      -- By specifying no value, this means no default
-#   #variable=foo  -- By commenting out the line, or deleting it, this uses the default
-
-# Use the command 'task show' to see all defaults and overrides
-
-# Files
-data.location=~/.task
-
-# Color theme (uncomment one to use)
-#include /usr/local/share/doc/task/rc/light-16.theme
-#include /usr/local/share/doc/task/rc/light-256.theme
-#include /usr/local/share/doc/task/rc/dark-16.theme
-#include /usr/local/share/doc/task/rc/dark-256.theme
-#include /usr/local/share/doc/task/rc/dark-red-256.theme
-#include /usr/local/share/doc/task/rc/dark-green-256.theme
-#include /usr/local/share/doc/task/rc/dark-blue-256.theme
-#include /usr/local/share/doc/task/rc/dark-violets-256.theme
-#include /usr/local/share/doc/task/rc/dark-yellow-green.theme
-#include /usr/local/share/doc/task/rc/dark-gray-256.theme</pre>
+            <pre>$ task 2 done
+Completed task 2 'Pay bills'.
+Completed 1 task.</pre>
 
             <p>
-              There is only one entry in this file for
-              <code>data.location</code>. This is because Taskwarrior has a
-              built-in set of sensible defaults, and this configuration file
-              only contains overrides to those defaults.
+              Now we can omit the `next` command, because it is the default
+              command.
+            </p>
+
+            <pre>$ task
+
+ID Age Description                      Urg
+-- --- -------------------------------- ----
+ 1 5m  Read Taskwarrior documents later    0</pre>
+
+            <p>
+              Task 2 is now gone. Notice that no visible tasks have a priority
+              set, and so the priority column is not shown. Now we can delete
+              that remaining task, because we are already using the tutorial.
+            </p>
+
+            <pre>$ task 1 delete
+Permanently delete task 1 'Read Taskwarrior documents later'? (yes/no) y
+Deleting task 1 'Read Taskwarrior documents later'.
+Deleted 1 task.
+
+$ task
+No matches.</pre>
+
+            <p>
+              That is all you <em>need</em> to know. These four commands (add,
+              done, delete, next) will allow you to use Taskwarrior effectively.
+              If you are new to Taskwarrior, it is recommended that you stop
+              here, go and start to manage your task list for a while. We don't
+              want you to be overwhelmed at a time when you just need a way to
+              organize and get things done.
             </p>
 
             <p>
-              That configuration variable named <code>data.location</code>
-              points to your task data directory, which is currently empty:
-            </p>
-
-            <pre>$ ls ~/.task
-$</pre>
-
-            <p>
-              This is because there are no tasks yet. Typically you won't need
-              to look in that directory.
+              When you are comfortable with basic taskwarrior usage, there are
+              many other features you can learn about. While you are not
+              expected to learn all of them, or even find them useful, you
+              might just find exactly what you need.
             </p>
           </div>
         </div>
@@ -143,8 +136,7 @@ $</pre>
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#intro">Introduction</a></li>
-            <li><a class="alert-link" href="#first">First Time Use</a></li>
+            <li><a class="alert-link" href="#30sec">30-Second Tutorial</a></li>
           </ul>
         </div>
       </div>
