@@ -56,50 +56,70 @@
 
       <div class="col-md-10 main">
         <dl class="dl-horizontal">
+          <dt><a name="active"></a>active</dt>
+          <dd>
+            <p>
+              When a task is started, like this:
+            </p>
+
+            <pre>$ task 1 start</pre>
+
+            <p>
+              It gains a <code>start</code> attribute, which is a date.
+              When started, a task is considered <em>active</em>, until
+              completed, deleted or stopped.
+            </p>
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="alias"></a>alias</dt>
           <dd>
-            An alias is name that can be used on the command line, which is
-            replaced by its definition at run time. For example, you can use
-            an alias to create a synonym for a command, like this:
+            <p>
+              An alias is name that can be used on the command line, which is
+              replaced by its definition at run time. For example, you can use
+              an alias to create a synonym for a command, like this:
+            </p>
 
             <pre>$ task config alias.rm delete</pre>
 
-            Then whenever the <code>rm</code> alias is encountered, it is
-            replaced by <code>delete</code>, making these two commands
-            equivalent:
+            <p>
+              Then whenever the <code>rm</code> alias is encountered, it is
+              replaced by <code>delete</code>, making these two commands
+              equivalent:
+            </p>
 
             <pre>$ task 1 delete
 $ task 2 rm</pre>
 
-            An alias can appear elsewhere on the command line, and is not
-            limited to command synonyms.
+            <p>
+              An alias can appear elsewhere on the command line, and is not
+              limited to command synonyms.
+            </p>
+            <h4>&nbsp;</h4>
+          </dd>
+
+          <dt><a name="annotation"></a>annotation</dt>
+          <dd>
+            ...
             <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="attribute"></a>attribute</dt>
           <dd>
-            A task is comprised of a set of attrbitutes, which are simply
-            name/value pairs.  As an example, <code>project</code> is an
-            attribute, the name being <code>project</code>, and the value being
-            what you assign to that project.
+            <p>
+              A task is comprised of a set of attrbitutes, which are simply
+              name/value pairs.  As an example, <code>project</code> is an
+              attribute, the name being <code>project</code>, and the value being
+              what you assign to that project.
+            </p>
 
             <pre>$ task add project:Home Rake the leaves</pre>
 
-            Here you see the <code>project</code> attribute being directly set
-            to <code>Home</code>, and the <code>description</code> attribute
-            indirectly set to <code>Rake the leaves</code>.
-            <h4>&nbsp;</h4>
-          </dd>
-
-          <dt><a name="active"></a>active</dt>
-          <dd>
-            When a task is started, like this:
-
-            <pre>$ task 1 start</pre>
-
-            It gains a <code>start</code> attribute, which is a date.
-            When started, a task is considered <em>active</em>, until
-            completed, deleted or stopped.
+            <p>
+              Here you see the <code>project</code> attribute being directly set
+              to <code>Home</code>, and the <code>description</code> attribute
+              indirectly set to <code>Rake the leaves</code>.
+            </p>
             <h4>&nbsp;</h4>
           </dd>
 
@@ -111,7 +131,23 @@ $ task 2 rm</pre>
 
           <dt><a name="command"></a>command</dt>
           <dd>
-            ...
+            <p>
+              A Taskwarrior command can be a read-only command, wherein data is
+              not modified:
+            </p>
+
+            <pre>list, info, calendar ...</pre>
+
+            <p>
+              Or it can be a write command, where data is modified:
+            </p>
+
+            <pre>add, modify, done, delete ...</pre>
+
+            <p>
+              The distinction is important because it dictates how the command
+              line arguments are interpreted.
+            </p>
             <h4>&nbsp;</h4>
           </dd>
 
@@ -129,7 +165,17 @@ $ task 2 rm</pre>
 
           <dt><a name="daemon"></a>daemon</dt>
           <dd>
-            ...
+            <p>
+              A daemon is the name given to a process that runs without
+              interaction as a background process. Various server products are
+              run as daemons, and are automatically launched on startup.
+              Typically daemons are named ending with 'd'.
+            </p>
+
+            <p>
+              Taskserver (taskd) can be run as a daemon, using the
+              <code>--daemon</code> command line argument.
+            </p>
             <h4>&nbsp;</h4>
           </dd>
 
@@ -151,6 +197,12 @@ $ task 2 rm</pre>
             <h4>&nbsp;</h4>
           </dd>
 
+          <dt><a name="dependency"></a>dependency</dt>
+          <dd>
+            ...
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="due"></a>due</dt>
           <dd>
             ...
@@ -166,6 +218,27 @@ $ task 2 rm</pre>
           <dt><a name="export"></a>export</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
+          </dd>
+
+          <dt><a name="expression"></a>expression</dt>
+          <dd>
+            <p>
+              <span class="label label-success">2.4.0 Feature</span>
+              An algebraic expression is a mathematical expression comprised of
+              constants, operators and symbols.  Here are some examples of
+              expressions in the context of a Taskwarrior command line:
+            </p>
+
+            <pre>1
+1 + 2
+1 2 +
+123.due + 4 weeks
+pi * r^2</pre>
+
+            <p>
+              Expressions of this kind can appear in filters or modifications.
+            </p>
             <h4>&nbsp;</h4>
           </dd>
 
@@ -207,7 +280,17 @@ $ task 2 rm</pre>
 
           <dt><a name="infix"></a>Infix</dt>
           <dd>
-            ...
+            <p>
+              Infix is a mathematical notation for expressions where the operator
+              appears between its operands.  This example:
+            </p>
+
+            <pre>1 + 2</pre>
+
+            <p>
+              Represents the sum of two digits, with the <code>+</code> operator
+              in the infix position, between the numbers.
+            </p>
             <h4>&nbsp;</h4>
           </dd>
 
@@ -267,7 +350,23 @@ $ task 2 rm</pre>
 
           <dt><a name="rpn"></a>RPN</dt>
           <dd>
-            ...
+            <p>
+              <strong>R</strong>everse <strong>P</strong>olish
+              <strong>N</strong>otation, or postfix notation is a mathematical
+              notation. This example:
+            </p>
+
+            <pre>1 2 +</pre>
+
+            <p>
+              Represents the sum of two digits, with the <code>+</code> operator
+              in the postfix position, last.
+            </p>
+
+            <p>
+              Writing software to evaluate postfix expressions is significantly
+              easier than for infix notation, which is easier for humans to read.
+            </p>
             <h4>&nbsp;</h4>
           </dd>
 
@@ -319,13 +418,77 @@ $ task 2 rm</pre>
             <h4>&nbsp;</h4>
           </dd>
 
+          <dt><a name="until"></a>until</dt>
+          <dd>
+            ...
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="urgency"></a>urgency</dt>
           <dd>
             ...
             <h4>&nbsp;</h4>
           </dd>
 
+          <dt><a name="uuid"></a>UUID</dt>
+          <dd>
+            <p>
+              A <strong>U</strong>niversally <strong>U</strong>nique
+              <strong>ID</strong>entifier is a 128-bit number used to
+              uniquely identify a task.  Whereas the ID of a task is
+              simply a line number in the <code>pending.data</code> file, the
+              UUID is permanent.
+            </p>
+
+            <p>
+              You can use ID and UUID interchangeably, although the
+              ID is much more convenient.
+            </p>
+            <pre>$ task _get 1.uuid
+8ad2e3db-914d-4832-b0e6-72fa04f6e331
+$ task _get 8ad2e3db-914d-4832-b0e6-72fa04f6e331.id
+1</pre>
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="vtag"></a>virtual tag</dt>
+          <dd>
+            <p>
+              The tag notation for filters is convenient and simple, for
+              example:
+            </p>
+
+            <pre>$ task +HOME list
+...
+$ task -HOME list</pre>
+
+            <p>
+              The first lists only tasks that have the <code>HOME</code> tag,
+              and the second lists only tasks that do not have the
+              <code>HOME</code> tag.
+            </p>
+
+            <p>
+              A virtual tag is a means of performing simple filtering, using
+              tags that are synthesized at run time, and represent the complex
+              internal state of a task.  For example the virtual tag
+              <code>ACTIVE</code> is an easy way to filter tasks that have
+              been started, so that this command:
+            </p>
+
+            <pre>$ task +ACTIVE list</pre>
+
+            <p>
+              Is a more friendly and simple way to represent this equivalent
+              command:
+            </p>
+
+            <pre>$ task start.any: list</pre>
+
+            <h4>&nbsp;</h4>
+          </dd>
+
+          <dt><a name="waiting"></a>waiting</dt>
           <dd>
             ...
             <h4>&nbsp;</h4>
@@ -337,9 +500,10 @@ $ task 2 rm</pre>
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#alias">alias</a></li>
-            <li><a class="alert-link" href="#attribute">attribute</a></li>
             <li><a class="alert-link" href="#active">active</a></li>
+            <li><a class="alert-link" href="#alias">alias</a></li>
+            <li><a class="alert-link" href="#annotation">annotation</a></li>
+            <li><a class="alert-link" href="#attribute">attribute</a></li>
             <li><a class="alert-link" href="#certificate">certificate</a></li>
             <li><a class="alert-link" href="#command">command</a></li>
             <li><a class="alert-link" href="#completed">completed</a></li>
@@ -348,9 +512,11 @@ $ task 2 rm</pre>
             <li><a class="alert-link" href="#dateformat">dateformat</a></li>
             <li><a class="alert-link" href="#default_command">default command</a></li>
             <li><a class="alert-link" href="#deleted">deleted</a></li>
+            <li><a class="alert-link" href="#dependency">dependency</a></li>
             <li><a class="alert-link" href="#due">due</a></li>
             <li><a class="alert-link" href="#en_passant">en-passant</a></li>
             <li><a class="alert-link" href="#export">export</a></li>
+            <li><a class="alert-link" href="#expression">expression</a></li>
             <li><a class="alert-link" href="#extension">extension</a></li>
             <li><a class="alert-link" href="#filter">filter</a></li>
             <li><a class="alert-link" href="#gc">gc</a></li>
@@ -376,8 +542,11 @@ $ task 2 rm</pre>
             <li><a class="alert-link" href="#tag">tag</a></li>
             <li><a class="alert-link" href="#theme">theme</a></li>
             <li><a class="alert-link" href="#uda">UDA</a></li>
+            <li><a class="alert-link" href="#until">until</a></li>
             <li><a class="alert-link" href="#urgency">urgency</a></li>
+            <li><a class="alert-link" href="#uuid">UUID</a></li>
             <li><a class="alert-link" href="#vtag">virtual tag</a></li>
+            <li><a class="alert-link" href="#waiting">waiting</a></li>
           </ul>
         </div>
       </div>
