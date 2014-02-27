@@ -58,7 +58,22 @@
         <dl class="dl-horizontal">
           <dt><a name="alias"></a>alias</dt>
           <dd>
-            ...
+            An alias is name that can be used on the command line, which is
+            replaced by its definition at run time. For example, you can use
+            an alias to create a synonym for a command, like this:
+
+            <pre>$ task config alias.rm delete</pre>
+
+            Then whenever the <code>rm</code> alias is encountered, it is
+            replaced by <code>delete</code>, making these two commands
+            equivalent:
+
+            <pre>$ task 1 delete
+$ task 2 rm</pre>
+
+            An alias can appear elsewhere on the command line, and is not
+            limited to command synonyms.
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="attribute"></a>attribute</dt>
@@ -68,206 +83,252 @@
             attribute, the name being <code>project</code>, and the value being
             what you assign to that project.
 
-            <pre>task add project:Home Rake the leaves</pre>
+            <pre>$ task add project:Home Rake the leaves</pre>
 
             Here you see the <code>project</code> attribute being directly set
             to <code>Home</code>, and the <code>description</code> attribute
             indirectly set to <code>Rake the leaves</code>.
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="active"></a>active</dt>
           <dd>
-            ...
+            When a task is started, like this:
+
+            <pre>$ task 1 start</pre>
+
+            It gains a <code>start</code> attribute, which is a date.
+            When started, a task is considered <em>active</em>, until
+            completed, deleted or stopped.
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="certificate"></a>certificate</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="command"></a>command</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="completed"></a>completed</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="custom_report"></a>custom report</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="daemon"></a>daemon</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="dateformat"></a>dateformat</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="default_command"></a>default command</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="deleted"></a>deleted</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="due"></a>due</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="en_passant"></a>en-passant</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="export"></a>export</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="extension"></a>extension</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="filter"></a>filter</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="gc"></a>gc</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="holiday_file"></a>holiday file</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="hooks"></a>hooks</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="import"></a>import</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="infix"></a>Infix</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="iso"></a>ISO-8601</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="json"></a>JSON</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="key"></a>key</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="override"></a>override</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="pending"></a>pending</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="rc"></a>rc</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="ready"></a>ready</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="regex"></a>regex</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="report"></a>Report</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="rpn"></a>RPN</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="scheduled"></a>scheduled</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="shadow_file"></a>shadow file</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="stag"></a>special tag</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="substitution"></a>substitution</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="sync"></a>sync</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="tag"></a>tag</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="theme"></a>theme</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="uda"></a>UDA</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="urgency"></a>urgency</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="vtag"></a>virtual tag</dt>
           <dd>
             ...
+            <h4>&nbsp;</h4>
           </dd>
 
         </dl>
