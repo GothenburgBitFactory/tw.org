@@ -17,6 +17,19 @@ body {
   background-color: #222;
 }
 
+/* Callout
+-------------------------------------------------- */
+.callout{margin:20px 0;padding:20px;border-left:3px solid #eee}
+.callout h4{margin-top:0;margin-bottom:5px}
+.callout p:last-child{margin-bottom:0}
+.callout code{background-color:#fff;border-radius:3px}
+.callout-danger{background-color:#fdf7f7;border-color:#d9534f}
+.callout-danger h4{color:#d9534f}
+.callout-warning{background-color:#fcf8f2;border-color:#f0ad4e}
+.callout-warning h4{color:#f0ad4e}
+.callout-info{background-color:#f4f8fa;border-color:#5bc0de}
+.callout-info h4{color:#5bc0de}
+.callout h4{margin-top:0;margin-bottom:5px}
 
 /* Custom page CSS
 -------------------------------------------------- */
