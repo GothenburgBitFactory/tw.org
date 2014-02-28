@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="request"></a>
+            <h3>How to Request a Feature</h3>
+            <p>
+              We encourage you to request features.
+            </p>
+            <p>
+              You can submit a feature request using our
+              <a href="https://bug.tasktools.org">issue tracking system</a>.
+              Simply create an account, create an issue, and set the type to
+              either 'improvement' or 'feature', at your discretion.
+              But there is a little more to it than that.  After all, you would
+              like to see your request implemented.
+            </p>
+
+            <a name="good"></a>
+            <h4>What Makes a Good Feature Request?</h4>
+            <p>
+              Requesting a feature is easy, but you must remember that doesn't
+              mean it will get done. It may be a simple or vague request. It may
+              be a complex request that needs some analysis, and we will want to
+              discuss it first. Sometimes we even go so far as to write up an
+              RFC before doing any work.  Here are some tips for making a good
+              feature request:
+
+              <ul>
+                <li>
+                  Describe a compelling feature. What we find most convincing
+                  is a statement that illustrates what having the new feature
+                  would mean, or would enable. What new things could you do if
+                  you had this feature. How would you be more effective at
+                  managing tasks with this feature?
+                </li>
+                <li>
+                  Describe how the feature might interact with existing
+                  features. We prefer it when a new feature is more than simply
+                  storing a new piece of data, for later retrieval.
+                </li>
+                <li>
+                  Describe any new reports that may be needed.
+                </li>
+                <li>
+                  Describe who might benefit from this feature.
+                </li>
+                <li>
+                  Describe a feature that doesn't impose a cost on users that
+                  choose not to use it. We want the basic usage (add, list,
+                  done) to remain simple and effective.
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              One thing to bear in mind is that we have a long term goal of
+              simplifying the way we manage tasks.  Please don't bother
+              suggesting new syntax, that's our problem.  Instead, focus on a
+              convincing use-case.  Don't assume that because a feature is easy
+              to implement, that it's a good idea.
+            </p>
+
+            <a name="avoid"></a>
+            <h4>Things to Avoid</h4>
+            <p>
+              <ul>
+                <li>
+                  If your suggestion affects basic usage (add, list, done) then
+                  don't be surprised if we don't want it.
+                </li>
+                <li>
+                  Don't bother inventing syntax, or coming up with an unused
+                  character on your keyboard. We would much rather you put your
+                  effort into thinking about the feature and the benefits.
+                  Syntax is our problem. Focus on making others wonder how they
+                  could possibly live without the feature.
+                </li>
+                <li>
+                  Don't bother suggesting features that lead Taskwarrior away
+                  from its intended purpose - managing tasks.
+                </li>
+                <li>
+                  Don't tell us how easy something would be, or how quickly you
+                  could add it. Ease of implementation has nothing to do with
+                  whether an idea is good. Instead, convince everyone that the
+                  idea is great.
+                </li>
+              </ul>
+            </p>
+
+            <div class="row">
+              <a name="examples"></a>
+              <div class="callout callout-info">
+                <h4>A Good Example</h4>
+                <p>
+                  I think dependencies would be a great feature, because it
+                  would help me organize tasks and know which ones I need to
+                  work on first. It would also tell me which ones I cannot work
+                  on now. Tasks that are depended upon could affect the 'next'
+                  report, because those tasks need to be done first. Ideally a
+                  task could depend on multiple other tasks. I would need to
+                  both add and remove a dependency. Dependencies are a commonly
+                  understood concept, and so would be useful to many users.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="callout callout-info">
+                <h4>Another Good Example</h4>
+                <p>
+                  I should be allowed to use 'status' field in a report. It doesn't
+                  make sense to withhold just this one field. For the sake of
+                  consistency, please add this as a reportable, sortable field.
+                </p>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="callout callout-info">
+                <h4>A Bad Example</h4>
+                <p>
+                   Why can't we just make the @ character mean .....?  How hard
+                   can that be?
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#request">How to Request a Feature</a></li>
+            <li><a class="alert-link" href="#good">What Makes a Good Feature Request?</a></li>
+            <li><a class="alert-link" href="#avoid">Things to Avoid</a></li>
+            <li><a class="alert-link" href="#examples">Examples</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
