@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="history"></a>
+            <h3>Release History</h3>
+            <p>
+              This is a summary of the Taskwarrior
+              <a href="https://git.tasktools.org/projects/TM/repos/task/browse/ChangeLog">ChangeLog</a>
+              file.
+            </p>
+
+            <table class="table table-striped">
+              <tr>
+                <th>Release&nbsp;Date</th>
+                <th>Description</th>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  2.4.0 Will feature a new command line parser, support for
+                  expressions on the command line (due:eom+2d) and more.
+                </td>
+              </tr>
+              <tr>
+                <td>2014-01-15</td>
+                <td>
+                  2.3.0 contains Task Server support, more virtual tags, the
+                  "_get" DOM accessor, new tasksh binary, unicode \uNNNN support
+                  in .taskrc, it-IT localization, libuuid requirement,
+                  'remaining' format for all date columns.
+                </td>
+              </tr>
+              <tr>
+                <td>2013-04-07</td>
+                <td>
+                  2.2.0 contains blocking report, _show, _aliases helper
+                  commands, virtual tags, 'modified' attribute, empty column
+                  skipping.
+                </td>
+              </tr>
+              <tr>
+                <td>2012-09-18</td>
+                <td>
+                  2.1.2 contains bugs fixes for 'merge' command and shadow
+                  files.  First release making use of
+                  <a href="http://flod.us">Flod</a>
+                  testing.
+                </td>
+              </tr>
+              <tr>
+                <td>2012-07-24</td>
+                <td>2.1.1 contains JSON syntax fixes.</td>
+              </tr>
+              <tr>
+                <td>2012-07-23</td>
+                <td>2.1.0 contains UDA support, performance improvements.</td>
+              </tr>
+              <tr>
+                <td>2012-03-17</td>
+                <td>
+                  2.0.0 before
+                  <a href="http://www.ubucon.de/">Ubucon</a>,
+                  advanced filters, stdin support, improved sorting, new table
+                  rendering, 'inverse' color support, multiple column formats,
+                  script to update holiday data, html export, new verbose
+                  controls, 'execute' command, enhanced aliases, 'ids' command,
+                  'reports' command ...
+                </td>
+              </tr>
+              <tr>
+                <td>2011-03-03</td>
+                <td>
+                  1.9.4 released, taskwarrior.org relocated to tasktools.org
+                  server, burndown charts, change log in 'info' command, JSON
+                  export, XML export, ncurses eliminated, xterm title, 'count'
+                  command
+                </td>
+              </tr>
+              <tr>
+                <td>2010-11-08</td>
+                <td>
+                  1.9.3 released, start/stop annotations, YAML import/export,
+                  dependencies, synch using push/pull/merge, special tags,
+                  color rule precedence
+                </td>
+              </tr>
+              <tr>
+                <td>2010-07-10</td>
+                <td>
+                  1.9.2 released with color themes, 'denotate' command,
+                  limit:page support, 'show' command, annual history reports,
+                  'log'.
+                </td>
+              </tr>
+              <tr>
+                <td>2010-05-22</td>
+                <td>
+                  1.9.1 released with easter date calculations and bug fixes.
+                </td>
+              </tr>
+              <tr>
+                <td>2010-02-22</td>
+                <td>
+                  1.9.0 released with 256 color support, alternate line
+                  coloring, vim syntax highlighting, 'prepend' command,
+                  'config' command, time support, verbosity, config includes.
+                </td>
+              </tr>
+              <tr>
+                <td>2009-12-05</td>
+                <td>
+                  1.8.5 released with confirmation, error cleanup and bug
+                  fixes.</td>
+              </tr>
+              <tr>
+                <td>2009-11-17</td>
+                <td>1.8.4 released with bug fixes.</td>
+              </tr>
+              <tr>
+                <td>2009-10-21</td>
+                <td>1.8.3 released, with Haiku support</td>
+              </tr>
+              <tr>
+                <td>2009-09-07</td>
+                <td>1.8.2 released with bug fixes.</td>
+              </tr>
+              <tr>
+                <td>2009-08-20</td>
+                <td>1.8.1 released with bug fixes.</td>
+              </tr>
+              <tr>
+                <td>2009-07-21</td>
+                <td>
+                  1.8.0 released with attribute modifiers, many components
+                  rewritten, '--' support, rc overrides, 'shell' command, 'undo'
+                  command, waiting, aliases, test suite.
+                  Hosting shifted to tasktools.org for git and tinderbox.
+                </td>
+              </tr>
+              <tr>
+                <td>2009-06-08</td>
+                <td>
+                  1.7.1 released with taskwarrior.org references, redmine.
+                  Taskwarrior name conceived by David J Patrick
+                </td>
+              </tr>
+              <tr>
+                <td>2009-05-14</td>
+                <td>
+                  1.7.0 released with duplicate, en-passant, timesheet, edit,
+                  completion scripts.
+                </td>
+              </tr>
+              <tr>
+                <td>2009-04-24</td>
+                <td>1.6.1 released with bug fixes.</td>
+              </tr>
+              <tr>
+                <td>2009-04-12</td>
+                <td>
+                  1.6.0 released with utf8 support, annotations, append,
+                  recurrence modfiication propagation, custom column labels.
+                </td>
+              </tr>
+              <tr>
+                <td>2009-03-15</td>
+                <td>
+                  1.5.0 released with custom reports, start, stop.
+                </td>
+              </tr>
+              <tr>
+                <td>2008-11-01</td>
+                <td>1.4.3 released with shadow files.</td>
+              </tr>
+              <tr>
+                <td>2008-09-18</td>
+                <td>
+                  1.4.2 released with undo, sorting, defaults, word-wrapping,
+                  modifications, relative dates.
+                </td>
+              </tr>
+              <tr>
+                <td>2008-07-18</td>
+                <td>1.4.1 released with bug fixes.</td>
+              </tr>
+              <tr>
+                <td>2008-07-10</td>
+                <td>1.4.0 released with recurring tasks, rc overrides.</td>
+              </tr>
+              <tr>
+                <td>
+                  2008-06-21</td><td>1.3.1 released with bug fixes.
+                </td>
+              </tr>
+              <tr>
+                <td>2008-06-13</td>
+                <td>1.3.0 released with filters and new reports.</td>
+              </tr>
+              <tr>
+                <td>2008-06-13</td>
+                <td>1.2.0 released with sub-projects.</td>
+              </tr>
+              <tr>
+                <td>2008-06-07</td>
+                <td>1.1.0 released with dateformat support.</td>
+              </tr>
+              <tr>
+                <td>2008-06-04</td>
+                <td>1.0.1 released with bug fixes.</td>
+              </tr>
+              <tr>
+                <td>2008-06-03</td>
+                <td>
+                  1.0.0 released, ported to Fedora Core 8 &amp; 9, Ubuntu 8,
+                  Mac OS X 10.5.  Suported 'add', .taskrc, 'find', 'projects',
+                  'tags', 'start', 'done', 'delete', 'history', summary',
+                  'calendar', due dates, 'info', age column, substitution,
+                  'overdue', 'stats', 'export', color rules, man pages,
+                  tutorial.
+                </td>
+              </tr>
+              <tr>
+                <td>2006-11-29
+                </td>
+                <td>
+                  0.0.1 Project began as enhancement to
+                  <a href="http://todotxt.com/">todotxt.com"</a>.
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#history">Release History</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <p class="text-muted">
+            Copyright &amp;copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
