@@ -1,14 +1,6 @@
-/* Sticky footer styles
--------------------------------------------------- */
-html {
-  position: relative;
-  min-height: 100%;
-}
-body {
-  /* Margin bottom by footer height */
-  margin-top: 20px;
-  margin-bottom: 120px;
-}
+html                   {position: relative; min-height: 100%}
+body                   {margin-top: 20px; margin-bottom: 120px}
+
 #footer {
   position: absolute;
   bottom: 0;
@@ -17,36 +9,33 @@ body {
   background-color: #222;
 }
 
-/* Callout
--------------------------------------------------- */
-.callout{margin:20px 0;padding:20px;border-left:3px solid #eee}
-.callout h4{margin-top:0;margin-bottom:5px}
-.callout p:last-child{margin-bottom:0}
-.callout code{background-color:#fff;border-radius:3px}
-.callout-danger{background-color:#fdf7f7;border-color:#d9534f}
-.callout-danger h4{color:#d9534f}
-.callout-warning{background-color:#fcf8f2;border-color:#f0ad4e}
-.callout-warning h4{color:#f0ad4e}
-.callout-info{background-color:#f4f8fa;border-color:#5bc0de}
-.callout-info h4{color:#5bc0de}
-.callout h4{margin-top:0;margin-bottom:5px}
-
-/* Custom page CSS
--------------------------------------------------- */
-/* Not required for template or sticky footer method. */
-
-body > .container {
-  padding: 60px 15px 0;
+.banner {
+/*
+  padding-top:48px;
+  padding-bottom:48px;
+  padding:30px;
+  margin-bottom:0px;
+  color:inherit;
+  background-color:#eee
+*/
 }
 
-.container .text-muted {
-  margin: 20px 0;
-}
+.callout               {margin:20px 0;padding:20px;border-left:3px solid #eee}
+.callout h4            {margin-top:0;margin-bottom:5px}
+.callout p:last-child  {margin-bottom:0}
+.callout code          {background-color:#fff;border-radius:3px}
+.callout-danger        {background-color:#fdf7f7;border-color:#d9534f}
+.callout-danger h4     {color:#d9534f}
+.callout-warning       {background-color:#fcf8f2;border-color:#f0ad4e}
+.callout-warning h4    {color:#f0ad4e}
+.callout-info          {background-color:#f4f8fa;border-color:#5bc0de}
+.callout-info h4       {color:#5bc0de}
+.callout h4            {margin-top:0;margin-bottom:5px}
 
-#footer > .container {
-  font-weight: 500;
-}
+body > .container      {padding: 60px 15px 0}
+.container .text-muted {margin: 20px 0}
+#footer > .container   {font-weight: 500}
 
-.text-heavy { font-weight: 500; }
-.text-large { font-size: 125%; }
-.text-tiny  { font-size: 75%; }
+.text-heavy            {font-weight: 500}
+.text-large            {font-size: 125%}
+.text-tiny             {font-size: 75%}
