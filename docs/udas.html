@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="udas"></a>
+            <h3>User Defined Attributes (UDA)</h3>
+            <p>
+              Taskwarrior supports a set of standard attributes for a task,
+              known as the core attributes.  These include <code>project</code>,
+              <code>description</code>, <code>due</code> and so on.  There are
+              more than 20 standard attributes (see
+              <a href="columns.html">columns</a>
+              for a full list).  They are necessary to provide all the
+              functionality of Taskwarrior.  For example, the
+              <code>project</code> attribute is used to provide feedback on
+              completion of a project, the <code>projects</code> command itself,
+              and project hierarchy filtering.  The <code>project</code>
+              attribute has a lot of functionality associated with it, and this
+              is why <code>project</code> is a core attribute.
+            </p>
+
+            <p>
+              Other attributes, such as <code>priority</code> do not have much
+              associated functionality.  In fact, beyond storing the value,
+              allowing modification, sorting and inclusion in reports, the
+              <code>priority</code> field contributes nothing.  This is why
+              <code>priority</code> is not really a core attribute, and will
+              be migrated out of the code and into configuration.
+            </p>
+
+            <p>
+              Occasionally people will ask for new attributes, because their
+              workflow includes more metadata than Taskwarrior supports.  A very
+              common request is for an <code>estimate</code> attribute, which
+              would store a scalar quantity of some kind, perhaps a number of
+              days, or large/medium/small.  Until now, the answer to most of
+              these requests is to use tags or annotations to approximate the
+              storage of the metadata.  Now we have UDAs to achieve this.
+            </p>
+
+            <a name="what"></a>
+            <h4>What is a UDA?</h4>
+            <p>
+              A UDA is a new metadata item that you define, and taskwarrior
+              faithfully stores, displays, and modifies.  But that is the
+              extent of it, because Taskwarrior does not leverage it for
+              functionality like the <code>project</code> attribute, but simply
+              treats it as a data value with a name, allowing you to sort by it,
+              use it in a report, import and export it.
+            </p>
+
+            <p>
+              It is intended that, once configured, a UDA is indistinguishable
+              from core attributes, and will not impart performance penalties.
+            </p>
+
+            <a name="types"></a>
+            <h4>Data Types</h4>
+            <p>
+              A UDA has a type, which may be one <code>string</code>,
+              <code>numeric</code>, <code>date</code> or <code>duration</code>.
+              If a UDA has type <code>date</code>, then it will naturally only
+              accept date values, just like the core attribute <code>due</code>.
+              The <code>string</code> UDA type is special, in that a list of
+              acceptable values may also be provided, and taskwarrior will only
+              allow modifications if the new value is in the list.
+            </p>
+
+            <a name="estimate"></a>
+            <h4>Example: estimate</h4>
+            <p>
+              A UDA is created by modifying configuration.  There are two or
+              three configuration settings involved.  Let's create an
+              <code>estimate</code> UDA that is numeric:
+            </p>
+
+            <pre>$ task config uda.estimate.type numeric
+$ task config uda.estimate.label Est</pre>
+
+            <p>
+              That's all - but note there are three pieces of information there:
+              first there is "estimate", which is the attribute name, then
+              "numeric" which is the type, and finally "Est", which is the
+              default label used when the UDA is included in a report.  Now you
+              can add or modify a task to include an estimate.
+            </p>
+
+            <pre>$ task add "Paint the door" project:Home estimate:4
+...</pre>
+
+            <a name="size"></a>
+            <h4>Example: size</h4>
+            <p>
+              Now suppose you are developing software in an Agile environment.
+              You may wish to have a <code>size</code> attribute that may
+              contain a fixed set of values, such as "large", "medium" or
+              "small".  This is achieved using an additional configuration
+              setting:
+            </p>
+
+            <pre>$ task config uda.size.type string
+$ task config uda.size.label Size
+$ task config uda.size.values large,medium,small</pre>
+
+            <p>
+              Now if you attempt to store a value such as "tiny", taskwarrior
+              will disallow it.
+            </p>
+
+            <a name="urgency"></a>
+            <h4>Urgency</h4>
+            <p>
+              You can specify that a UDA contributes to the urgency calculation
+              of a task.  As an example, the above <code>size</code> UDA could
+              be given an urgency coefficient like this:
+            </p>
+
+            <pre>urgency.uda.size.coefficient=2.8</pre>
+
+            <p>
+              Then whenever a task has a non-trivial value in the
+              <code>size</code> UDA, the urgency is boosted by 2.8.
+            </p>
+
+            <a name="orphans"></a>
+            <h4>Orphaned UDAs</h4>
+            <p>
+              Suppose you define an <code>estimate</code> UDA and use it.  Then
+              you remove the configuration for the UDA.  You have just created
+              a situation where the data is stored, but is no longer something
+              that can be used in a report or a filter.  This is an orphan UDA.
+            </p>
+
+            <p>
+              You might think this is an unusual situation, but it is exactly
+              what happens if you synch data with UDAs to a taskwarrior
+              installation that does not have the UDA configured.  Data loss
+              would be unacceptable, so taskwarrior will preserve all orphan
+              UDA data, but will not let you manipulate it.  Only defined UDAs
+              can be manipulated.  There is one exception -
+              the <code>edit</code> command will let you remove UDA orphans by
+              making their values blank, which eliminates any attribute.
+            </p>
+
+            <a name="reports"></a>
+            <h4>Custom Reports</h4>
+            <p>
+              UDA fields may be used in custom reports, just like any other
+              attribute.  A report containing an attribute that is an orphan
+              UDA is not a valid report.
+            </p>
+
+            <a name="other"></a>
+            <h4>Other UDA Uses</h4>
+            <p>
+              The <code>priority</code> attribute is soon to be replaced by a
+              UDA equivalent.  This is not something that anyone will notice,
+              but it will make for a smaller, more stable core product.  UDAs
+              are useful for other capabilities though.  An example would be the
+              import of bugs from a Request Tracker.  The additional metadata
+              in the Request Tracker could be created as UDAs in taskwarrior,
+              which will then allow for a full import without data loss.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#udas">UDAs</a></li>
+            <li><a class="alert-link" href="#what">What is a UDA?</a></li>
+            <li><a class="alert-link" href="#types">Data Types</a></li>
+            <li><a class="alert-link" href="#estimate">Example: estimate</a></li>
+            <li><a class="alert-link" href="#size">Example: size</a></li>
+            <li><a class="alert-link" href="#urgency">Urgency</a></li>
+            <li><a class="alert-link" href="#orphans">Orphaned UDAs</a></li>
+            <li><a class="alert-link" href="#reports">Custom Reports</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+        </div>
+        <div class="col-md-4">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
