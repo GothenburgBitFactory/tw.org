@@ -9,16 +9,16 @@ body                   {margin-top: 20px; margin-bottom: 120px}
   background-color: #222;
 }
 
-.banner {
 /*
+.banner {
   padding-top:48px;
   padding-bottom:48px;
   padding:30px;
   margin-bottom:0px;
   color:inherit;
   background-color:#eee
-*/
 }
+*/
 
 .callout               {margin:20px 0;padding:20px;border-left:3px solid #eee}
 .callout h4            {margin-top:0;margin-bottom:5px}
