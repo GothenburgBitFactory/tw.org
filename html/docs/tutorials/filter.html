@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="filters"></a>
+            <h3>Filters</h3>
+            <p>
+              A filter is a set of command line arguments that specify a set of
+              tasks and filters can range from being simple to very complex.
+              The simplest filter is an empty filter, and we can illustrate this
+              with the <code>count</code>.
+            </p>
+
+            <pre>$ task count
+100</pre>
+
+            <p>
+              These 100 tasks are the tasks, pending and completed, which
+              represent are all the tasks known to Taskwarrior.  Any command
+              that accepts a filter also accepts no filter, as shown above.
+
+              Now we introduce a filter with one term.
+            </p>
+
+            <pre>$ task status:pending count
+38</pre>
+
+            <p>
+              This is an example of the <code>name : value</code> form for
+              specifying attribute values. This filter shows that there are 38
+              pending tasks, and therefore 62 that are not pending in some way.
+              This form of filter works for other attributes:
+            </p>
+
+            <pre>$ task project:Home count
+19</pre>
+
+            <p>
+              There are 19 tasks in the 'Home' project. In addition to this
+              form, there are others that allow different filtering. Here are
+              two examples, filtering on the presence and absence of a tag.
+            </p>
+
+            <pre>$ task +work count
+14
+$ task -work count
+86</pre>
+
+            <p>
+              This shows us that 14 tasks have the 'work' tag, and 86 do not
+              have the tag. To search for a word in the description or
+              annotation:
+            </p>
+
+            <pre>$ task meeting count
+3</pre>
+
+            <p>
+              Here we see that 3 tasks have the word 'meeting' in the
+              description. To use regular expressions to search the descriptions
+              annotations:
+            </p>
+
+            <pre>$ task /m..ting/ count
+3</pre>
+
+            <p>
+              This assumes you have enabled regular expression support, using
+              the <code>regex</code> configuration setting.
+            </p>
+
+            <a name="complex"></a>
+            <h4>Complex Filters</h4>
+            <p>
+              Filters gain complexity by adding more filter terms and logic.
+              Suppose we want to see the number of tasks that have the 'Home'
+              project, and do not have the 'work' tag. Simply put both terms on
+              the command line.
+            </p>
+
+            <pre>$ task project:Home -work count
+18</pre>
+
+            <p>
+              The two terms in the filter are both applied to the set of all
+              tasks, or in other words, a task must have both the 'Home' project
+              and not have the 'work' tag to be counted.
+            </p>
+
+            <p>
+              When a filter contains multiple terms like this, they are treated
+              as a logical conjunction, which is to say that both terms must
+              match for a task to be selected by the filter.  If there were
+              three terms in the filter, then all three must match.
+            </p>
+
+            <p>
+              This assumed conjunction is another command line syntax shortcut.
+              The long form of this command line is:
+            </p>
+
+            <pre>$ task project:Home and -work count
+18</pre>
+
+            <p>
+              See the <code>and</code> operator between the filter terms? That
+              is assumed to be there if not specfically stated. The unstated
+              implication is that the disjunction ('or') is also supported.
+            </p>
+
+            <pre>$ tsak project:Home or -work count
+90</pre>
+
+            <p>
+              This example asks how many tasks are part of the 'Home' project,
+              or do not have the 'work' tag - either is a match.
+            </p>
+
+            <a name="prec"></a>
+            <h4>Precedence</h4>
+            <p>
+              It was mentioned earlier that the simplest filter was an empty
+              filter, such as in use by the <code>count</code> command. Now we
+              shall consider the <code>ls</code> report, which has a filter of:
+            </p>
+
+            <pre>$ task show report.ls.filter
+
+Config Variable  Value
+---------------- --------------
+report.ls.filter status:pending</pre>
+
+            <p>
+              This report filter is combined with the command line filter that
+              you specify:
+            </p>
+
+            <pre>$ task project:Home ls</pre>
+
+            <p>
+              This yields a combined filter of:
+            </p>
+
+            <pre>status:pending project:Home</pre>
+
+            <p>
+              Which has an implicit conjunction:
+            </p>
+
+            <pre>status:pending and project:Home</pre>
+
+            <p>
+              Now suppose we wanted to use a disjunction filter with the
+              <code>ls</code> command:
+            </p>
+
+            <pre>$ task project:Home or project:Garden list</pre>
+
+            <p>
+              This is interpreted as:
+            </p>
+
+            <pre>status:pending and project:Home or project:Garden</pre>
+
+            <p>
+              Do you see the precedence problem?  The intended filter is this:
+            </p>
+
+            <pre>status:pending and (project:Home or project:Garden)</pre>
+
+            <p>
+              which includes the parentheses to group the disjunction.  Going
+              back to the original filter, we now know that it needs this form:
+            </p>
+
+            <pre>$ task (project:Home or project:Garden) list
+...</pre>
+
+            <p>
+              Except now we have one more problem - those parentheses have
+              special meaning to the shell, and must be escaped in one of the
+              following ways:
+            </p>
+
+            <pre>$ task \(project:Home or project:Garden\) list
+...
+$ task '(project:Home or project:Garden)' list
+...
+$ task "(project:Home or project:Garden)" list</pre>
+
+            <p>
+              Note that there are many characters used by the taskwarrior
+              command line that have special meaning to the shell, and as such
+              must be properly escaped, as
+              <a href="/docs/escapes.html">described here</a>.
+            </p>
+
+            <a name="config"></a>
+            <h4>Configuration</h4>
+            <p>
+              Regular expressions in pattern filters are only used when enabled
+              with:
+            </p>
+
+            <pre>regex=on</pre>
+
+            <p>
+              This is the default in 2.4.0+. If not enabled, the patterns are
+              literal strings to be matched.  Case sensitivity for string
+              searches and regular expressions is controlled by:
+            </p>
+
+            <pre>search.case.sensitive=yes</pre>
+
+            <p>
+              The default is 'yes'.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#filters">Filters</a></li>
+            <li><a class="alert-link" href="#complex">Complex</a></li>
+            <li><a class="alert-link" href="#prec">Precedence</a></li>
+            <li><a class="alert-link" href="#config">Configuration</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://flod.us/index2.html">flod.us</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+            <br />
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" width="16px" height="16px"> G+</a>
+            <br />
+            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" width="16px" height="16px"> Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
