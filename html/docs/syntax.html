@@ -47,145 +47,231 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="start"></a>
-                <p class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/tutorials/30second.html">30-Second Tutorial</a></li>
-                    <li><a class="alert-link" href="/docs/tutorials/">Complete Tutorials</a></li>
-                    <li><a class="alert-link" href="/docs/glossary.html">Glossary of Terms</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="task"></a>
-                <p class="text-large"><strong>Using Taskwarrior</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
-                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
-                    <li>
-                      Commands
-                      <ul>
-                        <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                        <li><a href="/docs/commands/columns.html"><code>columns</code> command</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/docs/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
-                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
-                    <li><a href="/docs/urgency.html">Urgency</a></li>
-                    <li><a href="/docs/ids.html">ID Numbers</a></li>
-                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
-                    <li><a href="/tools/">External Scripts</a></li>
-                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
-                    <li><a href="/docs/json.html">JSON Import/Export Format</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="taskd"></a>
-                <p class="text-large"><strong>Taskserver</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/server_setup.html">Setting up your own Taskserver</a></li>
-                    <li>Operations Guide</li>
-                    <li><a href="/docs/ciphers.html">Cipher Selection</a></li>
-                    <li><a href="/docs/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="feedback"></a>
-                <p class="text-large"><strong>Feedback</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
-                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="l10n"></a>
-                <p class="text-large"><strong>Translators</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Localizing Taskwarrior</li>
-                    <li>The <code>l10n</code> Utility</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="dev"></a>
-                <p class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
-                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="about"></a>
-                <p class="text-large"><strong>About</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/history.html">Release History</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="cipher"></a>
+            <h3>Command Line Syntax</h3>
+            <p>
+              Taskwarrior has a flexible command line syntax. It is logical and
+              straightforward, but perhaps not obvious. We will explore this
+              syntax, by first breaking it down and looking at the individual
+              parts.
+            </p>
+
+            <p>
+              The general form of command syntax is this:
+            </p>
+
+            <p>
+              <img src="/docs/syntax.png" class="img-responsive" />
+            </p>
+
+            <a name="cmd"></a>
+            <h3>Command</h3>
+            <p>
+              Every time you run Taskwarrior, you are issuing a
+              <code>command</code> either explicitly, or implicitly with the
+              default command (the <code>default.command</code> configuration
+              setting). As an example, let us use the <code>list</code> command
+              to show tasks:
+            </p>
+
+            <pre>$ task list</pre>
+
+            <p>
+              Taskwarrior looks for the first argument on the command line that
+              looks like an exact command name, or an abbreviation of one.  It
+              is therefore better to use the full name of a command to avoid
+              ambiguity.
+            </p>
+
+            <p>
+              The command here is <code>list</code>, the optional
+              <code>&lt;filter&gt;</code> is not specified and there are no
+              <code>&lt;modifications&gt;</code> because they are not supported
+              by a read-only command.  This is therefore a complete and correct
+              example.
+            </p>
+
+            <a name="readonly"></a>
+            <h3>Read-Only Commands</h3>
+            <p>
+              A read-only command only reads tasks, and does not directly
+              support modifying tasks.  All reports are read-only commands, as
+              well as some others.  Here is a partial list:
+
+              <ul>
+                <li>All modifiable reports:
+                    <code>list</code>,
+                    <code>ls</code>,
+                    <code>next</code>,
+                    <code>overdue</code>, ...</li>
+                <li><code>history</code></li>
+                <li><code>burndown</code></li>
+                <li><code>calendar</code></li>
+                <li><code>info</code></li>
+                <li>...</li>
+              </ul>
+
+              No read-only command supports direct modification of a task.
+            </p>
+
+            <a name="write"></a>
+            <h3>Write Commands</h3>
+            <p>
+              A write command is a command guarantees that the data files will
+              be modified.  Here is a partial list:
+
+              <ul>
+                <li><code>add</code></li>
+                <li><code>log</code></li>
+                <li><code>modify</code></li>
+                <li><code>annotate</code></li>
+                <li><code>done</code></li>
+                <li><code>delete</code></li>
+                <li>...</li>
+              </ul>
+
+              All write commands support modification of tasks.  Some write
+              commands also support filters (<code>modіfy</code>,
+              <code>done</code>, ...)
+            </p>
+
+            <a name="filter"></a>
+            <h3>Filter</h3>
+            <p>
+              A filter is a means to address a set of tasks. Because filters are
+              optional, the simplest case to consider is an empty filter.
+            </p>
+
+            <pre>$ task list</pre>
+
+            <p>
+              An empty filter means the set of tasks is not restricted in any
+              way, so returns the full list.
+            </p>
+
+            <p>
+              If a filter is specified, then it must appear before the command.
+              But what is a filter?  A filter is one or more terms that are
+              used to reduce the amount of tasks shown. Suppose you just
+              wanted to see tasks in the 'Home' project, you would use a filter
+              to achieve this:
+            </p>
+
+            <pre>$ task project:Home list</pre>
+
+            <p>
+              See how the filter is specified <em>before</em> the
+              <code>list</code> command?  Taskwarrior will apply the filter to
+              all tasks, and only show those that match.
+            </p>
+
+            <p>
+              You may specify multiple filter terms:
+            </p>
+
+            <pre>$ task project:Home priority:H list</pre>
+
+            <p>
+              Here you see two filter terms that appear before the command.
+              Taskwarrior will only show tasks that match both the project
+              'Home' and priority 'H'.
+            </p>
+
+            <a name="mod"></a>
+            <h3>Modifications</h3>
+            <p>
+              Write commands modify tasks. They achieve this by specifying one
+              or more modifications on the command line.  The simples case is
+              the <code>add</code> command:
+            </p>
+
+            <pre>$ task add Example task project:Home +weekend</pre>
+
+            <p>
+              The modifications all appear <em>after</em> the <code>add</code>
+              command. There is the description text ('Example task'), a project
+              ('project:Home') and a tag ('+weekend').
+            </p>
+
+            <p>
+              This example was chosen to illustrate the different ways of
+              specifying data.  The task description simply consists of free
+              text on the command line ('Example task').  Any time words appear
+              on the command line, they are considered to be description text,
+              or annotation text.  With the <code>add</code>, <code>log</code>,
+              <code>modify</code>, <code>prepend</code> and <code>append</code>
+              commands, the words are conѕidered to be the description.
+            </p>
+
+            <p>
+              Here a task is modified to set the project to 'Home' and the
+              priority to 'M'. Note that there is a filter specified ('123'),
+              and two modifications ('project:Home', 'priority:M').
+            </p>
+
+            <pre>$ task 123 modify project:Home priority:M</pre>
+
+            <p>
+              Here the <code>done</code> command also modifies the task by
+              removing a tag ('-critical'), and adding an annotation ('All is
+              well'):
+            </p>
+
+            <pre>$ task 123 done -critical All is well</pre>
+
+            <p>
+              Because modifications are optional, a task may be marked as
+              complete with no specific modifications:
+            </p>
+
+            <pre>$ task 123 done</pre>
+
+            <a name="override"></a>
+            <h3>Overrides</h3>
+            <p>
+              Taskwarrior allows command line overrides of configuration
+              settings, for example, to specify a different configuration file:
+            </p>
+
+            <pre>$ task rc:~/projects/home.rc list</pre>
+
+            <p>
+              Or to override a configuration setting:
+            </p>
+
+            <pre>$ task rc.report.list.sort=id+ list</pre>
+
+            <p>
+              These overrides are temporary, and in the last example simply
+              allow a <em>what if</em> scenario.
+            </p>
+
+            <p>
+              There can be any number of overrides on the command line, and
+              furthermore it doesn't matter whether they appear before or after
+              the command.
+            </p>
+
+          </div>
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#feedback">Feedback</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
-            <li><a class="alert-link" href="#about">About</a></li>
+            <li><a class="alert-link" href="#syntax">Command Line Syntax</a></li>
+            <li><a class="alert-link" href="#cmd">Command</a></li>
+            <li><a class="alert-link" href="#readonly">Read-Only Commands</a></li>
+            <li><a class="alert-link" href="#write">Write Commands</a></li>
+            <li><a class="alert-link" href="#filter">Filter</a></li>
+            <li><a class="alert-link" href="#mod">Modifications</a></li>
+            <li><a class="alert-link" href="#override">Overrides</a></li>
           </ul>
         </div>
       </div>
