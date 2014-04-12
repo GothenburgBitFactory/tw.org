@@ -53,358 +53,89 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <a name="setup"></a>
-            <h3>Server Setup</h3>
-            <p>
+            <p class="lead">
               This document will explain how to set up and sync with your own
-              task server.
+              task server. Follow the instructions carefully.
             </p>
 
-            <a name="why"></a>
-            <h4>Why Do I Need a Task Server?</h4>
-            <p>
-              You may want to sync tasks between several machines, or you might
-              anticipate doing that.  You may also want to have a backup copy
-              of your tasks.
-            </p>
-
-            <a name="personal"></a>
-            <h4>Why Do I Need a <em>Personal</em> Task Server?</h4>
-            <p>
-              Setting up your own Task Server means having complete control and
-              privacy.  There will be secure hosted server accounts soon, but
-              for now you will need to set up your own server.
-            </p>
-
-            <a name="first"></a>
-            <h4>First Things First</h4>
-            <p>
-              Let's reinforce a good habit and make a backup copy of the data
-              first. Here is a very easy way to backup your data:
-            </p>
-
-            <pre>$ cd ~/.task
-$ tar czf task-backup-$(date +'%Y%m%d').tar.gz *</pre>
-
-            <p>
-              Now put that file somewhere safe.  All software contains bugs, so
-              if you aren't making a backup of all your data, then why not?
-            </p>
-
-            <a name="dependencies"></a>
-            <h4>Satisfy the Dependencies</h4>
-            <p>
-              Before building the software, you will need to satisfy the
-              dependencies by installing the following:
-
-              <ul>
-                <li>GnuTLS</li>
-                <li>libuuid</li>
-                <li>libreadline</li>
-                <li>cmake</li>
-                <li>make</li>
-                <li>A C++ Compiler</li>
-              </ul>
-
-              Note that some OSes (Darwin, FreeBSD ...) include libuuid
-              functionality in libc.
-            </p>
-
-            <p>
-              You don't necessarily need the latest version of all components,
-              but it is a good idea if you can.  GnuTLS is a security component,
-              and as such, it is more important that it is current.
-            </p>
-
-            <a name="build"></a>
-            <h4>Build the Code</h4>
-            <p>
-              The next step is to obtain the code and build it. This means
-              getting the Taskwarrior 2.3.0 and Task Server 1.0.0 (or newer)
-              source tarballs.  There may be binary packages available, in which
-              case install those and skip ahead.
-            </p>
-
-            <p>
-              Here are the steps, and notice that the code is built
-              in the home directory. Naturally you can build the code anywhere
-              you wish, but the later in this article we will be referring to
-              this location.  Adjust accordingly.
-            </p>
-
-            <pre>$ cd
-$ curl -O http://taskwarrior.org/download/taskd-1.0.0.tar.gz
-$ tar xzf taskd-1.0.0.tar.gz
-$ cd taskd-1.0.0
-$ cmake .
-$ make
-$ sudo make install
-$
-$ cd
-$ curl -O http://taskwarrior.org/download/task-2.3.0.tar.gz
-$ tar xzf task-2.3.0.tar.gz
-$ cd task-2.3.0
-$ cmake .
-$ make
-$ sudo make install</pre>
-
-            <p>
-              Note that you may choose to run the server on one machine, and
-              the client on another.  Bear this in mind as you obtain and build
-              the code.
-            </p>
-
-            <a name="serversetup"></a>
-            <h4>Server Setup</h4>
-            <p>
-              On the server machine, a location for the data must be chosen and
-              created.  The TASKDDATA environment variable will be used to
-              indicate that location, and is also used by the server itself.
-              In fact, most server commands require either that the TASKDDATA
-              variable is set, or the "--data ..." option is fully specified.
-              In this example, we are using ~/server_data.
-            </p>
-
-            <p>
-              Note that there are two 'D's in TASKDDATA, a common mistake.
-            </p>
-
-            <pre>$ export TASKDDATA=~/server_data
-$ mkdir -p $TASKDDATA</pre>
-
-            <p>
-              Everything the server does will be confined to that directory.
-              Now we let the server initialize that directory:
-            </p>
-
-            <pre>$ taskd init
-You must specify the 'server' variable, for example:
-  taskd config server localhost:53589
-
-Created ~/server_data/config</pre>
-
-            <p>
-              Next we create an organization ('Public') and a user ('Your Name'
-              is used here).  Substitute your name in the following commands:
-            </p>
-
-            <pre>$ taskd add org Public
-Created organization 'Public'
-
-$ taskd add user 'Public' 'Your Name'
-New user key: cf31f287-ee9e-43a8-843e-e8bbd5de4294
-Created user 'Your Name' for organization 'Public'</pre>
-
-            <p>
-              The organization is a grouping of users, and will become
-              important in later server releases.
-            </p>
-
-            <p>
-              Note that you will get a different 'New user key', than shown
-              here, and you will need to retain that, to be used later.  Note
-              that the key is just a unique id, because your name alone is not
-              necessarily unique.
-            </p>
-
-            <p>
-              Now we create certificates and keys.  The command below will
-              generate all the certs and keys for the server, but this includes
-              self-signed certificates, and this is not recommended for
-              production use.  This is for personal use, and this may be
-              acceptable for you, but if not, you will need to purchase a
-              proper certificate and key, backed by a certificate authority.
-            </p>
-
-            <pre>$ cd ~/taskd-1.0.0/pki
-$ ./generate
-...
-$
-$ cp client.cert.pem $TASKDDATA
-$ cp client.key.pem  $TASKDDATA
-$ cp server.cert.pem $TASKDDATA
-$ cp server.key.pem  $TASKDDATA
-$ cp server.crl.pem  $TASKDDATA
-$ cp ca.cert.pem     $TASKDDATA
-$
-$ taskd config --force client.cert $TASKDDATA/client.cert.pem
-$ taskd config --force client.key $TASKDDATA/client.key.pem
-$ taskd config --force server.cert $TASKDDATA/server.cert.pem
-$ taskd config --force server.key $TASKDDATA/server.key.pem
-$ taskd config --force server.crl $TASKDDATA/server.crl.pem
-$ taskd config --force ca.cert $TASKDDATA/ca.cert.pem</pre>
-
-            <p>
-              Now we configure some basic details for the server.  The chosen
-              port is 53589.  Note that we allow Taskwarrior clients
-              specifically.
-            </p>
-
-            <pre>$ cd $TASKDDATA/..
-$ taskd config --force log $PWD/taskd.log
-$ taskd config --force pid.file $PWD/taskd.pid
-$ taskd config --force server localhost:53589
-$ taskd config --force client.allow '^task [2-9]'</pre>
-
-            <p>
-              You can look at all the configuration settings:
-            </p>
-
-            <pre>$ taskd config</pre>
-
-            <p>
-              It is time now to launch the server:
-            </p>
-
-            <pre>$ taskdctl start</pre>
-
-            <p>
-              This command launched the server as a daemon process.  Note that
-              you use 'taskdctl stop' to terminate the server.  This command
-              requires the TASKDDATA variable.  Your server is now running,
-              and ready for syncing.
-            </p>
-
-            <a name="clientsetup"></a>
-            <h4>Client Setup</h4>
-            <p>
-              On your client machine it is assumed that you are already using
-              Taskwarrior, and already have local tasks to sync.  If this is
-              not the case, setup and add one.  We need to create a cert and
-              key for you, based on the server cert:
-            </p>
-
-            <pre>$ cd ~/taskd-1.0.0.beta2/pki
-$ ./generate.client your_name
-... </pre>
-
-            <p>
-              Copy the cert, key and ca to your ~/.task directory.  The reason
-              we are copying the CA cert is because this is a self-signed cert,
-              and we need the CA to validate against.  Alternately we could
-              force Taskwarrior to trust all certs, but that is not recommended.
-            </p>
-
-            <pre>$ cp your_name.cert.pem ~/.task
-$ cp your_name.key.pem  ~/.task
-$ cp ca.cert.pem        ~/.task</pre>
-
-            <p>
-              Now we need to configure Taskwarrior to be aware of these certs:
-            </p>
-
-            <pre>$ task config taskd.certificate ~/.task/your_name.cert.pem
-$ task config taskd.key         ~/.task/your_name.key.pem
-$ task config taskd.ca          ~/.task/ca.cert.pem</pre>
-
-            <p>
-              Now set the server info and provide the credentials, which
-              include the ID key generated when the user was added to the
-              server:
-            </p>
-
-            <pre>$ task config taskd.server      localhost:53589
-$ task config taskd.credentials 'Public/Your Name/cf31f287-ee9e-43a8-843e-e8bbd5de4294'</pre>
-
-            <p>
-              Now your client is ready to sync.
-            </p>
-
-            <a name="firstsync"></a>
-            <h4>First Time Sync</h4>
-            <p>
-              The first time you sync is special - the client sends all your
-              pending tasks to the server.  This is something you should only
-              do once.  Run this:
-            </p>
-
-            <pre>$ task sync init
-Please confirm that you wish to upload all your pending tasks to the Task Server (yes/no) yes
-Syncing with localhost:53589
-
-Sync successful.  2 changes uploaded.</pre>
-
-            <p>
-              You should get an indication that tasks were uploaded, in this
-              case 2 of them.
-            </p>
-
-            <a name="sync"></a>
-            <h4>General Sync</h4>
-            <p>
-              After the first time sync, you switch and just use this command:
-            </p>
-
-            <pre>$ task sync
-Syncing with localhost:53589
-
-Sync successful.  No changes.</pre>
-
-            <p>
-              This will give you feedback about what happened.  Please note
-              that it is perfectly safe to run this command as often as you
-              wish.  Syncing is safe and does not consume great system
-              resources.
-            </p>
-
-            <p>
-              But it does require network connectivity, and if there is no
-              connectivity you will be notified.  It is not a problem if a sync
-              fails because of this, because the next sync that works will
-              catch up with all the changes, and do the right merging.
-            </p>
-
-            <p>
-             Taskwarrior and Taskserver were designed to work with intermittent
-             connectivity.
-            </p>
-
-            <p>
-              The general usage pattern is that after you modify data locally,
-              Taskwarrior will start notifying you that you need to sync, after
-              commands, like this:
-            </p>
-
-            <pre>$ task project:foo list
-No matches.
-There are local changes.  Sync required.</pre>
-
-            <p>
-              This is just a reminder to sync.  Respond with a sync, and the
-              reminder goes away:
-            </p>
-
-            <pre>$ task sync
-Syncing with <server>:<port>
-
-Sync successful.  1 changes uploaded.</pre>
-
-            <p>
-              Please remember that if you find bugs please let us know at
-              <a href="mailto:support@taskwarrior.org">support@taskwarrior.org</a>.
-            </p>
-
-            <p>
-              Problems?  See our
-              <a href="/docs/troubleshooting-sync.html">troubleshooting guide</a>.
-            </p>
+            <table>
+              <tr>
+                <td><h3><span class="label label-success">1</span>&nbsp;</h3></td>
+                <td><h3>Preparation</h3><a name="prep"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/docs/server_prep.html">Pre-Installation Preparation</a>
+                </td>
+              </tr>
+              <tr>
+                <td><h3><span class="label label-success">2</span>&nbsp;</h3></td>
+                <td><h3>Installation</h3><a name="install"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  You have several installation options:
+                  <ol>
+                    <li><a href="/docs/server_package.html">Install binary package</a></li>
+                    <li><a href="/docs/server_tarball.html">Install from tarball</a></li>
+                    <li><a href="/docs/server_git.html">Install from git</a></li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <td><h3><span class="label label-success">3</span>&nbsp;</h3></td>
+                <td><h3>Server Setup</h3><a name="setup"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/docs/server_configure.html">Server Configuration</a>
+                  <br />
+                  <a href="/docs/server_control.html">Server Start/Stop</a>
+                </td>
+              </tr>
+              <tr>
+                <td><h3><span class="label label-success">4</span>&nbsp;</h3></td>
+                <td><h3>Client Setup</h3><a name="client"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/docs/server_user.html">Add User to Server</a>
+                  <br />
+                  <a href="/docs/server_taskwarrior.html">Configure Taskwarrior</a>
+                </td>
+              </tr>
+              <tr>
+                <td><h3><span class="label label-success">5</span>&nbsp;</h3></td>
+                <td><h3>Sync</h3><a name="sync"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/docs/server_sync.html">Syncing Taskwarrior</a>
+                  <br />
+                  <a href="/docs/troubleshooting-sync.html">Troubleshooting</a>
+                </td>
+              </tr>
+            </table>
           </div>
+
+          <br />
+          <br />
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
+            <li><a class="alert-link" href="#prep">Preparation</a></li>
+            <li><a class="alert-link" href="#install">Installation</a></li>
             <li><a class="alert-link" href="#setup">Server Setup</a></li>
-            <li><a class="alert-link" href="#why">Why a Task Server?</a></li>
-            <li><a class="alert-link" href="#personal">Why a Personal Server?</a></li>
-            <li><a class="alert-link" href="#first">First Things First</a></li>
-            <li><a class="alert-link" href="#dependencies">Satisfy the Dependencies</a></li>
-            <li><a class="alert-link" href="#build">Build the Code</a></li>
-            <li><a class="alert-link" href="#serversetup">Server Setup</a></li>
-            <li><a class="alert-link" href="#clientsetup">Client Setup</a></li>
-            <li><a class="alert-link" href="#firstsync">First Sync</a></li>
-            <li><a class="alert-link" href="#sync">General Sync</a></li>
+            <li><a class="alert-link" href="#client">Client Setup</a></li>
+            <li><a class="alert-link" href="#sync">Sync</a></li>
           </ul>
         </div>
       </div>

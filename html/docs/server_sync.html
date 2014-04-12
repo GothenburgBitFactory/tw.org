@@ -47,146 +47,100 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="start"></a>
-                <p class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/tutorials/30second.html">30-Second Tutorial</a></li>
-                    <li><a class="alert-link" href="/docs/tutorials/">Complete Tutorials</a></li>
-                    <li><a class="alert-link" href="/docs/glossary.html">Glossary of Terms</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="task"></a>
-                <p class="text-large"><strong>Using Taskwarrior</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
-                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
-                    <li>
-                      Commands
-                      <ul>
-                        <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                        <li><a href="/docs/commands/columns.html"><code>columns</code> command</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/docs/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
-                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
-                    <li><a href="/docs/urgency.html">Urgency</a></li>
-                    <li><a href="/docs/ids.html">ID Numbers</a></li>
-                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
-                    <li><a href="/tools/">External Scripts</a></li>
-                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
-                    <li><a href="/docs/json.html">JSON Import/Export Format</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="taskd"></a>
-                <p class="text-large"><strong>Taskserver</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/server_why.html">Why do I need a Taskserver?</a></li>
-                    <li><a href="/docs/server_setup.html">Setting up your own Taskserver</a></li>
-                    <li>Operations Guide</li>
-                    <li><a href="/docs/ciphers.html">Cipher Selection</a></li>
-                    <li><a href="/docs/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="feedback"></a>
-                <p class="text-large"><strong>Feedback</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
-                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="l10n"></a>
-                <p class="text-large"><strong>Translators</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Localizing Taskwarrior</li>
-                    <li>The <code>l10n</code> Utility</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="dev"></a>
-                <p class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
-                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="about"></a>
-                <p class="text-large"><strong>About</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/history.html">Release History</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="sync"></a>
+            <h3><span class="label label-success">5</span> Syncing Taskwarrior</h3>
+            <p>
+              You are now ready to sync your Taskwarrior client. You will do this
+              differently depending on whether this is the first sync per device,
+              or one of the many subsequent syncs.
+            </p>
+
+            <a name="first"></a>
+            <h4>First Time Sync</h4>
+            <p>
+              The first time you sync is special - the client sends all your
+              pending tasks to the server.  This is something you should only
+              do once.  Run this:
+            </p>
+
+            <pre>$ task sync init
+Please confirm that you wish to upload all your pending tasks to the Task Server (yes/no) yes
+Syncing with host.domain:53589
+
+Sync successful.  2 changes uploaded.</pre>
+
+            <p>
+              You should get an indication that tasks were uploaded, in this
+              case 2 of them.
+            </p>
+
+            <a name="general"></a>
+            <h4>General Sync</h4>
+            <p>
+              After the first time sync, you switch and just use this command:
+            </p>
+
+            <pre>$ task sync
+Syncing with host.domain:53589
+
+Sync successful.  No changes.</pre>
+
+            <p>
+              This will give you feedback about what happened.  Please note
+              that it is perfectly safe to run this command as often as you
+              wish.  Syncing is safe and does not consume great system
+              resources.
+            </p>
+
+            <p>
+              But it does require network connectivity, and if there is no
+              connectivity you will be notified.  It is not a problem if a sync
+              fails because of this, because the next sync that works will
+              catch up with all the changes, and do the right merging.
+            </p>
+
+            <p>
+             Taskwarrior and Taskserver were designed to work together, and
+             tolerate intermittent connectivity.
+            </p>
+
+            <a name="reminder"></a>
+            <h4>Sync Reminder</h4>
+            <p>
+              After you modify data locally, Taskwarrior will start notifying
+              you that you need to sync, after commands, like this:
+            </p>
+
+            <pre>$ task project:foo list
+No matches.
+There are local changes.  Sync required.</pre>
+
+            <p>
+              This is just a reminder to sync.  Respond with a sync, and the
+              reminder goes away:
+            </p>
+
+            <pre>$ task sync
+Syncing with <server>:<port>
+
+Sync successful.  1 changes uploaded.</pre>
+          </div>
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#feedback">Feedback</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
-            <li><a class="alert-link" href="#about">About</a></li>
+            <li><a class="alert-link" href="#sync">Sync</a></li>
+            <li><a class="alert-link" href="#first">First Time Sync</a></li>
+            <li><a class="alert-link" href="#general">General Sync</a></li>
+            <li><a class="alert-link" href="#reminder">Sync Reminder</a></li>
           </ul>
         </div>
       </div>

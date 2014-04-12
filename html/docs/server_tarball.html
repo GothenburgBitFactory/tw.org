@@ -47,146 +47,170 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="start"></a>
-                <p class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/tutorials/30second.html">30-Second Tutorial</a></li>
-                    <li><a class="alert-link" href="/docs/tutorials/">Complete Tutorials</a></li>
-                    <li><a class="alert-link" href="/docs/glossary.html">Glossary of Terms</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="task"></a>
-                <p class="text-large"><strong>Using Taskwarrior</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
-                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
-                    <li>
-                      Commands
-                      <ul>
-                        <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                        <li><a href="/docs/commands/columns.html"><code>columns</code> command</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/docs/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
-                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
-                    <li><a href="/docs/urgency.html">Urgency</a></li>
-                    <li><a href="/docs/ids.html">ID Numbers</a></li>
-                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
-                    <li><a href="/tools/">External Scripts</a></li>
-                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
-                    <li><a href="/docs/json.html">JSON Import/Export Format</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="taskd"></a>
-                <p class="text-large"><strong>Taskserver</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/server_why.html">Why do I need a Taskserver?</a></li>
-                    <li><a href="/docs/server_setup.html">Setting up your own Taskserver</a></li>
-                    <li>Operations Guide</li>
-                    <li><a href="/docs/ciphers.html">Cipher Selection</a></li>
-                    <li><a href="/docs/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="feedback"></a>
-                <p class="text-large"><strong>Feedback</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
-                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="l10n"></a>
-                <p class="text-large"><strong>Translators</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Localizing Taskwarrior</li>
-                    <li>The <code>l10n</code> Utility</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="dev"></a>
-                <p class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
-                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="about"></a>
-                <p class="text-large"><strong>About</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/history.html">Release History</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="installation"></a>
+            <h3><span class="label label-success">2.2</span> Installation</h3>
+            <p>
+              Installing Taskserver from a tarball is a matter of downloading
+              the tarball, extracting it, and building the server.
+            </p>
+
+            <a name="depends"></a>
+            <h4>Dependencies</h4>
+            <p>
+              Before building the software, you will need to satisfy the
+              dependencies by installing the following:
+
+              <ul>
+                <li>GnuTLS</li>
+                <li>libuuid</li>
+                <li>cmake (2.8 or later)</li>
+                <li>make</li>
+                <li>A C++ Compiler</li>
+              </ul>
+
+              Note that some OSes (Darwin, FreeBSD ...) include libuuid
+              functionality in libc.
+            </p>
+
+            <p>
+              You don't necessarily need the latest version of all components,
+              but it is a good idea if you can.  GnuTLS is a security component,
+              and as such, it is more important that it is current.
+            </p>
+
+            <a name="download"></a>
+            <h4>Download</h4>
+            <p>
+              The next step is to obtain the code. This means getting the
+              Task Server 1.0.0 (or newer) source tarball.  You should check
+              for the latest stable release here:
+            </p>
+
+            <p>
+              <a href="http://taskwarrior.org/download/">http://taskwarrior.org/download/</a>
+            </p>
+
+            <p>
+              You can download the tarball with <code>curl</code>, for just one
+              of many ways to download the tarball.
+            </p>
+
+            <pre>$ curl -O http://taskwarrior.org/download/taskd-1.0.0.tar.gz</pre>
+
+            <a name="build"></a>
+            <h4>Build</h4>
+            <p>
+              Expand the tarball, and build the Taskserver.
+
+              Notice that the code is built in the home directory. Naturally you
+              can build the code anywhere you wish.
+            </p>
+
+            <pre>$ tar xzf taskd-1.0.0.tar.gz
+$ cd taskd-1.0.0
+$ cmake .
+...
+$ make
+...</pre>
+
+            <a name="test"></a>
+            <h4>Test</h4>
+            <p>
+              Having built the server, now build and run the unit tests.
+              Although this is an optional step, it is a good idea to know
+              whether the build was successful.
+            </p>
+
+            <pre>$ cd test
+$ make
+...
+$ ./run_all
+
+Pass:     2920
+Fail:        0
+Skipped:     0
+Runtime:     1 seconds
+
+$ cd ..
+$</pre>
+
+            <p>
+              This example shows that all 2,920 tests pass.  If you see test
+              failures, stop and report them.
+            </p>
+
+            <a name="install"></a>
+            <h4>Install</h4>
+            <p>
+              Now install Taskserver.  This copies files into the right place,
+              and installs man pages.
+            </p>
+
+            <pre>$ sudo make install
+...</pre>
+
+            <a name="verify"></a>
+            <h4>Verify</h4>
+            <p>
+              Run the <code>taskd</code> command to verify that the server is
+              installed, and the location is in your $PATH.
+            </p>
+
+            <pre>$ taskd
+
+Usage: taskd -v|--version
+       taskd -h|--help
+       taskd diagnostics
+       taskd validate &lt;JSON | file&gt;
+       taskd help [&lt;command&gt;]
+
+Commands run only on server:
+       taskd add     [options] org   &lt;org&gt;
+       taskd add     [options] group &lt;org&gt; &lt;group&gt;
+       taskd add     [options] user  &lt;org&gt; &lt;user&gt;
+       taskd config  [options] [--force] [&lt;name&gt; [&lt;value&gt;]]
+       taskd init    [options]
+       taskd remove  [options] org   &lt;org&gt;
+       taskd remove  [options] group &lt;org&gt; &lt;group&gt;
+       taskd remove  [options] user  &lt;org&gt; &lt;user&gt;
+       taskd resume  [options] org   &lt;org&gt;
+       taskd resume  [options] group &lt;org&gt; &lt;group&gt;
+       taskd resume  [options] user  &lt;org&gt; &lt;user&gt;
+       taskd server  [options] [--daemon]
+       taskd status  [options]
+       taskd suspend [options] org   &lt;org&gt;
+       taskd suspend [options] group &lt;org&gt; &lt;group&gt;
+       taskd suspend [options] user  &lt;org&gt; &lt;user&gt;
+
+Commands run remotely:
+       taskd client  [options] &lt;host:port&gt; &lt;file&gt; [&lt;file&gt; ...]
+
+Common Options:
+  --quiet        Turns off verbose output
+  --debug        Generates debugging diagnostics
+  --data &lt;root&gt;  Data directory, otherwise $TASKDDATA
+  --NAME=VALUE   Temporary configuration override
+</pre>
+          </div>
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#feedback">Feedback</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
-            <li><a class="alert-link" href="#about">About</a></li>
+            <li><a class="alert-link" href="#installation">Installation</a></li>
+            <li><a class="alert-link" href="#depends">Dependencies</a></li>
+            <li><a class="alert-link" href="#download">Download</a></li>
+            <li><a class="alert-link" href="#build">Build</a></li>
+            <li><a class="alert-link" href="#test">Test</a></li>
+            <li><a class="alert-link" href="#install">Install</a></li>
+            <li><a class="alert-link" href="#verify">Verify</a></li>
           </ul>
         </div>
       </div>
