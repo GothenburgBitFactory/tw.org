@@ -1,7 +1,7 @@
 html                   {position: relative; min-height: 100%}
-body                   {margin-top: 20px; margin-bottom: 150px}
+body                   {margin-top: 20px}
 
-#footer                {position: absolute; bottom:0; width:100%; background-color:#222}
+#footer                {bottom:0; width:100%; background-color:#222}
 
 .banner                {padding-top:48px; padding-bottom:48px; padding:30px; margin-bottom:0px; color:inherit; background-color:#eee}
 
@@ -17,7 +17,7 @@ body                   {margin-top: 20px; margin-bottom: 150px}
 .callout-info h4       {color:#5bc0de}
 .callout h4            {margin-top:0;margin-bottom:5px}
 
-body > .container      {padding: 60px 15px 0}
+body > .container      {padding: 60px 15px 0 150px}
 .container .text-muted {margin: 20px 0}
 #footer > .container   {}
 
