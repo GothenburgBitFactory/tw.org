@@ -47,148 +47,83 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="start"></a>
-                <p class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/tutorials/30second.html">30-Second Tutorial</a></li>
-                    <li><a class="alert-link" href="/docs/tutorials/">Complete Tutorials</a></li>
-                    <li><a class="alert-link" href="/docs/glossary.html">Glossary of Terms</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="task"></a>
-                <p class="text-large"><strong>Using Taskwarrior</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
-                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
-                    <li>
-                      Commands
-                      <ul>
-                        <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                        <li><a href="/docs/commands/columns.html"><code>columns</code> command</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/docs/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
-                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
-                    <li><a href="/docs/urgency.html">Urgency</a></li>
-                    <li><a href="/docs/ids.html">ID Numbers</a></li>
-                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
-                    <li><a href="/tools/">External Scripts</a></li>
-                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
-                    <li><a href="/docs/json.html">JSON Import/Export Format</a></li>
-                    <li><a href="/docs/deprecated.html">Deprecated Features</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="taskd"></a>
-                <p class="text-large"><strong>Taskserver</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/server_why.html">Why do I need a Taskserver?</a></li>
-                    <li><a href="/docs/server_setup.html">Setting up your own Taskserver</a></li>
-                    <li>Operations Guide</li>
-                    <li><a href="/docs/ciphers.html">Cipher Selection</a></li>
-                    <li><a href="/docs/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="feedback"></a>
-                <p class="text-large"><strong>Feedback</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
-                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="l10n"></a>
-                <p class="text-large"><strong>Translators</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Localizing Taskwarrior</li>
-                    <li>The <code>l10n</code> Utility</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="dev"></a>
-                <p class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
-                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="about"></a>
-                <p class="text-large"><strong>About</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/history.html">Release History</a></li>
-                    <li><a href="/docs/license.html">MIT License</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Deprecated Features</h3>
+            <p>
+              Taskwarrior and Taskserver have many features. With each release
+              new features are added, and sometimes features are removed. A
+              feature may be removed if it has been superceded by something
+              better, is no longer relevant, or is very troublesome.
+            </p>
+
+            <p>
+              Before a feature is removed, it is deprecated. This means that it
+              will appear on this list, in one release, and be removed in a
+              potentially unspecified subsequent release. Deprecation acts as
+              early warning for disappearing functionaity, giving users time to
+              adapt or complain.
+            </p>
+
+            <p>
+              When a feature is removed, the configuration settings are also
+              removed.  You can see if your <code>.taskrc</code> contains any
+              obsolete settings by using the <code>show</code> command:
+            </p>
+
+            <pre>$ task show
+...</pre>
+
+            <p>
+              The <code>show</code> command highlights various problems.
+            </p>
+
+            <h3>Taskwarrior</h3>
+
+            <a name="sync"></a>
+            <h4>Push/Pull/Merge <span class="label label-info">Deprecated 2.3.0</span> <span class="label label-danger">Gone 2.4.0</span></h4>
+            <p>
+              Starting with Taskwarrior 2.3.0, the <code>push</code>,
+              <code>pull</code> and <code>merge</code> commands are deprecated,
+              and gone from 2.4.0. The <code>sync</code> command in 2.3.0
+              replaces this functionality.
+            </p>
+
+            <a name="shadow"></a>
+            <h4>Shadow Files</h4>
+            <p>
+              Starting in 2.4.0, shadow files are deprecated, to be replaced by
+              an equivalent hook mechanism in an unspecified future release.
+            </p>
+
+            <a name="attmods"></a>
+            <h4>Attribute Modifiers</h4>
+            <p>
+              Attribute modifiers such as <code>project.startswith:Ab</code>
+              are all deprecated starting with version 2.4.0. In the example
+              above, the replacement is an algebraic expression,
+              <code>project ~ ^ab</code>, which uses the <code>~</code> regex
+              match operator, and <code>^Ab</code> which is a regular expression.
+            </p>
+
+            <h3>Taskserver</h3>
+            <p>
+              None yet.
+            </p>
+          </div>
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#feedback">Feedback</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
-            <li><a class="alert-link" href="#about">About</a></li>
+            <li><a href="#shadow">Shadow Files</a></li>
+            <li><a href="#attmods">Attribute Modifiers</a></li>
+            <li><a href="#sync">Push/Pull/Merge</a></li>
           </ul>
         </div>
       </div>
