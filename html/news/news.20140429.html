@@ -46,206 +46,51 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          The latest news and blog articles.
-        </p>
+      <div class="col-md-2 main">
       </div>
 
-      <div class="col-md-10 main">
+      <div class="col-md-8 main">
         <div class="row">
-          <table class="table table-striped">
-            <!-- Latest -->
-            <!--
-            <tr>
-              <td>
-                <h4><a href=""></a> <small></small></h4>
-                <p>
-                </p>
-              </td>
-            </tr>
-            -->
+          <h3>Teaching the Parser New Tricks <small>2014-04-29</small></h3>
+          <p>
+            With Taskwarrior version 2.4.0, we are building a better command
+            line parser. In addition to fixing a lot of annoying little bugs,
+            we would like it to be more flexible and robust. That means it will
+            be able to handle more strange inputs than before, but can it do
+            better?
+          </p>
 
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140429.html">Teaching the Parser New Tricks</a> <small>2014-04-29</small></h4>
-                <p>
-                  With Taskwarrior version 2.4.0, we are building a better command
-                  line parser. In addition to fixing a lot of annoying little bugs,
-                  we would like it to be more flexible and robust. That means it will
-                  be able to handle more strange inputs than before, but can it do
-                  better?
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140412.html">Taskserver Documentation Update</a> <small>2014-04-12</small></h4>
-                <p>
-                  The Taskserver setup documentation has been significantly improved.
-                  The main setup page is:
-                </p>
+          <p>
+            We would like to see your most strange, supported or unsupported,
+            twisted, Taskwarrior command line that you think should
+            <em>just work</em>.
+          </p>
 
-                <p>
-                  <a href="/docs/server_setup.html">Setting up your own Taskserver</a>
-                </p>
+          <p>
+            For example, we dislike escaping shell characters, so I want this to
+            <em>just work</em>:
+          </p>
 
-                <p>
-                  The sub pages now cover single topics:
-                  ...
-                </p>
-              </td>
-            </tr>
+            <pre>$ task "(project = foo or project = bar) and +tag" list</pre>
 
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140407.html">Q &amp; A Site Launched</a> <small>2014-04-07</small></h4>
-                <p>
-                  The new Q &amp; A site is live! Take a look at the site, which can
-                  be found here:
-                </p>
+          <p>
+            We want to be able to quote the whole command line as one big
+            argument, so the parentheses don't need to be individually escaped.
+          </p>
 
-                <p>
-                  <a href="https://answers.tasktools.org">https://answers.tasktools.org</a>
-                </p>
+          <p>
+            What do you want to <em>just work</em>? Please submit answers here:
+            <a href="https://answers.tasktools.org/questions/1114275/what-is-your-most-complexawful-taskwarrior-command-line">https://answers.tasktools.org</a>
+          </p>
 
-                <p>
-                  There is a searchable knowledge base of community-provided questions
-                  and answers. The answers are voted and selected, good answers
-                  becomes more prominent, bad answers sink lower.  You know how it
-                  works.
-                  ...
-                </p>
-              </td>
-            </tr>
+          <p>
+            <a href="https://bug.tasktools.org/secure/Signup!default.jspa">Registration</a> for the site is here.  Thank you.
+          </p>
 
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140406.html">Vit 1.2 is released</a> <small>2014-04-06</small></h4>
-                <p>
-                  Version 1.2 of the VIT front-end for Taskwarrior is available for download now.
-                </p>
-
-                <p>
-                  Download here: <a href="/download/vit-1.2.tar.gz">vit-1.2.tar.gz</a>.
-                </p>
-
-                <p>
-                  See the
-                  <a href="http://taskwarrior.org/news/news.20140220.html">VIT 1.2 beta1 announcement</a>
-                  for the features introduced in 1.2.
-                  ...
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140309.html">System Status Pages</a> <small>2014-03-09</small></h4>
-                <p>
-                  New system status pages are online, which provide up to the minute
-                  status for the various services now online.
-
-                  The first is a Pingdom public report showing
-                  <a href="http://status.tasktools.org/">system status</a>
-                  of the bug system, git hosting, web services and others.
-
-                  Check this page for outages.
-                </p>
-                <p>
-                  The second is an
-                  <a href="http://statuspage.tasktools.org/">operations information</a>
-                  page from
-                  <a href="http://statuspage.io/">StatusPage.io</a>
-                  which shows status, uptime, response time and incidents.
-                  ...
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140303.html">Atlassian Licences</a> <small>2014-03-03</small></h4>
-                <p>
-                  We have received the very generous donation of software licences
-                  from Atlassian.  This allows us to fully utilize Jira, Stash and
-                  Confluence Questions giving us high quality, integrated
-                  infrastructure, which in
-                  ...
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140227.html">New Site Live</a> <small>2014-02-27</small></h4>
-                <p>
-                  We have shut off the old website, and replaced it with this.
-                  Although this site is a fraction of the size, it nevertheless
-                  has much less redundancy, and no obsolete documents.
-                  ...
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140226.html">Registrations Disabled</a> <small>2014-02-26</small></h4>
-                <p>
-                  We have shut off the registration of users on this site. This is
-                  part of our ongoing migration to new systems. This taskwarrior.org
-                  site content will be replaced soon, but the URLs will not change.
-                  ...
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140220.html">VIT 1.2 beta1 is available</a> <small>2014-02-20</small></h4>
-                <p>
-                  Beta1 of the VIT front-end for Taskwarrior is available for download now.
-                  Download here:
-                  <a href="http://taskwarrior.org/download/vit-1.2.beta1.tar.gz">vit-1.2.beta1.tar.gz</a>.
-                  VIT 1.2 brings a customizable way to interact with your tasks with
-                  user-defined shortcuts. You can now define keys to launch external
-                  ...
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140217.html">Server Migration</a> <small>2014-02-17</small></h4>
-                <p>
-                  As we migrate to our new servers, you'll find that the services are
-                  being migrated first, and the content follows after. We are taking
-                  this opportunity to reorganize everything...
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <h4><a href="/news/news.20140212.html">Git Migration</a> <small>2014-02-12</small></h4>
-                <p>
-                  The new repository manager, Stash, is running on the new server
-                  <code>https://git.tasktools.org</code>.
-                  The old server will still be active for a little while longer, but
-                  ...
-                </p>
-              </td>
-            </tr>
-          </table>
         </div>
       </div>
 
-      <div class="col-md-2">
-        <div class="alert alert-info">
-          <img src="/images/wordpress.png">
-          Take a look at our
-          <a class="alert-link" href="http://taskwarrior.wordpress.com/">Technical Blog</a>.
-        </div>
+      <div class="col-md-2 main">
       </div>
     </div>
 
