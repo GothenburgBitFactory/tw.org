@@ -212,11 +212,13 @@ $ task 2 rm</pre>
           <dt><a name="entry"></a>entry</dt>
           <dd>
             <p>
-              When a task is first created, it is assigned an <code>entry</code>
-              date. This attribute is used to calculate the age of a task.
+              When a task is first created, it is automatically assigned an
+              <code>entry</code> date. This attribute is used to calculate the
+              age of a task. This date is modifiable, should you wish to enter
+              an old task.
             </p>
-            <p>
-            </p>
+
+            <h4>&nbsp;</h4>
           </dd>
 
           <dt><a name="en_passant"></a>en-passant</dt>
@@ -498,9 +500,37 @@ $ task -HOME list</pre>
             <h4>&nbsp;</h4>
           </dd>
 
+          <dt><a name="wait"></a>wait</dt>
+          <dd>
+            <p>
+              If you add a <code>wait</code> date to a task like this:
+            </p>
+
+            <pre>$ task 1 modify wait:30th</pre>
+
+            <p>
+              Then the task is hidden from reports until the 30th of the month,
+              whereupon the wait date is removed, and the task becomes visible.
+            </p>
+            <p>
+              This is useful for tasks that are far into the future, where you
+              may not appreciate seeing that task on every list, at least until
+              it gets closer to the due date.
+            </p>
+
+            <p>
+              Note that a due date is not required to use this feature.
+            </p>
+
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="waiting"></a>waiting</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            The <code>waiting</code> command is a report that shows tasks that
+            are currently hidden because they have a future <code>wait</code>
+            date.
+
             <h4>&nbsp;</h4>
           </dd>
 
@@ -557,6 +587,7 @@ $ task -HOME list</pre>
             <li><a class="alert-link" href="#urgency">urgency</a></li>
             <li><a class="alert-link" href="#uuid">UUID</a></li>
             <li><a class="alert-link" href="#vtag">virtual tag</a></li>
+            <li><a class="alert-link" href="#wait">wait</a></li>
             <li><a class="alert-link" href="#waiting">waiting</a></li>
           </ul>
         </div>
