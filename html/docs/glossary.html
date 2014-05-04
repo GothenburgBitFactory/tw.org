@@ -412,7 +412,25 @@ pi * r^2</pre>
 
           <dt><a name="scheduled"></a>scheduled</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              The <code>scheduled</code> date represents the first opportunity
+              to begin work on a task, and therefore typically is set to be on
+              or after the <a href="#wait">wait</a> date, but before the
+              <a href="#due">due</a> date.
+            </p>
+
+            <p>
+              If you add a schedule date to a task, like this:
+            </p>
+
+            <pre>$ task 1 modify scheduled:2014-12-31</pre>
+
+            <p>
+              Then this task will be considered <em>ready</em> after that date.
+              The <a href="#vtag">virtual tag</a> <code>READY</code> reflects
+              this, and the report <code>ready</code> shows such tasks.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
