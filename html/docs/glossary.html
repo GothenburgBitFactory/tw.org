@@ -229,6 +229,16 @@ $ task 2 rm</pre>
             <h4>&nbsp;</h4>
           </dd>
 
+          <dt><a name="end"></a>end</dt>
+          <dd>
+            <p>
+              When a task is completed or deleted, it is given an
+              <code>end</code> date.
+            </p>
+
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="entry"></a>entry</dt>
           <dd>
             <p>
@@ -372,7 +382,14 @@ pi * r^2</pre>
 
           <dt><a name="ready"></a>ready</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              Ready is the name of a report that shows ready tasks. A task is
+              considered <em>ready</em> if it is pending, is not blocked, and
+              either has no
+              <a href="#scheduled">scheduled</a>
+              date, or has one that is before now.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
@@ -420,7 +437,7 @@ pi * r^2</pre>
             </p>
 
             <p>
-              If you add a schedule date to a task, like this:
+              If you add a scheduled date to a task, like this:
             </p>
 
             <pre>$ task 1 modify scheduled:2014-12-31</pre>
@@ -442,7 +459,33 @@ pi * r^2</pre>
 
           <dt><a name="stag"></a>special tag</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              A special tag is one that, when applied to a task, changes the
+              behavior of Taskwarrior for that task.  There are several special
+              tags supported:
+            </p>
+
+            <p>
+              <table class="table table-compact table-striped">
+                <tr>
+                  <td>+nocolor</td>
+                  <td>Disable color rules processing for this task</td>
+                </tr>
+                <tr>
+                  <td>+nonag</td>
+                  <td>Completion of this task suppresses all nag messages</td>
+                </tr>
+                <tr>
+                  <td>+nocal</td>
+                  <td>This task will not appear on the calendar</td>
+                </tr>
+                <tr>
+                  <td>+next</td>
+                  <td>Elevates task so it appears on 'next' report</td>
+                </tr>
+              </table>
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
@@ -457,7 +500,7 @@ pi * r^2</pre>
             </p>
 
             <pre>$ task 1 start
-$ task 1 modfiy start:now</pre>
+$ task 1 modify start:now</pre>
 
             <p>
               If the configuration setting <code>journal.info</code> is on,
@@ -515,7 +558,7 @@ $ task 1 modfiy start:now</pre>
               until date like this:
             </p>
 
-            <pre>$ task 1 modifiy until:eoy</pre>
+            <pre>$ task 1 modify until:eoy</pre>
 
             <p>
               Then this task will expire and disappear at the end of the year.
@@ -642,6 +685,7 @@ $ task -HOME list</pre>
             <li><a class="alert-link" href="#deleted">deleted</a></li>
             <li><a class="alert-link" href="#dependency">dependency</a></li>
             <li><a class="alert-link" href="#due">due</a></li>
+            <li><a class="alert-link" href="#end">end</a></li>
             <li><a class="alert-link" href="#entry">entry</a></li>
             <li><a class="alert-link" href="#en_passant">en-passant</a></li>
             <li><a class="alert-link" href="#export">export</a></li>
