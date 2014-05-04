@@ -306,6 +306,14 @@ pi * r^2</pre>
             <h4>&nbsp;</h4>
           </dd>
 
+          <dt><a name="info"></a>info</dt>
+          <dd>
+            <p>
+            </p>
+            <span class="label label-info">TBD</span>
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="iso"></a>ISO-8601</dt>
           <dd>
             <span class="label label-info">TBD</span>
@@ -397,6 +405,37 @@ pi * r^2</pre>
           <dt><a name="stag"></a>special tag</dt>
           <dd>
             <span class="label label-info">TBD</span>
+            <h4>&nbsp;</h4>
+          </dd>
+
+          <dt><a name="start"></a>start</dt>
+          <dd>
+            <p>
+              If you apply a <code>start</code> date to a task, then the task
+              is considered 'active'. Active tasks have a higher urgency value,
+              and can be listed using the <code>active</code> command. There
+              are two ways to apply a start date, the latter giving you control
+              over the recorded start date:
+            </p>
+
+            <pre>$ task 1 start
+$ task 1 modfiy start:now</pre>
+
+            <p>
+              If the configuration setting <code>journal.info</code> is on,
+              then when a task is started or stopped, an
+              <a href="#annotation">annotation</a>
+              is made to that effect.  The cumulative start/stop times can be
+              viewed in the <a href="#info">info</a> report.
+            </p>
+
+            <p>
+              Note that this does not imply there is time tracking in
+              Taskwarrior, this is simply a log of start/stop times, and is not
+              modifiable. Many users confuse this log with legitimate time
+              tracking capabilities. Don't make this mistake.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
@@ -565,6 +604,7 @@ $ task -HOME list</pre>
             <li><a class="alert-link" href="#hooks">hooks</a></li>
             <li><a class="alert-link" href="#import">import</a></li>
             <li><a class="alert-link" href="#infix">Infix</a></li>
+            <li><a class="alert-link" href="#info">info</a></li>
             <li><a class="alert-link" href="#iso">ISO-8601</a></li>
             <li><a class="alert-link" href="#json">JSON</a></li>
             <li><a class="alert-link" href="#key">key</a></li>
@@ -578,6 +618,7 @@ $ task -HOME list</pre>
             <li><a class="alert-link" href="#scheduled">scheduled</a></li>
             <li><a class="alert-link" href="#shadow_file">shadow file</a></li>
             <li><a class="alert-link" href="#stag">special tag</a></li>
+            <li><a class="alert-link" href="#start">start</a></li>
             <li><a class="alert-link" href="#substitution">substitution</a></li>
             <li><a class="alert-link" href="#sync">sync</a></li>
             <li><a class="alert-link" href="#tag">tag</a></li>
