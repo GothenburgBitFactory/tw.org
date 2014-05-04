@@ -205,7 +205,27 @@ $ task 2 rm</pre>
 
           <dt><a name="due"></a>due</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              A due date may be applied to a task, like this:
+            </p>
+
+            <pre>$ task 1 modify due:25th</pre>
+
+            <p>
+              A task with a due date has a higher urgency value, and generally
+              sorts higher in reports. The due date is considered the date on
+              which the task must be completed.
+            </p>
+
+            <p>
+              A task is consided due, if the due date is within 7 days in the
+              future. The '7' is configurable via the <code>due</code>
+              configuration setting.  If a due date is further into the future
+              it is not considered due.  If the due date is in the past, it is
+              considered overdue, and these tasks are shown in the
+              <code>overdue</code> report.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
@@ -412,10 +432,10 @@ pi * r^2</pre>
           <dd>
             <p>
               If you apply a <code>start</code> date to a task, then the task
-              is considered 'active'. Active tasks have a higher urgency value,
-              and can be listed using the <code>active</code> command. There
-              are two ways to apply a start date, the latter giving you control
-              over the recorded start date:
+              is considered <em>active</em>. Active tasks have a higher urgency
+              value, and can be listed using the <code>active</code> command.
+              There are two ways to apply a start date, the latter giving you
+              control over the recorded start date:
             </p>
 
             <pre>$ task 1 start
