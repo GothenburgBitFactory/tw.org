@@ -19,24 +19,6 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
-    <!--
-    <script type="text/javascript">
-    /* <![CDATA[ */
-        (function() {
-            var s = document.createElement('script');
-            var t = document.getElementsByTagName('script')[0];
-
-            s.type = 'text/javascript';
-            s.async = true;
-            s.src = '//api.flattr.com/js/0.6/load.js?'+
-                    'mode=auto&uid=taskwarrior&language=en_US&category=text';
-
-            t.parentNode.insertBefore(s, t);
-        })();
-    /* ]]> */
-    </script>
-    -->
   </head>
 
   <body>
@@ -53,7 +35,7 @@
         </div>
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/news/">News</a></li>
             <li><a href="/docs/">Docs</a></li>
             <li><a href="/download/">Download</a></li>
             <li><a href="/support/">Support</a></li>
@@ -63,199 +45,50 @@
       </div>
     </div>
 
-<!--
-    <div class="banner">
-      <div class="container">
-        <p>
-          foo
-        </p>
-      </div>
-    </div>
--->
-
     <div class="container">
-      <div class="col-md-9 main">
+      <div class="col-md-2 main">
+      </div>
+
+      <div class="col-md-8 main">
         <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="email"></a>
-                <p class="text-large"><strong>News</strong></p>
-              </td>
-              <td>
-                <table>
-                  <tr>
-                    <td>
-                      <!-- Item 1 -->
-                      <h4><a href="/news/news.20140510.html">Swiss Ubucon Taskwarrior Workshop</a> <small>2014-05-10</small></h4>
-                      <span class="text-muted">
-                        <p>
-                          On Saturday May 10th 2014, Dirk Deimeke presented a Taskwarrior
-                          workshop at
-                          <a href="https://wiki.ubuntu.com/SwissTeam/">Swiss Ubucon</a>.
-
-                          Dirk also previewed the new command reference shown here:
-                        </p>
-
-                        <p>
-                          <div class="col-xs-12 col-sm-12">
-                          <div class="col-xs-6 col-sm-6">
-                            <a href="/news/images/ref230.png" class="thumbnail">
-                              <img src="/news/images/ref230.png">
-                            </a>
-                          </div>
-                          </div>
-                        </p>
-                      </span>
-
-                      <!-- Item 2 -->
-                      <h4><a href="/news/news.20140429.html">Teaching the Parser New Tricks</a> <small>2014-04-29</small></h4>
-                      <span class="text-muted">
-                        <p>
-                          With Taskwarrior version 2.4.0, we are building a better command
-                          line parser. In addition to fixing a lot of annoying little bugs,
-                          we would like it to be more flexible and robust. That means it will
-                          be able to handle more strange inputs than before, but can it do
-                          better?
-                          ...
-                        </p>
-                      </span>
-
-                      <!-- Item 3 -->
-                      <h4><a href="/news/news.20140412.html">Taskserver Documentation Update</a> <small>2014-04-12</small></h4>
-                      <span class="text-muted">
-                        <p>
-                          The Taskserver setup documentation has been significantly improved.
-                          The main setup page is:
-                        </p>
-
-                        <p>
-                          <a href="/docs/server_setup.html">Setting up your own Taskserver</a>
-                        </p>
-
-                        <p>
-                          The sub pages now cover single topics:
-                          ...
-                        </p>
-                      </span>
-
-                      <!-- Item 4 -->
-                      <h4><a href="/news/news.20140407.html">Q &amp; A Site Launched</a> <small>2014-04-07</small></h4>
-                      <span class="text-muted">
-                        <p>
-                          The new Q &amp; A site is live! Take a look at the site, which can
-                          be found here:
-                        </p>
-
-                        <p>
-                          <a href="https://answers.tasktools.org">https://answers.tasktools.org</a>
-                        </p>
-
-                        <p>
-                          There is a searchable knowledge base of community-provided questions
-                          and answers. The answers are voted and selected, good answers
-                          becomes more prominent, bad answers sink lower.  You know how it
-                          works.
-                          ...
-                        </p>
-                      </span>
-
-                      <!-- Item 5 -->
-                      <h4><a href="/news/news.20140406.html">Vit 1.2 is released</a> <small>2014-04-06</small></h4>
-                      <span class="text-muted">
-                        <p>
-                          Version 1.2 of the VIT front-end for Taskwarrior is available for download now.
-                          Download here: <a href="/download/vit-1.2.tar.gz">vit-1.2.tar.gz</a>.
-                        </p>
-                        <p>
-                          See the
-                          <a href="http://taskwarrior.org/news/news.20140220.html">VIT 1.2 beta1 announcement</a>
-                          for the features introduced in 1.2.
-                          ...
-                        </p>
-                      </span>
-
-                      <!-- There is no item 6, to keep the list short. -->
-                    </td>
-                  </tr>
-                </table>
-                <br />
-                <a href="/news/">More news...</a>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="email"></a>
-                <p class="text-large"><strong>Help</strong></p>
-              </td>
-              <td>
-                <p>
-                  Need help? Take a look at our
-                  <a href="/support/">support page</a>.
-                </p>
-                <p>
-                  Looking to learn?  Take a look at our
-                  <a href="/docs/">online documentation</a>.
-                </p>
-              </td>
-            </tr>
-          </table>
-        </div>
-      </div>
-
-      <div class="col-md-3">
-        <div class="alert alert-success">
-          <h4>Welcome</h4>
+          <h3>Swiss Ubucon Taskwarrior Workshop <small>2014-05-10</small></h3>
           <p>
-            <small>
-              Taskwarrior is an open-source cross platform command-line task
-              management tool.  It allows you to capture, annotate, manipulate
-              and present your tasks, then sync them among devices.
-            </small>
+            On Saturday May 10th 2014, Dirk Deimeke presented a Taskwarrior
+            workshop at
+            <a href="https://wiki.ubuntu.com/SwissTeam/">Swiss Ubucon</a>.
           </p>
-        </div>
 
-        <div class="alert alert-info">
-          <h4>Sponsors</h4>
-          <ul class="list-unstyled">
-            <li>
-              <a href="http://www.rackspace.com/">
-                Hosting&nbsp;by&nbsp;&nbsp;<img src="/images/rackspace.jpg" width=95 height=39 alt="Hosting provided by Rackspace.">
+          <p>
+            Dirk presented a live demo, with a handout PDF (which we will link
+            here soon) that covers every aspect including downloading, building,
+            installing, setup, first use, all the way to some of the more
+            complex use cases.
+          </p>
+
+          <p>
+            Dirk also previewed the new command reference shown here:
+          </p>
+
+          <p>
+            <div class="col-xs-12 col-sm-12">
+            <div class="col-xs-6 col-sm-6">
+              <a href="/news/images/ref230.png" class="thumbnail">
+                <img src="/news/images/ref230.png">
               </a>
-            </li>
-            <li>&nbsp;</li>
-            <li>
-              <a href="http://www.atlassian.com">
-                DevTools&nbsp;by&nbsp;&nbsp;<img src="/images/logoAtlassianPNG.png" width=95 height=29 alt="Dev Tools provided by Atlassian.">
-              </a>
-            </li>
-            <li>&nbsp;</li>
-            <li>
-              <a href="http://www.pingdom.com/">
-                Monitoring&nbsp;by&nbsp;&nbsp;<img src="/images/pingdom3.png" width=93 height=24 alt="Monitoring provided by Pingdom.">
-              </a>
-            </li>
-            <li>&nbsp;</li>
-            <li>
-              <a href="http://www.statuspage.io/">
-                Statuspage&nbsp;by&nbsp;&nbsp;<img src="/images/statuspage.png" width=93 height=18 alt="Statuspage provided by Statuspage.">
-              </a>
-            </li>
-            <li>&nbsp;</li>
-            <li>
-              <a href="/about.html">
-                <img src="/images/gbf.png" width=10 height=16 alt="Infrastructure provided by Göteborg Bit Factory.">
-                Göteborg Bit factory
-              </a>
-            </li>
-          </ul>
+            </div>
+            </div>
+          </p>
+
+          <p>
+            You can get the
+            <a href="/download/task-2.3.0.ref.pdf">Reference Sheet PDF</a>
+            from the download page.
+          </p>
+
         </div>
       </div>
-    </div>
 
-    <!-- Occupy some vertical space -->
-    <div class="container">
-      <div class="col-md-3 main">
+      <div class="col-md-2 main">
       </div>
     </div>
 
