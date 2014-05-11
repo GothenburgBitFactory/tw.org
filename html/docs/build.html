@@ -47,149 +47,140 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="start"></a>
-                <p class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/tutorials/30second.html">30-Second Tutorial</a></li>
-                    <li><a class="alert-link" href="/docs/tutorials/">Complete Tutorials</a></li>
-                    <li><a class="alert-link" href="/docs/glossary.html">Glossary of Terms</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="task"></a>
-                <p class="text-large"><strong>Using Taskwarrior</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
-                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
-                    <li>
-                      Commands
-                      <ul>
-                        <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                        <li><a href="/docs/commands/columns.html"><code>columns</code> command</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/docs/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
-                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
-                    <li><a href="/docs/urgency.html">Urgency</a></li>
-                    <li><a href="/docs/ids.html">ID Numbers</a></li>
-                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
-                    <li><a href="/tools/">External Scripts</a></li>
-                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
-                    <li><a href="/docs/json.html">JSON Import/Export Format</a></li>
-                    <li><a href="/docs/deprecated.html">Deprecated Features</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="taskd"></a>
-                <p class="text-large"><strong>Taskserver</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/server_why.html">Why do I need a Taskserver?</a></li>
-                    <li><a href="/docs/server_setup.html">Setting up your own Taskserver</a></li>
-                    <li>Operations Guide</li>
-                    <li><a href="/docs/ciphers.html">Cipher Selection</a></li>
-                    <li><a href="/docs/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="feedback"></a>
-                <p class="text-large"><strong>Feedback</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
-                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="l10n"></a>
-                <p class="text-large"><strong>Translators</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Localizing Taskwarrior</li>
-                    <li>The <code>l10n</code> Utility</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="dev"></a>
-                <p class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/build.html">How To Build Taskwarrior</a></li>
-                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
-                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="about"></a>
-                <p class="text-large"><strong>About</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/history.html">Release History</a></li>
-                    <li><a href="/docs/license.html">MIT License</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="how"></a>
+            <h3>How To Build Taskwarrior</h3>
+            <p>
+              This is for developers. Specifically those who know how to use
+              tools, satisfy dependencies, and want to set up a development
+              environment. It is not user-friendly.
+            </p>
+
+            <p>
+              You'll need these tools:
+              <ul>
+                <li><a href="http://git-scm.com/">git</a></li>
+                <li><a href="http://cmake.org">cmake</a></li>
+                <li>make</li>
+                <li>C++ compiler</li>
+                <li>Python 2.7 (for tests)</li>
+                <li>Perl 5 (for tests)</li>
+                <li><a href="http://www.cpan.org/modules/by-module/JSON/">Perl 5 JSON Module</a></li>
+                <li>Bash (for tests)</li>
+              </ul>
+            </p>
+
+            <p>
+              You'll need these libraries:
+              <ul>
+                <li><a href="http://www.gnutls.org/">GnuTLS (optional)</a></li>
+                <li>libreadline (required for shell)</li>
+                <li>libuuid (unless on Darwin)</li>
+              </ul>
+            </p>
+
+            <a name="clone"></a>
+            <h3>Cloning the Repo</h3>
+            <p>
+              For those of you with Stash accounts on
+              <a href="https://git.tasktools.org">git.tasktools.org</a>:
+            </p>
+
+            <pre>$ git clone ssh://git@git.tasktools.org/tm/task.git task.git</pre>
+
+            <p>
+              General public:
+            </p>
+
+            <pre>$ git clone https://git.tasktools.org/scm/tm/task.git task.git</pre>
+
+            <a name="build"></a>
+            <h3>Building the Dev Branch</h3>
+            <p>
+              The dev branch is always the highest numbered branch, ending with
+              <code>.0</code>, in this example, <code>2.4.0</code>. The branches
+              that end in <code>.[0-9]</code> are patch releases, and those
+              branches are only populated via cherry-pick.
+            </p>
+
+              <pre>$ cd task.git
+$ git checkout 2.4.0                 # Dev branch
+$ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
+$ make VERBOSE=1                     # Shows details</pre>
+
+            <p>
+              Build the debug type if you want symbols in the binary.
+            </p>
+
+            <a name="tests"></a>
+            <h3>Running the Test Suite</h3>
+            <p>
+              There are scripts to facilitate running the test suite. In
+              particular, the
+              <a href="http://tasktools.org/projects/vramsteg.html">vramsteg</a>
+              utility provides blinkenlights for test progress.
+            </p>
+
+            <pre>$ cd task.git/tests
+$ make VERBOSE=1     # Shows details
+$ ./run_all          # Runs all tests silently &gt; all.log
+$ ./problems         # Find errors in all.log</pre>
+
+            <a name="patch"></a>
+            <h3>Submitting a Patch</h3>
+            <p>
+              Talk to us first - make sure you are working on something that is
+              wanted. Remember the various forms of documentation involved, and
+              the test suite. Work on the dev branch, not <code>master</code>.
+              When you are are ready to submit, do this:
+            </p>
+
+            <pre>$ git commit</pre>
+
+            <p>
+              Follow the standard form for commit messages. Create the patch
+              using this:
+            </p>
+
+            <pre>$ git format-patch HEAD^</pre>
+
+            <p>
+              Mail the patch to
+              <a href="mailto:support@taskwarrior.org">support@taskwarrior.org</a>
+              or attach it to the appropriate ticket in the
+              <a href="https://bug.tasktools.org">bug tracker</a>.
+              If you do the latter, make sure someone knows about it, or it
+              could go unnoticed.
+            </p>
+
+            <p>
+              Expect feedback. It is unlikely your patch will be accepted
+              unmodified. Usually this is because you violated the coding
+              style, worked in the wrong branch, or <em>forgot</em> about
+              documentation and unit tests.
+            </p>
+
+            <br />
+            <br />
+            <br />
+
+          </div>
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#feedback">Feedback</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
-            <li><a class="alert-link" href="#about">About</a></li>
+            <li><a class="alert-link" href="#how">How To Build Taskwarrior</a></li>
+            <li><a class="alert-link" href="#clone">Cloning the Repo</a></li>
+            <li><a class="alert-link" href="#build">Building the Dev Branch</a></li>
+            <li><a class="alert-link" href="#tests">Running the Test Suite</a></li>
+            <li><a class="alert-link" href="#patch">Submitting a Patch</a></li>
           </ul>
         </div>
       </div>
