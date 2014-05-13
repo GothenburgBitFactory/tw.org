@@ -56,8 +56,8 @@
             <h3>Troubleshooting Sync</h3>
             <p>
               This page is updated to reflect the latest information and help
-              available. If there is something you think should be discussed
-              here, please tell us.
+              available. If there is something you think should be listed here,
+              please tell us.
             </p>
 
             <a name="tw"></a>
@@ -65,14 +65,14 @@
             <p>
               <ul>
                 <li>Are you using Taskwarrior 2.3.0 or later? If not, upgrade.</li>
-                <li>Did you build Taskwarrior from git? If so, have you updated recently, and are you on the correct branch?</li>
+                <li>Did you build Taskwarrior from git? If so, have you updated recently, and are you on the correct branch?  Remember, the <code>master</code> brnach always represents the most recently released version.</li>
                 <li>Did you build Taskwarrior from source, and if so, which version of GnuTLS did you use?</li>
-                <li>Cert, key installed and readable?</li>
+                <li>Cert, key installed, readable and not empty?  Making sure it is not empty is important.</li>
                 <li>Configuration properly points to cert/key?</li>
                 <li>taskd.credentials correct?</li>
                 <li>Are you using a self-signed cert? If so, did you specify taskd.ca or set taskd.trust=yes?</li>
                 <li>Have you upgraded from a very old version of Taskwarrior ending up having duplicate UUIDs?</li>
-                <li>Set <code>debug.tls=2</code> in the configuration. You get great TLS diagnostics that way.</li>
+                <li>Set <code>debug.tls=2</code> in the configuration. You get detailed TLS diagnostics that way.</li>
               </ul>
             </p>
 
@@ -81,7 +81,7 @@
             <p>
               <ul>
                 <li>Are you using Taskserver version 1.0.0 or later? If not, upgrade.</li>
-                <li>Did you build Taskserver from git? If so, have you updated recently, and are you on the correct branch?</li>
+                <li>Did you build Taskserver from git? If so, have you updated recently, and are you on the correct branch?  Remember, the <code>master</code> brnach always represents the most recently released version.</li>
                 <li>Did you build Taskserver from source, and if so, which version of GnuTLS did you use?</li>
                 <li>If you built from source, did the demo work?</li>
                 <li>Is the server running? Check with <code>ps -leaf | grep taskd</code>.</li>
@@ -91,7 +91,7 @@
                 <li>Did you follow the instructions for setup exactly? This is the largest cause of misconfiguration.</li>
                 <li>Setting <code>debug.tls=2</code> for both client and server generates diagnostic output that can help diagnose problems with TLS handshake, certs, keys, and ciphers. For Taskserver, with <code>debug.tls=2</code>, run the server interactively rather than as a daemon, to see the diagnostics.</li>
                 <li>Setting <code>ciphers</code> (Taskserver) or <code>taskd.ciphers</code> (Taskwarrior) can force the use of different ciphers. Use <code>gnutls-cli --list</code> to see a list of installed ciphers, and confirm that there is overlap between client and server.</li>
-                <li>In the event of a self-signed cert being used, is the CA cert configured?</li>
+                <li>In the event of a self-signed cert being used, is the CA cert configured?  Does the cert file have contents?</li>
                 <li>Alternatively, is <code>taskd.trust=yes</code> set for Taskwarrior?</li>
               </ul>
             </p>
