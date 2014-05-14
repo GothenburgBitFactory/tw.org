@@ -53,16 +53,200 @@
 
         <div class="col-md-10 main">
           <div class="row">
+            <div class="callout callout-danger">
+              <h4>Draft</h4>
+              <p>
+                This is a draft design document. Your feedback is welcomed.
+              </p>
+            </div>
+
             <a name="hooks"></a>
             <h3>Hooks</h3>
             <p>
+              A hook system is a way to call out to other programs/scripts
+              at certain points in Taskwarrior's execution, so that processing
+              can be influenced. These callout points correspond to locations
+              in the code where some critical processing is occurring.
+            </p>
+
+            <p>
+              When certain Taskwarrior code is executed, a program/script is
+              run, and when it completes, Taskwarrior resumes. We call this a
+              hook script being triggered by an event.  Data is passed between
+              Taskwarrior and the hook script.
+            </p>
+
+            <p>
+              The hook scripts may be written in any suitable programming
+              language, which means they will need to read from standard input,
+              write to standard output, optionally parse JSON, and exit with a
+              specific status code.
+            </p>
+
+            <p>
+              There is no configuration required for the hook scripts - their
+              presence and accessibility is all that is required.
             </p>
 
             <a name="events"></a>
             <h4>Events</h4>
             <p>
+              Hooks are triggered by events, and the list of supported events
+              is kept delibrately short.
+
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td><code>on-launch</code></td>
+                  <td>
+                    This event is triggered at launch, after the initialization
+                    of all data structures, but before any processing.  This
+                    event provides an opportunity to prevent launch.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>on-exit</code></td>
+                  <td>
+                    This event is triggered after all processing, but immediately
+                    before output is shown, which is the last opportunity to run
+                    and contribute output.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>on-add</code></td>
+                  <td>
+                    This event is triggered when a new task is created, after
+                    the data has been processed, but before the task is saved.
+                    This event provides an opportunity to deny the creation of
+                    the task, or modify it.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>on-modify</code></td>
+                  <td>
+                    This event is triggered when an existing task is modified,
+                    after the data has been read and processed, but before the
+                    task is saved. This event provides an opportunity to deny
+                    the modification of the task, or further modify it.
+                  </td>
+                </tr>
+              </table>
+
+              Task completion and deletion are considered modifications.
             </p>
 
+            <a name="git"></a>
+            <h4>The Git Model</h4>
+            <p>
+              Following the Git model, a hook script need only exist in a
+              specific location, possess a recognizable name, and be executable.
+            </p>
+
+            <p>
+              The location for hooks scripts is by default
+              <code>~/.task/hooks</code>, which is itself defined by the
+              <code>rc.data.location</code> setting.  A hook script must either
+              reside in this location, or be symbolically linked into this
+              location.
+
+              The name of the hook script should be of the form:
+            </p>
+
+            <pre>&lt;event&gt;[&lt;identifier&gt;]</pre>
+
+            <p>
+              Some examples being:
+            </p>
+
+            <pre>on-add
+on-add.01
+on-add-require-project</pre>
+
+            <p>
+              The event in the name indicates when the script is run, and the
+              identifier allows multiple hooks scripts for the same event, easy
+              identificaton from the name, and a defined order of execution.
+            </p>
+
+            <p>
+              When there are multiple scripts for the same event, the order of
+              execution is the collating sequence of the script name.
+
+              A hook script can be disabled by simply removing execute
+              permission.
+            </p>
+
+            <a name="interfaces"></a>
+            <h4>Interfaces</h4>
+            <p>
+              The hook scripts have different responsibilities, depending on
+              the type of hook. Some are provided with JSON, some are expected
+              to indicate that processing should continue or stop. All can
+              provide error messages.
+            </p>
+
+            <h5>Interface: on-launch</h5>
+            <p class="bg-danger">
+              Not yet defined.
+            </p>
+
+            <h5>Interface: on-exit</h5>
+            <p class="bg-danger">
+              Not yet defined.
+            </p>
+
+            <h5>Interface: on-add</h5>
+            <p class="bg-danger">
+              Not yet defined.
+            </p>
+
+            <h5>Interface: on-modify</h5>
+            <p class="bg-danger">
+              Not yet defined.
+            </p>
+
+            <a name="impact"></a>
+            <h4>Impact</h4>
+            <p>
+              The hook system is visible in other ways:
+
+              <ul>
+                <li>
+                  The <code>diagnostics</code> command will enumerate hook
+                  scripts, indicating that the script is executable.  This will
+                  help when diagnosing hook problems.
+                </li>
+
+                <li>
+                  In debug mode (<code>rc.debug=1</code>) the hook scripts run
+                  will be listed with their exit status and run time.
+                </li>
+
+                <li>
+                  In debug mode (<code>rc.debug=1</code>) all hook scripts will
+                  be timed, and the cumulative time indicated.  It is anticipated
+                  that hook scripts will have a longer run time than Taskwarrior,
+                  and this should be measured.
+                </li>
+              </ul>
+            </p>
+
+            <a name="examples"></a>
+            <h4>Examples</h4>
+            <p>
+              Here are some example uses for hooks. These are not intended to
+              represent good ideas, but represent a variety of needs.
+              <ol>
+                <li>Policy enforcement: referencing issues, description length, project values</li>
+                <li>Shadow files</li>
+                <li>User defined special tags</li>
+                <li>Automatic priority escalation</li>
+                <li>Automated data backup</li>
+                <li>Making certain tasks read-only</li>
+                <li>Disabling features like recurrence or priorities</li>
+                <li>Spell-checking</li>
+                <li>Preventing use of profanity</li>
+              </ol>
+            </p>
           </div>
         </div>
       </div>
@@ -72,6 +256,10 @@
           <ul class="list-unstyled">
             <li><a class="alert-link" href="#hooks">Hooks</a></li>
             <li><a class="alert-link" href="#events">Events</a></li>
+            <li><a class="alert-link" href="#git">The Git Model</a></li>
+            <li><a class="alert-link" href="#interfaces">Interfaces</a></li>
+            <li><a class="alert-link" href="#impact">Impact</a></li>
+            <li><a class="alert-link" href="#examples">Examples</a></li>
           </ul>
         </div>
       </div>
