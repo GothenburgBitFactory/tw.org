@@ -47,37 +47,66 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          This is where design documents (RFCs) will be kept.
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="rfc"></a>
-                <p class="text-large"><strong>RFCs</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/design/hooks.html">Hooks</a></li>
-                    <li><a class="alert-link" href="/docs/design/recurrence.html">Recurrence</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <div class="callout callout-danger">
+              <h4>Draft</h4>
+              <p>
+                This is a draft design document. Your feedback is welcomed.
+              </p>
+            </div>
+
+            <a name="recurrence"></a>
+            <h3>Recurrence</h3>
+            <p>
+              Recurring tasks are currently limited in many ways, and can cause
+              problems when syncing.  A redesign of recurrence should address
+              all of this.  The limitations include:
+
+              <ul>
+                <li>
+                  A <code>mask</code> attribute that can grow unbounded.
+                </li>
+                <li>
+                  Only strict recurrence cycles are support. The example of
+                  mowing the lawn is that you want to mow the lawn every seven
+                  days, but when you are four days late mowing the lawn, the
+                  next mowing should be in another sevent days, not another
+                  three.
+                </li>
+                <li>
+                  Child tasks generated on one maching and then synced, may
+                  collide with equivalent unsynched child tasks on another
+                  device, because the UUIDs are different.
+                </li>
+                <li>
+                  You cannot <code>wait</code> a recurring task and have that
+                  wait period propagate to all other child tasks. The problem
+                  is that the <code>wait</code> date is evaluated before
+                  being stored, and needs to be evaluated ever time. This is
+                  known as 'lazy dates'.
+                </li>
+              </ul>
+            </p>
+
+            <p>
+            </p>
+
+            <p>
+            </p>
+
+          </div>
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#rfc">RFCs</a></li>
+            <li><a class="alert-link" href="#recurrence">Recurrence</a></li>
           </ul>
         </div>
       </div>
