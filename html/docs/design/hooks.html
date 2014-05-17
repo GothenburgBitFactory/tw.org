@@ -72,7 +72,7 @@
             <p>
               When certain Taskwarrior code is executed, a program/script is
               run, and when it completes, Taskwarrior resumes. We call this a
-              hook script being triggered by an event.  Data is passed between
+              hook script being triggered by an event. Data is passed between
               Taskwarrior and the hook script.
             </p>
 
@@ -99,7 +99,7 @@
                   <td><code>on-launch</code></td>
                   <td>
                     This event is triggered at launch, after the initialization
-                    of all data structures, but before any processing.  This
+                    of all data structures, but before any processing. This
                     event provides an opportunity to prevent launch.
                   </td>
                 </tr>
@@ -144,7 +144,7 @@
             <p>
               The location for hooks scripts is by default
               <code>~/.task/hooks</code>, which is itself defined by the
-              <code>rc.data.location</code> setting.  A hook script must either
+              <code>rc.data.location</code> setting. A hook script must either
               reside in this location, or be symbolically linked into this
               location.
 
@@ -162,9 +162,10 @@ on-add.01
 on-add-require-project</pre>
 
             <p>
-              The event in the name indicates when the script is run, and the
-              identifier allows multiple hooks scripts for the same event, easy
-              identificaton from the name, and a defined order of execution.
+              The event in the name indicates when the script is run and must
+              exactly match the event name. The optional identifier allows for
+              multiple scripts processing the same event, easy identificaton
+              from the name, and a defined order of execution.
             </p>
 
             <p>
@@ -184,25 +185,159 @@ on-add-require-project</pre>
               provide error messages.
             </p>
 
-            <h5>Interface: on-launch</h5>
-            <p class="bg-danger">
-              Not yet defined.
+            <h5>Interface: <code>on-launch</code></h5>
+            <p>
+              This event triggers once on launch.
+              If a task is added/modified it <em>will</em> trigger other events.
+
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td>Input</td>
+                  <td>Nothing is provided on stdin</td>
+                </tr>
+                <tr>
+                  <td>Output</td>
+                  <td>
+                    <ul>
+                      <li>All emitted JSON lines must be fully-formed tasks, one per line.</li>
+                      <li>All emitted non-JSON lines are considered feedback messages.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Exit Code</td>
+                  <td>
+                    0 Means:
+                    <ul>
+                      <li>all emitted JSON lines are added/modifiied</li>
+                      <li>all emitted non-JSON lines become footnote entries</li>
+                    </ul>
+                    1 Means:
+                    <ul>
+                      <li>all emitted JSON lines are ignored</li>
+                      <li>all emitted non-JSON lines become error entries</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
             </p>
 
-            <h5>Interface: on-exit</h5>
-            <p class="bg-danger">
-              Not yet defined.
+            <h5>Interface: <code>on-exit</code></h5>
+            <p>
+              The on-exit event is triggered once, after all processing is
+              complete
+              No tasks are modified by this event.
+
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td>Input</td>
+                  <td>A read-only line of JSON for each task added/modified</td>
+                </tr>
+                <tr>
+                  <td>Output</td>
+                  <td>
+                    <ul>
+                      <li>All emitted JSON lines must be fully-formed tasks, one per line.</li>
+                      <li>All emitted non-JSON lines are considered feedback messages.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Exit Code</td>
+                  <td>
+                    0 Means:
+                    <ul>
+                      <li>all emitted non-JSON lines become footnote entries</li>
+                    </ul>
+                    1 Means:
+                    <ul>
+                      <li>all emitted non-JSON lines become error entries</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
             </p>
 
-            <h5>Interface: on-add</h5>
-            <p class="bg-danger">
-              Not yet defined.
+            <h5>Interface: <code>on-add</code></h5>
+            <p>
+              The on-add event is triggered separately for each task added.
+              If a task is added/modified it <em>will</em> trigger other events.
+
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td>Input</td>
+                  <td>A line of JSON for the task added</td>
+                </tr>
+                <tr>
+                  <td>Output</td>
+                  <td>
+                    <ul>
+                      <li>All emitted JSON lines must be fully-formed tasks, one per line.</li>
+                      <li>All emitted non-JSON lines are considered feedback messages.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Exit Code</td>
+                  <td>
+                    0 Means:
+                    <ul>
+                      <li>all emitted JSON lines are added/modifiied</li>
+                      <li>all emitted non-JSON lines become footnote entries</li>
+                    </ul>
+                    1 Means:
+                    <ul>
+                      <li>all emitted JSON lines are ignored</li>
+                      <li>all emitted non-JSON lines become error entries</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
             </p>
 
-            <h5>Interface: on-modify</h5>
-            <p class="bg-danger">
-              Not yet defined.
+            <h5>Interface: <code>on-modify</code></h5>
+            <p>
+              The on-modify event is triggered separately for each task added
+              or modified.
+              If a task is added/modified it <em>will</em> trigger other events.
+
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td>Input</td>
+                  <td>
+                    <ul>
+                      <li>A line of JSON for the original task</li>
+                      <li>A line of JSON for the modified task</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Output</td>
+                  <td>
+                    <ul>
+                      <li>All emitted JSON lines must be fully-formed tasks, one per line.</li>
+                      <li>All emitted non-JSON lines are considered feedback messages.</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Exit Code</td>
+                  <td>
+                    0 Means:
+                    <ul>
+                      <li>all emitted JSON lines are added/modifiied</li>
+                      <li>all emitted non-JSON lines become footnote entries</li>
+                    </ul>
+                    1 Means:
+                    <ul>
+                      <li>all emitted JSON lines are ignored</li>
+                      <li>all emitted non-JSON lines become error entries</li>
+                    </ul>
+                  </td>
+                </tr>
+              </table>
             </p>
+
 
             <a name="impact"></a>
             <h4>Impact</h4>
@@ -212,7 +347,7 @@ on-add-require-project</pre>
               <ul>
                 <li>
                   The <code>diagnostics</code> command will enumerate hook
-                  scripts, indicating that the script is executable.  This will
+                  scripts, indicating that the script is executable. This will
                   help when diagnosing hook problems.
                 </li>
 
@@ -223,11 +358,24 @@ on-add-require-project</pre>
 
                 <li>
                   In debug mode (<code>rc.debug=1</code>) all hook scripts will
-                  be timed, and the cumulative time indicated.  It is anticipated
+                  be timed, and the cumulative time indicated. It is anticipated
                   that hook scripts will have a longer run time than Taskwarrior,
                   and this should be measured.
                 </li>
               </ul>
+            </p>
+
+            <a name="safety"></a>
+            <h4>Safety</h4>
+            <p>
+              With any hook system there are potential problems which involve
+              race conditions, infinite loops and runaway cascading effects.
+              Various measures are taken to mitigate these problems.
+            </p>
+
+            <p class="bg-danger">
+              Except there aren't any yet, but there need to be some, once they
+              are identified. To be completed.
             </p>
 
             <a name="examples"></a>
@@ -260,6 +408,7 @@ on-add-require-project</pre>
             <li><a class="alert-link" href="#git">The Git Model</a></li>
             <li><a class="alert-link" href="#interfaces">Interfaces</a></li>
             <li><a class="alert-link" href="#impact">Impact</a></li>
+            <li><a class="alert-link" href="#safety">Safety</a></li>
             <li><a class="alert-link" href="#examples">Examples</a></li>
           </ul>
         </div>
