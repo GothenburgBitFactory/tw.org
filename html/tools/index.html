@@ -57,7 +57,14 @@
           </p>
           <p>
             Do you have a taskwarrior extension you'd like to see listed here?
+            Do you have any corrections to suggest?
             Please tell us about it.
+          </p>
+          <p>
+            Legend:
+            <span class="bg-danger">&nbsp;Unsupported&nbsp;</span>
+            &nbsp;
+            <span class="bg-warning">&nbsp;Obsolete&nbsp;</span>
           </p>
           <p>
             &nbsp;
@@ -91,30 +98,30 @@
               <td>2.0.0+</td>
             </tr>
             <tr>
-              <td><a href="https://github.com/mjheagle8/tasknc">tasknc</a></td>
+              <td><a href="http://mirakel.azapps.de/index.html">mirakel-android</a></td>
               <td>
-                Tasknc is an ncurses shell.
-                See http://taskwarrior.org/boards/6/topics/2173 for details.
+                Todo list app for Android which also syncs with taskwarrior.
+                <a href="http://mirakel.azapps.de/taskwarrior.html">Documentation</a>
                 <br />
-                <small>Github:&nbsp;https://github.com/mjheagle8/tasknc on Github.</small>
-                <br />
-                <small>Author: Mike H</small>
+                <small>Author: Anatolij Zelenin, Georg Semmler</small>
               </td>
-              <td>Unknown</td>
-              <td>Unknown</td>
+              <td>GPLv3</td>
+              <td>Taskserver 1.0.0 and 1.1.0-dev</td>
             </tr>
             <tr>
-              <td><a href="http://taskwarror.org/wiki/Taskhelm">Taskhelm</a></td>
+              <td><a href="http://inthe.am/">Inthe.AM</a></td>
               <td>
-                Taskhelm is a graphical interface for task warrior.  It also
-                includes
-                <a href="http://taskwarrior.org/projects/taskwarrior/wiki/Tasknote">Tasknote</a>
-                functionality, project activity management, and more.
+                A modern web frontend for accessing your tasks
                 <br />
-                <small>Author: by Bryce W. Harrington.</small>
+                <small>
+                  Author:
+                  <a href="https://github.com/coddingtonbear/inthe.am/graphs/contributors">
+                    Adam Coddington & others
+                  </a>
+                </small>
               </td>
-              <td>Unknown</td>
-              <td>2.1.2 or earlier</td>
+              <td>AGPLv3</td>
+              <td>2.3.0+</td>
             </tr>
             <tr>
               <td><a href="https://github.com/grovesteyn/tchart.git">tchart</a></td>
@@ -142,15 +149,71 @@
               <td>Unknown</td>
             </tr>
             <tr>
-              <td><a href="http://mirakel.azapps.de/index.html">mirakel-android</a></td>
+              <td><a href="https://github.com/mjheagle8/tasknc">tasknc</a></td>
               <td>
-                Todo list app for Android which also syncs with taskwarrior.
-                <a href="http://mirakel.azapps.de/taskwarrior.html">Documentation</a>
+                Tasknc is an ncurses shell.
+                See http://taskwarrior.org/boards/6/topics/2173 for details.
                 <br />
-                <small>Author: Anatolij Zelenin, Georg Semmler</small>
+                <small>Github:&nbsp;https://github.com/mjheagle8/tasknc on Github.</small>
+                <br />
+                <small>Author: Mike H</small>
               </td>
-              <td>GPLv3</td>
-              <td>Taskserver 1.0.0 and 1.1.0-dev</td>
+              <td>Unknown</td>
+              <td>Unknown</td>
+            </tr>
+            <tr>
+              <td><a href="http://github.com/farseer90718/vim-taskwarrior">vim-taskwarrior</a></td>
+              <td>
+                A full-featured, interactive interface for taskwarrior using vim
+                <br />
+                <small>Github:&nbsp;http://github.com/farseer90718/vim-taskwarrior</small>
+                <br />
+                <small>Author: zc he</small>
+              </td>
+              <td>MIT</td>
+              <td>2.2.0+</td>
+            </tr>
+            <tr class="danger">
+              <td><a href="http://taskwarror.org/wiki/Taskhelm">Taskhelm</a></td>
+              <td>
+                Taskhelm is a graphical interface for task warrior.  It also
+                includes
+                <a href="http://taskwarrior.org/projects/taskwarrior/wiki/Tasknote">Tasknote</a>
+                functionality, project activity management, and more.
+                <br />
+                <small>Author: by Bryce W. Harrington.</small>
+              </td>
+              <td>Unknown</td>
+              <td>2.1.2 or earlier</td>
+            </tr>
+          </table>
+        </div>
+
+        <div class="col-md-2 main">
+          <div class="alert alert-warning">
+            <ul class="list-unstyled">
+              <li><a class="alert-link" href="#frontends">Front Ends</a></li>
+              <li><a class="alert-link" href="#libraries">Libraries</a></li>
+              <li><a class="alert-link" href="#exts">Extensions</a></li>
+              <li><a class="alert-link" href="#forks">Forks</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <a name="libraries"></a>
+        <div class="col-md-2 main">
+          <p class="text-large"><strong>Libraries</strong></p>
+        </div>
+
+        <div class="col-md-8 main">
+          <table class="table table-striped">
+            <tr>
+              <th>Name</th>
+              <th>Description</th>
+              <th>License</th>
+              <th>Compatibility</th>
             </tr>
             <tr>
               <td><a href="http://tasklib.readthedocs.org/en/latest/">tasklib</a></td>
@@ -162,33 +225,7 @@
               <td>BSD 3 clause</td>
               <td>2.2.0, 2.3.0beta2</td>
             </tr>
-            <tr>
-              <td><a href="http://inthe.am/">Inthe.AM</a></td>
-              <td>
-                A modern web frontend for accessing your tasks
-                <br />
-                <small>
-                  Author:
-                  <a href="https://github.com/coddingtonbear/inthe.am/graphs/contributors">
-                    Adam Coddington & others
-                  </a>
-                </small>
-              </td>
-              <td>AGPLv3</td>
-              <td>2.3.0+</td>
-            </tr>
-
           </table>
-        </div>
-
-        <div class="col-md-2 main">
-          <div class="alert alert-warning">
-            <ul class="list-unstyled">
-              <li><a class="alert-link" href="#frontends">Front Ends</a></li>
-              <li><a class="alert-link" href="#exts">Extensions</a></li>
-              <li><a class="alert-link" href="#forks">Forks</a></li>
-            </ul>
-          </div>
         </div>
       </div>
 
@@ -505,13 +542,13 @@
               <td>Unknown</td>
             </tr>
             <tr>
-              <td><a href="https://github.com/umonkey/task-indicator">task-indicator</a></td>
+              <td><a href="http://umonkey.net/projects/task-indicator/index.en.html">task-indicator</a></td>
               <td>
                 A simple indicator application that helps do simple things with
                 Taskwarrior, like finding and adding tasks, starting and
                 stopping them, track current activity time, etc.
                 <br />
-                <small><a href="http://umonkey.net/task-indicator/en">Screenshots</a></small>
+                <small><a href="http://umonkey.net/projects/task-indicator/index.en.html">Screenshots</a></small>
                 <br />
                 <small>Author: Justin Forest</small>
               </td>
@@ -534,7 +571,7 @@
             <tr>
               <td><a href="https://github.com/teranex/taskquery">taskquery</a></td>
               <td>
-                A simply query interface for Taskwarrior.  This script let's you
+                A simply query interface for Taskwarrior.  This script lets you
                 on-the-fly specify which columns you want to see in a report and
                 how the result should be sorted. When you just want to create a
                 simple custom report which you are going to use once, this is
@@ -676,16 +713,6 @@
                 <small>Author: Fidel Mato</small>
               </td>
               <td>Unknown</td>
-              <td>Unknown</td>
-            </tr>
-            <tr>
-              <td><a href="https://github.com/teranex/taskquery">taskquery</a></td>
-              <td>
-                A simple query interface for Taskwarrior
-                <br />
-                <small>Author: Jeroen Budts</small>
-              </td>
-              <td>MIT</td>
               <td>Unknown</td>
             </tr>
             <tr>
