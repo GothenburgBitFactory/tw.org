@@ -486,6 +486,10 @@ pi * r^2</pre>
               </table>
             </p>
 
+            <p>
+              See <a href="#tag">Tag</a>, <a href="#vtag">Virtual Tags</a>.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
@@ -534,7 +538,32 @@ $ task 1 modify start:now</pre>
 
           <dt><a name="tag"></a>tag</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              A task may have any number of tags attached to it. A tag is
+              a single word (no spaces), and can be included when the task
+              is created:
+            </p>
+
+            <pre>$ task add Paint the walls +home +weekend</pre>
+
+            <p>
+              This adds two tags <code>home</code> and <code>weekend</code>
+              to the task.  You can modify a task to add a <code>renovate</code>
+              tag:
+            </p>
+
+            <pre>$ task 1 modify +renovate</pre>
+
+            <p>
+              Or remove a <code>weekend</code> tag:
+            </p>
+
+            <pre>$ task 1 modify -weekend</pre>
+
+            <p>
+              See <a href="#stag">Special Tags</a>, <a href="#vtag">Virtual Tags</a>.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
@@ -569,7 +598,59 @@ $ task 1 modify start:now</pre>
 
           <dt><a name="urgency"></a>urgency</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              The urgency of a task is a numeric quantity that represents task
+              attributes that convey importance. Consider these two tasks:
+            </p>
+
+            <pre>$ task add Buy the paint   due:saturday +home +renovate +store
+$ task add Paint the walls due:sunday   +home +renovate</pre>
+
+            <p>
+              The first task is due sooner, and there is no question that it is
+              more important than the second, after all, the second is blocked
+              by the first. Dependencies could be used here to represent this,
+              but this is just an example.
+            </p>
+
+            <p>
+              We would like the first task to sort higher than the second task,
+              in this case because of the due date. But not every task has
+              (or needs) a due date. Urgency is therefore a way to raise and
+              lower tasks in the sorted list.
+              This cannot be achieved by simply providing a complex sort order,
+              because usage patterns are different for everyone.
+            </p>
+
+            <p>
+              Urgency is a implemented as polynomial, where the term weights are
+              configurable to make an attribute an important contributor to
+              urgency (high positive number), a marginal contributor (low
+              positive number), a detractor (negative number) or have no
+              influence at all (zero).
+            </p>
+
+            <p>
+              While the urgency value in isolation is meaningless, when compared
+              to that of other tasks, helps order the tasks by importance.
+            </p>
+
+            <p>
+              The <code>urgency</code> attribute is featured in the
+              <code>next</code> report, although can be used in any report.
+            </p>
+
+            <p>
+              As the polynomial term weights (coefficients) are all modifiable,
+              you can tweak them to make the urgency value more closely match
+              your own notions of importance. Provided you understand the way
+              the coefficients are used, this can be very beneficial.
+            </p>
+
+            <p>
+              See <a href="/docs/urgency.html">Urgency</a>.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
@@ -591,6 +672,44 @@ $ task 1 modify start:now</pre>
 8ad2e3db-914d-4832-b0e6-72fa04f6e331
 $ task _get 8ad2e3db-914d-4832-b0e6-72fa04f6e331.id
 1</pre>
+
+            <p>
+              A UUID never changes, and is not modifiable.
+            </p>
+            <h4>&nbsp;</h4>
+          </dd>
+
+          <dt><a name="verbosity"></a>verbosity</dt>
+          <dd>
+            <p>
+              Verbosity refers to the output Taskwarrior generates. For example
+              if you run a report, the output might looks like this (data
+              excluded for clarity):
+            </p>
+
+            <pre>$ task next rc.color=off
+
+ID  Age  Project Tag Description               Urg
+--- ---- ------- --- ------------------------ ----
+  1 2wks    Home     Paint the walls           1.2
+...
+
+31 tasks
+Configuration override rc.color:off
+Filter: ( ( status == pending ) )</pre>
+
+            <p>
+              Aside from the actual data, there is an initial blank line, a set
+              of column headers, another blank line, the summary '31 tasks', the
+              configuration override, and the filter used. All of these
+              decorative elements, and more, are controlled by the verbosity
+              settings in the <code>verbose</code> configuration setting.
+            </p>
+
+            <p>
+              See <a href="/docs/verbosity.html">Verbosity</a>.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
@@ -627,6 +746,10 @@ $ task -HOME list</pre>
             </p>
 
             <pre>$ task start.any: list</pre>
+
+            <p>
+              See <a href="#tag">Tag</a>, <a href="#stag">Special Tags</a>.
+            </p>
 
             <h4>&nbsp;</h4>
           </dd>
@@ -720,6 +843,7 @@ $ task -HOME list</pre>
             <li><a class="alert-link" href="#until">until</a></li>
             <li><a class="alert-link" href="#urgency">urgency</a></li>
             <li><a class="alert-link" href="#uuid">UUID</a></li>
+            <li><a class="alert-link" href="#verbosity">verbosity</a></li>
             <li><a class="alert-link" href="#vtag">virtual tag</a></li>
             <li><a class="alert-link" href="#wait">wait</a></li>
             <li><a class="alert-link" href="#waiting">waiting</a></li>
