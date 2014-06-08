@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <div class="callout callout-danger">
+              <h4>Draft</h4>
+              <p>
+                This is a draft design document. Your feedback is welcomed.
+              </p>
+            </div>
+
+            <a name="title"></a>
+            <h3>Named Dates</h3>
+            <p>
+              The term 'date' is used here to describe a timestamp of varying
+              precision and specificity. The terms 'timestamp', or 'datetime'
+              also apply.
+            </p>
+
+            <p>
+              Taskwarrior supports the notion of specifying dates in several
+              ways. There are ISO-8601 dates:
+            </p>
+
+            <pre>2014-06-07T16:55:04-05:00
+2014-W23
+20140607</pre>
+
+            <p>
+              There are <code>rc.dateformat</code> dates, the default being
+              <code>Y-M-D</code>:
+            </p>
+
+            <pre>2014-06-07</pre>
+
+            <p>
+              This document enumerates and defines other dates, such as
+              <code>tomorrow</code> and many others.
+            </p>
+
+            <a name="days"></a>
+            <h4>Days of the Week</h4>
+            <p>
+              The days of the week are interpreted as the next day in the
+              future.  To specify a day in the past, use a different date
+              format.
+            </p>
+
+            <p>
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td><code>mon</code>, <code>monday</code></td>
+                  <td>
+                    The date of the nearest future monday at 0:00:00 local.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              The days are recognized in three-letter abbreviated form and the
+              full day name only.
+            </p>
+
+            <a name="ordinals"></a>
+            <h4>Day Ordinals</h4>
+            <p>
+              Day ordinals are the days in the month, numbered starting from 1,
+              to either the 28th, 29th, 30th or 31st, depending on the current
+              month.
+            </p>
+
+            <p>
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td><code>1st</code>, <code>2nd</code>, <code>3rd</code> ...</td>
+                  <td>
+                    The date of the nearest future Nth day at 0:00:00 local.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              Note that if today is February 20th, specifying <code>31st</code>
+              is an error, and does not mean March 31. For this, use a precise
+              date format.
+            </p>
+
+            <a name="months"></a>
+            <h4>Months of the Year</h4>
+            <p>
+              The months of the year are interpreted as the first day of the
+              next month of that name in the future.  To specify a month in the
+              past, use a different date format.
+            </p>
+
+            <p>
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td><code>jan</code>, <code>january</code></td>
+                  <td>
+                    The date of the nearest future January 1st, at 0:00:00
+                    local.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              The months are recognized in three-letter abbreviated form and the
+              full month name only.
+            </p>
+
+            <a name="year"></a>
+            <h4>Year Dates</h4>
+            <p>
+              Year dates are abbreviated names for dates within the year, that
+              occur at various boundaries. The abbreviations use 's' to mean the
+              start, and 'e' to mean the end of the period. The periods are
+              indicated using 'm' (month), 'q' (quarter) and 'y' (year). So the
+              date 'socy' means 'start of current year'.
+            </p>
+
+            <p>
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td><code>socy</code>, <code>eocy</code></td>
+                  <td>
+                    Start of the current year.
+                    End of the current year.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>socq</code>, <code>eocq</code></td>
+                  <td>
+                    Start of the current quarter.
+                    End of the current quarter.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>socm</code>, <code>eocm</code></td>
+                  <td>
+                    Start of the current month.
+                    End of the current month.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>soy</code>, <code>eoy</code></td>
+                  <td>
+                    Start of the next year.
+                    End of the year.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>soq</code>, <code>eoq</code></td>
+                  <td>
+                    Start of the next quarter.
+                    End of the quarter.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>som</code>, <code>eom</code></td>
+                  <td>
+                    Start of the next month.
+                    End of the month.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              There is redundancy in this table, and it exists for the sake of
+              symmetry. For example, 'eom' and 'eocm' are always the same, but
+              exist so that every date has a matching pair.
+            </p>
+
+            <p>
+              <div class="col-xs-12 col-sm-12">
+                <a href="/docs/design/year.png" class="thumbnail">
+                  <img src="/docs/design/year.png">
+                </a>
+              </div>
+            </p>
+
+            <a name="week"></a>
+            <h4>Week Dates</h4>
+            <p>
+              Week dates are abbreviated names for dates within the week, that
+              occur at various boundaries. The abbreviations use 's' to mean the
+              start, and 'e' to mean the end of the period. The periods are
+              indicated using 'd' (day), 'w' (week).
+            </p>
+
+            <p>
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td><code>socw</code>, <code>eocw</code></td>
+                  <td>
+                    Start of the current week.
+                    End of the current week.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>sow</code>, <code>eow</code></td>
+                  <td>
+                    Start of the next week.
+                    End of the week.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>soww</code>, <code>eoww</code></td>
+                  <td>
+                    Start of the next work week.
+                    End of the work week.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>sod</code>, <code>eod</code></td>
+                  <td>
+                    Start of today.
+                    End of today.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>yesterday</code></td>
+                  <td>
+                    Start of yesterday.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>today</code></td>
+                  <td>
+                    Start of today.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>now</code></td>
+                  <td>
+                    Right now.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>tomorrow</code></td>
+                  <td>
+                    Start of tomorrow.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              Again, there is redundancy in the table, for the sake of symmetry.
+            </p>
+
+            <p>
+              <div class="col-xs-12 col-sm-12">
+                <a href="/docs/design/week.png" class="thumbnail">
+                  <img src="/docs/design/week.png">
+                </a>
+              </div>
+            </p>
+
+            <a name="calculated"></a>
+            <h4>Calculated Dates</h4>
+            <p>
+              These dates are from algorithms, and easily calculated.
+            </p>
+
+            <p>
+              <table class="table table-striped table-compact">
+                <tr>
+                  <td><code>later</code>, <code>someday</code></td>
+                  <td>
+                    January 18th, 2038 - the end of time.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>easter</code>,
+                    <code>eastermonday</code>,
+                    <code>pentecost</code>,
+                    <code>ascension</code>,
+                    <code>goodfriday</code>
+                  </td>
+                  <td>
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>midsommarafton</code>, <code>midsommar</code></td>
+                  <td>
+                    First Friday and Saturday after 19th June.
+                    Time is 0:00:00 local.
+                  </td>
+                </tr>
+              </table>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#title">Named Dates</a></li>
+            <li><a class="alert-link" href="#days">Days of the Week</a></li>
+            <li><a class="alert-link" href="#ordinals">Day Ordinals</a></li>
+            <li><a class="alert-link" href="#months">Months of the Year</a></li>
+            <li><a class="alert-link" href="#year">Year Dates</a></li>
+            <li><a class="alert-link" href="#week">Week Dates</a></li>
+            <li><a class="alert-link" href="#calculated">Calculated Dates</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://flod.us/index2.html">flod.us</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+            <br />
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" width="16px" height="16px"> G+</a>
+            <br />
+            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" width="16px" height="16px"> Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
