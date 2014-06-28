@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="calc"></a>
+            <h3>Calc</h3>
+            <p>
+              Taskwarrior has a <code>calc</code> command that exposes the
+              algebraic expression evaluator used by all other commands and
+              filters. This is handy for quick calculations from the command
+              line, but cobmined with DOM access, can be very useful.
+            </p>
+
+            <a name="numbers"></a>
+            <h4>Numbers</h4>
+            <p>
+              This can be used to perform basic mathematics using the
+              <code>+</code>, <code>-</code>, <code>*</code> and <code>/</code>
+              operators:
+            </p>
+
+            <pre>$ task calc 1+2*3
+7</pre>
+
+            <p>
+              In the above example, care was taken to not allow that
+              <code>*</code> operator to be expanded by the shell into a list of
+              file in the current directory. The best solution to this is to
+              simply quote the expression.
+            </p>
+
+            <p>
+              In addition to integers, you can use real numbers and scientific
+              notation:
+            </p>
+
+            <pre>$ task calc '1.23e-4.5 ^ 2'
+1.5129e-8</pre>
+
+            <p>
+              In addition to exponentiation, <code>^</code>, there is the
+              <code>%</code> modulus operator.
+            </p>
+
+            <a name="boolean"></a>
+            <h4>Boolean</h4>
+            <p>
+              The <code>and</code>, <code>or</code>, <code>xor</code>,
+              <code>==</code>, <code>!==</code>, <code>=</code>, <code>!=</code>,
+              <code>!</code>, <code>~</code>, <code>!~</code>, <code>&lt;=</code>,
+              <code>&lt;</code>, <code>&gt;=</code>, and <code>&gt;</code>
+              operators allow Boolean expressions:
+            </p>
+
+            <pre>$ task calc true and false
+false
+$ calc true or false
+true
+$ calc true xor true
+false
+$ calc '1 &lt; 2 and -1 &lt; 0'
+true</pre>
+
+            <p>
+              A number can be converted to a Boolean value with a double negative:
+            </p>
+
+            <pre>$ task calc '!!3'
+true</pre>
+
+            <p>
+              Otherwise, type conversions are automatic.
+            </p>
+
+            <a name="text"></a>
+            <h4>Text</h4>
+            <p>
+              Text, or strings, can be manipulated in more limited ways, for
+              example there is concatenation:
+            </p>
+
+            <pre>$ task calc foo + bar
+foobar</pre>
+
+            <p>
+              Multiplication is supported in the form of replication:
+            </p>
+
+            <pre>$ task calc 'x * 40'
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx</pre>
+
+            <p>
+              There is support for regular expressions, using the <code>~</code>
+              match and <code>!~ </code> no-match operator:
+            </p>
+
+            <pre>$ task calc 'foo ~ f'
+true
+$ task calc 'foo !~ z'
+true
+$ task calc '"The quick brown fox" ~ "q"'
+true</pre>
+
+            <p>
+              Again, you'll need to protect the <code>~</code> and <code>!~</code>
+              characters from interpretation by the shell, and in the last
+              example, to protect the spaces in the sentence.
+            </p>
+
+            <a name="dates"></a>
+            <h4>Dates</h4>
+            <p>
+              With date support, basic date synonyms like <code>now</code>,
+              <code>today</code>, <code>yesterday</code> and <code>tomorrow</code>
+              are supported:
+            </p>
+
+            <pre>$ task calc now
+2014-06-28T12:44:07
+$ task calc today
+2014-06-28T00:00:00</pre>
+
+            <p>
+              Dates can be added, subtracted and compared, and combined with
+              durations:
+            </p>
+
+            <pre>$ task calc tomorrow + 2 weeks - 1d
+2014-07-12T00:00:00</pre>
+
+            <p>
+              The expression evaluator understand ISO-8601 date formats, and in
+              fact supports over 40 of them. For example when does week 40 start
+              in 2014?
+            </p>
+
+            <pre>$ task calc 2014W40
+2014-09-28T00:00:00</pre>
+
+            <p>
+              When is the FIFA Word Cup final, which starts at 4pm in Brasil
+              local time, shown in the EST (local) time zone?
+            </p>
+
+            <pre>$ task calc 2014-07-13T16:00:00-03:00
+2014-07-13T15:00:00</pre>
+
+            <a name="durations"></a>
+            <h4>Durations</h4>
+            <p>
+              A duration is either the difference between dates, or a specified
+              interval. Durations can be summed:
+            </p>
+
+            <pre>$ task calc 12h + 25m +30s
+PT12H25mPT30S</pre>
+
+            <p>
+              Subtracting dates yields a duration, here answering the question
+              of how much time is there between the end of this month (June 2014)
+              and the end of the year:
+            </p>
+
+            <pre>$ task calc eoy-eom
+P184DT1H</pre>
+
+            <p>
+              Note that the '1H' corresponds to the extra hour gained when
+              summer time ends.
+            </p>
+
+            <p>
+              When does the 32-bit <code>time_t</code> problem (Unix Epoch, Y2K38)
+              arrive?
+            </p>
+
+            <pre>$ task task calc later-now
+P23Y209DT11H55M11S</pre>
+
+            <p>
+              Looks like we have 23 years to deal with that. More importantly
+              though, how long until the FIFA World Cup final?
+            </p>
+
+            <pre>$ task calc 2014-07-13T15:00:00-03:00 - now
+P15DT1H11M46S</pre>
+
+            <p>
+              Durations are shown using the ISO-8601 designated format, using
+              only prescise units, that is, not in years or months.
+            </p>
+
+            <a name="dom"></a>
+            <h4>DOM Access</h4>
+            <p>
+              The expression evaluator has access to the Taskwarrior DOM, which
+              is a complete source of task information. This information can be
+              accessed and used in an expression using regular Taskwarrior DOM
+              references:
+            </p>
+
+            <pre>$ task calc '1.urgency &gt; 2.urgency'
+false</pre>
+
+            <p>
+              Because of DOM access, the <code>calc</code> command can mimic the
+              <code>_get</code> helper command.  In what year did I enter task
+              100?
+            </p>
+
+            <pre>$ task calc 100.entry.year
+2012</pre>
+
+            <p>
+              What week was that?
+            </p>
+
+            <pre>$ task calc 100.entry.week
+30</pre>
+
+            <a name="utility"></a>
+            <h4>Calc Utility</h4>
+            <p>
+              Taskwarrior has a standalone <code>calc</code> utility that has
+              the same features, with the exception of DOM access. This utility
+              is used for testing, but has a few interesting features of its
+              own.
+            </p>
+
+            <a name="postfix"></a>
+            <h4>Calc Postfix</h4>
+            <p>
+              Internally, the expression evaluator converts infix expressions
+              (1 + 2 * 3) to postfix (1 2 3 * +), which is easier to implement
+              and optimize, but <code>calc</code> exposes this:
+            </p>
+
+            <pre>$ calc --postfix '1 2 3 * +'
+7</pre>
+
+            <a name="debug"></a>
+            <h4>Calc Debugging</h4>
+            <p>
+              There is also support for a <code>--debug</code> commadn line
+              option, which displays the stack operations as the expression is
+              evaluated in postfix form.
+            </p>
+
+            <pre>$ calc --postfix --debug '1 2 3 * +'
+[0] eval push '1'
+[1] eval push '2'
+[2] eval push '3'
+[3] eval pop '3'
+[2] eval pop '2'
+[1] eval operator '*'
+[1] eval result push '6'
+[2] eval pop '6'
+[1] eval pop '1'
+[0] eval operator '+'
+[0] eval result push '7'
+7</pre>
+
+            <p>
+              You can see that the processing begins by pushing the three values
+              on to the stack, then two are popped when the <code>*</code> binary
+              operator is encountered. The two value are multiplied, and the
+              result, 6 is pushed back.
+            </p>
+
+            <p>
+              Next the <code>+</code> binary operator is encountered, which pops
+              two values off the stack, the sum, 7, is pushed back.
+            </p>
+
+            <p>
+              The number in brackets is the stack ѕize before the operation is
+              performed.
+            </p>
+
+            <p>
+              If there is a problem found with the Taskwarrior expression
+              evaluator, it can be verified and tested in this way, using the
+              <code>calc</code> utility.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#calc">Calc</a></li>
+            <li><a class="alert-link" href="#numbers">Numbers</a></li>
+            <li><a class="alert-link" href="#boolean">Boolean</a></li>
+            <li><a class="alert-link" href="#text">Text</a></li>
+            <li><a class="alert-link" href="#dates">Dates</a></li>
+            <li><a class="alert-link" href="#durations">Durations</a></li>
+            <li><a class="alert-link" href="#dom">DOM</a></li>
+            <li><a class="alert-link" href="#utility">Calc Utility</a></li>
+            <li><a class="alert-link" href="#postfix">Calc Postfix</a></li>
+            <li><a class="alert-link" href="#debug">Calc Debugggin</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://flod.us/index2.html">flod.us</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+            <br />
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" width="16px" height="16px"> G+</a>
+            <br />
+            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" width="16px" height="16px"> Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHPwYJKoZIhvcNAQcEoIIHMDCCBywCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBBCk8xDP0itbbUlqEdxezc2EBPFprkvY1dgZLt//2Fxa5MGC0sr5irXPhh5/9H71/xUDdXLAW48smxMStRgUPNaXtbH9tG+Js3yVRxObGc8c6QHUDFjbDdHZXMYigPCAFCXw69/oliYCkQ8ANt84MUjqns9HLJw8fmEzqOrgE89jELMAkGBSsOAwIaBQAwgbwGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIE0SOjNzcFHmAgZhdqtdPAqqb+31BfUMO6AP/M2BDs0lxsa0vdduAcvZ3P1Fi3xa8CgtKArZATuNFbL8+hCMC3qg5spEcX46mlDYFJp2H/13scfP5MDoOa+mxFVAHVRbN4smZsYNYjtw4i59FC4F2/2Zli6QTuGAcZbGNN5xcO4k6RjYHWade66XUYIItn47AeKAVTK9wS95uSxXNtY6TWFosOqCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTExMDcxODIyMTc1NFowIwYJKoZIhvcNAQkEMRYEFC9vnDkMVfzRa+R3epadnzsLl+pbMA0GCSqGSIb3DQEBAQUABIGAUZXskGTgWLLaulW/GTU5hxxBYeJFie8HNfGN0faR2wz4ec3eIFLrVU5bsX663p4gvoEH34PJFspYRDQwN+u09YPigMSAEc5gDQeUtVA7qKBLib2MWagcwXJR1OmJc7g/mqHp7gQ+QxTaG6UlKVSI6TB2vtgDXXa+Pwyv/O7C2ws=-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
