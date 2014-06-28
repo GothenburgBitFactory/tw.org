@@ -123,6 +123,38 @@ $ task 2 rm</pre>
             <h4>&nbsp;</h4>
           </dd>
 
+          <dt><a name="calc"></a>calc <span class="label label-success">2.4.0</span></dt>
+          <dd>
+            <p>
+              Taskwarrior includes a small utility program named <code>calc</code>
+              that uses the Taskwarrior expression engine to calculate values.
+              This utility mirrors the <code>calc</code> command.  Here is an
+              example:
+            </p>
+
+            <pre>$ calc '1 + 2 * 3'
+7</pre>
+
+            <p>
+              The <code>calc</code> utility is mostly for testing, and allows
+              access to internal features, such as postfix expressions:
+            </p>
+
+            <pre>$ calc --postfix '1 2 3 * +'
+7</pre>
+
+            <p>
+              While this is just a simple example, there is also support
+              for dates, durations, Boolean operations and many operators.
+            </p>
+
+            <p>
+              See <a href="/docs/calc.html">Calc Command</a> for full details.
+            </p>
+
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="certificate"></a>certificate</dt>
           <dd>
             <span class="label label-info">TBD</span>
@@ -877,6 +909,7 @@ $ task -HOME list</pre>
             <li><a class="alert-link" href="#alias">alias</a></li>
             <li><a class="alert-link" href="#annotation">annotation</a></li>
             <li><a class="alert-link" href="#attribute">attribute</a></li>
+            <li><a class="alert-link" href="#calc">calc</a></li>
             <li><a class="alert-link" href="#certificate">certificate</a></li>
             <li><a class="alert-link" href="#command">command</a></li>
             <li><a class="alert-link" href="#completed">completed</a></li>
