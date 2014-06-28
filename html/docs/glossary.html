@@ -298,7 +298,19 @@ pi * r^2</pre>
 
           <dt><a name="gc"></a>gc</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              Taskwarrior performs a Garbage Collect (gc) operation whenever it
+              is necessary. Tasks that are deleted and completed are moved from
+              the <code>pending.data</code> file to the <code>completed.data</code>
+              file. This process keeps the <code>pending.data</code> file compact
+              and fast to read, and keeps the ID numbers as low as possible.
+            </p>
+
+            <p>
+              Although gc can be disabled, to keep the ID numbers static,
+              <a href="/docs/ids.html">this is considered a bad idea</a>.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
