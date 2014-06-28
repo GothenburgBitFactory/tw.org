@@ -575,7 +575,56 @@ $ task 1 modify start:now</pre>
 
           <dt><a name="uda"></a>UDA</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              Taskwarrior supports a set of about 20 or so core attributes,
+              which include ID, descriptions, tags, due date and so on. These
+              attributes are necessary for the basic features provided.
+            </p>
+
+            <p>
+              But suppose you wanted to track a time estimate. There is no
+              attribute for that, although you could store data in an attribute.
+              A better solution is a User Defined Attribute, named
+              <code>estimate</code>, of type <code>numeric</code>, that you
+              define via configuration like this:
+            </p>
+
+            <pre>$ task config uda.estimate.label Estimate
+$ task config uda.estimate.type duration</pre>
+
+            <p>
+              Once you have defined a UDA, you use it just like you would use
+              any other core attribute, like this:
+            </p>
+
+            <pre>$ task add Paint the door due:eom estimate:4hours</pre>
+
+            <p>
+              Taskwarrior will faithfully store, report, sort and filter UDA
+              attributes, but of course their true meaning is not understood,
+              and so there are no features surrounding these values.
+            </p>
+
+            <p>
+              UDAs may contribute to the urgency calculation, using:
+            </p>
+
+            <pre>urgency.uda.&lt;name&gt;.coefficient</pre>
+
+            <p>
+              UDAs may have default values (<code>uda.&lt;name&gt;.default</code>),
+              allowable values (<code>uda.&lt;name&gt;.values</code>), types
+              (<code>string</code>, <code>date</code>, <code>duration</code>, and
+              <code>numeric</code>) and finally a label for report headers
+              (<code>uda.&lt;name&gt;.label</code>).
+            </p>
+
+            <p>
+              See
+              <a href="/docs/udas.html">User Defined Attributes (UDAs)</a>
+              for more details.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
