@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="tags"></a>
+            <h3>Tags &amp; Virtual Tags</h3>
+            <p>
+              The basic tag syntax is very powerful and simple to use.  There
+              are two ways to use this, shown here:
+            </p>
+
+            <pre>$ task +HOME list
+$ task -WORK list</pre>
+
+            <p>
+              These two commands illustrate the complete tag interface. The
+              first command is a filter that lists only tasks that have the
+              <code>HOME</code> tag. The second command is a filter that lists
+              only tasks that
+              <em>do not</em> have the <code>WORK</code> tag. The + and - syntax
+              therefore means presence and absence of a tag. This is simple to
+              use, and can be combined like this:
+            </p>
+
+            <pre>$ task +HOME -WORK list</pre>
+
+            <p>
+              This shows tasks that have the <code>HOME</code> tag, but do not
+              have the <code>WORK</code> tag. This is a very simple and easy to
+              use mechanism, but it does require that your tasks are properly
+              tagged. In other words, it is based directly on task metadata.
+            </p>
+
+            <a name="complex"></a>
+            <h4>Complex Filters</h4>
+            <p>
+              Some Taskwarrior filters are simple in concept, but the syntax is
+              not that straightforward.  For example, to determine whether a
+              task has a due date that falls on the current day, you need to
+              use this filter:
+            </p>
+
+            <pre>$ task due.after:yesterday and due.before:tomorrow list</pre>
+
+            <p>
+              This filters tasks with a due date during the narrow time window
+              of 'today'. Note that is is not sufficient to just specify the
+              date, because due dates all have associated times (defaulting to
+              0:00:00), and if you want to match the date, you need to consider
+              the time. So for example, this command <em>does not</em> list
+              tasks due today:
+            </p>
+
+            <pre>$ task due:today list</pre>
+
+            <p>
+              Instead, this filter matches tasks with a due date of today, and
+              a time of 0:00.  In order to see all tasks due today, you need to
+              provide proper range bracketing.
+            </p>
+
+            <a name="simplification"></a>
+            <h4>Simplification</h4>
+            <p>
+              Here is where virtual tags can help, by providing a simple tag
+              interface to more complex state conditions of the task. There is
+              a virtual tag, named <code>TODAY</code> that can be used in
+              filters, and it means that instead of this filter:
+            </p>
+
+            <pre>$ task due.after:yesterday and due.before:tomorrow list</pre>
+
+            <p>
+              We can now use this:
+            </p>
+
+            <pre>$ task +TODAY list</pre>
+
+            <p>
+              Which is a much simpler way of filtering tasks due today. Because
+              this is a tag interface, we can also invert it:
+            </p>
+
+            <pre>$ task -TODAY list</pre>
+
+            <p>
+              This shows only tasks that are not due today.
+            </p>
+
+            <p>
+              Virtual tags are built in to Taskwarrior. They are evaluated at
+              run time, which means they do not require direct metadata, and
+              therefore do not occupy space in the data files, but are
+              determined according to the state of the task in the same way
+              that the complex filter example above is determined.
+            </p>
+
+            <p>
+              Thus virtual tags combine the simplicity of the tag interface
+              with more complex defined conditions, for convenience.
+            </p>
+
+            <a name="supported"></a>
+            <h4>Supported Virtual Tags</h4>
+            <p>
+              Since version 2.2.0, Taskwarrior has supported virtual tags, and
+              the list will continue to grow. Here is the full list of supported
+              virtual tags:
+            </p>
+
+            <p>
+              <table class="table">
+                <tr>
+                  <td><code>BLOCKED</code></td>
+                  <td>Is the task dependent on another incomplete task?</td>
+                </tr>
+                <tr>
+                  <td><code>UNBLOCKED</code></td>
+                  <td>The opposite of BLOCKED, for convenience. Note +BLOCKED == -UNBLOCKED and vice versa.</td>
+                </tr>
+                <tr>
+                  <td><code>BLOCKING</code></td>
+                  <td>Does another task depend on this incomplete task?</td>
+                </tr>
+                <tr>
+                  <td><code>DUE</code></td>
+                  <td>Is this task due within 7 days? Determined by rc.due</td>
+                </tr>
+                <tr>
+                  <td><code>DUETODAY</code></td>
+                  <td>Is this task due sometime today?</td>
+                </tr>
+                <tr>
+                  <td><code>TODAY</code></td>
+                  <td>Is this task due sometime today?</td>
+                </tr>
+                <tr>
+                  <td><code>OVERDUE</code></td>
+                  <td>Is this task past it’s due date?</td>
+                </tr>
+                <tr>
+                  <td><code>WEEK</code></td>
+                  <td>Is this task due this week? <span class="label label-success">2.3.0</span></td>
+                </tr>
+                <tr>
+                  <td><code>MONTH</code></td>
+                  <td>Is this task due this month? <span class="label label-success">2.3.0</span></td>
+                </tr>
+                <tr>
+                  <td><code>YEAR</code></td>
+                  <td>Is this task due this year? <span class="label label-success">2.3.0</span></td>
+                </tr>
+                <tr>
+                  <td><code>ACTIVE</code></td>
+                  <td>Is the task active, ie does it have a start date?</td>
+                </tr>
+                <tr>
+                  <td><code>SCHEDULED</code></td>
+                  <td>Is the task scheduled, ie does it have a scheduled date?</td>
+                </tr>
+                <tr>
+                  <td><code>PARENT</code></td>
+                  <td>Is the task a hidden parent recurring task? <span class="label label-success">2.3.0</span></td>
+                </tr>
+                <tr>
+                  <td><code>CHILD</code></td>
+                  <td>Is the task a recurring child task?</td>
+                </tr>
+                <tr>
+                  <td><code>UNTIL</code></td>
+                  <td>Does the task expire, ie does it have an until date?</td>
+                </tr>
+                <tr>
+                  <td><code>WAITING</code></td>
+                  <td>Is the task hidden, ie does it have a wait date?</td>
+                </tr>
+                <tr>
+                  <td><code>ANNOTATED</code></td>
+                  <td>Does the task have any annotations?</td>
+                </tr>
+                <tr>
+                  <td><code>READY</code></td>
+                  <td>
+                    Is the task pending, not blocked, and either not scheduled,
+                    or scheduled before now. <span class="label label-success">2.4.0</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YESTERDAY</code></td>
+                  <td>Was the task due yesterday? <span class="label label-success">2.4.0</span></td>
+                </tr>
+                <tr>
+                  <td><code>TOMORROW</code></td>
+                  <td>Is the task due tomorrow? <span class="label label-success">2.4.0</span></td>
+                </tr>
+                <tr>
+                  <td><code>TAGGED</code></td>
+                  <td>Does the task have any tags?</td>
+                </tr>
+                <tr>
+                  <td><code>PENDING</code></td>
+                  <td>Is the task in the pending state? <span class="label label-success">2.4.0</span></td>
+                </tr>
+                <tr>
+                  <td><code>COMPLETED</code></td>
+                  <td>Is the task in the completed state? <span class="label label-success">2.4.0</span></td>
+                </tr>
+                <tr>
+                  <td><code>DELETED</code></td>
+                  <td>Is the task in the deleted state? <span class="label label-success">2.4.0</span></td>
+                </tr>
+              </table>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#tags">Tags &amp; Virtual Tags</a></li>
+            <li><a class="alert-link" href="#complex">Complex Filters</a></li>
+            <li><a class="alert-link" href="#simplification">Simplification</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://flod.us/index2.html">flod.us</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+            <br />
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" width="16px" height="16px"> G+</a>
+            <br />
+            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" width="16px" height="16px"> Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
