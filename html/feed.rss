@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taskwarrior News</title>
     <link>http://taskwarrior.org/</link>
@@ -8,16 +8,16 @@
     <image>
       <url>http://taskwarrior.org/images/tw-m.png</url>
       <title>Taskwarrior.org</title>
-      <link>http://taskwarrior.org</link>
+      <link>http://taskwarrior.org/</link>
     </image>
     <language>en-us</language>
 
-    <pubDate>Sun, Jul 13 2014 00:00:00 EST</pubDate>
+    <pubDate>Sun, 13 Jul 2014 00:00:00 EST</pubDate>
 
     <item>
       <title>Taskwarrior 2.4.0 Preview</title>
       <link>http://taskwarrior.org/news/news.20140704.html</link>
-      <author>support@taskwarrior.org</author>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Fri, Jul 04 2014 00:00:00 EST</pubDate>
       <description>
         The Taskwarrior 2.4.0 development branch has been unusable for a
@@ -32,8 +32,8 @@
     <item>
       <title>Vit 1.2 in homebrew</title>
       <link>http://taskwarrior.org/news/news.20140607.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Sat, Jun 07 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 07 Jun 2014 00:00:00 EST</pubDate>
       <description>
         The recently released Vit 1.2 is now available from Homebrew.
         Homebrew (http://brew.sh/) is "The missing package manager for OSX",
@@ -44,8 +44,8 @@
     <item>
       <title>Taskwarrior 2.4.0 Development Status</title>
       <link>http://taskwarrior.org/news/news.20140524.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Sat, May 24 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 24 May 2014 00:00:00 EST</pubDate>
       <description>
         Taskwarrior 2.4.0 is in development. The main feature of this
         release is a new command line parser, and some related features
@@ -63,8 +63,8 @@
     <item>
       <title>Swiss Ubucon Taskwarrior Workshop</title>
       <link>http://taskwarrior.org/news/news.20140510.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Sat, May 10 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 10 May 2014 00:00:00 EST</pubDate>
       <image>
         <url>http://taskwarrior.org/news/images/ref230.png</url>
         <title>Command Reference</title>
@@ -85,8 +85,8 @@
     <item>
       <title>Teaching the Parser New Tricks</title>
       <link>http://taskwarrior.org/news/news.20140429.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Tue, Apr 29 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Tue, 29 Apr 2014 00:00:00 EST</pubDate>
       <description>
         With Taskwarrior version 2.4.0, we are building a better command
         line parser. In addition to fixing a lot of annoying little bugs,
@@ -99,8 +99,8 @@
     <item>
       <title>Taskserver Documentation</title>
       <link>http://taskwarrior.org/news/news.20140412.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Sat, Apr 12 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 12 Apr 2014 00:00:00 EST</pubDate>
       <description>
         The Taskserver setup documentation has been significantly improved.
         The main setup page is:
@@ -112,8 +112,8 @@
     <item>
       <title>Q &amp; A Site Launched</title>
       <link>http://taskwarrior.org/news/news.20140407.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Mon, Apr 07 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 EST</pubDate>
       <description>
         The new Q &amp; A site is live! Take a look at the site, which can
         be found here:
@@ -130,8 +130,8 @@
     <item>
       <title>Vit 1.2 is released</title>
       <link>http://taskwarrior.org/news/news.20140406.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Sun, Apr 06 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 06 Apr 2014 00:00:00 EST</pubDate>
       <description>
         Version 1.2 of the VIT front-end for Taskwarrior is available for download now.
 
@@ -146,8 +146,8 @@
     <item>
       <title>System Status Pages</title>
       <link>http://taskwarrior.org/news/news.20140309.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Sun, March 09 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 09 March 2014 00:00:00 EST</pubDate>
       <description>
         New system status pages are online, which provide up to the minute
         status for the various services now online.
@@ -169,8 +169,8 @@
     <item>
       <title>Atlassian Licences</title>
       <link>http://taskwarrior.org/news/news.20140303.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Mon, March 03 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 03 Mar 2014 00:00:00 EST</pubDate>
       <description>
         We have received the very generous donation of software licences
         from Atlassian.  This allows us to fully utilize Jira, Stash and
@@ -182,8 +182,8 @@
     <item>
       <title>New Site Live</title>
       <link>http://taskwarrior.org/news/news.20140227.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Thu, Feb 27 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Thu, 27 Feb 2014 00:00:00 EST</pubDate>
       <description>
         We have shut off the old website, and replaced it with this.
         Although this site is a fraction of the size, it nevertheless
@@ -194,8 +194,8 @@
     <item>
       <title>Registrations Disabled</title>
       <link>http://taskwarrior.org/news/news.20140226.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Wed, Feb 26 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 26 Feb 2014 00:00:00 EST</pubDate>
       <description>
         We have shut off the registration of users on this site. This is
         part of our ongoing migration to new systems. This taskwarrior.org
@@ -206,8 +206,8 @@
     <item>
       <title>Vit 1.2 beta1 is available</title>
       <link>http://taskwarrior.org/news/news.20140220.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Thu, Feb 20 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Thu, 20 Feb 2014 00:00:00 EST</pubDate>
       <description>
         Beta1 of the VIT front-end for Taskwarrior is available for download now.
         Download here:
@@ -223,8 +223,8 @@
     <item>
       <title>Server Migration</title>
       <link>http://taskwarrior.org/news/news.20140217.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Mon, Feb 17 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 17 Feb 2014 00:00:00 EST</pubDate>
       <description>
         As we migrate to our new servers, you'll find that the services are
         being migrated first, and the content follows after. We are taking
@@ -235,8 +235,8 @@
     <item>
       <title>Git Migration</title>
       <link>http://taskwarrior.org/news/news.20140212.html</link>
-      <author>support@taskwarrior.org</author>
-      <pubDate>Wed, Feb 12 2014 00:00:00 EST</pubDate>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 12 Feb 2014 00:00:00 EST</pubDate>
       <description>
         The new repository manager, Stash, is running on the new server
 
