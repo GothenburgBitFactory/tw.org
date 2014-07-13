@@ -7,10 +7,11 @@
     <copyright>2014 Göteborg Bit Factory.</copyright>
     <image>
       <url>http://taskwarrior.org/images/tw-m.png</url>
-      <title>Taskwarrior.org</title>
+      <title>Taskwarrior News</title>
       <link>http://taskwarrior.org/</link>
     </image>
     <language>en-us</language>
+    <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
     <pubDate>Sun, 13 Jul 2014 00:00:00 EST</pubDate>
 
@@ -18,7 +19,7 @@
       <title>Taskwarrior 2.4.0 Preview</title>
       <link>http://taskwarrior.org/news/news.20140704.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Fri, Jul 04 2014 00:00:00 EST</pubDate>
+      <pubDate>Fri, 04 Jul 2014 00:00:00 EST</pubDate>
       <description>
         The Taskwarrior 2.4.0 development branch has been unusable for a
         a few weeks
