@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Taskwarrior News</title>
+    <link>http://taskwarrior.org/</link>
+    <description>Latest news from the team</description>
+    <copyright>2014 Göteborg Bit Factory.</copyright>
+    <image>
+      <url>http://taskwarrior.org/images/tw-m.png</url>
+      <title>Taskwarrior.org</title>
+      <link>http://taskwarrior.org</link>
+    </image>
+    <language>en-us</language>
+
+    <pubDate>Sun, Jul 13 2014</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.4.0 Preview</title>
+      <link>http://taskwarrior.org/news/news.20140704.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-07-04</pubDate>
+      <description>
+        The Taskwarrior 2.4.0 development branch has been unusable for a
+        a few weeks
+        (http://taskwarrior.org/news/news.20140524.html)
+        while new functionality was integrated. It has been a
+        long process, with about 750 commits made so far, but now all the
+        tests are passing again.
+      </description>
+    </item>
+
+    <item>
+      <title>Vit 1.2 in homebrew</title>
+      <link>http://taskwarrior.org/news/news.20140607.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-06-07</pubDate>
+      <description>
+        The recently released Vit 1.2 is now available from Homebrew.
+        Homebrew (http://brew.sh/) is "The missing package manager for OSX",
+        and includes recipes for several thousand packages.
+      </description>
+    </item>
+
+    <item>
+      <title>Taskwarrior 2.4.0 Development Status</title>
+      <link>http://taskwarrior.org/news/news.20140524.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-05-24</pubDate>
+      <description>
+        Taskwarrior 2.4.0 is in development. The main feature of this
+        release is a new command line parser, and some related features
+        such as expression evaluation and ISO-8601 date support.
+        This is a major undertaking, but the reward will be some very nice
+        new features.
+
+        Until now this work, on the 2.4.0 branch in the code repository has
+        been carefully done so as to not completely break functionality.
+        There are currently 24 failing tests, mostly regarding newly added
+        capabilities.
+      </description>
+    </item>
+
+    <item>
+      <title>Swiss Ubucon Taskwarrior Workshop</title>
+      <link>http://taskwarrior.org/news/news.20140510.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-05-10</pubDate>
+      <image>
+        <url>http://taskwarrior.org/news/images/ref230.png</url>
+        <title>Command Reference</title>
+        <link>http://taskwarrior.org/download/task-2.3.0.ref.pdf</link>
+      </image>
+      <description>
+        On Saturday May 10th 2014, Dirk Deimeke presented a Taskwarrior
+        workshop at Swiss Ubucon
+        (https://wiki.ubuntu.com/SwissTeam/).
+
+        Dirk presented a live demo, with a handout PDF (which we will link
+        here soon) that covers every aspect including downloading, building,
+        installing, setup, first use, all the way to some of the more
+        complex use cases.
+      </description>
+    </item>
+
+    <item>
+      <title>Teaching the Parser New Tricks</title>
+      <link>http://taskwarrior.org/news/news.20140429.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-04-29</pubDate>
+      <description>
+        With Taskwarrior version 2.4.0, we are building a better command
+        line parser. In addition to fixing a lot of annoying little bugs,
+        we would like it to be more flexible and robust. That means it will
+        be able to handle more strange inputs than before, but can it do
+        better?
+      </description>
+    </item>
+
+    <item>
+      <title>Taskserver Documentation</title>
+      <link>http://taskwarrior.org/news/news.20140412.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-04-12</pubDate>
+      <description>
+        The Taskserver setup documentation has been significantly improved.
+        The main setup page is:
+        http://taskwarrior.org/docs/server_setup.html
+        The sub pages now cover single topics.
+      </description>
+    </item>
+
+    <item>
+      <title>Q & A Site Launched</title>
+      <link>http://taskwarrior.org/news/news.20140407.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-04-07</pubDate>
+      <description>
+        The new Q &amp; A site is live! Take a look at the site, which can
+        be found here:
+
+        https://answers.tasktools.org
+
+        There is a searchable knowledge base of community-provided questions
+        and answers. The answers are voted and selected, good answers
+        becomes more prominent, bad answers sink lower.  You know how it
+        works.
+      </description>
+    </item>
+
+    <item>
+      <title>Vit 1.2 is released</title>
+      <link>http://taskwarrior.org/news/news.20140406.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-04-06</pubDate>
+      <description>
+        Version 1.2 of the VIT front-end for Taskwarrior is available for download now.
+
+        Download here: http://taskwarrior.org/download/vit-1.2.tar.gz
+
+        See the VIT 1.2 beta1 announcement
+        (http://taskwarrior.org/news/news.20140220.html)
+        for the features introduced in 1.2.
+      </description>
+    </item>
+
+    <item>
+      <title>System Status Pages</title>
+      <link>http://taskwarrior.org/news/news.20140309.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-03-09</pubDate>
+      <description>
+        New system status pages are online, which provide up to the minute
+        status for the various services now online.
+
+        The first is a Pingdom public report showing system status
+        (http://status.tasktools.org/)
+        of the bug system, git hosting, web services and others.
+
+        Check this page for outages.
+
+        The second is an operations information
+        (http://statuspage.tasktools.org)
+        page from StatusPage.io
+        (http://statuspage.io/)
+        which shows status, uptime, response time and incidents.
+      </description>
+    </item>
+
+    <item>
+      <title>Atlassian Licences</title>
+      <link>http://taskwarrior.org/news/news.20140303.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-03-03</pubDate>
+      <description>
+        We have received the very generous donation of software licences
+        from Atlassian.  This allows us to fully utilize Jira, Stash and
+        Confluence Questions giving us high quality, integrated
+        infrastructure.
+      </description>
+    </item>
+
+    <item>
+      <title>New Site Live</title>
+      <link>http://taskwarrior.org/news/news.20140227.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-02-27</pubDate>
+      <description>
+        We have shut off the old website, and replaced it with this.
+        Although this site is a fraction of the size, it nevertheless
+        has much less redundancy, and no obsolete documents.
+      </description>
+    </item>
+
+    <item>
+      <title>Registrations Disabled</title>
+      <link>http://taskwarrior.org/news/news.20140226.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-02-26</pubDate>
+      <description>
+        We have shut off the registration of users on this site. This is
+        part of our ongoing migration to new systems. This taskwarrior.org
+        site content will be replaced soon, but the URLs will not change.
+      </description>
+    </item>
+
+    <item>
+      <title>Vit 1.2 beta1 is available</title>
+      <link>http://taskwarrior.org/news/news.20140220.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-02-20</pubDate>
+      <description>
+        Beta1 of the VIT front-end for Taskwarrior is available for download now.
+        Download here:
+
+        http://taskwarrior.org/download/vit-1.2.beta1.tar.gz
+
+        VIT 1.2 brings a customizable way to interact with your tasks with
+        user-defined shortcuts. You can now define keys to launch external
+        commands.
+      </description>
+    </item>
+
+    <item>
+      <title>Server Migration</title>
+      <link>http://taskwarrior.org/news/news.20140217.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-02-17</pubDate>
+      <description>
+        As we migrate to our new servers, you'll find that the services are
+        being migrated first, and the content follows after. We are taking
+        this opportunity to reorganize everything.
+      </description>
+    </item>
+
+    <item>
+      <title>Git Migration</title>
+      <link>http://taskwarrior.org/news/news.20140212.html</link>
+      <author>support@taskwarrior.org</author>
+      <pubDate>2014-02-12</pubDate>
+      <description>
+        The new repository manager, Stash, is running on the new server
+
+        https://git.tasktools.org
+
+        The old server will still be active for a little while longer.
+      </description>
+    </item>
+  </channel>
+</rss>
