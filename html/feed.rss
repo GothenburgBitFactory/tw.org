@@ -13,7 +13,22 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 13 Jul 2014 00:00:00 EST</pubDate>
+    <pubDate>Sat, 16 Aug 2014 13:14:00 EST</pubDate>
+
+    <item>
+      <title>Development Status</title>
+      <link>http://taskwarrior.org/news/news.20140816.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 16 Aug 2014 13:14:00 EST</pubDate>
+      <description>
+        Development is shifting focus for Taskwarrior and Taskserver. No
+        more features will be added, and completeness, stability and testing
+        become the new focus.
+
+        The goal is to work towards good beta releases for Taskwarrior 2.4.0,
+        Taskserver 1.1.0 and Tasksh 1.0.0.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.4.0 Preview</title>
