@@ -13,7 +13,22 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 16 Aug 2014 13:14:00 EST</pubDate>
+    <pubDate>Sat, 06 Sep 2014 12:32:00 EST</pubDate>
+
+    <item>
+      <title>Fish Shell Completion Demo</title>
+      <link>http://taskwarrior.org/news/news.20140906.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 06 Sep 2014 12:32:00 EST</pubDate>
+      <description>
+        Taskwarrior 2.4.0 will be released with a fully updated Fish Shell
+        completion script, from Roman Inflianskas. Here is a demo gif that
+        Roman put together.
+
+        The Fish shell has sophisticated completion capabilities, and this
+        update takes full advantage of this.
+      </description>
+    </item>
 
     <item>
       <title>Development Status</title>
