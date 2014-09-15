@@ -13,7 +13,27 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 06 Sep 2014 12:32:00 EST</pubDate>
+    <pubDate>Mon, 15 Sep 2014 18:59:00 EST</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.4.0 beta1</title>
+      <link>http://taskwarrior.org/news/news.20140915.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 15 Sep 2014 18:59:00 EST</pubDate>
+      <description>
+        Taskwarrior 2.4.0 is in beta, and available as a source
+        <a href="/download/task-2.4.0.beta1.tar.gz">tarball</a>.
+
+        Features include: [1] Calc command "task calc '1 + 1'" Hint: it's '2', but
+        it's a beta, so who knows? And yes, it can do more than that.
+
+        [2] Enhanced DOM support task add due:123.due
+
+        [3] Date math task add ... due:eom wait:'due - 1week'
+
+        [4] Unicode: task add \\u2615
+      </description>
+    </item>
 
     <item>
       <title>Fish Shell Completion Demo</title>
