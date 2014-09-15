@@ -65,7 +65,7 @@
             <p>
               <ul>
                 <li>Are you using Taskwarrior 2.3.0 or later? If not, upgrade.</li>
-                <li>Did you build Taskwarrior from git? If so, have you updated recently, and are you on the correct branch?  Remember, the <code>master</code> brnach always represents the most recently released version.</li>
+                <li>Did you build Taskwarrior from git? If so, have you updated recently, and are you on the correct branch?  Remember, the <code>master</code> branch always represents the most recently released version.</li>
                 <li>Did you build Taskwarrior from source, and if so, which version of GnuTLS did you use?</li>
                 <li>Cert, key installed, readable and not empty?  Making sure it is not empty is important.</li>
                 <li>Configuration properly points to cert/key?</li>
@@ -81,7 +81,7 @@
             <p>
               <ul>
                 <li>Are you using Taskserver version 1.0.0 or later? If not, upgrade.</li>
-                <li>Did you build Taskserver from git? If so, have you updated recently, and are you on the correct branch?  Remember, the <code>master</code> brnach always represents the most recently released version.</li>
+                <li>Did you build Taskserver from git? If so, have you updated recently, and are you on the correct branch?  Remember, the <code>master</code> branch always represents the most recently released version.</li>
                 <li>Did you build Taskserver from source, and if so, which version of GnuTLS did you use?</li>
                 <li>If you built from source, did the demo work?</li>
                 <li>Is the server running? Check with <code>ps -leaf | grep taskd</code>.</li>
@@ -89,6 +89,7 @@
                 <li>Is the client (taskwarrior) able to communicate through your firewall to the server (taskserver)? By default, port <code>53589</code> is used, and must be open on the server.</li>
                 <li>If you are unable to open firewall ports, you can use an SSH Tunnel to route port <code>53589</code> traffic over port <code>22</code>.</li>
                 <li>Did you follow the instructions for setup exactly? This is the largest cause of misconfiguration.</li>
+                <li>Did you edit the <code>generate.server</code> script to contain your <code>dns_name</code> and <code>ip_address</code>?</li>
                 <li>Setting <code>debug.tls=2</code> for both client and server generates diagnostic output that can help diagnose problems with TLS handshake, certs, keys, and ciphers. For Taskserver, with <code>debug.tls=2</code>, run the server interactively rather than as a daemon, to see the diagnostics.</li>
                 <li>Setting <code>ciphers</code> (Taskserver) or <code>taskd.ciphers</code> (Taskwarrior) can force the use of different ciphers. Use <code>gnutls-cli --list</code> to see a list of installed ciphers, and confirm that there is overlap between client and server.</li>
                 <li>In the event of a self-signed cert being used, is the CA cert configured?  Does the cert file have contents?</li>
