@@ -1,3 +1,14 @@
+# Added 2014-09-20
 REDIRECT 301 /docs/troubleshooting-sync.html /docs/taskserver/troubleshooting-sync.html
 REDIRECT 301 /docs/ciphers.html              /docs/taskserver/ciphers.html
+REDIRECT 301 /docs/server_configure.html     /docs/taskserver/configure.html
+REDIRECT 301 /docs/server_control.html       /docs/taskserver/control.html
+REDIRECT 301 /docs/server_git.html           /docs/taskserver/git.html
+REDIRECT 301 /docs/server_package.html       /docs/taskserver/package.html
+REDIRECT 301 /docs/server_prep.html          /docs/taskserver/prep.html
+REDIRECT 301 /docs/server_setup.html         /docs/taskserver/setup.html
+REDIRECT 301 /docs/server_sync.html          /docs/taskserver/sync.html
+REDIRECT 301 /docs/server_tarball.html       /docs/taskserver/tarball.html
+REDIRECT 301 /docs/server_user.html          /docs/taskserver/user.html
+REDIRECT 301 /docs/server_why.html           /docs/taskserver/why.html
 
