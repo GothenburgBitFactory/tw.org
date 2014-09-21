@@ -1,0 +1,796 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="client"></a>
+            <h3>Creating a Taskserver Client</h3>
+            <p>
+              A Taskserver client is a todo-list manager.  It may be as simple as a
+              program that captures a single task, as complex as Taskwarrior, or anything
+              in between.  It can be a mobile client, a web application, or any other type
+              of program.
+            </p>
+
+            <p>
+              This document describes how such a client would interact with the server.
+            </p>
+
+            <p>
+              A client to the Taskserver is a program that manages a task list, and wishes
+              to exchange data with the server so that the task list may be shared.
+            </p>
+
+            <p>
+              In order to do this, a client must store tasks locally, upload local changes,
+              download remote changes, and apply remote changes to the local tasks.
+            </p>
+
+            <p>
+              The client must consider that there may be no network connectivity, or no
+              desire by the user to synchronize.
+            </p>
+
+            <p>
+              The client will need proper credentials to talk to the server.
+            </p>
+
+            <a name="req"></a>
+            <h4>Requirements</h4>
+            <p>
+              In this document, we adopt the convention discussed in Section 1.3.2 of
+              <a href="http://tools.ietf.org/html/rfc1122#page-16">RFC1122</a>
+              of using the capitalized words MUST, REQUIRED, SHOULD, RECOMMENDED,
+              MAY, and OPTIONAL to define the significance of each particular requirement
+              specified in this document.
+            </p>
+
+            <p>
+              In brief: "MUST" (or "REQUIRED") means that the item is an absolute
+              requirement of the specification; "SHOULD" (or "RECOMMENDED") means there may
+              exist valid reasons for ignoring this item, but the full implications should
+              be understood before doing so; and "MAY" (or "OPTIONAL") means that this item
+              is optional, and may be omitted without careful consideration.
+            </p>
+
+            <a name="account"></a>
+            <h4>Taskserver Account</h4>
+            <p>
+              A Taskserver account must be created.  This process creates a storage area,
+              and generates the necessary credentials.
+            </p>
+
+            <a name="credentials"></a>
+            <h4>Credentials</h4>
+            <p>
+              A Taskserver client needs the following credentials in order to communicate
+              with a server:
+            </p>
+
+            <p>
+              <ul>
+                <li>Server address and port</li>
+                <li>Organization name</li>
+                <li>User name</li>
+                <li>Password</li>
+                <li>Certificate</li>
+                <li>Key</li>
+              </ul>
+            </p>
+
+            <p>
+              The server address and port are the network location of the server.  An
+              example of this value is:
+            </p>
+
+            <p>
+              <pre>ack.tasktools.org:53589</pre>
+            </p>
+
+            <p>
+              In addition to a DNS name, this can be an IPv4 or IPv6 address.
+            </p>
+
+            <p>
+              The organization name is an arbitrary grouping, and is typically 'PUBLIC',
+              reflecting the individual nature of server accounts.  Future capabilities
+              will provide functionality that support groups of users, called an
+              organization.
+            </p>
+
+            <p>
+              The user name is the full name.  This will be the name used to identify other
+              users in an organization, in a future release.  Example 'John Doe'.
+            </p>
+
+            <p>
+              The password is a text string generated by the server at account creation
+              time.  It should be considered a secret.
+            </p>
+
+            <p>
+              The certificate is an X.509 PEM file generated by the server at account
+              creation time.  This is used for authentication.  It should be considered a
+              secret.
+            </p>
+
+            <p>
+              The key is an X.509 PEM file generated by the server at account creation
+              time.  This is used for encryption.  It should be considered a secret.
+            </p>
+
+            <p>
+              These credentials need to be stored on the client, and used during the sync
+              operation.
+            </p>
+
+            <a name="client_desc"></a>
+            <h4>Description of a Taskserver Client</h4>
+            <p>
+              This section describes how a client might behave in order to facilitate
+              integration with the Taskserver.
+            </p>
+
+            <a name="encryption"></a>
+            <h4>Encryption</h4>
+            <p>
+              The Taskserver only communicates using encryption.  Therefore all user data
+              is encrypted while in transit.  The Taskserver currently uses
+              <a href="http://gnutls.org">GnuTLS</a>
+              to support this encryption, and therefore supports the following
+              protocols:
+            </p>
+
+            <p>
+              <ul>
+                <li>SSL 3.0</li>
+                <li>TLS 1.0</li>
+                <li>TLS 1.1</li>
+                <li>TLS 1.2</li>
+              </ul>
+            </p>
+
+            <p>
+              The client may use any library that supports the above.
+            </p>
+
+            <a name="config"></a>
+            <h4>Configuration</h4>
+            <p>
+              The client needs to store configuration, which matches the credentials needed
+              for Taskserver communication.  See section 2.1 "Credentials".
+            </p>
+
+            <p>
+              The credentials may not be modified by the user without losing server access.
+            </p>
+
+            <p>
+              The server:port data may need to be changed automatically following a
+              redirect response from the server.  See section 5 "Server Errors".
+            </p>
+
+            <a name="storage"></a>
+            <h4>Local Storage</h4>
+            <p>
+              The client needs to store task data locally.  The client will need to be able
+              to find tasks by their UUID and overwrite them.  Uploaded and downloaded task
+              changes will use the
+              <a href="/docs/design/task.html">Taskwarrior Data Interchange Format</a>.
+            </p>
+
+            <a name="changes"></a>
+            <h4>Local Changes</h4>
+            <p>
+              Whenever local data is modified, that change MUST be synced with the server.
+              But this does not have to occur immediately, in fact the client SHOULD NOT
+              assume connectivity at any time.
+            </p>
+
+            <p>
+              A client SHOULD NOT also assume that the server is available.  If the server
+              is not available, the local changes should be retained, and the sync
+              operation repeated later.
+            </p>
+
+            <p>
+              Ideally the client will give the user full control over sync operations.
+              Automatically syncing after all local modifications is not recommended.  If a
+              client performs too many sync operations, the server MAY revoke the
+              certificate.
+            </p>
+
+            <p>
+              Effectively, the client should maintain a separate list of tasks changed
+              since the last successful sync operation.
+            </p>
+
+            <p>
+              Note that tasks have a "modified" attribute, which should be updated whenever
+              a change is made.  This attribute contributes to conflict resolution on the
+              server.
+            </p>
+
+            <a name="remote"></a>
+            <h4>Remote Changes</h4>
+            <p>
+              When a server sends remote changes to a client, in the response to a sync
+              request, the changes have already been merged by the server, and therefore
+              the client should simply store them intact.
+            </p>
+
+            <p>
+              Based on the UUID in the task, the client can determine whether a task is
+              new (and should be added to the local list of tasks), or whether it
+              represents a modification (and should overwrite it's existing entry).
+            </p>
+
+            <p>
+              The client MUST NOT perform any merges.
+            </p>
+
+            <a name="sync_key"></a>
+            <h4>Sync Key</h4>
+            <p>
+              Whenever a sync is performed, the server responds by sending a sync key and
+              any remote changes.  The sync key is important, and should be included in the
+              next sync request.  The client is REQUIRED to store the sync key in every
+              server response message.
+            </p>
+
+            <p>
+              If a client omits the sync key in a sync message, the response will be a
+              complete set of all tasks and modifications.
+            </p>
+
+            <a name="integrity"></a>
+            <h4>Data Integrity</h4>
+            <p>
+              Although a task is guaranteed to contain at least 'entry', 'description' and
+              'uuid' attributes, it may also contain other known fields, and unknown
+              user-defined fields.  An example might be an attribute named 'estimate'.
+            </p>
+
+            <p>
+              If a task is received via sync that contains an attribute named 'estimate',
+              then a client has the responsibility of preserving the attribute intact.  If
+              that data is shown, then it is assumed to be of type 'string', which is the
+              format used by JSON for all values.
+            </p>
+
+            <p>
+              Conversely, if a client wishes to add a custom attribute, it is guaranteed
+              that the server and other clients will preserve that attribute.
+            </p>
+
+            <p>
+              Using this rule, two clients of differing capabilities can exchange data and
+              still maintain custom attributes.
+            </p>
+
+            <p>
+              This is a requirement.  Any client that does not obey this requirement is
+              broken.
+            </p>
+
+            <a name="synchronizing"></a>
+            <h4>Synchronizing</h4>
+            <p>
+              Synchronizing with the Taskserver consists of a single transaction.  Once an
+              encrypted connection is made with the server, the client MUST compose a
+              <a href="/docs/design/request.html">sync request message</a>.
+              This message includes credentials and
+              local changes.  The response message contains status and remote changes,
+              which MUST be stored locally.
+            </p>
+
+            <a name="connect"></a>
+            <h4>Establishing Encrypted Connection</h4>
+            <p>
+              All communication with the Taskserver is encrypted using the certificate
+              and key provided to each user.  Using the 'server' configuration setting,
+              establish a connection.
+            </p>
+
+            <a name="sync_request"></a>
+            <h4>Sync Request</h4>
+            <p>
+              See
+              <a href="/docs/design/request.html">sync request message</a>.
+              A sync request MUST contain a sync key if one was provided by a previous
+              sync.  A sync request MUST contain a list of modified tasks, in JSON format (see
+              <a href="/docs/design/task.html">Task JSON</a>),
+              if local modifications have been made.
+            </p>
+
+            <a name="sync_response"></a>
+            <h4>Sync Response</h4>
+            <p>
+              A sync response WILL contain a 'code' and 'status' header variable, WILL
+              contain a sync key in the payload, and MAY contain a list of tasks from the
+              server in JSON format (see
+              <a href="/docs/design/task.html">Task JSON</a>).
+            </p>
+
+            <a name="server_messages"></a>
+            <h4>Server Messages</h4>
+            <p>
+              There are cases when the server needs to inform the user of some condition.
+              This may be anticipated server downtime, for example.  The response message
+              is typically not present, but may be present in the header, containing a
+              string:
+            </p>
+
+            <p>
+              <pre>...
+message: Scheduled maintenance 2013-07-14 08:00UTC for 10 minutes.
+...</pre>
+            </p>
+
+            <p>
+              If such a message is returned by the server, it SHOULD be made available to
+              the user.  This is a recommendation, not a requirement.
+            </p>
+
+            <a name="errors"></a>
+            <h4>Server Errors</h4>
+            <p>
+              The server may generate many errors (See
+              <a href="/docs/design/protocol.html">Protocol</a>),
+              but the following is a list of the ones most in need of special handling:
+            </p>
+
+            <p>
+              <ul>
+                <li>200 Success</li>
+                <li>201 No change</li>
+                <li>301 Redirect</li>
+                <li>430 Access denied</li>
+                <li>431 Account suspended</li>
+                <li>432 Account terminated</li>
+                <li>5xx Error</li>
+              </ul>
+            </p>
+
+            <p>
+              The 200 indicates success, and that a change was recorded.  The 201 indicates
+              success but no changes were necessary.  The 301 is a redirect message
+              indicating that the client MUST re-request from a new server.  The 43x series
+              messages are account-related.  Any 5xx series code is a server error of some
+              kind.  All errors consist of a code and a status message:
+            </p>
+
+            <p>
+              <pre>code: 200
+status: Success</pre>
+            </p>
+
+            <a name="examples"></a>
+            <h4>Examples</h4>
+            <p>
+              Here are examples of properly formatted request and response messages.  Note
+              that the messages are indented for clarity in this document, but is not the
+              case in a properly formatted message.  Also note that newline characters
+              U+000D are not shown, but are implied by the separate lines.  Because some
+              messages have trailing newline characters, the text is delimited by the 'cut'
+              markers:
+            </p>
+
+            <p>
+              <pre>foo
+
+</pre>
+            </p>
+
+            <p>
+              The example above illustrates text consisting of:
+            </p>
+
+            <p>
+              <pre>U+0066   f
+U+006F   o
+U+006F   o
+U+000D   newline
+U+000D   newline</pre>
+            </p>
+
+            <p>
+              Note that these values are left unspecified, but should be clear from the
+              context, and the
+              <a href="/docs/design/request.html">message format</a>
+              spec:
+            </p>
+
+            <p>
+              <pre>&lt;size&gt;
+&lt;organization&gt;
+&lt;user&gt;
+&lt;password&gt;</pre>
+            </p>
+
+            <a name="first"></a>
+            <h4>First Sync</h4>
+            <p>
+              The first time a client syncs, there is (perhaps) no data to upload, and no
+              sync key from a previous sync.
+            </p>
+
+            <p>
+              <pre>&lt;size&gt;type: sync
+org: &lt;organization&gt;
+user: &lt;user&gt;
+key: &lt;password&gt;
+client: task 2.3.0
+protocol: v1
+
+</pre>
+            </p>
+
+            <p>
+              Note the double newline character separating header from payload, with an
+              empty payload.
+            </p>
+
+            <a name="sync_no_data"></a>
+            <h4>Request: Sync No Data</h4>
+            <p>
+              Ordinarily when a client syncs, there is a sync key from the previous sync
+              response to send.  This example shows a sync with no local changes, but a
+              sync key from a previous sync.
+            </p>
+
+            <p>
+              <pre>&lt;size&gt;type: sync
+org: &lt;organization&gt;
+user: &lt;user&gt;
+key: &lt;password&gt;
+client: task 2.3.0
+protocol: v1
+
+2e4685f8-34bc-4f9b-b7ed-399388e182e1</pre>
+            </p>
+
+            <a name="sync_data"></a>
+            <h4>Request: Sync Data</h4>
+            <p>
+              This sync request shows a sync key from the previous sync, and a locally
+              modified task.
+            </p>
+
+            <p>
+              <pre>&lt;size&gt;type: sync
+org: &lt;organization&gt;
+user: &lt;user&gt;
+key: &lt;password&gt;
+client: task 2.3.0
+protocol: v1
+
+2e4685f8-34bc-4f9b-b7ed-399388e182e1
+{"description":"An example","uuid":"8ad2e3db-914d-4832-b0e6-72fa04f6e331",...}</pre>
+            </p>
+
+            <a name="resp_no_data"></a>
+            <h4>Response: No Data</h4>
+            <p>
+              If a sync results in no downloads to the client, the response will look like
+              this.
+            </p>
+
+            <p>
+              <pre>&lt;size&gt;type: response
+client: taskd 1.0.0
+protocol: v1
+code: 200
+status: Ok
+
+45da7110-1bcc-4318-d33e-12267a774e0f</pre>
+            </p>
+
+            <p>
+              Note that there is a sync key which must be stored and used in the next sync
+              request, but there are no remote changes to store.
+            </p>
+
+            <a name="resp_data"></a>
+            <h4>Response: Remote Data</h4>
+            <p>
+              This shows a sync response providing a new sync key, and a remote change to
+              two tasks.
+            </p>
+
+            <p>
+              <pre>&lt;size&gt;type: response
+client: taskd 1.0.0
+protocol: v1
+code: 200
+status: Ok
+
+45da7110-1bcc-4318-d33e-12267a774e0f
+{"description":"Test data","uuid":"8ad2e3db-914d-4832-b0e6-72fa04f6e331",...}
+{"description":"Test data2","uuid":"3b6218f9-726a-44fc-aa63-889ff52be442",...}</pre>
+            </p>
+
+            <p>
+              Note that the sync key must be stored for the next sync request.
+            </p>
+
+            <p>
+              Note that the two changed tasks must be stored locally, and if the UUID in
+              the tasks matches local tasks, then the local tasks must be overwritten.
+            </p>
+
+            <a name="resp_error"></a>
+            <h4>Response: Error</h4>
+            <p>
+              <pre>&lt;size&gt;type: response
+client: taskd 1.0.0
+protocol: v1
+code: 431
+status: Account suspended
+
+</pre>
+            </p>
+
+            <p>
+              Note the double newline character separating header from payload, with an
+              empty payload.
+            </p>
+
+            <a name="resp_relocate"></a>
+            <h4>Response: Relocate</h4>
+            <p>
+              <pre>&lt;size&gt;type: response
+client: taskd 1.0.0
+protocol: v1
+code: 301
+status: Redirect
+info: <new-server>
+
+</pre>
+            </p>
+
+            <p>
+              Note the 'info' field will contain a '<server>:<port>' string that should be
+              used for all future sync requests.  This indicates that a user account was
+              moved to another server.
+            </p>
+
+            <p>
+              Note the double newline character separating header from payload, with an
+              empty payload.
+            </p>
+
+            <a name="resp_message"></a>
+            <h4>Response: Message</h4>
+            <p>
+              Occasionally the server will need to convey a message, and will include an
+              additional header variable containing that message.
+            </p>
+
+            <p>
+              The server
+              <a href="/docs/design/protocol.html">protocol</a>
+              states that the message SHOULD be shown to the user.
+              This message will be used for system event messages, used rarely, and never
+              used for advertising or promotion.
+            </p>
+
+            <p>
+              <pre>&lt;size&gt;type: response
+client: taskd 1.0.0
+protocol: v1
+code: 200
+status: Ok
+message: Scheduled maintenance 2013-07-14 08:00UTC for 10 minutes.
+
+45da7110-1bcc-4318-d33e-12267a774e0f</pre>
+            </p>
+
+            <p>
+              Note that the same message will likely be included in consecutive responses.
+            </p>
+
+            <a name="reference"></a>
+            <h4>Reference Implementation</h4>
+            <p>
+              The Taskserver 1.1.0 codebase contains a reference implementation of an SSL/TLS
+              client and server program, which communicate text strings.
+
+            <p>
+              <pre>taskd.git/src/tls/Makefile             # To build the example
+taskd.git/src/tls/README               # How to run the example
+taskd.git/src/tls/TLSClient.cpp        # TLS client code
+taskd.git/src/tls/TLSClient.h
+taskd.git/src/tls/TLSServer.cpp        # TLS Server code
+taskd.git/src/tls/TLSServer.h
+taskd.git/src/tls/c.cpp                # Client program
+taskd.git/src/tls/s.cpp                # Server program
+taskd.git/src/tls/text.cpp             # Text manipulation
+taskd.git/src/tls/text.h               # Text manipulation</pre>
+            </p>
+
+            <p>
+              The Taskwarrior codebase, version 2.4.0, is the reference implementation.
+            </p>
+
+            <p>
+              <pre>task.git/src/TLSClient.cpp             # TLS client code
+task.git/src/TLSClient.h
+task.git/src/commands/CmdSync.cpp      # Sync implementation
+task.git/src/commands/CmdSync.h</pre>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#client">Creating a Client</a></li>
+            <li><a class="alert-link" href="#req">Requirements</a></li>
+            <li><a class="alert-link" href="#account">Account</a></li>
+            <li><a class="alert-link" href="#credentials">Credentials</a></li>
+            <li><a class="alert-link" href="#client_desc">Description of Client</a></li>
+            <li><a class="alert-link" href="#encryption">Encryption</a></li>
+            <li><a class="alert-link" href="#config">Configuration</a></li>
+            <li><a class="alert-link" href="#storage">Local Storage</a></li>
+            <li><a class="alert-link" href="#changes">Local Changes</a></li>
+            <li><a class="alert-link" href="#remote">Remote Changes</a></li>
+            <li><a class="alert-link" href="#sync_key">Sync Key</a></li>
+            <li><a class="alert-link" href="#integrity">Data Integrity</a></li>
+            <li><a class="alert-link" href="#connect">Connecting</a></li>
+            <li><a class="alert-link" href="#sync_request">Sync Request</a></li>
+            <li><a class="alert-link" href="#sync_repsonse">Sync Response</a></li>
+            <li><a class="alert-link" href="#server_messages">Server Messages</a></li>
+            <li><a class="alert-link" href="#errors">Server Errors</a></li>
+            <li><a class="alert-link" href="#examples">Examples</a></li>
+            <li><a class="alert-link" href="#first">First Sync</a></li>
+            <li><a class="alert-link" href="#req_sync_no_data">Req: Sync No Data</a></li>
+            <li><a class="alert-link" href="#req_sync_data">Req: Sync Data</a></li>
+            <li><a class="alert-link" href="#resp_no_data">Resp: No Data</a></li>
+            <li><a class="alert-link" href="#resp_data">Resp: Remote Data</a></li>
+            <li><a class="alert-link" href="#resp_error">Resp: Error</a></li>
+            <li><a class="alert-link" href="#resp_relocate">Resp: Relocate</a></li>
+            <li><a class="alert-link" href="#resp_message">Resp: Message</a></li>
+            <li><a class="alert-link" href="#reference">Reference Implementation</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://flod.us/index2.html">flod.us</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+            <br />
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" width="16px" height="16px"> G+</a>
+            <br />
+            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" width="16px" height="16px"> Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
