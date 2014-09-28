@@ -299,7 +299,29 @@ $ task 1 annotate and Cheese</pre>
 
           <dt><a name="en_passant"></a>en-passant</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              <em>En-passant</em> is used to describe the action of annotating
+              or otherwise modifying a task while making some other change to
+              it. An example is deleting a task, and adding an explanatory note
+              at the ѕame time. Instead of doing this:
+            </p>
+
+            <pre>$ task 123 annotate Could not reproduce bug
+$ task 123 modify +cannot_reproduce
+$ task 123 delete</pre>
+
+            <p>
+              Those three actions can be combined:
+            </p>
+
+            <pre>$ task 123 delete Could not reproduce bug +cannot_reproduce</pre>
+
+            <p>
+              For every write command, except <code>modify</code>, you can
+              perform <em>en-passant</em> modifications. The <code>modify</code>
+              is different, and updates the task description instead of annotating.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
