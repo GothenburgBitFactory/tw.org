@@ -456,7 +456,24 @@ pi * r^2</pre>
 
           <dt><a name="regex"></a>regex</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              A regex, or <strong>Reg</strong>ular <strong>Ex</strong>pression is
+              a very powerful mechanism for searching and matching text. It is a
+              complex language that describes search patterns, and allows for
+              sophisticated searching.
+            </p>
+
+            <p>
+              Suppose you were solving a crossword puzzle, and needed a five
+              letter word that started and ended in a vowel, you could represent
+              that in regex, and it could look something like:
+            </p>
+
+            <pre>[aeiou]...[aeiou]</pre>
+
+            <p>
+              See <a href="http://en.wikipedia.org/wiki/Regular_expression">Wikipedia: Regular expression</a>.
+            </p>
             <h4>&nbsp;</h4>
           </dd>
 
@@ -507,6 +524,32 @@ pi * r^2</pre>
               Then this task will be considered <em>ready</em> after that date.
               The <a href="#vtag">virtual tag</a> <code>READY</code> reflects
               this, and the report <code>ready</code> shows such tasks.
+            </p>
+
+            <h4>&nbsp;</h4>
+          </dd>
+
+          <dt><a name="shell"></a>shell</dt>
+          <dd>
+            <p>
+              The shell is your command interpreter. Most likely you are using the
+              <code>bash</code> shell, but there are many others.
+            </p>
+
+            <p>
+              Any program that has complex argument processing will likely face
+              several problems that are shell-related. The shell modifies the
+              entered text before passing it on to the program. For example,
+              consider these two commands:
+            </p>
+
+            <pre>$ ls my_file
+$ ls 'my_file'</pre>
+
+            <p>
+              In both cases, the <code>ls</code> command sees the same command
+              line argument, <code>my_file</code>, because the shell removes the
+              quotes. There are many other cases to be aware of also.
             </p>
 
             <h4>&nbsp;</h4>
@@ -944,6 +987,7 @@ $ task -HOME list</pre>
             <li><a class="alert-link" href="#rpn">RPN</a></li>
             <li><a class="alert-link" href="#scheduled">scheduled</a></li>
             <li><a class="alert-link" href="#shadow_file">shadow file</a></li>
+            <li><a class="alert-link" href="#shell">shell</a></li>
             <li><a class="alert-link" href="#stag">special tag</a></li>
             <li><a class="alert-link" href="#start">start</a></li>
             <li><a class="alert-link" href="#substitution">substitution</a></li>

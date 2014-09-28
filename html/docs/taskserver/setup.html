@@ -47,159 +47,95 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-        <p>
-          Version-specific features are labelled <span class="label label-success">2.4.0</span>
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="start"></a>
-                <p class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/tutorials/30second.html">30-Second Tutorial</a></li>
-                    <li><a class="alert-link" href="/docs/tutorials/">Complete Tutorials</a></li>
-                    <li><a class="alert-link" href="/docs/glossary.html">Glossary of Terms</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="task"></a>
-                <p class="text-large"><strong>Using Taskwarrior</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
-                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
-                    <li>
-                      Commands
-                      <ul>
-                        <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                        <li><a href="/docs/commands/calc.html"><code>calc</code> command</a> <span class="label label-success">2.4.0</span></li>
-                        <li><a href="/docs/commands/columns.html"><code>columns</code> command</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/docs/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
-                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
-                    <li><a href="/docs/urgency.html">Urgency</a></li>
-                    <li><a href="/docs/ids.html">ID Numbers</a></li>
-                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
-                    <li><a href="/docs/tags.html">Tags &amp; Virtual Tags</a></li>
-                    <li><a href="/tools/">External Scripts</a></li>
-                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
-                    <li><a href="/docs/json.html">JSON Import/Export Format</a></li>
-                    <li><a href="/docs/deprecated.html">Deprecated Features</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="taskd"></a>
-                <p class="text-large"><strong>Taskserver</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/taskserver/why.html">Why do I need a Taskserver?</a></li>
-                    <li><a href="/docs/taskserver/setup.html">Setting up your own Taskserver</a></li>
-                    <li><a href="/docs/taskserver/ciphers.html">Cipher Selection</a></li>
-                    <li><a href="/docs/taskserver/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="feedback"></a>
-                <p class="text-large"><strong>Feedback</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
-                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="l10n"></a>
-                <p class="text-large"><strong>Translators</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-<!--
-                    <li><a href="/docs/localization.html">Localizing Taskwarrior</a></li>
-                    <li><a href="/docs/l10n.html">The <code>l10n</code> Utility</a></li>
--->
-                    <li>Localizing Taskwarrior</li>
-                    <li>The <code>l10n</code> Utility</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="dev"></a>
-                <p class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/build.html">How To Build Taskwarrior</a></li>
-                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
-                    <li><a href="/docs/coding_style.html">Coding Style</a></li>
-                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
-                    <li><a href="/docs/design/index.html">Design Documents (RFCs)</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="about"></a>
-                <p class="text-large"><strong>About</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/history.html">Release History</a></li>
-                    <li><a href="/docs/license.html">MIT License</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <p class="lead">
+              This document will explain how to set up and sync with your own
+              task server. Follow the instructions carefully.
+            </p>
+
+            <table>
+              <tr>
+                <td><h3><span class="label label-success">1</span>&nbsp;</h3></td>
+                <td><h3>Preparation</h3><a name="prep"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/docs/taskserver/prep.html">Pre-Installation Preparation</a>
+                </td>
+              </tr>
+              <tr>
+                <td><h3><span class="label label-success">2</span>&nbsp;</h3></td>
+                <td><h3>Installation</h3><a name="install"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  You have several installation options:
+                  <ol>
+                    <li><a href="/docs/taskserver/package.html">Install binary package</a></li>
+                    <li><a href="/docs/taskserver/tarball.html">Install from tarball</a></li>
+                    <li><a href="/docs/taskserver/git.html">Install from git</a></li>
+                  </ol>
+                </td>
+              </tr>
+              <tr>
+                <td><h3><span class="label label-success">3</span>&nbsp;</h3></td>
+                <td><h3>Server Setup</h3><a name="setup"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/docs/taskserver/configure.html">Server Configuration</a>
+                  <br />
+                  <a href="/docs/taskserver/control.html">Server Start/Stop</a>
+                </td>
+              </tr>
+              <tr>
+                <td><h3><span class="label label-success">4</span>&nbsp;</h3></td>
+                <td><h3>Client Setup</h3><a name="client"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/docs/taskserver/user.html">Add User to Server</a>
+                  <br />
+                  <a href="/docs/taskserver/taskwarrior.html">Configure Taskwarrior</a>
+                </td>
+              </tr>
+              <tr>
+                <td><h3><span class="label label-success">5</span>&nbsp;</h3></td>
+                <td><h3>Sync</h3><a name="sync"></a></td>
+              </tr>
+              <tr>
+                <td></td>
+                <td>
+                  <a href="/docs/taskserver/sync.html">Syncing Taskwarrior</a>
+                  <br />
+                  <a href="/docs/taskserver/troubleshooting-sync.html">Troubleshooting</a>
+                </td>
+              </tr>
+            </table>
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#feedback">Feedback</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
-            <li><a class="alert-link" href="#about">About</a></li>
+            <li><a class="alert-link" href="#prep">Preparation</a></li>
+            <li><a class="alert-link" href="#install">Installation</a></li>
+            <li><a class="alert-link" href="#setup">Server Setup</a></li>
+            <li><a class="alert-link" href="#client">Client Setup</a></li>
+            <li><a class="alert-link" href="#sync">Sync</a></li>
           </ul>
         </div>
       </div>

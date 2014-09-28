@@ -1,0 +1,1136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="json"></a>
+            <h3>Taskwarrior JSON Format</h3>
+            <p>
+              When Taskwarrior exchanges data, it uses
+              <a href="http://www.json.org/">JSON</a>.
+              This document describes
+              the structure and semantics for tasks exported from Taskwarrior, imported to
+              Taskwarrior, or synced with the Taskserver.
+            </p>
+
+            <p>
+              Any client of the Taskserver will need to communicate task information.
+              This document describes the format of a single task.  It does not describe
+              the communication and sync protocol between client and server.
+            </p>
+
+            <p>
+              This document is subject to change.  The data attributes are also subject
+              to change.
+            </p>
+
+            <a name="req"></a>
+            <h4>Requirements</h4>
+            <p>
+              In this document, we adopt the convention discussed in Section 1.3.2 of
+              <a href="http://tools.ietf.org/html/rfc1122#page-16">RFC1122</a>
+              of using the capitalized words MUST, REQUIRED, SHOULD, RECOMMENDED,
+              MAY, and OPTIONAL to define the significance of each particular requirement
+              specified in this document.
+            </p>
+
+            <p>
+              In brief: "MUST" (or "REQUIRED") means that the item is an absolute
+              requirement of the specification; "SHOULD" (or "RECOMMENDED") means there may
+              exist valid reasons for ignoring this item, but the full implications should
+              be understood before doing so; and "MAY" (or "OPTIONAL") means that this item
+              is optional, and may be omitted without careful consideration.
+            </p>
+
+            <a name="general"></a>
+            <h4>General Format</h4>
+            <p>
+              The format is JSON, specifically a JSON object as a single line of text,
+              terminated by a newline (U+000D).
+            </p>
+
+            <p>
+              The JSON looks like this:
+            </p>
+
+            <p>
+              <pre>{"description":"One two three","status":"pending", ... }</pre>
+            </p>
+
+            <p>
+              While this is not a valid task (there are missing fields), the format is
+              illustrated.
+            </p>
+
+            <p>
+              All attribute names are quoted with " (U+0022).  A name will always have a
+              corresponding value, and if a value is blank, then the name/value pair is
+              omitted from the line.  Newline characters are not permitted within the
+              value, meaning that a task consists of a single line of text.
+            </p>
+
+            <p>
+              All data is UTF8.
+            </p>
+
+            <a name="types"></a>
+            <h4>Data Types</h4>
+            <p>
+              There are five data types used in the task format.
+            </p>
+
+            <a name="type_string"></a>
+            <h4>Data Type: String</h4>
+            <p>
+              Strings may consist of any UTF8 encoded characters.
+            </p>
+
+            <a name="type_fixedstring"></a>
+            <h4>Data Type: Fixed String</h4>
+            <p>
+              A fixed string is one value from a set of acceptable values, such as a
+              priority level, where the values may only be "", "L", "M" or "H".
+            </p>
+
+            <a name="type_uuid"></a>
+            <h4>Data Type: UUID</h4>
+            <p>
+              A UUID is a 32-hex-character lower case string, formatted in this way:
+            </p>
+
+            <p>
+              <pre>xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx</pre>
+            </p>
+
+            <p>
+              An example:
+            </p>
+
+            <p>
+              <pre>296d835e-8f85-4224-8f36-c612cad1b9f8</pre>
+            </p>
+
+            <a name="type_int"></a>
+            <h4>Data Type: Integer</h4>
+            <p>
+              Integers are rendered in a simple fashion:
+            </p>
+
+            <p>
+              <pre>123</pre>
+            </p>
+
+            <a name="type_date"></a>
+            <h4>Data Type: Date</h4>
+            <p>
+              Dates are rendered in ISO 8601 combined date and time in UTC format using the
+              template:
+            </p>
+
+            <p>
+              <pre>YYYYMMDDTHHMMSSZ</pre>
+            </p>
+
+            <p>
+              An example:
+            </p>
+
+            <p>
+              <pre>20120110T231200Z</pre>
+            </p>
+
+            <p>
+              No other formats are supported.
+            </p>
+
+            <a name="type_duration"></a>
+            <h4>Data Type: Duration</h4>
+            <p>
+              Duration values represent a time period.  They take the form:
+            </p>
+
+            <p>
+              <pre>[[&lt;sign&gt;] &lt;number&gt;] &lt;unit&gt;</pre>
+            </p>
+
+            <p>
+              Some examples include:
+            </p>
+
+            <p>
+              <ul>
+                <li>-3days</li>
+                <li>annual</li>
+                <li>4hrs</li>
+              </ul>
+            </p>
+
+            <p>
+              The supported units are:
+            </p>
+
+            <p>
+              <ul>
+                <li>annual</li>
+                <li>biannual</li>
+                <li>bimonthly</li>
+                <li>biweekly</li>
+                <li>biyearly</li>
+                <li>daily</li>
+                <li>days</li>
+                <li>day</li>
+                <li>d</li>
+                <li>fortnight</li>
+                <li>hours</li>
+                <li>hour</li>
+                <li>hrs</li>
+                <li>hr</li>
+                <li>h</li>
+                <li>minutes</li>
+                <li>mins</li>
+                <li>min</li>
+                <li>monthly</li>
+                <li>months</li>
+                <li>month</li>
+                <li>mnths</li>
+                <li>mths</li>
+                <li>mth</li>
+                <li>mos</li>
+                <li>mo</li>
+                <li>quarterly</li>
+                <li>quarters</li>
+                <li>qrtrs</li>
+                <li>qtrs</li>
+                <li>qtr</li>
+                <li>q</li>
+                <li>seconds</li>
+                <li>secs</li>
+                <li>sec</li>
+                <li>s</li>
+                <li>semiannual</li>
+                <li>sennight</li>
+                <li>weekdays</li>
+                <li>weekly</li>
+                <li>weeks</li>
+                <li>week</li>
+                <li>wks</li>
+                <li>wk</li>
+                <li>w</li>
+                <li>yearly</li>
+                <li>years</li>
+                <li>year</li>
+                <li>yrs</li>
+                <li>yr</li>
+                <li>y</li>
+              </ul>
+            </p>
+
+            <p>
+              Note that some values lack precision, for example "2q" means two quarters, or
+              half a year.
+            </p>
+
+            <p>
+              Note that not all combinations of <number> and <unit> make sense, for example
+              "3annual" makes no sense, but evaluates to "3years".
+            </p>
+
+            <a name="atts"></a>
+            <h4>The Attributes</h4>
+            <p>
+              Here are the standard attributes that may comprise a task:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed table-bordered">
+                <tr>
+                  <th>Name</th>
+                  <th>Type</th>
+                </tr>
+                <tr>
+                  <td>status</td>
+                  <td>String</td>
+                </tr>
+                <tr>
+                  <td>uuid</td>
+                  <td>UUID</td>
+                </tr>
+                <tr>
+                  <td>entry</td>
+                  <td>Date</td>
+                </tr>
+                <tr>
+                  <td>description</td>
+                  <td>String</td>
+                </tr>
+                <tr>
+                  <td>start</td>
+                  <td>Date</td>
+                </tr>
+                <tr>
+                  <td>end</td>
+                  <td>Date</td>
+                </tr>
+                <tr>
+                  <td>due</td>
+                  <td>Date</td>
+                </tr>
+                <tr>
+                  <td>until</td>
+                  <td>Date</td>
+                </tr>
+                <tr>
+                  <td>wait</td>
+                  <td>Date</td>
+                </tr>
+                <tr>
+                  <td>modified</td>
+                  <td>Date</td>
+                </tr>
+                <tr>
+                  <td>scheduled</td>
+                  <td>Date</td>
+                </tr>
+                <tr>
+                  <td>recur</td>
+                  <td>String</td>
+                </tr>
+                <tr>
+                  <td>mask</td>
+                  <td>String</td>
+                </tr>
+                <tr>
+                  <td>imask</td>
+                  <td>Integer</td>
+                </tr>
+                <tr>
+                  <td>parent</td>
+                  <td>UUID</td>
+                </tr>
+                <tr>
+                  <td>project</td>
+                  <td>String</td>
+                </tr>
+                <tr>
+                  <td>priority</td>
+                  <td>String</td>
+                </tr>
+                <tr>
+                  <td>depends</td>
+                  <td>String</td>
+                </tr>
+                <tr>
+                  <td>tags *</td>
+                  <td>String</td>
+                </tr>
+                <tr>
+                  <td>annotation *</td>
+                  <td>String</td>
+                </tr>
+                <tr>
+                  <td><UDA></td>
+                  <td>?</td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              * Both tags and annotations are lists of strings and objects.
+            </p>
+
+            <p>
+              Any UDA fields are assumed to be of type string.
+            </p>
+
+            <p>
+              There are other forms, which are conditional upon the state of a task:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed table-bordered">
+                <tr>
+                  <th>Status Value</th>
+                  <th>Pending</th>
+                  <th>Deleted</th>
+                  <th>Completed</th>
+                  <th>Waiting</th>
+                  <th>Recurring Parent</th>
+                  <th>Recurring Child</th>
+                </tr>
+                <tr>
+                  <td>status</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                </tr>
+                <tr>
+                  <td>uuid</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                </tr>
+                <tr>
+                  <td>entry</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                </tr>
+                <tr>
+                  <td>description</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                </tr>
+                <tr>
+                  <td>start</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                </tr>
+                <tr>
+                  <td>end</td>
+                  <td></td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>due</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Reqd</td>
+                  <td>Opt</td>
+                </tr>
+                <tr>
+                  <td>until</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                </tr>
+                <tr>
+                  <td>scheduled</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                </tr>
+                <tr>
+                  <td>wait</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>Reqd</td>
+                  <td></td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>recur</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>Reqd</td>
+                  <td>Reqd</td>
+                </tr>
+                <tr>
+                  <td>mask</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>Intrn</td>
+                  <td></td>
+                </tr>
+                <tr>
+                  <td>imask</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>Intrn</td>
+                </tr>
+                <tr>
+                  <td>parent</td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td></td>
+                  <td>Reqd</td>
+                </tr>
+                <tr>
+                  <td>annotation</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                </tr>
+                <tr>
+                  <td>project</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                </tr>
+                <tr>
+                  <td>tags</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                </tr>
+                <tr>
+                  <td>priority</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                </tr>
+                <tr>
+                  <td>depends</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                </tr>
+                <tr>
+                  <td>modified</td>
+                  <td>Intrn</td>
+                  <td>Intrn</td>
+                  <td>Intrn</td>
+                  <td>Intrn</td>
+                  <td>Intrn</td>
+                  <td>Intrn</td>
+                </tr>
+                <tr>
+                  <td>UDA</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                  <td>Opt</td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              (Legend: Reqd = required, Opt = optional, Intrn = Internally generated)
+            </p>
+
+            <p>
+              All tasks have four required fields.  There are other states in which a task
+              may exist, and the requirements change.  At a minimum, a valid task contains:
+            </p>
+
+            <p>
+              <ul>
+                <li>uuid</li>
+                <li>status</li>
+                <li>entry</li>
+                <li>description</li>
+              </ul>
+            </p>
+
+            <p>
+              <em>Deleted</em>
+              <br />
+              A deleted task MUST also have "status":"deleted", an "end" date and a
+              "modified" date.
+            </p>
+
+            <p>
+              <em>Completed</em>
+              <br />
+              A completed task MUST also have "status":"completed", an "end" date and a
+              "modified" date.
+            </p>
+
+            <p>
+              <em>Waiting</em>
+              <br />
+              A waiting task MUST also have "status":"waiting" and a "wait" date.  The
+              task is hidden from the user, until that "wait" date has passed, whereupon
+              the status reverts to "pending", and the "wait" date is removed.
+            </p>
+
+            <p>
+              <em>Recurring Parent</em>
+              <br />
+              When a recurring task is entered, it MUST have "status":"recurring", a
+              "recur" period and a "due" date.  It MAY also have an "until" date.
+              Recurring parent tasks are hidden from the user.
+            </p>
+
+            <p>
+              <em>Recurring Child</em>
+              <br />
+              A recurring child task is not created by the user, but is cloned from the
+              recurring parent task by the Taskserver.  It may be modified by the user.
+              On completion, there is special handling to be done.  See section 3.11.
+            </p>
+
+            <a name="additional"></a>
+            <h4>Additional Attributes</h4>
+            <p>
+              There MAY be other fields than those listed above in a task definition.  Such
+              fields MUST be preserved intact by any client, which means that if a task is
+              downloaded that contains an unrecognized field, that field MUST not be
+              modified, and MUST continue to exist in the task..
+            </p>
+
+            <p>
+              User Defined Attributes (UDAs) are additional fields.
+            </p>
+
+            <a name="details"></a>
+            <h4>Attribute Details</h4>
+            <p>
+              The individual fields convey important information about a task, and in some
+              cases work only in collusion with other fields.  All such details are listed
+              here.
+            </p>
+
+            <a name="attr_status"></a>
+            <h4>Attribute: status</h4>
+            <p>
+              The status field describes the state of the task, which may ONLY be one of
+              these literal strings:
+            </p>
+
+            <p>
+              <pre>"status":"pending"
+"status":"deleted"
+"status":"completed"
+"status":"waiting"
+"status":"recurring"</pre>
+            </p>
+
+            <p>
+              A pending task is a task that has not yet been completed or deleted.  This is
+              the typical state for a task.
+            </p>
+
+            <p>
+              A deleted task is one that has been removed from the pending state, and MUST
+              have an "end" field specified.  Given the required "entry" and "end" field,
+              it can be determined how long the task was pending.
+            </p>
+
+            <p>
+              A completed task is one that has been removed from the pending state by
+              completion, and MUST have an "end" field specified.  Given the required
+              "entry" and "end" fields, it can be determine how long the task was pending.
+            </p>
+
+            <p>
+              A waiting task is ostensibly a pending task that has been hidden from typical
+              view, and MUST have a "wait" field containing the date when the task is
+              automatically returned to the pending state.  If a client sees a task that is
+              in the waiting state, and the "wait" field is earlier than the current date
+              and time, the client MUST remove the "wait" field and set the "status" field
+              to "pending".
+            </p>
+
+            <p>
+              A recurring task is essentially a parent template task from which child tasks
+              are cloned.  The parent remains hidden from view, and contains a "mask" field
+              that represents the recurrences.  Each cloned child task has an "imask" field
+              that indexes into the parent "mask" field, as well as a "parent" field that
+              lists the UUID of the parent.
+            </p>
+
+            <a name="attr_uuid"></a>
+            <h4>Attribute: uuid</h4>
+            <p>
+              When a task is created, it MUST be assigned a new UUID by the client.  Once
+              assigned, a UUID field MUST NOT be modified.  UUID fields are permanent.
+            </p>
+
+            <a name="attr_entry"></a>
+            <h4>Attribute: entry</h4>
+            <p>
+              When a task is created, it MUST be assigned an "entry" date by the client.
+              This is the creation date of the task.
+            </p>
+
+            <a name="attr_description"></a>
+            <h4>Attribute: description</h4>
+            <p>
+              When a task is created, it MUST have a "description" field value, which
+              contains UTF8 characters.  A "description" field may not contain newline
+              characters, but may contain other characters, properly escaped.
+              See <a href="http://json.org">http://json.org</a> for details.
+            </p>
+
+            <a name="attr_start"></a>
+            <h4>Attribute: start</h4>
+            <p>
+              To indicate that a task is being worked on, it MAY be assigned a "start"
+              field.  Such a task is then considered Active.
+            </p>
+
+            <a name="attr_end"></a>
+            <h4>Attribute: end</h4>
+            <p>
+              When a task is deleted or completed, is MUST be assigned an "end" field.
+              It is not valid for a task to have an "end" field unless the status is also
+              "completed" or "deleted".  If a completed task is restored to the "pending"
+              state, the "end" field is removed.
+            </p>
+
+            <a name="attr_due"></a>
+            <h4>Attribute: due</h4>
+            <p>
+              A task MAY have a "due" field, which indicates when the task should be
+              completed.
+            </p>
+
+            <a name="attr_until"></a>
+            <h4>Attribute: until</h4>
+            <p>
+              A recurring task MAY have an "until" field, which is the date after which no
+              more recurring tasks should be generated.  At that time, the parent recurring
+              task is set to "completed".
+            </p>
+
+            <a name="attr_wait"></a>
+            <h4>Attribute: wait</h4>
+            <p>
+              A task MAY have a "wait" field date, in conjunction with a "status" of
+              "waiting".  A waiting task is one that is not typically shown on reports
+              until it is past the wait date.
+            </p>
+
+            <p>
+              An example of this is a birthday reminder.  A task may be entered
+              for a birthday reminder in 10 months time, but can have a "wait" date 9
+              months from now, which means the task remains hidden until 1 month before the
+              due date.  This prevents long-term tasks from cluttering reports until they
+              become relevant.
+            </p>
+
+            <a name="attr_recur"></a>
+            <h4>Attribute: recur</h4>
+            <p>
+              The "recur" field is for recurring tasks, and specifies the period between
+              child tasks, in the form of a duration value.  The value is kept in the raw
+              state (such as "3wks") as a string, so that it may be evaluated each time it
+              is needed.
+            </p>
+
+            <a name="attr_mask"></a>
+            <h4>Attribute: mask</h4>
+            <p>
+              A parent recurring task has a "mask" field that is an array of child status
+              indicators.  Suppose a task is created that is due every week for a month.
+              The "mask" field will look like:
+            </p>
+
+            <p>
+              <pre>"----"</pre>
+            </p>
+
+            <p>
+              This mask has four slots, indicating that there are four child tasks, and
+              each slot indicates, in this case, that the child tasks are pending ("-").
+              The possible slot indicators are:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed table-bordered">
+                <tr>
+                  <td>-</td>
+                  <td>Pending</td>
+                </tr>
+                <tr>
+                  <td>+</td>
+                  <td>Completed</td>
+                </tr>
+                <tr>
+                  <td>X</td>
+                  <td>Deleted</td>
+                </tr>
+                <tr>
+                  <td>W</td>
+                  <td>Waiting</td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              Suppose the first three tasks has been completed, the mask would look like
+              this:
+            </p>
+
+            <p>
+              <pre>"+++-"</pre>
+            </p>
+
+            <p>
+              If there were only three indicators in the mask:
+            </p>
+
+            <p>
+              <pre>"+-+"</pre>
+            </p>
+
+            <p>
+              This would indicate that the second task is pending, the first and third are
+              complete, and the fourth has not yet been generated.
+            </p>
+
+            <a name="attr_imask"></a>
+            <h4>Attribute: imask</h4>
+            <p>
+              Child recurring tasks have an "imask" field instead of a "mask" field like
+              their parent.  The "imask" field is a zero-based integer offset into the
+              "mask" field of the parent.
+            </p>
+
+            <p>
+              If a child task is completed, one of the changes that MUST occur is to look
+              up the parent task, and using "imask" set the "mask" of the parent to the
+              correct indicator.  This prevents recurring tasks from being generated twice.
+            </p>
+
+            <a name="attr_parent"></a>
+            <h4>Attribute: parent</h4>
+            <p>
+              A recurring task instance MUST have a "parent" field, which is the UUID of
+              the task that has "status" of "recurring".  This linkage between tasks,
+              established using "parent", "mask" and "imask" is used to track the need to
+              generate more recurring tasks.
+            </p>
+
+            <a name="attr_annotation"></a>
+            <h4>Attribute: annotation_...</h4>
+            <p>
+              Annotations are strings with timestamps.  Each annotation itself has an
+              "entry" field and a "description" field, similar to the task itself.
+              Annotations form an array named "annotations".  For example (lines broken
+              for clarity):
+            </p>
+
+            <p>
+              <pre>"annotations":[
+  {"entry":"20120110T234212Z","description":"Remember to get the mail"},
+  {"entry":"20120110T234559Z","description":"Pay the bills"}
+]</pre>
+            </p>
+
+            <a name="attr_project"></a>
+            <h4>Attribute: project</h4>
+            <p>
+              A project is a single string.  For example:
+            </p>
+
+            <p>
+              <pre>"project":"Personal Taxes"</pre>
+            </p>
+
+            <p>
+              Note that projects receive special handling, so that when a "." (U+002E) is
+              used, it implies a hierarchy, which means the following two projects:
+            </p>
+
+            <p>
+              <pre>"Home.Kitchen"
+"Home.Garden"</pre>
+            </p>
+
+            <p>
+              are both considered part of the "Home" project.
+            </p>
+
+            <a name="attr_tags"></a>
+            <h4>Attribute: tags</h4>
+            <p>
+              The "tags" field is an array of string, where each string is a single word
+              containing no spaces.  For example:
+            </p>
+
+            <p>
+              <pre>"tags":["home","garden"]</pre>
+            </p>
+
+            <a name="attr_priority"></a>
+            <h4>Attribute: priority</h4>
+            <p>
+              The "priority" field, if present, MAY contain one of the following strings:
+            </p>
+
+            <p>
+              <pre>"priority":"H"
+"priority":"M"
+"priority":"L"</pre>
+            </p>
+
+            <p>
+              These represent High, Medium and Low priorities.  An absent priority field
+              indicates no priority.
+            </p>
+
+            <a name="attr_depends"></a>
+            <h4>Attribute: depends</h4>
+            <p>
+              The "depends" field is a string containing a comma-separated unique set of
+              UUIDs.  If task 2 depends on task 1, then it is task 1 that must be completed
+              first.  Task 1 is considered a "blocking" tasks, and task 2 is considered a
+              "blocked" task.  For example:
+            </p>
+
+            <p>
+              <pre>"depends":"<uuid>,<uuid>, ..."</pre>
+            </p>
+
+            <p>
+              Note that in a future version of this specification, this will be changed to
+              a JSON array of strings, like the "tags" field.
+            </p>
+
+            <a name="attr_modified"></a>
+            <h4>Attribute: modified</h4>
+            <p>
+              A task MUST have a "modified" field set if it is modified.  This field is
+              of type "date", and is used as a reference when merging tasks.
+            </p>
+
+            <a name="attr_scheduled"></a>
+            <h4>Attribute: scheduled</h4>
+            <p>
+              A task MAY have a "scheduled" field, which indicates when the task should be
+              available to start.  A task that has passed its "scheduled" data is said to
+              be "ready".
+            </p>
+
+            <a name="udas"></a>
+            <h4>User Defined Attributes</h4>
+            <p>
+              A User Defined Attribute (UDA) is a field that is defined via configuration.
+              Given that the configuration is not present in the JSON format of a task, any
+              fields that are not recognized are to be treated as UDAs.  This means that
+              if a task contains a UDA, unless the meaning of it is understood, it MUST be
+              preserved.
+            </p>
+
+            <p>
+              UDAs may have one of four types: string, numeric, date and duration.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#json">JSON Format</a></li>
+            <li><a class="alert-link" href="#req">Requirements</a></li>
+            <li><a class="alert-link" href="#general">General Format</a></li>
+            <li><a class="alert-link" href="#types">Data Types</a></li>
+            <li><a class="alert-link" href="#type_string">Type String</a></li>
+            <li><a class="alert-link" href="#type_fixedstring">Type Fixed String</a></li>
+            <li><a class="alert-link" href="#type_uuid">Type UUID</a></li>
+            <li><a class="alert-link" href="#type_int">Type Integer</a></li>
+            <li><a class="alert-link" href="#type_date">Type Date</a></li>
+            <li><a class="alert-link" href="#type_duration">Type Duration</a></li>
+            <li><a class="alert-link" href="#atts">Attributes</a></li>
+            <li><a class="alert-link" href="#additional">Additional Attributes</a></li>
+            <li><a class="alert-link" href="#details">Attribute Details</a></li>
+            <li><a class="alert-link" href="#attr_status">Attribute: status</a></li>
+            <li><a class="alert-link" href="#attr_uuid">Attribute: uuid</a></li>
+            <li><a class="alert-link" href="#attr_entry">Attribute: entry</a></li>
+            <li><a class="alert-link" href="#attr_description">Attribute: description</a></li>
+            <li><a class="alert-link" href="#attr_start">Attribute: start</a></li>
+            <li><a class="alert-link" href="#attr_end">Attribute: end</a></li>
+            <li><a class="alert-link" href="#attr_due">Attribute: due</a></li>
+            <li><a class="alert-link" href="#attr_until">Attribute: until</a></li>
+            <li><a class="alert-link" href="#attr_wait">Attribute: wait</a></li>
+            <li><a class="alert-link" href="#attr_recur">Attribute: recur</a></li>
+            <li><a class="alert-link" href="#attr_mask">Attribute: mask</a></li>
+            <li><a class="alert-link" href="#attr_imask">Attribute: imask</a></li>
+            <li><a class="alert-link" href="#attr_parent">Attribute: parent</a></li>
+            <li><a class="alert-link" href="#attr_annotation">Attribute: annotation_...</a></li>
+            <li><a class="alert-link" href="#attr_project">Attribute: project</a></li>
+            <li><a class="alert-link" href="#attr_tags">Attribute: tags</a></li>
+            <li><a class="alert-link" href="#attr_priority">Attribute: priority</a></li>
+            <li><a class="alert-link" href="#attr_depends">Attribute: depends</a></li>
+            <li><a class="alert-link" href="#attr_modified">Attribute: modified</a></li>
+            <li><a class="alert-link" href="#attr_scheduled">Attribute: scheduled</a></li>
+            <li><a class="alert-link" href="#udas">User Defined Attributes</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://flod.us/index2.html">flod.us</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+            <br />
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" width="16px" height="16px"> G+</a>
+            <br />
+            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" width="16px" height="16px"> Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>

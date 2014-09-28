@@ -47,159 +47,163 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-        <p>
-          Version-specific features are labelled <span class="label label-success">2.4.0</span>
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="start"></a>
-                <p class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/tutorials/30second.html">30-Second Tutorial</a></li>
-                    <li><a class="alert-link" href="/docs/tutorials/">Complete Tutorials</a></li>
-                    <li><a class="alert-link" href="/docs/glossary.html">Glossary of Terms</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="task"></a>
-                <p class="text-large"><strong>Using Taskwarrior</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
-                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
-                    <li>
-                      Commands
-                      <ul>
-                        <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                        <li><a href="/docs/commands/calc.html"><code>calc</code> command</a> <span class="label label-success">2.4.0</span></li>
-                        <li><a href="/docs/commands/columns.html"><code>columns</code> command</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/docs/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
-                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
-                    <li><a href="/docs/urgency.html">Urgency</a></li>
-                    <li><a href="/docs/ids.html">ID Numbers</a></li>
-                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
-                    <li><a href="/docs/tags.html">Tags &amp; Virtual Tags</a></li>
-                    <li><a href="/tools/">External Scripts</a></li>
-                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
-                    <li><a href="/docs/json.html">JSON Import/Export Format</a></li>
-                    <li><a href="/docs/deprecated.html">Deprecated Features</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="taskd"></a>
-                <p class="text-large"><strong>Taskserver</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/taskserver/why.html">Why do I need a Taskserver?</a></li>
-                    <li><a href="/docs/taskserver/setup.html">Setting up your own Taskserver</a></li>
-                    <li><a href="/docs/taskserver/ciphers.html">Cipher Selection</a></li>
-                    <li><a href="/docs/taskserver/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="feedback"></a>
-                <p class="text-large"><strong>Feedback</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
-                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="l10n"></a>
-                <p class="text-large"><strong>Translators</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-<!--
-                    <li><a href="/docs/localization.html">Localizing Taskwarrior</a></li>
-                    <li><a href="/docs/l10n.html">The <code>l10n</code> Utility</a></li>
--->
-                    <li>Localizing Taskwarrior</li>
-                    <li>The <code>l10n</code> Utility</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="dev"></a>
-                <p class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/build.html">How To Build Taskwarrior</a></li>
-                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
-                    <li><a href="/docs/coding_style.html">Coding Style</a></li>
-                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
-                    <li><a href="/docs/design/index.html">Design Documents (RFCs)</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="about"></a>
-                <p class="text-large"><strong>About</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/history.html">Release History</a></li>
-                    <li><a href="/docs/license.html">MIT License</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="searching"></a>
+            <h3>Searching</h3>
+            <p>
+              Searching for keywords and patterns in tasks is straightforward,
+              and uses the <code>/pattern/</code> syntax. First we create some
+              sample tasks, then we'll search them.
+            </p>
+
+            <pre>$ task add foo
+$ task add bar
+$ task add baz</pre>
+
+            <p>
+              In order to locate that first task, by the keyword <code>foo</code>
+              we do this:
+            </p>
+
+            <pre>$ task /foo/ list
+
+ID Age   D Description Urg
+-- ----- - ----------- ----
+ 1 1min    foo            0</pre>
+
+            <p>
+              The <code>/</code> characters delimit the search term, indicating
+              what Taskwarrior should do. Because task annotations are also
+              searchable text, we can be sure that any annotations containing
+              the pattern <code>/foo/</code> will also be found. Let's add a
+              task with such an annotation:
+            </p>
+
+            <pre>$ task 3 annotate footwear
+$ task /foo/ long
+
+ID Created    Mod   Recur Description
+-- ---------- ----- ----- ---------------------
+ 3 2014-09-28 2min        baz
+                            2014-09-28 footwear
+ 1 2014-09-28 2min       foo</pre>
+
+            <p>
+              Here the <code>long</code> report is used so we can see the full
+              annotation text. Notice that the <code>foo</code> in the
+              description of task 1, as well as the <code>footwear</code> in
+              the annotation of task 3 were both found.
+            </p>
+
+            <a name="regexes"></a>
+            <h4>Regular Expressions</h4>
+            <p>
+              Beginning in version
+              <span class="label label-success">2.4.0</span>
+              all search terms are by default
+              <a href="/docs/glossary.html#regex">regular expressions</a>.
+              This means we could have searched using this pattern, which means
+              an <code>f</code> followed by two <code>o</code> characters:
+            </p>
+
+            <pre>$ task /fo{2}/ long
+
+ID Created    Mod   Recur Description
+-- ---------- ----- ----- ---------------------
+ 3 2014-09-28 3min        baz
+                            2014-09-28 footwear
+ 1 2014-09-28 3min       foo</pre>
+
+            <p>
+              In older versions, you would need to explicitly enable regex
+              support like this:
+            </p>
+
+            <pre>$ task rc.regex:on /fo{2}/ long
+
+ID Created    Mod   Recur Description
+-- ---------- ----- ----- ---------------------
+ 3 2014-09-28 3min        baz
+                            2014-09-28 footwear
+ 1 2014-09-28 3min       foo</pre>
+
+            <p>
+              Of or course put the setting in your <code>.taskrc</code> file.
+              You can also turn off regular expression support:
+            </p>
+
+            <pre>$ task rc.regex:off /fo{2}/ long
+
+No matches.</pre>
+
+            <p>
+              This fails because the search term <code>/fo{2}/</code> is this
+              time considered just text, not a regular expression and this term
+              does not appear in any task.
+            </p>
+
+            <a name="shell"></a>
+            <h4>Shell</h4>
+            <p>
+              If your search term contains one or more spaces, then your
+              <a href="/docs/glossary.html#shell">shell</a>
+              is going to break the search pattern into two arguments, and
+              Taskwarrior will be confused. Solve this by either quoting or
+              escaping like these examples:
+            </p>
+
+            <pre>$ task '/foo bar/' list
+$ task /foo\ bar/ list</pre>
+
+            <p>
+              This guarantees that Taskwarrior sees one argument,
+              <code>/foo bar/</code> instead of two, <code>/foo</code>,
+              <code>bar/</code>.
+            </p>
+
+            <a name="operators"></a>
+            <h4>Operators</h4>
+            <p>
+              The search pattern syntax of <code>/pattern/</code> is there as a
+              convenience, but there are more powerful low-level operators, such
+              that the above pattern is equivalent to:
+            </p>
+
+            <pre>$ task description~foo list
+</pre>
+
+            <p>
+              Here the <code>~</code> match operator works much like that in Bash.
+              To invert that, to search for descriptions that <em>do not</em>
+              contain the patter, use the no-match operator:
+            </p>
+
+            <pre>$ task 'desc!~foo' list
+</pre>
+
+            <p>
+              Here you see the <code>!~</code> no-match operator, an abbreviated
+              <code>desc</code> attribute name, and quoting, because Bash will
+              interpret the <code>!</code> character in its own way.
+            </p>
+
+            <h4>&nbsp;</h4>
+          </div>
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#feedback">Feedback</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
-            <li><a class="alert-link" href="#about">About</a></li>
+            <li><a class="alert-link" href="#searching">Searching</a></li>
+            <li><a class="alert-link" href="#regexes">Regular Expressions</a></li>
+            <li><a class="alert-link" href="#shell">Shell</a></li>
+            <li><a class="alert-link" href="#operators">Operators</a></li>
           </ul>
         </div>
       </div>
