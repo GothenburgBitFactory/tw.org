@@ -47,155 +47,110 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-        <p>
-          Version-specific features are labelled <span class="label label-success">2.4.0</span>
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="start"></a>
-                <p class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/tutorials/30second.html">30-Second Tutorial</a></li>
-                    <li><a class="alert-link" href="/docs/tutorials/">Complete Tutorials</a></li>
-                    <li><a class="alert-link" href="/docs/glossary.html">Glossary of Terms</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="task"></a>
-                <p class="text-large"><strong>Using Taskwarrior</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
-                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
-                    <li>
-                      Commands
-                      <ul>
-                        <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                        <li><a href="/docs/commands/calc.html"><code>calc</code> command</a> <span class="label label-success">2.4.0</span></li>
-                        <li><a href="/docs/commands/columns.html"><code>columns</code> command</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/docs/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
-                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
-                    <li><a href="/docs/urgency.html">Urgency</a></li>
-                    <li><a href="/docs/ids.html">ID Numbers</a></li>
-                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
-                    <li><a href="/docs/tags.html">Tags &amp; Virtual Tags</a></li>
-                    <li><a href="/tools/">External Scripts</a></li>
-                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
-                    <li><a href="/docs/design/task.html">JSON Import/Export Format</a></li>
-                    <li><a href="/docs/deprecated.html">Deprecated Features</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="taskd"></a>
-                <p class="text-large"><strong>Taskserver</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/taskserver/why.html">Why do I need a Taskserver?</a></li>
-                    <li><a href="/docs/taskserver/setup.html">Setting up your own Taskserver</a></li>
-                    <li><a href="/docs/taskserver/ciphers.html">Cipher Selection</a></li>
-                    <li><a href="/docs/taskserver/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="feedback"></a>
-                <p class="text-large"><strong>Feedback</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
-                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="l10n"></a>
-                <p class="text-large"><strong>Translators</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/localization.html">Localizing Taskwarrior</a></li>
-                    <li><a href="/docs/l10n.html">The <code>l10n</code> Utility</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="dev"></a>
-                <p class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/build.html">How To Build Taskwarrior</a></li>
-                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
-                    <li><a href="/docs/coding_style.html">Coding Style</a></li>
-                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
-                    <li><a href="/docs/design/index.html">Design Documents (RFCs)</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="about"></a>
-                <p class="text-large"><strong>About</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/history.html">Release History</a></li>
-                    <li><a href="/docs/license.html">MIT License</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="l10n"></a>
+            <h3>l10n Utility</h3>
+            <p>
+              Since Taskwarrior version 2.2.0, there has been a Spanish
+              localization. This translation was a significant effort, involving
+              600+ string translations. To help maintain current and future
+              translations (there are currently seven), a utility script has
+              been created to automate some of the cross-referencing that is
+              needed during that process. Here is the <code>l10n</code> utility:
+            </p>
+
+            <p>
+              <a href="/docs/images/l10n-1.png">
+                <img alt="l10n Demo" class="img-thumbnail" src="/docs/images/l10n-1.png" />
+              </a>
+            </p>
+
+            <p>
+              If you specify a source directory, <code>l10n</code> will find all
+              the localized files within it, and analyze the translation work.
+              The output looks like this:
+            </p>
+
+            <p>
+              <a href="/docs/images/l10n-2.png">
+                <img alt="l10n Demo" class="img-thumbnail" src="/docs/images/l10n-2.png" />
+              </a>
+            </p>
+
+            <p>
+              This is telling us that all seven languages have the same number
+              localized strings (694), and there are no errors. This is because
+              the translators are doing a great job. To illustrate a problem, one
+              must be introduced, in this case, deleting a string from the
+              <code>eng-USA.h</code> file. Here the <code>--search</code>
+              option asks <code>l10n</code> to scan the source and compare the
+              strings in each language, reporting problems.
+            </p>
+
+            <p>
+              <a href="/docs/images/l10n-3.png">
+                <img alt="l10n Demo" class="img-thumbnail" src="/docs/images/l10n-3.png" />
+              </a>
+            </p>
+
+            <p>
+              It can be seen that the string <code>STRING_COLUMN_LABEL_COMPLETE</code>
+              has been removed. Ordinarily this means a localization file is
+              incomplete, and will not compile. Because development occurs in the
+              English language, any new feature will likely result in missing
+              strings in the other languages. When this happens, the English
+              string is copied to all the other language files. This allows the
+              localizations to compile, but means there is translation work to be
+              done. Consider this output:
+            </p>
+
+            <p>
+              <a href="/docs/images/l10n-4.png">
+                <img alt="l10n Demo" class="img-thumbnail" src="/docs/images/l10n-4.png" />
+              </a>
+            </p>
+
+            <p>
+              Here the <code>--all</code> option asks <code>l10n</code> to report
+              all strings, not just problems. Here it is showing that there is
+              work to be done in the French translation. The 'TODO' marker is an
+              indication that a string exactly matches the English string, and
+              probably needs to be translated. Not all strings need to be
+              translated, for example 'MB'.
+            </p>
+
+            <p>
+              The <code>--search</code> option also reports cases where a string
+              is defined in the language files, but not used in the code. This
+              either means the code has not yet started to use the string, or it
+              is no longer used, and can be safely removed. In the example below,
+              there are four strings that are not used.
+            </p>
+
+            <p>
+              <a href="/docs/images/l10n-5.png">
+                <img alt="l10n Demo" class="img-thumbnail" src="/docs/images/l10n-5.png" />
+              </a>
+            </p>
+
+            <p>
+              Using the <code>--quiet</code> option, no output is generated,
+              and so this utility can be used in the unit tests, relying on
+              the exit status to indicate problems.
+            </p>
+          </div>
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#feedback">Feedback</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
-            <li><a class="alert-link" href="#about">About</a></li>
+            <li><a class="alert-link" href="#l10n">l10n Utility</a></li>
           </ul>
         </div>
       </div>
