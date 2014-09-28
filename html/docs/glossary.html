@@ -512,6 +512,32 @@ pi * r^2</pre>
             <h4>&nbsp;</h4>
           </dd>
 
+          <dt><a name="shell"></a>shell</dt>
+          <dd>
+            <p>
+              The shell is your command interpreter. Most likely you are using the
+              <code>bash</code> shell, but there are many others.
+            </p>
+
+            <p>
+              Any program that has complex argument processing will likely face
+              several problems that are shell-related. The shell modifies the
+              entered text before passing it on to the program. For example,
+              consider these two commands:
+            </p>
+
+            <pre>$ ls my_file
+$ ls 'my_file'</pre>
+
+            <p>
+              In both cases, the <code>ls</code> command sees the same command
+              line argument, <code>my_file</code>, because the shell removes the
+              quotes. There are many other cases to be aware of also.
+            </p>
+
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="shadow_file"></a>shadow file</dt>
           <dd>
             <span class="label label-info">TBD</span>
@@ -944,6 +970,7 @@ $ task -HOME list</pre>
             <li><a class="alert-link" href="#rpn">RPN</a></li>
             <li><a class="alert-link" href="#scheduled">scheduled</a></li>
             <li><a class="alert-link" href="#shadow_file">shadow file</a></li>
+            <li><a class="alert-link" href="#shell">shell</a></li>
             <li><a class="alert-link" href="#stag">special tag</a></li>
             <li><a class="alert-link" href="#start">start</a></li>
             <li><a class="alert-link" href="#substitution">substitution</a></li>
