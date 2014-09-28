@@ -327,7 +327,25 @@ $ task 123 delete</pre>
 
           <dt><a name="export"></a>export</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              Task can be exported from Taskwarrior, using the <code>export</code>
+              command. You can apply a filter to the export command to control
+              which tasks are exported.
+            </p>
+
+            <p>
+              Tasks are exported using the
+              <a href="/docs/design/task.html">Taskwarrior JSON Format</a>.
+            </p>
+
+            <pre>$ task add Buy milk
+$ task /milk/ export
+{"description":"Buy milk","entry":"20140928T211124Z","status":"pending","uuid":"2e17b750-c137-4ddd-b6dd-c63e272107f4"}</pre>
+            <p>
+              Exported tasks may be imported. This is the recommended mechanism
+              for writing add-on scripts and programs.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
