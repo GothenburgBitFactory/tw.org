@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="dom"></a>
+            <h3>DOM - Document Object Model</h3>
+            <p>
+              Taskwarrior has a Document Object Model, or DOM, which defines a
+              way to reference all the data managed by taskwarrior. You may be
+              familiar with the DOM implemented by web browsers that let you
+              access details on a page programmatically. For example:
+            </p>
+
+            <pre>document.getElementById("myAnchor").href</pre>
+
+            <p>
+              Taskwarrior allows the same kind of data access in a similar form,
+              for example:
+            </p>
+
+            <pre>1.description</pre>
+
+            <p>
+              This references the description text of task 1. There is a
+              <code>_get</code> helper command that queries data using a DOM
+              reference. Let's see it in action, by first creating a detailed task.
+            </p>
+
+            <pre>$ task add Buy milk due:tomorrow +store project:Home pri:H
+$ task 1 info
+
+Name          Value
+------------- ------------------------------------------
+ID            1
+Description   Buy milk
+Status        Pending
+Project       Home
+Priority      H
+Entered       2014-09-28 21:53:59 (4 seconds)
+Due           2014-09-29 00:00:00
+Last modified 2014-09-28 21:53:59 (4 seconds)
+Tags          store
+UUID          c0ab2bf6-b4f5-45c2-8420-18ab4f1ba7e7
+Urgency       16.56
+                           project     1  *    1 =     1
+                          priority     1  *    6 =     6
+                              tags   0.8  *    1 =   0.8
+                               due  0.73  *   12 =  8.76</pre>
+
+            <p>
+              All the attributes of that task are available via DOM references.
+              Here are some examples:
+            </p>
+
+            <pre>$ task _get 1.description
+Buy milk
+
+$ task _get 1.uuid
+c0ab2bf6-b4f5-45c2-8420-18ab4f1ba7e7
+
+$ task _get c0ab2bf6-b4f5-45c2-8420-18ab4f1ba7e7.id
+1
+
+$ task _get 1.due.year
+2014
+
+$ task _get 1.due.julian
+272
+
+</pre>
+
+            <a name="supported"></a>
+            <h4>Supported References</h4>
+            <p>
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed">
+<!--
+                <tr>
+                  <td><code>context.program</code></td>
+                  <td>
+                    The name of the program, usually <code>task</code>.
+                    Not useful from the <code>_get</code> command.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>context.args</code></td>
+                  <td>
+                    The full command line.
+                    Not useful from the <code>_get</code> command.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>context.width</code></td>
+                  <td>
+                    The detected width, in character cells, of the terminal window.
+                    If not run from a tty, returns a default value.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>context.height</code></td>
+                  <td>
+                    The detected height, in lines, of the terminal window.
+                    If not run from a tty, returns a default value.
+                  </td>
+                </tr>
+-->
+                <tr>
+                  <td><code>system.version</code></td>
+                  <td>
+                    The version of taskwarrior, for example:
+                    <pre>$ task _get system.version
+2.4.0</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>system.os</code></td>
+                  <td>
+                    The operating system, for example:
+                    <pre>$ task _get system.os
+FreeBSD</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>rc.&lt;name&gt;</code></td>
+                  <td>
+                    Any configuration value default, with any overrides from the
+                    <code>.taskrc</code> applied, then with any command line overrides
+                    applied last. For example:
+                    <pre>$ task _get rc.data.location
+~/.task</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;attribute&gt;</code></td>
+                  <td>
+                    Any task attribute. Note that no task ID or UUID is specified,
+                    so this variant is only useful on the command line like this:
+                    <pre>$ task add Pay rent due:eom wait:'due - 3days'</pre>
+                    Note that 'due' is a DOM reference from earlier on the command line.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;id&gt;.&lt;attribute&gt;</code></td>
+                  <td>
+                    Any attribute of the specified task ID. For example:
+                    <pre>$ task add Fix the leak depends:3 scheduled:3.due</pre>
+                    This makes the new task dependent on task 3, and scheduled on
+                    the due date of task 3.  Note that '3.due' is a DOM reference
+                    of a specific task.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;uuid&gt;.&lt;attribute&gt;</code></td>
+                  <td>
+                    Any attribute of the specified task UUID, as above.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              Any attribute that is of type <code>date</code> can be directly
+              accessed as a date, or it can be accessed by the elements of that
+              date. For example:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed">
+                <tr>
+                  <td><code>&lt;date&gt;.year</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The year, for example:
+                    <pre>$ task _get 1.due.year
+2014</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;date&gt;.month</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The month, for example:
+                    <pre>$ task _get 1.due.month
+9</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;date&gt;.day</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The day of the month, for example:
+                    <pre>$ task _get 1.due.day
+29</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;date&gt;.week</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The week number of the date, for example:
+                    <pre>$ task _get 1.due.week
+40</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;date&gt;.weekday</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The numbered weekday of the date, where 0 is Sunday
+                    and 6 is Saturday. For example:
+                    <pre>$ task _get 1.due.weekday
+1</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;date&gt;.julian</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The Julian day of the date, which is the day number of the
+                    date in the year. For example, January 1st is 1,
+                    February 10th is 41. For example:
+                    <pre>$ task _get 1.due.julian
+272</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;date&gt;.hour</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The hour of the day, for example:
+                    <pre>$ task _get 1.due.hour
+0</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;date&gt;.minute</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The minute of the hour, for example:
+                    <pre>$ task _get 1.due.minute
+0</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>&lt;date&gt;.second</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The seconds of the minute, for example:
+                    <pre>$ task _get 1.due.second
+0</pre>
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              Tags can be accessed as a single item as an <code>&lt;attribute&gt;</code>,
+              of the individual tags can be accessed:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed">
+                <tr>
+                  <td><code>tags.&lt;literal&gt;</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    Direct access, per-tag, for example:
+                    <pre>$ task _get 1.tag.home
+home</pre>
+                    If the tag is present, it is shown, otherwise the
+                    result is blank, and Taskwarrior exits with a non-zero
+                    status.
+
+                    <pre>$ task _get 1.tag.DUE
+DUE
+$ task _get 1.tag.OVERDUE
+
+</pre>
+                    Workѕ for virtual tags too, in the same manner.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              Annotations are compound data structures, with two elements, which
+              are <code>description</code> and <code>entry</code>. Annotations
+              are accessed by an ordinal.
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed">
+                <tr>
+                  <td><code>annotations.&lt;N&gt;.description</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The description of the Nth annotation, for example:
+                    <pre>$ task _get 1.annotations.0.description</pre>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>annotations.&lt;N&gt;.entry</code></td>
+                  <td>
+                    <span class="label label-success">2.4.0</span>
+                    The creation timestamp of the Nth annotation, for example:
+                    <pre>$ task _get 1.annotations.0.entry</pre>
+                    Note that because <code>entry</code> is of type <code>date</code>,
+                    the individual elements can be addressed, as above, for example:
+                    <pre>$ task _get 1.annotations.0.entry.year
+2014</pre>
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              UDA values can be accessed in the same manner.
+            </p>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#dom">DOM</a></li>
+            <li><a class="alert-link" href="#supported">Supported</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://flod.us/index2.html">flod.us</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+            <br />
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" width="16px" height="16px"> G+</a>
+            <br />
+            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" width="16px" height="16px"> Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2014 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
