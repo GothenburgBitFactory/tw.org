@@ -120,6 +120,35 @@ $ task config taskd.ca          ~/.task/ca.cert.pem</pre>
 
             <pre>$ task config taskd.credentials 'Public/First Last/cf31f287-ee9e-43a8-843e-e8bbd5de4294'</pre>
 
+            <div class="callout callout-danger">
+              <h4>Trust</h4>
+              <p>
+                It is possible to configure Taskwarrior's trust level, which
+                determines how the server certificate is treated.
+              </p>
+
+              <p>
+                For Taskwarrior <span class="label label-success">2.3.0</span>
+                you can specify <code>taskd.trust=yes</code> in order to skip
+                certificate validation.
+                <b><em>This is a bad idea.</em></b>
+                The default is <code>taskd.trust=no</code>, which does not trust
+                the server certificate, which is more secure.
+              </p>
+
+              <p>
+                For Taskwarrior <span class="label label-success">2.4.0</span>
+                you must specify <code>taskd.trust=ignore hostname</code> in
+                order to skip certificate hostname validation.
+                <b><em>This is a bad idea.</em></b>
+                You can also specify <code>taskd.trust=allow all</code> to
+                perform no validation.
+                <b><em>This is a worse idea.</em></b>
+                The default value is <code>taskd.trust=strict</code> which
+                performs the most stringent verification, and is more secure.
+              </p>
+            </div>
+
             <p>
               Your Taskwarrior is now ready to sync.
             </p>
