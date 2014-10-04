@@ -106,7 +106,7 @@ Created user 'First Last' for organization 'Public'</pre>
             <h4>Create Cert/Key</h4>
             <p>
               Go to your <code>taskd</code> directory, which depends on
-              which installation method you chose. Here is is assumed that
+              which installation method you chose. Here it is assumed that
               you installed from the source tarball.
             </p>
 
@@ -134,7 +134,8 @@ $ ./generate.client first_last
               <ul>
                 <li>
                   <code>ca.cert.pem</code> is the certificate authority, and
-                  the only way to validate the certs we have created.
+                  the only way to validate self-signed certs such as the ones
+                  we have created here.
                 </li>
                 <li>
                   <code>first_last.cert.pem</code> is the client certificate.
@@ -150,14 +151,17 @@ $ ./generate.client first_last
                   The organization, <code>Public</code>.
                 </li>
                 <li>
-                  The user name, <code>First Last</code>.
+                  The full and proper user name, <code>First Last</code>.
                 </li>
                 <li>
-                  The server address and port, <code>host.domain:53589</code>
+                  The server address and port, <code>host.domain:53589</code>.
+                  In the
+                  <a href="/docs/taskserver/configure.html">server configuration</a>
+                  we used <code>localhost</code> as an example. Whatever you
+                  actually used there, should be used here.
                 </li>
               </ul>
             </p>
-
           </div>
 
           <br />
