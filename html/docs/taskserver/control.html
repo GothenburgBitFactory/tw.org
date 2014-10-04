@@ -63,13 +63,20 @@
 
             <p>
               This command launched the server as a daemon process. This command
-              requires the TASKDDATA variable.  Your server is now running, and
-              ready for syncing.
+              requires the <code>TASKDDATA</code> variable.  Your server is now
+              running, and ready for syncing.
 
               Note that to stop the server, you use:
             </p>
 
             <pre>$ taskdctl stop</pre>
+
+            <p>
+              Check that your server is running by looking in the <code>taskd.log</code>
+              file, or running this:
+            </p>
+
+            <pre>$ ps -leaf | grep taskd</pre>
 
             <a name="interactive"></a>
             <h4>Interactive or Non-Daemon Server</h4>
@@ -83,7 +90,7 @@
 $ taskd server --data $TASKDDATA --daemon</pre>
 
             <p>
-              By ommitting the <code>--daemon</code> option, the server remains
+              By omitting the <code>--daemon</code> option, the server remains
               attached to the terminal.  Then to stop the server you can enter
               <code>Ctrl-C</code>.
             </p>
@@ -98,7 +105,7 @@ $ taskd server --data $TASKDDATA
 ...</pre>
 
             <p>
-              With the <code>debug.tls</code> setting that is non-zero, you see
+              With a <code>debug.tls</code> setting that is non-zero, you see
               lots of security-related diagnostic output.
             </p>
           </div>
