@@ -92,10 +92,15 @@ Syncing with host.domain:53589
 Sync successful.  No changes.</pre>
 
             <p>
-              This will give you feedback about what happened.  Please note
+              This will give you feedback about what happened. Please note
               that it is perfectly safe to run this command as often as you
-              wish.  Syncing is safe and does not consume great system
+              wish. Syncing is safe and does not consume great system
               resources.
+            </p>
+
+            <p>
+              Note that if your client is a mobile device, a sync command may
+              consume some of your data usage. Act accordingly.
             </p>
 
             <p>
@@ -122,7 +127,7 @@ No matches.
 There are local changes.  Sync required.</pre>
 
             <p>
-              This is just a reminder to sync.  Respond with a sync, and the
+              This is just a reminder to sync. Respond with a sync, and the
               reminder goes away:
             </p>
 
@@ -130,6 +135,14 @@ There are local changes.  Sync required.</pre>
 Syncing with <server>:<port>
 
 Sync successful.  1 changes uploaded.</pre>
+
+            <p>
+              If you do not respond with a sync, then local changes accumulate
+              unseen by other clients. When you do eventually sync, the data
+              will be properly propagated, so it is a question of whether you
+              <em>need</em> current data on the server. It is perfectly fine
+              to allow <em>weeks</em> to go by without a sync.
+            </p>
           </div>
 
           <br />
