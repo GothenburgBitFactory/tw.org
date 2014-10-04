@@ -109,6 +109,26 @@ Created /var/taskd</pre>
             </p>
 
             <p>
+              The certificate and key generation scripts make assumptions
+              that are guaranteed to be wrong for you. Specifically the
+              <code>generate.server</code> script has a hard-coded
+              <code>dns_name</code> and <code>ip_address</code> entry
+              that is provided as an example:
+            </p>
+
+            <pre>dns_name = "tasktools.org"
+ip_address = "97.107.141.107"</pre>
+
+            <p>
+              You will need to modify those values to match your server.
+              It is these values against which Taskwarrior validates the server
+              name. The example values are our server, and you will not be
+              syncing with it, so you need to change it. If you do not change
+              these values, the only option for the client is to skip
+              some or all certificate validation, and that is a bad idea.
+            </p>
+
+            <p>
               Go to your <code>taskd</code> directory, which depends on
               which installation method you chose. Here is is assumed that
               you installed from the source tarball.
