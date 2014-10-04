@@ -74,15 +74,15 @@ $ mkdir -p $TASKDDATA</pre>
             <p>
               If the <code>TASKDDATA</code> variable is not set, then most
               <code>taskd</code> commands require the <code>--data ...</code>
-              argument, otherwise the command rely on the <code>TASKDDATA</code>
+              argument, otherwise the commands rely on the <code>TASKDDATA</code>
               value to indicate the location.
 
               Everything the server does will be confined to that directory.
             </p>
 
             <p>
-              Note that there are two 'D's in <code>TASKDDATA</code>, a
-              common mistake to make.
+              Note that there are two 'D's in <code>TASKDDATA</code>, and
+              omitting one is a common mistake to make.
             </p>
 
             <a name="init"></a>
@@ -111,18 +111,20 @@ Created /var/taskd</pre>
             <p>
               The certificate and key generation scripts make assumptions
               that are guaranteed to be wrong for you. Specifically the
-              <code>generate.server</code> script has a hard-coded
-              <code>dns_name</code> and <code>ip_address</code> entry
-              that is provided as an example:
+              <code>generate.server</code> script has hard-coded
+              <code>dns_name</code> and <code>ip_address</code> entries
+              that are provided as an example:
             </p>
 
-            <pre>dns_name = "tasktools.org"
-ip_address = "97.107.141.107"</pre>
+            <pre>...
+dns_name = "tasktools.org"
+ip_address = "97.107.141.107"
+...</pre>
 
             <p>
               You will need to modify those values to match your server.
               It is these values against which Taskwarrior validates the server
-              name. The example values are our server, and you will not be
+              name. The example values are for our server, and you will not be
               syncing with it, so you need to change it. If you do not change
               these values, the only option for the client is to skip
               some or all certificate validation,
@@ -179,6 +181,13 @@ $ taskd config --force log $PWD/taskd.log
 $ taskd config --force pid.file $PWD/taskd.pid
 $ taskd config --force server localhost:53589
 $ taskd config --force client.allow '^task [2-9]'</pre>
+
+            <p>
+              Note that only Taskserver version
+              <span class="label label-success">1.0.0</span>
+              requires the <code>client.allow</code> and <code>client.deny</code>
+              settings. In subsequent releases these are not supported.
+            </p>
 
             <p>
               Note that we have chosen <code>localhost:53589</code>, but this
