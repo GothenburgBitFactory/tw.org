@@ -67,21 +67,21 @@
               dependencies by installing the following:
 
               <ul>
-                <li>GnuTLS</li>
-                <li>libuuid</li>
-                <li>cmake (2.8 or later)</li>
-                <li>make</li>
+                <li>GnuTLS (likely <code>libgnutls-dev</code>)</li>
+                <li><code>libuuid</code></li>
+                <li>CMake (2.8 or later)</li>
+                <li><code>make</code></li>
                 <li>A C++ Compiler</li>
               </ul>
 
-              Note that some OSes (Darwin, FreeBSD ...) include libuuid
+              Note that some OSes (Darwin, FreeBSD ...) include <code>libuuid</code>
               functionality in libc.
             </p>
 
             <p>
               You don't necessarily need the latest version of all components,
               but it is a good idea if you can.  GnuTLS is a security component,
-              and as such, it is more important that it is current.
+              and as such, it is very important that it is current.
             </p>
 
             <a name="download"></a>
@@ -97,8 +97,8 @@
             </p>
 
             <p>
-              You can download the tarball with <code>curl</code>, for just one
-              of many ways to download the tarball.
+              You can download the tarball with <code>curl</code>, as an example
+              of just one of many ways to download the tarball.
             </p>
 
             <pre>$ curl -O http://taskwarrior.org/download/taskd-1.0.0.tar.gz</pre>
@@ -107,14 +107,11 @@
             <h4>Build</h4>
             <p>
               Expand the tarball, and build the Taskserver.
-
-              Notice that the code is built in the home directory. Naturally you
-              can build the code anywhere you wish.
             </p>
 
             <pre>$ tar xzf taskd-1.0.0.tar.gz
 $ cd taskd-1.0.0
-$ cmake .
+$ cmake -DCMAKE_BUILD_TYPE=release .
 ...
 $ make
 ...</pre>
