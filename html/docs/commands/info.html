@@ -47,157 +47,135 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Taskwarrior and Taskserver documentation.
-        </p>
-        <p>
-          Version-specific features are labelled <span class="label label-success">2.4.0</span>
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="start"></a>
-                <p class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a class="alert-link" href="/docs/tutorials/30second.html">30-Second Tutorial</a></li>
-                    <li><a class="alert-link" href="/docs/tutorials/">Complete Tutorials</a></li>
-                    <li><a class="alert-link" href="/docs/glossary.html">Glossary of Terms</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="task"></a>
-                <p class="text-large"><strong>Using Taskwarrior</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
-                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
-                    <li>
-                      Commands
-                      <ul>
-                        <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
-                        <li><a href="/docs/commands/calc.html"><code>calc</code> command</a> <span class="label label-success">2.4.0</span></li>
-                        <li><a href="/docs/commands/columns.html"><code>columns</code> command</a></li>
-                        <li><a href="/docs/commands/info.html"><code>info</code> command</a></li>
-                      </ul>
-                    </li>
-                    <li><a href="/docs/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
-                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
-                    <li><a href="/docs/urgency.html">Urgency</a></li>
-                    <li><a href="/docs/ids.html">ID Numbers</a></li>
-                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
-                    <li><a href="/docs/tags.html">Tags &amp; Virtual Tags</a></li>
-                    <li><a href="/tools/">External Scripts</a></li>
-                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
-                    <li><a href="/docs/dom.html">DOM - Document Object Model</a></li>
-                    <li><a href="/docs/design/task.html">JSON Import/Export Format</a></li>
-                    <li><a href="/docs/deprecated.html">Deprecated Features</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="taskd"></a>
-                <p class="text-large"><strong>Taskserver</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/taskserver/why.html">Why do I need a Taskserver?</a></li>
-                    <li><a href="/docs/taskserver/setup.html">Setting up your own Taskserver</a></li>
-                    <li><a href="/docs/taskserver/ciphers.html">Cipher Selection</a></li>
-                    <li><a href="/docs/taskserver/troubleshooting-sync.html">Troubleshooting Sync</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="feedback"></a>
-                <p class="text-large"><strong>Feedback</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
-                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="l10n"></a>
-                <p class="text-large"><strong>Translators</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/localization.html">Localizing Taskwarrior</a></li>
-                    <li><a href="/docs/l10n.html">The <code>l10n</code> Utility</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="dev"></a>
-                <p class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/build.html">How To Build Taskwarrior</a></li>
-                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
-                    <li><a href="/docs/coding_style.html">Coding Style</a></li>
-                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
-                    <li><a href="/docs/design/index.html">Design Documents (RFCs)</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="about"></a>
-                <p class="text-large"><strong>About</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/history.html">Release History</a></li>
-                    <li><a href="/docs/license.html">MIT License</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="add"></a>
+            <h3>Info</h3>
+            <p>
+              The <code>info</code> command (the full command name is
+              <code>information</code>) is a way to display all the task
+              metadata in human-readable form. This includes
+              <a href="/docs/udas.html">UDAs</a>.
+            </p>
+
+            <pre>$ task 1 info
+
+Name          Value
+------------- ------------------------------------------------------------------
+ID            241
+Description   Need to map stored duration values to the supported subset on load
+Status        Pending
+Project       tw.240
+Entered       2014-09-19 11:32:22 (2 weeks)
+Last modified 2014-09-19 11:32:22 (2 weeks)
+Tags          bug
+UUID          91bbb01f-4a43-42bd-a7a3-03ce3a2451ff
+Urgency       4.882
+                           project     1  *    1 =     1
+                              tags   0.8  *    1 =   0.8
+                               age 0.041  *    2 = 0.082
+                           TAG bug     1  *    3 =     3
+
+Date                Modification
+------------------- ------------------
+2014-09-27 11:01:02 Tags set to 'bug'.</pre>
+
+            <p>
+              Taskwarrior <span class="label label-success">2.4.0</span> will
+              also show a detailed breakdown of the urgency calculation, as shown.
+            </p>
+
+            <p>
+              The <code>info</code> command also accepts <code>UUID</code>s to
+              identify tasks, so you can inspect completed and deleted tasks
+              also.
+            </p>
+
+            <pre>$ task 91bbb01f-4a43-42bd-a7a3-03ce3a2451ff
+ info
+
+Name          Value
+------------- ------------------------------------------------------------------
+ID            241
+Description   Need to map stored duration values to the supported subset on load
+Status        Pending
+Project       tw.240
+Entered       2014-09-19 11:32:22 (2 weeks)
+Last modified 2014-09-19 11:32:22 (2 weeks)
+Tags          bug
+UUID          91bbb01f-4a43-42bd-a7a3-03ce3a2451ff
+Urgency       4.882
+                           project     1  *    1 =     1
+                              tags   0.8  *    1 =   0.8
+                               age 0.041  *    2 = 0.082
+                           TAG bug     1  *    3 =     3
+
+Date                Modification
+------------------- ------------------
+2014-09-27 11:01:02 Tags set to 'bug'.</pre>
+
+            <p>
+              The <code>info</code> command also accepts filters, for example
+              searching:
+            </p>
+
+            <pre>$ task /duration\ values/ info
+...</pre>
+
+            <p>
+              Taskwarrior <span class="label label-success">2.4.0</span> will
+              use the <code>info</code> command in cases when no command is
+              specified, and the only arguments are IDs or UUIDs, for example:
+            </p>
+
+            <pre>$ task 242
+...</pre>
+
+            <p>
+            </p>
+
+            <p>
+            </p>
+
+
+            <a name="config"></a>
+            <h4>Configuration</h4>
+            <p>
+              The date format can be overridden using <code>dateformat.info</code>.
+            </p>
+
+            <p>
+              Setting <code>journal.info</code> to 'yes' will show a change log
+              for the task, as seen in the examples above.
+            </p>
+
+            <a name="also"></a>
+            <h4>See Also</h4>
+            <p>
+              Other ways of inspecting tasks include:
+            </p>
+
+            <ul>
+              <li><a href="#"><code>edit</code> command</a></li>
+              <li><a href="#"><code>export</code> command</a></li>
+            </ul>
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
 
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#start">Getting Started</a></li>
-            <li><a class="alert-link" href="#task">Using Taskwarrior</a></li>
-            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
-            <li><a class="alert-link" href="#feedback">Feedback</a></li>
-            <li><a class="alert-link" href="#l10n">Translators</a></li>
-            <li><a class="alert-link" href="#dev">Developers</a></li>
-            <li><a class="alert-link" href="#about">About</a></li>
+            <li><a class="alert-link" href="#info">Informataion</a></li>
+            <li><a class="alert-link" href="#config">Configuration</a></li>
+            <li><a class="alert-link" href="#also">See Also</a></li>
           </ul>
         </div>
       </div>
