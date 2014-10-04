@@ -67,22 +67,22 @@
               dependencies by installing the following:
 
               <ul>
-                <li>git</li>
-                <li>GnuTLS</li>
-                <li>libuuid</li>
-                <li>cmake (2.8 or later)</li>
-                <li>make</li>
+                <li><code>git</code></li>
+                <li>GnuTLS (likely <code>libgnutls-dev</code>)</li>
+                <li><code>libuuid</code></li>
+                <li>CMake (2.8 or later)</li>
+                <li><code>make</code></li>
                 <li>A C++ Compiler</li>
               </ul>
 
-              Note that some OSes (Darwin, FreeBSD ...) include libuuid
+              Note that some OSes (Darwin, FreeBSD ...) include <code>libuuid</code>
               functionality in libc.
             </p>
 
             <p>
               You don't necessarily need the latest version of all components,
               but it is a good idea if you can.  GnuTLS is a security component,
-              and as such, it is more important that it is current.
+              and as such, it is very important that it is current.
             </p>
 
             <a name="clone"></a>
@@ -101,6 +101,13 @@
                 <a href="#build">'Build'</a>.
                 Only under special circumstances should you build the unstable
                 development version.
+              </p>
+
+              <p>
+                The unstable development version is at no point guaranteed to
+                work or even build. The only time it does ѕtabilize is right at
+                the end of the development cycle, and in that case, you should
+                wait until the release, so you are running a supported version.
               </p>
 
               <p>
@@ -142,13 +149,10 @@ Switched to a new branch '1.1.0'</pre>
             <h4>Build</h4>
             <p>
               Now build the Taskserver.
-
-              Notice that the code is built in the home directory. Naturally you
-              can build the code anywhere you wish.
             </p>
 
             <pre>$ cd taskd.git
-$ cmake .
+$ cmake -DCMAKE_BUILD_TYPE=release .
 ...
 $ make
 ...</pre>
@@ -158,7 +162,7 @@ $ make
             <p>
               Having built the server, now build and run the unit tests.
               Although this is an optional step, it is a good idea to know
-              whether the build was successful.
+              whether the build works on your platform.
             </p>
 
             <pre>$ cd test
