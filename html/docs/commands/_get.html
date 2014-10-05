@@ -53,151 +53,51 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <div class="callout callout-danger">
-              <h4>Work in Progress</h4>
-              <p>
-                The command pages are still being written, as you can see from
-                all the non-links below.
-                Please bear with us as we create a good set of documents.
-              </p>
-              <p>
-                Is there a topic you would really like to see covered sooner?
-                <a href="mailto:support@tasktools.org">Let us know</a>.
-              </p>
-            </div>
-
-            <a name="commands"></a>
-            <h3>Commands</h3>
+            <a name="_get"></a>
+            <h3>_get</h3>
             <p>
-              Here are the commands alphabetically.
-
-              Version-specific features are labelled
-              <span class="label label-success">2.4.0</span>
+              The <code>_get</code> command is a <a href="/docs/dom.html">DOM</a>
+              accessor. You can use this command to extract any piece of information
+              stored by taskwarrior. For example to obtain the description of task 12:
             </p>
 
-            <p>
-              <ul>
-                <li><a href="/docs/commands/add.html"><samp>add</samp></a></li>
-                <li><samp>annotate</samp></li>
-                <li><samp>append</samp></li>
-                <li><a href="/docs/commands/calc.html"><samp>calc</samp></a> <span class="label label-success">2.4.0</span></li>
-                <li><samp>calendar</samp></li>
-                <li><samp>colors</samp></li>
-                <li><a href="/docs/commands/columns.html"><samp>columns</a></samp></li>
-                <li><samp>config</samp></li>
-                <li><samp>count</samp></li>
-                <li><samp>delete</samp></li>
-                <li><samp>denotate</samp></li>
-                <li><samp>diagnostics</samp></li>
-                <li><samp>done</samp></li>
-                <li><samp>duplicate</samp></li>
-                <li><samp>edit</samp></li>
-                <li><samp>execute</samp></li>
-                <li><samp>export</samp></li>
-                <li><samp>help</samp></li>
-                <li><samp>ids</samp></li>
-                <li><samp>import</samp></li>
-                <li><samp>log</samp></li>
-                <li><samp>logo</samp></li>
-                <li><samp>modify</samp></li>
-                <li><samp>prepend</samp></li>
-                <li><samp>projects</samp></li>
-                <li><samp>reports</samp></li>
-                <li><samp>start</samp></li>
-                <li><samp>stop</samp></li>
-                <li><samp>synchronize</samp></li>
-                <li><samp>tags</samp></li>
-                <li><samp>udas</samp></li>
-                <li><samp>undo</samp></li>
-                <li><samp>uuids</samp></li>
-                <li><samp>version</samp></li>
-              </ul>
-            </p>
-
-            <a name="custom"></a>
-            <h3>Customizable Reports</h3>
-            <p>
-              <a href="/docs/tutorials/report.html">Customizable reports</a>
-              can be modified to suit your needs. They all work in same
-              manner, and mostly differ by the
-              <a href="/docs/commands/columns.html">columns</a>
-              shown, the
-              <a href="/docs/tutorials/filter.html">filter</a>
-              applied, and the sorting performed.
-              <ul>
-                <li><samp>active</samp></li>
-                <li><samp>all</samp></li>
-                <li><samp>blocked</samp></li>
-                <li><samp>blocking</samp></li>
-                <li><samp>completed</samp></li>
-                <li><samp>list</samp></li>
-                <li><samp>long</samp></li>
-                <li><samp>ls</samp></li>
-                <li><samp>minimal</samp></li>
-                <li><samp>newest</samp></li>
-                <li><samp>next</samp></li>
-                <li><samp>oldest</samp></li>
-                <li><samp>overdue</samp></li>
-                <li><samp>ready</samp></li>
-                <li><samp>recurring</samp></li>
-                <li><samp>unblocked</samp></li>
-                <li><samp>waiting</samp></li>
-              </ul>
-            </p>
-
-            <a name="fixed"></a>
-            <h3>Fixed Reports</h3>
-            <p>
-              <ul>
-                <li><samp>burndown.daily</samp></li>
-                <li><samp>burndown.monthly</samp></li>
-                <li><samp>burndown.weekly</samp></li>
-                <li><samp>ghistory.annual</samp></li>
-                <li><samp>ghistory.monthly</samp></li>
-                <li><samp>history.annual</samp></li>
-                <li><samp>history.monthly</samp></li>
-                <li><a href="/docs/commands/info.html"><samp>information</samp></a></li>
-                <li><samp>show</samp></li>
-                <li><samp>stats</samp></li>
-                <li><samp>summary</samp></li>
-                <li><samp>timesheet</samp></li>
-              </ul>
-            </p>
-
-            <a name="helpers"></a>
-            <h3>Helper Commands</h3>
-            <p>
-              Helper commands all begin with an underscore (i.e. <code>_ids</code>),
-              and they exist to provide support for third party add-ons, such as
-              shell completion scripts.
-            </p>
+            <pre>$ task _get 12.description
+Buy some milk</pre>
 
             <p>
-              Helper commands are not intended for regular use, but there is no
-              reason for that to stop you.
+              You can specify multiple data items:
             </p>
 
+            <pre>$ task _get 12.description 12.project
+Buy some milk Kitchen</pre>
+
             <p>
-              <ul>
-                <li><samp>_aliases</samp></li>
-                <li><samp>_columns</samp></li>
-                <li><samp>_commands</samp></li>
-                <li><samp>_config</samp></li>
-                <li><a href="/docs/commands/_get.html"><samp>_get</samp></a></li>
-                <li><samp>_ids</samp></li>
-                <li><samp>_projects</samp></li>
-                <li><samp>_show</samp></li>
-                <li><samp>_tags</samp></li>
-                <li><samp>_udas</samp></li>
-                <li><samp>_urgency</samp></li>
-                <li><samp>_uuids</samp></li>
-                <li><samp>_version</samp></li>
-                <li><samp>_zshattributes</samp></li>
-                <li><samp>_zshcommands</samp></li>
-                <li><samp>_zshids</samp></li>
-                <li><samp>_zshuuids</samp></li>
-              </ul>
+              You can use UUIDs:
             </p>
+
+            <pre>$ task _get a360fc44-315c-4366-b70c-ea7e7520b749.description
+Buy some milk</pre>
+
+            <p>
+              The <code>_get</code> command makes it easy to map between ID and UUID:
+            </p>
+
+            <pre>$ task _get 12.uuid
+a360fc44-315c-4366-b70c-ea7e7520b749
+$ task _get a360fc44-315c-4366-b70c-ea7e7520b749.id
+12</pre>
+
+            <p>
+              The <code>_get</code> command is a helper command, which means it
+              is more useful for scripts and extensions than command line use.
+            </p>
+
+            <a name="also"></a>
+            <h4>See Also</h4>
+
+            <ul>
+              <li><a href="/docs/dom.html">DOM</a></li>
+            </ul>
           </div>
 
           <br />
@@ -208,10 +108,8 @@
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#commands">Commands</a></li>
-            <li><a class="alert-link" href="#custom">Customizable</a></li>
-            <li><a class="alert-link" href="#fixed">Fixed</a></li>
-            <li><a class="alert-link" href="#helpers">Helper Commands</a></li>
+            <li><a class="alert-link" href="#_get">_get</a></li>
+            <li><a class="alert-link" href="#also">See Also</a></li>
           </ul>
         </div>
       </div>
