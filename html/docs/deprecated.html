@@ -156,8 +156,17 @@
             </p>
 
             <h3>Taskserver</h3>
+            <a name="deny"></a>
+            <h4>
+              Client Allow/Deny List
+              <span class="label label-danger">removed in 1.1.0</span>
+            </h4>
             <p>
-              None yet.
+              Taskserver initially supported the <code>client.allow</code>
+              and <code>client.deny</code> settings which filtered connections.
+              The intention was to be able to decline misbehaving clients.
+              This has proved to be a configuration problem for some, and the
+              mechanism is easily spoofed, so it will be removed.
             </p>
           </div>
         </div>
@@ -170,6 +179,8 @@
             <li><a href="#shadow">Shadow Files</a></li>
             <li><a href="#attmods">Attribute Modifiers</a></li>
             <li><a href="#search">Search Terms</a></li>
+            <li><a href="#limit">Pseudo Attribute</a></li>
+            <li><a href="#deny">Allow/Deny</a></li>
           </ul>
         </div>
       </div>
