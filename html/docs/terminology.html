@@ -814,7 +814,51 @@ $ task 1 modify start:now</pre>
 
           <dt><a name="theme"></a>theme</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              A taskwarrior theme is a file containing color definitions. There
+              are several themes provided with Taskwarrior, and these are listed
+              in your <code>.taskrc</code> file, and if you uncomment one of
+              these lines, then the them is included, and you see a set of
+              chosen and thematic colors.  Your <code>.taskrc</code> file should
+              contain this section:
+            </p>
+
+            <pre># Color theme (uncomment one to use)
+#include /usr/local/share/doc/task/rc/light-16.theme
+#include /usr/local/share/doc/task/rc/light-256.theme
+#include /usr/local/share/doc/task/rc/dark-16.theme
+#include /usr/local/share/doc/task/rc/dark-256.theme
+#include /usr/local/share/doc/task/rc/dark-red-256.theme
+#include /usr/local/share/doc/task/rc/dark-green-256.theme
+#include /usr/local/share/doc/task/rc/dark-blue-256.theme
+#include /usr/local/share/doc/task/rc/dark-violets-256.theme
+#include /usr/local/share/doc/task/rc/dark-yellow-green.theme
+#include /usr/local/share/doc/task/rc/dark-gray-256.theme
+#include /usr/local/share/doc/task/rc/dark-default-16.theme
+#include /usr/local/share/doc/task/rc/dark-gray-blue-256.theme</pre>
+
+            <p>
+              All of these lines are said to be 'commented out', which means the
+              '#' symbol at the beginning of the line prevents Taskwarrior from
+              reading the rest of the line. Removing a '#' enables the color
+              theme. For example, to enable the <code>dark-violets-256.theme</code>
+              file, change the above to look like this:
+            </p>
+
+            <pre># Color theme (uncomment one to use)
+#include /usr/local/share/doc/task/rc/light-16.theme
+#include /usr/local/share/doc/task/rc/light-256.theme
+#include /usr/local/share/doc/task/rc/dark-16.theme
+#include /usr/local/share/doc/task/rc/dark-256.theme
+#include /usr/local/share/doc/task/rc/dark-red-256.theme
+#include /usr/local/share/doc/task/rc/dark-green-256.theme
+#include /usr/local/share/doc/task/rc/dark-blue-256.theme
+include /usr/local/share/doc/task/rc/dark-violets-256.theme
+#include /usr/local/share/doc/task/rc/dark-yellow-green.theme
+#include /usr/local/share/doc/task/rc/dark-gray-256.theme
+#include /usr/local/share/doc/task/rc/dark-default-16.theme
+#include /usr/local/share/doc/task/rc/dark-gray-blue-256.theme</pre>
+
             <h4>&nbsp;</h4>
           </dd>
 
