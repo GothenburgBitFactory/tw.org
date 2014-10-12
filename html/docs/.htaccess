@@ -12,3 +12,6 @@ REDIRECT 301 /docs/server_tarball.html       /docs/taskserver/tarball.html
 REDIRECT 301 /docs/server_user.html          /docs/taskserver/user.html
 REDIRECT 301 /docs/server_why.html           /docs/taskserver/why.html
 
+# Added 2014-10-11
+REDIRECT 301 /docs/glossary.html             /docs/terminology.html
+
