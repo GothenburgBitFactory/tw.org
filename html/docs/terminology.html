@@ -542,6 +542,28 @@ pi * r^2</pre>
             <h4>&nbsp;</h4>
           </dd>
 
+          <dt><a name="listbreak"></a>list break <span class="label label-success">2.4.0</span></dt>
+          <dd>
+            <p>
+              A list break is associated with report sorting, such that when
+              a report is sorted on an attribute, a list break for that attribute
+              causes a blank line to be inserted between unique values of that
+              attribute. For example, the sort definition:
+            </p>
+
+            <pre>$ task show report.list.sort
+
+Config Variable  Value
+---------------- ------------------------------------
+report.list.sort start-,due+,project+/,urgency-</pre>
+
+            <p>
+              Here the <code>project</code> attribute is sorted ascending and
+              also has a list break, indicated by <code>/</code>.
+            </p>
+            <h4>&nbsp;</h4>
+          </dd>
+
           <dt><a name="override"></a>override</dt>
           <dd>
             <span class="label label-info">TBD</span>
@@ -1175,6 +1197,7 @@ $ task -HOME list</pre>
             <li><a class="alert-link" href="#iso">ISO-8601</a></li>
             <li><a class="alert-link" href="#json">JSON</a></li>
             <li><a class="alert-link" href="#key">key</a></li>
+            <li><a class="alert-link" href="#listbreak">list break</a></li>
             <li><a class="alert-link" href="#override">override</a></li>
             <li><a class="alert-link" href="#pending">pending</a></li>
             <li><a class="alert-link" href="#pki">PKI</a></li>
