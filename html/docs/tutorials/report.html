@@ -326,11 +326,19 @@ description combined*         Move your clothes down on to the lower peg
               can be used in the sort.  The sort order is then:
             </p>
 
-            <pre>project+,entry+</pre>
+            <pre>project+/,entry+</pre>
 
             <p>
               The <code>+</code> means an ascending order, but we could have
-              used <code>-</code> for descending.  Finally we need a filter,
+              used <code>-</code> for descending. The <code>/</code> solidus
+              indicates that <code>project</code> is a break column, which
+              means a blank line is inserted between unique values, for a
+              visual grouping effect.
+              <span class="label label-success">2.4.0</span>
+            </p>
+
+            <p>
+              Finally we need a filter,
               otherwise our report will just display all tasks, which is rarely
               wanted.  Here we wish to see only pending tasks, and that means
               the filter is:
@@ -346,7 +354,7 @@ description combined*         Move your clothes down on to the lower peg
             <pre>$ task config report.simple.description 'Simple list of open tasks by project'
 $ task config report.simple.columns     'id,entry,description.count'
 $ task config report.simple.labels      'ID,Proj,Desc'
-$ task config report.simple.sort        'project+,entry+'
+$ task config report.simple.sort        'project+/,entry+'
 $ task config report.simple.filter      'status:pending'</pre>
 
             <p>
@@ -359,6 +367,7 @@ ID Proj Desc
 -- ---- -----------------
  1 Home Wash the windows
  3 Home Vacuum the floors
+
  2      Food shopping</pre>
 
             <p>
@@ -380,13 +389,16 @@ report.simple.columns     id,project,description.count
 report.simple.description Simple list of open tasks by project
 report.simple.filter      status:pending
 report.simple.labels      ID,Proj,Desc
-report.simple.sort        project+,entry+</pre>
+report.simple.sort        project+/,entry+</pre>
 
             <p>
               Now the report is fully configured, it joins the others and is
               used in the same way.
             </p>
           </div>
+
+          <br />
+          <br />
         </div>
       </div>
 
