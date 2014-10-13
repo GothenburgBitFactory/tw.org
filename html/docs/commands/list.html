@@ -53,157 +53,115 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <div class="callout callout-danger">
-              <h4>Work in Progress</h4>
-              <p>
-                The command pages are still being written, as you can see from
-                all the non-links below.
-                Please bear with us as we create a complete set of documents.
-              </p>
-            </div>
-
-            <a name="commands"></a>
-            <h3>Commands</h3>
+            <a name="list"></a>
+            <h3>list</h3>
             <p>
-              Here are the commands alphabetically.
+              The <code>list</code> report is a customizable report, which
+              means that many aspects of the report is configurable. You may
+              override any of these aspects by modifyign the Taskwarrior
+              configuration.
 
-              Version-specific features are labelled
-              <span class="label label-success">2.4.0</span>
+              The definition of the <code>list</code> report can be shown using
+              the <code>show</code> command like this:
+            </p>
+
+            <pre>$ task show report.list
+
+Config Variable         Value
+----------------------- --------------------------------------------------------------
+report.list.columns     id,start.age,entry.age,depends.indicator,priority,project,
+                        tags,recur.indicator,scheduled.countdown,due,until.age,
+                        description.count,urgency
+report.list.description Most details of tasks
+report.list.filter      status:pending
+report.list.labels      ID,Active,Age,D,P,Project,Tags,R,Sch,Due,Until,Description,Urg
+report.list.sort        start-,due+,project+/,urgency-</pre>
+
+            <p>
+              These are five settings that define the report. The description and
+              labels are straightforward text.
+            </p>
+
+            <a name="columns"></a>
+            <h4>Columns</h4>
+            <p>
+              The columns are the task metadata, with optional format specifiers.
+              For example, the <code>description.count</code> column means the
+              description column, but not the annotations; instead show a count
+              of the annotations, if any. You can see the supported columns and
+              formats using the
+              <a href="/docs/commands/columns.html"><code>columns</code> command</a>.
+            </p>
+
+            <a name="filter"></a>
+            <h4>Filter</h4>
+            <p>
+              The filter is automatically applied when you run this report. In
+              this case the filter shows only pending tasks, using
+              <code>status:pending</code>. This can cause some confusion, because
+              if you were to run this command:
+            </p>
+
+            <pre>$ task status:completed list</pre>
+
+            <p>
+              Then the filter <code>status:pending</code>, when combined with the
+              command line filter <code>status:completed</code> defines two
+              non-intersecting sets and no result is shown. This is because filter
+              terms are assumed to be combined with <code>and</code> operators,
+              unless otherwise specified. Instead, to see completed tasks, you
+              would need to use a report that does not filter on status, and the
+              <code>all</code> report does just that, so you get the expected
+              results by running:
+            </p>
+
+            <pre>$ task status:completed all</pre>
+
+            <a name="sort"></a>
+            <h4>Sort</h4>
+            <p>
+              The sort setting is a list of columns, with an optional direction
+              (ascending or descending), and an optional break indicator. A sort
+              column need not be one that is included in the report.
             </p>
 
             <p>
-              <ul>
-                <li><a href="/docs/commands/add.html"><samp>add</samp></a></li>
-                <li><samp class="text-muted">annotate</samp></li>
-                <li><samp class="text-muted">append</samp></li>
-                <li><a href="/docs/commands/calc.html"><samp>calc</samp></a> <span class="label label-success">2.4.0</span></li>
-                <li><samp class="text-muted">calendar</samp></li>
-                <li><samp class="text-muted">colors</samp></li>
-                <li><a href="/docs/commands/columns.html"><samp>columns</a></samp></li>
-                <li><samp class="text-muted">config</samp></li>
-                <li><samp class="text-muted">count</samp></li>
-                <li><samp class="text-muted">delete</samp></li>
-                <li><samp class="text-muted">denotate</samp></li>
-                <li><samp class="text-muted">diagnostics</samp></li>
-                <li><samp class="text-muted">done</samp></li>
-                <li><samp class="text-muted">duplicate</samp></li>
-                <li><samp class="text-muted">edit</samp></li>
-                <li><samp class="text-muted">execute</samp></li>
-                <li><samp class="text-muted">export</samp></li>
-                <li><samp class="text-muted">help</samp></li>
-                <li><samp class="text-muted">ids</samp></li>
-                <li><samp class="text-muted">import</samp></li>
-                <li><a href="/docs/commands/log.html"><samp>log</samp></a></li>
-                <li><samp class="text-muted">logo</samp></li>
-                <li><samp class="text-muted">modify</samp></li>
-                <li><samp class="text-muted">prepend</samp></li>
-                <li><samp class="text-muted">projects</samp></li>
-                <li><samp class="text-muted">reports</samp></li>
-                <li><samp class="text-muted">start</samp></li>
-                <li><samp class="text-muted">stop</samp></li>
-                <li><samp class="text-muted">synchronize</samp></li>
-                <li><samp class="text-muted">tags</samp></li>
-                <li><samp class="text-muted">udas</samp></li>
-                <li><samp class="text-muted">undo</samp></li>
-                <li><samp class="text-muted">uuids</samp></li>
-                <li><samp class="text-muted">version</samp></li>
-              </ul>
+              There are four sort keys, which are applied in order, so the report
+              is sorted by start date, then due date, then project, then urgency.
+              From the example, one the third sort key is:
             </p>
 
-            <a name="custom"></a>
-            <h3>Customizable Reports</h3>
+            <pre>project+/</pre>
+
             <p>
-              <a href="/docs/tutorials/report.html">Customizable reports</a>
-              can be modified to suit your needs. They all work in same
-              manner, and mostly differ by the
-              <a href="/docs/commands/columns.html">columns</a>
-              shown, the
-              <a href="/docs/tutorials/filter.html">filter</a>
-              applied, and the sorting performed.
+              Breaking this down, it means the <code>project</code> attribute is
+              sorted in ascendign collating sequence (hence the <code>+</code>),
+              and the solidus (<code>/</code>) indicates that this is a break
+              column, which means a blank line is inserted before every unique
+              value.
+            </p>
+
+            <a name="config"></a>
+            <h4>Configuration</h4>
+            <p>
+              There is a configuration option, named <code>print.empty.columns</code>,
+              which defaults to <code>off</code>. This means that if a report
+              has a column where no task shown has a value, then do not display
+              this empty column. This results in much narrower reports.
             </p>
 
             <p>
-              Because all the customizable reports work in the same way,
-              <a href="/docs/commands/list.html">the <code>list</code> report</a>
-              is the only report discussed.
+              The <code>list</code> report has thirteen columns, but due to this
+              setting, it is rare to see more than six or seven columns in the
+              output.
             </p>
 
-            <p>
-              <ul>
-                <li><samp class="text-muted">active</samp></li>
-                <li><samp class="text-muted">all</samp></li>
-                <li><samp class="text-muted">blocked</samp></li>
-                <li><samp class="text-muted">blocking</samp></li>
-                <li><samp class="text-muted">completed</samp></li>
-                <li><a href="/docs/commands/list.html"><samp>list</samp></a></li>
-                <li><samp class="text-muted">long</samp></li>
-                <li><samp class="text-muted">ls</samp></li>
-                <li><samp class="text-muted">minimal</samp></li>
-                <li><samp class="text-muted">newest</samp></li>
-                <li><samp class="text-muted">next</samp></li>
-                <li><samp class="text-muted">oldest</samp></li>
-                <li><samp class="text-muted">overdue</samp></li>
-                <li><samp class="text-muted">ready</samp></li>
-                <li><samp class="text-muted">recurring</samp></li>
-                <li><samp class="text-muted">unblocked</samp></li>
-                <li><samp class="text-muted">waiting</samp></li>
-              </ul>
-            </p>
-
-            <a name="fixed"></a>
-            <h3>Fixed Reports</h3>
-            <p>
-              The fixed reports have minimal customization, typically only color.
-              <ul>
-                <li><samp class="text-muted">burndown.daily</samp></li>
-                <li><samp class="text-muted">burndown.monthly</samp></li>
-                <li><samp class="text-muted">burndown.weekly</samp></li>
-                <li><samp class="text-muted">ghistory.annual</samp></li>
-                <li><samp class="text-muted">ghistory.monthly</samp></li>
-                <li><samp class="text-muted">history.annual</samp></li>
-                <li><samp class="text-muted">history.monthly</samp></li>
-                <li><a href="/docs/commands/info.html"><samp>information</samp></a></li>
-                <li><samp class="text-muted">show</samp></li>
-                <li><samp class="text-muted">stats</samp></li>
-                <li><samp class="text-muted">summary</samp></li>
-                <li><samp class="text-muted">timesheet</samp></li>
-              </ul>
-            </p>
-
-            <a name="helpers"></a>
-            <h3>Helper Commands</h3>
-            <p>
-              Helper commands all begin with an underscore and they exist to
-              provide support for third party add-ons, such as shell completion
-              scripts.
-            </p>
-
-            <p>
-              Helper commands are not intended for regular use, but there is no
-              reason for that to stop you.
-            </p>
-
-            <p>
-              <ul>
-                <li><samp class="text-muted">_aliases</samp></li>
-                <li><samp class="text-muted">_columns</samp></li>
-                <li><samp class="text-muted">_commands</samp></li>
-                <li><samp class="text-muted">_config</samp></li>
-                <li><a href="/docs/commands/_get.html"><samp>_get</samp></a></li>
-                <li><samp class="text-muted">_ids</samp></li>
-                <li><samp class="text-muted">_projects</samp></li>
-                <li><samp class="text-muted">_show</samp></li>
-                <li><samp class="text-muted">_tags</samp></li>
-                <li><samp class="text-muted">_udas</samp></li>
-                <li><samp class="text-muted">_urgency</samp></li>
-                <li><samp class="text-muted">_uuids</samp></li>
-                <li><samp class="text-muted">_version</samp></li>
-                <li><samp class="text-muted">_zshattributes</samp></li>
-                <li><samp class="text-muted">_zshcommands</samp></li>
-                <li><samp class="text-muted">_zshids</samp></li>
-                <li><samp class="text-muted">_zshuuids</samp></li>
-              </ul>
-            </p>
+            <a name="also"></a>
+            <h4>See Also</h4>
+            <ul>
+              <li><a href="/docs/tutorials/report.html">Tutorial: Reports</a></li>
+              <li><a href="/docs/commands/columns.html">The <code>columns</code> command</a></li>
+            </ul>
           </div>
 
           <br />
@@ -214,10 +172,12 @@
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#commands">Commands</a></li>
-            <li><a class="alert-link" href="#custom">Customizable</a></li>
-            <li><a class="alert-link" href="#fixed">Fixed</a></li>
-            <li><a class="alert-link" href="#helpers">Helper Commands</a></li>
+            <li><a class="alert-link" href="#list">list</a></li>
+            <li><a class="alert-link" href="#columns">Columns</a></li>
+            <li><a class="alert-link" href="#filter">Filter</a></li>
+            <li><a class="alert-link" href="#sort">Sort</a></li>
+            <li><a class="alert-link" href="#config">Configuration</a></li>
+            <li><a class="alert-link" href="#also">See Also</a></li>
           </ul>
         </div>
       </div>
