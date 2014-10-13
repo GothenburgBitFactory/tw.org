@@ -54,74 +54,22 @@
         <div class="col-md-10 main">
           <div class="row">
             <a name="add"></a>
-            <h3>add</h3>
+            <h3>log</h3>
             <p>
-              The <code>add</code> command is the primary means of creating
-              tasks.  The simplest task requires only a description:
+              The <code>log</code> command is the ѕame as the
+              <a href="/docs/commands/add.html"><code>add</code></a> command,
+              with one difference - the task is added in the completed state.
+              Sometimes it is necessary to record tasks that are already
+              completed, if you are faithfully tracking work.
+              For example:
             </p>
 
-            <pre>$ task add Fix the leaky plumbing</pre>
+            <pre>$ task log Order the materials +home +construction</pre>
 
             <p>
-              You can enter the description as above, just by including the
-              words as command line arguments.  You can also provide quoted
-              strings:
+              This task is immediately recorded as completed, which means it
+              will not be displayed on any report that shows pending tasks.
             </p>
-
-            <pre>$ task add "Don't forget to shut off the main water valve first"</pre>
-
-            <p>
-              In this example the double-quotes hide the single unclosed quote
-              in "Don't".  It is a good idea to quote task descriptions to avoid
-              some problems with the shell, although not necessary.  The (outer)
-              quotes are not considered part of the description, in fact
-              Taskwarrior never sees them because the shell removes them first.
-              Dealing with shell issues is covered in detail in the
-              <a href="#">Escaping Shell Characters</a> page.
-            </p>
-
-            <a name="atts"></a>
-            <h4>Other Attributes</h4>
-            <p>
-              In addition to a description, other attributes may be provided in
-              the following manner:
-            </p>
-
-            <pre>$ task add Find the adjustable wrench project:Home priority:H</pre>
-
-            <p>
-              This example sets a project and a priority, to a new task.  Note
-              that the order of the words in the task description are preserved,
-              but there is no need to put the project and priority at the end
-              of the command - they may appear anywhere on the line.  Here are
-              two equivalent commands to illustrate this:
-            </p>
-
-            <pre>$ task add Find the project:Home adjustable priority:H wrench
-$ task add project:Home priority:H Find the adjustable wrench</pre>
-
-            <p>
-              In addition to project and priority, you may set the entry
-              timestamp, start timestamp, due date, tags, recurrence frequency,
-              until date, and status.  You cannot add annotations while
-              creating a task because it interferes with the task description.
-              You may specify anything else except the ID and UUID.  These are
-              created automatically.
-            </p>
-
-            <a name="limitations"></a>
-            <h4>Limitations</h4>
-            <ul>
-              <li>
-                Task descriptions may only contain one line of text.
-                Taskwarrior will wrap that text when it is displayed, but
-                there is no means of entering multi-line tasks.
-              </li>
-              <li>
-                There is no way to simultaneously add a task and annotate it.
-                Annotations must be applied to existing tasks.
-              </li>
-            </ul>
 
             <a name="also"></a>
             <h4>See Also</h4>
@@ -130,7 +78,7 @@ $ task add project:Home priority:H Find the adjustable wrench</pre>
             </p>
 
             <ul>
-              <li><a href="/docs/commands/log.html"><code>log</code> command</a></li>
+              <li><a href="/docs/commands/add.html"><code>add</code> command</a></li>
               <li><a href="/docs/commands/duplicate.html"><code>duplicate</code> command</a></li>
               <li><a href="/docs/commands/import.html"><code>import</code> command</a></li>
             </ul>
@@ -144,7 +92,7 @@ $ task add project:Home priority:H Find the adjustable wrench</pre>
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#add">add</a></li>
+            <li><a class="alert-link" href="#log">log</a></li>
             <li><a class="alert-link" href="#atts">Other Attributes</a></li>
             <li><a class="alert-link" href="#limitations">Limitations</a></li>
             <li><a class="alert-link" href="#also">See Also</a></li>
