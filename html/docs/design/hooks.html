@@ -53,36 +53,27 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <div class="callout callout-danger">
-              <h4>Draft</h4>
-              <p>
-                This is a draft design document. Your
-                <a href="mailto:support@tasktools.org?Subject=Feedback">feedback</a>
-                is welcomed.
-              </p>
-            </div>
-
             <a name="hooks"></a>
             <h3>Hooks</h3>
             <p>
               A hook system is a way to call out to other programs/scripts
               at certain points in Taskwarrior's execution, so that processing
               can be influenced. These callout points correspond to locations
-              in the code where some critical processing is occurring.
+              in the code where some critical processing is occurring. These are
+              called <i>events</i>.
             </p>
 
             <p>
-              When certain Taskwarrior code is executed, a program/script is
-              run, and when it completes, Taskwarrior resumes. We call this a
-              hook script being triggered by an event. Data is passed between
-              Taskwarrior and the hook script.
+              A hook script is associated with an event. When that event occurs,
+              all associated hooks scripts are run. Data is exchanged between
+              Taskwarrior and the hook scripts.
             </p>
 
             <p>
               The hook scripts may be written in any suitable programming
-              language, which means they will need to read from standard input,
-              write to standard output, optionally parse JSON, and exit with a
-              specific status code.
+              language. A typical hook script will read data, perform some
+              function, then write data and diagnostics and exit with a status
+              code.
             </p>
 
             <p>
@@ -96,7 +87,7 @@
               Hooks are triggered by events, and the list of supported events
               is kept delibrately short.
 
-              <table class="table table-striped table-compact">
+              <table class="table table-striped table-condensed">
                 <tr>
                   <td><code>on-launch</code></td>
                   <td>
@@ -109,8 +100,9 @@
                   <td><code>on-exit</code></td>
                   <td>
                     This event is triggered after all processing, but immediately
-                    before output is shown, which is the last opportunity to run
-                    and contribute output.
+                    before output is displayed, which is the last opportunity to
+                    contribute output. This event has no opportunity to modify
+                    tasks.
                   </td>
                 </tr>
                 <tr>
@@ -134,21 +126,24 @@
               </table>
 
               Task completion and deletion are considered modifications.
+              Modifying a task in a hook script will trigger a subsequent modify
+              event.
             </p>
 
             <a name="git"></a>
             <h4>The Git Model</h4>
             <p>
               Following the Git model, a hook script need only exist in a
-              specific location, possess a recognizable name, and be executable.
+              specific location, possess a recognizable name, and be executable,
+              in order for it to be installed and run.
             </p>
 
             <p>
               The location for hooks scripts is by default
               <code>~/.task/hooks</code>, which is itself defined by the
-              <code>rc.data.location</code> setting. A hook script must either
-              reside in this location, or be symbolically linked into this
-              location.
+              <code>rc.data.location</code> setting, and a <code>hooks</code>
+              subdirectory. A hook script must either reside in this location,
+              or be symbolically linked into this location.
 
               The name of the hook script should be of the form:
             </p>
@@ -164,18 +159,77 @@ on-add.01
 on-add-require-project</pre>
 
             <p>
-              The event in the name indicates when the script is run and must
-              exactly match the event name. The optional identifier allows for
-              multiple scripts processing the same event, easy identificaton
-              from the name, and a defined order of execution.
+              The event at the start of the script name associates the script
+              with that event. The optional identifier allows for multiple
+              scripts associated with the same event.
             </p>
 
             <p>
-              When there are multiple scripts for the same event, the order of
-              execution is the collating sequence of the script name.
+              When there are multiple scripts associated with the same event,
+              the order of execution is the collating sequence of the script
+              name.
 
               A hook script can be disabled by simply removing execute
-              permission.
+              permission or moving it to another location.
+            </p>
+
+            <a name="input"></a>
+            <h4>Input</h4>
+            <p>
+              Input to hook scripts consists of JSON-formatted objects, one per
+              line, in the
+              <a href="/docs/design/task.html">Taskwarrior JSON Format</a>
+              which is also used by the
+              <a href="/docs/commands/export.html"><samp>export</samp> command</a>.
+            </p>
+
+            <pre>$ task 1 export
+{"description":"Buy some milk","entry":"20141118T050231Z","status":"pending","uuid":"a360fc44-315c-4366-b70c-ea7e7520b749"}</pre>
+
+            <p>
+              The above example wraps over several lines, but exported JSON
+              always contains 1 object per line.
+            </p>
+
+            <a name="output"></a>
+            <h4>Output</h4>
+            <p>
+              Output from a hook script can be an unlimited combination of
+              JSON-formatted objects and text. Just as the JSON for a task
+              must occupy a single line, so must a single feedback message.
+              Feedback text is optional, but if provided will be displayed
+              by Taskwarrior according to the
+              <a href="/docs/verbosity.html">verbosity setting</a>.
+            </p>
+
+            <p>
+              Here is sample output from a hypothetical spell-checking hook
+              script:
+            </p>
+
+            <pre>
+{"description":"Buy some milk","entry":"20141118T050231Z","status":"pending","uuid":"a360fc44-315c-4366-b70c-ea7e7520b749"}
+Spell checking found no errors.
+</pre>
+
+            <p>
+              The output is a single line JSON object which represents an
+              optionally modified task, and a single line of feedback text to
+              be displayed.
+            </p>
+
+            <a name="status"></a>
+            <h4>Exit Status</h4>
+            <p>
+              A hook script may exit with a zero status which signals that all
+              is well. Any tasks emitted will be added/modified, and any feedback
+              will be shown as a footnote.
+            </p>
+
+            <p>
+              A hook script may exit with a non-zero status which signals a
+              problem. This terminates processing. Any tasks emitted will be
+              ignored. Any feedback will be shown an error.
             </p>
 
             <a name="interfaces"></a>
@@ -187,170 +241,56 @@ on-add-require-project</pre>
               provide error messages.
             </p>
 
-            <h5>Interface: <code>on-launch</code></h5>
             <p>
-              This event triggers once on launch.
-              If a task is added/modified it <em>will</em> trigger other events.
-
-              <table class="table table-striped table-compact">
+              <table class="table table-striped table-condensed">
                 <tr>
-                  <td>Input</td>
-                  <td>Nothing is provided on stdin</td>
+                  <th>Event</th>
+                  <th>Input</th>
+                  <th>Output</th>
+                  <th>Status<br />Zero 0</th>
+                  <th>Status<br />Non-Zero</th>
                 </tr>
                 <tr>
-                  <td>Output</td>
-                  <td>
-                    <ul>
-                      <li>All emitted JSON lines must be fully-formed tasks, one per line.</li>
-                      <li>All emitted non-JSON lines are considered feedback messages.</li>
-                    </ul>
-                  </td>
+                  <td><code>on-launch</code></td>
+                  <td>No input</td>
+                  <td>JSON task(s)<br />Optional feedback</td>
+                  <td>Tasks added/modified<br />Feedback as footnotes</td>
+                  <td>Tasks ignored<br />Feedback as errors<br />Processing terminated</td>
                 </tr>
                 <tr>
-                  <td>Exit Code</td>
-                  <td>
-                    0 Means:
-                    <ul>
-                      <li>all emitted JSON lines are added/modified</li>
-                      <li>all emitted non-JSON lines become footnote entries</li>
-                    </ul>
-                    non-0 Means:
-                    <ul>
-                      <li>all emitted JSON lines are ignored</li>
-                      <li>all emitted non-JSON lines become error entries</li>
-                    </ul>
-                  </td>
+                  <td><code>on-exit</code></td>
+                  <td>JSON for each task added or modified</td>
+                  <td>Optional feedback</td>
+                  <td>Tasks ignored</br />Feedback as footnotes</td>
+                  <td>Tasks ignored</br />Feedback as errors</td>
+                </tr>
+                <tr>
+                  <td><code>on-add</code></td>
+                  <td>JSON for added task</td>
+                  <td>JSON task(s)<br />Optional feedback</td>
+                  <td>Tasks added/modified<br />Feedback as footnotes</td>
+                  <td>Tasks ignored<br />Feedback as errors</td>
+                </tr>
+                <tr>
+                  <td><code>on-modify</code></td>
+                  <td>JSON original task<br />JSON modified task</td>
+                  <td>JSON task(s)<br />Optional feedback</td>
+                  <td>Tasks added/modified<br />Feedback as footnotes</td>
+                  <td>Tasks ignored<br />Feedback as errors</td>
                 </tr>
               </table>
             </p>
-
-            <h5>Interface: <code>on-exit</code></h5>
-            <p>
-              The on-exit event is triggered once, after all processing is
-              complete
-              No tasks are modified by this event.
-
-              <table class="table table-striped table-compact">
-                <tr>
-                  <td>Input</td>
-                  <td>A read-only line of JSON for each task added/modified</td>
-                </tr>
-                <tr>
-                  <td>Output</td>
-                  <td>
-                    <ul>
-                      <li>All emitted JSON lines must be fully-formed tasks, one per line.</li>
-                      <li>All emitted non-JSON lines are considered feedback messages.</li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Exit Code</td>
-                  <td>
-                    0 Means:
-                    <ul>
-                      <li>all emitted non-JSON lines become footnote entries</li>
-                    </ul>
-                    non-0 Means:
-                    <ul>
-                      <li>all emitted non-JSON lines become error entries</li>
-                    </ul>
-                  </td>
-                </tr>
-              </table>
-            </p>
-
-            <h5>Interface: <code>on-add</code></h5>
-            <p>
-              The on-add event is triggered separately for each task added.
-              If a task is added/modified it <em>will</em> trigger other events.
-
-              <table class="table table-striped table-compact">
-                <tr>
-                  <td>Input</td>
-                  <td>A line of JSON for the task added</td>
-                </tr>
-                <tr>
-                  <td>Output</td>
-                  <td>
-                    <ul>
-                      <li>All emitted JSON lines must be fully-formed tasks, one per line.</li>
-                      <li>All emitted non-JSON lines are considered feedback messages.</li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Exit Code</td>
-                  <td>
-                    0 Means:
-                    <ul>
-                      <li>all emitted JSON lines are added/modified</li>
-                      <li>all emitted non-JSON lines become footnote entries</li>
-                    </ul>
-                    non-0 Means:
-                    <ul>
-                      <li>all emitted JSON lines are ignored</li>
-                      <li>all emitted non-JSON lines become error entries</li>
-                    </ul>
-                  </td>
-                </tr>
-              </table>
-            </p>
-
-            <h5>Interface: <code>on-modify</code></h5>
-            <p>
-              The on-modify event is triggered separately for each task added
-              or modified.
-              If a task is added/modified it <em>will</em> trigger other events.
-
-              <table class="table table-striped table-compact">
-                <tr>
-                  <td>Input</td>
-                  <td>
-                    <ul>
-                      <li>A line of JSON for the original task</li>
-                      <li>A line of JSON for the modified task</li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Output</td>
-                  <td>
-                    <ul>
-                      <li>All emitted JSON lines must be fully-formed tasks, one per line.</li>
-                      <li>All emitted non-JSON lines are considered feedback messages.</li>
-                    </ul>
-                  </td>
-                </tr>
-                <tr>
-                  <td>Exit Code</td>
-                  <td>
-                    0 Means:
-                    <ul>
-                      <li>all emitted JSON lines are added/modified</li>
-                      <li>all emitted non-JSON lines become footnote entries</li>
-                    </ul>
-                    non-0 Means:
-                    <ul>
-                      <li>all emitted JSON lines are ignored</li>
-                      <li>all emitted non-JSON lines become error entries</li>
-                    </ul>
-                  </td>
-                </tr>
-              </table>
-            </p>
-
 
             <a name="impact"></a>
             <h4>Impact</h4>
             <p>
-              The hook system is visible in other ways:
+              The hook system is visible in several places:
 
               <ul>
                 <li>
                   The <code>diagnostics</code> command will enumerate hook
-                  scripts, indicating that the script is executable. This will
-                  help when diagnosing hook problems.
+                  scripts, indicating whether the script is executable. This
+                  helps diagnosing hook problems.
                 </li>
 
                 <li>
@@ -359,10 +299,22 @@ on-add-require-project</pre>
                 </li>
 
                 <li>
+                  Hooks have their own debug mode. Setting
+                  <code>rc.debug.hooks=1</code>
+                  will show which hook scripts are called.
+
+                  Setting
+                  <code>rc.debug.hooks=2</code>
+                  will also show the input, output and exit status of the hook
+                  scripts.
+                </li>
+
+                <li>
                   In debug mode (<code>rc.debug=1</code>) all hook scripts will
                   be timed, and the cumulative time indicated. It is anticipated
                   that hook scripts will have a longer run time than Taskwarrior,
-                  and this should be measured.
+                  and this is measured. This will help hook script authors to
+                  minimize their runtime.
                 </li>
               </ul>
             </p>
@@ -372,20 +324,27 @@ on-add-require-project</pre>
             <p>
               With any hook system there are potential problems which involve
               race conditions, infinite loops and runaway cascading effects.
-              Various measures are taken to mitigate these problems.
+              Various measures are taken to mitigate these problems:
+
+              <ul>
+                <li>Malformed JSON is rejected</li>
+                <li>Correct JSON that is not a task is rejected</li>
+              </ul>
             </p>
 
-            <p class="bg-danger">
-              Except there aren't any yet, but there need to be some, once they
-              are identified. To be completed.
+            <p>
+              Please note: installing hook scripts can be as dangerous as
+              installing any software, and if you are unsure of what the script
+              does, don't install it.
             </p>
 
             <a name="examples"></a>
             <h4>Examples</h4>
             <p>
-              Here are some example uses for hooks. These are not intended to
-              represent good ideas, but represent a variety of needs.
-              <ol>
+              Here are some example uses for hooks. This list is intended as
+              inspiration, and may not represent actual scripts that exist.
+
+              <ul>
                 <li>Policy enforcement: referencing issues, description length, project values</li>
                 <li>Shadow files</li>
                 <li>User defined special tags</li>
@@ -396,10 +355,13 @@ on-add-require-project</pre>
                 <li>Spell-checking</li>
                 <li>Preventing use of profanity</li>
                 <li>Performing a sync on launch</li>
-              </ol>
+              </ul>
             </p>
           </div>
         </div>
+
+        <br />
+        <br />
       </div>
 
       <div class="col-md-2">
@@ -408,6 +370,9 @@ on-add-require-project</pre>
             <li><a class="alert-link" href="#hooks">Hooks</a></li>
             <li><a class="alert-link" href="#events">Events</a></li>
             <li><a class="alert-link" href="#git">The Git Model</a></li>
+            <li><a class="alert-link" href="#input">Input</a></li>
+            <li><a class="alert-link" href="#output">Output</a></li>
+            <li><a class="alert-link" href="#status">Exit Status</a></li>
             <li><a class="alert-link" href="#interfaces">Interfaces</a></li>
             <li><a class="alert-link" href="#impact">Impact</a></li>
             <li><a class="alert-link" href="#safety">Safety</a></li>
