@@ -294,27 +294,22 @@ Spell checking found no errors.
                 </li>
 
                 <li>
-                  In debug mode (<code>rc.debug=1</code>) the hook scripts run
-                  will be listed with their exit status and run time.
+                  In debug mode (<code>rc.debug=1</code>) the hook debug mode
+                  (<code>rc.debug.hooks=1</code>) is automatically set.
                 </li>
 
                 <li>
                   Hooks have their own debug mode. Setting
                   <code>rc.debug.hooks=1</code>
-                  will show which hook scripts are called.
+                  will show which hook scripts are called, and run time.
+                  This will help hook script authors to minimize their runtime.
+                </li>
 
+                <li>
                   Setting
                   <code>rc.debug.hooks=2</code>
                   will also show the input, output and exit status of the hook
                   scripts.
-                </li>
-
-                <li>
-                  In debug mode (<code>rc.debug=1</code>) all hook scripts will
-                  be timed, and the cumulative time indicated. It is anticipated
-                  that hook scripts will have a longer run time than Taskwarrior,
-                  and this is measured. This will help hook script authors to
-                  minimize their runtime.
                 </li>
               </ul>
             </p>
