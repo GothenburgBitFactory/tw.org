@@ -262,7 +262,30 @@ $ task 1 annotate and Cheese</pre>
 
           <dt><a name="default_command"></a>default command</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              Taskwarrior supports the notion of a default command, which is
+              used when no other command is specified on the command line.
+              Suppose you have this setting:
+            </p>
+
+            <pre>$ task config default.command list
+$ task +tag</pre>
+
+            <p>
+              Then the default command above of <code>list</code> would be used
+              in the subsequent command, to effectively become:
+            </p>
+
+            <pre>$ task +tag list</pre>
+
+            <p>
+              <span class="label label-success">2.4.0</span>
+              When no command is specified, and the only arguments are task
+              <code>ID</code> or <code>UUID</code> values, the <code>info</code>
+              command is assumed, regardless of the <code>rc.default.command</code>
+              setting.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
