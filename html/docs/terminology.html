@@ -720,7 +720,21 @@ $ ls 'my_file'</pre>
 
           <dt><a name="shadow_file"></a>shadow file</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              The shadow file is an old feature of Taskwarrior, which automatically
+              ran a report whenever the data changed. That report was configurable,
+              and the output placed in a text file.  This was typically used to
+              display a task list on the desktop using
+              <a href="http://conky.sourceforge.net/">Conky</a>,
+              or similar tools.
+            </p>
+
+            <p>
+              Starting with version 2.4.0, shadow file support has been removed,
+              in favor of a hook-based solution, an example of which is provided
+              with the source.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
