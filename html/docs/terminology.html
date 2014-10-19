@@ -566,7 +566,25 @@ report.list.sort start-,due+,project+/,urgency-</pre>
 
           <dt><a name="override"></a>override</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              An override refers to the action of superceding a configuration
+              setting at runtime. For example, support for <code>rc.color</code>
+              is 'on' by default, but at runtime, you can override this:
+            </p>
+
+            <pre>$ task rc.color=off list</pre>
+
+            <p>
+              This runs the <code>list</code> report but does not use color.
+            </p>
+
+            <p>
+              Any number of settings can be overridden at runtime, and overrides
+              can also appear in the <code>rc.report.&lt;report&gt;.filter</code>
+              setting for a report, so that you can have a report run without
+              color, for example.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
