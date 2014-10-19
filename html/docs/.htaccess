@@ -1,3 +1,5 @@
+# Policy: Support redirects for one year.
+
 # Added 2014-09-20
 REDIRECT 301 /docs/troubleshooting-sync.html /docs/taskserver/troubleshooting-sync.html
 REDIRECT 301 /docs/ciphers.html              /docs/taskserver/ciphers.html
