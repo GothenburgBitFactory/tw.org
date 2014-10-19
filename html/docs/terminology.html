@@ -445,7 +445,42 @@ pi * r^2</pre>
 
           <dt><a name="filter"></a>filter</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              A filter is a set of command line arguments used to restrict the
+              number of tasks shown. For example, this command uses three filter
+              terms:
+            </p>
+
+            <pre>$ task project:Home +kitchen +weekend list</pre>
+
+            <p>
+              This command will show a report that contains tasks that have the
+              project value 'Home', and have the <code>kitchen</code> and
+              <code>weekend</code> tags. The three terms are combined with an
+              implicit <code>AND</code> operator.
+            </p>
+
+            <p>
+              In addtion, the command above combines the three terms in the filter
+              with the implicit filter of the <code>list</code> command, which
+              is:
+            </p>
+
+            <pre>status:pending</pre>
+
+            <p>
+              So in total, the command has four filter terms, that restrict the
+              tasks shown. A filter is essentially an ælgebraic expression that
+              must evalute to <code>True</code> for each task, for it to be
+              included in the result.
+            </p>
+
+            <p>
+              Most commands accept filters. See
+              <a href="/docs/tutorials/filter.html">Tutorial: Filters</a>
+              for a more complete discussion.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
