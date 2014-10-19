@@ -103,21 +103,18 @@ $ task -work count
               annotation:
             </p>
 
-            <pre>$ task meeting count
-3</pre>
-
-            <p>
-              Here we see that 3 tasks have the word 'meeting' in the
-              description. To use regular expressions to search the descriptions
-              annotations:
-            </p>
-
             <pre>$ task /m..ting/ count
 3</pre>
 
             <p>
+              Here we see that 3 tasks have the word 'm..ting' in the
+              description. This is a regular expression, although it can also
+              be just a simple word.
+            </p>
+
+            <p>
               This assumes you have enabled regular expression support, using
-              the <code>regex</code> configuration setting.
+              the <code>rc.regex</code> configuration setting.
             </p>
 
             <a name="complex"></a>
