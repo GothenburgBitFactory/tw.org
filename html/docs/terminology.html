@@ -799,7 +799,29 @@ $ task 1 modify start:now</pre>
 
           <dt><a name="sync"></a>sync</dt>
           <dd>
-            <span class="label label-info">TBD</span>
+            <p>
+              Synchronization is a service provided by the Taskserver, and allows
+              multiple sync clients to share data. The Taskserver knows how to
+              merge tasks and handle incremental updateѕ to minimize bandwidth used.
+            </p>
+
+            <p>
+              Although you can achieve a similar capability using one of the many
+              file-sharing services, the merging that happens is not aware of how
+              to merge tasks.
+            </p>
+
+            <p>
+              Starting with Taskwarrior 2.3.0, there is a <code>sync</code>
+              command that can be configured to talk to a Taskserver.
+            </p>
+
+            <p>
+              The popular <a href="http://mirakel.azapps.de">Mirakel</a> Android
+              client can also sync with Taskserver, and therefore share tasks
+              with Taskwarrior.
+            </p>
+
             <h4>&nbsp;</h4>
           </dd>
 
