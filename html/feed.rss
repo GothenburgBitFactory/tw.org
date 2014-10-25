@@ -13,11 +13,26 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 11 Oct 2014 20:33:00 UTC</pubDate>
+    <pubDate>Sat, 25 Oct 2014 12:45:00 UTC</pubDate>
+
+    <item>
+      <title>Sort Column Indicator</title>
+      <link>http://taskwarrior.org/news/news.201401025.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 25 Oct 2014 12:45:00 UTC</pubDate>
+      <description>
+        In the upcoming Taskwarrior 2.4.0, there is now the ability to
+        apply a different color to the columns of a report that are part
+        of the sort key.
+        <a href="/news/images/sort.png">
+          <img alt="Sort Columns Demo" class="img-thumbnail" src="/news/images/sort.png" />
+        </a>
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.4.0 beta2</title>
-      <link>http://taskwarrior.org/news/news.20140915.html</link>
+      <link>http://taskwarrior.org/news/news.20141011.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 11 Oct 2014 20:33:00 UTC</pubDate>
       <description>
