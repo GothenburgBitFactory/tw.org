@@ -13,7 +13,18 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 25 Oct 2014 12:45:00 UTC</pubDate>
+    <pubDate>Tue, 11 Nov 2014 23:50:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.4.0 beta3</title>
+      <link>http://taskwarrior.org/news/news.20141111.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Tue, 11 Nov 2014 23:50:00 UTC</pubDate>
+      <description>
+        A new beta 3 for Taskwarrior 2.4.0 is now available as a source
+        <a href="/download/task-2.4.0.beta3.tar.gz">tarball</a>.
+      </description>
+    </item>
 
     <item>
       <title>Sort Column Indicator</title>
