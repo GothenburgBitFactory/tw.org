@@ -13,7 +13,18 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Tue, 11 Nov 2014 23:50:00 UTC</pubDate>
+    <pubDate>Thu, 02 Jan 2015 00:27:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.4.0 Released</title>
+      <link>http://taskwarrior.org/news/news.20150101.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Thu, 01 Jan 2015 00:27:00 UTC</pubDate>
+      <description>
+        Taskwarrior 2.4.0 is released and now available as a source
+        <a href="/download/task-2.4.0.tar.gz">tarball</a>.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.4.0 beta3</title>
