@@ -1,6 +1,6 @@
 #!/usr/bin/perl
 # task-data-anon.pl - User data anonymizer for use during bug submission
-# based on task-anon.pl by Cory Dornelly
+# based on task-anon.pl by Cory Donnelly
 #
 # Copyright 2011 Johannes Schlatow
 # All rights reserved.
@@ -37,7 +37,7 @@
 # $ cat ~/task/undo.data | task-anon.pl > undo_anon.data
 
 use strict;
-use Digest::MD5  qw(md5_hex);
+use Digest::MD5 qw(md5_hex);
 
 my $seed = rand();
 
