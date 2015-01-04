@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Thu, 02 Jan 2015 00:27:00 UTC</pubDate>
+    <pubDate>Sat, 03 Jan 2015 23:34:00 UTC</pubDate>
+
+    <item>
+      <title>Date &amp; Time Support</title>
+      <link>http://taskwarrior.org/news/news.20150103.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 03 Jan 2015 23:34:00 UTC</pubDate>
+      <description>
+        Taskwarrior 2.4.0 supports many new date &amp; time formatting options.
+        These are all documented in the new
+        <a href="/docs/dates.html">Date &amp; Time</a> page.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.4.0 Released</title>
