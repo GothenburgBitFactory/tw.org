@@ -1,0 +1,1050 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!--
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        (function() {
+            var s = document.createElement('script');
+            var t = document.getElementsByTagName('script')[0];
+
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//api.flattr.com/js/0.6/load.js?'+
+                    'mode=auto&uid=taskwarrior&language=en_US&category=text';
+
+            t.parentNode.insertBefore(s, t);
+        })();
+    /* ]]> */
+    </script>
+    -->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" alt="Taskwarrior brand" style="width:24px; height:24px;"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Date &amp; Time</h3>
+            <p>
+              Taskwarrior supports date and time values. Date fields are used
+              to track task creation, due date, scheduled date, end date and
+              so on, as well as providing a date type for use with
+              <a href="/docs/udas.html">UDA</a> fields.
+            </p>
+
+            <p>
+              Whichever format is used to accept and display date and time,
+              Taskwarrior resolves it to a UTC epoch value, accurate to one
+              second. This is called Unix Time, POSIX time, or Epoch time.
+            </p>
+
+            <p>
+              But you have full control over the format entered and the
+              format displayed, and this document is a demonstration of this.
+            </p>
+
+            <a name="due"></a>
+            <h4>Due Date Example</h4>
+            <p>
+              Let us begin with an example of specifying a due date when the
+              task is created:
+            </p>
+
+            <pre>$ task add Pay the rent due:2015-01-31</pre>
+
+            <p>
+              Or adding a due date to an existing task:
+            </p>
+
+            <pre>$ task add Pay the rent
+$ task 1 modify due:2015-01-31</pre>
+
+            <p>
+              Finally removing a due date from a task:
+            </p>
+
+            <pre>$ task 1 modify due:</pre>
+
+            <p>
+              This examples uses the default <code>rc.dateformat</code>, which
+              is <code>Y-M-D</code>, to read the date from the command line.
+            </p>
+
+            <a name="dateformat"></a>
+            <h4>rc.dateformat</h4>
+            <p>
+              The <code>rc.dateformat</code> setting allows you to specify other
+              formats for date input. An example is the default, <code>Y-M-D</code>,
+              which means a date is:
+
+              <ul>
+                <li>a 4-digit year ('Y')</li>
+                <li>followed by a hyphen ('-')</li>
+                <li>followed by a 2-digit month ('M')</li>
+                <li>followed by a hyphen ('-')</li>
+                <li>followed by a 2-digit day ('D')</li>
+              </ul>
+
+              Here are the possible elements of <code>rc.dateformat</code>:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed">
+                <tr>
+                  <td><code>m</code></td>
+                  <td>1 or 2 digit month number, eg '1', '12'</td>
+                </tr>
+                <tr>
+                  <td><code>M</code></td>
+                  <td>2 digit month number, eg '01', '12'</td>
+                </tr>
+                <tr>
+                  <td><code>d</code></td>
+                  <td>1 or 2 digit day of month number¸ eg '1', '12'</td>
+                </tr>
+                <tr>
+                  <td><code>D</code></td>
+                  <td>2 digit day of month number, eg '01', '30'</td>
+                </tr>
+                <tr>
+                  <td><code>y</code></td>
+                  <td>2 digit year, eg '12', where the century is assumed to be '20', therefore '2012'</td>
+                </tr>
+                <tr>
+                  <td><code>Y</code></td>
+                  <td>4 digit year, eg '2015'</td>
+                </tr>
+                <tr>
+                  <td><code>h</code></td>
+                  <td>1 or 2 digit hours, eg '1', '23'</td>
+                </tr>
+                <tr>
+                  <td><code>H</code></td>
+                  <td>2 digit month hours, eg '01', '23'</td>
+                </tr>
+                <tr>
+                  <td><code>n</code></td>
+                  <td>1 or 2 digit minutes, eg '1', '59'</td>
+                </tr>
+                <tr>
+                  <td><code>N</code></td>
+                  <td>2 digit minutes, eg '01', '59'</td>
+                </tr>
+                <tr>
+                  <td><code>s</code></td>
+                  <td>1 or 2 digit seconds, eg '1', '59'</td>
+                </tr>
+                <tr>
+                  <td><code>S</code></td>
+                  <td>2 digit seconds, eg '01', '59'</td>
+                </tr>
+                <tr>
+                  <td><code>v</code></td>
+                  <td>1 or 2 digit week number, eg '1', '52'</td>
+                </tr>
+                <tr>
+                  <td><code>V</code></td>
+                  <td>2 digit week number, eg '01', '52'</td>
+                </tr>
+                <tr>
+                  <td><code>a</code></td>
+                  <td>3-character English day name abbreviation, eg 'mon', 'tue'</td>
+                </tr>
+                <tr>
+                  <td><code>A</code></td>
+                  <td>Complete English day name, eg 'monday', 'tuesday'</td>
+                </tr>
+                <tr>
+                  <td><code>b</code></td>
+                  <td>3-character English month name abbreviation, eg 'jan', 'feb'</td>
+                </tr>
+                <tr>
+                  <td><code>B</code></td>
+                  <td>Complete English month name, eg 'january', 'february'</td>
+                </tr>
+                <tr>
+                  <td><code>Everything else</code></td>
+                  <td>All other format characters are taken as literals</td>
+                </tr>
+              </table>
+            </p>
+
+            <a name="time"></a>
+            <h4>Including Time</h4>
+            <p>
+              Using <code>rc.dateformat</code> you can specify a date with or
+              without elements that include time. If your dateformat omits any
+              time elements, then you just specify the date, and the time
+              defaults to <code>00:00:00</code>.
+            </p>
+
+            <p>
+              An example shows this using a temporary override:
+            </p>
+
+            <pre>$ task add Pay the rent due:2015-01-01
+$ task 1
+
+Name          Value
+------------- ------------------------------------------
+ID            1
+Description   Pay the rent
+Status        Pending
+Entered       2015-01-02 16:57:44 (8 seconds)
+Due           2015-01-01 00:00:00
+Last modified 2015-01-02 16:57:44 (8 seconds)
+UUID          6eb7c4d7-6323-4ee3-bf13-63c580de3712
+Urgency       9.58
+
+$ task add Open the store due:2015-01-01T08:30:00 rc.dateformat:Y-M-DTH:N:S
+$ task 2
+
+Name          Value
+------------- ------------------------------------------
+ID            2
+Description   Open the store
+Status        Pending
+Entered       2015-01-02 16:58:15 (6 seconds)
+Due           2015-01-01 08:30:00
+Last modified 2015-01-02 16:58:15 (6 seconds)
+UUID          bc8f9b89-8dea-4dae-87e5-b320b651c25c
+Urgency       9.419</pre>
+
+            <p>
+              The first task added used the default <code>rc.dateformat</code>
+              value of <code>Y-M-D</code>. You can see that the
+              <code>due</code> date was recorded with time <code>00:00:00</code>.
+            </p>
+
+            <p>
+              The second task added specified an <code>rc.dateformat</code>
+              override value of <code>Y-M-DTH:N:S</code>. You can see that the
+              <code>due</code> date was recorded with time <code>08:30:00</code>,
+              as specified.
+            </p>
+
+            <p>
+              You can specify date, or date + time, but whatever you specify
+              must match your <code>rc.dateformat</code> setting.
+            </p>
+
+            <a name="reports"></a>
+            <h4>Reports</h4>
+            <p>
+              The <code>rc.dateformat</code> setting is used for both specifying
+              dates on the command line, and displaying them in reports.
+              Most reports allow a further override, for report-specific display
+              formats, such as <code>rc.report.REPORT.dateformat</code>, but there
+              are others.  See <code>man taskrc</code> for a complete list.
+            </p>
+
+            <p>
+              For display purposes, there are two additional elements:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed">
+                <tr>
+                  <td><code>j</code></td>
+                  <td>
+                    1, 2 or 3 digit day-of-year number, sometimes referred to as
+                    a Julian date, eg '1', '11', or '365'
+                    </td>
+                </tr>
+                <tr>
+                  <td><code>J</code></td>
+                  <td>
+                    3 digit day of year number, sometimes referred to as a Julian
+                    date, eg '001', '011', or '365'
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <a name="names"></a>
+            <h4>Synonyms <span class="label label-success">2.4.0</span></h4>
+            <p>
+              In addition to formatted dates, you can use a date synonym instead:
+            </p>
+
+            <pre>$ task add Pay the rent due:eom</pre>
+
+            <p>
+              Here the synonym <code>eom</code> means 'end of the month'.
+              Synonyms are a useful shortcut to entering lengthy dates.
+              Here is the full set:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed">
+                <tr>
+                  <td><code>now</code></td>
+                  <td>
+                    Current local date and time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>today</code></td>
+                  <td>
+                    Current local date, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>sod</code></td>
+                  <td>
+                    Local date of the start of the next day, with time 00:00:00.
+                    Same as <code>tomorrow</code>.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>eod</code></td>
+                  <td>
+                    Current local date, with time 23:59:59.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>yesterday</code></td>
+                  <td>
+                    Local date for yesterday, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>tomorrow</code></td>
+                  <td>
+                    Local date for tomorrow, with time 00:00:00.
+                    Same as <code>sod</code>.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>monday</code>, <code>tuesday</code> ...</td>
+                  <td>
+                    Local date for the specified day, after today, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>january</code>, <code>february</code> ...</td>
+                  <td>
+                    Local date for the specified month, 1st day, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>later</code>, <code>someday</code></td>
+                  <td>
+                    Local 2038-01-18, with time 00:00:00.
+                    A date far away, with semantically meaningful to GTD users.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>soy</code></td>
+                  <td>
+                    Local date for the next year, January 1st, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>eoy</code></td>
+                  <td>
+                    Local date for this year, December 31st, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>soq</code></td>
+                  <td>
+                    Local date for the start of the next quarter (January, April,
+                    July, October), 1st, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>eoq</code></td>
+                  <td>
+                    Local date for the end of the current quarter (March, June,
+                    September, December), last day of the month, with time 23:59:59.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>som</code></td>
+                  <td>
+                    Local date for the 1st day of the next month, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>socm</code></td>
+                  <td>
+                    Local date for the 1st day of the current month, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>eom</code>, <code>eocm</code></td>
+                  <td>
+                    Local date for the last day of the current month, with time 23:59:59.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>sow</code></td>
+                  <td>
+                    Local date for the next Sunday, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>socw</code></td>
+                  <td>
+                    Local date for the last Sunday, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>eow</code>, <code>eocw</code></td>
+                  <td>
+                    Local date for the end of the week, Saturday night, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>soww</code></td>
+                  <td>
+                    Local date for the start of the work week, next Monday, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>eoww</code></td>
+                  <td>
+                    Local date for the end of the work week, Friday night, with time 23:59:59.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>1st</code>, <code>2nd</code>, ...</td>
+                  <td>
+                    Local date for the next Nth day, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>goodfriday</code></td>
+                  <td>
+                    Local date for the next Good Friday, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>easter</code></td>
+                  <td>
+                    Local date for the next Easter Sunday, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>eastermonday</code></td>
+                  <td>
+                    Local date for the next Easter Monday, with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>ascension</code></td>
+                  <td>
+                    Local date for the next Ascension (39 days after Easter Sunday), with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>pentecost</code></td>
+                  <td>
+                    Local date for the next Pentecost (40 days after Easter Sunday), with time 00:00:00.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>midsommar</code></td>
+                  <td>
+                    Local date for the Saturday after June 20th, with time 00:00:00.  Swedish.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>midsommarafton</code></td>
+                  <td>
+                    Local date for the Friday after June 19th, with time 00:00:00.  Swedish.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              The synonyms are supported in addition to <code>rc.dateformat</code>
+            </p>
+
+            <a name="iso"></a>
+            <h4>ISO-8601 Format <span class="label label-success">2.4.0</span></h4>
+            <p>
+              The ISO-8601 standard defines an unambiguous format for specifying
+              date and time around the world. Taskwarrior supports the following
+              formats defined by ISO-8601:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed">
+                <tr>
+                  <td><code>YYYY-MM-DDThh:mm:ssZ</code></td>
+                  <td><code>2015-06-15T12:34:56Z</code></td>
+                  <td>
+                    Year, month, day, hours, minutes, seconds in UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-MM-DDThh:mmZ</code></td>
+                  <td><code>2015-06-15T12:34Z</code></td>
+                  <td>
+                    Year, month, day, hours, minutes, 00 seconds in UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-DDDThh:mm:ssZ</code></td>
+                  <td><code>2015-166T12:34:56Z</code></td>
+                  <td>
+                    Year, day ordinal, hours, minutes, seconds in UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-DDDThh:mmZ</code></td>
+                  <td><code>2015-166T12:34Z</code></td>
+                  <td>
+                    Year, day ordinal, hours, minutes, 00 seconds in UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-Www-DThh:mm:ssZ</code></td>
+                  <td><code>2015-W24-1T12:34:56Z</code></td>
+                  <td>
+                    Year, week number, day of week, hours, minutes, seconds, UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-Www-DThh:mmZ</code></td>
+                  <td><code>2015-W24-1T12:34Z</code></td>
+                  <td>
+                    Year, week number, day of week, hours, minutes, 00 seconds, UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-WwwThh:mm:ssZ</code></td>
+                  <td><code>2015-W24T12:34:56Z</code></td>
+                  <td>
+                    Year, week number, first day of week, hours, minutes, seconds, UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-WwwThh:mmZ</code></td>
+                  <td><code>2015-W24T12:34Z</code></td>
+                  <td>
+                    Year, week number, first day of week, hours, minutes, 00 seconds, UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>YYYY-MM-DDThh:mm:ss+hh:mm</code><br />
+                    <code>YYYY-MM-DDThh:mm:ss-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>2015-06-15T12:34:56+05:00</code><br />
+                    <code>2015-06-15T12:34:56-05:00</code>
+                  </td>
+                  <td>
+                    Year, month, day, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>YYYY-MM-DDThh:mm+hh:mm</code><br />
+                    <code>YYYY-MM-DDThh:mm-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>2015-06-15T12:34+05:00</code><br />
+                    <code>2015-06-15T12:34-05:00</code>
+                  </td>
+                  <td>
+                    Year, month, day, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>YYYY-DDDThh:mm:ss+hh:mm</code><br />
+                    <code>YYYY-DDDThh:mm:ss-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>2015-166T12:34:56+05:00</code><br />
+                    <code>2015-166T12:34:56-05:00</code>
+                  </td>
+                  <td>
+                    Year, day ordinal, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>YYYY-DDDThh:mm+hh:mm</code><br />
+                    <code>YYYY-DDDThh:mm-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>2015-166T12:34+05:00</code><br />
+                    <code>2015-166T12:34-05:00</code>
+                  </td>
+                  <td>
+                    Year, day ordinal, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>YYYY-Www-DThh:mm:ss+hh:mm</code><br />
+                    <code>YYYY-Www-DThh:mm:ss-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>2015-W24-1T12:34:56+05:00</code><br />
+                    <code>2015-W24-1T12:34:56-05:00</code>
+                  </td>
+                  <td>
+                    Year, week number, day number, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>YYYY-Www-DThh:mm+hh:mm</code><br />
+                    <code>YYYY-Www-DThh:mm-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>2015-W24-1T12:34+05:00</code><br />
+                    <code>2015-W24-1T12:34-05:00</code>
+                  </td>
+                  <td>
+                    Year, week number, day number, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>YYYY-WwwThh:mm:ss+hh:mm</code><br />
+                    <code>YYYY-WwwThh:mm:ss-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>2015-W24T12:34:56+05:00</code><br />
+                    <code>2015-W24T12:34:56-05:00</code>
+                  </td>
+                  <td>
+                    Year, week number, first day of week, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>YYYY-WwwThh:mm+hh:mm</code><br />
+                    <code>YYYY-WwwThh:mm-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>2015-W24T12:34+05:00</code><br />
+                    <code>2015-W24T12:34-05:00</code>
+                  </td>
+                  <td>
+                    Year, week number, first day of week, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-MM-DDThh:mm:ss</code></td>
+                  <td><code>2015-06-15T12:34:56</code></td>
+                  <td>
+                    Year, month, day, hours, minutes, seconds, local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-MM-DDThh:mm</code></td>
+                  <td><code>2015-06-15T12:34</code></td>
+                  <td>
+                    Year, month, day, hours, minutes, 00 seconds, local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-DDDThh:mm:ss</code></td>
+                  <td><code>2015-166T12:34:56</code></td>
+                  <td>
+                    Year, day ordinal, hours, minutes, seconds, local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-DDDThh:mm</code></td>
+                  <td><code>2015-166T12:34</code></td>
+                  <td>
+                    Year, day ordinal, hours, minutes, 00 seconds, local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-Www-DThh:mm:ss</code></td>
+                  <td><code>2015-W24-1T12:34:56</code></td>
+                  <td>
+                    Year, week number, day number, hours, minutes, seconds, local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-Www-DThh:mm</code></td>
+                  <td><code>2015-W24-1T12:34</code></td>
+                  <td>
+                    Year, week number, day number, hours, minutes, 00 seconds, local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-WwwThh:mm:ss</code></td>
+                  <td><code>2015-W24T12:34:56</code></td>
+                  <td>
+                    Year, week number, first day of week, hours, minutes, seconds, local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-WwwThh:mm</code></td>
+                  <td><code>2015-W24T12:34</code></td>
+                  <td>
+                    Year, week number, first day of week, hours, minutes, 00 seconds, local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-MM-DD</code></td>
+                  <td><code>2015-06-15</code></td>
+                  <td>
+                    Year, month, day, 00:00:00 local time.
+                    Note that this format is the same as the <code>rc.dateformat</code> default.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-DDD</code></td>
+                  <td><code>2015-166</code></td>
+                  <td>
+                    Year, day ordinal, 00 hours, 00:00:00 local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-Www-D</code></td>
+                  <td><code>2015-W24-1</code></td>
+                  <td>
+                    Year, week number, day number, 00:00:00 local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-Www</code></td>
+                  <td><code>2015-W24</code></td>
+                  <td>
+                    Year, week number, first day of week, 00:00:00 local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYYWwwD</code></td>
+                  <td><code>2015W241</code></td>
+                  <td>
+                    Year, week number, day number, 00:00:00 local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYYWww</code></td>
+                  <td><code>2015W24</code></td>
+                  <td>
+                    Year, week number, first day of week, 00:00:00 local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>YYYY-MM</code></td>
+                  <td><code>2015-06</code></td>
+                  <td>
+                    Year, month, first day of month, 00:00:00 local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>hh:mm:ssZ</code></td>
+                  <td><code>12:34:56Z</code></td>
+                  <td>
+                    Today, hours, minutes, seconds in UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>hh:mmZ</code></td>
+                  <td><code>12:34Z</code></td>
+                  <td>
+                    Today, hours, minutes, 00 seconds in UTC.
+                  </td>
+                </tr>
+<!-- -->
+                <tr>
+                  <td>
+                    <code>hh:mm:ss+hh:mm</code><br />
+                    <code>hh:mm:ss-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>12:34:56+05:00</code><br />
+                    <code>12:34:56-05:00</code>
+                  </td>
+                  <td>
+                    Today, hours, minutes, seconds, positive or negative offset from UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <code>hh:mm+hh:mm</code><br />
+                    <code>hh:mm-hh:mm</code>
+                  </td>
+                  <td>
+                    <code>12:34+05:00</code><br />
+                    <code>12:34-05:00</code>
+                  </td>
+                  <td>
+                    Today, hours, minutes, 00 seconds, positive or negative offset from UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>hh:mm:ss</code></td>
+                  <td><code>12:34:56</code></td>
+                  <td>
+                    Today, hours, minutes, seconds, local time.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>hh:mm</code></td>
+                  <td><code>12:34</code></td>
+                  <td>
+                    Today, hours, minutes, 00 seconds, local time.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              ISO dates are comprised of standard elements:
+            </p>
+
+            <p>
+              <table class="table table-striped table-condensed">
+                <tr>
+                  <td><code>YYYY</code></td>
+                  <td>
+                    Only four-digit years are supported by ISO-8601, no abbreviations.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>MM</code></td>
+                  <td>
+                    Two-digit, zero-padded month numbers range from <code>01</code> to <code>12</code>.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>DD</code></td>
+                  <td>
+                    Two-digit, zero-padded day numbers range from <code>01</code> to <code>31</code>,
+                    depending on month and year.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>Www</code></td>
+                  <td>
+                    Week number <code>W01</code> is defined as the first week of the year with a Thursday in it.
+                    <code>W01</code> sometimes starts at the end of December of the previous year.
+                    Some years range from <code>W01</code> up to <code>W53</code>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>D</code></td>
+                  <td>
+                    Day of week is 1-7, Monday-Sunday.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>DDD</code></td>
+                  <td>Day ordinal is 001 for January 1st, 365 for December 31st, or 366 in a leap year.</td>
+                </tr>
+                <tr>
+                  <td><code>T</code></td>
+                  <td>
+                    A separator between date elements and time elements.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>Z</code></td>
+                  <td>
+                    Indicates UTC time, the 'Z' means 'Zulu', a military format.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>+/-</code></td>
+                  <td>
+                    Positive offset is <em>East</em> of UTC.
+                    Negative offset is <em>West</em> of UTC.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>hh</code></td>
+                  <td>
+                    Two-digit, zero-padded hours, between <code>00</code> and <code>23</code>.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>mm</code></td>
+                  <td>
+                    Two-digit, zero-padded minutes, between <code>00</code> and <code>59</code>.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>ss</code></td>
+                  <td>
+                    Two-digit, zero-padded seconds, between <code>00</code> and <code>59</code>.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <p>
+              You can use any of the ISO formats, independent from your
+              <code>rc.dateformat</code> setting.
+
+              Future releases of taskwarrior will not need <code>rc.dateformat</code>
+              for date/time input.
+            </p>
+          </div>
+
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a href="#due">Due Date</a></li>
+            <li><a href="#dateformat">rc.dateformat</a></li>
+            <li><a href="#time">Time</a></li>
+            <li><a href="#reports">Reports</a></li>
+            <li><a href="#names">Synonyms</a></li>
+            <li><a href="#iso">ISO-8601</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Occupy some vertical space -->
+    <div class="container">
+      <div class="col-md-3 main">
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://flod.us/index2.html">flod.us</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" alt="twitter logo" style="width:16px; height:16px;"> Twitter</a>
+            <br />
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" alt="google logo" style="width:16px; height:16px;"> G+</a>
+            <br />
+            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" alt="wordpress logo" style="width:16px; height:16px;"> Blog</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <div class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&amp;url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" style="border:0px; width:16px; height:16px;" alt="Flattr this" title="Flattr this"></span> Flattr</a>
+            <br />
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHPwYJKoZIhvcNAQcEoIIHMDCCBywCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBBCk8xDP0itbbUlqEdxezc2EBPFprkvY1dgZLt//2Fxa5MGC0sr5irXPhh5/9H71/xUDdXLAW48smxMStRgUPNaXtbH9tG+Js3yVRxObGc8c6QHUDFjbDdHZXMYigPCAFCXw69/oliYCkQ8ANt84MUjqns9HLJw8fmEzqOrgE89jELMAkGBSsOAwIaBQAwgbwGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIE0SOjNzcFHmAgZhdqtdPAqqb+31BfUMO6AP/M2BDs0lxsa0vdduAcvZ3P1Fi3xa8CgtKArZATuNFbL8+hCMC3qg5spEcX46mlDYFJp2H/13scfP5MDoOa+mxFVAHVRbN4smZsYNYjtw4i59FC4F2/2Zli6QTuGAcZbGNN5xcO4k6RjYHWade66XUYIItn47AeKAVTK9wS95uSxXNtY6TWFosOqCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTExMDcxODIyMTc1NFowIwYJKoZIhvcNAQkEMRYEFC9vnDkMVfzRa+R3epadnzsLl+pbMA0GCSqGSIb3DQEBAQUABIGAUZXskGTgWLLaulW/GTU5hxxBYeJFie8HNfGN0faR2wz4ec3eIFLrVU5bsX663p4gvoEH34PJFspYRDQwN+u09YPigMSAEc5gDQeUtVA7qKBLib2MWagcwXJR1OmJc7g/mqHp7gQ+QxTaG6UlKVSI6TB2vtgDXXa+Pwyv/O7C2ws=-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" style="border:0px;" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="paypal" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" style="border:0px; width:1px; height:1px;">
+            </form>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2015 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
