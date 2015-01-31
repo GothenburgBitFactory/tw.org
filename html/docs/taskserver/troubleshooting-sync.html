@@ -70,14 +70,15 @@
               of time.
             </p>
 
-            <div class="callout callout-danger">
-              <h4>Most Common Problem</h4>
-              <p>
-                The most common problem has been that the
-                <a href="/docs/taskserver/setup.html">Taskserver Setup Instructions</a>
-                were not properly followed.  Please review the steps you took.
-              </p>
-            </div>
+            <p>
+              The most common problem has been that the
+              <a href="/docs/taskserver/setup.html">Taskserver Setup Instructions</a>
+              were not properly followed.  Please review the steps you took.
+            </p>
+
+            <p class="bg-warning">
+              Highlighted below are the current most common solutions.
+            </p>
 
             <a name="tw"></a>
             <h4>Taskwarrior</h4>
@@ -107,7 +108,7 @@
                   values in the server cert. If you set <code>taskd.trust=yes</code>
                   then hostname checking is bypassed.
                 </li>
-                <li>
+                <li class="bg-warning">
                   <span class="label label-success">2.4.0</span>
                   If you are using a self-signed cert, did you specify the
                   <code>taskd.trust=strict</code> setting? If you did, then
@@ -154,7 +155,7 @@
                   Tunnel to route port <code>53589</code> traffic over port
                   <code>22</code>.
                 </li>
-                <li>
+                <li class="bg-warning">
                   <span class="label label-success">1.0.0</span>
                   Did you edit the <code>generate.server</code> script to
                   contain your <code>dns_name</code> and <code>ip_address</code>?
