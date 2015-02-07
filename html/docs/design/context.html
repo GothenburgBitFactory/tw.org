@@ -90,12 +90,12 @@
               context. Because a context is essentially a task filter, defining
               a context is really defining a named filter. In this example, we
               define our contexts from the list above using the new
-              <code>context</code> command:
+              <code>context define</code> command:
             </p>
 
-            <pre>$ task context work +work or +freelance
-$ task context study +school or +homework or +lab
-$ task context home -work -freelance -school -homework</pre>
+            <pre>$ task context define work +work or +freelance
+$ task context define study +school or +homework or +lab
+$ task context define home -work -freelance -school -homework</pre>
 
             <p>
               The context definition may contain any form of algebraic expression
@@ -105,10 +105,18 @@ $ task context home -work -freelance -school -homework</pre>
               task is accounted for, although this is not necessary.
             </p>
 
+            <p>
+              It is an error to try to define a context with the names
+              <code>define</code>,
+              <code>list</code>,
+              <code>none</code>, or
+              <code>delete</code>.
+            </p>
+
             <a name="set"></a>
             <h4>Setting the Context</h4>
             <p>
-              To set the current context, simply:
+              To set or switch the current context, simply:
             </p>
 
             <pre>$ task context home
@@ -130,11 +138,11 @@ $ task list
             <a name="list"></a>
             <h4>Listing All Contexts</h4>
             <p>
-              You can list all the contexts using the new <code>contexts</code>
+              You can list all the contexts using the new <code>context list</code>
               command:
             </p>
 
-            <pre>$ task contexts
+            <pre>$ task context list
 Context Filter
 ------- ----------------------------------
 home    -work -freelance -school -homework
@@ -144,12 +152,13 @@ work    +work or +freelance</pre>
             <a name="clear"></a>
             <h4>Clearing the Context</h4>
             <p>
-              To clear the current context, simply switch to a blank context:
+              To clear the current context:
             </p>
 
-            <pre>$ task context</pre>
+            <pre>$ task context none</pre>
 
             <p>
+              The context <code>none</code> has special meaning.
               All subsequent commands will not have any implicit context filters
               applied.
             </p>
@@ -157,10 +166,10 @@ work    +work or +freelance</pre>
             <a name="delete"></a>
             <h4>Deleting a Context</h4>
             <p>
-              To delete one of the contexts, simply define it to be blank:
+              To delete one of the contexts:
             </p>
 
-            <pre>$ task context study</pre>
+            <pre>$ task context delete study</pre>
 
             <p>
               Now you can no longer set the context to <code>study</code>.  If
