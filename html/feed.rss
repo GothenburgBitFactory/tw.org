@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 03 Jan 2015 23:34:00 UTC</pubDate>
+    <pubDate>Sat, 07 Feb 2015 21:22:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - January 2015</title>
+      <link>http://taskwarrior.org/news/news.20150207.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 07 Feb 2015 21:22:00 UTC</pubDate>
+      <description>
+        This is the first of an ongoing series of activity reports,
+        published monthly, to highlight activities in the Taskwarrior
+        project. Here is what happened in January 2015.
+      </description>
+    </item>
 
     <item>
       <title>Date &amp; Time Support</title>
