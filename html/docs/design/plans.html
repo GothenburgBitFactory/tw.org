@@ -50,111 +50,164 @@
       <div class="col-md-12">
         <div class="col-md-10">
           <p class="lead">
-            This is where design documents (RFCs) are kept.
+            There are many interconnected features and technologies in taskwarrior,
+            and each piece has it's own goals.
           </p>
 
           <p>
-            Although these documents are less formal than
-            <a href="http://www.ietf.org/rfc.html">IETF RFCs</a>
-            they serve a similar purpose. These documents apply only to the
-            Taskwarrior family of products, and are placed here to invite
-            comment before designs finalize.
+            This matrix allows a simple reading of where things are, and where they
+            are going. This is a low-resolution time line. It is subject to change.
+            It does not constitute a concrete plan.
           </p>
 
           <p>
-            The version badges indicate the targeted release.
+            <small>Last updated 2015-02-08.</small>
+            <br />
+            <br />
           </p>
-        </div>
-      </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
+          <table class="table table-bordered table-striped">
             <tr>
-              <td>
-                <a name="rfc"></a>
-                <p class="text-large"><strong>Plans</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/plans.html">Taskwarrior Plans</a>
-                    </li>
-                  </ul>
-                </p>
-              </td>
+              <th>Technology/Feature</th>
+              <th>
+                <span class="label label-success">2.4.0</span><br />
+                Current<br /><br />
+                Released 2015-01-01
+              </th>
+              <th>
+                <span class="label label-danger">2.5.0</span><br />
+                Next<br /><br />
+                2015
+              </th>
+              <th>
+                <span class="label label-info">2.x</span><br />
+                Future
+              </th>
             </tr>
-            <tr>
-              <td>
-                <a name="rfc"></a>
-                <p class="text-large"><strong>RFCs</strong></p>
-              </td>
-              <td>
-                <p>
-                  <h4>Taskwarrior</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/context.html">Context</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/context.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                      <span class="label label-success">2.4.x</span>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/hooks.html">Hooks</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/hooks.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                      <span class="label label-success">2.4.0</span>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/dates.html">Named Dates</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/dates.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                      <span class="label label-success">2.4.0</span>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/recurrence.html">Recurrence</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/recurrence.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/task.html">Taskwarrior JSON Format</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/task.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                  </ul>
 
-                  <h4>Taskserver</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/protocol.html">Taskserver Sync Protocol</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/protocol.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/request.html">Taskserver Message Format</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/request.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/sync.html">Taskserver Sync Algorithm</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/sync.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/client.html">Taskserver Client</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/client.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                  </ul>
-                </p>
+            <tr>
+              <td>Core</td>
+              <td>
+                <a href="/docs/dom.html">DOM</a><br />
+                Filters<br />
+                Expressions<br />
+                Color Rules<br />
+                Custom Reports<br />
+                Annotations<br />
+                Tags / Virtual Tags<br />
+              </td>
+              <td>
+              </td>
+              <td>
+                <a href="/docs/design/context.html">Context</a><br />
+                <a href="/docs/design/recurrence.html">Recurrence</a><br />
               </td>
             </tr>
+
+            <tr>
+              <td>API</td>
+              <td>
+                <a href="/docs/design/task.html">JSON</a><br />
+                Import<br />
+                Export<br />
+                <a href="/docs/design/hooks.html">Hooks</a><br />
+              </td>
+              <td>
+              </td>
+              <td>
+              </td>
+            </tr>
+
             <tr>
               <td>
-                <a name="upcoming"></a>
-                <p class="text-large"><strong>Upcoming RFCs</strong></p>
+                Attributes<br />
+                <a href="/docs/udas.html">User Defined Attributes (UDA)</a>
               </td>
               <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Lazy Dates (Deferred Evaluation)</li>
-                    <li>DOM</li>
-                  </ul>
-                </p>
+                <code>modified</code>
+              </td>
+              <td>
+              </td>
+              <td>
+                <code>org</code><br />
+                <code>group</code><br />
               </td>
             </tr>
+
+            <tr>
+              <td>Reports</td>
+              <td>
+                Redesigned layouts
+              </td>
+              <td>
+              </td>
+              <td>
+                Weekly reports (history, ghistory ...)<br />
+              </td>
+            </tr>
+
+            <tr>
+              <td>Synchronization</td>
+              <td>
+                <code>task sync</code><br />
+                <code>task sync init</code>
+              </td>
+              <td>
+                <code>task sync reset</code>
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td>TDB (task database)</td>
+              <td>
+                Local file locking<br />
+                Single file set<br />
+                Single user
+              </td>
+              <td>
+              </td>
+              <td>
+                Read-only mode
+              </td>
+            </tr>
+
+            <tr>
+              <td>I18N / L10N</td>
+              <td>
+                UTF-8 support<br />
+                <code>deu-DEU</code><br />
+                <code>eng-USA</code><br />
+                <code>epo-RUS</code><br />
+                <code>esp-ESP</code><br />
+                <code>fra-FRA</code><br />
+                <code>ita-ITA</code><br />
+                <code>pol-POL</code><br />
+                <code>por-PRT</code><br />
+              </td>
+              <td>
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Documentation</td>
+              <td>
+                man: task<br />
+                man: taskrc<br />
+                man: task-color<br />
+                man: task-sync<br />
+                youtube: various<br />
+                <a href="http://taskwarrior.org">taskwarrior.org</a><br />
+                taskwarrior.com: Support Site<br />
+              </td>
+              <td></td>
+              <td>
+              </td>
+            </tr>
+
           </table>
         </div>
 
@@ -249,3 +302,4 @@
     <!-- End Piwik Code -->
   </body>
 </html>
+
