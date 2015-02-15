@@ -60,17 +60,17 @@
             <a name="hooks"></a>
             <h3>Hooks</h3>
             <p>
-              A hook system is a way to call out to other programs/scripts
-              at certain points in Taskwarrior's execution, so that processing
-              can be influenced. These callout points correspond to locations
-              in the code where some critical processing is occurring. These
-              are called <i>events</i>.
+              A hook system is a way to run other programs/scripts at certain
+              points in Taskwarrior's execution, so that processing can be
+              influenced. These callout points correspond to locations in the
+              code where some critical processing is occurring. These are called
+              <i>events</i>.
             </p>
 
             <p>
-              A hook script is associated with an event. When that event
-              occurs, all associated hooks scripts are run. Data is exchanged
-              between Taskwarrior and the hook scripts.
+              Hook scripts are associated with events. When that event occurs,
+              all associated hooks scripts are run. Data is exchanged between
+              Taskwarrior and the hook scripts.
             </p>
 
             <p>
@@ -132,9 +132,7 @@
               </table>
 
               Task completion and deletion are considered modifications,
-              indicated by the change to the 'status' attribute. Modifying a
-              task in a hook script will trigger a subsequent modify event. For
-              this reason, writing hook scripts requires special care.
+              indicated by the change to the 'status' attribute. 
             </p>
 
             <a name="git"></a>
@@ -150,7 +148,8 @@
               <code>~/.task/hooks</code>, which is itself defined by the
               <code>rc.data.location</code> setting, and a <code>hooks</code>
               subdirectory. A hook script must either reside in this location,
-              or be symbolically linked into this location.
+              or be symbolically linked into this location. The location itself
+              may be a symbolic link.
 
               The name of the hook script should be of the form:
             </p>
@@ -203,11 +202,12 @@ on-add-require-project</pre>
             <a name="output"></a>
             <h4>Output</h4>
             <p>
-              Output from a hook script can be an unlimited combination of
-              JSON-formatted objects and text. Just as the JSON for a task
-              must occupy a single line, so must a single feedback message.
-              Feedback text is optional, but if provided will be displayed
-              by Taskwarrior according to the
+              Output from a hook script is a combination of a JSON-formatted
+              task and text. Just as the JSON for a task must occupy a single
+              line, so must a single feedback message. Feedback text is
+              optional for a successful hook script, but required for a failing
+              script. If provided it will be displayed by Taskwarrior according
+              to the
               <a href="/docs/verbosity.html">verbosity setting</a>.
             </p>
 
@@ -227,18 +227,24 @@ Spell checking found no errors.
               be displayed.
             </p>
 
+            <p>
+              There may only be one line of JSON, and it must be for the same
+              task that was provided as input.
+            </p>
+
             <a name="status"></a>
             <h4>Exit Status</h4>
             <p>
               A hook script may exit with a zero status which signals that all
-              is well. Any tasks emitted will be added/modified, and any
-              feedback will be shown as a footnote.
+              is well. A tasks emitted will be added/modified, and any feedback
+              will be shown as a footnote.
             </p>
 
             <p>
               A hook script may exit with a non-zero status which signals a
               problem. This terminates processing. All tasks emitted will be
-              ignored. Any feedback will be shown as an error.
+              ignored. Feedback is required in this case, and will be shown as
+              an error.
             </p>
 
             <a name="interfaces"></a>
@@ -268,20 +274,19 @@ Spell checking found no errors.
                   </td>
                   <td>
                     <ul>
-                      <li>Optional JSON for added/modifed tasks</li>
-                      <li>Optional feedback</li>
+                      <li>No JSON</li>
+                      <li>Feedback</li>
                     </ul>
                   </td>
                   <td>
                     <ul>
-                      <li>Tasks added/modified</li>
-                      <li>Feedback becomes footnotes</li>
+                      <li>Optional feedback becomes footnotes</li>
+                      <li>Processing continues</li>
                     </ul>
                   </td>
                   <td>
                     <ul>
-                      <li>Tasks ignored</li>
-                      <li>Feedback as errors</li>
+                      <li>Required feedback becomes errors</li>
                       <li>Processing terminates</li>
                     </ul>
                   </td>
@@ -295,20 +300,18 @@ Spell checking found no errors.
                   </td>
                   <td>
                     <ul>
-                      <li>Optional feedback</li>
+                      <li>No JSON</li>
+                      <li>Feedback</li>
                     </ul>
                   </td>
                   <td>
                     <ul>
-                      <li>Tasks ignored</li>
-                      <li>Feedback becomes footnotes</li>
+                      <li>Optional feedback becomes footnotes</li>
                     </ul>
                   </td>
                   <td>
                     <ul>
-                      <li>Tasks ignored</li>
-                      <li>Feedback becomes errors</li>
-                      <li>Processing terminates</li>
+                      <li>Required feedback becomes errors</li>
                     </ul>
                   </td>
                 </tr>
@@ -321,21 +324,21 @@ Spell checking found no errors.
                   </td>
                   <td>
                     <ul>
-                      <li>Required JSON for added task</li>
-                      <li>Optional JSON for additional added/modified tasks</li>
-                      <li>Optional feedback</li>
+                      <li>JSON for added task</li>
+                      <li>Feedback</li>
                     </ul>
                   </td>
                   <td>
                     <ul>
-                      <li>Tasks added/modified</li>
-                      <li>Feedback becomes footnotes</li>
+                      <li>JSON for added task</li>
+                      <li>Optional feedback becomes footnotes</li>
+                      <li>Processing continues</li>
                     </ul>
                   </td>
                   <td>
                     <ul>
-                      <li>Tasks ignored</li>
-                      <li>Feedback becomes errors</li>
+                      <li>JSON ignored</li>
+                      <li>Required feedback becomes errors</li>
                       <li>Processing terminates</li>
                     </ul>
                   </td>
@@ -350,21 +353,21 @@ Spell checking found no errors.
                   </td>
                   <td>
                     <ul>
-                      <li>Required JSON for modified tasks</li>
-                      <li>Optional JSON for additional added/modified tasks</li>
-                      <li>Optional feedback</li>
+                      <li>JSON for modified tasks</li>
+                      <li>Feedback</li>
                     </ul>
                   </td>
                   <td>
                     <ul>
-                      <li>Tasks added/modified</li>
-                      <li>Feedback becomes footnotes</li>
+                      <li>JSON for modified task</li>
+                      <li>Optional feedback becomes footnotes</li>
+                      <li>Processing continues</li>
                     </ul>
                   </td>
                   <td>
                     <ul>
-                      <li>Tasks ignored</li>
-                      <li>Feedback becomes errors</li>
+                      <li>JSON ignored</li>
+                      <li>Required feedback becomes errors</li>
                       <li>Processing terminates</li>
                     </ul>
                   </td>
@@ -445,6 +448,8 @@ Spell checking found no errors.
                 <li>Preventing use of profanity</li>
                 <li>Performing a sync on launch</li>
               </ul>
+
+              There are example hook scripts installed with Taskwarrior.
             </p>
           </div>
 
