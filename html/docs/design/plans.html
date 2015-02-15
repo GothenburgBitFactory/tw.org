@@ -50,25 +50,26 @@
       <div class="col-md-12">
         <div class="col-md-10">
           <p class="lead">
-            There are many interconnected features and technologies in taskwarrior,
-            and each piece has it's own goals.
+            There are many interconnected features and technologies in Taskwarrior
+            and Taskserver, and each piece has it's own goals.
           </p>
 
           <p>
             This matrix allows a simple reading of where things are, and where they
             are going. This is a low-resolution time line. It is subject to change.
-            It does not constitute a concrete plan.
+            It does not constitute a concrete plan. This is an all-volunteer
+            effort, and scheduling is difficult.
           </p>
 
           <p>
-            <small>Last updated 2015-02-08.</small>
+            <small>Last updated 2015-02-14.</small>
             <br />
             <br />
           </p>
 
           <table class="table table-bordered table-striped">
             <tr>
-              <th>Technology/Feature</th>
+              <th>Taskwarrior<br />Technology/Feature</th>
               <th>
                 <span class="label label-success">2.4.0</span><br />
                 Current<br /><br />
@@ -97,10 +98,12 @@
                 Tags / Virtual Tags<br />
               </td>
               <td>
+                C++11 constructs
               </td>
               <td>
                 <a href="/docs/design/context.html">Context</a><br />
                 <a href="/docs/design/recurrence.html">Recurrence</a><br />
+                Auto-purge
               </td>
             </tr>
 
@@ -153,7 +156,10 @@
                 <code>task sync init</code>
               </td>
               <td>
-                <code>task sync reset</code>
+                <code>task sync reset</code><br />
+                <code>task sync init all</code><br />
+                <code>task sync gc</code>
+              </td>
               </td>
               <td>
               </td>
@@ -169,7 +175,8 @@
               <td>
               </td>
               <td>
-                Read-only mode
+                Read-only mode<br />
+                Threaded file load
               </td>
             </tr>
 
@@ -207,7 +214,74 @@
               <td>
               </td>
             </tr>
+          </table>
 
+
+          <table class="table table-bordered table-striped">
+            <tr>
+              <th>Taskserver<br />Technology/Feature</th>
+              <th>
+                <span class="label label-success">1.0.0</span><br />
+                Current<br /><br />
+                Released 2014-01-15
+              </th>
+              <th>
+                <span class="label label-danger">1.1.0</span><br />
+                Next<br /><br />
+                2015
+              </th>
+              <th>
+                <span class="label label-info">1.2.0</span><br />
+                Future
+              </th>
+            </tr>
+
+            <tr>
+              <td>Core</td>
+              <td>
+                Serial server
+              </td>
+              <td>
+                Threaded server
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td>Protocol</td>
+              <td>
+                v1
+              </td>
+              <td>
+                v1.1
+              </td>
+              <td>
+              </td>
+            </tr>
+
+            <tr>
+              <td>DB (Data Storage)</td>
+              <td>
+              </td>
+              <td>
+              </td>
+              <td>
+                GC
+              </td>
+            </tr>
+
+            <tr>
+              <td>Security</td>
+              <td>
+              </td>
+              <td>
+                UUID:Cert Verification
+              </td>
+              <td>
+                Combined Certs
+              </td>
+            </tr>
           </table>
         </div>
 
