@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 07 Feb 2015 21:22:00 UTC</pubDate>
+    <pubDate>Mon, 16 Feb 2015 23:49:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.4.1 Released</title>
+      <link>http://taskwarrior.org/news/news.20150216.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 16 Feb 2015 23:49:00 UTC</pubDate>
+      <description>
+        Taskwarrior 2.4.1 is released. Although this is a minor release,
+        there are significant bug fixes and Hook support improvements that
+        make this a recommended upgrade.  Changes include:
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - January 2015</title>
