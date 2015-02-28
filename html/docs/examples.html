@@ -301,6 +301,22 @@ $ task show report.next.columns</pre></td>
               </tr>
             </table>
 
+            <a name="misc"></a>
+            <h4>Miscellaneous</h4>
+            <p>
+              Script writers often need access to assorted data, and it can all
+              be obtained, but sometimes through odd mechanisms...
+            </p>
+
+            <table class="table table-condensed">
+              <tr>
+                <td width=30%>What is the most recent task ID?</td>
+                <td><pre>$ task newest rc.verbose=nothing limit:1 | cut -f1 -d' '
+$ task rc.verbose=nothing rc.report.foo.columns:id \
+    rc.report.foo.sort:id- foo limit:1</pre></td>
+              </tr>
+            </table>
+
             <a name="trouble"></a>
             <h4>Troubleshooting</h4>
             <p>
@@ -350,6 +366,8 @@ $ task all</pre></td>
             <li><a href="#virtualtags">Virtual Tags</a></li>
             <li><a href="#dom">DOM</a></li>
             <li><a href="#config">Configuration</a></li>
+            <li><a href="#misc">Miscellaneous</a></li>
+            <li><a href="#trouble">Troubleshooting</a></li>
           </ul>
         </div>
       </div>
