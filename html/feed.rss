@@ -13,7 +13,18 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon, 16 Feb 2015 23:49:00 UTC</pubDate>
+    <pubDate>Sat, 28 Feb 2015 15:42:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.4.1 on Cygwin 32 and 64 bit</title
+      <link>http://taskwarrior.org/news/news.20150228.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 28 Feb 2015 15:42:00 UTC</pubDate>
+      <description>
+        Taskwarrior 2.4.1 is now available in binary and source package form
+        for both Cygwin 32-bit and 64-bit systems.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.4.1 Released</title>
