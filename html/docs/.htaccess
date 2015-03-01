@@ -19,4 +19,5 @@ REDIRECT 301 /docs/glossary.html             /docs/terminology.html
 
 # Added 2015-03-01
 REDIRECT 301 /docs/design/dates.html         /docs/named_dates.html
+REDIRECT 301 /docs/design/hooks.html         /docs/hooks.html
 
