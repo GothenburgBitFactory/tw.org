@@ -17,3 +17,6 @@ REDIRECT 301 /docs/server_why.html           /docs/taskserver/why.html
 # Added 2014-10-11
 REDIRECT 301 /docs/glossary.html             /docs/terminology.html
 
+# Added 2015-03-01
+REDIRECT 301 /docs/design/dates.html         /docs/named_dates.html
+
