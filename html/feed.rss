@@ -13,10 +13,22 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 28 Feb 2015 15:42:00 UTC</pubDate>
+    <pubDate>Sun, 01 Mar 2015 03:11:00 UTC</pubDate>
 
     <item>
-      <title>Taskwarrior 2.4.1 on Cygwin 32 and 64 bit</title
+      <title>Activity Digest - February 2015</title>
+      <link>http://taskwarrior.org/news/news.20150301.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 01 Mar 2015 03:11:00 UTC</pubDate>
+      <description>
+        This is the second of an ongoing series of activity reports,
+        published monthly, to highlight activity in the Taskwarrior
+        project. Here is what happened in February 2015.
+      </description>
+    </item>
+
+    <item>
+      <title>Taskwarrior 2.4.1 on Cygwin 32 and 64 bit</title>
       <link>http://taskwarrior.org/news/news.20150228.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 28 Feb 2015 15:42:00 UTC</pubDate>
