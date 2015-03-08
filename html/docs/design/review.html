@@ -47,118 +47,130 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <div class="col-md-10">
-          <p class="lead">
-            This is where design documents (RFCs) are kept.
-          </p>
-
-          <p>
-            Although these documents are less formal than
-            <a href="http://www.ietf.org/rfc.html">IETF RFCs</a>
-            they serve a similar purpose. These documents apply only to the
-            Taskwarrior family of products, and are placed here to invite
-            comment before designs finalize.
-          </p>
-
-          <p>
-            The version badges indicate the targeted release.
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <div class="callout callout-danger">
+              <h4>Work in Progress</h4>
+              <p>
+                This design document is a work in progress, and subject to
+                change. Once finalized, the feature will be scheduled for an
+                upcoming release.
+              </p>
+            </div>
+
+            <a name="review"></a>
+            <h3>List Review</h3>
+            <p>
+              To support GTD-methodology users, Taskwarrior must support the
+              notion of a review. This is a periodic process that aims to align
+              a task list with reality. This involves looking at tasks, ensuring
+              the information is current and correct, and that the task is still
+              relevant, with the right metadata.
+            </p>
+
+            <p>
+              You don't have to follow the GTD methodology to see that this is a
+              good idea - an inaccurate task list is suboptimal.
+            </p>
+
+            <p>
+              This design document is a collaboration between Taskwarrior and
+              Fidel Mato, author of
+              <a href="https://github.com/nocejo/trev">trev</a>,
+              an extension script that implements a review process.
+            </p>
+
+            <a name="shell"></a>
+            <h4>Tasksh - Task Shell</h4>
+            <p>
+              The <code>tasksh</code> project provides an interactive shell for
+              Taskwarrior, and is an ideal platform on which to build review
+              features. It has built-in <code>libreadline</code> support.
+            </p>
+
+            <a name="minimal"></a>
+            <h4>Minimal Features</h4>
+            <p>
+              A minimal review feature (a good place to start) will need to
+              satisfy the basic needs of a review process, and there are always
+              users that do not want elaborate features.
+
+              Here is a list of the minimal set of features:
+              <ul>
+                <li>
+                  Ability to start and end a review session, where zero or more
+                  tasks are reviewed.
+                </li>
+                <li>
+                  During review, allow modification to tasks.
+                </li>
+                <li>
+                  Remember which tasks have been reviewed, to allow later resumption.
+                </li>
+                <li>
+                  Rotate through tasks on a periodic basis, say weekly or monthly,
+                  perhaps using a <code>review</code> UDA timestamp.
+                </li>
+                <li>
+                  Simply running the <code>review</code> command, with no arguments
+                  or additional setup should walk the user through a properly
+                  sequenced review of all tasks that need review.
+                </li>
+              </ul>
+            </p>
+
+            <a name="extra"></a>
+            <h4>Extra Features</h4>
+            <p>
+              <a href="https://github.com/nocejo/trev">Trev</a>
+              provides more than a minimal set of features. Taskwarrior will
+              provide additional features, but they will be optional.
+
+              Here is a list of the potential extra features:
+              <ul>
+                <li>
+                  Ability to traverse forwards and backwards through the list.
+                </li>
+                <li>
+                  Ability to apply a filter to the list being reviewed.
+                </li>
+                <li>
+                  Progress indicator.
+                </li>
+                <li>
+                  Built-in actions, to make the review easier. This means there
+                  could be one-letter commands that, for example, <code>delete</code>,
+                  <code>start</code>, <code>wait</code> a task.
+                </li>
+                <li>
+                  Track review time spent, and estimated review time remaining.
+                </li>
+                <li>
+                  Review could be made context-aware, perhaps indirectly.
+                </li>
+              </ul>
+            </p>
+
+          </div>
+
+          <br />
+          <br />
+          </div>
       </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="rfc"></a>
-                <p class="text-large"><strong>Plans</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/plans.html">Taskwarrior Plans</a>
-                    </li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="rfc"></a>
-                <p class="text-large"><strong>RFCs</strong></p>
-              </td>
-              <td>
-                <p>
-                  <h4>Taskwarrior</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/context.html">Context</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/context.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                      <span class="label label-success">2.4.2</span>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/recurrence.html">Recurrence</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/recurrence.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/task.html">Taskwarrior JSON Format</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/task.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                  </ul>
-
-                  <h4>Taskserver</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/protocol.html">Taskserver Sync Protocol</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/protocol.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/request.html">Taskserver Message Format</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/request.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/sync.html">Taskserver Sync Algorithm</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/sync.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/client.html">Taskserver Client</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/client.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                  </ul>
-
-                  <h4>Tasksh</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/review.html">List Review</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/review.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                      <span class="label label-success">1.1.0</span>
-                    </li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="upcoming"></a>
-                <p class="text-large"><strong>Upcoming RFCs</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Lazy Dates (Deferred Evaluation)</li>
-                    <li>DOM</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#review">Review</a></li>
+            <li><a class="alert-link" href="#shell">Tasksh</a></li>
+            <li><a class="alert-link" href="#minimal">Minimal</a></li>
+            <li><a class="alert-link" href="#extra">Extra</a></li>
+          </ul>
         </div>
-
-        <br />
-        <br />
       </div>
     </div>
 
