@@ -47,113 +47,200 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <div class="col-md-10">
-          <p class="lead">
-            This is where design documents (RFCs) are kept.
-          </p>
-
-          <p>
-            Although these documents are less formal than
-            <a href="http://www.ietf.org/rfc.html">IETF RFCs</a>
-            they serve a similar purpose. These documents apply only to the
-            Taskwarrior family of products, and are placed here to invite
-            comment before designs finalize.
-          </p>
-
-          <p>
-            The version badges indicate the targeted release.
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="context"></a>
+            <h3>Context</h3>
+            <p>
+              A context is associated with a location. An example of this might
+              be that you perform tasks in three locations:
+
+              <ul>
+                <li>At the office</li>
+                <li>At home</li>
+                <li>Study</li>
+              </ul>
+
+              The tasks that pertain to your time in the office are meaningless
+              if you are at home, and vice versa. This is just an example, and
+              your contexts will likely be very different.
+            </p>
+
+            <p>
+              If Taskwarrior allowed you to specify which context is currently
+              active, then the tasks listed could be filtered accordingly. You
+              would then be working within a context.
+
+              A context is therefore a named filter, and the current context is
+              a form of default filter.
+            </p>
+
+            <a name="define"></a>
+            <h4>Defining a Context</h4>
+            <p>
+              In order to work within a context, you first need to define that
+              context. Because a context is essentially a task filter, defining
+              a context is really defining a named filter. In this example, we
+              define our contexts from the list above using the new
+              <code>context define</code> command:
+            </p>
+
+            <pre>$ task context define work +work or +freelance
+$ task context define study +school or +homework or +lab
+$ task context define home -work -freelance -school -homework -lab</pre>
+
+            <p>
+              The context definition may contain any form of algebraic expression
+              just like a filter. In the example, the contexts are based entirely
+              on tags. Notice that <code>home</code> is defined as neither
+              <code>work</code> nor <code>study</code>. This means that every
+              task is accounted for, although this is not necessary.
+            </p>
+
+            <p>
+              It is an error to try to define a context with the names
+              <code>define</code>,
+              <code>list</code>,
+              <code>show</code>,
+              <code>none</code>, or
+              <code>delete</code>.
+            </p>
+
+            <a name="set"></a>
+            <h4>Setting the Context</h4>
+            <p>
+              To set or switch the current context, simply:
+            </p>
+
+            <pre>$ task context home
+$ task list
+...</pre>
+
+            <p>
+              If you try to use an undefined context, Taskwarrior will report an
+              error.
+            </p>
+
+            <p>
+              Now with the context set to <code>home</code>, all the tasks
+              listed will pertain to the <code>home</code> context, as defined.
+              There will be a footnote after every report that reminds you of
+              the current context.
+            </p>
+
+            <a name="show"></a>
+            <h4>Showing the Context</h4>
+            <p>
+              Although the current context is included in a footnote after every
+              report, this can be disabled with the verbosity controls. To show
+              the current context:
+            </p>
+
+            <pre>$ task context show
+home</pre>
+
+            <p>
+              This can also be obtained using <code>_get</code>:
+            </p>
+
+            <pre>$ task _get rc.context
+home</pre>
+
+            <a name="list"></a>
+            <h4>Listing All Contexts</h4>
+            <p>
+              You can list all the contexts using the new <code>context list</code>
+              command:
+            </p>
+
+            <pre>$ task context list
+Context Filter
+------- ----------------------------------
+home    -work -freelance -school -homework
+study   +school or +homework
+work    +work or +freelance</pre>
+
+            <a name="clear"></a>
+            <h4>Clearing the Context</h4>
+            <p>
+              To clear the current context:
+            </p>
+
+            <pre>$ task context none</pre>
+
+            <p>
+              The context <code>none</code> has special meaning.
+              All subsequent commands will not have any implicit context filters
+              applied.
+            </p>
+
+            <a name="delete"></a>
+            <h4>Deleting a Context</h4>
+            <p>
+              To delete one of the contexts:
+            </p>
+
+            <pre>$ task context delete study</pre>
+
+            <p>
+              Now you can no longer set the context to <code>study</code>.  If
+              the current context was already <code>study</code> when you deleted
+              it, the context is cleared.
+            </p>
+
+            <a name="impact"></a>
+            <h4>Impact on Commands</h4>
+            <p>
+              All reports that accept filters will use the context if one is
+              defined and set.
+            </p>
+
+            <a name="related"></a>
+            <h4>Related Support</h4>
+            <p>
+              The <code>tasksh</code> program will show the current context in its
+              prompt.
+            </p>
+
+            <a name="implementation"></a>
+            <h4>Implementation Details</h4>
+            <p>
+              Context will be stored in <code>rc.context</code> and defined contexts
+              will be stored as <code>rc.context.&lt;name&gt;</code> in the
+              <code>.taskrc</code> file.
+            </p>
+
+            <p>
+              When a context filter is used, it will be implicitly surrounded by
+              parentheses, so that it may contain arbitrary logic.
+            </p>
+
+          </div>
+
+          <br />
+          <br />
+          </div>
       </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="rfc"></a>
-                <p class="text-large"><strong>Plans</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/plans.html">Taskwarrior Plans</a>
-                    </li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="rfc"></a>
-                <p class="text-large"><strong>RFCs</strong></p>
-              </td>
-              <td>
-                <p>
-                  <h4>Taskwarrior</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/recurrence.html">Recurrence</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/recurrence.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/task.html">Taskwarrior JSON Format</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/task.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                  </ul>
-
-                  <h4>Taskserver</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/protocol.html">Taskserver Sync Protocol</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/protocol.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/request.html">Taskserver Message Format</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/request.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/sync.html">Taskserver Sync Algorithm</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/sync.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/client.html">Taskserver Client</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/client.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                  </ul>
-
-                  <h4>Tasksh</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/review.html">List Review</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/review.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                      <span class="label label-success">1.1.0</span>
-                    </li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="upcoming"></a>
-                <p class="text-large"><strong>Upcoming RFCs</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Lazy Dates (Deferred Evaluation)</li>
-                    <li>DOM</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#context">Context</a></li>
+            <li><a class="alert-link" href="#define">Defining</a></li>
+            <li><a class="alert-link" href="#set">Setting</a></li>
+            <li><a class="alert-link" href="#show">Showing
+            <li><a class="alert-link" href="#list">Listing</a></li>
+            <li><a class="alert-link" href="#clear">Clearing</a></li>
+            <li><a class="alert-link" href="#delete">Deleting</a></li>
+            <li><a class="alert-link" href="#impact">Impact</a></li>
+            <li><a class="alert-link" href="#related">Related</a></li>
+            <li><a class="alert-link" href="#implementation">Implementation</a></li>
+          </ul>
         </div>
-
-        <br />
-        <br />
       </div>
     </div>
 

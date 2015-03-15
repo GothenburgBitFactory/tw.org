@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 01 Mar 2015 03:11:00 UTC</pubDate>
+    <pubDate>Sun, 15 Mar 2015 11:45:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.4.2 Released</title>
+      <link>http://taskwarrior.org/news/news.20150315.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 15 Mar 2015 11:45:00 UTC</pubDate>
+      <description>
+        Taskwarrior 2.4.2 is released. This is primarily a bug fix release
+        to address a bad hook problem that prevented on-modify hooks from
+        modifying tasks.
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - February 2015</title>

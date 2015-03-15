@@ -21,3 +21,5 @@ REDIRECT 301 /docs/glossary.html             /docs/terminology.html
 REDIRECT 301 /docs/design/dates.html         /docs/named_dates.html
 REDIRECT 301 /docs/design/hooks.html         /docs/hooks.html
 
+# Added 2015-03-15
+REDIRECT 301 /docs/design/context.html       /docs/context.html
