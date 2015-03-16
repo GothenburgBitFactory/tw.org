@@ -1,13 +1,18 @@
-# Policy: Support redirects for one year.
+# Policy: Support redirects for at least one year.
 
 # Added 2015-03-14
-REDIRECT 301 /project      /index.html
-REDIRECT 301 /wiki         /docs/index.html
-REDIRECT 301 /account      https://bug.tasktools.org/
-REDIRECT 301 /user         https://bug.tasktools.org/
-REDIRECT 301 /users        https://bug.tasktools.org/
-REDIRECT 301 /issues       https://bug.tasktools.org/
-REDIRECT 301 /attachments  /index.html
-REDIRECT 301 /boards       /index.html
-REDIRECT 301 /activity     /news/index.html
+REDIRECT 301 /project                    /index.html
+REDIRECT 301 /wiki                       /docs/index.html
+REDIRECT 301 /account                    https://bug.tasktools.org
+REDIRECT 301 /user                       https://bug.tasktools.org
+REDIRECT 301 /users                      https://bug.tasktools.org
+REDIRECT 301 /issues                     https://bug.tasktools.org
+REDIRECT 301 /attachments                /index.html
+REDIRECT 301 /boards                     /index.html
+REDIRECT 301 /activity                   /news/index.html
+
+# Added 2015-03-16
+REDIRECT 301 /projects/show/taskwarrior  /index.html
+REDIRECT 301 /attachments/download/437/dark-solarized-256.png   /docs/images/solarized-dark-256.png
+REDIRECT 301 /attachments/download/436/light-solarized-256.png  /docs/images/solarized-light-256.png
 
