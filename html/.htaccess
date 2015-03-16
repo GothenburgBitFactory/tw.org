@@ -15,4 +15,5 @@ REDIRECT 301 /activity                   /news/index.html
 REDIRECT 301 /projects/show/taskwarrior  /index.html
 REDIRECT 301 /attachments/download/437/dark-solarized-256.png   /docs/images/solarized-dark-256.png
 REDIRECT 301 /attachments/download/436/light-solarized-256.png  /docs/images/solarized-light-256.png
+REDIRECT 301 /time_entries               /index.html
 
