@@ -13,7 +13,22 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 15 Mar 2015 11:45:00 UTC</pubDate>
+    <pubDate>Mon, 23 Mar 2015 22:16:00 UTC</pubDate>
+
+    <item>
+      <title>Doc: Command Line Examples</title>
+      <link>http://taskwarrior.org/docs/examples.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 23 Mar 2015 22:16:00 UTC</pubDate>
+      <description>
+        Here are some Taskwarrior command line examples that cover a variety of
+        topics. While this is not a reference for the features and command line,
+        perhaps you will learn something new.
+
+        Some of the example are deliberately chosen because there is more than
+        one solution, in which case all are presented, for comparison.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.4.2 Released</title>
