@@ -20,12 +20,30 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!--
+    <script type="text/javascript">
+    /* <![CDATA[ */
+        (function() {
+            var s = document.createElement('script');
+            var t = document.getElementsByTagName('script')[0];
+
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = '//api.flattr.com/js/0.6/load.js?'+
+                    'mode=auto&uid=taskwarrior&language=en_US&category=text';
+
+            t.parentNode.insertBefore(s, t);
+        })();
+    /* ]]> */
+    </script>
+    -->
   </head>
 
   <body>
     <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
-        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" alt="Taskwarrior brand" style="width:24px; height:24px;"> TASKWARRIOR</a>
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
             <span class="sr-only">Toggle navigation</span>
@@ -53,134 +71,23 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <div class="callout callout-info">
-              <h4>Hooks v2</h4>
-              <p>
-                The API defined here is the <kbd>Hooks v2</kbd> API.
-                This API is not yet released.
-              </p>
-            </div>
-
-            <a name="hooks"></a>
-            <h3>Hooks v2</h3>
+            <h3>Title</h3>
             <p>
             </p>
 
-            <a name="events"></a>
-            <h4>Events</h4>
+            <a name="one"></a>
+            <h4>One</h4>
             <p>
-              No change.
             </p>
 
-            <a name="input"></a>
-            <h4>Input</h4>
+            <a name="two"></a>
+            <h4>Two</h4>
             <p>
-              No change.
             </p>
 
-            <a name="output"></a>
-            <h4>Output</h4>
+            <a name="three"></a>
+            <h4>Three</h4>
             <p>
-              No change.
-            </p>
-
-            <a name="status"></a>
-            <h4>Exit Status</h4>
-            <p>
-              No change.
-            </p>
-
-            <a name="interfaces"></a>
-            <h4>Interfaces</h4>
-            <p>
-              No change.
-            </p>
-
-            <a name="args"></a>
-            <h4>Command Line Arguments</h4>
-            <p>
-              To support an evolving Hooks API, Taskwarrior must provide hook
-              scripts with a mechanism for determining which version of the
-              Hooks API is prividing the context for the script.
-
-              It is anticipated that in future versions, new events will be
-              added, and changes to the interfaces will occur. A hook script
-              needs to act according to the API version, otherwise it risks
-              incompatibility with Taskwarrior.
-            </p>
-
-            <p>
-              The interfaces define what is provided as standard input, and
-              what is expected on standard output.  With <code>v2</code> there
-              will also be command line arguments provided to the script.
-            </p>
-
-            <p>
-              A script may take advantage of the <code>v2</code> enhancements
-              though, to extend its capabilities.
-            </p>
-
-            <p>
-              <table class="table table-striped table-condensed">
-                <tr>
-                  <th>Argument</th>
-                  <th>Meaning</th>
-                </tr>
-                <tr>
-                  <td><code>api:2</code></td>
-                  <td>
-                    <p>
-                      The <code>2</code> specified means Hooks API <code>v2</code>.
-                      This will be a monotonically increasing number, as the
-                      Hooks API evolves.
-                    </p>
-                    <p>
-                      The only possible value for this argument is currently
-                      <code>2</code>, because the <code>v1</code> API does not
-                      provide command line arguments.
-                    </p>
-                  </td>
-                </tr>
-                <tr>
-                  <td><code>args:task ...</code></td>
-                  <td>
-                    <p>
-                      The script has read-only access to the command line that
-                      Taskwarrior received.
-                    </p>
-                  </td>
-                </tr>
-              </table>
-            </p>
-
-            <p>
-              Here is a contrived example simulating how a hook script will be
-              invoked:
-            </p>
-
-            <pre> $ ~/.task/hooks/on-xxx.yyy \
-    version:2 \
-    args:'task rc:~/mytaskrc list' \
-    &lt;input.txt \
-    &gt;output.txt</pre>
-
-            <p>
-              This information can be used by the script to see that an
-              alternate <code>rc</code> file was specified.
-            </p>
-
-            <a name="compat"></a>
-            <h4>Backward Compatibility</h4>
-            <p>
-              The <code>v1</code> and <code>v2</code> API is identical, so any hook
-              script will run unmodified in both scenarios. This may not be
-              true for future versions.
-            </p>
-
-            <p>
-              A script that requires <code>v2</code> but is run in a <code>v1</code>
-              context should issue a warning that it is not able to perform its
-              function, but it should not fail.
             </p>
           </div>
 
@@ -192,16 +99,17 @@
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#hooks">Hooks</a></li>
-            <li><a class="alert-link" href="#events">Events</a></li>
-            <li><a class="alert-link" href="#input">Input</a></li>
-            <li><a class="alert-link" href="#output">Output</a></li>
-            <li><a class="alert-link" href="#status">Exit Status</a></li>
-            <li><a class="alert-link" href="#interfaces">Interfaces</a></li>
-            <li><a class="alert-link" href="#args">Arguments</a></li>
-            <li><a class="alert-link" href="#compat">Compatibility</a></li>
+            <li><a href="#one">One</a></li>
+            <li><a href="#two">Two</a></li>
+            <li><a href="#three">Three</a></li>
           </ul>
         </div>
+      </div>
+    </div>
+
+    <!-- Occupy some vertical space -->
+    <div class="container">
+      <div class="col-md-3 main">
       </div>
     </div>
 
@@ -242,26 +150,27 @@
             <br />
             <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
             <br />
-            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" alt="twitter logo" style="width:16px; height:16px;"> Twitter</a>
             <br />
-            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" width="16px" height="16px"> G+</a>
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" alt="google logo" style="width:16px; height:16px;"> G+</a>
             <br />
-            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" width="16px" height="16px"> Blog</a>
+            <a href="http://taskwarrior.wordpress.com/"><img src="/images/wordpress.png" alt="wordpress logo" style="width:16px; height:16px;"> Blog</a>
           </p>
         </div>
         <div class="col-md-2">
-          <p class="text-muted">
+          <div class="text-muted">
             Donate
             <br />
-            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&amp;url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" style="border:0px; width:16px; height:16px;" alt="Flattr this" title="Flattr this"></span> Flattr</a>
+            <br />
             <br />
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
               <input type="hidden" name="cmd" value="_s-xclick">
               <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHPwYJKoZIhvcNAQcEoIIHMDCCBywCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBBCk8xDP0itbbUlqEdxezc2EBPFprkvY1dgZLt//2Fxa5MGC0sr5irXPhh5/9H71/xUDdXLAW48smxMStRgUPNaXtbH9tG+Js3yVRxObGc8c6QHUDFjbDdHZXMYigPCAFCXw69/oliYCkQ8ANt84MUjqns9HLJw8fmEzqOrgE89jELMAkGBSsOAwIaBQAwgbwGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIE0SOjNzcFHmAgZhdqtdPAqqb+31BfUMO6AP/M2BDs0lxsa0vdduAcvZ3P1Fi3xa8CgtKArZATuNFbL8+hCMC3qg5spEcX46mlDYFJp2H/13scfP5MDoOa+mxFVAHVRbN4smZsYNYjtw4i59FC4F2/2Zli6QTuGAcZbGNN5xcO4k6RjYHWade66XUYIItn47AeKAVTK9wS95uSxXNtY6TWFosOqCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTExMDcxODIyMTc1NFowIwYJKoZIhvcNAQkEMRYEFC9vnDkMVfzRa+R3epadnzsLl+pbMA0GCSqGSIb3DQEBAQUABIGAUZXskGTgWLLaulW/GTU5hxxBYeJFie8HNfGN0faR2wz4ec3eIFLrVU5bsX663p4gvoEH34PJFspYRDQwN+u09YPigMSAEc5gDQeUtVA7qKBLib2MWagcwXJR1OmJc7g/mqHp7gQ+QxTaG6UlKVSI6TB2vtgDXXa+Pwyv/O7C2ws=-----END PKCS7-----">
-              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+              <input type="image" src="/images/paypal.jpg" style="border:0px;" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="paypal" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" style="border:0px; width:1px; height:1px;">
             </form>
-          </p>
+          </div>
         </div>
         <div class="col-md-2">
           <p class="text-muted">
