@@ -13,7 +13,28 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon, 23 Mar 2015 22:16:00 UTC</pubDate>
+    <pubDate>Sun, 29 Mar 2015 20:46:43 UTC</pubDate>
+
+    <item>
+      <title>Design Doc: Hooks v2 API</title>
+      <link>http://taskwarrior.org/docs/design/hooks2.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 29 Mar 2015 20:46:43 UTC</pubDate>
+      <description>
+        To support an evolving Hooks API, Taskwarrior must provide hook
+        scripts with a mechanism for determining which version of the
+        Hooks API is prividing the context for the script.
+
+        It is anticipated that in future versions, new events will be
+        added, and changes to the interfaces will occur. A hook script
+        needs to act according to the API version, otherwise it risks
+        incompatibility with Taskwarrior.
+
+        The interfaces define what is provided as standard input, and
+        what is expected on standard output.  With v2 there
+        will also be command line arguments provided to the script.
+      </description>
+    </item>
 
     <item>
       <title>Doc: Command Line Examples</title>
