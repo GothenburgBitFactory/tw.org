@@ -1,4 +1,4 @@
-# Policy: Support redirects for one year.
+# Policy: Support redirects for at least one year.
 
 # Added 2014-09-20
 REDIRECT 301 /docs/troubleshooting-sync.html /docs/taskserver/troubleshooting-sync.html
