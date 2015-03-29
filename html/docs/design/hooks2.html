@@ -101,7 +101,7 @@
             <p>
               To support an evolving Hooks API, Taskwarrior must provide hook
               scripts with a mechanism for determining which version of the
-              Hooks API is prividing the context for the script.
+              Hooks API is providing the context for the script.
 
               It is anticipated that in future versions, new events will be
               added, and changes to the interfaces will occur. A hook script
@@ -159,14 +159,15 @@
             </p>
 
             <pre> $ ~/.task/hooks/on-xxx.yyy \
-    version:2 \
+    api:2 \
     args:'task rc:~/mytaskrc list' \
     &lt;input.txt \
     &gt;output.txt</pre>
 
             <p>
               This information can be used by the script to see that an
-              alternate <code>rc</code> file was specified.
+              alternate <code>rc</code> file was specified on the command
+              line.
             </p>
 
             <a name="compat"></a>
