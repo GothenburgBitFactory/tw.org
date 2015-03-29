@@ -124,12 +124,10 @@
               <table class="table table-striped table-condensed">
                 <tr>
                   <th>Argument</th>
-                  <th>Example</th>
                   <th>Meaning</th>
                 </tr>
                 <tr>
-                  <td><code>$1</code></td>
-                  <td><code>2</code></td>
+                  <td><code>version:2</code></td>
                   <td>
                     <p>
                       The <code>2</code> specified means Hooks API <code>v2</code>.
@@ -144,8 +142,7 @@
                   </td>
                 </tr>
                 <tr>
-                  <td><code>$2</code></td>
-                  <td><code>task ...</code></td>
+                  <td><code>args:task ...</code></td>
                   <td>
                     <p>
                       The script has read-only access to the command line that
@@ -161,7 +158,11 @@
               invoked:
             </p>
 
-            <pre> $ ~/.task/hooks/on-xxx.yyy 2 'task rc:~/mytaskrc list' &lt;input.txt &gt;output.txt</pre>
+            <pre> $ ~/.task/hooks/on-xxx.yyy \
+    version:2 \
+    args:'task rc:~/mytaskrc list' \
+    &lt;input.txt \
+    &gt;output.txt</pre>
 
             <p>
               This information can be used by the script to see that an
