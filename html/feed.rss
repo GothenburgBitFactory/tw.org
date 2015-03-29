@@ -13,7 +13,26 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 29 Mar 2015 20:46:43 UTC</pubDate>
+    <pubDate>Mon, 30 Mar 2015 00:14:33 UTC</pubDate>
+
+    <item>
+      <title>Doc: Duration Formats</title>
+      <link>http://taskwarrior.org/docs/durations.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 30 Mar 2015 00:14:33 UTC</pubDate>
+      <description>
+        Taskwarrior supports duration values.  In the core, durations are
+        used directly in one place - the 'recur' attribute,
+        used for recurring tasks. For example, here is a recurring task
+        that recurs every monday:
+
+        "$ task add Take out the trash due:monday recur:weekly"
+
+        The value 'monday' is interpreted as 'next monday',
+        and the value 'weekly' is interpreted as a 7-day
+        duration.
+      </description>
+    </item>
 
     <item>
       <title>Design Doc: Hooks v2 API</title>
