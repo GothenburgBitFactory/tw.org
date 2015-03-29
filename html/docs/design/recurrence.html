@@ -74,14 +74,13 @@
                   A <code>mask</code> attribute that can grow unbounded.
                 </li>
                 <li>
-                  Only strict recurrence cycles are support. The example of
+                  Only strict recurrence cycles are supported. The example of
                   mowing the lawn is that you want to mow the lawn every seven
                   days, but when you are four days late mowing the lawn, the
-                  next mowing should be in another sevent days, not another
-                  three.
+                  next mowing should be in seven days, not in three.
                 </li>
                 <li>
-                  Child tasks generated on one maching and then synced, may
+                  Child tasks generated on one machine and then synced, may
                   collide with equivalent unsynched child tasks on another
                   device, because the UUIDs are different.
                 </li>
@@ -90,7 +89,7 @@
                   wait period propagate to all other child tasks. The problem
                   is that the <code>wait</code> date is evaluated before
                   being stored, and needs to be evaluated every time. This is
-                  known as 'lazy dates'.
+                  known as 'deferred evaluation' or 'lazy dates'.
                 </li>
               </ul>
             </p>
