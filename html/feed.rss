@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon, 30 Mar 2015 00:14:33 UTC</pubDate>
+    <pubDate>Wed, 01 Mar 2015 04:24:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - March 2015</title>
+      <link>http://taskwarrior.org/news/news.20150331.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 01 Mar 2015 04:24:00 UTC</pubDate>
+      <description>
+        This is an ongoing series of activity reports, published monthly,
+        to highlight activity in the Taskwarrior project. Here is what
+        happened in March 2015.
+      </description>
+    </item>
 
     <item>
       <title>Doc: Duration Formats</title>
