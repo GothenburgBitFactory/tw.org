@@ -57,7 +57,8 @@
               <h4>Hooks v2</h4>
               <p>
                 The API defined here is the <kbd>Hooks v2</kbd> API.
-                This API is not yet released.
+                This API is not yet released, but can be previewed in the
+                2.4.3 development branch.
               </p>
             </div>
 
@@ -150,6 +151,33 @@
                     </p>
                   </td>
                 </tr>
+                <tr>
+                  <td><code>command:add|done|sync|...</code></td>
+                  <td>
+                    <p>
+                      The command Taskwarrior recognized in its command line
+                      arguments.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>rc:/path/to/.taskrc</code></td>
+                  <td>
+                    <p>
+                      Absolute path of rc file used by Taskwarrior after all
+                      overrides have been applied.
+                    </p>
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>data:/path/to/task/folder</code></td>
+                  <td>
+                    <p>
+                      Absolute path of folder containing Taskwarrior's *.data
+                      files.
+                    </p>
+                  </td>
+                </tr>
               </table>
             </p>
 
@@ -161,6 +189,9 @@
             <pre> $ ~/.task/hooks/on-xxx.yyy \
     api:2 \
     args:'task rc:~/mytaskrc list' \
+    command:add \
+    rc:/home/foo/mytaskrc \
+    data:/home/foo/.task \
     &lt;input.txt \
     &gt;output.txt</pre>
 
