@@ -178,6 +178,15 @@
                     </p>
                   </td>
                 </tr>
+                <tr>
+                  <td><code>version:x.y.z</code></td>
+                  <td>
+                    <p>
+                      Taskwarrior version calling the hook. Same as the one
+                      reported by "task --version", e.g. "2.4.3"
+                    </p>
+                  </td>
+                </tr>
               </table>
             </p>
 
@@ -192,6 +201,7 @@
     command:add \
     rc:/home/foo/mytaskrc \
     data:/home/foo/.task \
+    version:2.4.3 \
     &lt;input.txt \
     &gt;output.txt</pre>
 
