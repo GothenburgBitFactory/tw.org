@@ -24,3 +24,7 @@ REDIRECT 301 /admin                                             /index.html
 # Addd 2015-04-11
 REDIRECT 301 /index.html/download/437/dark-solarized-256.png    /docs/images/solarized-dark-256.png
 REDIRECT 301 /index.html/download/436/light-solarized-256.png   /docs/images/solarized-light-256.png
+REDIRECT 301 /FCKeditor                                         /index.html
+REDIRECT 301 /fckeditor                                         /index.html
+REDIRECT 301 /includes                                          /index.html
+REDIRECT 301 /editor                                            /index.html
