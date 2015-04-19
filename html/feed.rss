@@ -13,7 +13,26 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Wed, 01 Mar 2015 04:24:00 UTC</pubDate>
+    <pubDate>Sun, 19 Apr 2015 23:20:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - March 2015</title>
+      <link>http://taskwarrior.org/news/news.20150419.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 19 Apr 2015 23:20:00 UTC</pubDate>
+      <description>
+        Taskwarrior 2.4.3 is released. This is primarily a bug fix release
+        to address a bad hook problem that prevented on-modify hooks from
+        modifying tasks.
+
+        User Defined Attributes (<a href="/docs/udas.html">UDAs</a>) have
+        been enhanced so that type <code>string</code> attributes may now
+        designate the sort order of allowed values.  This enhancement permits
+        the migration of the <code>priority</code> attribute to a UDA.
+        This means you may now define your own priority levels, sorting and
+        urgency coefficients.
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - March 2015</title>
