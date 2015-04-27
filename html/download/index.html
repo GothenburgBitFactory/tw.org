@@ -114,10 +114,9 @@
             </p>
 
             <pre>$ ls
-task-2.4.1.tar.gz
-$ gunzip task-2.4.1.tar.gz
-$ tar xf task-2.4.1.tar
-$ cd task-2.4.1
+task-2.4.3.tar.gz
+$ tar xzvf task-2.4.3.tar.gz
+$ cd task-2.4.3
 $ cmake -DCMAKE_BUILD_TYPE=release .
 ...
 $ make
@@ -126,7 +125,7 @@ $ sudo make install</pre>
 
             <p>
               (For those of you wishing to build task from source on Cygwin, you
-              will need some components installed (make, g++, GnuTLS,
+              will need some components installed (make, g++/clang, GnuTLS,
               libuuid, libreadline), but don't forget - task is a standard part
               of the Cygwin distribution, so you do not need to build from
               source, unless you want the latest development snapshot).
@@ -134,7 +133,8 @@ $ sudo make install</pre>
 
             <p>
               Ensure that the installed task program is in your PATH environment
-              variable.  On startup, task will check to see if it can find the configuration file and task directory, and if not found, will ask
+              variable.  On startup, task will check to see if it can find the
+              configuration file and task directory, and if not found, will ask
               you whether it may create both.
             </p>
           </div>
