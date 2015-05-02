@@ -23,3 +23,6 @@ REDIRECT 301 /docs/design/hooks.html         /docs/hooks.html
 
 # Added 2015-03-15
 REDIRECT 301 /docs/design/context.html       /docs/context.html
+
+# Added 2015-05-02
+REDIRECT 301 /docs/design/hooks2.html        /docs/hooks2.html
