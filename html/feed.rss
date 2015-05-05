@@ -13,7 +13,22 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Fri, 01 May 2015 03:11:00 UTC</pubDate>
+    <pubDate>Mon, 04 May 2015 01:04:00 UTC</pubDate>
+
+    <item>
+      <title>Taskserver 1.1.0 beta1 Released</title>
+      <link>http://taskwarrior.org/news/news.20150504.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 04 May 2015 01:04:00 UTC</pubDate>
+      <description>
+        Taskserver 1.1.0 is in beta, and we are asking you to please test
+        this release in your environment.
+
+        See http://taskwarrior.org/docs/taskserver/upgrade.html for
+        instructions to upgrade your server.
+        There have been a few changes:
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - April 2015</title>
