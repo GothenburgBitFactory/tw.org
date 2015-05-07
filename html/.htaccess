@@ -17,14 +17,20 @@ REDIRECT 301 /attachments/download/437/dark-solarized-256.png   /docs/images/sol
 REDIRECT 301 /attachments/download/436/light-solarized-256.png  /docs/images/solarized-light-256.png
 REDIRECT 301 /time_entries                                      /index.html
 
-# Addd 2015-04-05
+# Added 2015-04-05
 REDIRECT 301 /projects                                          /index.html
 REDIRECT 301 /admin                                             /index.html
 
-# Addd 2015-04-11
+# Added 2015-04-11
 REDIRECT 301 /index.html/download/437/dark-solarized-256.png    /docs/images/solarized-dark-256.png
 REDIRECT 301 /index.html/download/436/light-solarized-256.png   /docs/images/solarized-light-256.png
 REDIRECT 301 /FCKeditor                                         /index.html
 REDIRECT 301 /fckeditor                                         /index.html
 REDIRECT 301 /includes                                          /index.html
 REDIRECT 301 /editor                                            /index.html
+
+# Added 2015-05-06
+REDIRECT 301 /downloads/task-2.3.0.ref.pdf                      /downloads/tsak-2.4.3.ref.pdf
+REDIRECT 301 /downloads/task-2.4.0.ref.pdf                      /downloads/tsak-2.4.3.ref.pdf
+REDIRECT 301 /downloads/task-2.4.1.ref.pdf                      /downloads/tsak-2.4.3.ref.pdf
+REDIRECT 301 /downloads/task-2.4.2.ref.pdf                      /downloads/tsak-2.4.3.ref.pdf
