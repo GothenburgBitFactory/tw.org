@@ -119,6 +119,11 @@
                   is bypassed.
                 </li>
                 <li>
+                  Is your certificate still valid? They expire, and can be
+                  checked with this command:
+                  <pre>$ certtool -i --infile ~/.task/&lt;YOUR NAME&gt;.cert.pem</pre>
+                </li>
+                <li>
                   Setting <code>taskd.ciphers</code> can force the use of
                   different ciphers. Use <code>gnutls-cli --list</code> to see
                   a list of installed ciphers, and confirm that there is overlap
