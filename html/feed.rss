@@ -13,7 +13,30 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon, 04 May 2015 01:04:00 UTC</pubDate>
+    <pubDate>Sat, 09 May 2015 17:05:00 UTC</pubDate>
+
+    <item>
+      <title>Tasksh in Homebrew</title>
+      <link>http://taskwarrior.org/news/news.20150509.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 09 May 2015 17:05:00 UTC</pubDate>
+      <description>
+        Tasksh, the Taskwarrior Shell, can now be installed using
+        Homebrew on the Mac:
+
+        <pre>$ brew install tasksh</pre>
+
+        This means that all three related Taskwarrior family members can
+        now be installed via Homebrew:
+
+        <pre>$ brew install task
+...
+$ brew install taskd
+...
+$ brew install tasksh
+...</pre>
+      </description>
+    </item>
 
     <item>
       <title>Taskserver 1.1.0 beta1 Released</title>
