@@ -89,6 +89,39 @@
               This is simply a matter of shutting down the server, installing
               the new software, modifying the configuration as discussed below,
               and restarting the server.
+
+              Before doing this, please read the issues below, so that you will be
+              prepared, and more secure.
+            </p>
+
+            <a name="pki"></a>
+            <h4>PKI</h4>
+            <p>
+              If you used self-signed certificates, and the scripts provided
+              with Taskserver 1.0.0, then you will want to regenerate all your
+              CA, CRL, server, client and user certificates using the updated
+              scripts.
+            </p>
+
+            <p>
+              The scripts now properly use the <code>CN</code> field, and no
+              longer use <code>SAN</code>s.
+
+              This is important for hostname verification, and required for
+              <code>strict</code> validation.
+            </p>
+
+            <p>
+              Please note also that the PKI scripts provided use a certificate
+              expiration of 365 days.  This means no certificate is valid after
+              a year. If you used the default scripts when you installed
+              Taskserver 1.0.0, you may have already discovered this.
+            </p>
+
+            <p>
+              It is generally a good idea to expire and renew certificates.
+              Long-term certificates may need to be revoked using the CRL,
+              so short-term certificates provide a dead-man's switch approach.
             </p>
 
             <a name="allowdeny"></a>
@@ -97,6 +130,9 @@
               The <code>client.allow</code> and <code>client.deny</code>
               configuration settings should be removed, as this feature has
               been removed from the server.
+
+              As it is easy to spoof a valid client, this technique offered no
+              security.
             </p>
 
             <a name="trust"></a>
@@ -119,6 +155,33 @@
               used to create your original certificates. Taskserver PKI scripts
               now create certificates with a proper CN value.
             </p>
+
+            <a name="gnutls"></a>
+            <h4>GnuTLS</h4>
+            <p>
+              Please bear in mind that
+              <a href="http://gnutls.org/">GnuTLS</a>
+              is a security product, and it is important that you use the most
+              recent version available.  Please upgrade GnuTLS before building
+              Taskwarrior and Taskserver.
+            </p>
+
+            <p>
+              We have received many reports of problems with older GnuTLS
+              releases, specifically version 2.12.20 and earlier cannot
+              complete handshake with a CRL.
+            </p>
+
+            <p>
+              Versions prior to 3.2 also suffer from significant memory leaks,
+              which will take down your Taskserver over time.
+            </p>
+
+            <p>
+              In addition to benefiting from bug fixes and leak fixes, newer
+              GnuTLS versions include new and more secure default ciphers and
+              algorithms. Security is important.
+            </p>
           </div>
 
           <br />
@@ -129,8 +192,11 @@
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
+            <li><a href="#software">Software</a></li>
+            <li><a href="#pki">PKI</a></li>
             <li><a href="#allowdeny">Allow/Deny</a></li>
             <li><a href="#trust">Trust</a></li>
+            <li><a href="#gnutls">GnuTLS</a></li>
           </ul>
         </div>
       </div>
