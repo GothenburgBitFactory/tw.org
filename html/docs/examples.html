@@ -102,6 +102,50 @@ $ task 1 delete</pre>
               </tr>
             </table>
 
+            <a name="filters"></a>
+            <h4>Filters</h4>
+            <p>
+              A filter is how you restrict the tasks to just those that you want
+              to see or modify.
+            </p>
+
+            <table class="table table-condenѕed">
+              <tr>
+                <td width=30%>Show tasks I added in the last 4 days</td>
+                <td>
+                  <pre>$ task entry.after:today-4days list</pre>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Show tasks I added in the last hour</td>
+                <td>
+                  <pre>$ task entry.after:now-1hour list</pre>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Show tasks I completed between a date range</td>
+                <td>
+                  <pre>$ task end.after:2015-05-01 and end.before:2015-05-31 completed</pre>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Show tasks I completed in the last week</td>
+                <td>
+                  <pre>$ task end.after:today-1wk completed</pre>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Show tasks in <code>This</code> project or <code>That</code> project</td>
+                <td>
+                  <pre>$ task project:This or project:That list</pre>
+                </td>
+              </tr>
+            </table>
+
             <a name="projects"></a>
             <h4>Projects</h4>
             <p>
@@ -395,6 +439,7 @@ $ task all</pre></td>
         <div class="alert alert-warning">
           <ul class="list-unstyled">
             <li><a href="#30sec">30-Second Tutorial</a></li>
+            <li><a href="#filters">Filters</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#tags">Tags</a></li>
             <li><a href="#specialtags">Special Tags</a></li>
