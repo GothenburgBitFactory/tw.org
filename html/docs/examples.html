@@ -241,6 +241,21 @@ $ task +DUETODAY list</pre></td>
               </tr>
             </table>
 
+            <a name="pri"></a>
+            <h4>Priority</h4>
+            <p>
+              Priority is now a
+              <a href="/docs/udas.html">User Defined Attribute</a>
+              since version 2.4.3, and as such can be configured.
+            </p>
+
+            <table class="table table-condensed">
+              <tr>
+                <td width=30%>Make priority <code>L</code> sort lower than no priority</td>
+                <td><pre>$ task config -- uda.priority.values H,M,,L</pre></td>
+              </tr>
+            </table>
+
             <a name="dom"></a>
             <h4>DOM</h4>
             <p>
@@ -384,6 +399,7 @@ $ task all</pre></td>
             <li><a href="#tags">Tags</a></li>
             <li><a href="#specialtags">Special Tags</a></li>
             <li><a href="#virtualtags">Virtual Tags</a></li>
+            <li><a href="#pri">Priority</a></li>
             <li><a href="#dom">DOM</a></li>
             <li><a href="#config">Configuration</a></li>
             <li><a href="#misc">Miscellaneous</a></li>
