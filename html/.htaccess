@@ -34,3 +34,8 @@ REDIRECT 301 /editor                                            /index.html
 # REDIRECT 301 /downloads/task-2.4.0.ref.pdf                      /downloads/tsak-2.4.3.ref.pdf
 # REDIRECT 301 /downloads/task-2.4.1.ref.pdf                      /downloads/tsak-2.4.3.ref.pdf
 # REDIRECT 301 /downloads/task-2.4.2.ref.pdf                      /downloads/tsak-2.4.3.ref.pdf
+
+# Added 2015-05-23
+REDIRECT 301 /versions                                          /docs/history.html
+REDIRECT 301 /blog                                              /news/index.html
+
