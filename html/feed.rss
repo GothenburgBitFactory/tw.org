@@ -13,7 +13,26 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon, 11 May 2015 0:00:00 UTC</pubDate>
+    <pubDate>Sun, 24 May 2015 16:05:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior Live Demo</title>
+      <link>http://taskwarrior.org/news/news.20150524.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 24 May 2015 16:05:00 UTC</pubDate>
+      <description>
+        <p>
+          Try Taskwarrior
+          <a href="http://wbsch.de/jswarrior/">live in your browser</a>.
+        </p>
+
+        <p>
+          <a href="/news/images/live_demo.png">
+            <img alt="Live Demo" class="img-thumbnail" src="/news/images/live_demo.png" />
+          </a>
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Taskserver 1.1.0 Released</title>
