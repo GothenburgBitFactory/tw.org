@@ -85,8 +85,10 @@
             <p>
               <ul>
                 <li>
-                  Are you using Taskwarrior 2.3.0 or later?
-                  <code>sync</code> has only been available since 2.3.0.
+                  While <code>sync</code> has been in version 2.3.0 and later,
+                  if you are not running the latest Taskwarrior, please upgrade.
+                  We fix bugs, and some of those were related to sync.  You'll
+                  want those fixes.
                 </li>
                 <li>
                   If you built Taskwarrior from source, did you install the
@@ -105,7 +107,8 @@
                   <code>taskd.trust=no</code> setting? If you did, then
                   Taskwarrior is going to validate your server hostname
                   against the <code>dns_name</code> and <code>ip_address</code>
-                  values in the server cert. If you set <code>taskd.trust=yes</code>
+                  values in the server cert, or the <code>cn</code> entry for
+                  Taskserver 1.1.0. If you set <code>taskd.trust=yes</code>
                   then hostname checking is bypassed.
                 </li>
                 <li class="bg-warning">
@@ -114,13 +117,14 @@
                   <code>taskd.trust=strict</code> setting? If you did, then
                   Taskwarrior is going to validate your server hostname
                   against the <code>dns_name</code> and <code>ip_address</code>
-                  values in the server cert. If you set <code>taskd.trust=ignore hostname</code>
+                  values in the server cert, or the <code>cn</code> entry for
+                  Taskserver 1.1.0. If you set <code>taskd.trust=ignore hostname</code>
                   or <code>taskd.trust=allow all</code> then hostname checking
                   is bypassed.
                 </li>
                 <li>
-                  Is your certificate still valid? They expire, and can be
-                  checked with this command:
+                  Is your certificate still valid? They deliberately expire, but
+                  can be checked with this command:
                   <pre>$ certtool -i --infile ~/.task/&lt;YOUR NAME&gt;.cert.pem</pre>
                 </li>
                 <li>
@@ -136,7 +140,8 @@
                 <li>
                   How new is your GnuTLS library? As a security product, it is
                   critical that you update GnuTLS often. There have been issues
-                  with older GnuTLS libraries.
+                  with older GnuTLS libraries. Specifically, version 2.12.20 is
+                  ... problematic.
                 </li>
               </ul>
             </p>
@@ -146,6 +151,10 @@
             <p>
               <ul>
                 <li>
+                  Are you running version 1.1.0? If not
+                  <a href="/docs/taskserver/upgrade.html">please upgrade</a>.
+                </li>
+                <li>
                   Is your server actually running? Check with <code>ps -leaf | grep taskd</code>.
                 </li>
                 <li>
@@ -153,8 +162,8 @@
                   that already identify the problem?
                 </li>
                 <li>
-                  Are you running on a Raspberry Pi, and have not waited several
-                  minutes for GnuTLS to initialize?
+                  Are you running on a Raspberry Pi, and have not waited
+                  <em>a long time</em> for GnuTLS to initialize?
                 </li>
                 <li>
                   Is Taskwarrior able to communicate through your firewall to
@@ -174,6 +183,16 @@
                   certainly wrong for you) in <code>generate.server</code>, then
                   the client will only be able to connect if it has
                   <code>taskd.trust=yes</code>.
+                </li>
+                <li class="bg-warning">
+                  <span class="label label-success">1.1.0</span>
+                  Did you edit the <code>vars</code> file to
+                  contain your <code>cn</code>?
+                  This is the value against which Taskwarrior will validate
+                  the server name. If you use the default value (which is
+                  certainly wrong for you), then the client will only be able
+                  to connect if it has
+                  <code>taskd.trust=ignore hostname</code>.
                 </li>
                 <li>
                   <span class="label label-success">1.0.0</span>
@@ -200,7 +219,8 @@
                 <li>
                   How new is your GnuTLS library? As a security product, it is
                   critical that you update GnuTLS often. There have been issues
-                  with older GnuTLS libraries.
+                  with older GnuTLS libraries. Specifically, version 2.12.20 is
+                  ... problematic.
                 </li>
               </ul>
             </p>
