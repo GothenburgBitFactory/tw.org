@@ -68,11 +68,11 @@
 
               <ul>
                 <li><code>git</code></li>
-                <li>GnuTLS (likely <code>libgnutls-dev</code>)</li>
+                <li>GnuTLS (likely <code>libgnutls-dev</code>, ideally version 3.2 or newer)</li>
                 <li><code>libuuid</code></li>
-                <li>CMake (2.8 or later)</li>
+                <li>CMake (2.8 or newer)</li>
                 <li><code>make</code></li>
-                <li>A C++ Compiler</li>
+                <li>A C++ Compiler (GCC 4.7 or Clang 3.0 or newer)</li>
               </ul>
 
               Note that some OSes (Darwin, FreeBSD ...) include <code>libuuid</code>
@@ -83,6 +83,9 @@
               You don't necessarily need the latest version of all components,
               but it is a good idea if you can.  GnuTLS is a security component,
               and as such, it is very important that it is current.
+
+              Using GnuTLS version 2.12.x is neither adequately secure, nor
+              production quality.
             </p>
 
             <a name="clone"></a>
@@ -105,7 +108,7 @@
 
               <p>
                 The unstable development version is at no point guaranteed to
-                work or even build. The only time it does ѕtabilize is right at
+                work or even compile. The only time it does ѕtabilize is right at
                 the end of the development cycle, and in that case, you should
                 wait until the release, so you are running a supported version.
               </p>
@@ -117,12 +120,12 @@
                 branch by looking at the available branches:
               </p>
 
-              <pre>$ cd taksd.git
+              <pre>$ cd taskd.git
 $ git branch -a
 * master
-  remotes/origin/1.0.0
-  remotes/origin/1.0.1
   remotes/origin/1.1.0
+  remotes/origin/1.1.1
+  remotes/origin/1.2.0
   remotes/origin/HEAD -&gt; origin/master
   remotes/origin/master
 </pre>
@@ -130,19 +133,19 @@ $ git branch -a
               <p>
                 The convention we use is that <code>master</code> represents the
                 stable release.  The numbered branches represent the latest
-                development (1.1.0, the 'highest' branch number, ending in '.0')
-                and a patch branch (1.0.1, ending in a non-zero number).
+                development (1.2.0, the 'highest' branch number, ending in '.0')
+                and a patch branch (1.1.1, ending in a non-zero number).
               </p>
 
               <p>
                 Patch branches are reserved for emeergency releases, so in this
-                example you would choose to build 1.1.0 as the latest development
+                example you would choose to build 1.2.0 as the latest development
                 branch like this:
               </p>
 
-              <pre>$ git checkout 1.1.0
-Branch 1.1.0 set up to track remote branch 1.1.0 from origin.
-Switched to a new branch '1.1.0'</pre>
+              <pre>$ git checkout 1.2.0
+Branch 1.2.0 set up to track remote branch 1.2.0 from origin.
+Switched to a new branch '1.2.0'</pre>
             </div>
 
             <a name="build"></a>
@@ -181,6 +184,10 @@ $</pre>
             <p>
               This example shows that all 2,920 tests pass.  If you see test
               failures, stop and report them.
+
+              Note that there are some unit tests that fail if you have not
+              built the latest commit. Seeing 4 test failures may mean all is
+              well.  Seeing 30 failures does not.
             </p>
 
             <a name="install"></a>

@@ -57,7 +57,8 @@
             <h3><span class="label label-success">2.2</span> Installation</h3>
             <p>
               Installing Taskserver from a tarball is a matter of downloading
-              the tarball, extracting it, and building the server.
+              the tarball, extracting it, satisfying dependencies and building
+              the server.
             </p>
 
             <a name="depends"></a>
@@ -67,11 +68,11 @@
               dependencies by installing the following:
 
               <ul>
-                <li>GnuTLS (likely <code>libgnutls-dev</code>)</li>
+                <li>GnuTLS (likely <code>libgnutls-dev</code>, ideally version 3.2 or newer)</li>
                 <li><code>libuuid</code></li>
-                <li>CMake (2.8 or later)</li>
+                <li>CMake (2.8 or newer)</li>
                 <li><code>make</code></li>
-                <li>A C++ Compiler</li>
+                <li>A C++ Compiler (GCC 4.7 or Clang 3.0 or newer)</li>
               </ul>
 
               Note that some OSes (Darwin, FreeBSD ...) include <code>libuuid</code>
@@ -82,6 +83,9 @@
               You don't necessarily need the latest version of all components,
               but it is a good idea if you can.  GnuTLS is a security component,
               and as such, it is very important that it is current.
+
+              Using GnuTLS version 2.12.x is neither adequately secure, nor
+              production quality.
             </p>
 
             <a name="download"></a>
@@ -101,7 +105,7 @@
               of just one of many ways to download the tarball.
             </p>
 
-            <pre>$ curl -O http://taskwarrior.org/download/taskd-1.0.0.tar.gz</pre>
+            <pre>$ curl -O http://taskwarrior.org/download/taskd-1.1.0.tar.gz</pre>
 
             <a name="build"></a>
             <h4>Build</h4>
@@ -109,8 +113,8 @@
               Expand the tarball, and build the Taskserver.
             </p>
 
-            <pre>$ tar xzf taskd-1.0.0.tar.gz
-$ cd taskd-1.0.0
+            <pre>$ tar xzf taskd-1.1.0.tar.gz
+$ cd taskd-1.1.0
 $ cmake -DCMAKE_BUILD_TYPE=release .
 ...
 $ make

@@ -115,24 +115,24 @@ Created /var/taskd</pre>
 
             <p>
               The certificate and key generation scripts make assumptions
-              that are guaranteed to be wrong for you. Specifically the
-              <code>generate.server</code> script has hard-coded
-              <code>dns_name</code> and <code>ip_address</code> entries
-              that are provided as an example:
+              <b><em>that are guaranteed to be wrong for you</em></b>.
+              Specifically the
+              <code>generate.server</code> script has a hard-coded
+              <code>CN</code> entry that is not going to work.  You
+              <b><em>need</em></b> to edit the <code>vars</code> file.
             </p>
 
             <pre>...
-dns_name = "tasktools.org"
-ip_address = "97.107.141.107"
+CN=localhost
 ...</pre>
 
             <p>
-              You will need to modify those values to match your server.
-              It is these values against which Taskwarrior validates the server
-              name. The example values are for our server, and you will not be
-              syncing with it, so you need to change it. If you do not change
-              these values, the only option for the client is to skip
-              some or all certificate validation,
+              You will need to modify this value to match your server.
+              It is this value against which Taskwarrior validates the server
+              name, so use a value similar to <code>ack.tasktools.org</code>,
+              which is what we use, but of course don't expect that to work for
+              you. If you do not change this value, the only option for the
+              client is to skip some or all certificate validation,
               <b><em>which is a bad idea.</em></b>
             </p>
 
@@ -142,7 +142,7 @@ ip_address = "97.107.141.107"
               you installed from the source tarball.
             </p>
 
-            <pre>$ cd ~/taskd-1.0.0/pki
+            <pre>$ cd ~/taskd-1.1.0/pki
 $ ./generate
 ...
 $
@@ -184,15 +184,7 @@ $ taskd config --force ca.cert $TASKDDATA/ca.cert.pem</pre>
             <pre>$ cd $TASKDDATA/..
 $ taskd config --force log $PWD/taskd.log
 $ taskd config --force pid.file $PWD/taskd.pid
-$ taskd config --force server localhost:53589
-$ taskd config --force client.allow '^task [2-9]'</pre>
-
-            <p>
-              Note that only Taskserver version
-              <span class="label label-success">1.0.0</span>
-              requires the <code>client.allow</code> and <code>client.deny</code>
-              settings. In subsequent releases these are not supported.
-            </p>
+$ taskd config --force server localhost:53589</pre>
 
             <p>
               Note that we have chosen <code>localhost:53589</code>, but this
