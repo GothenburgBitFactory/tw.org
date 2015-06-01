@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 24 May 2015 16:05:00 UTC</pubDate>
+    <pubDate>Mon, 01 Jun 2015 20:53:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - May 2015</title>
+      <link>http://taskwarrior.org/news/news.20150601.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 01 Jun 2015 20:53:00 UTC</pubDate>
+      <description>
+        This is an ongoing series of activity reports, published monthly,
+        to highlight activity in the Taskwarrior project. Here is what
+        happened in May 2015.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior Live Demo</title>
