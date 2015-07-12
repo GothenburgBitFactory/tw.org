@@ -56,7 +56,8 @@
             <a name="3p"></a>
             <h3>3rd-Party Application Guidelines</h3>
             <p>
-              Taskwarrior can be extended by means of a third-party application.
+              Taskwarrior can be extended by means of a third-party application,
+              which can be a wrapper, or hook script.
               There are script examples of import and export add-ons that
               support many different formats (clone the repository, look in
               <code>task.git/scripts/add-ons</code>).  Then there are more
@@ -111,10 +112,21 @@
                   will not.
                 </li>
                 <li>
-                  Use the command line interface to put data into Taskwarrior.
-                  Composing a valid command line is a simple way to put data in
-                  to Taskwarrior, and the <em>ONLY</em> way to modify data in
-                  Taskwarrior.
+                  Beginning with version
+                  <span class="label label-success">2.4.5</span>,
+                  use the <code>import</code> command to import modified JSON
+                  back into Taskwarrior.
+                </li>
+                <li>
+                  Older versions: Use the command line interface to put data
+                  into Taskwarrior.  Composing a valid command line is a simple
+                  way to put data in to Taskwarrior.
+                </li>
+                <li>
+                  Use the <code>_get</code> helper command to access individual
+                  data items. Note that multiple items can be retrieved by one
+                  command. If accessing more than just a few items, use the
+                  <code>export</code> command.
                 </li>
                 <li>
                   Verify feature support by running <code>task --version</code>.
@@ -144,7 +156,7 @@
                   own data file in the <code>~/.task</code> directory.  Just
                   don't use the file names <code>pending.data</code>,
                   <code>completed.data</code>, <code>backlog.data</code>,
-                  <code>undo.data</code> or <code>synch.key</code>.
+                  or <code>undo.data</code>.
                 </li>
                 <li>
                   There are many helper commands designed to assist add-on
