@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/news/">News</a></li>
+            <li><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-2 main">
+      </div>
+
+      <div class="col-md-8 main">
+        <div class="row">
+          <h3>Activity Digest: July 2015 <small>2015-08-01</small></h3>
+          <p>
+            This is an ongoing series of activity reports, published monthly,
+            to highlight activity in the Taskwarrior project. Here is what
+            happened in July 2015.
+          </p>
+
+          <p>
+            This is not a complete list of all activity, just work that results
+            in a non-trivial change. For a full list, see the
+            <a href="https://git.tasktools.org/projects/TM/repos/task/commits?until=refs%2Fheads%2F2.4.5">full Git history</a>.
+          </p>
+
+          <table class="table table-striped table-compact">
+            <tr>
+              <td style="white-space: nowrap;"><small>2015-07-01</small></td>
+              <td>
+                <ul>
+                  <li>Task: C++ unit tests now produce the same colorful output in TTY mode as the Python tests.</li>
+                  <li>Task: The notion of 'ambiguity' was dropped from Lexer, Eval, calc.  It is no longer needed.</li>
+                  <li>Flod: 'Prevent collapsible links to jump to top of page' fixed</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-03</small></td>
+              <td>
+                <ul>
+                  <li>Task: Test assumed that if /foo/ appears in the output, all is well, but there is a false positive case where 'foo' is also in the path name of unrelated output.</li>
+                  <li>Task: TAP: Show name of file containing the test(s)</li>
+                  <li>Task: TAP: Don't show <code>__main__</code> in output if description is undefined</li>
+                  <li>Task: TAP: self.t() single-arg call now propagated to self.t.runError()</li>
+                  <li>Task: <code>json.array</code> now defaults to <code>on</code>, which means <code>export</code> works out-of-the-box with all JSON parser</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-04</small></td>
+              <td>
+                <ul>
+                  <li>Task: Lexer added look-behind rules to improve tag recognition</li>
+                  <li>Task: Lexer uses maximal matching for <code>pair</code> args</li>
+                  <li>Task: Oops, restored <code>YYYYMMDDThhmmssZ</code> and <code>YYYYMMDDThhmmss</code> ISO form support, which should not have been removeed</li>
+                  <li>Task: Lexer learned that when there are two <code>--</code> separators, the second one is a literal <code>--</code>, not a separator</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-05</small></td>
+              <td>
+                <ul>
+                  <li>Task: Lexer dropped support for UUID lists</li>
+                  <li>Task: ISO8601 date parsing added range checking, preventing <code>25</code> as an hour, for example</li>
+                  <li>Task: CLI2 refactoring removed lots of code and bugs</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-06</small></td>
+              <td>
+                <ul>
+                  <li>Task: Lexer learned to decompose <code>pair</code> arguments into their components, for example <code>name.not:value</code> has a name, an attribute modifier, a separator <code>:</code> and a value</li>
+                  <li>Task: CLI2 no longer attempts to canonicalize everything, just most things</li>
+                  <li>Task: Lexer learned how to read UTF8 words out of strings, taking into consideration quotes, escaped characters and <code>U+NNNN</code>, <code>\uNNNN</code> Unicode sequences</li>
+                  <li>Task: Fixed zsh completion autoload function boilerplate</li>
+                  <li>Task: The <code>_tags</code> helper command now also shows virtual tags</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-07</small></td>
+              <td>
+                <ul>
+                  <li>Task: The test suite now supports Python3 in addition to Python2.7</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-10</small></td>
+              <td>
+                <ul>
+                  <li>Task: All <code>&lt;name&gt;:&lt;value&gt;</code> pairs now support escapes, quotes and Unicode escapes for <code>&lt;value&gt;</code>
+                  <li>Clog: 'Blank input lines are silently eaten' fixed</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-11</small></td>
+              <td>
+                <ul>
+                  <li>Task: Recurring template tasks are no longer include in the <code>+OVERDUE</code> virtual tag</li>
+                  <li>Task: With patterns <code>/pattern/</code> and substitutions <code>/from/to/[g]</code>, there is now the possibility of added other flags than <code>g</code> at the end</li>
+                  <li>Task: Removed a performance shortcut fir fixed-width columns that was preventing <code>print.empty.columns</code> from working on indicator columns</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-12</small></td>
+              <td>
+                <ul>
+                  <li>Task: New command <code>_unique</code> queries unique values from the specified attribute, which will ultimately replace several helper functions</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-13</small></td>
+              <td>
+                <ul>
+                  <li>Task: Test suite gained a <code>stress_test</code> tool to detect test result flapping</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1319">TW-1319: UDA is NOT sorted corresponding to the order of UDA list entries</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1389">TW-1389: tw will import same UUID n-times if part of same import</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1419">TW-1419: On add '-tag' is considered a tag removal, which makes no sense.</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1430">TW-1430: Slashes in project names don't work</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1455">TW-1455: Filter parser does not properly handle parentheses in attributes</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1456">TW-1456: Filter parser does not always handle multiple arguments bundled into one with apostrophes</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1475">TW-1475: task config expands values with unnecessary spaces</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1479">TW-1479: Task arguments not properly parsed if they contain a space</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1480">TW-1480: Weird behaviour on redundant filter beginning with number</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1488">TW-1488: You have more urgent tasks</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1511">TW-1511: Project titles not properly parsed if they contain hyphens</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1527">TW-1527: Extra spaces added around slashes</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1529">TW-1529: Parser incorrectly inserting spaces into task description</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1569">TW-1569: update wait:<wait-date> manpage entry</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1575">TW-1575: `task log` mangles URLs when quoted</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1600">TW-1600: Filtering "regressions"(?) in task-2.4.3, task-2.4.4</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1609">TW-1609: In 'urgency&lt;10', 10 is interpreted as an ID</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1612">TW-1612: Spurious whitespace added in task descriptions around certain symbols</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1615">TW-1615: Japanese translation for Taskwarrior(150513)</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1617">TW-1617: Can't search for multi-word project</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1632">TW-1632: Japanese translation for Taskwarrior(150713)</a> fixed</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-15</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1592">TW-1592: Able to add duplicate tags using 'tags:<value>'</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1626">TW-1626: Wrong wait date</a> fixed</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-16</small></td>
+              <td>
+                <ul>
+                  <li>Task: Import now allows JSON arrays as input</li>
+                  <li>Task: Fixed bug where zero seconds was stored as <code>P0S</code>, which should be <code>PT0S</code></li>
+                  <li>Task: UDA values of type <code>duration</code> are now storeѕ as ISO8601 values</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1622">TW-1622: Duration UDA can't take an algebraic expression</a> fixed</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-17</small></td>
+              <td>
+                <ul>
+                  <li>Task: Incorporated the latest <code>wcwidth.c</code> from Markus Kuhn</li>
+                  <li>Task: Fixed bug where two feedback messages were concatenated without intervening space</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-18</small></td>
+              <td>
+                <ul>
+                  <li>Task: Fixed bug where the width of ID columns was mis-calculated for 5-digit task IDs</li>
+                  <li>Task: Fixed bug where UDAs were missing from the <code>columns</code> command output</li>
+                  <li>Task: Fixed typos in translation files</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-19</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TD-96">TD-96: server_setup.bash won't run on Mac OS X and BSD</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TD-99">TD-99: Manual page of taskd has hyphen instead minus sign "-"</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TD-101">TD-101: taskdrc man page says "trust" defaults to "strict", but server complains if none set</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1466">TW-1466: UDA with type duration is stored as text/string</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1478">TW-1478: due:easter sets the easter of the current year regardless of the date</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1485">TW-1485: can't delete recurring tasks (except by workaround)</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1515">TW-1515: abbreviation.minimum does not apply to date recognition</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1521">TW-1521: task project!=PROJECTNAME does not work (Regression)</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1543">TW-1543: cmake complains "test" is not a valid target (on arch linux)</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1553">TW-1553: Setting defaultheight:0 makes burndown command hang</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1634">TW-1634: due.not:&lt;date&gt; excludes only tasks scheduled at mitnight</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1635">TW-1635: Running "task anystringatall" does not filter anything</a> fixed</li>
+                  <li>Task: Fish shell completion fixed for OSX</li>
+                  <li>Task: Day names and month names are now specifiable using abbreviations</li>
+                  <li>Task: Editing failure now stops all editing of multiple tasks</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-20</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1452">TW-1452: The uuid:<uuid> filter does not work</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1472">TW-1472: Syntactic sugar morphs into regex expressions, even if turned off</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1638">TW-1638 Undo doesn't work when a context is set</a> fixed</li>
+                  <li>Task: A Bash TAP library allows the rapid creation of simple tests</li>
+                  <li>Task: Bash test scripts now participate in parallelization</li>
+                  <li>Task: The example add-on scripts for import and export are relocated online</li>
+                  <li>Task: Renamed a report column named 'for'</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-22</small></td>
+              <td>
+                <ul>
+                  <li>Task: Test Framework gained a MetaTest capability, which simplifies dynamic test creation</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-23</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1533">TW-1533: dateformat confusion, regress tests</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1566">TW‐1566: Context is applied on 'task export'</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1640">TW-1640: '_get <id>.start' for an inactive tasks returns a date formatted from epoch 0.</a> fixed</li>
+                  <li>Task: Bug that causes UDA orphans not to be shown in the 'info' report fixed</li>
+                  <li>Task: Tags: New 'UDA' and 'ORPHAN' virtual tags</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-25</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1641">TW-1641: 'edit' should process or reject &lt;mods&gt; arguments</a> fixed</li>
+                  <li>Task: RX: Was missing REG_ENHANCED, which omits \d support</li>
+                  <li>Task: Commands that do not accept filters or modifications now generate an error when extra arguments are specified</li>
+                  <li>Task: There are now a class of command to which <code>context</code> does not apply</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-26</small></td>
+              <td>
+                <ul>
+                  <li>Task: DOM references are now detected using precise templates, rather than patterns, which makes them more reliable</li>
+                  <li>Task: zsh completion now categorizes commands</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-27</small></td>
+              <td>
+                <ul>
+                  <li>Task: The last traces of Perl in the test suite are removed. This concludes the first phase of the test suite refactoring. Remaining is the effort to organize tests in feature-specific scripts, which is not complete</li>
+                  <li>Task: Added support for free-form JSON input, as well as the traditional one-line-per-task form</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-28</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1555">TW-1555: Project Names Converted to Dates</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1627">TW-1627: 'mon' is replaced with date in project field</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1637">TW-1637: project name "mod" interpreted as date</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1642">TW-1642: After "--", an apostrophe unexpectedly ends the task description</a> fixed</li>
+                  <li>Task: The test suite now reports when tests unexpectedly succeed</li>
+                  <li>Task: The test suite can now test all <code>confirmation</code> configurations</li>
+                  <li>Task: Dependencies are now exported as a JSON array, which can be disabled with <code>rc.json.depends.array=off</code>.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2015-07-29</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TW-158">TW-158: JSON export should model dependencies as array</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1426">TW-1426: Adding a date in 1963 (why not?) stores a negative epoch, which fails to export</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1621">TW-1621: Recurrent parent tasks shouldn't be counted in history</a> fixed</li>
+                  <li>Task: TW-1570 requested a "Do you want to set context $name now?" prompt when defining a context; this does the next best thing and shows how to activate the context right away</li>
+                </ul>
+              </td>
+            </tr>
+
+
+<!--
+            <tr>
+              <td><small>2015-07-01</small></td>
+              <td>
+                <ul>
+                  <li></li>
+                </ul>
+              </td>
+            </tr>
+
+-->
+          </table>
+
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="col-md-2 main">
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://flod.us/index2.html">flod.us</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+            <br />
+            <a href="http://taskwarrior.org/+"><img src="/images/google_dark.png" width="16px" height="16px"> G+</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2015 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
