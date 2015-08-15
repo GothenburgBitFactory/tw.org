@@ -136,9 +136,66 @@ My list is mainly things I don't want to forget, not a list of things I need to 
               </ul>
             </p>
 
-            <a name="two"></a>
-            <h4>Two</h4>
+            <a name="tomas"></a>
+            <h4>Tomas</h4>
             <p>
+              <ul>
+                <li>
+I have a default.project set to Inbox, where every task goes initially, unless I assign its particular project directly when adding it. Every task belongs to a project. Project hierarchy corresponds to different areas of my life, and I use subprojects a lot. Project examples include 'Work.Tickets', 'Home' or 'Volunteering.Floss.Taskwarrior'.
+                </li>
+
+                <li>
+Since I use projects to distinguish areas in which the tasks fall, I tend to use tags to distinguish what kind of a task it is. Currently, I only use this consistently for programming-related activities (+bug, +rfe, +test, etc.), but I plan to expand that in the future. I try to not add new tags carelessly. I use new tags only after careful consideration.
+                </li>
+
+                <li>
+I use due dates both for real-world deadlines and self-imposed deadlines. This is probably wrong, since I tend to shift tasks a lot then, and I treat the 'due date' with much less importance than it deserves. I should move to scheduled for self-imposed deadlines.
+                </li>
+
+                <li>
+I use dependencies for enumerating sub-tasks of any bigger tasks that need to be broken down into individual steps. Since entering dependencies requires more work (enumerating IDs), I usually do this step in taskwiki, which can set dependencies by indentation. I do not have multiple blocked task for one task, so my task lists can be shown in the form of a dependency tree.
+                </li>
+
+                <li>
+I do not use reports very often. This is due to the fact that Taskwarrior currently cannot display dependency trees, which coupled with my habit of breaking down tasks into small subtasks makes the task lists often confusing. I suppose I could try configuring Taskwarrior to exclude the child tasks by default, but it only occurred to me now.
+                </li>
+
+                <li>
+When deciding how to continue with a given project, I open the corresponding taskwiki file, which serves as a permanent dynamic report coupled with project-related notes.
+                </li>
+
+                <li>
+I do not use priorities much. I just never felt the need to.
+                </li>
+
+                <li>
+Currently, I am using only one laptop, so I am not using sync. Nevertheless, in the past I did use sync.
+                </li>
+
+                <li>
+I use simple contexts that usually are just implicit project selectors, such as <code>project:Work</code>.
+                </li>
+
+                <li>
+I use <code>start</code> and <code>stop</code> to indicate what I am currently working on. I have a little tmux powerline plugin, which displays the description of the currently active task (within the selected context), which helps me to focus back on the currently active task if I manage to distract myself.
+                </li>
+
+                <li>
+I do not use any custom color rules yet.
+                </li>
+
+                <li>
+I use taskwiki to generate a daily journal of tasks that need to be completed on the given day. I also use this file to review my day in few lines. This gives me an ability to quickly see what I did on an particular day.
+                </li>
+
+                <li>
+I use a separate Taskwarrior database for tracking of my daily habits. This is achieved by setting <code>alias habit="task rc.data.location=~/.habit"</code> in my .bashrc.
+                </li>
+
+                <li>
+My list attempts to be not only a list of tasks I must remember, but a somewhat accurate description of what I did. I even tend to create and log new completed tasks for stuff that was not planned, but was achieved on any given day.
+                </li>
+              </ul>
             </p>
 
             <a name="three"></a>
@@ -156,7 +213,7 @@ My list is mainly things I don't want to forget, not a list of things I need to 
         <div class="alert alert-warning">
           <ul class="list-unstyled">
             <li><a href="#paul">Paul</a></li>
-            <li><a href="#two">Two</a></li>
+            <li><a href="#tomas">Tomas</a></li>
             <li><a href="#three">Three</a></li>
           </ul>
         </div>
