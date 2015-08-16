@@ -1,28 +1,38 @@
 # Policy: Support redirects for at least one year.
 
 # Added 2014-09-20
-REDIRECT 301 /docs/troubleshooting-sync.html /docs/taskserver/troubleshooting-sync.html
-REDIRECT 301 /docs/ciphers.html              /docs/taskserver/ciphers.html
-REDIRECT 301 /docs/server_configure.html     /docs/taskserver/configure.html
-REDIRECT 301 /docs/server_control.html       /docs/taskserver/control.html
-REDIRECT 301 /docs/server_git.html           /docs/taskserver/git.html
-REDIRECT 301 /docs/server_package.html       /docs/taskserver/package.html
-REDIRECT 301 /docs/server_prep.html          /docs/taskserver/prep.html
-REDIRECT 301 /docs/server_setup.html         /docs/taskserver/setup.html
-REDIRECT 301 /docs/server_sync.html          /docs/taskserver/sync.html
-REDIRECT 301 /docs/server_tarball.html       /docs/taskserver/tarball.html
-REDIRECT 301 /docs/server_user.html          /docs/taskserver/user.html
-REDIRECT 301 /docs/server_why.html           /docs/taskserver/why.html
+REDIRECT 301 /docs/troubleshooting-sync.html    /docs/taskserver/troubleshooting-sync.html
+REDIRECT 301 /docs/ciphers.html                 /docs/taskserver/ciphers.html
+REDIRECT 301 /docs/server_configure.html        /docs/taskserver/configure.html
+REDIRECT 301 /docs/server_control.html          /docs/taskserver/control.html
+REDIRECT 301 /docs/server_git.html              /docs/taskserver/git.html
+REDIRECT 301 /docs/server_package.html          /docs/taskserver/package.html
+REDIRECT 301 /docs/server_prep.html             /docs/taskserver/prep.html
+REDIRECT 301 /docs/server_setup.html            /docs/taskserver/setup.html
+REDIRECT 301 /docs/server_sync.html             /docs/taskserver/sync.html
+REDIRECT 301 /docs/server_tarball.html          /docs/taskserver/tarball.html
+REDIRECT 301 /docs/server_user.html             /docs/taskserver/user.html
+REDIRECT 301 /docs/server_why.html              /docs/taskserver/why.html
 
 # Added 2014-10-11
-REDIRECT 301 /docs/glossary.html             /docs/terminology.html
+REDIRECT 301 /docs/glossary.html                /docs/terminology.html
 
 # Added 2015-03-01
-REDIRECT 301 /docs/design/dates.html         /docs/named_dates.html
-REDIRECT 301 /docs/design/hooks.html         /docs/hooks.html
+REDIRECT 301 /docs/design/dates.html            /docs/named_dates.html
+REDIRECT 301 /docs/design/hooks.html            /docs/hooks.html
 
 # Added 2015-03-15
-REDIRECT 301 /docs/design/context.html       /docs/context.html
+REDIRECT 301 /docs/design/context.html          /docs/context.html
 
 # Added 2015-05-02
-REDIRECT 301 /docs/design/hooks2.html        /docs/hooks2.html
+REDIRECT 301 /docs/design/hooks2.html           /docs/hooks2.html
+
+# Added 2015-08-15
+REDIRECT 301 /docs/tutorials/index.html         /docs/index.html
+REDIRECT 301 /docs/tutorials/30second.html      /docs/30second.html
+REDIRECT 301 /docs/tutorials/filter.html        /docs/filter.html
+REDIRECT 301 /docs/tutorials/introduction.html  /docs/introduction.html
+REDIRECT 301 /docs/tutorials/report.html        /docs/report.html
+REDIRECT 301 /docs/tutorials/searching.html     /docs/searching.html
+REDIRECT 301 /docs/tutorials/start.html         /docs/start.html
+

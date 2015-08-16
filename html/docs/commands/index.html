@@ -53,15 +53,6 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <div class="callout callout-danger">
-              <h4>Work in Progress</h4>
-              <p>
-                The command pages are still being written, as you can see from
-                all the non-links below.
-                Please bear with us as we create a complete set of documents.
-              </p>
-            </div>
-
             <a name="commands"></a>
             <h3>Commands</h3>
             <p>
@@ -71,54 +62,154 @@
               <span class="label label-success">2.4.0</span>
             </p>
 
-            <p>
-              <ul>
-                <li><a href="/docs/commands/add.html"><samp>add</samp></a></li>
-                <li><samp class="text-muted">annotate</samp></li>
-                <li><samp class="text-muted">append</samp></li>
-                <li><a href="/docs/commands/calc.html"><samp>calc</samp></a> <span class="label label-success">2.4.0</span></li>
-                <li><samp class="text-muted">calendar</samp></li>
-                <li><samp class="text-muted">colors</samp></li>
-                <li><a href="/docs/commands/columns.html"><samp>columns</a></samp></li>
-                <li><samp class="text-muted">config</samp></li>
-                <li><samp class="text-muted">count</samp></li>
-                <li><samp class="text-muted">delete</samp></li>
-                <li><samp class="text-muted">denotate</samp></li>
-                <li><samp class="text-muted">diagnostics</samp></li>
-                <li><samp class="text-muted">done</samp></li>
-                <li><samp class="text-muted">duplicate</samp></li>
-                <li><samp class="text-muted">edit</samp></li>
-                <li><samp class="text-muted">execute</samp></li>
-                <li><a href="/docs/commands/export.html"><samp>export</samp></a></li>
-                <li><samp class="text-muted">help</samp></li>
-                <li><samp class="text-muted">ids</samp></li>
-                <li><samp class="text-muted">import</samp></li>
-                <li><a href="/docs/commands/log.html"><samp>log</samp></a></li>
-                <li><samp class="text-muted">logo</samp></li>
-                <li><samp class="text-muted">modify</samp></li>
-                <li><samp class="text-muted">prepend</samp></li>
-                <li><samp class="text-muted">projects</samp></li>
-                <li><samp class="text-muted">reports</samp></li>
-                <li><samp class="text-muted">start</samp></li>
-                <li><samp class="text-muted">stop</samp></li>
-                <li><samp class="text-muted">synchronize</samp></li>
-                <li><samp class="text-muted">tags</samp></li>
-                <li><samp class="text-muted">udas</samp></li>
-                <li><samp class="text-muted">undo</samp></li>
-                <li><samp class="text-muted">uuids</samp></li>
-                <li><samp class="text-muted">version</samp></li>
-              </ul>
-            </p>
+            <table class="table table-condensed">
+              <tr>
+                <td><a href="/docs/commands/add.html"><samp>add</samp></a></td>
+                <td>Add a new task</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">annotate</samp></td>
+                <td>Add an annotation to a task</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">append</samp></td>
+                <td>Append words to a task description</td>
+              </tr>
+              <tr>
+                <td><a href="/docs/commands/calc.html"><samp>calc</samp></a> <span class="label label-success">2.4.0</span></td>
+                <td>Expression calculator</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">calendar</samp></td>
+                <td>Calendar and holidays</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">colors</samp></td>
+                <td>Supported colors</td>
+              </tr>
+              <tr>
+                <td><a href="/docs/commands/columns.html"><samp>columns</a></samp></td>
+                <td>List of report columns and supported formats</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">config</samp></td>
+                <td>Modify configuration settings</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">count</samp></td>
+                <td>Count the tasks matching a filter</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">delete</samp></td>
+                <td>Mark a task as deleted</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">denotate</samp></td>
+                <td>Remove an annotation from a task</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">diagnostics</samp></td>
+                <td>Show diagnostics, for troubleshooting</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">done</samp></td>
+                <td>Complete a task</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">duplicate</samp></td>
+                <td>Clone an existing task</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">edit</samp></td>
+                <td>Launch your text editor to modify a task</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">execute</samp></td>
+                <td>Execute an external command</td>
+              </tr>
+              <tr>
+                <td><a href="/docs/commands/export.html"><samp>export</samp></a></td>
+                <td>Export tasks in JSON format</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">help</samp></td>
+                <td>Show high-level help, a cheat-sheet</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">ids</samp></td>
+                <td>Filtered list of task IDs</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">import</samp></td>
+                <td>Import tasks in JSON form</td>
+              </tr>
+              <tr>
+                <td><a href="/docs/commands/log.html"><samp>log</samp></a></td>
+                <td>Record an already-completed task</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">logo</samp></td>
+                <td>Show the Taskwarrior logo</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">modify</samp></td>
+                <td>Modify one or more tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">prepend</samp></td>
+                <td>Prepend words to a task description</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">projects</samp></td>
+                <td>Filtered list of projects, with task counts</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">reports</samp></td>
+                <td>List of available reports</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">start</samp></td>
+                <td>Start working on a task, make active</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">stop</samp></td>
+                <td>Stop working on a task, no longer active</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">synchronize</samp></td>
+                <td>Syncs tasks with Taskserver</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">tags</samp></td>
+                <td>Filtered list of tags</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">udas</samp></td>
+                <td>Details of all defined UDAs</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">undo</samp></td>
+                <td>Revert last change</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">uuids</samp></td>
+                <td>Filtered list of UUIDs</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">version</samp></td>
+                <td>Version details and copyright</td>
+              </tr>
+            </table>
 
             <a name="custom"></a>
             <h3>Customizable Reports</h3>
             <p>
-              <a href="/docs/tutorials/report.html">Customizable reports</a>
+              <a href="/docs/report.html">Customizable reports</a>
               can be modified to suit your needs. They all work in same
               manner, and mostly differ by the
               <a href="/docs/commands/columns.html">columns</a>
               shown, the
-              <a href="/docs/tutorials/filter.html">filter</a>
+              <a href="/docs/filter.html">filter</a>
               applied, and the sorting performed.
             </p>
 
@@ -128,47 +219,133 @@
               is the only report discussed.
             </p>
 
-            <p>
-              <ul>
-                <li><samp class="text-muted">active</samp></li>
-                <li><samp class="text-muted">all</samp></li>
-                <li><samp class="text-muted">blocked</samp></li>
-                <li><samp class="text-muted">blocking</samp></li>
-                <li><samp class="text-muted">completed</samp></li>
-                <li><a href="/docs/commands/list.html"><samp>list</samp></a></li>
-                <li><samp class="text-muted">long</samp></li>
-                <li><samp class="text-muted">ls</samp></li>
-                <li><samp class="text-muted">minimal</samp></li>
-                <li><samp class="text-muted">newest</samp></li>
-                <li><samp class="text-muted">next</samp></li>
-                <li><samp class="text-muted">oldest</samp></li>
-                <li><samp class="text-muted">overdue</samp></li>
-                <li><samp class="text-muted">ready</samp></li>
-                <li><samp class="text-muted">recurring</samp></li>
-                <li><samp class="text-muted">unblocked</samp></li>
-                <li><samp class="text-muted">waiting</samp></li>
-              </ul>
-            </p>
+            <table class="table table-condensed">
+              <tr>
+                <td><samp class="text-muted">active</samp></td>
+                <td>Started tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">all</samp></td>
+                <td>Pending, completed and deleted tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">blocked</samp></td>
+                <td>Tasks that are blocked by other tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">blocking</samp></td>
+                <td>Tasks that block other tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">completed</samp></td>
+                <td>Tasks that have been completed</td>
+              </tr>
+              <tr>
+                <td><a href="/docs/commands/list.html"><samp>list</samp></a></td>
+                <td>Pending tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">long</samp></td>
+                <td>Pending tasks, long form</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">ls</samp></td>
+                <td>Pending tasks, short form</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">minimal</samp></td>
+                <td>Pending tasks, minimal form</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">newest</samp></td>
+                <td>Most recent pending tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">next</samp></td>
+                <td>Most urgent tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">oldest</samp></td>
+                <td>Oldest pending tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">overdue</samp></td>
+                <td>Overdue tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">ready</samp></td>
+                <td>Pending, unblocked, scheduled tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">recurring</samp></td>
+                <td>Pending recurring tasks</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">unblocked</samp></td>
+                <td>Tasks that are not blocked</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">waiting</samp></td>
+                <td>Hidden, waiting tasks</td>
+              </tr>
+            </table>
 
             <a name="fixed"></a>
             <h3>Fixed Reports</h3>
             <p>
               The fixed reports have minimal customization, typically only color.
-              <ul>
-                <li><samp class="text-muted">burndown.daily</samp></li>
-                <li><samp class="text-muted">burndown.monthly</samp></li>
-                <li><samp class="text-muted">burndown.weekly</samp></li>
-                <li><samp class="text-muted">ghistory.annual</samp></li>
-                <li><samp class="text-muted">ghistory.monthly</samp></li>
-                <li><samp class="text-muted">history.annual</samp></li>
-                <li><samp class="text-muted">history.monthly</samp></li>
-                <li><a href="/docs/commands/info.html"><samp>information</samp></a></li>
-                <li><samp class="text-muted">show</samp></li>
-                <li><samp class="text-muted">stats</samp></li>
-                <li><samp class="text-muted">summary</samp></li>
-                <li><samp class="text-muted">timesheet</samp></li>
-              </ul>
             </p>
+
+            <table class="table table-condensed">
+              <tr>
+                <td><samp class="text-muted">burndown.daily</samp></td>
+                <td>Burndown chart, by day</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">burndown.monthly</samp></td>
+                <td>Burndown chart, by month</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">burndown.weekly</samp></td>
+                <td>Burndown chart, by week</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">ghistory.annual</samp></td>
+                <td>History graph, by year</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">ghistory.monthly</samp></td>
+                <td>History graph, by month</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">history.annual</samp></td>
+                <td>History report, by year</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">history.monthly</samp></td>
+                <td>History report, by month</td>
+              </tr>
+              <tr>
+                <td><a href="/docs/commands/info.html"><samp>information</samp></a></td>
+                <td>All attributes shown</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">show</samp></td>
+                <td>Filtered list of configuration settings</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">stats</samp></td>
+                <td>Filtered statistics</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">summary</samp></td>
+                <td>Filtered project summary</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">timesheet</samp></td>
+                <td>Weekly timesheet report</td>
+              </tr>
+            </table>
 
             <a name="helpers"></a>
             <h3>Helper Commands</h3>
@@ -183,28 +360,80 @@
               reason for that to stop you.
             </p>
 
-            <p>
-              <ul>
-                <li><samp class="text-muted">_aliases</samp></li>
-                <li><samp class="text-muted">_columns</samp></li>
-                <li><samp class="text-muted">_commands</samp></li>
-                <li><samp class="text-muted">_config</samp></li>
-                <li><a href="/docs/commands/_get.html"><samp>_get</samp></a></li>
-                <li><samp class="text-muted">_ids</samp></li>
-                <li><samp class="text-muted">_projects</samp></li>
-                <li><samp class="text-muted">_show</samp></li>
-                <li><samp class="text-muted">_tags</samp></li>
-                <li><samp class="text-muted">_udas</samp></li>
-                <li><samp class="text-muted">_unique</samp> <span class="label label-success">2.5.0</span></li>
-                <li><samp class="text-muted">_urgency</samp></li>
-                <li><samp class="text-muted">_uuids</samp></li>
-                <li><samp class="text-muted">_version</samp></li>
-                <li><samp class="text-muted">_zshattributes</samp></li>
-                <li><samp class="text-muted">_zshcommands</samp></li>
-                <li><samp class="text-muted">_zshids</samp></li>
-                <li><samp class="text-muted">_zshuuids</samp></li>
-              </ul>
-            </p>
+            <table class="table table-condensed">
+              <tr>
+                <td><samp class="text-muted">_aliases</samp></td>
+                <td>List of active aliases</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_columns</samp></td>
+                <td>List of supported columns</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_commands</samp></td>
+                <td>List of supported commands</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_config</samp></td>
+                <td>List of confguration setting names</td>
+              </tr>
+              <tr>
+                <td><a href="/docs/commands/_get.html"><samp>_get</samp></a></td>
+                <td>DOM accessor</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_ids</samp></td>
+                <td>Filtered list of task IDs</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_projects</samp></td>
+                <td>Filtered list of project names</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_show</samp></td>
+                <td>List of <code>name=value</code> configuration settings</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_tags</samp></td>
+                <td>Filtered list of tags in use</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_udas</samp></td>
+                <td>List of configured UDA names</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_unique</samp> <span class="label label-success">2.5.0</span></td>
+                <td>List of unique values for the specified attribute</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_urgency</samp></td>
+                <td>Filtered list of task urgencies</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_uuids</samp></td>
+                <td>Filtered list of pending UUIDs</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_version</samp></td>
+                <td>Task version (and optional git commit)</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_zshattributes</samp></td>
+                <td>Zsh formatted task attribute list</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_zshcommands</samp></td>
+                <td>Zsh formatted command list</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_zshids</samp></td>
+                <td>Zsh formatted ID list</td>
+              </tr>
+              <tr>
+                <td><samp class="text-muted">_zshuuids</samp></td>
+                <td>Zsh formatted UUID list</td>
+              </tr>
+            </table>
           </div>
 
           <br />
