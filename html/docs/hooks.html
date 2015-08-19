@@ -324,7 +324,7 @@ Spell checking found no errors.
                   <td><code>on-add</code></td>
                   <td>
                     <ul>
-                      <li>JSON for each added task</li>
+                      <li>JSON for added task</li>
                     </ul>
                   </td>
                   <td>
@@ -378,6 +378,10 @@ Spell checking found no errors.
                   </td>
                 </tr>
               </table>
+            </p>
+            <p>
+            This means that on-launch hooks should expect 0 lines of input,
+            on-exit 0 to many, on-add 1, and on-modify 2.
             </p>
 
             <a name="impact"></a>
