@@ -410,6 +410,12 @@ $ task show report.next.columns</pre></td>
 $ task rc.verbose=nothing rc.report.foo.columns:id \
     rc.report.foo.sort:id- foo limit:1</pre></td>
               </tr>
+
+              <tr>
+                <td>What is the minimum necessary data for a task?</td>
+                <td><pre>$ echo '{"description":"A new task"}' | task import -
+$ task add A new task</pre></td>
+              </tr>
             </table>
 
             <a name="trouble"></a>
