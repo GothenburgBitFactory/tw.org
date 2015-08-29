@@ -42,7 +42,6 @@ REDIRECT 301 /docs/tutorials/start.html         /docs/start.html
 
 # Added 2015-08-29
 REDIRECT 301 /docs/commands/annotate.html          /docs/commands/missing.html
-REDIRECT 301 /docs/commands/append.html            /docs/commands/missing.html
 REDIRECT 301 /docs/commands/calendar.html          /docs/commands/missing.html
 REDIRECT 301 /docs/commands/colors.html            /docs/commands/missing.html
 REDIRECT 301 /docs/commands/commands.html          /docs/commands/missing.html
