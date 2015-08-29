@@ -192,6 +192,22 @@ $ task project:Home count
 3</pre>
                 </td>
               </tr>
+
+              <tr>
+                <td>What projects are currently used?</td>
+                <td>
+                  <pre>$ task projects
+$ task _projects</pre>
+                </td>
+              </tr>
+              <tr>
+                <td>What are all the projects I have ever used?</td>
+                <td>
+                  <pre>$ task rc.list.all.projects=1 projects
+$ task rc.list.all.projects=1 _projects
+$ task _unique projects</pre>
+                </td>
+              </tr>
             </table>
 
             <a name="tags"></a>
@@ -238,6 +254,21 @@ $ task +this and +that list</pre></td>
                 <td>List tasks that have just one of two specific tags</td>
                 <td><pre>$ task +this xor +that list</pre></td>
               </tr>
+
+              <tr>
+                <td>What tags am I currently using?</td>
+                <td>
+                  <pre>$ task tags</pre>
+                </td>
+              </tr>
+
+              <tr>
+                <td>What are all the tags I have ever used?</td>
+                <td>
+                  <pre>$ task rc.list.all.tags=1 tags
+$ task _tags</pre>
+                </td>
+              </tr>
             </table>
 
             <a name="specialtags"></a>
@@ -283,6 +314,11 @@ $ task +DUETODAY list</pre></td>
                 <td>List task that are overdue</td>
                 <td><pre>$ task +OVERDUE list</pre></td>
               </tr>
+
+              <tr>
+                <td>What virtual tags are present for this task?</td>
+                <td><pre>$ task 1 info</pre></td>
+              </tr>
             </table>
 
             <a name="recur"></a>
@@ -314,6 +350,10 @@ $ task +DUETODAY list</pre></td>
               <tr>
                 <td width=30%>Make priority <code>L</code> sort lower than no priority</td>
                 <td><pre>$ task config -- uda.priority.values H,M,,L</pre></td>
+              </tr>
+              <tr>
+                <td>I need more priority values for my workflow</td>
+                <td><pre>$ task config -- uda.priority.values OMG,DoIt,Meh,Phfh,Nope,</pre></td>
               </tr>
             </table>
 
