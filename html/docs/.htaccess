@@ -63,7 +63,6 @@ REDIRECT 301 /docs/commands/projects.html          /docs/commands/missing.html
 REDIRECT 301 /docs/commands/reports.html           /docs/commands/missing.html
 REDIRECT 301 /docs/commands/start.html             /docs/commands/missing.html
 REDIRECT 301 /docs/commands/stop.html              /docs/commands/missing.html
-REDIRECT 301 /docs/commands/synchronize.html       /docs/commands/missing.html
 REDIRECT 301 /docs/commands/tags.html              /docs/commands/missing.html
 REDIRECT 301 /docs/commands/udas.html              /docs/commands/missing.html
 REDIRECT 301 /docs/commands/undo.html              /docs/commands/missing.html
