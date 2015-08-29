@@ -53,34 +53,69 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <a name="log"></a>
-            <h3>log</h3>
+            <a name="_unique"></a>
+            <h3>_unique</h3>
             <p>
-              The <code>log</code> command is the ѕame as the
-              <a href="/docs/commands/add.html"><code>add</code></a> command,
-              with one difference - the task is added in the completed state.
-              Sometimes it is necessary to record tasks that are already
-              completed, if you are faithfully tracking work.
-              For example:
+              The <code>_unique</code> command generates a filtered list of unique
+              values for a given attribute. For example, to generate the list project
+              names:
             </p>
 
-            <pre>$ task log Order the materials +home +construction</pre>
+            <pre>$ task _unique project
+Home
+Home.Garden
+Work</pre>
 
             <p>
-              This task is immediately recorded as completed, which means it
-              will not be displayed on any report that shows pending tasks.
+              In addition to <code>project</code>, any attribute can be specified,
+              for example, task <code>status</code>:
             </p>
+
+            <pre>$ task _unique status
+pending
+deleted
+completed</pre>
+
+            <p>
+              There 
+            </p>
+
+            <a name="filter"></a>
+            <h4>Filters</h4>
+            <p>
+              You can specify a filter, to consider a subset of tasks, for example,
+              here we see that the <code>Home.Garden</code> project has only pending
+              tasks:
+            </p>
+
+            <pre>$ task project:Home.Garden _unique status
+pending</pre>
+
+            <a name="limitations"></a>
+            <h4>Limitations</h4>
+            <ul>
+              <li>
+                Date attributes are presented in raw epoch form.  This is a helper
+                command, after all.
+              </li>
+            </ul>
 
             <a name="also"></a>
             <h4>See Also</h4>
             <p>
-              Other ways of creating tasks include:
+              Other ways of generating unique lists include:
             </p>
 
             <ul>
-              <li><a href="/docs/commands/add.html"><samp>add</samp></a> command</li>
-              <li><a href="/docs/commands/duplicate.html"><samp>duplicate</samp></a> command</li>
-              <li><a href="/docs/commands/import.html"><samp>import</samp></a> command</li>
+              <li><a href="/docs/commands/_aliases.html"><samp>_aliases</samp></a> command</li>
+              <li><a href="/docs/commands/_config.html"><samp>_config</samp></a> command</li>
+              <li><a href="/docs/commands/_context.html"><samp>_context</samp></a> command</li>
+              <li><a href="/docs/commands/_ids.html"><samp>_ids</samp></a> command</li>
+              <li><a href="/docs/commands/_projects.html"><samp>_projects</samp></a> command</li>
+              <li><a href="/docs/commands/_show.html"><samp>_show</samp></a> command</li>
+              <li><a href="/docs/commands/_tags.html"><samp>_tags</samp></a> command</li>
+              <li><a href="/docs/commands/_udas.html"><samp>_udas</samp></a> command</li>
+              <li><a href="/docs/commands/_uuids.html"><samp>_uuids</samp></a> command</li>
             </ul>
           </div>
 
@@ -92,7 +127,7 @@
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#log">log</a></li>
+            <li><a class="alert-link" href="#_unique">_unique</a></li>
             <li><a class="alert-link" href="#atts">Other Attributes</a></li>
             <li><a class="alert-link" href="#limitations">Limitations</a></li>
             <li><a class="alert-link" href="#also">See Also</a></li>
