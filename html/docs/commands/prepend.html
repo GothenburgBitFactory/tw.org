@@ -53,27 +53,29 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <a name="append"></a>
-            <h3>append</h3>
+            <a name="prepend"></a>
+            <h3>prepend</h3>
             <p>
-              The <code>append</code> command is a way to add words to the end
-              of a task description:
+              The <code>prepend</code> command is a way to add words to the
+              beginning of a task description, and it mirrors the
+              <a href="/docs/commands/append.html"><samp>append</samp></a>
+              command:
             </p>
 
-            <pre>$ task add Fix plumbing
-$ task 1 append before the house floods</pre>
+            <pre>$ task add sandwich
+$ task 1 prepend make me a </pre>
 
             <p>
-              While adding words to the end of the description, the <code>append</code>
-              command can also update other attributes:
+              While adding words to the beginning of the description, the
+              <code>prepend</code> command can also update other attributes:
             </p>
 
-            <pre>$ task 1 append and before winter project:Home +repair
+            <pre>$ task 1 prepend sudo project:Food
 $ task 1 list
 
-ID Age  Project Tags   Description                                            Urg
--- ---- ------- ------ ------------------------------------------------------ ----
- 1 4min Home    repair Fix plumbing before the house floods and before winter  1.8</pre>
+ID Age  Project Description             Urg
+-- ---- ------- ----------------------- ----
+ 1 4min Food    sudo make me a sandwich  1.8</pre>
 
             <a name="also"></a>
             <h4>See Also</h4>
@@ -83,7 +85,7 @@ ID Age  Project Tags   Description                                            Ur
 
             <ul>
               <li><a href="/docs/commands/modify.html"><samp>modify</samp></a> command</li>
-              <li><a href="/docs/commands/prepend.html"><samp>prepend</samp></a> command</li>
+              <li><a href="/docs/commands/append.html"><samp>append</samp></a> command</li>
             </ul>
           </div>
 
@@ -95,7 +97,7 @@ ID Age  Project Tags   Description                                            Ur
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a class="alert-link" href="#append">append</a></li>
+            <li><a class="alert-link" href="#prepend">prepend</a></li>
             <li><a class="alert-link" href="#also">See Also</a></li>
           </ul>
         </div>

@@ -59,7 +59,6 @@ REDIRECT 301 /docs/commands/help.html              /docs/commands/missing.html
 REDIRECT 301 /docs/commands/ids.html               /docs/commands/missing.html
 REDIRECT 301 /docs/commands/import.html            /docs/commands/missing.html
 REDIRECT 301 /docs/commands/logo.html              /docs/commands/missing.html
-REDIRECT 301 /docs/commands/prepend.html           /docs/commands/missing.html
 REDIRECT 301 /docs/commands/projects.html          /docs/commands/missing.html
 REDIRECT 301 /docs/commands/reports.html           /docs/commands/missing.html
 REDIRECT 301 /docs/commands/start.html             /docs/commands/missing.html
