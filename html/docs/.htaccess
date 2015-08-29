@@ -1,4 +1,8 @@
 # Policy: Support redirects for at least one year.
+# Removed redirect after a year:
+#   - comment out the REDIRECT
+#   - add a note: Removed YYYY-MM-DD
+#   - wait and see if 404s show up, then decide
 
 # Added 2014-09-20
 REDIRECT 301 /docs/troubleshooting-sync.html    /docs/taskserver/troubleshooting-sync.html
