@@ -97,6 +97,18 @@
 
             <pre>$ git clone https://git.tasktools.org/scm/tm/task.git task.git</pre>
 
+            <a name="stable"></a>
+            <h3>Building the Stable Version</h3>
+            <p>
+              The masteralways represents the more recently released version,
+              and should be your preferred chocie.
+            </p>
+
+              <pre>$ cd task.git
+$ git checkout master                # Master is the stable branch.
+$ cmake -DCMAKE_BUILD_TYPE=release . # 'release' for performance.
+$ make                               # Jsut build it.</pre>
+
             <a name="build"></a>
             <h3>Building the Dev Branch</h3>
             <p>
@@ -196,6 +208,7 @@ $ ./problems         # Find errors in all.log</pre>
           <ul class="list-unstyled">
             <li><a class="alert-link" href="#how">How To Build Taskwarrior</a></li>
             <li><a class="alert-link" href="#clone">Cloning the Repo</a></li>
+            <li><a class="alert-link" href="#stable">Building the Stable Version</a></li>
             <li><a class="alert-link" href="#build">Building the Dev Branch</a></li>
             <li><a class="alert-link" href="#tests">Running the Test Suite</a></li>
             <li><a class="alert-link" href="#patch">Submitting a Patch</a></li>
