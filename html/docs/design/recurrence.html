@@ -77,7 +77,11 @@
                   The hidden 'parent' task is called the template.
                 </li>
                 <li>
-                  The repeating synthesized tasks are called instances.
+                  Synthesis is the name for the generation of new recurring task
+                  instances when necessary.
+                </li>
+                <li>
+                  The synthesized tasks are called instances.
                 </li>
                 <li>
                   The index is the zero-based monotonically increasing number of
@@ -95,7 +99,7 @@
             <p>
               <ul>
                 <li>
-                  A <code>mask</code> attribute that can grow unbounded.
+                  The <code>mask</code> attribute grows unbounded.
                 </li>
                 <li>
                   Only strict recurrence cycles are supported. The example of
@@ -104,16 +108,16 @@
                   next mowing should be in seven days, not in three.
                 </li>
                 <li>
-                  Child tasks generated on one machine and then synced, may
-                  collide with equivalent unsynched child tasks on another
+                  Intances generated on one machine and then synced, may
+                  collide with equivalent unsynched instances tasks on another
                   device, because the UUIDs are different.
                 </li>
                 <li>
                   You cannot <code>wait</code> a recurring task and have that
-                  wait period propagate to all other child tasks. The problem
-                  is that the <code>wait</code> date is evaluated before
-                  being stored, and needs to be evaluated every time. This is
-                  known as 'deferred evaluation' or 'lazy dates'.
+                  wait period propagate to all other child tasks.
+                </li>
+                <li>
+                  Task instances cannot individually expire.
                 </li>
               </ul>
             </p>
