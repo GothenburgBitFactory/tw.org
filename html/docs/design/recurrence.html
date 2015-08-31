@@ -65,10 +65,34 @@
             <a name="recurrence"></a>
             <h3>Recurrence</h3>
             <p>
-              Recurring tasks are currently limited in many ways, and can cause
-              problems when syncing.  A redesign of recurrence should address
-              all of this.  The limitations include:
+              Recurrence needs an overhaul to improve weaknesses and add new
+              features.
+            <p>
 
+            <a name="terms"></a>
+            <h4>Terminology</h4>
+            <p>
+              <ul>
+                <li>
+                  The hidden 'parent' task is called the template.
+                </li>
+                <li>
+                  The repeating synthesized tasks are called instances.
+                </li>
+                <li>
+                  The index is the zero-based monotonically increasing number of
+                  the instance.
+                </li>
+                <li>
+                  Drift is the accumulated errors in time that cause a due date
+                  to slowly change for each recurring task.
+                </li>
+              </ul>
+            </p>
+
+            <a name="critique"></a>
+            <h4>Criticism of Current Implementation</h4>
+            <p>
               <ul>
                 <li>
                   A <code>mask</code> attribute that can grow unbounded.
@@ -93,6 +117,189 @@
                 </li>
               </ul>
             </p>
+
+            <a name="proposal"></a>
+            <h4>Proposal: Eliminate <code>mask</code>, <code>imaѕk</code> Attributes</h4>
+            <p>
+              The <code>mask</code> attribute in the template is replaced by
+              <code>last</code>, which indicates the most recent instance index
+              synthesized.
+
+              Because instances are never synthesized out of order, we only
+              need to store the most recent index.
+
+              The <code>imask</code> attribute in the instance is no longer
+              needed.
+            </p>
+
+            <h4>Proposal: Rename <code>parent</code> to <code>template</code></h4>
+            <p>
+              The name <code>parent</code> implies subtasks, and confuses those
+              who inspect the internals. The value remains the UUID of the
+              template. This frees up the namespace for future use with subtasks.
+            </p>
+
+            <h4>Proposal: New 'rtype' attribute</h4>
+            <p>
+              To indicate the flavor of recurrence, support the following values:
+
+              <table class="table table-condensed">
+                <tr>
+                  <td><code>regular</code></td>
+                  <td>
+                    Instances are created on a regular schedule.
+                    Example: send birthday flowers.  It must occur on a regular
+                    schedule, and doesn't matter if you were late last year.
+                    This is the default value.
+                  </td>
+                </tr>
+                <tr>
+                  <td><code>chained</code></td>
+                  <td>
+                    Instances are created back to back, so when one instance ends,
+                    the next begins, with the same recurrence.
+                    Example: mow the lawn.  If you mow two days late, the next
+                    instance is not two days early to compensate.
+                  </td>
+                </tr>
+              </table>
+            </p>
+
+            <h4>Proposal: Use relative offsets</h4>
+            <p>
+              The delta between <code>wait</code> and <code>due</code> date in
+              the template should be reflected in the delta between
+              <code>wait</code> and <code>due</code> date in the instance.
+
+              Similarly, 'scheduled' must be handled the same way.
+            </p>
+
+            <h4>Proposal: On load, auto-upgrade legacy tasks</h4>
+            <p>
+              Upgrade template:
+              <ul>
+                <li>Add <code>rtype:regular</code></li>
+                <li>Add <code>last:N</code> where <code>N</code> is the length of <code>mask</code></li>
+                <li>Delete <code>mask</code></li>
+              </ul>
+
+              Upgrade instance:
+              <ul>
+                <li>Rename <code>parent</code> to <code>template</code></li>
+                <li>Delete <code>imask</code></li>
+                <li>Update <code>wait</code> if not set to: <code>wait:due + (template.due - template.wait)</code></li>
+                <li>Update <code>scheduled</code> if not set to: <code>scheduled:due + (template.due - template.scheduled)</code></li>
+              </ul>
+            </p>
+
+            <h4>Proposal: Deleting a chained instance</h4>
+            <p>
+              Deleting a <code>rtype:chained</code> instance causes the next
+              chained instance to be synthesized.
+
+              This gives the illusion that the due date is simply pushed out to
+              <code>(now + template.recur)</code>.
+            </p>
+
+            <h4>Proposal: Modification Propagation</h4>
+            <p>
+              ?
+            </p>
+
+            <a name="implementation"></a>
+            <h4>Implementation: Adding a new <code>regular</code> template</h4>
+            <p>
+              When adding a new regular template:
+
+              <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U</pre>
+
+              Creates:
+              <pre>template.uuid:        NEW_UUID
+template.description: ...
+template.entry:       now
+template.modified:    now
+template.due:         D
+template.recur:       R       (stored in raw form, ie 'P14D')
+template.wait:        D-1wk
+template.scheduled:   D-1wk
+template.until:       U
+template.rtype:       regular
+template.last:</pre>
+
+              Creating the Nth instance (index N):
+
+              <pre>Clone instance from template.
+
+instance.uuid:        NEW_UUID
+instance.modified:    now
+instance.due:         template.due + (N * template.recur)
+instance.wait:        instance.due + (template.due - template.wait)
+instance.scheduled:   instance.due + (template.due - template.scheduled)
+instance.start:
+
+template.last:        N</pre>
+            </p>
+
+            <h4>Implementation: Adding a new <code>chained</code> template</h4>
+            <p>
+              When adding a new chained template:
+
+              <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U rtype:chained</pre>
+
+              Creates:
+              <pre>template.uuid:        NEW_UUID
+template.description: ...
+template.entry:       now
+template.modified:    now
+template.due:         D
+template.recur:       R       (stored in raw form, ie 'P14D')
+template.wait:        D-1wk
+template.scheduled:   D-1wk
+template.until:       U
+template.rtype:       chained</pre>
+
+              Creating the Nth instance (index N):
+              <pre>Clone instance from template.
+
+instance.uuid:        NEW_UUID
+instance.modified:    now
+instance.due:         instance[N-1].end + template.recur
+instance.wait:        instance.due + (template.due - template.wait)
+instance.scheduled:   instance.due + (template.due - template.scheduled)
+instance.start:</pre>
+
+              Chained tasks do not obey <code>rc.recurrence.limit</code>, and
+              show only one pending task at a time.
+            </p>
+
+            <h4>Implementation: Special handling for months</h4>
+            <p>
+              Certain recurrence periods are inexact:
+              <ul>
+                <li>P1M</li>
+                <li>P1Y</li>
+                <li>P1D</li>
+              </ul>
+
+              When the recurrence period is <code>P1M</code> the number of days
+              in a month varies and causes drift.
+            </p>
+
+            <p>
+              When the recurrence period is <code>P1Y</code> the number of days
+              in a year varies and causes drift.
+            </p>
+
+            <p>
+              When the recurrence period is <code>P1D</code> the number of hours
+              in a day varies due to daylight savings, and causes drift.
+            </p>
+
+            <p>
+              Drift should be avoided by carefully implementing:
+
+              <pre>instance.due: template.due + (N * template.recur)</pre>
+            </p>
           </div>
 
           <br />
@@ -104,6 +311,10 @@
         <div class="alert alert-warning">
           <ul class="list-unstyled">
             <li><a class="alert-link" href="#recurrence">Recurrence</a></li>
+            <li><a class="alert-link" href="#terms">Terminology</a></li>
+            <li><a class="alert-link" href="#critique">Critique</a></li>
+            <li><a class="alert-link" href="#proposal">Proposal</a></li>
+            <li><a class="alert-link" href="#implementation">Implementation</a></li>
           </ul>
         </div>
       </div>
