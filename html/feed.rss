@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon, 07 Sep 2015 21:29:40 UTC</pubDate>
+    <pubDate>Wed, 16 Sep 2015 21:09:40 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.5.0 beta2 Released</title>
+      <link>http://taskwarrior.org/news/news.20150916.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 16 Sep 2015 21:09:40 UTC</pubDate>
+      <description>
+        <p>
+          A new beta2 is available for the upcoming 2.5.0 release.
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.5.0 beta1 Released</title>
