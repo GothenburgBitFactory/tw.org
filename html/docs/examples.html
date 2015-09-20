@@ -111,35 +111,42 @@ $ task 1 delete</pre>
 
             <table class="table table-condenѕed">
               <tr>
-                <td width=30%>Show tasks I added in the last 4 days</td>
+                <td width=30%>Show tasks I added in the last 4 days.</td>
                 <td>
                   <pre>$ task entry.after:today-4days list</pre>
                 </td>
               </tr>
 
               <tr>
-                <td>Show tasks I added in the last hour</td>
+                <td>Show tasks I added yesterday.</td>
+                <td>
+                  <pre>$ task entry:yesterday list</pre>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Show tasks I added in the last hour.</td>
                 <td>
                   <pre>$ task entry.after:now-1hour list</pre>
                 </td>
               </tr>
 
               <tr>
-                <td>Show tasks I completed between a date range</td>
+                <td>Show tasks I completed between a date range.</td>
                 <td>
                   <pre>$ task end.after:2015-05-01 and end.before:2015-05-31 completed</pre>
                 </td>
               </tr>
 
               <tr>
-                <td>Show tasks I completed in the last week</td>
+                <td>Show tasks I completed in the last week.</td>
                 <td>
                   <pre>$ task end.after:today-1wk completed</pre>
                 </td>
               </tr>
 
               <tr>
-                <td>Show tasks in <code>This</code> project or <code>That</code> project</td>
+                <td>Show tasks in <code>This</code> project or <code>That</code> project.</td>
                 <td>
                   <pre>$ task project:This or project:That list</pre>
                 </td>
@@ -155,28 +162,28 @@ $ task 1 delete</pre>
 
             <table class="table table-condenѕed">
               <tr>
-                <td width=30%>Assign a long project name</td>
+                <td width=30%>Assign a long project name.</td>
                 <td>
                   <pre>$ task add Rake the leaves project:'Home &amp; Garden'</pre>
                 </td>
               </tr>
 
               <tr>
-                <td>Moving all tasks to a new project</td>
+                <td>Moving all tasks to a new project.</td>
                 <td>
                   <pre>$ task project:OLDNAME modify project:NEWNAME</pre>
                 </td>
               </tr>
 
               <tr>
-                <td>Moving all pending tasks to a new project</td>
+                <td>Moving all pending tasks to a new project.</td>
                 <td>
                   <pre>$ task project:OLDNAME and status:pending modify project:NEWNAME</pre>
                 </td>
               </tr>
 
               <tr>
-                <td>Using a project hierarchy</td>
+                <td>Using a project hierarchy.</td>
                 <td>
                   <pre>$ task add project:Home.Kitchen Clean the floor
 $ task add project Home.Kitchen Replace broken light bulb
@@ -219,39 +226,39 @@ $ task _unique projects</pre>
 
             <table class="table table-condensed">
               <tr>
-                <td width=30%>List tasks that have a specific tag</td>
+                <td width=30%>List tasks that have a specific tag.</td>
                 <td><pre>$ task +home list</pre></td>
               </tr>
 
               <tr>
-                <td>List tasks that do not have a specific tag</td>
+                <td>List tasks that do not have a specific tag.</td>
                 <td><pre>$ task -home list</pre></td>
               </tr>
 
               <tr>
-                <td>List tasks that have any tags</td>
+                <td>List tasks that have any tags.</td>
                 <td><pre>$ task tags.any: list
 $ task +TAGGED list</pre></td>
               </tr>
 
               <tr>
-                <td>List tasks that have no tags</td>
+                <td>List tasks that have no tags.</td>
                 <td><pre>$ task tags.none: list</pre></td>
               </tr>
 
               <tr>
-                <td>List tasks that have two specific tags</td>
+                <td>List tasks that have two specific tags.</td>
                 <td><pre>$ task +this +that list
 $ task +this and +that list</pre></td>
               </tr>
 
               <tr>
-                <td>List tasks that have either of two specific tags</td>
+                <td>List tasks that have either of two specific tags.</td>
                 <td><pre>$ task +this or +that list</pre></td>
               </tr>
 
               <tr>
-                <td>List tasks that have just one of two specific tags</td>
+                <td>List tasks that have just one of two specific tags.</td>
                 <td><pre>$ task +this xor +that list</pre></td>
               </tr>
 
@@ -279,7 +286,7 @@ $ task _tags</pre>
 
             <table class="table table-condensed">
               <tr>
-                <td width=30%>Modify a task to boost it's urgency, and probably cause it to show up on the <code>next</code> report</td>
+                <td width=30%>Modify a task to boost it's urgency, and probably cause it to show up on the <code>next</code> report.</td>
                 <td><pre>$ task 1 modify +next</pre></td>
               </tr>
             </table>
@@ -287,7 +294,7 @@ $ task _tags</pre>
             <a name="virtualtags"></a>
             <h4>Virtual Tags</h4>
             <p>
-              A special tag is a tag that doesn't actually exist, but the tag
+              A virtual tag is a tag that doesn't actually exist, but the tag
               filter syntax is used to simulate the tag, providing a very
               convenient shortcut. After all, composing a filter to match the
               tasks due today is not straightforward.
@@ -295,23 +302,23 @@ $ task _tags</pre>
 
             <table class="table table-condensed">
               <tr>
-                <td width=30%>List tasks due today</td>
+                <td width=30%>List tasks due today.</td>
                 <td><pre>$ task due.after:yesterday and due.before:tomorrow list
 $ task +DUETODAY list</pre></td>
               </tr>
 
               <tr>
-                <td>List tasks that are due, but not today</td>
+                <td>List tasks that are due, but not today.</td>
                 <td><pre>$ task +DUE -DUETODAY list</pre></td>
               </tr>
 
               <tr>
-                <td>List tasks that are due this week</td>
+                <td>List tasks that are due this week.</td>
                 <td><pre>$ task +WEEK list</pre></td>
               </tr>
 
               <tr>
-                <td>List task that are overdue</td>
+                <td>List task that are overdue.</td>
                 <td><pre>$ task +OVERDUE list</pre></td>
               </tr>
 
@@ -348,11 +355,11 @@ $ task +DUETODAY list</pre></td>
 
             <table class="table table-condensed">
               <tr>
-                <td width=30%>Make priority <code>L</code> sort lower than no priority</td>
+                <td width=30%>Make priority <code>L</code> sort lower than no priority.</td>
                 <td><pre>$ task config -- uda.priority.values H,M,,L</pre></td>
               </tr>
               <tr>
-                <td>I need more priority values for my workflow</td>
+                <td>I need more priority values for my workflow.</td>
                 <td><pre>$ task config -- uda.priority.values OMG,DoIt,Meh,Phfh,Nope,</pre></td>
               </tr>
             </table>
@@ -367,39 +374,39 @@ $ task +DUETODAY list</pre></td>
 
             <table class="table table-condensed">
               <tr>
-                <td width=30%>Get just the description for task 12</td>
+                <td width=30%>Get just the description for task 12.</td>
                 <td><pre>$ task _get 12.description
 Rake the leaves</pre></td>
               </tr>
 
               <tr>
-                <td>Show the creation timestamp, and last modification date for task 12</td>
+                <td>Show the creation timestamp, and last modification date for task 12.</td>
                 <td><pre>$ task _get 12.entry 12.modification
 2010-04-04T01:02:31 2014-08-24T13:31:43</pre></td>
               </tr>
 
               <tr>
-                <td>Get the dimensions of my terminal window</td>
+                <td>Get the dimensions of my terminal window.</td>
                 <td><pre>$ task _get context.width context.height</pre></td>
               </tr>
 
               <tr>
-                <td>Add a task, and set the wait date to 4 days before the due date</td>
+                <td>Add a task, and set the wait date to 4 days before the due date.</td>
                 <td><pre>$ task add Pay the rent due:eom wait:due-4days</pre></td>
               </tr>
 
               <tr>
-                <td>Add a task, and use the same due date as task 12</td>
+                <td>Add a task, and use the same due date as task 12.</td>
                 <td><pre>$ task add Buy wine for the party due:12.due</pre></td>
               </tr>
 
               <tr>
-                <td>Get the week number on which task 12 due</td>
-                <td><pre>$ task _get 12.due.weekday</pre></td>
+                <td>Get the week number on which task 12 due.</td>
+                <td><pre>$ task _get 12.due.week</pre></td>
               </tr>
 
               <tr>
-                <td>Get the columns used in the next report</td>
+                <td>Get the columns used in the next report.</td>
                 <td><pre>$ task _get rc.report.next.columns
 $ task show report.next.columns</pre></td>
               </tr>
@@ -410,28 +417,28 @@ $ task show report.next.columns</pre></td>
             <p>
               Although you can interactively edit your <code>.taskrc</code>
               file using any text editor, there is also a command for doing
-              this. Furthermore you can override these settings on the command
-              line.
+              this. Furthermore you can temporarily override these settings on
+              the command line.
             </p>
 
             <table class="table table-condensed">
               <tr>
-                <td width=30%>Set the <code>default.command</code> to a different report</td>
+                <td width=30%>Set the <code>default.command</code> to a different report.</td>
                 <td><pre>$ task config default.command long</pre></td>
               </tr>
 
               <tr>
-                <td>Restore the <code>default.command</code> to its original setting</td>
+                <td>Restore the <code>default.command</code> to its original setting.</td>
                 <td><pre>$ task config default.command</pre></td>
               </tr>
 
               <tr>
-                <td>Set the <code>default.command</code> to a blank value</td>
+                <td>Set the <code>default.command</code> to a blank value.</td>
                 <td><pre>$ task config default.command ''</pre></td>
               </tr>
 
               <tr>
-                <td>Temporarily override default.command</td>
+                <td>Temporarily override default.command.</td>
                 <td><pre>$ task rc.default.command:long</pre></td>
               </tr>
             </table>
@@ -467,18 +474,19 @@ $ task add A new task</pre></td>
 
             <table class="table table-condensed">
               <tr>
-                <td width=30%>Show the runtime diagnostics, to see if anything is wrong</td>
+                <td width=30%>Show the runtime diagnostics, to see if anything is wrong.</td>
                 <td><pre>$ task diagnostics</pre></td>
               </tr>
 
               <tr>
-                <td>Determine whether Taskwarrior built with GnuTLS support</td>
+                <td>Determine which version of GnuTLS is used by Taskwarrior.</td>
                 <td><pre>$ task diagnostics | grep gnutls</pre></td>
               </tr>
 
               <tr>
-                <td>Just let me brute-force change a task</td>
-                <td><pre>$ task 12 edit</pre></td>
+                <td>Just let me brute-force change a task.  Using Vim.</td>
+                <td><pre>$ task 12 edit
+$ EDITOR=vim task 12 edit</pre></td>
               </tr>
 
               <tr>
