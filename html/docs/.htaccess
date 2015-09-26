@@ -111,3 +111,5 @@ REDIRECT 301 /docs/commands/_zshcommands.html      /docs/commands/missing.html
 REDIRECT 301 /docs/commands/_zshids.html           /docs/commands/missing.html
 REDIRECT 301 /docs/commands/_zshuuids.html         /docs/commands/missing.html
 
+# Added 2015-09_26
+REDIRECT 301 /docs/tutorials                       /docs/index.html
