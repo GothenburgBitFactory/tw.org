@@ -13,7 +13,29 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 26 Sep 2015 23:08:55 UTC</pubDate>
+    <pubDate>Tue, 29 Sep 2015 23:55:55 UTC</pubDate>
+
+    <item>
+      <title>answers.tasktools.org Online</title>
+      <link>http://taskwarrior.org/news/news.20150929.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Tue, 29 Sep 2015 23:55:55 UTC</pubDate>
+      <description>
+        <p>
+          The
+          <a href="https://answers.tasktools.org">answers.tasktools.org</a>
+          site is online, and providing not only the answer to your question,
+          but those of many before you. It is becoming a valuable resource
+          for both beginners and experienced users.
+        </p>
+
+        <p>
+          <a href="/news/images/answers.png">
+            <img alt="answers.tasktools.org" class="img-thumbnail" src="/news/images/answers.png" />
+          </a>
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Clog 1.2.0 Released</title>
