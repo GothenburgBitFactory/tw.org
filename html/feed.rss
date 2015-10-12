@@ -13,7 +13,30 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Thu, 01 Oct 2015 02:56:21 UTC</pubDate>
+    <pubDate>Tue, 12 oct 2015 21:18:26 UTC</pubDate>
+
+    <item>
+      <title>Clog 1.2.1 Released</title>
+      <link>http://taskwarrior.org/news/news.20151012.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Tue, 12 oct 2015 21:18:26 UTC</pubDate>
+      <description>
+        <p>
+          Clog 1.2.1 is released, due to a problem with OSX and Xcode 7.
+        </p>
+
+        <p>
+          The release is immediately available as a source tarball
+          <a href="http://tasktools.org/download/clog-1.2.1.tar.gz">clog-1.2.1.tar.gz</a>.
+        </p>
+
+        <p>
+          Clog is a colorized log tail utility. It can spot patterns in an
+          input stream and colorize or suppress the lines. It can also
+          decorate the lines with time- or date-stamps.
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - September 2015</title>
