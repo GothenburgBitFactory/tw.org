@@ -113,3 +113,6 @@ REDIRECT 301 /docs/commands/_zshuuids.html         /docs/commands/missing.html
 
 # Added 2015-09_26
 REDIRECT 301 /docs/tutorials                       /docs/index.html
+
+# Added 2015-10-12
+REDIRECT 301 /docs/server_taskwarrior.html         /docs/taskserver/taskwarrior.html
