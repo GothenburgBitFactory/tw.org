@@ -13,7 +13,24 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Tue, 12 oct 2015 21:18:26 UTC</pubDate>
+    <pubDate>Sat, 17 Oct 2015 21:22:44 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.5.0 beta3 Released</title>
+      <link>http://taskwarrior.org/news/news.20151017.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 17 Oct 2015 21:22:44 UTC</pubDate>
+      <description>
+        <p>
+          A new beta3 is available for the upcoming 2.5.0 release.
+        </p>
+
+        <p>
+          The beta is immediately available as a source tarball
+          <a href="http://taskwarrior.org/download/task-2.5.0.beta3.tar.gz">task-2.5.0.beta3.tar.gz</a>.
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Clog 1.2.1 Released</title>
