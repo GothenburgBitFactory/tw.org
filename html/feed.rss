@@ -13,7 +13,28 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 17 Oct 2015 21:22:44 UTC</pubDate>
+    <pubDate>Wed, 21 Oct 2015 23:46:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.5.0 Released</title>
+      <link>http://taskwarrior.org/news/news.20151021.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 21 Oct 2015 23:46:00 UTC</pubDate>
+      <description>
+        <p>
+          After an intense five months which focused mainly on a more capable
+          command-line parser, more extension-friendly behavior, and
+          significant improvements to testing, Taskwarrior 2.5.0 is now
+          released.
+        </p>
+
+        <p>
+          This is a major release, with 1300+ code changes and well over a
+          hundred bug fixes. We recommend all users upgrade, this release
+          represents a significant increase in quality.
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.5.0 beta3 Released</title>
