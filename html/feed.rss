@@ -13,7 +13,25 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Wed, 21 Oct 2015 23:46:00 UTC</pubDate>
+    <pubDate>Thu, 29 Oct 2015 23:59:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior Mailing Lists</title>
+      <link>http://taskwarrior.org/news/news.20151029.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Thu, 29 Oct 2015 23:59:00 UTC</pubDate>
+      <description>
+        <p>
+          The Taskwarrior user and developer mailing lists are back in play.
+          Subscribe and talk to us:
+        </p>
+
+        <ul>
+          <li>User Discussions: <a href="https://groups.google.com/forum/#!forum/taskwarrior-user">https://groups.google.com/forum/#!forum/taskwarrior-user</a>.</li>
+          <li>Developer Discussions: <a href="https://groups.google.com/forum/#!forum/taskwarrior-dev">https://groups.google.com/forum/#!forum/taskwarrior-dev</a>.</li>
+        </ul>
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.5.0 Released</title>
