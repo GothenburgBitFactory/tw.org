@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Thu, 29 Oct 2015 23:59:00 UTC</pubDate>
+    <pubDate>Sun, 01 Nov 2015 00:00:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - October 2015</title>
+      <link>http://taskwarrior.org/news/news.20151101.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 01 Nov 2015 00:00:00 UTC</pubDate>
+      <description>
+        This is an ongoing series of activity reports, published monthly,
+        to highlight activity in the Taskwarrior project. Here is what
+        happened in October 2015.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior Mailing Lists</title>
