@@ -13,7 +13,28 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 01 Nov 2015 00:00:00 UTC</pubDate>
+    <pubDate>Sun, 01 Nov 2015 16:36:00 UTC</pubDate>
+
+    <item>
+      <title>Cygwin Package Maintainer Needed</title>
+      <link>http://taskwarrior.org/news/news.20151101.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 01 Nov 2015 16:36:00 UTC</pubDate>
+      <description>
+        <p>
+          We’re looking for someone to assume the responsibility of packaging
+          Taskwarrior etc for Cygwin.
+        </p>
+
+        <p>
+          Cygwin doesn’t get the care and attention from us that it should.
+          We often skip releasing on Cygwin because we don’t have the
+          equipment and must borrow it, and furthermore don’t use Cygwin day
+          to day, so every package update involves a full install, and it
+          takes hours.
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - October 2015</title>
