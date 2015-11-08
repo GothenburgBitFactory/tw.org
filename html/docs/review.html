@@ -54,14 +54,137 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <h3>Title</h3>
+            <h3>Tasksh Review</h3>
+            <p>
+              Beginning with release <span class="label label-success">1.1.0</span>
+              the Taskwarrior shell (<code>tasksh</code>) has a <code>review</code>
+              command that lets you review your tasks.
+            </p>
+
+            <p>
+              Reviewing your tasks is important. It is not only important that
+              you work on the more urgent tasks first, but also that your list
+              is up to date. Only with accurate metadata (due dates, priorities ...)
+              will your task list reflect real world needs.
+
+              Periodic review will help you maintain the right due dates, priorities,
+              dependencies, tags, project assignments and so on.
+            </p>
+
+            <a name="how"></a>
+            <h4>How it Works</h4>
+            <p>
+              Ideally you would review your tasks on a regular basis, for example
+              once a week. The actual frequency with which you review may be
+              different, and you may find that a weekly review is too frequent.
+              If every week you find yourself making no changes to the tasks,
+              then perhaps you should be reviewing less frequently - every two
+              weeks, for example.
+            </p>
+
+            <p>
+              If you find yourself making a few adjustments once a week, then
+              this is exactly what the review is for. Reviewing more often than
+              weekly would likely be a waste of time.
+            </p>
+
+            <p>
+              Tasksh implements review by creating a Taskwarrior report just for
+              this purpose. It is named <code>_reviewed</code> and simply lists
+              the UUID values of tasks that need to be reviewed. This report then
+              drives an interactive session where you go through that list of
+              tasks one at a time, and have the chance to modify, skip or mark
+              the task as reviewed.
+            </p>
+
+            <p>
+              When you mark a task as reviewed, Tasksh adds a <code>reviewed</code>
+              timestamp to the task, as a
+              <a href="/docs/udas.html">UDA</a>
+              defined for this purpose. This attribute is used in the
+              <code>_reviewed</code> report filter to make sure you don't
+              review the same task more often than weekly.
+            </p>
+
+            <p>
+              The combination of the <code>reviewed</code> timestamp, and the
+              <code>_reviewed</code> report means that if you were to review all
+              your tasks today, then immediately performing another review would
+              have nothing to do. After a week has passed, you will be able to
+              review all the tasks again.
+            </p>
+
+            <p>
+              This ability to 'resume' a review session means that you can
+              stop a review session at any time, and resume later. You can even
+              specify how many tasks you would like to review, which means you
+              can review a small set of tasks more frequently, making the review
+              process shorter.
+            </p>
+
+            <p>
+              When you first review, Tasksh will automatically configure
+              Taskwarrior to create the <code>_reviewed</code> report, and the
+              <code>reviewed</code> UDA. Once the report is created, you can
+              modify it. Here is the report definition:
+            </p>
+
+            <pre>$ task show report._reviewed
+
+Config Variable              Value
+---------------------------- -------------------------------------------------------
+report._reviewed.columns     uuid
+report._reviewed.description Tasksh review report.  Adjust the filter to your needs.
+report._reviewed.filter      ( reviewed.none: or reviewed.before:now-1week ) and
+                             ( +PENDING or +WAITING )
+report._reviewed.sort        reviewed+,modified+</pre>
+
+            <p>
+              The filter term <code>reviewed.before:now-1week</code> can be
+              changed to suit your needs.
+            </p>
+
+            <a name="tasksh"></a>
+            <h4>Launch Tasksh</h4>
+            <p>
+              Launch tasksh, and you will immediately see a summary of available
+              commands, followed by a prompt:
+            </p>
+
+            <pre>$ tasksh 1.1.0
+
+    tasksh&gt; review [N]       Task review session, with optional cutoff after N tasks
+    tasksh&gt; list             Or any other Taskwarrior command
+    tasksh&gt; diagnostics      Tasksh diagnostics
+    tasksh&gt; help             Tasksh help
+    tasksh&gt; exec ls -al      Any shell command.  May also use '!ls -al'
+    tasksh&gt; quit             End of session. May also use 'exit'
+
+tasksh&gt; </pre>
+
+            <p>
+              You see here that <code>review</code> is one of the commands.
+            </p>
+
             <p>
             </p>
 
-            <a name="one"></a>
-            <h4>One</h4>
+
+
+
+
+            <script type="text/javascript" src="https://asciinema.org/a/28265.js" id="asciicast-28265" async></script>
+
+
+
+
+
             <p>
             </p>
+
+            <p>
+            </p>
+
 
             <a name="two"></a>
             <h4>Two</h4>
@@ -82,7 +205,8 @@
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a href="#one">One</a></li>
+            <li><a href="#how">How it Works</a></li>
+            <li><a href="#tasksh">Tasksh</a></li>
             <li><a href="#two">Two</a></li>
             <li><a href="#three">Three</a></li>
           </ul>
@@ -138,10 +262,9 @@
           <div class="text-muted">
             Donate
             <br />
-            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
             <br />
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-              <input type="hidden" name="lc" value="en_US">
+<input type="hidden" name="lc" value="en_US">
               <input type="hidden" name="cmd" value="_s-xclick">
               <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
               <input type="image" src="/images/paypal.jpg" style="border:0px;" name="submit" alt="PayPal - The safer, easier way to pay online!">
