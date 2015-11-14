@@ -45,9 +45,9 @@ REDIRECT 301 /download/task-2.1.0.tar.gz                       /download/task-la
 REDIRECT 301 /download/task-2.1.1.tar.gz                       /download/task-latest.tar.gz
 REDIRECT 301 /download/task-2.1.2.tar.gz                       /download/task-latest.tar.gz
 REDIRECT 301 /download/task-2.2.0.tar.gz                       /download/task-latest.tar.gz
-REDIRECT 301 /download/task-2.3.0.tar.gz                       /download/task-latest.tar.gz
-REDIRECT 301 /download/task-2.4.0.tar.gz                       /download/task-latest.tar.gz
-REDIRECT 301 /download/task-2.4.1.tar.gz                       /download/task-latest.tar.gz
-REDIRECT 301 /download/task-2.4.2.tar.gz                       /download/task-latest.tar.gz
-REDIRECT 301 /download/task-2.4.3.tar.gz                       /download/task-latest.tar.gz
-REDIRECT 301 /download/task-2.4.4.tar.gz                       /download/task-latest.tar.gz
+#REDIRECT 301 /download/task-2.3.0.tar.gz                       /download/task-latest.tar.gz
+#REDIRECT 301 /download/task-2.4.0.tar.gz                       /download/task-latest.tar.gz
+#REDIRECT 301 /download/task-2.4.1.tar.gz                       /download/task-latest.tar.gz
+#REDIRECT 301 /download/task-2.4.2.tar.gz                       /download/task-latest.tar.gz
+#REDIRECT 301 /download/task-2.4.3.tar.gz                       /download/task-latest.tar.gz
+#REDIRECT 301 /download/task-2.4.4.tar.gz                       /download/task-latest.tar.gz
