@@ -114,21 +114,23 @@
               default values are:
             </p>
 
-            <pre>urgency.next.coefficient=15.0                   # +next tag
-urgency.due.coefficient=12.0                    # overdue or near due date
-urgency.blocking.coefficient=8.0                # blocking other tasks
-urgency.priority.coefficient=6.0                # priority
-urgency.active.coefficient=4.0                  # already started tasks
-urgency.scheduled.coefficient=4.0               # scheduled tasks
-urgency.age.coefficient=2.0                     # Urgency coefficient for age
-urgency.annotations.coefficient=1.0             # has annotations
-urgency.tags.coefficient=1.0                    # has tags
-urgency.project.coefficient=1.0                 # assigned to any project
-urgency.blocked.coefficient=-5.0                # blocked by other tasks
-urgency.waiting.coefficient=-3.0                # waiting task
-urgency.user.project.&lt;project&gt;.coefficient=5.0  # specific project
-urgency.user.tag.&lt;tag&gt;.coefficient=5.0          # specific tag
-urgency.uda.&lt;name&gt;.coefficient=5.0              # specific UDA</pre>
+            <pre>urgency.user.tag.next.coefficient          15.0 # +next tag
+urgency.due.coefficient                    12.0 # overdue or near due date
+urgency.blocking.coefficient                8.0 # blocking other tasks
+urgency.uda.priority.H.coefficient          6.0 # high Priority
+urgency.uda.priority.M.coefficient          3.9 # medium Priority
+urgency.uda.priority.L.coefficient          1.8 # low Priority
+urgency.active.coefficient                  4.0 # already started tasks
+urgency.scheduled.coefficient               4.0 # scheduled tasks
+urgency.age.coefficient                     2.0 # coefficient for age
+urgency.annotations.coefficient             1.0 # has annotations
+urgency.tags.coefficient                    1.0 # has tags         
+urgency.project.coefficient                 1.0 # assigned to any project
+urgency.blocked.coefficient                 5.0 # blocked by other tasks
+urgency.waiting.coefficient                 3.0 # waiting task 
+urgency.user.project.&lt;project&gt;.coefficient  5.0 # specific project
+urgency.user.tag.&lt;tag&gt;.coefficient          5.0 # specific tag
+urgency.uda.&lt;name&gt;.coefficient              5.0 # specific UDA</pre>
 
             <p>
               The first coefficient has a value of 15.0, which is the highest
