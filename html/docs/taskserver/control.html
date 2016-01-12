@@ -108,6 +108,47 @@ $ taskd server --data $TASKDDATA
               With a <code>debug.tls</code> setting that is non-zero, you see
               lots of security-related diagnostic output.
             </p>
+
+            <a name="systemd"></a>
+            <h4>Configure Taskserver to run with a systemd-unit-file</h4>
+
+            <p>
+            You can start Taskserver using a systemd-unitfile like the following (please add the contents of <code>$TASKDDATA</code> not the variable itself). Running the Taskserver as root is not recommended, please add an appropriate user and group to run the daemon with (<code>$TASKDUSER</code> and <code>$TASKDGROUP</code>).
+            </p>
+
+            <pre>[Unit]
+Description=Secure server providing multi-user, multi-client access to Taskwarrior data
+After=network.target
+Documentation=http://taskwarrior.org/docs/#taskd
+
+[Service]
+ExecStart=/usr/local/bin/taskd server --data $TASKDDATA
+Type=simple
+User=$TASKDUSER
+Group=$TASKDGROUP
+WorkingDirectory=$TASKDDATA
+StandardOutput=null
+StandardError=syslog
+PrivateTmp=true
+InaccessibleDirectories=/home /root /boot /opt /mnt /media
+ReadOnlyDirectories=/etc /usr
+
+[Install]
+WantedBy=multi-user.target</pre>
+
+            <p>
+            Afterwards prepare systemd to recognise the file.
+            </p>
+
+            <pre>$ cp taskd.service /etc/systemd/system
+$ systemctl daemon-reload
+$ systemctl start taskd.service
+$ systemctl status taskd.service</pre>
+
+            In case everything is running fine, enable the script to start Taskserver on every boot.
+
+            <pre>$ systemctl enable taskd.service</pre>
+
           </div>
 
           <br />
@@ -120,6 +161,7 @@ $ taskd server --data $TASKDDATA
           <ul class="list-unstyled">
             <li><a class="alert-link" href="#control">Server Start/Stop</a></li>
             <li><a class="alert-link" href="#interactive">Interactive</a></li>
+            <li><a class="alert-link" href="#systemd">systemd</a></li>
           </ul>
         </div>
       </div>
