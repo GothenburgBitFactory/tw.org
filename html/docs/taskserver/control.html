@@ -118,6 +118,7 @@ $ taskd server --data $TASKDDATA
 
             <pre>[Unit]
 Description=Secure server providing multi-user, multi-client access to Taskwarrior data
+Requires=network.target
 After=network.target
 Documentation=http://taskwarrior.org/docs/#taskd
 
@@ -127,8 +128,6 @@ Type=simple
 User=$TASKDUSER
 Group=$TASKDGROUP
 WorkingDirectory=$TASKDDATA
-StandardOutput=null
-StandardError=syslog
 PrivateTmp=true
 InaccessibleDirectories=/home /root /boot /opt /mnt /media
 ReadOnlyDirectories=/etc /usr
