@@ -13,7 +13,31 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Tue, 01 Dec 2015 14:12:00 UTC</pubDate>
+    <pubDate>Mon, 01 Feb 2016 15:22:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - January 2016</title>
+      <link>http://taskwarrior.org/news/news.20160201.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 01 Feb 2016 15:22:00 UTC</pubDate>
+      <description>
+        This is an ongoing series of activity reports, published monthly,
+        to highlight activity in the Taskwarrior project. Here is what
+        happened in January 2016.
+      </description>
+    </item>
+
+    <item>
+      <title>Activity Digest - December 2015</title>
+      <link>http://taskwarrior.org/news/news.20160101.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 01 Feb 2016 15:21:00 UTC</pubDate>
+      <description>
+        This is an ongoing series of activity reports, published monthly,
+        to highlight activity in the Taskwarrior project. Here is what
+        happened in December 2015.
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - November 2015</title>
