@@ -61,6 +61,10 @@
               theme.
             </p>
 
+            <p>
+              WARNING: Some of this in tongue-in-cheek.  Most is not.
+            </p>
+
             <h3>Misplaced Concerns About Our Infrastructure</h3>
             <table class="table table-striped table-condensed">
               <tr>
@@ -133,31 +137,6 @@
                   <b>Q: Why aren't you providing a syncing Android solution?</b>
                   <p>
                     We are not Android developers. Go ask one.
-                  </p>
-                </td>
-              </tr>
-
-              <tr>
-                <td>
-                  <b>Q: Why doesn't Taskwarrior do time tracking?</b>
-                  <p>
-                    Taskwarrior manages tasks. Anything else is out of scope. It's a
-                    design choice.
-                  </p>
-
-                  <p>
-                    Taskwarrior is all about faithfully capturing and representing data.
-                    If your time tracking needs fit this restriction, please use one of
-                    several available time-tracking hooks for Taskwarrior. They faithfully
-                    track time.
-                  </p>
-
-                  <p>
-                    But properly tracking time is difficult, and we believe requires a
-                    dedicated application, which knows your schedule, holidays, vacation,
-                    and lunch breaks. It needs to tolerate forgetting to start the clock,
-                    flexibly generate timesheets and observe your time tracking policies.
-                    Timewarrior will do this. Taskwarrior will not.
                   </p>
                 </td>
               </tr>
@@ -320,6 +299,31 @@
 
             <h3>Design Choices</h3>
             <table class="table table-striped table-condensed">
+              <tr>
+                <td>
+                  <b>Q: Why doesn't Taskwarrior do time tracking?</b>
+                  <p>
+                    Taskwarrior manages tasks. Anything else is out of scope. It's a
+                    design choice.
+                  </p>
+
+                  <p>
+                    Taskwarrior is all about faithfully capturing and representing data.
+                    If your time tracking needs fit this restriction, please use one of
+                    several available time-tracking hooks for Taskwarrior. They faithfully
+                    track time.
+                  </p>
+
+                  <p>
+                    But properly tracking time is difficult, and we believe requires a
+                    dedicated application, which knows your schedule, holidays, vacation,
+                    and lunch breaks. It needs to tolerate forgetting to start the clock,
+                    flexibly generate timesheets and observe your time tracking policies.
+                    Timewarrior will do this. Taskwarrior will not.
+                  </p>
+                </td>
+              </tr>
+
               <tr>
                 <td>
                   <b>Q: Why can't I generate new tasks in my <code>on-modify</code> hook script?</b>
