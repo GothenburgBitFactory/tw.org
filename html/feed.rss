@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Tue, 09 Feb 2016 22:59:00 UTC</pubDate>
+    <pubDate>Wed, 24 Feb 2016 22:34:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior 2.5.1 Released</title>
+      <link>http://taskwarrior.org/news/news.20160224.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 24 Feb 2016 22:34:00 UTC</pubDate>
+      <description>
+        Taskwarrior 2.5.1 is released.  Although this is a minor release,
+        it contains many bug fixes and performance enhancements.
+        There have been a lot of changes. Here are the new features:
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior Workflow Study</title>
@@ -33,9 +45,6 @@
         </p>
       </description>
     </item>
-
-
-
 
     <item>
       <title>Taskwarrior 2.5.1 Beta Released</title>
