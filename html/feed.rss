@@ -13,7 +13,29 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Fri, 05 Feb 2016 22:27:00 UTC</pubDate>
+    <pubDate>Tue, 09 Feb 2016 22:59:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior Workflow Study</title>
+      <link>http://taskwarrior.org/news/news.20160209.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Tue, 09 Feb 2016 22:59:00 UTC</pubDate>
+      <description>
+        <p>
+          Taskwarrior aims to provide a toolkit of various capabilities, which
+          can be cherry-picked to support many custom methodologies.
+        </p>
+        <p>
+          We have learned over the years that everyone uses it differently,
+          and for different things. There is a lot to be learned from how
+          someone uses software, the features they use, and the ones they do
+          not.
+        </p>
+      </description>
+    </item>
+
+
+
 
     <item>
       <title>Taskwarrior 2.5.1 Beta Released</title>
