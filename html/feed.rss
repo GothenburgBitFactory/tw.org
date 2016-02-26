@@ -13,7 +13,22 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Wed, 24 Feb 2016 22:34:00 UTC</pubDate>
+    <pubDate>Wed, 25 Feb 2016 23:34:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior for Android Released</title>
+      <link>http://taskwarrior.org/news/news.20160225.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 25 Feb 2016 23:34:00 UTC</pubDate>
+      <description>
+            Author Konstantin Vorobyev has created an Android client with Syncing
+            and many other features.
+            Taskwarrior for Android has an embedded copy of Taskwarrior, and so
+            inherits all the behaviors. Take a look at
+            <a href="https://play.google.com/store/apps/details?id=kvj.taskw">Taskwarrior for Android</a>
+            on Google Play.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior 2.5.1 Released</title>
