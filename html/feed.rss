@@ -13,20 +13,37 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Wed, 25 Feb 2016 23:34:00 UTC</pubDate>
+    <pubDate>Sat, 27 Feb 2016 17:00:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior Philosophy</title>
+      <link>http://taskwarrior.org/docs/philosophy.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 27 Feb 2016 17:00:00 UTC</pubDate>
+      <description>
+        Taskwarrior is developed using a philosophy that explains a lot
+        about why certain decisions have been made, and will continue to
+        be made.
+        The source code, plans, bugs, testing, docs, website are all free
+        and open source. You are welcome to contribute and identify
+        improvements in all of this. There is no agenda.
+        The goals of the project are to support all workflows at minimal
+        friction and complexity, and improve list management.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior for Android Released</title>
       <link>http://taskwarrior.org/news/news.20160225.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Wed, 25 Feb 2016 23:34:00 UTC</pubDate>
+      <pubDate>Thu, 25 Feb 2016 23:34:00 UTC</pubDate>
       <description>
-            Author Konstantin Vorobyev has created an Android client with Syncing
-            and many other features.
-            Taskwarrior for Android has an embedded copy of Taskwarrior, and so
-            inherits all the behaviors. Take a look at
-            <a href="https://play.google.com/store/apps/details?id=kvj.taskw">Taskwarrior for Android</a>
-            on Google Play.
+        Author Konstantin Vorobyev has created an Android client with Syncing
+        and many other features.
+        Taskwarrior for Android has an embedded copy of Taskwarrior, and so
+        inherits all the behaviors. Take a look at
+        <a href="https://play.google.com/store/apps/details?id=kvj.taskw">Taskwarrior for Android</a>
+        on Google Play.
       </description>
     </item>
 
