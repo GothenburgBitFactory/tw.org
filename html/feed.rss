@@ -13,22 +13,25 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 27 Feb 2016 17:00:00 UTC</pubDate>
+    <pubDate>Sat, 27 Feb 2016 19:39:00 UTC</pubDate>
 
     <item>
-      <title>Taskwarrior Philosophy</title>
-      <link>http://taskwarrior.org/docs/philosophy.html</link>
+      <title>Using Dates Effectively</title>
+      <link>http://taskwarrior.org/docs/using_dates.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Sat, 27 Feb 2016 17:00:00 UTC</pubDate>
+      <pubDate>Sat, 27 Feb 2016 19:39:00 UTC</pubDate>
       <description>
-        Taskwarrior is developed using a philosophy that explains a lot
-        about why certain decisions have been made, and will continue to
-        be made.
-        The source code, plans, bugs, testing, docs, website are all free
-        and open source. You are welcome to contribute and identify
-        improvements in all of this. There is no agenda.
-        The goals of the project are to support all workflows at minimal
-        friction and complexity, and improve list management.
+        A task does not require a due date, and can simply be a statement of need:
+
+        <pre>$ task add Send Alice a birthday card</pre>
+
+        However this is exactly the kind of task can benefit from having a due date,
+        and perhaps several other dates also.
+
+        There are several dates that can decorate a task, each with its own meaning
+        and effects. You can choose to use some, all or none of these, but like all
+        Taskwarrior features, they are there in case your needs require it, but you
+        do not pay a performance or friction penalty by not using them.
       </description>
     </item>
 
