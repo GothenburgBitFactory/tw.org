@@ -85,6 +85,46 @@ $ task 1 delete</pre>
               </tr>
             </table>
 
+            <a name="create"></a>
+            <h4>Creating Tasks</h4>
+            <p>
+              Creating tasks is straightforward, but here are some tips:
+            </p>
+
+            <table class="table table-condenѕed">
+              <tr>
+                <td width=30%>Create a task with due date.</td>
+                <td>
+                  <pre>$ task add Pay the rent due:eom</pre>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Create a task, then add a due date later.</td>
+                <td>
+                  <pre>$ task add Pay the rent
+Created task 12
+$ task 12 modify due:eom</pre>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Remove a due date from a task.</td>
+                <td>
+                  <pre>$ task 12 modify due:</pre>
+                </td>
+              </tr>
+
+              <tr>
+                <td>Create a task with a multi-line description.</td>
+                <td>
+                  <pre>$ task add "Five syllables here
+Seven more syllables there
+Are you happy now?"</pre>
+                </td>
+              </tr>
+            </table>
+
             <a name="filters"></a>
             <h4>Filters</h4>
             <p>
@@ -484,9 +524,9 @@ $ task all</pre></td>
               <tr>
                 <td>Do I have the latest released version?</td>
                 <td><pre>$ curl http://tasktools.org/latest
-2.5.0
+2.5.1
 $ task --version
-2.5.0</pre></td>
+2.5.1</pre></td>
               </tr>
             </table>
 
@@ -501,6 +541,7 @@ $ task --version
         <div class="alert alert-warning">
           <ul class="list-unstyled">
             <li><a href="#30sec">30-Second Tutorial</a></li>
+            <li><a href="#create">Creating Tasks</a></li>
             <li><a href="#filters">Filters</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#tags">Tags</a></li>
