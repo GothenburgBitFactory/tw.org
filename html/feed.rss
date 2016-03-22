@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 27 Feb 2016 19:39:00 UTC</pubDate>
+    <pubDate>Tue, 22 Mar 2016 13:33:54 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - February 2016</title>
+      <link>http://taskwarrior.org/news/news.20160301.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Tue, 22 Mar 2016 13:33:54 UTC</pubDate>
+      <description>
+        This is an ongoing series of activity reports, published monthly,
+        to highlight activity in the Taskwarrior project. Here is what
+        happened in February 2016.
+      </description>
+    </item>
 
     <item>
       <title>Using Dates Effectively</title>
