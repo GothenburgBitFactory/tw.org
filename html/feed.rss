@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Fri, 01 Apr 2016 00:00:00 UTC</pubDate>
+    <pubDate>Fri, 01 Apr 2016 01:29:31 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - March 2016</title>
+      <link>http://taskwarrior.org/news/news.20160401.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Fri, 01 Apr 2016 01:29:31 UTC</pubDate>
+      <description>
+        This is an ongoing series of activity reports, published monthly,
+        to highlight activity in the Taskwarrior project. Here is what
+        happened in March 2016.
+      </description>
+    </item>
 
     <item>
       <title>Kindlewarrior 3.0</title>
