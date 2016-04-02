@@ -51,3 +51,7 @@ REDIRECT 301 /download/task-2.2.0.tar.gz                       /download/task-la
 #REDIRECT 301 /download/task-2.4.2.tar.gz                       /download/task-latest.tar.gz
 #REDIRECT 301 /download/task-2.4.3.tar.gz                       /download/task-latest.tar.gz
 #REDIRECT 301 /download/task-2.4.4.tar.gz                       /download/task-latest.tar.gz
+
+# Added 2015-04-02
+REDIRECT 301 /news/news.20160401a.html                        /news/index.html
+
