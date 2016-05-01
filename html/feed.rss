@@ -13,7 +13,19 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Thu, 07 Apr 2016 23:59:31 UTC</pubDate>
+    <pubDate>Sun, 01 May 2016 14:45:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - April 2016</title>
+      <link>http://taskwarrior.org/news/news.20160501.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 01 May 2016 14:45:00 UTC</pubDate>
+      <description>
+        This is an ongoing series of activity reports, published monthly,
+        to highlight activity in the Taskwarrior project. Here is what
+        happened in April 2016.
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior running under "Bash on Ubuntu on Windows"</title>
