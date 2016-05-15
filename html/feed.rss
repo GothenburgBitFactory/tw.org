@@ -13,7 +13,18 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 01 May 2016 14:45:00 UTC</pubDate>
+    <pubDate>Sun, 15 May 2016 03:12:00 UTC</pubDate>
+
+    <item>
+      <title>Timewarrior Preview</title>
+      <link>http://taskwarrior.org/news/news.20160514.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 15 May 2016 03:12:00 UTC</pubDate>
+      <description>
+        Timewarrior is coming soon. Here is a peek at the work in progress.
+        <script type="text/javascript" src="https://asciinema.org/a/45632.js" id="asciicast-45632" async></script>
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - April 2016</title>
