@@ -55,3 +55,6 @@ REDIRECT 301 /download/task-2.2.0.tar.gz                       /download/task-la
 # Added 2015-04-02
 REDIRECT 301 /news/news.20160401a.html                        /news/index.html
 
+# Added 2016-05-22
+REDIRECT 301 /tools/obsolete.html                             /tools/index.html
+
