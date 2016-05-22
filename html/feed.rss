@@ -13,7 +13,27 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 15 May 2016 03:12:00 UTC</pubDate>
+    <pubDate>Sun, 22 May 2016 19:29:00 UTC</pubDate>
+
+    <item>
+      <title>Taskwarrior Tools Search</title>
+      <link>http://taskwarrior.org/news/news.20160522.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 22 May 2016 19:29:00 UTC</pubDate>
+      <description>
+        <p>
+          The <a href="https://taskwarrior.org/tools/">Taskwarrior Tools page</a> now has interactive
+          categorized search capabilities, thanks to a significant contribution
+          by Bruno Vernay. We encourage you to take a look.
+        </p>
+
+        <p>
+          This feature is driven by automated <a href="https://github.com">Github</a>
+          data extraction, which identifies taskwarrior-related projects and
+          finds their metadata.
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Timewarrior Preview</title>
