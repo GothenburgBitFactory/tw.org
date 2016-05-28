@@ -21,5 +21,5 @@ Updating tw.org/html/tools
 7. cd tw-tools-update.git
   PYTHONPATH=../PyGithub.git python Main.py
 
-8. cp data-tools.json ../html/tools/toolѕ-data.js
+8. cp data-tools.json ../html/tools/tools-data.js
 
