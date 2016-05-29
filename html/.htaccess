@@ -58,3 +58,13 @@ REDIRECT 301 /news/news.20160401a.html                        /news/index.html
 # Added 2016-05-22
 REDIRECT 301 /tools/obsolete.html                             /tools/index.html
 
+# Added 2016-05-29
+REDIRECT 301 /installation                                    /docs/build.html
+REDIRECT 301 /login                                           /index.html
+REDIRECT 301 /themes                                          /docs/themes.html
+REDIRECT 301 /wp-content                                      /news/index.html
+REDIRECT 301 /wp-includes                                     /news/index.html
+REDIRECT 301 /wp-admin                                        /news/index.html
+REDIRECT 301 /administrator                                   /index.html
+REDIRECT 301 /modules                                         /index.html
+REDIRECT 301 /components                                      /index.html
