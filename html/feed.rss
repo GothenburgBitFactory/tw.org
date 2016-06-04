@@ -13,7 +13,36 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 22 May 2016 19:29:00 UTC</pubDate>
+    <pubDate>Sat,  4 Jun 2016 14:08:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - May 2016</title>
+      <link>http://taskwarrior.org/news/news.20160604.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat,  4 Jun 2016 14:08:00 UTC</pubDate>
+      <description>
+        <p>
+          The main focus for May is getting
+          <a href="/docs/timewarrior/index.html">Timewarrior</a>
+          ready for an alpha release. The purpose of an alpha release is to
+          gather feedback that guides the subsequent release. Timewarrior
+          is a new project that introduces new concepts. This new functionality
+          needs to be refined before a beta release.
+        </p>
+
+        <p>
+          The <a href="https://bug.tasktools.org/browse/TI">Timewarrior bug tracker</a>
+          is now open for business.
+        </p>
+
+        <p>
+          Additionally the <code>libshared</code> library is being improved.
+          This is a Git submodule that nearly all the projects share, and
+          helps with code reuse. Most importantly, fixing bugs in <code>libshared</code>
+          will fix bugs in all projects, without a lot of manual patching.
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Taskwarrior Tools Search</title>
