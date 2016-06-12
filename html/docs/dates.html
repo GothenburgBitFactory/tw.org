@@ -917,6 +917,26 @@ Urgency       9.419</pre>
               Future releases of taskwarrior will not need <code>rc.dateformat</code>
               for date/time input.
             </p>
+
+            <a name="warning"></a>
+            <h4>Warning</h4>
+            <p>
+              It is possible to set a <code>dateformat</code> that conflicts with
+              a built-in format, or with other parsed lex types from the command
+              line. Date formats are high on the lexer precedence list, and
+              therefore able to eclipse other types.
+            </p>
+
+            <p>
+              As an example a <code>dateformat</code> of <code>m-d</code> means
+              that this command:
+
+              <pre>$ task 1-5 list<pre>
+
+              is interpreted as this meaningless filter that always succeeds:
+
+              <pre>$ task 2016-01-05 list</pre>
+            </p>
           </div>
 
           <br />
@@ -933,6 +953,7 @@ Urgency       9.419</pre>
             <li><a href="#reports">Reports</a></li>
             <li><a href="#names">Synonyms</a></li>
             <li><a href="#iso">ISO-8601</a></li>
+            <li><a href="#warning">Warning</a></li>
           </ul>
         </div>
       </div>
