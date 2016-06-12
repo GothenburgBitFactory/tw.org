@@ -1,5 +1,11 @@
-Updating tw.org/html/tools
-==========================
+To Clone this Repository:
+=========================
+
+   git clone https://git.tasktools.org/scm/st/tw.org.git
+
+
+Instruction For Updating tw.org/html/tools
+==========================================
 
 1. git clone ssh://git@git.tasktools.org/st/tw.org.git tw.org.git
    cd tw.org.git
@@ -12,6 +18,10 @@ Updating tw.org/html/tools
 
 5. Get a Github token:
    https://github.com/settings/tokens
+
+   Paul
+   2016-05-22
+   6a5d9dbfc3ed525b1bd0d343a31d07408b78760a
 
 6. Add Github token to Config.py:
   cd tw-tools-update.git
