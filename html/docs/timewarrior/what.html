@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - What is it?</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -48,81 +48,81 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-      </div>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                    <li>Download and build the alpha release tarball (Recommended)</li>
-                    <li>Clone the code repository and build the latest snapshot</li>
-                    <li><a href="/docs/timewarrior/intro.html">Introduction to Timewarrior</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>What is Timewarrior?</h3>
+            <p>
+              Timewarrior is a Free and Open Source project that is currently in
+              development. It is not yet ready for general use, but an alpha
+              release is available.
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Simple Clock</li>
-                    <li>Tags</li>
-                    <li>Backdated <code>start</code>/<code>stop</code></li>
-                    <li>Themes</li>
-                    <li>Holidays</li>
-                    <li>Hints</li>
-                    <li>Corrections</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <h4>What does Timewarrior do?</h4>
+            <p>
+              Timewarrior tracks and reports time.
+            </p>
+            <p>
+              Timewarrior is a command line time tracking application, which
+              allows you to record time spent on activities. You may be tracking
+              your time for curiosity, or because your work requires it. At its
+              simplest, you tell it to start and stop tracking time:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Command line overrides</li>
-                    <li>Taskwarrior on-modify Hook</li>
-                    <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                    <li>Extensions</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <pre>$ timew start
+...
+$ timew stop</pre>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Alpha</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a></li>
-                    <li>Provide feedback</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              That's the simple stopwatch capability.
+            </p>
 
-          </table>
+            <h4>Why do I need Timewarrior?</h4>
+            <p>
+              We're not trying to convince you to track your time.
+              But if you already do, or want to begin, then Timewarrior is going
+              to try very hard to be your preferred choice. You will be able to
+              track your time intelligently, then generate useful visual or
+              tabular reports of that time. An extension API lets you do
+              anything you want with your data.
+            </p>
+
+            <p>
+              Suppose you start the clock at noon on a Friday, then you stop the
+              clock at noon on Tuesday. Did you really just spend 96 hours on a
+              task? More likely you only spent 16 hours, or perhaps 8 hours if
+              Monday was a national holiday.
+            </p>
+
+            <p>
+              This is why you need Timewarrior.
+            </p>
+
+            <h4>How does Timewarrior work?</h4>
+            <p>
+              Timewarrior records time, and associates blocks of time with tags.
+              The recorded data can be exposed as JSON for any app to consume.
+            </p>
+
+            <p>
+              Built-in reports, as well as a set of extension reports will give
+              you plenty of options, in addition to customizing your time
+              reporting using any programming language. There will be a
+              collection of reports and extensions to download and use.
+            </p>
+
+            <p>
+              A Taskwarrior hook script provides integration with the matching
+              <code>start</code> and <code>stop</code> commands, thereby enabling
+              proper time tracking for Taskwarrior users.
+            </p>
+
+          </div>
+          <br />
+          <br />
         </div>
       </div>
     </div>
