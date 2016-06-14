@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - Clone</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -48,89 +48,160 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <a name="how"></a>
+            <h3>How To Build Timewarrior</h3>
+            <p>
+              This is for developers. Specifically those who know how to use
+              tools, satisfy dependencies, and want to set up a development
+              environment. It is not user-friendly.
+            </p>
+
+            <p>
+              You'll need these tools:
+              <ul>
+                <li><a href="http://git-scm.com/">git</a></li>
+                <li><a href="http://cmake.org">cmake</a></li>
+                <li>make</li>
+                <li>C++ compiler, currently gcc 4.7+ or clang 3.3+ for full C++11 support</li>
+                <li>Python 2.7 or later (for tests)</li>
+                <li>Bash (for tests)</li>
+              </ul>
+            </p>
+
+            <a name="clone"></a>
+            <h3>Cloning the Repo</h3>
+            <p>
+              For those of you with Stash accounts on
+              <a href="https://git.tasktools.org">git.tasktools.org</a>:
+            </p>
+
+            <pre>$ git clone --recursive ssh://git@git.tasktools.org/tm/timew.git timew.git</pre>
+
+            <p>
+              General public:
+            </p>
+
+            <pre>$ git clone --recursive https://git.tasktools.org/scm/tm/timew.git timew.git</pre>
+
+            <a name="stable"></a>
+            <h3>Building the Stable Version</h3>
+            <p>
+              The master always represents the more recently released version,
+              and should be your preferred choice.
+            </p>
+
+              <pre>$ cd timew.git
+$ git checkout master                # Master is the stable branch.
+$ cmake -DCMAKE_BUILD_TYPE=release . # 'release' for performance.
+$ make                               # Just build it.</pre>
+
+<!--
+            <a name="build"></a>
+            <h3>Building the Dev Branch</h3>
+            <p>
+              The dev branch is always the highest numbered branch, in this
+              example, <code>1.0.0</code>.
+            </p>
+
+              <pre>$ cd task.git
+$ git checkout 1.0.0                 # Dev branch
+$ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
+$ make VERBOSE=1                     # Shows details</pre>
+
+            <p>
+              Build the debug type if you want symbols in the binary for debugging.
+            </p>
+-->
+
+            <a name="tests"></a>
+            <h3>Running the Test Suite</h3>
+            <p>
+              There are C++, Python and Bash tests, build and run them:
+            </p>
+
+            <pre>$ cd task.git/test
+$ make VERBOSE=1     # Shows details
+$ ./run_all          # Runs all tests silently &gt; all.log
+$ ./problems         # Find errors in all.log</pre>
+
+            <a name="patch"></a>
+            <h3>Submitting a Patch</h3>
+            <p>
+              Talk to us first - make sure you are working on something that is
+              wanted. Patches will not be applied simply because you did the work.
+              Remember the various forms of documentation involved, and the test
+              suite. Work on the dev branch, not <code>master</code>. When you
+              are are ready to submit, do this:
+            </p>
+
+            <pre>$ git commit</pre>
+
+            <p>
+              Follow the standard form for commit messages, which looks like this:
+            </p>
+
+            <pre>Category: Short message
+
+- Details
+- Details</pre>
+
+            <p>
+              Here is a good example:
+            </p>
+
+            <pre>TW-1636: UUID with numeric-only first segment is not parsed properly
+
+- Switched Nibbler::getUUID to Nibbler::getPartialUUID, which caused partial
+  UUID matching to fail sometimes.
+- Changed precedence to search for UUID before ID, which solves the numeric
+  UUID problem.</pre>
+
+            <p>
+              Create the patch using this:
+            </p>
+
+            <pre>$ git format-patch HEAD^</pre>
+
+            <p>
+              Mail the patch to
+              <a href="mailto:taskwarrior-dev@googlegroups.com">taskwarrior-dev@googlegroups.com</a>
+              or attach it to the appropriate ticket in the
+              <a href="https://bug.tasktools.org">bug tracker</a>.
+              If you do the latter, make sure someone knows about it, or it
+              could go unnoticed.
+            </p>
+
+            <p>
+              Expect feedback. It is unlikely your patch will be accepted
+              unmodified. Usually this is because you violated the coding
+              style, worked in the wrong branch, or <em>forgot</em> about
+              documentation and unit tests.
+            </p>
+          </div>
+
+          <br />
+          <br />
+        </div>
       </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                    <li>Download and build the alpha release tarball (Recommended)</li>
-                    <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                    <li><a href="/docs/timewarrior/intro.html">Introduction to Timewarrior</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Simple Clock</li>
-                    <li>Tags</li>
-                    <li>Backdated <code>start</code>/<code>stop</code></li>
-                    <li>Hints</li>
-                    <li>Summary Report</li>
-                    <li>Charts</li>
-                    <li>Corrections</li>
-                    <li>Configuration</li>
-                    <li>Themes</li>
-                    <li>Holidays</li>
-                    <li>Work week</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Syntax: Interval</li>
-                    <li>Syntax: Dates</li>
-                    <li>Syntax: Durations</li>
-                    <li>Syntax: Exclusions</li>
-                    <li>Command line overrides</li>
-                    <li>Taskwarrior on-modify Hook</li>
-                    <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                    <li>Extensions</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Alpha</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a></li>
-                    <li>Provide feedback</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-
-          </table>
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#how">Build</a></li>
+            <li><a class="alert-link" href="#clone">Clone</a></li>
+            <li><a class="alert-link" href="#stable">Stable Version</a></li>
+<!--
+            <li><a class="alert-link" href="#build">Dev Branch</a></li>
+-->
+            <li><a class="alert-link" href="#tests">Running Tests</a></li>
+            <li><a class="alert-link" href="#patch">Patch</a></li>
+          </ul>
         </div>
       </div>
     </div>
