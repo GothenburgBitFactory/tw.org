@@ -56,18 +56,177 @@
           <div class="row">
             <h3>Introduction to Timewarrior</h3>
             <p>
+              Make sure you have Timewarrior installed. Check that it can be found
+              using this command:
+            </p>
+
+            <pre>$ timew --version
+0.9.0</pre>
+
+            <p>
+              The version is displayed, all is well.
+            </p>
+
+            <a name="setup"></a>
+            <h4>Setup</h4>
+            <p>
+              There is no setup with Timewarrior, you simply start using it, and
+              the data directory is automatically created for you. By default
+              this structure is created in your home directory:
+            </p>
+
+            <pre>~/.timewarrior
+├── data
+│   ├── 2016-06.data
+│   └── undo.data
+├── extensions
+└── timewarrior.cfg</pre>
+
+            <p>
+              You can see that the data is stored in monthly data files
+              (<code>2016-06.data</code>), which tend to remain quite small.
+              The <code>undo.data</code> file stores transactions for the
+              <code>undo</code> command. The extensions directory is where
+              you place either extension scripts, or symlinks to extension
+              scripts.
             </p>
 
             <p>
+              Finally the <code>timewarrior.cfg</code> file is where all the
+              configuration settings are stored. You'll access this indirectly
+              using the <code>config</code> command, or directly with a text
+              editor. However, you don't need to make any changes now.
+            </p>
+
+            <a name="stopwatch"></a>
+            <h4>Stopwatch</h4>
+            <p>
+              The simplest use of Timewarrior is as a stopwatch, to record an
+              activity. As you begin the activity, you start the clock:
+            </p>
+
+            <pre>$ timew start
+Tracking 
+  Started 2016-06-14T08:18:23
+  Current                  23
+  Total               0:00:00</pre>
+
+            <p>
+              The word 'Tracking' is used to indicate active tracking.
+              You are shown the start date/time, the current time compared to
+              the start time, and the total elapsed time, which is currently
+              none. As the clock is running, you can see the current elapsed
+              time by simply running Timewarrior with no arguments:
+            </p>
+
+            <pre>$ timew
+Tracking 
+  Started 2016-06-14T08:18:23
+  Current               20:20
+  Total               0:01:57</pre>
+
+            <p>
+              Later when the activity ends, you stop the clock:
+            </p>
+
+            <pre>$ timew stop
+Recorded 
+  Started 2016-06-14T08:18:23
+  Ended                 20:49
+  Total               0:02:26</pre>
+
+            <p>
+              The word 'Recorded' is used to indicate that an activity has
+              ended, and the time recorded. Now if you run Timewarrior with
+              no arguments, it will not report any tracking:
+            </p>
+
+            <pre>$ timew
+There is no active time tracking.</pre>
+
+            <p>
+              To see a summary of today's recorded time, use the <code>summary</code>
+              command:
+            </p>
+
+            <pre>$ timew summary
+
+Wk  Date       Day Tags   Start     End    Time   Total
+--- ---------- --- ---- ------- ------- ------- -------
+W25 2016-06-14 Tue      8:18:23 8:20:49 0:02:26 0:02:26
+                                                -------
+                                                0:02:26</pre>
+
+            <p>
+              By default, the <code>summary</code> command shows only today's
+              tracked time. You can learn more about the <code>ѕummary</code> command
+              in other documents.
+            </p>
+
+            <a name="tags"></a>
+            <h4>Tags</h4>
+            <p>
+              In the stopwatch example, no tags were used. This makes it difﬀicult
+              to associate the recorded time with the activity. Use tags to label
+              the recorded time.
             </p>
 
             <p>
+              A tracked interval may have any number of associated tags, and we've
+              already seen examples of an interval having no associated tags. A tag
+              is either a single UTF-8 word, or a quoted UTF-8 string. Repeating the
+              above example with tags:
+            </p>
+
+            <pre>$ timew start Presentation 'Prepare Slides'
+Tracking "Prepare Slides" Presentation
+  Started 2016-06-14T08:30:47
+  Current                  47
+  Total               0:00:00</pre>
+
+            <p>
+              Two tags were used, <code>Presentation</code>, and <code>Prepare Slides</code>
+              where the latter was quoted because it contains a space. Without the quotes,
+              that second tag would have been interpreted as two separate tags,
+              <code>Prepare</code> and <code>Slides</code>.
             </p>
 
             <p>
+              When stopping tracking, it is not necessary to list the tags:
             </p>
 
+            <pre>$ timew stop
+Recorded "Prepare Slides" Presentation
+  Started 2016-06-14T08:30:47
+  Ended                 33:26
+  Total               0:02:39</pre>
+
+            <p>
+              Note that the tags are always listed in association with the tracked time.
+              The summary also contains the tags:
+            </p>
+
+            <pre>$ timew summary
+
+Wk  Date       Day Tags                           Start     End    Time   Total
+--- ---------- --- ---------------------------- ------- ------- ------- -------
+W25 2016-06-14 Tue                              8:18:23 8:20:49 0:02:26
+                   Prepare Slides, Presentation 8:30:47 8:33:26 0:02:39 0:05:05
+                                                                        -------
+                                                                        0:05:05</pre>
+
+            <p>
+              Now the summary shows two tracked intervals, a total for the day,
+              and an overall total. These commands will be discussed in more detail
+              in other documents, but you now know how to go about tracking time
+              with Timewarrior.
+            </p>
+
+            <p>
+              There are many more features, read all about them.
+            </p>
           </div>
+
           <br />
           <br />
         </div>
@@ -76,9 +235,9 @@
       <div class="col-md-2">
         <div class="alert alert-warning">
           <ul class="list-unstyled">
-            <li><a href="#what">What?</a></li>
-            <li><a href="#why">Why?</a></li>
-            <li><a href="#how">How?</a></li>
+            <li><a href="#setup">Setup</a></li>
+            <li><a href="#stopwatch">Stopwatch</a></li>
+            <li><a href="#tags">Tags</a></li>
           </ul>
         </div>
       </div>
