@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - Stopwatch</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -48,98 +48,80 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-        <div class="callout callout-danger">
-          <h4>Alpha</h4>
-          <p>
-            Timewarrior is currently in alpha release. There is missing functionality
-            and documentation. There are no binary packages yet.
-            Please send us feedback, to Help us improve Timewarrior.
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
-      </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                    <li><a href="/docs/timewarrior/download.html">Download and build the alpha release tarball</a> (Recommended)</li>
-                    <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                    <li><a href="/docs/timewarrior/files.html">File Layout</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Simple Stopwatch</h3>
+            <p>
+              The simplest use of Timewarrior is as a stopwatch, to record an
+              activity. As you begin the activity, you start the clock:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Tags</li>
-                    <li><a href="/docs/timewarrior/stopwatch.html">Simple Stopwatch</a></li>
-                    <li>Backdated <code>start</code>/<code>stop</code></li>
-                    <li><a href="/docs/timewarrior/hints.html">Hints</a></li>
-                    <li>Summary Report</li>
-                    <li>Charts</li>
-                    <li>Corrections</li>
-                    <li>Configuration</li>
-                    <li>Themes</li>
-                    <li>Holidays</li>
-                    <li>Work week</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <pre>$ timew start
+Tracking 
+  Started 2016-06-14T08:18:23
+  Current                  23
+  Total               0:00:00</pre>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/interval.html">Syntax: Interval</a></li>
-                    <li><a href="/docs/timewarrior/dates.html">Syntax: Dates</a></li>
-                    <li><a href="/docs/timewarrior/duration.html">Syntax: Durations</a></li>
-                    <li>Syntax: Exclusions</li>
-                    <li>Command line overrides</li>
-                    <li>Taskwarrior on-modify Hook</li>
-                    <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                    <li>Extensions</li>
-                    <li>Diagnostics</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              The word 'Tracking' is used to indicate active tracking.
+              You are shown the start date/time, the current time compared to
+              the start time, and the total elapsed time, which is currently
+              none. As the clock is running, you can see the current elapsed
+              time by simply running Timewarrior with no arguments:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Alpha</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a></li>
-                    <li>Provide feedback</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <pre>$ timew
+Tracking 
+  Started 2016-06-14T08:18:23
+  Current               20:20
+  Total               0:01:57</pre>
 
-          </table>
+            <p>
+              Later when the activity ends, you stop the clock:
+            </p>
+
+            <pre>$ timew stop
+Recorded 
+  Started 2016-06-14T08:18:23
+  Ended                 20:49
+  Total               0:02:26</pre>
+
+            <p>
+              The word 'Recorded' is used to indicate that an activity has
+              ended, and the time recorded. Now if you run Timewarrior with
+              no arguments, it will not report any tracking:
+            </p>
+
+            <pre>$ timew
+There is no active time tracking.</pre>
+
+            <p>
+              To see a summary of today's recorded time, use the <code>summary</code>
+              command:
+            </p>
+
+            <pre>$ timew summary
+
+Wk  Date       Day Tags   Start     End    Time   Total
+--- ---------- --- ---- ------- ------- ------- -------
+W25 2016-06-14 Tue      8:18:23 8:20:49 0:02:26 0:02:26
+                                                -------
+                                                0:02:26</pre>
+
+            <p>
+              By default, the <code>summary</code> command shows only today's
+              tracked time. You can learn more about the <code>ѕummary</code> command
+              in other documents.
+            </p>
+
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
     </div>
