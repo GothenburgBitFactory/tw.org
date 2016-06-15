@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - Hints</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -48,98 +48,62 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-        <div class="callout callout-danger">
-          <h4>Alpha</h4>
-          <p>
-            Timewarrior is currently in alpha release. There is missing functionality
-            and documentation. There are no binary packages yet.
-            Please send us feedback, to Help us improve Timewarrior.
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
-      </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                    <li><a href="/docs/timewarrior/download.html">Download and build the alpha release tarball</a> (Recommended)</li>
-                    <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                    <li><a href="/docs/timewarrior/intro.html">Introduction to Timewarrior</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Hints</h3>
+            <p>
+              Timewarrior supports hints, which are single-word command line features that
+              start with a colon like this:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Simple Clock</li>
-                    <li>Tags</li>
-                    <li>Backdated <code>start</code>/<code>stop</code></li>
-                    <li><a href="/docs/timewarrior/hints.html">Hints</a></li>
-                    <li>Summary Report</li>
-                    <li>Charts</li>
-                    <li>Corrections</li>
-                    <li>Configuration</li>
-                    <li>Themes</li>
-                    <li>Holidays</li>
-                    <li>Work week</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <pre>:week</pre>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/interval.html">Syntax: Interval</a></li>
-                    <li><a href="/docs/timewarrior/dates.html">Syntax: Dates</a></li>
-                    <li><a href="/docs/timewarrior/duration.html">Syntax: Durations</a></li>
-                    <li>Syntax: Exclusions</li>
-                    <li>Command line overrides</li>
-                    <li>Taskwarrior on-modify Hook</li>
-                    <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                    <li>Extensions</li>
-                    <li>Diagnostics</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              Hints serve several purposes. This example is a shortcut for the date range
+              that defines the current week. Other hints, such as:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Alpha</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a></li>
-                    <li>Provide feedback</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <pre>:quiet</pre>
 
-          </table>
+            <p>
+              are ways to control the behavior of Timewarrior, in this case eliminating all
+              forms of feedback, for purposes of automation. The supported hints are:
+            </p>
+
+            <pre>:quiet         Turns off all feedback. For automation
+:debug         Runs in debug mode, shows many runtime details
+:yes           Overrides confirmation by answering 'yes' to the questions
+
+:color         Force color on, even if not connected to a TTY
+:nocolor       Force color off, even if connected to a TTY
+:blank         Leaves tracked time out of a report
+:fill          Expand time to fill surrounding available gap
+               Only functions when exclusions are provided
+:ids           Displays interval ID numbers in the summary report</pre>
+
+            <p>
+              Range hints provide convenient shortcuts to date ranges:
+            </p>
+
+            <pre>:yesterday     The 24 hours of the previous day
+:day           The 24 hours of the current day
+:week          This week
+:month         This month
+:quarter       This quarter
+:year          This year
+:lastweek      Last week
+:lastmonth     Last month
+:lastquarter   Last quarter
+:lastyear      Last year</pre>
+
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
     </div>
