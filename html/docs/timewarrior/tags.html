@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - Tags</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -48,98 +48,69 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-        <div class="callout callout-danger">
-          <h4>Alpha</h4>
-          <p>
-            Timewarrior is currently in alpha release. There is missing functionality
-            and documentation. There are no binary packages yet.
-            Please send us feedback, to Help us improve Timewarrior.
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
-      </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                    <li><a href="/docs/timewarrior/download.html">Download and build the alpha release tarball</a> (Recommended)</li>
-                    <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                    <li><a href="/docs/timewarrior/files.html">File Layout</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Tags</h3>
+            <p>
+              Using tags is optional, but when no tags are used, it is difficult to
+              associate the recorded time with the activity. Use tags to label the
+              recorded time.
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/stopwatch.html">Simple Stopwatch</a></li>
-                    <li><a href="/docs/timewarrior/tags.html">Tags</a></li>
-                    <li>Backdated <code>start</code>/<code>stop</code></li>
-                    <li><a href="/docs/timewarrior/hints.html">Hints</a></li>
-                    <li>Summary Report</li>
-                    <li>Charts</li>
-                    <li>Corrections</li>
-                    <li>Configuration</li>
-                    <li>Themes</li>
-                    <li>Holidays</li>
-                    <li>Work week</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              A tracked interval may have any number of associated tags. A tag is
+              either a single UTF-8 word, or a quoted UTF-8 string. An example:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/interval.html">Syntax: Interval</a></li>
-                    <li><a href="/docs/timewarrior/dates.html">Syntax: Dates</a></li>
-                    <li><a href="/docs/timewarrior/duration.html">Syntax: Durations</a></li>
-                    <li>Syntax: Exclusions</li>
-                    <li>Command line overrides</li>
-                    <li>Taskwarrior on-modify Hook</li>
-                    <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                    <li>Extensions</li>
-                    <li>Diagnostics</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <pre>$ timew start Presentation 'Prepare Slides'
+Tracking "Prepare Slides" Presentation
+  Started 2016-06-14T08:30:47
+  Current                  47
+  Total               0:00:00</pre>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Alpha</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a></li>
-                    <li>Provide feedback</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              Two tags were used, <code>Presentation</code>, and <code>Prepare Slides</code>
+              where the latter was quoted because it contains a space. Without the quotes,
+              that second tag would have been interpreted as two separate tags,
+              <code>Prepare</code> and <code>Slides</code>.
+            </p>
 
-          </table>
+            <p>
+              When stopping tracking, it is not necessary to list the tags:
+            </p>
+
+            <pre>$ timew stop
+Recorded "Prepare Slides" Presentation
+  Started 2016-06-14T08:30:47
+  Ended                 33:26
+  Total               0:02:39</pre>
+
+            <p>
+              Note that the tags are always listed in association with the tracked time.
+              The summary also contains the tags:
+            </p>
+
+            <pre>$ timew summary
+
+Wk  Date       Day Tags                           Start     End    Time   Total
+--- ---------- --- ---------------------------- ------- ------- ------- -------
+W25 2016-06-14 Tue Prepare Slides, Presentation 8:30:47 8:33:26 0:02:39 0:02:39
+                                                                        -------
+                                                                        0:02:39</pre>
+
+            <p>
+              Now the summary shows the tagged interval, a total for the day, and
+              an overall total. These commands will be discussed in more detail in
+              other documents.
+            </p>
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
     </div>
