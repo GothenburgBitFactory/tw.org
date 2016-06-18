@@ -56,18 +56,89 @@
           <div class="row">
             <h3>Summary</h3>
             <p>
-              Displays a report summarizing tracked and untracked time for
-              the current day by default. Accepts date ranges and tags for
-              filtering, or shortcut hints:
+              There is a <code>summary</code> report which shows all the
+              tracked intervals for the day, with totals of the time tracked.
+              Here is an example:
             </p>
 
-            <pre>$ timew summary monday - today
-$ timew summary :week
-$ timew summary :month</pre>
+            <p>
+              <img src="/docs/timewarrior/images/summary1.png" class="img-responsive" />
+            </p>
 
             <p>
-              The ':ids' hint adds an 'IDS' column to the summary report output, for interval
-              modification.
+              This report shows that there are two intervals today. The first
+              is tagged <kbd>Breakfast meeting with client ABC</kbd> and was
+              recorded as a one-hour meeting. The second interval, tagged
+              <kbd>Prepare Presentation for DEF</kbd> began at 9am and is open,
+              with no end time.
+            </p>
+
+            <p>
+              The 'Total' column has sub-totals for the day, and a grand total for
+              the time shown, which in this case is just a single day, and is the
+              same as the sub-total.
+            </p>
+
+            <p>
+              Because of the open interval, re-running the <code>summary</code>
+              command will yield a different total each time, after all, the
+              clock is still running.
+            </p>
+
+            <h3>Date Ranges</h3>
+            <p>
+              The default date range shown is for today only. This can be overridden
+              on the command line by specifying the date range. All these commands
+              are therefore the same:
+            </p>
+
+            <pre>$ timew summary
+$ timew summary today
+$ timew summary today - tomorrow
+$ timew summary today to tomorrow
+$ timew summary 2016-06-18T00:00
+$ timew summary 2016-06-18T00:00 - 2016-06-19T00:00:00
+$ timew summary 18th
+$ timew summary saturday</pre>
+
+            <p>
+              Timewarrior is very flexible about specifying intervals.
+              See the <a href="/docs/timewarrior/interval.html">interval syntax</a>
+              page for full details.
+            </p>
+
+            <p>
+              In addition there are hints that correspond to preset data ranges
+              for added convenience. Here are some of them used in this context,
+              but not matching the 'today' example above:
+            </p>
+
+            <pre>$ timew summary :yesterday
+$ timew summary :week
+$ timew summary :lastweek
+$ timew summary :month
+$ timew summary :quarter
+$ timew summary :year</pre>
+
+            <p>
+              See the <a href="/docs/timewarrior/hints.html">hints</a>
+              page for full details.
+            </p>
+
+            <h3>IDs</h3>
+            <p>
+              The <code>summary</code> report has an important feature.
+              When the <code>:ids</code> hint is used, Some <code>@id</code>
+              numbers are shown:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/summary2.png" class="img-responsive" />
+            </p>
+
+            <p>
+              These are the <code>@id</code> numbers you use when
+              making <a href="/docs/timewarrior/corrections.html">corrections</a>.
             </p>
           </div>
 
