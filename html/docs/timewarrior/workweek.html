@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - Work Week</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -48,103 +48,88 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-        <div class="callout callout-danger">
-          <h4>Alpha</h4>
-          <p>
-            Timewarrior is currently in alpha release. There is missing functionality
-            and documentation. There are no binary packages yet.
-            Please send us feedback, to help us improve Timewarrior.
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
-      </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                    <li><a href="/docs/timewarrior/download.html">Download and build the alpha release tarball</a> (Recommended)</li>
-                    <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                    <li><a href="/docs/timewarrior/files.html">File Layout</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Work Week</h3>
+            <p>
+              Timewarrior can do more for you if it knows your work patterns.
+              Currently this means your daily work schedule. An example will make
+              this clear.
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/help.html">Getting Help</a></li>
-                    <li><a href="/docs/timewarrior/stopwatch.html">Simple Stopwatch</a></li>
-                    <li><a href="/docs/timewarrior/tags.html">Tags</a></li>
-                    <li><a href="/docs/timewarrior/backdated.html">Backdated <code>start</code>/<code>stop</code></a></li>
-                    <li>Recording closed intervals</li>
-                    <li><a href="/docs/timewarrior/continue.html">Continue</a></li>
-                    <li><a href="/docs/timewarrior/undo.html">Undo</a></li>
-                    <li><a href="/docs/timewarrior/hints.html">Hints</a></li>
-                    <li><a href="/docs/timewarrior/summary.html">Summary Report</a></li>
-                    <li><a href="/docs/timewarrior/corrections.html">Corrections</a></li>
-                    <li><a href="/docs/timewarrior/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/timewarrior/themes.html">Themes</a></li>
-                    <li><a href="/docs/timewarrior/holidays.html">Holidays</a></li>
-                    <li><a href="/docs/timewarrior/workweek.html">Work week</a></li>
-                    <li>Charts</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              Suppose it is Monday at ~3pm. You begin working on a new task, and
+              start tracking time:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/syntax.html">Command Syntax</a></li>
-                    <li><a href="/docs/timewarrior/interval.html">Syntax: Interval</a></li>
-                    <li><a href="/docs/timewarrior/dates.html">Syntax: Dates</a></li>
-                    <li><a href="/docs/timewarrior/duration.html">Syntax: Durations</a></li>
-                    <li>Syntax: Exclusions</li>
-                    <li>Command line overrides</li>
-                    <li>Taskwarrior on-modify Hook</li>
-                    <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                    <li>Extensions</li>
-                    <li>Diagnostics</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <pre>$ timew start 'Outline Talk' Conference
+Tracking Conference "Outline Talk"
+  Started 2016-06-20T15:01:24
+  Current                  24
+  Total               0:00:00</pre>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Alpha</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a></li>
-                    <li>Provide feedback</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              You work for a while, then at 5pm you leave your office.
+              On Tuesday morning you complete the outline, and stop tracking
+              time:
+            </p>
 
-          </table>
+            <pre>Recorded Conference "Outline Talk"
+  Started 2016-06-20T15:01:24
+  Ended           21T09:28:14
+  Total              18:26:50</pre>
+
+            <p>
+              Oh no, 18 and a half hours have elapsed! That's not right, because
+              you really only spent about two and a half hours working. But you
+              left the clock running all night. This is a very common problem with
+              time tracking; we are simply not good at remembering to start and
+              stop the clock.
+            </p>
+
+            <p>
+              But if you leave work at 5pm every day, and start at 9am, you can
+              capture this in Timewarrior configuration, and it will automatically
+              do the right thing. Suppose you also don't work on weekends, and
+              you take lunch on weekdays for 30 minutes at 12:30pm. Add the
+              following to your <code>~/.timewarrior/timewarrior.cfg</code>
+              configuration file, using a text editor:
+            </p>
+
+            <pre>define exclusions:
+  monday    = &lt;9:00 12:30-13:00 &gt;17:00
+  tuesday   = &lt;9:00 12:30-13:00 &gt;17:00
+  wednesday = &lt;9:00 12:30-13:00 &gt;17:00
+  thursday  = &lt;9:00 12:30-13:00 &gt;17:00
+  friday    = &lt;9:00 12:30-13:00 &gt;17:00
+  saturday  = &gt;0:00
+  sunday    = &gt;0:00</pre>
+
+            <p>
+              The indentation in the configuration file is important, so be
+              sure to match the indentation of the example. Also be sure to
+              leave a blank line before and after the settings shown.
+
+              This construct is one of the first 'rules' supported by Timewarrior.
+              So far it is really just configuration settings, but you'll notice
+              more rules, and more sophisticated rules appear as more releases are
+              made.
+            </p>
+
+            <p>
+              With your work week defined, as above, the example would be recorded
+              as only <code>2:26:50</code>, which is not only correct, but you did
+              not have to remember to stop and restart the clock.
+            </p>
+
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
     </div>
