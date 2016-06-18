@@ -73,7 +73,8 @@
             <p>
               This creates an active interval, starting one hour ago, using the tags
               <kbd>Prepare</kbd> and <kbd>Talk</kbd>. Everything about this interval
-              is wrong.
+              is wrong. The first step to correcting it is to get the ID, using the
+              <code>summary</code> command with the <code>:ids</code> hint.
             </p>
 
             <p>
@@ -81,11 +82,36 @@
             </p>
 
             <p>
+              The ID is 1, so we will use <code>@1</code> when referencing this interval.
+              Note that the most recent interval is always numbered <code>@1</code>, which
+              makes the ID numbers independent of which report you run to see them.
             </p>
 
             <p>
+              With the ID known, we can make various adjustments to the interval using
+              the following commands:
             </p>
 
+            <h4>Remove extra tags</h4>
+            <pre>$ timew untag @1 Prepare Talk</pre>
+
+            <h4>Add missing tag</h4>
+            <pre>$ timew tag @1 'Prepare Talk'</pre>
+
+            <h4>Add time to a closed interval</h4>
+            <pre>$ timew lengthen @1 20mins</pre>
+
+            <h4>Remove time from a closed interval</h4>
+            <pre>$ timew shorten @1 PT5M30S</pre>
+
+            <h4>Move any interval to a new start time</h4>
+            <pre>$ timew move @1 8:30am</pre>
+
+            <h4>Split an interval in two</h4>
+            <pre>$ timew split @1</pre>
+
+            <h4>Join two intervals together</h4>
+            <pre>$ timew join @1 @2</pre>
           </div>
 
           <br />
