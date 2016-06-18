@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - Holidays</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -48,102 +48,77 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-        <div class="callout callout-danger">
-          <h4>Alpha</h4>
-          <p>
-            Timewarrior is currently in alpha release. There is missing functionality
-            and documentation. There are no binary packages yet.
-            Please send us feedback, to help us improve Timewarrior.
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
-      </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                    <li><a href="/docs/timewarrior/download.html">Download and build the alpha release tarball</a> (Recommended)</li>
-                    <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                    <li><a href="/docs/timewarrior/files.html">File Layout</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Holidays</h3>
+            <p>
+              Timewarrior references holiday files and uses them when automatically
+              filling in tracked time.
+              Holiday files are optional, but can improve your experience.
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/help.html">Getting Help</a></li>
-                    <li><a href="/docs/timewarrior/stopwatch.html">Simple Stopwatch</a></li>
-                    <li><a href="/docs/timewarrior/tags.html">Tags</a></li>
-                    <li><a href="/docs/timewarrior/backdated.html">Backdated <code>start</code>/<code>stop</code></a></li>
-                    <li><a href="/docs/timewarrior/continue.html">Continue</a></li>
-                    <li><a href="/docs/timewarrior/undo.html">Undo</a></li>
-                    <li><a href="/docs/timewarrior/hints.html">Hints</a></li>
-                    <li><a href="/docs/timewarrior/summary.html">Summary Report</a></li>
-                    <li><a href="/docs/timewarrior/corrections.html">Corrections</a></li>
-                    <li><a href="/docs/timewarrior/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/timewarrior/themes.html">Themes</a></li>
-                    <li><a href="/docs/timewarrior/holidays.html">Holidays</a></li>
-                    <li>Work week</li>
-                    <li>Charts</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              To use a theme, you need a line added to your
+              <code>~/.timewarrior/timewarrior.cfg</code>
+              file, like this:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/syntax.html">Command Syntax</a></li>
-                    <li><a href="/docs/timewarrior/interval.html">Syntax: Interval</a></li>
-                    <li><a href="/docs/timewarrior/dates.html">Syntax: Dates</a></li>
-                    <li><a href="/docs/timewarrior/duration.html">Syntax: Durations</a></li>
-                    <li>Syntax: Exclusions</li>
-                    <li>Command line overrides</li>
-                    <li>Taskwarrior on-modify Hook</li>
-                    <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                    <li>Extensions</li>
-                    <li>Diagnostics</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <pre>import /usr/local/share/doc/timew/holidays/holidays.en-US</pre>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Alpha</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a></li>
-                    <li>Provide feedback</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              That path is platform-dependent, so yours may differ.
+            </p>
 
-          </table>
+            <h4>Updates</h4>
+            <p>
+              A script is provided, named <code>refresh</code> with the
+              holiday files. Its purpose is to update your holiday files.
+              It should be run like this to update your files:
+            </p>
+
+            <pre>$ cd /usr/local/shared/doc/timew/holidays
+$ ./refresh
+...</pre>
+
+            <p>
+              That command will refresh the data in all the holiday files in
+              that directory. This is done by downloading a JSON file from
+              <a href="http://holidata.net">http://holidata.net</a> and
+              formatting it for Timewarrior.
+            </p>
+
+            <p>
+              Holidata.net has data for
+              <a href="http://holidata.net/map.html">many locales</a>,
+              and is still growing. Please request any missing locales that
+              you need.
+            </p>
+
+            <p>
+              To add a new holiday file, simply run the <code>refresh</code>
+              script for a specific locale:
+            </p>
+
+            <pre>$ cd /usr/local/shared/doc/timew/holidays
+$ ./refresh --locale fr-FR
+...</pre>
+
+          </div>
+
+          <div class="callout callout-danger">
+            <h4>Alpha</h4>
+            <p>
+              Timewarrior alpha contains only one locale (<code>en-US</code>)
+              but there will likely be more on release.
+            </p>
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
     </div>
