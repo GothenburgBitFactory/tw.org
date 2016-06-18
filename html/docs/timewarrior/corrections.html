@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Summary</title>
+    <title>Timewarrior - Corrections</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -54,96 +54,36 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <h3>Summary</h3>
+            <h3>Corrections</h3>
             <p>
-              There is a <code>summary</code> report which shows all the
-              tracked intervals for the day, with totals of the time tracked.
-              Here is an example:
+              One of the most problematic aspects of time tracking is the constant
+              need for adjustments and corrections. It is very common to forget to
+              start or stop tracking at the right time or use the wrong tags.
             </p>
 
             <p>
-              <img src="/docs/timewarrior/images/summary1.png" class="img-responsive" />
+              Timewarrior has a set of commands that allow you to make these
+              corrections. First create a scenario that requires adjustment:
             </p>
 
             <p>
-              This report shows that there are two intervals today. The first
-              is tagged <kbd>Breakfast meeting with client ABC</kbd> and was
-              recorded as a one-hour meeting. The second interval, tagged
-              <kbd>Prepare Presentation for DEF</kbd> began at 9am and is open,
-              with no end time.
+              <img src="/docs/timewarrior/images/correction1.png" class="img-responsive" />
             </p>
 
             <p>
-              The 'Total' column has sub-totals for the day, and a grand total for
-              the time shown, which in this case is just a single day, and is the
-              same as the sub-total.
+              This creates an active interval, starting one hour ago, using the tags
+              <kbd>Prepare</kbd> and <kbd>Talk</kbd>. Everything about this interval
+              is wrong.
             </p>
 
             <p>
-              Because of the open interval, re-running the <code>summary</code>
-              command will yield a different total each time, after all, the
-              clock is still running.
-            </p>
-
-            <h3>Date Ranges</h3>
-            <p>
-              The default date range shown is for today only. This can be overridden
-              on the command line by specifying the date range. All these commands
-              are therefore the same:
-            </p>
-
-            <pre>$ timew summary
-$ timew summary today
-$ timew summary today - tomorrow
-$ timew summary today to tomorrow
-$ timew summary 2016-06-18T00:00
-$ timew summary 2016-06-18T00:00 - 2016-06-19T00:00:00
-$ timew summary 18th
-$ timew summary saturday</pre>
-
-            <p>
-              Timewarrior is very flexible about specifying intervals.
-              See the <a href="/docs/timewarrior/interval.html">interval syntax</a>
-              page for full details.
+              <img src="/docs/timewarrior/images/correction2.png" class="img-responsive" />
             </p>
 
             <p>
-              In addition there are hints that correspond to preset data ranges
-              for added convenience. Here are some of them used in this context,
-              but not matching the 'today' example above:
-            </p>
-
-            <pre>$ timew summary :yesterday
-$ timew summary :week
-$ timew summary :lastweek
-$ timew summary :month
-$ timew summary :quarter
-$ timew summary :year</pre>
-
-            <p>
-              See the <a href="/docs/timewarrior/hints.html">hints</a>
-              page for full details.
-            </p>
-
-            <h3>IDs</h3>
-            <p>
-              The <code>summary</code> report has an important feature.
-              When the <code>:ids</code> hint is used, Some <code>@id</code>
-              numbers are shown:
             </p>
 
             <p>
-              <img src="/docs/timewarrior/images/summary2.png" class="img-responsive" />
-            </p>
-
-            <p>
-              These are the <code>@id</code> numbers you use when
-              making <a href="/docs/timewarrior/corrections.html">corrections</a>.
-            </p>
-
-            <p>
-              Note that the most recent interval is always numbered <code>@1</code>, which
-              makes the ID numbers independent of which report you run to see them.
             </p>
 
           </div>
