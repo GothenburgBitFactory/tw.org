@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - Charts</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -48,103 +48,186 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-        <div class="callout callout-danger">
-          <h4>Alpha</h4>
-          <p>
-            Timewarrior is currently in alpha release. There is missing functionality
-            and documentation. There are no binary packages yet.
-            Please send us feedback, to help us improve Timewarrior.
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
-      </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                    <li><a href="/docs/timewarrior/download.html">Download and build the alpha release tarball</a> (Recommended)</li>
-                    <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                    <li><a href="/docs/timewarrior/files.html">File Layout</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Charts</h3>
+            <p>
+              Timewarrior can show simple charts in your terminal that show how your
+              day is being tracked. These are neither high-resolution, nor precise,
+              and are only intended to show a crude representation of the day.
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/help.html">Getting Help</a></li>
-                    <li><a href="/docs/timewarrior/stopwatch.html">Simple Stopwatch</a></li>
-                    <li><a href="/docs/timewarrior/tags.html">Tags</a></li>
-                    <li><a href="/docs/timewarrior/backdated.html">Backdated <code>start</code>/<code>stop</code></a></li>
-                    <li><a href="/docs/timewarrior/track.html">Recording closed intervals</a></li>
-                    <li><a href="/docs/timewarrior/continue.html">Continue</a></li>
-                    <li><a href="/docs/timewarrior/undo.html">Undo</a></li>
-                    <li><a href="/docs/timewarrior/hints.html">Hints</a></li>
-                    <li><a href="/docs/timewarrior/summary.html">Summary Report</a></li>
-                    <li><a href="/docs/timewarrior/corrections.html">Corrections</a></li>
-                    <li><a href="/docs/timewarrior/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/timewarrior/themes.html">Themes</a></li>
-                    <li><a href="/docs/timewarrior/holidays.html">Holidays</a></li>
-                    <li><a href="/docs/timewarrior/workweek.html">Work week</a></li>
-                    <li><a href="/docs/timewarrior/charts.html">Charts</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              As an example, let's do some gardening time tracking. We will add
+              an interval, then use the <code>day</code> report to represent that:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/syntax.html">Command Syntax</a></li>
-                    <li><a href="/docs/timewarrior/interval.html">Syntax: Interval</a></li>
-                    <li><a href="/docs/timewarrior/dates.html">Syntax: Dates</a></li>
-                    <li><a href="/docs/timewarrior/duration.html">Syntax: Durations</a></li>
-                    <li>Syntax: Exclusions</li>
-                    <li><a href="/docs/timewarrior/overrides.html">Command line overrides</a></li>
-                    <li>Taskwarrior on-modify Hook</li>
-                    <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                    <li><a href="/docs/timewarrior/extensions.html">Extensions</a></li>
-                    <li>Diagnostics</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              <img src="/docs/timewarrior/images/day1.png" class="img-responsive" />
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Alpha</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a></li>
-                    <li><a href="mailto:support@taskwarrior.org">Provide feedback</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              A two-hour interval was tracked for this morning. The <code>day</code>
+              report shows that as a red interval superimposed on the hours of the day.
+              The tags are displayed within red rectangle.
+            </p>
 
-          </table>
+            <p>
+              At the left you see the day is Sunday the 19th, and the date and the
+              current hour, 14, is highlighted.
+              Beneath the chart are some totals, showing that two hours are tracked,
+              22 hours remain open, for a total of 24 hours in the day.
+            </p>
+
+            <p>
+              Now we'll add another interval:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day2.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The second interval is shown in blue, and these colors are extracted
+              from a palette defined in the <a href="/docs/timewarrior/themes.html">theme</a>.
+              See how the totals are adjusted.
+              Finally we add an open interval:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day3.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The open interval, shown in green, has a <code>+</code> symbol that
+              indicates it is open and being actively tracked. If you run this report
+              periodically, you'll see the green interval grow to the right as time
+              passes.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day4.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Like the <a href="/docs/timewarrior/summary.html"><code>summary</code></a>
+              report, the <code>:ids</code> hint is supported by the <code>day</code>
+              report, for <a href="/docs/timewarrior/corrections.html">making corrections</a>.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day5.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Various command-line overrides can be used to customize the <code>day</code>
+              report. Here is an example that makes the color bars taller. For a complete
+              set of all configuration settings, use the <code>man timew</code> command
+              where the man page lists everything.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day6.png" class="img-responsive" />
+            </p>
+
+            <p>
+              This override changes how many hours are shown, from all of them, to a
+              clipped range slightly wider than the tracked hours.
+            </p>
+
+            <p>
+              The <code>day</code> report is simply an interpretation of the same data
+              shown by the <code>summary</code> report. Use the <code>summary</code>
+              report to show precise timings.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day7.png" class="img-responsive" />
+            </p>
+
+            <p>
+              If you have defined your
+              <a href="/docs/timewarrior/workweek.html">work week</a>
+              then the <code>day</code> report will show the blocked-off time, here
+              shown in gray. Notice that this affects the totals.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day8.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Now with both intervals and exlcusions, the <code>gaps</code> command
+              will tell you where the blocks of untracked time are.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day9.png" class="img-responsive" />
+            </p>
+
+            <p>
+              All reports support the <code>:blank</code> hint, which hides all data.
+              This is useful for checking that the excluded time is set up correctly.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day10.png" class="img-responsive" />
+            </p>
+
+            <p>
+              In addition to the <code>day</code> report, there is a <code>week</code>
+              report, which shows multiple days in a more compact form, for the current
+              week.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day11.png" class="img-responsive" />
+            </p>
+
+            <p>
+              There is also a <code>month</code> report. These are defined just for
+              convenience, but with a command line interval specified, the reports
+              can show any date range:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/day12.png" class="img-responsive" />
+            </p>
+
+            <p>
+              In place of specifying a date range, a hint may be used, such as:
+              <code>:yesterday</code>,
+              <code>:week</code>,
+              <code>:month</code>,
+              <code>:quarter</code>,
+              <code>:year</code>,
+              <code>:lastweek</code>,
+              <code>:lastmonth</code>,
+              <code>:lastquarter</code>, and
+              <code>:lastyear</code>.
+            </p>
+
+            <p>
+              See also how the
+              <a href="/docs/timewarrior/holidays.html">holidays</a>
+              are shown, in this case with 2016-05-30 being Memorial Day in the US.
+              The day is marked as an exclusion, and the date grayed out.
+            </p>
+
+            <p>
+              Many of the elements of the <code>day</code> report are customizable.
+              For a complete set of all configuration settings, use the
+              <code>man timew</code> command for all supoprted overrides.
+            </p>
+
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
     </div>
