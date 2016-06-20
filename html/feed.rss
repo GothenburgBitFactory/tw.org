@@ -13,7 +13,33 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat,  4 Jun 2016 14:08:00 UTC</pubDate>
+    <pubDate>Mon, 20 Jun 2016 23:41:00 UTC</pubDate>
+
+    <item>
+      <title>Timewarrior 0.9.5 Alpha Release Digest</title>
+      <link>http://taskwarrior.org/news/news.20160620.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 20 Jun 2016 23:41:00 UTC</pubDate>
+      <description>
+        <p>
+          Timewarrior 0.9.5 is in alpha! Please download and give us feedback.
+        </p>
+
+        <p>
+          Download here:<br />
+          <a href="/download/timew-0.9.5.alpha.tar.gz">timew-0.9.5.alpha.tar.gz</a><br />
+        </p>
+
+        <p>
+          Online documentation here:<br />
+          <a href="/docs/timewarrior">Timewarrior Documentation Home</a>
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - May 2016</title>
