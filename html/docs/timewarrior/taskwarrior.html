@@ -69,6 +69,15 @@
 $ chmod +x ~/.task/hooks/on-modify.timewarrior</pre>
 
             <p>
+              Once the hook is installed, run the Taskwarrior command:
+            </p>
+
+            <pre>$ task diagnostics
+...</pre>
+
+            <p>
+              This command will show whether the hook script is installed and
+              recognized. You should see something like this:
             </p>
 
             <p>
@@ -76,15 +85,12 @@ $ chmod +x ~/.task/hooks/on-modify.timewarrior</pre>
             </p>
 
             <p>
+              Whenever you <code>start</code> a task in Taskwarrior, the hook
+              script will start time tracking in Timewarrior. 
+
+              When the task is <code>stop</code>ped, or completed, the hook
+              script will stop time tracking  in Timewarrior.
             </p>
-
-            <p>
-            </p>
-
-            <p>
-            </p>
-
-
 
           </div>
 
