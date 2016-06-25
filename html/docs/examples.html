@@ -396,6 +396,29 @@ $ task +DUETODAY list</pre></td>
               </tr>
             </table>
 
+            <a name="color"></a>
+            <h4>Color</h4>
+            <p>
+            </p>
+
+            <table class="table table-condensed">
+              <tr>
+                <td width=30%>
+                  I'm using a color theme, but I don't see any colors.
+                  This is usually because your tasks do not contain due dates,
+                  priorities etc.
+                  Prove color is working with these commands.
+                </td>
+                <td><pre>$ task color
+$ task color legend</pre></td>
+              </tr>
+
+              <tr>
+                <td>When task output goes to a file or pipe, all color is lost. Force color with:</td>
+                <td><pre>$ task rc._forcecolor:on rc.defaultwidth:120 rc.detection:off ...</pre></td>
+              </tr>
+            </table>
+
             <a name="dom"></a>
             <h4>DOM</h4>
             <p>
@@ -558,6 +581,7 @@ $ task --version
             <li><a href="#virtualtags">Virtual Tags</a></li>
             <li><a href="#recur">Recurrence</a></li>
             <li><a href="#pri">Priority</a></li>
+            <li><a href="#color">Color</a></li>
             <li><a href="#dom">DOM</a></li>
             <li><a href="#config">Configuration</a></li>
             <li><a href="#misc">Miscellaneous</a></li>
