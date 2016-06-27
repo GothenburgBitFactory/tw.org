@@ -13,7 +13,34 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon, 20 Jun 2016 23:41:00 UTC</pubDate>
+    <pubDate>Mon, 27 Jun 2016 23:02:00 UTC</pubDate>
+
+    <item>
+      <title>Clog 1.3.0 Release</title>
+      <link>http://taskwarrior.org/news/news.20160627.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 27 Jun 2016 23:02:00 UTC</pubDate>
+      <description>
+        <p>
+          Clog 1.3.0 is released, with regular expression improvements, bug
+          fixes, rule precedence and overlapping match support.
+          This release is a recommended upgrade.
+        </p>
+
+        <p>
+          The release is immediately available as a source tarball
+          <a href="http://tasktools.org/download/clog-latest.tar.gz">clog-1.3.0.tar.gz</a>.
+        </p>
+
+        <p>
+          Clog has a full set of <a href="/docs/clog">online documentation</a>.
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Timewarrior 0.9.5 Alpha Release Digest</title>
