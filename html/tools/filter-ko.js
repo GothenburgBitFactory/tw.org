@@ -7,6 +7,7 @@ function Tool(data) {
     this.name = data.name;
     this.description = data.description;
     this.category = data.category;
+    this.rating = data.stars === undefined ? 1 : data.stars;
     this.url = data.url;
     this.url_src = data.url_src;
     this.license = data.license;
@@ -129,6 +130,8 @@ function ToolsViewModel() {
     // The printed tool list:
     self.filteredTools = ko.computed(
         function() {
+            sort_by_name = function (left, right) { return left.name == right.name ? 0 : (left.name.toLowerCase() < right.name.toLowerCase() ? -1 : 1) };
+            sort_by_rating = function (left, right) { return left.rating == right.rating  ? sort_by_name(left,right) : (left.rating > right.rating ? -1 : 1) };
             return self.tools().filter(
                 function (tool) {
                     var isCategoryIn = (self.CategoriesSelected().length == 0) ||  self.CategoriesSelected().includes(tool.category) ;
@@ -140,7 +143,7 @@ function ToolsViewModel() {
                             || (tool.license && tool.license.toLowerCase().indexOf( self.query().toLowerCase() ) > -1)
                             || (tool.author && tool.author.join().toLowerCase().indexOf( self.query().toLowerCase() ) > -1);
                     return (!tool.obsolete || self.ObsoleteSelected()) && isCategoryIn && isThemeIn && isLanguageIn && isAuthorIn && isQuery;
-                } ).sort(function (left, right) { return left.name == right.name ? 0 : (left.name.toLowerCase() < right.name.toLowerCase() ? -1 : 1) });
+                } ).sort(sort_by_rating);
         }
     );
 
