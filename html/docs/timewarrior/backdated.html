@@ -99,6 +99,32 @@ Recorded
   Ended              17:34:39
   Total               1:20:12
 $</pre>
+            <p>
+	      If you forgot to change your current activity in the past,
+	      you can use the <code>start</code> command with a date:
+            </p>
+            <pre>$ timew
+Tracking bar
+  Started 2016-07-03T11:00:00
+  Current            21:17:44
+  Total              10:17:44
+
+$ timew start 3hours ago foo
+Recorded bar
+  Started 2016-07-03T11:00:00
+  Ended              18:18:33
+  Total               7:18:33
+Tracking foo
+  Started 2016-07-03T18:18:33
+  Current            21:18:33
+  Total               3:00:00
+	    </pre>
+            <p>
+	      This command stops the currently tracked interval at the
+	      date/time given to the <code>start</code> command and starts
+	      the new interval at the same time, thus sparing you one
+	      <code>stop</code> command.
+            </p>
 
             <p>
               Note that unlike Taskwarrior, <code>3pm</code> refers to the most
