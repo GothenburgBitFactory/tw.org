@@ -100,6 +100,34 @@ Recorded
 There is no active time tracking.</pre>
 
             <p>
+              When you want to seamlessly switch to another activity, you
+              can invoke the <code>start</code> command while there still
+              is an activity being tracked:
+            </p>
+
+            <pre>$ timew
+Tracking "Write documentation"
+  Started 2016-07-03T22:12:28
+  Current               42:48
+  Total               0:30:20
+
+$ timew start "Proofread documentation"
+Recorded "Write documentation"
+  Started 2016-07-03T22:12:28
+  Ended                 44:26
+  Total               0:31:58
+Tracking "Proofread documentation"
+  Started 2016-07-03T22:44:26
+  Current                  26
+  Total               0:00:00</pre>
+
+            <p>
+              As you can see, the previously running activity has ended at the
+              current time/date, while the new activity has started with an
+              open interval at the same time.
+            </p>
+
+            <p>
               To see a summary of today's recorded time, use the <code>summary</code>
               command:
             </p>
