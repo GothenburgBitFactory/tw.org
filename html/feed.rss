@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taskwarrior News</title>
     <link>http://taskwarrior.org/</link>
@@ -13,7 +13,33 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon, 27 Jun 2016 23:02:00 UTC</pubDate>
+    <pubDate>Thu,  7 Jun 2016 04:44:54 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - June 2016</title>
+      <link>http://taskwarrior.org/news/news.20160707.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Thu,  7 Jun 2016 04:44:54 UTC</pubDate>
+      <description>
+        <p>
+          The main focus for June is getting
+          <a href="/docs/timewarrior/index.html">Timewarrior</a>
+          ready for an alpha, and subsequent beta release. The purpose of an alpha release is to
+          gather feedback that guides the subsequent beta release. Timewarrior
+          is a new project that introduces new concepts. This new functionality
+          needs to be refined before a beta release.
+        </p>
+
+        <p>
+          The <a href="https://bug.tasktools.org/browse/TI">Timewarrior bug tracker</a>
+          is now open for business.
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Clog 1.3.0 Release</title>
