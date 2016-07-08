@@ -111,6 +111,15 @@ $ make                               # Just build it.</pre>
 
               <pre>$ cd timew.git
 $ git checkout 1.0.0                 # Dev branch
+$ git submodule update               # Update the submodule for this branch
+$ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
+$ make VERBOSE=1                     # Shows details</pre>
+
+            <p>
+              If you do a fresh clone, the following will checkout <code>1.0.0</code>
+              immediately.
+            </p>
+              <pre>$ git clone --recursive -b 1.0.0 https://git.tasktools.org/scm/tm/timew.git
 $ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
 $ make VERBOSE=1                     # Shows details</pre>
 
