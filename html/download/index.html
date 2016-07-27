@@ -223,7 +223,15 @@ $ sudo make install</pre>
               </tr>
               <tr>
                 <td><a href="http://www.openbsd.org/cgi-bin/cvsweb/ports/productivity/taskwarrior/">OpenBSD</a></td>
-                <td><code>sudo pkg_add -i taskwarrior</code></td>
+                <td>
+                  Before 5.8
+                  <br />
+                  <code>sudo pkg_add -i taskwarrior</code>
+                  <br />
+                  Version 5.8+
+                  <br />
+                  <code>doas pkg_add -i taskwarrior</code>
+                </td>
                 <td>-</td>
               </tr>
               <tr>
