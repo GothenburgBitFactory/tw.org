@@ -52,9 +52,417 @@
         <div class="col-md-2">
         </div>
 
+        <div class="callout callout-danger">
+          <h4>Work in Progress</h4>
+          <p>
+            This document is a work in progress. Please submit suggestions for
+            improvement.
+          </p>
+        </div>
+
         <div class="col-md-10 main">
           <div class="row">
             <h3>Timewarrior Tutorial</h3>
+            <p>
+              This tutorial assumes you have installed Timewarrior.
+            </p>
+
+            <a name="setup"></a>
+            <h4>Setup</h4>
+            <p>
+              As a new Timewarrior user, there is no configuration needed. Once
+              you have installed the software, the first time you run it, a
+              data/configuration directory is created for you.
+            </p>
+
+            <pre>$ timew
+There is no active time tracking.</pre>
+
+            <p>
+              You are told that there is no active time tracking, and that's
+              right, because we've done nothing yet.
+            </p>
+
+            <pre>$ ls -1 ~/.timewarrior
+data
+extensions
+timewarrior.cfg</pre>
+
+            <p>
+              By default a <code>.timewarrior</code> directory is created in
+              your home directory, and contains a subdirectory for data, and
+              another for extensions. There is also an empty configuration file
+              created. Just like Taskwarrior, an empty configuration file means
+              we are using all the default settings. If you want to use an
+              alternate location, you can either symlink it to
+              <code>~/.timewarrior</code>, or use the <code>TIMEWARRIORDB</code>
+              environment variable to specify any location.
+            </p>
+
+            <a name="stopwatch"></a>
+            <h4>Stopwatch</h4>
+            <p>
+              The most basic tracking can be done by using hte stopwatch
+              features. This just means that you start and stop a clock, and
+              you can see the total times. You simply start the clock when you
+              being work, and stop it when you are done. First let's see if the
+              clock is running:
+            </p>
+
+            <pre>$ timew
+There is no active time tracking.</pre>
+
+            <p>
+              No it's not. You can always run timewarrior with no arguments to
+              see if the clock is running, and no data is modified. Let's start
+              the clock.
+            </p>
+
+            <pre>$ timew start
+Tracking 
+  Started 2016-07-30T14:12:09
+  Current                  09
+  Total               0:00:06</pre>
+
+            <p>
+              The clock is now running. Actually there is no clock, all that
+              happened was that the start time was recorded, so don't be
+              concerned about using system resources, as none are being used.
+              Now when check, we get a summary of the time recorded so far:
+            </p>
+
+            <pre>$ timew
+Tracking 
+  Started 2016-07-30T14:12:09
+  Current                  42
+  Total               0:00:39</pre>
+
+            <p>
+              Once our work is complete, we stop the clock, and look at the
+              summary.
+            </p>
+
+            <pre>$ timew stop
+Recorded 
+  Started 2016-07-30T14:12:09
+  Ended                 13:10
+  Total               0:01:07
+$ timew summary
+
+Wk  Date       Day Tags    Start      End    Time   Total
+--- ---------- --- ---- -------- -------- ------- -------
+W30 2016-07-30 Sat      13:54:56 13:55:02 0:00:06
+                        14:12:09 14:13:10 0:01:01 0:01:07
+                                                  -------
+                                                  0:01:07</pre>
+
+            <p>
+              The summary report shows time that was tracked today by default.
+            </p>
+
+            <p>
+There is a <code>continue</code> command that re-starts the previous tracking,
+and is useful if you stopped the clock during lunch, or overnight.
+            </p>
+
+            <pre>$ timew continue
+Tracking 
+  Started 2016-07-30T14:14:18
+  Current                  18
+  Total               0:01:07
+$ timew stop
+Recorded 
+  Started 2016-07-30T14:14:18
+  Ended                    23
+  Total               0:01:12
+$ timew summary
+
+Wk  Date       Day Tags    Start      End    Time   Total
+--- ---------- --- ---- -------- -------- ------- -------
+W30 2016-07-30 Sat      13:54:56 13:55:02 0:00:06
+                        14:12:09 14:13:10 0:01:01
+                        14:14:18 14:14:23 0:00:05 0:01:12
+                                                 --------
+                                                  0:01:12</pre>
+
+            <p>
+              See how every time the clock is started, there is a new line in
+              the <code>summary</code> report?
+            </p>
+
+            <a name="tags"></a>
+            <h4>Tags</h4>
+            <p>
+              The examples so far did not use tags. Tags are optional, but when
+              you do make use of tags, you start tracking time spent on
+              different activities.
+            </p>
+
+            <pre>$ timew start 'Using Tags' Software
+Tracking Software "Using Tags"
+  Started 2016-07-30T14:18:36
+  Current                  36
+  Total               0:00:00</pre>
+
+            <p>
+              This example is trackig time using two different tags. The first
+              is <kbd>Using Tags</kbd>, the second is <kbd>Software</kbd>.
+              The first tag is two words, and because of the space between them,
+              the quotes are needed to keep those two words together in one tag.
+              The second tag is a single word and needs no quotes.
+            </p>
+
+            <pre>$ timew stop
+Recorded Software "Using Tags"
+  Started 2016-07-30T14:18:36
+  Ended                 21:38
+  Total               0:03:02
+$ timew summary
+
+Wk  Date       Day Tags                    Start      End    Time   Total
+--- ---------- --- -------------------- -------- -------- ------- -------
+W30 2016-07-30 Sat                      13:54:56 13:55:02 0:00:06
+                                        14:12:09 14:13:10 0:01:01
+                                        14:14:18 14:14:23 0:00:05
+                   Software, Using Tags 14:18:36 14:21:38 0:03:02 0:04:14
+                                                                  -------
+                                                                  0:04:14</pre>
+
+            <p>
+              You can see that using tags is useful, but optional.
+            </p>
+
+            <p>
+              Once you are using tags, you can use them to filter reports,
+              such as the <code>summary</code> report.
+            </p>
+
+            <pre>$ timew summary Software
+
+Wk  Date       Day Tags                    Start      End    Time   Total
+--- ---------- --- -------------------- -------- -------- ------- -------
+W30 2016-07-30 Sat Software, Using Tags 14:18:36 14:21:38 0:03:02 0:03:02
+                                                                  -------
+                                                                  0:03:02</pre>
+
+            <p>
+              There is a <code>tags</code> command, which will show you all the
+              tags you have used.
+            </p>
+
+            <pre>$ timew tags
+
+Tag        Description
+---------- -----------
+Software   -
+Using Tags -</pre>
+
+            <a name="help"></a>
+            <h4>Help</h4>
+            <p>
+              Although we have just begun, it is important to mention the
+              built-in help system. Let's look at the help for the
+              <code>continue</code> command.
+            </p>
+
+            <pre>$ timew help continue
+
+Syntax: timew continue
+
+Resumes tracking the most recently closed interval. For exqample:
+
+  $ timew track 9am - 5pm tag1 tag2
+  $ timew continue
+
+The 'continue' command creates a new interval, starting now, and using the tags
+'tag1' and 'tag2'.
+
+This command is a convenient way to resume work without re-entering the tags.
+
+See also 'start', 'stop'.</pre>
+
+            <p>
+              You can see that the help system contains examples, and introduces
+              new commands and other help topics. From the help text, we learn
+              that the <code>continue</code> command will not only resume tracking
+              but use the same set of tags.
+            </p>
+
+            <p>
+              In addition to the built-in help, there is a man page which
+              contains the same information plus a lot more.
+            </p>
+
+            <pre>$ man timew
+...</pre>
+
+            <a name="historical"></a>
+            <h4>Historical</h4>
+            <p>
+              We have seen how to use the stopwatch feature, and combine it with
+              tags. Additionally we can record time <i>ex post facto</i>. So to
+              track time I spent earlier in the day (but forgot to record), I use
+              the <code>track</code> command.
+            </p>
+
+            <pre>$ timew track 9:00 - 11:00 'Outline the tutorial topics'
+Recorded "Outline the tutorial topics"
+  Started 2016-07-30T09:00:00
+  Ended              11:00:00
+  Total               2:00:00</pre>
+
+            <p>
+              When Timewarrior sees a time like <code>9:00</code> it always
+              assumes it is in the past, because Timewarrior is all about
+              recording in the past, and is not a forward-looking planning tool.
+              This is the opposite of Taskwarrior, which always looks forward,
+              because tasks are generally going to be completed in the future.
+            </p>
+
+            <p>
+              There are other ways to specify time in the past, for example:
+            </p>
+
+            <pre>$ timew track 9am for 2h 'Outline the tutorial topics'
+$ timew track 9am to 11am 'Outline the tutorial topics'
+$ timew track 2h before 11am 'Outline the tutorial topics'
+</pre>
+
+            <p>
+              And there are more, which can be see in the help system.
+            </p>
+
+            <pre>$ timew help interval
+
+An interval defines a block of time that is tracked. The syntax for specifying
+an interval is flexible, and may be one of:
+
+  [from] <date>
+  [from] <date> to/- <date>
+  [from] <date> for <duration>
+  <duration> before/after <date>
+  <duration> ago
+  [for] <duration>
+
+Examples are:
+
+  from 9:00
+  from 9am - 11am
+  from 9:00:00 to 11:00
+  from 9:00 for 2h
+  2h after 9am
+  2h before 11:00
+  2h ago
+  for 2h
+
+An interval is said to be 'closed' if there is both a start and end, and 'open'
+if there is no end date.</pre>
+
+            <p>
+              In addition to time, you can specify date and time, so one
+              equivalent command would use an ISO datetime.
+            </p>
+
+            <pre>$ timew track 2016-07-30T09:00:00 - 2016-07-30T11:00:00 'Outline the tutorial topics'</pre>
+
+            <p>
+              Again, you can see all the date formats listed using the help
+              system.
+            </p>
+
+            <pre>$ timew help date
+...</pre>
+
+            <p>
+              Using date synonyms you can track time for a whole month.
+            </p>
+
+            <pre>$ timew track june - july Training
+...</pre>
+
+            <p>
+              But that command will track all 30 days, all 24 hours each in June,
+              including weekends, holidays and lunch breaks. Or does it? This
+              is discussed later.
+            </p>
+
+            <a name="hints"></a>
+            <h4>Hints</h4>
+
+            <a name="charts"></a>
+            <h4>Charts</h4>
+
+            <a name="reports"></a>
+            <h4>Reports</h4>
+
+            <a name="themes"></a>
+            <h4>Themes</h4>
+
+            <a name="holidays"></a>
+            <h4>Holidays</h4>
+
+            <a name="exclusions"></a>
+            <h4>Exclusions</h4>
+
+            <p>
+            </p>
+
+            <p>
+            </p>
+
+            <p>
+            </p>
+
+<!--
+
+Historical
+    timew start <date>
+    timew track <date> - <date>
+    timew summary
+    timew day
+    timew week
+    timew month
+    timew day monday - thursday
+    timew week january - march
+Corrections
+    timew tag
+    timew untag
+    timew move
+    timew shorten
+    timew lengthen
+    timew split
+    timew join
+    timew gaps
+  Fill
+    timew start :fill
+    timew track :fill
+  Export
+    timew export
+  Hook Integration with Taskwarrior
+    ln -s ...
+    task start
+    timew
+    task done
+    timew
+    timew summary
+
+
+
+
+-->
+
+            <p>
+            </p>
+
+            <p>
+            </p>
+
+            <p>
+            </p>
+
+            <p>
+            </p>
+
             <p>
             </p>
 
@@ -65,6 +473,24 @@
 
           <br />
           <br />
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a href="#setup">Setup</a></li>
+            <li><a href="#stopwatch">Stopwatch</a></li>
+            <li><a href="#tags">Tags</a></li>
+            <li><a href="#help">Help</a></li>
+            <li><a href="#historical">Historical</a></li>
+            <li><a href="#hints">Hints</a></li>
+            <li><a href="#charts">Charts</a></li>
+            <li><a href="#reports">Reports</a></li>
+            <li><a href="#themes">Themes</a></li>
+            <li><a href="#holidays">Holidays</a></li>
+            <li><a href="#exclusions">Exclusions</a></li>
+          </ul>
         </div>
       </div>
     </div>
