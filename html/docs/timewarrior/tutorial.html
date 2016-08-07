@@ -52,7 +52,7 @@
         <div class="col-md-2">
         </div>
 
-        <div class="callout callout-danger">
+        <div class="callout callout-info">
           <h4>Work in Progress</h4>
           <p>
             This document is a work in progress. Please submit suggestions for
@@ -67,6 +67,11 @@
               This tutorial assumes you have installed Timewarrior.
               If not, follow these
               <a href="/docs/timewarrior/download.html">download and build instructions</a>.
+
+              This is a lengthy and detailed tutorial. If you wish to learn about
+              Timewarrior in depth, this is the place.  If you prefer your
+              information in smaller pieces, use the
+              <a href="/docs/timewarrior/index.html">online docs</a>.
             </p>
 
             <a name="setup"></a>
@@ -123,7 +128,7 @@ There is no active time tracking.</pre>
             </p>
 
             <pre>$ timew start
-Tracking 
+Tracking
   Started 2016-07-30T14:12:09
   Current                  09
   Total               0:00:06</pre>
@@ -136,7 +141,7 @@ Tracking
             </p>
 
             <pre>$ timew
-Tracking 
+Tracking
   Started 2016-07-30T14:12:09
   Current                  42
   Total               0:00:39</pre>
@@ -147,7 +152,7 @@ Tracking
             </p>
 
             <pre>$ timew stop
-Recorded 
+Recorded
   Started 2016-07-30T14:12:09
   Ended                 13:10
   Total               0:01:07
@@ -171,12 +176,12 @@ W30 2016-07-30 Sat      13:54:56 13:55:02 0:00:06
             </p>
 
             <pre>$ timew continue
-Tracking 
+Tracking
   Started 2016-07-30T14:14:18
   Current                  18
   Total               0:01:07
 $ timew stop
-Recorded 
+Recorded
   Started 2016-07-30T14:14:18
   Ended                    23
   Total               0:01:12
@@ -535,7 +540,7 @@ Sat  6 0    1    2    3    4    5    6    7    8  Research              1Researc
               A better option is to use the <code>week</code> report.
             </p>
 
-            <pre>$ timew week 
+            <pre>$ timew week
 
            0    1    2    3    4    5    6    7    8    9    10   11   12   13   14   15   16   17   18   19   20   21   22   23     Total
 W31 Mon  1                                                                                                                        
@@ -1007,94 +1012,202 @@ W31 2016-08-07 Sun projectA   8:30:00 10:00:00 1:30:00
               commands.  See <code>man timew</code> for full details.
             </p>
 
-            <p>
-              Timewarrior is a new product, and although it have been used for
-              some time, it doesn't yet have the thousands of hours needed to
-              refine the workflow, and identify missing capabilities. So while
-              there is a varied command set now, future releases will streamline
-              these, and reduce friction, making the future Timewarrior easier
-              to use and more capable. For example, is it useful to take an
-              interval from Friday and move it to Thursday, re-flowing all the
-              other Thursday tracked intervals around the new interval? We're
-              not sure that's worth adding, but we are sure that with time, more
-              users and feedback, we'll find out.
-            </p>
-
             <a name="extensions"></a>
             <h4>Extensions</h4>
             <p>
+              Timewarrior reports are not sophisticated, they are minimally
+              functional and focus on simply displaying the data. What if you
+              need a report broken down by tags, with weekly subtotals?
+            </p>
+
+            <p>
+              Timewarrior supports extension reports, via the
+              <a href="/docs/timewarrior/api.html">extension API</a>.
+              This is mechanism that allows you to write a report using any
+              language you choose. Don't like the way the summary report shows
+              the data? Write your own. Better yet, share the result, and we'll
+              build a list of 3rd party reports.
+            </p>
+
+            <p>
+              We've included one extension report with Timewarrior, and will add
+              more. The one provided is:
+            </p>
+
+            <pre>/usr/local/share/doc/timew/ext/totals.py</pre>
+
+            <p>
+              Again, that path is platform-dependent, so use the appropriate path
+              for your system.
+
+              Note that this is a Python script, and to use this you'll need to
+              have Python installed.
+            </p>
+
+            <p>
+              To install and use this extension, or any other, simply copy it
+              to your <code>~/.timewarrior/extensions</code> directory and make
+              sure it is executable.
+            </p>
+
+            <pre>$ cp /usr/local/share/doc/timew/ext/totals.py ~/.timewarrior/extensions
+$ chmod +x ~/.timewarrior/extensions/totals.py
+$</pre>
+
+            <div class="callout callout-danger">
+              <h4>Caution</h4>
+              <p>
+                <b>Extensions are dangerous things</b>.
+                As with any downloaded program, be careful - you are giving
+                execute permission to software that may harm you.
+              </p>
+
+              <p>
+                Fortunately this is the world of open source, and while that does
+                not mean the software is safe, it does mean you have the
+                necessary access to audit the code and prove it is safe.
+
+                If you find the code safe, use it.
+                If you are unsure, don't.
+              </p>
+            </div>
+
+            <p>
+              Once the extension is in the <code>extensions</code> directory, and
+              executable, it should be visible to the <code>extensions</code>
+              command.
+            </p>
+
+            <pre>$ timew extensions
+
+Extensions located in:
+  ~/.timewarrior/extensions
+
+Extension Status
+--------- ------
+totals.py Active
+</pre>
+
+            <p>
+              Additionally, the <code>diagnostics</code> command will report the
+              presence and status of this extension.
+            </p>
+
+            <p>
+              Once an extension is ready to use, it is used in the same way that
+              the <code>summary</code> report is used, with date range and/or
+              tag filtering. The command you use is compared to the name of the
+              script, and if unique, is a match. All of these commands are
+              equivalent:
+            </p>
+
+            <pre>$ timew totals.py
+$ timew totals.p
+$ timew totals.
+$ timew totals
+$ timew total</pre>
+
+            <p>
+              Here is the report run with no filter, and therefore against all
+              recorded data, which is not much in this example.
+            </p>
+
+            <pre>$ timew totals
+
+Total by Tag, for 2016-08-07 12:30:00 - 2016-08-07 22:00:08
+
+Tag            Total
+--------- ----------
+projectA     1:30:00
+projectB1    0:30:00
+projectB2    0:30:00
+projectC     7:00:08
+          ----------
+Total        9:30:08</pre>
+
+            <p>
+              Extensions are not restricted to emitting text, they could for
+              example output HTML, DOT, PDF, PNG, JPEG ...
             </p>
 
             <a name="integration"></a>
             <h4>Integration</h4>
-
             <p>
+              Timewarrior integrates with Taskwarrior by means of a Taskwarrior
+              <code>on-modify</code> hook script. Once installed, this means that
+              whenever a task is active, Timewarrior is used to track the time.
             </p>
 
             <p>
+              To install the script, copy it into your Taskwarrior directory:
+            </p>
+
+            <pre>$ cp /usr/local/share/doc/timew/ext/on-modify.timewarrior ~/.task/hooks
+$ chmod +x ~/.task/hooks/on-modify.timewarrior
+$</pre>
+
+            <p>
+              Again, that path is platform-dependent, so use the appropriate path
+              for your system.
             </p>
 
             <p>
+              Now we can create a task, start it, complete it and automatically
+              track it.
+            </p>
+
+            <pre>$ task add 'Investigate Timewarrior' +software
+Created task 174.
+
+$ task 174 start
+Starting task dd579892 'Investigate Timewarrior'.
+Started 1 task.
+Tracking "Investigate Timewarrior" software
+  Started 2016-08-07T18:14:59
+  Current                  59
+  Total               0:00:00
+$
+$
+$
+$ task 174 done
+Completed task dd579892 'Investigate Timewarrior'.
+Completed 1 task.
+Recorded "Investigate Timewarrior" software
+  Started 2016-08-07T18:14:59
+  Ended                 15:09
+  Total               0:00:10
+$
+$ timew summary
+
+Wk  Date       Day Tags                                 Start      End    Time   Total
+--- ---------- --- --------------------------------- -------- -------- ------- -------
+W31 2016-08-07 Sun projectA                           8:30:00 10:00:00 1:30:00
+                   projectB1                         10:00:00 10:30:00 0:30:00
+                   projectB2                         10:30:00 11:00:00 0:30:00
+                   projectC                          11:00:00 18:14:11 7:14:11
+                   Investigate Timewarrior, software 18:14:59 18:15:09 0:00:10 9:44:21
+                                                                               -------
+                                                                               9:44:21</pre>
+
+            <p>
+              The <code>on-modify.timewarrior</code> hook script captures the
+              task description and all tags and passes these to Timewarrior as
+              tags. If a project was assigned (it was not in this example) then
+              it too would have been passed as a tag.
             </p>
 
             <p>
+              Is this behavior modifiable?  Yes, this is open source, and the
+              hook script is written in Python.
             </p>
 
-<!--
-
-Historical
-    timew start <date>
-    timew track <date> - <date>
-    timew summary
-    timew day
-    timew week
-    timew month
-    timew day monday - thursday
-    timew week january - march
-Corrections
-    timew tag
-    timew untag
-    timew move
-    timew shorten
-    timew lengthen
-    timew split
-    timew join
-    timew gaps
-  Fill
-    timew start :fill
-    timew track :fill
-  Export
-    timew export
-  Hook Integration with Taskwarrior
-    ln -s ...
-    task start
-    timew
-    task done
-    timew
-    timew summary
-  DOM
-    timew get ...
-
--->
-
+            <h4>End</h4>
             <p>
+              You've made it to the end of the tutorial. You now know more
+              about Timewarrior than most users. If you have feedback, we are
+              interested in hearing it, because open source is a collaborative
+              effort, and you are part of that.
             </p>
-
-            <p>
-            </p>
-
-            <p>
-            </p>
-
-            <p>
-            </p>
-
-            <p>
-            </p>
-
-            <p>
-            </p>
-
           </div>
 
           <br />
