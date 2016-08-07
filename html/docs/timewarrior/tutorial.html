@@ -246,9 +246,6 @@ W30 2016-07-30 Sat                      13:54:56 13:55:02 0:00:06
 
             <p>
               You can see that using tags is useful, but optional.
-            </p>
-
-            <p>
               Once you are using tags, you can use them to filter reports,
               such as the <code>summary</code> report.
             </p>
@@ -272,6 +269,19 @@ Tag        Description
 ---------- -----------
 Software   -
 Using Tags -</pre>
+
+            <p>
+              You may wonder how is that 'Description' column in the report used?
+              It is the first example of tag metadata, which you can configure.
+            </p>
+
+            <pre>$ timew config tags.Software.description 'Learning about new software'
+...</pre>
+
+            <p>
+              This is not currently used, but does represent how Timewarrior
+              will be extended to include tag metadata in future releases.
+            </p>
 
             <a name="help"></a>
             <h4>Help</h4>
