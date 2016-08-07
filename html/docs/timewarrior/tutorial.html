@@ -625,13 +625,83 @@ $ timew gaps
 
             <a name="exclusions"></a>
             <h4>Exclusions</h4>
+            <p>
+              Exclusions are a very powerful Timewarrior feature, and make
+              automatic time tracking possible. An exclusion - much like a
+              holiday - represents a block of time where you do not expect to
+              work.
+            </p>
+
+            <p>
+              The simplest exclusion is a day off work. Suppose you took a day
+              off, on August 4th. You can define this day as an exclusion.
+            </p>
+
+            <pre>$ timew config exclusions.days.2016_08_04 off :yes
+$</pre>
+
+            <p>
+              The date must be formatted in this precise way. Note the use of the
+              <code>:yes</code> hint to override confirmation.
+              Now we see on the <code>week</code> report that the day is marked
+              as non-working.
+            </p>
+
+            <pre>$ timew week
+...</pre>
+
+            <p>
+              Similarly, if you worked on a holiday, you can define that day as
+              a work day, and therefore available for automatic tracking.
+            </p>
+
+            <pre>$ timew config exclusions.days.2016_01_01 on :yes
+$</pre>
+
+            <p>
+              Here we have (re)defined January 1st as a working day, which was
+              previously defined as a holiday in the <code>en-US</code> locale.
+            </p>
+
+            <p>
+              In addition to whole days working or not working, you can define
+              exclusions for each day of the week to represent your work
+              schedule. Suppose you work a regular weekly schedule, that starts
+              at 8:30am, Monday to Friday, with weekends off. You take a
+              45-minute lunch break each day, and leave work at 5:30pm. On
+              Fridays you leave early.
+            </p>
+
+            <pre>$ timew config exclusions.monday    '<8:30 12:30-13:15 >17:30' :yes
+$ timew config exclusions.tuesday   '<8:30 12:30-13:15 >17:30' :yes
+$ timew config exclusions.wednesday '<8:30 12:30-13:15 >17:30' :yes
+$ timew config exclusions.thursday  '<8:30 12:30-13:15 >17:30' :yes
+$ timew config exclusions.friday    '<8:30 12:30-13:15 >16:30' :yes
+$ timew config exclusions.saturday  '>0:00'                    :yes
+$ timew config exclusions.sunday    '>0:00'                    :yes
+</pre>
+
+            <p>
+              You can view this in the <code>week</code> report, and here we
+              will use the <code>:blank</code> hint to remove all the tracked
+              data from the report, leaving only the exclusions.
+            </p>
+
+            <pre>$ timew week :blank
+...</pre>
+
+            <p>
+              Your whole work week is defined. While you are not at all
+              constrained by this defined schedule, it does control automatic
+              time tracking. Let's discuss that now.
+            </p>
+
 
             <p>
             </p>
 
             <a name="extensions"></a>
             <h4>Extensions</h4>
-
             <p>
             </p>
 
