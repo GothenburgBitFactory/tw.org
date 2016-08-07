@@ -785,8 +785,239 @@ W31 Mon  1                                           Research                Res
               is an open interval.
             </p>
 
+            <a name="corrections"></a>
+            <h4>Corrections</h4>
+            <p>
+              With or without the use of <a href="#exclusions">exclusions</a>,
+              there is always the need to make corrections to the tracked time.
+              As mentioned earlier, it is quite likely that the clock would be
+              left running by mistake, or that the tracking was started or
+              stopped at the wrong time. We will create some incorrect time
+              tracking, and then correct it.
+            </p>
+
+            <pre>$ timew track 9am - 10am ProjectA
+...
+$ timew track 10:12am - 10:30am projectB
+...
+$ timew start 12pm projectC
+...
+$ timew summary
+
+Wk  Date       Day Tags        Start      End    Time   Total
+--- ---------- --- -------- -------- -------- ------- -------
+W31 2016-08-07 Sun projectA  9:00:00 10:00:00 1:00:00
+                   projectB 10:12:00 10:30:00 0:18:00
+                   projectC 12:00:00        - 1:01:39 2:19:39
+                                                      -------
+                                                      2:19:39
+</pre>
 
             <p>
+              I actually started work at 8:30am, but forgot to start the clock
+              at the beginning. I also did not take a break at 10am, I again
+              forgot to start the clock. Then I was working on projectC since
+              about 11am, but didn't record it properly.
+            </p>
+
+            <p>
+              These are typical mistakes, and are easy to fix, as there are
+              several commands for making adjustments like this.
+            </p>
+
+            <p>
+              To make an adjustment to an interval, we need first to identify
+              that interval. The <code>summary</code>, <code>day</code>,
+              <code>week</code> and <code>month</code> reports all support the
+              <code>:ids</code> hint for this purpose. If we take a look at the
+              <code>summary</code> report with the hint:
+            </p>
+
+            <pre>$ timew summary :ids
+
+Wk  Date       Day ID Tags        Start      End    Time   Total
+--- ---------- --- -- -------- -------- -------- ------- -------
+W31 2016-08-07 Sun @3 projectA  9:00:00 10:00:00 1:00:00
+                   @2 projectB 10:12:00 10:30:00 0:18:00
+                   @1 projectC 12:00:00        - 1:02:33 2:20:33
+                                                         -------
+                                                         2:20:33</pre>
+
+            <p>
+              Notice how the intervals now have IDs: <code>@3</code> for the
+              oldest interval. Let's make some corrections:
+            </p>
+
+            <pre>$ timew move @3 8:30am
+Moved @3 to 2016-08-07T08:30:00
+$ timew lengthen @3 30mins
+Lengthened @3 by 0:30:00
+$ timew move @1 11:00
+Moved @1 to 2016-08-07T11:00:00
+$
+$ timew summary :ids
+
+Wk  Date       Day ID Tags        Start      End    Time   Total
+--- ---------- --- -- -------- -------- -------- ------- -------
+W31 2016-08-07 Sun @3 projectA  8:30:00 10:00:00 1:30:00
+                   @2 projectB 10:12:00 10:30:00 0:18:00
+                   @1 projectC 11:00:00        - 2:05:42 3:53:42
+                                                         -------
+                                                         3:53:42</pre>
+
+            <p>
+              There is still a problem, interval <code>@2</code> needs to occupy
+              the slot between 10am and 11am. There is a <code>:fill</code> hint
+              that does this for us.
+            </p>
+
+            <pre>$ timew @2 move 10:02 :fill
+Backfilled @2 to 2016-08-07T10:00:00
+Filled @2 to 2016-08-07T11:00:00
+Moved @2 to 2016-08-07T10:00:00
+$ timew summary
+
+Wk  Date       Day Tags        Start      End    Time   Total
+--- ---------- --- -------- -------- -------- ------- -------
+W31 2016-08-07 Sun projectA  8:30:00 10:00:00 1:30:00
+                   projectB 10:00:00 11:00:00 1:00:00
+                   projectC 11:00:00        - 2:13:28 4:43:28
+                                                      -------
+                                                      4:43:28</pre>
+
+            <p>
+              The <code>@1</code> ID always represents the newest interval.
+              Note that if my corrections have changes the order, then the IDs
+              would be different, and you would need to run
+              <code>timew summary :ids</code> again to see the new IDs.
+            </p>
+
+            <p>
+              Finally, I actually stopped for lunch at 12:30 for 45 minutes:
+            </p>
+
+            <pre>$ timew stop 12:30pm
+Recorded projectC
+  Started 2016-08-07T11:00:00
+  Ended              12:30:00
+  Total               1:30:00
+$ timew continue
+Tracking projectC
+  Started 2016-08-07T13:17:33
+  Current                  33
+  Total               1:30:00
+$ timew summary
+
+Wk  Date       Day Tags        Start      End    Time   Total
+W31 2016-08-07 Sun projectA  8:30:00 10:00:00 1:30:00
+                   projectB 10:00:00 11:00:00 1:00:00
+                   projectC 11:00:00 12:30:00 1:30:00
+                   projectC 13:17:33        - 0:00:04 4:00:04
+                                                      -------
+                                                      4:00:04
+
+$ timew move @1 1:15pm
+Moved @1 to 2016-08-07T13:15:00</pre>
+
+            <p>
+              Let's keep going, even though this example has already exceeded
+              credibility, to demonstrate more. I need to change that
+              <kbd>projectB</kbd> interval to use <kbd>projectB1</kbd> and
+              <kbd>projectB2</kbd> tags, and divide the time between the two.
+              We will split the interval, the re-tag it.
+            </p>
+
+            <pre>$ timew summary :ids
+
+Wk  Date       Day ID Tags        Start      End    Time   Total
+--- ---------- --- -- -------- -------- -------- ------- -------
+W31 2016-08-07 Sun @4 projectA  8:30:00 10:00:00 1:30:00
+                   @3 projectB 10:00:00 11:00:00 1:00:00
+                   @2 projectC 11:00:00 12:30:00 1:30:00
+                   @1 projectC 13:15:00        - 0:08:36 4:08:36
+                                                         -------
+                                                         4:08:36
+
+$ timew @3 split
+Split @3
+$ timew summary :ids
+
+Wk  Date       Day ID Tags        Start      End    Time   Total
+--- ---------- --- -- -------- -------- -------- ------- -------
+W31 2016-08-07 Sun @5 projectA  8:30:00 10:00:00 1:30:00
+                   @4 projectB 10:00:00 10:30:00 0:30:00
+                   @3 projectB 10:30:00 11:00:00 0:30:00
+                   @2 projectC 11:00:00 12:30:00 1:30:00
+                   @1 projectC 13:15:00        - 0:08:48 4:08:48
+                                                         -------
+                                                         4:08:48
+
+$ timew untag @4 @3 projectB
+Removed projectB from @4
+Removed projectB from @3
+$ timew tag @4 projectB1
+Added projectB1 to @4
+$ timew tag @3 projectB2
+Added projectB2 to @3
+$ timew summary :ids
+
+Wk  Date       Day ID Tags         Start      End    Time   Total
+--- ---------- --- -- --------- -------- -------- ------- -------
+W31 2016-08-07 Sun @5 projectA   8:30:00 10:00:00 1:30:00
+                   @4 projectB1 10:00:00 10:30:00 0:30:00
+                   @3 projectB2 10:30:00 11:00:00 0:30:00
+                   @2 projectC  11:00:00 12:30:00 1:30:00
+                   @1 projectC  13:15:00        - 0:12:35 4:12:35
+                                                          -------
+                                                          4:12:35</pre>
+
+            <p>
+              Notice how the <code>split</code> command just divided
+              <code>@3</code> into two even-sized intervals. But we're still
+              not done - I brought lunch to work and ate at my desk while
+              working so let's eliminate that lunch break.
+            </p>
+
+            <pre>$ timew join @2 @1
+Joined @2 and @1
+$ timew summary
+
+Wk  Date       Day Tags         Start      End    Time   Total
+--- ---------- --- --------- -------- -------- ------- -------
+W31 2016-08-07 Sun projectA   8:30:00 10:00:00 1:30:00
+                   projectB1 10:00:00 10:30:00 0:30:00
+                   projectB2 10:30:00 11:00:00 0:30:00
+                   projectC  11:00:00        - 2:32:58 5:02:58
+                                                       -------
+                                                       5:02:58</pre>
+
+            <p>
+              Now whether this report now accurately represents your day, or
+              whether it is a fiction you need to report (no judgement here),
+              Timewarrior supports it, but let's stop - the example can't take
+              much more.
+            </p>
+
+            <p>
+              We saw the <code>stop</code> command with a specific end time,
+              the <code>move</code>, the <code>lengthen</code>, <code>split</code>,
+              <code>join</code>, <code>tag</code> and <code>untag</code> commands
+              and the <code>:fill</code> hint being used. There are also the
+              <code>shorten</code>, <code>cancel</code>, and <code>delete</code>
+              commands.  See <code>man timew</code> for full details.
+            </p>
+
+            <p>
+              Timewarrior is a new product, and although it have been used for
+              some time, it doesn't yet have the thousands of hours needed to
+              refine the workflow, and identify missing capabilities. So while
+              there is a varied command set now, future releases will streamline
+              these, and reduce friction, making the future Timewarrior easier
+              to use and more capable. For example, is it useful to take an
+              interval from Friday and move it to Thursday, re-flowing all the
+              other Thursday tracked intervals around the new interval? We're
+              not sure that's worth adding, but we are sure that with time, more
+              users and feedback, we'll find out.
             </p>
 
             <a name="extensions"></a>
@@ -886,6 +1117,7 @@ Corrections
             <li><a href="#holidays">Holidays</a></li>
             <li><a href="#exclusions">Exclusions</a></li>
             <li><a href="#automatic">Automatic Tracking</a></li>
+            <li><a href="#corrections">Corrections</a></li>
             <li><a href="#extensions">Extensions</a></li>
             <li><a href="#integration">Integration</a></li>
           </ul>
