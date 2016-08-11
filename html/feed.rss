@@ -13,7 +13,23 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon, 25 Jul 2016 22:00:00 UTC</pubDate>
+    <pubDate>Thu, 10 Jul 2016 01:46:54 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - July 2016</title>
+      <link>http://taskwarrior.org/news/news.20160810.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Thu, 10 Jul 2016 01:46:54 UTC</pubDate>
+      <description>
+        <p>
+          July was spent mostly getting Timewarrior ready for beta.
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Timewarrior 1.0.0 Beta Release</title>
