@@ -80,16 +80,35 @@
               This is an example of the <code>name : value</code> form for
               specifying attribute values. This filter shows that there are 38
               pending tasks, and therefore 62 that are not pending in some way.
-              This form of filter works for other attributes:
+              This form of filter also works for other attributes:
             </p>
 
             <pre>$ task project:Home count
 19</pre>
 
             <p>
-              There are 19 tasks in the 'Home' project. In addition to this
-              form, there are others that allow different filtering. Here are
-              two examples, filtering on the presence and absence of a tag.
+              There are 19 tasks in the 'Home' project.
+            </p>
+
+            <p>
+              The <code>value</code> parameter can be left empty in order to
+              match only the items that do not have a value of the relevant kind
+              assigned to them. For example, you can count the tasks that are not
+              assigned to any project, like this:
+            </p>
+
+            <pre>$ task project: count
+81</pre>
+
+            <p>
+              In this example, we can see that the tasks not assigned 'Home'
+              project have not yet been assigned to any project at all.
+            </p>
+
+            <p>
+              Taskwarrior has other filters besides <code>name : value</code>
+              filters. Here are two examples, filtering on the presence and
+              absence of a tag.
             </p>
 
             <pre>$ task +work count
