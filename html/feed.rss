@@ -13,7 +13,29 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 13 Aug 2016 14:04:00 UTC</pubDate>
+    <pubDate>Sun, 21 Aug 2016 14:40:00 UTC</pubDate>
+
+    <item>
+      <title>Timewarrior 1.0.0 Released</title>
+      <link>http://taskwarrior.org/news/news.20160821.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 21 Aug 2016 14:40:00 UTC</pubDate>
+      <description>
+        <p>
+          Timewarrior 1.0.0 is released. Timewarrior tracks your time from
+          the command line, and generates reports. Your data is stored locally
+          in clear text. Integrates with Taskwarrior.
+        </p>
+
+        <p>
+          <img src="/news/images/ti.png" class="img-responsive" />
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>FrOSCon 2016 - Taskwarrior Coverage</title>
