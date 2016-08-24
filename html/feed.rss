@@ -13,7 +13,29 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sun, 21 Aug 2016 14:40:00 UTC</pubDate>
+    <pubDate>Wed, 24 Aug 2016 03:09:00 UTC</pubDate>
+
+    <item>
+      <title>FrOSCon 2016 Materials Online</title>
+      <link>http://taskwarrior.org/news/news.20160824.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 24 Aug 2016 03:09:00 UTC</pubDate>
+      <description>
+        <p>
+          <img src="/news/images/froscon.jpg" class="img-responsive" />
+          <small>Photo: <a href="https://twitter.com/svijee">Sujeevan Vijayakumaran</a></small>
+        </p>
+
+        <p>
+          Materials presented by <a href="https://www.deimeke.net/dirk/blog/">Dirk Deimeke</a> at
+          <a href="https://www.froscon.de/">FrOSCon 2016</a> are now online, as promised:
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Timewarrior 1.0.0 Released</title>
