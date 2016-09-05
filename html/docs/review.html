@@ -62,34 +62,36 @@
             </p>
 
             <p>
-              Reviewing your tasks is important. It is not only important that
-              you work on the more urgent tasks first, but also that your list
+              Reviewing your task list is important because you need to make sure
+              you work on the more urgent tasks first, and also make sure your list
               is up to date. Only with accurate metadata (due dates, priorities ...)
               will your task list reflect real world needs.
 
               Periodic review will help you maintain the right due dates, priorities,
-              dependencies, tags, project assignments and so on.
+              dependencies, tags, project assignments and so on, while removing
+              tasks that are no longer needed.
+            </p>
+
+            <p>
+              Here is a quick demo of the review feature:
+            </p>
+
+            <p>
+              <script type="text/javascript" src="https://asciinema.org/a/84844.js" id="asciicast-84844" async></script>
             </p>
 
             <a name="how"></a>
             <h4>How it Works</h4>
             <p>
-              Ideally you would review your tasks on a regular basis, for example
-              once a week. The actual frequency with which you review may be
-              different, and you may find that a weekly review is too frequent.
-              If every week you find yourself making no changes to the tasks,
-              then perhaps you should be reviewing less frequently - every two
-              weeks, for example.
+              Ideally you would review your task list reguarly, once a week.
+              If you find yourself making no changes to the tasks, perhaps you
+              should review less often. The goal is for the review process to
+              be effective at cleaning up the list, but not a burden, or a waste
+              of time.
             </p>
 
             <p>
-              If you find yourself making a few adjustments once a week, then
-              this is exactly what the review is for. Reviewing more often than
-              weekly would likely be a waste of time.
-            </p>
-
-            <p>
-              Tasksh implements review by creating a Taskwarrior report just for
+              Tasksh implements the review by creating a Taskwarrior report just for
               this purpose. It is named <code>_reviewed</code> and simply lists
               the UUID values of tasks that need to be reviewed. This report then
               drives an interactive session where you go through that list of
@@ -110,8 +112,8 @@
               The combination of the <code>reviewed</code> timestamp, and the
               <code>_reviewed</code> report means that if you were to review all
               your tasks today, then immediately performing another review would
-              have nothing to do. After a week has passed, you will be able to
-              review all the tasks again.
+              yields no tasks to review. After a week has passed, you will be
+              able to review all the tasks again.
             </p>
 
             <p>
@@ -151,7 +153,9 @@ report._reviewed.sort        reviewed+,modified+</pre>
               commands, followed by a prompt:
             </p>
 
-            <pre>$ tasksh 1.1.0
+            <pre>$ tasksh
+
+tasksh 1.1.0
 
     tasksh&gt; review [N]       Task review session, with optional cutoff after N tasks
     tasksh&gt; list             Or any other Taskwarrior command
@@ -163,38 +167,26 @@ report._reviewed.sort        reviewed+,modified+</pre>
 tasksh&gt; </pre>
 
             <p>
-              You see here that <code>review</code> is one of the commands.
+              You see here that <code>review</code> is one of the commands. You
+              can simply start a review session, which can be quit at any time:
             </p>
+
+            <pre>tasksh&gt; review
+...</pre>
 
             <p>
+              Or you can review a fixed quantity of tasks:
             </p>
 
-
-
-
-
-            <script type="text/javascript" src="https://asciinema.org/a/28265.js" id="asciicast-28265" async></script>
-
-
-
-
+            <pre>tasksh&gt; review 12
+...</pre>
 
             <p>
+              Reviewing a fixed quantity can help you iteratively review all
+              your tasks at convenient times, without having to go through the
+              entire list at once.
             </p>
 
-            <p>
-            </p>
-
-
-            <a name="two"></a>
-            <h4>Two</h4>
-            <p>
-            </p>
-
-            <a name="three"></a>
-            <h4>Three</h4>
-            <p>
-            </p>
           </div>
 
           <br />
@@ -207,8 +199,6 @@ tasksh&gt; </pre>
           <ul class="list-unstyled">
             <li><a href="#how">How it Works</a></li>
             <li><a href="#tasksh">Tasksh</a></li>
-            <li><a href="#two">Two</a></li>
-            <li><a href="#three">Three</a></li>
           </ul>
         </div>
       </div>
