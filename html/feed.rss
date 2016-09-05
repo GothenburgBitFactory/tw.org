@@ -13,7 +13,33 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon,  5 Sep 2016 15:39:00 UTC</pubDate>
+    <pubDate>Mon,  5 Sep 2016 19:47:00 UTC</pubDate>
+
+    <item>
+      <title>Tasksh 1.1.0 Released</title>
+      <link>http://taskwarrior.org/news/news.20160905.2.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon,  5 Sep 2016 19:47:00 UTC</pubDate>
+      <description>
+        <p>
+          Tasksh 1.1.0 is release, with an interactive review feature, ability
+          to execute shell commands, and bug fixes.
+          This release is a recommended upgrade.
+        </p>
+
+        <p>
+          Here is a quick demo of the review feature:
+        </p>
+
+        <p>
+          <script type="text/javascript" src="https://asciinema.org/a/84844.js" id="asciicast-84844" async></script>
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - August 2016</title>
