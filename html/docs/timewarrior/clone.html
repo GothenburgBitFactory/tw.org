@@ -106,20 +106,20 @@ $ make                               # Just build it.</pre>
             <h3>Building the Dev Branch</h3>
             <p>
               The dev branch is always the highest numbered branch, in this
-              example, <code>1.0.0</code>.
+              example, <code>1.1.0</code>.
             </p>
 
               <pre>$ cd timew.git
-$ git checkout 1.0.0                 # Dev branch
+$ git checkout 1.1.0                 # Dev branch
 $ git submodule update               # Update the submodule for this branch
 $ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
 $ make VERBOSE=1                     # Shows details</pre>
 
             <p>
-              If you do a fresh clone, the following will checkout <code>1.0.0</code>
+              If you do a fresh clone, the following will checkout <code>1.1.0</code>
               immediately.
             </p>
-              <pre>$ git clone --recursive -b 1.0.0 https://git.tasktools.org/scm/tm/timew.git
+              <pre>$ git clone --recursive -b 1.1.0 https://git.tasktools.org/scm/tm/timew.git
 $ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
 $ make VERBOSE=1                     # Shows details</pre>
 

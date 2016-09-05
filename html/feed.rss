@@ -13,7 +13,69 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Sat, 13 Aug 2016 14:04:00 UTC</pubDate>
+    <pubDate>Mon,  5 Sep 2016 15:39:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - August 2016</title>
+      <link>http://taskwarrior.org/news/news.20160905.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon,  5 Sep 2016 15:39:00 UTC</pubDate>
+      <description>
+        <p>
+          August saw a lot of documentation updates and preparation for the
+          release of Timewarrior 1.0.0 and FrOSCon 2016. Focus then shifted
+          to finishing up Tasksh 1.1.0 work.
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
+
+    <item>
+      <title>FrOSCon 2016 Materials Online</title>
+      <link>http://taskwarrior.org/news/news.20160824.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 24 Aug 2016 03:09:00 UTC</pubDate>
+      <description>
+        <p>
+          <img src="/news/images/froscon.jpg" class="img-responsive" />
+          <small>Photo: <a href="https://twitter.com/svijee">Sujeevan Vijayakumaran</a></small>
+        </p>
+
+        <p>
+          Materials presented by <a href="https://www.deimeke.net/dirk/blog/">Dirk Deimeke</a> at
+          <a href="https://www.froscon.de/">FrOSCon 2016</a> are now online, as promised:
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
+
+    <item>
+      <title>Timewarrior 1.0.0 Released</title>
+      <link>http://taskwarrior.org/news/news.20160821.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 21 Aug 2016 14:40:00 UTC</pubDate>
+      <description>
+        <p>
+          Timewarrior 1.0.0 is released. Timewarrior tracks your time from
+          the command line, and generates reports. Your data is stored locally
+          in clear text. Integrates with Taskwarrior.
+        </p>
+
+        <p>
+          <img src="/news/images/ti.png" class="img-responsive" />
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>FrOSCon 2016 - Taskwarrior Coverage</title>
@@ -53,7 +115,7 @@
 
           <tr>
             <td>15:15-16:15</td>
-            <td>Lecture: <a href="https://programm.froscon.de/2016/events/1878.html">Taskwarrior Universe</a>
+            <td>Lecture: <a href="https://programm.froscon.de/2016/events/1878.html">Taskwarrior Universe</a></td>
           </tr>
 
           <tr>
@@ -74,7 +136,7 @@
             </td>
 
             <td>10:00-12:00</td>
-            <td>Workshop: <a href="https://programm.froscon.de/2016/events/1702.html">Introduction to Taskwarrior</a>
+            <td>Workshop: <a href="https://programm.froscon.de/2016/events/1702.html">Introduction to Taskwarrior</a></td>
           </tr>
 
         </table>
@@ -113,7 +175,7 @@
 
         <p>
           Download here:<br />
-          <a href="/download/timew-1.0.0.beta1.tar.gz">timew-1.0.0.beta1.tar.gz</a><br />
+          <a href="/download/timew-1.0.0.tar.gz">timew-1.0.0.tar.gz</a><br />
         </p>
 
         <p>
@@ -192,7 +254,7 @@
 
         <p>
           Download here:<br />
-          <a href="/download/timew-1.0.0.beta1.tar.gz">timew-1.0.0.beta1.tar.gz</a><br />
+          <a href="/download/timew-1.0.0.tar.gz">timew-1.0.0.tar.gz</a><br />
           (Edit: Updated to beta tarball)
         </p>
 
