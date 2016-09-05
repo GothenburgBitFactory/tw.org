@@ -113,9 +113,9 @@
       "GBF"
     ], 
     "url": "https://git.tasktools.org/projects/EX/repos/tasksh", 
-    "description": "Tasksh is an interactive shell for taskwarrior \n<small> <a href=\"http://taskwarrior.org/download/tasksh-latest.tar.gz\">Tarball</a> SHA1 436d2b6c3a07e699f25f82fc36ffd1e500358652</small>", 
+    "description": "Tasksh is an interactive shell for taskwarrior \n<small> <a href=\"http://taskwarrior.org/download/tasksh-latest.tar.gz\">Tarball</a> SHA1 fe1ab54e6d162e9dfacbbe6e7c02d93cf134b42f</small>", 
     "obsolete": false, 
-    "last_update": "2014-12-21", 
+    "last_update": "2016-09-06", 
     "language": [], 
     "theme": [], 
     "descriptionText": "Tasksh is an interactive shell for taskwarrior Tarball SHA1 5fb9209ec1cafbbde4aa165f41ffb3aeba6faca8", 
