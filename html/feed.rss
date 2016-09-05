@@ -13,7 +13,25 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Wed, 24 Aug 2016 03:09:00 UTC</pubDate>
+    <pubDate>Mon,  5 Sep 2016 15:39:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - August 2016</title>
+      <link>http://taskwarrior.org/news/news.20160905.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon,  5 Sep 2016 15:39:00 UTC</pubDate>
+      <description>
+        <p>
+          August saw a lot of documentation updates and preparation for the
+          release of Timewarrior 1.0.0 and FrOSCon 2016. Focus then shifted
+          to finishing up Tasksh 1.1.0 work.
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>FrOSCon 2016 Materials Online</title>
