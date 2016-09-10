@@ -28,7 +28,8 @@ Instruction For Updating tw.org/html/tools
   cp Config.py.example Config.py
   vi Config.py (add token)
 
-7. cd tw-tools-update.git
+7. Take the data-tools-old.json, and update it with a scan of github:
+  cd tw-tools-update.git
   PYTHONPATH=../PyGithub.git python Main.py
 
 8. cp data-tools.json ../html/tools/tools-data.js
