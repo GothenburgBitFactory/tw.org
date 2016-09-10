@@ -679,14 +679,14 @@
       "Taskwarrior Team"
     ], 
     "url": "https://taskwarrior.org/download/gtdnext.sh", 
-    "description": "A GTD-like next report that lists tasks without a project, and the most urgent task from each of your projects. \n<small><a href=\"https://taskwarrior.org/download/gtdnext.sh\">gtdnext.sh</a></small>", 
+    "description": "A GTD-like next report that lists tasks without a project, and the most urgent task from each of your projects.", 
     "obsolete": false, 
     "last_update": "2015-09-10", 
     "language": [], 
     "theme": [], 
     "descriptionText": "A GTD-like next report that lists tasks without a project, and the most urgent task from each of your projects.", 
     "compatibility": "2.5.0+", 
-    "url_src": null
+    "url_src": "https://taskwarrior.org/download/gtdnext.sh", 
   }, 
   {
     "category": "Extensions", 
