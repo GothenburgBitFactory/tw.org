@@ -145,7 +145,19 @@ $ git branch -a
 
               <pre>$ git checkout 1.2.0
 Branch 1.2.0 set up to track remote branch 1.2.0 from origin.
-Switched to a new branch '1.2.0'</pre>
+Switched to a new branch '1.2.0'
+
+$ git submodule init
+Submodule 'src/libshared' (https://git.tasktools.org/scm/tm/libshared.git) registered for path 'src/libshared'
+
+$ git submodule update
+Cloning into 'src/libshared'...
+remote: Counting objects: 2180, done.
+remote: Compressing objects: 100% (1379/1379), done.
+remote: Total 2180 (delta 1640), reused 1018 (delta 796)
+Receiving objects: 100% (2180/2180), 373.50 KiB | 244.00 KiB/s, done.
+Resolving deltas: 100% (1640/1640), done.
+Submodule path 'src/libshared': checked out '2b0b70d90acb9a3ff3548befab9db8beb85a0c2d'</pre>
             </div>
 
             <a name="build"></a>
