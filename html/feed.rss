@@ -13,7 +13,26 @@
     <language>en-us</language>
     <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
-    <pubDate>Mon,  5 Sep 2016 19:47:00 UTC</pubDate>
+    <pubDate>Sun,  2 Oct 2016 05:34:00 UTC</pubDate>
+
+    <item>
+      <title>Activity Digest - September 2016</title>
+      <link>http://taskwarrior.org/news/news.20161002.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun,  2 Oct 2016 05:34:00 UTC</pubDate>
+      <description>
+        <p>
+          Tasksh 1.1.0 released, Anomaly 1.1.0 released.
+          Flod2 is a major update that greatly improves speed and reliability
+          of the CI system. It is working well, and will be rolled out in
+          October, with new features and greater automation.
+        </p>
+
+        <p>
+          ...
+        </p>
+      </description>
+    </item>
 
     <item>
       <title>Tasksh 1.1.0 Released</title>
