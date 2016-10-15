@@ -140,7 +140,7 @@ $ sudo apt-get install make</pre>
               development branch:
             </p>
 
-            <pre>$ git clone https://git.tasktools.org/scm/tm/task.git task.git
+            <pre>$ git clone --recursive -b 2.6.0 https://git.tasktools.org/scm/tm/task.git task.git
 Cloning into 'task.git'...
 remote: Counting objects: 55345, done.
 remote: Compressing objects: 100% (12655/12655), done.
@@ -158,34 +158,33 @@ $</pre>
             </p>
 
             <p>
-              Now you just need to get onto the right branch, where the
-              development is happening. There are several branches, but fortunately
-              it is easy to find the right one - it is the one with the highest
-              number. Do this:
+              The clone command above puts you on the right branch, so no need to
+              switch.
+
+              But it's a good idea to check anyway, so do this:
             </p>
 
             <pre>$ cd task.git
 $ git branch -a
-* master
+* 2.6.0
   remotes/origin/2.5.1
   remotes/origin/2.5.2
   remotes/origin/2.6.0
   remotes/origin/HEAD -&gt; origin/master
   remotes/origin/master
-$ git checkout 2.6.0
-Branch 2.6.0 set up to track remote branch 2.6.0 from origin.
-Switched to a new branch '2.6.0'
 $</pre>
 
             <p>
-              By the time you run this, things may have changed, and there could
-              be a higher number than <code>2.6.0</code>. If that is the case,
-              then use the higher version number instead.
+              Here we see that 2.6.0 is the highest-numbered branch, and therefore
+              the current development branch.  If there were a higher numbered branch,
+              you would want to use that by doing this:
             </p>
+
+            <pre>$ git checkout 2.7.0</pre>
 
             <p>
               Here's a thought - if this page does not show the latest branch
-              names, then, you know, you could fix that.
+              names, then, you know, you could fix that...
             </p>
 
             <a name="fix"></a>
