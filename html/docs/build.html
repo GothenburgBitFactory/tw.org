@@ -77,7 +77,7 @@
               You'll need these libraries:
               <ul>
                 <li><a href="http://www.gnutls.org/">GnuTLS</a></li>
-                <li>libuuid (unless on Darwin)</li>
+                <li>libuuid (unless on Darwin/BSD)</li>
               </ul>
               Specifically the development versions, <code>uuid-dev</code> on Debian, for example.
             </p>
@@ -113,12 +113,14 @@ $ make                               # Just build it.</pre>
             <h3>Building the Dev Branch</h3>
             <p>
               The dev branch is always the highest numbered branch, in this
-              example, <code>2.5.0</code>.
+              example, <code>2.6.0</code>.
             </p>
 
               <pre>$ cd task.git
-$ git checkout 2.5.0                 # Dev branch
-$ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
+$ git checkout 2.6.0                 # Dev branch
+$ git submodule init                 # Register submodule
+$ git submodule update               # Get the submodule
+$ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release, default: neither
 $ make VERBOSE=1                     # Shows details</pre>
 
             <p>
