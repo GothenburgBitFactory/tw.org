@@ -336,7 +336,7 @@
         and many other features.
         Taskwarrior for Android has an embedded copy of Taskwarrior, and so
         inherits all the behaviors. Take a look at
-        <a href="https://play.google.com/store/apps/details?id=kvj.taskw">Taskwarrior for Android</a>
+        Taskwarrior for Android (https://play.google.com/store/apps/details?id=kvj.taskw)
         on Google Play.
       </description>
     </item>
@@ -607,7 +607,7 @@
       <title>Activity Digest - August 2015</title>
       <link>http://taskwarrior.org/news/news.20150901.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Sat, 02 Sep 2015 02:26:21 GMT</pubDate>
+      <pubDate>Wed, 02 Sep 2015 02:26:21 GMT</pubDate>
       <description>
         This is an ongoing series of activity reports, published monthly,
         to highlight activity in the Taskwarrior project. Here is what
@@ -721,22 +721,14 @@
         Although a minor release, there are significant bug fixes
         which make this a recommended upgrade. Changes include:
 
-        <p>
-          <ul>
-            <li>Fixed a problem where the wrong task may be updated, if GC is disabled. This is the primary reason for the release.</li>
-            <li>Fixed a problem where filters including parenthesized tags (<code>... and (+DUE or +OVERDUE)</code>) were incorrectly handled.</li>
-            <li>32-bit platform support.</li>
-            <li>The <code>obfuscate</code> configuration setting will hide private data, intended for bug reporting.</li>
-            <li>An early Japanese localization.</li>
-            <li>Several bug fixes.</li>
-          </ul>
+        * Fixed a problem where the wrong task may be updated, if GC is disabled. This is the primary reason for the release.
+        * Fixed a problem where filters including parenthesized tags ('... and (+DUE or +OVERDUE)') were incorrectly handled.
+        * 32-bit platform support.
+        * The 'obfuscate' configuration setting will hide private data, intended for bug reporting.
+        * An early Japanese localization.
+        * Several bug fixes.
 
-          For full details, see the ChangeLog file included in the release.
-        </p>
-
-        <p>
-          ...
-        </p>
+        For full details, see the ChangeLog file included in the release.
       </description>
     </item>
 
@@ -749,17 +741,17 @@
         Tasksh, the Taskwarrior Shell, can now be installed using
         Homebrew on the Mac:
 
-        <pre>$ brew install tasksh</pre>
+        $ brew install tasksh
 
         This means that all three related Taskwarrior family members can
         now be installed via Homebrew:
 
-        <pre>$ brew install task
-...
-$ brew install taskd
-...
-$ brew install tasksh
-...</pre>
+        $ brew install task
+        ...
+        $ brew install taskd
+        ...
+        $ brew install tasksh
+        ...
       </description>
     </item>
 
@@ -800,10 +792,10 @@ $ brew install tasksh
         to address a bad hook problem that prevented on-modify hooks from
         modifying tasks.
 
-        User Defined Attributes (<a href="/docs/udas.html">UDAs</a>) have
-        been enhanced so that type <code>string</code> attributes may now
+        User Defined Attributes (https://taskwarrior.org/docs/udas.html) have
+        been enhanced so that type 'string' attributes may now
         designate the sort order of allowed values.  This enhancement permits
-        the migration of the <code>priority</code> attribute to a UDA.
+        the migration of the 'priority' attribute to a UDA.
         This means you may now define your own priority levels, sorting and
         urgency coefficients.
       </description>
@@ -832,7 +824,7 @@ $ brew install tasksh
         used for recurring tasks. For example, here is a recurring task
         that recurs every monday:
 
-        "$ task add Take out the trash due:monday recur:weekly"
+        $ task add Take out the trash due:monday recur:weekly
 
         The value 'monday' is interpreted as 'next monday',
         and the value 'weekly' is interpreted as a 7-day
@@ -943,7 +935,7 @@ $ brew install tasksh
       <description>
         Taskwarrior 2.4.0 supports many new date &amp; time formatting options.
         These are all documented in the new
-        <a href="/docs/dates.html">Date &amp; Time</a> page.
+        'Date &amp; Time' (https://taskwarrior.org/docs/dates.html) page.
       </description>
     </item>
 
@@ -953,8 +945,10 @@ $ brew install tasksh
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 01 Jan 2015 00:27:00 GMT</pubDate>
       <description>
-        Taskwarrior 2.4.0 is released and now available as a source
-        <a href="/download/task-latest.tar.gz">tarball</a>.
+        Taskwarrior 2.4.0 is released and now available as a source tarball:
+
+        https://taskwarrior.org/download/task-latest.tar.gz
+        Edit: Updated to latest tarball
       </description>
     </item>
 
@@ -964,8 +958,10 @@ $ brew install tasksh
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 11 Nov 2014 23:50:00 GMT</pubDate>
       <description>
-        A new beta 3 for Taskwarrior 2.4.0 is now available as a source
-        <a href="/download/task-latest.tar.gz">tarball</a>.
+        A new beta 3 for Taskwarrior 2.4.0 is now available as a source tarball:
+
+        https://taskwarrior.org/download/task-latest.tar.gz
+        Edit: Updated to latest tarball
       </description>
     </item>
 
