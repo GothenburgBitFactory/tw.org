@@ -71,19 +71,11 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon,  5 Sep 2016 19:47:00 GMT</pubDate>
       <description>
-        <p>
-          Tasksh 1.1.0 is release, with an interactive review feature, ability
-          to execute shell commands, and bug fixes.
-          This release is a recommended upgrade.
-        </p>
+        Tasksh 1.1.0 is release, with an interactive review feature, ability
+        to execute shell commands, and bug fixes.
+        This release is a recommended upgrade.
 
-        <p>
-          Here is a quick demo of the review feature:
-        </p>
-
-        <p>
-          ...
-        </p>
+        Here is a quick demo of the review feature:
       </description>
     </item>
 
@@ -93,15 +85,9 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon,  5 Sep 2016 15:39:00 GMT</pubDate>
       <description>
-        <p>
-          August saw a lot of documentation updates and preparation for the
-          release of Timewarrior 1.0.0 and FrOSCon 2016. Focus then shifted
-          to finishing up Tasksh 1.1.0 work.
-        </p>
-
-        <p>
-          ...
-        </p>
+        August saw a lot of documentation updates and preparation for the
+        release of Timewarrior 1.0.0 and FrOSCon 2016. Focus then shifted
+        to finishing up Tasksh 1.1.0 work.
       </description>
     </item>
 
@@ -111,19 +97,11 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 24 Aug 2016 03:09:00 GMT</pubDate>
       <description>
-        <p>
-          <img src="/news/images/froscon.jpg" class="img-responsive" />
-          <small>Photo: <a href="https://twitter.com/svijee">Sujeevan Vijayakumaran</a></small>
-        </p>
+        Photo: Sujeevan Vijayakumaran (https://twitter.com/svijee)
+               (https://taskwarrior.org/news/images/froscon.jpg)
 
-        <p>
-          Materials presented by <a href="https://www.deimeke.net/dirk/blog/">Dirk Deimeke</a> at
-          <a href="https://www.froscon.de/">FrOSCon 2016</a> are now online, as promised:
-        </p>
-
-        <p>
-          ...
-        </p>
+        Materials presented by Diek Deimeke (https://www.deimeke.net/dirk/blog)
+        at FrOSCon 2016 (https://www.froscon.de) are now online, as promised.
       </description>
     </item>
 
@@ -133,19 +111,11 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 21 Aug 2016 14:40:00 GMT</pubDate>
       <description>
-        <p>
-          Timewarrior 1.0.0 is released. Timewarrior tracks your time from
-          the command line, and generates reports. Your data is stored locally
-          in clear text. Integrates with Taskwarrior.
-        </p>
+        Timewarrior 1.0.0 is released. Timewarrior tracks your time from
+        the command line, and generates reports. Your data is stored locally
+        in clear text. Integrates with Taskwarrior.
 
-        <p>
-          <img src="/news/images/ti.png" class="img-responsive" />
-        </p>
-
-        <p>
-          ...
-        </p>
+        https://taskwarrior.org/news/images/ti.png
       </description>
     </item>
 
