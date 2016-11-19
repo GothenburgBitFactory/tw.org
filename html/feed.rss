@@ -14,7 +14,7 @@
       <title>Taskwarrior News</title>
       <link>http://taskwarrior.org/</link>
     </image>
-    <atom:link href="https://taskwarrior.org/feed.rss" rel="self" type="application/atom+xml" />
+    <atom:link href="https://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
     <!--
     Validation problems:
@@ -45,7 +45,7 @@
       <title>Activity Digest - October 2016</title>
       <link>http://taskwarrior.org/news/news.20161102.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Wed,  2 Nov 2016 20:34:00 GMT</pubDate>
+      <pubDate>Wed, 02 Nov 2016 20:34:00 GMT</pubDate>
       <description>
         Flod2 is now being rolled out for testing. This is a CI system
         rewrite that eliminates build server daemons and the pull model.
@@ -60,7 +60,7 @@
       <title>Activity Digest - September 2016</title>
       <link>http://taskwarrior.org/news/news.20161002.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Sun,  2 Oct 2016 05:34:00 GMT</pubDate>
+      <pubDate>Sun, 02 Oct 2016 05:34:00 GMT</pubDate>
       <description>
         Tasksh 1.1.0 released, Anomaly 1.1.0 released.
         Flod2 is a major update that greatly improves speed and reliability
@@ -73,7 +73,7 @@
       <title>Tasksh 1.1.0 Released</title>
       <link>http://taskwarrior.org/news/news.20160905.2.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Mon,  5 Sep 2016 19:47:00 GMT</pubDate>
+      <pubDate>Mon, 05 Sep 2016 19:47:00 GMT</pubDate>
       <description>
         Tasksh 1.1.0 is release, with an interactive review feature, ability
         to execute shell commands, and bug fixes.
@@ -87,7 +87,7 @@
       <title>Activity Digest - August 2016</title>
       <link>http://taskwarrior.org/news/news.20160905.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Mon,  5 Sep 2016 15:39:00 GMT</pubDate>
+      <pubDate>Mon, 05 Sep 2016 15:39:00 GMT</pubDate>
       <description>
         August saw a lot of documentation updates and preparation for the
         release of Timewarrior 1.0.0 and FrOSCon 2016. Focus then shifted
@@ -165,7 +165,7 @@
       <title>Activity Digest - June 2016</title>
       <link>http://taskwarrior.org/news/news.20160707.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Thu,  7 Jun 2016 04:44:54 GMT</pubDate>
+      <pubDate>Thu, 07 Jun 2016 04:44:54 GMT</pubDate>
       <description>
         The main focus for June is getting Timewarrior
         (https://taskwarrior.org/docs/timewarrior/index.html)
@@ -216,7 +216,7 @@
       <title>Activity Digest - May 2016</title>
       <link>http://taskwarrior.org/news/news.20160604.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Sat,  4 Jun 2016 14:08:00 GMT</pubDate>
+      <pubDate>Sat, 04 Jun 2016 14:08:00 GMT</pubDate>
       <description>
         The main focus for May is getting Timewarrior
         ready for an alpha release. The purpose of an alpha release is to
