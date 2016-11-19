@@ -1,17 +1,19 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <rss version="2.0">
   <channel>
     <title>Taskwarrior News</title>
+    <description>Latest news from the Taskwarrior Team</description>
     <link>http://taskwarrior.org/</link>
-    <description>Latest news from the team</description>
-    <copyright>2015 Göteborg Bit Factory.</copyright>
+    <language>en-us</language>
+    <copyright>2015 - 2016 Göteborg Bit Factory.</copyright>
+    <ttl>60</ttl>
+    <managingEditor>support@taskwarrior.org</managingEditor>
+    <webMaster>support@taskwarrior.org</webMaster>
     <image>
       <url>http://taskwarrior.org/images/tw-m.png</url>
       <title>Taskwarrior News</title>
       <link>http://taskwarrior.org/</link>
     </image>
-    <language>en-us</language>
-    <atom:link href="http://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
     <!--
     Validation problems:
@@ -20,6 +22,7 @@
     -->
 
     <pubDate>Wed, 16 Nov 2016 17:33:14 GMT</pubDate>
+    <lastBuildDate>Wed, 16 Nov 2016 17:33:14 GMT</lastBuildDate>
 
     <item>
       <title>Resolving with dnsimple</title>
