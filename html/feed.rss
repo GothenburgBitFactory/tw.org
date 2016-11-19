@@ -7,8 +7,8 @@
     <language>en-us</language>
     <copyright>2015 - 2016 Göteborg Bit Factory.</copyright>
     <ttl>60</ttl>
-    <managingEditor>support@taskwarrior.org</managingEditor>
-    <webMaster>support@taskwarrior.org</webMaster>
+    <managingEditor>support@taskwarrior.org (Taskwarrior Support)</managingEditor>
+    <webMaster>support@taskwarrior.org (Taskwarrior Support)</webMaster>
     <image>
       <url>http://taskwarrior.org/images/tw-m.png</url>
       <title>Taskwarrior News</title>
@@ -1121,15 +1121,12 @@
       <link>http://taskwarrior.org/news/news.20140510.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 10 May 2014 00:00:00 EST</pubDate>
-      <enclosure>
-        <url>http://taskwarrior.org/news/images/ref230.png</url>
-        <title>Command Reference</title>
-        <link>http://taskwarrior.org/download/task-latest.ref.pdf</link>
-      </enclosure>
       <description>
         On Saturday May 10th 2014, Dirk Deimeke presented a Taskwarrior
         workshop at Swiss Ubucon
         (https://wiki.ubuntu.com/SwissTeam/).
+
+        http://taskwarrior.org/download/task-latest.ref.pdf
 
         Dirk presented a live demo, with a handout PDF (which we will link
         here soon) that covers every aspect including downloading, building,
