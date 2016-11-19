@@ -125,67 +125,11 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 13 Aug 2016 14:04:00 GMT</pubDate>
       <description>
-        <p>
-          Taskwarrior will be well-represented at
-          <a href="https://www.froscon.de">FrOSCon 2016</a>,
-          on August 20th and 21st, at the Bonn-Rhein-Sieg University of
-          Applied Sciences.
-        </p>
+        Taskwarrior will be well-represented at FrOSCon 2016
+        (https://www.froscon.de) on August 20th and 21st, at the
+        Bonn-Rhein-Sieg University of Applied Sciences.
 
-        <p>
-          Dirk Deimeke will be presenting a series of related workshops and lectures:
-        </p>
-
-        <table>
-          <tr>
-            <td rowspan="4">
-              <b>August 20th</b>
-              <br />
-              Project Room
-              <br />
-              C130
-            </td>
-
-            <td>10:00-12:30</td>
-            <td>Workshop: <a href="https://programm.froscon.de/2016/events/1876.html">Compile Taskwarrior and Taskserver</a></td>
-          </tr>
-
-          <tr>
-            <td>14:00-15:00</td>
-            <td>Lecture: <a href="https://programm.froscon.de/2016/events/1877.html">Introduction to Timewarrior</a></td>
-          </tr>
-
-          <tr>
-            <td>15:15-16:15</td>
-            <td>Lecture: <a href="https://programm.froscon.de/2016/events/1878.html">Taskwarrior Universe</a></td>
-          </tr>
-
-          <tr>
-            <td>16:30-17:30</td>
-            <td>
-              Lecture: <a href="https://programm.froscon.de/2016/events/1879.html">Contribute to Taskwarrior</a>
-              (including FAQ, FOQ, Lessons learned)
-            </td>
-          </tr>
-
-          <tr>
-            <td>
-              <b>August 21st</b>
-              <br />
-              Main Workshop Room
-              <br />
-              C115
-            </td>
-
-            <td>10:00-12:00</td>
-            <td>Workshop: <a href="https://programm.froscon.de/2016/events/1702.html">Introduction to Taskwarrior</a></td>
-          </tr>
-
-        </table>
-
-        <p>
-          ...
-        </p>
+        Dirk Deimeke will be presenting a series of related workshops and lectures...
       </description>
     </item>
 
@@ -195,13 +139,7 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 10 Jul 2016 01:46:54 GMT</pubDate>
       <description>
-        <p>
-          July was spent mostly getting Timewarrior ready for beta.
-        </p>
-
-        <p>
-          ...
-        </p>
+        July was spent mostly getting Timewarrior ready for beta.
       </description>
     </item>
 
@@ -211,23 +149,11 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 25 Jul 2016 22:00:00 GMT</pubDate>
       <description>
-        <p>
-          Timewarrior 1.0.0 is in beta! Please download and give us feedback.
-        </p>
+        Timewarrior 1.0.0 is in beta! Please download and give us feedback.
 
-        <p>
-          Download here:<br />
-          <a href="/download/timew-1.0.0.tar.gz">timew-1.0.0.tar.gz</a><br />
-        </p>
+        Download here: (https://taskwarrior.org/download/timew-latest.tar.gz)
 
-        <p>
-          Online documentation here:<br />
-          <a href="/docs/timewarrior">Timewarrior Documentation Home</a>
-        </p>
-
-        <p>
-          ...
-        </p>
+        Online documentation here: (https://taskwarrior.org/docs/timewarrior)
       </description>
     </item>
 
