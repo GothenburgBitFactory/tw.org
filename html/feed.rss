@@ -20,6 +20,7 @@
     Validation problems:
       - no HTML tags
       - convert "<a href=...>desc</a>" to "desc (http://...)"
+      - days should be "02", not " 2"
     -->
 
     <pubDate>Wed, 16 Nov 2016 17:33:14 GMT</pubDate>
