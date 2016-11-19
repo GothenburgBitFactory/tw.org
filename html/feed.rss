@@ -27,21 +27,13 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 16 Nov 2016 17:33:14 GMT</pubDate>
       <description>
-        <p>
-          Since a couple of weeks ago the resolving of our hostnames and domains
-          is handled via services of dnsimple. They are kindly enough to sponsor
-          the taskwarrior project. We will not only profit from the <em>developer
-          friendly</em> management console but in particular from the powerful API
-          to handle our DNS tasks when we move towards our new CI system <em>flod2</em>.
-        </p>
+        Since a couple of weeks ago the resolving of our hostnames and domains
+        is handled via services of dnsimple. They are kindly enough to sponsor
+        the taskwarrior project. We will not only profit from the <em>developer
+        friendly</em> management console but in particular from the powerful API
+        to handle our DNS tasks when we move towards our new CI system <em>flod2</em>.
 
-        <p>
-          Please check them out under <a href="https://dnsimple.link/resolving-taskwarrior">dnsimple.com</a>.
-        </p>
-
-        <p>
-          ...
-        </p>
+        Please check them out under <a href="https://dnsimple.link/resolving-taskwarrior">dnsimple.com</a>.
       </description>
     </item>
 
@@ -100,10 +92,6 @@
         <p>
           Here is a quick demo of the review feature:
         </p>
-
-<!--        <p>
-          <script type="text/javascript" src="https://asciinema.org/a/84844.js" id="asciicast-84844" async></script>
-        </p> -->
 
         <p>
           ...
