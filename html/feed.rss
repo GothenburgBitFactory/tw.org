@@ -15,8 +15,8 @@
 
     <!--
     Validation problems:
-      - no 'pre' tags
-      - no 'table' tags
+      - no HTML tags
+      - convert "<a href=...>desc</a>" to "desc (http://...)"
     -->
 
     <pubDate>Wed, 16 Nov 2016 17:33:14 GMT</pubDate>
@@ -43,18 +43,12 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed,  2 Nov 2016 20:34:00 GMT</pubDate>
       <description>
-        <p>
-          Flod2 is now being rolled out for testing. This is a CI system
-          rewrite that eliminates build server daemons and the pull model.
-          This will allow greater use of virtual machines, and more
-          automation. For example, we will now be able to automatically
-          generate coverage reports and snapshot tarballs, based on
-          build characteristics.
-        </p>
-
-        <p>
-          ...
-        </p>
+        Flod2 is now being rolled out for testing. This is a CI system
+        rewrite that eliminates build server daemons and the pull model.
+        This will allow greater use of virtual machines, and more
+        automation. For example, we will now be able to automatically
+        generate coverage reports and snapshot tarballs, based on
+        build characteristics.
       </description>
     </item>
 
@@ -64,16 +58,10 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun,  2 Oct 2016 05:34:00 GMT</pubDate>
       <description>
-        <p>
-          Tasksh 1.1.0 released, Anomaly 1.1.0 released.
-          Flod2 is a major update that greatly improves speed and reliability
-          of the CI system. It is working well, and will be rolled out in
-          October, with new features and greater automation.
-        </p>
-
-        <p>
-          ...
-        </p>
+        Tasksh 1.1.0 released, Anomaly 1.1.0 released.
+        Flod2 is a major update that greatly improves speed and reliability
+        of the CI system. It is working well, and will be rolled out in
+        October, with new features and greater automation.
       </description>
     </item>
 
