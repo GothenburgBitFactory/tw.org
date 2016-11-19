@@ -29,9 +29,9 @@
       <description>
         Since a couple of weeks ago the resolving of our hostnames and domains
         is handled via services of dnsimple. They are kindly enough to sponsor
-        the taskwarrior project. We will not only profit from the <em>developer
-        friendly</em> management console but in particular from the powerful API
-        to handle our DNS tasks when we move towards our new CI system <em>flod2</em>.
+        the taskwarrior project. We will not only profit from the developer-friendly
+        management console but in particular from the powerful API
+        to handle our DNS tasks when we move towards our new CI system flod2.
 
         Please check them out under <a href="https://dnsimple.link/resolving-taskwarrior">dnsimple.com</a>.
       </description>
