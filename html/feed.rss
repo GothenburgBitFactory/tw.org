@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-  <rss version="2.0">
+  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Taskwarrior News</title>
     <description>Latest news from the Taskwarrior Team</description>
@@ -14,6 +14,7 @@
       <title>Taskwarrior News</title>
       <link>http://taskwarrior.org/</link>
     </image>
+    <atom:link href="https://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
     <!--
     Validation problems:
@@ -1120,11 +1121,11 @@
       <link>http://taskwarrior.org/news/news.20140510.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 10 May 2014 00:00:00 EST</pubDate>
-      <image>
+      <enclosure>
         <url>http://taskwarrior.org/news/images/ref230.png</url>
         <title>Command Reference</title>
         <link>http://taskwarrior.org/download/task-latest.ref.pdf</link>
-      </image>
+      </enclosure>
       <description>
         On Saturday May 10th 2014, Dirk Deimeke presented a Taskwarrior
         workshop at Swiss Ubucon
