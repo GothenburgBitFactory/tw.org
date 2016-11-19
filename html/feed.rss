@@ -137,7 +137,7 @@
       <title>Activity Digest - July 2016</title>
       <link>http://taskwarrior.org/news/news.20160810.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Thu, 10 Jul 2016 01:46:54 GMT</pubDate>
+      <pubDate>Sun, 10 Jul 2016 01:46:54 GMT</pubDate>
       <description>
         July was spent mostly getting Timewarrior ready for beta.
       </description>
@@ -214,26 +214,19 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat,  4 Jun 2016 14:08:00 GMT</pubDate>
       <description>
-        <p>
-          The main focus for May is getting
-          <a href="/docs/timewarrior/index.html">Timewarrior</a>
-          ready for an alpha release. The purpose of an alpha release is to
-          gather feedback that guides the subsequent release. Timewarrior
-          is a new project that introduces new concepts. This new functionality
-          needs to be refined before a beta release.
-        </p>
+        The main focus for May is getting Timewarrior
+        ready for an alpha release. The purpose of an alpha release is to
+        gather feedback that guides the subsequent release. Timewarrior
+        is a new project that introduces new concepts. This new functionality
+        needs to be refined before a beta release.
 
-        <p>
-          The <a href="https://bug.tasktools.org/browse/TI">Timewarrior bug tracker</a>
-          is now open for business.
-        </p>
+        The Timewarrior bug tracker (https://bug.tasktools.org/browse/TI)
+        is now open for business.
 
-        <p>
-          Additionally the <code>libshared</code> library is being improved.
-          This is a Git submodule that nearly all the projects share, and
-          helps with code reuse. Most importantly, fixing bugs in <code>libshared</code>
-          will fix bugs in all projects, without a lot of manual patching.
-        </p>
+        Additionally the 'libshared' library is being improved.
+        This is a Git submodule that nearly all the projects share, and
+        helps with code reuse. Most importantly, fixing bugs in 'libshared'
+        will fix bugs in all projects, without a lot of manual patching.
       </description>
     </item>
 
@@ -243,17 +236,13 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 22 May 2016 19:29:00 GMT</pubDate>
       <description>
-        <p>
-          The <a href="https://taskwarrior.org/tools/">Taskwarrior Tools page</a> now has interactive
-          categorized search capabilities, thanks to a significant contribution
-          by Bruno Vernay. We encourage you to take a look.
-        </p>
+        The Taskwarrior Tools page (https://taskwarrior.org/tools)
+        now has interactive categorized search capabilities, thanks to a
+        significant contribution by Bruno Vernay. We encourage you to take a look.
 
-        <p>
-          This feature is driven by automated <a href="https://github.com">Github</a>
-          data extraction, which identifies taskwarrior-related projects and
-          finds their metadata.
-        </p>
+        This feature is driven by automated Github (https://github.com)
+        data extraction, which identifies taskwarrior-related projects and
+        finds their metadata.
       </description>
     </item>
 
@@ -325,7 +314,7 @@
       <description>
         A task does not require a due date, and can simply be a statement of need:
 
-        <pre>$ task add Send Alice a birthday card</pre>
+        $ task add Send Alice a birthday card
 
         However this is exactly the kind of task can benefit from having a due date,
         and perhaps several other dates also.
@@ -463,15 +452,11 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 29 Oct 2015 23:59:00 GMT</pubDate>
       <description>
-        <p>
-          The Taskwarrior user and developer mailing lists are back in play.
-          Subscribe and talk to us:
-        </p>
+        The Taskwarrior user and developer mailing lists are back in play.
+        Subscribe and talk to us:
 
-        <ul>
-          <li>User Discussions: <a href="https://groups.google.com/forum/#!forum/taskwarrior-user">https://groups.google.com/forum/#!forum/taskwarrior-user</a>.</li>
-          <li>Developer Discussions: <a href="https://groups.google.com/forum/#!forum/taskwarrior-dev">https://groups.google.com/forum/#!forum/taskwarrior-dev</a>.</li>
-        </ul>
+        User Discussions: (https://groups.google.com/forum/#!forum/taskwarrior-user)
+        Developer Discussions: (https://groups.google.com/forum/#!forum/taskwarrior-dev)
       </description>
     </item>
 
@@ -481,18 +466,14 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 21 Oct 2015 23:46:00 GMT</pubDate>
       <description>
-        <p>
-          After an intense five months which focused mainly on a more capable
-          command-line parser, more extension-friendly behavior, and
-          significant improvements to testing, Taskwarrior 2.5.0 is now
-          released.
-        </p>
+        After an intense five months which focused mainly on a more capable
+        command-line parser, more extension-friendly behavior, and
+        significant improvements to testing, Taskwarrior 2.5.0 is now
+        released.
 
-        <p>
-          This is a major release, with 1300+ code changes and well over a
-          hundred bug fixes. We recommend all users upgrade, this release
-          represents a significant increase in quality.
-        </p>
+        This is a major release, with 1300+ code changes and well over a
+        hundred bug fixes. We recommend all users upgrade, this release
+        represents a significant increase in quality.
       </description>
     </item>
 
@@ -502,14 +483,12 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 17 Oct 2015 21:22:44 GMT</pubDate>
       <description>
-        <p>
-          A new beta3 is available for the upcoming 2.5.0 release.
-        </p>
+        A new beta3 is available for the upcoming 2.5.0 release.
 
-        <p>
-          The beta is immediately available as a source tarball
-          <a href="http://taskwarrior.org/download/task-latest.tar.gz">task-2.5.0.beta3.tar.gz</a>.
-        </p>
+        The beta is immediately available as a source tarball
+        (http://taskwarrior.org/download/task-latest.tar.gz)
+
+        Edit: Updated to release tarball
       </description>
     </item>
 
@@ -519,20 +498,15 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 12 oct 2015 21:18:26 GMT</pubDate>
       <description>
-        <p>
-          Clog 1.2.1 is released, due to a problem with OSX and Xcode 7.
-        </p>
+        Clog 1.2.1 is released, due to a problem with OSX and Xcode 7.
 
-        <p>
-          The release is immediately available as a source tarball
-          <a href="http://tasktools.org/download/clog-1.2.1.tar.gz">clog-1.2.1.tar.gz</a>.
-        </p>
+        The release is immediately available as a source tarball
+        (http://tasktools.org/download/clog-latest.tar.gz)
+        Edit: Updated to latest tarball)
 
-        <p>
-          Clog is a colorized log tail utility. It can spot patterns in an
-          input stream and colorize or suppress the lines. It can also
-          decorate the lines with time- or date-stamps.
-        </p>
+        Clog is a colorized log tail utility. It can spot patterns in an
+        input stream and colorize or suppress the lines. It can also
+        decorate the lines with time- or date-stamps.
       </description>
     </item>
 
@@ -554,19 +528,12 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 29 Sep 2015 23:55:55 GMT</pubDate>
       <description>
-        <p>
-          The
-          <a href="https://answers.tasktools.org">answers.tasktools.org</a>
-          site is online, and providing not only the answer to your question,
-          but those of many before you. It is becoming a valuable resource
-          for both beginners and experienced users.
-        </p>
+        The answers.tasktools.org (https://answers.tasktools.org)
+        site is online, and providing not only the answer to your question,
+        but those of many before you. It is becoming a valuable resource
+        for both beginners and experienced users.
 
-        <p>
-          <a href="/news/images/answers.png">
-            <img alt="answers.tasktools.org" class="img-thumbnail" src="/news/images/answers.png" />
-          </a>
-        </p>
+        https://taskwarrior.org/news/images/answers.png
       </description>
     </item>
 
@@ -576,21 +543,16 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 26 Sep 2015 23:08:55 GMT</pubDate>
       <description>
-        <p>
-          Clog 1.2.0 is released, with regular expression improvements and
-          bug fixes.
-        </p>
+        Clog 1.2.0 is released, with regular expression improvements and
+        bug fixes.
 
-        <p>
-          The release is immediately available as a source tarball
-          <a href="http://tasktools.org/download/clog-latest.tar.gz">clog-1.2.0.tar.gz</a>.
-        </p>
+        The release is immediately available as a source tarball
+        http://tasktools.org/download/clog-latest.tar.gz
+        (Edit: Updated to latest tarball)
 
-        <p>
-          Clog is a colorized log tail utility. It can spot patterns in an
-          input stream and colorize or suppress the lines. It can also
-          decorate the lines with time- or date-stamps.
-        </p>
+        Clog is a colorized log tail utility. It can spot patterns in an
+        input stream and colorize or suppress the lines. It can also
+        decorate the lines with time- or date-stamps.
       </description>
     </item>
 
@@ -600,20 +562,15 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 26 Sep 2015 23:08:54 GMT</pubDate>
       <description>
-        <p>
-          Vramsteg 1.1.0 is released, with bug fixes and 64-bit value support.
-        </p>
+        Vramsteg 1.1.0 is released, with bug fixes and 64-bit value support.
 
-        <p>
-          The release is immediately available as a source tarball
-          <a href="http://tasktools.org/download/vramsteg-1.1.0.tar.gz">vramsteg-1.1.0.tar.gz</a>.
-        </p>
+        The release is immediately available as a source tarball
+        http://tasktools.org/download/vramsteg-latest.tar.gz
+        Edit: Updated to latest tarball
 
-        <p>
-          Vramsteg, from the Swedish framsteg (progress), is a CLI progress
-          bar that can be used from any script language. It supports color,
-          labels, percentage completion, elapsed time and estimates.
-        </p>
+        Vramsteg, from the Swedish framsteg (progress), is a CLI progress
+        bar that can be used from any script language. It supports color,
+        labels, percentage completion, elapsed time and estimates.
       </description>
     </item>
 
