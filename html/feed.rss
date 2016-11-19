@@ -163,23 +163,15 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu,  7 Jun 2016 04:44:54 GMT</pubDate>
       <description>
-        <p>
-          The main focus for June is getting
-          <a href="/docs/timewarrior/index.html">Timewarrior</a>
-          ready for an alpha, and subsequent beta release. The purpose of an alpha release is to
-          gather feedback that guides the subsequent beta release. Timewarrior
-          is a new project that introduces new concepts. This new functionality
-          needs to be refined before a beta release.
-        </p>
+        The main focus for June is getting Timewarrior
+        (https://taskwarrior.org/docs/timewarrior/index.html)
+        ready for an alpha, and subsequent beta release. The purpose of an alpha release is to
+        gather feedback that guides the subsequent beta release. Timewarrior
+        is a new project that introduces new concepts. This new functionality
+        needs to be refined before a beta release.
 
-        <p>
-          The <a href="https://bug.tasktools.org/browse/TI">Timewarrior bug tracker</a>
-          is now open for business.
-        </p>
-
-        <p>
-          ...
-        </p>
+        The Timewarrior bug tracker (https://bug.tasktools.org/browse/TI)
+        is now open for business.
       </description>
     </item>
 
@@ -189,24 +181,15 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 27 Jun 2016 23:02:00 GMT</pubDate>
       <description>
-        <p>
-          Clog 1.3.0 is released, with regular expression improvements, bug
-          fixes, rule precedence and overlapping match support.
-          This release is a recommended upgrade.
-        </p>
+        Clog 1.3.0 is released, with regular expression improvements, bug
+        fixes, rule precedence and overlapping match support.
+        This release is a recommended upgrade.
 
-        <p>
-          The release is immediately available as a source tarball
-          <a href="http://tasktools.org/download/clog-latest.tar.gz">clog-1.3.0.tar.gz</a>.
-        </p>
+        The release is immediately available as a source tarball
+        (http://tasktools.org/download/clog-latest.tar.gz).
 
-        <p>
-          Clog has a full set of <a href="/docs/clog">online documentation</a>.
-        </p>
-
-        <p>
-          ...
-        </p>
+        Clog has a full set of online documentation
+        (https://taskwarrior.org/docs/clog).
       </description>
     </item>
 
@@ -216,24 +199,12 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 20 Jun 2016 23:41:00 GMT</pubDate>
       <description>
-        <p>
-          Timewarrior 0.9.5 is in alpha! Please download and give us feedback.
-        </p>
+        Timewarrior 0.9.5 is in alpha! Please download and give us feedback.
 
-        <p>
-          Download here:<br />
-          <a href="/download/timew-1.0.0.tar.gz">timew-1.0.0.tar.gz</a><br />
-          (Edit: Updated to beta tarball)
-        </p>
+        Download here: (https://taskwarrior.org/download/timew-latest.tar.gz)
+        (Edit: Updated to release tarball)
 
-        <p>
-          Online documentation here:<br />
-          <a href="/docs/timewarrior">Timewarrior Documentation Home</a>
-        </p>
-
-        <p>
-          ...
-        </p>
+      Timewarrior Documentation Home (https://taskwarrior.org/docs/timewarrior).
       </description>
     </item>
 
@@ -399,16 +370,13 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 09 Feb 2016 22:59:00 GMT</pubDate>
       <description>
-        <p>
-          Taskwarrior aims to provide a toolkit of various capabilities, which
-          can be cherry-picked to support many custom methodologies.
-        </p>
-        <p>
-          We have learned over the years that everyone uses it differently,
-          and for different things. There is a lot to be learned from how
-          someone uses software, the features they use, and the ones they do
-          not.
-        </p>
+        Taskwarrior aims to provide a toolkit of various capabilities, which
+        can be cherry-picked to support many custom methodologies.
+
+        We have learned over the years that everyone uses it differently,
+        and for different things. There is a lot to be learned from how
+        someone uses software, the features they use, and the ones they do
+        not.
       </description>
     </item>
 
@@ -466,18 +434,14 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 01 Nov 2015 16:36:00 GMT</pubDate>
       <description>
-        <p>
-          We’re looking for someone to assume the responsibility of packaging
-          Taskwarrior etc for Cygwin.
-        </p>
+        We’re looking for someone to assume the responsibility of packaging
+        Taskwarrior etc for Cygwin.
 
-        <p>
-          Cygwin doesn’t get the care and attention from us that it should.
-          We often skip releasing on Cygwin because we don’t have the
-          equipment and must borrow it, and furthermore don’t use Cygwin day
-          to day, so every package update involves a full install, and it
-          takes hours.
-        </p>
+        Cygwin doesn’t get the care and attention from us that it should.
+        We often skip releasing on Cygwin because we don’t have the
+        equipment and must borrow it, and furthermore don’t use Cygwin day
+        to day, so every package update involves a full install, and it
+        takes hours.
       </description>
     </item>
 
@@ -659,9 +623,7 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 16 Sep 2015 21:09:40 GMT</pubDate>
       <description>
-        <p>
-          A new beta2 is available for the upcoming 2.5.0 release.
-        </p>
+        A new beta2 is available for the upcoming 2.5.0 release.
       </description>
     </item>
 
@@ -671,23 +633,16 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 07 Sep 2015 21:29:40 GMT</pubDate>
       <description>
-        <p>
-          After an intense four month effort, which focused mainly on a more
-          capable command-line parser, more extension-friendly behavior, and
-          significant improvements to testing, Taskwarrior 2.5.0 beta1 is
-          now released.
-        </p>
+        After an intense four month effort, which focused mainly on a more
+        capable command-line parser, more extension-friendly behavior, and
+        significant improvements to testing, Taskwarrior 2.5.0 beta1 is
+        now released.
 
-        <p>
-          We are asking you to please
-          <a href="/docs/build.html">build</a>
-          and test this release in your environment.
-        </p>
+        We are asking you to please build (https://taskwarrior.org/docs/build.html)
+        and test this release in your environment.
 
-        <p>
-          This is a major release, with about 1100 code changes and a hundred
-          or so bug fixes, but still resulting in a smaller codebase.
-        </p>
+        This is a major release, with about 1100 code changes and a hundred
+        or so bug fixes, but still resulting in a smaller codebase.
       </description>
     </item>
 
@@ -735,16 +690,21 @@
       <description>
         Tom Sydney Kerckhove is writing a series of articles, explaining how
         he uses GTD with Taskwarrior. The first five articles are up:
-        <br />
-        <a href="http://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro.html">Part1 - Intro</a>
-        <br />
-        <a href="http://cs-syd.eu/posts/2015-06-21-gtd-with-taskwarrior-part-2-collection.html">Part2 - Collection</a>
-        <br />
-        <a href="http://cs-syd.eu/posts/2015-06-28-gtd-with-taskwarrior-part-3-tickling.html">Part3 - Tickling</a>
-        <br />
-        <a href="http://cs-syd.eu/posts/2015-07-05-gtd-with-taskwarrior-part-4-processing.html">Part4 - Processing</a>
-        <br />
-        <a href="http://cs-syd.eu/posts/2015-07-12-gtd-with-taskwarrior-part-5-doing.html">Part5 - Doing</a>
+
+        Part 1 - Intro
+        http://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro.html
+
+        Part 2 - Collection
+        http://cs-syd.eu/posts/2015-06-21-gtd-with-taskwarrior-part-2-collection.html
+
+        Part 3 - Tickling
+        http://cs-syd.eu/posts/2015-06-28-gtd-with-taskwarrior-part-3-tickling.html
+
+        Part 4 - Processing
+        http://cs-syd.eu/posts/2015-07-05-gtd-with-taskwarrior-part-4-processing.html
+
+        Part 5 - Doing
+        http://cs-syd.eu/posts/2015-07-12-gtd-with-taskwarrior-part-5-doing.html
       </description>
     </item>
 
@@ -766,16 +726,9 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 24 May 2015 16:05:00 GMT</pubDate>
       <description>
-        <p>
-          Try Taskwarrior
-          <a href="http://wbsch.de/jswarrior/">live in your browser</a>.
-        </p>
-
-        <p>
-          <a href="/news/images/live_demo.png">
-            <img alt="Live Demo" class="img-thumbnail" src="/news/images/live_demo.png" />
-          </a>
-        </p>
+        Try Taskwarrior live in よour browser:
+        http://wbsch.de/jswarrior/
+        https://tsakwarrior.org/news/images/live_demo.png
       </description>
     </item>
 
@@ -785,27 +738,18 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 11 May 2015 00:00:00 GMT</pubDate>
       <description>
-        <p>
-          After more than a year of improvements, Taskserver 1.1.0 is released.
-        </p>
+        After more than a year of improvements, Taskserver 1.1.0 is released.
 
-        <p>
-          This is a major release, with greatly improved setup, security and
-          logging, which make this a recommended upgrade.  Changes include:
-        </p>
+        This is a major release, with greatly improved setup, security and
+        logging, which make this a recommended upgrade.  Changes include:
 
-        <h4>Configuration</h4>
-        <ul>
-          <li>New setup helper script, <code>setup_server.bash</code>, which interactively leads the whole setup and configuration process.</li>
-          <li>When hosting, the configured server name is no longer ignored.</li>
-          <li>Taskserver can now be restricted to IPv4 or IPv6.</li>
-          <li>New man page for <code>taskdctl</code>.</li>
-          <li>Server now supports a configuration setting <code>trust</code>, which can be either <code>strict</code> or <code>allow all</code>, and defaults to <code>strict</code>.</li>
-        </ul>
-
-        <p>
+        Configuration
+          * New setup helper script, 'setup_server.bash', which interactively leads the whole setup and configuration process.
+          * When hosting, the configured server name is no longer ignored.
+          * Taskserver can now be restricted to IPv4 or IPv6.
+          * New man page for 'taskdctl'.
+          * Server now supports a configuration setting 'trust', which can be either 'strict' or 'allow all', and defaults to 'strict'.
           ...
-        </p>
       </description>
     </item>
 
@@ -815,12 +759,10 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 10 May 2015 23:00:00 GMT</pubDate>
       <description>
-        <p>
-          Taskwarrior 2.4.4 is released.
+        Taskwarrior 2.4.4 is released.
 
-          Although a minor release, there are significant bug fixes
-          which make this a recommended upgrade. Changes include:
-        </p>
+        Although a minor release, there are significant bug fixes
+        which make this a recommended upgrade. Changes include:
 
         <p>
           <ul>
