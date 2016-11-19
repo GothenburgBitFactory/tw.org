@@ -974,9 +974,8 @@
         In the upcoming Taskwarrior 2.4.0, there is now the ability to
         apply a different color to the columns of a report that are part
         of the sort key.
-        <a href="/news/images/sort.png">
-          <img alt="Sort Columns Demo" class="img-thumbnail" src="/news/images/sort.png" />
-        </a>
+
+        https://taskwarrior.org/news/images/sort.png
       </description>
     </item>
 
@@ -986,8 +985,10 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 11 Oct 2014 20:33:00 GMT</pubDate>
       <description>
-        A new beta 2 for Taskwarrior 2.4.0 is now available as a source
-        <a href="/download/task-latest.tar.gz">tarball</a>.
+        A new beta 2 for Taskwarrior 2.4.0 is now available as a source tarball:
+
+        https://taskwarrior.org/download/task-latest.tar.gz
+        Edit: Udpated to latest tarball
       </description>
     </item>
 
@@ -997,7 +998,19 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 28 Sep 2014 13:35:00 GMT</pubDate>
       <description>
-        Rackspace has announced that it will reboot all of its cloud server infrastructure joining other hosting providers. The data center we are hosted in is the third in the row of IAD, DFW and ORD. The announced maintenance window is from 2014-09-28 1100 GMT to 2014-09-29 1101 GMT. This will cause interruptions here at taskwarrior.org. You can follow the status at <a href="http://status.tasktools.org">status.tasktools.org</a> and read more on global reboot at <a href="https://status.rackspace.com">Rackspace' status site</a>.
+        Rackspace has announced that it will reboot all of its cloud server
+        infrastructure joining other hosting providers. The data center we are
+        hosted in is the third in the row of IAD, DFW and ORD. The announced
+        maintenance window is from 2014-09-28 1100 GMT to 2014-09-29 1101 GMT.
+
+        This will cause interruptions here at taskwarrior.org. You can follow
+        the status at
+
+        http://status.tasktools.org
+
+        and read more on global reboot at
+
+        https://status.rackspace.com
       </description>
     </item>
 
@@ -1007,8 +1020,10 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 15 Sep 2014 18:59:00 EST</pubDate>
       <description>
-        Taskwarrior 2.4.0 is in beta, and available as a source
-        <a href="/download/task-latest.tar.gz">tarball</a>.
+        Taskwarrior 2.4.0 is in beta, and available as a source tarball:
+
+        https://taskwarrior.org/download/task-latest.tar.gz
+        Edit: Updated to latest tarball
 
         Features include: [1] Calc command "task calc '1 + 1'" Hint: it's '2', but
         it's a beta, so who knows? And yes, it can do more than that.
