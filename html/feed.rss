@@ -23,11 +23,29 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Sat, 03 Dec 2016 17:54:14 GMT</pubDate>
-    <lastBuildDate>Sat, 03 Dec 2016 17:54:14 GMT</lastBuildDate>
+    <pubDate>Fri, 09 Dec 2016 14:12:00 GMT</pubDate>
+    <lastBuildDate>Fri, 09 Dec 2016 14:12:00 GMT</lastBuildDate>
 
     <item>
-      <title>Resolving with dnsimple</title>
+      <title>In-House Talk and Workshop at TNG Technology Consulting</title>
+      <link>http://taskwarrior.org/news/news.20161209.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Fri, 09 Dec 2016 14:12:00 GMT</pubDate>
+      <description>
+        http://www.tngtech.com
+
+        TNG Technology Consulting GmbH, of Unterföhring Germany, are hosting
+        an internal event "Techday" on December 10th, which is a regular
+        occurrence at TNG.
+
+        TNG has invited Dirk Deimeke to attend and give a talk and workshop,
+        where he will be discussing Taskwarrior and related projects, with a
+        workshop that covers a lot of functionality.
+      </description>
+    </item>
+
+    <item>
+      <title>Activity Digest - November 2016</title>
       <link>http://taskwarrior.org/news/news.20161203.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 03 Dec 2016 17:54:14 GMT</pubDate>
