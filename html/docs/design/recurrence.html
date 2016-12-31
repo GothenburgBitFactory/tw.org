@@ -149,7 +149,7 @@
 
               <table class="table table-condensed">
                 <tr>
-                  <td><code>regular</code></td>
+                  <td><code>periodic</code></td>
                   <td>
                     Instances are created on a regular schedule.
                     Example: send birthday flowers.  It must occur on a regular
@@ -182,7 +182,7 @@
             <p>
               Upgrade template:
               <ul>
-                <li>Add <code>rtype:regular</code></li>
+                <li>Add <code>rtype:periodic</code></li>
                 <li>Add <code>last:N</code> where <code>N</code> is the length of <code>mask</code></li>
                 <li>Delete <code>mask</code></li>
               </ul>
@@ -237,9 +237,9 @@
             </p>
 
             <a name="implementation"></a>
-            <h4>Implementation: Adding a new <code>regular</code> template</h4>
+            <h4>Implementation: Adding a new <code>periodic</code> template</h4>
             <p>
-              When adding a new regular template:
+              When adding a new periodic template:
 
               <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U</pre>
 
@@ -253,7 +253,7 @@ template.recur:       R       (stored in raw form, ie 'P14D')
 template.wait:        D-1wk
 template.scheduled:   D-1wk
 template.until:       U
-template.rtype:       regular
+template.rtype:       periodic
 template.last:</pre>
 
               Creating the Nth instance (index N):
