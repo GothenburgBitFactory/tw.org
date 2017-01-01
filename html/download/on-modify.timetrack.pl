@@ -103,7 +103,7 @@ solution is somewhat fragile.
 
 =head1 COPYRIGHT
 
-Copyright (C) 2016 by Klaus Ethgen. All rights reserved.
+Copyright (C) 2016 - 2017 by Klaus Ethgen. All rights reserved.
 
 =head1 LICENSE
 
