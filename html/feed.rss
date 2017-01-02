@@ -27,6 +27,26 @@
     <lastBuildDate>Fri, 09 Dec 2016 14:12:00 GMT</lastBuildDate>
 
     <item>
+      <title>Activity Digest - December 2016</title>
+      <link>http://taskwarrior.org/news/news.20170102.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 02 Jan 2017 05:25:00 GMT</pubDate>
+      <description>
+        Both Taskwarrior and Taskserver improved GnuTLS support, in
+        particular with more robust certificate validation, and error
+        reporting/logging.
+
+        The rat parser is now handling complex grammars, such as the
+        clog configuration file, and will later be used to handle
+        command line parsing in all projects.
+
+        The Taskwarrior overhaul of recurrence features has begun, which
+        will culminate in the 2.6.0 release with new types of recurring
+        tasks.
+      </description>
+    </item>
+
+    <item>
       <title>In-House Talk and Workshop at TNG Technology Consulting</title>
       <link>http://taskwarrior.org/news/news.20161209.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
