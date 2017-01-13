@@ -23,8 +23,27 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Mon, 02 Jan 2017 05:25:00 GMT</pubDate>
-    <lastBuildDate>Mon, 02 Jan 2017 05:25:00 GMT</lastBuildDate>
+    <pubDate>Fri, 13 Jan 2017 16:22:00 GMT</pubDate>
+    <lastBuildDate>Fri, 13 Jan 2017 16:22:00 GMT</lastBuildDate>
+
+    <item>
+      <title>FOSDEM 2017: Taskwarrior Presence</title>
+      <link>http://taskwarrior.org/news/news.20170113.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Fri, 13 Jan 2017 16:22:00 GMT</pubDate>
+      <description>
+        The Taskwarrior Team will be attending FOSDEM 2017
+        (https://fosdem.org/2017) on February 4th and 5th in Brussels.
+
+        There is no better opportunity to register your complaints directly
+        and receive your own personalized sincere apology and refund.
+
+        We should be easily recognizable: that far-away look in our eyes,
+        logo stickers, beer and of course, no mouse.
+
+        Find us, talk to us.  We'd love to hear what you think.
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - December 2016</title>
