@@ -23,8 +23,29 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Wed, 08 Feb 2017 08:00:00 GMT</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2017 08:00:00 GMT</lastBuildDate>
+    <pubDate>Thu, 09 Feb 2017 23:30:00 GMT</pubDate>
+    <lastBuildDate>Thu, 09 Feb 2017 23:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Activity Digest - January 2017</title>
+      <link>http://taskwarrior.org/news/news.20170209.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Thu, 09 Feb 2017 23:30:00 GMT</pubDate>
+      <description>
+        The rat parser is now mostly complete, and ready to take on the
+        syntax of the rules system.
+
+        The Taskwarrior bug database
+        haѕ had another cleanup pass that removed obsolete or
+        accidentally fixed issues.
+
+        The flod2 CI system is now online and is about to begin processing
+        builds instead of hte old flod system. Both system will be online
+        until the switchover is complete.
+
+        Finally, the team spent a little time getting ready for FOSDEM.
+      </description>
+    </item>
 
     <item>
       <title>FOSDEM 2017: Reprise</title>
