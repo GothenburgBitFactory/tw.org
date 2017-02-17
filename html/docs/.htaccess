@@ -116,3 +116,7 @@ REDIRECT 301 /docs/tutorials                       /docs/index.html
 
 # Added 2015-10-12
 REDIRECT 301 /docs/server_taskwarrior.html         /docs/taskserver/taskwarrior.html
+
+# Added 2017-02-17
+REDIRECT 301 /docs/design/review.html              /docs/review.html
+
