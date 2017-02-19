@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Taskwarrior - Plans</title>
+    <title>Plans</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -78,7 +78,7 @@
               <th>
                 <span class="label label-danger">2.6.0</span><br />
                 Next<br /><br />
-                2016
+                2017
               </th>
               <th>
                 <span class="label label-info">2.x</span><br />
@@ -97,12 +97,11 @@
                 Annotations<br />
                 Tags / Virtual Tags<br />
                 <a href="/docs/context.html">Context</a><br />
-                C++11 constructs<br />
               </td>
               <td>
                 <a href="/docs/design/recurrence.html">Recurrence</a><br />
                 Shared library<br />
-                Purge<br />
+                <code>purge</code> command<br />
               </td>
               <td>
                 True Color
@@ -118,12 +117,16 @@
                 <a href="/docs/hooks.html">Hooks</a><br />
                 <a href="/docs/design/hooks2.html">Hooks v2</a><br />
                 <a href="/docs/dom.html">DOM</a><br />
-                Helper commadns<br />
+                Helper commands<br />
               </td>
               <td>
               </td>
               <td>
-                <code>on-sync</code> hook
+                <code>on-sync</code> hook<br />
+                Full DOM<br />
+                DOM access in rc<br />
+                <code>$ENV</code> access in rc<br />
+                Report columns as DOM refs<br />
               </td>
             </tr>
 
@@ -137,6 +140,11 @@
                 <code>priority</code> as a UDA<br />
               </td>
               <td>
+                <code>template</code><br />
+                <code>rtype</code><br />
+                Remove <code>mask</code><br />
+                Remove <code>imask</code><br />
+                Remove <code>parent</code><br />
               </td>
               <td>
                 <code>org</code><br />
@@ -151,9 +159,9 @@
                 Improved Themes
               </td>
               <td>
+                Daily, Weekly reports (history, ghistory)<br />
               </td>
               <td>
-                Weekly reports (history, ghistory ...)<br />
               </td>
             </tr>
 
@@ -164,10 +172,9 @@
                 <code>task sync init</code> (all tasks)<br />
               </td>
               <td>
-                <code>task sync reset</code><br />
               </td>
               <td>
-                <code>task sync gc</code>
+                <code>task sync reset</code><br />
               </td>
             </tr>
 
@@ -181,7 +188,7 @@
               <td>
               </td>
               <td>
-                Threaded file load
+                Threaded file load<br />
                 Read-only mode
               </td>
             </tr>
@@ -202,7 +209,7 @@
               <td>
               </td>
               <td>
-                <code>jpn-JPN</code><br />
+                Migrate to <a href="https://www.gnu.org/software/gettext/">gettext</a><br />
               </td>
             </tr>
 
@@ -231,7 +238,6 @@
                 Python tests<br />
                 Sync tests<br />
                 Parallel tests<br />
-                Perl tests eliminated<br />
               </td>
               <td>
                 Migration to Flod2<br />
@@ -244,10 +250,12 @@
               <td>Tool Chain</td>
               <td>
                 GCC 4.7 / Clang 3.3<br />
-                Full C++11 support<br />
+                C++11 support<br />
                 CMake<br />
               </td>
               <td>
+                GCC 4.9 / Clang 3.4<br />
+                Full C++11 support<br />
               </td>
               <td>
                 Full C++14 support<br />
@@ -265,14 +273,14 @@
             <tr>
               <th>Tasksh<br />Technology/Feature</th>
               <th>
-                <span class="label label-success">1.0.0</span><br />
+                <span class="label label-success">1.1.0</span><br />
                 Current<br /><br />
-                Released 2014-12-21
+                Released 2016-09-05
               </th>
               <th>
-                <span class="label label-danger">1.1.0</span><br />
+                <span class="label label-danger">1.2.0</span><br />
                 Next<br /><br />
-                2016
+                2017
               </th>
               <th>
                 <span class="label label-info">1.x</span><br />
@@ -283,11 +291,11 @@
             <tr>
               <td>Core</td>
               <td>
+                <a href="/docs/design/review.html">Review</a><br />
                 libreadline<br />
+                Shared library<br />
               </td>
               <td>
-                <a href="/docs/design/review.html">Review</a><br />
-                Shared library<br />
               </td>
               <td>
                 Pomodoro timer<br />
@@ -298,9 +306,10 @@
               <td>Tool Chain</td>
               <td>
                 CMake<br />
+                GCC 4.7 / Clang 3.3<br />
               </td>
               <td>
-                GCC 4.7 / Clang 3.3<br />
+                GCC 4.9 / Clang 3.4<br />
                 Full C++11 support<br />
               </td>
               <td>
@@ -326,7 +335,7 @@
               <th>
                 <span class="label label-danger">1.2.0</span><br />
                 Next<br /><br />
-                2016
+                2017
               </th>
               <th>
                 <span class="label label-info">1.x</span><br />
@@ -391,6 +400,7 @@
                 CMake<br />
               </td>
               <td>
+                GCC 4.9 / Clang 3.4<br />
                 Full C++11 support<br />
               </td>
               <td>
@@ -416,7 +426,7 @@
               <th>
                 <span class="label label-danger">1.1.0</span><br />
                 Next<br /><br />
-                2016
+                2017
               </th>
               <th>
                 <span class="label label-info">1.x</span><br />
@@ -460,8 +470,7 @@
               <td>
               </td>
               <td>
-                Logic rules<br />
-                Hook rules<br />
+                Rule System<br />
               </td>
             </tr>
 
@@ -481,9 +490,11 @@
               <td>
                 CMake<br />
                 GCC 4.7 / Clang 3.3<br />
-                Full C++11 support<br />
+                C++11 support<br />
               </td>
               <td>
+                GCC 4.9 / Clang 3.4<br />
+                Full C++11 support<br />
               </td>
               <td>
                 Full C++14 support<br />
