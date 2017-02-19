@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Taskwarrior - What's next?</title>
+    <title>Taskwarrior - Work Week Support</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -47,123 +47,72 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <div class="col-md-10">
-          <p class="lead">
-            This is where design documents (RFCs) are kept.
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
 
-          <p>
-            Although these documents are less formal than
-            <a href="http://www.ietf.org/rfc.html">IETF RFCs</a>
-            they serve a similar purpose. These documents apply only to the
-            Taskwarrior family of products, and are placed here to invite
-            comment before designs finalize.
-          </p>
+        <div class="col-md-10 main">
+          <div class="row">
+            <div class="callout callout-danger">
+              <h4>Work in Progress</h4>
+              <p>
+                This design document is a work in progress, and subject to
+                change. Once finalized, the feature will be scheduled for an
+                upcoming release.
+              </p>
+            </div>
+
+            <a name="current"></a>
+            <h3>Work Week Support</h3>
+            <p>
+              Taskwarrior supports the idea that a week starts on either a
+              Sunday or a Monday, as determined by configuration. This was added
+              eight years ago, simply for display purposes in the
+              <code>calendar</code> report. Since then its use has propagated
+              and it influences the <code>sow</code> date reference.0
+            </p>
+
+            <p>
+              Further requests have been made to make this more flexible, so
+              that the notion of 'weekend' can be defined. Furthermore, the idea
+              that every week has a weekend has also been questioned.
+            </p>
+
+            <p>
+              It has become clear that a <code>weekstart</code> setting, and
+              the notion of a weekend are no longer useful.
+            </p>
+
+            <a name="proposed"></a>
+            <h4>Proposed Support</h4>
+            <p>
+              One option is to allow the user to completely define a work week
+              in the following way:
+            </p>
+
+            <pre>workweek=1,2,3,4,5</pre>
+
+            <p>
+              With Sunday as day zero, this states that the work week is the
+              typical Monday - Friday. From this setting, the meaning of
+              <code>soww</code> and <code>eoww</code> can be determined, as
+              well as <code>recur:weekday</code>.
+            </p>
+
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <a name="rfc"></a>
-                <p class="text-large"><strong>Plans</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/plans.html">Taskwarrior/Taskserver/Tasksh/Timewarrior Plans</a>
-                    </li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="rfc"></a>
-                <p class="text-large"><strong>RFCs</strong></p>
-              </td>
-              <td>
-                <p>
-                  <h4>Taskwarrior</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/workweek.html">Work Week Support</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/workweek.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/recurrence.html">Recurrence</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/recurrence.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/task.html">Taskwarrior JSON Format</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/task.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/cli.html">CLI Updates</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/cli.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                  </ul>
-
-                  <h4>Taskserver</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      <a class="alert-link" href="/docs/design/protocol.html">Taskserver Sync Protocol</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/protocol.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/request.html">Taskserver Message Format</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/request.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/sync.html">Taskserver Sync Algorithm</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/sync.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                    <li>
-                      <a class="alert-link" href="/docs/design/client.html">Taskserver Client</a>
-                      <a href="https://git.tasktools.org/projects/ST/repos/tw.org/browse/html/docs/design/client.html"><span class="glyphicon glyphicon-info-sign"></span></a>
-                    </li>
-                  </ul>
-
-                  <h4>Tasksh</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      (No announced plans)
-                    </li>
-                  </ul>
-
-                  <h4>Timewarrior</h4>
-                  <ul class="list-unstyled">
-                    <li>
-                      (No announced plans)
-                    </li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <a name="upcoming"></a>
-                <p class="text-large"><strong>Upcoming RFCs</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li>Lazy Dates (Deferred Evaluation)</li>
-                    <li>DOM</li>
-                    <li>Rules System</li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
-          </table>
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#current">Current Support</a></li>
+            <li><a class="alert-link" href="#proposed">Proposed Support</a></li>
+          </ul>
         </div>
-
-        <br />
-        <br />
       </div>
     </div>
 
