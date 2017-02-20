@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - Full DOM Support</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <div class="callout callout-danger">
+              <h4>Work in Progress</h4>
+              <p>
+                This design document is a work in progress, and subject to
+                change. Once finalized, the feature will be scheduled for an
+                upcoming release.
+              </p>
+            </div>
+
+            <a name="current"></a>
+            <h3>Full DOM Support</h3>
+            <p>
+              Taskwarrior currently supports DOM references that can access any
+              stored data item. The general forms supported are:
+            </p>
+
+            <pre>[ &lt;id&gt; | &lt;uuid&gt; ] &lt;attribute&gt; [ &lt;part&gt; ]</pre>
+
+            <p>
+              Examples include:
+            </p>
+
+            <pre>due
+123.uuid
+entry.month
+123.annotations.0.entry.year
+a87bc10f-931b-4558-a44a-e901a77db011.description</pre>
+
+            <p>
+              Additionally there are references for accessing configuration and
+              system/program level items.
+            </p>
+
+            <pre>rc.&lt;name&gt;
+context.program
+context.args
+context.width
+context.height
+system.version
+system.os</pre>
+
+            <p>
+              While this is adequate for data retrieval, we have the possibility of
+              extending it further to include data formats, higher-level constructs,
+              and then to make use of DOM references in more locations. This contributes
+              to our goal of simplifying Taskwarrior.
+            </p>
+
+            <a name="format"></a>
+            <h4>Proposed Format Support</h4>
+            <p>
+              When defining a custom report, the columns shown are defined like this:
+            </p>
+
+            <pre>report.x.columns=uuid.short,description.oneline ...</pre>
+
+            <p>
+              This syntax is:
+            </p>
+
+            <pre>&lt;attribute&gt; [ . &lt;format&gt; ]</pre>
+
+            <p>
+              If no <code>format</code> is specified, then <code>default</code> is
+              assumed. The src/columns/ColΧ* objects are responsible for supporting
+              and rendering these formats. There is currently no consistency among
+              these formats based on data type.
+            </p>
+
+            <p>
+              By incorporating formats into DOM references, we eliminate the need for
+              a separate syntax for custom reports, and provide this:
+            </p>
+
+            <pre>123.due.iso
+123.due.month.short
+123.uuid.short</pre>
+
+            <p>
+              A standard set of formats per data type would be:
+            </p>
+
+            <table class="table table-striped table-compact">
+              <tr>
+                <th>Type</td>
+                <th>Formats</th>
+                <th>Example</th>
+              </tr>
+
+              <tr>
+                <td rowspan="3">Numeric</td>
+                <td>default</td>
+                <td><code>123</code</td>
+              </tr>
+              <tr>
+                <td>indicator</td>
+                <td>Based on <code>rc.&lt;attribute&gt;.indicator</code> which overrides <code>rc.numeric.indicator</code>.</td>
+              </tr>
+              <tr>
+                <td>json</td>
+                <td><code>"&lt;attribute&gt;":"&lt;value&gt;"</code></td>
+              </tr>
+
+              <tr>
+                <td rowspan="4">String</td>
+                <td>default</td>
+                <td>Buy milk</td>
+              </tr>
+              <tr>
+                <td>short</td>
+                <td>Feb</td>
+              </tr>
+              <tr>
+                <td>indicator</td>
+                <td>Based on <code>rc.&lt;attribute&gt;.indicator</code> which overrides <code>rc.string.indicator</code>.</td>
+              </tr>
+              <tr>
+                <td>json</td>
+                <td><code>"&lt;attribute&gt;":"&lt;value&gt;"</code></td>
+              </tr>
+
+              <tr>
+                <td rowspan="10">Date</td>
+                <td>default</td>
+                <td>Based on <code>rc.dateformat</code></td>
+              </tr>
+              <tr>
+                <td>iso</td>
+                <td>2017-02-20T09:02:12</td>
+              </tr>
+              <tr>
+                <td>julian</td>
+                <td>2457805.12858</td>
+              </tr>
+              <tr>
+                <td>epoch</td>
+                <td>1234567890</td>
+              </tr>
+              <tr>
+                <td>age</td>
+                <td>2min</td>
+              </tr>
+              <tr>
+                <td>relative</td>
+                <td>-2min</td>
+              </tr>
+              <tr>
+                <td>remaining</td>
+                <td>0:02:04</td>
+              </tr>
+              <tr>
+                <td>countdown</td>
+                <td>0:02:04</td>
+              </tr>
+              <tr>
+                <td>indicator</td>
+                <td>Based on <code>rc.&lt;attribute&gt;.indicator</code> which overrides <code>rc.date.indicator</code>.</td>
+              </tr>
+              <tr>
+                <td>json</td>
+                <td><code>"&lt;attribute&gt;":"&lt;value&gt;"</code></td>
+              </tr>
+
+              <tr>
+                <td rowspan="4">Duration</td>
+                <td>default</td>
+                <td>1wk</td>
+              </tr>
+              <tr>
+                <td>iso</td>
+                <td>P1W</td>
+              </tr>
+              <tr>
+                <td>indicator</td>
+                <td>Based on <code>rc.&lt;attribute&gt;.indicator</code> which overrides <code>rc.duration.indicator</code>.</td>
+              </tr>
+              <tr>
+                <td>json</td>
+                <td><code>"&lt;attribute&gt;":"&lt;value&gt;"</code></td>
+              </tr>
+            </table>
+
+            <p>
+              There will also be a set of attribute-specific formats, similar to the currently supported set:
+            </p>
+
+            <pre>depends.list
+depends.count
+description.combined
+description.desc
+description.oneline
+description.truncated
+description.count
+description.truncated_count
+parent.default|long
+parent.short
+project.full
+project.parent
+project.indented
+status.default|long
+status.short
+tags.default|list
+tags.count
+urgency.default|real
+urgency.integer
+uuid.default|long
+uuid.short</pre>
+
+            <p>
+              Custom report sort criteria will also use DOM references.  This will be
+              augmented by the <code>+</code>/<code>-</code> sort direction and
+              <code>/</code> break indicator, which are not part of the DOM.
+            </p>
+
+            <a name="high"></a>
+            <h4>High Level Construct Support</h4>
+            <p>
+              Tasks have emergent properties represented by virtual tags, which will be
+              accessible:
+            </p>
+
+            <pre>123.tags.OVERDUE</pre>
+
+            <a name="interchange"></a>
+            <h4>Data Interchange</h4>
+            <p>
+              The export command can be used to show a filtered set of tasks in JSON
+              format, and this will also be avaiable as a DOM format:
+            </p>
+
+            <pre>123.json
+a87bc10f-931b-4558-a44a-e901a77db011.json</pre>
+
+            <a name="rc"></a>
+            <h4>RC File Support</h4>
+            <p>
+              The RC file (<code>~/.taskrc</code>) will support DOM references in values.
+              This will form a late-bound reference, which is evaluated at runtime, every
+              time.
+            </p>
+
+            <p>
+              An example is to make two reports share the same description:
+            </p>
+
+            <pre>$ task config -- report.ls.description rc.report.list.description</pre>
+
+            <p>
+              This sets the description for the <code>ls</code> report to be a reference
+              to the description of the <code>list</code> report. This reference is not
+              evaluated when the entry is written, but is evaluated every time the
+              value is read, thus providing late-bound behavior. Then if the description
+              of the <code>list</code> report changes, so does that of the <code>ls</code>
+              report automatically.
+            </p>
+
+            <a name="dev"></a>
+            <h4>Implementation Details</h4>
+            <p>
+              These notes list a series of anticipated changes to the codebase.
+            </p>
+
+            <ul>
+              <li>
+                The <code>src/columns/Col*</code> objects will implement type-specific
+                and attribute-specific DOM support.  DOM reference lookup will defer to
+                the column objects first.
+              </li>
+              <li>
+                Some DOM references will be writable, permitting a <code>_set</code>
+                command to complement the <code>_get</code> command.
+              </li>
+              <li>
+                The <code>Config</code> object will recognize DOM references in values
+                and perform lookup at read time. This will require circularity detection.
+              </li>
+              <li>
+                <code>src/DOM.cpp</code> will provide a memoized function to determine
+                whether a DOM reference is valid.
+              </li>
+              <li>
+                <code>src/DOM.cpp</code> will provide a function to obtain a DOM
+                reference value, with supporting metadata (type, writable).
+              </li>
+            </ul>
+          </div>
+
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#current">Full DOM Support</a></li>
+            <li><a class="alert-link" href="#format">Format</a></li>
+            <li><a class="alert-link" href="#high">High Level</a></li>
+            <li><a class="alert-link" href="#interchange">Data Interchange</a></li>
+            <li><a class="alert-link" href="#rc">RC File</a></li>
+            <li><a class="alert-link" href="#dev">Implementation</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="lc" value="en_US">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----MIIHPwYJKoZIhvcNAQcEoIIHMDCCBywCAQExggEwMIIBLAIBADCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwDQYJKoZIhvcNAQEBBQAEgYBBCk8xDP0itbbUlqEdxezc2EBPFprkvY1dgZLt//2Fxa5MGC0sr5irXPhh5/9H71/xUDdXLAW48smxMStRgUPNaXtbH9tG+Js3yVRxObGc8c6QHUDFjbDdHZXMYigPCAFCXw69/oliYCkQ8ANt84MUjqns9HLJw8fmEzqOrgE89jELMAkGBSsOAwIaBQAwgbwGCSqGSIb3DQEHATAUBggqhkiG9w0DBwQIE0SOjNzcFHmAgZhdqtdPAqqb+31BfUMO6AP/M2BDs0lxsa0vdduAcvZ3P1Fi3xa8CgtKArZATuNFbL8+hCMC3qg5spEcX46mlDYFJp2H/13scfP5MDoOa+mxFVAHVRbN4smZsYNYjtw4i59FC4F2/2Zli6QTuGAcZbGNN5xcO4k6RjYHWade66XUYIItn47AeKAVTK9wS95uSxXNtY6TWFosOqCCA4cwggODMIIC7KADAgECAgEAMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTAeFw0wNDAyMTMxMDEzMTVaFw0zNTAyMTMxMDEzMTVaMIGOMQswCQYDVQQGEwJVUzELMAkGA1UECBMCQ0ExFjAUBgNVBAcTDU1vdW50YWluIFZpZXcxFDASBgNVBAoTC1BheVBhbCBJbmMuMRMwEQYDVQQLFApsaXZlX2NlcnRzMREwDwYDVQQDFAhsaXZlX2FwaTEcMBoGCSqGSIb3DQEJARYNcmVAcGF5cGFsLmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAwUdO3fxEzEtcnI7ZKZL412XvZPugoni7i7D7prCe0AtaHTc97CYgm7NsAtJyxNLixmhLV8pyIEaiHXWAh8fPKW+R017+EmXrr9EaquPmsVvTywAAE1PMNOKqo2kl4Gxiz9zZqIajOm1fZGWcGS0f5JQ2kBqNbvbg2/Za+GJ/qwUCAwEAAaOB7jCB6zAdBgNVHQ4EFgQUlp98u8ZvF71ZP1LXChvsENZklGswgbsGA1UdIwSBszCBsIAUlp98u8ZvF71ZP1LXChvsENZklGuhgZSkgZEwgY4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJDQTEWMBQGA1UEBxMNTW91bnRhaW4gVmlldzEUMBIGA1UEChMLUGF5UGFsIEluYy4xEzARBgNVBAsUCmxpdmVfY2VydHMxETAPBgNVBAMUCGxpdmVfYXBpMRwwGgYJKoZIhvcNAQkBFg1yZUBwYXlwYWwuY29tggEAMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAgV86VpqAWuXvX6Oro4qJ1tYVIT5DgWpE692Ag422H7yRIr/9j/iKG4Thia/Oflx4TdL+IFJBAyPK9v6zZNZtBgPBynXb048hsP16l2vi0k5Q2JKiPDsEfBhGI+HnxLXEaUWAcVfCsQFvd2A1sxRr67ip5y2wwBelUecP3AjJ+YcxggGaMIIBlgIBATCBlDCBjjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAkNBMRYwFAYDVQQHEw1Nb3VudGFpbiBWaWV3MRQwEgYDVQQKEwtQYXlQYWwgSW5jLjETMBEGA1UECxQKbGl2ZV9jZXJ0czERMA8GA1UEAxQIbGl2ZV9hcGkxHDAaBgkqhkiG9w0BCQEWDXJlQHBheXBhbC5jb20CAQAwCQYFKw4DAhoFAKBdMBgGCSqGSIb3DQEJAzELBgkqhkiG9w0BBwEwHAYJKoZIhvcNAQkFMQ8XDTExMDcxODIyMTc1NFowIwYJKoZIhvcNAQkEMRYEFC9vnDkMVfzRa+R3epadnzsLl+pbMA0GCSqGSIb3DQEBAQUABIGAUZXskGTgWLLaulW/GTU5hxxBYeJFie8HNfGN0faR2wz4ec3eIFLrVU5bsX663p4gvoEH34PJFspYRDQwN+u09YPigMSAEc5gDQeUtVA7qKBLib2MWagcwXJR1OmJc7g/mqHp7gQ+QxTaG6UlKVSI6TB2vtgDXXa+Pwyv/O7C2ws=-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2017 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
