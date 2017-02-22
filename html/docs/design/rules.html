@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - Rule System</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <div class="callout callout-danger">
+              <h4>Work in Progress</h4>
+              <p>
+                This design document is a work in progress, and subject to
+                change. Once finalized, the feature will be scheduled for an
+                upcoming release.
+              </p>
+            </div>
+
+            <a name="rules"></a>
+            <h3>Rule System</h3>
+            <p>
+              The rule system is a framework that supports highly configurable
+              features, with runtime evaluation, DOM access and an internal API.
+
+              The current configuration system supports only two different forms
+              of syntax:
+            </p>
+
+            <pre>&lt;name&gt; = [ &lt;value&gt; ]
+
+include &lt;file&gt;</pre>
+
+            <p>
+              A rule is a new form of syntax that consists of a rule-type, a name,
+              optional trigger condition, and actions in the form of api calls.
+            </p>
+
+            <p>
+              The name and type of a rule is important, as these values are used
+              as an identifier which allows rule overrides. Just like the existing
+              configuration, the rc file is read from top to bottom, with a later
+              rule definition possibly overriding an earlier rule definition.
+            </p>
+
+            <a name="nag"></a>
+            <h4>Example: nag</h4>
+            <p>
+              The current <code>rc.nag</code> setting determines which text is
+              shown to the user when a task is completed, when it does not have
+              the highest urgency. This encourages the user to think about the
+              urgency of a task when choosing what to work on next. This is
+              either an effective feature, or an annoyance.
+
+              Setting the value blank disables the feature. The configuration
+              looks like this:
+            </p>
+
+            <pre>nag=You have more urgent tasks!</pre>
+
+            <p>
+              Instead this could be represented by the following:
+            </p>
+
+            <pre>rule nag:
+    warn 'You have more urgent tasks!'
+</pre>
+
+            <p>
+              The <code>warn</code> api call could then be replaced by
+              <code>error</code> to make this feature very strict. That's a bad
+              idea, but then again, this is just an example.
+
+              Although this represents an improvement, it still requires core
+              support for the nag feature, and only defers to rules to
+              determine the action taken.
+
+              A better approach would also capture the logic, and therefore make
+              the feature more powerful:
+            </p>
+
+            <pre>rule on-modify nag:
+    if after.status == 'completed' and before.urgency &lt; (dom.urgency.max - 2.0):
+        warn 'You have more urgent tasks!'
+</pre>
+
+            <p>
+              This would require that conditions can be evaluated as filter
+              expressions currently are. It also requires that there is DOM
+              support for <code>dom.urgency.highest</code>, and that rule-type
+              <code>on-modify</code> has <code>before</code> and <code>after</code>
+              parameters.
+            </p>
+
+            <p>
+              The result is that all trace of the nag feature can be removed
+              from the core, and the feature moves into configuration-space.
+            </p>
+
+            <p>
+              By replacing the nag feature with a rule, we additionally offer
+              the possibility of many more related features, at no increase in
+              core size.
+            </p>
+
+            <p>
+              While this functionality can also be implemented using hooks, rules
+              run in-process, and therefore do not require external interpreters
+              to be launched every time.
+            </p>
+
+            <a name="other"></a>
+            <h4>Other Uses</h4>
+            <p>
+              The nag feature is just one example. The following is a list of
+              features that could be replaced by rules:
+            </p>
+
+            <ul>
+              <li>Color rules. This will allow for more complex conditions.</li>
+              <li>Urgency calculations. Custom urgency terms.</li>
+              <li>Custom column formatting. Overriding the default set of supported formats.</li>
+              <li>UDA behavior.</li>
+              <li>User defined virtual tags.</li>
+              <li>Policy enforcement. Making an attribute such as project mandatory.</li>
+            </ul>
+
+            <p>
+              Opening up the implementation in this way will allow for features
+              that we have not imagined.
+            </p>
+
+            <a name="types"></a>
+            <h4>Rule Types</h4>
+            <p>
+              The set of supported rule types will include:
+            </p>
+
+            <table class="table table-striped table-compact">
+              <tr>
+                <td><code>on-launch</code></td>
+                <td>Triggered on program launch.</td>
+              </tr>
+              <tr>
+                <td><code>on-add</code></td>
+                <td>Triggered when a task is added.  The rule can modify the task, and approve or reject it.</td>
+              </tr>
+              <tr>
+                <td><code>on-modify</code></td>
+                <td>Triggered when a task is modified.  The rule can modify the task, and approve or reject it.</td>
+              </tr>
+              <tr>
+                <td><code>on-exit</code></td>
+                <td>Triggered on program exit.</td>
+              </tr>
+              <tr>
+                <td><code>color</code></td>
+                <td>Triggered when colors are being determined.</td>
+              </tr>
+              <tr>
+                <td><code>virtual tag</code></td>
+                <td>Defines a new virtual tag.</td>
+              </tr>
+              <tr>
+                <td><code>format</code></td>
+                <td>Triggered when an attribute needs formatting, defines are new format.</td>
+              </tr>
+            </table>
+
+            <p>
+              More rules types will be added to support more flexibility in future releases.
+            </p>
+
+            <a name="api"></a>
+            <h4>API</h4>
+            <p>
+              The API is a simple set of actions that may be taken by a rule.
+            </p>
+
+            <table class="table table-striped table-compact">
+              <tr>
+                <td><code>debug &lt;string&gt;</code></td>
+                <td>Displays the string in debug mode only and continues processing.</td>
+              </tr>
+              <tr>
+                <td><code>warn &lt;string&gt;</code></td>
+                <td>Displays the string as a warning continues processing.</td>
+              </tr>
+              <tr>
+                <td><code>error &lt;string&gt;</code></td>
+                <td>Displays the string as an error and terminates processing.</td>
+              </tr>
+              <tr>
+                <td><code>exec &lt;binary&gt; [ &lt;args&gt; ... ]</code></td>
+                <td>
+                  Executes the external program and passes arguments to it.
+                  If the program exits with non-zero status, it is treated as
+                  an error.
+                </td>
+              </tr>
+              <tr>
+                <td><code>return &lt;value&gt;</code></td>
+                <td>Provides a result value for the rule, when necessary.</td>
+              </tr>
+              <tr>
+                <td><code>set &lt;reference&gt; [ &lt;value&gt; ]</code></td>
+                <td>Writes to a DOM reference.</td>
+              </tr>
+            </table>
+
+            <p>
+              This is a very limited set at first, and more API calls will be
+              added to support capabilities in future releases.
+            </p>
+
+            <a name="community"></a>
+            <h4>Community</h4>
+            <p>
+              By relocating features from the core to configuration, there is now
+              the possibility of putting a rule in a separate file and
+              including it.
+
+              Much like hook scripts, this becomes a shared community
+              resource.
+            </p>
+
+            <p>
+              Space on the website should be dedicated to sharing this type of
+              enhancement.
+            </p>
+
+            <a name="projects"></a>
+            <h4>Other Projects</h4>
+            <p>
+              The rule system is not limited to Taskwarrior use, and will likely
+              migrate to Timewarrior and Tasksh.
+            </p>
+
+            <a name="dev"></a>
+            <h4>Implementation Details</h4>
+            <p>
+              Some notes on implementation:
+            </p>
+
+            <ul>
+              <li><code>Config</code> object needs to parse using <code>rat</code>.</li>
+              <li>DOM enhancements are required to provide access to interesting data that is not simply direct task metadata.</li>
+              <li>Once a single rule type is implemented, DOM and API enhancements will independently add to the capabilities.</li>
+              <li><code>rat</code>, <code>Eval</code> and <code>Variant</code> need to migrate to <code>libshared.git</code>.</li>
+              <li>Eliminate the nag feature, and update the default configuration to reimplement it as a rule.</li>
+            </ul>
+          </div>
+
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#rules">Rules System</a></li>
+            <li><a class="alert-link" href="#nag">Example: nag</a></li>
+            <li><a class="alert-link" href="#other">Other Uses</a></li>
+            <li><a class="alert-link" href="#types">Rule Types</a></li>
+            <li><a class="alert-link" href="#api">API</a></li>
+            <li><a class="alert-link" href="#community">Community</a></li>
+            <li><a class="alert-link" href="#projects">Other Projects</a></li>
+            <li><a class="alert-link" href="#dev">Implementation</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+<input type="hidden" name="lc" value="en_US">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2017 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
