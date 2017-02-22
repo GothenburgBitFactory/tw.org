@@ -270,17 +270,42 @@ uuid.short</pre>
             <a name="high"></a>
             <h4>High Level Construct Support</h4>
             <p>
+              There need to be read-only DOM references that do not correspond
+              directly to stored attributes.
+
               Tasks have emergent properties represented by virtual tags, which will be
-              accessible:
+              accessible, in this case returning a <code>0</code> or <code>1</code>:
             </p>
 
             <pre>123.tags.OVERDUE</pre>
+
+            <p>
+              Using <code>rc.due</code> and the <code>due</code> attribute, the
+              <code>OVERDUE</code> virtual tag is a combination of the two. Other
+              examples may include:
+            </p>
+
+            <pre>task.syncneeded
+task.pending.count
+task.hooks.installed</pre>
+
+            <a name="writable"></a>
+            <h4>Writable References</h4>
+            <p>
+              When a DOM reference refers to an attribute or RC setting, and does not
+              extend further and reference a component or format, it may be writable.
+              For example:
+            </p>
+
+            <pre>rc.hooks           # writable
+123.description    # writable
+123.entry.month    # not writable, not an attribute</pre>
 
             <a name="interchange"></a>
             <h4>Data Interchange</h4>
             <p>
               The export command can be used to show a filtered set of tasks in JSON
-              format, and this will also be avaiable as a DOM format:
+              format, and this will also be available as a DOM format:
             </p>
 
             <pre>123.json
@@ -351,6 +376,7 @@ a87bc10f-931b-4558-a44a-e901a77db011.json</pre>
             <li><a class="alert-link" href="#current">Full DOM Support</a></li>
             <li><a class="alert-link" href="#format">Format</a></li>
             <li><a class="alert-link" href="#high">High Level</a></li>
+            <li><a class="alert-link" href="#writable">Writable</a></li>
             <li><a class="alert-link" href="#interchange">Data Interchange</a></li>
             <li><a class="alert-link" href="#rc">RC File</a></li>
             <li><a class="alert-link" href="#dev">Implementation</a></li>
