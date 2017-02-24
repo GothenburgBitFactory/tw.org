@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>News: Activity Digest: February 2017</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/news/">News</a></li>
+            <li><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-2 main">
+      </div>
+
+      <div class="col-md-8 main">
+        <div class="row">
+          <h3>Activity Digest: February 2017 <small>2017-03-01</small></h3>
+          <p>
+            This is an ongoing series of activity reports, published monthly,
+            to highlight activity in our projects. Here is what happened in
+            February 2017.
+
+            This is not a complete list of all activity, just work that results
+            in a non-trivial change. For a full list, see the git history of all
+            the projects.
+          </p>
+
+          <p>
+            <img src="/news/images/perbacco.png" class="img-responsive" />
+          </p>
+
+          <div class="callout callout-info">
+            <h4>Summary</h4>
+            <p>
+              <a href="news.20170208.html">The team attended FOSDEM</a>
+              in Brussels, all meeting for the first time. No one was hurt.
+              Although we had hoped to accomplish a lot during this time, we
+              instead fell in love with a certain restaurant and Belgian beer.
+            </p>
+
+            <p>
+              We would like to welcome Thomas Lauf, who is now pushing to the
+              Timewarrior repository, and Timewarrior is now being fixed and
+              improved at a much faster rate. Welcome, Thomas.
+            </p>
+
+            <p>
+              The flod2 CI system is coming online, which means that Taskwarrior
+              is now being built in parallel by two CI systems as we prepare for
+              a more general transition.
+
+              <ul>
+                <li><a href="https://central.tasktools.org/task-2.6.0.html">Taskwarrior 2.6.0 on Flod</a></li>
+                <li><a href="https://tyuratam.tasktools.org/task.2.6.0.html">Taskwarrior 2.6.0 on Flod2</a></li>
+              </ul>
+            </p>
+
+            <p>
+              A generous donation from
+              <a href="https://www.digitalocean.com">DigitalOcean</a>
+              is making this possible.
+            </p>
+          </div>
+
+          <table class="table table-striped table-compact">
+            <tr>
+              <td style="white-space: nowrap;"><small>2017-02-01</small></td>
+              <td>
+                <ul>
+<!--
+                  <li><a href="https://bug.tasktools.org/browse/TS-34">TS-34: Tasksh throw a warning at the end of a review command</a> fixed</li>
+-->
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-02</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TI-27">TI-27: Add tests for continue with ids</a> tests added</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-03</small></td>
+              <td>
+                <ul>
+                  <li>FOSDEM: Team meets up in Brussels for FOSDEM, beer.</li>
+                  <li>FOSDEM: Team immediately recognizeѕ the importance of hotel meeting spaces that include large tables. It's not something we thought about, but now always will.</li>
+                  <li>FOSDEM: Team discovers great restaurant.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-04</small></td>
+              <td>
+                <ul>
+                  <li>libshared: Fixed a test that assumes every month had 29 days. Not good.</li>
+                  <li>libshared: Merged the JSON and JSON2 (SAX) parsers.</li>
+                  <li>FOSDEM: Conference underway. Team is pleasantly surprised when people recognize the logo on our clothing/laptops and say nice things to us.</li>
+                  <li>FOSDEM: Team returns to same restaurant, displaying the kind of creativity you've come to expect from us.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-05</small></td>
+              <td>
+                <ul>
+                  <li>Tasksh: the <code>_reviewed</code> report now defaults to 6 days, rather than 7 days, to ensure weekly review as the default.</li>
+                  <li>FOSDEM: More people recognize our logo. This is nice.</li>
+                  <li>FOSDEM: Fixed an odd C++ syntax error that only affected a few platforms: <code>auto infix {true};</code> which clearly wasn't uniformly supported. During a FOSDEM break, in the cafeteria, we created a new Flod2 build satellite for CentOS 7.3, proviѕioned the VM, and debugged. Three people sharing two laptops extended a CI system on another continent, while drinking some very good coffee, surrounded by our fellow attendees, all doing the same thing. This is why we love conferences.</li>
+                  <li>FOSDEM: Team shamefully returns to the restaurant again, because it was so good. Also laziness.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-06</small></td>
+              <td>
+                <ul>
+                  <li>FOSDEM: Breakfast, then we all head to different corners of the globe. Great trip, well worth it.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-07</small></td>
+              <td>
+                <ul>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-08</small></td>
+              <td>
+                <ul>
+                  <li>Taskwarrior: New <code>history.daily</code>, <code>history.weekly</code>, <code>ghistory.daily</code> and <code>ghistory.weekly</code> commands.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-09</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TI-64">TI-64: Command 'stop' with date before current interval's start date causes segfault</a> fixed</li>
+                  <li>libshared: Table now offers control over the alternating row coloring.</li>
+                  <li>Taskwarrior: The <code>timesheet</code> report was rewritten to accept a filter, provide more compact output, and provide daily grouping of started and completed tasks.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-10</small></td>
+              <td>
+                <ul>
+                  <li>Timewarrior: Now has weekday hints (<code>:monday</code>, <code>:tuesday</code>, <code>:wednesday</code>, <code>:thursdday</code>, <code>:friday</code>, <code>:saturday</code>, <code>:sunday</code>) to simplify historic data tracking.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-11</small></td>
+              <td>
+                <ul>
+                  <li>libshared: Can now parse IPv4 and IPv6 addresses. This is used when trying to determine whether SNI is enabled.</li>
+                  <li>Taskwarrior: Now supports SNI.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-12</small></td>
+              <td>
+                <ul>
+                  <li>Flod2: The <a href="https://tyuratam.tasktools.org/task.2.6.0.html">commit status report</a> now uses a color palette that is less saturated and doesn't transition through brown twice. The colors indicating status now range from black (did not build) through dark red (bad), orange and yellow (better), finally green (100% good). A good commit is then marked as 'clean' if all the test platforms not only pass, but agree. This will later lead to automatic tagging and dev snapshot tarball creation.</li>
+                  <li>Taskwarrior: The build process now clones/updates <code>libshared</code> if necessary. This removes a manual step.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-13</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TI-39">TI-39: Bogus command line option causes segfault</a> fixed</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-14</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TI-40">TI-40: totals.py extension script fails with an error</a> fixed</li>
+                  <li>Flod2: The <a href="https://tyuratam.tasktools.org">summary report</a>, although incomplete, now provides an overall assessment of a commit. In this example, the status <span style="color:#ffafd7; background-color:#822453;">Funky</span> is common, and indicates that there is an important disagreement between the results. This is a new feature that better highlights problems to be addressed.</a>
+                  <li>Taskwarrior: Fixed link error on non-macOS platforms.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-15</small></td>
+              <td>
+                <ul>
+                  <li>Taskwarrior: Build requirements raised to GCC 4.9/Clang 3.4, after more examples of build failures were found. This is despite compiler claims of C++11 compliance</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-16</small></td>
+              <td>
+                <ul>
+                  <li>taskwarrior.org: Updated <a href="/docs/taskserver/tarball.html">Tarball</a> download instructions to accomodate redirects.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-17</small></td>
+              <td>
+                <ul>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-18</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TW-1885">TW-1885: Task Sync does not send TLS SNI headers</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TI-46">TI-46: Display error in visual reports (day,week,month)</a> fixed</li>
+                  <li>Taskwarrior: Can now distinguish between a missing CA cert, and a present but broken CA cert. Error messages improved.</li>
+                  <li>Taskwarrior: With GnuTLS 3.4.6, the <code>taskd.trust=ignore hostname</code> setting was not ignoring hostname.</li>
+                  <li>Taskserver: With GnuTLS 3.4.6, the <code>taskd.trust=ignore hostname</code> setting was not ignoring hostname.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-19</small></td>
+              <td>
+                <ul>
+                  <li>All: <a href="/docs/design/plans.html">Taskwarrior/Taskserver/Tasksh/Timewarrior Plans</a> updated.</li>
+                  <li>Taskwarrior: <a href="/docs/design/workweek.html">Word Week Support</a> design doc draft created for review.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-20</small></td>
+              <td>
+                <ul>
+                  <li>Taskwarrior: <a href="/docs/design/dom.html">Full DOM Support</a> design doc draft created for review.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-21</small></td>
+              <td>
+                <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TS-32">TS-32: Exit on Ctrl-D on non-readline systems</a> fixed</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-22</small></td>
+              <td>
+                <ul>
+                  <li>Taskwarrior: <a href="/docs/design/rules.html">Rule System</a> design doc draft created for review.</li>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-23</small></td>
+              <td>
+                <ul>
+                </ul>
+              </td>
+            </tr>
+
+
+
+
+
+<!-- everything older than this mark is current and complete. -->
+
+
+
+
+
+            <tr>
+              <td><small>2017-02-24</small></td>
+              <td>
+                <ul>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-25</small></td>
+              <td>
+                <ul>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-26</small></td>
+              <td>
+                <ul>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-27</small></td>
+              <td>
+                <ul>
+                </ul>
+              </td>
+            </tr>
+
+            <tr>
+              <td><small>2017-02-28</small></td>
+              <td>
+                <ul>
+                </ul>
+              </td>
+            </tr>
+
+          </table>
+
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="col-md-2 main">
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="lc" value="en_US">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="paypal" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" style="border:0px; width:1px; height:1px;">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2017 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>
