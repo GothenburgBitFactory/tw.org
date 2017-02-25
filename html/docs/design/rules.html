@@ -315,7 +315,7 @@ include &lt;file&gt;</pre>
               <tr>
                 <td><code># Comment...</code></td>
                 <td>
-                  Comments will be supported, inherited from the configiuration
+                  Comments will be supported, inherited from the configuration
                   file syntax.
                 </td>
               </tr>
@@ -347,6 +347,48 @@ include &lt;file&gt;</pre>
             <p>
               The rule system is not limited to Taskwarrior use, and will likely
               migrate to Timewarrior and Tasksh.
+            </p>
+
+            <p>
+              Timewarrior being a new project, currently has a limited set of
+              features, and the rule system could solve some of the immediate needs:
+
+              <ul>
+                <li>Time budget constraints</li>
+                <li>Warnings about exceeding hours</li>
+                <li>Automatic time 'rounding'</li>
+              </ul>
+
+              It might be possible to avoid implementing features in Timewarrior
+              that would ultimately be replaced by rules.
+            </p>
+
+            <p>
+              Tasksh could also benefit from rules:
+
+              <ul>
+                <li>
+                  With some kind of <code>on-timer</code> alarm-based rule,
+                  Tasksh could suggest breaks, or implement a Pomodoro-like
+                  feature.
+                </li>
+                <li>
+                  Similarly, an auto-refresh could be based on <code>on-timer</code>.
+                </li>
+                <li>
+                  An auto-sync feature could be added.
+                </li>
+              </ul>
+            </p>
+
+            <p>
+              Clog is already operating with a rule-like configuration file,
+              and migrating to a rule system would add the ability to create
+              more complex configuration.
+            </p>
+
+            <p>
+              It is unlikely that Taskserver gains a rule system.
             </p>
 
             <a name="dev"></a>
