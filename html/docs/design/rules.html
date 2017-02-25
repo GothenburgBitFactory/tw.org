@@ -60,6 +60,10 @@
                 change. Once finalized, the feature will be scheduled for an
                 upcoming release.
               </p>
+
+              <p>
+                Draft 2.
+              </p>
             </div>
 
             <a name="rules"></a>
@@ -67,7 +71,11 @@
             <p>
               The rule system is a framework that supports highly configurable
               features, with runtime evaluation, DOM access and an internal API.
+              Implementing a rule system meets the goal of shrinking and stabilizing
+              the product core, while adding new features, and enabling many.
+            </p>
 
+            <p>
               The current configuration system supports only two different forms
               of syntax:
             </p>
@@ -151,14 +159,38 @@ include &lt;file&gt;</pre>
             <p>
               While this functionality can also be implemented using hooks, rules
               run in-process, and therefore do not require external interpreters
-              to be launched every time.
+              to be launched every time. This does mean that rule performance
+              must be good enough to make this viable.
             </p>
+
+            <a name="pro"></a>
+            <h4>Example: Policy</h4>
+            <p>
+              Policy can be enforced by rules. A simple example is a policy that
+              disallows tasks with missing projects, that is, making
+              <code>project</code> a mandatory attribute.
+            </p>
+
+            <pre>rule on-add policy-project:
+    if task.project == '':
+        error 'You must specify a project'</pre>
+
+            <p>
+              This can be taken a step further to eliminate the logic currently
+              implemented for <code>rc.default.project</code> handling:
+            </p>
+
+            <pre>rule on-add policy-project:
+    if task.project == '':
+        if rc.default.project == '':
+            error 'You must specify a project'
+        set task.project rc.default.project</pre>
 
             <a name="other"></a>
             <h4>Other Uses</h4>
             <p>
-              The nag feature is just one example. The following is a list of
-              features that could be replaced by rules:
+              The nag feature and project policy are just examples. The following
+              is a list of features that could eventually be replaced by rules:
             </p>
 
             <ul>
@@ -168,6 +200,7 @@ include &lt;file&gt;</pre>
               <li>UDA behavior.</li>
               <li>User defined virtual tags.</li>
               <li>Policy enforcement. Making an attribute such as project mandatory.</li>
+              <li>Attribute defaults.</li>
             </ul>
 
             <p>
@@ -188,11 +221,19 @@ include &lt;file&gt;</pre>
               </tr>
               <tr>
                 <td><code>on-add</code></td>
-                <td>Triggered when a task is added.  The rule can modify the task, and approve or reject it.</td>
+                <td>
+                  Triggered when a task is added.
+                  A context task will be provided.
+                  The rule can modify the task, and approve or reject it.
+                </td>
               </tr>
               <tr>
                 <td><code>on-modify</code></td>
-                <td>Triggered when a task is modified.  The rule can modify the task, and approve or reject it.</td>
+                <td>
+                  Triggered when a task is modified.
+                  A before and after context task will be provided.
+                  The rule can modify the task, and approve or reject it.
+                </td>
               </tr>
               <tr>
                 <td><code>on-exit</code></td>
@@ -213,7 +254,7 @@ include &lt;file&gt;</pre>
             </table>
 
             <p>
-              More rules types will be added to support more flexibility in future releases.
+              More rules types will be added for more capabilities in future releases.
             </p>
 
             <a name="api"></a>
@@ -223,6 +264,23 @@ include &lt;file&gt;</pre>
             </p>
 
             <table class="table table-striped table-compact">
+              <tr>
+                <td><code>if &lt;boolean-expression&gt;:</td>
+                <td>
+                  Condition that determines whether the following block is executed.
+                  It can be any expression that will be interpreted as Boolean.
+                  The expression syntax is algebraic, and based on
+                  <a href="/docs/filter.html">filters</a>,
+                  but will likely not support:
+                  <ul>
+                    <li>Implicit <code>and</code> operators</li>
+                    <li>Attribute modifiers</li>
+                    <li>The <code>&lt;name&gt;:&lt;value&gt;</code> syntax</li>
+                    <li>RC overrides</li>
+                    <li>Unquoted strings</li>
+                  </ul>
+                </td>
+              </tr>
               <tr>
                 <td><code>debug &lt;string&gt;</code></td>
                 <td>Displays the string in debug mode only and continues processing.</td>
@@ -248,8 +306,18 @@ include &lt;file&gt;</pre>
                 <td>Provides a result value for the rule, when necessary.</td>
               </tr>
               <tr>
-                <td><code>set &lt;reference&gt; [ &lt;value&gt; ]</code></td>
-                <td>Writes to a DOM reference.</td>
+                <td><code>set &lt;reference&gt; &lt;value&gt;</code></td>
+                <td>
+                  Writes to a DOM reference. Will also write to a temporary
+                  store (<code>tmp.&lt;name&gt;</code>), providing support for variables.
+                </td>
+              </tr>
+              <tr>
+                <td><code># Comment...</code></td>
+                <td>
+                  Comments will be supported, inherited from the configiuration
+                  file syntax.
+                </td>
               </tr>
             </table>
 
