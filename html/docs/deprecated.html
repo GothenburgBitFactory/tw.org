@@ -55,10 +55,10 @@
           <div class="row">
             <h3>Deprecated Features</h3>
             <p>
-              Taskwarrior and Taskserver have many features. With each release
-              new features are added, and sometimes features are removed. A
-              feature may be removed if it has been superseded by something
-              better, is no longer relevant, or is very troublesome.
+              Taskwarrior, Taskserver, Tasksh and Timewarrior have many features.
+              With each release new features are added, and sometimes features
+              are removed. A feature may be removed if it has been superseded
+              by something better, is no longer relevant, or is very troublesome.
             </p>
 
             <p>
@@ -71,15 +71,16 @@
             <p>
               Before a feature is removed, it is deprecated, where possible.
               This means that it will appear on this list, in one release, and
-              be removed in a potentially unspecified subsequent release.
-              Deprecation acts as early warning for disappearing functionality,
+              be removed in an unspecified later release.
+
+              Deprecation acts as an early warning for disappearing functionality,
               giving users time to adapt or complain.
             </p>
 
             <p>
-              When a feature is removed, the configuration settings are also
-              removed.  You can see if your <code>.taskrc</code> contains any
-              obsolete settings by using the <code>show</code> command:
+              When a feature is removed, any related configuration settings are
+              also removed.  You can see if your <code>.taskrc</code> contains
+              any obsolete settings by using the <code>show</code> command:
             </p>
 
             <pre>$ task show
@@ -200,11 +201,25 @@
             <h4>
               Use of Boolean configuration values other than <code>0</code> or
               <code>1</code>
+              <span class="label label-info">deprecated since 2.6.0</span>
             </h4>
             <p>
               Deprecated use of alternate Boolean configuration settings. Use
               values "0" for off, and "1" for on. Avoid used of "on", "off",
               "true", "t", "false", "f", "yes", "y", "no", "n".
+            </p>
+
+            <a name="dom"></a>
+            <h4>
+              DOM references: context.*
+              <span class="label label-info">deprecated since 2.6.0</span>
+            </h4>
+            <p>
+              The dom references <code>context.program</code>,
+              <code>context.args</code>, <code>context.width</code>, and
+              <code>context.height</code> are replaced by 
+              <code>tw.program</code>, <code>tw.args</code>,
+              <code>tw.width</code>, and <code>tw.height</code>.
             </p>
 
             <h3>Tasksh</h3>
@@ -225,6 +240,12 @@
               This has proved to be a configuration problem for some, and the
               mechanism is easily spoofed, so it will be removed.
             </p>
+
+            <h3>Timewarrior</h3>
+            <p>
+              None yet.
+            </p>
+
           </div>
 
           <br />
@@ -245,6 +266,7 @@
             <li><a href="#unique">Helper functions</a></li>
             <li><a href="#duetoday">Virtual tag DUETODAY</a></li>
             <li><a href="#boolean">Boolean settings</a></li>
+            <li><a href="#dom">DOM References</a></li>
 
             <li><a href="#deny">Allow/Deny</a></li>
           </ul>
