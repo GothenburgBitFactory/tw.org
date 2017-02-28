@@ -101,18 +101,7 @@
 
           <table class="table table-striped table-compact">
             <tr>
-              <td style="white-space: nowrap;"><small>2017-02-01</small></td>
-              <td>
-                <ul>
-<!--
-                  <li><a href="https://bug.tasktools.org/browse/TS-34">TS-34: Tasksh throw a warning at the end of a review command</a> fixed</li>
--->
-                </ul>
-              </td>
-            </tr>
-
-            <tr>
-              <td><small>2017-02-02</small></td>
+              <td style="white-space: nowrap;"><small>2017-02-02</small></td>
               <td>
                 <ul>
                   <li><a href="https://bug.tasktools.org/browse/TI-27">TI-27: Add tests for continue with ids</a> tests added</li>
@@ -160,14 +149,6 @@
               <td>
                 <ul>
                   <li>FOSDEM: Breakfast, then we all head to different corners of the globe. Great trip, well worth it.</li>
-                </ul>
-              </td>
-            </tr>
-
-            <tr>
-              <td><small>2017-02-07</small></td>
-              <td>
-                <ul>
                 </ul>
               </td>
             </tr>
@@ -260,14 +241,6 @@
             </tr>
 
             <tr>
-              <td><small>2017-02-17</small></td>
-              <td>
-                <ul>
-                </ul>
-              </td>
-            </tr>
-
-            <tr>
               <td><small>2017-02-18</small></td>
               <td>
                 <ul>
@@ -318,35 +291,16 @@
             </tr>
 
             <tr>
-              <td><small>2017-02-23</small></td>
-              <td>
-                <ul>
-                </ul>
-              </td>
-            </tr>
-
-
-
-
-
-<!-- everything older than this mark is current and complete. -->
-
-
-
-
-
-            <tr>
-              <td><small>2017-02-24</small></td>
-              <td>
-                <ul>
-                </ul>
-              </td>
-            </tr>
-
-            <tr>
               <td><small>2017-02-25</small></td>
               <td>
                 <ul>
+                  <li><a href="https://bug.tasktools.org/browse/TI-48">TI-48: Timewarrior hook is not Python3 compatible</a> fixed</li>
+                  <li><a href="https://bug.tasktools.org/browse/TI-65">TI-65: The 'tags' command should support a filter</a> fixed</li>
+                  <li>libshared: Added PEG parser</li>
+                  <li>libshared: Added Packrat parser</li>
+                  <li>Taskwarrior: New DOM references: <code>tw.program</code>, <code>tw.args</code>, <code>tw.width</code>, and <code>twheight</code> replacing deprecated <code>context.xxx</code> variants.</li>
+                  <li>Timewarrior: Fixed mishandling of integer configuration items.</li>
+                  <li>Timewarrior: Made chart configuration errors messages more precise.</li>
                 </ul>
               </td>
             </tr>
@@ -355,6 +309,8 @@
               <td><small>2017-02-26</small></td>
               <td>
                 <ul>
+                  <li>Taskwarrior: Removed <code>$TERM</code> references from <code>diagnostics</code command result, because it is irrelevant.</li>
+                  <li>Taskwarrior: Migrated from Config to libshared Configuration.</li>
                 </ul>
               </td>
             </tr>
@@ -363,9 +319,19 @@
               <td><small>2017-02-27</small></td>
               <td>
                 <ul>
+                  <li>Taskwarrior: New DOM reference <code>tw.syncneeded</code>.</li>
+                  <li>Taskwarrior: Fixed bug that caused any attribute value starting with 'tw.', 'system.', 'context.' etc to be a DOM reference error.</li>
                 </ul>
               </td>
             </tr>
+
+
+
+
+<!-- everything older than this mark is current and complete. -->
+
+
+
 
             <tr>
               <td><small>2017-02-28</small></td>
