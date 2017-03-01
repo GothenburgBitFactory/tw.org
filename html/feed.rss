@@ -23,8 +23,39 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Thu, 09 Feb 2017 23:30:00 GMT</pubDate>
-    <lastBuildDate>Thu, 09 Feb 2017 23:30:00 GMT</lastBuildDate>
+    <pubDate>Wed, 01 Mar 2017 12:27:00 GMT</pubDate>
+    <lastBuildDate>Wed, 01 Mar 2017 12:27:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Activity Digest - February 2017</title>
+      <link>http://taskwarrior.org/news/news.20170301.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 01 Mar 2017 12:27:00 GMT</pubDate>
+      <description>
+        (https://taskwarrior.org/news/images/perbacco.png)
+
+        The team attended FOSDEM
+        (https://taskwarrior.org/news/news.20170208.html)
+        in Brussels, all meeting for the first time. No one was hurt.
+        Although we had hoped to accomplish a lot during this time, we
+        instead fell in love with a certain restaurant and Belgian beer.
+
+        We would like to welcome Thomas Lauf, who is now pushing to the
+        Timewarrior repository, and Timewarrior is now being fixed and
+        improved at a much faster rate. Welcome, Thomas.
+
+        The flod2 CI system is coming online, which means that Taskwarrior
+        is now being built in parallel by two CI systems as we prepare for
+        a more general transition.
+
+        (Flod  https://central.tasktools.org/task-2.6.0.html)
+        (Flod2 https://tyuratam.tasktools.org/task.2.6.0.html)
+
+        A generous donation from DigitalOcean
+        (https://www.digitalocean.com)
+        is making this possible.
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - January 2017</title>
