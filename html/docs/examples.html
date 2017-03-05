@@ -192,6 +192,22 @@ $ task rc.search.case.sensitive:no  /pattern/ list</pre>
               </tr>
             </table>
 
+            <a name="reports"></a>
+            <h4>Reports</h4>
+            <p>
+              Reports are simply a colllection of configuration settings that specify
+              display attributes, sorting, filter and a name.
+            </p>
+
+            <table class="table table-condenѕed">
+              <tr>
+                <td width=30%>Temporarily changing the sorting of a report.</td>
+                <td>
+                  <pre>$ task rc.report.next.sort=due-,urgency- next</pre>
+                </td>
+              </tr>
+            </table>
+
             <a name="projects"></a>
             <h4>Projects</h4>
             <p>
@@ -582,6 +598,7 @@ $ task --version
             <li><a href="#30sec">30-Second Tutorial</a></li>
             <li><a href="#create">Creating Tasks</a></li>
             <li><a href="#filters">Filters</a></li>
+            <li><a href="#reports">Reports</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#tags">Tags</a></li>
             <li><a href="#specialtags">Special Tags</a></li>
