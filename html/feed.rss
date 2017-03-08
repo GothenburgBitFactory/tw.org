@@ -23,8 +23,24 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Wed, 01 Mar 2017 12:27:00 GMT</pubDate>
-    <lastBuildDate>Wed, 01 Mar 2017 12:27:00 GMT</lastBuildDate>
+    <pubDate>Wed, 08 Mar 2017 14:54:00 GMT</pubDate>
+    <lastBuildDate>Wed, 08 Mar 2017 14:54:00 GMT</lastBuildDate>
+
+    <item>
+      <title>HELLOTUX Shirts</title>
+      <link>http://taskwarrior.org/news/news.20170308.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 08 Mar 2017 14:54:00 GMT</pubDate>
+      <description>
+        We'd like to thank HELLOTUX for doing a fantastic job designing
+        embroidered apparel for Taskwarrior fans.
+        (https://www.hellotux.com/)
+
+        This is the real thing - quality embroidery, not merely printed.
+
+        The Taskwarrior project receives some money for each item sold.
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest - February 2017</title>
