@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - Interval Behavior</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -48,117 +48,95 @@
     </div>
 
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-<!--
-        <div class="callout callout-info">
-          <h4>1.1.0</h4>
-          <p>
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
--->
-      </div>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                    <li><a href="/docs/timewarrior/download.html">Download and build the release tarball</a> (Recommended)</li>
-                    <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                    <li><a href="/docs/timewarrior/files.html">File Layout</a></li>
-                    <li><a href="/docs/timewarrior/tutorial.html">Tutorial</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Interval Behavior</h3>
+            <p>
+              Timewarrior stores intervals, most of which are closed, and only one which may be open.
+              These intervals (inclusions) interact with exclusions (holidays etc) and the result
+              is complex.
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/help.html">Getting Help</a></li>
-                    <li><a href="/docs/timewarrior/stopwatch.html">Simple Stopwatch</a></li>
-                    <li><a href="/docs/timewarrior/tags.html">Tags</a></li>
-                    <li><a href="/docs/timewarrior/backdated.html">Backdated <code>start</code>/<code>stop</code></a></li>
-                    <li><a href="/docs/timewarrior/track.html">Recording closed intervals</a></li>
-                    <li><a href="/docs/timewarrior/continue.html">Continue</a></li>
-                    <li><a href="/docs/timewarrior/undo.html">Undo</a></li>
-                    <li><a href="/docs/timewarrior/hints.html">Hints</a></li>
-                    <li><a href="/docs/timewarrior/summary.html">Summary Report</a></li>
-                    <li><a href="/docs/timewarrior/corrections.html">Corrections</a></li>
-                    <li><a href="/docs/timewarrior/configuration.html">Configuration</a></li>
-                    <li><a href="/docs/timewarrior/themes.html">Themes</a></li>
-                    <li><a href="/docs/timewarrior/holidays.html">Holidays</a></li>
-                    <li><a href="/docs/timewarrior/workweek.html">Work week</a></li>
-                    <li><a href="/docs/timewarrior/charts.html">Charts</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              As an example, support that Saturday and Sunday are defined as exclusions, and an
+              open interval is created tracking work on a Friday afternoon.
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/syntax.html">Command Syntax</a></li>
-                    <li><a href="/docs/timewarrior/interval.html">Syntax: Interval</a></li>
-                    <li><a href="/docs/timewarrior/dates.html">Syntax: Dates</a></li>
-                    <li><a href="/docs/timewarrior/duration.html">Syntax: Durations</a></li>
-                    <li>Syntax: Exclusions</li>
-                    <li><a href="/docs/timewarrior/overrides.html">Command line overrides</a></li>
-                    <li>DOM</li>
-                    <li><a href="/docs/timewarrior/taskwarrior.html">Taskwarrior on-modify Hook</a></li>
-                    <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                    <li><a href="/docs/timewarrior/extensions.html">Extensions</a></li>
-                    <li><a href="/docs/timewarrior/diagnostics.html">Diagnostics</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              Until that interval is closed (<code>$ timew stop</code>), it remains open. On the
+              following Monday there is still one open interval stored, but if a report is run,
+              that real interval is now represented by two separate intervals: Friday afternoon
+              and Monday morning.  This is because of the weekend exclusions. These two intervals
+              are called synthetic intervals, and are related to the original real interval.
+              Synthetic intervals are never written to the data file.
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="/docs/timewarrior/interval_behavior.html">Interval behavior</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              Here are the rules that Timewarrior follows when handling intervals:
+            </p>
 
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Beta</strong></p>
-              </td>
-              <td>
-                <p>
-                  <ul class="list-unstyled">
-                    <li><a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a></li>
-                    <li><a href="mailto:support@taskwarrior.org">Provide feedback</a></li>
-                  </ul>
-                </p>
-              </td>
-            </tr>
+            <p>
+              <ol>
+                <li>
+                  Ids reference intervals and are assigned after exclusions but
+                  before filters are applied.  Ids are 1-based array indexes
+                  from the end of the list of real + synthetic intervals.
+                </li>
 
-          </table>
+                <li>
+                  Intervals can be open or closed.
+                </li>
+
+                <li>
+                  There is only one or none open interval.
+                </li>
+
+                <li>
+                  There are real and synthetic intervals. Synthetic intervals
+                  will always have the lowest id[s].
+                </li>
+
+                <li>
+                  The database only contains real closed intervals, and zero or
+                  one open interval. An open interval is always the last line
+                  in the file.
+                </li>
+
+                <li>
+                  Synthetic intervals only exist if an open interval spans over
+                  exclusions.
+                </li>
+
+                <li>
+                  Exclusions are not applied to closed intervals. Closed
+                  intervals may only be modified using a command: move, split,
+                  join, modify, shorten, etc.  Changing configuration has no
+                  effect on closed intervals.
+                </li>
+
+                <li>
+                  Synthetic intervals are converted to real intervals if an
+                  open interval is closed.
+                </li>
+
+                <li>
+                  Cancelling active time tracking removes the open interval,
+                  thus removing all synthetic intervals (if any).
+                </li>
+              </ol>
+            </p>
+
+            <p>
+            </p>
+
+          </div>
+
+          <br />
+          <br />
         </div>
       </div>
     </div>
