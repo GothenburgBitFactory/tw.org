@@ -23,8 +23,32 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Wed, 08 Mar 2017 14:54:00 GMT</pubDate>
-    <lastBuildDate>Wed, 08 Mar 2017 14:54:00 GMT</lastBuildDate>
+    <pubDate>Sat, 01 Apr 2017 12:50:00 GMT</pubDate>
+    <lastBuildDate>Sat, 01 Apr 2017 12:50:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Activity Digest: March 2017</title>
+      <link>http://taskwarrior.org/news/news.20170401.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 08 Mar 2017 14:54:00 GMT</pubDate>
+      <description>
+        Timewarrior bug fixes are bringing the 1.1.0 release closer. We
+        are down to 7 open issues currently needing to be fixed.
+
+        Taskwarrior is undergoing big changes to incorporate the new
+        recurrence features. This leads to instability, so if anyone is
+        using the 2.6.0 development branch, this would be a good time to
+        stop.
+
+        The Taskwarrior 2.6.0 branch has a <code>stable</code> tag which
+        indicates the last commit where all tests passed on all platforms.
+
+        The libshared project got a major update to the date and duration
+        handling features, fixing bugs and providing a consistent
+        implementation for Taskwarrior and Timewarrior to use.
+      </description>
+    </item>
+
 
     <item>
       <title>HELLOTUX Shirts</title>
