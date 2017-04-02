@@ -23,8 +23,27 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Sat, 01 Apr 2017 12:50:00 GMT</pubDate>
-    <lastBuildDate>Sat, 01 Apr 2017 12:50:00 GMT</lastBuildDate>
+    <pubDate>Sun, 03 Apr 2017 00:21:00 GMT</pubDate>
+    <lastBuildDate>Sun, 03 Apr 2017 00:21:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Code Repositories Moved</title>
+      <link>http://taskwarrior.org/news/news.20170402.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 03 Apr 2017 00:21:00 GMT</pubDate>
+      <description>
+        The code repositories have been relocated to our new
+        Gitea server.
+
+        Gitea is a community managed fork of Gogs, lightweight code hosting
+        solution written in Go and published under the MIT license.
+        We like all of those things.
+
+        You can browse all our repositories here:
+
+        https://git.tasktools.org
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest: March 2017</title>
