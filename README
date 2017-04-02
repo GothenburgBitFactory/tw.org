@@ -3,16 +3,17 @@ taskwarrior.org Site Repository
 
 This repository contains the content of the taskwarrior.org site.
 
+
 To Clone this Repository:
 =========================
 
-   git clone https://git.tasktools.org/scm/st/tw.org.git
+   git clone https://git.tasktools.org/ST/tw.org.git
 
 
 Instruction For Updating tw.org/html/tools
 ==========================================
 
-1. git clone ssh://git@git.tasktools.org/st/tw.org.git tw.org.git
+1. git clone git@git.tasktools.org:ST/tw.org.git tw.org.git
    cd tw.org.git
 
 2. git clone https://github.com/BrunoVernay/taskwarrior-site-test.git taskwarrior-site-test.git
