@@ -23,8 +23,26 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Sun, 03 Apr 2017 00:21:00 GMT</pubDate>
-    <lastBuildDate>Sun, 03 Apr 2017 00:21:00 GMT</lastBuildDate>
+    <pubDate>Tue, 10 May 2017 00:51:00 GMT</pubDate>
+    <lastBuildDate>Tue, 10 May 2017 00:51:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Activity Digest: April 2017</title>
+      <link>http://taskwarrior.org/news/news.20170509.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Tue, 10 May 2017 00:51:00 GMT</pubDate>
+      <description>
+        April was a relatively quiet month, but with two main efforts:
+        Timewarrior 1.1.0 bug fixing, and deployment of our Flod CI system
+        for all projects.
+
+        Flod CI is now operating on five platforms (more coming soon),
+        for every commit on every branch for every project.
+        This transition allowed us to decommission several old machines.
+
+        https://taskwarrior.org/news/images/tw.png
+      </description>
+    </item>
 
     <item>
       <title>Code Repositories Moved</title>
