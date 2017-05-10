@@ -23,14 +23,32 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Tue, 10 May 2017 00:51:00 GMT</pubDate>
-    <lastBuildDate>Tue, 10 May 2017 00:51:00 GMT</lastBuildDate>
+    <pubDate>Wed, 10 May 2017 01:13:00 GMT</pubDate>
+    <lastBuildDate>Wed, 10 May 2017 01:13:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Tasksh 1.2.0 Released</title>
+      <link>http://taskwarrior.org/news/news.20170510.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 10 May 2017 01:13:00 GMT</pubDate>
+      <description>
+        Tasksh 1.2.0 is released. This is mostly a bug fix release, and is
+        a recommended upgrade.
+
+        The release is immediately available as a source tarball:
+        https://taskwarrior.org/download/tasksh-latest.tar.gz
+
+        Tasksh is a shell for Taskwarrior, providing a more immersive
+        environment for list management. It has a review feature, shell
+        command execution, and libreadline support.
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest: April 2017</title>
       <link>http://taskwarrior.org/news/news.20170509.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
-      <pubDate>Tue, 10 May 2017 00:51:00 GMT</pubDate>
+      <pubDate>Tue, 09 May 2017 00:51:00 GMT</pubDate>
       <description>
         April was a relatively quiet month, but with two main efforts:
         Timewarrior 1.1.0 bug fixing, and deployment of our Flod CI system
