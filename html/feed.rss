@@ -23,8 +23,22 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Wed, 10 May 2017 01:13:00 GMT</pubDate>
-    <lastBuildDate>Wed, 10 May 2017 01:13:00 GMT</lastBuildDate>
+    <pubDate>Wed, 10 May 2017 21:13:00 GMT</pubDate>
+    <lastBuildDate>Wed, 10 May 2017 21:13:00 GMT</lastBuildDate>
+
+    <item>
+      <title>BYOP Meetup in Gothenburg</title>
+      <link>http://taskwarrior.org/news/news.20170510_2.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Wed, 10 May 2017 21:13:00 GMT</pubDate>
+      <description>
+        A BYOP (Bring Your Own Project) MeetUp was held in Gothenburg. We had the chance to present
+        FLOD2 - our own CI, and distribute Taskwarrior stickers. The MeetUp presentation was followed
+        by sitting together, hacking away and having a couple of beers.
+
+        https://taskwarrior.org/news/images/meetup.jpg
+      </description>
+    </item>
 
     <item>
       <title>Tasksh 1.2.0 Released</title>
