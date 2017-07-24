@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Taskwarrior - Philosophy</title>
+    <title>Taskwarrior - Code of Conduct</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -38,7 +38,7 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="/news/">News</a></li>
-            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/docs/">Docs</a></li>
             <li><a href="/download/">Download</a></li>
             <li><a href="/support/">Support</a></li>
             <li><a href="/tools/">Tools</a></li>
@@ -54,201 +54,24 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <h3>Taskwarrior Philosophy</h3>
+            <h3>Taskwarrior Code of Conduct</h3>
             <p>
-              Taskwarrior is developed using a philosophy that explains a lot
-              about why certain decisions have been made, and will continue to
-              be made. All Taskwarrior family projects follow this same
-              philosophy.
-            </p>
-
-            <a name="open"></a>
-            <h4>Openness</h4>
-            <p>
-              The
-              <a href="https://git.tasktools.org/projects">source code</a>,
-              <a href="/docs/design/plans.html">plans</a>,
-              <a href="/docs/design">designs</a>,
-              <a href="https://bug.tasktools.org">bugs</a>,
-              <a href="https://central.tasktools.org">testing</a>,
-              <a href="/docs">docs</a>, and
-              <a href="https://git.tasktools.org/ST/tw.org.git">website</a>
-              are all free and open source. Your data is kept as plain text, and
-              never held hostage by a proprietary format. You are welcome to
-              contribute and identify improvements in all aspects of the project.
-              There is no hidden agenda.
+              We are here to improve the software.  There is no agenda.
             </p>
 
             <p>
-              The goals of the project are to support all workflows at minimal
-              friction and minimal complexity, while improving list management.
-            </p>
+              Be respectful of all contributors, all contributions, and
+              everyone's time, in all project-related forums.
 
-            <a name="friction"></a>
-            <h4>Low Friction</h4>
-            <p>
-              A tool that allows you to capture tasks needs to be low-friction.
-              This means that there should be no login authentication, lengthy
-              launch delay, or interactivity getting in the way of simply
-              capturing information. It doesn't get much easier than this:
-            </p>
-
-            <pre>$ task add '...'</pre>
-
-            <p>
-              Any tool that has friction will discourage its own use.
-            </p>
-
-            <a name="penalty"></a>
-            <h4>No Penalty</h4>
-            <p>
-              There should be no penalty for features that you don't use.
-              As an example, Taskwarrior supports recurrence and dependencies,
-              but if you don't use those features, there is no performance
-              penalty or cost to that.
+              No exceptions.
             </p>
 
             <p>
-              But that also means the features are there if you need them. If
-              you decide to start using priorities, then you can, and having tasks
-              where some have priorities and some don't is fine.
-            </p>
-
-            <a name="agnostic"></a>
-            <h4>Methodology Agnostic</h4>
-            <p>
-              Productivity methodologies promote simple, habit-forming, repeatable
-              processes and workflow, combined with some discipline to give you
-              an effective approach to getting through your work.
-
-              They tend to focus on maintaining a high quality list, doing
-              quickly that which can be done quickly, distinguishing between the
-              important and the unimportant, pacing yourself and not forgetting
-              things.
-            </p>
-
-            <p>
-              While methodologies are important, Taskwarrior doesn't impose or
-              prefer any methodology, and instead acknowledges that everyone
-              works differently, placing different emphasis on things like
-              priorities, due dates, dependence and so on.
-            </p>
-
-            <p>
-              You may start with a known methodology, but find that there will
-              be parts that work well and not so well for you, and you will
-              likely evolve your own unique methodology.
-
-              This means Taskwarrior supports all of the above in some form, as
-              you develop your own working methodology.
-            </p>
-
-            <a name="toolkit"></a>
-            <h4>Toolkit</h4>
-            <p>
-              Supporting all methodologies and workflows means there are a lot of
-              features, but you are not expected to use or even be aware of them
-              all. Think of Taskwarrior as a toolkit that lets you follow any
-              methodology you choose, and any given methodology will only use a
-              small subset of the features.
-            </p>
-
-            <p>
-              Your kitchen has many tools and gadgets, but you likely only use a
-              fraction of them. They exist so that you have options.
-            </p>
-
-            <a name="ext"></a>
-            <h4>Extension Friendly</h4>
-            <p>
-              Import/export using industry-standard JSON allows you to move data
-              into and out of Taskwarrior, so you can provide a front end, or
-              higher-order feature:
-            </p>
-
-            <pre>$ task 1 export
-[
-{"description":"Send Alice a birthday card","due":"20161108T000000Z", ...}
-]</pre>
-
-            <p>
-              Hook scripts allow you to modify tasks on entry and on modification,
-              or deny changes to enforce policies.
-            </p>
-
-            <pre>$ task add Paint the door
-Warning: Task does not have an assigned project</pre>
-
-            <p>
-              Helper commands allow you to extract metadata:
-            </p>
-
-            <pre>$ task project:Home _ids
-36
-77
-89
-122
-123</pre>
-
-            <p>
-              A full DOM allows you to drill down to a single datum:
-            </p>
-
-            <pre>$ task _get 123.entry.year
-2016
-
-$ task _get rc.dateformat
-Y-M-D</pre>
-
-            <a name="community"></a>
-            <h4>Community</h4>
-            <p>
-              Taskwarrior is greatly enhanced by the community that surrounds
-              and supports it. You'll find help, support, extensions, and more
-              online.
-            </p>
-
-            <p>
-              Talk to us. Join the community, help others, help yourself, and
-              advance the project. We welcome all of you into our community.
-            </p>
-
-            <p>
-              Here is our <a href="/conduct.html">Code of Conduct</a>.
-            </p>
-
-            <a name="focus"></a>
-            <h4>Focus</h4>
-            <p>
-              Taskwarrior carefully limits the features it supports, in order to
-              focus on doing one thing well. It does not offer reminders and time
-              tracking, because there are other projects dedicated to
-              implementing those features well.
-            </p>
-
-            <p>
-              If a feature improves the way we manage task lists, then it belongs
-              in Taskwarrior, otherwise it belongs in some other software.
+              To report violations, please contact <a href="mailto:support@taskwarrior.org">support@taskwarrior.org</a> and we will do the right thing.
             </p>
           </div>
-
           <br />
           <br />
-        </div>
-      </div>
-
-      <div class="col-md-2">
-        <div class="alert alert-warning">
-          <ul class="list-unstyled">
-            <li><a href="#open">Openness</a></li>
-            <li><a href="#friction">Low Friction</a></li>
-            <li><a href="#penalty">No Penalty</a></li>
-            <li><a href="#agnostic">Methodology Agnostic</a></li>
-            <li><a href="#toolkit">Toolkit</a></li>
-            <li><a href="#ext">Extension Friendly</a></li>
-            <li><a href="#community">Community</a></li>
-            <li><a href="#focus">Focus</a></li>
-          </ul>
         </div>
       </div>
     </div>
