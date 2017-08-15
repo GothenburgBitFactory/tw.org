@@ -61,6 +61,95 @@
               particular approach.
             </p>
 
+            <a name="joshua"></a>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Joshua</h3>
+              </div>
+
+              <ul class="list-group">
+                <li class="list-group-item">
+                  <strong>Where do you use Taskwarrior?</strong>
+                  <br />
+                  Everywhere to get track of things.
+
+                  I keep my personal thing separated
+                  and two zones for work projects
+                  each on it's own git repository.
+                </li>
+                <li class="list-group-item">
+                  <strong>For what kind of work do you use Taskwarrior?</strong>
+                  <br />
+                  At work to organize my projects,
+                  chop them into small tasks
+                  have a log of what I am doing,
+                  and log of how did I solved problems.
+                </li>
+                <li class="list-group-item">
+                  <strong>How do you sync? What kind of devices do you use?</strong>
+                  <br />
+                  I use a custom git hook that commits only <code>pending.data</code> and <code>completed.data</code>
+                  and push to a local private repository where the team also commits,
+                  The script also detects completed tasks and the latest version of the task
+                  in case multiple versions of the same tasks are found.
+
+                  Currently i'm implementing an annotator to document projects.
+                </li>
+                <li class="list-group-item">
+                  <strong>Which is your default report?</strong>
+                  <br />
+                  Task next, with customized filter and sort order:
+
+                  <code>rc.report.next.filter=status:pending,+UNBLOCKED
+                  report.next.sort=status-,start-,priority-,project+,due+</code>
+                </li>
+                <li class="list-group-item">
+                  <strong>Do you use a standard or customized methodology?</strong>
+                  <br />
+                  Mostly GTD, but will try to add kanban elements.
+                </li>
+                <li class="list-group-item">
+                  <strong>Do you use extensions? Hook scripts?</strong>
+                  <br />
+                  Custom git synchronization script.
+
+                  Posibly custom git editor script.
+                </li>
+                <li class="list-group-item">
+                  <strong>What features do you rely on most?</strong>
+                  <br />
+                  I use start to see what I'm doing,
+                  but i'd like to use it to keep track of the time,
+                  so I'll need another mecanism to use kanban like «In progress».
+
+                  I use annotations to document procedures or important things.
+
+                  I also use projects, tags, scheduled and due dates to classify tasks.
+                </li>
+                <li class="list-group-item">
+                  <strong>What features do you deliberately not use?</strong>
+                  <br />
+                  No urgency.
+
+                  No undo (as that goes in git).
+                </li>
+                <li class="list-group-item">
+                  <strong>How do you review your list?</strong>
+                  <br />
+                  I usually use <code>task</code> to see what's in progress and continue doing that.
+
+                  I have my tasks sorted by projects and priority,
+                  so I'll seek the project that needs to advance and check the most important task for that.
+                </li>
+                <li class="list-group-item">
+                  <strong>Other Notes</strong>
+                  <br />
+                  I'd like an easy to deploy kanban like project visualization tool.
+                </li>
+              </ul>
+            </div>
+
+
             <a name="paul"></a>
             <div class="panel panel-primary">
               <div class="panel-heading">
