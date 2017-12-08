@@ -54,17 +54,48 @@
 
         <div class="col-md-10 main">
           <div class="row">
-            <h3>Continue</h3>
+            <h2>Continue</h2>
             <p>
-              Resumes tracking the most recently closed interval. For example:
+              The <code>continue</code> command is a convenient way to resume of previous work tracking without re-entering the tags.
+            </p><p>
+              Previous intervals can be referenced by their ID.
+              (Using the <code>summary</code> command and specifying the <code>:ids</code> hint shows interval IDs.)
+              If no ID is given, the latest closed interval (which has ID <code>@1</code>) is resumed.
+              The new interval can be adjusted by issuing a start date or interval range.
             </p>
-
-            <pre>$ timew track 9am - 5pm tag1 tag2
-$ timew continue</pre>
-
+            <h3>Syntax</h3>
+            <pre>timew continue [&lt;ID&gt;] [&lt;date&gt;|&lt;interval&gt;]</pre>
+            <h3>Examples</h3>
             <p>
-              The 'continue' command creates a new interval, starting now, and using the tags
-              'tag1' and 'tag2'.
+              <b>Resume tracking of the latest closed interval:</b>
+            </p>
+            <pre>$ timew track 9am - 10am tag1 tag2
+$ timew continue</pre>
+            <p>
+              This continues the most recent interval.
+            </p>
+            <p>
+              <b>Resume tracking of a closed interval by referencing its id:</b>
+            </p>
+            <pre>$ timew track 9am - 10am tag1 tag2
+$ timew track 11am - 1pm tag3
+$ timew continue @2</pre>
+            <p>
+              This creates a new interval, starting now, using the tags <code>tag1</code> and <code>tag2</code>.
+            </p>
+            <p>
+              <b>Specify a new start time or an interval range:</b>
+            </p>
+            <pre>$ timew continue @2 4min ago</pre>
+            <p>
+              This continues the interval referenced by ID 2 with a new start time (4 minutes before now)
+            </p>
+            <pre>$ timew continue 18pm - 19pm</pre>
+            <p>
+              This adds a copy of the latest interval with a new interval range.
+            </p>
+            <p>
+              See also <code>start</code>, <code>stop</code>.
             </p>
           </div>
 
