@@ -60,10 +60,6 @@
                 change. Once finalized, the feature will be scheduled for an
                 upcoming release.
               </p>
-
-              <p>
-                Draft 2.
-              </p>
             </div>
 
             <a name="rules"></a>
@@ -72,8 +68,101 @@
               The rule system is a framework that supports highly configurable
               features, with runtime evaluation, DOM access and an internal API.
               Implementing a rule system meets the goal of shrinking and stabilizing
-              the product core, while adding new features, and enabling many.
+              the product core, while adding new features, and enabling many more.
             </p>
+
+            <a name="requirements"></a>
+            <h4>Required Enhancements</h4>
+            <p>
+              To prepare for a Rules System, various subsystems must first be enhanced:
+            </p>
+
+            <ul>
+              <li>DOM references need to be unambiguous, and will all have the <code>dom.</code> prefix.</li>
+              <li>DOM references need to be able to access any Taskwarrior data, in any</li>
+    supported format
+    <li>Custom reports will change from referencing <code>&lt;column&gt;[.&lt;format&gt;]</code> to simply <code>&lt;domref&gt;</code></li>
+              <li>RC file syntax needs to be enhanced, so support rule definitions, which are multi-line blocks that are indentation-sensitive</li>
+              <li>RC file syntax will support two ways of specifying the same data:
+<pre>      a.b.c=...
+
+      a:
+        b:
+          c=...</pre>
+
+              <li>RC file syntax will allow the use of environment variables inline:
+
+<pre>      name=${TERM}
+      include ${HOME}/.taskrc_local</pre>
+              </li>
+
+              <li>The <code>Variant</code> object will migrate to <code>libshared</code></li>
+              <li>The expression evaluator <code>Eval</code> object will migrate to <code>libshared</code></li>
+              <li>The column objects will gain a more structured base class, and will serve as providers for DOM references</li>
+              <li>The 'exec' command will be able to run a rule, if the reference is correct</li>
+              <li>Taskwarrior will store state data in a new <code>state.data</code> file</li>
+              <li><code>Config</code> object needs to use the <code>rat</code> parser, to tackle the more complex syntax</li>
+              <li>The RC file will support environment variable expansion, where <code>${NAME}</code> will be replaced by its corresponding value at launch time</li>
+            </ul>
+
+            <p>
+              At that point, the rules system can be implemented in <code>libshared</code>, and will
+              use a pluggable architecture to allow its integration into several projects.
+            </p>
+
+            <a name="dom"></a>
+            <h4>DOM Enhancements</h4>
+            <p>
+              DOM references will be enhanced, with many more references supported. All DOM
+              references will begin with <code>dom.</code>, yielding unambiguous references.
+              References will have a type. Types will support sub-references (<code>&lt;date&gt;.&lt;month&gt;</code>,
+              <code>&lt;tags&gt;.&lt;N&gt;</code>, <code>&lt;annotation&gt;.&lt;description&gt;</code>), and display formats included.
+            </p>
+
+<pre>   dom . [&lt;id&gt; .] &lt;attribute&gt; [. &lt;sub-reference&gt;] . &lt;format&gt;
+
+   dom . 123   .  entry        . year             . yyyy
+   dom . 123   .  entry
+   dom . 123   .  tags
+   dom . 123   .  tags         . count
+   dom . 123   .  tags         . 1</pre>
+
+            <p>
+              In addition to direct attribute access, DOM references will also support tw
+              references beyond the current set:
+            </p>
+
+<pre>   dom.rc.&lt;name&gt;
+   dom.cli.args
+   dom.terminal.width
+   dom.terminal.height
+   dom.system.version
+   dom.system.oѕ</pre>
+
+            <p>
+              And will also support higher-level constructs that do not directly correlate
+              to attributes, for example:
+            </p>
+
+<pre>   dom.active       Boolean indicator of any active tasks
+   dom.synced       Boolean indicator of the need to sync
+   dom.rc.path      String path of .taskrc file (or override)
+   dom.data.path    String path of data directory
+   dom.hooks.path   String path of hooks directory</pre>
+
+            <p>
+              Finally, access to state:
+            </p>
+
+<pre>   dom.state.program
+   dom.state.sync.last
+   dom.state.sync.configured
+   dom.state.run.last
+   dom.state.context</pre>
+
+
+            <a name="syntax"></a>
+            <h4>RC Syntax Changes</h4>
 
             <p>
               The current configuration system supports only two different forms
@@ -85,142 +174,58 @@
 include &lt;file&gt;</pre>
 
             <p>
-              A rule is a new form of syntax that consists of a rule-type, a name,
-              optional trigger condition, and actions in the form of api calls.
+              A rule is a new form of syntax that consists of the rule keyword, a name,
+              optional trigger, followed by indented actions in the form of API calls
+              and flow control. For example:
+            </p>
+
+            <pre>rule myRule() on_launch:
+    # Some code here</pre>
+
+            <p>
+              A rule definition will appear in the RC file, alongside all the existing
+              settings.  The rule syntax will require a blank line to terminate the
+              rule definition, the result being that the RC file should be quite
+              readable, although it will look like Python.
+            </p>
+
+
+            <a name="hooks"></a>
+            <h4>Hook Scripts</h4>
+
+            <p>
+              While this functionality can also be implemented using hook scripts, rules
+              will run in-process, and therefore do not require external interpreters
+              to be launched every time.  This creates the potential to run faster
+              than a hook script.
             </p>
 
             <p>
-              The name and type of a rule is important, as these values are used
-              as an identifier which allows rule overrides. Just like the existing
-              configuration, the rc file is read from top to bottom, with a later
-              rule definition possibly overriding an earlier rule definition.
-            </p>
-
-            <a name="nag"></a>
-            <h4>Example: nag</h4>
-            <p>
-              The current <code>rc.nag</code> setting determines which text is
-              shown to the user when a task is completed, when it does not have
-              the highest urgency. This encourages the user to think about the
-              urgency of a task when choosing what to work on next. This is
-              either an effective feature, or an annoyance.
-
-              Setting the value blank disables the feature. The configuration
-              looks like this:
-            </p>
-
-            <pre>nag=You have more urgent tasks!</pre>
-
-            <p>
-              Instead this could be represented by the following:
-            </p>
-
-            <pre>rule nag:
-    warn 'You have more urgent tasks!'
-</pre>
-
-            <p>
-              The <code>warn</code> api call could then be replaced by
-              <code>error</code> to make this feature very strict. That's a bad
-              idea, but then again, this is just an example.
-
-              Although this represents an improvement, it still requires core
-              support for the nag feature, and only defers to rules to
-              determine the action taken.
-
-              A better approach would also capture the logic, and therefore make
-              the feature more powerful:
-            </p>
-
-            <pre>rule on-modify nag:
-    if after.status == 'completed' and before.urgency &lt; (dom.urgency.max - 2.0):
-        warn 'You have more urgent tasks!'
-</pre>
-
-            <p>
-              This would require that conditions can be evaluated as filter
-              expressions currently are. It also requires that there is DOM
-              support for <code>dom.urgency.highest</code>, and that rule-type
-              <code>on-modify</code> has <code>before</code> and <code>after</code>
-              parameters.
+              For complex processing, hook scripts will be the preferred mechanism,
+              but as the rules system matures, rules will be made to run more quickly.
+              With adequate performance, a rule will be the preferred implementation
+              over a hook script. This is not expected to be the case at first.
             </p>
 
             <p>
-              The result is that all trace of the nag feature can be removed
-              from the core, and the feature moves into configuration-space.
+              Hook scripts are not likely to be extended beyond their current form,
+              and with greater DOM access and a growing API, rules should be able
+              to supplant most hook script use cases.
             </p>
 
-            <p>
-              By replacing the nag feature with a rule, we additionally offer
-              the possibility of many more related features, at no increase in
-              core size.
-            </p>
-
-            <p>
-              While this functionality can also be implemented using hooks, rules
-              run in-process, and therefore do not require external interpreters
-              to be launched every time. This does mean that rule performance
-              must be good enough to make this viable.
-            </p>
-
-            <a name="pro"></a>
-            <h4>Example: Policy</h4>
-            <p>
-              Policy can be enforced by rules. A simple example is a policy that
-              disallows tasks with missing projects, that is, making
-              <code>project</code> a mandatory attribute.
-            </p>
-
-            <pre>rule on-add policy-project:
-    if task.project == '':
-        error 'You must specify a project'</pre>
-
-            <p>
-              This can be taken a step further to eliminate the logic currently
-              implemented for <code>rc.default.project</code> handling:
-            </p>
-
-            <pre>rule on-add policy-project:
-    if task.project == '':
-        if rc.default.project == '':
-            error 'You must specify a project'
-        set task.project rc.default.project</pre>
-
-            <a name="other"></a>
-            <h4>Other Uses</h4>
-            <p>
-              The nag feature and project policy are just examples. The following
-              is a list of features that could eventually be replaced by rules:
-            </p>
-
-            <ul>
-              <li>Color rules. This will allow for more complex conditions.</li>
-              <li>Urgency calculations. Custom urgency terms.</li>
-              <li>Custom column formatting. Overriding the default set of supported formats.</li>
-              <li>UDA behavior.</li>
-              <li>User defined virtual tags.</li>
-              <li>Policy enforcement. Making an attribute such as project mandatory.</li>
-              <li>Attribute defaults.</li>
-            </ul>
-
-            <p>
-              Opening up the implementation in this way will allow for features
-              that we have not imagined.
-            </p>
-
-            <a name="types"></a>
-            <h4>Rule Types</h4>
+            <a name="triggers"></a>
+            <h4>Rule Triggers</h4>
             <p>
               The set of supported rule types will include:
             </p>
 
             <table class="table table-striped table-compact">
               <tr>
-                <td><code>on-launch</code></td>
+                <td><code>on_launch</code></td>
                 <td>Triggered on program launch.</td>
               </tr>
               <tr>
-                <td><code>on-add</code></td>
+                <td><code>on_add</code></td>
                 <td>
                   Triggered when a task is added.
                   A context task will be provided.
@@ -228,7 +233,7 @@ include &lt;file&gt;</pre>
                 </td>
               </tr>
               <tr>
-                <td><code>on-modify</code></td>
+                <td><code>on_modify</code></td>
                 <td>
                   Triggered when a task is modified.
                   A before and after context task will be provided.
@@ -236,7 +241,7 @@ include &lt;file&gt;</pre>
                 </td>
               </tr>
               <tr>
-                <td><code>on-exit</code></td>
+                <td><code>on_exit</code></td>
                 <td>Triggered on program exit.</td>
               </tr>
               <tr>
@@ -265,36 +270,19 @@ include &lt;file&gt;</pre>
 
             <table class="table table-striped table-compact">
               <tr>
-                <td><code>if &lt;boolean-expression&gt;:</td>
-                <td>
-                  Condition that determines whether the following block is executed.
-                  It can be any expression that will be interpreted as Boolean.
-                  The expression syntax is algebraic, and based on
-                  <a href="/docs/filter.html">filters</a>,
-                  but will likely not support:
-                  <ul>
-                    <li>Implicit <code>and</code> operators</li>
-                    <li>Attribute modifiers</li>
-                    <li>The <code>&lt;name&gt;:&lt;value&gt;</code> syntax</li>
-                    <li>RC overrides</li>
-                    <li>Unquoted strings</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr>
-                <td><code>debug &lt;string&gt;</code></td>
+                <td><code>debug(&lt;string&gt;)</code></td>
                 <td>Displays the string in debug mode only and continues processing.</td>
               </tr>
               <tr>
-                <td><code>warn &lt;string&gt;</code></td>
+                <td><code>warn(&lt;string&gt;)</code></td>
                 <td>Displays the string as a warning continues processing.</td>
               </tr>
               <tr>
-                <td><code>error &lt;string&gt;</code></td>
+                <td><code>error(&lt;string&gt;)</code></td>
                 <td>Displays the string as an error and terminates processing.</td>
               </tr>
               <tr>
-                <td><code>exec &lt;binary&gt; [ &lt;args&gt; ... ]</code></td>
+                <td><code>exec(&lt;binary&gt; [ &lt;args&gt; ... ])</code></td>
                 <td>
                   Executes the external program and passes arguments to it.
                   If the program exits with non-zero status, it is treated as
@@ -305,20 +293,6 @@ include &lt;file&gt;</pre>
                 <td><code>return &lt;value&gt;</code></td>
                 <td>Provides a result value for the rule, when necessary.</td>
               </tr>
-              <tr>
-                <td><code>set &lt;reference&gt; &lt;value&gt;</code></td>
-                <td>
-                  Writes to a DOM reference. Will also write to a temporary
-                  store (<code>tmp.&lt;name&gt;</code>), providing support for variables.
-                </td>
-              </tr>
-              <tr>
-                <td><code># Comment...</code></td>
-                <td>
-                  Comments will be supported, inherited from the configuration
-                  file syntax.
-                </td>
-              </tr>
             </table>
 
             <p>
@@ -326,84 +300,131 @@ include &lt;file&gt;</pre>
               added to support capabilities in future releases.
             </p>
 
-            <a name="community"></a>
-            <h4>Community</h4>
+            <a name="grammar"></a>
+            <h4>Grammar</h4>
             <p>
-              By relocating features from the core to configuration, there is now
-              the possibility of putting a rule in a separate file and
-              including it.
+              The grammar closely tracks that of Python.
+              Blocks are indented consistently.
+            </p>
 
-              Much like hook scripts, this becomes a shared community
-              resource.
+            <table class="table table-striped table-compact">
+              <tr>
+                <td><code>if &lt;condition&gt;: ... else: ...<code></td>
+                <td>
+                  The condition is a full Algebraic expression, and supports
+                  none of the command line conveniences. Terms must be combined
+                  with logical operators. The condition is an expression that is
+                  evaluated and converted to a Boolean value.
+                </td>
+              </tr>
+              <tr>
+                <td><code>for &lt;name&gt; in &lt;collection&gt;:<code></td>
+                <td>
+                  There is no native type for a collection, but there are DOM references
+                  (<code>tags</code> ...) that reference collections. This provides a way
+                  to iterate.
+                </td>
+              </tr>
+              <tr>
+                <td><code>set &lt;name&gt; = &lt;expression&gt;<code></td>
+                <td>
+                  Writes to a named type. The name may be a writable DOM object (<code>dom...</code>)
+                  or temporary variable storage (<code>tmp...</code>). Writing to a read-only
+                  DOM reference is an error.
+                </td>
+              </tr>
+              <tr>
+                <td><code>&lt;function&gt;([&lt;args&gt;])<code></td>
+                <td>
+                  A function is either a rule or an API call. Calling an undefined
+                  function is an error.
+                </td>
+              </tr>
+            </table>
+
+            <p>
+            </p>
+
+            <a name="examples"></a>
+            <h4>Examples</h4>
+            <p>
+              Here are some example rules which illustrate the syntax and API.
             </p>
 
             <p>
-              Space on the website should be dedicated to sharing this type of
-              enhancement.
+              The replacement for the nag feature:
             </p>
+<pre>
+rule Nag(before, after) on-modify:
+  if before.urgency < tasks.max.urgency:
+    warn ‘You have more urgent tasks’
 
-            <a name="projects"></a>
-            <h4>Other Projects</h4>
-            <p>
-              The rule system is not limited to Taskwarrior use, and will likely
-              migrate to Timewarrior and Tasksh.
-            </p>
-
-            <p>
-              Timewarrior being a new project, currently has a limited set of
-              features, and the rule system could solve some of the immediate needs:
-
-              <ul>
-                <li>Time budget constraints</li>
-                <li>Warnings about exceeding hours</li>
-                <li>Automatic time 'rounding'</li>
-              </ul>
-
-              It might be possible to avoid implementing features in Timewarrior
-              that would ultimately be replaced by rules.
-            </p>
+  if after.status == 'completed' and before.urgency &lt; (dom.urgency.max - 2.0):
+    warn 'You have more urgent tasks!'
+</pre>
 
             <p>
-              Tasksh could also benefit from rules:
-
-              <ul>
-                <li>
-                  With some kind of <code>on-timer</code> alarm-based rule,
-                  Tasksh could suggest breaks, or implement a Pomodoro-like
-                  feature.
-                </li>
-                <li>
-                  Similarly, an auto-refresh could be based on <code>on-timer</code>.
-                </li>
-                <li>
-                  An auto-sync feature could be added.
-                </li>
-              </ul>
+              Correct commonly misspelled word:
             </p>
+<pre>
+rule CorrectSpelling(task) on_add:
+  set task.description = substitute(task.description, 'teh', 'the')
+</pre>
 
             <p>
-              Clog is already operating with a rule-like configuration file,
-              and migrating to a rule system would add the ability to create
-              more complex configuration.
+              Abbreviation expansion:
             </p>
+<pre>
+rule ExpandAbbreviation(task) on_modify:
+  set task.description = substitute(task.description, '/TW-\d+/', 'https:\/\/bug.tasktools.org\/browse\/\1/')
+</pre>
 
             <p>
-              It is unlikely that Taskserver gains a rule system.
+              Warn on missing project:
             </p>
+<pre>
+rule WarnOnMissingProject(task) on_add:
+  if task.project == ‘’:
+    warn(‘Project not specified’)
+</pre>
 
-            <a name="dev"></a>
-            <h4>Implementation Details</h4>
             <p>
-              Some notes on implementation:
+              Color rule:
             </p>
+<pre>
+rule ColorizeDue(task) color:
+  if task.due > now:
+    if task.due < (now + 5d):
+      return dom.rc.color.due
+    else:
+      return dom.rc.color.due.later
+</pre>
 
-            <ul>
-              <li><code>Config</code> object needs to parse using <code>rat</code>.</li>
-              <li>DOM enhancements are required to provide access to interesting data that is not simply direct task metadata.</li>
-              <li>Once a single rule type is implemented, DOM and API enhancements will independently add to the capabilities.</li>
-              <li><code>rat</code>, <code>Eval</code> and <code>Variant</code> need to migrate to <code>libshared.git</code>.</li>
-              <li>Eliminate the nag feature, and update the default configuration to reimplement it as a rule.</li>
-            </ul>
+
+<!--
+Need examples for:
+  custom urgency calculations
+  custom reports
+  uda definition
+  user defined virtual tag
+  policy enforcement
+-->
+
+</pre>
+
+
+
+            <p>
+              Policy:
+            </p>
+<pre>
+rule policyProject(task) on_add:
+    if task.project == '':
+        if rc.default.project == '':
+            error('You must specify a project')
+        set task.project = rc.default.project
+</pre>
+
           </div>
 
           <br />
@@ -415,13 +436,14 @@ include &lt;file&gt;</pre>
         <div class="alert alert-warning">
           <ul class="list-unstyled">
             <li><a class="alert-link" href="#rules">Rules System</a></li>
-            <li><a class="alert-link" href="#nag">Example: nag</a></li>
-            <li><a class="alert-link" href="#other">Other Uses</a></li>
-            <li><a class="alert-link" href="#types">Rule Types</a></li>
+            <li><a class="alert-link" href="#requirements">Requirements</a></li>
+            <li><a class="alert-link" href="#dom">DOM</a></li>
+            <li><a class="alert-link" href="#syntax">RC Syntax</a></li>
+            <li><a class="alert-link" href="#hooks">Hooks</a></li>
+            <li><a class="alert-link" href="#triggers">Triggers</a></li>
             <li><a class="alert-link" href="#api">API</a></li>
-            <li><a class="alert-link" href="#community">Community</a></li>
-            <li><a class="alert-link" href="#projects">Other Projects</a></li>
-            <li><a class="alert-link" href="#dev">Implementation</a></li>
+            <li><a class="alert-link" href="#grammar">Grammar</a></li>
+            <li><a class="alert-link" href="#examples">Examples</a></li>
           </ul>
         </div>
       </div>
