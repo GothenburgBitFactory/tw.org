@@ -56,6 +56,7 @@
         <a href="#q1">Q: How do I implement Pomodoro?</a><br />
         <a href="#q2">Q: How do I remove an attribute?</a><br />
         <a href="#q3">Q: How do I list tasks that have no project?</a><br />
+        <a href="#q4">Q: How do I filter tasks containing words that are also commands?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -128,6 +129,47 @@ $ task project: list</pre>
               <p>
                 The first uses the '.none' attribute modifier, the second
                 compares to an empty string.  The latter is preferred.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q4"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p>
+            Q: How do I filter tasks containing words that are also commands?
+            </p>
+            <p>
+            I have tasks with descriptions such as:
+            </p>
+            <pre>ID Description
+-- -----------------------------------------------
+1  Print my report and give it to Bob.
+2  Collect more info on daily rates of food waste.</pre>
+            <p>
+              When I try to filter them like this, it runs the command instead:
+            </p>
+            <pre>$ task report
+...
+$ tasĸ info
+...</pre>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                There is an operator <code>--</code> intended for this purpose:
+              </p>
+              <pre>$ task -- report
+...
+$ task -- info
+...</pre>
+              <p>
+                The <code>--</code> operator is a directive that tells Taskwarrior to
+                just treat all subsequent arguments as plain words.
+
+                It is also a good way to add a description that might contain
+                things like <code>dep:</code>, <code>proj:</code>, tags or modifiers.
               </p>
             </li>
           </ul>
@@ -264,37 +306,6 @@ task -BLOCKED
 to only display tasks that are not blocked by incomplete dependencies.
 
 A: Though this doesn't seem to work on a Mac....
-</pre>
-
-<pre>
-Q: How do I filter tasks by keywords that are also commands?
-
-I have a few tasks with descriptions such as:
-
-ID Description
-1  Print my report and give it to Bob.
-2  Collect more info on daily rates of food waste.
-3  Check my personal history of procrastination.
-4  Pick a color for the new logo.
-and when I try to filter these using:
-
-task report
-task info
-task history
-task color
-I get unexpected results which I realize are output of special commands.
-
-How can I filter based on these words?
-
-A: In your case you will need to use:
-
-task -- report
-task -- info
-task -- history
-task -- color
-"--" is a special argument that tells taskwarrior to stop treating words as commands.
-
-It is also a good way to add a description that might have things like "dep:" or "proj:" tags or modifiers.
 </pre>
 
 <pre>
