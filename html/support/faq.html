@@ -53,12 +53,13 @@
 
         <h4>Taskwarrior</h4>
         <p>
-        <a href="#q1">Q: How do I implement Pomodoro?</a><br />
-        <a href="#q2">Q: How do I remove an attribute?</a><br />
-        <a href="#q3">Q: How do I list tasks that have no project?</a><br />
-        <a href="#q4">Q: How do I filter tasks containing words that are also commands?</a><br />
-        <a href="#q5">Q: How do I hide the change history when using the <code>info</code> report?</a><br />
-        <a href="#q5">Q: How do I list tasks scheduled today?</a><br />
+          <a href="#q1">Q: How do I implement Pomodoro?</a><br />
+          <a href="#q2">Q: How do I remove an attribute?</a><br />
+          <a href="#q3">Q: How do I list tasks that have no project?</a><br />
+          <a href="#q4">Q: How do I filter tasks containing words that are also commands?</a><br />
+          <a href="#q5">Q: How do I hide the change history when using the <code>info</code> report?</a><br />
+          <a href="#q6">Q: How do I list tasks scheduled today?</a><br />
+          <a href="#q7">Q: How do I bring back a task that I completed or deleted by mistake?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -211,6 +212,28 @@ $ task -- info
                 will think it knows what to do. Alternately, do this:
               </p>
               <pre>$ task scheduled.after:today and scheduled.before:tomorrow list</pre>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q7"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I bring back a task that I completed or deleted by mistake?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Simply changing the <code>status</code> of the task to <code>pending</code>
+                is enough, Taskwarrior takes care of the rest:
+              </p>
+              <pre>$ task &lt;uuid&gt; modify status:pending</pre>
+              <p>
+                You can obtain the <code>&lt;uuid&gt;</code> in several ways.
+                Here is how to see the 10 most recently completed or deleted tasks,
+                with the most recent shown first:
+              </p>
+              <pre>$ task limit:10 \( status:completed or status:deleted \) rc.report.all.sort:end- all</pre>
             </li>
           </ul>
         </div>
@@ -3202,16 +3225,6 @@ Q: Is task server protocol stable and documented?
 Can I use a task server protocol to write a front-end on top of it?
 
 A: You can.  The protocol is documented on the site, as well as things that a client is responsible for.
-</pre>
-
-<pre>
-Q: How can I mark a done task as not done?
-
-If I mark a task as done in error, and then do something else (so undo won't work), how can I mark the first task as not done?
-
-A: Try this:
-
-$ task <uuid> modify status:pending
 </pre>
 
 <pre>
