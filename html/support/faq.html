@@ -60,6 +60,7 @@
           <a href="#q5">Q: How do I hide the change history when using the <code>info</code> report?</a><br />
           <a href="#q6">Q: How do I list tasks scheduled today?</a><br />
           <a href="#q7">Q: How do I bring back a task that I completed or deleted by mistake?</a><br />
+          <a href="#q8">Q: How do I improve output readability?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -234,6 +235,32 @@ $ task -- info
                 with the most recent shown first:
               </p>
               <pre>$ task limit:10 \( status:completed or status:deleted \) rc.report.all.sort:end- all</pre>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q8"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I improve output readability?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                You can use line breaks which allow blank lines between sort keys.
+                See <a href="/docs/report.html#custom">Report</a> for details.
+
+                You can also use alternating line colors setting, which helps visually separate the tasks.
+              </p>
+
+              <pre>$ task show color.alternate
+...
+$ task color legend
+...</pre>
+
+              <p>
+                Most color themes already support this.
+              </p>
             </li>
           </ul>
         </div>
@@ -3923,20 +3950,6 @@ How to prevent those task to crawl back into my terminal?
 A: The filter you are using needs to be more specific, because as-is you are attempting to delete already deleted tasks.  You need to restrict it to only the pending tasks.  Use this:
 
 $ task +groceries +PENDING delete
-</pre>
-
-<pre>
-Q: Gridlines or row spacing
-
-Is it possible to add lines or spacing between output rows, to improve readability? 
-
- 
-
-Taskrc man mentions row.padding, but this apparently sets horizontal margins rather than row padding.
-
-A: That's not supported.  But check out line breaks (https://taskwarrior.org/docs/report.html#custom) which allow blank lines between sort keys, it helps readability.
-
-Another readability feature is the use of rc.color.alternate which makes alternating lines a different color in reports. Most themes support this.
 </pre>
 
 <pre>
