@@ -71,6 +71,7 @@
           <a href="#q14">Q: Why have attribute modifiers (<code>urgency.over:10</code>) rather than the more readable and algebraic form (<code>urgency&gt;10</code>)?</a><br />
           <a href="#q15">Q: How do I pipe a UUID into another task command?</a><br />
           <a href="#q16">Q: How do I get the UUID of the last task added?</a><br />
+          <a href="#q17">Q: How do I change many due dates using one command?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -510,6 +511,34 @@ Attribute modifiers make filters more precise.  Supported modifiers are:
                 It corresponds to the most recently added task.
               </p>
               <pre>$ task +LATEST uuids</pre>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q17"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p>
+              Q: How do I change many due dates using one command?
+            </p>
+            <p>
+              Something come up yesterday and completely derailed my day.
+              As a result, I have many tasks that need to be rescheduled to today.
+
+              What command can I use to change the due date of tasks I missed
+              yesterday to be due today?
+            </p>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                This will change all overdue tasks to be due today:
+              </p>
+              <pre>$ task +OVERDUE mod due:today</pre>
+              <p>
+                Depending on whether you want all overdue tasks or not,
+                you'll need to adjust the filter.
+              </p>
             </li>
           </ul>
         </div>
@@ -3275,18 +3304,6 @@ $ task due \< wait all
 The all report has no filter.  You must escape the < so your shell doesn't intercept it as a redirect. You can also do this:
 
 $ task due.before:wait all
-</pre>
-
-<pre>
-Q: How to change many due dates in one command?
-
-I had something come up yesterday that totally derailed my day. As a result, I have many tasks that need to be rescheduled to today.
-
-What command can I use to change the due date of tasks I missed yesterday to be due today?
-
-A: Do you mean something like
-
-task +OVERDUE mod due:today
 </pre>
 
 <pre>
