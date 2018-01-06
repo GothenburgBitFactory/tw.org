@@ -53,41 +53,103 @@
 
         <h4>Taskwarrior</h4>
         <p>
-        <a href="#q1">How do I implement Pomodoro?</a><br />
-        <a href="#q2">How do I remove an attribute?</a><br />
+        <a href="#q1">Q: How do I implement Pomodoro?</a><br />
+        <a href="#q2">Q: How do I remove an attribute?</a><br />
+        <a href="#q3">Q: How do I list tasks that have no assienged project?</a><br />
+        </p>
+
+        <h4>Timewarrior</h4>
+        <p>
+        </p>
+
+        <h4>Tasksh</h4>
+        <p>
+        </p>
+
+        <h4>Taskserver</h4>
+        <p>
         </p>
 
         <hr />
 
-        <dt><a name="q1"></a>How do I implement Pomodoro?</dt>
-        <dd>
-          <p>
-            Taskwarrior currently doesn't support the pomodoro technique, not
-            because it doesn't have all the necessary features, but because it
-            has no way to notify the user if a given point in time has arrived.
-            Remember: most of the time, Taswarrior isn't running.
-          </p>
+        <a name="q1"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I implement Pomodoro?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Taskwarrior currently doesn't support the pomodoro technique, not
+                because it doesn't have all the necessary features, but because it
+                has no way to notify the user if a given point in time has arrived.
+                Remember: most of the time, Taswarrior isn't running.
+              </p>
+              <p>
+                You can however use the pomodoro timer or any other timer software
+                (KTeaTimer, Gnome's Tea Timer, Gnome's pomodoro shell extension,
+                pyStopWatch, or any of the many timers out there), together with
+                taskwarrior to manage and prioritize your ToDo list.
+              </p>
+            </li>
+          </ul>
+        </div>
 
-          <p>
-            You can however use the pomodoro timer or any other timer software
-            (KTeaTimer, Gnome's Tea Timer, Gnome's pomodoro shell extension,
-            pyStopWatch, or any of the many timers out there), together with
-            taskwarrior to manage and prioritize your ToDo list.
-          </p>
-        </dd>
-        <hr />
+        <a name="q2"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I remove an attribute?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Modify the attirbute and give it a blank value:
+              </p>
+              <pre>$ task 16 modify due:</pre>
+              <p>
+                Taskwarrior doesn't store blank values, so it deletes the attribute.
+              </p>
+            </li>
+          </ul>
+        </div>
 
-        <dt><a name="q2"></a>How do I remove an attribute?</dt>
-        <dd>
-          <p>
-            Modify the attirbute and give it a blank value:
-          </p>
-          <pre>$ task 16 modify due:</pre>
-          <p>
-            Taskwarrior doesn't store blank values, it deletes the attribute.
-          </p>
-        </dd>
-        <hr />
+        <a name="q3"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I list tasks that have no assigned project?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                There are a couple of ways:
+              </p>
+              <pre>$ task project.none: list
+$ task project: list</pre>
+              <p>
+                The first uses the '.none' attribute modifier, the second
+                compares to an empty string.  The latter is preferred.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+<!-- Template:
+        <a name="qX"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I ...?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+              </p>
+              <pre>$ task ...</pre>
+              <p>
+              </p>
+            </li>
+          </ul>
+        </div>
+-->
 
 <pre>
 Q: What is the future of the 'shell' command?
@@ -119,19 +181,6 @@ A: The
 
 libgnutls-dev
 dev library must be installed, in order to build Taskserver from source.
-</pre>
-
-<pre>
-Q: How do I list tasks that are *not* part of any project?
-
-I want tasks that have no assigned project.
-
-A: There are a couple of ways:
-
-task project.none: list
-task project: list
- 
-The first uses the '.none' attribute modifier, the second compares to an empty string.  The latter is preferred.
 </pre>
 
 <pre>
