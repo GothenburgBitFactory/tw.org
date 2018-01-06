@@ -139,14 +139,25 @@
           <ul class="list-group">
             <li class="list-group-item">
               <p>
-                There are a couple of ways:
+                There are a few ways:
               </p>
               <pre>$ task project.none: list
-$ task project: list</pre>
+$ task project: list
+$ task project != '' list
+$ task -PROJECT list</pre>
               <p>
-                The first uses the '.none' attribute modifier, the second
-                compares to an empty string.  The latter is preferred.
+                The last example makes use of a virtual tag designed for this
+                use case, and is the preferred mechanism.
               </p>
+              <p>
+                To list tasks that do have a project assigned, you can use
+                these alternates:
+              </p>
+
+              <pre>$ task project.any: list
+$ task project.not: list
+$ task project == '' list
+$ task +PROJECT list</pre>
             </li>
           </ul>
         </div>
@@ -1513,19 +1524,6 @@ Have I been able to help you solving your problem?
 </pre>
 
 <pre>
-Q: How can I upgrade from 2.2 to 2.3?
-
-A: Depending on the operating system you are using, you can install a newer version via package management or install it from source (not that difficult).
-
- 
-
-Take a look at our download page.
-
-
-There is no change in file formats, so everything will work smoothly.
-</pre>
-
-<pre>
 Q: Is there more than one interactive interface for taskwarrior?
 
 A: there's also a fully interactive vim interface for taskwarrior (vim-taskwarrior github site)
@@ -1535,13 +1533,6 @@ A: he full list of interfaces (graphical and text) and other kinds of wrappers c
 A: vit
 vittk
 tasknc
-</pre>
-
-<pre>
-Q: How do I list tasks having any project assigned?
-
-A: task pro.not:''
-task pro.any:
 </pre>
 
 <pre>
