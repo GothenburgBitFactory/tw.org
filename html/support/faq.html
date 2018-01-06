@@ -76,6 +76,7 @@
 
         <h4>Taskserver</h4>
         <p>
+          <a href="#q12">Q: How do I setup Taskserver to use LetsEncrypt certs?</a><br />
         </p>
 
         <hr />
@@ -326,6 +327,51 @@ $ task color legend
               </p>
               <p>
                 If you start/stop in Timewarrior, it does not control Taskwarrior.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q12"></a>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            Q: How do I setup Taskserver to use LetsEncrypt certs?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                On the Taskserver server:
+                <ul>
+                  <li>Generate a self-signed CA (use <code>taskd/pki/generate.ca</code>)</li>
+                  <li>Get a copy of your domain's TLS certificates from Lets Encrypt</li>
+                  <li>Configure Taskserver:
+<pre>ca.cert=ca.cert.pem
+server.cert=example.com.crt
+server.key=example.com.key
+server=0.0.0.0:53589</pre></li>
+                </ul>
+
+                On each client:
+                <ul>
+                  <li>Get a self-signed client keypair from the Taskserver (<code>taskd/pki/generate.client</code>)
+                  <li>Get a copy of the DST Root CA X3
+                  <li>Configure Taskwarrior:
+<pre>taskd.certificate=client.cert.pem
+taskd.key=client.key.pem
+taskd.ca=DST_ROOT_CA_X3.crt
+taskd.server=example.com:53589
+taskd.credentials=Group/Name/UUID</pre></li>
+                </ul>
+              </p>
+              <p>
+                Client certificates and user credentials are created per the docs, as normal.
+
+                Client certificates can be revoked by generating a CRL file and
+                pointing server.crl to it in the Taskserver config. See the bottom
+                of <code>taskd/pki/generate.crl</code> for invocations.
+
+                For personal installations, it is easier just to regenerate
+                the self-signed CA and distribute new client certs.
               </p>
             </li>
           </ul>
@@ -4603,42 +4649,6 @@ You might want to look at the ready report, which filters out tasks you cannot s
 And of course, you can change any of the above through configuration, so for example you can use the ready report filter and add it to the next report filter, or set ready as your default command, and you can adjust the urgency coefficients to suit your notion of urgency.  All documented online.
 </pre>
 
-<pre>
-Q: How to set up taskd with LetsEncrypt cert (using caddy server)
-
-I was following the guide to install/configure and run task d on my ubuntu server, I didn't create the server key because I run all my apps behind a reverse proxy with nginx or caddy. When I got to the part about generating the client cert I realized I had a problem. Will your script work with my cert from LetsEncrypt? 
-
-Would the steps in this guide work? https://jamielinux.com/docs/openssl-certificate-authority/sign-server-and-client-certificates.html
-
-A: I successfully got taskd working with a certificate from Let's Encrypt. In brief...
-
-On the taskd server:
-
-Generate self-signed CA (taskd/pki/generate.ca)
-Get a copy of your domain's TLS certificates from Lets Encrypt
-Configure taskd:
-    ca.cert=ca.cert.pem
-    server.cert=example.com.crt
-    server.key=example.com.key
-    server=0.0.0.0:53589
-
-
-On each client:
-
-
-
-Get a self-signed client keypair from the taskd server (taskd/pki/generate.client)
-Get a copy of the DST Root CA X3
-Configure taskrc:
-    taskd.certificate=client.cert.pem
-    taskd.key=client.key.pem
-    taskd.ca=DST_ROOT_CA_X3.crt
-    taskd.server=example.com:53589
-    taskd.credentials=Group/Name/UUID
-Client certificates and user credentials are created per the docs, as normal.
-
-Client certificates can be revoked by generating a CRL file and pointing server.crl to it in the taskd config. See the bottom of taskd/pki/generate.crl for invocations. For personal installations, I find it easier just to regenerate the self-signed CA and distribute new client certs.
-</pre>
 
 <pre>
 Q: Is there a way to alert when active task time ends?
