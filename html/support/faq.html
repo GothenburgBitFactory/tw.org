@@ -61,6 +61,7 @@
           <a href="#q6">Q: How do I list tasks scheduled today?</a><br />
           <a href="#q7">Q: How do I bring back a task that I completed or deleted by mistake?</a><br />
           <a href="#q8">Q: How do I improve output readability?</a><br />
+          <a href="#q9">Q: How do I set the wait date to be 2 days before the due date?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -261,6 +262,30 @@ $ task color legend
               <p>
                 Most color themes already support this.
               </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q9"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I set the wait date to be 2 days before the due date?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Taskwarrior can do date math, so use this:
+              </p>
+              <pre>$ task add ... due:eom wait:due-2days</pre>
+              <p>
+                That <code>due-2days</code> value is evaluated by Taskwarrior,
+                using the value you specified for the due date and subtracting
+                two days.
+
+                You can also verify that date using the <code>calc</code> command:
+              </p>
+              <pre>$ task calc eom-2days
+2018-01-30T00:00:00</pre>
             </li>
           </ul>
         </div>
@@ -951,17 +976,6 @@ task completed end.after:today
 </pre>
 
 <pre>
-Q: Do the developers write firstly the unit tests and THEN the actual code?
-Cf. The Clean Coder: A Code of Conduct for Professional Programmers (Robert C. Martin)
-
-A: Usually the code is written first, or sometimes in parallel with the tests.  The more useful tests are ones that explore edge-cases, and those cases are not obvious when the code doesn't exist.
-
-When a bug is discovered, sometimes we write tests before fixing it.  That is the one time I find that writing tests first really pays off.
-
-I don't think writing tests first is a very practical approach for development.  It assumes the plans are solid.
-</pre>
-
-<pre>
 Q: Which principles build the foundation for task?
 
 A: Open source is the best way to write software
@@ -1123,34 +1137,6 @@ A: You can - a filter is a different animal than a sort.
 </pre>
 
 <pre>
-Q: Where is the modify command?
-
-I'm new to this tool, and it looks great.  
-
-I think I should be able to type
-
-task 2 modify dep:6
-
-and it should make 2 dependent on 6, but on my system it just changes the description of task 2 to "modify dep:6"
-
-The man page or command completion has no mention of a modify command or option?
-
-A:That modify command is correct.  There are also numerous mentions of the modify command in the man page.
-
-Could you tell us which version you are running, and run this, and show the result?
-
-$ task 2 modify dep:6 rc.debug=1
-
-A:I am using Debian Squeeze.  I think I got apt to pull from the squeeze-backport-sloppy repository but it still only wants to install this older version.
-
-A: task version
-
-task 1.9.2 built for linux-ncurses
-
-A: Yeah, 1.9.2 is a few years old, and doesn't support dependencies or the modify command. Try to get version 2.3.0 if you can.
-</pre>
-
-<pre>
 Q: Can I add due date to blocked task: "30 days after blocking task is done"?
 I have two tasks. Task A is blocking task B. Task B could be started only after completing task A, and it will take some time to complete. I would like to automatically add due date to task B (30 days for example) after task A is complete. Is this possible?
 
@@ -1221,15 +1207,6 @@ A: The simple answer: This date is the most far in the future date that can be r
 The technical answer: This is a software limitation of how dates are represented in today's computers, in particular in Unix based systems. If you have heard about the 2000 year bug, well there's another one in 2038. This Wikipedia article explains it really well.
 
 A: At some point we'll keep stored dates in ISO form, not 32-bit epoch form, which will allow any date. It is also possible that we use 64-bit time_t. But not yet.
-</pre>
-
-<pre>
-Q: When is 2.3 coming to Cygwin?
-Us lowly windows users are missing the boat on all the new 2.3 features (SYNC!)
-
-Is there an expected date on when it is coming to Cygwin?
-
-A: 2.3.1 is the version that will be released for Cygwin, perhaps in a couple of weeks.  It all depends on volunteer availability.
 </pre>
 
 <pre>
@@ -1362,14 +1339,6 @@ Q: How do I list tasks having any project assigned?
 
 A: task pro.not:''
 task pro.any:
-</pre>
-
-<pre>
-Q: How do I set wait for e.g. 2 days before the task is due (recurring 2wk)?
-
-A: Here was similar question by me:
-
-https://answers.tasktools.org/questions/1114250/how-to-set-wait-until-one-day-before-due
 </pre>
 
 <pre>
