@@ -64,6 +64,7 @@
           <a href="#q9">Q: How do I set the wait date to be 2 days before the due date?</a><br />
           <a href="#q13">Q: How do I create a traditional GTD Next Actions list?</a><br />
           <a href="#q14">Q: Why have attribute modifiers (<code>urgency.over:10</code>) rather than the more readable and algebraic form (<code>urgency&gt;10</code>)?</a><br />
+          <a href="#q15">Q: How do I pipe a UUID into another task command?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -461,6 +462,21 @@ Attribute modifiers make filters more precise.  Supported modifiers are:
                 See 'man task', for the <code>ATTRIBUTE MODIFIERS</code> and
                 <code>EXPRESSIONS AND OPERATORS</code> sections.
               </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q15"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I pipe a UUID into another task command?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                You can use Bash subprocess syntax to achieve this:
+              </p>
+              <pre>$ task $(task _uuids +FOO) modify -FOO +BAR</pre>
             </li>
           </ul>
         </div>
@@ -3031,18 +3047,6 @@ task project
 task summary
 There's nothing that prevents you from not using projects.
 You could as you pointed out, use tags for projects (project-tags). Though you'd lose some of the specific behavior of project:.
-</pre>
-
-<pre>
-Q: Is it possible to pipe a _uuid into another task command?
-
-`task _uuids +FOO` gives me a list of Identifiers for tasks that are taged with FOO.
-
-I would very much like to pipe those Identifiers into another task command that acts on the tasks represented by thos identifiers, for example `task modify -FOO +BAR`
-
-Is it possible to build such pipes?
-
-A: task $(task _uuids +FOO) modify -FOO +BAR
 </pre>
 
 <pre>
