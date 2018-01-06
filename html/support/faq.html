@@ -62,6 +62,7 @@
           <a href="#q7">Q: How do I bring back a task that I completed or deleted by mistake?</a><br />
           <a href="#q8">Q: How do I improve output readability?</a><br />
           <a href="#q9">Q: How do I set the wait date to be 2 days before the due date?</a><br />
+          <a href="#q13">Q: How do I create a traditional GTD Next Actions list?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -372,6 +373,43 @@ taskd.credentials=Group/Name/UUID</pre></li>
 
                 For personal installations, it is easier just to regenerate
                 the self-signed CA and distribute new client certs.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q13"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p>
+              Q: How do I create a traditional GTD Next Actions list?
+            </p>
+            <p>
+              I am looking to create a custom report that lists all pending tasks
+              without a project and the single most urgent from each project.
+            </p>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                The report you describe is not possible as a single custom
+                report because it combines multiple independent filters.  It
+                could be done as a series of separate reports (one for the
+                project-less, one for each project), but that's not convenient.
+              </p>
+
+              <p>
+                What would be better is to instead write a script that automates
+                all this, pulling together a list of task UUIDs and presenting
+                one result report. Like this:
+              </p>
+
+              <p>
+                <a href="http://taskwarrior.org/download/gtdnext.sh"> http://taskwarrior.org/download/gtdnext.sh</a>
+              </p>
+
+              <p>
+                It's a bash script, and easily modifiable.
               </p>
             </li>
           </ul>
@@ -4505,20 +4543,6 @@ A scheduled date is different from a due date, and represents the earliest oppor
 ...
 
 Tasks that have no scheduled date are considered always ready. Again, metadata drives the sophistication of your task list.
-</pre>
-
-<pre>
-Q: How can I create a traditional GTD Next Actions list?
-
-I am looking to create a custom report that lists all pending tasks without a project and the single most urgent from each project. My suspicion is that I have to create dependencies for each task on each project, which seems tedious. Any help is much appreciated!
-
-A: The report you describe is not possible as a single custom report.  It could be done as a series of separate reports (one for the project-less, one for each project), but that's not convenient.
-
-What would be better is to instead write a script that automates all this, pulling together a list of task UUIDs and presenting one result report.  So I wrote one:
-
-http://taskwarrior.org/download/gtdnext.sh
-
-It's a bash script, and easily modifiable.
 </pre>
 
 <pre>
