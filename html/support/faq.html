@@ -58,6 +58,7 @@
         <a href="#q3">Q: How do I list tasks that have no project?</a><br />
         <a href="#q4">Q: How do I filter tasks containing words that are also commands?</a><br />
         <a href="#q5">Q: How do I hide the change history when using the <code>info</code> report?</a><br />
+        <a href="#q5">Q: How do I list tasks scheduled today?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -190,6 +191,26 @@ $ task -- info
               <p>
                 See 'man taskrc' for more details.
               </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q6"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I list tasks scheduled today?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                To filter tasks within a date range:
+              </p>
+              <pre>$ task scheduled \> today and scheduled \< tomorrow list</pre>
+              <p>
+                Note how filter operators need to be escaped, otherwise your shell
+                will think it knows what to do. Alternately, do this:
+              </p>
+              <pre>$ task scheduled.after:today and scheduled.before:tomorrow list</pre>
             </li>
           </ul>
         </div>
@@ -877,21 +898,6 @@ The following examples should work:
 
 task com end.after:today
 task completed end.after:today
-</pre>
-
-<pre>
-Q: How do I get tasks scheduled today?
-task due:today list produces a list of tasks due today
-
-task scheduled:today list does not
-
-How do I get a list of tasks scheduled today?<Paste>
-
-A: That should work, and it's a bug if it doesn't.  Does the task have a scheduled date?  What is it?
-
-Note that in 2.4.0 and later, the suggested approach for checking due date is to use virtual tags like this:
-
-$ task +TODAY list
 </pre>
 
 <pre>
