@@ -65,6 +65,7 @@
           <a href="#q13">Q: How do I create a traditional GTD Next Actions list?</a><br />
           <a href="#q14">Q: Why have attribute modifiers (<code>urgency.over:10</code>) rather than the more readable and algebraic form (<code>urgency&gt;10</code>)?</a><br />
           <a href="#q15">Q: How do I pipe a UUID into another task command?</a><br />
+          <a href="#q16">Q: How do I get the UUID of the last task added?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -477,6 +478,22 @@ Attribute modifiers make filters more precise.  Supported modifiers are:
                 You can use Bash subprocess syntax to achieve this:
               </p>
               <pre>$ task $(task _uuids +FOO) modify -FOO +BAR</pre>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q16"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I get the UUID of the last task added?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                There is a <code>LATEST</code> virtual tag for just this.
+                It corresponds to the most recently added task.
+              </p>
+              <pre>$ task +LATEST uuids</pre>
             </li>
           </ul>
         </div>
@@ -3474,16 +3491,6 @@ A: There isn't a non-cumulative variation of the burndown chart.
 To create the chart you want, you would need to change the burndown report in C++.  You could alternatively export the data and load it into something that can draw the chart you want, or script it.
 
 It would be a good idea though to write up a feature request.
-</pre>
-
-<pre>
-Q: How do I get the uuid of the last task added?
-
-I need the last added task for a script of mine, how do I get it?
-
-A: This should work just fine:
-
-$ task +LATEST uuids
 </pre>
 
 <pre>
