@@ -66,10 +66,12 @@
 
         <h4>Timewarrior</h4>
         <p>
+          <a href="#q11">Q: How do I control Taskwarrior through Timewarrior?</a><br />
         </p>
 
         <h4>Tasksh</h4>
         <p>
+          <a href="#q10">Q: How do I use arrow keys in tasksh?</a><br />
         </p>
 
         <h4>Taskserver</h4>
@@ -290,7 +292,53 @@ $ task color legend
           </ul>
         </div>
 
+        <a name="q10"></a>
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            Q: How do I use arrow keys in tasksh?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Tasksh supports <code>readline</code>, so if you are building
+                from source, install the dev readline library first.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q11"></a>
+        <div class="panel panel-success">
+          <div class="panel-heading">
+            <p>
+              Q: How do I control Taskwarrior through Timewarrior?
+            </p>
+            <p>
+              For example, if I start tracking in Timewarrior, how do I make the task active also?
+            </p>
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Taskwarrior uses Timewarrior to track time, via a Taskwarrior hook.
+                You just start/stop tasks using Taskwarrior, and Timewarrior
+                will start/stop tracking.
+              </p>
+              <p>
+                If you start/stop in Timewarrior, it does not control Taskwarrior.
+              </p>
+            </li>
+          </ul>
+        </div>
+
 <!-- Template:
+
+     Use different colors, for each product:
+       Taskwarrior:   panel-info
+       Timewarrior:   panel-success
+       Tasksh:        panel-warning
+       Taskserver:    panel-primary
+
         <a name="qX"></a>
         <div class="panel panel-info">
           <div class="panel-heading">
@@ -4188,14 +4236,6 @@ fwrite(STDOUT, json_encode($input));
 </pre>
 
 <pre>
-Q: Arrow keys in tasksh?
-
-I like using the arrow keys at the command prompt for editing while typing a command, recalling previous commands (up arrow), and editing recalled commands.  When using the arrow keys in the tasksh shell, they only add strange characters, such as "^[[D^[[A".  I don't know if this is a Linux matter or a tasksh configuration matter, etc.  Could someone please point me the right direction for getting the arrow keys to work in tasksh?
-
-A: It is a good idea to install "readline" as well.
-</pre>
-
-<pre>
 Q: Why can't I export all tasks?
 
 When I try the below command to backup my tasks, nothing happens.
@@ -4737,19 +4777,6 @@ Back up the client.  Modify the taskd.server config entry to point to the rPI, a
 If there are problems, it's most likely file permission, firewall or networking.
 </pre>
 
-<pre>
-Q: Timewarrior with Taskwarrior
-
-Will Timewarrior be able to interact with tasks in Taskwarrior?
-
-i.e. timew 1 start
-
-I have not seen any documentation in either one that speaks to the two working with each other.
-
-A: Taskwarrior uses Timewarrior to track time, via a Taskwarrior hook.
-
-Nothing happens in the opposite direction, so you just start / stop tasks using Taskwarrior.
-</pre>
 
 <pre>
 Q: Archiving Tasks
