@@ -72,6 +72,7 @@
           <a href="#q15">Q: How do I pipe a UUID into another task command?</a><br />
           <a href="#q16">Q: How do I get the UUID of the last task added?</a><br />
           <a href="#q17">Q: How do I change many due dates using one command?</a><br />
+          <a href="#q18">Q: How do I search for tasks?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -538,6 +539,35 @@ Attribute modifiers make filters more precise.  Supported modifiers are:
               <p>
                 Depending on whether you want all overdue tasks or not,
                 you'll need to adjust the filter.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q18"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I search for tasks?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                There are several ways to search the description and annotations of
+                your tasks. The first is to simply look for a search term:
+              </p>
+              <pre>$ task ABC list</pre>
+
+              <p>
+                The second uses the <code>/.../</code> syntax, which uses regular
+                expressions. This is equivalent to the above form:
+              </p>
+              <pre>$ task /ABC/ list</pre>
+
+              <p>
+                Regular expressions support sophisticated search terms:
+              </p>
+              <pre>$ task /[A-Z]../ list</pre>
+              <p>
               </p>
             </li>
           </ul>
@@ -2088,28 +2118,6 @@ I will add a page to the site, containing the above, and we can develop it furth
  
 
 Edit: http://taskwarrior.org/docs/coding_style.html
-</pre>
-
-<pre>
-Q: What is the easiest way to search a task?
-
-What is the easiest way to search my pending tasks by title or annotations? 
-
-Any other search tips/links would be appreciated.
-
-Thanks!
-
-A: There are several ways to search, the simplest being:
-
-$ task ABC list
-The 'ABC' is taken as a literal search term, which is then scanned for in the description and annotations.
-
-If you have the 'regex' setting enabled (on by default in 2.4.0 and later), then you can search using regular expressions like this:
-
-$ task /ABC/ list
-That example is equivalent to the one above, but you can use more complex terms like:
-
-$ task /[A-Z]../ list
 </pre>
 
 <pre>
