@@ -57,6 +57,7 @@
         <a href="#q2">Q: How do I remove an attribute?</a><br />
         <a href="#q3">Q: How do I list tasks that have no project?</a><br />
         <a href="#q4">Q: How do I filter tasks containing words that are also commands?</a><br />
+        <a href="#q5">Q: How do I hide the change history when using the <code>info</code> report?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -175,6 +176,24 @@ $ task -- info
           </ul>
         </div>
 
+        <a name="q5"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I hide the change history when using the <code>info</code> report?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                You need to turn off journalling, like this:
+              </p>
+              <pre>$ task config journal.info off</pre>
+              <p>
+                See 'man taskrc' for more details.
+              </p>
+            </li>
+          </ul>
+        </div>
+
 <!-- Template:
         <a name="qX"></a>
         <div class="panel panel-info">
@@ -192,6 +211,7 @@ $ task -- info
           </ul>
         </div>
 -->
+
 
 <h3>Raw data</h3>
 <p>
@@ -4877,19 +4897,6 @@ Can someone explain to me the nature of projects and dependencies? It seems that
 A: Dependencies are not full-fledged subtasks, they just make tasks 'depend' on each other, meaning that one task should not be worked on until the other has been completed. Subtasks support is planned in one of the future releases.
 
 Projects have a simple purpose of grouping tasks into one namespace. I.e. I like to use project:Work and project:Home to separate your work and home tasks.
-</pre>
-
-<pre>
-Q: Task information without history
-Is there any way of hiding the modification history of a task when using
-
-task <id> information
-?
-
-A: Use
-
-journal.info=off
-setting in your taskrc file. More information can be found in the manual page for the taskrc itself.
 </pre>
 
 <pre>
