@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>News: Timewarrior 1.1.0 Released</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li class="active"><a href="/news/">News</a></li>
+            <li><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-2 main">
+      </div>
+
+      <div class="col-md-8 main">
+        <div class="row">
+          <h3>Timewarrior 1.1.0 Released <small>2018-01-13</small></h3>
+          <p>
+            Timewarrior 1.1.0 is released. With 18 months of updates, many
+            bugs fixed, and new convenience features added, Timewarrior 1.1.0 is
+            stable and ready.
+          </p>
+
+          <p>
+            Timewarrior tracks your time from the command line and generates
+            reports. Your data is stored locally in clear text. It integrates well
+            with Taskwarrior.
+          </p>
+
+          <p>
+            <img src="/news/images/ti.png" class="img-responsive" />
+          </p>
+
+          <p>
+            Here are the changes in 1.1.0:
+          </p>
+
+          <p>
+            <ul>
+              <li>Taskwarrior integration hook now uses a project <code>Home.Garden</code> as a single tag <code>Home.Garden</code> as well as individual <code>Home</code>, <code>Garden</code> tags</li>
+              <li>Taskwarrior integration hook now stops the clock in more situations, such as deleting or waiting a task</li>
+              <li>The <code>tags</code> command now supports filters</li>
+              <li>New date names supported (see <code>timew help date</code> or <code>man timew</code>)</li>
+              <li>Timewarrior and Taskwarrior now use the same date handling</li>
+              <li>The <code>continue</code> command can resume tracking by <code>@id</code></li>
+              <li>When specifying a time without a date (e.g. '10:00am'), the day is assumed to be today, and is no longer projected back in time</li>
+              <li>Fixed Python 3 support of the holiday/refresh script</li>
+              <li>Added missing man page link</li>
+              <li>Taskwarrior projects are now used as-is as tags, and also split on the '.' to present project hierarchy as separate tags</li>
+              <li>Named dates <code>socw</code>, <code>socm</code>, <code>socq</code> and <code>socy</code> are now named <code>sow</code>, <code>som</code>, <code>soq</code> and <code>soy</code>. Similarly the <code>eocw</code> etc are modified. The <code>c</code> is now implicit.</li>
+              <li><a href="https://bug.tasktools.org/browse/TD-120">TD-120</a> Missing cmakedefine for HAVE_GET_CURRENT_DIR_NAME</li>
+              <li><a href="https://bug.tasktools.org/browse/TW-1845">TW-1845</a> Cygwin build fails, missing get_current_dir_name</li>
+              <li><a href="https://bug.tasktools.org/browse/TW-1936">TW-1936</a> Tweak tests to have fuller TAP compliance</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-27">TI-27</a> Continue tracking by ID</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-29">TI-29</a> timew config can't add new value</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-32">TI-32</a> taskwarrior hook script doesn't stop recording waiting task</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-39">TI-39</a> Bogus command line option causes segfault</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-40">TI-40</a> totals.py extension script fails with an error</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-42">TI-42</a> refresh holiday script throws an error on nb-NO locale</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-44">TI-43</a> :lastweek on sunday</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-46">TI-46</a> Display error in visual reports (day,week,month)</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-47">TI-47</a> first call successfully creates new database but returns exit status 1</li></li>
+              <li><a href="https://bug.tasktools.org/browse/TI-48">TI-48</a> Timewarrior hook is not Python3 compatible</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-49">TI-49</a> new theme files aren't installed</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-51">TI-51</a> in the taskwarrior hook, deleting a task doesn't stop the watch</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-52">TI-52</a> The 'refresh' scripts overwrites previous years data</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-58">TI-58</a> Delete command is not always deleting</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-61">TI-61</a> Typo in exclusion.t.cpp</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-62">TI-62</a> TimeWarrior should not ignore invalid command</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-64">TI-64</a> Command 'stop' with date before current interval's start date causes segfault</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-65">TI-65</a> The 'tags' command should support a filter</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-66">TI-66</a> Move with :adjust leaves overlapping intervals</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-67">TI-67</a> Summary with parameters shows wrong ids</li></li>
+              <li><a href="https://bug.tasktools.org/browse/TI-68">TI-68</a> Cannot shorten interval which has been moved into an exclusion</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-69">TI-69</a> timew config converts integers to times</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-70">TI-70</a> Timew starts a new interval even if a current interval contains the same set of tags</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-73">TI-73</a> timew move with a specific time broken on 1.1.0</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-75">TI-75</a> The :fill hint not properly detecting the last interval</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-77">TI-77</a> timew track seems to think today is tomorrow</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-78">TI-78</a> Tag parsing broken for tags starting with "or_"</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-81">TI-81</a> Allow correction with filtered ids</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-85">TI-85</a> :adjust creates overlapping interval</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-90">TI-90</a> Let 'continue' accept a date or a date range</li>
+              <li><a href="https://bug.tasktools.org/browse/TI-91">TI-91</a> Timewarrior does not compile on DragonFly</li>
+            </ul>
+          </p>
+
+          <p>
+            Timewarrior is a relatively new project, and needs
+            <a href="mailto:support@timewarrior.net">your feedback</a>.
+            Please let us know how Timewarrior does and does not meet your needs.
+            We are looking to streamline the user experience.
+          </p>
+
+          <p>
+            For full details, see the ChangeLog file included in the release.
+
+            The release is immediately available as a source
+            <a href="/download/timew-1.1.0.tar.gz">tarball</a>.
+            Binary packages for your OS may appear soon.
+          </p>
+
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="col-md-2 main">
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
+            <br />
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.tasktools.org">System status</a>
+            <br />
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://tasktools.org">tasktools.org</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="lc" value="en_US">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="paypal" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" style="border:0px; width:1px; height:1px;">
+            </form>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy; 2017 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Piwik -->
+    <script type="text/javascript">
+      var _paq = _paq || [];
+      _paq.push(["trackPageView"]);
+      _paq.push(["enableLinkTracking"]);
+
+      (function() {
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
+        _paq.push(["setTrackerUrl", u+"piwik.php"]);
+        _paq.push(["setSiteId", "1"]);
+        var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
+        g.defer=true; g.async=true; g.src=u+"piwik.js"; s.parentNode.insertBefore(g,s);
+      })();
+    </script>
+    <!-- End Piwik Code -->
+  </body>
+</html>

@@ -23,8 +23,29 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Wed, 10 May 2017 21:13:00 GMT</pubDate>
-    <lastBuildDate>Wed, 10 May 2017 21:13:00 GMT</lastBuildDate>
+    <pubDate>Sat, 13 Jan 2018 00:30:00 GMT</pubDate>
+    <lastBuildDate>Sat, 13 Jan 2018 00:30:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Timewarrior 1.1.0 Released</title>
+      <link>http://taskwarrior.org/news/news.2018013.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 13 Jan 2018 00:30:00 GMT</pubDate>
+      <description>
+        Timewarrior 1.1.0 is released. With 18 months of updates, many
+        bugs fixed, and new convenience features added, Timewarrior 1.1.0 is
+        stable and ready.
+
+        Timewarrior tracks your time from the command line and generates
+        reports. Your data is stored locally in clear text. It integrates well
+        with Taskwarrior.
+
+        http://taskwarrior.org/news/images/ti.png
+
+        Here are the changes in 1.1.0:
+        ...
+      </description>
+    </item>
 
     <item>
       <title>BYOP Meetup in Gothenburg</title>
