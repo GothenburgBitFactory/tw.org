@@ -23,12 +23,33 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Sat, 13 Jan 2018 00:30:00 GMT</pubDate>
-    <lastBuildDate>Sat, 13 Jan 2018 00:30:00 GMT</lastBuildDate>
+    <pubDate>Sun, 15 Jan 2018 06:36:00 GMT</pubDate>
+    <lastBuildDate>Sun, 15 Jan 2018 06:36:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Activity Digest: May - December 2017</title>
+      <link>http://taskwarrior.org/news/news.20180114.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sun, 15 Jan 2018 06:36:00 GMT</pubDate>
+      <description>
+        This is an ongoing series of activity reports, published monthly,
+        to highlight activity in our projects. Here is what happened between
+        May and December 2017.
+
+        This is not a complete list of all activity, just work that results
+        in a non-trivial change. For a full list, see the git history of all
+        the projects.
+
+        This covers a seven month period. Due to unforeseen circumstances,
+        there was a lengthy break in 2017. We're back.
+
+        ...
+      </description>
+    </item>
 
     <item>
       <title>Timewarrior 1.1.0 Released</title>
-      <link>http://taskwarrior.org/news/news.2018013.html</link>
+      <link>http://taskwarrior.org/news/news.20180113.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 13 Jan 2018 00:30:00 GMT</pubDate>
       <description>
