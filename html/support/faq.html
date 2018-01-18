@@ -74,6 +74,7 @@
           <a href="#q17">Q: How do I change many due dates using one command?</a><br />
           <a href="#q18">Q: How do I search for tasks?</a><br />
           <a href="#q19">Q: How do I create a task that reucrs on more than one day of the week?</a><br />
+          <a href="#q22">Q: How can I include the time spent on a task in a custom report?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -605,6 +606,46 @@ $ task add Do the thing due:friday recur:weekly</pre>
               <p>
                 As a security component, it is best for you to use the latest
                 available version.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q22"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How can I include the time spent on a task in a custom report?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Total active time is not a reportable field.  It's not even a
+                field, it's simply aggregated from the <code>undo.data</code>
+                file.  As such it is a faithful account of how long a task was
+                in the active state, but that is not what is needed for time
+                tracking.
+              </p>
+
+              <p>
+                Proper time tracking allows for corrections, and mining the
+                <code>undo.data</code> file does not permit corrections.
+                Many people confuse this for time tracking, which it is not.
+              </p>
+
+              <p>
+                This can be achieved instead by hook scripts, and here are two such examples:
+              </p>
+
+              <p>
+                <a href="https://github.com/kostajh/taskwarrior-time-tracking-hook">https://github.com/kostajh/taskwarrior-time-tracking-hook</a>
+              </p>
+
+              <p>
+                <a href="https://github.com/coddingtonbear/taskwarrior-timebook-hook">https://github.com/coddingtonbear/taskwarrior-timebook-hook</a>
+              </p>
+
+              <p>
+                The real answer, though, is to <a href="https://timewarrior.net">Use Timewarrior!</a>
               </p>
             </li>
           </ul>
@@ -2528,23 +2569,6 @@ Thanks.
 A: Delete the files.  There is no uninstall.  If you'd used a binary package, there would be an uninstall.
 
 A: That tutorial includes a "make install" step which unless the user running it is root, will fail. If the user was indeed root or "sudo" was used, make sure you also remove the files from /usr/local/.
-</pre>
-
-<pre>
-Q: How can I add the time already spent on a task in a custom report?
-
-When creating a custom report you refer to the values you want to show by report.FOO.columns. In the task info output there is a value Total active time. What is the label for this value to use in report.FOO.columns?
-
-A: Total active time is not a reportable field.  It's not even a field, it's simply aggregated from the undo.data file.  As such it is a faithful account of how long a task was in the active state, but that is not what is needed for time tracking.  Proper time tracking should allow for corrections, and mining the undo.data file does not permit corrections.  Also, many people confuse this for time tracking, which it is not.
-
-In version 2.4.0 (currently in beta) total active time is removed, and instead a hook-based script will be available that properly aggregates time in a UDA.  That will be a reportable field.
-
-Here are two such early examples:
-
-https://github.com/kostajh/taskwarrior-time-tracking-hook
-https://github.com/coddingtonbear/taskwarrior-timebook-hook
-
-A: Use Timewarrior!
 </pre>
 
 <pre>
