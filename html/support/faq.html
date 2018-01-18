@@ -89,6 +89,7 @@
         <h4>Taskserver</h4>
         <p>
           <a href="#q12">Q: How do I setup Taskserver to use LetsEncrypt certs?</a><br />
+          <a href="#q20">Q: Which version of GnuTLS shoud I use?</a><br />
         </p>
 
         <hr />
@@ -589,6 +590,21 @@ Attribute modifiers make filters more precise.  Supported modifiers are:
               <pre>$ task add Do the thing due:monday recur:weekly
 $ task add Do the thing due:friday recur:weekly</pre>
               <p>
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q20"></a>
+        <div class="panel panel-primary">
+          <div class="panel-heading">
+            Q: Which version of GnuTLS shoud I use?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                As a security component, it is best for you to use the latest
+                available version.
               </p>
             </li>
           </ul>
@@ -1974,21 +1990,6 @@ With existing tasks you can use:
 
 task task_id mod wait:5d
 to have the task show up 5 days from now.
-</pre>
-
-<pre>
-Q: which version gnutls to use
-
-On this page:
-
-http://taskwarrior.org/docs/troubleshooting-sync.html
-
-It says
-
-Did you build Taskserver from source, and if so, which version of GnuTLS did you use?
-Which version should I be using (and how do I find out what I'm using?)
-
-A: As a security component, it is best for you to use the latest possible version.
 </pre>
 
 <pre>
