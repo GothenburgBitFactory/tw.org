@@ -73,6 +73,7 @@
           <a href="#q16">Q: How do I get the UUID of the last task added?</a><br />
           <a href="#q17">Q: How do I change many due dates using one command?</a><br />
           <a href="#q18">Q: How do I search for tasks?</a><br />
+          <a href="#q19">Q: How do I create a task that reucrs on more than one day of the week?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -567,6 +568,26 @@ Attribute modifiers make filters more precise.  Supported modifiers are:
                 Regular expressions support sophisticated search terms:
               </p>
               <pre>$ task /[A-Z]../ list</pre>
+              <p>
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q19"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I create a task that reucrs on more than one day of the week?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                This is not supported, but you can simulate this by creating multiple
+                tasks due weekly on different days:
+
+              </p>
+              <pre>$ task add Do the thing due:monday recur:weekly
+$ task add Do the thing due:friday recur:weekly</pre>
               <p>
               </p>
             </li>
@@ -1779,15 +1800,6 @@ A: Renato's answer is the right one.  But here is another suggestion, which is s
 If a bug/feature doesn't have a hasTest label, then it obviously needs a test.  But before it has a test, it needs a good, clear, minimal example.  The idea here is that it can be difficult to convey what the problem is, using language, but it more precise using commands.  Coming up with one or two commands to illustrate the problem, and therefore what the test should cover is a great way to contribute without writing Python.
 
 For example, take a look at the commands Benjamin added to  TW-1334 - task mod description:"word1 word2" fails to handle space RESOLVED  .  Those make it very clear what the problem is, and form a great basis for writing a unit test.
-</pre>
-
-<pre>
-Q: Weekly recurring task multiple days
-Can I have a task recur on more than one day of the week? 
-
-A: You can have daily, or on weekdays.  But nothing in between.
-
-However, you can fake this with multiple tasks.  Suppose you want recurrence on mondays and fridays, you can add two similar tasks, recurring weekly, but one is due on monday, and the other on friday.
 </pre>
 
 <pre>
