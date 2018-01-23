@@ -74,7 +74,8 @@
           <a href="#q17">Q: How do I change many due dates using one command?</a><br />
           <a href="#q18">Q: How do I search for tasks?</a><br />
           <a href="#q19">Q: How do I create a task that recurs on more than one day of the week?</a><br />
-          <a href="#q22">Q: How can I include the time spent on a task in a custom report?</a><br />
+          <a href="#q21">Q: How can I include the time spent on a task in a custom report?</a><br />
+          <a href="#q22">Q: How do I hide tasks that have unfinished dependencies?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -611,7 +612,7 @@ $ task add Do the thing due:friday recur:weekly</pre>
           </ul>
         </div>
 
-        <a name="q22"></a>
+        <a name="q21"></a>
         <div class="panel panel-info">
           <div class="panel-heading">
             Q: How can I include the time spent on a task in a custom report?
@@ -647,6 +648,25 @@ $ task add Do the thing due:friday recur:weekly</pre>
           </ul>
         </div>
 
+        <a name="q22"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I hide tasks that have unfinished dependencies?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Try
+              </p>
+              <pre>$ task -BLOCKED</pre>
+              <p>
+                The virtual tags that are relevant for the present situation
+                are BLOCKED and/or UNBLOCKED.
+              </p>
+            </li>
+          </ul>
+        </div>
+
 <!-- Template:
 
      Use different colors, for each product:
@@ -674,15 +694,6 @@ $ task add Do the thing due:friday recur:weekly</pre>
 
 
 <!--
-
-<pre>
-Q: What is the future of the 'shell' command?
-The 'tasksh' links all the code.  Why is that?
-
-A:The 'tasksh' program is transitioning from a built-in command, to a standalone program, to a completely independent utility.  It doesn't need to link the code, it just does.
-
-Soon it will be migrated out of the core product and managed separately.
-</pre>
 
 <pre>
 Q: Building taskd, cmake cannot find gnutls
@@ -757,32 +768,6 @@ report.templates.filter=status:recurring
 A: As a hack, you can also use `task status:recurring or status:recurring list`, which would translate to the filter `status:pending and status:recurring or status:recurring`.
 
 A: 'info' and 'export' also have no filter.
-</pre>
-
-<pre>
-Q: How do I hide tasks that have unfinished dependencies?
-
-How to hide tasks that have unfinished/incomplete dependencies?
-
-I've tried to use:
-
-task dep:
-but it hides all tasks that have a dependency, regardless of the completion state of dependencies.
-
-A: Try
-
-task -BLOCKED
-
-A: Since you need to take into account the state of other tasks to filter a given one, you will need to use virtual tags.
-
-The virtual tags that are relevant for the present situation are BLOCKED and/or UNBLOCKED.
-
-I presently use:
-
-task -BLOCKED
-to only display tasks that are not blocked by incomplete dependencies.
-
-A: Though this doesn't seem to work on a Mac....
 </pre>
 
 <pre>
