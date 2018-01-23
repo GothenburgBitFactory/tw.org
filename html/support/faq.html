@@ -91,6 +91,7 @@
         <h4>Tasksh</h4>
         <p>
           <a href="#q10">Q: How do I use arrow keys in tasksh?</a><br />
+          <a href="#q28">Q: How do I repeat the last command?</a><br />
         </p>
 
         <h4>Taskserver</h4>
@@ -797,6 +798,37 @@ shared object file: No such file or directory</pre>
           </ul>
         </div>
 
+        <a name="q28"></a>
+        <div class="panel panel-warning">
+          <div class="panel-heading">
+            Q: How do I repeat the last command?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                In tasksh like most linux shell, you can navigate the list of
+                your last input commands by using the UP/DOWN arrows for
+                history navigation and PageUp/PageDown for prefixed history
+                navigation (other names may apply here).
+              </p>
+
+              <p>
+                With prefixed history navigation you can start typing a command,
+                say mod and by using PageUp/PageDown you will only browse
+                history commands that start by mod, whereas full history ignores
+                any input that already exists and simply navigates history in
+                order.
+              </p>
+
+A: if ( e.g. after changing from 2.3.0 to 2.5.1) in tasksh the
+              <p>
+                Tasksh supports <code>libreadline</code>, but make sure the
+                development version is installed, and rebuild.
+              </p>
+            </li>
+          </ul>
+        </div>
+
 <!-- Template:
 
      Use different colors, for each product:
@@ -1019,28 +1051,6 @@ Given all these possibilities, choose the one that you find easier to use and be
 PS: There may be better ways to specify default options. I need to dig into that subject myself.
 </pre>
 
-<pre>
-Q: What is the shortcut to repeat the last command?
-
-A: A pretty short shortcut for the last command is
-
-!!
-this works for most of the shells I know.
-
-A: Given that you included the shell tag, I'm assuming you are referring to tasksh.
-
-In tasksh like most linux shell/terminals, you can navigate the list of your last input commands by using the UP/DOWN arrows for history navigation and PageUp/PageDown for prefixed history navigation (other names may apply here).
-
-With prefixed history navigation you can start typing a command, say mod and by using PageUp/PageDown you will only browse history commands that start by mod, whereas full history ignores any input that already exists and simply navigates history by its order.
-
-A: if ( e.g. after changing from 2.3.0 to 2.5.1) in tasksh the
-
-<ctrl><p>
-shortcut and even the UP/DOWN keys dont work anymore and show something like:
-
-tasksh> ^P ^[[A^[[C^[[D^[[B
-the tasksh hast to be build with "libreadline" like statet in "man tasksh"
-</pre>
 
 <pre>
 Q: How can I assign a task to a project while creating the task?
