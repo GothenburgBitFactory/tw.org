@@ -76,6 +76,7 @@
           <a href="#q19">Q: How do I create a task that recurs on more than one day of the week?</a><br />
           <a href="#q21">Q: How can I include the time spent on a task in a custom report?</a><br />
           <a href="#q22">Q: How do I hide tasks that have unfinished dependencies?</a><br />
+          <a href="#q23">Q: How do I record a task that is already completed?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -663,6 +664,31 @@ $ task add Do the thing due:friday recur:weekly</pre>
                 The virtual tags that are relevant for the present situation
                 are BLOCKED and/or UNBLOCKED.
               </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q23"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I record a task that is already completed?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                There are several ways to do this. The simplest is to use
+                the <code>log</code> command, which creates a new task and
+                immediately sets the status to <code>completed</code>:
+              </p>
+              <pre>$ task log ...</pre>
+              <p>
+                You can achieve the same thing using the <code>add</code> command:
+              </p>
+              <pre>$ task add status:completed ...</pre>
+              <p>
+                Furthermore if you wish to record the date the task was completed:
+              </p>
+              <pre>$ task log end:2018-01-22 ...</pre>
             </li>
           </ul>
         </div>
