@@ -78,6 +78,7 @@
           <a href="#q22">Q: How do I hide tasks that have unfinished dependencies?</a><br />
           <a href="#q23">Q: How do I record a task that is already completed?</a><br />
           <a href="#q24">Q: How do I include the recurrence frequency in a report?</a><br />
+          <a href="#q25">Q: How do I solve "Taskwarrior was built without GnuTLS support. Sync is not available."?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -710,6 +711,25 @@ $ task add Do the thing due:friday recur:weekly</pre>
                 that you can use in a report.  What you are looking for is the
                 <code>recur</code> column.
               </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q25"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I solve "Taskwarrior was built without GnuTLS support. Sync is not available."?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Install <code>libgnutls-dev</code> and rebuild:
+              </p>
+              <pre>$ make clean
+$ rm CMakeCache.txt
+$ cmake .
+$ make
+$ sudo make install</pre>
             </li>
           </ul>
         </div>
@@ -1600,30 +1620,6 @@ But `task 54 mod stop:161213_0710` does not work. How can that be done?
 </pre>
 
 <pre>
-Q: I was wondering, if there is a history.weekly or even daily? I consider history.monthly not insightful, because I complete more than 20 taks a day.
-Hello folks!
-
- 
-
-First, I would like to thank you for the efforts putting in the Taskwarrior. It is genuinely a great tool for command line junkies like me, who want to be productive too!
-
-I was wondering, why is there no history.weekly or even daily? I consider history.monthly not insightful, because I complete more than 20 taks a day. 
-
-A: You're right, there is asymmetry in the support for different periods for these commands:
-
-history.monthly
-history.annual
-ghistory.monthly
-ghistory.annual
-burndown.daily
-burndown.weekly
-burndown.monthly
-I think there is no daily or weekly in the history reports because no one asked for it.
-
-Perhaps your impressive productivity means you are the only one who noticed?  This would make a great feature request.
-</pre>
-
-<pre>
 Q: How can I write a test for task?
 
 A: Copied from TW-1334 (pbeckingham):
@@ -1685,122 +1681,6 @@ Is this a qualified answer to your question? Kindly note if I have misunderstood
 Have I been able to help you solving your problem?
 </pre>
 
-<pre>
-Q: Is there more than one interactive interface for taskwarrior?
-
-A: there's also a fully interactive vim interface for taskwarrior (vim-taskwarrior github site)
-
-A: he full list of interfaces (graphical and text) and other kinds of wrappers can be found in this page.
-
-A: vit
-vittk
-tasknc
-</pre>
-
-<pre>
-Q: taskd: TLS handshake fails for "sync init"
-
-I thought I followed the instructions here here to a tee, but I must be missing something because when I do "task sync init", I get an error on the client:
-
-Handshake failed.  A TLS packet with unexpected length was received.
-Sync failed.  Could not connect to the Taskserver.
-The taskd log says this:
-
-2014-05-28 02:11:26 Error: Handshake has failed (The peer did not send any certificate.)
-I have the certificates in .taskrc set correct (double and triple checked) and I am about to try troubleshooting this the "hard" way but TLS is not my forte so I have no idea how far I'll get. Any suggestions? Server and client diagnostics below for reference.
-
-taskd 1.0.0
-    Platform: Linux
-    Hostname: <redacted>
-
-Compiler
-     Version: 4.6.3
-        Caps: +stdc +stdc_hosted +200809 +LP64 +c1 +i4 +l8 +vp8
-
-Build Features
-       Built: May 27 2014 00:24:00
-       CMake: 2.8.7
-        Caps: +pthreads +tls
-     libuuid: libuuid + uuid_unparse_lower
-   libgnutls: 2.12.14
-
-task 2.3.0
-   Platform: Linux
-
-Compiler
-    Version: 4.6.3
-       Caps: +stdc +stdc_hosted +200809 +LP64 +c1 +i4 +l8 +vp8
-
-Build Features
-      Built: May 25 2014 22:48:39
-      CMake: 2.8.7
-       Caps: -pthreads +tls
-    libuuid: libuuid + uuid_unparse_lower
-  libgnutls: 2.12.14
-
-Configuration
-       File: /home/eil/.taskrc (found), 1518 bytes, mode 100664
-       Data: /home/eil/.task (found), dir, mode 40755
-    Locking: Enabled
-         GC: Enabled
-    $EDITOR: /usr/bin/vim
-     Server: <redacted>
-         CA: /home/eil/.task/ca.cert.pem (readable)
-       Cert: /home/eil/.task/charles.cert.pem (readable)
-        Key: /home/eil/.task/charles.key.pem (readable)
-    Ciphers: NORMAL
-      Creds: bityard/Charles/************************************
-
-External Utilities
-        scp: (found)
-      rsync: version 3.0.9
-       curl: curl 7.22.0
-
-Tests
-      $TERM: xterm (120x30)
-       Dups: Scanned 22 tasks for duplicate UUIDs:
-             No duplicates found
-
-Minor update: I tested with gnutls-cli, but this didn't really get me anywhere other than confirming that perhaps the problem is somewhere on the server side:
-
-$ gnutls-cli -p 53589 --x509keyfile charles.key.pem --x509certfile charles.cert.pem --x509cafile ca.cert.pem -V <redacted>
-Processed 1 CA certificate(s).
-Processed 1 client certificates...
-Processed 1 client X.509 certificates...
-Resolving '<redacted>'...
-Connecting to '<redacted>:53589'...
-- Server did not send us any trusted authorities names.
-*** Fatal error: A TLS packet with unexpected length was received.
-*** Handshake has failed
-GnuTLS error: A TLS packet with unexpected length was received.
-
-A: It turns out I was missing the CA cert in the taskd config:
-
-taskd config --force ca.cert $TASKDDATA/ca.cert.pem
-Ugh. Perhaps taskd could warn about this?
-</pre>
-
-<pre>
-Q: How to solve "Taskwarrior was built without GnuTLS support. Sync is not available."?
-
-Just upgraded from 2.2.0 to 2.3.0 under Linux Mint 16 from source on the download section.
-
-A:Please install libgnutls-dev and start over.
-
- 
-
- 
-
-make clean
-
-rm CMakeCache.txt
-
-cmake .
-
-make
-
-sudo make install
-</pre>
 
 <pre>
 Q: Are subtasks possible
