@@ -79,6 +79,7 @@
           <a href="#q23">Q: How do I record a task that is already completed?</a><br />
           <a href="#q24">Q: How do I include the recurrence frequency in a report?</a><br />
           <a href="#q25">Q: How do I solve "Taskwarrior was built without GnuTLS support. Sync is not available."?</a><br />
+          <a href="#q26">Q: How do I get color working?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -730,6 +731,29 @@ $ rm CMakeCache.txt
 $ cmake .
 $ make
 $ sudo make install</pre>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q26"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            Q: How do I get color working?
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Try the command:
+              </p>
+              <pre>$ task color</pre>
+              <p>
+                Does it show colors?
+              </p>
+              <p>
+                This can happen because there are no tasks in the output that
+                matches any of the color rules. You will need to provide metadata,
+                such as due dates, to get any color rules to match.
+              </p>
             </li>
           </ul>
         </div>
@@ -4921,26 +4945,6 @@ A: Simply put the time in the due date, and the weekly recurrence will match it:
 $ task add ... due:2016-06-14T08:00 recur:weekly
 This is already answered here:
 http://taskwarrior.org/docs/examples.html#recur 
-</pre>
-
-<pre>
-Q: Colorschemes not showing
-
-i am using Taskwarrior 2.5.1 on OS X 10.11.4 in Terminal.  I have the dark 256 colorscheme selected but I am not seeing colors.  I use tmux but have tried this in a regular non-tmux shell as well.  I have my term set as screen-256color.  Any help would be greate.
-
-A: Did you try the command
-
-$ task color
-?
-
-On GNU/Linux Debian with ZSH, this produces a sumup of the colors with their name, six color cubes and a gray ramp.
-
-You might want to have a look at
-
-$ man task-color
-, too. There might be some information helping you there.
-
-A: Maybe it's just that no task in the output matches any of the color rules. You can test whether the taskwarrior correctly detects color support in your terminal using task color command. Alternatively, you can force colorized output using _forcecolor=yes in your ~/.taskrc (but that again, requires that your output contains something that taskwarrior wants to colorize, such as overdue task).
 </pre>
 
 <pre>
