@@ -80,6 +80,7 @@
           <a href="#q24">Q: How do I include the recurrence frequency in a report?</a><br />
           <a href="#q25">Q: How do I solve "Taskwarrior was built without GnuTLS support. Sync is not available."?</a><br />
           <a href="#q26">Q: How do I get color working?</a><br />
+          <a href="#q27">Q: How do I fix this libgnutls-deb0.so.28 error?</a><br />
         </p>
 
         <h4>Timewarrior</h4>
@@ -753,6 +754,44 @@ $ sudo make install</pre>
                 This can happen because there are no tasks in the output that
                 matches any of the color rules. You will need to provide metadata,
                 such as due dates, to get any color rules to match.
+              </p>
+            </li>
+          </ul>
+        </div>
+
+        <a name="q27"></a>
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <p>
+              Q: How do I fix this libgnutls-deb0.so.28 error?
+            </p>
+
+            <p>
+              Upon upgrading from Ubuntu 15.10 to 16.04 I am now seeing the
+              following error message when I try to run Taskwarrior:
+            </p>
+
+            <pre>error while loading shared libraries: libgnutls-deb0.so.28: cannot open
+shared object file: No such file or directory</pre>
+
+            <p>
+              Gnutls was already installed and had been working on my 15.10
+              installation for some time now. I attempted to fix it by
+              uninstalling and reinstalling gnutls but it still doesn't work.
+            </p>
+
+          </div>
+          <ul class="list-group">
+            <li class="list-group-item">
+              <p>
+                Your Taskwarrior was built using a version of GnuTLS that is no
+                longer installed. If you built Taskwarrior from source, then
+                rebuild.
+              </p>
+
+              <p>
+                If you installed Taskwarrior from a binary package, uninstall
+                and reinstall Taskwarrior.
               </p>
             </li>
           </ul>
@@ -4722,25 +4761,6 @@ A: You're doing two different things:
 'task better done' is modifying any task with the 'better' substring.
 'task better' is adding 'better' to the filter of the default command.
 The default command does not affect any other commands.  Typically you would specify an ID/UUID for a task to modify.  But in your case your are specifying a text pattern, which could apply to many tasks.  This is functioning as designed.
-</pre>
-
-<pre>
-Q: error while loading shared libraries: libgnutls-deb0.so.28
-
-Upon upgrading from Ubuntu 15.10 to 16.04 I am now seeing the following error message when I try to run Taskwarrior:
-
-error while loading shared libraries: libgnutls-deb0.so.28: cannot open shared object file: No such file or directory
-It appears that this error message is due to some disconnect between Taskwarrior and gnutls.
-
-Gnutls was already installed and had been working on my 15.10 installation for some time now. I attempted to fix it by uninstalling and reinstalling gnutls but it still doesn't work.
-
-Any suggestions on how I can fix this?
-
-A: Your Taskwarrior was built using a version of GnuTLS that is no longer installed.
-
-If you built Taskwarrior from source, then you must rebuild again.
-
-If you installed Taskwarrior from a binary package, uninstall and reinstall Taskwarrior.
 </pre>
 
 <pre>
