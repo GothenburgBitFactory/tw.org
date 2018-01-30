@@ -23,8 +23,30 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Sun, 15 Jan 2018 06:36:00 GMT</pubDate>
-    <lastBuildDate>Sun, 15 Jan 2018 06:36:00 GMT</lastBuildDate>
+    <pubDate>Mon, 29 Jan 2018 23:50:00 GMT</pubDate>
+    <lastBuildDate>Mon, 29 Jan 2018 23:50:00 GMT</lastBuildDate>
+
+    <item>
+      <title>FOSDEM 2018: Taskwarrior Presence</title>
+      <link>http://taskwarrior.org/news/news.20180229.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 29 Jan 2018 23:50:00 GMT</pubDate>
+      <description>
+        The Taskwarrior Team will be attending FOSDEM 2018.
+
+        https://fosdem.org/2018
+
+        on February 3rd and 4th in Brussels.
+        This is the second annual carbon-space meetup.
+
+        What will the focus be this time?
+        Are we traveling all this way and meeting up to give talks and demos?
+        Will be sharing ideas and collaborating?
+        Will we be planning features and releases?
+
+        ...
+      </description>
+    </item>
 
     <item>
       <title>Activity Digest: May - December 2017</title>
