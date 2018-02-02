@@ -56,9 +56,19 @@
           <div class="row">
             <h3>Timewarrior Database Correction Script</h3>
             <p>
+              This is the correction script for the interval flattening bug (TI-102).
+              The script exports all intervals stored, purges the database, and
+              re-enters the intervals.
+            </p>
+
+            <p>
+              TimeWarrior 1.1.1 or higher correctly enters intervals.
+            </p>
+
+            <p>
               Use this script when you have used
               <ul>
-                <li>TimeWarrior before version 1.1.1</li>
+                <li>TimeWarrior earlier than version 1.1.1</li>
                 <li>Exclusions</li>
               </ul>
 
@@ -68,13 +78,12 @@
             <p>
               This script will export your stored intervals, purge your database and re-enter
               your data such that exclusions will be applied and properly written to the
-              database. For further information on this see http://timewarrior.net/some/url.
+              database.
             </p>
 
             <p>
               !!! YOU ARE STRONGLY ADVISED TO BACKUP YOUR TIMEWARRIOR DATABASE BEFORE PROCEEDING !!!
             </p>
-
           </div>
 
           <br />
