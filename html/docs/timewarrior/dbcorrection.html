@@ -84,6 +84,23 @@
             <p>
               !!! YOU ARE STRONGLY ADVISED TO BACKUP YOUR TIMEWARRIOR DATABASE BEFORE PROCEEDING !!!
             </p>
+
+            <h4>Running the Correction Script</h4>
+            <p>
+              After making a backup copy of your timewarror data, run this:
+            </p>
+
+            <pre>$ curl -O https://taskwarrior.org/download/timew-dbcorrection.py
+$ python timew-dbcorrection.py
+...</pre>
+
+            <p>
+              The script may run for a few minutes, depending on your machine and your
+              database complexity. It shows a progress bar. Do not kill the script
+              or you will need to restore from your backup.
+            </p>
+            <p>
+            </p>
           </div>
 
           <br />
