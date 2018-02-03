@@ -23,8 +23,26 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Mon, 29 Jan 2018 23:50:00 GMT</pubDate>
-    <lastBuildDate>Mon, 29 Jan 2018 23:50:00 GMT</lastBuildDate>
+    <pubDate>Sat, 03 Feb 2018 16:29:00 GMT</pubDate>
+    <lastBuildDate>Sat, 03 Feb 2018 16:29:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Services Migration</title>
+      <link>http://taskwarrior.org/news/news.20180203.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 03 Feb 2018 16:29:00 GMT</pubDate>
+      <description>
+        We are migrating services, and there will be a lot of changes.
+        Here is what is happening right now:
+
+        We have a new support email address that should be used for all
+        support requests:
+
+        support@gothenburgbitfactory.org
+
+        ...
+      </description>
+    </item>
 
     <item>
       <title>FOSDEM 2018: Taskwarrior Presence</title>
