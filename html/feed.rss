@@ -23,8 +23,35 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Sat, 03 Feb 2018 16:29:00 GMT</pubDate>
-    <lastBuildDate>Sat, 03 Feb 2018 16:29:00 GMT</lastBuildDate>
+    <pubDate>Sat, 03 Feb 2018 21:58:00 GMT</pubDate>
+    <lastBuildDate>Sat, 03 Feb 2018 21:58:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Timewarrior 1.1.1 Released</title>
+      <link>http://taskwarrior.org/news/news.20180203.2.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 03 Feb 2018 21:58:00 GMT</pubDate>
+      <description>
+        Timewarrior 1.1.1 is released. This is a bug fix release and we
+        recommend that everyoe upgrade to 1.1.1.
+
+        There is one bug fix in this release, and it's an important one that
+        fixes a long-standing problem that has been there from the begining.
+
+        ...
+
+        There is a script prepared that will fix your timewarrior data, and
+        the download and description is found here:
+
+        https://taskwarrior.org/docs/timewarrior/dbcorrection.html
+
+        The release is immediately available as a source here:
+
+        https://taskwarrior.org/download/timew-1.1.1.tar.gz
+
+        Binary packages for your OS may appear soon.
+      </description>
+    </item>
 
     <item>
       <title>Services Migration</title>
