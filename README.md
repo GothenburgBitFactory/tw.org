@@ -22,10 +22,6 @@ This repository contains the content of the taskwarrior.org site.
 5. Get a Github token:
    https://github.com/settings/tokens
 
-     Paul
-     2016-05-22
-     6a...
-
 6. Add Github token to Config.py:
   cd tw-tools-update.git
   cp Config.py.example Config.py
