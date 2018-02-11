@@ -1,17 +1,14 @@
-taskwarrior.org Site Repository
-===============================
+# taskwarrior.org Site Repository
 
 This repository contains the content of the taskwarrior.org site.
 
 
-To Clone this Repository:
-=========================
+## To Clone this Repository:
 
    git clone https://github.com/GothenburgBitFactory/tw.org.git
 
 
-Instruction For Updating tw.org/html/tools
-==========================================
+## Instruction For Updating tw.org/html/tools
 
 1. git clone git@git.tasktools.org:ST/tw.org.git tw.org.git
    cd tw.org.git
@@ -27,7 +24,7 @@ Instruction For Updating tw.org/html/tools
 
    Paul
    2016-05-22
-   6a5d9dbfc3ed525b1bd0d343a31d07408b78760a
+   6a...
 
 6. Add Github token to Config.py:
   cd tw-tools-update.git
