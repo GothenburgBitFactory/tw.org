@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - Start</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -20,9 +20,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
   </head>
-
   <body>
     <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -46,156 +44,111 @@
         </div>
       </div>
     </div>
-
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-<!--
-        <div class="callout callout-info">
-          <h4>1.1.0</h4>
-          <p>
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
--->
-      </div>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h2>Start</h2>
+            <p>
+              The <code>start</code> command activates time tracking.
+            </p>
+            <p>
+              The <code>start</code>command creates a new open interval with the given tag set at the given date.
+              If there is already an open interval with a different tag set, <code>start</code> closes the current interval and creates a new open interval at the given date.
+              If the tag sets match, <code>start</code> has no effect.
+            </p>
+            <h3>Syntax</h3>
+            <pre>timew start [&lt;date&gt;] [&lt;tag&gt;]...</pre>
+            <h3>Examples</h3>
+            <p>
+              <b>Start time tracking at current time</b>
+            </p>
+            <pre>$ timew start FOO # at 12:30:23
+Tracking FOO
+  Started 2018-02-13T12:30:23
+  Current                  23
+  Total               0:00:00
+</pre>
+            <p>
+              This creates an open interval with tag 'FOO' and prints a short report.
+            </p>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                  <li><a href="/docs/timewarrior/download.html">Download and build the release tarball</a> (Recommended)</li>
-                  <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                  <li><a href="/docs/timewarrior/files.html">File Layout</a></li>
-                  <li><a href="/docs/timewarrior/tutorial.html">Tutorial</a></li>
-                </ul>
-              </td>
-            </tr>
+            <p>
+              <b>Start time tracking at a given date</b>
+            </p>
+            <pre>$ timew start 12:30 # at 14:45:23
+Tracking FOO
+  Started 2018-02-13T12:30:00
+  Current            14:45:23
+  Total               2:15:23
+</pre>
+            <p>
+            </p>
 
-            <tr>
-              <td>
-                <p id="usage" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/help.html">Getting Help</a></li>
-                  <li><a href="/docs/timewarrior/stopwatch.html">Simple Stopwatch</a></li>
-                  <li><a href="/docs/timewarrior/tags.html">Tags</a></li>
-                  <li><a href="/docs/timewarrior/backdated.html">Backdated <code>start</code>/<code>stop</code></a></li>
-                  <li><a href="/docs/timewarrior/track.html">Recording closed intervals</a></li>
-                  <li><a href="/docs/timewarrior/undo.html">Undo</a></li>
-                  <li><a href="/docs/timewarrior/hints.html">Hints</a></li>
-                  <li><a href="/docs/timewarrior/summary.html">Summary Report</a></li>
-                  <li><a href="/docs/timewarrior/corrections.html">Corrections</a></li>
-                  <li><a href="/docs/timewarrior/configuration.html">Configuration</a></li>
-                  <li><a href="/docs/timewarrior/themes.html">Themes</a></li>
-                  <li><a href="/docs/timewarrior/holidays.html">Holidays</a></li>
-                  <li><a href="/docs/timewarrior/workweek.html">Work week</a></li>
-                  <li><a href="/docs/timewarrior/charts.html">Charts</a></li>
-                </ul>
-              </td>
-            </tr>
+            <p>
+              <b>Successive calls of start</b>
+            </p>
+            <pre>...
+$ timew start FOO # at 10:00:00
+...
+$ timew start BAR # at 12:30:00
+Recorded FOO
+  Started 2018-02-13T10:00:00
+  Ended              12:30:00
+  Total               2:30:00
+Tracking FOO
+  Started 2018-02-13T12:30:00
+  Current                  00
+  Total               0:00:00
+</pre>
+            <p>
 
-            <tr>
-              <td>
-                <p id="reference" class="text-large"><strong>Command Reference</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/cancel.html">Cancel</a></li>
-                  <li><a href="/docs/timewarrior/continue.html">Continue</a></li>
-                  <li><a href="/docs/timewarrior/start.html">Start</a></li>
-                  <li><a href="/docs/timewarrior/stop.html">Stop</a></li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p id="advanced" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/syntax.html">Command Syntax</a></li>
-                  <li><a href="/docs/timewarrior/interval.html">Syntax: Interval</a></li>
-                  <li><a href="/docs/timewarrior/dates.html">Syntax: Dates</a></li>
-                  <li><a href="/docs/timewarrior/duration.html">Syntax: Durations</a></li>
-                  <li>Syntax: Exclusions</li>
-                  <li><a href="/docs/timewarrior/overrides.html">Command line overrides</a></li>
-                  <li>DOM</li>
-                  <li><a href="/docs/timewarrior/taskwarrior.html">Taskwarrior on-modify Hook</a></li>
-                  <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                  <li><a href="/docs/timewarrior/extensions.html">Extensions</a></li>
-                  <li><a href="/docs/timewarrior/diagnostics.html">Diagnostics</a></li>
-                </ul>
-              </td>
-            </tr>
+            </p>
 
-            <tr>
-              <td>
-                <p id="developers" class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/interval_behavior.html">Interval behavior</a></li>
-                </ul>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <p id="beta" class="text-large"><strong>Beta</strong></p>
-              </td>
-              <td>
-                  <ul class="list-unstyled">
-                    <li><a href="https://github.com/GothenburgBitFactory/timewarrior/issues">Submit a bug</a></li>
-                    <li><a href="mailto:support@gothenburgbitfactory.org">Provide feedback</a></li>
-                  </ul>
-              </td>
-            </tr>
-
-          </table>
+            <p>
+              See also
+              <code><a href="cancel.html">cancel</a></code>,
+              <code><a href="continue.html">start</a></code>,
+              <code><a href="stop.html">stop</a></code>.
+            </p>
+          </div>
+          <br />
+          <br />
         </div>
       </div>
     </div>
-
     <!-- Occupy some vertical space -->
     <div class="container">
       <div class="col-md-3 main">
       </div>
     </div>
-
     <div id="footer">
       <div class="container">
         <div class="col-md-2">
           <p class="text-muted">
             Get Involved
             <br />
-            <a href="https://github.com/GothenburgBitFactory/timewarrior/issues">Submit a bug</a>
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
             <br />
-            <a href="https://github.com/GothenburgBitFactory/timewarrior">Clone the code</a>
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
           </p>
         </div>
         <div class="col-md-2">
           <p class="text-muted">
             Monitor
             <br />
-            <a href="http://status.gothenburgbitfactory.org">System status</a>
+            <a href="http://status.tasktools.org">System status</a>
             <br />
-            <a href="https://statuspage.gothenburgbitfactory.org">Operations Information</a>
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
           </p>
         </div>
         <div class="col-md-2">
           <p class="text-muted">
             Related Sites
             <br />
-            <a href="http://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
+            <a href="http://tasktools.org">tasktools.org</a>
             <br />
             <a href="http://holidata.net">holidata.net</a>
           </p>
@@ -204,16 +157,16 @@
           <p class="text-muted">
             Contact
             <br />
-            <a href="mailto:support@gothenburgbitfactory.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
             <br />
-            <a href="https://twitter.com/timewarrior_net"><img src="/images/twitter_dark.png" alt="twitter logo" style="width:16px; height:16px;"> Twitter</a>
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" alt="twitter logo" style="width:16px; height:16px;"> Twitter</a>
           </p>
         </div>
         <div class="col-md-2">
           <div class="text-muted">
             Donate
             <br />
-
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
             <br />
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
               <input type="hidden" name="lc" value="en_US">
@@ -226,15 +179,13 @@
         </div>
         <div class="col-md-2">
           <p class="text-muted">
-            Copyright &copy: 2018 <a href="/about.html">Göteborg Bit Factory</a>
+            Copyright &copy; 2017 <a href="/about.html">Göteborg Bit Factory</a>
           </p>
         </div>
       </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
-
     <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
@@ -242,7 +193,7 @@
       _paq.push(["enableLinkTracking"]);
 
       (function() {
-        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.gothenburgbitfactory.org/matomo/";
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
         _paq.push(["setTrackerUrl", u+"piwik.php"]);
         _paq.push(["setSiteId", "1"]);
         var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
