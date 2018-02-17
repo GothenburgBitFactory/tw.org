@@ -75,18 +75,8 @@
 
             <a name="clone"></a>
             <h3>Cloning the Repo</h3>
-            <p>
-              For those of you with Stash accounts on
-              <a href="https://git.tasktools.org">git.tasktools.org</a>:
-            </p>
 
-            <pre>$ git clone --recursive ssh://git@git.tasktools.org/ut/clog.git clog.git</pre>
-
-            <p>
-              General public:
-            </p>
-
-            <pre>$ git clone --recursive https://git.tasktools.org/UT/clog.git clog.git</pre>
+            <pre>$ git clone --recursive https://github.com/GothenburgBitFactory/clog.git clog.git</pre>
 
             <a name="stable"></a>
             <h3>Building the Stable Version</h3>
@@ -110,6 +100,7 @@ $ make                               # Just build it.</pre>
 
               <pre>$ cd clog.git
 $ git checkout 1.4.0                 # Dev branch
+$ git submodule init &amp;&amp; git submodule update # Fetch the submodule
 $ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
 $ make VERBOSE=1                     # Shows details</pre>
 
@@ -180,7 +171,7 @@ $ ./problems         # Find errors in all.log</pre>
               Mail the patch to
               <a href="mailto:taskwarrior-dev@googlegroups.com">taskwarrior-dev@googlegroups.com</a>
               or attach it to the appropriate ticket in the
-              <a href="https://bug.tasktools.org">bug tracker</a>.
+              <a href="https://github.com/GothenburgBitFactory/clog/issues">bug tracker</a>.
               If you do the latter, make sure someone knows about it, or it
               could go unnoticed.
             </p>
