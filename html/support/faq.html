@@ -3106,7 +3106,7 @@ I would like to contribute a small change to the documentation. Specifically, th
 
 In general, how should I go about submitting patches to the documentation? I cannot find a git repository containing the documentation.
 
-A: All our public repositories are listed here: https://git.tasktools.org/projects
+A: All our public repositories are listed here: https://github.com/GothenburgBitFactory
 
 Simply clone, modify and send a patch to support@taskwarrior.org.
 
@@ -3363,14 +3363,14 @@ http://taskwarrior.org/docs/recurrence.html
 
 Here is a sample of some requests which discuss how recurrence will work in future releases:
 
-https://bug.tasktools.org/browse/TW-226
-https://bug.tasktools.org/browse/TW-1508
-https://bug.tasktools.org/browse/TW-1284
-https://bug.tasktools.org/browse/TW-1751
-https://bug.tasktools.org/browse/TW-122
-https://bug.tasktools.org/browse/TW-150
-https://bug.tasktools.org/browse/TW-35
-https://bug.tasktools.org/browse/TW-87
+https://github.com/GothenburgBitFactory/taskwarrior/issues/270
+https://github.com/GothenburgBitFactory/taskwarrior/issues/1534
+https://github.com/GothenburgBitFactory/taskwarrior/issues/1318
+https://github.com/GothenburgBitFactory/taskwarrior/issues/1775
+https://github.com/GothenburgBitFactory/taskwarrior/issues/178
+https://github.com/GothenburgBitFactory/taskwarrior/issues/203
+https://github.com/GothenburgBitFactory/taskwarrior/issues/97
+https://github.com/GothenburgBitFactory/taskwarrior/issues/146
 You have ideas - please make sure they are represented in the above list, and so can be considered when the work begins.
 </pre>
 
@@ -4061,7 +4061,7 @@ I'm having troubles since I added a recurring task (red pills, daily). I compile
 
 I noticed that the win machine assigns the mask index as a float, while the linux machine does it as an integer. Could this be the source of the issue? Any pointer?
 
-A: This is a known problem (https://bug.tasktools.org/browse/TD-44).  The workaround is to enable recurrence on only one of the clients, in your case this should be the Linux client.  So disable recurrence on the Cygwin client with:
+A: This is a known problem (https://github.com/GothenburgBitFactory/taskserver/issues/46).  The workaround is to enable recurrence on only one of the clients, in your case this should be the Linux client.  So disable recurrence on the Cygwin client with:
 
 cygwin> task config recurrence off
 </pre>
