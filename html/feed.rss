@@ -205,16 +205,17 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 03 Apr 2017 00:21:00 GMT</pubDate>
       <description>
-        The code repositories have been relocated to our new
+        <strike>The code repositories have been relocated to our new
         Gitea server.
 
         Gitea is a community managed fork of Gogs, lightweight code hosting
         solution written in Go and published under the MIT license.
-        We like all of those things.
+        We like all of those things.</strike>
+        The code repositories have been relocated to GitHub.
 
         You can browse all our repositories here:
 
-        https://git.tasktools.org
+        https://github.com/GothenburgBitFactory
       </description>
     </item>
 
@@ -280,8 +281,7 @@
         is now being built in parallel by two CI systems as we prepare for
         a more general transition.
 
-        (Flod  https://central.tasktools.org/task-2.6.0.html)
-        (Flod2 https://tyuratam.tasktools.org/task.2.6.0.html)
+        (Flod  https://central.gothenburgbitfactory.org/task-2.6.0.html)
 
         A generous donation from DigitalOcean
         (https://www.digitalocean.com)
@@ -557,7 +557,7 @@
         is a new project that introduces new concepts. This new functionality
         needs to be refined before a beta release.
 
-        The Timewarrior bug tracker (https://bug.tasktools.org/browse/TI)
+        The Timewarrior bug tracker (https://github.com/GothenburgBitFactory/timewarrior/issues)
         is now open for business.
       </description>
     </item>
@@ -573,7 +573,7 @@
         This release is a recommended upgrade.
 
         The release is immediately available as a source tarball
-        (http://tasktools.org/download/clog-latest.tar.gz).
+        (http://gothenburgbitfactory.org/download/clog-latest.tar.gz).
 
         Clog has a full set of online documentation
         (https://taskwarrior.org/docs/clog).
@@ -607,7 +607,7 @@
         is a new project that introduces new concepts. This new functionality
         needs to be refined before a beta release.
 
-        The Timewarrior bug tracker (https://bug.tasktools.org/browse/TI)
+        The Timewarrior bug tracker (https://github.com/GothenburgBitFactory/timewarrior/issues)
         is now open for business.
 
         Additionally the 'libshared' library is being improved.
@@ -888,7 +888,7 @@
         Clog 1.2.1 is released, due to a problem with OSX and Xcode 7.
 
         The release is immediately available as a source tarball
-        (http://tasktools.org/download/clog-latest.tar.gz)
+        (http://gothenburgbitfactory.org/download/clog-latest.tar.gz)
         Edit: Updated to latest tarball)
 
         Clog is a colorized log tail utility. It can spot patterns in an
@@ -910,12 +910,12 @@
     </item>
 
     <item>
-      <title>answers.tasktools.org Online</title>
+      <title><strike>answers.gothenburgbitfactory.org Online</strike></title>
       <link>http://taskwarrior.org/news/news.20150929.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 29 Sep 2015 23:55:55 GMT</pubDate>
       <description>
-        The answers.tasktools.org (https://answers.tasktools.org)
+        The answers.gothenburgbitfactory.org (https://answers.gothenburgbitfactory.org)
         site is online, and providing not only the answer to your question,
         but those of many before you. It is becoming a valuable resource
         for both beginners and experienced users.
@@ -934,7 +934,7 @@
         bug fixes.
 
         The release is immediately available as a source tarball
-        http://tasktools.org/download/clog-latest.tar.gz
+        http://gothenburgbitfactory.org/download/clog-latest.tar.gz
         (Edit: Updated to latest tarball)
 
         Clog is a colorized log tail utility. It can spot patterns in an
@@ -952,7 +952,7 @@
         Vramsteg 1.1.0 is released, with bug fixes and 64-bit value support.
 
         The release is immediately available as a source tarball
-        http://tasktools.org/download/vramsteg-latest.tar.gz
+        http://gothenburgbitfactory.org/download/vramsteg-latest.tar.gz
         Edit: Updated to latest tarball
 
         Vramsteg, from the Swedish framsteg (progress), is a CLI progress
@@ -1393,7 +1393,7 @@
         This will cause interruptions here at taskwarrior.org. You can follow
         the status at
 
-        http://status.tasktools.org
+        http://status.gothenburgbitfactory.org
 
         and read more on global reboot at
 
@@ -1554,7 +1554,7 @@
         The new Q &amp; A site is live! Take a look at the site, which can
         be found here:
 
-        https://answers.tasktools.org
+        https://answers.gothenburgbitfactory.org
 
         There is a searchable knowledge base of community-provided questions
         and answers. The answers are voted and selected, good answers
@@ -1589,7 +1589,7 @@
         status for the various services now online.
 
         The first is a Pingdom public report showing system status
-        (http://status.tasktools.org/)
+        (http://status.gothenburgbitfactory.org/)
         of the bug system, git hosting, web services and others.
 
         Check this page for outages.
@@ -1674,11 +1674,16 @@
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 12 Feb 2014 00:00:00 EST</pubDate>
       <description>
-        The new repository manager, Stash, is running on the new server
+        <strike>The new repository manager, Stash, is running on the new server
 
-        https://git.tasktools.org
+        https://git.gothenburgbitfactory.org
 
-        The old server will still be active for a little while longer.
+        The old server will still be active for a little while longer.</strike>
+        The code repositories have been relocated to GitHub.
+
+        You can browse all our repositories here:
+
+        https://github.com/GothenburgBitFactory
       </description>
     </item>
   </channel>
