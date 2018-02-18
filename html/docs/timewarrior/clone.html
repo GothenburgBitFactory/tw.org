@@ -76,18 +76,8 @@
 
             <a name="clone"></a>
             <h3>Cloning the Repo</h3>
-            <p>
-              For those of you with Stash accounts on
-              <a href="https://git.tasktools.org">git.tasktools.org</a>:
-            </p>
 
-            <pre>$ git clone --recursive ssh://git@git.tasktools.org/tm/timew.git timew.git</pre>
-
-            <p>
-              General public:
-            </p>
-
-            <pre>$ git clone --recursive https://git.tasktools.org/TM/timew.git timew.git</pre>
+            <pre>$ git clone --recursive https://github.com/GothenburgBitFactory/timewarrior.git timewarrior.git</pre>
 
             <a name="stable"></a>
             <h3>Building the Stable Version</h3>
@@ -111,6 +101,7 @@ $ make                               # Just build it.</pre>
 
               <pre>$ cd timew.git
 $ git checkout 1.1.0                 # Dev branch
+$ git submodule init                 # Initialize the submodule for this branch
 $ git submodule update               # Update the submodule for this branch
 $ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
 $ make VERBOSE=1                     # Shows details</pre>
@@ -119,7 +110,7 @@ $ make VERBOSE=1                     # Shows details</pre>
               If you do a fresh clone, the following will checkout <code>1.1.0</code>
               immediately.
             </p>
-              <pre>$ git clone --recursive -b 1.1.0 https://git.tasktools.org/TM/timew.git
+              <pre>$ git clone --recursive -b 1.1.0 https://github.com/GothenburgBitFactory/timewarrior.git
 $ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release. Default: neither.
 $ make VERBOSE=1                     # Shows details</pre>
 
@@ -185,7 +176,7 @@ $ ./problems         # Find errors in all.log</pre>
               Mail the patch to
               <a href="mailto:taskwarrior-dev@googlegroups.com">taskwarrior-dev@googlegroups.com</a>
               or attach it to the appropriate ticket in the
-              <a href="https://bug.tasktools.org">bug tracker</a>.
+              <a href="https://github.com/GothenburgBitFactory/timewarrior/issues">bug tracker</a>.
               If you do the latter, make sure someone knows about it, or it
               could go unnoticed.
             </p>

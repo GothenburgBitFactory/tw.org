@@ -376,7 +376,7 @@ rule CorrectSpelling(task) on_add:
             </p>
 <pre>
 rule ExpandAbbreviation(task) on_modify:
-  set task.description = substitute(task.description, '/TW-\d+/', 'https:\/\/bug.tasktools.org\/browse\/\1/')
+  set task.description = substitute(task.description, '/TW-\d+/', 'https:\/\/github.com\/GothenburgBitFactory\/taskwarrior\/issues\/\1')
 </pre>
 
             <p>

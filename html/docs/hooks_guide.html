@@ -71,11 +71,11 @@
             <h4>Example Hook Script</h4>
             <p>
               As an example, we're going to create a hook script that detects
-              tasks that refer to Taskwarrior bug numbers (ie 'TW-123') in the
+              tasks that refer to Taskwarrior bug numbers (ie 'TW-179') in the
               description, and replaces the bug number with a URL that links
-              to the bug. Whenever the pattern <code>tw-123</code> is found in
+              to the bug. Whenever the pattern <code>tw-179</code> is found in
               a task description, it should change to
-              <code>https://bug.tasktools.org/browse/tw-123</code>.
+              <code>https://github.com/GothenburgBitFactory/taskwarrior/issues/179</code>.
             </p>
 
             <p>
@@ -222,7 +222,7 @@ import json
 added_task = json.loads(sys.stdin.readline())
 original = added_task['description']
 added_task['description'] = re.sub(r'\b(tw-\d+)\b',
-                                   r'https://bug.tasktools.org/browse/\1',
+                                   r'https://github.com/GothenburgBitFactory/taskwarrior/issues/\1',
                                    original,
                                    flags=re.IGNORECASE)
 print(json.dumps(added_task))
@@ -236,8 +236,8 @@ sys.exit(0)</pre>
               Testing the script again with better input yields this:
             </p>
 
-            <pre>$ echo '{"description":"foo tw-123 bar"}' | ./hook.py
-{"description": "foo https://bug.tasktools.org/browse/tw-123 bar"}
+            <pre>$ echo '{"description":"foo tw-179 bar"}' | ./hook.py
+{"description": "foo https://github.com/GothenburgBitFactory/taskwarrior/issues/179 bar"}
 Link added
 $
 $ echo $?
@@ -287,18 +287,18 @@ Hooks
             <p>
               We see that the hook script is found by Taskwarrior. Now let's
               see it in action, and note that the <code>--</code> terminator is
-              being used so that <code>tw-123</code> is not perceived as a
+              being used so that <code>tw-179</code> is not perceived as a
               mathematical expression:
             </p>
 
             <pre>$ task add -- Contains no bug number
 Created task 181.
-$ task add -- Fix tw-123
+$ task add -- Fix tw-179
 Created task 182.
 Link added
 $
 $ task _get 182.description
-Fix https://bug.tasktools.org/browse/tw-123</pre>
+Fix https://github.com/GothenburgBitFactory/taskwarrior/issues/179</pre>
 
             <p>
               It works, but we have done minimal testing here.  If you write a
@@ -325,7 +325,7 @@ Hook: input
   {"description":"Fix tw-98765","entry":"20150301T154518Z","modified":"20150301T154518Z","status":"pending","uuid":"daa3ff05-f716-482e-bc35-3e1601e50778"}
 Timer Hooks::execute (&lt;user&gt;/.task/hooks/on-add-bug-link.py) 0.031061 sec
 Hook: output
-  {"status": "pending", "entry": "20150301T154518Z", "uuid": "daa3ff05-f716-482e-bc35-3e1601e50778", "description": "Fix https://bug.tasktools.org/browse/tw-98765", "modified": "20150301T154518Z"}
+  {"status": "pending", "entry": "20150301T154518Z", "uuid": "daa3ff05-f716-482e-bc35-3e1601e50778", "description": "Fix https://github.com/GothenburgBitFactory/taskwarrior/issues/98765", "modified": "20150301T154518Z"}
   Link added
 Hook: Completed with status 0
 ...
