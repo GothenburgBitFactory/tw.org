@@ -72,7 +72,7 @@
       "Scott Kostyshak", 
       "Steve Rader"
     ], 
-    "url": "http://tasktools.org/projects/vit.html", 
+    "url": "https://gothenburgbitfactory.org/projects/vit.html", 
     "description": "Vit is a full-screen terminal interface to Taskwarrior with Vim key bindings.", 
     "obsolete": false, 
     "last_update": "2015-03-08", 
@@ -82,7 +82,7 @@
     ], 
     "descriptionText": "Vit is a full-screen terminal interface to Taskwarrior with Vim key bindings.", 
     "compatibility": "2.0.0+", 
-    "url_src": "https://git.tasktools.org/scm/ex/vit.git"
+    "url_src": "https://github.com/scottkosty/vit.git"
   }, 
   {
     "category": "Front Ends", 
@@ -112,7 +112,7 @@
     "author": [
       "GBF"
     ], 
-    "url": "https://git.tasktools.org/projects/EX/repos/tasksh", 
+    "url": "https://gothenburgbitfactory.org/projects/tasksh.html", 
     "description": "Tasksh is an interactive shell for taskwarrior \n<small> <a href=\"http://taskwarrior.org/download/tasksh-latest.tar.gz\">Tarball</a> SHA1 436d2b6c3a07e699f25f82fc36ffd1e500358652 </small>", 
     "obsolete": false, 
     "last_update": "2014-12-21", 
@@ -120,7 +120,7 @@
     "theme": [], 
     "descriptionText": "Tasksh is an interactive shell for taskwarrior Tarball SHA1 5fb9209ec1cafbbde4aa165f41ffb3aeba6faca8", 
     "compatibility": "2.4.0+", 
-    "url_src": "https://git.tasktools.org/projects/EX/repos/tasksh"
+    "url_src": "https://github.com/GothenburgBitFactory/taskshell"
   }, 
   {
     "category": "Front Ends", 
@@ -937,7 +937,7 @@
       "Cory Donnelly", 
       "Johannes Schlatow"
     ], 
-    "url": "https://git.tasktools.org/projects/ST/repos/tw.org/commits/eb41773ce401bb6f3f4e145b237450074f5be8c5", 
+    "url": "https://github.com/GothenburgBitFactory/tw.org/commit/eb41773ce401bb6f3f4e145b237450074f5be8c5", 
     "description": "Anonymizes project names, task descriptions and annotations with md5 hashes that include a salt to provide a modicum of security. Tags are not anonymized (how would users indicate the problem tasks otherwise?). Anonymizing data is for helping developers diagnose data-specific problems with Taskwarrior.", 
     "obsolete": false, 
     "last_update": "2014-07-10", 
@@ -945,7 +945,7 @@
     "theme": [], 
     "descriptionText": "Anonymizes project names, task descriptions and annotations with md5 hashes that include a salt to provide a modicum of security. Tags are not anonymized (how would users indicate the problem tasks otherwise?). Anonymizing data is for helping developers diagnose data-specific problems with Taskwarrior.", 
     "compatibility": "All", 
-    "url_src": "https://git.tasktools.org/projects/ST/repos/tw.org/commits/eb41773ce401bb6f3f4e145b237450074f5be8c5"
+    "url_src": "https://github.com/GothenburgBitFactory/tw.org/commit/eb41773ce401bb6f3f4e145b237450074f5be8c5"
   }, 
   {
     "category": "Extensions", 
@@ -1700,7 +1700,7 @@
     "author": [
       "Scott Kostyshak (please contact with any problems or feature requests)"
     ], 
-    "url": "https://bug.tasktools.org/browse/EX-44", 
+    "url": "https://github.com/GothenburgBitFactory/taskwarrior/issues/40", 
     "description": "taskchain is a script to create a single dependency chain from the input of task IDs.", 
     "obsolete": false, 
     "last_update": "2012-08-05", 
@@ -1708,7 +1708,7 @@
     "theme": [], 
     "descriptionText": "taskchain is a script to create a single dependency chain from the input of task IDs.", 
     "compatibility": "1.9.3+", 
-    "url_src": "https://bug.tasktools.org/browse/EX-44"
+    "url_src": "https://github.com/GothenburgBitFactory/taskwarrior/issues/40"
   }, 
   {
     "category": "Extensions", 
@@ -1848,7 +1848,7 @@
     "author": [
       "Wim Schuermann"
     ], 
-    "url": "https://bug.tasktools.org/browse/TW-514", 
+    "url": "https://github.com/GothenburgBitFactory/taskwarrior/issues/549", 
     "description": "local-task.sh is a script that provides directory-specific task databases. Read the script for detailed instructions on installation and usage.", 
     "obsolete": false, 
     "last_update": "2011-12-11", 
@@ -1856,7 +1856,7 @@
     "theme": [], 
     "descriptionText": "local-task.sh is a script that provides directory-specific task databases. Read the script for detailed instructions on installation and usage.", 
     "compatibility": "Unknown", 
-    "url_src": "https://bug.tasktools.org/browse/TW-514"
+    "url_src": "https://github.com/GothenburgBitFactory/taskwarrior/issues/549"
   }, 
   {
     "category": "Extensions", 
@@ -7602,7 +7602,7 @@
   {
     "category": "Unknown", 
     "verified": "2017-04-22", 
-    "description": "VIT (Visual Interactive Taskwarrior), a front end for Taskwarrior (forked from https://git.tasktools.org/scm/ex/vit.git)", 
+    "description": "VIT (Visual Interactive Taskwarrior), a front end for Taskwarrior (forked from https://github.com/scottkosty/vit.git)", 
     "language": [
       "Perl"
     ], 
@@ -7617,7 +7617,7 @@
     "theme": [
       "Git"
     ], 
-    "descriptionText": "VIT (Visual Interactive Taskwarrior), a front end for Taskwarrior (forked from https://git.tasktools.org/scm/ex/vit.git)", 
+    "descriptionText": "VIT (Visual Interactive Taskwarrior), a front end for Taskwarrior (forked from https://github.com/scottkosty/vit.git)", 
     "stars": 0, 
     "url_src": "https://github.com/Ri-Ga/vit", 
     "compatibility": "2.4.1+", 
