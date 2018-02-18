@@ -61,7 +61,7 @@
           <p>
             This is not a complete list of all activity, just work that results
             in a non-trivial change. For a full list, see the
-            <a href="https://git.tasktools.org/projects/TM/repos/task/commits?until=refs%2Fheads%2F2.4.5">full Git history</a>.
+            <a href="https://github.com/GothenburgBitFactory/taskwarrior/commits/v2.5.0">full Git history</a>.
           </p>
 
           <table class="table table-striped table-compact">
@@ -71,10 +71,10 @@
                 <ul>
                   <li>Task: Added <code>rc.rules.color.merge</code> to control whether combined colors are merged (default) or overwritten.  This prevents some unusable color combinations.</li>
                   <li>Task: Replaced <code>rc.urgency.next.coefficient</code> with <code>rc.urgency.user.tag.next.coefficient</code>.</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1375">TW-1375: Use of ^ in regex parsed as exponentiate operator</a> fixed</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1448">TW-1448: Add possibility to modify newest task</a> fixed</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1616">TW-1616: Intermittent lengthy delay when starting or completing a task</a> fixed</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1660">TW-1660: Disabled sorting option</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1403">#1403: Use of ^ in regex parsed as exponentiate operator</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1475">#1475: Add possibility to modify newest task</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1640">#1640: Intermittent lengthy delay when starting or completing a task</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1684">#1684: Disabled sorting option</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -113,7 +113,7 @@
                   <li>Task: If not explicitly stated on import, values with default dynamic values (such as modified, entry or end) can produce a false notion of incoming 'modified' data, where the only difference between the data in the database and data being imported is that the dynamic defaults differ, which are now ignored.</li>
                   <li>Task: Not all commands were obeying the <code>rc.color</code> settng.</li>
                   <li>Task: The command line parser can now detect cases where unwanted arguments are provided on the command line.</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1687">TW-1687: task add due:som appears to be interpreted as 'someday'</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1711">#1711: task add due:som appears to be interpreted as 'someday'</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -134,7 +134,7 @@
               <td>
                 <ul>
                   <li>Task: All date attributes now have the same sorting behavior as <code>due</code> dates.</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1684">TW-1684 make no-date > has-date for all date attributes</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1708">#!708: make no-date > has-date for all date attributes</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -143,7 +143,7 @@
               <td><small>2015-09-09</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1678">TW-1678: segfault in ~ViewTask()</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1702">#1702: segfault in ~ViewTask()</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -153,7 +153,7 @@
               <td>
                 <ul>
                   <li>Task: Removed the ability to build without color support.</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1683">TW-1683 Dom reference for project not properly evaluated</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1707">#1707: Dom reference for project not properly evaluated</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -163,8 +163,8 @@
               <td>
                 <ul>
                   <li>Task: The test suite exits with non-zero when any test fails.</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-46">TW-46: Circular dependency detection broken for missing tasks</a> fixed</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1688">TW-1688: task fails to import</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/108">#108: Circular dependency detection broken for missing tasks</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1712">#1712: task fails to import</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -174,8 +174,8 @@
               <td>
                 <ul>
                   <li>Task: The <code>limit:N</code> feature is no longer a pseudo-attribute (there are no others), but is syntactic sugar that maps to <code>rc.limit:N</code>.</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1656">TW-1656: Implicitly parenthesize argv filter</a> fixed</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1692">TW-1692: 42//' segfaults</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1680">#1680: Implicitly parenthesize argv filter</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1716">#1716: 42//' segfaults</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -184,7 +184,7 @@
               <td><small>2015-09-13</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1686">TW-1686: Sorting not working on udas</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1710">#1710: Sorting not working on udas</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -195,7 +195,7 @@
                 <ul>
                   <li>Task: Data copying inefficiencies are fixed, yielding a dramatic improvement to <code>import</code> speed.</li>
                   <li>Task: Updated Unicode charcter list.</li>
-                  <li>Task: Performance testing improved (http://tasktools.org/projects/performance.html).</li>
+                  <li>Task: Performance testing improved (http://gothenburgbitfactory.org/projects/performance.html).</li>
                 </ul>
               </td>
             </tr>
@@ -205,7 +205,7 @@
               <td>
                 <ul>
                   <li>Task: 2.5.0 beta2 released.</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1695">TW-1695: edit: Concurrent edits</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1719">#1719: edit: Concurrent edits</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -218,8 +218,8 @@
                   <li>Task: When GC is turned off, disable the query shortcuts, which do not apply.</li>
                   <li>Task: Holiday files updated.</li>
                   <li>Task: The <code>filter</code> verbosity token was lost in the CLI2 upgrade.</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1699">TW-1699: Command interpretation displayed incorrectly</a> fixed</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1701">TW-1701: Some generated UUIDs deemed invalid</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1723">#1723: Command interpretation displayed incorrectly</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1725">#1725: Some generated UUIDs deemed invalid</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -229,7 +229,7 @@
               <td>
                 <ul>
                   <li>Task: The <code>new-uuid</code> verbosity token is deprecated.</li>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1662">TW-1662: filter before add becomes description</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1686">#1686: filter before add becomes description</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -238,7 +238,7 @@
               <td><small>2015-09-21</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1700">TW-1700: modify tags behavior changed</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1724">#1724: modify tags behavior changed</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -257,7 +257,7 @@
               <td><small>2015-09-24</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1707">TW-1707: Context can leak into modifications</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1731">#1731: Context can leak into modifications</a> fixed</li>
                 </ul>
               </td>
             </tr>
