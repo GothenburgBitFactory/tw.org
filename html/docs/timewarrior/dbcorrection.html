@@ -57,28 +57,26 @@
             <h3>Timewarrior Database Correction Script</h3>
             <p>
               This is the correction script for the interval flattening bug (TI-102).
-              The script exports all intervals stored, purges the database, and
-              re-enters the intervals.
+              The script exports all intervals stored, purges the database, and re-enters the intervals.
             </p>
 
             <p>
-              TimeWarrior 1.1.1 or higher correctly enters intervals.
+              Timewarrior 1.1.1 or higher correctly enters intervals.
             </p>
 
             <p>
               Use this script when you have used
-              <ul>
-                <li>TimeWarrior earlier than version 1.1.1</li>
-                <li>Exclusions</li>
-              </ul>
-
+            </p>
+            <ul>
+              <li>Timewarrior earlier than version 1.1.1</li>
+              <li>Exclusions</li>
+            </ul>
+            <p>
               If none of the above applies, you probably do not need to run this script.
             </p>
 
             <p>
-              This script will export your stored intervals, purge your database and re-enter
-              your data such that exclusions will be applied and properly written to the
-              database.
+              This script will export your stored intervals, purge your database and re-enter your data such that exclusions will be applied and properly written to the  database.
             </p>
 
             <p>
@@ -87,8 +85,7 @@
 
             <h4>Running the Correction Script</h4>
             <p>
-              After making a backup copy of your timewarror data by making a copy of all the
-              files in <code>~/.timewarrior/data</code>, run this:
+              After making a backup copy of your Timewarrior data by making a copy of all the  files in <code>~/.timewarrior/data</code>, run this:
             </p>
 
             <pre>$ curl -O https://taskwarrior.org/download/timew-dbcorrection.py
@@ -96,16 +93,13 @@ $ python timew-dbcorrection.py
 ...</pre>
 
             <p>
-              The script may run for a few minutes, depending on your machine and your
-              database complexity. It shows a progress bar. Do not kill the script
-              or you will need to restore from your backup.
+              The script may run for a few minutes, depending on your machine and your database complexity.
+              It shows a progress bar.
+              Do not kill the script or you will need to restore from your backup.
             </p>
             <p>
             </p>
           </div>
-
-          <br />
-          <br />
         </div>
       </div>
     </div>
@@ -121,45 +115,45 @@ $ python timew-dbcorrection.py
         <div class="col-md-2">
           <p class="text-muted">
             Get Involved
-            <br />
-            <a href="https://github.com/GothenburgBitFactory/taskwarrior/issues">Submit a bug</a>
-            <br />
-            <a href="https://github.com/GothenburgBitFactory/taskwarrior">Clone the code</a>
+            <br/>
+            <a href="https://github.com/GothenburgBitFactory/timewarrior/issues">Submit a bug</a>
+            <br/>
+            <a href="https://github.com/GothenburgBitFactory/timewarrior">Clone the code</a>
           </p>
         </div>
         <div class="col-md-2">
           <p class="text-muted">
             Monitor
-            <br />
+            <br/>
             <a href="http://status.gothenburgbitfactory.org">System status</a>
-            <br />
+            <br/>
             <a href="https://statuspage.gothenburgbitfactory.org">Operations Information</a>
           </p>
         </div>
         <div class="col-md-2">
           <p class="text-muted">
             Related Sites
-            <br />
+            <br/>
             <a href="http://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
-            <br />
+            <br/>
             <a href="http://holidata.net">holidata.net</a>
           </p>
         </div>
         <div class="col-md-2">
           <p class="text-muted">
             Contact
-            <br />
-            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
-            <br />
-            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" alt="twitter logo" style="width:16px; height:16px;"> Twitter</a>
+            <br/>
+            <a href="mailto:support@gothenburgbitfactory.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br/>
+            <a href="https://twitter.com/timewarrior_net"><img src="/images/twitter_dark.png" alt="twitter logo" style="width:16px; height:16px;"> Twitter</a>
           </p>
         </div>
         <div class="col-md-2">
           <div class="text-muted">
             Donate
-            <br />
+            <br/>
 
-            <br />
+            <br/>
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
               <input type="hidden" name="lc" value="en_US">
               <input type="hidden" name="cmd" value="_s-xclick">

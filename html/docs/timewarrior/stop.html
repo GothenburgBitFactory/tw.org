@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Undo</title>
+    <title>Timewarrior - Stop</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -20,9 +20,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
   </head>
-
   <body>
     <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -46,60 +44,100 @@
         </div>
       </div>
     </div>
-
     <div class="container">
       <div class="col-md-10">
         <div class="col-md-2">
         </div>
-
         <div class="col-md-10 main">
           <div class="row">
-            <h3>Undo</h3>
+            <h2>Stop</h2>
+            <p>
+              The <code>stop</code> command deactivates time tracking.
+            </p>
+            <p>
+              The <code>stop</code>command closes the current open interval - if present.
+              If no open interval is present, <code>stop</code> has no effect.
+            </p>
+            <h3>Syntax</h3>
+            <pre>timew stop [&lt;date&gt;] [&lt;tag&gt;]...</pre>
+            <h3>Examples</h3>
+            <p>
+              <b>Stop time tracking at current time</b>
+            </p>
+            <pre>$ timew start FOO # at 10:00:00
+...
+$ timew stop # at 12:30:00
+Recorded FOO
+  Started 2018-02-13T10:00:00
+  Ended              12:30:00
+  Total               2:30:00
+</pre>
+            <p>
+              This creates an interval with tag 'FOO' and prints a short report.
+            </p>
 
-            <div class="callout callout-danger">
-              <p>
-                The <code>undo</code> command is not yet implemented.
-              </p>
-            </div>
+            <p>
+              <b>Stop time tracking for a specific tag</b>
+            </p>
+            <pre>$ timew start FOO BAR # at 20:00:00
+...
+$ timew stop FOO # at 22:53:26
+Recorded BAR FOO
+  Started 2018-02-13T20:00:00
+  Ended              22:53:26
+  Total               2:53:26
+
+Tracking BAR
+  Started 2018-02-13T22:53:26
+  Current                  26
+  Total               0:00:00
+</pre>
+            <p>
+              This stops time tracking for tag 'FOO' and creates a new open interval for the remaining tag 'BAR'.
+            </p>
+
+            <p>
+              See also
+              <code><a href="cancel.html">cancel</a></code>,
+              <code><a href="continue.html">start</a></code>,
+              <code><a href="stop.html">stop</a></code>.
+            </p>
           </div>
-
           <br />
           <br />
         </div>
       </div>
     </div>
-
     <!-- Occupy some vertical space -->
     <div class="container">
       <div class="col-md-3 main">
       </div>
     </div>
-
     <div id="footer">
       <div class="container">
         <div class="col-md-2">
           <p class="text-muted">
             Get Involved
             <br />
-            <a href="https://github.com/GothenburgBitFactory/taskwarrior/issues">Submit a bug</a>
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
             <br />
-            <a href="https://github.com/GothenburgBitFactory/taskwarrior">Clone the code</a>
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
           </p>
         </div>
         <div class="col-md-2">
           <p class="text-muted">
             Monitor
             <br />
-            <a href="http://status.gothenburgbitfactory.org">System status</a>
+            <a href="http://status.tasktools.org">System status</a>
             <br />
-            <a href="https://statuspage.gothenburgbitfactory.org">Operations Information</a>
+            <a href="http://statuspage.tasktools.org">Operations Information</a>
           </p>
         </div>
         <div class="col-md-2">
           <p class="text-muted">
             Related Sites
             <br />
-            <a href="http://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
+            <a href="http://tasktools.org">tasktools.org</a>
             <br />
             <a href="http://holidata.net">holidata.net</a>
           </p>
@@ -117,7 +155,7 @@
           <div class="text-muted">
             Donate
             <br />
-
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
             <br />
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
               <input type="hidden" name="lc" value="en_US">
@@ -130,15 +168,13 @@
         </div>
         <div class="col-md-2">
           <p class="text-muted">
-            Copyright &copy: 2018 <a href="/about.html">Göteborg Bit Factory</a>
+            Copyright &copy; 2017 <a href="/about.html">Göteborg Bit Factory</a>
           </p>
         </div>
       </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
-
     <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
@@ -146,7 +182,7 @@
       _paq.push(["enableLinkTracking"]);
 
       (function() {
-        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.gothenburgbitfactory.org/matomo/";
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
         _paq.push(["setTrackerUrl", u+"piwik.php"]);
         _paq.push(["setSiteId", "1"]);
         var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
