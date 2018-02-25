@@ -87,8 +87,7 @@
               a more general transition.
 
               <ul>
-                <li><a href="https://central.tasktools.org/task-2.6.0.html">Taskwarrior 2.6.0 on Flod</a></li>
-                <li><a href="https://tyuratam.tasktools.org/task.2.6.0.html">Taskwarrior 2.6.0 on Flod2</a></li>
+                <li><a href="https://central.gothenburgbitfactory.org/task-2.6.0.html">Taskwarrior 2.6.0 on Flod</a></li>
               </ul>
             </p>
 
@@ -104,7 +103,7 @@
               <td style="white-space: nowrap;"><small>2017-02-02</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TI-27">TI-27: Add tests for continue with ids</a> tests added</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/timewarrior/issues/35">#35: Add tests for continue with ids</a> tests added</li>
                 </ul>
               </td>
             </tr>
@@ -166,7 +165,7 @@
               <td><small>2017-02-09</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TI-64">TI-64: Command 'stop' with date before current interval's start date causes segfault</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/timewarrior/issues/69">#69: Command 'stop' with date before current interval's start date causes segfault</a> fixed</li>
                   <li>libshared: Table now offers control over the alternating row coloring.</li>
                   <li>Taskwarrior: The <code>timesheet</code> report was rewritten to accept a filter, provide more compact output, and provide daily grouping of started and completed tasks.</li>
                 </ul>
@@ -196,7 +195,7 @@
               <td><small>2017-02-12</small></td>
               <td>
                 <ul>
-                  <li>Flod2: The <a href="https://tyuratam.tasktools.org/task.2.6.0.html">commit status report</a> now uses a color palette that is less saturated and doesn't transition through brown twice. The colors indicating status now range from black (did not build) through dark red (bad), orange and yellow (better), finally green (100% good). A good commit is then marked as 'clean' if all the test platforms not only pass, but agree. This will later lead to automatic tagging and dev snapshot tarball creation.</li>
+                  <li>Flod2: The <a href="https://central.gothenburgbitfactory.org/task.2.6.0.html">commit status report</a> now uses a color palette that is less saturated and doesn't transition through brown twice. The colors indicating status now range from black (did not build) through dark red (bad), orange and yellow (better), finally green (100% good). A good commit is then marked as 'clean' if all the test platforms not only pass, but agree. This will later lead to automatic tagging and dev snapshot tarball creation.</li>
                   <li>Taskwarrior: The build process now clones/updates <code>libshared</code> if necessary. This removes a manual step.</li>
                 </ul>
               </td>
@@ -206,7 +205,7 @@
               <td><small>2017-02-13</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TI-39">TI-39: Bogus command line option causes segfault</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/timewarrior/issues/44">#44: Bogus command line option causes segfault</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -215,8 +214,8 @@
               <td><small>2017-02-14</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TI-40">TI-40: totals.py extension script fails with an error</a> fixed</li>
-                  <li>Flod2: The <a href="https://tyuratam.tasktools.org">summary report</a>, although incomplete, now provides an overall assessment of a commit. In this example, the status <span style="color:#ffafd7; background-color:#822453;">Funky</span> is common, and indicates that there is an important disagreement between the results. This is a new feature that better highlights problems to be addressed.</a>
+                  <li><a href="https://github.com/GothenburgBitFactory/timewarrior/issues/45">#45: totals.py extension script fails with an error</a> fixed</li>
+                  <li>Flod2: The <a href="https://central.gothenburgbitfactory.org">summary report</a>, although incomplete, now provides an overall assessment of a commit. In this example, the status <span style="color:#ffafd7; background-color:#822453;">Funky</span> is common, and indicates that there is an important disagreement between the results. This is a new feature that better highlights problems to be addressed.</a>
                   <li>Taskwarrior: Fixed link error on non-macOS platforms.</li>
                 </ul>
               </td>
@@ -244,8 +243,8 @@
               <td><small>2017-02-18</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TW-1885">TW-1885: Task Sync does not send TLS SNI headers</a> fixed</li>
-                  <li><a href="https://bug.tasktools.org/browse/TI-46">TI-46: Display error in visual reports (day,week,month)</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/1898">#1898: Task Sync does not send TLS SNI headers</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/timewarrior/issues/51">#51: Display error in visual reports (day,week,month)</a> fixed</li>
                   <li>Taskwarrior: Can now distinguish between a missing CA cert, and a present but broken CA cert. Error messages improved.</li>
                   <li>Taskwarrior: With GnuTLS 3.4.6, the <code>taskd.trust=ignore hostname</code> setting was not ignoring hostname.</li>
                   <li>Taskserver: With GnuTLS 3.4.6, the <code>taskd.trust=ignore hostname</code> setting was not ignoring hostname.</li>
@@ -276,7 +275,7 @@
               <td><small>2017-02-21</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TS-32">TS-32: Exit on Ctrl-D on non-readline systems</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/taskshell/issues/31">#31: Exit on Ctrl-D on non-readline systems</a> fixed</li>
                 </ul>
               </td>
             </tr>
@@ -294,8 +293,8 @@
               <td><small>2017-02-25</small></td>
               <td>
                 <ul>
-                  <li><a href="https://bug.tasktools.org/browse/TI-48">TI-48: Timewarrior hook is not Python3 compatible</a> fixed</li>
-                  <li><a href="https://bug.tasktools.org/browse/TI-65">TI-65: The 'tags' command should support a filter</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/timewarrior/issues/53">#53: Timewarrior hook is not Python3 compatible</a> fixed</li>
+                  <li><a href="https://github.com/GothenburgBitFactory/timewarrior/issues/70">#70: The 'tags' command should support a filter</a> fixed</li>
                   <li>libshared: Added PEG parser</li>
                   <li>libshared: Added Packrat parser</li>
                   <li>Taskwarrior: New DOM references: <code>tw.program</code>, <code>tw.args</code>, <code>tw.width</code>, and <code>twheight</code> replacing deprecated <code>context.xxx</code> variants.</li>
