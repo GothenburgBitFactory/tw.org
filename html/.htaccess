@@ -3,10 +3,10 @@
 # Added 2015-03-14
 REDIRECT 301 /project                                           /index.html
 REDIRECT 301 /wiki                                              /docs/index.html
-REDIRECT 301 /account                                           https://bug.tasktools.org
-REDIRECT 301 /user                                              https://bug.tasktools.org
-REDIRECT 301 /users                                             https://bug.tasktools.org
-REDIRECT 301 /issues                                            https://bug.tasktools.org
+REDIRECT 301 /account                                           https://github.com/GothenburgBitFactory
+REDIRECT 301 /user                                              https://github.com/GothenburgBitFactory
+REDIRECT 301 /users                                             https://github.com/GothenburgBitFactory
+REDIRECT 301 /issues                                            https://github.com/GothenburgBitFactory
 REDIRECT 301 /attachments                                       /index.html
 REDIRECT 301 /boards                                            /index.html
 REDIRECT 301 /activity                                          /news/index.html

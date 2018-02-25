@@ -10,7 +10,7 @@ This repository contains the content of the taskwarrior.org site.
 
 ## Instruction For Updating tw.org/html/tools
 
-1. git clone git@git.tasktools.org:ST/tw.org.git tw.org.git
+1. git clone https://github.com/GothenburgBitFactory/tw.org.git tw.org.git
    cd tw.org.git
 
 2. git clone https://github.com/BrunoVernay/taskwarrior-site-test.git taskwarrior-site-test.git
