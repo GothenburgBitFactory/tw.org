@@ -1,1 +1,6 @@
+# Redirects the Netlify way
+# One can add a redirect code at the end of the line like 301
+# Syntax: <redirect-from>  <redirect-to>  [<redirect code>]
+# See https://www.netlify.com/docs/redirects/
+
 /download/task-latest.tar.gz /download/task-2.5.1.tar.gz
