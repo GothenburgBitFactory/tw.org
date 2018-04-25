@@ -4,3 +4,4 @@
 # See https://www.netlify.com/docs/redirects/
 
 /download/task-latest.tar.gz /download/task-2.5.1.tar.gz
+/download/task-latest.ref.pdf /download/task-2.5.1.ref.pdf
