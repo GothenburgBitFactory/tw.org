@@ -58,6 +58,7 @@
               The <code>start</code>command creates a new open interval with the given tag set at the given date.
               If there is already an open interval with a different tag set, <code>start</code> closes the current interval and creates a new open interval at the given date.
               If the tag sets match, <code>start</code> has no effect.
+              On success, a short report is printed to stdout.
             </p>
             <h3>Syntax</h3>
             <pre>timew start [&lt;date&gt;] [&lt;tag&gt;]...</pre>
@@ -85,6 +86,7 @@ Tracking FOO
   Total               2:15:23
 </pre>
             <p>
+              This creates an open interval with tag 'FOO' at the given date.
             </p>
 
             <p>
@@ -98,13 +100,13 @@ Recorded FOO
   Started 2018-02-13T10:00:00
   Ended              12:30:00
   Total               2:30:00
-Tracking FOO
+Tracking BAR
   Started 2018-02-13T12:30:00
   Current                  00
   Total               0:00:00
 </pre>
             <p>
-
+              This stops the tracking for 'FOO' at the current time and creates a new open interval with tag 'BAR'.
             </p>
 
             <p>
