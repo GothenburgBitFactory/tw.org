@@ -8,7 +8,7 @@
     <meta name="author" content="">
     <link rel="shortcut icon" href="/images/favicon.ico">
 
-    <title>Timewarrior - Introduction</title>
+    <title>Timewarrior - tag</title>
 
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
@@ -20,9 +20,7 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-
   </head>
-
   <body>
     <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
       <div class="container">
@@ -46,139 +44,72 @@
         </div>
       </div>
     </div>
-
     <div class="container">
-      <div class="col-md-12">
-        <p class="lead">
-          Here is the complete set of Timewarrior documentation.
-        </p>
-<!--
-        <div class="callout callout-info">
-          <h4>1.1.0</h4>
-          <p>
-          </p>
+      <div class="col-md-10">
+        <div class="col-md-2">
         </div>
--->
-      </div>
+        <div class="col-md-10 main">
+          <div class="row">
+            <h2>Tag</h2>
+            <p>
+              The <code>tag</code> command adds labels to intervals.
+            </p>
+            <p>
+              Use the <code>tag</code> command to assign one or more labels to one or more intervals.
+              In case of active time tracking, one can omit the parameter <code>ID</code> to add tags to the current open interval.
+            </p>
+            <h3>Syntax</h3>
+            <pre>timew tag [&lt;ID&gt;]... &lt;tag&gt;...</pre>
+            <h3>Examples</h3>
+            <p>
+              <b>Add tags to interval</b>
+            </p>
+            <pre>$ timew tag @3 foo bar</pre>
+            <p>
+              This adds tags <code>foo</code> and <code>bar</code> to the interval referenced by <code>ID</code> 3.
+            </p>
 
-      <div class="col-md-10 main">
-        <div class="row">
-          <table class="table table-striped">
-            <tr>
-              <td>
-                <p id="start" class="text-large"><strong>Getting Started</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/what.html">What is Timewarrior?</a></li>
-                  <li><a href="/docs/timewarrior/download.html">Download and build the release tarball</a> (Recommended)</li>
-                  <li><a href="/docs/timewarrior/clone.html">Clone the code repository and build the development snapshot</a> (Devs only)</li>
-                  <li><a href="/docs/timewarrior/files.html">File Layout</a></li>
-                  <li><a href="/docs/timewarrior/tutorial.html">Tutorial</a></li>
-                </ul>
-              </td>
-            </tr>
+            <p>
+              <b>Add tag to multiple intervals</b>
+            </p>
+            <pre>$ timew tag @3 @5 @1 foo</pre>
+            <p>
+              This adds tag <code>foo</code> to the intervals referenced by <code>ID</code> 3, 5, and 1.
+            </p>
 
-            <tr>
-              <td>
-                <p id="usage" class="text-large"><strong>Basic Usage</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/help.html">Getting Help</a></li>
-                  <li><a href="/docs/timewarrior/stopwatch.html">Simple Stopwatch</a></li>
-                  <li><a href="/docs/timewarrior/tags.html">Tags</a></li>
-                  <li><a href="/docs/timewarrior/backdated.html">Backdated <code>start</code>/<code>stop</code></a></li>
-                  <li><a href="/docs/timewarrior/track.html">Recording closed intervals</a></li>
-                  <li><a href="/docs/timewarrior/hints.html">Hints</a></li>
-                  <li><a href="/docs/timewarrior/summary.html">Summary Report</a></li>
-                  <li><a href="/docs/timewarrior/corrections.html">Corrections</a></li>
-                  <li><a href="/docs/timewarrior/configuration.html">Configuration</a></li>
-                  <li><a href="/docs/timewarrior/themes.html">Themes</a></li>
-                  <li><a href="/docs/timewarrior/holidays.html">Holidays</a></li>
-                  <li><a href="/docs/timewarrior/workweek.html">Work week</a></li>
-                  <li><a href="/docs/timewarrior/charts.html">Charts</a></li>
-                </ul>
-              </td>
-            </tr>
+            <p>
+              <b>Add tag to current interval</b>
+            </p>
+            <pre>$ timew start foo
+$ timew tag bar</pre>
+            <p>
+              The above example is equivalent to <code>$ timew start foo bar</code>.
+            </p>
 
-            <tr>
-              <td>
-                <p id="reference" class="text-large"><strong>Command Reference</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/cancel.html">Cancel</a></li>
-                  <li><a href="/docs/timewarrior/continue.html">Continue</a></li>
-                  <li><a href="/docs/timewarrior/start.html">Start</a></li>
-                  <li><a href="/docs/timewarrior/stop.html">Stop</a></li>
-                  <li><a href="/docs/timewarrior/tag.html">Tag</a></li>
-                  <li><a href="/docs/timewarrior/untag.html">Untag</a></li>
-                </ul>
-              </td>
-            </tr>
-            <tr>
-              <td>
-                <p id="advanced" class="text-large"><strong>Advanced Topics</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/syntax.html">Command Syntax</a></li>
-                  <li><a href="/docs/timewarrior/interval.html">Syntax: Interval</a></li>
-                  <li><a href="/docs/timewarrior/dates.html">Syntax: Dates</a></li>
-                  <li><a href="/docs/timewarrior/duration.html">Syntax: Durations</a></li>
-                  <li><a href="/docs/timewarrior/overrides.html">Command line overrides</a></li>
-                  <li><a href="/docs/timewarrior/taskwarrior.html">Taskwarrior on-modify Hook</a></li>
-                  <li><a href="/docs/timewarrior/api.html">Extension API</a></li>
-                  <li><a href="/docs/timewarrior/extensions.html">Extensions</a></li>
-                  <li><a href="/docs/timewarrior/diagnostics.html">Diagnostics</a></li>
-                </ul>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <p id="developers" class="text-large"><strong>Developers</strong></p>
-              </td>
-              <td>
-                <ul class="list-unstyled">
-                  <li><a href="/docs/timewarrior/interval_behavior.html">Interval behavior</a></li>
-                </ul>
-              </td>
-            </tr>
-
-            <tr>
-              <td>
-                <p id="beta" class="text-large"><strong>Beta</strong></p>
-              </td>
-              <td>
-                  <ul class="list-unstyled">
-                    <li><a href="https://github.com/GothenburgBitFactory/timewarrior/issues">Submit a bug</a></li>
-                    <li><a href="mailto:support@gothenburgbitfactory.org">Provide feedback</a></li>
-                  </ul>
-              </td>
-            </tr>
-
-          </table>
+            <p>
+              See also
+              <code><a href="untag.html">untag</a></code>.
+            </p>
+          </div>
+          <br />
+          <br />
         </div>
       </div>
     </div>
-
     <!-- Occupy some vertical space -->
     <div class="container">
       <div class="col-md-3 main">
       </div>
     </div>
-
     <div id="footer">
       <div class="container">
         <div class="col-md-2">
           <p class="text-muted">
             Get Involved
             <br />
-            <a href="https://github.com/GothenburgBitFactory/timewarrior/issues">Submit a bug</a>
+            <a href="https://bug.tasktools.org/secure/CreateIssue!default.jspa">Submit a bug</a>
             <br />
-            <a href="https://github.com/GothenburgBitFactory/timewarrior">Clone the code</a>
+            <a href="https://git.tasktools.org/projects/TM/repos/task/browse">Clone the code</a>
           </p>
         </div>
         <div class="col-md-2">
@@ -187,7 +118,7 @@
             <br />
             <a href="http://status.gothenburgbitfactory.org">System status</a>
             <br />
-            <a href="https://statuspage.gothenburgbitfactory.org">Operations Information</a>
+            <a href="http://statuspage.gothenburgbitfactory.org">Operations Information</a>
           </p>
         </div>
         <div class="col-md-2">
@@ -212,7 +143,7 @@
           <div class="text-muted">
             Donate
             <br />
-
+            <a href="https://flattr.com/submit/auto?user_id=taskwarrior&url=http%3A%2F%2Ftaskwarrior.org" target="_blank"><span class="glyphicon"><img src="/images/flattr_logo_16.png" width="16px" height="16px" alt="Flattr this" title="Flattr this" border="0"></span> Flattr</a>
             <br />
             <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
               <input type="hidden" name="lc" value="en_US">
@@ -225,15 +156,13 @@
         </div>
         <div class="col-md-2">
           <p class="text-muted">
-            Copyright &copy: 2018 <a href="/about.html">Göteborg Bit Factory</a>
+            Copyright &copy; 2017 <a href="/about.html">Göteborg Bit Factory</a>
           </p>
         </div>
       </div>
     </div>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script src="/bootstrap/js/bootstrap.min.js"></script>
-
     <!-- Piwik -->
     <script type="text/javascript">
       var _paq = _paq || [];
@@ -241,7 +170,7 @@
       _paq.push(["enableLinkTracking"]);
 
       (function() {
-        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.gothenburgbitfactory.org/matomo/";
+        var u=(("https:" == document.location.protocol) ? "https" : "http") + "://see.tasktools.org/piwik/";
         _paq.push(["setTrackerUrl", u+"piwik.php"]);
         _paq.push(["setSiteId", "1"]);
         var d=document, g=d.createElement("script"), s=d.getElementsByTagName("script")[0]; g.type="text/javascript";
