@@ -54,7 +54,7 @@
         <div class="col-md-10 main">
           <div class="row">
             <div class="callout callout-danger">
-              <h4>Draft</h4>
+              <h3>Draft</h3>
               <p>
                 This is a draft design document. Your
                 <a href="mailto:support@taskwarrior.org?Subject=Feedback">feedback</a>
@@ -63,14 +63,14 @@
             </div>
 
             <a name="recurrence"></a>
-            <h3>Recurrence</h3>
+            <h2>Recurrence</h2>
             <p>
               Recurrence needs an overhaul to improve weaknesses and add new
               features.
             <p>
 
             <a name="terms"></a>
-            <h4>Terminology</h4>
+            <h3>Terminology</h3>
             <p>
               <ul>
                 <li>
@@ -95,7 +95,7 @@
             </p>
 
             <a name="critique"></a>
-            <h4>Criticism of Current Implementation</h4>
+            <h3>Criticism of Current Implementation</h3>
             <p>
               <ul>
                 <li>
@@ -123,10 +123,10 @@
             </p>
 
             <a name="proposals"></a>
-            <h4>Proposals</h4>
+            <h3>Proposals</h3>
 
               <a name="eliminate-mask-imask"></a>
-              <h5>Proposal: Eliminate <code>mask</code>, <code>imaѕk</code> Attributes</h5>
+              <h4>Proposal: Eliminate <code>mask</code>, <code>imaѕk</code> Attributes</h4>
               <p>
                 The <code>mask</code> attribute in the template is replaced by
                 <code>last</code>, which indicates the most recent instance index
@@ -140,7 +140,7 @@
               </p>
 
               <a name="rename-parent-template"></a>
-              <h5>Proposal: Rename <code>parent</code> to <code>template</code></h5>
+              <h4>Proposal: Rename <code>parent</code> to <code>template</code></h4>
               <p>
                 The name <code>parent</code> implies subtasks, and confuses those
                 who inspect the internals. The value remains the UUID of the
@@ -148,7 +148,7 @@
               </p>
 
               <a name="new-rtype-attribute"></a>
-              <h5>Proposal: New 'rtype' attribute</h5>
+              <h4>Proposal: New 'rtype' attribute</h4>
               <p>
                 To indicate the flavor of recurrence, support the following values:
 
@@ -175,7 +175,7 @@
               </p>
 
               <a name="use-relative-offsets"></a>
-              <h5>Proposal: Use relative offsets</h5>
+              <h4>Proposal: Use relative offsets</h4>
               <p>
                 The delta between <code>wait</code> and <code>due</code> date in
                 the template should be reflected in the delta between
@@ -185,7 +185,7 @@
               </p>
 
               <a name="auto-upgrade"></a>
-              <h5>Proposal: On load, auto-upgrade legacy tasks</h5>
+              <h4>Proposal: On load, auto-upgrade legacy tasks</h4>
               <p>
                 Upgrade template:
                 <ul>
@@ -204,7 +204,7 @@
               </p>
 
               <a name="delete-chained"></a>
-              <h5>Proposal: Deleting a chained instance</h5>
+              <h4>Proposal: Deleting a chained instance</h4>
               <p>
                 Deleting a <code>rtype:chained</code> instance causes the next
                 chained instance to be synthesized.
@@ -214,13 +214,13 @@
               </p>
 
               <a name="modification-propagation"></a>
-              <h5>Proposal: Modification Propagation</h5>
+              <h4>Proposal: Modification Propagation</h4>
               <p>
                 TBD
               </p>
 
               <a name="exotic-dates"></a>
-              <h5>Proposal: Exotic Dates</h5>
+              <h4>Proposal: Exotic Dates</h4>
               <p>
                 Expand date specifications to use pattern phrases:
                 <ul>
@@ -241,13 +241,13 @@
                 Got suggestions?
               </p>
 
-              <h5>Proposal: User-Defined Week Start</h5>
+              <h4>Proposal: User-Defined Week Start</h4>
               <p>
                 TBD
               </p>
 
             <a name="implementation"></a>
-            <h4>Implementation: Adding a new <code>periodic</code> template</h4>
+            <h3>Implementation: Adding a new <code>periodic</code> template</h3>
             <p>
               When adding a new periodic template:
 
@@ -280,7 +280,7 @@ instance.start:
 template.last:        N</pre>
             </p>
 
-            <h4>Implementation: Adding a new <code>chained</code> template</h4>
+            <h3>Implementation: Adding a new <code>chained</code> template</h3>
             <p>
               When adding a new chained template:
 
@@ -312,7 +312,7 @@ instance.start:</pre>
               show only one pending task at a time.
             </p>
 
-            <h4>Implementation: Special handling for months</h4>
+            <h3>Implementation: Special handling for months</h3>
             <p>
               Certain recurrence periods are inexact:
               <ul>
