@@ -247,14 +247,17 @@
               </p>
 
             <a name="implementation"></a>
-            <h3>Implementation: Adding a new <code>periodic</code> template</h3>
-            <p>
-              When adding a new periodic template:
+            <h3>Implementation</h3>
 
-              <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U</pre>
+              <a name="add-periodic-template"></a>
+              <h4>Implementation: Adding a new <code>periodic</code> template</h4>
+              <p>
+                When adding a new periodic template:
 
-              Creates:
-              <pre>template.uuid:        NEW_UUID
+                <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U</pre>
+
+                Creates:
+                <pre>template.uuid:        NEW_UUID
 template.description: ...
 template.entry:       now
 template.modified:    now
@@ -266,9 +269,9 @@ template.until:       U
 template.rtype:       periodic
 template.last:</pre>
 
-              Creating the Nth instance (index N):
+                Creating the Nth instance (index N):
 
-              <pre>Clone instance from template.
+                <pre>Clone instance from template.
 
 instance.uuid:        NEW_UUID
 instance.modified:    now
@@ -278,16 +281,17 @@ instance.scheduled:   instance.due + (template.due - template.scheduled)
 instance.start:
 
 template.last:        N</pre>
-            </p>
+              </p>
 
-            <h3>Implementation: Adding a new <code>chained</code> template</h3>
-            <p>
-              When adding a new chained template:
+              <a name="add-chained-template"></a>
+              <h4>Implementation: Adding a new <code>chained</code> template</h4>
+              <p>
+                When adding a new chained template:
 
-              <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U rtype:chained</pre>
+                <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U rtype:chained</pre>
 
-              Creates:
-              <pre>template.uuid:        NEW_UUID
+                Creates:
+                <pre>template.uuid:        NEW_UUID
 template.description: ...
 template.entry:       now
 template.modified:    now
@@ -298,48 +302,49 @@ template.scheduled:   D-1wk
 template.until:       U
 template.rtype:       chained</pre>
 
-              Creating the Nth instance (index N):
-              <pre>Clone instance from template.
+                Creating the Nth instance (index N):
+                <pre>Clone instance from template.
 
-instance.uuid:        NEW_UUID
-instance.modified:    now
-instance.due:         instance[N-1].end + template.recur
-instance.wait:        instance.due + (template.due - template.wait)
-instance.scheduled:   instance.due + (template.due - template.scheduled)
-instance.start:</pre>
+instance.uui  d:        NEW_UUID
+instance.mod  ified:    now
+instance.due  :         instance[N-1].end + template.recur
+instance.wai  t:        instance.due + (template.due - template.wait)
+instance.sch  eduled:   instance.due + (template.due - template.scheduled)
+instance.sta  rt:</pre>
 
-              Chained tasks do not obey <code>rc.recurrence.limit</code>, and
-              show only one pending task at a time.
-            </p>
+                Chained tasks do not obey <code>rc.recurrence.limit</code>, and
+                show only one pending task at a time.
+              </p>
 
-            <h3>Implementation: Special handling for months</h3>
-            <p>
-              Certain recurrence periods are inexact:
-              <ul>
-                <li>P1M</li>
-                <li>P1Y</li>
-                <li>P1D</li>
-              </ul>
+              <a name="special-month-handling"></a>
+              <h4>Implementation: Special handling for months</h4>
+              <p>
+                Certain recurrence periods are inexact:
+                <ul>
+                  <li>P1M</li>
+                  <li>P1Y</li>
+                  <li>P1D</li>
+                </ul>
 
-              When the recurrence period is <code>P1M</code> the number of days
-              in a month varies and causes drift.
-            </p>
+                When the recurrence period is <code>P1M</code> the number of days
+                in a month varies and causes drift.
+              </p>
 
-            <p>
-              When the recurrence period is <code>P1Y</code> the number of days
-              in a year varies and causes drift.
-            </p>
+              <p>
+                When the recurrence period is <code>P1Y</code> the number of days
+                in a year varies and causes drift.
+              </p>
 
-            <p>
-              When the recurrence period is <code>P1D</code> the number of hours
-              in a day varies due to daylight savings, and causes drift.
-            </p>
+              <p>
+                When the recurrence period is <code>P1D</code> the number of hours
+                in a day varies due to daylight savings, and causes drift.
+              </p>
 
-            <p>
-              Drift should be avoided by carefully implementing:
+              <p>
+                Drift should be avoided by carefully implementing:
 
-              <pre>instance.due: template.due + (N * template.recur)</pre>
-            </p>
+                <pre>instance.due: template.due + (N * template.recur)</pre>
+              </p>
           </div>
 
           <br />
@@ -364,7 +369,12 @@ instance.start:</pre>
                 <li><a class="alert-link" href="#modification-propagation">Modification Propagation</a></li>
                 <li><a class="alert-link" href="#exotic-dates">Exotic Dates</a></li>
               </ul></li>
-            <li><a class="alert-link" href="#implementation">Implementation</a></li>
+            <li><a class="alert-link" href="#implementation">Implementation</a>
+              <ul>
+                <li><a class="alert-link" href="#add-periodic-template">Adding a new <code>periodic</code> template</a></li>
+                <li><a class="alert-link" href="#add-chained-template">Adding a new <code>chained</code> template</a></li>
+                <li><a class="alert-link" href="#special-month-handling">Special handling for months</a></li>
+              </ul></li>
           </ul>
         </div>
       </div>
