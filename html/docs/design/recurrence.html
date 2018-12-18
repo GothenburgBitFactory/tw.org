@@ -67,7 +67,7 @@
             <p>
               Recurrence needs an overhaul to improve weaknesses and add new
               features.
-            <p>
+            </p>
 
             <a name="terms"></a>
             <h3>Terminology</h3>
@@ -153,24 +153,38 @@
                 To indicate the flavor of recurrence, support the following values:
 
                 <table class="table table-condensed">
-                  <tr>
-                    <td><code>periodic</code></td>
-                    <td>
-                      Instances are created on a regular schedule.
-                      Example: send birthday flowers.  It must occur on a regular
-                      schedule, and doesn't matter if you were late last year.
-                      This is the default value.
-                    </td>
-                  </tr>
-                  <tr>
-                    <td><code>chained</code></td>
-                    <td>
-                      Instances are created back to back, so when one instance ends,
-                      the next begins, with the same recurrence.
-                      Example: mow the lawn.  If you mow two days late, the next
-                      instance is not two days early to compensate.
-                    </td>
-                  </tr>
+                  <thead>
+                    <tr>
+                      <th>Proposed TaskWarrior 'rtype'</th>
+                      <th><a href="http://orgmode.org/manual/Repeated-tasks.html#Repeated-tasks">Org-mode equivalent</a></th>
+                      <th>Instances accumulate if not done or deleted</th>
+                      <th>Next task's due date set to</th>
+                      <th>Example</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><code>periodic</code> (default)</td>
+                      <td><code>+</code></td>
+                      <td>Y</td>
+                      <td>Latest instance's <strong>due</strong> date + <em>interval</em></td>
+                      <td>Pay your rent every month. (You may be late, but you can't just skip a month.)</td>
+                    </tr>
+                    <tr>
+                      <td><code>chained</code></td>
+                      <td><code>.+</code></td>
+                      <td>N</td>
+                      <td>Latest instance's <strong>done</strong> date + <em>interval</em></td>
+                      <td>Ring your mother daily. (If you delay or skip, you don't ring her twice the next day to compensate.)</td>
+                    </tr>
+                    <tr>
+                      <td>N/A</td>
+                      <td><code>++</code></td>
+                      <td>N</td>
+                      <td>Latest instance's <strong>due</strong> date + <em>n</em> x <em>interval</em>, where <em>n</em> is an integer that is incremented until the next task's due date is in the future</td>
+                      <td>Ring your aunt every Sunday. (If you delay or skip, you don't ring twice next time to compensate, but you should thereafter resume the routine.) </td>
+                    </tr>
+                  </tbody>
                 </table>
               </p>
 
@@ -201,16 +215,6 @@
                   <li>Update <code>wait</code> if not set to: <code>wait:due + (template.due - template.wait)</code></li>
                   <li>Update <code>scheduled</code> if not set to: <code>scheduled:due + (template.due - template.scheduled)</code></li>
                 </ul>
-              </p>
-
-              <a name="delete-chained"></a>
-              <h4>Proposal: Deleting/completing a chained instance</h4>
-              <p>
-                Deleting or completing a <code>rtype:chained</code> instance
-                causes the next chained instance to be synthesized.
-
-                This gives the illusion that the due date is simply pushed out
-                to <code>(now + template.recur)</code>.
               </p>
 
               <a name="modification-propagation"></a>
@@ -280,6 +284,11 @@ template.last:        N</pre>
 
               <a name="add-chained-template"></a>
               <h4>Implementation: Adding a new <code>chained</code> template</h4>
+              <p>
+               Deleting/completing an instance should cause the next chained
+               instance to be synthesized, giving illusion that due date is
+               simply changed to <code>(now + template.recur)</code>.
+              </p>
               <p>
                 When adding a new chained template:
 
@@ -360,7 +369,6 @@ instance.sta  rt:</pre>
                 <li><a class="alert-link" href="#new-rtype-attribute">New 'rtype' attribute</a></li>
                 <li><a class="alert-link" href="#use-relative-offsets">Use relative offsets</a></li>
                 <li><a class="alert-link" href="#auto-upgrade">On load, auto-upgrade legacy tasks</a></li>
-                <li><a class="alert-link" href="#delete-chained">Deleting a chained instance</a></li>
                 <li><a class="alert-link" href="#modification-propagation">Modification Propagation</a></li>
                 <li><a class="alert-link" href="#exotic-dates">Exotic Dates</a></li>
               </ul></li>
