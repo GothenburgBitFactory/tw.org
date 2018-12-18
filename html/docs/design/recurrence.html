@@ -160,6 +160,7 @@
                       <th>Instances accumulate if not done or deleted</th>
                       <th>Next task's due date set to</th>
                       <th>Example</th>
+                      <th>Notes</th>
                     </tr>
                   </thead>
                   <tbody>
@@ -169,6 +170,7 @@
                       <td>Y</td>
                       <td>Latest instance's <strong>due</strong> date + <em>interval</em></td>
                       <td>Send birthday flowers. (Must occur on a regular schedule, and doesn't matter if you were late last year.)</td>
+                      <td></td>
                     </tr>
                     <tr>
                       <td><code>chained</code></td>
@@ -176,6 +178,10 @@
                       <td>N</td>
                       <td>Latest instance's <strong>done</strong> date + <em>interval</em></td>
                       <td>Mow the lawn. (If you mow two days late, the next instance is not two days early to compensate.)</td>
+                      <td>Deleting/completing an instance causes next chained
+                          instance to be synthesized, giving illusion that due
+                          date is simply changed to <code>(now +
+                          template.recur)</code>.</td>
                     </tr>
                     <tr>
                       <td>N/A</td>
@@ -183,19 +189,10 @@
                       <td>N</td>
                       <td>Latest instance's <strong>due</strong> date + <em>n</em> x <em>interval</em>, where <em>n</em> is an integer that is incremented until the next task's due date is in the future</td>
                       <td></td>
+                      <td></td>
                     </tr>
                   </tbody>
                 </table>
-              </p>
-
-              <a name="delete-chained"></a>
-              <h4>Proposal: Deleting/completing a chained instance</h4>
-              <p>
-                  Deleting or completing a <code>rtype:chained</code> instance
-                  causes the next chained instance to be synthesized.
-
-                  This gives the illusion that the due date is simply pushed out
-                  to <code>(now + template.recur)</code>.
               </p>
 
               <a name="use-relative-offsets"></a>
@@ -372,7 +369,6 @@ instance.sta  rt:</pre>
                 <li><a class="alert-link" href="#eliminate-mask-imask">Eliminate <code>mask</code>, <code>imaѕk</code> Attributes</a></li>
                 <li><a class="alert-link" href="#rename-parent-template">Rename <code>parent</code> to <code>template</code></a></li>
                 <li><a class="alert-link" href="#new-rtype-attribute">New 'rtype' attribute</a></li>
-                <li><a class="alert-link" href="#delete-chained">Deleting a chained instance</a></li>
                 <li><a class="alert-link" href="#use-relative-offsets">Use relative offsets</a></li>
                 <li><a class="alert-link" href="#auto-upgrade">On load, auto-upgrade legacy tasks</a></li>
                 <li><a class="alert-link" href="#modification-propagation">Modification Propagation</a></li>
