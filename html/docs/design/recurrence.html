@@ -54,7 +54,7 @@
         <div class="col-md-10 main">
           <div class="row">
             <div class="callout callout-danger">
-              <h4>Draft</h4>
+              <h3>Draft</h3>
               <p>
                 This is a draft design document. Your
                 <a href="mailto:support@taskwarrior.org?Subject=Feedback">feedback</a>
@@ -63,14 +63,14 @@
             </div>
 
             <a name="recurrence"></a>
-            <h3>Recurrence</h3>
+            <h2>Recurrence</h2>
             <p>
               Recurrence needs an overhaul to improve weaknesses and add new
               features.
             <p>
 
             <a name="terms"></a>
-            <h4>Terminology</h4>
+            <h3>Terminology</h3>
             <p>
               <ul>
                 <li>
@@ -95,7 +95,7 @@
             </p>
 
             <a name="critique"></a>
-            <h4>Criticism of Current Implementation</h4>
+            <h3>Criticism of Current Implementation</h3>
             <p>
               <ul>
                 <li>
@@ -122,124 +122,142 @@
               </ul>
             </p>
 
-            <a name="proposal"></a>
-            <h4>Proposal: Eliminate <code>mask</code>, <code>imaѕk</code> Attributes</h4>
-            <p>
-              The <code>mask</code> attribute in the template is replaced by
-              <code>last</code>, which indicates the most recent instance index
-              synthesized.
+            <a name="proposals"></a>
+            <h3>Proposals</h3>
 
-              Because instances are never synthesized out of order, we only
-              need to store the most recent index.
+              <a name="eliminate-mask-imask"></a>
+              <h4>Proposal: Eliminate <code>mask</code>, <code>imaѕk</code> Attributes</h4>
+              <p>
+                The <code>mask</code> attribute in the template is replaced by
+                <code>last</code>, which indicates the most recent instance index
+                synthesized.
 
-              The <code>imask</code> attribute in the instance is no longer
-              needed.
-            </p>
+                Because instances are never synthesized out of order, we only
+                need to store the most recent index.
 
-            <h4>Proposal: Rename <code>parent</code> to <code>template</code></h4>
-            <p>
-              The name <code>parent</code> implies subtasks, and confuses those
-              who inspect the internals. The value remains the UUID of the
-              template. This frees up the namespace for future use with subtasks.
-            </p>
+                The <code>imask</code> attribute in the instance is no longer
+                needed.
+              </p>
 
-            <h4>Proposal: New 'rtype' attribute</h4>
-            <p>
-              To indicate the flavor of recurrence, support the following values:
+              <a name="rename-parent-template"></a>
+              <h4>Proposal: Rename <code>parent</code> to <code>template</code></h4>
+              <p>
+                The name <code>parent</code> implies subtasks, and confuses those
+                who inspect the internals. The value remains the UUID of the
+                template. This frees up the namespace for future use with subtasks.
+              </p>
 
-              <table class="table table-condensed">
-                <tr>
-                  <td><code>periodic</code></td>
-                  <td>
-                    Instances are created on a regular schedule.
-                    Example: send birthday flowers.  It must occur on a regular
-                    schedule, and doesn't matter if you were late last year.
-                    This is the default value.
-                  </td>
-                </tr>
-                <tr>
-                  <td><code>chained</code></td>
-                  <td>
-                    Instances are created back to back, so when one instance ends,
-                    the next begins, with the same recurrence.
-                    Example: mow the lawn.  If you mow two days late, the next
-                    instance is not two days early to compensate.
-                  </td>
-                </tr>
-              </table>
-            </p>
+              <a name="new-rtype-attribute"></a>
+              <h4>Proposal: New 'rtype' attribute</h4>
+              <p>
+                To indicate the flavor of recurrence, support the following values:
 
-            <h4>Proposal: Use relative offsets</h4>
-            <p>
-              The delta between <code>wait</code> and <code>due</code> date in
-              the template should be reflected in the delta between
-              <code>wait</code> and <code>due</code> date in the instance.
+                <table class="table table-condensed">
+                  <tr>
+                    <td><code>periodic</code></td>
+                    <td>
+                      Instances are created on a regular schedule.
+                      Example: send birthday flowers.  It must occur on a regular
+                      schedule, and doesn't matter if you were late last year.
+                      This is the default value.
+                    </td>
+                  </tr>
+                  <tr>
+                    <td><code>chained</code></td>
+                    <td>
+                      Instances are created back to back, so when one instance ends,
+                      the next begins, with the same recurrence.
+                      Example: mow the lawn.  If you mow two days late, the next
+                      instance is not two days early to compensate.
+                    </td>
+                  </tr>
+                </table>
+              </p>
 
-              Similarly, 'scheduled' must be handled the same way.
-            </p>
+              <a name="use-relative-offsets"></a>
+              <h4>Proposal: Use relative offsets</h4>
+              <p>
+                The delta between <code>wait</code> and <code>due</code> date in
+                the template should be reflected in the delta between
+                <code>wait</code> and <code>due</code> date in the instance.
 
-            <h4>Proposal: On load, auto-upgrade legacy tasks</h4>
-            <p>
-              Upgrade template:
-              <ul>
-                <li>Add <code>rtype:periodic</code></li>
-                <li>Add <code>last:N</code> where <code>N</code> is the length of <code>mask</code></li>
-                <li>Delete <code>mask</code></li>
-              </ul>
+                Similarly, 'scheduled' must be handled the same way.
+              </p>
 
-              Upgrade instance:
-              <ul>
-                <li>Rename <code>parent</code> to <code>template</code></li>
-                <li>Delete <code>imask</code></li>
-                <li>Update <code>wait</code> if not set to: <code>wait:due + (template.due - template.wait)</code></li>
-                <li>Update <code>scheduled</code> if not set to: <code>scheduled:due + (template.due - template.scheduled)</code></li>
-              </ul>
-            </p>
+              <a name="auto-upgrade"></a>
+              <h4>Proposal: On load, auto-upgrade legacy tasks</h4>
+              <p>
+                Upgrade template:
+                <ul>
+                  <li>Add <code>rtype:periodic</code></li>
+                  <li>Add <code>last:N</code> where <code>N</code> is the length of <code>mask</code></li>
+                  <li>Delete <code>mask</code></li>
+                </ul>
 
-            <h4>Proposal: Deleting a chained instance</h4>
-            <p>
-              Deleting a <code>rtype:chained</code> instance causes the next
-              chained instance to be synthesized.
+                Upgrade instance:
+                <ul>
+                  <li>Rename <code>parent</code> to <code>template</code></li>
+                  <li>Delete <code>imask</code></li>
+                  <li>Update <code>wait</code> if not set to: <code>wait:due + (template.due - template.wait)</code></li>
+                  <li>Update <code>scheduled</code> if not set to: <code>scheduled:due + (template.due - template.scheduled)</code></li>
+                </ul>
+              </p>
 
-              This gives the illusion that the due date is simply pushed out to
-              <code>(now + template.recur)</code>.
-            </p>
+              <a name="delete-chained"></a>
+              <h4>Proposal: Deleting a chained instance</h4>
+              <p>
+                Deleting a <code>rtype:chained</code> instance causes the next
+                chained instance to be synthesized.
 
-            <h4>Proposal: Modification Propagation</h4>
-            <p>
-              TBD
-            </p>
+                This gives the illusion that the due date is simply pushed out to
+                <code>(now + template.recur)</code>.
+              </p>
 
-            <h4>Proposal: Exotic Dates</h4>
-            <p>
-              Expand date specifications to use pattern phrases:
-              <ul>
-                <li><code>4th thursday in November</code></li>
-                <li><code>4th thursday of November</code></li>
-                <li><code>Friday before easter</code></li>
-                <li><code>next Tuesday</code></li>
-                <li><code>last Tuesday</code></li>
-                <li><code>last July</code></li>
-                <li><code>weekend</code></li>
-                <li><code>3 days before eom</code></li>
-                <li><code>in the morning</code></li>
-                <li><code>4pm</code></li>
-                <li><code>noon</code></li>
-                <li><code>midnight</code></li>
-              </ul>
+              <a name="modification-propagation"></a>
+              <h4>Proposal: Modification Propagation</h4>
+              <p>
+                TBD
+              </p>
 
-              Got suggestions?
-            </p>
+              <a name="exotic-dates"></a>
+              <h4>Proposal: Exotic Dates</h4>
+              <p>
+                Expand date specifications to use pattern phrases:
+                <ul>
+                  <li><code>4th thursday in November</code></li>
+                  <li><code>4th thursday of November</code></li>
+                  <li><code>Friday before easter</code></li>
+                  <li><code>next Tuesday</code></li>
+                  <li><code>last Tuesday</code></li>
+                  <li><code>last July</code></li>
+                  <li><code>weekend</code></li>
+                  <li><code>3 days before eom</code></li>
+                  <li><code>in the morning</code></li>
+                  <li><code>4pm</code></li>
+                  <li><code>noon</code></li>
+                  <li><code>midnight</code></li>
+                </ul>
+
+                Got suggestions?
+              </p>
+
+              <h4>Proposal: User-Defined Week Start</h4>
+              <p>
+                TBD
+              </p>
 
             <a name="implementation"></a>
-            <h4>Implementation: Adding a new <code>periodic</code> template</h4>
-            <p>
-              When adding a new periodic template:
+            <h3>Implementation</h3>
 
-              <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U</pre>
+              <a name="add-periodic-template"></a>
+              <h4>Implementation: Adding a new <code>periodic</code> template</h4>
+              <p>
+                When adding a new periodic template:
 
-              Creates:
-              <pre>template.uuid:        NEW_UUID
+                <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U</pre>
+
+                Creates:
+                <pre>template.uuid:        NEW_UUID
 template.description: ...
 template.entry:       now
 template.modified:    now
@@ -251,9 +269,9 @@ template.until:       U
 template.rtype:       periodic
 template.last:</pre>
 
-              Creating the Nth instance (index N):
+                Creating the Nth instance (index N):
 
-              <pre>Clone instance from template.
+                <pre>Clone instance from template.
 
 instance.uuid:        NEW_UUID
 instance.modified:    now
@@ -263,16 +281,17 @@ instance.scheduled:   instance.due + (template.due - template.scheduled)
 instance.start:
 
 template.last:        N</pre>
-            </p>
+              </p>
 
-            <h4>Implementation: Adding a new <code>chained</code> template</h4>
-            <p>
-              When adding a new chained template:
+              <a name="add-chained-template"></a>
+              <h4>Implementation: Adding a new <code>chained</code> template</h4>
+              <p>
+                When adding a new chained template:
 
-              <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U rtype:chained</pre>
+                <pre>task add ... due:D recur:R wait:D-1wk scheduled:D-1wk until:U rtype:chained</pre>
 
-              Creates:
-              <pre>template.uuid:        NEW_UUID
+                Creates:
+                <pre>template.uuid:        NEW_UUID
 template.description: ...
 template.entry:       now
 template.modified:    now
@@ -283,48 +302,49 @@ template.scheduled:   D-1wk
 template.until:       U
 template.rtype:       chained</pre>
 
-              Creating the Nth instance (index N):
-              <pre>Clone instance from template.
+                Creating the Nth instance (index N):
+                <pre>Clone instance from template.
 
-instance.uuid:        NEW_UUID
-instance.modified:    now
-instance.due:         instance[N-1].end + template.recur
-instance.wait:        instance.due + (template.due - template.wait)
-instance.scheduled:   instance.due + (template.due - template.scheduled)
-instance.start:</pre>
+instance.uui  d:        NEW_UUID
+instance.mod  ified:    now
+instance.due  :         instance[N-1].end + template.recur
+instance.wai  t:        instance.due + (template.due - template.wait)
+instance.sch  eduled:   instance.due + (template.due - template.scheduled)
+instance.sta  rt:</pre>
 
-              Chained tasks do not obey <code>rc.recurrence.limit</code>, and
-              show only one pending task at a time.
-            </p>
+                Chained tasks do not obey <code>rc.recurrence.limit</code>, and
+                show only one pending task at a time.
+              </p>
 
-            <h4>Implementation: Special handling for months</h4>
-            <p>
-              Certain recurrence periods are inexact:
-              <ul>
-                <li>P1M</li>
-                <li>P1Y</li>
-                <li>P1D</li>
-              </ul>
+              <a name="special-month-handling"></a>
+              <h4>Implementation: Special handling for months</h4>
+              <p>
+                Certain recurrence periods are inexact:
+                <ul>
+                  <li>P1M</li>
+                  <li>P1Y</li>
+                  <li>P1D</li>
+                </ul>
 
-              When the recurrence period is <code>P1M</code> the number of days
-              in a month varies and causes drift.
-            </p>
+                When the recurrence period is <code>P1M</code> the number of days
+                in a month varies and causes drift.
+              </p>
 
-            <p>
-              When the recurrence period is <code>P1Y</code> the number of days
-              in a year varies and causes drift.
-            </p>
+              <p>
+                When the recurrence period is <code>P1Y</code> the number of days
+                in a year varies and causes drift.
+              </p>
 
-            <p>
-              When the recurrence period is <code>P1D</code> the number of hours
-              in a day varies due to daylight savings, and causes drift.
-            </p>
+              <p>
+                When the recurrence period is <code>P1D</code> the number of hours
+                in a day varies due to daylight savings, and causes drift.
+              </p>
 
-            <p>
-              Drift should be avoided by carefully implementing:
+              <p>
+                Drift should be avoided by carefully implementing:
 
-              <pre>instance.due: template.due + (N * template.recur)</pre>
-            </p>
+                <pre>instance.due: template.due + (N * template.recur)</pre>
+              </p>
           </div>
 
           <br />
@@ -338,8 +358,23 @@ instance.start:</pre>
             <li><a class="alert-link" href="#recurrence">Recurrence</a></li>
             <li><a class="alert-link" href="#terms">Terminology</a></li>
             <li><a class="alert-link" href="#critique">Critique</a></li>
-            <li><a class="alert-link" href="#proposal">Proposal</a></li>
-            <li><a class="alert-link" href="#implementation">Implementation</a></li>
+            <li><a class="alert-link" href="#proposals">Proposals</a>
+              <ul>
+                <li><a class="alert-link" href="#eliminate-mask-imask">Eliminate <code>mask</code>, <code>imaѕk</code> Attributes</a></li>
+                <li><a class="alert-link" href="#rename-parent-template">Rename <code>parent</code> to <code>template</code></a></li>
+                <li><a class="alert-link" href="#new-rtype-attribute">New 'rtype' attribute</a></li>
+                <li><a class="alert-link" href="#use-relative-offsets">Use relative offsets</a></li>
+                <li><a class="alert-link" href="#auto-upgrade">On load, auto-upgrade legacy tasks</a></li>
+                <li><a class="alert-link" href="#delete-chained">Deleting a chained instance</a></li>
+                <li><a class="alert-link" href="#modification-propagation">Modification Propagation</a></li>
+                <li><a class="alert-link" href="#exotic-dates">Exotic Dates</a></li>
+              </ul></li>
+            <li><a class="alert-link" href="#implementation">Implementation</a>
+              <ul>
+                <li><a class="alert-link" href="#add-periodic-template">Adding a new <code>periodic</code> template</a></li>
+                <li><a class="alert-link" href="#add-chained-template">Adding a new <code>chained</code> template</a></li>
+                <li><a class="alert-link" href="#special-month-handling">Special handling for months</a></li>
+              </ul></li>
           </ul>
         </div>
       </div>
