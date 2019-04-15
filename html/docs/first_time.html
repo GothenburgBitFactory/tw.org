@@ -141,7 +141,7 @@ $ sudo apt-get install make</pre>
             </p>
 
             <pre>$ git clone --recursive -b 2.6.0 https://github.com/GothenburgBitFactory/taskwarrior.git taskwarrior.git
-Cloning into 'task.git'...
+Cloning into 'taskwarrior.git'...
 remote: Counting objects: 55345, done.
 remote: Compressing objects: 100% (12655/12655), done.
 remote: Total 55345 (delta 44868), reused 52340 (delta 42437)
@@ -164,7 +164,7 @@ $</pre>
               But it's a good idea to check anyway, so do this:
             </p>
 
-            <pre>$ cd task.git
+            <pre>$ cd taskwarrior.git
 $ git branch -a
 * 2.6.0
   remotes/origin/2.5.1
@@ -196,10 +196,10 @@ $</pre>
               the files in these directories:
 
               <ul>
-                <li><code>task.git/doc/man</code></li>
-                <li><code>task.git/scripts</code></li>
-                <li><code>task.git/src</code></li>
-                <li><code>task.git/test</code></li>
+                <li><code>taskwarrior.git/doc/man</code></li>
+                <li><code>taskwarrior.git/scripts</code></li>
+                <li><code>taskwarrior.git/src</code></li>
+                <li><code>taskwarrior.git/test</code></li>
               </ul>
             </p>
 
@@ -232,7 +232,7 @@ $</pre>
               First you have to build the program.  Do this:
             </p>
 
-            <pre>$ cd task.git
+            <pre>$ cd taskwarrior.git
 $ cmake .
 -- The C compiler identification is ...
 -- The CXX compiler identification is ...
@@ -242,7 +242,7 @@ $ cmake .
 
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/user/task.git
+-- Build files have been written to: /home/user/taskwarrior.git
 $
 $ make
 Scanning dependencies of target columns
@@ -315,7 +315,7 @@ Runtime:                        32.50 seconds</pre>
               that file, then commit it:
             </p>
 
-            <pre>$ cd task.git
+            <pre>$ cd taskwarrior.git
 $ git status
 On branch 2.6.0
 Your branch is up-to-date with 'origin/2.6.0'.
