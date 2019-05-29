@@ -44,7 +44,7 @@ def from_github_repo(repo):
     data['compatibility'] = '2.4.1+'
     data['language'] = [repo.language]
     data['name'] = repo.name
-    data['url'] = data['url_src'] = repo.url
+    data['url'] = data['url_src'] = repo.html_url
     data['obsolete'] = False
     data['stars'] = repo.stargazers_count
     # data['verified'] = ...
@@ -104,15 +104,16 @@ def get_themes(description):
     return theme
 
 
-def remove_duplicates(repositories):
-    """ Removes the duplicates from a list of repositories based on the url """
+def filter_repos(repositories):
+    """Removes duplicates and blacklisted entries based on the url """
     result = []
+    blacklisted = set(x['url'] for x in load_file(NEVER_INCLUDED_PATH))
     seen = set()
 
     for repo in repositories:
         url = repo['url']
 
-        if url in seen:
+        if url in blacklisted or url in seen:
             continue
 
         seen.add(repo['url'])
@@ -151,6 +152,6 @@ if __name__ == '__main__':
         repos.extend(search_github(github_client, keyword))
 
     # Remove duplicates and output
-    remove_duplicates(repos)
+    repos = filter_repos(repos)
     json.dump(repos, fout, indent=2, sort_keys=True, default=str)
 
