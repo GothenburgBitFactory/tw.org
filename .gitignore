@@ -1,2 +1,5 @@
 *.swp
 patches
+
+update_tools.sh
+tools/venv

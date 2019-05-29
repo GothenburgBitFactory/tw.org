@@ -10,26 +10,34 @@ This repository contains the content of the taskwarrior.org site.
 
 ## Instruction For Updating tw.org/html/tools
 
-1. git clone https://github.com/GothenburgBitFactory/tw.org.git tw.org.git  
-   cd tw.org.git
+Generate API tokens: 
 
-2. git clone https://github.com/BrunoVernay/taskwarrior-site-test.git taskwarrior-site-test.git
+* [GitHub](https://github.com/settings/tokens): requires no special scopes
 
-3. git clone https://github.com/BrunoVernay/tw-tools-update.git tw-tools-update.git
 
-4. git clone https://github.com/PyGithub/PyGithub.git PyGithub.git
+On first usage, setup the Python 3 environment:
 
-5. Get a Github token:  
-   https://github.com/settings/tokens
+```sh
+# Create a virtual environment to avoid clobbering global installation
+$ python3 -m venv venv
 
-6. Add Github token to Config.py:  
-  cd tw-tools-update.git  
-  cp Config.py.example Config.py  
-  vi Config.py (add token)
+# Activate the virtual environment
+$ source venv/bin/activate
 
-7. Take the data-tools-old.json, and update it with a scan of github:  
-  cd tw-tools-update.git  
-  PYTHONPATH=../PyGithub.git python Main.py
+# Install dependencies
+$ pip install -r requirements.txt
+```
 
-8. cp data-tools.json ../html/tools/tools-data.js
+
+Then create the `update_tools.sh` script by copying the sample, and set API keys there. This file will be ignored and should not be committed.
+
+
+Now the tools can simply be updated by running `update_tools.sh`:
+
+```sh
+$ source venv/bin/activate
+$ ./update_tools.sh
+```
+
+Repositories that are **always included** are listed in `tools/always_include.json`. Repositories that are **always ignored** are listed in `tools/never_include.json`. This can be modified and committed to the repository.
 

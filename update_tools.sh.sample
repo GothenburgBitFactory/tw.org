@@ -1,0 +1,9 @@
+#!/bin/sh
+#
+# Copy this file as update_tools.sh and set the API keys.
+# This file should **NOT** be committed.
+
+export GITHUB_API_KEY=abcdefghijklmnopqrstuvwxyz
+
+./tools/update.py html/tools/tools-data.js
+
