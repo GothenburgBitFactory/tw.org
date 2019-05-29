@@ -16,6 +16,11 @@ DAYS_OBSOLETE = 3 * 365
 # The date format we get as a response from the APIs
 DATE_FMT = "%Y-%m-%dT%H:%M:%SZ"
 
+# Files to always and never include
+SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+ALWAYS_INCLUDED_PATH = os.path.join(SCRIPT_DIR, 'always_include.json')
+NEVER_INCLUDED_PATH  = os.path.join(SCRIPT_DIR, 'never_include.json')
+
 
 def search_github(client, keyword):
     """ Search GitHub for repos where `keyword` is contained in the description or name. """
@@ -115,6 +120,11 @@ def remove_duplicates(repositories):
     return result
 
 
+def load_file(filepath):
+    with open(filepath) as f:
+        return json.load(f)
+
+
 if __name__ == '__main__':
     GITHUB_API_KEY = os.getenv('GITHUB_API_KEY')
     if not GITHUB_API_KEY:
@@ -122,11 +132,10 @@ if __name__ == '__main__':
 
     github_client = Github(GITHUB_API_KEY)
 
-    gh_repos = []
+    repos = load_file(ALWAYS_INCLUDED_PATH)
     for keyword in KEYWORDS:
-        gh_repos.extend(search_github(github_client, keyword))
+        repos.extend(search_github(github_client, keyword))
 
-    all_repos = []
-    all_repos.extend(remove_duplicates(gh_repos))
-    print(json.dumps(all_repos, indent=4, sort_keys=True, default=str))
+    remove_duplicates(repos)
+    print(json.dumps(repos, indent=4, sort_keys=True, default=str))
 

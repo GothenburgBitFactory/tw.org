@@ -1,0 +1,18 @@
+[
+    {
+        "url": "https://github.com/example/url",
+        "note": "This could contain additional info if necessary"
+    },
+    {
+        "url": "https://github.com/BrunoVernay/tw-tools-update"
+    },
+    {
+        "url": "https://github.com/BrunoVernay/taskwarrior-site-test"
+    },
+    {
+        "url": "https://github.com/BrunoVernay/tw-html-parse"
+    },
+    {
+        "url": "https://github.com/pld-linux/bugwarrior"
+    }
+]
