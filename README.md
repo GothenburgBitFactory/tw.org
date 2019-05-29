@@ -10,12 +10,12 @@ This repository contains the content of the taskwarrior.org site.
 
 ## Instruction For Updating tw.org/html/tools
 
-Generate API tokens: 
+On first usage, generate API tokens and store them safely for later:
 
 * [GitHub](https://github.com/settings/tokens): requires no special scopes
 
 
-On first usage, setup the Python 3 environment:
+Then setup the Python 3 environment:
 
 ```sh
 # Create a virtual environment to avoid clobbering global installation
@@ -32,7 +32,7 @@ $ pip install -r requirements.txt
 Then create the `update_tools.sh` script by copying the sample, and set API keys there. This file will be ignored and should not be committed.
 
 
-Now the tools can simply be updated by running `update_tools.sh`:
+Now that everything is setup, the tools can be updated by running `update_tools.sh`:
 
 ```sh
 $ source venv/bin/activate
