@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 
-import os
 import datetime
 import json
+import os
+import sys
 import re
 
 from github import Github
@@ -125,17 +126,31 @@ def load_file(filepath):
         return json.load(f)
 
 
+def usage():
+    return "USAGE: %s [output_file]\n\n  output_file - optional, defaults to stdout\n" % sys.argv[0]
+
+
 if __name__ == '__main__':
+    # Get the output argument, or write to stdout
+    if len(sys.argv) == 1:
+        fout = sys.stdout
+    elif len(sys.argv) == 2:
+        fout = open(sys.argv[1], mode='w')
+    else:
+        exit('ERROR: too many arguments\n\n%s' % usage())
+
+    # Get the API keys from the environment and build the clients
     GITHUB_API_KEY = os.getenv('GITHUB_API_KEY')
     if not GITHUB_API_KEY:
         exit('ERROR: the environment variable GITHUB_API_KEY is not set')
-
     github_client = Github(GITHUB_API_KEY)
 
+    # Perform the search
     repos = load_file(ALWAYS_INCLUDED_PATH)
     for keyword in KEYWORDS:
         repos.extend(search_github(github_client, keyword))
 
+    # Remove duplicates and output
     remove_duplicates(repos)
-    print(json.dumps(repos, indent=4, sort_keys=True, default=str))
+    json.dump(repos, fout, indent=2, sort_keys=True, default=str)
 
