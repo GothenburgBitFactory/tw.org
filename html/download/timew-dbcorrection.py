@@ -60,7 +60,7 @@ your data such that exclusions will be applied and written properly to the
 database.
 
 For further information on this see 
-https://taskwarrior.org/docs/timewarrior/dbcorrection.html
+https://timewarrior.net/docs/dbcorrection.html
 
 !!! YOU ARE STRONGLY ADVISED TO BACKUP YOUR DATABASE BEFORE PROCEEDING !!!
 
