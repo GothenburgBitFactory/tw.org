@@ -57,7 +57,7 @@
         There is a script prepared that will fix your timewarrior data, and
         the download and description is found here:
 
-        https://timewarrior.net/docs/dbcorrection.html
+        https://taskwarrior.org/docs/timewarrior/dbcorrection.html
 
         The release is immediately available as a source here:
 
@@ -540,7 +540,7 @@
 
         Download here: (https://taskwarrior.org/download/timew-latest.tar.gz)
 
-        Online documentation here: (https://timewarrior.net/docs)
+        Online documentation here: (https://taskwarrior.org/docs/timewarrior)
       </description>
     </item>
 
@@ -551,7 +551,7 @@
       <pubDate>Tue, 07 Jun 2016 04:44:54 GMT</pubDate>
       <description>
         The main focus for June is getting Timewarrior
-        (http://timewarrior.net/docs/index.html)
+        (https://taskwarrior.org/docs/timewarrior/index.html)
         ready for an alpha, and subsequent beta release. The purpose of an alpha release is to
         gather feedback that guides the subsequent beta release. Timewarrior
         is a new project that introduces new concepts. This new functionality
@@ -591,7 +591,7 @@
         Download here: (https://taskwarrior.org/download/timew-latest.tar.gz)
         (Edit: Updated to release tarball)
 
-      Timewarrior Documentation Home (https://timewarrior.net/docs).
+      Timewarrior Documentation Home (https://taskwarrior.org/docs/timewarrior).
       </description>
     </item>
 

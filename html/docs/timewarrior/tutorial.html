@@ -1,0 +1,995 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Timewarrior - Tutorial</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" alt="Taskwarrior brand" style="width:24px; height:24px;"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <h3>Timewarrior Tutorial</h3>
+            <p>
+              This tutorial assumes you have installed Timewarrior.
+              If not, follow these
+              <a href="/docs/timewarrior/download.html">download and build instructions</a>.
+
+              This is a lengthy and detailed tutorial. If you wish to learn about
+              Timewarrior in depth, this is the place.  If you prefer your
+              information in smaller pieces, use the
+              <a href="/docs/timewarrior/index.html">online docs</a>.
+            </p>
+
+            <a name="setup"></a>
+            <h4>Setup</h4>
+            <p>
+              As a new Timewarrior user, there is no configuration needed. Once
+              you have installed the software, the first time you run it, a
+              data/configuration directory is created for you if necessary, and
+              if you allow this action.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial1.png" class="img-responsive" />
+            </p>
+
+            <p>
+              You are told that there is no active time tracking, and that's
+              right, because we've done nothing yet.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial2.png" class="img-responsive" />
+            </p>
+
+            <p>
+              By default a <code>.timewarrior</code> directory is created in
+              your home directory, and contains a sub-directory for data, and
+              another for extensions. There is also an empty configuration file
+              created. Just like Taskwarrior, an empty configuration file means
+              we are using all the default settings. If you want to use an
+              alternate location, you can either symlink it to
+              <code>~/.timewarrior</code>, or use the <code>TIMEWARRIORDB</code>
+              environment variable to specify any location.
+            </p>
+
+            <a name="stopwatch"></a>
+            <h4>Stopwatch</h4>
+            <p>
+              The most basic tracking can be done by using the stopwatch
+              features. Just like a stopwatch, you start and stop a clock, and
+              you can see the elapsed time. Start the clock when you begin
+              work, and stop it when you are done. First let's see if the clock
+              is running:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial3.png" class="img-responsive" />
+            </p>
+
+            <p>
+              No it's not. You can always run timewarrior with no arguments to
+              see if the clock is running, and no data is modified. Let's start
+              the clock.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial4.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The clock is now running. In reality there is no clock and all
+              that happened was that the start time was recorded, so don't be
+              concerned about using system resources, as none are being used.
+              Now when we check, we see a summary of the time recorded so far:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial5.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Once our work is complete, we stop the clock, and look at the
+              summary.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial6.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The summary report shows time that was tracked today by default.
+            </p>
+
+            <p>
+              There is a <code>continue</code> command that re-starts the
+              previous tracking, and is useful if you stopped the clock during
+              lunch, or overnight.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial7.png" class="img-responsive" />
+            </p>
+
+            <p>
+              See how every time the clock is started, there is a new line in
+              the <code>summary</code> report?
+            </p>
+
+            <p>
+              It is important to note that it is possible, and quite likely,
+              that you will start the clock and leave it running by mistake.
+              This is in fact one of the most annoying problems with any time
+              tracking solution that relies on human interaction. While some
+              tools will detect inactivity and stop the clock for you,
+              Timewarrior does not. Instead it deals with this problem in two
+              ways, first by making it easy to correct tracked time, and second
+              by way of exclusions, which we will cover later.
+            </p>
+
+            <a name="tags"></a>
+            <h4>Tags</h4>
+            <p>
+              The examples so far did not use tags. Tags are optional, but when
+              you do make use of tags, you start tracking time spent on
+              <em>different</em> activities.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial8.png" class="img-responsive" />
+            </p>
+
+            <p>
+              This example is tracking time using two different tags. The first
+              is <kbd>Using Tags</kbd>, the second is <kbd>Software</kbd>.
+              The first tag is two words, and because of the space between them,
+              the quotes are needed to keep those two words together in one tag.
+              The second tag is a single word and needs no quotes.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial9.png" class="img-responsive" />
+            </p>
+
+            <p>
+              You can see that using tags is useful, but optional.
+              Once you are using tags, you can use them to filter reports,
+              such as the <code>summary</code> report.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial10.png" class="img-responsive" />
+            </p>
+
+            <p>
+              There is a <code>tags</code> command, which will show you all the
+              tags you have used.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial11.png" class="img-responsive" />
+            </p>
+
+            <p>
+              You may wonder how is that 'Description' column in the report used?
+              It is the first example of tag metadata, which you can configure.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial12.png" class="img-responsive" />
+            </p>
+
+            <p>
+              This is not currently used, but does represent how Timewarrior
+              will be extended to include tag metadata in future releases.
+            </p>
+
+            <a name="help"></a>
+            <h4>Help</h4>
+            <p>
+              Although we have just begun, it is important to mention the
+              built-in help system. Let's look at the help for the
+              <code>continue</code> command.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial13.png" class="img-responsive" />
+            </p>
+
+            <p>
+              You can see that the help system contains examples, and introduces
+              new commands and other help topics. From the help text, we learn
+              that the <code>continue</code> command will not only resume tracking
+              but use the same set of tags.
+            </p>
+
+            <p>
+              In addition to the built-in help, there is a man page which
+              contains the same information plus a lot more.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial14.png" class="img-responsive" />
+            </p>
+
+            <a name="historical"></a>
+            <h4>Historical</h4>
+            <p>
+              We have seen how to use the stopwatch feature, and combine it with
+              tags. Additionally we can record time <i>ex post facto</i>. So to
+              track time I spent earlier in the day (but forgot to record), I use
+              the <code>track</code> command.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial15.png" class="img-responsive" />
+            </p>
+
+            <p>
+              When Timewarrior sees a time like <code>9:00</code> it always
+              assumes it is in the past, because Timewarrior is a tool for
+              recording what you have done or are doing, and is not a
+              forward-looking planning tool.
+
+              This is the opposite of Taskwarrior, which always looks forward,
+              because tasks are generally going to be completed in the future.
+            </p>
+
+            <p>
+              There are other ways to specify time in the past, for example:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial16.png" class="img-responsive" />
+            </p>
+
+            <p>
+              And there are many more, which can be seen in the help system.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial17.png" class="img-responsive" />
+            </p>
+
+            <p>
+              In addition to time, you can specify date and time, so one
+              equivalent command would use an ISO datetime.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial18.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Again, you can see all the date formats listed using the help
+              system.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial19.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Using date synonyms you can track time for a whole month.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial20.png" class="img-responsive" />
+            </p>
+
+            <p>
+              But that command will track all 30 days, all 24 hours each in June,
+              including weekends, holidays and lunch breaks. Or does it? This
+              is discussed later.
+            </p>
+
+            <a name="hints"></a>
+            <h4>Hints</h4>
+            <p>
+              Many commands support hints, which are words that start with a
+              <code>:</code> and are convenient representations to save time.
+              Here is the <code>:quiet</code> hint, being used to suppress all
+              feedback:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial21.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The <code>:quiet</code> hint is the same as disabling verbosity,
+              but is easier to specify, and temporary. Another hint is
+              <code>:yes</code>, which is used to override confirmation, by
+              automatically answering 'yes' to the question.
+            </p>
+
+            <p>
+              Some hints are shortcuts specifiers for date ranges. For example,
+              the <code>:yesterday</code> hint is a date range representing all
+              day yesterday. Similarly, <code>:lastweek</code> is also a date
+              range. That makes the following two commands identical (assuming
+              that today is the 6th):
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial22.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The help system lists all the supported hints.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial23.png" class="img-responsive" />
+            </p>
+
+            <a name="charts"></a>
+            <h4>Charts</h4>
+            <p>
+              Timewarrior has a built-in chart that can show blocks of time by
+              day. This is a text-based chart so it is not high resolution and
+              has no drill-down capabilities. (Incidentally such a chart would
+              be possible using the extension API, but by default, Timewarrior
+              just has simple charting).
+            </p>
+
+            <p>
+              There are three charts, which are really just three variations of
+              the same chart, all controlled by configuration. We'll take a
+              look at these charts, but first we need some sample data to look
+              at.  Let us first track a couple of days of data, to illustrate
+              how the charts work.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial24.png" class="img-responsive" />
+            </p>
+
+            <p>
+              We have tracked six separate intervals, and the summary report
+              shows just that.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial25.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The summary report gives accurate time values, so this should be
+              the preferred report for this reason. Let's look at the first
+              chart, the <code>day</code> report.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial26.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Like the <code>summary</code> report, the <code>day</code> report
+              shows data for today by default. You can make it show multiple
+              days like this:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial27.png" class="img-responsive" />
+            </p>
+
+            <p>
+              A better option is to use the <code>week</code> report.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial28.png" class="img-responsive" />
+            </p>
+
+            <p>
+              There is also a <code>month</code> report that looks the same,
+              but is longer.
+            </p>
+
+            <p>
+              Again, the only difference between these reports is configuration,
+              and you can override any of this to customize these charts.
+              See <code>man timew</code> for full configuration details.
+            </p>
+
+            <a name="reports"></a>
+            <h4>Reports</h4>
+            <p>
+              We have seen the <code>summary</code> and <code>tags</code> reports,
+              but there is another useful report that shows the untracked time
+              in the day.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial29.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The <code>gaps</code> report is useful for finding time in the day
+              where you were not tracking time. In the example the gaps
+              correspond well to time that was not spent working, so there is
+              no need for adjustments.
+            </p>
+
+            <p>
+              All reports in Timewarrior can be filtered by time interval and
+              tags, but all have a default time interval.
+            </p>
+
+            <a name="themes"></a>
+            <h4>Themes</h4>
+            <p>
+              Timewarrior has color themes that are mostly used by the charts
+              to color the different parts of the display. To use a color theme,
+              add this line to your <code>~/.timewarrior/timewarrior.cfg</code>
+              file with a text editor:
+            </p>
+
+            <pre>import /path/to/themes/dark_green.theme</pre>
+
+            <p>
+              Note that the path <code>/path/to/themes</code> is a placeholder.
+              Your installation will likely use a path more like this, but it
+              should be noted that this path varies depending on platform and
+              the wishes of the packager.
+            </p>
+
+            <pre>import /usr/local/share/doc/timew/doc/themes/dark_green.theme</pre>
+
+            <p>
+              There are a few simple themes available initially, but this
+              collection will grow and improve. Timewarrior is also likely to
+              make greater use of themes in future releases.
+            </p>
+
+            <a name="holidays"></a>
+            <h4>Holidays</h4>
+            <p>
+              Timewarrior can also make use of Holiday files. In the same way
+              that a color theme was imported into the configuration file, a
+              holiday file can also be used:
+            </p>
+
+            <pre>import /usr/local/share/doc/timew/doc/holidays/holidays.en-US</pre>
+
+            <p>
+              Again, that path is platform-dependent, so use the appropriate path
+              for your system.
+            </p>
+
+            <p>
+              When a holiday file is used, Timewarrior knows that there are some
+              days in the year that are not work days. While this changes nothing
+              about your ability to track time, it does affect some automatic
+              tracking features, which we will cover next.
+            </p>
+
+            <p>
+              There is a <code>README</code> document and a <code>refresh</code>
+              script provided with the holiday file, which explains how to update
+              the holiday data, and how to obtain holiday files for other locales.
+              Note that only the <code>en-US</code> locale is included by default.
+            </p>
+
+            <a name="exclusions"></a>
+            <h4>Exclusions</h4>
+            <p>
+              Exclusions are a very powerful Timewarrior feature, and make
+              automatic time tracking possible. An exclusion - much like a
+              holiday - represents a block of time where you do not expect to
+              work.
+            </p>
+
+            <p>
+              The simplest exclusion is a day off work. Suppose you took a day
+              off, on August 4th. You can define this day as an exclusion.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial30.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The date must be formatted in this precise way. Note the use of the
+              <code>:yes</code> hint to override confirmation.
+              Now we see on the <code>week</code> report that the day is marked
+              as non-working.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial31.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Similarly, if you worked on a holiday, you can define that day as
+              a work day, and therefore available for automatic tracking.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial32.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Here we have (re)defined January 1st as a working day, which was
+              previously defined as a holiday in the <code>en-US</code> locale.
+            </p>
+
+            <p>
+              In addition to whole days working or not working, you can define
+              exclusions for each day of the week to represent your work
+              schedule. Suppose you work a regular weekly schedule, that starts
+              at 8:30am, Monday to Friday, with weekends off. You take a
+              45-minute lunch break each day, and leave work at 5:30pm. On
+              Fridays you leave early.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial33.png" class="img-responsive" />
+            </p>
+
+            <p>
+              You can view this in the <code>week</code> report, and here we
+              will use the <code>:blank</code> hint to remove all the tracked
+              data from the report, leaving only the exclusions.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial34.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Your whole work week is defined. While you are not at all
+              constrained by this defined schedule, it does control automatic
+              time tracking.
+            </p>
+
+            <a name="automatic"></a>
+            <h4>Automatic Tracking</h4>
+            <p>
+              Once you have defined exclusions for your workweek, the tracked
+              time will conform to the set boundaries. Suppose this is our work
+              week:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial35.png" class="img-responsive" />
+            </p>
+
+            <p>
+              There is no tracked time, but there are 40:15:00 hours available
+              to be tracked.  If we worked the whole week on our
+              <kbd>Research</kbd> project, we can track all that time with one
+              command:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial36.png" class="img-responsive" />
+            </p>
+
+            <p>
+              We see that the exclusions are automatically subtracted from the
+              time, and fill the whole week, leaving no available time.
+            </p>
+
+            <p>
+              Note that this example tracks up until 'now', and as this tutorial
+              is being written on a weekend, you can see that the tracking stops
+              on Friday, and does not continue into the weekend.
+
+              If this was being done on the Friday, at 16:23, then the
+              <code>week</code> report would stop precisely at 16:23, because it
+              is an open interval.
+            </p>
+
+            <a name="corrections"></a>
+            <h4>Corrections</h4>
+            <p>
+              With or without the use of <a href="#exclusions">exclusions</a>,
+              there is always the need to make corrections to the tracked time.
+              As mentioned earlier, it is quite likely that the clock would be
+              left running by mistake, or that the tracking was started or
+              stopped at the wrong time. We will create some incorrect time
+              tracking, and then correct it.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial37.png" class="img-responsive" />
+            </p>
+
+            <p>
+              I actually started work at 8:30am, but forgot to start the clock
+              at the beginning. I also did not take a break at 10am, I again
+              forgot to start the clock. Then I was working on projectC since
+              about 11am, but didn't record it properly.
+            </p>
+
+            <p>
+              These are typical mistakes, and are easy to fix, as there are
+              several commands for making adjustments like this.
+            </p>
+
+            <p>
+              To make an adjustment to an interval, we need first to identify
+              that interval. The <code>summary</code>, <code>day</code>,
+              <code>week</code> and <code>month</code> reports all support the
+              <code>:ids</code> hint for this purpose. If we take a look at the
+              <code>summary</code> report with the hint:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial38.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Notice how the intervals now have IDs: <code>@3</code> for the
+              oldest interval. Let's make some corrections:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial39.png" class="img-responsive" />
+            </p>
+
+            <p>
+              There is still a problem, interval <code>@2</code> needs to occupy
+              the slot between 10am and 11am. There is a <code>:fill</code> hint
+              that does this for us.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial40.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The <code>@1</code> ID always represents the newest interval.
+              Note that if my corrections have changes the order, then the IDs
+              would be different, and you would need to run
+              <code>timew summary :ids</code> again to see the new IDs.
+            </p>
+
+            <p>
+              Finally, I actually stopped for lunch at 12:30 for 45 minutes:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial41.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Let's keep going, even though this example has already exceeded
+              credibility, to demonstrate more. I need to change that
+              <kbd>projectB</kbd> interval to use <kbd>projectB1</kbd> and
+              <kbd>projectB2</kbd> tags, and divide the time between the two.
+              We will split the interval, the re-tag it.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial42.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Notice how the <code>split</code> command just divided
+              <code>@3</code> into two even-sized intervals. But we're still
+              not done - I brought lunch to work and ate at my desk while
+              working so let's eliminate that lunch break.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial43.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Now whether this report now accurately represents your day, or
+              whether it is a fiction you need to report (no judgement here),
+              Timewarrior supports it, but let's stop - the example can't take
+              much more.
+            </p>
+
+            <p>
+              We saw the <code>stop</code> command with a specific end time,
+              the <code>move</code>, the <code>lengthen</code>, <code>split</code>,
+              <code>join</code>, <code>tag</code> and <code>untag</code> commands
+              and the <code>:fill</code> hint being used. There are also the
+              <code>shorten</code>, <code>cancel</code>, and <code>delete</code>
+              commands.  See <code>man timew</code> for full details.
+            </p>
+
+            <a name="extensions"></a>
+            <h4>Extensions</h4>
+            <p>
+              Timewarrior reports are not sophisticated, they are minimally
+              functional and focus on simply displaying the data. What if you
+              need a report broken down by tags, with weekly subtotals?
+            </p>
+
+            <p>
+              Timewarrior supports extension reports, via the
+              <a href="/docs/timewarrior/api.html">extension API</a>.
+              This is mechanism that allows you to write a report using any
+              language you choose. Don't like the way the summary report shows
+              the data? Write your own. Better yet, share the result, and we'll
+              build a list of 3rd party reports.
+            </p>
+
+            <p>
+              We've included one extension report with Timewarrior, and will add
+              more. The one provided is:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial44.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Again, that path is platform-dependent, so use the appropriate path
+              for your system.
+
+              Note that this is a Python script, and to use this you'll need to
+              have Python installed.
+            </p>
+
+            <p>
+              To install and use this extension, or any other, simply copy it
+              to your <code>~/.timewarrior/extensions</code> directory and make
+              sure it is executable.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial45.png" class="img-responsive" />
+            </p>
+
+            <div class="callout callout-danger">
+              <h4>Caution</h4>
+              <p>
+                <b>Extensions are dangerous things</b>.
+                As with any downloaded program, be careful - you are giving
+                execute permission to software that may harm you.
+              </p>
+
+              <p>
+                Fortunately this is the world of open source, and while that does
+                not mean the software is safe, it does mean you have the
+                necessary access to audit the code and prove it is safe.
+
+                If you find the code safe, use it.
+                If you are unsure, don't.
+              </p>
+            </div>
+
+            <p>
+              Once the extension is in the <code>extensions</code> directory, and
+              executable, it should be visible to the <code>extensions</code>
+              command.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial46.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Additionally, the <code>diagnostics</code> command will report the
+              presence and status of this extension.
+            </p>
+
+            <p>
+              Once an extension is ready to use, it is used in the same way that
+              the <code>summary</code> report is used, with date range and/or
+              tag filtering. The command you use is compared to the name of the
+              script, and if unique, is a match. All of these commands are
+              equivalent:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial47.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Here is the report run with no filter, and therefore against all
+              recorded data, which is not much in this example.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial48.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Extensions are not restricted to emitting text, they could for
+              example output HTML, DOT, PDF, PNG, JPEG ...
+            </p>
+
+            <a name="integration"></a>
+            <h4>Integration</h4>
+            <p>
+              Timewarrior integrates with Taskwarrior by means of a Taskwarrior
+              <code>on-modify</code> hook script. Once installed, this means that
+              whenever a task is active, Timewarrior is used to track the time.
+            </p>
+
+            <p>
+              To install the script, copy it into your Taskwarrior directory:
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial49.png" class="img-responsive" />
+            </p>
+
+            <p>
+              Again, that path is platform-dependent, so use the appropriate path
+              for your system.
+            </p>
+
+            <p>
+              Now we can create a task, start it, complete it and automatically
+              track it.
+            </p>
+
+            <p>
+              <img src="/docs/timewarrior/images/tutorial50.png" class="img-responsive" />
+            </p>
+
+            <p>
+              The <code>on-modify.timewarrior</code> hook script captures the
+              task description and all tags and passes these to Timewarrior as
+              tags. If a project was assigned (it was not in this example) then
+              it too would have been passed as a tag.
+            </p>
+
+            <p>
+              Is this behavior modifiable?  Yes, this is open source, and the
+              hook script is written in Python.
+            </p>
+
+            <h4>End</h4>
+            <p>
+              You've made it to the end of the tutorial. You now know more
+              about Timewarrior than most users. If you have feedback, we are
+              interested in hearing it, because open source is a collaborative
+              effort, and you are part of that.
+            </p>
+          </div>
+
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a href="#setup">Setup</a></li>
+            <li><a href="#stopwatch">Stopwatch</a></li>
+            <li><a href="#tags">Tags</a></li>
+            <li><a href="#help">Help</a></li>
+            <li><a href="#historical">Historical</a></li>
+            <li><a href="#hints">Hints</a></li>
+            <li><a href="#charts">Charts</a></li>
+            <li><a href="#reports">Reports</a></li>
+            <li><a href="#themes">Themes</a></li>
+            <li><a href="#holidays">Holidays</a></li>
+            <li><a href="#exclusions">Exclusions</a></li>
+            <li><a href="#automatic">Automatic Tracking</a></li>
+            <li><a href="#corrections">Corrections</a></li>
+            <li><a href="#extensions">Extensions</a></li>
+            <li><a href="#integration">Integration</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Occupy some vertical space -->
+    <div class="container">
+      <div class="col-md-3 main">
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://github.com/GothenburgBitFactory/timewarrior/issues">Submit a bug</a>
+            <br />
+            <a href="https://github.com/GothenburgBitFactory/timewarrior">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Monitor
+            <br />
+            <a href="http://status.gothenburgbitfactory.org">System status</a>
+            <br />
+            <a href="https://statuspage.gothenburgbitfactory.org">Operations Information</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="http://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
+            <br />
+            <a href="http://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@gothenburgbitfactory.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/timewarrior_net"><img src="/images/twitter_dark.png" alt="twitter logo" style="width:16px; height:16px;"> Twitter</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <div class="text-muted">
+            Donate
+            <br />
+
+            <br />
+            <form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+              <input type="hidden" name="lc" value="en_US">
+              <input type="hidden" name="cmd" value="_s-xclick">
+              <input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----">
+              <input type="image" src="/images/paypal.jpg" style="border:0px;" name="submit" alt="PayPal - The safer, easier way to pay online!">
+              <img alt="paypal" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" style="border:0px; width:1px; height:1px;">
+            </form>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy: 2018 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
