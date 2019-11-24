@@ -27,12 +27,11 @@
     <lastBuildDate>Sat, 23 Nov 2019 23:50:00 GMT</lastBuildDate>
 
     <item>
-      <title>2018 Plans</title>
+      <title>Timewarrior 1.2.0 Released</title>
       <link>http://taskwarrior.org/news/news.20180204.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 23 Nov 2019 23:50:00 GMT</pubDate>
       <description>
-        <h3>News: Timewarrior 1.2.0 released<small>2019-11-23<small></h3>
           Timewarrior 1.2.0 is released! Here are the highlights:
 
           * Print warning when a new tag is entered (#2)
