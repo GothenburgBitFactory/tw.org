@@ -23,8 +23,30 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Sun, 04 Feb 2018 13:56:00 GMT</pubDate>
-    <lastBuildDate>Sun, 04 Feb 2018 13:56:00 GMT</lastBuildDate>
+    <pubDate>Sat, 23 Nov 2019 23:50:00 GMT</pubDate>
+    <lastBuildDate>Sat, 23 Nov 2019 23:50:00 GMT</lastBuildDate>
+
+    <item>
+      <title>2018 Plans</title>
+      <link>http://taskwarrior.org/news/news.20180204.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Sat, 23 Nov 2019 23:50:00 GMT</pubDate>
+      <description>
+        <h3>News: Timewarrior 1.2.0 released<small>2019-11-23<small></h3>
+          Timewarrior 1.2.0 is released! Here are the highlights:
+
+          * Print warning when a new tag is entered (#2)
+          * New command 'undo' (#9)
+          * New command 'annotate' (#68)
+          * Bash completion (#96)
+          * Show man pages with --help option
+
+          The <a href="https://github.com/GothenburgBitFactory/timewarrior/blob/1.2.0/ChangeLog">full changelog</a> is an impressive read.
+          <a href="https://timewarrior.net/">Download here.</a>
+
+          This is a recommended upgrade for all Timewarrior users.
+      </description>
+    </item>
 
     <item>
       <title>2018 Plans</title>
