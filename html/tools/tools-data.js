@@ -62,6 +62,24 @@
     "descriptionText": "A full-featured, interactive interface for taskwarrior using vim", 
     "compatibility": "2.2.0+", 
     "url_src": "http://github.com/farseer90718/vim-taskwarrior"
+  },
+  {
+    "category": "Front Ends", 
+    "verified": "2020-05-16", 
+    "name": "taskwarrior-fzf", 
+    "license": "Apache 2.0", 
+    "author": [
+      "Doron Behar"
+    ], 
+    "url": "https://gitlab.com/doronbehar/taskwarrior-fzf", 
+    "description": "An fzf based UI for taskwarrior, implemented as a /bin/sh script.", 
+    "obsolete": false, 
+    "last_update": "2020-05-10", 
+    "language": [ "bash" ], 
+    "theme": [], 
+    "descriptionText": "An fzf based UI for taskwarrior, implemented as a /bin/sh script.", 
+    "compatibility": "any", 
+    "url_src": "https://gitlab.com/doronbehar/taskwarrior-fzf"
   }, 
   {
     "category": "Front Ends", 
