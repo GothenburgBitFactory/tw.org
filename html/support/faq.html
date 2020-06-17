@@ -893,7 +893,7 @@ A: The easiest way would be
 task ID modify until:-1d
 It will be deleted the next time you run a report.
 
-A: I've noticed that the recurring task templates do not in fact expire, though the individual task instances do. That means that periodically you should do `task status:recurring until.before:today ids` to list the IDs of expired templates, then either delete them manually from .task/pending.data or write a script to do so (using an editor like Vim makes the manual deletion easy).
+A: I've noticed that the recurring task templates do not in fact expire, though the individual task instances do. That means that periodically you should do <code>task status:recurring until.before:today ids</code> to list the IDs of expired templates, then either delete them manually from .task/pending.data or write a script to do so (using an editor like Vim makes the manual deletion easy).
 
 A: You can clear the "Recur:" field when editing the specific parent task with
 
@@ -917,7 +917,7 @@ How do you run a report listing recurring task templates?
 A: Using the built in reports:
 
 task status:recurring all
-Note that you have to use `all` because the rest of the built in reports impose a status filter like `status:pending` or similar.
+Note that you have to use <code>all</code> because the rest of the built in reports impose a status filter like <code>status:pending</code> or similar.
 
 You could also use a custom report, such as the following
 
@@ -927,7 +927,7 @@ report.templates.labels=id,Pri,Due,Urg,Proj,Desc
 report.templates.sort=id+
 report.templates.filter=status:recurring
 
-A: As a hack, you can also use `task status:recurring or status:recurring list`, which would translate to the filter `status:pending and status:recurring or status:recurring`.
+A: As a hack, you can also use <code>task status:recurring or status:recurring list</code>, which would translate to the filter <code>status:pending and status:recurring or status:recurring</code>.
 
 A: 'info' and 'export' also have no filter.
 </pre>
@@ -938,7 +938,7 @@ Q: Filter only pending tasks
 I thought about using a virtual tag, but there is nothing like +PENDING.
 
 
-I have lots of recurring tasks that I want to delete in batch, but `task <taskname>` returns the completed ones, too and I don’t want to delete these.
+I have lots of recurring tasks that I want to delete in batch, but <code>task &lt;taskname&gt;</code> returns the completed ones, too and I don’t want to delete these.
 
 A: A +PENDING virtual tag is a good idea. It would make a nice feature request.
 
@@ -975,7 +975,7 @@ A: It's better because it is fewer character to type, and therefore less prone t
 </pre>
 
 <pre>
-Q: How does `task log Do something` affect done/delete ratio?
+Q: How does <code>task log Do something</code> affect done/delete ratio?
 
 A: "task log Did something" would create the task and mark it completed in one step.
 
@@ -1689,7 +1689,7 @@ A: how is this with version 2.5.1 (unfortunately I cant use Timewarrior with Tas
 task 54 mod start:161213_0700
 works (with dateformat yMD_HN), regardles if the stask is active or non-active, thats nice.
 
-But `task 54 mod stop:161213_0710` does not work. How can that be done?
+But <code>task 54 mod stop:161213_0710</code> does not work. How can that be done?
 </pre>
 
 <pre>
@@ -2488,7 +2488,7 @@ I have a parent recurring task that has been deleted but it is still present in 
 [description:"pay the rent" due:"1353387600" entry:"1351944626" mask:"++++++++++++++++XXXXXXXX" modified:"1411263554" recur:"monthly" status:"recurring" uuid:"23c826a7-c936-49ed-9d44-1af8ee829142"]
  
 
-When I type `task recurring`, this task does not show up but it stills creates a monthly task. Is it safe to delete the corresponding line in the pending.data file or else how can I delete this recurring task?
+When I type <code>task recurring</code>, this task does not show up but it stills creates a monthly task. Is it safe to delete the corresponding line in the pending.data file or else how can I delete this recurring task?
 
  
 
@@ -2549,7 +2549,7 @@ message or in case the querry has a result, only "There are local changes.  Sync
 This output does not seem to be a result that is directly delivered by the query otherwise it would be part of  the result object in the Python Script. Instead it appears wherever the script was called (For this example it is the zsh Prompt) while the resulting list of tasks is delived to the resulting oject in the python script.
 How is it possible to avoid this sideeffect?
 
-A: if you don't want to have the value set in your taskrc, you can override it at runtime with do something like `task +ACTIVE status:pending count rc.verbose=off`.
+A: if you don't want to have the value set in your taskrc, you can override it at runtime with do something like <code>task +ACTIVE status:pending count rc.verbose=off</code>.
 
 A: I would recommend you to use tasklib python library for the job:
 
@@ -2666,7 +2666,7 @@ Q: Filter by end/entry/modified date
 Filtering tasks by due date seems to work pretty well:
 
 task status:pending due:2014-10-02
-But similar queries for `end`, `entry` or `modified` date fields don't work, e.g. if I want to get a list of all tasks that are completed and have their end date of Sept 30:
+But similar queries for <code>end</code>, <code>entry</code> or <code>modified</code> date fields don't work, e.g. if I want to get a list of all tasks that are completed and have their end date of Sept 30:
 
 task status:completed end:2014-09-30
 Any ideas how to do this? or is filtering by these date fields not supported?
@@ -3059,7 +3059,7 @@ See the "/" at the end of "project+/"?  That means break on project.  Remove tha
 <pre>
 Q: How can I sort by most recently added tasks?
 
-I would like to sort the output of`task list` with the most recently added tasks appearing at the bottom. Is this possible?
+I would like to sort the output of <code>task list</code> with the most recently added tasks appearing at the bottom. Is this possible?
 
 A: Yes, try this asa one-off:
 
@@ -3072,7 +3072,7 @@ $ task config report.list.sort entry+
 <pre>
 Q: How do I stop a recurrence?
 
-If I have a recurring task, how do I stop it from recurring? I know about the `until` keyword, but that presumes that I know ahead of time that the recurrence will stop. How do I stop a recurring task retroactively, as it were? Is it just a matter of setting an `until` in the past?
+If I have a recurring task, how do I stop it from recurring? I know about the <code>until</code> keyword, but that presumes that I know ahead of time that the recurrence will stop. How do I stop a recurring task retroactively, as it were? Is it just a matter of setting an <code>until</code> in the past?
 
 A: Try this:
 
@@ -3289,7 +3289,7 @@ If you need more, then yes, and on-add hook would be needed.
 <pre>
 Q: How to copy group of tasks?
 
-I have a rather large set of tasks (~30) grouped in a tasklist, e.g. project:server1 (or tag +server1). Now I want to copy this taskset into another project (or tag), e.g. project:server2. How this can be done aside from manually adding each task using `task add` command?
+I have a rather large set of tasks (~30) grouped in a tasklist, e.g. project:server1 (or tag +server1). Now I want to copy this taskset into another project (or tag), e.g. project:server2. How this can be done aside from manually adding each task using <code>task add</code> command?
 
 Use case is quite simple: I have a tasklist to setup one server, I'd like to copy it, edit a bit and use to setup another system and so on. Each host can be processed independently, so single taskset can't be reused here.
 
@@ -3381,7 +3381,7 @@ I'm newly trying out taskwarrior and can see a lot of benefits in its CLI-based 
 
 However I also think it'd be great to enable more web-based/mobile/etc. clients too.  Clearly, some variety of these already exist, but it looks like joining a web API back-end (e.g. REST) to taskwarrior is tedious and pretty error-prone: it either implies execing a task process per API call and taking a lot of care on command line arguments, and/or JSON export/import, or manually working the *.data files (bad, clearly).
 
-It looks like there's quite a lot of reinventing the wheel going on for this across different higher level languages (Python bindings, Ruby, Node, etc., all effectively making system() calls to run `task` AFAICS).  Linking things up to get the benefits of the taskwarrior filter syntax/grammar seems to have been beyond many client-facing add-on apps.  FWIW it also looks like tasksh is going down the same routes.
+It looks like there's quite a lot of reinventing the wheel going on for this across different higher level languages (Python bindings, Ruby, Node, etc., all effectively making system() calls to run <code>task</code> AFAICS).  Linking things up to get the benefits of the taskwarrior filter syntax/grammar seems to have been beyond many client-facing add-on apps.  FWIW it also looks like tasksh is going down the same routes.
 
 IMO it would be really nice to be able to separate task into two pieces - the CLI client with its stable commands, and an in-process library with the back-end engine pieces.  That would make it easier to embed taskwarrior securely into "web" back-end languages (for example) and also hopefully encourage development of a standard API, even standard RESTful API, for tasks, annotations, tags, etc.
 
@@ -3451,11 +3451,11 @@ task2
 	kee3
  
 
-I know I can represent subprojects with task1.bar but many of these task have common characteristics such as `project:SuperMegaProject`.
+I know I can represent subprojects with task1.bar but many of these task have common characteristics such as <code>project:SuperMegaProject</code>.
 
  
 
-What would be a good way to import the list above into task including all its dependencies without doing `task add project:SuperMegaProject.task1.bar bar1` for each item?
+What would be a good way to import the list above into task including all its dependencies without doing <code>task add project:SuperMegaProject.task1.bar bar1</code> for each item?
 
 A: You could use tags. They're very general in purpose. I use some common tags like +bug or +feature but they are a great way to tie projects together too. I might have projects foo and bar independently but I may also want a baz sub-project to both foo and bar yet not want to have baz as a project in and of itself, so I would just tag certain tasks belonging to foo or bar with +baz.
 </pre>
@@ -3505,7 +3505,7 @@ Q: Non-cumulative burndown report
 
 Hi, I have been using taskwarrior for almost a month now and I am really enjoying it! It is the only task program I have managed to stick with recently, and I don't see any reason for me to stop anytime soon (apart from me just jinxing it). So thanks for a great program!
 
-To the actual question; is it possible to create a non-cumulative burndown report? I mostly use `burndown.daily` and while the current report is already very useful, it would be well complemented by a non-cumulative report, which would facilitate identifying peaks and trends in the amount of tasks created and completed each day or week. With the cumulative report it gets a little difficult to notice just a few additions/completions since they are contrasted with all the tasks ever added/completed. E.g. with around 50 tasks done and pending, it is difficult to see the impact I get from completing 1 extra task today, but that extra task would seem more important if I was only comparing it with what I did yesterday.
+To the actual question; is it possible to create a non-cumulative burndown report? I mostly use <code>burndown.daily</code> and while the current report is already very useful, it would be well complemented by a non-cumulative report, which would facilitate identifying peaks and trends in the amount of tasks created and completed each day or week. With the cumulative report it gets a little difficult to notice just a few additions/completions since they are contrasted with all the tasks ever added/completed. E.g. with around 50 tasks done and pending, it is difficult to see the impact I get from completing 1 extra task today, but that extra task would seem more important if I was only comparing it with what I did yesterday.
 
 A: There isn't a non-cumulative variation of the burndown chart.
 
@@ -3891,7 +3891,7 @@ Timewarrior is very neat. I can modify today's tasks easily by first getting the
 A: OK, I know I can shorten it for the adequate number of hours if it still remains on today's list (i.e. started at 00:00). Say I have task from yesterday starting at 22:00, completed at 22:30 and I forgot to complete it in taskwarrior. I remember about this today at 10:30. If I do:
 
 timew status :ids
-It will give me the task ID of `@1` and it would have duration for 10 hours and 30 minutes. (Which is slightly misleading - it only has this duration because it is counted from 00:00). I can shorten it properly by doing:
+It will give me the task ID of <code>@1</code> and it would have duration for 10 hours and 30 minutes. (Which is slightly misleading - it only has this duration because it is counted from 00:00). I can shorten it properly by doing:
 
 timew shorten @1 13.5h
 It will correctly make the task 30 minutes long in timewarrior and it will no longer be on today's list. If I still need to adjust this yesterday's  task, I cannot do it.
@@ -4203,7 +4203,7 @@ $ task project:Home.Garden list
 ...
 you will see two tasks, because the project filter performs a leftmost match.
 
-A: In addition to xxx's answer, subtasks will also show up as indented under their Main task when running a command like `task summary`:
+A: In addition to xxx's answer, subtasks will also show up as indented under their Main task when running a command like <code>task summary</code>:
 
 Home
     Garden
@@ -4357,7 +4357,7 @@ Q: How can I get completion for completed projects ?
 
  think that's a feature, but it actually annoys me.
 
-When I type `task add project:xxx<TAB>`, xxx gets completed if there's an uncompleted task; however, it doesn't happen if there's no active task in the project even though it exists.
+When I type <code>task add project:xxx&lt;TAB&gt;</code>, xxx gets completed if there's an uncompleted task; however, it doesn't happen if there's no active task in the project even though it exists.
 
 A: Read 'man taskrc' and look for the 'list.all.projects' setting.
 
