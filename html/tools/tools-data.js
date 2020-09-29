@@ -8052,5 +8052,25 @@
     "url_src": "https://github.com/lauft/timew-report", 
     "compatibility": "2.4.1+", 
     "name": "timew-report"
+  },
+  {
+    "author": [
+      "StephanMeijer"
+    ],
+    "category": "Unknown",
+    "compatibility": "2.4.1+",
+    "description": "Tooling to create reports from TaskWarrior using Mozilla Nunjucks.",
+    "descriptionText": "Tooling to create reports from TaskWarrior using Mozilla Nunjucks.",
+    "language": [
+      "JavaScript"
+    ],
+    "last_update": "2020-09-06 23:45:00",
+    "license": "MIT License",
+    "name": "ReportWarrior",
+    "obsolete": false,
+    "stars": 1,
+    "theme": [],
+    "url": "https://github.com/StephanMeijer/ReportWarrior",
+    "url_src": "https://github.com/StephanMeijer/ReportWarrior"
   }
 ]
