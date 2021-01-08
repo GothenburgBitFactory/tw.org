@@ -27,7 +27,7 @@ def search_github(client, keyword):
     """ Search GitHub for repos where `keyword` is contained in the description or name. """
     results = []
 
-    query = '%s+in:description,name' % keyword
+    query = '%s+in:description,name,topic' % keyword
     for repo in client.search_repositories(query, sort='stars', order='desc'):
         results.append(from_github_repo(repo))
 
