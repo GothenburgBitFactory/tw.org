@@ -68,7 +68,6 @@ function ToolsViewModel() {
         self.authors.sort();
     });
 
-
     // The category selector can be bookmarked
     var path = decodeURI(location.hash.substr(1).split('?')[0]);
     self.CategoriesSelected = path.length > 3  ? ko.observableArray([path]) : ko.observableArray([]);
@@ -82,7 +81,6 @@ function ToolsViewModel() {
         }
     });
 
-
     // The Theme selector
     self.ThemesSelected = ko.observableArray([]);
     self.selectedAllTheme = ko.pureComputed({
@@ -95,9 +93,7 @@ function ToolsViewModel() {
         }
     });
 
-
     self.ObsoleteSelected = ko.observable(false);
-
 
     // The Language selector
     self.LanguagesSelected = ko.observableArray([]);
@@ -126,7 +122,6 @@ function ToolsViewModel() {
     // the search field
     self.query = ko.observable('');
 
-
     // The printed tool list:
     self.filteredTools = ko.computed(
         function() {
@@ -139,6 +134,7 @@ function ToolsViewModel() {
                     var isLanguageIn = (self.LanguagesSelected().length == 0) ||  self.LanguagesSelected().some(function (elem) { return tool.language.includes(elem)} );
                     var isAuthorIn = (self.AuthorsSelected().length == 0) ||  self.AuthorsSelected().some(function (elem) { return tool.author.includes(elem)} );
                     var isQuery = (self.query().length == 0)
+                            || (tool.name && tool.name.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
                             || (tool.description && tool.description.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
                             || (tool.license && tool.license.toLowerCase().indexOf( self.query().toLowerCase() ) > -1)
                             || (tool.author && tool.author.join().toLowerCase().indexOf( self.query().toLowerCase() ) > -1);
@@ -146,8 +142,7 @@ function ToolsViewModel() {
                 } ).sort(sort_by_rating);
         }
     );
-
 }
+
 ko.options.deferUpdates = true;
 ko.applyBindings(new ToolsViewModel());
-
