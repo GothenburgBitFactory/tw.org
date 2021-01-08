@@ -9,6 +9,10 @@
         "url": "https://github.com/BrunoVernay/tw-html-parse"
     },
     {
+        "url": "https://github.com/taskwarrior/task",
+        "note": "Placeholder repository for taskwarrior"
+    },
+    {
         "url": "https://github.com/GothenburgBitFactory/taskwarrior",
         "note": "Taskwarrior repository"
     },
