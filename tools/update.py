@@ -154,4 +154,3 @@ if __name__ == '__main__':
     # Remove duplicates and output
     repos = filter_repos(repos)
     json.dump(repos, fout, indent=2, sort_keys=True, default=str)
-
