@@ -12,7 +12,6 @@ function Tool(data) {
     this.url_src = data.url_src;
     this.license = data.license;
     this.author = data.author;
-    this.compatibility = data.compatibility;
     this.language = data.language;
     this.obsolete = data.obsolete;
     this.theme = data.theme;
@@ -39,6 +38,7 @@ function ToolsViewModel() {
         var uniqueTheme = {};
         var uniqueLanguage = {};
         var uniqueAuthor = {};
+
         for( var i in mappedTools ){
             if( typeof(uniqueCategory[mappedTools[i].category]) == "undefined"){
                 self.categories.push(mappedTools[i].category);
@@ -63,6 +63,7 @@ function ToolsViewModel() {
                 uniqueAuthor[mappedTools[i].author[j]] = 0;
             }
         }
+
         self.tools(mappedTools);
         self.tools.sort(function (left, right) { return left.name == right.name ? 0 : (left.name < right.name ? -1 : 1) });
         self.authors.sort();
