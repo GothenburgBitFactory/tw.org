@@ -81,8 +81,13 @@
         <div class="col-md-2 main">
           <div class="well">
             <fieldset>
-              <div><legend style="margin-bottom: 0px">Search</legend>
-                <input type="search" class="form-control"  placeholder="Search &hellip;" data-bind="textInput: query" autocomplete="off" />
+              <legend style="margin-bottom: 0px">Search</legend>
+              <input type="search" class="form-control"  placeholder="Search &hellip;" data-bind="textInput: query" autocomplete="off" />
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox" data-bind="checked: ObsoleteSelected"/>
+                  <small>Include obsolete projects</small>
+                </label>
               </div>
             </fieldset>
           </div>
@@ -123,9 +128,6 @@
             </fieldset>
           </div>
 
-          <div class="well">
-            <label style="font-size: 21px; font-weight: normal">Obsolete <input type="checkbox" data-bind="checked: ObsoleteSelected"/></label>
-          </div>
           <div class="well">
             <fieldset>
               <legend style="margin-bottom: 0px">Language</legend>
