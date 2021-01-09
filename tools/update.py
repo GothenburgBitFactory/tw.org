@@ -41,7 +41,7 @@ def from_github_repo(repo):
     data['author'] = [repo.owner.login]
     data['category'] = 'Unknown'
     data['compatibility'] = '2.4.1+'
-    data['language'] = [repo.language]
+    data['language'] = [repo.language if repo.language is not None else "N/A"]
     data['name'] = repo.name
     data['url'] = data['url_src'] = repo.html_url
     data['obsolete'] = False
