@@ -4,7 +4,6 @@ import datetime
 import json
 import os
 import sys
-import re
 
 from github import Github
 
