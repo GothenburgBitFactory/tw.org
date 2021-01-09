@@ -35,29 +35,29 @@ def search_github(client, keyword):
 
 def from_github_repo(repo):
     """Convert repo object from GitHub v3 API to our own format """
-    data = {}
+    data = {
+        # Base info
+        'author': [repo.owner.login],
+        'category': 'Unknown',
+        'language': [repo.language if repo.language is not None else "N/A"],
+        'name': repo.name,
+        'url': repo.html_url,
+        'url_src': repo.html_url,
+        'obsolete': is_obsolete(repo.updated_at),
+        'stars': repo.stargazers_count,
 
-    # Base info
-    data['author'] = [repo.owner.login]
-    data['category'] = 'Unknown'
-    data['language'] = [repo.language if repo.language is not None else "N/A"]
-    data['name'] = repo.name
-    data['url'] = data['url_src'] = repo.html_url
-    data['obsolete'] = False
-    data['stars'] = repo.stargazers_count
-    # data['verified'] = ...
+        # Oddly the `license` isn't exposed by the library and would
+        # normally require an additional request.
+        'license': repo._rawData['license']['name'] if repo._rawData['license'] else None,
 
-    # Oddly the `license` isn't exposed by the library and would
-    # normally require an additional request.
-    data['license'] = repo._rawData['license']['name'] if repo._rawData['license'] else None
+        # Description and dependent fields
+        'description': repo.description,
+        'descriptionText': repo.description,
+        'theme': get_themes(repo.description),
 
-    # Description and dependent fields
-    data['description'] = data['descriptionText'] = repo.description
-    data['theme'] = get_themes(repo.description)
-
-    # Last update timestamp and dependent fields
-    data['last_update'] = repo.updated_at
-    data['obsolete'] = is_obsolete(repo.updated_at)
+        # Last update timestamp and dependent fields
+        'last_update': repo.updated_at
+    }
 
     return data
 
