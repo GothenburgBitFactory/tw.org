@@ -23,8 +23,24 @@
       - days should be "02", not " 2"
     -->
 
-    <pubDate>Sat, 23 Nov 2019 23:50:00 GMT</pubDate>
-    <lastBuildDate>Sat, 23 Nov 2019 23:50:00 GMT</lastBuildDate>
+    <pubDate>Mon, 25 Jan 2021 00:00:00 GMT</pubDate>
+    <lastBuildDate>Mon, 25 Jan 2021 00:00:00 GMT</lastBuildDate>
+
+    <item>
+      <title>Taskwarrior 2.5.3 Released</title>
+      <link>http://taskwarrior.org/news/news.20210125.html</link>
+      <author>support@taskwarrior.org (Taskwarrior Team)</author>
+      <pubDate>Mon, 25 Jan 00:00:00 GMT</pubDate>
+      <description>
+          Taskwarrior 2.5.3 is released! Too much has happened over the past two years,
+          adding up to over 900 commits between 2.5.2 and 2.5.3.
+
+          The <a href="https://github.com/GothenburgBitFactory/taskwarrior/blob/2f47226f91f0b02f7617912175274d9eed85924f/ChangeLog">full changelog</a>
+          is a <em>very</em> impressive read. <a href="/download/">Download here</a>.
+
+          This is a recommended upgrade for all Taskwarrior users.
+      </description>
+    </item>
 
     <item>
       <title>Timewarrior 1.2.0 Released</title>
