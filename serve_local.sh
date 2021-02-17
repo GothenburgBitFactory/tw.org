@@ -15,6 +15,5 @@ else
     PORT=8000
     echo "If you wish to run the HTTP server on a different port, pass the port as an argument to this script."
 fi
-echo "Serving on 127.0.0.1:$PORT"
 
-python -c "import BaseHTTPServer as bhs, SimpleHTTPServer as shs; bhs.HTTPServer(('127.0.0.1', $PORT), shs.SimpleHTTPRequestHandler).serve_forever()"
+python -m http.server --bind 127.0.0.1 $PORT
