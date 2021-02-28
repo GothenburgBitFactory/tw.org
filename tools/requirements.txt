@@ -1,2 +1,9 @@
-PyGithub==1.43.7
-
+certifi==2020.12.5
+chardet==4.0.0
+Deprecated==1.2.10
+idna==2.10
+PyGithub==1.54.1
+PyJWT==1.7.1
+requests==2.25.1
+urllib3==1.26.2
+wrapt==1.12.1
