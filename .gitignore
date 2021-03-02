@@ -1,5 +1,2 @@
-*.swp
-patches
-
+venv/
 update_tools.sh
-tools/venv
