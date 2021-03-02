@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-  <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <rss version="2.0" xmlns:atom="https://www.w3.org/2005/Atom">
   <channel>
     <title>Taskwarrior News</title>
     <description>Latest news from the Taskwarrior Team</description>
-    <link>http://taskwarrior.org/</link>
+    <link>https://taskwarrior.org/</link>
     <language>en-us</language>
     <copyright>2015 - 2016 Göteborg Bit Factory.</copyright>
     <ttl>60</ttl>
     <managingEditor>support@taskwarrior.org (Taskwarrior Support)</managingEditor>
     <webMaster>support@taskwarrior.org (Taskwarrior Support)</webMaster>
     <image>
-      <url>http://taskwarrior.org/images/tw-m.png</url>
+      <url>https://taskwarrior.org/images/tw-m.png</url>
       <title>Taskwarrior News</title>
-      <link>http://taskwarrior.org/</link>
+      <link>https://taskwarrior.org/</link>
     </image>
     <atom:link href="https://taskwarrior.org/feed.rss" rel="self" type="application/rss+xml" />
 
@@ -28,7 +28,7 @@
 
     <item>
       <title>Taskwarrior 2.5.3 Released</title>
-      <link>http://taskwarrior.org/news/news.20210125.html</link>
+      <link>https://taskwarrior.org/news/news.20210125.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 25 Jan 00:00:00 GMT</pubDate>
       <description>
@@ -44,7 +44,7 @@
 
     <item>
       <title>Timewarrior 1.2.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20180204.html</link>
+      <link>https://taskwarrior.org/news/news.20180204.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 23 Nov 2019 23:50:00 GMT</pubDate>
       <description>
@@ -65,7 +65,7 @@
 
     <item>
       <title>2018 Plans</title>
-      <link>http://taskwarrior.org/news/news.20180204.html</link>
+      <link>https://taskwarrior.org/news/news.20180204.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 04 Feb 2018 13:56:00 GMT</pubDate>
       <description>
@@ -79,7 +79,7 @@
 
     <item>
       <title>Timewarrior 1.1.1 Released</title>
-      <link>http://taskwarrior.org/news/news.20180203.2.html</link>
+      <link>https://taskwarrior.org/news/news.20180203.2.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 03 Feb 2018 21:58:00 GMT</pubDate>
       <description>
@@ -106,7 +106,7 @@
 
     <item>
       <title>Services Migration</title>
-      <link>http://taskwarrior.org/news/news.20180203.html</link>
+      <link>https://taskwarrior.org/news/news.20180203.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 03 Feb 2018 16:29:00 GMT</pubDate>
       <description>
@@ -124,7 +124,7 @@
 
     <item>
       <title>FOSDEM 2018: Taskwarrior Presence</title>
-      <link>http://taskwarrior.org/news/news.20180129.html</link>
+      <link>https://taskwarrior.org/news/news.20180129.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 29 Jan 2018 23:50:00 GMT</pubDate>
       <description>
@@ -146,7 +146,7 @@
 
     <item>
       <title>Activity Digest: May - December 2017</title>
-      <link>http://taskwarrior.org/news/news.20180114.html</link>
+      <link>https://taskwarrior.org/news/news.20180114.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 15 Jan 2018 06:36:00 GMT</pubDate>
       <description>
@@ -167,7 +167,7 @@
 
     <item>
       <title>Timewarrior 1.1.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20180113.html</link>
+      <link>https://taskwarrior.org/news/news.20180113.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 13 Jan 2018 00:30:00 GMT</pubDate>
       <description>
@@ -179,7 +179,7 @@
         reports. Your data is stored locally in clear text. It integrates well
         with Taskwarrior.
 
-        http://taskwarrior.org/news/images/ti.png
+        https://taskwarrior.org/news/images/ti.png
 
         Here are the changes in 1.1.0:
         ...
@@ -188,7 +188,7 @@
 
     <item>
       <title>BYOP Meetup in Gothenburg</title>
-      <link>http://taskwarrior.org/news/news.20170510_2.html</link>
+      <link>https://taskwarrior.org/news/news.20170510_2.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 10 May 2017 21:13:00 GMT</pubDate>
       <description>
@@ -202,7 +202,7 @@
 
     <item>
       <title>Tasksh 1.2.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20170510.html</link>
+      <link>https://taskwarrior.org/news/news.20170510.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 10 May 2017 01:13:00 GMT</pubDate>
       <description>
@@ -220,7 +220,7 @@
 
     <item>
       <title>Activity Digest: April 2017</title>
-      <link>http://taskwarrior.org/news/news.20170509.html</link>
+      <link>https://taskwarrior.org/news/news.20170509.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 09 May 2017 00:51:00 GMT</pubDate>
       <description>
@@ -238,7 +238,7 @@
 
     <item>
       <title>Code Repositories Moved</title>
-      <link>http://taskwarrior.org/news/news.20170402.html</link>
+      <link>https://taskwarrior.org/news/news.20170402.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 03 Apr 2017 00:21:00 GMT</pubDate>
       <description>
@@ -258,7 +258,7 @@
 
     <item>
       <title>Activity Digest: March 2017</title>
-      <link>http://taskwarrior.org/news/news.20170401.html</link>
+      <link>https://taskwarrior.org/news/news.20170401.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 08 Mar 2017 14:54:00 GMT</pubDate>
       <description>
@@ -282,7 +282,7 @@
 
     <item>
       <title>HELLOTUX Shirts</title>
-      <link>http://taskwarrior.org/news/news.20170308.html</link>
+      <link>https://taskwarrior.org/news/news.20170308.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 08 Mar 2017 14:54:00 GMT</pubDate>
       <description>
@@ -298,7 +298,7 @@
 
     <item>
       <title>Activity Digest - February 2017</title>
-      <link>http://taskwarrior.org/news/news.20170301.html</link>
+      <link>https://taskwarrior.org/news/news.20170301.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 01 Mar 2017 12:27:00 GMT</pubDate>
       <description>
@@ -328,7 +328,7 @@
 
     <item>
       <title>Activity Digest - January 2017</title>
-      <link>http://taskwarrior.org/news/news.20170209.html</link>
+      <link>https://taskwarrior.org/news/news.20170209.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 09 Feb 2017 23:30:00 GMT</pubDate>
       <description>
@@ -349,7 +349,7 @@
 
     <item>
       <title>FOSDEM 2017: Reprise</title>
-      <link>http://taskwarrior.org/news/news.20170208.html</link>
+      <link>https://taskwarrior.org/news/news.20170208.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 08 Feb 2017 08:00:00 GMT</pubDate>
       <description>
@@ -374,7 +374,7 @@
 
     <item>
       <title>FOSDEM 2017: Taskwarrior Presence</title>
-      <link>http://taskwarrior.org/news/news.20170113.html</link>
+      <link>https://taskwarrior.org/news/news.20170113.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Fri, 13 Jan 2017 16:22:00 GMT</pubDate>
       <description>
@@ -393,7 +393,7 @@
 
     <item>
       <title>Activity Digest - December 2016</title>
-      <link>http://taskwarrior.org/news/news.20170102.html</link>
+      <link>https://taskwarrior.org/news/news.20170102.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 02 Jan 2017 05:25:00 GMT</pubDate>
       <description>
@@ -413,11 +413,11 @@
 
     <item>
       <title>In-House Talk and Workshop at TNG Technology Consulting</title>
-      <link>http://taskwarrior.org/news/news.20161209.html</link>
+      <link>https://taskwarrior.org/news/news.20161209.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Fri, 09 Dec 2016 14:12:00 GMT</pubDate>
       <description>
-        http://www.tngtech.com
+        https://www.tngtech.com
 
         TNG Technology Consulting GmbH, of Unterföhring Germany, hosted an
         internal event "Techday" on December 9th, which is a regular
@@ -434,7 +434,7 @@
 
     <item>
       <title>Activity Digest - November 2016</title>
-      <link>http://taskwarrior.org/news/news.20161203.html</link>
+      <link>https://taskwarrior.org/news/news.20161203.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 03 Dec 2016 17:54:14 GMT</pubDate>
       <description>
@@ -447,7 +447,7 @@
 
     <item>
       <title>Resolving with dnsimple</title>
-      <link>http://taskwarrior.org/news/news.20161116.html</link>
+      <link>https://taskwarrior.org/news/news.20161116.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 16 Nov 2016 17:33:14 GMT</pubDate>
       <description>
@@ -463,7 +463,7 @@
 
     <item>
       <title>Activity Digest - October 2016</title>
-      <link>http://taskwarrior.org/news/news.20161102.html</link>
+      <link>https://taskwarrior.org/news/news.20161102.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 02 Nov 2016 20:34:00 GMT</pubDate>
       <description>
@@ -478,7 +478,7 @@
 
     <item>
       <title>Activity Digest - September 2016</title>
-      <link>http://taskwarrior.org/news/news.20161002.html</link>
+      <link>https://taskwarrior.org/news/news.20161002.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 02 Oct 2016 05:34:00 GMT</pubDate>
       <description>
@@ -491,7 +491,7 @@
 
     <item>
       <title>Tasksh 1.1.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20160905.2.html</link>
+      <link>https://taskwarrior.org/news/news.20160905.2.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 05 Sep 2016 19:47:00 GMT</pubDate>
       <description>
@@ -505,7 +505,7 @@
 
     <item>
       <title>Activity Digest - August 2016</title>
-      <link>http://taskwarrior.org/news/news.20160905.html</link>
+      <link>https://taskwarrior.org/news/news.20160905.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 05 Sep 2016 15:39:00 GMT</pubDate>
       <description>
@@ -517,7 +517,7 @@
 
     <item>
       <title>FrOSCon 2016 Materials Online</title>
-      <link>http://taskwarrior.org/news/news.20160824.html</link>
+      <link>https://taskwarrior.org/news/news.20160824.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 24 Aug 2016 03:09:00 GMT</pubDate>
       <description>
@@ -531,7 +531,7 @@
 
     <item>
       <title>Timewarrior 1.0.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20160821.html</link>
+      <link>https://taskwarrior.org/news/news.20160821.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 21 Aug 2016 14:40:00 GMT</pubDate>
       <description>
@@ -545,7 +545,7 @@
 
     <item>
       <title>FrOSCon 2016 - Taskwarrior Coverage</title>
-      <link>http://taskwarrior.org/news/news.20160813.html</link>
+      <link>https://taskwarrior.org/news/news.20160813.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 13 Aug 2016 14:04:00 GMT</pubDate>
       <description>
@@ -559,7 +559,7 @@
 
     <item>
       <title>Activity Digest - July 2016</title>
-      <link>http://taskwarrior.org/news/news.20160810.html</link>
+      <link>https://taskwarrior.org/news/news.20160810.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 10 Jul 2016 01:46:54 GMT</pubDate>
       <description>
@@ -569,7 +569,7 @@
 
     <item>
       <title>Timewarrior 1.0.0 Beta Release</title>
-      <link>http://taskwarrior.org/news/news.20160725.html</link>
+      <link>https://taskwarrior.org/news/news.20160725.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 25 Jul 2016 22:00:00 GMT</pubDate>
       <description>
@@ -583,12 +583,12 @@
 
     <item>
       <title>Activity Digest - June 2016</title>
-      <link>http://taskwarrior.org/news/news.20160707.html</link>
+      <link>https://taskwarrior.org/news/news.20160707.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 07 Jun 2016 04:44:54 GMT</pubDate>
       <description>
         The main focus for June is getting Timewarrior
-        (http://timewarrior.net/docs/index.html)
+        (https://timewarrior.net/docs/index.html)
         ready for an alpha, and subsequent beta release. The purpose of an alpha release is to
         gather feedback that guides the subsequent beta release. Timewarrior
         is a new project that introduces new concepts. This new functionality
@@ -601,7 +601,7 @@
 
     <item>
       <title>Clog 1.3.0 Release</title>
-      <link>http://taskwarrior.org/news/news.20160627.html</link>
+      <link>https://taskwarrior.org/news/news.20160627.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 27 Jun 2016 23:02:00 GMT</pubDate>
       <description>
@@ -610,7 +610,7 @@
         This release is a recommended upgrade.
 
         The release is immediately available as a source tarball
-        (http://gothenburgbitfactory.org/download/clog-latest.tar.gz).
+        (https://gothenburgbitfactory.org/download/clog-latest.tar.gz).
 
         Clog has a full set of online documentation
         (https://taskwarrior.org/docs/clog).
@@ -619,7 +619,7 @@
 
     <item>
       <title>Timewarrior 0.9.5 Alpha Release Digest</title>
-      <link>http://taskwarrior.org/news/news.20160620.html</link>
+      <link>https://taskwarrior.org/news/news.20160620.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 20 Jun 2016 23:41:00 GMT</pubDate>
       <description>
@@ -634,7 +634,7 @@
 
     <item>
       <title>Activity Digest - May 2016</title>
-      <link>http://taskwarrior.org/news/news.20160604.html</link>
+      <link>https://taskwarrior.org/news/news.20160604.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 04 Jun 2016 14:08:00 GMT</pubDate>
       <description>
@@ -656,7 +656,7 @@
 
     <item>
       <title>Taskwarrior Tools Search</title>
-      <link>http://taskwarrior.org/news/news.20160522.html</link>
+      <link>https://taskwarrior.org/news/news.20160522.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 22 May 2016 19:29:00 GMT</pubDate>
       <description>
@@ -672,7 +672,7 @@
 
     <item>
       <title>Timewarrior Preview</title>
-      <link>http://taskwarrior.org/news/news.20160514.html</link>
+      <link>https://taskwarrior.org/news/news.20160514.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 15 May 2016 03:12:00 GMT</pubDate>
       <description>
@@ -682,7 +682,7 @@
 
     <item>
       <title>Activity Digest - April 2016</title>
-      <link>http://taskwarrior.org/news/news.20160501.html</link>
+      <link>https://taskwarrior.org/news/news.20160501.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 01 May 2016 14:45:00 GMT</pubDate>
       <description>
@@ -694,7 +694,7 @@
 
     <item>
       <title>Taskwarrior running under "Bash on Ubuntu on Windows"</title>
-      <link>http://taskwarrior.org/news/news.20160407.html</link>
+      <link>https://taskwarrior.org/news/news.20160407.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 07 Apr 2016 23:59:31 GMT</pubDate>
       <description>
@@ -708,7 +708,7 @@
 
     <item>
       <title>Activity Digest - March 2016</title>
-      <link>http://taskwarrior.org/news/news.20160401.html</link>
+      <link>https://taskwarrior.org/news/news.20160401.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Fri, 01 Apr 2016 01:29:31 GMT</pubDate>
       <description>
@@ -720,7 +720,7 @@
 
     <item>
       <title>Activity Digest - February 2016</title>
-      <link>http://taskwarrior.org/news/news.20160301.html</link>
+      <link>https://taskwarrior.org/news/news.20160301.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 22 Mar 2016 13:33:54 GMT</pubDate>
       <description>
@@ -732,7 +732,7 @@
 
     <item>
       <title>Using Dates Effectively</title>
-      <link>http://taskwarrior.org/docs/using_dates.html</link>
+      <link>https://taskwarrior.org/docs/using_dates.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 27 Feb 2016 19:39:00 GMT</pubDate>
       <description>
@@ -752,7 +752,7 @@
 
     <item>
       <title>Taskwarrior for Android Released</title>
-      <link>http://taskwarrior.org/news/news.20160225.html</link>
+      <link>https://taskwarrior.org/news/news.20160225.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 25 Feb 2016 23:34:00 GMT</pubDate>
       <description>
@@ -767,7 +767,7 @@
 
     <item>
       <title>Taskwarrior 2.5.1 Released</title>
-      <link>http://taskwarrior.org/news/news.20160224.html</link>
+      <link>https://taskwarrior.org/news/news.20160224.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 24 Feb 2016 22:34:00 GMT</pubDate>
       <description>
@@ -779,7 +779,7 @@
 
     <item>
       <title>Taskwarrior Workflow Study</title>
-      <link>http://taskwarrior.org/news/news.20160209.html</link>
+      <link>https://taskwarrior.org/news/news.20160209.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 09 Feb 2016 22:59:00 GMT</pubDate>
       <description>
@@ -795,7 +795,7 @@
 
     <item>
       <title>Taskwarrior 2.5.1 Beta Released</title>
-      <link>http://taskwarrior.org/news/news.20160205.html</link>
+      <link>https://taskwarrior.org/news/news.20160205.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Fri, 05 Feb 2016 22:27:00 GMT</pubDate>
       <description>
@@ -807,7 +807,7 @@
 
     <item>
       <title>Activity Digest - January 2016</title>
-      <link>http://taskwarrior.org/news/news.20160201.html</link>
+      <link>https://taskwarrior.org/news/news.20160201.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 01 Feb 2016 15:22:00 GMT</pubDate>
       <description>
@@ -819,7 +819,7 @@
 
     <item>
       <title>Activity Digest - December 2015</title>
-      <link>http://taskwarrior.org/news/news.20160101.html</link>
+      <link>https://taskwarrior.org/news/news.20160101.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 01 Feb 2016 15:21:00 GMT</pubDate>
       <description>
@@ -831,7 +831,7 @@
 
     <item>
       <title>Activity Digest - November 2015</title>
-      <link>http://taskwarrior.org/news/news.20151201.html</link>
+      <link>https://taskwarrior.org/news/news.20151201.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 01 Dec 2015 14:12:00 GMT</pubDate>
       <description>
@@ -843,7 +843,7 @@
 
     <item>
       <title>Cygwin Package Maintainer Needed</title>
-      <link>http://taskwarrior.org/news/news.20151101.html</link>
+      <link>https://taskwarrior.org/news/news.20151101.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 01 Nov 2015 16:36:00 GMT</pubDate>
       <description>
@@ -860,7 +860,7 @@
 
     <item>
       <title>Activity Digest - October 2015</title>
-      <link>http://taskwarrior.org/news/news.20151101.html</link>
+      <link>https://taskwarrior.org/news/news.20151101.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 01 Nov 2015 00:00:00 GMT</pubDate>
       <description>
@@ -872,7 +872,7 @@
 
     <item>
       <title>Taskwarrior Mailing Lists</title>
-      <link>http://taskwarrior.org/news/news.20151029.html</link>
+      <link>https://taskwarrior.org/news/news.20151029.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 29 Oct 2015 23:59:00 GMT</pubDate>
       <description>
@@ -886,7 +886,7 @@
 
     <item>
       <title>Taskwarrior 2.5.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20151021.html</link>
+      <link>https://taskwarrior.org/news/news.20151021.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 21 Oct 2015 23:46:00 GMT</pubDate>
       <description>
@@ -903,14 +903,14 @@
 
     <item>
       <title>Taskwarrior 2.5.0 beta3 Released</title>
-      <link>http://taskwarrior.org/news/news.20151017.html</link>
+      <link>https://taskwarrior.org/news/news.20151017.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 17 Oct 2015 21:22:44 GMT</pubDate>
       <description>
         A new beta3 is available for the upcoming 2.5.0 release.
 
         The beta is immediately available as a source tarball
-        (http://taskwarrior.org/download/task-latest.tar.gz)
+        (https://taskwarrior.org/download/task-latest.tar.gz)
 
         Edit: Updated to release tarball
       </description>
@@ -918,14 +918,14 @@
 
     <item>
       <title>Clog 1.2.1 Released</title>
-      <link>http://taskwarrior.org/news/news.20151012.html</link>
+      <link>https://taskwarrior.org/news/news.20151012.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 12 Oct 2015 21:18:26 GMT</pubDate>
       <description>
         Clog 1.2.1 is released, due to a problem with OSX and Xcode 7.
 
         The release is immediately available as a source tarball
-        (http://gothenburgbitfactory.org/download/clog-latest.tar.gz)
+        (https://gothenburgbitfactory.org/download/clog-latest.tar.gz)
         Edit: Updated to latest tarball)
 
         Clog is a colorized log tail utility. It can spot patterns in an
@@ -936,7 +936,7 @@
 
     <item>
       <title>Activity Digest - September 2015</title>
-      <link>http://taskwarrior.org/news/news.20151001.html</link>
+      <link>https://taskwarrior.org/news/news.20151001.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 01 Oct 2015 02:56:21 GMT</pubDate>
       <description>
@@ -948,7 +948,7 @@
 
     <item>
       <title><strike>answers.gothenburgbitfactory.org Online</strike></title>
-      <link>http://taskwarrior.org/news/news.20150929.html</link>
+      <link>https://taskwarrior.org/news/news.20150929.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 29 Sep 2015 23:55:55 GMT</pubDate>
       <description>
@@ -963,7 +963,7 @@
 
     <item>
       <title>Clog 1.2.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20150927.html</link>
+      <link>https://taskwarrior.org/news/news.20150927.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 26 Sep 2015 23:08:55 GMT</pubDate>
       <description>
@@ -971,7 +971,7 @@
         bug fixes.
 
         The release is immediately available as a source tarball
-        http://gothenburgbitfactory.org/download/clog-latest.tar.gz
+        https://gothenburgbitfactory.org/download/clog-latest.tar.gz
         (Edit: Updated to latest tarball)
 
         Clog is a colorized log tail utility. It can spot patterns in an
@@ -982,14 +982,14 @@
 
     <item>
       <title>Vramsteg 1.1.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20150926.html</link>
+      <link>https://taskwarrior.org/news/news.20150926.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 26 Sep 2015 23:08:54 GMT</pubDate>
       <description>
         Vramsteg 1.1.0 is released, with bug fixes and 64-bit value support.
 
         The release is immediately available as a source tarball
-        http://gothenburgbitfactory.org/download/vramsteg-latest.tar.gz
+        https://gothenburgbitfactory.org/download/vramsteg-latest.tar.gz
         Edit: Updated to latest tarball
 
         Vramsteg, from the Swedish framsteg (progress), is a CLI progress
@@ -1000,7 +1000,7 @@
 
     <item>
       <title>Taskwarrior 2.5.0 beta2 Released</title>
-      <link>http://taskwarrior.org/news/news.20150916.html</link>
+      <link>https://taskwarrior.org/news/news.20150916.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 16 Sep 2015 21:09:40 GMT</pubDate>
       <description>
@@ -1010,7 +1010,7 @@
 
     <item>
       <title>Taskwarrior 2.5.0 beta1 Released</title>
-      <link>http://taskwarrior.org/news/news.20150907.html</link>
+      <link>https://taskwarrior.org/news/news.20150907.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 07 Sep 2015 21:29:40 GMT</pubDate>
       <description>
@@ -1029,7 +1029,7 @@
 
     <item>
       <title>Activity Digest - August 2015</title>
-      <link>http://taskwarrior.org/news/news.20150901.html</link>
+      <link>https://taskwarrior.org/news/news.20150901.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 02 Sep 2015 02:26:21 GMT</pubDate>
       <description>
@@ -1041,7 +1041,7 @@
 
     <item>
       <title>Activity Digest - July 2015</title>
-      <link>http://taskwarrior.org/news/news.20150801.html</link>
+      <link>https://taskwarrior.org/news/news.20150801.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 01 Aug 2015 03:01:25 GMT</pubDate>
       <description>
@@ -1053,7 +1053,7 @@
 
     <item>
       <title>Activity Digest - June 2015</title>
-      <link>http://taskwarrior.org/news/news.20150701.html</link>
+      <link>https://taskwarrior.org/news/news.20150701.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 01 Jul 2015 21:46:00 GMT</pubDate>
       <description>
@@ -1065,7 +1065,7 @@
 
     <item>
       <title>GTD With Taskwarrior - a tutorial series</title>
-      <link>http://taskwarrior.org/news/news.20150627.html</link>
+      <link>https://taskwarrior.org/news/news.20150627.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 27 Jun 2015 20:30:00 GMT</pubDate>
       <description>
@@ -1073,25 +1073,25 @@
         he uses GTD with Taskwarrior. The first five articles are up:
 
         Part 1 - Intro
-        http://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro.html
+        https://cs-syd.eu/posts/2015-06-14-gtd-with-taskwarrior-part-1-intro.html
 
         Part 2 - Collection
-        http://cs-syd.eu/posts/2015-06-21-gtd-with-taskwarrior-part-2-collection.html
+        https://cs-syd.eu/posts/2015-06-21-gtd-with-taskwarrior-part-2-collection.html
 
         Part 3 - Tickling
-        http://cs-syd.eu/posts/2015-06-28-gtd-with-taskwarrior-part-3-tickling.html
+        https://cs-syd.eu/posts/2015-06-28-gtd-with-taskwarrior-part-3-tickling.html
 
         Part 4 - Processing
-        http://cs-syd.eu/posts/2015-07-05-gtd-with-taskwarrior-part-4-processing.html
+        https://cs-syd.eu/posts/2015-07-05-gtd-with-taskwarrior-part-4-processing.html
 
         Part 5 - Doing
-        http://cs-syd.eu/posts/2015-07-12-gtd-with-taskwarrior-part-5-doing.html
+        https://cs-syd.eu/posts/2015-07-12-gtd-with-taskwarrior-part-5-doing.html
       </description>
     </item>
 
     <item>
       <title>Activity Digest - May 2015</title>
-      <link>http://taskwarrior.org/news/news.20150601.html</link>
+      <link>https://taskwarrior.org/news/news.20150601.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 01 Jun 2015 20:53:00 GMT</pubDate>
       <description>
@@ -1103,19 +1103,19 @@
 
     <item>
       <title>Taskwarrior Live Demo</title>
-      <link>http://taskwarrior.org/news/news.20150524.html</link>
+      <link>https://taskwarrior.org/news/news.20150524.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 24 May 2015 16:05:00 GMT</pubDate>
       <description>
         Try Taskwarrior live in よour browser:
-        http://wbsch.de/jswarrior/
+        https://wbsch.de/jswarrior/
         https://tsakwarrior.org/news/images/live_demo.png
       </description>
     </item>
 
     <item>
       <title>Taskserver 1.1.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20150511.html</link>
+      <link>https://taskwarrior.org/news/news.20150511.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 11 May 2015 00:00:00 GMT</pubDate>
       <description>
@@ -1136,7 +1136,7 @@
 
     <item>
       <title>Taskwarrior 2.4.4 Released</title>
-      <link>http://taskwarrior.org/news/news.20150510.html</link>
+      <link>https://taskwarrior.org/news/news.20150510.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 10 May 2015 23:00:00 GMT</pubDate>
       <description>
@@ -1158,7 +1158,7 @@
 
     <item>
       <title>Tasksh in Homebrew</title>
-      <link>http://taskwarrior.org/news/news.20150509.html</link>
+      <link>https://taskwarrior.org/news/news.20150509.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 09 May 2015 17:05:00 GMT</pubDate>
       <description>
@@ -1181,14 +1181,14 @@
 
     <item>
       <title>Taskserver 1.1.0 beta1 Released</title>
-      <link>http://taskwarrior.org/news/news.20150504.html</link>
+      <link>https://taskwarrior.org/news/news.20150504.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 04 May 2015 01:04:00 GMT</pubDate>
       <description>
         Taskserver 1.1.0 is in beta, and we are asking you to please test
         this release in your environment.
 
-        See http://taskwarrior.org/docs/taskserver/upgrade.html for
+        See https://taskwarrior.org/docs/taskserver/upgrade.html for
         instructions to upgrade your server.
         There have been a few changes:
       </description>
@@ -1196,7 +1196,7 @@
 
     <item>
       <title>Activity Digest - April 2015</title>
-      <link>http://taskwarrior.org/news/news.20150430.html</link>
+      <link>https://taskwarrior.org/news/news.20150430.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Fri, 01 May 2015 03:11:00 GMT</pubDate>
       <description>
@@ -1208,7 +1208,7 @@
 
     <item>
       <title>Taskwarrior 2.4.3 Released</title>
-      <link>http://taskwarrior.org/news/news.20150419.html</link>
+      <link>https://taskwarrior.org/news/news.20150419.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 19 Apr 2015 23:20:00 GMT</pubDate>
       <description>
@@ -1227,7 +1227,7 @@
 
     <item>
       <title>Activity Digest - March 2015</title>
-      <link>http://taskwarrior.org/news/news.20150331.html</link>
+      <link>https://taskwarrior.org/news/news.20150331.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 31 Mar 2015 04:24:00 GMT</pubDate>
       <description>
@@ -1239,7 +1239,7 @@
 
     <item>
       <title>Doc: Duration Formats</title>
-      <link>http://taskwarrior.org/docs/durations.html</link>
+      <link>https://taskwarrior.org/docs/durations.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 30 Mar 2015 00:14:33 GMT</pubDate>
       <description>
@@ -1258,7 +1258,7 @@
 
     <item>
       <title>Design Doc: Hooks v2 API</title>
-      <link>http://taskwarrior.org/docs/design/hooks2.html</link>
+      <link>https://taskwarrior.org/docs/design/hooks2.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 29 Mar 2015 20:46:43 GMT</pubDate>
       <description>
@@ -1279,7 +1279,7 @@
 
     <item>
       <title>Doc: Command Line Examples</title>
-      <link>http://taskwarrior.org/docs/examples.html</link>
+      <link>https://taskwarrior.org/docs/examples.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 23 Mar 2015 22:16:00 GMT</pubDate>
       <description>
@@ -1294,7 +1294,7 @@
 
     <item>
       <title>Taskwarrior 2.4.2 Released</title>
-      <link>http://taskwarrior.org/news/news.20150315.html</link>
+      <link>https://taskwarrior.org/news/news.20150315.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 15 Mar 2015 11:45:00 GMT</pubDate>
       <description>
@@ -1306,7 +1306,7 @@
 
     <item>
       <title>Activity Digest - February 2015</title>
-      <link>http://taskwarrior.org/news/news.20150301.html</link>
+      <link>https://taskwarrior.org/news/news.20150301.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 01 Mar 2015 03:11:00 GMT</pubDate>
       <description>
@@ -1318,7 +1318,7 @@
 
     <item>
       <title>Taskwarrior 2.4.1 on Cygwin 32 and 64 bit</title>
-      <link>http://taskwarrior.org/news/news.20150228.html</link>
+      <link>https://taskwarrior.org/news/news.20150228.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 28 Feb 2015 15:42:00 GMT</pubDate>
       <description>
@@ -1329,7 +1329,7 @@
 
     <item>
       <title>Taskwarrior 2.4.1 Released</title>
-      <link>http://taskwarrior.org/news/news.20150216.html</link>
+      <link>https://taskwarrior.org/news/news.20150216.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 16 Feb 2015 23:49:00 GMT</pubDate>
       <description>
@@ -1341,7 +1341,7 @@
 
     <item>
       <title>Activity Digest - January 2015</title>
-      <link>http://taskwarrior.org/news/news.20150207.html</link>
+      <link>https://taskwarrior.org/news/news.20150207.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 07 Feb 2015 21:22:00 GMT</pubDate>
       <description>
@@ -1353,7 +1353,7 @@
 
     <item>
       <title>Date &amp; Time Support</title>
-      <link>http://taskwarrior.org/news/news.20150103.html</link>
+      <link>https://taskwarrior.org/news/news.20150103.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 03 Jan 2015 23:34:00 GMT</pubDate>
       <description>
@@ -1365,7 +1365,7 @@
 
     <item>
       <title>Taskwarrior 2.4.0 Released</title>
-      <link>http://taskwarrior.org/news/news.20150101.html</link>
+      <link>https://taskwarrior.org/news/news.20150101.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 01 Jan 2015 00:27:00 GMT</pubDate>
       <description>
@@ -1378,7 +1378,7 @@
 
     <item>
       <title>Taskwarrior 2.4.0 beta3</title>
-      <link>http://taskwarrior.org/news/news.20141111.html</link>
+      <link>https://taskwarrior.org/news/news.20141111.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 11 Nov 2014 23:50:00 GMT</pubDate>
       <description>
@@ -1391,7 +1391,7 @@
 
     <item>
       <title>Sort Column Indicator</title>
-      <link>http://taskwarrior.org/news/news.20141025.html</link>
+      <link>https://taskwarrior.org/news/news.20141025.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 25 Oct 2014 12:45:00 GMT</pubDate>
       <description>
@@ -1405,7 +1405,7 @@
 
     <item>
       <title>Taskwarrior 2.4.0 beta2</title>
-      <link>http://taskwarrior.org/news/news.20141011.html</link>
+      <link>https://taskwarrior.org/news/news.20141011.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 11 Oct 2014 20:33:00 GMT</pubDate>
       <description>
@@ -1418,7 +1418,7 @@
 
     <item>
       <title>Cloud Server Reboots</title>
-      <link>http://taskwarrior.org/news/news.20140928.html</link>
+      <link>https://taskwarrior.org/news/news.20140928.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 28 Sep 2014 13:35:00 GMT</pubDate>
       <description>
@@ -1430,7 +1430,7 @@
         This will cause interruptions here at taskwarrior.org. You can follow
         the status at
 
-        http://status.gothenburgbitfactory.org
+        https://status.gothenburgbitfactory.org
 
         and read more on global reboot at
 
@@ -1440,7 +1440,7 @@
 
     <item>
       <title>Taskwarrior 2.4.0 beta1</title>
-      <link>http://taskwarrior.org/news/news.20140915.html</link>
+      <link>https://taskwarrior.org/news/news.20140915.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 15 Sep 2014 18:59:00 EST</pubDate>
       <description>
@@ -1462,7 +1462,7 @@
 
     <item>
       <title>Fish Shell Completion Demo</title>
-      <link>http://taskwarrior.org/news/news.20140906.html</link>
+      <link>https://taskwarrior.org/news/news.20140906.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 06 Sep 2014 12:32:00 EST</pubDate>
       <description>
@@ -1477,7 +1477,7 @@
 
     <item>
       <title>Development Status</title>
-      <link>http://taskwarrior.org/news/news.20140816.html</link>
+      <link>https://taskwarrior.org/news/news.20140816.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 16 Aug 2014 13:14:00 EST</pubDate>
       <description>
@@ -1492,13 +1492,13 @@
 
     <item>
       <title>Taskwarrior 2.4.0 Preview</title>
-      <link>http://taskwarrior.org/news/news.20140704.html</link>
+      <link>https://taskwarrior.org/news/news.20140704.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Fri, 04 Jul 2014 00:00:00 EST</pubDate>
       <description>
         The Taskwarrior 2.4.0 development branch has been unusable for a
         a few weeks
-        (http://taskwarrior.org/news/news.20140524.html)
+        (https://taskwarrior.org/news/news.20140524.html)
         while new functionality was integrated. It has been a
         long process, with about 750 commits made so far, but now all the
         tests are passing again.
@@ -1507,19 +1507,19 @@
 
     <item>
       <title>Vit 1.2 in homebrew</title>
-      <link>http://taskwarrior.org/news/news.20140607.html</link>
+      <link>https://taskwarrior.org/news/news.20140607.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 07 Jun 2014 00:00:00 EST</pubDate>
       <description>
         The recently released Vit 1.2 is now available from Homebrew.
-        Homebrew (http://brew.sh/) is "The missing package manager for OSX",
+        Homebrew (https://brew.sh/) is "The missing package manager for OSX",
         and includes recipes for several thousand packages.
       </description>
     </item>
 
     <item>
       <title>Taskwarrior 2.4.0 Development Status</title>
-      <link>http://taskwarrior.org/news/news.20140524.html</link>
+      <link>https://taskwarrior.org/news/news.20140524.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 24 May 2014 00:00:00 EST</pubDate>
       <description>
@@ -1538,7 +1538,7 @@
 
     <item>
       <title>Swiss Ubucon Taskwarrior Workshop</title>
-      <link>http://taskwarrior.org/news/news.20140510.html</link>
+      <link>https://taskwarrior.org/news/news.20140510.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 10 May 2014 00:00:00 EST</pubDate>
       <description>
@@ -1546,7 +1546,7 @@
         workshop at Swiss Ubucon
         (https://wiki.ubuntu.com/SwissTeam/).
 
-        http://taskwarrior.org/download/task-latest.ref.pdf
+        https://taskwarrior.org/download/task-latest.ref.pdf
 
         Dirk presented a live demo, with a handout PDF (which we will link
         here soon) that covers every aspect including downloading, building,
@@ -1557,7 +1557,7 @@
 
     <item>
       <title>Teaching the Parser New Tricks</title>
-      <link>http://taskwarrior.org/news/news.20140429.html</link>
+      <link>https://taskwarrior.org/news/news.20140429.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 29 Apr 2014 00:00:00 EST</pubDate>
       <description>
@@ -1571,20 +1571,20 @@
 
     <item>
       <title>Taskserver Documentation</title>
-      <link>http://taskwarrior.org/news/news.20140412.html</link>
+      <link>https://taskwarrior.org/news/news.20140412.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sat, 12 Apr 2014 00:00:00 EST</pubDate>
       <description>
         The Taskserver setup documentation has been significantly improved.
         The main setup page is:
-        http://taskwarrior.org/docs/server_setup.html
+        https://taskwarrior.org/docs/server_setup.html
         The sub pages now cover single topics.
       </description>
     </item>
 
     <item>
       <title>Q &amp; A Site Launched</title>
-      <link>http://taskwarrior.org/news/news.20140407.html</link>
+      <link>https://taskwarrior.org/news/news.20140407.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 07 Apr 2014 00:00:00 EST</pubDate>
       <description>
@@ -1602,23 +1602,23 @@
 
     <item>
       <title>Vit 1.2 is released</title>
-      <link>http://taskwarrior.org/news/news.20140406.html</link>
+      <link>https://taskwarrior.org/news/news.20140406.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 06 Apr 2014 00:00:00 EST</pubDate>
       <description>
         Version 1.2 of the VIT front-end for Taskwarrior is available for download now.
 
-        Download here: http://taskwarrior.org/download/vit-latest.tar.gz
+        Download here: https://taskwarrior.org/download/vit-latest.tar.gz
 
         See the VIT 1.2 beta1 announcement
-        (http://taskwarrior.org/news/news.20140220.html)
+        (https://taskwarrior.org/news/news.20140220.html)
         for the features introduced in 1.2.
       </description>
     </item>
 
     <item>
       <title>System Status Pages</title>
-      <link>http://taskwarrior.org/news/news.20140309.html</link>
+      <link>https://taskwarrior.org/news/news.20140309.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Sun, 09 Mar 2014 00:00:00 EST</pubDate>
       <description>
@@ -1626,7 +1626,7 @@
         status for the various services now online.
 
         The first is a Pingdom public report showing system status
-        (http://status.gothenburgbitfactory.org/)
+        (https://status.gothenburgbitfactory.org/)
         of the bug system, git hosting, web services and others.
 
         Check this page for outages.
@@ -1634,14 +1634,14 @@
         The second is an operations information
         (https://statuspage.gothenburgbitfactory.org)
         page from StatusPage.io
-        (http://statuspage.io/)
+        (https://statuspage.io/)
         which shows status, uptime, response time and incidents.
       </description>
     </item>
 
     <item>
       <title>Atlassian Licences</title>
-      <link>http://taskwarrior.org/news/news.20140303.html</link>
+      <link>https://taskwarrior.org/news/news.20140303.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 03 Mar 2014 00:00:00 EST</pubDate>
       <description>
@@ -1654,7 +1654,7 @@
 
     <item>
       <title>New Site Live</title>
-      <link>http://taskwarrior.org/news/news.20140227.html</link>
+      <link>https://taskwarrior.org/news/news.20140227.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 27 Feb 2014 00:00:00 EST</pubDate>
       <description>
@@ -1666,7 +1666,7 @@
 
     <item>
       <title>Registrations Disabled</title>
-      <link>http://taskwarrior.org/news/news.20140226.html</link>
+      <link>https://taskwarrior.org/news/news.20140226.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 26 Feb 2014 00:00:00 EST</pubDate>
       <description>
@@ -1678,14 +1678,14 @@
 
     <item>
       <title>Vit 1.2 beta1 is available</title>
-      <link>http://taskwarrior.org/news/news.20140220.html</link>
+      <link>https://taskwarrior.org/news/news.20140220.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Thu, 20 Feb 2014 00:00:00 EST</pubDate>
       <description>
         Beta1 of the VIT front-end for Taskwarrior is available for download now.
         Download here:
 
-        http://taskwarrior.org/download/vit-latest.tar.gz
+        https://taskwarrior.org/download/vit-latest.tar.gz
 
         VIT 1.2 brings a customizable way to interact with your tasks with
         user-defined shortcuts. You can now define keys to launch external
@@ -1695,7 +1695,7 @@
 
     <item>
       <title>Server Migration</title>
-      <link>http://taskwarrior.org/news/news.20140217.html</link>
+      <link>https://taskwarrior.org/news/news.20140217.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Mon, 17 Feb 2014 00:00:00 EST</pubDate>
       <description>
@@ -1707,7 +1707,7 @@
 
     <item>
       <title>Git Migration</title>
-      <link>http://taskwarrior.org/news/news.20140212.html</link>
+      <link>https://taskwarrior.org/news/news.20140212.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Wed, 12 Feb 2014 00:00:00 EST</pubDate>
       <description>

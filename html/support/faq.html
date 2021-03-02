@@ -436,7 +436,7 @@ taskd.credentials=Group/Name/UUID</pre></li>
               </p>
 
               <p>
-                <a href="http://taskwarrior.org/download/gtdnext.sh"> http://taskwarrior.org/download/gtdnext.sh</a>
+                <a href="https://taskwarrior.org/download/gtdnext.sh"> https://taskwarrior.org/download/gtdnext.sh</a>
               </p>
 
               <p>
@@ -1180,7 +1180,7 @@ A: This guide is written for task version 2.3.0.
 Due to inconsistencies and general lack of documentation, I thought it would be useful to write this, both as a personal reference and for others who need it.
 
 General Info
-First, you should read this: http://taskwarrior.org/docs/recurrence.html  It covers some basic information about recurring tasks.
+First, you should read this: https://taskwarrior.org/docs/recurrence.html  It covers some basic information about recurring tasks.
 
 The mental model you should be working with is that, when you create a recurring task, you create a template from which little children task instances are spawned.  taskwarrior uses the due, recur, mask, and until fields to determine when to spawn children task instances.
 
@@ -1709,7 +1709,7 @@ The unit tests are all of the same structure - set up an rc file, add/manipulate
 
 A: Clone the code repository, build and run the test suite, and get familiar with the way we do things.  Look at the Python tests specifically, as we are only accepting new test scripts in Python.  There is documentation on running the tests:
 
-http://taskwarrior.org/docs/build.html
+https://taskwarrior.org/docs/build.html
 </pre>
 
 <pre>
@@ -1740,9 +1740,9 @@ task config color.tag.goal rgb550 on magenta            # 3.
 task 19 ann "Budget: 5kEUR"                             # 4.
 task 19 ann "DIY superstore is open: Mon-Sat 8000-2000"
 task 19 ann "Peter is available on next two weekends."
-task 19 ann "Inspiration: http://www.gardensillustrated.com"
+task 19 ann "Inspiration: https://www.gardensillustrated.com"
 Let's add a task, assign it to project Garden, tag it with goal.
-Configure task to rank goals at top by giving it a high urgency, see http://taskwarrior.org/docs/urgency.html.
+Configure task to rank goals at top by giving it a high urgency, see https://taskwarrior.org/docs/urgency.html.
 Tell task that I want it YELLOW on magenta.
 Add some annotations.
 You may end up with something like the following:
@@ -1884,7 +1884,7 @@ This is untested, but serves to illustrate that there are ways to manipulate dat
 Q: How to share a task between users?
 Or... is it "Organization" parameter in user creation useful at the moment?
 
-Here: http://taskwarrior.org/docs/server_user.html
+Here: https://taskwarrior.org/docs/server_user.html
 
 ... says: "Before creating a user account, you may need to create an organization. An organization consists of a group of zero or more users. You can get away with just one organization, and in this example, we will create just one, named 'Public'.
 
@@ -1909,7 +1909,7 @@ I'm hoping you can ELI5 how the task id's increment in light of recurring/comple
 
 Also how do keep the number relative to the number of actual tasks?  ie, at the moment I have 266 tasks but the numbering is over 300/
 
-A: Take a look at the online docs: http://taskwarrior.org/docs/ids.html
+A: Take a look at the online docs: https://taskwarrior.org/docs/ids.html
 
 Short answer: 'id' is the line number inside the pending.data file.  To keep task IDs under 1000, keep the number of pending, recurring and waiting tasks under 1000.  The discrepancy between the 266 and 300 are the hidden tasks, which are those with a wait date, and the recurring template tasks.
 </pre>
@@ -2136,7 +2136,7 @@ I will add a page to the site, containing the above, and we can develop it furth
 
  
 
-Edit: http://taskwarrior.org/docs/coding_style.html
+Edit: https://taskwarrior.org/docs/coding_style.html
 </pre>
 
 <pre>
@@ -2523,7 +2523,7 @@ Supported out of the box: No. It's beyond the scope of the project, but as I sai
 <pre>
 Q: uninstall taskd
 
-I have installed taskd following this instructions: http://mirakel.azapps.de/taskwarrior.html
+I have installed taskd following this instructions: https://mirakel.azapps.de/taskwarrior.html
 
 But now I need to uninstall it. How do I do it?
 
@@ -2567,7 +2567,7 @@ $ task 1 start
 [sample started task]
  
 
- More documentation may be found here: http://tasklib.readthedocs.org/en/latest/
+ More documentation may be found here: https://tasklib.readthedocs.org/en/latest/
 </pre>
 
 <pre>
@@ -2591,7 +2591,7 @@ Whereas I could successfully synchronize my tasks with Mirakel:
 2014-09-30 14:51:37 [9] Serviced in 0.050640s
  
 
-I already checked the configs in taskwarrior and taskd as described here http://taskwarrior.org/docs/taskserver/setup.html. Everythings looks neat. I double checked the certificates, too. 
+I already checked the configs in taskwarrior and taskd as described here https://taskwarrior.org/docs/taskserver/setup.html. Everythings looks neat. I double checked the certificates, too.
 
 Has anybody an idea what's happening here?
 
@@ -2764,7 +2764,7 @@ I don't know why the calendar is not displaying the holidays. This is the my tas
 
 # [Created by task 2.3.0 7/23/2014 14:29:17]
 # Taskwarrior program configuration file.
-# For more documentation, see http://taskwarrior.org or try 'man task', 'man task-faq',
+# For more documentation, see https://taskwarrior.org or try 'man task', 'man task-faq',
 # 'man task-tutorial', 'man task-color', 'man task-sync' or 'man taskrc'
 
 # Here is an example of entries that use the default, override and blank values
@@ -2896,7 +2896,7 @@ How can I accomplish this?
 
 A: No, custom status values are not accepted.  After all, Taskwarrior wouldn't know what you mean, and some functionality depends on known states.
 
-Instead, you can add a UDA field, for example named 'detail', and you can store your extended status there.  See http://taskwarrior.org/docs/udas.html.
+Instead, you can add a UDA field, for example named 'detail', and you can store your extended status there.  See https://taskwarrior.org/docs/udas.html.
 </pre>
 
 <pre>
@@ -2956,7 +2956,7 @@ A: In case you want to use a console editor everything works perfectly fine, jus
 Windows editors have problems resolving Cygwin paths, so you have to convert Cygwin paths to Windows with
 
 cygpath -w
-Please check http://cygwin-lite.sourceforge.net/html/cygpath.html
+Please check https://cygwin-lite.sourceforge.net/html/cygpath.html
 </pre>
 
 <pre>
@@ -3112,9 +3112,9 @@ Simply clone, modify and send a patch to support@taskwarrior.org.
 
 In this specific example, it the v1 and v2 API should not be distinct, and the documentation on these pages:
 
-    http://taskwarrior.org/docs/hooks.html
+    https://taskwarrior.org/docs/hooks.html
 
-    http://taskwarrior.org/docs/hooks2.html
+    https://taskwarrior.org/docs/hooks2.html
 
 should be merged into one document (hooks.html), and the second URL replaced by a redirect.
 </pre>
@@ -3126,7 +3126,7 @@ Hi all
 
 I'm trying to set a variety of urgencies for a uda value of 'size'.
 
-I'm following the example here: http://taskwarrior.org/docs/udas.html
+I'm following the example here: https://taskwarrior.org/docs/udas.html
 
 It demonstrates how to set a common urgency coefficient for all values, but I would like different coefficients for each value, eg 1, 2, 3 for small, medium, large, respectively.
 
@@ -3164,7 +3164,7 @@ Then look at the report definitions:
 
 $ task show report.long
 ...
-The column configurations can use any of the available variations.  See this for more details: http://taskwarrior.org/docs/report.html
+The column configurations can use any of the available variations.  See this for more details: https://taskwarrior.org/docs/report.html
 
 </pre>
 
@@ -3190,7 +3190,7 @@ A: There are a couple of solutions.  The easiest is this:
 $ task long rc.detection:off rc.defaultwidth:184 > tasklist.txt
 The other solution is more creative.  Take a look at this:/
 
-http://threebean.org/blog/2011/10/28/python-ansi2html-makes-taskwarrior-fantasktic/
+https://threebean.org/blog/2011/10/28/python-ansi2html-makes-taskwarrior-fantasktic/
 </pre>
 
 <pre>
@@ -3359,7 +3359,7 @@ Is there any way to do any of this?
 
 A: You're describing a style of recurrence that we don't really have a name for, and have not yet implemented. Here is a detailed description of how recurrence works today:
 
-http://taskwarrior.org/docs/recurrence.html
+https://taskwarrior.org/docs/recurrence.html
 
 Here is a sample of some requests which discuss how recurrence will work in future releases:
 
@@ -3400,7 +3400,7 @@ You do the work - this is open source, after all. But this involves things that 
 Pay/motivate someone to attempt option 4.
 As you pointed out, direct I/O on the *.data files is a very bad idea, because it means you would need to support the four current file formats, and respond to the fifth format, which may happen soon, not to mention implement recurrence, waiting and other features.
 
-http://taskwarrior.org/docs/3rd-party.html
+https://taskwarrior.org/docs/3rd-party.html
 </pre>
 
 <pre>
@@ -3566,7 +3566,7 @@ Previously somewhere I saw an old command reference cheat-sheet for taskwarrior.
 
 Is there an updated version of this somewhere? 
 
-A: Yep: http://taskwarrior.org/download/
+A: Yep: https://taskwarrior.org/download/
 </pre>
 
 <pre>
@@ -3825,7 +3825,7 @@ Using the import and export commands is how you should be getting data in and ou
 
 See this, and various other online resources written specifically for this:
 
-http://taskwarrior.org/docs/3rd-party.html
+https://taskwarrior.org/docs/3rd-party.html
 </pre>
 
 <pre>
@@ -3880,7 +3880,7 @@ In the 'end' column of a report, it just shows the date it was done. Can this be
 
 A: If you do "task columns end" you can see there's other formats to use in a custom version of whatever report, so, I think it is possible. I'm afraid I have not experimented with this much yet, but, this gives some more info: 
 
-http://taskwarrior.org/docs/report.html
+https://taskwarrior.org/docs/report.html
 </pre>
 
 <pre>
@@ -3926,7 +3926,7 @@ Is there a filter option that says "show me 15 tasks" ?
 
 I know I can use head, but piping the output means I lose colors and such.
 
-A: http://taskwarrior.org/docs/examples.html
+A: https://taskwarrior.org/docs/examples.html
 
 Use this:
 
@@ -4509,7 +4509,7 @@ The unit file used to start the task server does not seem to be working correctl
 
 Process: 467 ExecStart=/usr/local/bin/taskd server --data /home/user/task_server (code=exited, status=226/NAMESPACE)
 
-A: If you use the unit file from this page - http://taskwarrior.org/docs/taskserver/control.html - make sure that you remove /home from "InaccessibleDirectories".
+A: If you use the unit file from this page - https://taskwarrior.org/docs/taskserver/control.html - make sure that you remove /home from "InaccessibleDirectories".
 </pre>
 
 <pre>
@@ -4545,7 +4545,7 @@ Then there's taskwiki (https://github.com/tbabej/taskwiki) which allows for rich
 
 A: Take a look here:
 
-http://taskwarrior.org/tools/
+https://taskwarrior.org/tools/
 
 search for 'taskopen'.  This allows the opening of URLs that are added as annotations.
 
@@ -4958,7 +4958,7 @@ In the second, that's not a report, just a filter.  Perhaps that is using the de
 
 Take a look here, to learn about customizing reports:
 
-http://taskwarrior.org/docs/report.html<Paste>
+https://taskwarrior.org/docs/report.html<Paste>
 </pre>
 
 <pre>
@@ -4974,7 +4974,7 @@ A: Simply put the time in the due date, and the weekly recurrence will match it:
 
 $ task add ... due:2016-06-14T08:00 recur:weekly
 This is already answered here:
-http://taskwarrior.org/docs/examples.html#recur 
+https://taskwarrior.org/docs/examples.html#recur
 </pre>
 
 <pre>
@@ -5051,9 +5051,9 @@ should behave the same way.
           <p class="text-muted">
             Related Sites
             <br />
-            <a href="http://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
+            <a href="https://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
             <br />
-            <a href="http://holidata.net">holidata.net</a>
+            <a href="https://holidata.net">holidata.net</a>
           </p>
         </div>
         <div class="col-md-2">

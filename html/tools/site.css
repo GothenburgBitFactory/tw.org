@@ -2,7 +2,7 @@
 .text-large            {font-size: 125%}
 
 /* Used to limit the number of authors displayed
-   http://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css */
+   https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css */
 .giveMeEllipsis        {margin-bottom: 0.4em;
                         overflow: hidden;
                         text-overflow: ellipsis;
