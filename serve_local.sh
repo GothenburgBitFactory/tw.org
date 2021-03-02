@@ -6,15 +6,13 @@
 # Location of the current script. Used to allow launching this from anywhere
 DIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )
 
-# The root of the HTTP Server
-cd $DIR/html 
-
-if [ $# -eq 1 ]; then
-    PORT=$1
+if [[ $# -eq 1 ]] ; then
+  PORT="${1}"
 else
-    PORT=8000
-    echo "If you wish to run the HTTP server on a different port, pass the port as an argument to this script."
+  PORT="8000"
 fi
-echo "Serving on 127.0.0.1:$PORT"
 
-python -c "import BaseHTTPServer as bhs, SimpleHTTPServer as shs; bhs.HTTPServer(('127.0.0.1', $PORT), shs.SimpleHTTPRequestHandler).serve_forever()"
+echo "Serving site on 127.0.0.1:${PORT}"
+echo "If you wish to run the HTTP server on a different port, pass the port as an argument to this script."
+
+python -m http.server -d "${DIR}/html" "${PORT}"
