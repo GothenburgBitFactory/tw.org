@@ -1,5 +1,5 @@
-#! /usr/bin/python
-###############################################################################
+#! /usr/bin/python3
+################################################################################
 #
 # Copyright 2006 - 2017, Paul Beckingham, Federico Hernandez.
 #
@@ -23,7 +23,7 @@
 #
 # http://www.opensource.org/licenses/mit-license.php
 #
-###############################################################################
+################################################################################
 """
 export-sql.py -- Export the taskwarrior database as a series of SQL commands.
 
@@ -38,11 +38,12 @@ easily modified to supported mysql, postgres or whatever you choose.
 Author:  Ralph Bean
 """
 
-import sys
-import commands
 import json
-
+import sys
 from datetime import datetime
+
+import commands
+from idna import unicode
 
 # Note that you may want to modify the field sizes to suit your usage.
 table_definitions = """
@@ -121,7 +122,7 @@ def to_sql(task):
         return "INSERT INTO \"annotations\" VALUES(%s)" % values
 
     template = u"{uuid}, {description}, {entry}, {end}, " + \
-           u"{priority}, {project}, {status}"
+               u"{priority}, {project}, {status}"
 
     nullables = ['end', 'priority', 'project', 'status']
     defaults = dict([(key, None) for key in nullables])
@@ -162,9 +163,9 @@ if __name__ == '__main__':
     sql = table_definitions + ";\n".join(lines) + ';'
 
     # Print them out, decorated with sqlite3 trappings
-    print u"""
+    print(u"""
 BEGIN TRANSACTION;
 {sql}
-COMMIT;""".format(sql=sql)
+COMMIT;""".format(sql=sql))
 
 ###############################################################################
