@@ -355,6 +355,16 @@ $ task config report.simple.columns     'id,project,description.count'
 $ task config report.simple.labels      'ID,Proj,Desc'
 $ task config report.simple.sort        'project+/,entry+'
 $ task config report.simple.filter      'status:pending'</pre>
+            
+            <p>
+              Note the equivalent report directly from the config file would look like that:
+            </p>
+            
+            <pre>report.simple.description=Simple list of open tasks by project
+report.simple.columns=id,project,description.count
+report.simple.labels=ID,Proj,Desc
+report.simple.sort=project+\/,entry+
+report.simple.filter=status:pending</pre>
 
             <p>
               And it is finished.  Run the report like this:
