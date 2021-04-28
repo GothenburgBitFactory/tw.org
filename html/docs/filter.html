@@ -261,6 +261,17 @@ $ task "(project:Home or project:Garden)" list</pre>
               must be properly escaped, as
               <a href="/docs/escapes.html">described here</a>.
             </p>
+            
+            <p>
+              Also note that when searching for tasks without the specified
+              entry at the end of the parenthesis, you need to add a space,
+              otherwise you'll get "Mismatched parentheses in expression".
+            </p>
+            
+             <pre># This
+$ task '(project: )'
+# Not that
+$ task '(project:)'</pre>
 
             <a name="config"></a>
             <h4>Configuration</h4>
