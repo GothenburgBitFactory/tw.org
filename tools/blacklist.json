@@ -1,0 +1,20 @@
+{
+    "https://github.com/BrunoVernay/tw-tools-update": "is the discontinued precursor to this update script",
+    "https://github.com/CNTRUN/Termux-command": "is an empty repository",
+    "https://github.com/GothenburgBitFactory/taskserver": "is the Taskserver repository",
+    "https://github.com/GothenburgBitFactory/taskwarrior": "is the Taskwarrior repository",
+    "https://github.com/GothenburgBitFactory/ti.net": "is the repository of timewarrior.net",
+    "https://github.com/GothenburgBitFactory/timewarrior": "is the Timewarrior repository",
+    "https://github.com/Spirotot/timew-spirotot": "is just a Snap file for Timewarrior",
+    "https://github.com/ansible-roles-group/ansible-role-taskwarrior": "is an Ansible role for Taskwarrior only",
+    "https://github.com/liloman/timewarrior": "is just a COPR file for Timewarrior",
+    "https://github.com/mrcook/time_warrior": "is another time tracking tool with no relation to Timewarrior",
+    "https://github.com/pld-linux/bugwarrior": "is a PLD Linux Distribution file",
+    "https://github.com/pld-linux/taskserver": "is a PLD Linux Distribution file",
+    "https://github.com/pld-linux/tasksh": "is a PLD Linux Distribution file",
+    "https://github.com/pld-linux/taskwarrior": "is a PLD Linux Distribution file",
+    "https://github.com/pld-linux/vim-plugin-taskwarrior": "is a PLD Linux Distribution file",
+    "https://github.com/taskwarrior/task": "is a placeholder repository for taskwarrior",
+    "https://github.com/typebrook/foo": "is only a test repository",
+    "https://github.com/zszszszsz/.config": "seems not related with taskwarrior/taskserver/timewarrior"
+}

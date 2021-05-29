@@ -1,97 +1,53 @@
 /*
  * We use KnockOutJS to filter the tools and extensions table.
- *
- * */
+ */
 
 function Tool(data) {
-    this.name = data.name;
     this.description = data.description;
-    this.category = data.category;
-    this.rating = data.stars === undefined ? 1 : data.stars;
-    this.url = data.url;
-    this.url_src = data.url_src;
-    this.license = data.license;
-    this.author = data.author;
     this.language = data.language;
+    this.license = data.license;
+    this.name = data.name;
     this.obsolete = data.obsolete;
-    this.theme = data.theme;
-    this.last_update = data.last_update;
-    this.verified = data.verified;
+    this.owner = data.owner;
+    this.rating = data.rating === undefined ? 1 : data.rating;
+    this.updated = data.updated;
+    this.url = data.url;
 }
 
-// Overall viewmodel for this screen, along with initial state
+// Overall view model for this screen, along with initial state
 function ToolsViewModel() {
-    var self = this;
+    let self = this;
 
     self.tools = ko.observableArray([]);
-    self.categories = ko.observableArray([]);
-    self.themes = ko.observableArray([]);
     self.languages = ko.observableArray([]);
-    self.authors = ko.observableArray([]);
+    self.owners = ko.observableArray([]);
 
     // Load tools from server, convert to Tools instances, then populate the data for templates
     // This data is static.
     $.getJSON("tools-data.json", function(allData) {
-        var mappedTools = $.map(allData, function(item) { return new Tool(item) });
+        let mappedTools = $.map(allData, function(item) { return new Tool(item) });
 
-        var uniqueCategory = {};
-        var uniqueTheme = {};
-        var uniqueLanguage = {};
-        var uniqueAuthor = {};
+        let uniqueLanguage = {};
+        let uniqueOwner = {};
 
-        for( var i in mappedTools ){
-            if( typeof(uniqueCategory[mappedTools[i].category]) == "undefined"){
-                self.categories.push(mappedTools[i].category);
-            }
-            uniqueCategory[mappedTools[i].category] = 0;
-            for (var j in mappedTools[i].theme) {
-                if (typeof(uniqueTheme[mappedTools[i].theme[j]]) == "undefined") {
-                    self.themes.push(mappedTools[i].theme[j]);
-                }
-                uniqueTheme[mappedTools[i].theme[j]] = 0;
-            }
-            for (var j in mappedTools[i].language) {
+        for(let i in mappedTools ){
+            for (let j in mappedTools[i].language) {
                 if (typeof(uniqueLanguage[mappedTools[i].language[j]]) == "undefined") {
                     self.languages.push(mappedTools[i].language[j]);
                 }
                 uniqueLanguage[mappedTools[i].language[j]] = 0;
             }
-            for (var j in mappedTools[i].author) {
-                if (typeof(uniqueAuthor[mappedTools[i].author[j]]) == "undefined") {
-                    self.authors.push(mappedTools[i].author[j]);
+            for (let j in mappedTools[i].owner) {
+                if (typeof(uniqueOwner[mappedTools[i].owner[j]]) == "undefined") {
+                    self.owners.push(mappedTools[i].owner[j]);
                 }
-                uniqueAuthor[mappedTools[i].author[j]] = 0;
+                uniqueOwner[mappedTools[i].owner[j]] = 0;
             }
         }
 
         self.tools(mappedTools);
-        self.tools.sort(function (left, right) { return left.name == right.name ? 0 : (left.name < right.name ? -1 : 1) });
-        self.authors.sort();
-    });
-
-    // The category selector can be bookmarked
-    var path = decodeURI(location.hash.substr(1).split('?')[0]);
-    self.CategoriesSelected = path.length > 3  ? ko.observableArray([path]) : ko.observableArray([]);
-    self.selectedAllCategory = ko.pureComputed({
-        read: function () {
-            console.log("Read ... Filter: " + self.CategoriesSelected.slice(0));
-            return self.CategoriesSelected().length === self.categories().length;
-        },
-        write: function (value) {
-            self.CategoriesSelected(value ? self.categories.slice(0) : []);
-        }
-    });
-
-    // The Theme selector
-    self.ThemesSelected = ko.observableArray([]);
-    self.selectedAllTheme = ko.pureComputed({
-        read: function () {
-            console.log("Read ... Filter: " + self.ThemesSelected.slice(0));
-            return self.ThemesSelected().length === self.themes().length;
-        },
-        write: function (value) {
-            self.ThemesSelected(value ? self.themes.slice(0) : []);
-        }
+        self.tools.sort(function (left, right) { return left.name === right.name ? 0 : (left.name < right.name ? -1 : 1) });
+        self.owners.sort();
     });
 
     self.ObsoleteSelected = ko.observable(false);
@@ -108,38 +64,36 @@ function ToolsViewModel() {
         }
     });
 
-    // The Author selector  (huge list...)
-    self.AuthorsSelected = ko.observableArray([]);
-    self.selectedAllAuthors = ko.pureComputed({
+    // The Owner selector  (huge list...)
+    self.OwnersSelected = ko.observableArray([]);
+    self.selectedAllOwners = ko.pureComputed({
         read: function () {
-            console.log("Read ... Filter: " + self.AuthorsSelected.slice(0));
-            return self.AuthorsSelected().length === self.authors().length;
+            console.log("Read ... Filter: " + self.OwnersSelected.slice(0));
+            return self.OwnersSelected().length === self.owners().length;
         },
         write: function (value) {
-            self.AuthorsSelected(value ? self.authors.slice(0) : []);
+            self.OwnersSelected(value ? self.owners.slice(0) : []);
         }
     });
 
-    // the search field
+    // The search field
     self.query = ko.observable('');
 
     // The printed tool list:
     self.filteredTools = ko.computed(
         function() {
-            sort_by_name = function (left, right) { return left.name == right.name ? 0 : (left.name.toLowerCase() < right.name.toLowerCase() ? -1 : 1) };
-            sort_by_rating = function (left, right) { return left.rating == right.rating  ? sort_by_name(left,right) : (left.rating > right.rating ? -1 : 1) };
+            const sort_by_name = function (left, right) { return left.name === right.name ? 0 : (left.name.toLowerCase() < right.name.toLowerCase() ? -1 : 1) };
+            const sort_by_rating = function (left, right) { return left.rating === right.rating  ? sort_by_name(left,right) : (left.rating > right.rating ? -1 : 1) };
             return self.tools().filter(
                 function (tool) {
-                    var isCategoryIn = (self.CategoriesSelected().length == 0) ||  self.CategoriesSelected().includes(tool.category) ;
-                    var isThemeIn = (self.ThemesSelected().length == 0) || tool.theme &&  self.ThemesSelected().some(function (elem) { return tool.theme.includes(elem)} );
-                    var isLanguageIn = (self.LanguagesSelected().length == 0) ||  self.LanguagesSelected().some(function (elem) { return tool.language.includes(elem)} );
-                    var isAuthorIn = (self.AuthorsSelected().length == 0) ||  self.AuthorsSelected().some(function (elem) { return tool.author.includes(elem)} );
-                    var isQuery = (self.query().length == 0)
+                    const isLanguageIn = (self.LanguagesSelected().length === 0) ||  self.LanguagesSelected().some(function (elem) { return tool.language.includes(elem)} );
+                    const isOwnerIn = (self.OwnersSelected().length === 0) ||  self.OwnersSelected().some(function (elem) { return tool.owner.includes(elem)} );
+                    const isQuery = (self.query().length === 0)
                             || (tool.name && tool.name.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
                             || (tool.description && tool.description.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
                             || (tool.license && tool.license.toLowerCase().indexOf( self.query().toLowerCase() ) > -1)
-                            || (tool.author && tool.author.join().toLowerCase().indexOf( self.query().toLowerCase() ) > -1);
-                    return (!tool.obsolete || self.ObsoleteSelected()) && isCategoryIn && isThemeIn && isLanguageIn && isAuthorIn && isQuery;
+                            || (tool.owner && tool.owner.join().toLowerCase().indexOf( self.query().toLowerCase() ) > -1);
+                    return (!tool.obsolete || self.ObsoleteSelected()) && isLanguageIn && isOwnerIn && isQuery;
                 } ).sort(sort_by_rating);
         }
     );
