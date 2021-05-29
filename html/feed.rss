@@ -947,12 +947,12 @@
     </item>
 
     <item>
-      <title><strike>answers.gothenburgbitfactory.org Online</strike></title>
+      <title><del>answers.tasktools.org Online</del></title>
       <link>https://taskwarrior.org/news/news.20150929.html</link>
       <author>support@taskwarrior.org (Taskwarrior Team)</author>
       <pubDate>Tue, 29 Sep 2015 23:55:55 GMT</pubDate>
       <description>
-        The answers.gothenburgbitfactory.org (https://answers.gothenburgbitfactory.org)
+        The answers.tasktools.org (<del>https://answers.tasktools.org</del>)
         site is online, and providing not only the answer to your question,
         but those of many before you. It is becoming a valuable resource
         for both beginners and experienced users.
@@ -1430,7 +1430,7 @@
         This will cause interruptions here at taskwarrior.org. You can follow
         the status at
 
-        https://status.gothenburgbitfactory.org
+        <del>https://status.tasktools.org</del>
 
         and read more on global reboot at
 
@@ -1591,7 +1591,7 @@
         The new Q &amp; A site is live! Take a look at the site, which can
         be found here:
 
-        https://answers.gothenburgbitfactory.org
+        <del>https://answers.tasktools.org</del>
 
         There is a searchable knowledge base of community-provided questions
         and answers. The answers are voted and selected, good answers
@@ -1626,13 +1626,13 @@
         status for the various services now online.
 
         The first is a Pingdom public report showing system status
-        (https://status.gothenburgbitfactory.org/)
+        (<del>https://status.tasktools.org/</del>)
         of the bug system, git hosting, web services and others.
 
         Check this page for outages.
 
         The second is an operations information
-        (https://statuspage.gothenburgbitfactory.org)
+        (<del>https://statuspage.tasktools.org</del>)
         page from StatusPage.io
         (https://statuspage.io/)
         which shows status, uptime, response time and incidents.
