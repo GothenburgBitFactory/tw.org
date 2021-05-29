@@ -31,7 +31,7 @@ function ToolsViewModel() {
 
     // Load tools from server, convert to Tools instances, then populate the data for templates
     // This data is static.
-    $.getJSON("tools-data.js", function(allData) {
+    $.getJSON("tools-data.json", function(allData) {
         var mappedTools = $.map(allData, function(item) { return new Tool(item) });
 
         var uniqueCategory = {};
