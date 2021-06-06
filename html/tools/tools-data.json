@@ -2008,7 +2008,7 @@
       "bradyt"
     ],
     "rating": 7,
-    "updated": "2021-06-04",
+    "updated": "2021-06-05",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -2438,7 +2438,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "name": "taskrambler",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "danesv"
     ],
@@ -3927,7 +3927,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 440,
+    "rating": 441,
     "updated": "2021-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -5787,8 +5787,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 544,
-    "updated": "2021-05-29",
+    "rating": 545,
+    "updated": "2021-06-05",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
