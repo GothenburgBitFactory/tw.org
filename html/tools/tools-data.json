@@ -647,7 +647,7 @@
     "url": "https://github.com/HiveMinds-EU/CoursePlanningTemplate"
   },
   {
-    "description": "WIP to Automatically install Taskwarrior, Taskserver and Timewarrior such that it syncs accros multiple devices (and with google calendar).",
+    "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior such that it syncs accros multiple devices and with google calendar).",
     "language": [
       "Shell"
     ],
@@ -658,7 +658,7 @@
       "HiveMinds-EU"
     ],
     "rating": 1,
-    "updated": "2021-06-04",
+    "updated": "2021-06-06",
     "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
   },
   {
@@ -2277,8 +2277,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 455,
-    "updated": "2021-05-26",
+    "rating": 456,
+    "updated": "2021-06-06",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3368,12 +3368,12 @@
     ],
     "license": "GNU General Public License v3.0",
     "name": "taskwarrior-kactivities",
-    "obsolete": true,
+    "obsolete": false,
     "owner": [
       "ivan-cukic"
     ],
     "rating": 0,
-    "updated": "2015-02-02",
+    "updated": "2021-06-06",
     "url": "https://github.com/ivan-cukic/taskwarrior-kactivities"
   },
   {
@@ -3927,8 +3927,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 441,
-    "updated": "2021-06-05",
+    "rating": 442,
+    "updated": "2021-06-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6672,8 +6672,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 565,
-    "updated": "2021-06-04",
+    "rating": 566,
+    "updated": "2021-06-06",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
