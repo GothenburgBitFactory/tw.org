@@ -2082,8 +2082,8 @@
     "owner": [
       "burnison"
     ],
-    "rating": 82,
-    "updated": "2021-06-02",
+    "rating": 81,
+    "updated": "2021-06-08",
     "url": "https://github.com/burnison/tasksync"
   },
   {
@@ -4737,8 +4737,8 @@
     "owner": [
       "matthiasbeyer"
     ],
-    "rating": 28,
-    "updated": "2021-04-28",
+    "rating": 29,
+    "updated": "2021-06-07",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -5543,7 +5543,7 @@
     ],
     "license": "MIT License",
     "name": "bot-tik-tok",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "perigrin"
     ],
@@ -6672,8 +6672,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 566,
-    "updated": "2021-06-06",
+    "rating": 567,
+    "updated": "2021-06-07",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -6883,7 +6883,7 @@
       "vit-project"
     ],
     "rating": 247,
-    "updated": "2021-06-03",
+    "updated": "2021-06-07",
     "url": "https://github.com/vit-project/vit"
   },
   {
