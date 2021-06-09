@@ -2142,8 +2142,8 @@
     "owner": [
       "cgardner"
     ],
-    "rating": 6,
-    "updated": "2020-06-17",
+    "rating": 7,
+    "updated": "2021-06-08",
     "url": "https://github.com/cgardner/taskhelper"
   },
   {
@@ -5442,8 +5442,8 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 80,
-    "updated": "2021-05-16",
+    "rating": 81,
+    "updated": "2021-06-08",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
   {
@@ -6672,8 +6672,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 567,
-    "updated": "2021-06-07",
+    "rating": 568,
+    "updated": "2021-06-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -7035,6 +7035,21 @@
     "rating": 2,
     "updated": "2021-05-22",
     "url": "https://github.com/x4121/docker-taskd"
+  },
+  {
+    "description": "Generates pdf reports of what was done, when and for which projects as logged via taskwarrior and timewarrior",
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "timereporter",
+    "obsolete": false,
+    "owner": [
+      "x94carbone"
+    ],
+    "rating": 0,
+    "updated": "2021-06-08",
+    "url": "https://github.com/x94carbone/timereporter"
   },
   {
     "description": "taskwarrior distribution with dependencies for windows",
