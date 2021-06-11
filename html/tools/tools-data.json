@@ -1932,8 +1932,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 463,
-    "updated": "2021-06-01",
+    "rating": 464,
+    "updated": "2021-06-10",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -5877,8 +5877,8 @@
     "owner": [
       "robgolding"
     ],
-    "rating": 90,
-    "updated": "2021-05-27",
+    "rating": 91,
+    "updated": "2021-06-10",
     "url": "https://github.com/robgolding/tasklib"
   },
   {
@@ -6628,7 +6628,7 @@
       "theunraveler"
     ],
     "rating": 439,
-    "updated": "2021-06-05",
+    "updated": "2021-06-10",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
@@ -6672,8 +6672,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 568,
-    "updated": "2021-06-08",
+    "rating": 569,
+    "updated": "2021-06-10",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -6882,8 +6882,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 248,
-    "updated": "2021-06-09",
+    "rating": 251,
+    "updated": "2021-06-10",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -7035,21 +7035,6 @@
     "rating": 2,
     "updated": "2021-05-22",
     "url": "https://github.com/x4121/docker-taskd"
-  },
-  {
-    "description": "Generates pdf reports of what was done, when and for which projects as logged via taskwarrior and timewarrior",
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "timereporter",
-    "obsolete": false,
-    "owner": [
-      "x94carbone"
-    ],
-    "rating": 0,
-    "updated": "2021-06-08",
-    "url": "https://github.com/x94carbone/timereporter"
   },
   {
     "description": "taskwarrior distribution with dependencies for windows",
