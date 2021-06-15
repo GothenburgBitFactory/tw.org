@@ -1547,6 +1547,21 @@
     "url": "https://github.com/alkim0/task-attach"
   },
   {
+    "description": "taskwarrior org-mode syncronisation",
+    "language": [
+      "Python"
+    ],
+    "license": "Other",
+    "name": "task2org",
+    "obsolete": false,
+    "owner": [
+      "almostnobody"
+    ],
+    "rating": 0,
+    "updated": "2021-06-14",
+    "url": "https://github.com/almostnobody/task2org"
+  },
+  {
     "description": "Taskwarrior git sync hooks",
     "language": [
       "Shell"
@@ -3928,7 +3943,7 @@
       "kdheepak"
     ],
     "rating": 448,
-    "updated": "2021-06-13",
+    "updated": "2021-06-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5817,8 +5832,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 133,
-    "updated": "2021-05-24",
+    "rating": 134,
+    "updated": "2021-06-14",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -6672,8 +6687,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 570,
-    "updated": "2021-06-12",
+    "rating": 569,
+    "updated": "2021-06-14",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
