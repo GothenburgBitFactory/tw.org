@@ -22,6 +22,7 @@ jobs:
         with:
           delete-branch: true
           commit-message: Updated tools-data.json
+          author: "Taskwarrior Bot <taskwarrior@users.noreply.github.com>"
           title: Updated tools-data.json
           body: |
             - Updated `tools-data.json`
