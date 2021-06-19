@@ -552,8 +552,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 31,
-    "updated": "2021-04-16",
+    "rating": 32,
+    "updated": "2021-06-18",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
   {
@@ -658,7 +658,7 @@
       "HiveMinds-EU"
     ],
     "rating": 1,
-    "updated": "2021-06-06",
+    "updated": "2021-06-18",
     "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
   },
   {
@@ -2777,21 +2777,6 @@
     "url": "https://github.com/energiya/twtdi"
   },
   {
-    "description": "Utilities for Handling Taskwarrior Data",
-    "language": [
-      "R"
-    ],
-    "license": null,
-    "name": "taskwarrior.utils",
-    "obsolete": false,
-    "owner": [
-      "enricoschumann"
-    ],
-    "rating": 0,
-    "updated": "2021-02-24",
-    "url": "https://github.com/enricoschumann/taskwarrior.utils"
-  },
-  {
     "description": "Provides integration between taskwarrior and habitrpg.",
     "language": [
       "Python"
@@ -3942,8 +3927,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 450,
-    "updated": "2021-06-17",
+    "rating": 451,
+    "updated": "2021-06-18",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5577,8 +5562,8 @@
     "owner": [
       "phaazon"
     ],
-    "rating": 39,
-    "updated": "2021-05-28",
+    "rating": 40,
+    "updated": "2021-06-18",
     "url": "https://github.com/phaazon/toodoux"
   },
   {
@@ -6897,8 +6882,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 255,
-    "updated": "2021-06-15",
+    "rating": 256,
+    "updated": "2021-06-18",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -7155,21 +7140,6 @@
     "rating": 0,
     "updated": "2019-03-18",
     "url": "https://github.com/yigitsever/dotfiles"
-  },
-  {
-    "description": "Process date and holiday data in taskwarrior",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "tw-date-tools",
-    "obsolete": true,
-    "owner": [
-      "yulqen"
-    ],
-    "rating": 0,
-    "updated": "2017-12-12",
-    "url": "https://github.com/yulqen/tw-date-tools"
   },
   {
     "description": "Taskwarrior tasks from templates",
