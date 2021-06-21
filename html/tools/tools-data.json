@@ -1902,8 +1902,8 @@
     "owner": [
       "blampe"
     ],
-    "rating": 17,
-    "updated": "2021-06-03",
+    "rating": 18,
+    "updated": "2021-06-20",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
   {
@@ -3943,7 +3943,7 @@
       "kdheepak"
     ],
     "rating": 451,
-    "updated": "2021-06-18",
+    "updated": "2021-06-20",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5592,8 +5592,8 @@
     "owner": [
       "phepp"
     ],
-    "rating": 12,
-    "updated": "2020-08-22",
+    "rating": 13,
+    "updated": "2021-06-20",
     "url": "https://github.com/phepp/todoist-taskwarrior-integration"
   },
   {
@@ -5802,8 +5802,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 549,
-    "updated": "2021-06-15",
+    "rating": 551,
+    "updated": "2021-06-20",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6688,7 +6688,7 @@
       "tools-life"
     ],
     "rating": 571,
-    "updated": "2021-06-19",
+    "updated": "2021-06-20",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
