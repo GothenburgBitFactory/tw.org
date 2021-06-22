@@ -647,21 +647,6 @@
     "url": "https://github.com/HiveMinds-EU/CoursePlanningTemplate"
   },
   {
-    "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior such that it syncs accros multiple devices and with google calendar).",
-    "language": [
-      "Shell"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "name": "Taskwarrior-installation",
-    "obsolete": false,
-    "owner": [
-      "HiveMinds-EU"
-    ],
-    "rating": 1,
-    "updated": "2021-06-18",
-    "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
-  },
-  {
     "description": "PyQt GUI for TaskWarrior",
     "language": [
       "N/A"
@@ -2205,21 +2190,6 @@
     "rating": 0,
     "updated": "2019-01-04",
     "url": "https://github.com/cherusk/tc2tw"
-  },
-  {
-    "description": "Taskwarrior based doability projector and reviser",
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "tw_projector",
-    "obsolete": false,
-    "owner": [
-      "cherusk"
-    ],
-    "rating": 1,
-    "updated": "2019-04-22",
-    "url": "https://github.com/cherusk/tw_projector"
   },
   {
     "description": "Simple taskwarrior notifications in rust",
@@ -3942,8 +3912,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 451,
-    "updated": "2021-06-20",
+    "rating": 452,
+    "updated": "2021-06-21",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4485,21 +4455,6 @@
     "rating": 0,
     "updated": "2015-12-24",
     "url": "https://github.com/linuxcaffe/tw-wiz-sh"
-  },
-  {
-    "description": "A taskwarrior taskpirate hook to initiate actions on task start",
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "tw-workflow-hook",
-    "obsolete": true,
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 0,
-    "updated": "2015-09-07",
-    "url": "https://github.com/linuxcaffe/tw-workflow-hook"
   },
   {
     "description": "my vitrc file, loaded with keybindings to all taskwarrior features",
@@ -5427,8 +5382,8 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 2,
-    "updated": "2021-06-04",
+    "rating": 3,
+    "updated": "2021-06-21",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
   {
@@ -5592,8 +5547,8 @@
     "owner": [
       "phepp"
     ],
-    "rating": 13,
-    "updated": "2021-06-20",
+    "rating": 14,
+    "updated": "2021-06-21",
     "url": "https://github.com/phepp/todoist-taskwarrior-integration"
   },
   {
@@ -5803,7 +5758,7 @@
       "ralphbean"
     ],
     "rating": 551,
-    "updated": "2021-06-20",
+    "updated": "2021-06-21",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6688,7 +6643,7 @@
       "tools-life"
     ],
     "rating": 571,
-    "updated": "2021-06-20",
+    "updated": "2021-06-21",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -7050,21 +7005,6 @@
     "rating": 2,
     "updated": "2021-05-22",
     "url": "https://github.com/x4121/docker-taskd"
-  },
-  {
-    "description": "taskwarrior distribution with dependencies for windows",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskwarrior-windows-native",
-    "obsolete": false,
-    "owner": [
-      "xeijin"
-    ],
-    "rating": 0,
-    "updated": "2020-06-10",
-    "url": "https://github.com/xeijin/taskwarrior-windows-native"
   },
   {
     "description": "A taskwarrior hook to support spaced learning method",
