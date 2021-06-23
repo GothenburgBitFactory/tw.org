@@ -2192,6 +2192,21 @@
     "url": "https://github.com/cherusk/tc2tw"
   },
   {
+    "description": "Taskwarrior based doability projector and reviser",
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "tw_projector",
+    "obsolete": false,
+    "owner": [
+      "cherusk"
+    ],
+    "rating": 1,
+    "updated": "2019-04-22",
+    "url": "https://github.com/cherusk/tw_projector"
+  },
+  {
     "description": "Simple taskwarrior notifications in rust",
     "language": [
       "Rust"
@@ -2983,7 +2998,7 @@
       "garybgenett"
     ],
     "rating": 12,
-    "updated": "2021-05-14",
+    "updated": "2021-06-22",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -3913,7 +3928,7 @@
       "kdheepak"
     ],
     "rating": 452,
-    "updated": "2021-06-21",
+    "updated": "2021-06-22",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4457,6 +4472,21 @@
     "url": "https://github.com/linuxcaffe/tw-wiz-sh"
   },
   {
+    "description": "A taskwarrior taskpirate hook to initiate actions on task start",
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "tw-workflow-hook",
+    "obsolete": true,
+    "owner": [
+      "linuxcaffe"
+    ],
+    "rating": 0,
+    "updated": "2015-09-07",
+    "url": "https://github.com/linuxcaffe/tw-workflow-hook"
+  },
+  {
     "description": "my vitrc file, loaded with keybindings to all taskwarrior features",
     "language": [
       "N/A"
@@ -4572,8 +4602,8 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 6,
-    "updated": "2021-05-23",
+    "rating": 7,
+    "updated": "2021-06-22",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -5757,8 +5787,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 551,
-    "updated": "2021-06-21",
+    "rating": 552,
+    "updated": "2021-06-22",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -7005,6 +7035,21 @@
     "rating": 2,
     "updated": "2021-05-22",
     "url": "https://github.com/x4121/docker-taskd"
+  },
+  {
+    "description": "taskwarrior distribution with dependencies for windows",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-windows-native",
+    "obsolete": false,
+    "owner": [
+      "xeijin"
+    ],
+    "rating": 0,
+    "updated": "2020-06-10",
+    "url": "https://github.com/xeijin/taskwarrior-windows-native"
   },
   {
     "description": "A taskwarrior hook to support spaced learning method",
