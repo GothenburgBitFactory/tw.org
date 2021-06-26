@@ -1932,8 +1932,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 465,
-    "updated": "2021-06-11",
+    "rating": 466,
+    "updated": "2021-06-25",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -2232,8 +2232,8 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 119,
-    "updated": "2021-06-03",
+    "rating": 120,
+    "updated": "2021-06-25",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -3927,8 +3927,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 452,
-    "updated": "2021-06-22",
+    "rating": 453,
+    "updated": "2021-06-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5312,21 +5312,6 @@
     "url": "https://github.com/nkakouros-original/ansible-role-taskserver"
   },
   {
-    "description": "Installs taskwarrior-web with ansible",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "ansible-role-taskwarrior-web",
-    "obsolete": false,
-    "owner": [
-      "nkakouros-original"
-    ],
-    "rating": 0,
-    "updated": "2019-10-08",
-    "url": "https://github.com/nkakouros-original/ansible-role-taskwarrior-web"
-  },
-  {
     "description": "A time schedule report for taskwarrior",
     "language": [
       "Python"
@@ -5970,21 +5955,6 @@
     "rating": 1,
     "updated": "2015-01-26",
     "url": "https://github.com/roylez/syncwarrior"
-  },
-  {
-    "description": "A simple task parser for taskwarrior",
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "task-parser",
-    "obsolete": false,
-    "owner": [
-      "rubenrubiob"
-    ],
-    "rating": 0,
-    "updated": "2020-07-30",
-    "url": "https://github.com/rubenrubiob/task-parser"
   },
   {
     "description": "taskwarrior docker container",
