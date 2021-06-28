@@ -1562,6 +1562,21 @@
     "url": "https://github.com/amracks/tgs"
   },
   {
+    "description": "My taskwarrior folder",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "tawkwarrior",
+    "obsolete": false,
+    "owner": [
+      "anassBelcaid"
+    ],
+    "rating": 0,
+    "updated": "2021-03-06",
+    "url": "https://github.com/anassBelcaid/tawkwarrior"
+  },
+  {
     "description": "Taskwarrior Workflow for Alfred v2",
     "language": [
       "PHP"
@@ -2052,8 +2067,8 @@
     "owner": [
       "brutus"
     ],
-    "rating": 4,
-    "updated": "2021-03-25",
+    "rating": 5,
+    "updated": "2021-06-27",
     "url": "https://github.com/brutus/taskwarrior-local"
   },
   {
@@ -3792,8 +3807,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 240,
-    "updated": "2021-05-31",
+    "rating": 241,
+    "updated": "2021-06-27",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -5522,6 +5537,21 @@
     "url": "https://github.com/pauby/PSTodoWarrior"
   },
   {
+    "description": "Time management bot (wrapper around Taskwarrior)",
+    "language": [
+      "Perl"
+    ],
+    "license": "MIT License",
+    "name": "bot-tik-tok",
+    "obsolete": true,
+    "owner": [
+      "perigrin"
+    ],
+    "rating": 0,
+    "updated": "2018-06-07",
+    "url": "https://github.com/perigrin/bot-tik-tok"
+  },
+  {
     "description": "A task manager based on taskwarrior",
     "language": [
       "Rust"
@@ -6047,6 +6077,21 @@
     "url": "https://github.com/scmbradley/taskw-i3blocks"
   },
   {
+    "description": "Taskwarrior extension for vscode",
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "VSCode-Taskwarrior",
+    "obsolete": false,
+    "owner": [
+      "sebastianpech"
+    ],
+    "rating": 0,
+    "updated": "2019-11-23",
+    "url": "https://github.com/sebastianpech/VSCode-Taskwarrior"
+  },
+  {
     "description": "simple ncurses interface to TaskWarrior",
     "language": [
       "Python"
@@ -6420,6 +6465,21 @@
     "rating": 120,
     "updated": "2021-05-06",
     "url": "https://github.com/svijee/taskwarrior-androidapp"
+  },
+  {
+    "description": "A TaskWarrior clone for websites - Uses Selenium.Automate tasks like filling up time sheets etc!",
+    "language": [
+      "N/A"
+    ],
+    "license": "Apache License 2.0",
+    "name": "WebTaskWarrior",
+    "obsolete": true,
+    "owner": [
+      "syedatifakhtar"
+    ],
+    "rating": 0,
+    "updated": "2017-06-13",
+    "url": "https://github.com/syedatifakhtar/WebTaskWarrior"
   },
   {
     "description": "Create a taskwarrior/tmux/xterm session with multiple reports and refreshing",
