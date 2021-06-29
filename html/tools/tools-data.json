@@ -1562,21 +1562,6 @@
     "url": "https://github.com/amracks/tgs"
   },
   {
-    "description": "My taskwarrior folder",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "tawkwarrior",
-    "obsolete": false,
-    "owner": [
-      "anassBelcaid"
-    ],
-    "rating": 0,
-    "updated": "2021-03-06",
-    "url": "https://github.com/anassBelcaid/tawkwarrior"
-  },
-  {
     "description": "Taskwarrior Workflow for Alfred v2",
     "language": [
       "PHP"
@@ -1887,8 +1872,8 @@
     "owner": [
       "blampe"
     ],
-    "rating": 18,
-    "updated": "2021-06-20",
+    "rating": 19,
+    "updated": "2021-06-28",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
   {
@@ -3252,8 +3237,8 @@
     "owner": [
       "huntrar"
     ],
-    "rating": 4,
-    "updated": "2021-04-09",
+    "rating": 5,
+    "updated": "2021-06-28",
     "url": "https://github.com/huntrar/clubwarrior"
   },
   {
@@ -3510,6 +3495,21 @@
     "rating": 8,
     "updated": "2020-10-29",
     "url": "https://github.com/jbarratt/trello_to_task"
+  },
+  {
+    "description": "Syncs taskwarrior with your Todoist account",
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "todoist-taskwarrior-sync",
+    "obsolete": false,
+    "owner": [
+      "jbog"
+    ],
+    "rating": 0,
+    "updated": "2018-08-18",
+    "url": "https://github.com/jbog/todoist-taskwarrior-sync"
   },
   {
     "description": "Python app for use with Taskwarrior + Bugwarrior to align priorities and due dates to open sprints in JIRA",
@@ -3853,7 +3853,7 @@
       "juanedflores"
     ],
     "rating": 0,
-    "updated": "2021-06-26",
+    "updated": "2021-06-28",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
   {
@@ -3927,8 +3927,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 456,
-    "updated": "2021-06-26",
+    "rating": 458,
+    "updated": "2021-06-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6672,8 +6672,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 572,
-    "updated": "2021-06-27",
+    "rating": 573,
+    "updated": "2021-06-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
