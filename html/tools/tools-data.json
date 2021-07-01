@@ -762,8 +762,8 @@
     "owner": [
       "LikiPiki"
     ],
-    "rating": 0,
-    "updated": "2021-05-11",
+    "rating": 1,
+    "updated": "2021-06-30",
     "url": "https://github.com/LikiPiki/taskwarriorExtension"
   },
   {
@@ -853,7 +853,7 @@
       "Mossop"
     ],
     "rating": 0,
-    "updated": "2020-07-20",
+    "updated": "2021-06-30",
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
   {
@@ -1797,8 +1797,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 0,
-    "updated": "2021-03-28",
+    "rating": 1,
+    "updated": "2021-07-01",
     "url": "https://github.com/bergercookie/taskwarrior-deno"
   },
   {
@@ -1917,8 +1917,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 466,
-    "updated": "2021-06-25",
+    "rating": 465,
+    "updated": "2021-06-30",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -2397,8 +2397,8 @@
     "owner": [
       "crockeo"
     ],
-    "rating": 3,
-    "updated": "2021-05-25",
+    "rating": 4,
+    "updated": "2021-06-30",
     "url": "https://github.com/crockeo/taskn"
   },
   {
@@ -2700,6 +2700,21 @@
     "rating": 0,
     "updated": "2020-01-30",
     "url": "https://github.com/edufarest/task2gcal"
+  },
+  {
+    "description": "session of taskwarrior in term",
+    "language": [
+      "C"
+    ],
+    "license": null,
+    "name": "taskwarrior_session",
+    "obsolete": false,
+    "owner": [
+      "emil0zulkarnaev"
+    ],
+    "rating": 0,
+    "updated": "2021-06-30",
+    "url": "https://github.com/emil0zulkarnaev/taskwarrior_session"
   },
   {
     "description": "A Taskwarrior Theme without annoying stuff.",
@@ -3852,8 +3867,8 @@
     "owner": [
       "juanedflores"
     ],
-    "rating": 0,
-    "updated": "2021-06-28",
+    "rating": 1,
+    "updated": "2021-06-30",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
   {
@@ -3867,8 +3882,8 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 18,
-    "updated": "2021-06-17",
+    "rating": 19,
+    "updated": "2021-06-30",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
   {
@@ -3927,8 +3942,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 460,
-    "updated": "2021-06-29",
+    "rating": 462,
+    "updated": "2021-07-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4107,8 +4122,8 @@
     "owner": [
       "ky-s"
     ],
-    "rating": 0,
-    "updated": "2021-04-25",
+    "rating": 1,
+    "updated": "2021-07-01",
     "url": "https://github.com/ky-s/taskwarrior-electron"
   },
   {
@@ -4812,8 +4827,8 @@
     "owner": [
       "mikebobroski"
     ],
-    "rating": 43,
-    "updated": "2021-06-03",
+    "rating": 42,
+    "updated": "2021-06-30",
     "url": "https://github.com/mikebobroski/tasknote"
   },
   {
@@ -6672,8 +6687,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 573,
-    "updated": "2021-06-28",
+    "rating": 574,
+    "updated": "2021-06-30",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
