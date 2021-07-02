@@ -552,8 +552,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 32,
-    "updated": "2021-06-18",
+    "rating": 33,
+    "updated": "2021-07-01",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
   {
@@ -1782,8 +1782,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 89,
-    "updated": "2021-06-12",
+    "rating": 90,
+    "updated": "2021-07-01",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -3897,8 +3897,8 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 3,
-    "updated": "2021-02-20",
+    "rating": 2,
+    "updated": "2021-07-01",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
@@ -3942,7 +3942,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 462,
+    "rating": 463,
     "updated": "2021-07-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -4722,8 +4722,8 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 8,
-    "updated": "2020-06-04",
+    "rating": 9,
+    "updated": "2021-07-01",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
   {
@@ -5593,7 +5593,7 @@
       "phepp"
     ],
     "rating": 14,
-    "updated": "2021-06-21",
+    "updated": "2021-07-01",
     "url": "https://github.com/phepp/todoist-taskwarrior-integration"
   },
   {
