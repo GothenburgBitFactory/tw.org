@@ -57,8 +57,8 @@
     "owner": [
       "8ware"
     ],
-    "rating": 25,
-    "updated": "2021-01-08",
+    "rating": 26,
+    "updated": "2021-07-02",
     "url": "https://github.com/8ware/task-gantt"
   },
   {
@@ -118,7 +118,7 @@
       "Aerex"
     ],
     "rating": 1,
-    "updated": "2021-04-22",
+    "updated": "2021-07-03",
     "url": "https://github.com/Aerex/icaltask"
   },
   {
@@ -162,8 +162,8 @@
     "owner": [
       "AlexanderBrevig"
     ],
-    "rating": 1,
-    "updated": "2021-06-09",
+    "rating": 2,
+    "updated": "2021-07-02",
     "url": "https://github.com/AlexanderBrevig/twgcals"
   },
   {
@@ -1227,8 +1227,8 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 45,
-    "updated": "2021-05-02",
+    "rating": 46,
+    "updated": "2021-07-02",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -1782,8 +1782,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 90,
-    "updated": "2021-07-01",
+    "rating": 91,
+    "updated": "2021-07-02",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -1917,8 +1917,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 465,
-    "updated": "2021-06-30",
+    "rating": 466,
+    "updated": "2021-07-02",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -2037,8 +2037,8 @@
     "owner": [
       "brp-optics"
     ],
-    "rating": 1,
-    "updated": "2020-07-24",
+    "rating": 2,
+    "updated": "2021-07-02",
     "url": "https://github.com/brp-optics/taskmc"
   },
   {
@@ -2067,8 +2067,8 @@
     "owner": [
       "burnison"
     ],
-    "rating": 81,
-    "updated": "2021-06-08",
+    "rating": 82,
+    "updated": "2021-07-02",
     "url": "https://github.com/burnison/tasksync"
   },
   {
@@ -2292,8 +2292,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 57,
-    "updated": "2021-02-02",
+    "rating": 58,
+    "updated": "2021-07-02",
     "url": "https://github.com/coddingtonbear/taskwarrior-inthe.am"
   },
   {
@@ -2817,8 +2817,8 @@
     "owner": [
       "erikh"
     ],
-    "rating": 3,
-    "updated": "2021-04-15",
+    "rating": 4,
+    "updated": "2021-07-02",
     "url": "https://github.com/erikh/calwarrior"
   },
   {
@@ -3132,8 +3132,8 @@
     "owner": [
       "hamlinux"
     ],
-    "rating": 0,
-    "updated": "2019-09-07",
+    "rating": 1,
+    "updated": "2021-07-02",
     "url": "https://github.com/hamlinux/taskwarrior-GTD"
   },
   {
@@ -3747,8 +3747,8 @@
     "owner": [
       "jonsterling"
     ],
-    "rating": 30,
-    "updated": "2020-12-16",
+    "rating": 31,
+    "updated": "2021-07-02",
     "url": "https://github.com/jonsterling/Tasky"
   },
   {
@@ -3942,8 +3942,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 463,
-    "updated": "2021-07-01",
+    "rating": 465,
+    "updated": "2021-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4077,8 +4077,8 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 117,
-    "updated": "2021-06-01",
+    "rating": 118,
+    "updated": "2021-07-02",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
   {
@@ -4242,8 +4242,8 @@
     "owner": [
       "liloman"
     ],
-    "rating": 24,
-    "updated": "2021-02-26",
+    "rating": 25,
+    "updated": "2021-07-02",
     "url": "https://github.com/liloman/pomodoroTasks2"
   },
   {
@@ -4257,8 +4257,8 @@
     "owner": [
       "liloman"
     ],
-    "rating": 9,
-    "updated": "2021-01-06",
+    "rating": 10,
+    "updated": "2021-07-02",
     "url": "https://github.com/liloman/warriors"
   },
   {
@@ -4842,8 +4842,8 @@
     "owner": [
       "mimr9"
     ],
-    "rating": 1,
-    "updated": "2021-01-10",
+    "rating": 2,
+    "updated": "2021-07-02",
     "url": "https://github.com/mimr9/alarmwarrior"
   },
   {
@@ -5097,8 +5097,8 @@
     "owner": [
       "mythmon"
     ],
-    "rating": 2,
-    "updated": "2021-04-26",
+    "rating": 3,
+    "updated": "2021-07-02",
     "url": "https://github.com/mythmon/taskwarrior-rofi"
   },
   {
@@ -5427,8 +5427,8 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 3,
-    "updated": "2021-06-21",
+    "rating": 4,
+    "updated": "2021-07-02",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
   {
@@ -5772,8 +5772,8 @@
     "owner": [
       "quandangv"
     ],
-    "rating": 2,
-    "updated": "2021-03-08",
+    "rating": 3,
+    "updated": "2021-07-02",
     "url": "https://github.com/quandangv/polybar-warrior"
   },
   {
@@ -6222,8 +6222,8 @@
     "owner": [
       "sinarf"
     ],
-    "rating": 1,
-    "updated": "2020-03-28",
+    "rating": 2,
+    "updated": "2021-07-02",
     "url": "https://github.com/sinarf/taskomodoro"
   },
   {
@@ -6462,8 +6462,8 @@
     "owner": [
       "svenhertle"
     ],
-    "rating": 29,
-    "updated": "2020-06-06",
+    "rating": 30,
+    "updated": "2021-07-02",
     "url": "https://github.com/svenhertle/tasktime"
   },
   {
@@ -6687,8 +6687,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 574,
-    "updated": "2021-06-30",
+    "rating": 576,
+    "updated": "2021-07-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -7122,8 +7122,8 @@
     "owner": [
       "yanick"
     ],
-    "rating": 0,
-    "updated": "2021-05-24",
+    "rating": 1,
+    "updated": "2021-07-02",
     "url": "https://github.com/yanick/nvim-taskwarrior"
   },
   {
@@ -7227,8 +7227,8 @@
     "owner": [
       "zhangfeng"
     ],
-    "rating": 0,
-    "updated": "2020-05-29",
+    "rating": 1,
+    "updated": "2021-07-02",
     "url": "https://github.com/zhangfeng/taskli"
   },
   {
