@@ -1783,7 +1783,7 @@
       "bergercookie"
     ],
     "rating": 91,
-    "updated": "2021-07-02",
+    "updated": "2021-07-03",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -1842,8 +1842,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 74,
-    "updated": "2021-06-13",
+    "rating": 75,
+    "updated": "2021-07-03",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -2603,7 +2603,7 @@
     ],
     "license": null,
     "name": "taskwarrior-scripts",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "drewstinnett"
     ],
@@ -3822,8 +3822,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 241,
-    "updated": "2021-06-27",
+    "rating": 242,
+    "updated": "2021-07-03",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -3868,7 +3868,7 @@
       "juanedflores"
     ],
     "rating": 1,
-    "updated": "2021-06-30",
+    "updated": "2021-07-03",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
   {
@@ -3942,8 +3942,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 465,
-    "updated": "2021-07-02",
+    "rating": 467,
+    "updated": "2021-07-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4527,8 +4527,8 @@
     "owner": [
       "lukasdietrich"
     ],
-    "rating": 0,
-    "updated": "2018-10-11",
+    "rating": 1,
+    "updated": "2021-07-03",
     "url": "https://github.com/lukasdietrich/taskwarrior-docker"
   },
   {
@@ -6068,7 +6068,7 @@
     ],
     "license": null,
     "name": "taskwarrior-dropbox",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "sclo"
     ],
