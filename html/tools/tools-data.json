@@ -992,21 +992,6 @@
     "url": "https://github.com/ShockRabbit/report-twarriors"
   },
   {
-    "description": "A web-based mobile todo-list app with taskwarrior-like features",
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "Tasker",
-    "obsolete": false,
-    "owner": [
-      "SitanHuang"
-    ],
-    "rating": 0,
-    "updated": "2020-06-16",
-    "url": "https://github.com/SitanHuang/Tasker"
-  },
-  {
     "description": "a small bash script that adds a taskwarrior-like behaviour on top of : https://github.com/Netflix-Skunkworks/go-jira",
     "language": [
       "N/A"
@@ -1440,21 +1425,6 @@
     "rating": 1,
     "updated": "2020-12-15",
     "url": "https://github.com/alanoakes/taskwarrior-projectAutomation"
-  },
-  {
-    "description": "Flask powered web interface for taskwarrior",
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "tasks",
-    "obsolete": false,
-    "owner": [
-      "alcarithemad"
-    ],
-    "rating": 1,
-    "updated": "2019-05-14",
-    "url": "https://github.com/alcarithemad/tasks"
   },
   {
     "description": "Taskwarrior configuration (fizzy compliant)",
@@ -2263,7 +2233,7 @@
       "coddingtonbear"
     ],
     "rating": 460,
-    "updated": "2021-06-19",
+    "updated": "2021-07-05",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -2807,6 +2777,21 @@
     "url": "https://github.com/erichschroeter/taskweb"
   },
   {
+    "description": "A Rust library for writing taskwarrior hooks and general interfacing with taskwarrior",
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU Lesser General Public License v2.1",
+    "name": "task-hookrs",
+    "obsolete": false,
+    "owner": [
+      "erickt"
+    ],
+    "rating": 0,
+    "updated": "2021-07-05",
+    "url": "https://github.com/erickt/task-hookrs"
+  },
+  {
     "description": "Taskwarrior <-> Google Calendar bridge",
     "language": [
       "Go"
@@ -2998,7 +2983,7 @@
       "garybgenett"
     ],
     "rating": 12,
-    "updated": "2021-06-22",
+    "updated": "2021-07-05",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -3868,7 +3853,7 @@
       "juanedflores"
     ],
     "rating": 1,
-    "updated": "2021-07-04",
+    "updated": "2021-07-05",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
   {
@@ -4740,36 +4725,6 @@
     "rating": 0,
     "updated": "2021-01-10",
     "url": "https://github.com/mattcl/task-streamer"
-  },
-  {
-    "description": "A Rust library for writing taskwarrior hooks and general interfacing with taskwarrior",
-    "language": [
-      "Rust"
-    ],
-    "license": "Mozilla Public License 2.0",
-    "name": "task-hookrs",
-    "obsolete": false,
-    "owner": [
-      "matthiasbeyer"
-    ],
-    "rating": 29,
-    "updated": "2021-06-07",
-    "url": "https://github.com/matthiasbeyer/task-hookrs"
-  },
-  {
-    "description": "Print taskwarrior started/stopped tasks",
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "task-rain",
-    "obsolete": true,
-    "owner": [
-      "matthiasbeyer"
-    ],
-    "rating": 0,
-    "updated": "2017-09-15",
-    "url": "https://github.com/matthiasbeyer/task-rain"
   },
   {
     "description": "Some helper scripts for my TaskWarrior setup",
@@ -5967,8 +5922,8 @@
     "owner": [
       "roylez"
     ],
-    "rating": 14,
-    "updated": "2021-01-24",
+    "rating": 15,
+    "updated": "2021-07-05",
     "url": "https://github.com/roylez/alfred_taskwarrior"
   },
   {
@@ -6687,8 +6642,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 576,
-    "updated": "2021-07-02",
+    "rating": 577,
+    "updated": "2021-07-05",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
