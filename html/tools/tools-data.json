@@ -992,6 +992,21 @@
     "url": "https://github.com/ShockRabbit/report-twarriors"
   },
   {
+    "description": "A web-based mobile todo-list app with taskwarrior-like features",
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "Tasker",
+    "obsolete": false,
+    "owner": [
+      "SitanHuang"
+    ],
+    "rating": 0,
+    "updated": "2020-06-16",
+    "url": "https://github.com/SitanHuang/Tasker"
+  },
+  {
     "description": "a small bash script that adds a taskwarrior-like behaviour on top of : https://github.com/Netflix-Skunkworks/go-jira",
     "language": [
       "N/A"
@@ -1287,8 +1302,8 @@
     "owner": [
       "aaschmid"
     ],
-    "rating": 12,
-    "updated": "2021-02-23",
+    "rating": 13,
+    "updated": "2021-07-06",
     "url": "https://github.com/aaschmid/taskwarrior-java-client"
   },
   {
@@ -1425,6 +1440,21 @@
     "rating": 1,
     "updated": "2020-12-15",
     "url": "https://github.com/alanoakes/taskwarrior-projectAutomation"
+  },
+  {
+    "description": "Flask powered web interface for taskwarrior",
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "tasks",
+    "obsolete": false,
+    "owner": [
+      "alcarithemad"
+    ],
+    "rating": 1,
+    "updated": "2019-05-14",
+    "url": "https://github.com/alcarithemad/tasks"
   },
   {
     "description": "Taskwarrior configuration (fizzy compliant)",
@@ -1817,6 +1847,21 @@
     "url": "https://github.com/bgregos/foreground"
   },
   {
+    "description": "Python scripts to implement GTD process with TaskWarrior",
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "pythongtdwarrior",
+    "obsolete": false,
+    "owner": [
+      "blaisegarant"
+    ],
+    "rating": 0,
+    "updated": "2021-07-06",
+    "url": "https://github.com/blaisegarant/pythongtdwarrior"
+  },
+  {
     "description": "A unite.vim interface to taskwarrior",
     "language": [
       "VimL"
@@ -2187,8 +2232,8 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 120,
-    "updated": "2021-06-25",
+    "rating": 119,
+    "updated": "2021-07-06",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -2322,8 +2367,8 @@
     "owner": [
       "contrun"
     ],
-    "rating": 2,
-    "updated": "2021-03-05",
+    "rating": 3,
+    "updated": "2021-07-06",
     "url": "https://github.com/contrun/taskwarrior-terminal-kanban"
   },
   {
@@ -2982,8 +3027,8 @@
     "owner": [
       "garybgenett"
     ],
-    "rating": 12,
-    "updated": "2021-07-05",
+    "rating": 13,
+    "updated": "2021-07-06",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5142,8 +5187,8 @@
     "owner": [
       "nerab"
     ],
-    "rating": 21,
-    "updated": "2021-04-30",
+    "rating": 22,
+    "updated": "2021-07-06",
     "url": "https://github.com/nerab/twdeps"
   },
   {
@@ -5307,8 +5352,8 @@
     "owner": [
       "nnist"
     ],
-    "rating": 5,
-    "updated": "2021-05-25",
+    "rating": 6,
+    "updated": "2021-07-06",
     "url": "https://github.com/nnist/taskschedule"
   },
   {
@@ -5757,8 +5802,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 553,
-    "updated": "2021-06-29",
+    "rating": 554,
+    "updated": "2021-07-06",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -5922,8 +5967,8 @@
     "owner": [
       "roylez"
     ],
-    "rating": 15,
-    "updated": "2021-07-05",
+    "rating": 16,
+    "updated": "2021-07-06",
     "url": "https://github.com/roylez/alfred_taskwarrior"
   },
   {
@@ -6357,8 +6402,8 @@
     "owner": [
       "stackedsax"
     ],
-    "rating": 20,
-    "updated": "2020-12-31",
+    "rating": 21,
+    "updated": "2021-07-06",
     "url": "https://github.com/stackedsax/taskwarrior_scripts"
   },
   {
