@@ -14,46 +14,48 @@ function Tool(data) {
     this.url = data.url;
 }
 
+function compare(left, right) {
+    if (left === right) {
+        return 0;
+    }
+    return left < right ? -1 : 1;
+}
+
+function has_intersection(array, test) {
+    return (array.length === 0)
+        || array.some(function (elem) {
+            return test.includes(elem)
+        });
+}
+
+function unique() {
+    return (value, index, array) => array.indexOf(value) === index;
+}
+
 // Overall view model for this screen, along with initial state
 function ToolsViewModel() {
     let self = this;
 
-    self.tools = ko.observableArray([]);
-    self.languages = ko.observableArray([]);
-    self.owners = ko.observableArray([]);
+    self.tools = ko.observableArray();
+    self.languages = ko.observableArray();
+    self.owners = ko.observableArray();
 
     // Load tools from server, convert to Tools instances, then populate the data for templates
     // This data is static.
     $.getJSON("tools-data.json", function(allData) {
-        let mappedTools = $.map(allData, function(item) { return new Tool(item) });
+        let mappedTools = allData.map(item => new Tool(item));
 
-        let uniqueLanguage = {};
-        let uniqueOwner = {};
-
-        for(let i in mappedTools ){
-            for (let j in mappedTools[i].language) {
-                if (typeof(uniqueLanguage[mappedTools[i].language[j]]) == "undefined") {
-                    self.languages.push(mappedTools[i].language[j]);
-                }
-                uniqueLanguage[mappedTools[i].language[j]] = 0;
-            }
-            for (let j in mappedTools[i].owner) {
-                if (typeof(uniqueOwner[mappedTools[i].owner[j]]) == "undefined") {
-                    self.owners.push(mappedTools[i].owner[j]);
-                }
-                uniqueOwner[mappedTools[i].owner[j]] = 0;
-            }
-        }
+        self.languages(mappedTools.flatMap(item => item.language).filter(unique()).sort())
+        self.owners(mappedTools.flatMap(item => item.owner).filter(unique()).sort())
 
         self.tools(mappedTools);
-        self.tools.sort(function (left, right) { return left.name === right.name ? 0 : (left.name < right.name ? -1 : 1) });
-        self.owners.sort();
+        self.tools.sort((left, right) => compare(left.name, right.name));
     });
 
     self.ObsoleteSelected = ko.observable(false);
 
-    // The Language selector
-    self.LanguagesSelected = ko.observableArray([]);
+    // The language selector
+    self.LanguagesSelected = ko.observableArray();
     self.selectedAllLanguages = ko.pureComputed({
         read: function () {
             console.log("Read ... Filter: " + self.LanguagesSelected.slice(0));
@@ -64,8 +66,8 @@ function ToolsViewModel() {
         }
     });
 
-    // The Owner selector  (huge list...)
-    self.OwnersSelected = ko.observableArray([]);
+    // The owner selector (huge list...)
+    self.OwnersSelected = ko.observableArray();
     self.selectedAllOwners = ko.pureComputed({
         read: function () {
             console.log("Read ... Filter: " + self.OwnersSelected.slice(0));
@@ -79,22 +81,21 @@ function ToolsViewModel() {
     // The search field
     self.query = ko.observable('');
 
-    // The printed tool list:
+    // The printed tool list
     self.filteredTools = ko.computed(
         function() {
-            const sort_by_name = function (left, right) { return left.name === right.name ? 0 : (left.name.toLowerCase() < right.name.toLowerCase() ? -1 : 1) };
-            const sort_by_rating = function (left, right) { return left.rating === right.rating  ? sort_by_name(left,right) : (left.rating > right.rating ? -1 : 1) };
+            const sort_by_rating_and_name = function (left, right) { return compare(right.rating, left.rating) || compare(left.name.toLowerCase(), right.name.toLowerCase()) };
             return self.tools().filter(
                 function (tool) {
-                    const isLanguageIn = (self.LanguagesSelected().length === 0) ||  self.LanguagesSelected().some(function (elem) { return tool.language.includes(elem)} );
-                    const isOwnerIn = (self.OwnersSelected().length === 0) ||  self.OwnersSelected().some(function (elem) { return tool.owner.includes(elem)} );
+                    const isLanguageIn = has_intersection(self.LanguagesSelected(), tool.language);
+                    const isOwnerIn = has_intersection(self.OwnersSelected(), tool.owner);
                     const isQuery = (self.query().length === 0)
                             || (tool.name && tool.name.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
                             || (tool.description && tool.description.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
                             || (tool.license && tool.license.toLowerCase().indexOf( self.query().toLowerCase() ) > -1)
                             || (tool.owner && tool.owner.join().toLowerCase().indexOf( self.query().toLowerCase() ) > -1);
                     return (!tool.obsolete || self.ObsoleteSelected()) && isLanguageIn && isOwnerIn && isQuery;
-                } ).sort(sort_by_rating);
+                } ).sort(sort_by_rating_and_name);
         }
     );
 }
