@@ -552,8 +552,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 33,
-    "updated": "2021-07-04",
+    "rating": 34,
+    "updated": "2021-07-09",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
   {
@@ -3735,6 +3735,21 @@
     "rating": 0,
     "updated": "2021-03-09",
     "url": "https://github.com/johnivore/docker-taskd"
+  },
+  {
+    "description": "A suite of tools to guide a user through a thorough weekly review in the GTD format.",
+    "language": [
+      "Common Lisp"
+    ],
+    "license": "MIT License",
+    "name": "gtd-review",
+    "obsolete": false,
+    "owner": [
+      "jonathanabennett"
+    ],
+    "rating": 4,
+    "updated": "2021-07-04",
+    "url": "https://github.com/jonathanabennett/gtd-review"
   },
   {
     "description": "wip: wunderlist & taskwarrior two-way sync in python3",
@@ -7249,7 +7264,7 @@
   {
     "description": "An fzf based UI for taskwarrior, implemented as a /bin/sh script.",
     "language": [
-      "bash"
+      "Bash"
     ],
     "license": "Apache 2.0",
     "name": "taskwarrior-fzf",
