@@ -44,7 +44,10 @@ def log_debug(message, *args):
 def log_info(message, *args):
     if LOG_LEVEL > LogLevel.INFO:
         return
-    log_message(message, *args, label="INFO")
+    if LOG_LEVEL == LogLevel.INFO:
+        log_message(message, *args)
+    else:
+        log_message(message, *args, label="INFO")
 
 
 def log_warn(message, *args):
@@ -76,6 +79,8 @@ def search_github(names, keywords):
         query = "{}+in:description,name,topic".format(keyword)
         for repo in client.search_repositories(query, sort="stars", order="desc"):
             results.append(from_github_repo(repo))
+
+    log_info("Added {} entries from Github", len(results))
 
     return results
 
@@ -156,7 +161,7 @@ def usage():
 
 if __name__ == "__main__":
     LOG_LEVEL = LogLevel[os.getenv("LOG_LEVEL") or "INFO"]
-    log_message("Log level set to '{}'", str(LOG_LEVEL.name))
+    log_debug("Log level set to '{}'", str(LOG_LEVEL.name))
 
     GITHUB_API_KEY = os.getenv("GITHUB_API_KEY")
     if not GITHUB_API_KEY:
@@ -180,8 +185,8 @@ if __name__ == "__main__":
     includes["github"] = [] if "github" not in includes else includes["github"]
     includes["manual"] = [] if "manual" not in includes else includes["manual"]
 
-    log_message("Updating tool listing")
-    log_info("Querying Github for tools with keywords {}", KEYWORDS)
+    log_info("Updating tool listing...")
+    log_info("Querying Github...")
     tools = search_github(includes["github"], KEYWORDS)
     log_info("Adding {} manual includes ...", len(includes["manual"]))
     tools.extend(includes["manual"])
@@ -191,4 +196,4 @@ if __name__ == "__main__":
     tools.sort(key=lambda x: x.get("url") if x.get("url") is not None else "")
     log_info("Writing {} tools to {} ...", len(tools), output.name)
     json.dump(tools, output, indent=2, sort_keys=True, default=str)
-    log_message("Update complete.")
+    log_info("Update complete.")
