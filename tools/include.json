@@ -22,7 +22,7 @@
     },
     {
       "description": "An fzf based UI for taskwarrior, implemented as a /bin/sh script.",
-      "language": [ "bash" ],
+      "language": [ "Bash" ],
       "license": "Apache 2.0",
       "name": "taskwarrior-fzf",
       "obsolete": false,
