@@ -107,6 +107,21 @@
     "url": "https://github.com/AMIRIOX/wml"
   },
   {
+    "description": "A baikal plugin that synchronizes iCal TODO events with various remote storages  such as Taskwarrior",
+    "language": [
+      "PHP"
+    ],
+    "license": null,
+    "name": "baikal-storage-plugin",
+    "obsolete": false,
+    "owner": [
+      "Aerex"
+    ],
+    "rating": 0,
+    "updated": "2021-07-13",
+    "url": "https://github.com/Aerex/baikal-storage-plugin"
+  },
+  {
     "description": "Synchronize between Taskwarrior and iCalendar TODO events",
     "language": [
       "Python"
@@ -792,8 +807,8 @@
     "owner": [
       "LukasGasior1"
     ],
-    "rating": 3,
-    "updated": "2021-02-01",
+    "rating": 4,
+    "updated": "2021-07-13",
     "url": "https://github.com/LukasGasior1/taskwarrior-fullcalendar"
   },
   {
@@ -1857,8 +1872,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 76,
-    "updated": "2021-07-11",
+    "rating": 77,
+    "updated": "2021-07-14",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -2023,7 +2038,7 @@
       "bradyt"
     ],
     "rating": 7,
-    "updated": "2021-07-07",
+    "updated": "2021-07-13",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3762,8 +3777,8 @@
     "owner": [
       "jonathanabennett"
     ],
-    "rating": 4,
-    "updated": "2021-07-04",
+    "rating": 5,
+    "updated": "2021-07-13",
     "url": "https://github.com/jonathanabennett/gtd-review"
   },
   {
@@ -4002,8 +4017,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 471,
-    "updated": "2021-07-10",
+    "rating": 472,
+    "updated": "2021-07-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5487,8 +5502,8 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 83,
-    "updated": "2021-07-11",
+    "rating": 84,
+    "updated": "2021-07-13",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
   {
@@ -6223,7 +6238,7 @@
       "shitingbao"
     ],
     "rating": 0,
-    "updated": "2021-04-16",
+    "updated": "2021-07-13",
     "url": "https://github.com/shitingbao/task-server"
   },
   {
@@ -6672,8 +6687,8 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 440,
-    "updated": "2021-06-11",
+    "rating": 441,
+    "updated": "2021-07-13",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
@@ -6717,8 +6732,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 579,
-    "updated": "2021-07-11",
+    "rating": 580,
+    "updated": "2021-07-13",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
