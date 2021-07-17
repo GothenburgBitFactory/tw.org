@@ -1007,21 +1007,6 @@
     "url": "https://github.com/Shekcon/Tasks-Web"
   },
   {
-    "description": "taskwarrior, timewarrior weekly report script (personal script. not general)",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "report-twarriors",
-    "obsolete": false,
-    "owner": [
-      "ShockRabbit"
-    ],
-    "rating": 0,
-    "updated": "2021-03-06",
-    "url": "https://github.com/ShockRabbit/report-twarriors"
-  },
-  {
     "description": "A web-based mobile todo-list app with taskwarrior-like features",
     "language": [
       "JavaScript"
@@ -2263,7 +2248,7 @@
       "cinatic"
     ],
     "rating": 119,
-    "updated": "2021-07-14",
+    "updated": "2021-07-16",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -2640,6 +2625,21 @@
     "rating": 0,
     "updated": "2015-04-20",
     "url": "https://github.com/dotfilerepo/taskwarrior"
+  },
+  {
+    "description": "Misc. scripts for pushing things to taskwarrior",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwarrior-scripts",
+    "obsolete": true,
+    "owner": [
+      "drewstinnett"
+    ],
+    "rating": 0,
+    "updated": "2018-07-03",
+    "url": "https://github.com/drewstinnett/taskwarrior-scripts"
   },
   {
     "description": "A Ruby wrapper around the TaskWarrior command line tool",
@@ -3043,7 +3043,7 @@
       "garybgenett"
     ],
     "rating": 13,
-    "updated": "2021-07-06",
+    "updated": "2021-07-16",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -4002,8 +4002,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 472,
-    "updated": "2021-07-13",
+    "rating": 474,
+    "updated": "2021-07-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5537,6 +5537,21 @@
     "url": "https://github.com/openscreencast/openscreencast_videos_taskwarrior"
   },
   {
+    "description": "Try to make a task visible in current taskwarrior context",
+    "language": [
+      "PureScript"
+    ],
+    "license": null,
+    "name": "task-contextualize",
+    "obsolete": false,
+    "owner": [
+      "osfameron"
+    ],
+    "rating": 0,
+    "updated": "2020-09-05",
+    "url": "https://github.com/osfameron/task-contextualize"
+  },
+  {
     "description": "Small script to get total on all times for a project with date filters. A supplement to kostajh/taskwarrior-time-tracking-hook",
     "language": [
       "Python"
@@ -5592,8 +5607,8 @@
     "owner": [
       "phaazon"
     ],
-    "rating": 41,
-    "updated": "2021-06-26",
+    "rating": 42,
+    "updated": "2021-07-16",
     "url": "https://github.com/phaazon/toodoux"
   },
   {
@@ -6208,7 +6223,7 @@
       "shitingbao"
     ],
     "rating": 0,
-    "updated": "2021-07-15",
+    "updated": "2021-07-16",
     "url": "https://github.com/shitingbao/task-server"
   },
   {
@@ -6702,8 +6717,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 581,
-    "updated": "2021-07-15",
+    "rating": 582,
+    "updated": "2021-07-16",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -6975,6 +6990,21 @@
     "rating": 0,
     "updated": "2018-04-07",
     "url": "https://github.com/vonpupp/dotfiles-task"
+  },
+  {
+    "description": "A Dockerfile for Taskwarrior container image",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-dockerfile",
+    "obsolete": true,
+    "owner": [
+      "vpavlin"
+    ],
+    "rating": 0,
+    "updated": "2015-08-18",
+    "url": "https://github.com/vpavlin/taskwarrior-dockerfile"
   },
   {
     "description": "Telch is a web interface for taskwarrior",
