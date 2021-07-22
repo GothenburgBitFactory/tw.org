@@ -107,6 +107,21 @@
     "url": "https://github.com/AMIRIOX/wml"
   },
   {
+    "description": "A baikal plugin that synchronizes iCal TODO events with various remote storages  such as Taskwarrior",
+    "language": [
+      "PHP"
+    ],
+    "license": null,
+    "name": "baikal-storage-plugin",
+    "obsolete": false,
+    "owner": [
+      "Aerex"
+    ],
+    "rating": 0,
+    "updated": "2021-07-13",
+    "url": "https://github.com/Aerex/baikal-storage-plugin"
+  },
+  {
     "description": "Synchronize between Taskwarrior and iCalendar TODO events",
     "language": [
       "Python"
@@ -195,6 +210,21 @@
     "rating": 24,
     "updated": "2021-06-17",
     "url": "https://github.com/AnotherKamila/tasksched"
+  },
+  {
+    "description": "This was fun, but now I am using Taskwarrior with my own Tasksched",
+    "language": [
+      "JavaScript"
+    ],
+    "license": "MIT License",
+    "name": "todo-viewer",
+    "obsolete": true,
+    "owner": [
+      "AnotherKamila"
+    ],
+    "rating": 0,
+    "updated": "2017-11-30",
+    "url": "https://github.com/AnotherKamila/todo-viewer"
   },
   {
     "description": "Im trying to build a simple TaskServer that can handle multiple Clients at the same time and manages the Tasks in a SQL database",
@@ -557,6 +587,21 @@
     "url": "https://github.com/HTunne/task-rest"
   },
   {
+    "description": "A web front end for taskwarrior written in vue js with vuetify. Designed to work with task-rest.",
+    "language": [
+      "Vue"
+    ],
+    "license": null,
+    "name": "task-vue",
+    "obsolete": false,
+    "owner": [
+      "HTunne"
+    ],
+    "rating": 0,
+    "updated": "2020-10-04",
+    "url": "https://github.com/HTunne/task-vue"
+  },
+  {
     "description": "A hook to add starting task from taskwarrior to jrnl",
     "language": [
       "Python"
@@ -570,6 +615,21 @@
     "rating": 5,
     "updated": "2020-03-28",
     "url": "https://github.com/Hatoris/taskwarrior_jrnl_hook"
+  },
+  {
+    "description": "generate up-to-time web page & custom completed task report based on great tool \u2014\u2014 TaskWarrior",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "TaskWarriorReport",
+    "obsolete": true,
+    "owner": [
+      "Henry-T"
+    ],
+    "rating": 0,
+    "updated": "2016-01-12",
+    "url": "https://github.com/Henry-T/TaskWarriorReport"
   },
   {
     "description": "Todoist to taskwarrior exporter",
@@ -645,6 +705,21 @@
     "rating": 14,
     "updated": "2020-01-04",
     "url": "https://github.com/JensErat/docker-taskd"
+  },
+  {
+    "description": "Non-official thunderbird addon for creating Taskwarrior tasks from an email.",
+    "language": [
+      "JavaScript"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior-button",
+    "obsolete": false,
+    "owner": [
+      "JoergPalmer"
+    ],
+    "rating": 0,
+    "updated": "2019-02-04",
+    "url": "https://github.com/JoergPalmer/taskwarrior-button"
   },
   {
     "description": "taskserver",
@@ -812,6 +887,21 @@
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
   {
+    "description": "Script which adds tasks to taskwarrior with a bunch of intervals (due dates)",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "task-interval",
+    "obsolete": true,
+    "owner": [
+      "Necior"
+    ],
+    "rating": 0,
+    "updated": "2016-02-18",
+    "url": "https://github.com/Necior/task-interval"
+  },
+  {
     "description": "Trello export for Taskwarrior",
     "language": [
       "Python"
@@ -915,6 +1005,21 @@
     "rating": 0,
     "updated": "2019-02-27",
     "url": "https://github.com/Shekcon/Tasks-Web"
+  },
+  {
+    "description": "A web-based mobile todo-list app with taskwarrior-like features",
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "Tasker",
+    "obsolete": false,
+    "owner": [
+      "SitanHuang"
+    ],
+    "rating": 0,
+    "updated": "2020-06-16",
+    "url": "https://github.com/SitanHuang/Tasker"
   },
   {
     "description": "a small bash script that adds a taskwarrior-like behaviour on top of : https://github.com/Netflix-Skunkworks/go-jira",
@@ -1245,6 +1350,51 @@
     "rating": 10,
     "updated": "2021-02-16",
     "url": "https://github.com/abesto/gtd"
+  },
+  {
+    "description": "A fully configurable HTTP frontend for showing views of your taskwarrior TODO list.",
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskproxy",
+    "obsolete": true,
+    "owner": [
+      "abesto"
+    ],
+    "rating": 0,
+    "updated": "2015-01-26",
+    "url": "https://github.com/abesto/taskproxy"
+  },
+  {
+    "description": "A quick and dirty script to synchronize Taskwarrior and an IMAP mailbox",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "ImapTW",
+    "obsolete": false,
+    "owner": [
+      "abrochier"
+    ],
+    "rating": 0,
+    "updated": "2021-01-21",
+    "url": "https://github.com/abrochier/ImapTW"
+  },
+  {
+    "description": "Make and maintain a daily pushups routine via taskwarrior and pgp integration",
+    "language": [
+      "Ruby"
+    ],
+    "license": "MIT License",
+    "name": "pushupwarrior",
+    "obsolete": true,
+    "owner": [
+      "agrathwohl"
+    ],
+    "rating": 0,
+    "updated": "2015-06-02",
+    "url": "https://github.com/agrathwohl/pushupwarrior"
   },
   {
     "description": "Email yourself status updates from TaskWarrior",
@@ -1708,7 +1858,7 @@
       "bgregos"
     ],
     "rating": 79,
-    "updated": "2021-07-18",
+    "updated": "2021-07-21",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -2027,6 +2177,21 @@
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
   {
+    "description": "Ansible Role to install Taskwarrior's remote server and set it up.",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "ansible-role-taskwarrior",
+    "obsolete": true,
+    "owner": [
+      "chazu"
+    ],
+    "rating": 0,
+    "updated": "2017-03-04",
+    "url": "https://github.com/chazu/ansible-role-taskwarrior"
+  },
+  {
     "description": "Converter for TaskCoach to Taskwarrior state",
     "language": [
       "Python"
@@ -2228,7 +2393,7 @@
     ],
     "license": null,
     "name": "dotfiles",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "cousine"
     ],
@@ -2430,6 +2595,21 @@
     "rating": 1,
     "updated": "2020-02-09",
     "url": "https://github.com/djmitche/ot"
+  },
+  {
+    "description": "CLI interface between [Canvas](https://www.instructure.com/canvas/) API and Taskwarrior",
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "canvas_warrior",
+    "obsolete": false,
+    "owner": [
+      "dominicdoty"
+    ],
+    "rating": 0,
+    "updated": "2019-10-15",
+    "url": "https://github.com/dominicdoty/canvas_warrior"
   },
   {
     "description": "taskwarrior config files",
@@ -2702,6 +2882,21 @@
     "url": "https://github.com/ernop/todo"
   },
   {
+    "description": "Exploratory testing notes for the Black Ops Testing Webinar for TaskWarrior on 22nd September 2014",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "blackopstesting_taskwarrior",
+    "obsolete": true,
+    "owner": [
+      "eviltester"
+    ],
+    "rating": 0,
+    "updated": "2014-09-22",
+    "url": "https://github.com/eviltester/blackopstesting_taskwarrior"
+  },
+  {
     "description": "Taskwarrior-web in a  container",
     "language": [
       "N/A"
@@ -2820,6 +3015,21 @@
     "rating": 0,
     "updated": "2018-04-04",
     "url": "https://github.com/functioncreep/twgtd"
+  },
+  {
+    "description": "Taskwarrior to share tasks between multiple clients and colleagues, Bugwarrior to rule them all (Github, Gitlab, Jira, Gmail,...)",
+    "language": [
+      "CSS"
+    ],
+    "license": "MIT License",
+    "name": "talk-about-taskwarrior-and-bugwarrior",
+    "obsolete": false,
+    "owner": [
+      "g2g"
+    ],
+    "rating": 0,
+    "updated": "2019-12-04",
+    "url": "https://github.com/g2g/talk-about-taskwarrior-and-bugwarrior"
   },
   {
     "description": "Taskwarrior & Google Tasks: configuration, automation & reporting",
@@ -3002,6 +3212,21 @@
     "url": "https://github.com/harleypig/perl-taskwarrior"
   },
   {
+    "description": "Use a Raspberry Pi and a touch display to tasks from taskwarrior",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskshow",
+    "obsolete": false,
+    "owner": [
+      "hickey"
+    ],
+    "rating": 0,
+    "updated": "2019-11-12",
+    "url": "https://github.com/hickey/taskshow"
+  },
+  {
     "description": "git-taskwarrior wrapper that keeps taskwarrior tasks in a branch",
     "language": [
       "Shell"
@@ -3165,6 +3390,21 @@
     "rating": 1,
     "updated": "2018-09-29",
     "url": "https://github.com/ioztelcan/taskboard"
+  },
+  {
+    "description": "A small script that purge all tasks from taskwarrior that are completed or deleted.",
+    "language": [
+      "Shell"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior-purge",
+    "obsolete": false,
+    "owner": [
+      "isaacs4m"
+    ],
+    "rating": 0,
+    "updated": "2021-01-28",
+    "url": "https://github.com/isaacs4m/taskwarrior-purge"
   },
   {
     "description": "TaskWarrior wrapper to allow goruping tasks by activity (KDE)",
@@ -3422,6 +3662,21 @@
     "url": "https://github.com/jhmartin/taskd-ami"
   },
   {
+    "description": "Hook for Taskwarrior that records a log of time spent each day on each task",
+    "language": [
+      "Python"
+    ],
+    "license": "Apache License 2.0",
+    "name": "taskwarrior-effort-tracker",
+    "obsolete": true,
+    "owner": [
+      "jhmartin"
+    ],
+    "rating": 0,
+    "updated": "2015-03-23",
+    "url": "https://github.com/jhmartin/taskwarrior-effort-tracker"
+  },
+  {
     "description": "Taskwarrior for Android [TESTING]",
     "language": [
       "Kotlin"
@@ -3627,8 +3882,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 242,
-    "updated": "2021-07-03",
+    "rating": 243,
+    "updated": "2021-07-21",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -3748,7 +4003,7 @@
       "kdheepak"
     ],
     "rating": 477,
-    "updated": "2021-07-20",
+    "updated": "2021-07-21",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -3765,6 +4020,21 @@
     "rating": 17,
     "updated": "2021-03-05",
     "url": "https://github.com/keigezellig/kanbanwarrior"
+  },
+  {
+    "description": "Create a task in taskwarrior based on contents of a message in mutt",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "mutt2tw",
+    "obsolete": false,
+    "owner": [
+      "kellya"
+    ],
+    "rating": 0,
+    "updated": "2021-05-26",
+    "url": "https://github.com/kellya/mutt2tw"
   },
   {
     "description": "PHP library for interacting with Taskwarrior 2.x",
@@ -3973,7 +4243,7 @@
       "leosolid"
     ],
     "rating": 0,
-    "updated": "2021-07-20",
+    "updated": "2021-07-21",
     "url": "https://github.com/leosolid/taskmage"
   },
   {
@@ -4275,6 +4545,21 @@
     "rating": 1,
     "updated": "2016-06-02",
     "url": "https://github.com/linuxcaffe/tw-vim-color"
+  },
+  {
+    "description": "taskwarrior \"wizard\" script, to help users with various tw-related things",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "tw-wiz-sh",
+    "obsolete": true,
+    "owner": [
+      "linuxcaffe"
+    ],
+    "rating": 0,
+    "updated": "2015-12-24",
+    "url": "https://github.com/linuxcaffe/tw-wiz-sh"
   },
   {
     "description": "A taskwarrior taskpirate hook to initiate actions on task start",
@@ -4757,6 +5042,21 @@
     "url": "https://github.com/mpoquet/taskwarrior-scripts"
   },
   {
+    "description": "A collection of taskwarrior hooks written in rust (because of speed)",
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior-hooks",
+    "obsolete": false,
+    "owner": [
+      "mrVanDalo"
+    ],
+    "rating": 0,
+    "updated": "2020-01-25",
+    "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
+  },
+  {
     "description": "A horrifying implementation of a TaskWarrior server in a docker container",
     "language": [
       "Dockerfile"
@@ -5172,8 +5472,8 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 4,
-    "updated": "2021-07-02",
+    "rating": 5,
+    "updated": "2021-07-21",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
   {
@@ -5582,6 +5882,21 @@
     "url": "https://github.com/ralphbean/taskw"
   },
   {
+    "description": "ITwarrior is a web frontend for taskwarrior enabling users to create tickets and add them to the IT people pipe.",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "ITwarrior",
+    "obsolete": false,
+    "owner": [
+      "raspbeguy"
+    ],
+    "rating": 0,
+    "updated": "2019-07-26",
+    "url": "https://github.com/raspbeguy/ITwarrior"
+  },
+  {
     "description": "Web UI for Taskwarrior",
     "language": [
       "JavaScript"
@@ -5850,6 +6165,21 @@
     "rating": 0,
     "updated": "2020-06-24",
     "url": "https://github.com/semtle/taskhud"
+  },
+  {
+    "description": "Bugwarrior, Taskwarrior and Timewarrior integration with Serokell issue tracker and time tracking",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "srkwarrior",
+    "obsolete": false,
+    "owner": [
+      "serokell"
+    ],
+    "rating": 0,
+    "updated": "2019-12-12",
+    "url": "https://github.com/serokell/srkwarrior"
   },
   {
     "description": "gnome shell extension for integration of taskwarrior",
@@ -6195,6 +6525,21 @@
     "rating": 120,
     "updated": "2021-05-06",
     "url": "https://github.com/svijee/taskwarrior-androidapp"
+  },
+  {
+    "description": "A TaskWarrior clone for websites - Uses Selenium.Automate tasks like filling up time sheets etc!",
+    "language": [
+      "N/A"
+    ],
+    "license": "Apache License 2.0",
+    "name": "WebTaskWarrior",
+    "obsolete": true,
+    "owner": [
+      "syedatifakhtar"
+    ],
+    "rating": 0,
+    "updated": "2017-06-13",
+    "url": "https://github.com/syedatifakhtar/WebTaskWarrior"
   },
   {
     "description": "Create a taskwarrior/tmux/xterm session with multiple reports and refreshing",
