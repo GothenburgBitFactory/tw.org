@@ -672,8 +672,8 @@
     "owner": [
       "HiveMinds-EU"
     ],
-    "rating": 0,
-    "updated": "2021-07-12",
+    "rating": 1,
+    "updated": "2021-07-22",
     "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
   },
   {
@@ -1857,8 +1857,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 79,
-    "updated": "2021-07-21",
+    "rating": 80,
+    "updated": "2021-07-22",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3043,7 +3043,7 @@
       "garybgenett"
     ],
     "rating": 13,
-    "updated": "2021-07-19",
+    "updated": "2021-07-22",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -3957,8 +3957,8 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 2,
-    "updated": "2021-07-01",
+    "rating": 3,
+    "updated": "2021-07-22",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
@@ -4002,8 +4002,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 477,
-    "updated": "2021-07-21",
+    "rating": 478,
+    "updated": "2021-07-22",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4648,7 +4648,7 @@
       "madelinecameron"
     ],
     "rating": 1,
-    "updated": "2021-04-14",
+    "updated": "2021-07-22",
     "url": "https://github.com/madelinecameron/wip-taskwarrior-hooks"
   },
   {
@@ -6232,14 +6232,14 @@
       "Go"
     ],
     "license": null,
-    "name": "task-server",
+    "name": "task_server",
     "obsolete": false,
     "owner": [
       "shitingbao"
     ],
     "rating": 0,
-    "updated": "2021-07-16",
-    "url": "https://github.com/shitingbao/task-server"
+    "updated": "2021-07-22",
+    "url": "https://github.com/shitingbao/task_server"
   },
   {
     "description": "Directed graphs of Taskwarrior projects, tags, and tasks.",
@@ -6300,6 +6300,21 @@
     "rating": 1,
     "updated": "2018-08-27",
     "url": "https://github.com/smaboshe/taskwarrior-backup"
+  },
+  {
+    "description": "dotfiles: taskwarrior config files and scripts",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": ".task",
+    "obsolete": false,
+    "owner": [
+      "smemsh"
+    ],
+    "rating": 0,
+    "updated": "2021-07-22",
+    "url": "https://github.com/smemsh/.task"
   },
   {
     "description": "Taskwarrior confguration",
@@ -6942,8 +6957,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 261,
-    "updated": "2021-07-19",
+    "rating": 263,
+    "updated": "2021-07-22",
     "url": "https://github.com/vit-project/vit"
   },
   {
