@@ -4002,8 +4002,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 478,
-    "updated": "2021-07-22",
+    "rating": 480,
+    "updated": "2021-07-23",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5847,8 +5847,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 554,
-    "updated": "2021-07-06",
+    "rating": 555,
+    "updated": "2021-07-23",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6238,7 +6238,7 @@
       "shitingbao"
     ],
     "rating": 0,
-    "updated": "2021-07-22",
+    "updated": "2021-07-23",
     "url": "https://github.com/shitingbao/task_server"
   },
   {
@@ -6304,7 +6304,7 @@
   {
     "description": "dotfiles: taskwarrior config files and scripts",
     "language": [
-      "N/A"
+      "Shell"
     ],
     "license": null,
     "name": ".task",
@@ -6313,7 +6313,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2021-07-22",
+    "updated": "2021-07-23",
     "url": "https://github.com/smemsh/.task"
   },
   {
