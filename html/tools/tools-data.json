@@ -1798,7 +1798,7 @@
       "bergercookie"
     ],
     "rating": 90,
-    "updated": "2021-07-18",
+    "updated": "2021-07-24",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -3872,6 +3872,21 @@
     "url": "https://github.com/jrheard/allergy_shot_gen"
   },
   {
+    "description": "overengineered personalized-to-me taskwarrior replacement",
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "rask",
+    "obsolete": false,
+    "owner": [
+      "jrheard"
+    ],
+    "rating": 0,
+    "updated": "2021-07-24",
+    "url": "https://github.com/jrheard/rask"
+  },
+  {
     "description": "Tool for taking notes and open urls with taskwarrior",
     "language": [
       "Perl"
@@ -3913,7 +3928,7 @@
       "jspricke"
     ],
     "rating": 7,
-    "updated": "2021-05-16",
+    "updated": "2021-07-24",
     "url": "https://github.com/jspricke/python-icstask"
   },
   {
@@ -4002,8 +4017,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 480,
-    "updated": "2021-07-23",
+    "rating": 481,
+    "updated": "2021-07-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5847,8 +5862,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 555,
-    "updated": "2021-07-23",
+    "rating": 554,
+    "updated": "2021-07-24",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6313,7 +6328,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2021-07-23",
+    "updated": "2021-07-24",
     "url": "https://github.com/smemsh/.task"
   },
   {
@@ -6702,8 +6717,8 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 443,
-    "updated": "2021-07-14",
+    "rating": 444,
+    "updated": "2021-07-24",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
