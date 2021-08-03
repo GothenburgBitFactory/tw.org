@@ -673,7 +673,7 @@
       "HiveMinds-EU"
     ],
     "rating": 1,
-    "updated": "2021-07-22",
+    "updated": "2021-08-02",
     "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
   },
   {
@@ -2627,6 +2627,21 @@
     "url": "https://github.com/dotfilerepo/taskwarrior"
   },
   {
+    "description": "Alternative to the awesome TaskWarrior, but in Go, with some additional stuff I find useful",
+    "language": [
+      "Go"
+    ],
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "name": "taskpoet",
+    "obsolete": false,
+    "owner": [
+      "drewstinnett"
+    ],
+    "rating": 0,
+    "updated": "2021-08-03",
+    "url": "https://github.com/drewstinnett/taskpoet"
+  },
+  {
     "description": "Misc. scripts for pushing things to taskwarrior",
     "language": [
       "Python"
@@ -3883,7 +3898,7 @@
       "jrheard"
     ],
     "rating": 0,
-    "updated": "2021-08-01",
+    "updated": "2021-08-03",
     "url": "https://github.com/jrheard/rask"
   },
   {
@@ -5772,8 +5787,8 @@
     "owner": [
       "projectivemotion"
     ],
-    "rating": 12,
-    "updated": "2021-01-12",
+    "rating": 13,
+    "updated": "2021-08-02",
     "url": "https://github.com/projectivemotion/i3status-taskwarrior"
   },
   {
