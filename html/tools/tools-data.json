@@ -327,8 +327,8 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 20,
-    "updated": "2021-07-15",
+    "rating": 21,
+    "updated": "2021-08-03",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -360,21 +360,6 @@
     "rating": 16,
     "updated": "2020-12-27",
     "url": "https://github.com/DavidBadura/doThings"
-  },
-  {
-    "description": "Library for syncing between Trello and Taskwarrior",
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "tsync",
-    "obsolete": false,
-    "owner": [
-      "DerHabicht"
-    ],
-    "rating": 0,
-    "updated": "2019-06-12",
-    "url": "https://github.com/DerHabicht/tsync"
   },
   {
     "description": "Chart Taskwarrior dependencies using Graphviz",
@@ -662,7 +647,7 @@
     "url": "https://github.com/HiveMinds-EU/CoursePlanningTemplate"
   },
   {
-    "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior such that it syncs accros multiple devices and with google calendar).",
+    "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior such that it syncs accros multiple devices and with (Google) calendar).",
     "language": [
       "Shell"
     ],
@@ -673,7 +658,7 @@
       "HiveMinds-EU"
     ],
     "rating": 1,
-    "updated": "2021-08-02",
+    "updated": "2021-08-03",
     "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
   },
   {
@@ -1857,8 +1842,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 82,
-    "updated": "2021-08-01",
+    "rating": 85,
+    "updated": "2021-08-03",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -2023,7 +2008,7 @@
       "bradyt"
     ],
     "rating": 8,
-    "updated": "2021-07-29",
+    "updated": "2021-08-03",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -2438,7 +2423,7 @@
     ],
     "license": null,
     "name": "taskwarrior-um",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "d630"
     ],
@@ -2923,7 +2908,7 @@
       "eyenx"
     ],
     "rating": 0,
-    "updated": "2021-03-01",
+    "updated": "2021-08-03",
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
   },
   {
@@ -4032,8 +4017,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 488,
-    "updated": "2021-08-01",
+    "rating": 489,
+    "updated": "2021-08-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5517,8 +5502,8 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 31,
-    "updated": "2021-07-27",
+    "rating": 32,
+    "updated": "2021-08-03",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
@@ -5532,8 +5517,8 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 84,
-    "updated": "2021-07-13",
+    "rating": 85,
+    "updated": "2021-08-03",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
   {
@@ -6732,8 +6717,8 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 447,
-    "updated": "2021-07-30",
+    "rating": 448,
+    "updated": "2021-08-03",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
@@ -6777,8 +6762,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 586,
-    "updated": "2021-08-01",
+    "rating": 588,
+    "updated": "2021-08-03",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -6987,8 +6972,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 267,
-    "updated": "2021-08-01",
+    "rating": 269,
+    "updated": "2021-08-03",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -6998,7 +6983,7 @@
     ],
     "license": "MIT License",
     "name": "taskd",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "vitaly"
     ],
