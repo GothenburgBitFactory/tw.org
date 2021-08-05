@@ -362,6 +362,21 @@
     "url": "https://github.com/DavidBadura/doThings"
   },
   {
+    "description": "Library for syncing between Trello and Taskwarrior",
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "tsync",
+    "obsolete": false,
+    "owner": [
+      "DerHabicht"
+    ],
+    "rating": 0,
+    "updated": "2019-06-12",
+    "url": "https://github.com/DerHabicht/tsync"
+  },
+  {
     "description": "Chart Taskwarrior dependencies using Graphviz",
     "language": [
       "Python"
@@ -1512,8 +1527,8 @@
     "owner": [
       "alfredopalhares"
     ],
-    "rating": 10,
-    "updated": "2020-01-09",
+    "rating": 11,
+    "updated": "2021-08-04",
     "url": "https://github.com/alfredopalhares/cookbook-taskwarrior"
   },
   {
@@ -1842,8 +1857,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 85,
-    "updated": "2021-08-03",
+    "rating": 86,
+    "updated": "2021-08-04",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3043,7 +3058,7 @@
       "garybgenett"
     ],
     "rating": 13,
-    "updated": "2021-08-01",
+    "updated": "2021-08-04",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -4017,8 +4032,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 489,
-    "updated": "2021-08-03",
+    "rating": 490,
+    "updated": "2021-08-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4423,7 +4438,7 @@
       "linuxcaffe"
     ],
     "rating": 3,
-    "updated": "2021-04-19",
+    "updated": "2021-08-04",
     "url": "https://github.com/linuxcaffe/tw-ann-hook"
   },
   {
