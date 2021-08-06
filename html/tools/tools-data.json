@@ -673,7 +673,7 @@
       "HiveMinds-EU"
     ],
     "rating": 1,
-    "updated": "2021-08-03",
+    "updated": "2021-08-05",
     "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
   },
   {
@@ -1095,21 +1095,6 @@
     "rating": 0,
     "updated": "2021-01-10",
     "url": "https://github.com/StephanMeijer/ReportWarrior"
-  },
-  {
-    "description": "Taskwarrior API endpoint for IOT based stuff",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "iot-taskmanager",
-    "obsolete": false,
-    "owner": [
-      "StephanMeijer"
-    ],
-    "rating": 0,
-    "updated": "2020-11-19",
-    "url": "https://github.com/StephanMeijer/iot-taskmanager"
   },
   {
     "description": "Time tracking web/cli app based on Taskwarrior",
@@ -1947,8 +1932,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 466,
-    "updated": "2021-07-02",
+    "rating": 467,
+    "updated": "2021-08-05",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -2732,21 +2717,6 @@
     "url": "https://github.com/edthedev/vit"
   },
   {
-    "description": "Export and sync taskwarrior tasks to Google Calendar",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "task2gcal",
-    "obsolete": false,
-    "owner": [
-      "edufarest"
-    ],
-    "rating": 0,
-    "updated": "2020-01-30",
-    "url": "https://github.com/edufarest/task2gcal"
-  },
-  {
     "description": "session of taskwarrior in term",
     "language": [
       "C"
@@ -3297,8 +3267,8 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 52,
-    "updated": "2021-06-17",
+    "rating": 53,
+    "updated": "2021-08-05",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
   {
@@ -3898,7 +3868,7 @@
       "jrheard"
     ],
     "rating": 0,
-    "updated": "2021-08-03",
+    "updated": "2021-08-05",
     "url": "https://github.com/jrheard/rask"
   },
   {
@@ -4032,8 +4002,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 490,
-    "updated": "2021-08-04",
+    "rating": 492,
+    "updated": "2021-08-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5082,8 +5052,8 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 0,
-    "updated": "2020-01-25",
+    "rating": 1,
+    "updated": "2021-08-05",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
   {
@@ -5685,21 +5655,6 @@
     "rating": 0,
     "updated": "2019-03-13",
     "url": "https://github.com/philipgatzka/docker-taskd"
-  },
-  {
-    "description": "Build Taskwarrior client from a Makefile using FPM",
-    "language": [
-      "Makefile"
-    ],
-    "license": "MIT License",
-    "name": "fpm-taskwarrior",
-    "obsolete": true,
-    "owner": [
-      "philipsd6"
-    ],
-    "rating": 0,
-    "updated": "2016-03-28",
-    "url": "https://github.com/philipsd6/fpm-taskwarrior"
   },
   {
     "description": "Build Taskwarrior server from a Makefile using FPM!",
@@ -6662,21 +6617,6 @@
     "url": "https://github.com/teranex/vimwiki-tasks"
   },
   {
-    "description": "A simple python3 wrapper for Taskwarrior interactions.",
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskathon",
-    "obsolete": false,
-    "owner": [
-      "thecodedmind"
-    ],
-    "rating": 0,
-    "updated": "2019-04-12",
-    "url": "https://github.com/thecodedmind/taskathon"
-  },
-  {
     "description": "Export OmniFocus data in a format that can be imported into TaskWarrior",
     "language": [
       "Python"
@@ -7275,21 +7215,6 @@
     "rating": 0,
     "updated": "2019-02-17",
     "url": "https://github.com/yulqen/tw_templates"
-  },
-  {
-    "description": "A puppet role designed to set up the taskwarrior server",
-    "language": [
-      "Puppet"
-    ],
-    "license": null,
-    "name": "champain-taskwarrior_server",
-    "obsolete": true,
-    "owner": [
-      "yunghuffy"
-    ],
-    "rating": 0,
-    "updated": "2017-06-09",
-    "url": "https://github.com/yunghuffy/champain-taskwarrior_server"
   },
   {
     "description": "Simple taskwarrior sync unit and timer file",
