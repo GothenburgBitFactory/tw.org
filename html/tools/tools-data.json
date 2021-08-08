@@ -658,23 +658,23 @@
       "HiveMinds-EU"
     ],
     "rating": 1,
-    "updated": "2021-06-04",
+    "updated": "2021-08-07",
     "url": "https://github.com/HiveMinds-EU/CoursePlanningTemplate"
   },
   {
-    "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior such that it syncs accros multiple devices and with (Google) calendar).",
+    "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior). This project aims to support automated installation of all Taskwarrior hook scripts, configuration flavours etc. with a single command.",
     "language": [
       "Shell"
     ],
     "license": "GNU Affero General Public License v3.0",
-    "name": "Taskwarrior-installation",
+    "name": "tw-install",
     "obsolete": false,
     "owner": [
       "HiveMinds-EU"
     ],
-    "rating": 1,
-    "updated": "2021-08-06",
-    "url": "https://github.com/HiveMinds-EU/Taskwarrior-installation"
+    "rating": 2,
+    "updated": "2021-08-08",
+    "url": "https://github.com/HiveMinds-EU/tw-install"
   },
   {
     "description": "PyQt GUI for TaskWarrior",
@@ -1797,8 +1797,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 90,
-    "updated": "2021-07-24",
+    "rating": 91,
+    "updated": "2021-08-07",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -2023,7 +2023,7 @@
       "bradyt"
     ],
     "rating": 8,
-    "updated": "2021-08-03",
+    "updated": "2021-08-07",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3898,7 +3898,7 @@
       "jrheard"
     ],
     "rating": 0,
-    "updated": "2021-08-05",
+    "updated": "2021-08-07",
     "url": "https://github.com/jrheard/rask"
   },
   {
@@ -4032,8 +4032,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 493,
-    "updated": "2021-08-06",
+    "rating": 496,
+    "updated": "2021-08-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
