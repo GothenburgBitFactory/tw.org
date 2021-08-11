@@ -42,8 +42,8 @@
     "owner": [
       "8ware"
     ],
-    "rating": 50,
-    "updated": "2021-05-28",
+    "rating": 51,
+    "updated": "2021-08-10",
     "url": "https://github.com/8ware/task-dashboard"
   },
   {
@@ -657,8 +657,8 @@
     "owner": [
       "HiveMinds-EU"
     ],
-    "rating": 1,
-    "updated": "2021-08-07",
+    "rating": 2,
+    "updated": "2021-08-10",
     "url": "https://github.com/HiveMinds-EU/CoursePlanningTemplate"
   },
   {
@@ -1260,6 +1260,21 @@
     "rating": 5,
     "updated": "2020-12-29",
     "url": "https://github.com/Zebradil/taskwarrior-hooks"
+  },
+  {
+    "description": "Simple hook for taskwarrior which switches context according to WIFI SSID.",
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "tw-wifi-contexter",
+    "obsolete": false,
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 1,
+    "updated": "2018-09-05",
+    "url": "https://github.com/Zebradil/tw-wifi-contexter"
   },
   {
     "description": "Taskserver (taskd) in Docker",
@@ -2007,8 +2022,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 9,
-    "updated": "2021-08-09",
+    "rating": 10,
+    "updated": "2021-08-10",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -2190,6 +2205,21 @@
     "rating": 0,
     "updated": "2019-01-04",
     "url": "https://github.com/cherusk/tc2tw"
+  },
+  {
+    "description": "Taskwarrior based doability projector and reviser",
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "tw_projector",
+    "obsolete": false,
+    "owner": [
+      "cherusk"
+    ],
+    "rating": 1,
+    "updated": "2019-04-22",
+    "url": "https://github.com/cherusk/tw_projector"
   },
   {
     "description": "Simple taskwarrior notifications in rust",
@@ -3347,6 +3377,21 @@
     "url": "https://github.com/indieterminacy/1q10rq_tasks_taskwarrior_zsh"
   },
   {
+    "description": "An extension for taskwarrior to switch between task contexts with a specified schedule",
+    "language": [
+      "C"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "context-switch-warrior",
+    "obsolete": false,
+    "owner": [
+      "initBasti"
+    ],
+    "rating": 2,
+    "updated": "2021-02-14",
+    "url": "https://github.com/initBasti/context-switch-warrior"
+  },
+  {
     "description": "A simple dashboard which uses taskwarrior as backend.",
     "language": [
       "Go"
@@ -3867,8 +3912,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 242,
-    "updated": "2021-07-31",
+    "rating": 241,
+    "updated": "2021-08-10",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -5833,7 +5878,7 @@
       "ralphbean"
     ],
     "rating": 556,
-    "updated": "2021-08-09",
+    "updated": "2021-08-10",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6942,8 +6987,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 269,
-    "updated": "2021-08-03",
+    "rating": 270,
+    "updated": "2021-08-10",
     "url": "https://github.com/vit-project/vit"
   },
   {
