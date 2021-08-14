@@ -538,7 +538,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2021-05-31",
+    "updated": "2021-08-13",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -553,7 +553,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2021-05-31",
+    "updated": "2021-08-13",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -883,7 +883,7 @@
       "Mossop"
     ],
     "rating": 0,
-    "updated": "2021-07-19",
+    "updated": "2021-08-13",
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
   {
@@ -1947,8 +1947,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 467,
-    "updated": "2021-08-05",
+    "rating": 466,
+    "updated": "2021-08-13",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -3058,7 +3058,7 @@
       "garybgenett"
     ],
     "rating": 13,
-    "updated": "2021-08-12",
+    "updated": "2021-08-13",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -4032,8 +4032,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 499,
-    "updated": "2021-08-12",
+    "rating": 502,
+    "updated": "2021-08-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5173,7 +5173,7 @@
       "mythmon"
     ],
     "rating": 3,
-    "updated": "2021-07-02",
+    "updated": "2021-08-13",
     "url": "https://github.com/mythmon/taskwarrior-rofi"
   },
   {
@@ -6778,7 +6778,7 @@
       "tools-life"
     ],
     "rating": 590,
-    "updated": "2021-08-11",
+    "updated": "2021-08-13",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
