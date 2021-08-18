@@ -118,7 +118,7 @@
       "Aerex"
     ],
     "rating": 0,
-    "updated": "2021-07-13",
+    "updated": "2021-08-17",
     "url": "https://github.com/Aerex/baikal-storage-plugin"
   },
   {
@@ -1902,8 +1902,8 @@
     "owner": [
       "blampe"
     ],
-    "rating": 21,
-    "updated": "2021-08-08",
+    "rating": 22,
+    "updated": "2021-08-17",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
   {
@@ -3058,7 +3058,7 @@
       "garybgenett"
     ],
     "rating": 13,
-    "updated": "2021-08-16",
+    "updated": "2021-08-17",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -4032,8 +4032,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 507,
-    "updated": "2021-08-16",
+    "rating": 508,
+    "updated": "2021-08-17",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5147,6 +5147,21 @@
     "url": "https://github.com/mverburg/toggl4taskwarrior"
   },
   {
+    "description": "Clojure wrapper for Taskserver",
+    "language": [
+      "Clojure"
+    ],
+    "license": "Eclipse Public License 2.0",
+    "name": "taskd-client-clj",
+    "obsolete": false,
+    "owner": [
+      "mwiederhold"
+    ],
+    "rating": 0,
+    "updated": "2021-08-17",
+    "url": "https://github.com/mwiederhold/taskd-client-clj"
+  },
+  {
     "description": "Add tasks in Taskwarrior that correspond to Bugzilla bugs.",
     "language": [
       "JavaScript"
@@ -5967,8 +5982,8 @@
     "owner": [
       "robgolding"
     ],
-    "rating": 96,
-    "updated": "2021-07-20",
+    "rating": 97,
+    "updated": "2021-08-17",
     "url": "https://github.com/robgolding/tasklib"
   },
   {
@@ -6343,7 +6358,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2021-08-16",
+    "updated": "2021-08-17",
     "url": "https://github.com/smemsh/.task"
   },
   {
@@ -6777,8 +6792,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 590,
-    "updated": "2021-08-16",
+    "rating": 589,
+    "updated": "2021-08-17",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
