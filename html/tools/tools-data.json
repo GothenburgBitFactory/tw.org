@@ -3058,7 +3058,7 @@
       "garybgenett"
     ],
     "rating": 13,
-    "updated": "2021-08-17",
+    "updated": "2021-08-18",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -3578,7 +3578,7 @@
     ],
     "license": "MIT License",
     "name": "todoist-taskwarrior-sync",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "jbog"
     ],
@@ -4032,8 +4032,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 508,
-    "updated": "2021-08-17",
+    "rating": 509,
+    "updated": "2021-08-18",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5892,8 +5892,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 556,
-    "updated": "2021-08-10",
+    "rating": 557,
+    "updated": "2021-08-18",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6792,8 +6792,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 589,
-    "updated": "2021-08-17",
+    "rating": 590,
+    "updated": "2021-08-18",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -7002,8 +7002,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 272,
-    "updated": "2021-08-12",
+    "rating": 275,
+    "updated": "2021-08-18",
     "url": "https://github.com/vit-project/vit"
   },
   {
