@@ -362,21 +362,6 @@
     "url": "https://github.com/DavidBadura/doThings"
   },
   {
-    "description": "Library for syncing between Trello and Taskwarrior",
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "tsync",
-    "obsolete": false,
-    "owner": [
-      "DerHabicht"
-    ],
-    "rating": 0,
-    "updated": "2019-06-12",
-    "url": "https://github.com/DerHabicht/tsync"
-  },
-  {
     "description": "Chart Taskwarrior dependencies using Graphviz",
     "language": [
       "Python"
@@ -1542,8 +1527,8 @@
     "owner": [
       "alkim0"
     ],
-    "rating": 4,
-    "updated": "2021-08-14",
+    "rating": 3,
+    "updated": "2021-08-19",
     "url": "https://github.com/alkim0/task-attach"
   },
   {
@@ -1665,21 +1650,6 @@
     "rating": 3,
     "updated": "2021-05-23",
     "url": "https://github.com/arzano/taskmonad"
-  },
-  {
-    "description": "Tool for importing JIRA tasks into TaskWarrior",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskwarrior-jira-importer",
-    "obsolete": false,
-    "owner": [
-      "aubincleme"
-    ],
-    "rating": 0,
-    "updated": "2019-12-20",
-    "url": "https://github.com/aubincleme/taskwarrior-jira-importer"
   },
   {
     "description": "Taskwarrior client for Emacs",
@@ -1947,8 +1917,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 466,
-    "updated": "2021-08-13",
+    "rating": 467,
+    "updated": "2021-08-19",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -1978,7 +1948,7 @@
       "bradyt"
     ],
     "rating": 0,
-    "updated": "2021-07-07",
+    "updated": "2021-08-19",
     "url": "https://github.com/bradyt/taskd-client-dart"
   },
   {
@@ -2022,8 +1992,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 10,
-    "updated": "2021-08-11",
+    "rating": 11,
+    "updated": "2021-08-19",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -2292,8 +2262,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 468,
-    "updated": "2021-08-16",
+    "rating": 469,
+    "updated": "2021-08-19",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -5297,21 +5267,6 @@
     "url": "https://github.com/nerab/twmail"
   },
   {
-    "description": "Helpers for writing TaskWarrior tests in Ruby",
-    "language": [
-      "Ruby"
-    ],
-    "license": "MIT License",
-    "name": "twtest",
-    "obsolete": false,
-    "owner": [
-      "nerab"
-    ],
-    "rating": 0,
-    "updated": "2021-04-30",
-    "url": "https://github.com/nerab/twtest"
-  },
-  {
     "description": "Running neomutt, taskwarrior, afew, and notmuchtask in Docker.",
     "language": [
       "Shell"
@@ -6420,36 +6375,6 @@
     "rating": 3,
     "updated": "2021-01-09",
     "url": "https://github.com/spencermamer/task-graphdeps"
-  },
-  {
-    "description": "Taskwarrior intermediary server for mobile app",
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "task-api",
-    "obsolete": true,
-    "owner": [
-      "sportnak"
-    ],
-    "rating": 0,
-    "updated": "2018-05-13",
-    "url": "https://github.com/sportnak/task-api"
-  },
-  {
-    "description": "React native mobile app for taskwarrior api",
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "task-api-mobile",
-    "obsolete": true,
-    "owner": [
-      "sportnak"
-    ],
-    "rating": 0,
-    "updated": "2018-06-15",
-    "url": "https://github.com/sportnak/task-api-mobile"
   },
   {
     "description": "A collection of utils for taskwarrior",
