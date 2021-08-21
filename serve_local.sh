@@ -15,4 +15,4 @@ fi
 echo "Serving site on 127.0.0.1:${PORT}"
 echo "If you wish to run the HTTP server on a different port, pass the port as an argument to this script."
 
-python -m http.server -d "${DIR}/html" "${PORT}"
+python3 -m http.server -d "${DIR}/html" "${PORT}"

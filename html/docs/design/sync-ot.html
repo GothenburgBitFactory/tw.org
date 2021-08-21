@@ -66,7 +66,7 @@
             <h3>Task Synchronization</h3>
             <p>
               This RFC covers <em>synchronization</em> of <em>replicas</em>
-              containing the same set of tasks.  A replica is can perform all
+              containing the same set of tasks.  A replica can perform all
               operations locally without connecting to a sync server, then share
               those operations with other replicas when it connects.  Sync allows
               Taskwarrior users to consult and update the same task list on
@@ -300,7 +300,8 @@
               </li>
               <li>
                 <p>
-                Tasks must be deleted to avoid unbounded growth of the set of tasks.
+                Some users expect to keep their replica size constant, by purging unnecessary tasks.
+                In this model, that means adding <code>Delete(uuid)</code> operations for such tasks.
                 However, the <code>Delete(uuid)</code> operation is difficult to transpose with other operations, because it deletes all key/values in the task.
                 For example, consider conflicting operations <code>Delete($uuid)</code> and <code>Update($uuid, "expires", "2040-01-01T00:00:00")</code>.
                 These operations were performed on different replicas and must now be transformed such that both replicas reach the same state.
@@ -309,7 +310,8 @@
                 </p>
                 <p>
                 The anticipated solution to this issue is to keep tasks in the task database with a "deleted" status for long enough that users are likely to have completely forgotten about them, at which point such conflicts are vanishingly unlikely.
-                This may be accomplished by periodically creating <code>Delete($uuid)</code> operations only for tasks that were last modified over one year in the past, or some other suitably long duration.
+                Such a "deleted" status already exists.
+                Purging may be accomplished by creating <code>Delete($uuid)</code> operations only for tasks that were last modified over one year in the past, or some other suitably long duration, as part of <code>task purge</code>.
                 </p>
               </li>
               <li>
@@ -359,14 +361,8 @@
               <li>
                 <p>
                 Synchronization becomes a required kind of periodic maintenance, even if against a local implementation.
-                This may be performed automatically, or existing users may be required to run <code>task sync</code> periodically.
-                </p>
-              </li>
-
-              <li>
-                <p>
-                The current on-disk storage for a replica is text-based and invites users to edit it.
-                This will interact particularly badly with operation-based synchronization, so it may be necessary to choose a more robust format.
+                One option is to require all users to run <code>task sync</code> periodically -- a new requirement for users not currently using sync.
+                Another option is to run local sync automatically (perhaps during garbage collection) in replicas without synchronization configured.
                 </p>
               </li>
 
