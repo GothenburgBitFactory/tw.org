@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - Rule System</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-10">
+        <div class="col-md-2">
+        </div>
+
+        <div class="col-md-10 main">
+          <div class="row">
+            <div class="callout callout-danger">
+              <h4>Work in Progress</h4>
+              <p>
+                This design document is a work in progress, and subject to
+                change. Once finalized, the feature will be scheduled for an
+                upcoming release.
+              </p>
+            </div>
+
+            <a name="sync"></a>
+            <h3>Task Synchronization</h3>
+            <p>
+              This RFC covers <em>synchronization</em> of <em>replicas</em>
+              containing the same set of tasks.  A replica is can perform all
+              operations locally without connecting to a sync server, then share
+              those operations with other replicas when it connects.  Sync allows
+              Taskwarrior users to consult and update the same task list on
+              multiple devices, without requiring constant connection.
+            </p>
+
+            <p>
+              The RFC proposes a new approach to synchronization that is not compatible
+              with the existing sync mechanism.  It has the following advantages:
+              <ul>
+                <li>Privacy-preserving: server does not have access to user data.</li>
+                <li>Format-agnostic: server does not know the format of the data, and therefore can be upgraded independently of replicas.</li>
+                <li>Performant: both server and replica performance scale linearly with the size of the replicas being synchronized.</li>
+                </ul>
+                A proof-of-concept of this model has been implemented in <a href="https://github.com/taskchampion/taskchampion">Taskchampion</a>a.
+            </p>
+
+            <p>
+              The remainder of this document summarizes the new model, and how it will be implemented in Taskwarrior.
+            </p>
+
+            <a name="model"></a>
+            <h3>Sync Model</h3>
+
+			<p>
+              Synchronization occurs between disconnected replicas, mediated by a server.
+			  The replicas never communicate directly with one another.
+			  The server does not have access to the task data; it sees only opaque blobs of data with a small amount of metadata.
+            </p>
+
+            <p>
+              The synchronization process is a critical part of the task database's functionality, and it cannot function efficiently without occasional synchronization operations.
+            </p>
+
+            <h4 id="operational-transforms">Operational Transforms</h4>
+
+            <p>
+            Synchronization is based on <a href="https://en.wikipedia.org/wiki/Operational_transformation">operational transformation</a>.
+            This section will assume some familiarity with the concept.
+            </p>
+
+            <h4 id="state-and-operations">State and Operations</h4>
+
+            <p>
+            At a given time, the set of tasks in a replica's storage is the essential <em>state</em> of that replica.
+            This state has the form of an unordered set of tasks indexed by UUID.
+            Each task is a collection of key/value pairs, both represented as strings.
+            <em>Any</em> state of this form is valid from the perspective of the synchronization model.
+            </p>
+
+            <p>
+            All modifications to that state occur via <em>operations</em>.
+            We can draw a network, or graph, with the nodes representing states and the edges representing operations.
+            For example:
+            </p>
+<pre>  o -- State: {"abc-123": {"description": "get groceries", "priority": "L"}}
+  |
+  | -- Operation: set abc-123 "priority" to "H"
+  |
+  o -- State: {"abc-123": {"description": "get groceries", "priority: "H"}
+</pre>
+
+            <p>
+            Operations in Taskwarrior have one of three forms:
+              <ul>
+                  <li><code>Create(uuid)</code> - create a new task with the given UUID.</li>
+                  <li><code>Update(uuid, key, value)</code> - update the given task with the given key and value, where value may be null to indicate removal of a key.</li>
+                  <li><code>Delete(uuid)</code> - delete the given task.</li>
+              </ul>
+            </p>
+
+            <p>
+            For those familiar with distributed version control systems, a state is analogous to a revision, while an operation is analogous to a commit.
+            </p>
+
+            <p>
+            Fundamentally, synchronization involves all replicas agreeing on a single, linear sequence of operations and the state that those operations create.
+            Since the replicas are not connected, each may have additional operations that have been applied locally, but which have not yet been agreed on.
+            The synchronization process uses operational transformation to "linearize" those operations.
+            This process is analogous (vaguely) to rebasing a sequence of Git commits.
+            </p>
+
+            <h4 id="versions">Versions</h4>
+
+            <p>
+            Occasionally, database states are given a name (that takes the form of a UUID).
+            The system as a whole (all replicas) constructs a branch-free sequence of versions and the operations that separate each version from the next.
+            The version with the nil UUID is implicitly the empty database.
+            </p>
+
+            <p>
+            The server stores the operations to change a state from a "parent" version to a "child" version, and provides that information as needed to replicas.
+            Replicas use this information to update their local task databases, and to generate new versions to send to the server.
+            </p>
+
+            <p>
+            Replicas generate a new version to transmit local changes to the server.
+            The changes are represented as a sequence of operations with the state resulting from the final operation corresponding to the version.
+            In order to keep the versions in a single sequence, the server will only accept a proposed version from a replica if its parent version matches the latest version on the server.
+            </p>
+
+            <p>
+            In the non-conflict case (such as with a single replica), then, a replica's synchronization process involves gathering up the operations it has accumulated since its last synchronization; bundling those operations into a version; and sending that version to the server.
+            </p>
+
+            <h4 id="replica-invariant">Replica Invariant</h4>
+
+            <p>
+            The replica's storage contains the current state (<code>tasks</code>), the as-yet un-synchronized operations (<code class="hljs">operations</code>), and the last version at which synchronization occurred (<code class="hljs">base_version</code>).
+            </p>
+
+            <p>
+            The replica's un-synchronized operations are already reflected in its local <code class="hljs">tasks</code>, so the following invariant holds:
+            </p>
+
+            <blockquote>
+            <p>Applying <code class="hljs">operations</code> to the set of tasks at <code class="hljs">base_version</code> gives a set of tasks identical
+            to <code class="hljs">tasks</code>.</p>
+            </blockquote>
+
+            <h4 id="transformation">Transformation</h4>
+
+            <p>
+            When the latest version on the server contains operations that are not present in the replica, then the states have diverged.
+            For example:
+            </p>
+
+<pre>  o  -- version N
+ w|\a
+  o o
+ x|  \b
+  o   o
+ y|    \c
+  o     o -- replica's local state
+ z|
+  o -- version N+1
+</pre>
+
+            <p>
+            (diagram notation: <code class="hljs">o</code> designates a state, lower-case letters designate operations, and versions are presented as if they were numbered sequentially)
+            </p>
+
+            <p>
+            In this situation, the replica must "rebase" the local operations onto the latest version from the server and try again.
+            This process is performed using operational transformation (OT).
+            The result of this transformation is a sequence of operations based on the latest version, and a sequence of operations the replica can apply to its local task database to reach the same state
+            Continuing the example above, the resulting operations are shown with <code class="hljs">'</code>:
+            </p>
+
+<pre>  o  -- version N
+ w|\a
+  o o
+ x|  \b
+  o   o
+ y|    \c
+  o     o -- replica's intermediate local state
+ z|     |w'
+  o-N+1 o
+ a'\    |x'
+    o   o
+   b'\  |y'
+      o o
+     c'\|z'
+        o  -- version N+2
+</pre>
+
+            <p>
+            The replica applies w' through z' locally, and sends a' through c' to the server as the operations to generate version N+2.
+            Either path through this graph, a-b-c-w'-x'-y'-z' or a'-b'-c'-w-x-y-z, must generate <em>precisely</em> the same final state at version N+2.
+            Careful selection of the operations and the transformation function ensure this.
+            </p>
+
+            <h4 id="synchronization-process">Synchronization Process</h4>
+
+            <p>
+            To perform a synchronization, the replica first requests the child version of <code class="hljs">base_version</code> from the server (a "GetChildVersion" operation).
+            It applies that version to its local <code class="hljs">tasks</code>, rebases its local <code class="hljs">operations</code> as described above, and updates <code class="hljs">base_version</code>.
+            The replica repeats this process until the server indicates no additional child versions exist.
+            If there are no un-synchronized local operations, the process is complete.
+            </p>
+
+            <p>
+            Otherwise, the replica creates a new version containing its local operations, giving its <code class="hljs">base_version</code> as the parent version, and transmits that to the server (an "AddVersion" operation).
+            In most cases, this will succeed, but if another replica has created a new version in the interim, then the new version will conflict with that other replica's new version and the server will respond with the new expected parent version.
+            In this case, the entire process repeats.
+            If the server indicates a conflict twice with the same expected base version, that is an indication that the replica has diverged (something serious has gone wrong) or contention is very high (unlikely in typical Taskwarrior use-cases).
+            </p>
+
+            <h4 id="synchronization-process">Encryption and Privacy</h4>
+
+            <p>
+            In this model, the server stores blocks of data keyed by UUIDs (versions).
+            It never interprets this data.
+            This has two advantages.
+            </p>
+
+            <p>
+            First, the format of the data is irrelevant to the server, allowing independent upgrades to the server and replica applications.
+            As long as the very simple server protocol does not change, different server and replica versions can freely interoperate.
+            </p>
+
+            <p>
+            Second, the blocks of data can be encrypted by the replicas, using a key not known to the server.
+            Then any compromise of the server reveals only ciphertext and minor metadata around the quantity of operations performed (in the size of the data blocks).
+            Server logs may also contain IP addresses and other identifiable information, but this is a matter for server operators to address with appropriate log retention policies.
+            </p>
+
+            <h4 id="servers">Future Considerations</h4>
+
+            <p>
+            Once this basic model is in place, a few details remain to be considered:
+            <ul>
+              <li>
+                <p>
+                Automatic operations must be idempotent.
+                For example, a new recurring task may be created on multiple replicas.
+                Later synchronization of the operations involved should match the user's expectations: a single task with appropriate properties.
+                In this case, deterministic generation of the task UUID and other metadata will allow multiple replicas to generate identical operations.
+                </p>
+                <p>
+                In other cases, it will be easiest to eliminate unnecessary "automatic" modifications to a task.
+                For example, we have already <a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/2554">removed the "wait" status</a> which must otherwise be modified when the wait time has passed.
+                </p>
+              </li>
+              <li>
+                <p>
+                As designed, the sequence of versions grows without bound.  This consumes growing storage space on the server, and requires any new replicas to apply a lengthy sequence of operations contained in the versions since the first synchronization.
+                A "snapshot" approach may be useful here, allowing the server to discard versions which have been incorporated into snapshots, and allowing new replicas to download the latest snapshot and apply only the versions after that snapshot.
+                The heuristics of this approach need careful consideration.
+                </p>
+              </li>
+              <li>
+                <p>
+                Tasks must be deleted to avoid unbounded growth of the set of tasks.
+                However, the <code>Delete(uuid)</code> operation is difficult to transpose with other operations, because it deletes all key/values in the task.
+                For example, consider conflicting operations <code>Delete($uuid)</code> and <code>Update($uuid, "expires", "2040-01-01T00:00:00")</code>.
+                These operations were performed on different replicas and must now be transformed such that both replicas reach the same state.
+                It is likely that the user's intention was to prevent the task from expiring on the second replica.
+                However, the first replica has already applied the deletion and no longer has any of the other key/value pairs for the task, so the only possible transformation of these operations is to <code>Delete($uuid)</code> on both replicas.
+                </p>
+                <p>
+                The anticipated solution to this issue is to keep tasks in the task database with a "deleted" status for long enough that users are likely to have completely forgotten about them, at which point such conflicts are vanishingly unlikely.
+                This may be accomplished by periodically creating <code>Delete($uuid)</code> operations only for tasks that were last modified over one year in the past, or some other suitably long duration.
+                </p>
+              </li>
+              <li>
+                <p>
+                Support for <code>task undo</code> becomes difficult with this model.
+                There was some discussion in the context of <a href="https://github.com/taskchampion/taskchampion/issues/92">TaskChampion</a>, with a few proposals at varying levels of complexity.
+                </p>
+              </li>
+              <li>
+                <p>
+                Data loss on a server would prevent replicas from synchronizing.
+                It may be possible for the server to produce "backups" that can be stored with replicas and used to reproduce a server state from the past when necessary.
+                </p>
+              </li>
+            </ul>
+            </p>
+
+            <h4 id="servers">Singleton Replicas</h4>
+
+            <p>
+            A replica depends on periodic synchronization for performant operation.
+            Without synchronization, its list of pending operations would grow indefinitely, and tasks could never be expired.
+            So all replicas, even "singleton" replicas which do not replicate task data with any other replica, must synchronize periodically.
+            To support this condition, Taskwarrior provides a local implementation of this model against which sync operations can be performed, and a migration path from such local sync to remote synchronization.
+            </p>
+
+            <a name="model"></a>
+            <h3>Implementation</h3>
+
+            <p>
+            Achieving this approach in Taskwarrior requires some difficult changes.
+            </p>
+
+            <ul>
+              <li>
+                <p>
+                All modifications to tasks must be made in the form of operations.
+                This is not conceptually difficult, but represents a significant refactor of the existing code.
+                The most challenging aspect of this change has <a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/2553">already</a> <a href="https://github.com/GothenburgBitFactory/taskwarrior/issues/2569">been completed</a>: changes such as adding or removing a tag must be formulated as single operations that can be easily transposed.
+                For example, consider conflicting operations <code>Update($uuid, "tags", "foo,bar,bing")</code> and <code>Update($uuid, "tags", "foo,bar,next")</code>.
+                Without an understanding of tags, transposing these two operations requires one to "win", effectively undoing the other.
+                If, instead, each tag is stored as a distinct task key, then the two operations to add tags are <code>Update($uuid, "tag_bing", "")</code> and <code>Update($uuid, "tag_next", "")</code>.
+                These operations do not conflict with each other and can be transposed easily.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                Synchronization becomes a required kind of periodic maintenance, even if against a local implementation.
+                This may be performed automatically, or existing users may be required to run <code>task sync</code> periodically.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                The current on-disk storage for a replica is text-based and invites users to edit it.
+                This will interact particularly badly with operation-based synchronization, so it may be necessary to choose a more robust format.
+                </p>
+              </li>
+
+              <li>
+                <p>
+                The existing and new synchronization frameworks are not compatible, and Taskwarrior must undergo a "hard switch" from one to the other.
+                </p>
+              </li>
+            </ul>
+        </div>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://github.com/GothenburgBitFactory/taskwarrior/issues">Submit a bug</a>
+            <br />
+            <a href="https://github.com/GothenburgBitFactory/taskwarrior">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="https://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
+            <br />
+            <a href="https://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://github.com/sponsors/GothenburgBitFactory">Sponsor us on Github sponsors!</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy: 2018 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
