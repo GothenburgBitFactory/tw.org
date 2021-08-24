@@ -1757,21 +1757,6 @@
     "url": "https://github.com/b-ryan/tasknc-python"
   },
   {
-    "description": "Taskwarrior wrapper for manual ordering of a focus list",
-    "language": [
-      "Python"
-    ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "name": "taskwarrior-focus",
-    "obsolete": true,
-    "owner": [
-      "babadoo"
-    ],
-    "rating": 1,
-    "updated": "2018-04-04",
-    "url": "https://github.com/babadoo/taskwarrior-focus"
-  },
-  {
     "description": "Synchronization between Taskwarrior tasks and Google Calendar events-reminders",
     "language": [
       "Python"
@@ -2008,7 +1993,7 @@
       "bradyt"
     ],
     "rating": 12,
-    "updated": "2021-08-22",
+    "updated": "2021-08-23",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3178,7 +3163,7 @@
       "hamlinux"
     ],
     "rating": 1,
-    "updated": "2021-07-02",
+    "updated": "2021-08-23",
     "url": "https://github.com/hamlinux/taskwarrior-GTD"
   },
   {
@@ -3972,8 +3957,8 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 2,
-    "updated": "2021-07-30",
+    "rating": 3,
+    "updated": "2021-08-23",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
@@ -6987,8 +6972,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 275,
-    "updated": "2021-08-18",
+    "rating": 276,
+    "updated": "2021-08-23",
     "url": "https://github.com/vit-project/vit"
   },
   {
