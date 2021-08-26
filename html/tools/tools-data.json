@@ -1577,21 +1577,6 @@
     "url": "https://github.com/anazimok/taskwarrior-workflow"
   },
   {
-    "description": "taskwarrior blocks: attribute for inverse dependencies",
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "task-blocks",
-    "obsolete": false,
-    "owner": [
-      "arcnmx"
-    ],
-    "rating": 1,
-    "updated": "2021-01-09",
-    "url": "https://github.com/arcnmx/task-blocks"
-  },
-  {
     "description": "Go script to set up dependencies for taskwarrior tasks",
     "language": [
       "Go"
@@ -1917,8 +1902,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 468,
-    "updated": "2021-08-20",
+    "rating": 469,
+    "updated": "2021-08-25",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -1993,7 +1978,7 @@
       "bradyt"
     ],
     "rating": 12,
-    "updated": "2021-08-24",
+    "updated": "2021-08-25",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -2792,21 +2777,6 @@
     "url": "https://github.com/enricoschumann/taskwarrior.utils"
   },
   {
-    "description": "Provides integration between taskwarrior and habitrpg.",
-    "language": [
-      "Python"
-    ],
-    "license": "BSD 2-Clause \"Simplified\" License",
-    "name": "habitwarrior",
-    "obsolete": true,
-    "owner": [
-      "er4z0r"
-    ],
-    "rating": 6,
-    "updated": "2018-05-10",
-    "url": "https://github.com/er4z0r/habitwarrior"
-  },
-  {
     "description": "Simple PHP implementation to display tasks exported from Taskwarrior.",
     "language": [
       "PHP"
@@ -3028,7 +2998,7 @@
       "garybgenett"
     ],
     "rating": 13,
-    "updated": "2021-08-24",
+    "updated": "2021-08-25",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -3705,21 +3675,6 @@
     "rating": 0,
     "updated": "2020-05-26",
     "url": "https://github.com/johanbove/taskwarrior-now"
-  },
-  {
-    "description": "Push data from hamster time tracker and taskwarrior to LiquidPlanner",
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "hamster2lp",
-    "obsolete": true,
-    "owner": [
-      "johanv"
-    ],
-    "rating": 0,
-    "updated": "2016-12-20",
-    "url": "https://github.com/johanv/hamster2lp"
   },
   {
     "description": "Taskwarrior taskd sync server in an Alpine Linux-based container.",
@@ -4652,21 +4607,6 @@
     "url": "https://github.com/madelinecameron/wip-taskwarrior-hooks"
   },
   {
-    "description": "Taskwarrior local frontend using pug and nodejs",
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "TaskView",
-    "obsolete": false,
-    "owner": [
-      "makingglitches"
-    ],
-    "rating": 1,
-    "updated": "2020-11-11",
-    "url": "https://github.com/makingglitches/TaskView"
-  },
-  {
     "description": "Review Taskwarrior tasks",
     "language": [
       "Go"
@@ -4815,21 +4755,6 @@
     "rating": 0,
     "updated": "2021-01-10",
     "url": "https://github.com/mattcl/task-streamer"
-  },
-  {
-    "description": "Some helper scripts for my TaskWarrior setup",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskwarrior-helpers",
-    "obsolete": false,
-    "owner": [
-      "mattmacari"
-    ],
-    "rating": 1,
-    "updated": "2019-06-12",
-    "url": "https://github.com/mattmacari/taskwarrior-helpers"
   },
   {
     "description": "Extract a journal / diary from TaskWarrior entries",
@@ -5083,7 +5008,7 @@
       "mrschyte"
     ],
     "rating": 9,
-    "updated": "2021-03-10",
+    "updated": "2021-08-25",
     "url": "https://github.com/mrschyte/taskwarrior-hooks"
   },
   {
@@ -5130,21 +5055,6 @@
     "rating": 0,
     "updated": "2021-08-17",
     "url": "https://github.com/mwiederhold/taskd-client-clj"
-  },
-  {
-    "description": "Add tasks in Taskwarrior that correspond to Bugzilla bugs.",
-    "language": [
-      "JavaScript"
-    ],
-    "license": "Mozilla Public License 2.0",
-    "name": "bug-task",
-    "obsolete": true,
-    "owner": [
-      "mythmon"
-    ],
-    "rating": 0,
-    "updated": "2015-02-11",
-    "url": "https://github.com/mythmon/bug-task"
   },
   {
     "description": "A tool to interact with taskwarrior quicklky",
