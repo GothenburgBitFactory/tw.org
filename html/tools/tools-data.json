@@ -692,6 +692,21 @@
     "url": "https://github.com/Ivangonz/sethrak"
   },
   {
+    "description": "Repo for my tasks app in Linux (taskwarrior and timew)",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "Tasks",
+    "obsolete": false,
+    "owner": [
+      "JCilenti"
+    ],
+    "rating": 0,
+    "updated": "2021-08-26",
+    "url": "https://github.com/JCilenti/Tasks"
+  },
+  {
     "description": "Taskwarrior is an open-source cross platform command-line task management tool.",
     "language": [
       "Shell"
@@ -1577,6 +1592,21 @@
     "url": "https://github.com/anazimok/taskwarrior-workflow"
   },
   {
+    "description": "taskwarrior blocks: attribute for inverse dependencies",
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "task-blocks",
+    "obsolete": false,
+    "owner": [
+      "arcnmx"
+    ],
+    "rating": 1,
+    "updated": "2021-01-09",
+    "url": "https://github.com/arcnmx/task-blocks"
+  },
+  {
     "description": "Go script to set up dependencies for taskwarrior tasks",
     "language": [
       "Go"
@@ -1978,7 +2008,7 @@
       "bradyt"
     ],
     "rating": 12,
-    "updated": "2021-08-25",
+    "updated": "2021-08-26",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -2052,8 +2082,8 @@
     "owner": [
       "burnison"
     ],
-    "rating": 82,
-    "updated": "2021-08-16",
+    "rating": 83,
+    "updated": "2021-08-26",
     "url": "https://github.com/burnison/tasksync"
   },
   {
@@ -2775,6 +2805,21 @@
     "rating": 0,
     "updated": "2021-02-24",
     "url": "https://github.com/enricoschumann/taskwarrior.utils"
+  },
+  {
+    "description": "Provides integration between taskwarrior and habitrpg.",
+    "language": [
+      "Python"
+    ],
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "name": "habitwarrior",
+    "obsolete": true,
+    "owner": [
+      "er4z0r"
+    ],
+    "rating": 6,
+    "updated": "2018-05-10",
+    "url": "https://github.com/er4z0r/habitwarrior"
   },
   {
     "description": "Simple PHP implementation to display tasks exported from Taskwarrior.",
@@ -3677,6 +3722,21 @@
     "url": "https://github.com/johanbove/taskwarrior-now"
   },
   {
+    "description": "Push data from hamster time tracker and taskwarrior to LiquidPlanner",
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "hamster2lp",
+    "obsolete": true,
+    "owner": [
+      "johanv"
+    ],
+    "rating": 0,
+    "updated": "2016-12-20",
+    "url": "https://github.com/johanv/hamster2lp"
+  },
+  {
     "description": "Taskwarrior taskd sync server in an Alpine Linux-based container.",
     "language": [
       "Shell"
@@ -3957,8 +4017,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 510,
-    "updated": "2021-08-20",
+    "rating": 511,
+    "updated": "2021-08-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4607,6 +4667,21 @@
     "url": "https://github.com/madelinecameron/wip-taskwarrior-hooks"
   },
   {
+    "description": "Taskwarrior local frontend using pug and nodejs",
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskView",
+    "obsolete": false,
+    "owner": [
+      "makingglitches"
+    ],
+    "rating": 1,
+    "updated": "2020-11-11",
+    "url": "https://github.com/makingglitches/TaskView"
+  },
+  {
     "description": "Review Taskwarrior tasks",
     "language": [
       "Go"
@@ -4755,6 +4830,21 @@
     "rating": 0,
     "updated": "2021-01-10",
     "url": "https://github.com/mattcl/task-streamer"
+  },
+  {
+    "description": "Some helper scripts for my TaskWarrior setup",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwarrior-helpers",
+    "obsolete": false,
+    "owner": [
+      "mattmacari"
+    ],
+    "rating": 1,
+    "updated": "2019-06-12",
+    "url": "https://github.com/mattmacari/taskwarrior-helpers"
   },
   {
     "description": "Extract a journal / diary from TaskWarrior entries",
@@ -5055,6 +5145,21 @@
     "rating": 0,
     "updated": "2021-08-17",
     "url": "https://github.com/mwiederhold/taskd-client-clj"
+  },
+  {
+    "description": "Add tasks in Taskwarrior that correspond to Bugzilla bugs.",
+    "language": [
+      "JavaScript"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "name": "bug-task",
+    "obsolete": true,
+    "owner": [
+      "mythmon"
+    ],
+    "rating": 0,
+    "updated": "2015-02-11",
+    "url": "https://github.com/mythmon/bug-task"
   },
   {
     "description": "A tool to interact with taskwarrior quicklky",
@@ -5772,8 +5877,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 559,
-    "updated": "2021-08-24",
+    "rating": 560,
+    "updated": "2021-08-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6557,6 +6662,21 @@
     "url": "https://github.com/teranex/vimwiki-tasks"
   },
   {
+    "description": "Taskwarrior REST API (inthe.am compatible; only Tasks endpoint)",
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-api",
+    "obsolete": false,
+    "owner": [
+      "theCapypara"
+    ],
+    "rating": 0,
+    "updated": "2018-09-02",
+    "url": "https://github.com/theCapypara/taskwarrior-api"
+  },
+  {
     "description": "A simple python3 wrapper for Taskwarrior interactions.",
     "language": [
       "Python"
@@ -6672,8 +6792,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 590,
-    "updated": "2021-08-18",
+    "rating": 591,
+    "updated": "2021-08-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -6882,8 +7002,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 276,
-    "updated": "2021-08-23",
+    "rating": 277,
+    "updated": "2021-08-26",
     "url": "https://github.com/vit-project/vit"
   },
   {
