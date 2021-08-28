@@ -1782,8 +1782,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 93,
-    "updated": "2021-08-20",
+    "rating": 94,
+    "updated": "2021-08-27",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -2008,7 +2008,7 @@
       "bradyt"
     ],
     "rating": 12,
-    "updated": "2021-08-26",
+    "updated": "2021-08-27",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3883,7 +3883,7 @@
       "jrheard"
     ],
     "rating": 0,
-    "updated": "2021-08-17",
+    "updated": "2021-08-27",
     "url": "https://github.com/jrheard/rask"
   },
   {
@@ -6323,7 +6323,7 @@
     ],
     "license": "Other",
     "name": "taskwarrior-backup",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "smaboshe"
     ],
@@ -6343,7 +6343,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2021-08-21",
+    "updated": "2021-08-27",
     "url": "https://github.com/smemsh/.task"
   },
   {
