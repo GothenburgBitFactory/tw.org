@@ -1782,8 +1782,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 94,
-    "updated": "2021-08-27",
+    "rating": 95,
+    "updated": "2021-08-28",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -2008,7 +2008,7 @@
       "bradyt"
     ],
     "rating": 12,
-    "updated": "2021-08-27",
+    "updated": "2021-08-28",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3552,8 +3552,8 @@
     "owner": [
       "jbarratt"
     ],
-    "rating": 8,
-    "updated": "2020-10-29",
+    "rating": 9,
+    "updated": "2021-08-28",
     "url": "https://github.com/jbarratt/trello_to_task"
   },
   {
@@ -3570,21 +3570,6 @@
     "rating": 0,
     "updated": "2018-08-18",
     "url": "https://github.com/jbog/todoist-taskwarrior-sync"
-  },
-  {
-    "description": "Python app for use with Taskwarrior + Bugwarrior to align priorities and due dates to open sprints in JIRA",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "jtmote",
-    "obsolete": true,
-    "owner": [
-      "jdcasey"
-    ],
-    "rating": 0,
-    "updated": "2017-10-06",
-    "url": "https://github.com/jdcasey/jtmote"
   },
   {
     "description": "TaskWarrior -> Remind converter",
@@ -4017,8 +4002,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 511,
-    "updated": "2021-08-26",
+    "rating": 515,
+    "updated": "2021-08-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4167,8 +4152,8 @@
     "owner": [
       "kpence"
     ],
-    "rating": 1,
-    "updated": "2021-01-21",
+    "rating": 0,
+    "updated": "2021-08-28",
     "url": "https://github.com/kpence/noteman"
   },
   {
@@ -5597,21 +5582,6 @@
     "url": "https://github.com/osfameron/task-contextualize"
   },
   {
-    "description": "Small script to get total on all times for a project with date filters. A supplement to kostajh/taskwarrior-time-tracking-hook",
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v2.0",
-    "name": "taskwarrior-timetracker-total",
-    "obsolete": true,
-    "owner": [
-      "osleg"
-    ],
-    "rating": 0,
-    "updated": "2015-05-16",
-    "url": "https://github.com/osleg/taskwarrior-timetracker-total"
-  },
-  {
     "description": "This is a powershell CLI to the Todo.txt todo file format with some PowerShell like features and also taking inspiration from Taskwarrior.",
     "language": [
       "PowerShell"
@@ -6747,8 +6717,8 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 449,
-    "updated": "2021-08-11",
+    "rating": 450,
+    "updated": "2021-08-28",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
@@ -6792,8 +6762,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 591,
-    "updated": "2021-08-26",
+    "rating": 592,
+    "updated": "2021-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
