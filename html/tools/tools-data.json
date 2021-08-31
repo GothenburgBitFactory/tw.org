@@ -1842,8 +1842,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 89,
-    "updated": "2021-08-24",
+    "rating": 90,
+    "updated": "2021-08-30",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -2007,8 +2007,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 12,
-    "updated": "2021-08-29",
+    "rating": 13,
+    "updated": "2021-08-30",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -2277,8 +2277,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 471,
-    "updated": "2021-08-29",
+    "rating": 472,
+    "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -2307,8 +2307,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 59,
-    "updated": "2021-07-11",
+    "rating": 61,
+    "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/taskwarrior-inthe.am"
   },
   {
@@ -2322,8 +2322,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 235,
-    "updated": "2021-08-22",
+    "rating": 236,
+    "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
   {
@@ -2412,8 +2412,8 @@
     "owner": [
       "crockeo"
     ],
-    "rating": 4,
-    "updated": "2021-06-30",
+    "rating": 5,
+    "updated": "2021-08-30",
     "url": "https://github.com/crockeo/taskn"
   },
   {
@@ -3043,7 +3043,7 @@
       "garybgenett"
     ],
     "rating": 13,
-    "updated": "2021-08-25",
+    "updated": "2021-08-30",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -3177,8 +3177,8 @@
     "owner": [
       "hamlinux"
     ],
-    "rating": 1,
-    "updated": "2021-08-23",
+    "rating": 2,
+    "updated": "2021-08-30",
     "url": "https://github.com/hamlinux/taskwarrior-GTD"
   },
   {
@@ -3357,8 +3357,8 @@
     "owner": [
       "indieterminacy"
     ],
-    "rating": 1,
-    "updated": "2018-11-26",
+    "rating": 2,
+    "updated": "2021-08-30",
     "url": "https://github.com/indieterminacy/1q10rq_tasks_taskwarrior_zsh"
   },
   {
@@ -3897,8 +3897,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 242,
-    "updated": "2021-08-16",
+    "rating": 243,
+    "updated": "2021-08-30",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -4050,6 +4050,21 @@
     "rating": 0,
     "updated": "2021-05-26",
     "url": "https://github.com/kellya/mutt2tw"
+  },
+  {
+    "description": "Create a status report from taskwarrior information",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "task-status",
+    "obsolete": false,
+    "owner": [
+      "kellya"
+    ],
+    "rating": 0,
+    "updated": "2021-08-30",
+    "url": "https://github.com/kellya/task-status"
   },
   {
     "description": "PHP library for interacting with Taskwarrior 2.x",
@@ -4347,8 +4362,8 @@
     "owner": [
       "liloman"
     ],
-    "rating": 10,
-    "updated": "2021-07-02",
+    "rating": 11,
+    "updated": "2021-08-30",
     "url": "https://github.com/liloman/warriors"
   },
   {
@@ -4887,8 +4902,8 @@
     "owner": [
       "mikebobroski"
     ],
-    "rating": 42,
-    "updated": "2021-06-30",
+    "rating": 43,
+    "updated": "2021-08-30",
     "url": "https://github.com/mikebobroski/tasknote"
   },
   {
@@ -5067,8 +5082,8 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 1,
-    "updated": "2021-08-05",
+    "rating": 2,
+    "updated": "2021-08-30",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
   {
@@ -5457,8 +5472,8 @@
     "owner": [
       "nocejo"
     ],
-    "rating": 13,
-    "updated": "2021-04-08",
+    "rating": 14,
+    "updated": "2021-08-30",
     "url": "https://github.com/nocejo/trev"
   },
   {
@@ -6343,7 +6358,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2021-08-29",
+    "updated": "2021-08-30",
     "url": "https://github.com/smemsh/.task"
   },
   {
@@ -6897,8 +6912,8 @@
     "owner": [
       "tzok"
     ],
-    "rating": 10,
-    "updated": "2020-09-24",
+    "rating": 11,
+    "updated": "2021-08-30",
     "url": "https://github.com/tzok/taskattach"
   },
   {
@@ -7002,8 +7017,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 277,
-    "updated": "2021-08-29",
+    "rating": 278,
+    "updated": "2021-08-30",
     "url": "https://github.com/vit-project/vit"
   },
   {
