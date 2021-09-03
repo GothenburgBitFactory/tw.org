@@ -672,8 +672,8 @@
     "owner": [
       "HiveMinds-EU"
     ],
-    "rating": 2,
-    "updated": "2021-08-08",
+    "rating": 3,
+    "updated": "2021-09-02",
     "url": "https://github.com/HiveMinds-EU/tw-install"
   },
   {
@@ -1242,8 +1242,8 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 46,
-    "updated": "2021-08-01",
+    "rating": 47,
+    "updated": "2021-09-02",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -1527,8 +1527,8 @@
     "owner": [
       "alfredopalhares"
     ],
-    "rating": 11,
-    "updated": "2021-08-04",
+    "rating": 12,
+    "updated": "2021-09-02",
     "url": "https://github.com/alfredopalhares/cookbook-taskwarrior"
   },
   {
@@ -1782,8 +1782,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 96,
-    "updated": "2021-08-31",
+    "rating": 97,
+    "updated": "2021-09-02",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -1887,8 +1887,8 @@
     "owner": [
       "blampe"
     ],
-    "rating": 22,
-    "updated": "2021-08-17",
+    "rating": 23,
+    "updated": "2021-09-02",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
   {
@@ -2008,7 +2008,7 @@
       "bradyt"
     ],
     "rating": 13,
-    "updated": "2021-08-30",
+    "updated": "2021-09-02",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -2807,6 +2807,21 @@
     "url": "https://github.com/enricoschumann/taskwarrior.utils"
   },
   {
+    "description": "Provides integration between taskwarrior and habitrpg.",
+    "language": [
+      "Python"
+    ],
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "name": "habitwarrior",
+    "obsolete": true,
+    "owner": [
+      "er4z0r"
+    ],
+    "rating": 6,
+    "updated": "2018-05-10",
+    "url": "https://github.com/er4z0r/habitwarrior"
+  },
+  {
     "description": "Simple PHP implementation to display tasks exported from Taskwarrior.",
     "language": [
       "PHP"
@@ -3028,7 +3043,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2021-09-01",
+    "updated": "2021-09-03",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -3390,6 +3405,21 @@
     "rating": 0,
     "updated": "2021-01-28",
     "url": "https://github.com/isaacs4m/taskwarrior-purge"
+  },
+  {
+    "description": "TaskWarrior wrapper to allow goruping tasks by activity (KDE)",
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior-kactivities",
+    "obsolete": false,
+    "owner": [
+      "ivan-cukic"
+    ],
+    "rating": 0,
+    "updated": "2021-06-06",
+    "url": "https://github.com/ivan-cukic/taskwarrior-kactivities"
   },
   {
     "description": "Creates an HTML Kanban view from taskwarrior",
@@ -3867,8 +3897,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 243,
-    "updated": "2021-08-30",
+    "rating": 244,
+    "updated": "2021-09-02",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -4607,6 +4637,21 @@
     "url": "https://github.com/lukasdietrich/taskwarrior-docker"
   },
   {
+    "description": "Converts a CSV of tasks into the taskwarrior JSON format",
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "task-conversion",
+    "obsolete": true,
+    "owner": [
+      "lukecampbell"
+    ],
+    "rating": 0,
+    "updated": "2018-05-10",
+    "url": "https://github.com/lukecampbell/task-conversion"
+  },
+  {
     "description": "Taskwarrior based program to manage your kanban workflow",
     "language": [
       "Python"
@@ -5117,6 +5162,21 @@
     "url": "https://github.com/mwiederhold/taskd-client-clj"
   },
   {
+    "description": "Add tasks in Taskwarrior that correspond to Bugzilla bugs.",
+    "language": [
+      "JavaScript"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "name": "bug-task",
+    "obsolete": true,
+    "owner": [
+      "mythmon"
+    ],
+    "rating": 0,
+    "updated": "2015-02-11",
+    "url": "https://github.com/mythmon/bug-task"
+  },
+  {
     "description": "A tool to interact with taskwarrior quicklky",
     "language": [
       "Rust"
@@ -5250,6 +5310,21 @@
     "rating": 0,
     "updated": "2021-04-30",
     "url": "https://github.com/nerab/twtest"
+  },
+  {
+    "description": "Running neomutt, taskwarrior, afew, and notmuchtask in Docker.",
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "docker-mua-and-friends",
+    "obsolete": false,
+    "owner": [
+      "neuhalje"
+    ],
+    "rating": 0,
+    "updated": "2019-05-27",
+    "url": "https://github.com/neuhalje/docker-mua-and-friends"
   },
   {
     "description": "notmuchmail, taskwarrior and mutt are about to be your next dreamteam",
@@ -6567,8 +6642,8 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 26,
-    "updated": "2021-07-20",
+    "rating": 27,
+    "updated": "2021-09-02",
     "url": "https://github.com/tbabej/taskpirate"
   },
   {
@@ -6608,7 +6683,7 @@
     ],
     "license": "MIT License",
     "name": "taskwarrior-api",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "theCapypara"
     ],
@@ -6732,8 +6807,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 593,
-    "updated": "2021-08-29",
+    "rating": 594,
+    "updated": "2021-09-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
