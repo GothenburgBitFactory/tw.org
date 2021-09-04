@@ -92,21 +92,6 @@
     "url": "https://github.com/ABeehive/Email-to-TaskWarrior"
   },
   {
-    "description": "Wing Master Lab(WML) : A dynamic taskwarrior - based task controller",
-    "language": [
-      "C++"
-    ],
-    "license": null,
-    "name": "wml",
-    "obsolete": false,
-    "owner": [
-      "AMIRIOX"
-    ],
-    "rating": 0,
-    "updated": "2020-12-02",
-    "url": "https://github.com/AMIRIOX/wml"
-  },
-  {
     "description": "A baikal plugin that synchronizes iCal TODO events with various remote storages  such as Taskwarrior",
     "language": [
       "PHP"
@@ -1140,21 +1125,6 @@
     "rating": 0,
     "updated": "2014-04-29",
     "url": "https://github.com/TShadwell/Pester"
-  },
-  {
-    "description": "Python script for synchronizing a gmail label and taskwarrior tasks",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "task-gmail-sync",
-    "obsolete": false,
-    "owner": [
-      "TheNeuralBit"
-    ],
-    "rating": 0,
-    "updated": "2019-04-29",
-    "url": "https://github.com/TheNeuralBit/task-gmail-sync"
   },
   {
     "description": "Custom taskwarrior cli image with various plugins included.",
@@ -3527,21 +3497,6 @@
     "url": "https://github.com/jareds/docker-taskd"
   },
   {
-    "description": "Alfred extension for integration with Taskwarrior",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "AlfredTaskwarrior",
-    "obsolete": false,
-    "owner": [
-      "jbarratt"
-    ],
-    "rating": 6,
-    "updated": "2020-08-27",
-    "url": "https://github.com/jbarratt/AlfredTaskwarrior"
-  },
-  {
     "description": "Tool to migrate from Trello to Taskwarrior",
     "language": [
       "Python"
@@ -3827,21 +3782,6 @@
     "url": "https://github.com/jrabbit/taskd-redshirt"
   },
   {
-    "description": "Debian packaging files for taskwarrior (deprecated)",
-    "language": [
-      "Makefile"
-    ],
-    "license": "Other",
-    "name": "taskwarrior-debian",
-    "obsolete": false,
-    "owner": [
-      "jrabbit"
-    ],
-    "rating": 0,
-    "updated": "2019-08-27",
-    "url": "https://github.com/jrabbit/taskwarrior-debian"
-  },
-  {
     "description": "Taskwarrior integration for Mattermost",
     "language": [
       "PHP"
@@ -4017,8 +3957,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 515,
-    "updated": "2021-08-28",
+    "rating": 516,
+    "updated": "2021-09-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4260,21 +4200,6 @@
     "rating": 0,
     "updated": "2017-08-23",
     "url": "https://github.com/leifdenby/twsync"
-  },
-  {
-    "description": "taskwarrior for iOS",
-    "language": [
-      "Swift"
-    ],
-    "license": null,
-    "name": "taskmage",
-    "obsolete": false,
-    "owner": [
-      "leosolid"
-    ],
-    "rating": 0,
-    "updated": "2021-07-21",
-    "url": "https://github.com/leosolid/taskmage"
   },
   {
     "description": "Curses-based taskwarrior dashboard for your pocket computer.",
@@ -4738,7 +4663,7 @@
       "maralorn"
     ],
     "rating": 4,
-    "updated": "2021-07-29",
+    "updated": "2021-09-03",
     "url": "https://github.com/maralorn/kassandra"
   },
   {
@@ -5237,21 +5162,6 @@
     "url": "https://github.com/neingeist/mail2taskwarrior"
   },
   {
-    "description": "Delete overdue, recurring & duplicate taskwarrior tasks",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "task-recurring-delete",
-    "obsolete": true,
-    "owner": [
-      "neingeist"
-    ],
-    "rating": 0,
-    "updated": "2014-09-02",
-    "url": "https://github.com/neingeist/task-recurring-delete"
-  },
-  {
     "description": "Ruby bindings for TaskWarrior",
     "language": [
       "Ruby"
@@ -5595,21 +5505,6 @@
     "rating": 0,
     "updated": "2015-10-18",
     "url": "https://github.com/openscreencast/openscreencast_videos_taskwarrior"
-  },
-  {
-    "description": "Try to make a task visible in current taskwarrior context",
-    "language": [
-      "PureScript"
-    ],
-    "license": null,
-    "name": "task-contextualize",
-    "obsolete": false,
-    "owner": [
-      "osfameron"
-    ],
-    "rating": 0,
-    "updated": "2020-09-05",
-    "url": "https://github.com/osfameron/task-contextualize"
   },
   {
     "description": "Small script to get total on all times for a project with date filters. A supplement to kostajh/taskwarrior-time-tracking-hook",
@@ -6032,21 +5927,6 @@
     "url": "https://github.com/robwhitaker/taskwarrior-habitica-bridge"
   },
   {
-    "description": "my taskwarrior files",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "task",
-    "obsolete": true,
-    "owner": [
-      "rocknrollMarc"
-    ],
-    "rating": 0,
-    "updated": "2014-01-13",
-    "url": "https://github.com/rocknrollMarc/task"
-  },
-  {
     "description": ":hocho: Alfred 2 workflow to interact with TaskWarrior tasks",
     "language": [
       "Ruby"
@@ -6345,21 +6225,6 @@
     "rating": 1,
     "updated": "2018-08-27",
     "url": "https://github.com/smaboshe/taskwarrior-backup"
-  },
-  {
-    "description": "dotfiles: taskwarrior config files and scripts",
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": ".task",
-    "obsolete": false,
-    "owner": [
-      "smemsh"
-    ],
-    "rating": 0,
-    "updated": "2021-08-30",
-    "url": "https://github.com/smemsh/.task"
   },
   {
     "description": "Taskwarrior confguration",
@@ -6762,8 +6627,8 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 450,
-    "updated": "2021-08-28",
+    "rating": 451,
+    "updated": "2021-09-03",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
@@ -6807,8 +6672,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 594,
-    "updated": "2021-09-02",
+    "rating": 593,
+    "updated": "2021-09-03",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -7260,36 +7125,6 @@
     "rating": 0,
     "updated": "2020-02-02",
     "url": "https://github.com/yhaenggi/taskserver-docker"
-  },
-  {
-    "description": "my dotfiles for vim, taskwarrior and such",
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "dotfiles",
-    "obsolete": false,
-    "owner": [
-      "yigitsever"
-    ],
-    "rating": 0,
-    "updated": "2019-03-18",
-    "url": "https://github.com/yigitsever/dotfiles"
-  },
-  {
-    "description": "Process date and holiday data in taskwarrior",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "tw-date-tools",
-    "obsolete": true,
-    "owner": [
-      "yulqen"
-    ],
-    "rating": 0,
-    "updated": "2017-12-12",
-    "url": "https://github.com/yulqen/tw-date-tools"
   },
   {
     "description": "Taskwarrior tasks from templates",
