@@ -673,7 +673,7 @@
       "HiveMinds-EU"
     ],
     "rating": 3,
-    "updated": "2021-09-04",
+    "updated": "2021-09-05",
     "url": "https://github.com/HiveMinds-EU/tw-install"
   },
   {
@@ -1268,7 +1268,7 @@
     ],
     "license": "MIT License",
     "name": "tw-wifi-contexter",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "Zebradil"
     ],
@@ -2007,8 +2007,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 13,
-    "updated": "2021-09-02",
+    "rating": 14,
+    "updated": "2021-09-05",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
