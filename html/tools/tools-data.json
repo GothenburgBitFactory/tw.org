@@ -1572,8 +1572,8 @@
     "owner": [
       "amracks"
     ],
-    "rating": 6,
-    "updated": "2021-02-14",
+    "rating": 7,
+    "updated": "2021-09-08",
     "url": "https://github.com/amracks/tgs"
   },
   {
@@ -1727,6 +1727,21 @@
     "url": "https://github.com/awwaiid/tw-gmail-star-sync"
   },
   {
+    "description": "Wrapper to use a Taskwarrior database per Git repository.",
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "git-tasks",
+    "obsolete": false,
+    "owner": [
+      "ayosec"
+    ],
+    "rating": 0,
+    "updated": "2021-09-08",
+    "url": "https://github.com/ayosec/git-tasks"
+  },
+  {
     "description": "Show changes in a Taskwarrior database, similar to `git log`",
     "language": [
       "Rust"
@@ -1842,8 +1857,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 93,
-    "updated": "2021-09-07",
+    "rating": 94,
+    "updated": "2021-09-08",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -1887,8 +1902,8 @@
     "owner": [
       "blampe"
     ],
-    "rating": 23,
-    "updated": "2021-09-02",
+    "rating": 24,
+    "updated": "2021-09-08",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
   {
@@ -2772,8 +2787,8 @@
     "owner": [
       "encima"
     ],
-    "rating": 16,
-    "updated": "2021-05-31",
+    "rating": 15,
+    "updated": "2021-09-08",
     "url": "https://github.com/encima/flask-task"
   },
   {
@@ -3994,7 +4009,7 @@
   {
     "description": "supply taskwarrior with tasks from online places to help you reach task list zen ",
     "language": [
-      "Rust"
+      "TypeScript"
     ],
     "license": null,
     "name": "sen",
@@ -4002,8 +4017,8 @@
     "owner": [
       "k4y4k"
     ],
-    "rating": 0,
-    "updated": "2021-09-07",
+    "rating": 2,
+    "updated": "2021-09-08",
     "url": "https://github.com/k4y4k/sen"
   },
   {
@@ -5832,8 +5847,8 @@
     "owner": [
       "proxypoke"
     ],
-    "rating": 28,
-    "updated": "2020-10-18",
+    "rating": 29,
+    "updated": "2021-09-08",
     "url": "https://github.com/proxypoke/git-task"
   },
   {
@@ -5997,8 +6012,8 @@
     "owner": [
       "robgolding"
     ],
-    "rating": 96,
-    "updated": "2021-08-21",
+    "rating": 97,
+    "updated": "2021-09-08",
     "url": "https://github.com/robgolding/tasklib"
   },
   {
