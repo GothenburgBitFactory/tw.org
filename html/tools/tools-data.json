@@ -1572,8 +1572,8 @@
     "owner": [
       "amracks"
     ],
-    "rating": 7,
-    "updated": "2021-09-08",
+    "rating": 8,
+    "updated": "2021-09-09",
     "url": "https://github.com/amracks/tgs"
   },
   {
@@ -1902,8 +1902,8 @@
     "owner": [
       "blampe"
     ],
-    "rating": 24,
-    "updated": "2021-09-08",
+    "rating": 23,
+    "updated": "2021-09-09",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
   {
@@ -2292,8 +2292,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 473,
-    "updated": "2021-09-07",
+    "rating": 475,
+    "updated": "2021-09-09",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -2337,8 +2337,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 239,
-    "updated": "2021-09-06",
+    "rating": 240,
+    "updated": "2021-09-09",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
   {
@@ -2712,8 +2712,8 @@
     "owner": [
       "dylandoamaral"
     ],
-    "rating": 5,
-    "updated": "2021-06-13",
+    "rating": 6,
+    "updated": "2021-09-09",
     "url": "https://github.com/dylandoamaral/taskwarrior-sky-fedora"
   },
   {
@@ -2877,8 +2877,8 @@
     "owner": [
       "erikh"
     ],
-    "rating": 4,
-    "updated": "2021-07-02",
+    "rating": 5,
+    "updated": "2021-09-09",
     "url": "https://github.com/erikh/calwarrior"
   },
   {
@@ -3058,7 +3058,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2021-09-03",
+    "updated": "2021-09-09",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -3692,21 +3692,6 @@
     "url": "https://github.com/jhmartin/taskwarrior-effort-tracker"
   },
   {
-    "description": "Taskwarrior for Android [TESTING]",
-    "language": [
-      "Kotlin"
-    ],
-    "license": null,
-    "name": "Androwarrior",
-    "obsolete": false,
-    "owner": [
-      "jijames"
-    ],
-    "rating": 0,
-    "updated": "2019-08-06",
-    "url": "https://github.com/jijames/Androwarrior"
-  },
-  {
     "description": "A script to add planner tasks to taskwarrior",
     "language": [
       "Shell"
@@ -3957,8 +3942,8 @@
     "owner": [
       "juanedflores"
     ],
-    "rating": 1,
-    "updated": "2021-07-05",
+    "rating": 2,
+    "updated": "2021-09-09",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
   {
@@ -4018,7 +4003,7 @@
       "k4y4k"
     ],
     "rating": 2,
-    "updated": "2021-09-08",
+    "updated": "2021-09-09",
     "url": "https://github.com/k4y4k/sen"
   },
   {
@@ -4047,8 +4032,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 518,
-    "updated": "2021-09-06",
+    "rating": 519,
+    "updated": "2021-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4095,6 +4080,21 @@
     "rating": 0,
     "updated": "2021-08-30",
     "url": "https://github.com/kellya/task-status"
+  },
+  {
+    "description": "A taskwarrior color scheme that pulls colors from pineapplegiant/spaceduck color palette and applies them to taskwarrior output (reports, lists, etc.)",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "tw-spaceduck",
+    "obsolete": false,
+    "owner": [
+      "kellya"
+    ],
+    "rating": 0,
+    "updated": "2021-09-09",
+    "url": "https://github.com/kellya/tw-spaceduck"
   },
   {
     "description": "PHP library for interacting with Taskwarrior 2.x",
@@ -5922,8 +5922,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 561,
-    "updated": "2021-09-06",
+    "rating": 562,
+    "updated": "2021-09-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6792,8 +6792,8 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 452,
-    "updated": "2021-09-04",
+    "rating": 453,
+    "updated": "2021-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
@@ -6837,8 +6837,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 595,
-    "updated": "2021-09-07",
+    "rating": 596,
+    "updated": "2021-09-09",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
