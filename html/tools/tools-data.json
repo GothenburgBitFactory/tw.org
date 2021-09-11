@@ -932,6 +932,21 @@
     "url": "https://github.com/Nickquispel/TrelloTaskwarrior"
   },
   {
+    "description": "Taskwarrior helm chart",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "helmwarrior",
+    "obsolete": false,
+    "owner": [
+      "RafaelPalomar"
+    ],
+    "rating": 0,
+    "updated": "2021-09-10",
+    "url": "https://github.com/RafaelPalomar/helmwarrior"
+  },
+  {
     "description": "TaskWarrior client app for iOS. MVVM + RxSwift",
     "language": [
       "N/A"
@@ -1215,21 +1230,6 @@
     "rating": 2,
     "updated": "2021-04-05",
     "url": "https://github.com/Zebradil/Skribe"
-  },
-  {
-    "description": "Dockerized taskwarrior sync server (aka taskd)",
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "docker-taskd",
-    "obsolete": false,
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 0,
-    "updated": "2020-07-18",
-    "url": "https://github.com/Zebradil/docker-taskd"
   },
   {
     "description": "\u4de1\u2192\u4dc6 A Powerline segment for displaying information from Taskwarrior task manager",
@@ -3422,21 +3422,6 @@
     "url": "https://github.com/isaacs4m/taskwarrior-purge"
   },
   {
-    "description": "TaskWarrior wrapper to allow goruping tasks by activity (KDE)",
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskwarrior-kactivities",
-    "obsolete": false,
-    "owner": [
-      "ivan-cukic"
-    ],
-    "rating": 0,
-    "updated": "2021-06-06",
-    "url": "https://github.com/ivan-cukic/taskwarrior-kactivities"
-  },
-  {
     "description": "Creates an HTML Kanban view from taskwarrior",
     "language": [
       "HTML"
@@ -3690,6 +3675,21 @@
     "rating": 0,
     "updated": "2015-03-23",
     "url": "https://github.com/jhmartin/taskwarrior-effort-tracker"
+  },
+  {
+    "description": "Taskwarrior for Android [TESTING]",
+    "language": [
+      "Kotlin"
+    ],
+    "license": null,
+    "name": "Androwarrior",
+    "obsolete": false,
+    "owner": [
+      "jijames"
+    ],
+    "rating": 0,
+    "updated": "2019-08-06",
+    "url": "https://github.com/jijames/Androwarrior"
   },
   {
     "description": "A script to add planner tasks to taskwarrior",
@@ -4003,7 +4003,7 @@
       "k4y4k"
     ],
     "rating": 2,
-    "updated": "2021-09-09",
+    "updated": "2021-09-10",
     "url": "https://github.com/k4y4k/sen"
   },
   {
@@ -4470,21 +4470,6 @@
     "rating": 3,
     "updated": "2021-08-04",
     "url": "https://github.com/linuxcaffe/tw-ann-hook"
-  },
-  {
-    "description": "(placeholder for) a script to help \"fix\" taskwarrior duplicate uuids",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "tw-fix-sh",
-    "obsolete": true,
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 0,
-    "updated": "2016-12-06",
-    "url": "https://github.com/linuxcaffe/tw-fix-sh"
   },
   {
     "description": "A taskwarrior hook-script to add accounting info to hledger, after completing a transaction-related task.",
@@ -6792,8 +6777,8 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 453,
-    "updated": "2021-09-09",
+    "rating": 454,
+    "updated": "2021-09-10",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
