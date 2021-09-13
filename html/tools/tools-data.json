@@ -527,6 +527,21 @@
     "url": "https://github.com/GoldenRaven/my_task"
   },
   {
+    "description": "A Python library for interacting with taskwarrior databases.",
+    "language": [
+      "Python"
+    ],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "name": "tasklib",
+    "obsolete": false,
+    "owner": [
+      "GothenburgBitFactory"
+    ],
+    "rating": 97,
+    "updated": "2021-09-12",
+    "url": "https://github.com/GothenburgBitFactory/tasklib"
+  },
+  {
     "description": "A guide on how to setup the Taskserver.",
     "language": [
       "HTML"
@@ -672,8 +687,8 @@
     "owner": [
       "HiveMinds-EU"
     ],
-    "rating": 4,
-    "updated": "2021-09-06",
+    "rating": 5,
+    "updated": "2021-09-12",
     "url": "https://github.com/HiveMinds-EU/tw-install"
   },
   {
@@ -3073,7 +3088,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2021-09-09",
+    "updated": "2021-09-12",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6032,21 +6047,6 @@
     "url": "https://github.com/rmonico/itask"
   },
   {
-    "description": "A Python library for interacting with taskwarrior databases.",
-    "language": [
-      "Python"
-    ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "name": "tasklib",
-    "obsolete": false,
-    "owner": [
-      "robgolding"
-    ],
-    "rating": 97,
-    "updated": "2021-09-08",
-    "url": "https://github.com/robgolding/tasklib"
-  },
-  {
     "description": "taskwarrior for android",
     "language": [
       "Java"
@@ -6867,8 +6867,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 596,
-    "updated": "2021-09-09",
+    "rating": 597,
+    "updated": "2021-09-13",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
