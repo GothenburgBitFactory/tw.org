@@ -267,8 +267,8 @@
     "owner": [
       "CarlosNihelton"
     ],
-    "rating": 0,
-    "updated": "2021-04-26",
+    "rating": 1,
+    "updated": "2021-09-17",
     "url": "https://github.com/CarlosNihelton/todoist-taskwarrior"
   },
   {
@@ -688,7 +688,7 @@
       "HiveMinds-EU"
     ],
     "rating": 5,
-    "updated": "2021-09-16",
+    "updated": "2021-09-17",
     "url": "https://github.com/HiveMinds-EU/tw-install"
   },
   {
@@ -1602,8 +1602,8 @@
     "owner": [
       "amracks"
     ],
-    "rating": 8,
-    "updated": "2021-09-09",
+    "rating": 9,
+    "updated": "2021-09-17",
     "url": "https://github.com/amracks/tgs"
   },
   {
@@ -2532,8 +2532,8 @@
     "owner": [
       "desbma"
     ],
-    "rating": 4,
-    "updated": "2021-05-24",
+    "rating": 5,
+    "updated": "2021-09-17",
     "url": "https://github.com/desbma/task-board"
   },
   {
@@ -3762,8 +3762,8 @@
     "owner": [
       "johanbove"
     ],
-    "rating": 0,
-    "updated": "2020-05-26",
+    "rating": 1,
+    "updated": "2021-09-17",
     "url": "https://github.com/johanbove/taskwarrior-now"
   },
   {
@@ -3792,8 +3792,8 @@
     "owner": [
       "johnivore"
     ],
-    "rating": 0,
-    "updated": "2021-03-09",
+    "rating": 1,
+    "updated": "2021-09-17",
     "url": "https://github.com/johnivore/docker-taskd"
   },
   {
@@ -4347,8 +4347,8 @@
     "owner": [
       "leosolid"
     ],
-    "rating": 0,
-    "updated": "2021-07-21",
+    "rating": 1,
+    "updated": "2021-09-17",
     "url": "https://github.com/leosolid/taskmage"
   },
   {
@@ -4902,8 +4902,8 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 8,
-    "updated": "2021-07-31",
+    "rating": 9,
+    "updated": "2021-09-17",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
   {
@@ -5757,8 +5757,8 @@
     "owner": [
       "phepp"
     ],
-    "rating": 14,
-    "updated": "2021-07-01",
+    "rating": 15,
+    "updated": "2021-09-17",
     "url": "https://github.com/phepp/todoist-taskwarrior-integration"
   },
   {
@@ -6447,8 +6447,8 @@
     "owner": [
       "sorrowless"
     ],
-    "rating": 0,
-    "updated": "2021-04-03",
+    "rating": 1,
+    "updated": "2021-09-17",
     "url": "https://github.com/sorrowless/twsyncer"
   },
   {
@@ -6868,7 +6868,7 @@
       "tools-life"
     ],
     "rating": 599,
-    "updated": "2021-09-16",
+    "updated": "2021-09-17",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
