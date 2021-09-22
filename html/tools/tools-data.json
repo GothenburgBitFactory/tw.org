@@ -327,8 +327,8 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 23,
-    "updated": "2021-08-20",
+    "rating": 24,
+    "updated": "2021-09-21",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -1247,21 +1247,6 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
-    "description": "Dockerized taskwarrior sync server (aka taskd)",
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "docker-taskd",
-    "obsolete": false,
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 0,
-    "updated": "2020-07-18",
-    "url": "https://github.com/Zebradil/docker-taskd"
-  },
-  {
     "description": "\u4de1\u2192\u4dc6 A Powerline segment for displaying information from Taskwarrior task manager",
     "language": [
       "Python"
@@ -1887,8 +1872,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 97,
-    "updated": "2021-09-20",
+    "rating": 98,
+    "updated": "2021-09-21",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3088,7 +3073,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2021-09-12",
+    "updated": "2021-09-21",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -4048,7 +4033,7 @@
       "k4y4k"
     ],
     "rating": 2,
-    "updated": "2021-09-16",
+    "updated": "2021-09-21",
     "url": "https://github.com/k4y4k/sen"
   },
   {
@@ -4515,21 +4500,6 @@
     "rating": 3,
     "updated": "2021-08-04",
     "url": "https://github.com/linuxcaffe/tw-ann-hook"
-  },
-  {
-    "description": "(placeholder for) a script to help \"fix\" taskwarrior duplicate uuids",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "tw-fix-sh",
-    "obsolete": true,
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 0,
-    "updated": "2016-12-06",
-    "url": "https://github.com/linuxcaffe/tw-fix-sh"
   },
   {
     "description": "A taskwarrior hook-script to add accounting info to hledger, after completing a transaction-related task.",
@@ -6137,21 +6107,6 @@
     "url": "https://github.com/roylez/syncwarrior"
   },
   {
-    "description": "A simple task parser for taskwarrior",
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "task-parser",
-    "obsolete": false,
-    "owner": [
-      "rubenrubiob"
-    ],
-    "rating": 0,
-    "updated": "2020-07-30",
-    "url": "https://github.com/rubenrubiob/task-parser"
-  },
-  {
     "description": "taskwarrior docker container",
     "language": [
       "Shell"
@@ -6666,14 +6621,14 @@
     "language": [
       "Go"
     ],
-    "license": "Apache License 2.0",
+    "license": "MIT License",
     "name": "gotas",
     "obsolete": false,
     "owner": [
       "szaffarano"
     ],
     "rating": 0,
-    "updated": "2021-09-20",
+    "updated": "2021-09-21",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -6883,7 +6838,7 @@
       "tools-life"
     ],
     "rating": 600,
-    "updated": "2021-09-20",
+    "updated": "2021-09-21",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
