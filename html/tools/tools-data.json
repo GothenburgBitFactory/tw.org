@@ -1577,6 +1577,21 @@
     "url": "https://github.com/alkim0/task-attach"
   },
   {
+    "description": "taskwarrior org-mode syncronisation",
+    "language": [
+      "Python"
+    ],
+    "license": "Other",
+    "name": "task2org",
+    "obsolete": false,
+    "owner": [
+      "almostnobody"
+    ],
+    "rating": 0,
+    "updated": "2021-06-14",
+    "url": "https://github.com/almostnobody/task2org"
+  },
+  {
     "description": "Taskwarrior git sync hooks",
     "language": [
       "Shell"
@@ -1962,8 +1977,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 472,
-    "updated": "2021-09-22",
+    "rating": 473,
+    "updated": "2021-09-23",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -4502,6 +4517,21 @@
     "url": "https://github.com/linuxcaffe/tw-ann-hook"
   },
   {
+    "description": "(placeholder for) a script to help \"fix\" taskwarrior duplicate uuids",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "tw-fix-sh",
+    "obsolete": true,
+    "owner": [
+      "linuxcaffe"
+    ],
+    "rating": 0,
+    "updated": "2016-12-06",
+    "url": "https://github.com/linuxcaffe/tw-fix-sh"
+  },
+  {
     "description": "A taskwarrior hook-script to add accounting info to hledger, after completing a transaction-related task.",
     "language": [
       "Python"
@@ -6643,7 +6673,7 @@
       "szaffarano"
     ],
     "rating": 0,
-    "updated": "2021-09-21",
+    "updated": "2021-09-23",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
