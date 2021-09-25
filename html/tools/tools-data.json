@@ -1977,8 +1977,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 473,
-    "updated": "2021-09-23",
+    "rating": 472,
+    "updated": "2021-09-24",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -3653,7 +3653,7 @@
     ],
     "license": "MIT License",
     "name": "flask-taskwarrior",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "jelly"
     ],
@@ -4712,21 +4712,6 @@
     "url": "https://github.com/lukasdietrich/taskwarrior-docker"
   },
   {
-    "description": "Converts a CSV of tasks into the taskwarrior JSON format",
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "task-conversion",
-    "obsolete": true,
-    "owner": [
-      "lukecampbell"
-    ],
-    "rating": 0,
-    "updated": "2018-05-10",
-    "url": "https://github.com/lukecampbell/task-conversion"
-  },
-  {
     "description": "Taskwarrior based program to manage your kanban workflow",
     "language": [
       "Python"
@@ -5237,21 +5222,6 @@
     "url": "https://github.com/mwiederhold/taskd-client-clj"
   },
   {
-    "description": "Add tasks in Taskwarrior that correspond to Bugzilla bugs.",
-    "language": [
-      "JavaScript"
-    ],
-    "license": "Mozilla Public License 2.0",
-    "name": "bug-task",
-    "obsolete": true,
-    "owner": [
-      "mythmon"
-    ],
-    "rating": 0,
-    "updated": "2015-02-11",
-    "url": "https://github.com/mythmon/bug-task"
-  },
-  {
     "description": "A tool to interact with taskwarrior quicklky",
     "language": [
       "Rust"
@@ -5370,36 +5340,6 @@
     "rating": 16,
     "updated": "2021-04-30",
     "url": "https://github.com/nerab/twmail"
-  },
-  {
-    "description": "Helpers for writing TaskWarrior tests in Ruby",
-    "language": [
-      "Ruby"
-    ],
-    "license": "MIT License",
-    "name": "twtest",
-    "obsolete": false,
-    "owner": [
-      "nerab"
-    ],
-    "rating": 0,
-    "updated": "2021-04-30",
-    "url": "https://github.com/nerab/twtest"
-  },
-  {
-    "description": "Running neomutt, taskwarrior, afew, and notmuchtask in Docker.",
-    "language": [
-      "Shell"
-    ],
-    "license": "MIT License",
-    "name": "docker-mua-and-friends",
-    "obsolete": false,
-    "owner": [
-      "neuhalje"
-    ],
-    "rating": 0,
-    "updated": "2019-05-27",
-    "url": "https://github.com/neuhalje/docker-mua-and-friends"
   },
   {
     "description": "notmuchmail, taskwarrior and mutt are about to be your next dreamteam",
@@ -6497,21 +6437,6 @@
     "url": "https://github.com/sportnak/task-api"
   },
   {
-    "description": "React native mobile app for taskwarrior api",
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "task-api-mobile",
-    "obsolete": true,
-    "owner": [
-      "sportnak"
-    ],
-    "rating": 0,
-    "updated": "2018-06-15",
-    "url": "https://github.com/sportnak/task-api-mobile"
-  },
-  {
     "description": "A collection of utils for taskwarrior",
     "language": [
       "Python"
@@ -6673,7 +6598,7 @@
       "szaffarano"
     ],
     "rating": 0,
-    "updated": "2021-09-23",
+    "updated": "2021-09-24",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
