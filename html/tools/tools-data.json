@@ -42,8 +42,8 @@
     "owner": [
       "8ware"
     ],
-    "rating": 53,
-    "updated": "2021-09-04",
+    "rating": 54,
+    "updated": "2021-09-26",
     "url": "https://github.com/8ware/task-dashboard"
   },
   {
@@ -687,8 +687,8 @@
     "owner": [
       "HiveMinds-EU"
     ],
-    "rating": 5,
-    "updated": "2021-09-17",
+    "rating": 6,
+    "updated": "2021-09-26",
     "url": "https://github.com/HiveMinds-EU/tw-install"
   },
   {
@@ -885,6 +885,21 @@
     "rating": 0,
     "updated": "2016-12-12",
     "url": "https://github.com/MikiGrit/taskd-docker"
+  },
+  {
+    "description": "TUI Taskmanagement app inspired by TaskWarrior",
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "TaskRaider",
+    "obsolete": false,
+    "owner": [
+      "MoriokaReimen"
+    ],
+    "rating": 0,
+    "updated": "2020-04-12",
+    "url": "https://github.com/MoriokaReimen/TaskRaider"
   },
   {
     "description": "A typesafe asynchronous API for accessing taskwarrior.",
@@ -2187,8 +2202,8 @@
     "owner": [
       "charles-e"
     ],
-    "rating": 1,
-    "updated": "2021-06-01",
+    "rating": 2,
+    "updated": "2021-09-26",
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
   {
@@ -2595,6 +2610,21 @@
     "rating": 0,
     "updated": "2019-06-10",
     "url": "https://github.com/divagant-martian/tw-dotfiles"
+  },
+  {
+    "description": "Operational Transformations as the basis for a taskwarrior replacement",
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "ot",
+    "obsolete": false,
+    "owner": [
+      "djmitche"
+    ],
+    "rating": 1,
+    "updated": "2020-02-09",
+    "url": "https://github.com/djmitche/ot"
   },
   {
     "description": "CLI interface between [Canvas](https://www.instructure.com/canvas/) API and Taskwarrior",
@@ -3692,6 +3722,21 @@
     "url": "https://github.com/jhmartin/taskwarrior-effort-tracker"
   },
   {
+    "description": "Taskwarrior for Android [TESTING]",
+    "language": [
+      "Kotlin"
+    ],
+    "license": null,
+    "name": "Androwarrior",
+    "obsolete": false,
+    "owner": [
+      "jijames"
+    ],
+    "rating": 0,
+    "updated": "2019-08-06",
+    "url": "https://github.com/jijames/Androwarrior"
+  },
+  {
     "description": "A script to add planner tasks to taskwarrior",
     "language": [
       "Shell"
@@ -3872,6 +3917,21 @@
     "url": "https://github.com/jrheard/allergy_shot_gen"
   },
   {
+    "description": "overengineered personalized-to-me taskwarrior replacement",
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "rask",
+    "obsolete": false,
+    "owner": [
+      "jrheard"
+    ],
+    "rating": 0,
+    "updated": "2021-09-07",
+    "url": "https://github.com/jrheard/rask"
+  },
+  {
     "description": "Tool for taking notes and open urls with taskwarrior",
     "language": [
       "Perl"
@@ -4017,8 +4077,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 524,
-    "updated": "2021-09-25",
+    "rating": 525,
+    "updated": "2021-09-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4377,8 +4437,8 @@
     "owner": [
       "liloman"
     ],
-    "rating": 11,
-    "updated": "2021-08-30",
+    "rating": 12,
+    "updated": "2021-09-26",
     "url": "https://github.com/liloman/warriors"
   },
   {
@@ -5385,6 +5445,21 @@
     "rating": 7,
     "updated": "2021-04-01",
     "url": "https://github.com/niknow/eisenmux"
+  },
+  {
+    "description": "Automatically exported from code.google.com/p/taskwarrior-utils",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwarrior-utils",
+    "obsolete": true,
+    "owner": [
+      "nikolavp"
+    ],
+    "rating": 1,
+    "updated": "2015-04-27",
+    "url": "https://github.com/nikolavp/taskwarrior-utils"
   },
   {
     "description": "The TaskWarrior visualisation and extension for team management",
@@ -6552,8 +6627,8 @@
     "owner": [
       "svenhertle"
     ],
-    "rating": 30,
-    "updated": "2021-07-02",
+    "rating": 31,
+    "updated": "2021-09-26",
     "url": "https://github.com/svenhertle/tasktime"
   },
   {
@@ -6763,7 +6838,7 @@
       "theunraveler"
     ],
     "rating": 455,
-    "updated": "2021-09-18",
+    "updated": "2021-09-26",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
@@ -7305,6 +7380,21 @@
     "rating": 0,
     "updated": "2021-09-22",
     "url": "https://github.com/youzark/taskmanager"
+  },
+  {
+    "description": "Process date and holiday data in taskwarrior",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "tw-date-tools",
+    "obsolete": true,
+    "owner": [
+      "yulqen"
+    ],
+    "rating": 0,
+    "updated": "2017-12-12",
+    "url": "https://github.com/yulqen/tw-date-tools"
   },
   {
     "description": "Taskwarrior tasks from templates",
