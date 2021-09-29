@@ -1377,8 +1377,8 @@
     "owner": [
       "abesto"
     ],
-    "rating": 10,
-    "updated": "2021-02-16",
+    "rating": 11,
+    "updated": "2021-09-28",
     "url": "https://github.com/abesto/gtd"
   },
   {
@@ -1887,8 +1887,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 97,
-    "updated": "2021-09-27",
+    "rating": 98,
+    "updated": "2021-09-28",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -4037,21 +4037,6 @@
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
   {
-    "description": "supply taskwarrior with tasks from online places to help you reach task list zen ",
-    "language": [
-      "TypeScript"
-    ],
-    "license": null,
-    "name": "sen",
-    "obsolete": false,
-    "owner": [
-      "k4y4k"
-    ],
-    "rating": 2,
-    "updated": "2021-09-21",
-    "url": "https://github.com/k4y4k/sen"
-  },
-  {
     "description": "Taskwarrior module for the prezto framework",
     "language": [
       "Shell"
@@ -5607,8 +5592,8 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 32,
-    "updated": "2021-08-03",
+    "rating": 31,
+    "updated": "2021-09-28",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
@@ -5968,7 +5953,7 @@
       "ralphbean"
     ],
     "rating": 563,
-    "updated": "2021-09-14",
+    "updated": "2021-09-28",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6673,7 +6658,7 @@
       "szaffarano"
     ],
     "rating": 0,
-    "updated": "2021-09-27",
+    "updated": "2021-09-28",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -6882,8 +6867,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 601,
-    "updated": "2021-09-22",
+    "rating": 600,
+    "updated": "2021-09-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -7378,7 +7363,7 @@
       "youzark"
     ],
     "rating": 0,
-    "updated": "2021-09-22",
+    "updated": "2021-09-28",
     "url": "https://github.com/youzark/taskmanager"
   },
   {
