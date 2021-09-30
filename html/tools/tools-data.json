@@ -42,8 +42,8 @@
     "owner": [
       "8ware"
     ],
-    "rating": 54,
-    "updated": "2021-09-26",
+    "rating": 55,
+    "updated": "2021-09-29",
     "url": "https://github.com/8ware/task-dashboard"
   },
   {
@@ -518,7 +518,7 @@
     ],
     "license": null,
     "name": "my_task",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "GoldenRaven"
     ],
@@ -1272,8 +1272,8 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 48,
-    "updated": "2021-09-15",
+    "rating": 49,
+    "updated": "2021-09-29",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2322,8 +2322,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 477,
-    "updated": "2021-09-19",
+    "rating": 478,
+    "updated": "2021-09-29",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3428,7 +3428,7 @@
     ],
     "license": "GNU General Public License v3.0",
     "name": "taskboard",
-    "obsolete": false,
+    "obsolete": true,
     "owner": [
       "ioztelcan"
     ],
@@ -4062,8 +4062,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 525,
-    "updated": "2021-09-26",
+    "rating": 528,
+    "updated": "2021-09-29",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4783,7 +4783,7 @@
       "maralorn"
     ],
     "rating": 7,
-    "updated": "2021-06-22",
+    "updated": "2021-09-29",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -6867,8 +6867,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 600,
-    "updated": "2021-09-28",
+    "rating": 601,
+    "updated": "2021-09-29",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -7077,8 +7077,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 280,
-    "updated": "2021-09-18",
+    "rating": 281,
+    "updated": "2021-09-29",
     "url": "https://github.com/vit-project/vit"
   },
   {
