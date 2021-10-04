@@ -670,11 +670,11 @@
     "name": "CoursePlanningTemplate",
     "obsolete": false,
     "owner": [
-      "HiveMinds-EU"
+      "HiveMinds"
     ],
     "rating": 2,
     "updated": "2021-09-06",
-    "url": "https://github.com/HiveMinds-EU/CoursePlanningTemplate"
+    "url": "https://github.com/HiveMinds/CoursePlanningTemplate"
   },
   {
     "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior). This project aims to support automated installation of all Taskwarrior hook scripts, configuration flavours etc. with a single command.",
@@ -685,11 +685,11 @@
     "name": "tw-install",
     "obsolete": false,
     "owner": [
-      "HiveMinds-EU"
+      "HiveMinds"
     ],
     "rating": 6,
-    "updated": "2021-09-26",
-    "url": "https://github.com/HiveMinds-EU/tw-install"
+    "updated": "2021-10-03",
+    "url": "https://github.com/HiveMinds/tw-install"
   },
   {
     "description": "PyQt GUI for TaskWarrior",
@@ -2492,6 +2492,21 @@
     "url": "https://github.com/danesv/taskrambler"
   },
   {
+    "description": "Dotfiles spanning neovim, tmux, i3wm, qutebrowser, yabai, skhd, taskwarrior, various REPLs.",
+    "language": [
+      "Lua"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "obsolete": false,
+    "owner": [
+      "davidatbu"
+    ],
+    "rating": 0,
+    "updated": "2021-10-03",
+    "url": "https://github.com/davidatbu/dotfiles"
+  },
+  {
     "description": "taskwarrior i3block with clojure's babashka",
     "language": [
       "Clojure"
@@ -4063,7 +4078,7 @@
       "kdheepak"
     ],
     "rating": 532,
-    "updated": "2021-10-02",
+    "updated": "2021-10-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6658,7 +6673,7 @@
       "szaffarano"
     ],
     "rating": 0,
-    "updated": "2021-09-28",
+    "updated": "2021-10-03",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
