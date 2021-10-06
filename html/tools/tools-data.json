@@ -122,21 +122,6 @@
     "url": "https://github.com/Aerex/baikal-storage-plugin"
   },
   {
-    "description": "Synchronize between Taskwarrior and iCalendar TODO events",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "icaltask",
-    "obsolete": false,
-    "owner": [
-      "Aerex"
-    ],
-    "rating": 1,
-    "updated": "2021-07-03",
-    "url": "https://github.com/Aerex/icaltask"
-  },
-  {
     "description": "Taskwarrior to LaTeX",
     "language": [
       "Python"
@@ -392,6 +377,21 @@
     "url": "https://github.com/DerHabicht/tw_dep_grapher"
   },
   {
+    "description": "Input utility for Taskwarrior",
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "twinput",
+    "obsolete": false,
+    "owner": [
+      "DerHabicht"
+    ],
+    "rating": 0,
+    "updated": "2019-06-12",
+    "url": "https://github.com/DerHabicht/twinput"
+  },
+  {
     "description": "Small script to parse ics and execute taskwarrior to generate a new task from vcEvents",
     "language": [
       "Haskell"
@@ -630,6 +630,21 @@
     "rating": 0,
     "updated": "2016-01-12",
     "url": "https://github.com/Henry-T/TaskWarriorReport"
+  },
+  {
+    "description": "Todoist to taskwarrior exporter",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "Todoist2Taskwarrior",
+    "obsolete": true,
+    "owner": [
+      "Henry-T"
+    ],
+    "rating": 0,
+    "updated": "2015-11-29",
+    "url": "https://github.com/Henry-T/Todoist2Taskwarrior"
   },
   {
     "description": "Makes latex templates for all your course work (assignments, lecture summaries, etc.), generates taskwarrior commands, enables syncing all course tasks with google calendar, sets up pseudo-anonymous old exam solution collaboration.",
@@ -942,8 +957,8 @@
     "owner": [
       "Rag0n"
     ],
-    "rating": 8,
-    "updated": "2020-11-02",
+    "rating": 9,
+    "updated": "2021-10-05",
     "url": "https://github.com/Rag0n/TaskBerserk"
   },
   {
@@ -1322,21 +1337,6 @@
     "url": "https://github.com/aaschmid/taskwarrior-java-client"
   },
   {
-    "description": "pyqt GUI for taskwarrior",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "Phalanx",
-    "obsolete": true,
-    "owner": [
-      "abers"
-    ],
-    "rating": 0,
-    "updated": "2018-03-21",
-    "url": "https://github.com/abers/Phalanx"
-  },
-  {
     "description": "Scripts for an easier GTD workflow with Taskwarrior",
     "language": [
       "JavaScript"
@@ -1347,8 +1347,8 @@
     "owner": [
       "abesto"
     ],
-    "rating": 11,
-    "updated": "2021-10-04",
+    "rating": 12,
+    "updated": "2021-10-05",
     "url": "https://github.com/abesto/gtd"
   },
   {
@@ -1542,8 +1542,8 @@
     "owner": [
       "alkim0"
     ],
-    "rating": 3,
-    "updated": "2021-09-19",
+    "rating": 4,
+    "updated": "2021-10-05",
     "url": "https://github.com/alkim0/task-attach"
   },
   {
@@ -1797,8 +1797,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 99,
-    "updated": "2021-10-01",
+    "rating": 100,
+    "updated": "2021-10-05",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -2292,8 +2292,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 480,
-    "updated": "2021-10-04",
+    "rating": 478,
+    "updated": "2021-10-05",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -2597,21 +2597,6 @@
     "url": "https://github.com/divagant-martian/tw-dotfiles"
   },
   {
-    "description": "Operational Transformations as the basis for a taskwarrior replacement",
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "ot",
-    "obsolete": false,
-    "owner": [
-      "djmitche"
-    ],
-    "rating": 1,
-    "updated": "2020-02-09",
-    "url": "https://github.com/djmitche/ot"
-  },
-  {
     "description": "CLI interface between [Canvas](https://www.instructure.com/canvas/) API and Taskwarrior",
     "language": [
       "Python"
@@ -2775,21 +2760,6 @@
     "rating": 0,
     "updated": "2021-06-30",
     "url": "https://github.com/emil0zulkarnaev/taskwarrior_session"
-  },
-  {
-    "description": "A Taskwarrior Theme without annoying stuff.",
-    "language": [
-      "N/A"
-    ],
-    "license": "Other",
-    "name": "taskwarrior-antiglare-theme",
-    "obsolete": false,
-    "owner": [
-      "encbladexp"
-    ],
-    "rating": 4,
-    "updated": "2021-03-12",
-    "url": "https://github.com/encbladexp/taskwarrior-antiglare-theme"
   },
   {
     "description": "A Web interface for the TaskWarrior todo software",
@@ -4047,8 +4017,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 532,
-    "updated": "2021-10-03",
+    "rating": 533,
+    "updated": "2021-10-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5417,21 +5387,6 @@
     "url": "https://github.com/niknow/eisenmux"
   },
   {
-    "description": "Automatically exported from code.google.com/p/taskwarrior-utils",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskwarrior-utils",
-    "obsolete": true,
-    "owner": [
-      "nikolavp"
-    ],
-    "rating": 1,
-    "updated": "2015-04-27",
-    "url": "https://github.com/nikolavp/taskwarrior-utils"
-  },
-  {
     "description": "The TaskWarrior visualisation and extension for team management",
     "language": [
       "JavaScript"
@@ -5937,8 +5892,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 563,
-    "updated": "2021-09-28",
+    "rating": 564,
+    "updated": "2021-10-05",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6852,8 +6807,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 603,
-    "updated": "2021-10-04",
+    "rating": 604,
+    "updated": "2021-10-05",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
