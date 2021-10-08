@@ -122,21 +122,6 @@
     "url": "https://github.com/Aerex/baikal-storage-plugin"
   },
   {
-    "description": "Synchronize between Taskwarrior and iCalendar TODO events",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "icaltask",
-    "obsolete": false,
-    "owner": [
-      "Aerex"
-    ],
-    "rating": 1,
-    "updated": "2021-07-03",
-    "url": "https://github.com/Aerex/icaltask"
-  },
-  {
     "description": "Taskwarrior to LaTeX",
     "language": [
       "Python"
@@ -327,8 +312,8 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 25,
-    "updated": "2021-09-27",
+    "rating": 26,
+    "updated": "2021-10-07",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -598,7 +583,7 @@
       "HTunne"
     ],
     "rating": 0,
-    "updated": "2021-09-30",
+    "updated": "2021-10-07",
     "url": "https://github.com/HTunne/task-rest"
   },
   {
@@ -1977,8 +1962,8 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 472,
-    "updated": "2021-10-06",
+    "rating": 473,
+    "updated": "2021-10-07",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -2322,8 +2307,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 478,
-    "updated": "2021-10-05",
+    "rating": 479,
+    "updated": "2021-10-07",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3957,8 +3942,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 244,
-    "updated": "2021-09-02",
+    "rating": 245,
+    "updated": "2021-10-07",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -4077,8 +4062,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 536,
-    "updated": "2021-10-06",
+    "rating": 537,
+    "updated": "2021-10-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5237,21 +5222,6 @@
     "url": "https://github.com/mwiederhold/taskd-client-clj"
   },
   {
-    "description": "Add tasks in Taskwarrior that correspond to Bugzilla bugs.",
-    "language": [
-      "JavaScript"
-    ],
-    "license": "Mozilla Public License 2.0",
-    "name": "bug-task",
-    "obsolete": true,
-    "owner": [
-      "mythmon"
-    ],
-    "rating": 0,
-    "updated": "2015-02-11",
-    "url": "https://github.com/mythmon/bug-task"
-  },
-  {
     "description": "A tool to interact with taskwarrior quicklky",
     "language": [
       "Rust"
@@ -5967,8 +5937,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 563,
-    "updated": "2021-10-06",
+    "rating": 564,
+    "updated": "2021-10-07",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -6418,7 +6388,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2021-09-03",
+    "updated": "2021-10-07",
     "url": "https://github.com/smemsh/.task"
   },
   {
@@ -6882,8 +6852,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 604,
-    "updated": "2021-10-05",
+    "rating": 606,
+    "updated": "2021-10-07",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
