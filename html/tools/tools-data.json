@@ -122,6 +122,21 @@
     "url": "https://github.com/Aerex/baikal-storage-plugin"
   },
   {
+    "description": "Synchronize between Taskwarrior and iCalendar TODO events",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "icaltask",
+    "obsolete": false,
+    "owner": [
+      "Aerex"
+    ],
+    "rating": 1,
+    "updated": "2021-07-03",
+    "url": "https://github.com/Aerex/icaltask"
+  },
+  {
     "description": "Taskwarrior to LaTeX",
     "language": [
       "Python"
@@ -567,8 +582,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 36,
-    "updated": "2021-10-06",
+    "rating": 37,
+    "updated": "2021-10-08",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
   {
@@ -673,7 +688,7 @@
       "HiveMinds"
     ],
     "rating": 6,
-    "updated": "2021-10-03",
+    "updated": "2021-10-08",
     "url": "https://github.com/HiveMinds/tw-install"
   },
   {
@@ -4062,7 +4077,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 537,
+    "rating": 538,
     "updated": "2021-10-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -5222,6 +5237,21 @@
     "url": "https://github.com/mwiederhold/taskd-client-clj"
   },
   {
+    "description": "Add tasks in Taskwarrior that correspond to Bugzilla bugs.",
+    "language": [
+      "JavaScript"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "name": "bug-task",
+    "obsolete": true,
+    "owner": [
+      "mythmon"
+    ],
+    "rating": 0,
+    "updated": "2015-02-11",
+    "url": "https://github.com/mythmon/bug-task"
+  },
+  {
     "description": "A tool to interact with taskwarrior quicklky",
     "language": [
       "Rust"
@@ -5577,8 +5607,8 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 31,
-    "updated": "2021-09-28",
+    "rating": 32,
+    "updated": "2021-10-08",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
@@ -5937,8 +5967,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 564,
-    "updated": "2021-10-07",
+    "rating": 565,
+    "updated": "2021-10-08",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -7062,8 +7092,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 282,
-    "updated": "2021-10-06",
+    "rating": 283,
+    "updated": "2021-10-08",
     "url": "https://github.com/vit-project/vit"
   },
   {
