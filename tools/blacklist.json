@@ -11,6 +11,7 @@
     "https://github.com/ansible-roles-group/ansible-role-taskwarrior": "is an Ansible role for Taskwarrior only",
     "https://github.com/liloman/timewarrior": "is just a COPR file for Timewarrior",
     "https://github.com/mrcook/time_warrior": "is another time tracking tool with no relation to Timewarrior",
+    "https://github.com/phaazon/toodoux": "is not part of the TW ecosystem",
     "https://github.com/pld-linux/bugwarrior": "is a PLD Linux Distribution file",
     "https://github.com/pld-linux/taskserver": "is a PLD Linux Distribution file",
     "https://github.com/pld-linux/tasksh": "is a PLD Linux Distribution file",
