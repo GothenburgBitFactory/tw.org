@@ -122,21 +122,6 @@
     "url": "https://github.com/Aerex/baikal-storage-plugin"
   },
   {
-    "description": "Synchronize between Taskwarrior and iCalendar TODO events",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "icaltask",
-    "obsolete": false,
-    "owner": [
-      "Aerex"
-    ],
-    "rating": 1,
-    "updated": "2021-07-03",
-    "url": "https://github.com/Aerex/icaltask"
-  },
-  {
     "description": "Taskwarrior to LaTeX",
     "language": [
       "Python"
@@ -538,7 +523,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 99,
-    "updated": "2021-09-27",
+    "updated": "2021-10-09",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
   {
@@ -1273,7 +1258,7 @@
       "Zebradil"
     ],
     "rating": 49,
-    "updated": "2021-09-29",
+    "updated": "2021-10-09",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3932,21 +3917,6 @@
     "url": "https://github.com/jrheard/allergy_shot_gen"
   },
   {
-    "description": "overengineered personalized-to-me taskwarrior replacement",
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "rask",
-    "obsolete": false,
-    "owner": [
-      "jrheard"
-    ],
-    "rating": 0,
-    "updated": "2021-09-07",
-    "url": "https://github.com/jrheard/rask"
-  },
-  {
     "description": "Tool for taking notes and open urls with taskwarrior",
     "language": [
       "Perl"
@@ -5732,21 +5702,6 @@
     "url": "https://github.com/perigrin/bot-tik-tok"
   },
   {
-    "description": "A task manager based on taskwarrior",
-    "language": [
-      "Rust"
-    ],
-    "license": "Other",
-    "name": "toodoux",
-    "obsolete": false,
-    "owner": [
-      "phaazon"
-    ],
-    "rating": 44,
-    "updated": "2021-09-14",
-    "url": "https://github.com/phaazon/toodoux"
-  },
-  {
     "description": "Hook scripts to integrate & sync task libraries between Todoist & Taskwarrior",
     "language": [
       "Python"
@@ -5998,7 +5953,7 @@
       "ralphbean"
     ],
     "rating": 139,
-    "updated": "2021-10-01",
+    "updated": "2021-10-09",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -6673,7 +6628,7 @@
       "szaffarano"
     ],
     "rating": 0,
-    "updated": "2021-10-03",
+    "updated": "2021-10-09",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -6882,8 +6837,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 606,
-    "updated": "2021-10-07",
+    "rating": 607,
+    "updated": "2021-10-09",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -7093,7 +7048,7 @@
       "vit-project"
     ],
     "rating": 283,
-    "updated": "2021-10-08",
+    "updated": "2021-10-09",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -7380,21 +7335,6 @@
     "rating": 0,
     "updated": "2021-09-28",
     "url": "https://github.com/youzark/taskmanager"
-  },
-  {
-    "description": "Process date and holiday data in taskwarrior",
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "tw-date-tools",
-    "obsolete": true,
-    "owner": [
-      "yulqen"
-    ],
-    "rating": 0,
-    "updated": "2017-12-12",
-    "url": "https://github.com/yulqen/tw-date-tools"
   },
   {
     "description": "Taskwarrior tasks from templates",
