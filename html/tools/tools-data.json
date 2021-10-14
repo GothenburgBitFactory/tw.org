@@ -662,6 +662,21 @@
     "url": "https://github.com/Henry-T/TaskWarriorReport"
   },
   {
+    "description": "Todoist to taskwarrior exporter",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "Todoist2Taskwarrior",
+    "obsolete": true,
+    "owner": [
+      "Henry-T"
+    ],
+    "rating": 0,
+    "updated": "2015-11-29",
+    "url": "https://github.com/Henry-T/Todoist2Taskwarrior"
+  },
+  {
     "description": "Makes latex templates for all your course work (assignments, lecture summaries, etc.), generates taskwarrior commands, enables syncing all course tasks with google calendar, sets up pseudo-anonymous old exam solution collaboration.",
     "language": [
       "TeX"
@@ -1232,6 +1247,21 @@
     "url": "https://github.com/VITIMan/taskd"
   },
   {
+    "description": "Your secretary app, note taking tool with taskwarrior capabilities",
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "Skribe",
+    "obsolete": false,
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 2,
+    "updated": "2021-04-05",
+    "url": "https://github.com/Zebradil/Skribe"
+  },
+  {
     "description": "Dockerized taskwarrior sync server (aka taskd)",
     "language": [
       "Shell"
@@ -1258,7 +1288,7 @@
       "Zebradil"
     ],
     "rating": 49,
-    "updated": "2021-10-09",
+    "updated": "2021-10-13",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -1872,8 +1902,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 100,
-    "updated": "2021-10-02",
+    "rating": 101,
+    "updated": "2021-10-13",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3647,6 +3677,21 @@
     "url": "https://github.com/jeaye/remind-warrior"
   },
   {
+    "description": "A Taskwarrior Web Application",
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "flask-taskwarrior",
+    "obsolete": true,
+    "owner": [
+      "jelly"
+    ],
+    "rating": 0,
+    "updated": "2018-09-24",
+    "url": "https://github.com/jelly/flask-taskwarrior"
+  },
+  {
     "description": "A collection of scripts to ease setting up taskwarrior, taskserver, and mirakel",
     "language": [
       "Shell"
@@ -3720,6 +3765,21 @@
     "rating": 0,
     "updated": "2019-08-06",
     "url": "https://github.com/jijames/Androwarrior"
+  },
+  {
+    "description": "A script to add planner tasks to taskwarrior",
+    "language": [
+      "Shell"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "planner2taskwarrior",
+    "obsolete": false,
+    "owner": [
+      "jijames"
+    ],
+    "rating": 1,
+    "updated": "2019-05-31",
+    "url": "https://github.com/jijames/planner2taskwarrior"
   },
   {
     "description": "Shell scripts to publish Taskwarrior to a Web site.",
@@ -3872,6 +3932,21 @@
     "url": "https://github.com/jrenslin/mattermost-taskwarrior"
   },
   {
+    "description": "a tiny program that emits allergy-shot-related taskwarrior tasks",
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "allergy_shot_gen",
+    "obsolete": false,
+    "owner": [
+      "jrheard"
+    ],
+    "rating": 0,
+    "updated": "2019-05-13",
+    "url": "https://github.com/jrheard/allergy_shot_gen"
+  },
+  {
     "description": "overengineered personalized-to-me taskwarrior replacement",
     "language": [
       "Rust"
@@ -3928,7 +4003,7 @@
       "jspricke"
     ],
     "rating": 7,
-    "updated": "2021-10-12",
+    "updated": "2021-10-13",
     "url": "https://github.com/jspricke/python-icstask"
   },
   {
@@ -4017,8 +4092,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 539,
-    "updated": "2021-10-11",
+    "rating": 540,
+    "updated": "2021-10-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4772,6 +4847,21 @@
     "url": "https://github.com/maralorn/tasktree"
   },
   {
+    "description": "U\u0308bersicht widget displaying top 5 available Taskwarrior tasks",
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-ready",
+    "obsolete": false,
+    "owner": [
+      "marekkowalczyk"
+    ],
+    "rating": 0,
+    "updated": "2020-04-14",
+    "url": "https://github.com/marekkowalczyk/taskwarrior-ready"
+  },
+  {
     "description": "My Taskwarrior taskrc",
     "language": [
       "N/A"
@@ -5503,7 +5593,7 @@
       "nstanger"
     ],
     "rating": 0,
-    "updated": "2020-03-11",
+    "updated": "2021-10-13",
     "url": "https://github.com/nstanger/taskwarrior.widget"
   },
   {
@@ -5877,8 +5967,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 565,
-    "updated": "2021-10-08",
+    "rating": 566,
+    "updated": "2021-10-13",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -5953,7 +6043,7 @@
       "rmonico"
     ],
     "rating": 3,
-    "updated": "2021-07-31",
+    "updated": "2021-10-13",
     "url": "https://github.com/rmonico/itask"
   },
   {
@@ -6842,6 +6932,21 @@
     "url": "https://github.com/tpeetz/pull-task"
   },
   {
+    "description": "Various notifications for taskwarrior",
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "task-notify",
+    "obsolete": true,
+    "owner": [
+      "tribly"
+    ],
+    "rating": 0,
+    "updated": "2014-03-16",
+    "url": "https://github.com/tribly/task-notify"
+  },
+  {
     "description": "my taskwarrior config",
     "language": [
       "Shell"
@@ -6988,7 +7093,7 @@
       "vit-project"
     ],
     "rating": 283,
-    "updated": "2021-10-12",
+    "updated": "2021-10-13",
     "url": "https://github.com/vit-project/vit"
   },
   {
