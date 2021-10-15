@@ -17,21 +17,6 @@
     "url": null
   },
   {
-    "description": "general helpers for everyday taskwarrior usage",
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskwarrior-helpers",
-    "obsolete": false,
-    "owner": [
-      "0x6d64"
-    ],
-    "rating": 0,
-    "updated": "2021-03-08",
-    "url": "https://github.com/0x6d64/taskwarrior-helpers"
-  },
-  {
     "description": "A tmux-based dashboard for taskwarrior",
     "language": [
       "Perl"
@@ -118,7 +103,7 @@
       "Aerex"
     ],
     "rating": 0,
-    "updated": "2021-08-17",
+    "updated": "2021-10-14",
     "url": "https://github.com/Aerex/baikal-storage-plugin"
   },
   {
@@ -327,8 +312,8 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 26,
-    "updated": "2021-10-12",
+    "rating": 27,
+    "updated": "2021-10-14",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -1288,7 +1273,7 @@
       "Zebradil"
     ],
     "rating": 49,
-    "updated": "2021-10-13",
+    "updated": "2021-10-14",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2277,8 +2262,8 @@
     "owner": [
       "chess-seventh"
     ],
-    "rating": 0,
-    "updated": "2020-09-29",
+    "rating": 1,
+    "updated": "2021-10-14",
     "url": "https://github.com/chess-seventh/rusty-warrior"
   },
   {
@@ -2910,21 +2895,6 @@
     "rating": 3,
     "updated": "2014-03-04",
     "url": "https://github.com/erichschroeter/taskweb"
-  },
-  {
-    "description": "A Rust library for writing taskwarrior hooks and general interfacing with taskwarrior",
-    "language": [
-      "Rust"
-    ],
-    "license": "GNU Lesser General Public License v2.1",
-    "name": "task-hookrs",
-    "obsolete": false,
-    "owner": [
-      "erickt"
-    ],
-    "rating": 0,
-    "updated": "2021-07-05",
-    "url": "https://github.com/erickt/task-hookrs"
   },
   {
     "description": "Taskwarrior <-> Google Calendar bridge",
@@ -3627,8 +3597,8 @@
     "owner": [
       "jbarratt"
     ],
-    "rating": 9,
-    "updated": "2021-08-28",
+    "rating": 10,
+    "updated": "2021-10-14",
     "url": "https://github.com/jbarratt/trello_to_task"
   },
   {
@@ -3972,8 +3942,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 245,
-    "updated": "2021-10-07",
+    "rating": 246,
+    "updated": "2021-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -4003,7 +3973,7 @@
       "jspricke"
     ],
     "rating": 7,
-    "updated": "2021-10-13",
+    "updated": "2021-10-14",
     "url": "https://github.com/jspricke/python-icstask"
   },
   {
@@ -4092,8 +4062,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 540,
-    "updated": "2021-10-13",
+    "rating": 541,
+    "updated": "2021-10-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4257,8 +4227,8 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 120,
-    "updated": "2021-08-06",
+    "rating": 121,
+    "updated": "2021-10-14",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
   {
@@ -4275,21 +4245,6 @@
     "rating": 1,
     "updated": "2021-10-11",
     "url": "https://github.com/kpence/noteman"
-  },
-  {
-    "description": "Ansible role for installing and configuring the task management tool \"taskwarrior\" (see https://taskwarrior.org/ )",
-    "language": [
-      "N/A"
-    ],
-    "license": "Creative Commons Zero v1.0 Universal",
-    "name": "ansible-role-taskwarrior",
-    "obsolete": false,
-    "owner": [
-      "kulla"
-    ],
-    "rating": 1,
-    "updated": "2021-08-12",
-    "url": "https://github.com/kulla/ansible-role-taskwarrior"
   },
   {
     "description": "backend: taskwarrior, electron app. using electron-vue",
@@ -4317,8 +4272,8 @@
     "owner": [
       "languitar"
     ],
-    "rating": 4,
-    "updated": "2020-10-05",
+    "rating": 5,
+    "updated": "2021-10-14",
     "url": "https://github.com/languitar/taskwarrior-emails"
   },
   {
@@ -4620,21 +4575,6 @@
     "rating": 4,
     "updated": "2019-12-31",
     "url": "https://github.com/linuxcaffe/tw-subtask-sh"
-  },
-  {
-    "description": "16color and 256color, light and dark theme files for taskwarrior",
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "tw-themes-config",
-    "obsolete": false,
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 1,
-    "updated": "2019-11-04",
-    "url": "https://github.com/linuxcaffe/tw-themes-config"
   },
   {
     "description": "taskwarrior time-of-day script",
@@ -5997,8 +5937,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 139,
-    "updated": "2021-10-09",
+    "rating": 140,
+    "updated": "2021-10-14",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -7093,7 +7033,7 @@
       "vit-project"
     ],
     "rating": 283,
-    "updated": "2021-10-13",
+    "updated": "2021-10-14",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -7140,21 +7080,6 @@
     "rating": 2,
     "updated": "2020-07-09",
     "url": "https://github.com/voidcase/taskseq"
-  },
-  {
-    "description": "@vonpupp's dotfiles for taskwarrior (https://taskwarrior.org/) and gcalcli. Managed by homeshick.",
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfiles-task",
-    "obsolete": true,
-    "owner": [
-      "vonpupp"
-    ],
-    "rating": 0,
-    "updated": "2018-04-07",
-    "url": "https://github.com/vonpupp/dotfiles-task"
   },
   {
     "description": "A Dockerfile for Taskwarrior container image",
