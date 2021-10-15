@@ -5,6 +5,7 @@ import json
 import os
 import sys
 from enum import IntEnum
+from json import JSONDecodeError
 
 from github import Github
 
@@ -152,6 +153,10 @@ def load_file(filepath):
         with open(filepath) as f:
             return json.load(f)
     except FileNotFoundError:
+        log_info("File '{}' not found!", filepath)
+        return dict()
+    except JSONDecodeError:
+        log_warn("Could not parse file '{}'!", filepath)
         return dict()
 
 
