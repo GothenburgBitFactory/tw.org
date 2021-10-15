@@ -10,6 +10,7 @@
 
     <title>Taskwarrior - What's next?</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.0/font/bootstrap-icons.css" rel="stylesheet">
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="/site.css" rel="stylesheet">
     <link href="/tools/tools.css" rel="stylesheet">
@@ -84,10 +85,14 @@
               <input type="search" class="form-control"  placeholder="Search &hellip;" data-bind="textInput: query" autocomplete="off" />
               <div class="checkbox">
                 <label>
-                  <input type="checkbox" data-bind="checked: ObsoleteSelected"/>
-                  <small>Include obsolete projects
-                    <span class="tooltip">&#9432;
-                      <span class="tooltiptext">Projects are considered 'obsolete' if their last update was more than 3 years ago</span>
+                  <input type="checkbox" data-bind="checked: excludeDormant"/>
+                  <small>
+                    Exclude dormant projects&ensp;
+                    <span class="tooltip">
+                      <em class="bi bi-moon-stars"></em>
+                      <span class="tooltiptext">
+                        Projects are considered 'dormant' if their last update was more than 3 years ago, or if the repository has been archived.
+                      </span>
                     </span>
                   </small>
                 </label>
@@ -133,12 +138,18 @@
         </div>
         <div class="col-md-8 main">
           <p class="lead">
-            There are <span id="total_tools" data-bind="text: filteredTools().length">0</span> tools/extensions matching your search:
+            There
+            <span data-bind="visible: filteredTools().length != 1">are</span>
+            <span data-bind="visible: filteredTools().length == 1">is</span>
+            <span id="total_tools" data-bind="text: filteredTools().length">0</span>
+            <span data-bind="visible: filteredTools().length != 1">tools/extensions</span>
+            <span data-bind="visible: filteredTools().length == 1">tool/extension</span>
+            matching your search:
           </p>
           <table class="table table-striped">
             <thead>
               <tr>
-                <th>Name</th>
+                <th>Tool</th>
                 <th>Description</th>
                 <th>License</th>
               </tr>
@@ -147,11 +158,15 @@
             <tr>
               <td>
                 <p>
-                  <strong><a title="Project" data-bind="text: name, attr:{ href: url }"></a></strong><br>
+                <strong><a title="Project" data-bind="text: name, attr:{ href: url }"></a></strong>&ensp;
+                <span data-bind="visible: dormant" class="tooltip">
+                  <em class="bi bi-moon-stars"></em>
+                  <span class="tooltiptext">This project is dormant</span>
+                </span><br>
                   <span data-bind="visible: owner.length > 0"><small>by <em title="Owners" data-bind="text: owner.join(', ')"></em></small></span>
                 </p>
                 <p>
-                  <span>Rating: <span title="Rating" data-bind="text: rating"></span> &star;</span>
+                <span>Rating: <span title="Rating" data-bind="text: rating"></span>&ensp;<em class="bi bi-star"></em></span>
                 </p>
               </td>
               <td>
@@ -160,7 +175,6 @@
                   <small>
                     <span data-bind="visible: language.length > 0">Language: <span data-bind="text: language"></span></span><br>
                     Last update: <span title="Last update" data-bind="text: updated"></span>
-                    <strong data-bind="visible: obsolete">(Obsolete)</strong>
                   </small>
                 </p>
               </td>

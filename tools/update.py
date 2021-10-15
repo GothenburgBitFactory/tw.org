@@ -19,8 +19,8 @@ class LogLevel(IntEnum):
 # Keywords used to search for projects
 KEYWORDS = ["taskwarrior", "taskserver"]
 
-# The number of days at which point we consider a repository obsolete (3 years)
-DAYS_OBSOLETE = 3 * 365
+# The number of days at which point we consider a repository dormant (3 years)
+DAYS_DORMANT = 3 * 365
 
 # Repositories to always and never include
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
@@ -90,10 +90,10 @@ def from_github_repo(repo):
     Convert repo object from GitHub v3 API to our own format
 
     description: description of the tool
+    dormant:     flag indicating whether the tool is deemed dormant or not
     language:    language the tool is written in
     license:     license the tool is released under
     name:        name of the tool
-    obsolete:    flag indicating whether the tool is deemed obsolete or not
     owner:       owner of the tool's repository
     rating:      rating of the tool
     updated:     date the tool was last updated
@@ -101,26 +101,26 @@ def from_github_repo(repo):
     """
     data = {
         "description": repo.description,
+        "dormant": is_dormant(repo.pushed_at) or repo.archived,
         "language": [repo.language if repo.language is not None else "N/A"],
         # Oddly the `license` isn't exposed by the library and would normally require an additional request.
         "license": repo._rawData["license"]["name"] if repo._rawData["license"] else None,
         "name": repo.name,
-        "obsolete": is_obsolete(repo.updated_at),
         "owner": [repo.owner.login],
         "rating": repo.stargazers_count,
-        "updated": repo.updated_at.date(),
+        "updated": repo.pushed_at.date(),
         "url": repo.html_url,
     }
 
     return data
 
 
-def is_obsolete(updated_at):
+def is_dormant(pushed_at):
     """
-    A repo is considered obsolete after 3 years of inactivity
+    A repo is considered dormant after 3 years of inactivity
     """
-    elapsed = datetime.datetime.now() - updated_at
-    return elapsed.days > DAYS_OBSOLETE
+    elapsed = datetime.datetime.now() - pushed_at
+    return elapsed.days > DAYS_DORMANT
 
 
 def filter_tools(inputs):
