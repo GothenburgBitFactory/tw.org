@@ -1,6 +1,6 @@
 [
   {
-    "description": "These are the format conversion scripts formerly included with Taskwarrior releases, but now moved online. \n<small><a href=\"https://taskwarrior.org/download/export-csv.pl\">export-csv.pl</a></small> \n<small><a href=\"https://taskwarrior.org/download/export-html.pl\">export-html.pl</a></small> \n<small><a href=\"https://taskwarrior.org/download/export-ical.pl\">export-ical.pl</a></small> \n<small><a href=\"https://taskwarrior.org/download/export-sql.py\">export-sql.py</a></small> \n<small><a href=\"https://taskwarrior.org/download/export-tsv.pl\">export-tsv.pl</a></small> \n<small><a href=\"https://taskwarrior.org/download/export-xml.pl\">export-xml.pl</a></small> \n<small><a href=\"https://taskwarrior.org/download/export-xml.py\">export-xml.py</a></small> \n<small><a href=\"https://taskwarrior.org/download/export-xml.rb\">export-xml.rb</a></small> \n<small><a href=\"https://taskwarrior.org/download/export-yad.pl\">export-yad.pl</a></small> \n<small><a href=\"https://taskwarrior.org/download/export-yaml.pl\">export-yaml.pl</a></small> \n<small><a href=\"https://taskwarrior.org/download/import-todo.sh.pl\">import-todo.sh.pl</a></small> \n<small><a href=\"https://taskwarrior.org/download/import-yaml.pl\">import-yaml.pl</a></small>",
+    "description": "These are the format conversion scripts formerly included with Taskwarrior releases, but now moved online.<ul><li><small><a href=\"https://taskwarrior.org/download/export-csv.pl\">export-csv.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-html.pl\">export-html.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-ical.pl\">export-ical.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-sql.py\">export-sql.py</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-tsv.pl\">export-tsv.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-xml.pl\">export-xml.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-xml.py\">export-xml.py</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-xml.rb\">export-xml.rb</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-yad.pl\">export-yad.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-yaml.pl\">export-yaml.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/import-todo.sh.pl\">import-todo.sh.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/import-yaml.pl\">import-yaml.pl</a></small></li></ul>",
     "dormant": false,
     "language": [
       "Perl",
@@ -17,6 +17,21 @@
     "url": null
   },
   {
+    "description": "general helpers for everyday taskwarrior usage",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior-helpers",
+    "owner": [
+      "0x6d64"
+    ],
+    "rating": 0,
+    "updated": "2020-04-13",
+    "url": "https://github.com/0x6d64/taskwarrior-helpers"
+  },
+  {
     "description": "A tmux-based dashboard for taskwarrior",
     "dormant": false,
     "language": [
@@ -28,12 +43,12 @@
       "8ware"
     ],
     "rating": 55,
-    "updated": "2021-09-29",
+    "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
   {
     "description": "Generating Gantt charts from Taskwarrior entries",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Perl"
     ],
@@ -43,12 +58,12 @@
       "8ware"
     ],
     "rating": 26,
-    "updated": "2021-07-02",
+    "updated": "2016-04-13",
     "url": "https://github.com/8ware/task-gantt"
   },
   {
     "description": "Git-based History Hook for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -58,7 +73,7 @@
       "8ware"
     ],
     "rating": 6,
-    "updated": "2020-09-12",
+    "updated": "2015-12-23",
     "url": "https://github.com/8ware/task-history-git"
   },
   {
@@ -73,7 +88,7 @@
       "ABeehive"
     ],
     "rating": 1,
-    "updated": "2020-03-21",
+    "updated": "2019-05-24",
     "url": "https://github.com/ABeehive/Email-to-TaskWarrior"
   },
   {
@@ -118,12 +133,12 @@
       "Aerex"
     ],
     "rating": 1,
-    "updated": "2021-07-03",
+    "updated": "2021-10-15",
     "url": "https://github.com/Aerex/icaltask"
   },
   {
     "description": "Taskwarrior to LaTeX",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -133,7 +148,7 @@
       "AikidoGuy"
     ],
     "rating": 12,
-    "updated": "2020-12-19",
+    "updated": "2013-06-22",
     "url": "https://github.com/AikidoGuy/tw2latex"
   },
   {
@@ -148,7 +163,7 @@
       "AikidoGuy"
     ],
     "rating": 2,
-    "updated": "2016-04-10",
+    "updated": "2013-06-22",
     "url": "https://github.com/AikidoGuy/twoutline"
   },
   {
@@ -163,7 +178,7 @@
       "AlexanderBrevig"
     ],
     "rating": 3,
-    "updated": "2021-10-06",
+    "updated": "2021-02-23",
     "url": "https://github.com/AlexanderBrevig/twgcals"
   },
   {
@@ -193,7 +208,7 @@
       "AnotherKamila"
     ],
     "rating": 26,
-    "updated": "2021-10-10",
+    "updated": "2019-03-05",
     "url": "https://github.com/AnotherKamila/tasksched"
   },
   {
@@ -223,7 +238,7 @@
       "BellCrow"
     ],
     "rating": 0,
-    "updated": "2016-10-24",
+    "updated": "2017-02-04",
     "url": "https://github.com/BellCrow/TaskServer-Client"
   },
   {
@@ -253,12 +268,12 @@
       "CarlosNihelton"
     ],
     "rating": 1,
-    "updated": "2021-09-17",
+    "updated": "2021-05-08",
     "url": "https://github.com/CarlosNihelton/todoist-taskwarrior"
   },
   {
     "description": "[Ported] Taskwarrior integration for Sublime Text 3",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -268,7 +283,7 @@
       "CretaOkada"
     ],
     "rating": 4,
-    "updated": "2019-07-26",
+    "updated": "2017-01-13",
     "url": "https://github.com/CretaOkada/sublime3-taskwarrior"
   },
   {
@@ -298,7 +313,7 @@
       "DCsunset"
     ],
     "rating": 5,
-    "updated": "2021-09-16",
+    "updated": "2020-08-05",
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
   {
@@ -313,7 +328,7 @@
       "DCsunset"
     ],
     "rating": 27,
-    "updated": "2021-10-14",
+    "updated": "2021-09-27",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -328,12 +343,12 @@
       "DavidBadura"
     ],
     "rating": 16,
-    "updated": "2021-09-16",
+    "updated": "2020-12-07",
     "url": "https://github.com/DavidBadura/Taskwarrior"
   },
   {
     "description": "[ALPHA] with the power of taskwarrior! (web ui for taskwarrior)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "PHP"
     ],
@@ -343,7 +358,7 @@
       "DavidBadura"
     ],
     "rating": 16,
-    "updated": "2020-12-27",
+    "updated": "2016-07-25",
     "url": "https://github.com/DavidBadura/doThings"
   },
   {
@@ -363,7 +378,7 @@
   },
   {
     "description": "Library for syncing between Trello and Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -373,7 +388,7 @@
       "DerHabicht"
     ],
     "rating": 0,
-    "updated": "2019-06-12",
+    "updated": "2018-04-10",
     "url": "https://github.com/DerHabicht/tsync"
   },
   {
@@ -403,7 +418,7 @@
       "DerHabicht"
     ],
     "rating": 0,
-    "updated": "2019-06-12",
+    "updated": "2020-12-14",
     "url": "https://github.com/DerHabicht/twinput"
   },
   {
@@ -418,7 +433,7 @@
       "FiskerLars"
     ],
     "rating": 1,
-    "updated": "2018-05-11",
+    "updated": "2015-08-26",
     "url": "https://github.com/FiskerLars/taskharrier"
   },
   {
@@ -433,7 +448,7 @@
       "FiskerLars"
     ],
     "rating": 0,
-    "updated": "2017-05-24",
+    "updated": "2017-06-27",
     "url": "https://github.com/FiskerLars/taskhelper"
   },
   {
@@ -448,12 +463,12 @@
       "Fongshway"
     ],
     "rating": 1,
-    "updated": "2020-09-08",
+    "updated": "2021-06-02",
     "url": "https://github.com/Fongshway/twpm"
   },
   {
     "description": "Import GitHub issues to TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "C#"
     ],
@@ -463,12 +478,12 @@
       "ForNeVeR"
     ],
     "rating": 2,
-    "updated": "2020-01-04",
+    "updated": "2017-12-17",
     "url": "https://github.com/ForNeVeR/taskomatic"
   },
   {
     "description": "Import data from Wekan to Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "PowerShell"
     ],
@@ -478,7 +493,7 @@
       "ForNeVeR"
     ],
     "rating": 2,
-    "updated": "2019-12-02",
+    "updated": "2016-12-31",
     "url": "https://github.com/ForNeVeR/wekan-to-taskwarrior"
   },
   {
@@ -583,7 +598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 37,
-    "updated": "2021-10-08",
+    "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
   {
@@ -703,7 +718,7 @@
       "Ivangonz"
     ],
     "rating": 1,
-    "updated": "2021-01-14",
+    "updated": "2021-01-31",
     "url": "https://github.com/Ivangonz/sethrak"
   },
   {
@@ -723,7 +738,7 @@
   },
   {
     "description": "Taskwarrior is an open-source cross platform command-line task management tool.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -733,7 +748,7 @@
       "JensErat"
     ],
     "rating": 14,
-    "updated": "2020-01-04",
+    "updated": "2017-07-18",
     "url": "https://github.com/JensErat/docker-taskd"
   },
   {
@@ -768,7 +783,7 @@
   },
   {
     "description": "An \u00dcbersicht widget to display your Taskwarrior pending tasks on the desktop",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "CoffeeScript"
     ],
@@ -778,12 +793,12 @@
       "KevinBockelandt"
     ],
     "rating": 8,
-    "updated": "2021-01-23",
+    "updated": "2016-02-13",
     "url": "https://github.com/KevinBockelandt/TaskwarriorWidget"
   },
   {
     "description": "A Pebble client for Taskwarrior TODO Manager (syncs with Inthe.AM service!)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -793,7 +808,7 @@
       "KonradIT"
     ],
     "rating": 3,
-    "updated": "2021-01-09",
+    "updated": "2016-08-03",
     "url": "https://github.com/KonradIT/pebble-taskwarrior"
   },
   {
@@ -808,7 +823,7 @@
       "Liberationtech"
     ],
     "rating": 8,
-    "updated": "2017-02-09",
+    "updated": "2012-09-18",
     "url": "https://github.com/Liberationtech/taskpacifist"
   },
   {
@@ -823,7 +838,7 @@
       "LikiPiki"
     ],
     "rating": 1,
-    "updated": "2021-06-30",
+    "updated": "2021-05-11",
     "url": "https://github.com/LikiPiki/taskwarriorExtension"
   },
   {
@@ -838,7 +853,7 @@
       "LukasGasior1"
     ],
     "rating": 6,
-    "updated": "2021-08-12",
+    "updated": "2021-08-19",
     "url": "https://github.com/LukasGasior1/taskwarrior-fullcalendar"
   },
   {
@@ -963,7 +978,7 @@
   },
   {
     "description": "TaskWarrior client app for iOS. MVVM + RxSwift",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -973,7 +988,7 @@
       "Rag0n"
     ],
     "rating": 9,
-    "updated": "2021-10-05",
+    "updated": "2016-01-18",
     "url": "https://github.com/Rag0n/TaskBerserk"
   },
   {
@@ -1008,7 +1023,7 @@
   },
   {
     "description": "A small alternative to TaskWarrior with auto-reminding. ",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -1018,7 +1033,7 @@
       "Rozmari"
     ],
     "rating": 0,
-    "updated": "2019-07-08",
+    "updated": "2018-02-12",
     "url": "https://github.com/Rozmari/TaskScout"
   },
   {
@@ -1048,7 +1063,7 @@
       "SitanHuang"
     ],
     "rating": 0,
-    "updated": "2020-06-16",
+    "updated": "2019-07-07",
     "url": "https://github.com/SitanHuang/Tasker"
   },
   {
@@ -1063,7 +1078,7 @@
       "SkinyMonkey"
     ],
     "rating": 0,
-    "updated": "2019-01-10",
+    "updated": "2019-11-22",
     "url": "https://github.com/SkinyMonkey/jirawarrior"
   },
   {
@@ -1093,7 +1108,7 @@
       "Stantheman"
     ],
     "rating": 2,
-    "updated": "2015-02-04",
+    "updated": "2011-05-13",
     "url": "https://github.com/Stantheman/TextPuller"
   },
   {
@@ -1108,7 +1123,7 @@
       "StefanBRas"
     ],
     "rating": 0,
-    "updated": "2020-01-27",
+    "updated": "2019-11-26",
     "url": "https://github.com/StefanBRas/todoist-taskwarrior"
   },
   {
@@ -1123,7 +1138,7 @@
       "StephanMeijer"
     ],
     "rating": 0,
-    "updated": "2021-01-10",
+    "updated": "2020-09-06",
     "url": "https://github.com/StephanMeijer/ReportWarrior"
   },
   {
@@ -1168,7 +1183,7 @@
       "TShadwell"
     ],
     "rating": 0,
-    "updated": "2014-04-29",
+    "updated": "2011-11-21",
     "url": "https://github.com/TShadwell/Pester"
   },
   {
@@ -1233,7 +1248,7 @@
   },
   {
     "description": "Your secretary app, note taking tool with taskwarrior capabilities",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -1243,7 +1258,7 @@
       "Zebradil"
     ],
     "rating": 2,
-    "updated": "2021-04-05",
+    "updated": "2019-01-07",
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
@@ -1273,7 +1288,7 @@
       "Zebradil"
     ],
     "rating": 49,
-    "updated": "2021-10-14",
+    "updated": "2021-10-15",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -1288,7 +1303,7 @@
       "Zebradil"
     ],
     "rating": 5,
-    "updated": "2020-12-29",
+    "updated": "2020-05-10",
     "url": "https://github.com/Zebradil/taskwarrior-hooks"
   },
   {
@@ -1348,7 +1363,7 @@
       "aaschmid"
     ],
     "rating": 13,
-    "updated": "2021-07-06",
+    "updated": "2020-02-09",
     "url": "https://github.com/aaschmid/taskwarrior-java-client"
   },
   {
@@ -1378,7 +1393,7 @@
       "abesto"
     ],
     "rating": 12,
-    "updated": "2021-10-05",
+    "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
   },
   {
@@ -1408,7 +1423,7 @@
       "abrochier"
     ],
     "rating": 0,
-    "updated": "2021-01-21",
+    "updated": "2021-01-20",
     "url": "https://github.com/abrochier/ImapTW"
   },
   {
@@ -1428,7 +1443,7 @@
   },
   {
     "description": "Email yourself status updates from TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
@@ -1438,7 +1453,7 @@
       "ajpierce"
     ],
     "rating": 8,
-    "updated": "2019-05-22",
+    "updated": "2012-03-05",
     "url": "https://github.com/ajpierce/taskmailer"
   },
   {
@@ -1458,7 +1473,7 @@
   },
   {
     "description": "A Sinatra / JQuery Mobile based apps to manage taskWarrior data",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -1468,7 +1483,7 @@
       "akervern"
     ],
     "rating": 8,
-    "updated": "2019-06-14",
+    "updated": "2011-03-13",
     "url": "https://github.com/akervern/taskWarrior-Mobile-Front-end"
   },
   {
@@ -1488,7 +1503,7 @@
   },
   {
     "description": "Flask powered web interface for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1498,7 +1513,7 @@
       "alcarithemad"
     ],
     "rating": 1,
-    "updated": "2019-05-14",
+    "updated": "2016-06-10",
     "url": "https://github.com/alcarithemad/tasks"
   },
   {
@@ -1513,7 +1528,7 @@
       "alem0lars"
     ],
     "rating": 0,
-    "updated": "2016-04-06",
+    "updated": "2016-11-25",
     "url": "https://github.com/alem0lars/configs-taskwarrior"
   },
   {
@@ -1527,8 +1542,8 @@
     "owner": [
       "alepeh"
     ],
-    "rating": 1,
-    "updated": "2021-01-12",
+    "rating": 2,
+    "updated": "2020-09-20",
     "url": "https://github.com/alepeh/taskwarrior-apple-reminders"
   },
   {
@@ -1548,7 +1563,7 @@
   },
   {
     "description": "A Chef cookbook to manage taskwarrior and friends.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
@@ -1558,7 +1573,7 @@
       "alfredopalhares"
     ],
     "rating": 12,
-    "updated": "2021-09-02",
+    "updated": "2014-02-12",
     "url": "https://github.com/alfredopalhares/cookbook-taskwarrior"
   },
   {
@@ -1573,7 +1588,7 @@
       "alkim0"
     ],
     "rating": 4,
-    "updated": "2021-10-05",
+    "updated": "2020-08-30",
     "url": "https://github.com/alkim0/task-attach"
   },
   {
@@ -1593,7 +1608,7 @@
   },
   {
     "description": "Taskwarrior git sync hooks",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -1603,7 +1618,7 @@
       "amracks"
     ],
     "rating": 9,
-    "updated": "2021-09-17",
+    "updated": "2017-04-10",
     "url": "https://github.com/amracks/tgs"
   },
   {
@@ -1633,7 +1648,7 @@
       "arcnmx"
     ],
     "rating": 1,
-    "updated": "2021-01-09",
+    "updated": "2019-05-07",
     "url": "https://github.com/arcnmx/task-blocks"
   },
   {
@@ -1678,7 +1693,7 @@
       "artur-shaik"
     ],
     "rating": 14,
-    "updated": "2021-07-04",
+    "updated": "2019-01-09",
     "url": "https://github.com/artur-shaik/mutt2task"
   },
   {
@@ -1693,7 +1708,7 @@
       "arzano"
     ],
     "rating": 3,
-    "updated": "2021-05-23",
+    "updated": "2019-03-30",
     "url": "https://github.com/arzano/taskmonad"
   },
   {
@@ -1713,7 +1728,7 @@
   },
   {
     "description": "Taskwarrior client for Emacs",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Emacs Lisp"
     ],
@@ -1723,12 +1738,12 @@
       "avli"
     ],
     "rating": 13,
-    "updated": "2021-04-12",
+    "updated": "2018-03-11",
     "url": "https://github.com/avli/taskwarrior"
   },
   {
     "description": "TaskWarrior + jrnl",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -1738,12 +1753,12 @@
       "awwaiid"
     ],
     "rating": 7,
-    "updated": "2020-02-23",
+    "updated": "2015-11-23",
     "url": "https://github.com/awwaiid/tnote"
   },
   {
     "description": "Sync TaskWarrior and Starred Gmail Emails",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
@@ -1753,7 +1768,7 @@
       "awwaiid"
     ],
     "rating": 9,
-    "updated": "2020-10-18",
+    "updated": "2015-11-23",
     "url": "https://github.com/awwaiid/tw-gmail-star-sync"
   },
   {
@@ -1803,7 +1818,7 @@
   },
   {
     "description": "Taskwarrior ncurses application in Python, inspired by tasknc",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1813,7 +1828,7 @@
       "b-ryan"
     ],
     "rating": 4,
-    "updated": "2021-02-05",
+    "updated": "2018-01-29",
     "url": "https://github.com/b-ryan/tasknc-python"
   },
   {
@@ -1827,8 +1842,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 101,
-    "updated": "2021-10-06",
+    "rating": 102,
+    "updated": "2021-07-24",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -1843,7 +1858,7 @@
       "bergercookie"
     ],
     "rating": 1,
-    "updated": "2021-07-01",
+    "updated": "2021-03-28",
     "url": "https://github.com/bergercookie/taskwarrior-deno"
   },
   {
@@ -1863,7 +1878,7 @@
   },
   {
     "description": "Fetch your tasks from Wunderlist and add them to TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Haskell"
     ],
@@ -1873,7 +1888,7 @@
       "bernardosulzbach"
     ],
     "rating": 3,
-    "updated": "2020-05-13",
+    "updated": "2017-05-27",
     "url": "https://github.com/bernardosulzbach/wunderlist-to-taskwarrior"
   },
   {
@@ -1888,7 +1903,7 @@
       "bgregos"
     ],
     "rating": 101,
-    "updated": "2021-10-13",
+    "updated": "2021-09-27",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -1908,7 +1923,7 @@
   },
   {
     "description": "A unite.vim interface to taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "VimL"
     ],
@@ -1918,7 +1933,7 @@
       "blakesweeney"
     ],
     "rating": 6,
-    "updated": "2019-11-17",
+    "updated": "2015-11-05",
     "url": "https://github.com/blakesweeney/unite-taskwarrior"
   },
   {
@@ -1932,8 +1947,8 @@
     "owner": [
       "blampe"
     ],
-    "rating": 25,
-    "updated": "2021-10-12",
+    "rating": 26,
+    "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
   {
@@ -1978,7 +1993,7 @@
       "blindFS"
     ],
     "rating": 473,
-    "updated": "2021-10-07",
+    "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
   {
@@ -1993,12 +2008,12 @@
       "bmejias"
     ],
     "rating": 1,
-    "updated": "2016-03-14",
+    "updated": "2016-02-13",
     "url": "https://github.com/bmejias/kanban4taskwarrior"
   },
   {
     "description": "Taskserver client Dart library",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dart"
     ],
@@ -2008,12 +2023,12 @@
       "bradyt"
     ],
     "rating": 0,
-    "updated": "2021-08-19",
+    "updated": "2021-07-07",
     "url": "https://github.com/bradyt/taskd-client-dart"
   },
   {
     "description": "Helper functions for developing Taskserver clients in Dart",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dart"
     ],
@@ -2053,12 +2068,12 @@
       "bradyt"
     ],
     "rating": 16,
-    "updated": "2021-10-04",
+    "updated": "2021-10-01",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
     "description": "Docker container for taskwarrior daemon",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -2068,7 +2083,7 @@
       "brianmay"
     ],
     "rating": 0,
-    "updated": "2020-05-26",
+    "updated": "2018-05-19",
     "url": "https://github.com/brianmay/taskd"
   },
   {
@@ -2098,7 +2113,7 @@
       "brp-optics"
     ],
     "rating": 2,
-    "updated": "2021-07-02",
+    "updated": "2020-06-19",
     "url": "https://github.com/brp-optics/taskmc"
   },
   {
@@ -2113,7 +2128,7 @@
       "brutus"
     ],
     "rating": 6,
-    "updated": "2021-07-28",
+    "updated": "2021-03-25",
     "url": "https://github.com/brutus/taskwarrior-local"
   },
   {
@@ -2128,12 +2143,12 @@
       "burnison"
     ],
     "rating": 84,
-    "updated": "2021-08-29",
+    "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
   {
     "description": "A Django-based web front-end for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -2143,7 +2158,7 @@
       "campbellr"
     ],
     "rating": 12,
-    "updated": "2019-08-30",
+    "updated": "2016-08-05",
     "url": "https://github.com/campbellr/taskweb"
   },
   {
@@ -2163,7 +2178,7 @@
   },
   {
     "description": "CodeTask is a Visual Studio Code for TaskWarrior Integration",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "TypeScript"
     ],
@@ -2173,7 +2188,7 @@
       "celador"
     ],
     "rating": 2,
-    "updated": "2020-11-03",
+    "updated": "2016-03-28",
     "url": "https://github.com/celador/CodeTask"
   },
   {
@@ -2188,7 +2203,7 @@
       "cgardner"
     ],
     "rating": 7,
-    "updated": "2021-06-08",
+    "updated": "2019-12-31",
     "url": "https://github.com/cgardner/taskhelper"
   },
   {
@@ -2203,7 +2218,7 @@
       "charles-e"
     ],
     "rating": 2,
-    "updated": "2021-09-26",
+    "updated": "2021-04-06",
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
   {
@@ -2218,7 +2233,7 @@
       "chazu"
     ],
     "rating": 0,
-    "updated": "2017-03-04",
+    "updated": "2017-03-12",
     "url": "https://github.com/chazu/ansible-role-taskwarrior"
   },
   {
@@ -2248,7 +2263,7 @@
       "cherusk"
     ],
     "rating": 1,
-    "updated": "2019-04-22",
+    "updated": "2019-04-21",
     "url": "https://github.com/cherusk/tw_projector"
   },
   {
@@ -2263,7 +2278,7 @@
       "chess-seventh"
     ],
     "rating": 1,
-    "updated": "2021-10-14",
+    "updated": "2020-09-29",
     "url": "https://github.com/chess-seventh/rusty-warrior"
   },
   {
@@ -2278,7 +2293,7 @@
       "cinatic"
     ],
     "rating": 121,
-    "updated": "2021-09-16",
+    "updated": "2021-07-16",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -2308,7 +2323,7 @@
       "claudiomattera"
     ],
     "rating": 0,
-    "updated": "2019-11-17",
+    "updated": "2021-06-02",
     "url": "https://github.com/claudiomattera/taskreminder"
   },
   {
@@ -2323,7 +2338,7 @@
       "coddingtonbear"
     ],
     "rating": 479,
-    "updated": "2021-10-07",
+    "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -2353,7 +2368,7 @@
       "coddingtonbear"
     ],
     "rating": 61,
-    "updated": "2021-08-30",
+    "updated": "2020-12-15",
     "url": "https://github.com/coddingtonbear/taskwarrior-inthe.am"
   },
   {
@@ -2367,13 +2382,13 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 240,
-    "updated": "2021-09-09",
+    "rating": 241,
+    "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
   {
     "description": "Log your Taskwarrior tasks to Timebook",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -2383,7 +2398,7 @@
       "coddingtonbear"
     ],
     "rating": 3,
-    "updated": "2019-07-22",
+    "updated": "2015-01-28",
     "url": "https://github.com/coddingtonbear/taskwarrior-timebook-hook"
   },
   {
@@ -2398,12 +2413,12 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2019-07-16",
+    "updated": "2021-09-16",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
     "description": "A simple terminal kanban for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -2413,12 +2428,12 @@
       "contrun"
     ],
     "rating": 3,
-    "updated": "2021-07-06",
+    "updated": "2018-05-25",
     "url": "https://github.com/contrun/taskwarrior-terminal-kanban"
   },
   {
     "description": "Dotfiles for NeoVim, Tmux, Zsh, and TaskWarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Shell"
     ],
@@ -2428,7 +2443,7 @@
       "cousine"
     ],
     "rating": 0,
-    "updated": "2018-07-21",
+    "updated": "2021-03-12",
     "url": "https://github.com/cousine/dotfiles"
   },
   {
@@ -2458,7 +2473,7 @@
       "crockeo"
     ],
     "rating": 5,
-    "updated": "2021-08-30",
+    "updated": "2021-04-26",
     "url": "https://github.com/crockeo/taskn"
   },
   {
@@ -2473,7 +2488,7 @@
       "d630"
     ],
     "rating": 1,
-    "updated": "2018-08-03",
+    "updated": "2017-05-23",
     "url": "https://github.com/d630/taskwarrior-um"
   },
   {
@@ -2488,7 +2503,7 @@
       "danesv"
     ],
     "rating": 0,
-    "updated": "2018-06-05",
+    "updated": "2014-08-11",
     "url": "https://github.com/danesv/taskrambler"
   },
   {
@@ -2548,7 +2563,7 @@
       "desbma"
     ],
     "rating": 5,
-    "updated": "2021-09-17",
+    "updated": "2021-02-07",
     "url": "https://github.com/desbma/task-board"
   },
   {
@@ -2563,7 +2578,7 @@
       "dezmondfinney"
     ],
     "rating": 1,
-    "updated": "2021-01-21",
+    "updated": "2021-10-06",
     "url": "https://github.com/dezmondfinney/Montu"
   },
   {
@@ -2578,7 +2593,7 @@
       "dezmondfinney"
     ],
     "rating": 0,
-    "updated": "2021-01-05",
+    "updated": "2020-06-17",
     "url": "https://github.com/dezmondfinney/montu-sveltejs"
   },
   {
@@ -2593,7 +2608,7 @@
       "digital-plumbers-union"
     ],
     "rating": 1,
-    "updated": "2020-11-20",
+    "updated": "2020-10-05",
     "url": "https://github.com/digital-plumbers-union/taskwarrior-operator"
   },
   {
@@ -2608,7 +2623,7 @@
       "divagant-martian"
     ],
     "rating": 2,
-    "updated": "2020-01-20",
+    "updated": "2021-10-05",
     "url": "https://github.com/divagant-martian/task-rs"
   },
   {
@@ -2638,7 +2653,7 @@
       "djmitche"
     ],
     "rating": 1,
-    "updated": "2020-02-09",
+    "updated": "2020-01-01",
     "url": "https://github.com/djmitche/ot"
   },
   {
@@ -2683,7 +2698,7 @@
       "drewstinnett"
     ],
     "rating": 1,
-    "updated": "2021-09-20",
+    "updated": "2021-09-17",
     "url": "https://github.com/drewstinnett/taskpoet"
   },
   {
@@ -2713,7 +2728,7 @@
       "dropofwill"
     ],
     "rating": 5,
-    "updated": "2017-04-16",
+    "updated": "2017-06-08",
     "url": "https://github.com/dropofwill/rtasklib"
   },
   {
@@ -2728,7 +2743,7 @@
       "dropofwill"
     ],
     "rating": 1,
-    "updated": "2016-05-25",
+    "updated": "2015-05-17",
     "url": "https://github.com/dropofwill/task_time"
   },
   {
@@ -2743,7 +2758,7 @@
       "dylanchase"
     ],
     "rating": 1,
-    "updated": "2014-05-20",
+    "updated": "2013-12-22",
     "url": "https://github.com/dylanchase/pinboard"
   },
   {
@@ -2758,7 +2773,7 @@
       "dylandoamaral"
     ],
     "rating": 6,
-    "updated": "2021-09-09",
+    "updated": "2021-03-14",
     "url": "https://github.com/dylandoamaral/taskwarrior-sky-fedora"
   },
   {
@@ -2773,7 +2788,7 @@
       "edthedev"
     ],
     "rating": 0,
-    "updated": "2017-07-28",
+    "updated": "2014-08-25",
     "url": "https://github.com/edthedev/vit"
   },
   {
@@ -2808,7 +2823,7 @@
   },
   {
     "description": "A Taskwarrior Theme without annoying stuff.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -2818,7 +2833,7 @@
       "encbladexp"
     ],
     "rating": 4,
-    "updated": "2021-03-12",
+    "updated": "2015-07-12",
     "url": "https://github.com/encbladexp/taskwarrior-antiglare-theme"
   },
   {
@@ -2833,7 +2848,7 @@
       "encima"
     ],
     "rating": 15,
-    "updated": "2021-09-08",
+    "updated": "2021-03-19",
     "url": "https://github.com/encima/flask-task"
   },
   {
@@ -2863,7 +2878,7 @@
       "enricoschumann"
     ],
     "rating": 0,
-    "updated": "2021-02-24",
+    "updated": "2020-06-08",
     "url": "https://github.com/enricoschumann/taskwarrior.utils"
   },
   {
@@ -2878,7 +2893,7 @@
       "er4z0r"
     ],
     "rating": 6,
-    "updated": "2018-05-10",
+    "updated": "2015-05-04",
     "url": "https://github.com/er4z0r/habitwarrior"
   },
   {
@@ -2893,8 +2908,23 @@
       "erichschroeter"
     ],
     "rating": 3,
-    "updated": "2014-03-04",
+    "updated": "2012-04-17",
     "url": "https://github.com/erichschroeter/taskweb"
+  },
+  {
+    "description": "A Rust library for writing taskwarrior hooks and general interfacing with taskwarrior",
+    "dormant": true,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU Lesser General Public License v2.1",
+    "name": "task-hookrs",
+    "owner": [
+      "erickt"
+    ],
+    "rating": 0,
+    "updated": "2016-04-03",
+    "url": "https://github.com/erickt/task-hookrs"
   },
   {
     "description": "Taskwarrior <-> Google Calendar bridge",
@@ -2908,7 +2938,7 @@
       "erikh"
     ],
     "rating": 5,
-    "updated": "2021-09-09",
+    "updated": "2021-08-29",
     "url": "https://github.com/erikh/calwarrior"
   },
   {
@@ -2968,7 +2998,7 @@
       "fdev31"
     ],
     "rating": 4,
-    "updated": "2015-06-25",
+    "updated": "2013-02-21",
     "url": "https://github.com/fdev31/taskiwi"
   },
   {
@@ -2988,7 +3018,7 @@
   },
   {
     "description": "A minimal hook for TaskWarrior to track time with hamster-cli",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -2998,7 +3028,7 @@
       "fmeynadier"
     ],
     "rating": 7,
-    "updated": "2019-01-10",
+    "updated": "2016-11-09",
     "url": "https://github.com/fmeynadier/taskwarrior-hamster-hook"
   },
   {
@@ -3018,7 +3048,7 @@
   },
   {
     "description": "Progress Reports for TaskWarrior Projects",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
@@ -3028,7 +3058,7 @@
       "frenchrd"
     ],
     "rating": 4,
-    "updated": "2020-03-06",
+    "updated": "2013-07-16",
     "url": "https://github.com/frenchrd/taskwarrior-progress"
   },
   {
@@ -3043,7 +3073,7 @@
       "fsimkovic"
     ],
     "rating": 0,
-    "updated": "2020-01-05",
+    "updated": "2019-05-20",
     "url": "https://github.com/fsimkovic/taskwarrior-pomodoro"
   },
   {
@@ -3093,7 +3123,7 @@
   },
   {
     "description": "meaningfull bullet lists with taskwarrior and graphviz",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3103,7 +3133,7 @@
       "garykl"
     ],
     "rating": 5,
-    "updated": "2021-01-01",
+    "updated": "2017-01-22",
     "url": "https://github.com/garykl/dotwarrior"
   },
   {
@@ -3118,7 +3148,7 @@
       "garykl"
     ],
     "rating": 23,
-    "updated": "2021-05-26",
+    "updated": "2021-04-13",
     "url": "https://github.com/garykl/task2dot"
   },
   {
@@ -3133,7 +3163,7 @@
       "goldenHairDafo"
     ],
     "rating": 1,
-    "updated": "2015-07-07",
+    "updated": "2015-05-25",
     "url": "https://github.com/goldenHairDafo/taskd"
   },
   {
@@ -3153,7 +3183,7 @@
   },
   {
     "description": "Emacs support for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Emacs Lisp"
     ],
@@ -3163,12 +3193,12 @@
       "greenrd"
     ],
     "rating": 20,
-    "updated": "2019-11-21",
+    "updated": "2014-03-08",
     "url": "https://github.com/greenrd/taskwarrior-mode"
   },
   {
     "description": "Python reporting and front end for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3177,8 +3207,8 @@
     "owner": [
       "grovesteyn"
     ],
-    "rating": 30,
-    "updated": "2020-01-24",
+    "rating": 31,
+    "updated": "2013-10-31",
     "url": "https://github.com/grovesteyn/tchart"
   },
   {
@@ -3223,12 +3253,12 @@
       "hamlinux"
     ],
     "rating": 2,
-    "updated": "2021-08-30",
+    "updated": "2021-08-23",
     "url": "https://github.com/hamlinux/taskwarrior-GTD"
   },
   {
     "description": "A TaskWarrior library for Node.js",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -3238,7 +3268,7 @@
       "harleypig"
     ],
     "rating": 1,
-    "updated": "2020-02-15",
+    "updated": "2016-03-10",
     "url": "https://github.com/harleypig/node-twlib"
   },
   {
@@ -3253,7 +3283,7 @@
       "harleypig"
     ],
     "rating": 1,
-    "updated": "2018-02-19",
+    "updated": "2015-11-15",
     "url": "https://github.com/harleypig/perl-taskwarrior"
   },
   {
@@ -3273,7 +3303,7 @@
   },
   {
     "description": "git-taskwarrior wrapper that keeps taskwarrior tasks in a branch",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -3283,12 +3313,12 @@
       "hoxu"
     ],
     "rating": 2,
-    "updated": "2020-11-03",
+    "updated": "2014-12-06",
     "url": "https://github.com/hoxu/gtw"
   },
   {
     "description": "Taskwarrior CSV export for toggl.com",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
@@ -3298,7 +3328,7 @@
       "hpainter"
     ],
     "rating": 4,
-    "updated": "2019-08-12",
+    "updated": "2015-02-16",
     "url": "https://github.com/hpainter/task-toggl"
   },
   {
@@ -3313,12 +3343,12 @@
       "hpainter"
     ],
     "rating": 3,
-    "updated": "2018-01-10",
+    "updated": "2015-01-07",
     "url": "https://github.com/hpainter/taskwarrior-solarized"
   },
   {
     "description": "IOS port of the command-line tool TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Objective-C"
     ],
@@ -3328,7 +3358,7 @@
       "humblehacker"
     ],
     "rating": 53,
-    "updated": "2021-08-05",
+    "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
   {
@@ -3343,7 +3373,7 @@
       "huntrar"
     ],
     "rating": 5,
-    "updated": "2021-06-28",
+    "updated": "2019-06-21",
     "url": "https://github.com/huntrar/clubwarrior"
   },
   {
@@ -3358,12 +3388,12 @@
       "hut"
     ],
     "rating": 2,
-    "updated": "2016-11-04",
+    "updated": "2015-09-14",
     "url": "https://github.com/hut/gold"
   },
   {
     "description": "Dependency trees for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3373,7 +3403,7 @@
       "iamnafets"
     ],
     "rating": 13,
-    "updated": "2018-12-01",
+    "updated": "2016-01-11",
     "url": "https://github.com/iamnafets/taskwarrior_depends"
   },
   {
@@ -3393,7 +3423,7 @@
   },
   {
     "description": "ZSH functions to boost Taskwarrior productivity",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -3403,7 +3433,7 @@
       "indieterminacy"
     ],
     "rating": 2,
-    "updated": "2021-08-30",
+    "updated": "2018-11-26",
     "url": "https://github.com/indieterminacy/1q10rq_tasks_taskwarrior_zsh"
   },
   {
@@ -3433,7 +3463,7 @@
       "ioztelcan"
     ],
     "rating": 1,
-    "updated": "2018-09-29",
+    "updated": "2018-09-19",
     "url": "https://github.com/ioztelcan/taskboard"
   },
   {
@@ -3453,7 +3483,7 @@
   },
   {
     "description": "TaskWarrior wrapper to allow goruping tasks by activity (KDE)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3463,7 +3493,7 @@
       "ivan-cukic"
     ],
     "rating": 0,
-    "updated": "2021-06-06",
+    "updated": "2015-02-02",
     "url": "https://github.com/ivan-cukic/taskwarrior-kactivities"
   },
   {
@@ -3478,12 +3508,12 @@
       "j-jith"
     ],
     "rating": 16,
-    "updated": "2021-03-05",
+    "updated": "2018-10-23",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
   {
     "description": "Vim plugin for a static taskwarrior Kanban board",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "VimL"
     ],
@@ -3493,7 +3523,7 @@
       "j-jith"
     ],
     "rating": 5,
-    "updated": "2021-03-05",
+    "updated": "2016-07-11",
     "url": "https://github.com/j-jith/vim-taskwarrior-kanban"
   },
   {
@@ -3513,7 +3543,7 @@
   },
   {
     "description": "A hosted solution for syncing your TaskWarrior client",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
@@ -3523,7 +3553,7 @@
       "jackdesert"
     ],
     "rating": 59,
-    "updated": "2021-06-03",
+    "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
   {
@@ -3553,7 +3583,7 @@
       "jakejohns"
     ],
     "rating": 1,
-    "updated": "2014-09-19",
+    "updated": "2014-07-19",
     "url": "https://github.com/jakejohns/py-muttwarrior"
   },
   {
@@ -3568,12 +3598,12 @@
       "jareds"
     ],
     "rating": 0,
-    "updated": "2016-04-08",
+    "updated": "2017-10-20",
     "url": "https://github.com/jareds/docker-taskd"
   },
   {
     "description": "Alfred extension for integration with Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -3583,7 +3613,7 @@
       "jbarratt"
     ],
     "rating": 6,
-    "updated": "2020-08-27",
+    "updated": "2012-09-06",
     "url": "https://github.com/jbarratt/AlfredTaskwarrior"
   },
   {
@@ -3598,7 +3628,7 @@
       "jbarratt"
     ],
     "rating": 10,
-    "updated": "2021-10-14",
+    "updated": "2021-08-28",
     "url": "https://github.com/jbarratt/trello_to_task"
   },
   {
@@ -3633,7 +3663,7 @@
   },
   {
     "description": "TaskWarrior -> Remind converter",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Clojure"
     ],
@@ -3643,7 +3673,7 @@
       "jeaye"
     ],
     "rating": 8,
-    "updated": "2020-02-23",
+    "updated": "2015-12-13",
     "url": "https://github.com/jeaye/remind-warrior"
   },
   {
@@ -3663,7 +3693,7 @@
   },
   {
     "description": "A collection of scripts to ease setting up taskwarrior, taskserver, and mirakel",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -3673,7 +3703,7 @@
       "jeremiahmarks"
     ],
     "rating": 11,
-    "updated": "2021-02-23",
+    "updated": "2014-10-06",
     "url": "https://github.com/jeremiahmarks/taskdsetup"
   },
   {
@@ -3688,7 +3718,7 @@
       "jeremyreeder"
     ],
     "rating": 0,
-    "updated": "2018-02-19",
+    "updated": "2018-02-21",
     "url": "https://github.com/jeremyreeder/tasklocale"
   },
   {
@@ -3738,7 +3768,7 @@
   },
   {
     "description": "A script to add planner tasks to taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -3748,7 +3778,7 @@
       "jijames"
     ],
     "rating": 1,
-    "updated": "2019-05-31",
+    "updated": "2016-03-21",
     "url": "https://github.com/jijames/planner2taskwarrior"
   },
   {
@@ -3763,7 +3793,7 @@
       "johanbove"
     ],
     "rating": 1,
-    "updated": "2021-09-17",
+    "updated": "2020-05-26",
     "url": "https://github.com/johanbove/taskwarrior-now"
   },
   {
@@ -3793,7 +3823,7 @@
       "johnivore"
     ],
     "rating": 1,
-    "updated": "2021-09-17",
+    "updated": "2021-03-09",
     "url": "https://github.com/johnivore/docker-taskd"
   },
   {
@@ -3828,7 +3858,7 @@
   },
   {
     "description": "A quick & dirty Yesod-based local web interface to TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Haskell"
     ],
@@ -3838,12 +3868,12 @@
       "jonsterling"
     ],
     "rating": 11,
-    "updated": "2020-08-22",
+    "updated": "2012-05-02",
     "url": "https://github.com/jonsterling/TaskWarriorWeb"
   },
   {
     "description": "A Taskwarrior client. This was created to fill my own need: feel free to modify it! If it looks really ugly, you probably have your terminal configured wrong.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3853,7 +3883,7 @@
       "jonsterling"
     ],
     "rating": 31,
-    "updated": "2021-07-02",
+    "updated": "2018-04-09",
     "url": "https://github.com/jonsterling/Tasky"
   },
   {
@@ -3868,12 +3898,12 @@
       "jrabbit"
     ],
     "rating": 5,
-    "updated": "2019-08-30",
+    "updated": "2021-07-05",
     "url": "https://github.com/jrabbit/taskd-redshirt"
   },
   {
     "description": "Debian packaging files for taskwarrior (deprecated)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Makefile"
     ],
@@ -3883,7 +3913,7 @@
       "jrabbit"
     ],
     "rating": 0,
-    "updated": "2019-08-27",
+    "updated": "2015-02-16",
     "url": "https://github.com/jrabbit/taskwarrior-debian"
   },
   {
@@ -3928,7 +3958,7 @@
       "jrheard"
     ],
     "rating": 0,
-    "updated": "2021-09-07",
+    "updated": "2021-10-08",
     "url": "https://github.com/jrheard/rask"
   },
   {
@@ -3943,7 +3973,7 @@
       "jschlatow"
     ],
     "rating": 246,
-    "updated": "2021-10-14",
+    "updated": "2021-04-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -3958,7 +3988,7 @@
       "jschloer"
     ],
     "rating": 1,
-    "updated": "2017-12-04",
+    "updated": "2018-01-10",
     "url": "https://github.com/jschloer/tw-gtd"
   },
   {
@@ -3988,7 +4018,7 @@
       "juanedflores"
     ],
     "rating": 2,
-    "updated": "2021-09-09",
+    "updated": "2021-07-05",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
   {
@@ -4003,7 +4033,7 @@
       "jubnzv"
     ],
     "rating": 20,
-    "updated": "2021-10-11",
+    "updated": "2018-11-06",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
   {
@@ -4018,12 +4048,12 @@
       "jubnzv"
     ],
     "rating": 4,
-    "updated": "2021-10-02",
+    "updated": "2021-09-06",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
     "description": "Convert taskwarrior exports to todo.txt format",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -4033,12 +4063,12 @@
       "juzim"
     ],
     "rating": 3,
-    "updated": "2021-03-02",
+    "updated": "2017-06-01",
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
   {
     "description": "Taskwarrior module for the prezto framework",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -4048,7 +4078,7 @@
       "kchr"
     ],
     "rating": 3,
-    "updated": "2020-11-15",
+    "updated": "2016-06-10",
     "url": "https://github.com/kchr/prezto-taskwarrior"
   },
   {
@@ -4063,7 +4093,7 @@
       "kdheepak"
     ],
     "rating": 541,
-    "updated": "2021-10-14",
+    "updated": "2021-10-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -4078,7 +4108,7 @@
       "keigezellig"
     ],
     "rating": 17,
-    "updated": "2021-03-05",
+    "updated": "2020-11-16",
     "url": "https://github.com/keigezellig/kanbanwarrior"
   },
   {
@@ -4093,7 +4123,7 @@
       "kellya"
     ],
     "rating": 0,
-    "updated": "2021-05-26",
+    "updated": "2021-07-27",
     "url": "https://github.com/kellya/mutt2tw"
   },
   {
@@ -4138,12 +4168,12 @@
       "kostajh"
     ],
     "rating": 3,
-    "updated": "2018-03-06",
+    "updated": "2014-06-03",
     "url": "https://github.com/kostajh/LibTask"
   },
   {
     "description": "ActiveCollab and Taskwarrior integration.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "PHP"
     ],
@@ -4153,7 +4183,7 @@
       "kostajh"
     ],
     "rating": 2,
-    "updated": "2018-11-30",
+    "updated": "2014-02-19",
     "url": "https://github.com/kostajh/ac-task-php"
   },
   {
@@ -4168,12 +4198,12 @@
       "kostajh"
     ],
     "rating": 0,
-    "updated": "2014-09-12",
+    "updated": "2014-10-01",
     "url": "https://github.com/kostajh/seed-drill"
   },
   {
     "description": "Taskwarrior integration for Sublime Text 2",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -4183,7 +4213,7 @@
       "kostajh"
     ],
     "rating": 12,
-    "updated": "2020-02-14",
+    "updated": "2013-03-25",
     "url": "https://github.com/kostajh/sublime-taskwarrior"
   },
   {
@@ -4198,12 +4228,12 @@
       "kostajh"
     ],
     "rating": 19,
-    "updated": "2020-07-18",
+    "updated": "2019-11-07",
     "url": "https://github.com/kostajh/task-git"
   },
   {
     "description": "Time reports on tasks in Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -4213,7 +4243,7 @@
       "kostajh"
     ],
     "rating": 5,
-    "updated": "2020-04-09",
+    "updated": "2016-10-06",
     "url": "https://github.com/kostajh/taskwarrior-time-report"
   },
   {
@@ -4228,7 +4258,7 @@
       "kostajh"
     ],
     "rating": 121,
-    "updated": "2021-10-14",
+    "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
   {
@@ -4243,8 +4273,23 @@
       "kpence"
     ],
     "rating": 1,
-    "updated": "2021-10-11",
+    "updated": "2020-09-10",
     "url": "https://github.com/kpence/noteman"
+  },
+  {
+    "description": "Ansible role for installing and configuring the task management tool \"taskwarrior\" (see https://taskwarrior.org/ )",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "Creative Commons Zero v1.0 Universal",
+    "name": "ansible-role-taskwarrior",
+    "owner": [
+      "kulla"
+    ],
+    "rating": 1,
+    "updated": "2019-12-01",
+    "url": "https://github.com/kulla/ansible-role-taskwarrior"
   },
   {
     "description": "backend: taskwarrior, electron app. using electron-vue",
@@ -4258,12 +4303,12 @@
       "ky-s"
     ],
     "rating": 1,
-    "updated": "2021-07-01",
+    "updated": "2021-10-12",
     "url": "https://github.com/ky-s/taskwarrior-electron"
   },
   {
     "description": "My minimalistic hack for sending taskwarrior task reminders.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -4273,7 +4318,7 @@
       "languitar"
     ],
     "rating": 5,
-    "updated": "2021-10-14",
+    "updated": "2018-08-21",
     "url": "https://github.com/languitar/taskwarrior-emails"
   },
   {
@@ -4303,7 +4348,7 @@
       "leifdenby"
     ],
     "rating": 0,
-    "updated": "2017-08-23",
+    "updated": "2018-08-08",
     "url": "https://github.com/leifdenby/twsync"
   },
   {
@@ -4318,7 +4363,7 @@
       "leosolid"
     ],
     "rating": 1,
-    "updated": "2021-09-17",
+    "updated": "2021-07-20",
     "url": "https://github.com/leosolid/taskmage"
   },
   {
@@ -4333,7 +4378,7 @@
       "lharding"
     ],
     "rating": 2,
-    "updated": "2015-07-09",
+    "updated": "2015-07-29",
     "url": "https://github.com/lharding/dashborg"
   },
   {
@@ -4348,7 +4393,7 @@
       "lharding"
     ],
     "rating": 112,
-    "updated": "2021-09-18",
+    "updated": "2020-10-21",
     "url": "https://github.com/lharding/tasknc"
   },
   {
@@ -4363,12 +4408,12 @@
       "liambrownweb"
     ],
     "rating": 1,
-    "updated": "2014-05-30",
+    "updated": "2014-01-14",
     "url": "https://github.com/liambrownweb/taskwarrior-tray"
   },
   {
     "description": "Systray app for pomodoro with taskwarrior (moved to https://github.com/liloman/pomodoroTasks2)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -4378,12 +4423,12 @@
       "liloman"
     ],
     "rating": 7,
-    "updated": "2018-11-27",
+    "updated": "2017-01-19",
     "url": "https://github.com/liloman/pomodoroTasks"
   },
   {
     "description": " Systray app for pomodoro with taskwarrior ",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -4393,12 +4438,12 @@
       "liloman"
     ],
     "rating": 26,
-    "updated": "2021-09-14",
+    "updated": "2017-11-11",
     "url": "https://github.com/liloman/pomodoroTasks2"
   },
   {
     "description": "My timewarrior taskwarrior integration scripts",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -4408,7 +4453,7 @@
       "liloman"
     ],
     "rating": 12,
-    "updated": "2021-09-26",
+    "updated": "2017-03-29",
     "url": "https://github.com/liloman/warriors"
   },
   {
@@ -4423,7 +4468,7 @@
       "linduxed"
     ],
     "rating": 0,
-    "updated": "2020-08-25",
+    "updated": "2020-11-17",
     "url": "https://github.com/linduxed/taskwarrior.ex"
   },
   {
@@ -4438,12 +4483,12 @@
       "linkux-it"
     ],
     "rating": 1,
-    "updated": "2016-09-02",
+    "updated": "2015-06-27",
     "url": "https://github.com/linkux-it/battleground"
   },
   {
     "description": "a taskwarrior utility program to directly manipulate task *.data files",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -4453,7 +4498,7 @@
       "linuxcaffe"
     ],
     "rating": 1,
-    "updated": "2020-08-05",
+    "updated": "2015-09-05",
     "url": "https://github.com/linuxcaffe/taskdata"
   },
   {
@@ -4468,7 +4513,7 @@
       "linuxcaffe"
     ],
     "rating": 2,
-    "updated": "2018-02-13",
+    "updated": "2016-10-03",
     "url": "https://github.com/linuxcaffe/tw-airline-plugin"
   },
   {
@@ -4503,7 +4548,7 @@
   },
   {
     "description": "A taskwarrior hook-script to add accounting info to hledger, after completing a transaction-related task.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -4513,12 +4558,12 @@
       "linuxcaffe"
     ],
     "rating": 3,
-    "updated": "2020-04-03",
+    "updated": "2015-03-04",
     "url": "https://github.com/linuxcaffe/tw-hledger-add-hook"
   },
   {
     "description": "taskwarrior export scripts",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Perl"
     ],
@@ -4528,12 +4573,12 @@
       "linuxcaffe"
     ],
     "rating": 6,
-    "updated": "2020-06-09",
+    "updated": "2018-08-22",
     "url": "https://github.com/linuxcaffe/tw-import-export-scripts"
   },
   {
     "description": "an urgency-driven, context-aware scheduling script for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -4543,7 +4588,7 @@
       "linuxcaffe"
     ],
     "rating": 4,
-    "updated": "2019-06-11",
+    "updated": "2016-08-14",
     "url": "https://github.com/linuxcaffe/tw-sched-sh"
   },
   {
@@ -4563,7 +4608,7 @@
   },
   {
     "description": "A taskwarrior script to create and invoke subtasks, which are maintained as task annotations.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -4573,8 +4618,23 @@
       "linuxcaffe"
     ],
     "rating": 4,
-    "updated": "2019-12-31",
+    "updated": "2016-10-29",
     "url": "https://github.com/linuxcaffe/tw-subtask-sh"
+  },
+  {
+    "description": "16color and 256color, light and dark theme files for taskwarrior",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "tw-themes-config",
+    "owner": [
+      "linuxcaffe"
+    ],
+    "rating": 1,
+    "updated": "2015-08-31",
+    "url": "https://github.com/linuxcaffe/tw-themes-config"
   },
   {
     "description": "taskwarrior time-of-day script",
@@ -4588,7 +4648,7 @@
       "linuxcaffe"
     ],
     "rating": 0,
-    "updated": "2016-09-29",
+    "updated": "2015-09-26",
     "url": "https://github.com/linuxcaffe/tw-tod-sh"
   },
   {
@@ -4603,7 +4663,7 @@
       "linuxcaffe"
     ],
     "rating": 1,
-    "updated": "2016-06-02",
+    "updated": "2015-09-01",
     "url": "https://github.com/linuxcaffe/tw-vim-color"
   },
   {
@@ -4633,7 +4693,7 @@
       "linuxcaffe"
     ],
     "rating": 0,
-    "updated": "2015-09-07",
+    "updated": "2015-08-17",
     "url": "https://github.com/linuxcaffe/tw-workflow-hook"
   },
   {
@@ -4653,7 +4713,7 @@
   },
   {
     "description": "Taskwarrior \"Taskserver\" docker image",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -4663,7 +4723,7 @@
       "lukasdietrich"
     ],
     "rating": 1,
-    "updated": "2021-07-03",
+    "updated": "2018-10-11",
     "url": "https://github.com/lukasdietrich/taskwarrior-docker"
   },
   {
@@ -4683,7 +4743,7 @@
   },
   {
     "description": "Taskwarrior based program to manage your kanban workflow",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -4693,7 +4753,7 @@
       "lyz-code"
     ],
     "rating": 1,
-    "updated": "2021-03-05",
+    "updated": "2018-07-04",
     "url": "https://github.com/lyz-code/taskban"
   },
   {
@@ -4708,7 +4768,7 @@
       "madelinecameron"
     ],
     "rating": 1,
-    "updated": "2021-07-22",
+    "updated": "2018-11-29",
     "url": "https://github.com/madelinecameron/wip-taskwarrior-hooks"
   },
   {
@@ -4723,7 +4783,7 @@
       "makingglitches"
     ],
     "rating": 1,
-    "updated": "2020-11-11",
+    "updated": "2021-09-02",
     "url": "https://github.com/makingglitches/TaskView"
   },
   {
@@ -4738,7 +4798,7 @@
       "manishrjain"
     ],
     "rating": 6,
-    "updated": "2017-09-08",
+    "updated": "2017-01-27",
     "url": "https://github.com/manishrjain/taskreview"
   },
   {
@@ -4843,7 +4903,7 @@
       "martin-sukany"
     ],
     "rating": 3,
-    "updated": "2020-12-19",
+    "updated": "2018-12-17",
     "url": "https://github.com/martin-sukany/geekwarrior"
   },
   {
@@ -4858,7 +4918,7 @@
       "matt-snider"
     ],
     "rating": 9,
-    "updated": "2021-09-17",
+    "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
   {
@@ -4893,7 +4953,7 @@
   },
   {
     "description": "Extract a journal / diary from TaskWarrior entries",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
@@ -4903,7 +4963,7 @@
       "metamorph"
     ],
     "rating": 2,
-    "updated": "2019-09-29",
+    "updated": "2014-12-30",
     "url": "https://github.com/metamorph/taskwarrior-journal"
   },
   {
@@ -4918,12 +4978,12 @@
       "miefda"
     ],
     "rating": 2,
-    "updated": "2016-09-02",
+    "updated": "2014-04-02",
     "url": "https://github.com/miefda/taskbot"
   },
   {
     "description": "Associate a single text file with any task, updated for Taskwarrior 2. Original by Alan Bowen.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -4933,7 +4993,7 @@
       "mikebobroski"
     ],
     "rating": 43,
-    "updated": "2021-08-30",
+    "updated": "2017-12-22",
     "url": "https://github.com/mikebobroski/tasknote"
   },
   {
@@ -4948,7 +5008,7 @@
       "mimr9"
     ],
     "rating": 2,
-    "updated": "2021-07-02",
+    "updated": "2020-04-24",
     "url": "https://github.com/mimr9/alarmwarrior"
   },
   {
@@ -4963,7 +5023,7 @@
       "mingsu"
     ],
     "rating": 1,
-    "updated": "2020-01-27",
+    "updated": "2019-03-03",
     "url": "https://github.com/mingsu/mutt2task"
   },
   {
@@ -4993,12 +5053,12 @@
       "mmonnier"
     ],
     "rating": 0,
-    "updated": "2017-03-27",
+    "updated": "2017-03-29",
     "url": "https://github.com/mmonnier/docker-alpine-taskserver"
   },
   {
     "description": "Example Taskwarrior capsule",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -5008,7 +5068,7 @@
       "mokrunka"
     ],
     "rating": 1,
-    "updated": "2020-12-14",
+    "updated": "2015-03-28",
     "url": "https://github.com/mokrunka/taskwarrior-EXAMPLE-capsule"
   },
   {
@@ -5028,7 +5088,7 @@
   },
   {
     "description": "Adds context functionality to taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -5083,7 +5143,7 @@
       "mpoquet"
     ],
     "rating": 1,
-    "updated": "2021-01-18",
+    "updated": "2019-09-12",
     "url": "https://github.com/mpoquet/logwarrior"
   },
   {
@@ -5098,7 +5158,7 @@
       "mpoquet"
     ],
     "rating": 2,
-    "updated": "2021-05-25",
+    "updated": "2019-05-01",
     "url": "https://github.com/mpoquet/taskwarrior-scripts"
   },
   {
@@ -5113,7 +5173,7 @@
       "mrVanDalo"
     ],
     "rating": 2,
-    "updated": "2021-08-30",
+    "updated": "2020-01-25",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
   {
@@ -5128,7 +5188,7 @@
       "mrdaemon"
     ],
     "rating": 1,
-    "updated": "2019-07-13",
+    "updated": "2021-01-24",
     "url": "https://github.com/mrdaemon/taskd-server"
   },
   {
@@ -5158,7 +5218,7 @@
       "mrwonko"
     ],
     "rating": 0,
-    "updated": "2017-07-23",
+    "updated": "2018-01-10",
     "url": "https://github.com/mrwonko/WPTaskClient"
   },
   {
@@ -5223,7 +5283,7 @@
   },
   {
     "description": "Simple GUI client for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "QML"
     ],
@@ -5233,12 +5293,12 @@
       "nagua"
     ],
     "rating": 6,
-    "updated": "2019-02-02",
+    "updated": "2017-11-07",
     "url": "https://github.com/nagua/harbour-taskwarrior-GUI"
   },
   {
     "description": "bash command line tools to provide calendar or hierarchy reports for taskwarrior tasks",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -5248,7 +5308,7 @@
       "nasoym"
     ],
     "rating": 4,
-    "updated": "2021-08-12",
+    "updated": "2016-06-14",
     "url": "https://github.com/nasoym/task_tools"
   },
   {
@@ -5293,7 +5353,7 @@
       "nerab"
     ],
     "rating": 7,
-    "updated": "2021-05-27",
+    "updated": "2021-04-30",
     "url": "https://github.com/nerab/taskwarrior"
   },
   {
@@ -5368,12 +5428,12 @@
       "neuhalje"
     ],
     "rating": 5,
-    "updated": "2020-12-15",
+    "updated": "2019-05-29",
     "url": "https://github.com/neuhalje/notmuch-task"
   },
   {
     "description": "A tool adding collaborative functionality to TaskWarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -5383,12 +5443,12 @@
       "niknow"
     ],
     "rating": 7,
-    "updated": "2019-10-31",
+    "updated": "2016-08-07",
     "url": "https://github.com/niknow/TaskArena"
   },
   {
     "description": "A bash script creating an Eisenhower matrix on the terminal using tmux and TaskWarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -5398,7 +5458,7 @@
       "niknow"
     ],
     "rating": 7,
-    "updated": "2021-04-01",
+    "updated": "2016-02-07",
     "url": "https://github.com/niknow/eisenmux"
   },
   {
@@ -5413,12 +5473,12 @@
       "nikolavp"
     ],
     "rating": 1,
-    "updated": "2015-04-27",
+    "updated": "2015-03-21",
     "url": "https://github.com/nikolavp/taskwarrior-utils"
   },
   {
     "description": "The TaskWarrior visualisation and extension for team management",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -5428,7 +5488,7 @@
       "nitesuit"
     ],
     "rating": 11,
-    "updated": "2021-08-06",
+    "updated": "2016-05-26",
     "url": "https://github.com/nitesuit/KanWarrior"
   },
   {
@@ -5443,7 +5503,7 @@
       "nkakouros-original"
     ],
     "rating": 2,
-    "updated": "2021-04-03",
+    "updated": "2019-10-08",
     "url": "https://github.com/nkakouros-original/ansible-role-taskserver"
   },
   {
@@ -5473,7 +5533,7 @@
       "nnist"
     ],
     "rating": 6,
-    "updated": "2021-07-06",
+    "updated": "2021-05-27",
     "url": "https://github.com/nnist/taskschedule"
   },
   {
@@ -5493,7 +5553,7 @@
   },
   {
     "description": "Taskwarrior tasks reviewing script",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Perl"
     ],
@@ -5503,7 +5563,7 @@
       "nocejo"
     ],
     "rating": 14,
-    "updated": "2021-08-30",
+    "updated": "2015-05-25",
     "url": "https://github.com/nocejo/trev"
   },
   {
@@ -5518,7 +5578,7 @@
       "nocejo"
     ],
     "rating": 0,
-    "updated": "2014-09-09",
+    "updated": "2015-05-14",
     "url": "https://github.com/nocejo/tsh"
   },
   {
@@ -5548,7 +5608,7 @@
       "nyarly"
     ],
     "rating": 6,
-    "updated": "2021-09-13",
+    "updated": "2021-06-04",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
   {
@@ -5563,7 +5623,7 @@
       "ogarcia"
     ],
     "rating": 32,
-    "updated": "2021-10-08",
+    "updated": "2020-02-06",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
@@ -5578,7 +5638,7 @@
       "ogarcia"
     ],
     "rating": 87,
-    "updated": "2021-09-06",
+    "updated": "2021-05-14",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
   {
@@ -5598,7 +5658,7 @@
   },
   {
     "description": "Ansible Playbook for deploying taskd (taskwarrior server).",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -5608,7 +5668,7 @@
       "oleg-fiksel"
     ],
     "rating": 6,
-    "updated": "2019-10-02",
+    "updated": "2017-10-24",
     "url": "https://github.com/oleg-fiksel/ansible-taskd"
   },
   {
@@ -5623,7 +5683,7 @@
       "openscreencast"
     ],
     "rating": 0,
-    "updated": "2015-10-18",
+    "updated": "2015-10-28",
     "url": "https://github.com/openscreencast/openscreencast_videos_taskwarrior"
   },
   {
@@ -5653,7 +5713,7 @@
       "osleg"
     ],
     "rating": 0,
-    "updated": "2015-05-16",
+    "updated": "2015-06-01",
     "url": "https://github.com/osleg/taskwarrior-timetracker-total"
   },
   {
@@ -5668,7 +5728,7 @@
       "pauby"
     ],
     "rating": 8,
-    "updated": "2021-04-26",
+    "updated": "2020-11-04",
     "url": "https://github.com/pauby/PSTodoWarrior"
   },
   {
@@ -5688,7 +5748,7 @@
   },
   {
     "description": "Hook scripts to integrate & sync task libraries between Todoist & Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -5698,7 +5758,7 @@
       "phepp"
     ],
     "rating": 15,
-    "updated": "2021-09-17",
+    "updated": "2017-03-19",
     "url": "https://github.com/phepp/todoist-taskwarrior-integration"
   },
   {
@@ -5728,7 +5788,7 @@
       "philipsd6"
     ],
     "rating": 0,
-    "updated": "2016-03-28",
+    "updated": "2017-04-14",
     "url": "https://github.com/philipsd6/fpm-taskwarrior"
   },
   {
@@ -5743,12 +5803,12 @@
       "philipsd6"
     ],
     "rating": 2,
-    "updated": "2018-04-11",
+    "updated": "2017-04-14",
     "url": "https://github.com/philipsd6/fpm-taskwarrior-server"
   },
   {
     "description": "A Webhook to respond to IFTTT triggers from Evernote by adding tasks to Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -5758,7 +5818,7 @@
       "philipsd6"
     ],
     "rating": 3,
-    "updated": "2020-10-18",
+    "updated": "2016-03-28",
     "url": "https://github.com/philipsd6/ifttt-evernote-taskwarrior"
   },
   {
@@ -5773,12 +5833,12 @@
       "pi3ch"
     ],
     "rating": 3,
-    "updated": "2014-05-10",
+    "updated": "2011-07-03",
     "url": "https://github.com/pi3ch/taskboy"
   },
   {
     "description": "Scripts to handle taskwarrior from Thunderbird",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Perl"
     ],
@@ -5788,7 +5848,7 @@
       "pi3ch"
     ],
     "rating": 23,
-    "updated": "2019-09-24",
+    "updated": "2013-04-02",
     "url": "https://github.com/pi3ch/tb2taskwarrior"
   },
   {
@@ -5808,7 +5868,7 @@
   },
   {
     "description": "Typescript utility that displays currently active taskwarrior task in i3status bar.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -5818,12 +5878,12 @@
       "projectivemotion"
     ],
     "rating": 13,
-    "updated": "2021-08-02",
+    "updated": "2017-01-12",
     "url": "https://github.com/projectivemotion/i3status-taskwarrior"
   },
   {
     "description": "mini-issue-tracker for git repositories, using Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -5833,7 +5893,7 @@
       "proxypoke"
     ],
     "rating": 29,
-    "updated": "2021-09-08",
+    "updated": "2018-05-17",
     "url": "https://github.com/proxypoke/git-task"
   },
   {
@@ -5863,7 +5923,7 @@
       "qbit"
     ],
     "rating": 0,
-    "updated": "2014-01-09",
+    "updated": "2013-03-02",
     "url": "https://github.com/qbit/taskjabb"
   },
   {
@@ -5878,7 +5938,7 @@
       "quandangv"
     ],
     "rating": 5,
-    "updated": "2021-09-27",
+    "updated": "2020-10-12",
     "url": "https://github.com/quandangv/polybar-warrior"
   },
   {
@@ -5893,7 +5953,7 @@
       "rafi"
     ],
     "rating": 3,
-    "updated": "2018-03-01",
+    "updated": "2017-05-15",
     "url": "https://github.com/rafi/vim-denite-task"
   },
   {
@@ -5908,7 +5968,7 @@
       "ralphbean"
     ],
     "rating": 566,
-    "updated": "2021-10-13",
+    "updated": "2021-09-28",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -5923,7 +5983,7 @@
       "ralphbean"
     ],
     "rating": 0,
-    "updated": "2015-12-14",
+    "updated": "2012-08-28",
     "url": "https://github.com/ralphbean/mattd.plugins.taskwarrior"
   },
   {
@@ -5938,7 +5998,7 @@
       "ralphbean"
     ],
     "rating": 140,
-    "updated": "2021-10-14",
+    "updated": "2021-10-10",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -5953,12 +6013,12 @@
       "raspbeguy"
     ],
     "rating": 0,
-    "updated": "2019-07-26",
+    "updated": "2021-06-10",
     "url": "https://github.com/raspbeguy/ITwarrior"
   },
   {
     "description": "Web UI for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -5968,7 +6028,7 @@
       "regnat"
     ],
     "rating": 1,
-    "updated": "2021-04-13",
+    "updated": "2015-05-31",
     "url": "https://github.com/regnat/twui"
   },
   {
@@ -5988,7 +6048,7 @@
   },
   {
     "description": "taskwarrior for android",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Java"
     ],
@@ -5998,7 +6058,7 @@
       "robin92"
     ],
     "rating": 7,
-    "updated": "2021-04-10",
+    "updated": "2016-02-20",
     "url": "https://github.com/robin92/tw4a"
   },
   {
@@ -6028,7 +6088,7 @@
       "robwhitaker"
     ],
     "rating": 5,
-    "updated": "2021-03-06",
+    "updated": "2020-02-15",
     "url": "https://github.com/robwhitaker/taskwarrior-habitica-bridge"
   },
   {
@@ -6048,7 +6108,7 @@
   },
   {
     "description": ":hocho: Alfred 2 workflow to interact with TaskWarrior tasks",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
@@ -6058,7 +6118,7 @@
       "roylez"
     ],
     "rating": 16,
-    "updated": "2021-07-06",
+    "updated": "2016-03-30",
     "url": "https://github.com/roylez/alfred_taskwarrior"
   },
   {
@@ -6073,12 +6133,12 @@
       "roylez"
     ],
     "rating": 1,
-    "updated": "2015-01-26",
+    "updated": "2013-06-19",
     "url": "https://github.com/roylez/syncwarrior"
   },
   {
     "description": "A simple task parser for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6088,12 +6148,12 @@
       "rubenrubiob"
     ],
     "rating": 0,
-    "updated": "2020-07-30",
+    "updated": "2016-05-08",
     "url": "https://github.com/rubenrubiob/task-parser"
   },
   {
     "description": "taskwarrior docker container",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -6103,12 +6163,12 @@
       "rucas"
     ],
     "rating": 3,
-    "updated": "2018-12-03",
+    "updated": "2018-07-11",
     "url": "https://github.com/rucas/taskd"
   },
   {
     "description": "Interface between Git Issues and TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6118,7 +6178,7 @@
       "ryansb"
     ],
     "rating": 12,
-    "updated": "2020-04-09",
+    "updated": "2012-02-03",
     "url": "https://github.com/ryansb/gitwarrior"
   },
   {
@@ -6148,7 +6208,7 @@
       "sanjayankur31"
     ],
     "rating": 1,
-    "updated": "2014-09-19",
+    "updated": "2014-08-13",
     "url": "https://github.com/sanjayankur31/task-theme"
   },
   {
@@ -6163,7 +6223,7 @@
       "sclo"
     ],
     "rating": 0,
-    "updated": "2018-07-03",
+    "updated": "2013-01-14",
     "url": "https://github.com/sclo/taskwarrior-dropbox"
   },
   {
@@ -6193,12 +6253,12 @@
       "sebastianpech"
     ],
     "rating": 0,
-    "updated": "2019-11-23",
+    "updated": "2021-08-11",
     "url": "https://github.com/sebastianpech/VSCode-Taskwarrior"
   },
   {
     "description": "simple ncurses interface to TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6208,12 +6268,12 @@
       "semtle"
     ],
     "rating": 0,
-    "updated": "2020-06-24",
+    "updated": "2017-02-16",
     "url": "https://github.com/semtle/taskhud"
   },
   {
     "description": "Bugwarrior, Taskwarrior and Timewarrior integration with Serokell issue tracker and time tracking",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6223,7 +6283,7 @@
       "serokell"
     ],
     "rating": 0,
-    "updated": "2019-12-12",
+    "updated": "2019-01-29",
     "url": "https://github.com/serokell/srkwarrior"
   },
   {
@@ -6238,12 +6298,12 @@
       "sgaraud"
     ],
     "rating": 47,
-    "updated": "2021-08-29",
+    "updated": "2021-09-08",
     "url": "https://github.com/sgaraud/gnome-extension-taskwarrior"
   },
   {
     "description": "Get all of you Google Tasks into Taskwarrior, where they belong.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -6253,7 +6313,7 @@
       "sh78"
     ],
     "rating": 5,
-    "updated": "2021-09-16",
+    "updated": "2018-07-20",
     "url": "https://github.com/sh78/google-tasks-taskwarrior-import"
   },
   {
@@ -6268,7 +6328,7 @@
       "shgysk8zer0"
     ],
     "rating": 0,
-    "updated": "2017-09-01",
+    "updated": "2017-09-03",
     "url": "https://github.com/shgysk8zer0/.task"
   },
   {
@@ -6288,7 +6348,7 @@
   },
   {
     "description": "Directed graphs of Taskwarrior projects, tags, and tasks.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6298,7 +6358,7 @@
       "shushcat"
     ],
     "rating": 20,
-    "updated": "2021-01-21",
+    "updated": "2017-11-26",
     "url": "https://github.com/shushcat/taskgv"
   },
   {
@@ -6313,7 +6373,7 @@
       "sinarf"
     ],
     "rating": 2,
-    "updated": "2021-07-02",
+    "updated": "2020-03-28",
     "url": "https://github.com/sinarf/taskomodoro"
   },
   {
@@ -6328,7 +6388,7 @@
       "sl4mmy"
     ],
     "rating": 0,
-    "updated": "2016-01-19",
+    "updated": "2016-01-20",
     "url": "https://github.com/sl4mmy/taskserver"
   },
   {
@@ -6343,7 +6403,7 @@
       "smaboshe"
     ],
     "rating": 1,
-    "updated": "2018-08-27",
+    "updated": "2015-02-14",
     "url": "https://github.com/smaboshe/taskwarrior-backup"
   },
   {
@@ -6373,7 +6433,7 @@
       "smh"
     ],
     "rating": 0,
-    "updated": "2017-03-09",
+    "updated": "2017-03-12",
     "url": "https://github.com/smh/taskwarriorrc"
   },
   {
@@ -6388,12 +6448,12 @@
       "sorrowless"
     ],
     "rating": 1,
-    "updated": "2021-09-17",
+    "updated": "2021-04-03",
     "url": "https://github.com/sorrowless/twsyncer"
   },
   {
     "description": "Taskwarrior-inspired CalDAV command line tool.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6403,7 +6463,7 @@
       "spanezz"
     ],
     "rating": 8,
-    "updated": "2020-10-18",
+    "updated": "2016-04-06",
     "url": "https://github.com/spanezz/calcli"
   },
   {
@@ -6418,7 +6478,7 @@
       "spencermamer"
     ],
     "rating": 3,
-    "updated": "2021-01-09",
+    "updated": "2020-11-22",
     "url": "https://github.com/spencermamer/task-graphdeps"
   },
   {
@@ -6468,7 +6528,7 @@
   },
   {
     "description": "A table filter experimentation for TaskWarrior web site",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -6478,7 +6538,7 @@
       "ssbarnea"
     ],
     "rating": 0,
-    "updated": "2020-04-26",
+    "updated": "2017-05-03",
     "url": "https://github.com/ssbarnea/taskwarrior-site-test"
   },
   {
@@ -6498,7 +6558,7 @@
   },
   {
     "description": "A repo for all of my TaskWarrior scripts",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -6508,7 +6568,7 @@
       "stackedsax"
     ],
     "rating": 21,
-    "updated": "2021-07-06",
+    "updated": "2016-05-24",
     "url": "https://github.com/stackedsax/taskwarrior_scripts"
   },
   {
@@ -6523,7 +6583,7 @@
       "straumer"
     ],
     "rating": 0,
-    "updated": "2018-01-28",
+    "updated": "2018-01-29",
     "url": "https://github.com/straumer/taskscripts"
   },
   {
@@ -6538,7 +6598,7 @@
       "strazdinsg"
     ],
     "rating": 0,
-    "updated": "2015-10-31",
+    "updated": "2015-11-08",
     "url": "https://github.com/strazdinsg/hials-taskserver-lib"
   },
   {
@@ -6558,7 +6618,7 @@
   },
   {
     "description": "Calculate and print spent time for a project from taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6568,12 +6628,12 @@
       "svenhertle"
     ],
     "rating": 31,
-    "updated": "2021-09-26",
+    "updated": "2015-03-01",
     "url": "https://github.com/svenhertle/tasktime"
   },
   {
     "description": "DISCONTINUED: Taskwarrior for Android",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Java"
     ],
@@ -6583,7 +6643,7 @@
       "svijee"
     ],
     "rating": 120,
-    "updated": "2021-05-06",
+    "updated": "2016-02-27",
     "url": "https://github.com/svijee/taskwarrior-androidapp"
   },
   {
@@ -6613,7 +6673,7 @@
       "szaffarano"
     ],
     "rating": 1,
-    "updated": "2021-10-10",
+    "updated": "2021-10-15",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -6628,7 +6688,7 @@
       "taskswamp"
     ],
     "rating": 39,
-    "updated": "2020-12-16",
+    "updated": "2021-05-28",
     "url": "https://github.com/taskswamp/taskswamp"
   },
   {
@@ -6643,7 +6703,7 @@
       "tbabej"
     ],
     "rating": 3,
-    "updated": "2017-03-07",
+    "updated": "2016-03-08",
     "url": "https://github.com/tbabej/task"
   },
   {
@@ -6658,12 +6718,12 @@
       "tbabej"
     ],
     "rating": 28,
-    "updated": "2021-09-04",
+    "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
   {
     "description": "A simply query interface for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
@@ -6673,12 +6733,12 @@
       "teranex"
     ],
     "rating": 3,
-    "updated": "2019-07-27",
+    "updated": "2013-11-10",
     "url": "https://github.com/teranex/taskquery"
   },
   {
     "description": "A Vim plugin to integrate Vimwiki tasks with taskwarrior. Sync tasks between vimwiki and taskwarrior in both directions",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "VimL"
     ],
@@ -6688,7 +6748,7 @@
       "teranex"
     ],
     "rating": 26,
-    "updated": "2021-09-14",
+    "updated": "2013-12-01",
     "url": "https://github.com/teranex/vimwiki-tasks"
   },
   {
@@ -6733,7 +6793,7 @@
       "thehunmonkgroup"
     ],
     "rating": 1,
-    "updated": "2020-06-17",
+    "updated": "2020-03-06",
     "url": "https://github.com/thehunmonkgroup/omnifocus-to-taskwarrior"
   },
   {
@@ -6753,7 +6813,7 @@
   },
   {
     "description": "Port of TaskWarrior as a Node.js library",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -6763,7 +6823,7 @@
       "therealklanni"
     ],
     "rating": 3,
-    "updated": "2020-02-15",
+    "updated": "2017-05-18",
     "url": "https://github.com/therealklanni/taskwiz"
   },
   {
@@ -6778,7 +6838,7 @@
       "theunraveler"
     ],
     "rating": 458,
-    "updated": "2021-10-12",
+    "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
   {
@@ -6798,7 +6858,7 @@
   },
   {
     "description": "a status item for taskwarrior on OSX",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Objective-C"
     ],
@@ -6808,7 +6868,7 @@
       "tmcw-up-for-adoption"
     ],
     "rating": 14,
-    "updated": "2019-08-13",
+    "updated": "2012-12-11",
     "url": "https://github.com/tmcw-up-for-adoption/xtw"
   },
   {
@@ -6823,7 +6883,7 @@
       "tools-life"
     ],
     "rating": 607,
-    "updated": "2021-10-11",
+    "updated": "2021-10-10",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -6838,7 +6898,7 @@
       "torrancew"
     ],
     "rating": 0,
-    "updated": "2017-04-30",
+    "updated": "2014-04-06",
     "url": "https://github.com/torrancew/arch-taskd"
   },
   {
@@ -6868,7 +6928,7 @@
       "tpeetz"
     ],
     "rating": 3,
-    "updated": "2021-03-30",
+    "updated": "2021-05-26",
     "url": "https://github.com/tpeetz/pull-task"
   },
   {
@@ -6898,7 +6958,7 @@
       "tshirtman"
     ],
     "rating": 5,
-    "updated": "2017-04-13",
+    "updated": "2015-08-04",
     "url": "https://github.com/tshirtman/.task"
   },
   {
@@ -6913,12 +6973,12 @@
       "tybl"
     ],
     "rating": 0,
-    "updated": "2021-04-24",
+    "updated": "2021-04-15",
     "url": "https://github.com/tybl/CLITaskOgre"
   },
   {
     "description": "Provides support for attachment management for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -6928,7 +6988,7 @@
       "tzok"
     ],
     "rating": 11,
-    "updated": "2021-08-30",
+    "updated": "2012-04-19",
     "url": "https://github.com/tzok/taskattach"
   },
   {
@@ -6958,7 +7018,7 @@
       "umonkey"
     ],
     "rating": 9,
-    "updated": "2021-05-16",
+    "updated": "2019-12-18",
     "url": "https://github.com/umonkey/task-indicator"
   },
   {
@@ -6978,7 +7038,7 @@
   },
   {
     "description": "Apollo / Mantra / GraphQL / Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -6988,12 +7048,12 @@
       "venturecommunism"
     ],
     "rating": 3,
-    "updated": "2020-06-23",
+    "updated": "2016-05-08",
     "url": "https://github.com/venturecommunism/apollo-mantra-taskwarrior"
   },
   {
     "description": "taskwarrior client in meteor.js",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -7003,7 +7063,7 @@
       "venturecommunism"
     ],
     "rating": 11,
-    "updated": "2019-10-15",
+    "updated": "2016-01-25",
     "url": "https://github.com/venturecommunism/meteor-taskwarrior"
   },
   {
@@ -7018,7 +7078,7 @@
       "venturecommunism"
     ],
     "rating": 1,
-    "updated": "2016-11-27",
+    "updated": "2016-09-17",
     "url": "https://github.com/venturecommunism/meteor-taskwarrior-react"
   },
   {
@@ -7078,8 +7138,23 @@
       "voidcase"
     ],
     "rating": 2,
-    "updated": "2020-07-09",
+    "updated": "2020-06-26",
     "url": "https://github.com/voidcase/taskseq"
+  },
+  {
+    "description": "@vonpupp's dotfiles for taskwarrior (https://taskwarrior.org/) and gcalcli. Managed by homeshick.",
+    "dormant": true,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "dotfiles-task",
+    "owner": [
+      "vonpupp"
+    ],
+    "rating": 0,
+    "updated": "2017-11-23",
+    "url": "https://github.com/vonpupp/dotfiles-task"
   },
   {
     "description": "A Dockerfile for Taskwarrior container image",
@@ -7098,7 +7173,7 @@
   },
   {
     "description": "Telch is a web interface for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -7108,7 +7183,7 @@
       "vrutkovs"
     ],
     "rating": 7,
-    "updated": "2019-12-22",
+    "updated": "2018-10-05",
     "url": "https://github.com/vrutkovs/telch"
   },
   {
@@ -7123,7 +7198,7 @@
       "willkg"
     ],
     "rating": 2,
-    "updated": "2018-09-06",
+    "updated": "2016-07-22",
     "url": "https://github.com/willkg/francis"
   },
   {
@@ -7138,7 +7213,7 @@
       "wilmardo"
     ],
     "rating": 1,
-    "updated": "2019-11-04",
+    "updated": "2019-04-22",
     "url": "https://github.com/wilmardo/ansible-role-taskserver"
   },
   {
@@ -7153,12 +7228,12 @@
       "winpat"
     ],
     "rating": 4,
-    "updated": "2021-10-01",
+    "updated": "2020-04-04",
     "url": "https://github.com/winpat/taskwarrior.el"
   },
   {
     "description": "Containerized Taskwarrior server",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dockerfile"
     ],
@@ -7168,7 +7243,7 @@
       "x4121"
     ],
     "rating": 2,
-    "updated": "2021-05-22",
+    "updated": "2019-11-27",
     "url": "https://github.com/x4121/docker-taskd"
   },
   {
@@ -7198,7 +7273,7 @@
       "xingheng"
     ],
     "rating": 2,
-    "updated": "2021-09-20",
+    "updated": "2021-09-23",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
   {
@@ -7213,7 +7288,7 @@
       "yagizsenal"
     ],
     "rating": 1,
-    "updated": "2021-05-31",
+    "updated": "2020-04-10",
     "url": "https://github.com/yagizsenal/taskwarrior-spacedlearning"
   },
   {
@@ -7228,7 +7303,7 @@
       "yangzuwei"
     ],
     "rating": 0,
-    "updated": "2017-06-26",
+    "updated": "2017-06-01",
     "url": "https://github.com/yangzuwei/swoole_task"
   },
   {
@@ -7243,12 +7318,12 @@
       "yanick"
     ],
     "rating": 20,
-    "updated": "2019-10-20",
+    "updated": "2019-05-01",
     "url": "https://github.com/yanick/Taskwarrior-Kusarigama"
   },
   {
     "description": "use neovim as a UI for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -7258,7 +7333,7 @@
       "yanick"
     ],
     "rating": 1,
-    "updated": "2021-07-02",
+    "updated": "2018-10-11",
     "url": "https://github.com/yanick/nvim-taskwarrior"
   },
   {
@@ -7273,12 +7348,12 @@
       "yhaenggi"
     ],
     "rating": 0,
-    "updated": "2020-02-02",
+    "updated": "2020-01-18",
     "url": "https://github.com/yhaenggi/taskserver-docker"
   },
   {
     "description": "my dotfiles for vim, taskwarrior and such",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -7288,7 +7363,7 @@
       "yigitsever"
     ],
     "rating": 0,
-    "updated": "2019-03-18",
+    "updated": "2019-03-17",
     "url": "https://github.com/yigitsever/dotfiles"
   },
   {
@@ -7318,7 +7393,7 @@
       "yulqen"
     ],
     "rating": 0,
-    "updated": "2017-12-12",
+    "updated": "2017-12-16",
     "url": "https://github.com/yulqen/tw-date-tools"
   },
   {
@@ -7363,7 +7438,7 @@
       "zealotree"
     ],
     "rating": 1,
-    "updated": "2019-10-23",
+    "updated": "2019-11-13",
     "url": "https://github.com/zealotree/task-sync-unit"
   },
   {
@@ -7378,7 +7453,7 @@
       "zhangfeng"
     ],
     "rating": 1,
-    "updated": "2021-07-02",
+    "updated": "2020-05-29",
     "url": "https://github.com/zhangfeng/taskli"
   },
   {
@@ -7408,7 +7483,7 @@
       "Doron Behar"
     ],
     "rating": null,
-    "updated": "2020-05-10",
+    "updated": "2020-09-25",
     "url": "https://gitlab.com/doronbehar/taskwarrior-fzf"
   }
 ]
