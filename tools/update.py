@@ -4,10 +4,10 @@ import datetime
 import json
 import os
 import sys
+import time
 from enum import IntEnum
-from json import JSONDecodeError
-
 from github import Github
+from json import JSONDecodeError
 
 
 class LogLevel(IntEnum):
@@ -76,12 +76,21 @@ def search_github(names, keywords):
         log_debug("Querying GitHub for repository '{}'", name)
         results.append(from_github_repo(client.get_repo(name)))
 
+    first = time.perf_counter()
+    last = first
     log_debug("Processing {} keywords", len(keywords))
     for keyword in keywords:
-        log_debug("Querying Github for repositories with keyword '{}'", keyword)
-        query = "{}+in:description,name,topic".format(keyword)
-        for repo in client.search_repositories(query, sort="stars", order="desc"):
-            results.append(from_github_repo(repo))
+        for qualifier in ["topic", "name,description"]:
+            log_debug("Querying GitHub for repositories with keyword '{}' in {}", keyword, qualifier)
+            for repo in client.search_repositories(keyword, **{"in": f"{qualifier}"}):
+                results.append(from_github_repo(repo))
+                current = time.perf_counter() - first
+                delta = current - last
+                last = current
+                log_debug("Adding '{}' as {} (at {}, delta {})", repo.html_url, len(results), current, delta)
+                # GitHub API allows 30 requests per minute and delivers results
+                # in pages of 30 items. Add sleep to stay below rate limit.
+                time.sleep(0.06)
 
     log_info("Received {} entries from GitHub", len(results))
 
