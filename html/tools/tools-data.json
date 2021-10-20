@@ -777,7 +777,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 99,
+    "rating": 100,
     "updated": "2021-10-10",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1843,7 +1843,7 @@
       "Zebradil"
     ],
     "rating": 49,
-    "updated": "2021-10-15",
+    "updated": "2021-10-19",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3312,7 +3312,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 480,
+    "rating": 481,
     "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5623,7 +5623,7 @@
       "jrheard"
     ],
     "rating": 0,
-    "updated": "2021-10-08",
+    "updated": "2021-10-19",
     "url": "https://github.com/jrheard/rask"
   },
   {
@@ -5847,7 +5847,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 546,
+    "rating": 545,
     "updated": "2021-10-18",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9117,7 +9117,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 59,
+    "rating": 58,
     "updated": "2021-01-17",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -9225,6 +9225,21 @@
     "rating": 0,
     "updated": "2018-04-13",
     "url": "https://github.com/ssoriche/Taskwarrior-Kusarigama-Plugin-Command-Shelf"
+  },
+  {
+    "description": "Taskwarrior Hooks",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "BSD 2-Clause \"Simplified\" License",
+    "name": "taskwarrior-hooks",
+    "owner": [
+      "sstallion"
+    ],
+    "rating": 0,
+    "updated": "2021-10-19",
+    "url": "https://github.com/sstallion/taskwarrior-hooks"
   },
   {
     "description": "A repo for all of my TaskWarrior scripts",
@@ -9403,7 +9418,7 @@
       "taskchampion"
     ],
     "rating": 30,
-    "updated": "2021-10-16",
+    "updated": "2021-10-19",
     "url": "https://github.com/taskchampion/taskchampion"
   },
   {
@@ -9687,7 +9702,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 608,
+    "rating": 607,
     "updated": "2021-10-10",
     "url": "https://github.com/tools-life/taskwiki"
   },
