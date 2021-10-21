@@ -462,7 +462,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2021-09-27",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1843,7 +1843,7 @@
       "Zebradil"
     ],
     "rating": 49,
-    "updated": "2021-10-19",
+    "updated": "2021-10-20",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2637,7 +2637,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 102,
+    "rating": 103,
     "updated": "2021-07-24",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
@@ -5847,7 +5847,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 545,
+    "rating": 546,
     "updated": "2021-10-18",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7468,7 +7468,7 @@
       "naggie"
     ],
     "rating": 75,
-    "updated": "2021-10-17",
+    "updated": "2021-10-20",
     "url": "https://github.com/naggie/dotfiles"
   },
   {
@@ -8352,7 +8352,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 566,
+    "rating": 567,
     "updated": "2021-10-18",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9703,7 +9703,7 @@
       "tools-life"
     ],
     "rating": 607,
-    "updated": "2021-10-10",
+    "updated": "2021-10-20",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -9987,7 +9987,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 284,
+    "rating": 285,
     "updated": "2021-10-14",
     "url": "https://github.com/vit-project/vit"
   },
