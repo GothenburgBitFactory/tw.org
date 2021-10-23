@@ -1033,7 +1033,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2021-10-21",
+    "updated": "2021-10-22",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2443,7 +2443,7 @@
       "ashleytowner"
     ],
     "rating": 1,
-    "updated": "2021-10-14",
+    "updated": "2021-10-22",
     "url": "https://github.com/ashleytowner/dotfiles"
   },
   {
@@ -2907,7 +2907,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2021-10-01",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -9035,7 +9035,7 @@
     "description": "dotfiles: taskwarrior config files and scripts",
     "dormant": false,
     "language": [
-      "Shell"
+      "Python"
     ],
     "license": null,
     "name": ".task",
@@ -9043,7 +9043,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2021-10-07",
+    "updated": "2021-10-22",
     "url": "https://github.com/smemsh/.task"
   },
   {
@@ -9102,7 +9102,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 202,
+    "rating": 201,
     "updated": "2019-11-11",
     "url": "https://github.com/soywod/kronos.vim"
   },
@@ -9987,7 +9987,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 285,
+    "rating": 286,
     "updated": "2021-10-14",
     "url": "https://github.com/vit-project/vit"
   },
