@@ -332,21 +332,6 @@
     "url": "https://github.com/BellCrow/TaskServer-Client"
   },
   {
-    "description": "Dotfiles of my evolving comfy setup",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "Boot-Error"
-    ],
-    "rating": 3,
-    "updated": "2020-10-24",
-    "url": "https://github.com/Boot-Error/dotfiles"
-  },
-  {
     "description": "Repo for taskwarrior tasks",
     "dormant": true,
     "language": [
@@ -375,21 +360,6 @@
     "rating": 1,
     "updated": "2021-05-08",
     "url": "https://github.com/CarlosNihelton/todoist-taskwarrior"
-  },
-  {
-    "description": "My configuration of, for, and on Linux :house_with_garden:",
-    "dormant": true,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "TengeridHome",
-    "owner": [
-      "Chinggis6"
-    ],
-    "rating": 1,
-    "updated": "2017-04-26",
-    "url": "https://github.com/Chinggis6/TengeridHome"
   },
   {
     "description": ":hammer: :earth_americas: A taskd implementation for the Django web framework.",
@@ -510,21 +480,6 @@
     "rating": 0,
     "updated": "2016-03-13",
     "url": "https://github.com/DavidBadura/taskwarrior-docker"
-  },
-  {
-    "description": "Sets up DSC or Davical on Ubuntu 20.04 with https://www.davx5.com/ for android. Integrate with Nextcloud and Taskwarrior.",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "Calendar-server",
-    "owner": [
-      "Deployment-Oneliners"
-    ],
-    "rating": 0,
-    "updated": "2021-10-10",
-    "url": "https://github.com/Deployment-Oneliners/Calendar-server"
   },
   {
     "description": "Library for syncing between Trello and Taskwarrior",
@@ -750,21 +705,6 @@
     "rating": 0,
     "updated": "2015-01-12",
     "url": "https://github.com/Glitch-is/InnaTasks"
-  },
-  {
-    "description": "my taskwarrior files",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "my_task",
-    "owner": [
-      "GoldenRaven"
-    ],
-    "rating": 0,
-    "updated": "2018-09-29",
-    "url": "https://github.com/GoldenRaven/my_task"
   },
   {
     "description": "A Python library for interacting with taskwarrior databases.",
@@ -1472,6 +1412,21 @@
     "url": "https://github.com/Shekcon/Tasks-Web"
   },
   {
+    "description": "Sets up DSC or Davical on Ubuntu 20.04 with https://www.davx5.com/ for android. Integrate with Nextcloud and Taskwarrior.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "Calendar-server",
+    "owner": [
+      "Simple-Setup"
+    ],
+    "rating": 0,
+    "updated": "2021-10-10",
+    "url": "https://github.com/Simple-Setup/Calendar-server"
+  },
+  {
     "description": "A web-based mobile todo-list app with taskwarrior-like features",
     "dormant": false,
     "language": [
@@ -1907,21 +1862,6 @@
     "url": "https://github.com/a-tal/taskserver"
   },
   {
-    "description": "Scripts for making TaskWarrior even more useful",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": "Apache License 2.0",
-    "name": "dotfiles-task",
-    "owner": [
-      "aagnone3"
-    ],
-    "rating": 0,
-    "updated": "2018-08-09",
-    "url": "https://github.com/aagnone3/dotfiles-task"
-  },
-  {
     "description": "A Java client to communicate with a taskwarrior server (= taskd).",
     "dormant": false,
     "language": [
@@ -2040,21 +1980,6 @@
     "rating": 8,
     "updated": "2012-03-05",
     "url": "https://github.com/ajpierce/taskmailer"
-  },
-  {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "C#"
-    ],
-    "license": null,
-    "name": "aklion-crm-taskserver",
-    "owner": [
-      "ajupov"
-    ],
-    "rating": 0,
-    "updated": "2019-08-08",
-    "url": "https://github.com/ajupov/aklion-crm-taskserver"
   },
   {
     "description": "Julia Wrapper for Taskwarrior",
@@ -2357,21 +2282,6 @@
     "url": "https://github.com/arcnmx/task-blocks"
   },
   {
-    "description": "My own dotfiles.",
-    "dormant": false,
-    "language": [
-      "Vim script"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "ariel17"
-    ],
-    "rating": 0,
-    "updated": "2020-02-22",
-    "url": "https://github.com/ariel17/dotfiles"
-  },
-  {
     "description": "Go script to set up dependencies for taskwarrior tasks",
     "dormant": true,
     "language": [
@@ -2430,36 +2340,6 @@
     "rating": 3,
     "updated": "2019-03-30",
     "url": "https://github.com/arzano/taskmonad"
-  },
-  {
-    "description": "Configuration files for my personal computers.",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": "MIT License",
-    "name": "dotfiles",
-    "owner": [
-      "ashleytowner"
-    ],
-    "rating": 1,
-    "updated": "2021-10-22",
-    "url": "https://github.com/ashleytowner/dotfiles"
-  },
-  {
-    "description": "Version-controlled configuration files for my personal computers.",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfilesold",
-    "owner": [
-      "ashleytowner"
-    ],
-    "rating": 1,
-    "updated": "2021-08-05",
-    "url": "https://github.com/ashleytowner/dotfilesold"
   },
   {
     "description": null,
@@ -2580,21 +2460,6 @@
     "rating": 0,
     "updated": "2021-04-06",
     "url": "https://github.com/ayosec/task-changes"
-  },
-  {
-    "description": "taskwarrior dir",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "dottask",
-    "owner": [
-      "b-boogaard"
-    ],
-    "rating": 0,
-    "updated": "2016-04-29",
-    "url": "https://github.com/b-boogaard/dottask"
   },
   {
     "description": "Taskwarrior ncurses application in Python, inspired by tasknc",
@@ -2908,7 +2773,7 @@
       "bradyt"
     ],
     "rating": 17,
-    "updated": "2021-10-01",
+    "updated": "2021-10-23",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -2955,21 +2820,6 @@
     "rating": 2,
     "updated": "2020-06-19",
     "url": "https://github.com/brp-optics/taskmc"
-  },
-  {
-    "description": "my dotfiles",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "brunomafioletti"
-    ],
-    "rating": 0,
-    "updated": "2020-04-29",
-    "url": "https://github.com/brunomafioletti/dotfiles"
   },
   {
     "description": "Shell functions to use Taskwarrior with directory local task databases.",
@@ -3437,21 +3287,6 @@
     "url": "https://github.com/contrun/taskwarrior-terminal-kanban"
   },
   {
-    "description": "Dotfiles for NeoVim, Tmux, Zsh, and TaskWarrior",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "cousine"
-    ],
-    "rating": 0,
-    "updated": "2021-03-12",
-    "url": "https://github.com/cousine/dotfiles"
-  },
-  {
     "description": "taskserver",
     "dormant": false,
     "language": [
@@ -3510,21 +3345,6 @@
     "rating": 0,
     "updated": "2019-10-27",
     "url": "https://github.com/cvhariharan/TaskServer"
-  },
-  {
-    "description": "[Discontinued] Use Taskwarrior as simple bookmark manager",
-    "dormant": true,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "taskwarrior-um",
-    "owner": [
-      "d630"
-    ],
-    "rating": 1,
-    "updated": "2017-05-23",
-    "url": "https://github.com/d630/taskwarrior-um"
   },
   {
     "description": "merely just a script showing the most urgent task and allowing it to be marked done",
@@ -3587,21 +3407,6 @@
     "url": "https://github.com/david-ellinger/docker-taskserver"
   },
   {
-    "description": "Dotfiles spanning neovim, tmux, i3wm, qutebrowser, yabai, skhd, taskwarrior, various REPLs.",
-    "dormant": false,
-    "language": [
-      "Lua"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "davidatbu"
-    ],
-    "rating": 0,
-    "updated": "2021-10-17",
-    "url": "https://github.com/davidatbu/dotfiles"
-  },
-  {
     "description": "taskwarrior i3block with clojure's babashka",
     "dormant": false,
     "language": [
@@ -3615,21 +3420,6 @@
     "rating": 0,
     "updated": "2020-10-25",
     "url": "https://github.com/davidsierradz/i3blocks-taskwarrior-clojure"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "my_taskwarrior_setup",
-    "owner": [
-      "dbwest"
-    ],
-    "rating": 0,
-    "updated": "2019-05-27",
-    "url": "https://github.com/dbwest/my_taskwarrior_setup"
   },
   {
     "description": null,
@@ -3767,21 +3557,6 @@
     "url": "https://github.com/divagant-martian/tw-dotfiles"
   },
   {
-    "description": "Operational Transformations as the basis for a taskwarrior replacement",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "ot",
-    "owner": [
-      "djmitche"
-    ],
-    "rating": 1,
-    "updated": "2020-01-01",
-    "url": "https://github.com/djmitche/ot"
-  },
-  {
     "description": null,
     "dormant": false,
     "language": [
@@ -3840,21 +3615,6 @@
     "rating": 0,
     "updated": "2017-10-25",
     "url": "https://github.com/drchapman/taskwarrior_framework"
-  },
-  {
-    "description": "Alternative to the awesome TaskWarrior, but in Go, with some additional stuff I find useful",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "BSD 2-Clause \"Simplified\" License",
-    "name": "taskpoet",
-    "owner": [
-      "drewstinnett"
-    ],
-    "rating": 1,
-    "updated": "2021-09-17",
-    "url": "https://github.com/drewstinnett/taskpoet"
   },
   {
     "description": "Misc. scripts for pushing things to taskwarrior",
@@ -4155,21 +3915,6 @@
     "rating": 0,
     "updated": "2021-09-30",
     "url": "https://github.com/ethueter/TaskServer"
-  },
-  {
-    "description": "Exploratory testing notes for the Black Ops Testing Webinar for TaskWarrior on 22nd September 2014",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "blackopstesting_taskwarrior",
-    "owner": [
-      "eviltester"
-    ],
-    "rating": 0,
-    "updated": "2014-09-22",
-    "url": "https://github.com/eviltester/blackopstesting_taskwarrior"
   },
   {
     "description": null,
@@ -4545,21 +4290,6 @@
     "rating": 0,
     "updated": "2016-11-09",
     "url": "https://github.com/gknorton/taskwarrior"
-  },
-  {
-    "description": "Mirror of the taskserver from taskwarrior.org ",
-    "dormant": true,
-    "language": [
-      "C++"
-    ],
-    "license": "Other",
-    "name": "taskd",
-    "owner": [
-      "goldenHairDafo"
-    ],
-    "rating": 1,
-    "updated": "2015-05-25",
-    "url": "https://github.com/goldenHairDafo/taskd"
   },
   {
     "description": "taskwarrior holidays from goggle calendars",
@@ -5043,7 +4773,7 @@
   },
   {
     "description": "Creates an HTML Kanban view from taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "HTML"
     ],
@@ -5175,21 +4905,6 @@
     "rating": 0,
     "updated": "2017-10-20",
     "url": "https://github.com/jareds/docker-taskd"
-  },
-  {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "C#"
-    ],
-    "license": null,
-    "name": "TaskWarrior",
-    "owner": [
-      "jbarnes321"
-    ],
-    "rating": 1,
-    "updated": "2013-04-15",
-    "url": "https://github.com/jbarnes321/TaskWarrior"
   },
   {
     "description": "Alfred extension for integration with Taskwarrior",
@@ -5612,21 +5327,6 @@
     "url": "https://github.com/jrheard/allergy_shot_gen"
   },
   {
-    "description": "overengineered personalized-to-me taskwarrior replacement",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "rask",
-    "owner": [
-      "jrheard"
-    ],
-    "rating": 0,
-    "updated": "2021-10-19",
-    "url": "https://github.com/jrheard/rask"
-  },
-  {
     "description": "Tool for taking notes and open urls with taskwarrior",
     "dormant": false,
     "language": [
@@ -5687,21 +5387,6 @@
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
   {
-    "description": "Personal configuration files, scripts, etc.",
-    "dormant": false,
-    "language": [
-      "Vim script"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "jubnzv"
-    ],
-    "rating": 3,
-    "updated": "2021-10-16",
-    "url": "https://github.com/jubnzv/dotfiles"
-  },
-  {
     "description": "Golang library to interact with taskwarrior database",
     "dormant": false,
     "language": [
@@ -5760,21 +5445,6 @@
     "rating": 0,
     "updated": "2013-07-18",
     "url": "https://github.com/jvonmitchell/taskserver"
-  },
-  {
-    "description": "Ansible-driven configuration management for maintaining a preferred environment (base system and app dotfiles / configurations)",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "swiss-army",
-    "owner": [
-      "jwflory"
-    ],
-    "rating": 44,
-    "updated": "2020-08-29",
-    "url": "https://github.com/jwflory/swiss-army"
   },
   {
     "description": "My Linux configuration, feel free to steal or get in touch.",
@@ -5847,7 +5517,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 546,
+    "rating": 547,
     "updated": "2021-10-18",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6030,21 +5700,6 @@
     "rating": 121,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
-  },
-  {
-    "description": "A script intended for note-taking that generates Anki flash card decks and Taskwarrior tasks from Markdown files",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "noteman",
-    "owner": [
-      "kpence"
-    ],
-    "rating": 1,
-    "updated": "2020-09-10",
-    "url": "https://github.com/kpence/noteman"
   },
   {
     "description": "Solarized theme for task warrior",
@@ -6257,21 +5912,6 @@
     "url": "https://github.com/lemontree1991/TaskServer"
   },
   {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "leonchen"
-    ],
-    "rating": 1,
-    "updated": "2012-07-25",
-    "url": "https://github.com/leonchen/taskserver"
-  },
-  {
     "description": "A set of configuration files for use with AlpineWSL under Windows 10",
     "dormant": false,
     "language": [
@@ -6345,21 +5985,6 @@
     "rating": 1,
     "updated": "2014-01-14",
     "url": "https://github.com/liambrownweb/taskwarrior-tray"
-  },
-  {
-    "description": "Archlinux PKGBUILD for installing my settings after a new installation",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": "MIT License",
-    "name": "4rch",
-    "owner": [
-      "lievin-christopher"
-    ],
-    "rating": 1,
-    "updated": "2021-06-27",
-    "url": "https://github.com/lievin-christopher/4rch"
   },
   {
     "description": "Systray app for pomodoro with taskwarrior (moved to https://github.com/liloman/pomodoroTasks2)",
@@ -7457,36 +7082,6 @@
     "url": "https://github.com/mzokov-zz/TaskServer"
   },
   {
-    "description": "Workstation configuration, provisioning and tools",
-    "dormant": false,
-    "language": [
-      "Vim script"
-    ],
-    "license": "MIT License",
-    "name": "dotfiles",
-    "owner": [
-      "naggie"
-    ],
-    "rating": 75,
-    "updated": "2021-10-20",
-    "url": "https://github.com/naggie/dotfiles"
-  },
-  {
-    "description": "Terminal-based todo manager -- git-based sync + markdown note page per task. Single binary!",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "dstask",
-    "owner": [
-      "naggie"
-    ],
-    "rating": 514,
-    "updated": "2021-10-21",
-    "url": "https://github.com/naggie/dstask"
-  },
-  {
     "description": "Simple GUI client for Taskwarrior",
     "dormant": true,
     "language": [
@@ -8462,21 +8057,6 @@
     "url": "https://github.com/rmonico/itask"
   },
   {
-    "description": "My task warrior config",
-    "dormant": true,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dot-taskwarrior",
-    "owner": [
-      "roaet"
-    ],
-    "rating": 0,
-    "updated": "2013-05-17",
-    "url": "https://github.com/roaet/dot-taskwarrior"
-  },
-  {
     "description": "taskwarrior for android",
     "dormant": true,
     "language": [
@@ -8642,21 +8222,6 @@
     "url": "https://github.com/ryansb/gitwarrior"
   },
   {
-    "description": "My dotfiles for GNU+Linux",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "salahdin-ahmed"
-    ],
-    "rating": 1,
-    "updated": "2021-08-15",
-    "url": "https://github.com/salahdin-ahmed/dotfiles"
-  },
-  {
     "description": "A simple pomodoro tool for task warrior",
     "dormant": false,
     "language": [
@@ -8685,21 +8250,6 @@
     "rating": 0,
     "updated": "2021-10-10",
     "url": "https://github.com/samxsmith/taskwarrior_utils"
-  },
-  {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "sand8080"
-    ],
-    "rating": 1,
-    "updated": "2012-05-25",
-    "url": "https://github.com/sand8080/taskserver"
   },
   {
     "description": "A repository where I play around with taskwarrior theme files",
@@ -8882,21 +8432,6 @@
     "url": "https://github.com/shebang/base16-taskwarrior"
   },
   {
-    "description": "My list on Taskwarrior",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": ".task",
-    "owner": [
-      "shgysk8zer0"
-    ],
-    "rating": 0,
-    "updated": "2017-09-03",
-    "url": "https://github.com/shgysk8zer0/.task"
-  },
-  {
     "description": null,
     "dormant": true,
     "language": [
@@ -9032,21 +8567,6 @@
     "url": "https://github.com/smaboshe/taskwarrior-backup"
   },
   {
-    "description": "dotfiles: taskwarrior config files and scripts",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": ".task",
-    "owner": [
-      "smemsh"
-    ],
-    "rating": 0,
-    "updated": "2021-10-22",
-    "url": "https://github.com/smemsh/.task"
-  },
-  {
     "description": "Taskwarrior confguration",
     "dormant": true,
     "language": [
@@ -9092,21 +8612,6 @@
     "url": "https://github.com/sorrowless/twsyncer"
   },
   {
-    "description": "A simple task and time manager. Project moved here:",
-    "dormant": true,
-    "language": [
-      "Vim script"
-    ],
-    "license": "MIT License",
-    "name": "kronos.vim",
-    "owner": [
-      "soywod"
-    ],
-    "rating": 201,
-    "updated": "2019-11-11",
-    "url": "https://github.com/soywod/kronos.vim"
-  },
-  {
     "description": "\u23f1 Vim plugin for Unfog CLI task & time manager.",
     "dormant": false,
     "language": [
@@ -9117,7 +8622,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 58,
+    "rating": 59,
     "updated": "2021-01-17",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -9287,21 +8792,6 @@
     "url": "https://github.com/straumer/taskscripts"
   },
   {
-    "description": "Library that can be used by both sides of the TaskServer Lab @ HiAls DataKomm course: the server and the client",
-    "dormant": true,
-    "language": [
-      "Java"
-    ],
-    "license": null,
-    "name": "hials-taskserver-lib",
-    "owner": [
-      "strazdinsg"
-    ],
-    "rating": 0,
-    "updated": "2015-11-08",
-    "url": "https://github.com/strazdinsg/hials-taskserver-lib"
-  },
-  {
     "description": "experimental implementation of GTD with Taskwarrior and vit",
     "dormant": true,
     "language": [
@@ -9407,21 +8897,6 @@
     "url": "https://github.com/talwrii/taskwarrior-activity-list"
   },
   {
-    "description": "personal task-tracking",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "taskchampion",
-    "owner": [
-      "taskchampion"
-    ],
-    "rating": 30,
-    "updated": "2021-10-21",
-    "url": "https://github.com/taskchampion/taskchampion"
-  },
-  {
     "description": "Create a taskwarrior/tmux/xterm session with multiple reports and refreshing",
     "dormant": false,
     "language": [
@@ -9435,21 +8910,6 @@
     "rating": 39,
     "updated": "2021-05-28",
     "url": "https://github.com/taskswamp/taskswamp"
-  },
-  {
-    "description": "A unconservative fork of taskwarrior/task.",
-    "dormant": true,
-    "language": [
-      "C++"
-    ],
-    "license": "Other",
-    "name": "task",
-    "owner": [
-      "tbabej"
-    ],
-    "rating": 3,
-    "updated": "2016-03-08",
-    "url": "https://github.com/tbabej/task"
   },
   {
     "description": "A pluggable system for tasklib based TaskWarrior hooks. Faster, less boilerplate code!",
@@ -9702,7 +9162,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 608,
+    "rating": 607,
     "updated": "2021-10-20",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9765,36 +9225,6 @@
     "rating": 0,
     "updated": "2014-03-16",
     "url": "https://github.com/tribly/task-notify"
-  },
-  {
-    "description": "my taskwarrior config",
-    "dormant": true,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": ".task",
-    "owner": [
-      "tshirtman"
-    ],
-    "rating": 5,
-    "updated": "2015-08-04",
-    "url": "https://github.com/tshirtman/.task"
-  },
-  {
-    "description": "Taskwarrior fork",
-    "dormant": false,
-    "language": [
-      "C++"
-    ],
-    "license": "The Unlicense",
-    "name": "CLITaskOgre",
-    "owner": [
-      "tybl"
-    ],
-    "rating": 0,
-    "updated": "2021-04-15",
-    "url": "https://github.com/tybl/CLITaskOgre"
   },
   {
     "description": "Provides support for attachment management for Taskwarrior",
@@ -9870,21 +9300,6 @@
     "rating": 0,
     "updated": "2020-08-21",
     "url": "https://github.com/v786/TaskServer"
-  },
-  {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "C#"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "vadimprogsource"
-    ],
-    "rating": 1,
-    "updated": "2016-01-12",
-    "url": "https://github.com/vadimprogsource/TaskServer"
   },
   {
     "description": "OpenTaskServer is a Symfony2 bundle to manage automatically a list of tasks ",
@@ -10052,21 +9467,6 @@
     "url": "https://github.com/voidcase/taskseq"
   },
   {
-    "description": "@vonpupp's dotfiles for taskwarrior (https://taskwarrior.org/) and gcalcli. Managed by homeshick.",
-    "dormant": true,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfiles-task",
-    "owner": [
-      "vonpupp"
-    ],
-    "rating": 0,
-    "updated": "2017-11-23",
-    "url": "https://github.com/vonpupp/dotfiles-task"
-  },
-  {
     "description": "A Dockerfile for Taskwarrior container image",
     "dormant": true,
     "language": [
@@ -10125,21 +9525,6 @@
     "rating": 4,
     "updated": "2012-07-06",
     "url": "https://github.com/wichtounet/taskwarrior-php"
-  },
-  {
-    "description": "Todoist cli with taskwarrior likeness",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "francis",
-    "owner": [
-      "willkg"
-    ],
-    "rating": 2,
-    "updated": "2016-07-22",
-    "url": "https://github.com/willkg/francis"
   },
   {
     "description": "Ansible role for Taskwarrior's taskserver",
@@ -10277,21 +9662,6 @@
     "url": "https://github.com/yahya127/taskServer8"
   },
   {
-    "description": "\u57fa\u4e8eswoole\u5199\u7684taskserver",
-    "dormant": true,
-    "language": [
-      "PHP"
-    ],
-    "license": null,
-    "name": "swoole_task",
-    "owner": [
-      "yangzuwei"
-    ],
-    "rating": 0,
-    "updated": "2017-06-01",
-    "url": "https://github.com/yangzuwei/swoole_task"
-  },
-  {
     "description": null,
     "dormant": true,
     "language": [
@@ -10382,21 +9752,6 @@
     "url": "https://github.com/yhaenggi/taskserver-kubernetes"
   },
   {
-    "description": "my dotfiles for vim, taskwarrior and such",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "dotfiles",
-    "owner": [
-      "yigitsever"
-    ],
-    "rating": 0,
-    "updated": "2019-03-17",
-    "url": "https://github.com/yigitsever/dotfiles"
-  },
-  {
     "description": null,
     "dormant": false,
     "language": [
@@ -10410,21 +9765,6 @@
     "rating": 0,
     "updated": "2019-02-25",
     "url": "https://github.com/yitsushi/taskwarrior-docker"
-  },
-  {
-    "description": "C/S\u67b6\u6784\u7684\u9ad8\u5e76\u53d1\u4efb\u52a1\u7ba1\u7406\u7cfb\u7edf",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskServer",
-    "owner": [
-      "ylcode3"
-    ],
-    "rating": 1,
-    "updated": "2017-06-25",
-    "url": "https://github.com/ylcode3/taskServer"
   },
   {
     "description": null,
