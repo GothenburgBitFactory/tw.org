@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2021-09-27",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -747,7 +747,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-08-13",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
@@ -2697,7 +2697,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 473,
+    "rating": 474,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3162,7 +3162,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 481,
+    "rating": 482,
     "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3207,7 +3207,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 241,
+    "rating": 242,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5592,7 +5592,7 @@
     "owner": [
       "kevinstadler"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-05-05",
     "url": "https://github.com/kevinstadler/taskwarrior-vit-config"
   },
@@ -8878,7 +8878,7 @@
       "szaffarano"
     ],
     "rating": 1,
-    "updated": "2021-10-18",
+    "updated": "2021-10-24",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -9163,7 +9163,7 @@
       "tools-life"
     ],
     "rating": 607,
-    "updated": "2021-10-20",
+    "updated": "2021-10-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
