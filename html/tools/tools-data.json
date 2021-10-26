@@ -1547,6 +1547,21 @@
     "url": "https://github.com/SteveMuise/TaskServer"
   },
   {
+    "description": "servidor de mern task",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "SvantDreki"
+    ],
+    "rating": 0,
+    "updated": "2021-10-25",
+    "url": "https://github.com/SvantDreki/TaskServer"
+  },
+  {
     "description": "Time tracking web/cli app based on Taskwarrior",
     "dormant": true,
     "language": [
@@ -3162,7 +3177,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 482,
+    "rating": 483,
     "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3468,7 +3483,7 @@
   },
   {
     "description": "Simple & fast Taskwarrior web frontend",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -3478,7 +3493,7 @@
       "desbma"
     ],
     "rating": 5,
-    "updated": "2021-02-07",
+    "updated": "2021-10-25",
     "url": "https://github.com/desbma/task-board"
   },
   {
@@ -5517,7 +5532,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 547,
+    "rating": 549,
     "updated": "2021-10-18",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9402,7 +9417,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 286,
+    "rating": 288,
     "updated": "2021-10-14",
     "url": "https://github.com/vit-project/vit"
   },
@@ -9840,6 +9855,21 @@
     "rating": 0,
     "updated": "2019-02-17",
     "url": "https://github.com/yulqen/tw_templates"
+  },
+  {
+    "description": "Integrate taskwarrior and REMIND",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "twremind",
+    "owner": [
+      "yulqen"
+    ],
+    "rating": 0,
+    "updated": "2021-10-25",
+    "url": "https://github.com/yulqen/twremind"
   },
   {
     "description": "A puppet role designed to set up the taskwarrior server",
