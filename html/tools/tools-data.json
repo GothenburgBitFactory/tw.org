@@ -2667,7 +2667,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 26,
+    "rating": 25,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -4362,7 +4362,7 @@
     "owner": [
       "grovesteyn"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2013-10-31",
     "url": "https://github.com/grovesteyn/tchart"
   },
@@ -5532,8 +5532,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 549,
-    "updated": "2021-10-18",
+    "rating": 551,
+    "updated": "2021-10-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5578,7 +5578,7 @@
       "kellya"
     ],
     "rating": 0,
-    "updated": "2021-10-19",
+    "updated": "2021-10-26",
     "url": "https://github.com/kellya/task-status"
   },
   {
@@ -7962,8 +7962,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 568,
-    "updated": "2021-10-18",
+    "rating": 569,
+    "updated": "2021-10-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8025,6 +8025,21 @@
     "rating": 1,
     "updated": "2015-05-31",
     "url": "https://github.com/regnat/twui"
+  },
+  {
+    "description": "Self-hostable Telegram bot to interface with Taskwarrior through the inthe.am api",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "tg-taskwarrior-bot",
+    "owner": [
+      "rhnvrm"
+    ],
+    "rating": 0,
+    "updated": "2021-10-26",
+    "url": "https://github.com/rhnvrm/tg-taskwarrior-bot"
   },
   {
     "description": "Automated testing tool",
@@ -8325,21 +8340,6 @@
     "rating": 1,
     "updated": "2021-05-20",
     "url": "https://github.com/scmbradley/taskw-i3blocks"
-  },
-  {
-    "description": "Rust todo manager with notes",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "tasker",
-    "owner": [
-      "sebastian-steiner"
-    ],
-    "rating": 2,
-    "updated": "2019-04-03",
-    "url": "https://github.com/sebastian-steiner/tasker"
   },
   {
     "description": "Taskwarrior extension for vscode",
@@ -9177,7 +9177,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 607,
+    "rating": 608,
     "updated": "2021-10-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9417,8 +9417,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 288,
-    "updated": "2021-10-14",
+    "rating": 289,
+    "updated": "2021-10-26",
     "url": "https://github.com/vit-project/vit"
   },
   {
