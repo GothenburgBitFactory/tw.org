@@ -282,7 +282,7 @@
     "owner": [
       "AnotherKamila"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2019-03-05",
     "url": "https://github.com/AnotherKamila/tasksched"
   },
@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2021-09-27",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -717,7 +717,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 100,
+    "rating": 99,
     "updated": "2021-10-10",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -747,7 +747,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 2,
+    "rating": 1,
     "updated": "2021-08-13",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
@@ -1152,7 +1152,7 @@
     "owner": [
       "Mossop"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-09-22",
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
@@ -2412,7 +2412,7 @@
     "owner": [
       "avli"
     ],
-    "rating": 13,
+    "rating": 12,
     "updated": "2018-03-11",
     "url": "https://github.com/avli/taskwarrior"
   },
@@ -2667,7 +2667,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -5473,7 +5473,7 @@
       "kaiec"
     ],
     "rating": 2,
-    "updated": "2021-09-23",
+    "updated": "2021-10-27",
     "url": "https://github.com/kaiec/dotfiles"
   },
   {
@@ -5532,8 +5532,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 551,
-    "updated": "2021-10-26",
+    "rating": 553,
+    "updated": "2021-10-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5578,7 +5578,7 @@
       "kellya"
     ],
     "rating": 0,
-    "updated": "2021-10-26",
+    "updated": "2021-10-27",
     "url": "https://github.com/kellya/task-status"
   },
   {
@@ -5608,7 +5608,7 @@
       "kevinstadler"
     ],
     "rating": 1,
-    "updated": "2021-05-05",
+    "updated": "2021-10-27",
     "url": "https://github.com/kevinstadler/taskwarrior-vit-config"
   },
   {
@@ -6225,6 +6225,21 @@
     "rating": 1,
     "updated": "2015-08-31",
     "url": "https://github.com/linuxcaffe/tw-themes-config"
+  },
+  {
+    "description": "A crontab setup to export a Time Of Day system variable, as a filter for taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "tw-tod-crontab",
+    "owner": [
+      "linuxcaffe"
+    ],
+    "rating": 0,
+    "updated": "2021-10-28",
+    "url": "https://github.com/linuxcaffe/tw-tod-crontab"
   },
   {
     "description": "taskwarrior time-of-day script",
@@ -8342,6 +8357,21 @@
     "url": "https://github.com/scmbradley/taskw-i3blocks"
   },
   {
+    "description": "Rust todo manager with notes",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "tasker",
+    "owner": [
+      "sebastian-steiner"
+    ],
+    "rating": 2,
+    "updated": "2019-04-03",
+    "url": "https://github.com/sebastian-steiner/tasker"
+  },
+  {
     "description": "Taskwarrior extension for vscode",
     "dormant": false,
     "language": [
@@ -9087,7 +9117,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 458,
+    "rating": 459,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9417,8 +9447,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 289,
-    "updated": "2021-10-26",
+    "rating": 291,
+    "updated": "2021-10-27",
     "url": "https://github.com/vit-project/vit"
   },
   {
