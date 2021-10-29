@@ -2788,7 +2788,7 @@
       "bradyt"
     ],
     "rating": 17,
-    "updated": "2021-10-23",
+    "updated": "2021-10-28",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -4557,7 +4557,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -5533,7 +5533,7 @@
       "kdheepak"
     ],
     "rating": 553,
-    "updated": "2021-10-27",
+    "updated": "2021-10-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -7340,7 +7340,7 @@
     "description": "Installs taskserver to sync tasks with taskwarrior",
     "dormant": false,
     "language": [
-      "N/A"
+      "Jinja"
     ],
     "license": "GNU General Public License v3.0",
     "name": "ansible-role-taskserver",
@@ -7348,7 +7348,7 @@
       "nkakouros-original"
     ],
     "rating": 2,
-    "updated": "2019-10-08",
+    "updated": "2021-10-28",
     "url": "https://github.com/nkakouros-original/ansible-role-taskserver"
   },
   {
@@ -7365,6 +7365,21 @@
     "rating": 0,
     "updated": "2019-10-08",
     "url": "https://github.com/nkakouros-original/ansible-role-taskwarrior-web"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwarrior-caldav-bridge",
+    "owner": [
+      "nkakouros-original"
+    ],
+    "rating": 0,
+    "updated": "2021-10-28",
+    "url": "https://github.com/nkakouros-original/taskwarrior-caldav-bridge"
   },
   {
     "description": "A time schedule report for taskwarrior",
@@ -9447,7 +9462,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 291,
+    "rating": 290,
     "updated": "2021-10-27",
     "url": "https://github.com/vit-project/vit"
   },
