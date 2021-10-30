@@ -3222,7 +3222,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 242,
+    "rating": 243,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4228,7 +4228,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2021-10-02",
+    "updated": "2021-10-29",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5532,8 +5532,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 553,
-    "updated": "2021-10-28",
+    "rating": 555,
+    "updated": "2021-10-29",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5578,7 +5578,7 @@
       "kellya"
     ],
     "rating": 0,
-    "updated": "2021-10-27",
+    "updated": "2021-10-29",
     "url": "https://github.com/kellya/task-status"
   },
   {
@@ -6238,7 +6238,7 @@
       "linuxcaffe"
     ],
     "rating": 0,
-    "updated": "2021-10-28",
+    "updated": "2021-10-29",
     "url": "https://github.com/linuxcaffe/tw-tod-crontab"
   },
   {
@@ -7993,7 +7993,7 @@
       "ralphbean"
     ],
     "rating": 569,
-    "updated": "2021-10-26",
+    "updated": "2021-10-29",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9163,7 +9163,7 @@
       "timcase"
     ],
     "rating": 0,
-    "updated": "2021-06-17",
+    "updated": "2021-10-29",
     "url": "https://github.com/timcase/taskwarrior"
   },
   {
@@ -9462,7 +9462,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 290,
+    "rating": 291,
     "updated": "2021-10-27",
     "url": "https://github.com/vit-project/vit"
   },
