@@ -2278,7 +2278,7 @@
       "andrey-utkin"
     ],
     "rating": 22,
-    "updated": "2021-03-08",
+    "updated": "2021-10-30",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
   {
@@ -2862,7 +2862,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 84,
+    "rating": 85,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -5412,7 +5412,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2018-11-06",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
@@ -5518,7 +5518,7 @@
       "kdheepak"
     ],
     "rating": 0,
-    "updated": "2021-10-18",
+    "updated": "2021-10-30",
     "url": "https://github.com/kdheepak/taskwarrior-testdata"
   },
   {
@@ -5532,8 +5532,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 555,
-    "updated": "2021-10-29",
+    "rating": 556,
+    "updated": "2021-10-30",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6238,7 +6238,7 @@
       "linuxcaffe"
     ],
     "rating": 0,
-    "updated": "2021-10-29",
+    "updated": "2021-10-30",
     "url": "https://github.com/linuxcaffe/tw-tod-crontab"
   },
   {
@@ -7993,7 +7993,7 @@
       "ralphbean"
     ],
     "rating": 569,
-    "updated": "2021-10-29",
+    "updated": "2021-10-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9465,21 +9465,6 @@
     "rating": 291,
     "updated": "2021-10-27",
     "url": "https://github.com/vit-project/vit"
-  },
-  {
-    "description": "Modern Task Warrior is ToDo application on Golang",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "modern-taskwarrior",
-    "owner": [
-      "vit1251"
-    ],
-    "rating": 0,
-    "updated": "2021-09-24",
-    "url": "https://github.com/vit1251/modern-taskwarrior"
   },
   {
     "description": "taskwarrior server",
