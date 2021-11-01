@@ -2278,7 +2278,7 @@
       "andrey-utkin"
     ],
     "rating": 22,
-    "updated": "2021-10-30",
+    "updated": "2021-10-31",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
   {
@@ -3492,7 +3492,7 @@
     "owner": [
       "desbma"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2021-10-25",
     "url": "https://github.com/desbma/task-board"
   },
@@ -4032,7 +4032,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 114,
+    "rating": 115,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -5428,7 +5428,7 @@
       "jubnzv"
     ],
     "rating": 4,
-    "updated": "2021-09-06",
+    "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
@@ -5532,8 +5532,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 556,
-    "updated": "2021-10-30",
+    "rating": 557,
+    "updated": "2021-10-31",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5597,7 +5597,7 @@
     "url": "https://github.com/kellya/tw-spaceduck"
   },
   {
-    "description": "custom .taskrc and .vit/config.ini files",
+    "description": "a taskwarrior - vit - vimwiki pipeline",
     "dormant": false,
     "language": [
       "Python"
@@ -5607,9 +5607,24 @@
     "owner": [
       "kevinstadler"
     ],
+    "rating": 0,
+    "updated": "2021-10-31",
+    "url": "https://github.com/kevinstadler/taskwarrior-vit-config"
+  },
+  {
+    "description": "custom .taskrc and .vit/config.ini files",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwarrior-vit-config-old",
+    "owner": [
+      "kevinstadler"
+    ],
     "rating": 1,
     "updated": "2021-10-27",
-    "url": "https://github.com/kevinstadler/taskwarrior-vit-config"
+    "url": "https://github.com/kevinstadler/taskwarrior-vit-config-old"
   },
   {
     "description": "PHP library for interacting with Taskwarrior 2.x",
@@ -7993,7 +8008,7 @@
       "ralphbean"
     ],
     "rating": 569,
-    "updated": "2021-10-30",
+    "updated": "2021-10-31",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8052,7 +8067,7 @@
     "owner": [
       "regnat"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2015-05-31",
     "url": "https://github.com/regnat/twui"
   },
@@ -9132,7 +9147,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 459,
+    "rating": 460,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9463,7 +9478,7 @@
       "vit-project"
     ],
     "rating": 291,
-    "updated": "2021-10-27",
+    "updated": "2021-10-31",
     "url": "https://github.com/vit-project/vit"
   },
   {
