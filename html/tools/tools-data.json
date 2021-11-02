@@ -212,21 +212,6 @@
     "url": "https://github.com/AlexanderBrevig/twgcals"
   },
   {
-    "description": "An app to defeat procrastination",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "just-start",
-    "owner": [
-      "AliGhahraei"
-    ],
-    "rating": 4,
-    "updated": "2021-05-13",
-    "url": "https://github.com/AliGhahraei/just-start"
-  },
-  {
     "description": null,
     "dormant": false,
     "language": [
@@ -2518,7 +2503,7 @@
       "bergercookie"
     ],
     "rating": 103,
-    "updated": "2021-07-24",
+    "updated": "2021-11-01",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -3493,7 +3478,7 @@
       "desbma"
     ],
     "rating": 6,
-    "updated": "2021-10-25",
+    "updated": "2021-11-01",
     "url": "https://github.com/desbma/task-board"
   },
   {
@@ -5518,7 +5503,7 @@
       "kdheepak"
     ],
     "rating": 0,
-    "updated": "2021-10-30",
+    "updated": "2021-11-01",
     "url": "https://github.com/kdheepak/taskwarrior-testdata"
   },
   {
@@ -5532,8 +5517,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 557,
-    "updated": "2021-10-31",
+    "rating": 559,
+    "updated": "2021-11-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6612,7 +6597,7 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
@@ -9117,7 +9102,7 @@
     "owner": [
       "thehunmonkgroup"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2021-08-15",
     "url": "https://github.com/thehunmonkgroup/onenote"
   },
@@ -9525,21 +9510,6 @@
     "rating": 2,
     "updated": "2020-06-26",
     "url": "https://github.com/voidcase/taskseq"
-  },
-  {
-    "description": "A Dockerfile for Taskwarrior container image",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskwarrior-dockerfile",
-    "owner": [
-      "vpavlin"
-    ],
-    "rating": 0,
-    "updated": "2015-08-18",
-    "url": "https://github.com/vpavlin/taskwarrior-dockerfile"
   },
   {
     "description": "Telch is a web interface for taskwarrior",
