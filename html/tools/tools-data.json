@@ -212,6 +212,21 @@
     "url": "https://github.com/AlexanderBrevig/twgcals"
   },
   {
+    "description": "An app to defeat procrastination",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "just-start",
+    "owner": [
+      "AliGhahraei"
+    ],
+    "rating": 4,
+    "updated": "2021-05-13",
+    "url": "https://github.com/AliGhahraei/just-start"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
@@ -702,7 +717,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 99,
+    "rating": 100,
     "updated": "2021-10-10",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -747,7 +762,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -2503,7 +2518,7 @@
       "bergercookie"
     ],
     "rating": 103,
-    "updated": "2021-11-01",
+    "updated": "2021-11-02",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -2592,7 +2607,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 101,
+    "rating": 102,
     "updated": "2021-09-27",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3162,7 +3177,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 483,
+    "rating": 484,
     "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3207,7 +3222,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 243,
+    "rating": 244,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4213,7 +4228,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2021-10-29",
+    "updated": "2021-11-02",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5517,8 +5532,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 559,
-    "updated": "2021-11-01",
+    "rating": 561,
+    "updated": "2021-11-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6213,7 +6228,7 @@
   },
   {
     "description": "16color and 256color, light and dark theme files for taskwarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "N/A"
     ],
@@ -6223,7 +6238,7 @@
       "linuxcaffe"
     ],
     "rating": 1,
-    "updated": "2015-08-31",
+    "updated": "2021-11-02",
     "url": "https://github.com/linuxcaffe/tw-themes-config"
   },
   {
@@ -7993,7 +8008,7 @@
       "ralphbean"
     ],
     "rating": 569,
-    "updated": "2021-10-31",
+    "updated": "2021-11-02",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8022,7 +8037,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 140,
+    "rating": 141,
     "updated": "2021-10-10",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -8942,6 +8957,21 @@
     "url": "https://github.com/szaffarano/gotas"
   },
   {
+    "description": "A Taskserver for Taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "szczepad"
+    ],
+    "rating": 0,
+    "updated": "2021-11-02",
+    "url": "https://github.com/szczepad/taskserver"
+  },
+  {
     "description": "Hook for task warrior that stores stop and start times in task annotations",
     "dormant": true,
     "language": [
@@ -9222,7 +9252,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 608,
+    "rating": 611,
     "updated": "2021-10-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9510,6 +9540,21 @@
     "rating": 2,
     "updated": "2020-06-26",
     "url": "https://github.com/voidcase/taskseq"
+  },
+  {
+    "description": "A Dockerfile for Taskwarrior container image",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-dockerfile",
+    "owner": [
+      "vpavlin"
+    ],
+    "rating": 0,
+    "updated": "2015-08-18",
+    "url": "https://github.com/vpavlin/taskwarrior-dockerfile"
   },
   {
     "description": "Telch is a web interface for taskwarrior",
