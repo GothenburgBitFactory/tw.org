@@ -2667,7 +2667,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -5418,7 +5418,7 @@
   },
   {
     "description": "Golang library to interact with taskwarrior database",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -5548,7 +5548,7 @@
       "kdheepak"
     ],
     "rating": 569,
-    "updated": "2021-11-05",
+    "updated": "2021-11-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6013,7 +6013,7 @@
       "lharding"
     ],
     "rating": 112,
-    "updated": "2020-10-21",
+    "updated": "2021-11-06",
     "url": "https://github.com/lharding/tasknc"
   },
   {
@@ -7067,6 +7067,21 @@
     "url": "https://github.com/mrwonko/WPTaskClient"
   },
   {
+    "description": "Task Warrior Server",
+    "dormant": false,
+    "language": [
+      "Makefile"
+    ],
+    "license": null,
+    "name": "docker-taskserver",
+    "owner": [
+      "mshorty"
+    ],
+    "rating": 0,
+    "updated": "2021-11-06",
+    "url": "https://github.com/mshorty/docker-taskserver"
+  },
+  {
     "description": "add toggl integration to taskwarrior",
     "dormant": false,
     "language": [
@@ -7395,21 +7410,6 @@
     "rating": 0,
     "updated": "2019-10-08",
     "url": "https://github.com/nkakouros-original/ansible-role-taskwarrior-web"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskwarrior-caldav-bridge",
-    "owner": [
-      "nkakouros-original"
-    ],
-    "rating": 0,
-    "updated": "2021-11-05",
-    "url": "https://github.com/nkakouros-original/taskwarrior-caldav-bridge"
   },
   {
     "description": "A time schedule report for taskwarrior",
@@ -9027,7 +9027,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 28,
+    "rating": 27,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -9147,7 +9147,7 @@
     "owner": [
       "thehunmonkgroup"
     ],
-    "rating": 13,
+    "rating": 12,
     "updated": "2021-08-15",
     "url": "https://github.com/thehunmonkgroup/onenote"
   },
@@ -9507,7 +9507,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 293,
+    "rating": 292,
     "updated": "2021-11-04",
     "url": "https://github.com/vit-project/vit"
   },
