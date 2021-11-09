@@ -717,8 +717,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 100,
-    "updated": "2021-11-07",
+    "rating": 101,
+    "updated": "2021-11-08",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
   {
@@ -1168,7 +1168,7 @@
       "Na11a"
     ],
     "rating": 0,
-    "updated": "2021-11-04",
+    "updated": "2021-11-08",
     "url": "https://github.com/Na11a/TaskServer-client"
   },
   {
@@ -5547,7 +5547,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 569,
+    "rating": 570,
     "updated": "2021-11-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8022,8 +8022,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 570,
-    "updated": "2021-11-03",
+    "rating": 571,
+    "updated": "2021-11-08",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9177,7 +9177,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 460,
+    "rating": 461,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
