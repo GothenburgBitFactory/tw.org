@@ -162,7 +162,7 @@
     "owner": [
       "Aerex"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-10-15",
     "url": "https://github.com/Aerex/icaltask"
   },
@@ -777,7 +777,7 @@
     "owner": [
       "HTunne"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-10-07",
     "url": "https://github.com/HTunne/task-rest"
   },
@@ -792,7 +792,7 @@
     "owner": [
       "HTunne"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2020-10-04",
     "url": "https://github.com/HTunne/task-vue"
   },
@@ -972,7 +972,7 @@
     "owner": [
       "KevCui"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2021-11-07",
     "url": "https://github.com/KevCui/dotfiles"
   },
@@ -2667,7 +2667,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2712,7 +2712,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 474,
+    "rating": 475,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -2788,7 +2788,7 @@
       "bradyt"
     ],
     "rating": 17,
-    "updated": "2021-11-05",
+    "updated": "2021-11-09",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3192,7 +3192,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 485,
+    "rating": 486,
     "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5202,7 +5202,7 @@
     "owner": [
       "jonathanabennett"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-08-14",
     "url": "https://github.com/jonathanabennett/gtd-review"
   },
@@ -5548,7 +5548,7 @@
       "kdheepak"
     ],
     "rating": 570,
-    "updated": "2021-11-06",
+    "updated": "2021-11-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6057,7 +6057,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2017-11-11",
     "url": "https://github.com/liloman/pomodoroTasks2"
   },
@@ -7542,7 +7542,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2020-02-06",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -7557,7 +7557,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 87,
+    "rating": 88,
     "updated": "2021-05-14",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -8052,7 +8052,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 141,
+    "rating": 142,
     "updated": "2021-10-10",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -8278,7 +8278,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2021-11-06",
+    "updated": "2021-11-10",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9267,7 +9267,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 612,
+    "rating": 613,
     "updated": "2021-10-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9507,7 +9507,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 292,
+    "rating": 294,
     "updated": "2021-11-04",
     "url": "https://github.com/vit-project/vit"
   },
@@ -9942,7 +9942,7 @@
     "owner": [
       "yulqen"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-10-25",
     "url": "https://github.com/yulqen/twremind"
   },
