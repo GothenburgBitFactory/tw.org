@@ -2667,7 +2667,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3192,7 +3192,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 486,
+    "rating": 487,
     "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4047,7 +4047,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 115,
+    "rating": 116,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -4812,7 +4812,7 @@
     "owner": [
       "j-jith"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2018-10-23",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
@@ -5547,8 +5547,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 570,
-    "updated": "2021-11-09",
+    "rating": 571,
+    "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6105,6 +6105,21 @@
     "rating": 1,
     "updated": "2015-06-27",
     "url": "https://github.com/linkux-it/battleground"
+  },
+  {
+    "description": "A Taskwarrior hook that logs task start/stop times to a file that (h)ledger can read",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "task-timeclock-hook",
+    "owner": [
+      "linuxcaffe"
+    ],
+    "rating": 0,
+    "updated": "2021-11-11",
+    "url": "https://github.com/linuxcaffe/task-timeclock-hook"
   },
   {
     "description": "a taskwarrior utility program to directly manipulate task *.data files",
@@ -8023,7 +8038,7 @@
       "ralphbean"
     ],
     "rating": 571,
-    "updated": "2021-11-08",
+    "updated": "2021-11-10",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8052,7 +8067,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 142,
+    "rating": 143,
     "updated": "2021-10-10",
     "url": "https://github.com/ralphbean/taskw"
   },
