@@ -5547,7 +5547,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 571,
+    "rating": 572,
     "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6113,13 +6113,13 @@
       "Python"
     ],
     "license": "GNU General Public License v3.0",
-    "name": "task-timeclock-hook",
+    "name": "task-timelog-hook",
     "owner": [
       "linuxcaffe"
     ],
     "rating": 0,
     "updated": "2021-11-11",
-    "url": "https://github.com/linuxcaffe/task-timeclock-hook"
+    "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
     "description": "a taskwarrior utility program to directly manipulate task *.data files",
@@ -8037,7 +8037,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 571,
+    "rating": 573,
     "updated": "2021-11-10",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -8067,7 +8067,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 143,
+    "rating": 144,
     "updated": "2021-10-10",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -8998,7 +8998,7 @@
       "szczepad"
     ],
     "rating": 0,
-    "updated": "2021-11-07",
+    "updated": "2021-11-11",
     "url": "https://github.com/szczepad/taskserver"
   },
   {
