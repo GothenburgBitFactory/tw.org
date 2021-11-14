@@ -433,7 +433,7 @@
       "DCsunset"
     ],
     "rating": 30,
-    "updated": "2021-09-27",
+    "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -973,7 +973,7 @@
       "KevCui"
     ],
     "rating": 14,
-    "updated": "2021-11-07",
+    "updated": "2021-11-12",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2667,7 +2667,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2730,6 +2730,21 @@
     "rating": 1,
     "updated": "2016-02-13",
     "url": "https://github.com/bmejias/kanban4taskwarrior"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "docker-taskwarrior",
+    "owner": [
+      "bradyt"
+    ],
+    "rating": 0,
+    "updated": "2021-11-12",
+    "url": "https://github.com/bradyt/docker-taskwarrior"
   },
   {
     "description": "Taskserver client Dart library",
@@ -3192,7 +3207,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 487,
+    "rating": 488,
     "updated": "2021-08-30",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5547,7 +5562,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 572,
+    "rating": 573,
     "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6012,7 +6027,7 @@
     "owner": [
       "lharding"
     ],
-    "rating": 112,
+    "rating": 113,
     "updated": "2021-11-06",
     "url": "https://github.com/lharding/tasknc"
   },
@@ -6117,8 +6132,8 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 0,
-    "updated": "2021-11-11",
+    "rating": 1,
+    "updated": "2021-11-14",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
@@ -9282,7 +9297,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 613,
+    "rating": 614,
     "updated": "2021-10-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9733,7 +9748,7 @@
       "xingheng"
     ],
     "rating": 2,
-    "updated": "2021-09-23",
+    "updated": "2021-11-12",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
   {
