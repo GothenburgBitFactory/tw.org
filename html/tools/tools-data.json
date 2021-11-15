@@ -1787,21 +1787,6 @@
     "url": "https://github.com/Zebradil/docker-taskd"
   },
   {
-    "description": "My Dockerfiles",
-    "dormant": false,
-    "language": [
-      "Dockerfile"
-    ],
-    "license": null,
-    "name": "dockerfiles",
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 2,
-    "updated": "2019-12-15",
-    "url": "https://github.com/Zebradil/dockerfiles"
-  },
-  {
     "description": "\u4de1\u2192\u4dc6 A Powerline segment for displaying information from Taskwarrior task manager",
     "dormant": false,
     "language": [
@@ -4038,7 +4023,7 @@
   },
   {
     "description": "Alfred Workflow to manage taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -4062,7 +4047,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 116,
+    "rating": 117,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -5267,21 +5252,6 @@
     "url": "https://github.com/jonsterling/Tasky"
   },
   {
-    "description": "A go client for taskd",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskd-client-go",
-    "owner": [
-      "jrabbit"
-    ],
-    "rating": 4,
-    "updated": "2021-05-02",
-    "url": "https://github.com/jrabbit/taskd-client-go"
-  },
-  {
     "description": ":hammer: :snake: A python client for taskd",
     "dormant": false,
     "language": [
@@ -5382,7 +5352,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 247,
+    "rating": 248,
     "updated": "2021-04-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
