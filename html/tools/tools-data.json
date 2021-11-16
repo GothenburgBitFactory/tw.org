@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 30,
+    "rating": 29,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1787,6 +1787,21 @@
     "url": "https://github.com/Zebradil/docker-taskd"
   },
   {
+    "description": "My Dockerfiles",
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": null,
+    "name": "dockerfiles",
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 2,
+    "updated": "2019-12-15",
+    "url": "https://github.com/Zebradil/dockerfiles"
+  },
+  {
     "description": "\u4de1\u2192\u4dc6 A Powerline segment for displaying information from Taskwarrior task manager",
     "dormant": false,
     "language": [
@@ -2503,7 +2518,7 @@
       "bergercookie"
     ],
     "rating": 103,
-    "updated": "2021-11-02",
+    "updated": "2021-11-15",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -4422,7 +4437,7 @@
     "owner": [
       "hamlinux"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-08-23",
     "url": "https://github.com/hamlinux/taskwarrior-GTD"
   },
@@ -5252,6 +5267,21 @@
     "url": "https://github.com/jonsterling/Tasky"
   },
   {
+    "description": "A go client for taskd",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskd-client-go",
+    "owner": [
+      "jrabbit"
+    ],
+    "rating": 4,
+    "updated": "2021-05-02",
+    "url": "https://github.com/jrabbit/taskd-client-go"
+  },
+  {
     "description": ":hammer: :snake: A python client for taskd",
     "dormant": false,
     "language": [
@@ -5532,7 +5562,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 573,
+    "rating": 575,
     "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8022,7 +8052,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 573,
+    "rating": 574,
     "updated": "2021-11-10",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -8278,7 +8308,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2021-11-10",
+    "updated": "2021-11-15",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -8593,7 +8623,7 @@
       "sinarf"
     ],
     "rating": 2,
-    "updated": "2020-03-28",
+    "updated": "2021-11-15",
     "url": "https://github.com/sinarf/taskomodoro"
   },
   {
@@ -8910,6 +8940,21 @@
     "rating": 1,
     "updated": "2019-10-31",
     "url": "https://github.com/suwdus/Task"
+  },
+  {
+    "description": "Taskwarrior plugin for xfce4 panel",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "xfce4-taskwarrior",
+    "owner": [
+      "svamberg"
+    ],
+    "rating": 0,
+    "updated": "2021-11-15",
+    "url": "https://github.com/svamberg/xfce4-taskwarrior"
   },
   {
     "description": "Calculate and print spent time for a project from taskwarrior",
@@ -9507,7 +9552,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 294,
+    "rating": 295,
     "updated": "2021-11-04",
     "url": "https://github.com/vit-project/vit"
   },
