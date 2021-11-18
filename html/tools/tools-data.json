@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -717,7 +717,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 101,
+    "rating": 102,
     "updated": "2021-11-08",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -2608,7 +2608,7 @@
       "bgregos"
     ],
     "rating": 102,
-    "updated": "2021-09-27",
+    "updated": "2021-11-16",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -2712,7 +2712,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 475,
+    "rating": 476,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5562,7 +5562,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 575,
+    "rating": 576,
     "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6072,7 +6072,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2017-11-11",
     "url": "https://github.com/liloman/pomodoroTasks2"
   },
@@ -8308,7 +8308,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2021-11-15",
+    "updated": "2021-11-17",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9028,7 +9028,7 @@
       "szczepad"
     ],
     "rating": 0,
-    "updated": "2021-11-11",
+    "updated": "2021-11-17",
     "url": "https://github.com/szczepad/taskserver"
   },
   {
