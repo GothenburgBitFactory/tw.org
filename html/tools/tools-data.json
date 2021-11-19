@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2517,7 +2517,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 103,
+    "rating": 104,
     "updated": "2021-11-15",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
@@ -4258,7 +4258,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2021-11-02",
+    "updated": "2021-11-18",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5757,7 +5757,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 121,
+    "rating": 122,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -6133,7 +6133,7 @@
       "linuxcaffe"
     ],
     "rating": 1,
-    "updated": "2021-11-14",
+    "updated": "2021-11-18",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
@@ -8308,7 +8308,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2021-11-17",
+    "updated": "2021-11-18",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9900,21 +9900,6 @@
     "rating": 0,
     "updated": "2019-02-25",
     "url": "https://github.com/yitsushi/taskwarrior-docker"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "yliu_py_taskserver",
-    "owner": [
-      "yliu19930120"
-    ],
-    "rating": 0,
-    "updated": "2021-05-10",
-    "url": "https://github.com/yliu19930120/yliu_py_taskserver"
   },
   {
     "description": "task management and note taking system based on taskwarrior and vim(rewrite of task-management)",
