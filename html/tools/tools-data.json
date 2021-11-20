@@ -973,7 +973,7 @@
       "KevCui"
     ],
     "rating": 14,
-    "updated": "2021-11-12",
+    "updated": "2021-11-19",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1248,7 +1248,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -1263,7 +1263,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -2267,21 +2267,6 @@
     "url": "https://github.com/anazimok/taskwarrior-workflow"
   },
   {
-    "description": "Personal task management solution",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskdb",
-    "owner": [
-      "andrey-utkin"
-    ],
-    "rating": 22,
-    "updated": "2021-11-03",
-    "url": "https://github.com/andrey-utkin/taskdb"
-  },
-  {
     "description": "taskwarrior blocks: attribute for inverse dependencies",
     "dormant": false,
     "language": [
@@ -2607,7 +2592,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 102,
+    "rating": 103,
     "updated": "2021-11-16",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2997,7 +2982,7 @@
     "owner": [
       "charles-e"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-04-06",
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
@@ -4062,7 +4047,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 117,
+    "rating": 116,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -5562,7 +5547,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 576,
+    "rating": 577,
     "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6133,7 +6118,7 @@
       "linuxcaffe"
     ],
     "rating": 1,
-    "updated": "2021-11-18",
+    "updated": "2021-11-19",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
@@ -7952,6 +7937,21 @@
     "url": "https://github.com/puchodr/TaskWarrior"
   },
   {
+    "description": "Taskwarrior sync server.",
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": null,
+    "name": "taskd",
+    "owner": [
+      "pztrn"
+    ],
+    "rating": 0,
+    "updated": "2021-11-19",
+    "url": "https://github.com/pztrn/taskd"
+  },
+  {
     "description": "taskwarrior to jabber interface (NodeJS,JavaScript)",
     "dormant": true,
     "language": [
@@ -8613,7 +8613,7 @@
   },
   {
     "description": "Yet another pomodoro for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -9312,7 +9312,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 614,
+    "rating": 616,
     "updated": "2021-10-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9732,7 +9732,7 @@
     "owner": [
       "x4121"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2019-11-27",
     "url": "https://github.com/x4121/docker-taskd"
   },
