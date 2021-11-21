@@ -2267,6 +2267,21 @@
     "url": "https://github.com/anazimok/taskwarrior-workflow"
   },
   {
+    "description": "Personal task management solution",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskdb",
+    "owner": [
+      "andrey-utkin"
+    ],
+    "rating": 22,
+    "updated": "2021-11-03",
+    "url": "https://github.com/andrey-utkin/taskdb"
+  },
+  {
     "description": "taskwarrior blocks: attribute for inverse dependencies",
     "dormant": false,
     "language": [
@@ -5367,7 +5382,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 248,
+    "rating": 249,
     "updated": "2021-04-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5547,7 +5562,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 577,
+    "rating": 579,
     "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6110,7 +6125,7 @@
     "description": "A Taskwarrior hook that logs task start/stop times to a file that (h)ledger can read",
     "dormant": false,
     "language": [
-      "Python"
+      "Shell"
     ],
     "license": "GNU General Public License v3.0",
     "name": "task-timelog-hook",
@@ -6118,7 +6133,7 @@
       "linuxcaffe"
     ],
     "rating": 1,
-    "updated": "2021-11-19",
+    "updated": "2021-11-21",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
@@ -7557,7 +7572,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 34,
+    "rating": 33,
     "updated": "2020-02-06",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
