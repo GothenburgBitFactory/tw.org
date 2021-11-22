@@ -4062,7 +4062,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 116,
+    "rating": 117,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -5562,7 +5562,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 579,
+    "rating": 581,
     "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6133,7 +6133,7 @@
       "linuxcaffe"
     ],
     "rating": 1,
-    "updated": "2021-11-21",
+    "updated": "2021-11-22",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
