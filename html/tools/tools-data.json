@@ -2607,7 +2607,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 103,
+    "rating": 104,
     "updated": "2021-11-16",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2883,7 +2883,7 @@
   },
   {
     "description": "A tool for bidirectional syncronization of task repositories, like TaskWarrior and Google Tasks.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3180,21 +3180,6 @@
     "rating": 0,
     "updated": "2018-06-10",
     "url": "https://github.com/coaxial/ansible-role-taskserver"
-  },
-  {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "docker-taskserver",
-    "owner": [
-      "coaxial"
-    ],
-    "rating": 0,
-    "updated": "2018-05-21",
-    "url": "https://github.com/coaxial/docker-taskserver"
   },
   {
     "description": "Access your Taskwarrior tasks from any browser anywhere",
@@ -4062,7 +4047,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 117,
+    "rating": 118,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -4137,7 +4122,7 @@
     "owner": [
       "fplourde"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2020-12-29",
     "url": "https://github.com/fplourde/Taskwarrior-habitica-hooks"
   },
@@ -5562,7 +5547,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 581,
+    "rating": 582,
     "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7557,7 +7542,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-06-04",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
@@ -9043,7 +9028,7 @@
       "szczepad"
     ],
     "rating": 0,
-    "updated": "2021-11-17",
+    "updated": "2021-11-22",
     "url": "https://github.com/szczepad/taskserver"
   },
   {
@@ -9568,7 +9553,7 @@
       "vit-project"
     ],
     "rating": 295,
-    "updated": "2021-11-04",
+    "updated": "2021-11-22",
     "url": "https://github.com/vit-project/vit"
   },
   {
