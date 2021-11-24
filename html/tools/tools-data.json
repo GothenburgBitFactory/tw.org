@@ -2712,7 +2712,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 476,
+    "rating": 477,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3180,6 +3180,21 @@
     "rating": 0,
     "updated": "2018-06-10",
     "url": "https://github.com/coaxial/ansible-role-taskserver"
+  },
+  {
+    "description": null,
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "docker-taskserver",
+    "owner": [
+      "coaxial"
+    ],
+    "rating": 0,
+    "updated": "2018-05-21",
+    "url": "https://github.com/coaxial/docker-taskserver"
   },
   {
     "description": "Access your Taskwarrior tasks from any browser anywhere",
@@ -4652,6 +4667,21 @@
     "url": "https://github.com/iamnafets/taskwarrior_depends"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "ibrahimfayyaz26"
+    ],
+    "rating": 0,
+    "updated": "2021-11-23",
+    "url": "https://github.com/ibrahimfayyaz26/taskServer"
+  },
+  {
     "description": "Just a simple script that will help me get a daily report by email.",
     "dormant": false,
     "language": [
@@ -6118,7 +6148,7 @@
       "linuxcaffe"
     ],
     "rating": 1,
-    "updated": "2021-11-22",
+    "updated": "2021-11-23",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
@@ -7558,7 +7588,7 @@
       "ogarcia"
     ],
     "rating": 33,
-    "updated": "2020-02-06",
+    "updated": "2021-11-23",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
@@ -8082,7 +8112,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 144,
+    "rating": 143,
     "updated": "2021-10-10",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -8308,7 +8338,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2021-11-18",
+    "updated": "2021-11-23",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9028,7 +9058,7 @@
       "szczepad"
     ],
     "rating": 0,
-    "updated": "2021-11-22",
+    "updated": "2021-11-23",
     "url": "https://github.com/szczepad/taskserver"
   },
   {
@@ -9222,7 +9252,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 461,
+    "rating": 462,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
