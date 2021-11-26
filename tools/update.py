@@ -147,14 +147,14 @@ def filter_tools(inputs):
         url = tool["url"]
 
         if url in seen:
-            log_debug("Dropping '{}' because it is a duplicate", tool["url"])
+            log_debug("Dropping '{}' because it is a duplicate", url)
             continue
         elif url in blacklist:
-            log_debug("Dropping '{}' because it {}", tool['url'], blacklist[url])
+            log_debug("Dropping '{}' because it {}", url, blacklist[url])
             continue
 
-        log_debug("Adding '{}'", tool['url'])
-        seen.add(tool["url"])
+        log_debug("Keeping '{}'", url)
+        seen.add(url)
         results.append(tool)
 
     return results
