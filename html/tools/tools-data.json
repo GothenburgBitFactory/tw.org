@@ -717,7 +717,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 102,
+    "rating": 101,
     "updated": "2021-11-08",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1622,6 +1622,21 @@
     "url": "https://github.com/TaskOrganizer/TaskServer"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "TaskServerSide",
+    "owner": [
+      "TehilaPick"
+    ],
+    "rating": 0,
+    "updated": "2021-11-24",
+    "url": "https://github.com/TehilaPick/TaskServerSide"
+  },
+  {
     "description": "This is the story of how I am slowly becoming free",
     "dormant": false,
     "language": [
@@ -2202,7 +2217,7 @@
     "owner": [
       "alkim0"
     ],
-    "rating": 4,
+    "rating": 3,
     "updated": "2020-08-30",
     "url": "https://github.com/alkim0/task-attach"
   },
@@ -2607,8 +2622,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 104,
-    "updated": "2021-11-16",
+    "rating": 105,
+    "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -2712,7 +2727,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 477,
+    "rating": 478,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3207,8 +3222,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 488,
-    "updated": "2021-08-30",
+    "rating": 489,
+    "updated": "2021-11-25",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -4258,7 +4273,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2021-11-18",
+    "updated": "2021-11-24",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5397,7 +5412,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 249,
+    "rating": 250,
     "updated": "2021-04-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5577,7 +5592,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 582,
+    "rating": 583,
     "updated": "2021-11-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -5638,7 +5653,7 @@
       "kellya"
     ],
     "rating": 0,
-    "updated": "2021-09-09",
+    "updated": "2021-11-25",
     "url": "https://github.com/kellya/tw-spaceduck"
   },
   {
@@ -5653,7 +5668,7 @@
       "kevinstadler"
     ],
     "rating": 0,
-    "updated": "2021-11-05",
+    "updated": "2021-11-24",
     "url": "https://github.com/kevinstadler/taskwarrior-vit-config"
   },
   {
@@ -6432,7 +6447,7 @@
     "owner": [
       "lukasdietrich"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2018-10-11",
     "url": "https://github.com/lukasdietrich/taskwarrior-docker"
   },
@@ -7572,7 +7587,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2021-06-04",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
@@ -8083,7 +8098,7 @@
       "ralphbean"
     ],
     "rating": 574,
-    "updated": "2021-11-10",
+    "updated": "2021-11-25",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8113,7 +8128,7 @@
       "ralphbean"
     ],
     "rating": 143,
-    "updated": "2021-10-10",
+    "updated": "2021-11-25",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -8338,7 +8353,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2021-11-23",
+    "updated": "2021-11-24",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9252,7 +9267,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 462,
+    "rating": 463,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
