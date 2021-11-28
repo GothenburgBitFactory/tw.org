@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2292,7 +2292,7 @@
     "owner": [
       "andrey-utkin"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2021-11-03",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
@@ -2367,7 +2367,7 @@
     "owner": [
       "arzano"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2019-03-30",
     "url": "https://github.com/arzano/taskmonad"
   },
@@ -2522,6 +2522,21 @@
     "url": "https://github.com/basalbr/taskserver"
   },
   {
+    "description": "\ud83d\udd04 Synchronize items from two different sources",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "item_synchronizer",
+    "owner": [
+      "bergercookie"
+    ],
+    "rating": 1,
+    "updated": "2021-11-26",
+    "url": "https://github.com/bergercookie/item_synchronizer"
+  },
+  {
     "description": "Synchronization between Taskwarrior tasks and Google Calendar events-reminders",
     "dormant": false,
     "language": [
@@ -2533,7 +2548,7 @@
       "bergercookie"
     ],
     "rating": 104,
-    "updated": "2021-11-15",
+    "updated": "2021-11-26",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -2817,8 +2832,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 17,
-    "updated": "2021-11-09",
+    "rating": 18,
+    "updated": "2021-11-27",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3222,8 +3237,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 489,
-    "updated": "2021-11-25",
+    "rating": 490,
+    "updated": "2021-11-26",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3267,7 +3282,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 244,
+    "rating": 245,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4697,6 +4712,21 @@
     "url": "https://github.com/ibrahimfayyaz26/taskServer"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServerSql",
+    "owner": [
+      "ibrahimfayyaz26"
+    ],
+    "rating": 0,
+    "updated": "2021-11-26",
+    "url": "https://github.com/ibrahimfayyaz26/taskServerSql"
+  },
+  {
     "description": "Just a simple script that will help me get a daily report by email.",
     "dormant": false,
     "language": [
@@ -5592,8 +5622,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 583,
-    "updated": "2021-11-10",
+    "rating": 585,
+    "updated": "2021-11-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6553,7 +6583,7 @@
       "maralorn"
     ],
     "rating": 7,
-    "updated": "2021-10-16",
+    "updated": "2021-11-27",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -6568,7 +6598,7 @@
       "maralorn"
     ],
     "rating": 4,
-    "updated": "2021-09-03",
+    "updated": "2021-11-26",
     "url": "https://github.com/maralorn/kassandra"
   },
   {
@@ -7263,7 +7293,7 @@
   },
   {
     "description": "Delete overdue, recurring & duplicate taskwarrior tasks",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -7273,7 +7303,7 @@
       "neingeist"
     ],
     "rating": 0,
-    "updated": "2014-09-02",
+    "updated": "2021-11-27",
     "url": "https://github.com/neingeist/task-recurring-delete"
   },
   {
@@ -9598,7 +9628,7 @@
       "vit-project"
     ],
     "rating": 295,
-    "updated": "2021-11-22",
+    "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
   {
