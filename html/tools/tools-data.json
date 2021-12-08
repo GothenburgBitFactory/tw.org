@@ -432,24 +432,9 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
-  },
-  {
-    "description": "a php lib for taskwarrior",
-    "dormant": false,
-    "language": [
-      "PHP"
-    ],
-    "license": "MIT License",
-    "name": "Taskwarrior",
-    "owner": [
-      "DavidBadura"
-    ],
-    "rating": 16,
-    "updated": "2020-12-07",
-    "url": "https://github.com/DavidBadura/Taskwarrior"
   },
   {
     "description": "[ALPHA] with the power of taskwarrior! (web ui for taskwarrior)",
@@ -1648,7 +1633,7 @@
       "TheBeachLab"
     ],
     "rating": 2,
-    "updated": "2021-09-04",
+    "updated": "2021-12-07",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
   {
@@ -2352,7 +2337,7 @@
     "owner": [
       "artur-shaik"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2019-01-09",
     "url": "https://github.com/artur-shaik/mutt2task"
   },
@@ -2507,6 +2492,21 @@
     "url": "https://github.com/b-ryan/tasknc-python"
   },
   {
+    "description": "simple taskwarrior integration into xmobar",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskmobar",
+    "owner": [
+      "bartenbach"
+    ],
+    "rating": 0,
+    "updated": "2021-12-01",
+    "url": "https://github.com/bartenbach/taskmobar"
+  },
+  {
     "description": null,
     "dormant": true,
     "language": [
@@ -2532,7 +2532,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-11-26",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
@@ -2547,8 +2547,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 104,
-    "updated": "2021-11-26",
+    "rating": 105,
+    "updated": "2021-12-05",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -2637,7 +2637,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 105,
+    "rating": 106,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2832,8 +2832,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 18,
-    "updated": "2021-11-27",
+    "rating": 19,
+    "updated": "2021-12-03",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3132,7 +3132,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 120,
+    "rating": 119,
     "updated": "2021-07-16",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -3237,8 +3237,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 490,
-    "updated": "2021-11-26",
+    "rating": 492,
+    "updated": "2021-11-28",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3282,7 +3282,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 245,
+    "rating": 247,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4367,6 +4367,36 @@
     "url": "https://github.com/gknorton/taskwarrior"
   },
   {
+    "description": "This program will export the taskwarrior into markdown files as table.",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskmd",
+    "owner": [
+      "gkssjovi"
+    ],
+    "rating": 0,
+    "updated": "2021-12-07",
+    "url": "https://github.com/gkssjovi/taskmd"
+  },
+  {
+    "description": "This extension create a link between taskwarrior and timewarrior that allows you to keep track of time spend on tasks. The time will be displayed in a new column in taskwarrior.",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "MIT License",
+    "name": "trackwarrior",
+    "owner": [
+      "gkssjovi"
+    ],
+    "rating": 0,
+    "updated": "2021-11-02",
+    "url": "https://github.com/gkssjovi/trackwarrior"
+  },
+  {
     "description": "taskwarrior holidays from goggle calendars",
     "dormant": false,
     "language": [
@@ -4723,7 +4753,7 @@
       "ibrahimfayyaz26"
     ],
     "rating": 0,
-    "updated": "2021-11-26",
+    "updated": "2021-12-07",
     "url": "https://github.com/ibrahimfayyaz26/taskServerSql"
   },
   {
@@ -5147,6 +5177,21 @@
     "url": "https://github.com/jeremyreeder/tasklocale"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-ui-container",
+    "owner": [
+      "jessedearing"
+    ],
+    "rating": 0,
+    "updated": "2021-12-06",
+    "url": "https://github.com/jessedearing/taskwarrior-ui-container"
+  },
+  {
     "description": "Repo to support creating a Taskwarrior Taskd AMI",
     "dormant": true,
     "language": [
@@ -5442,7 +5487,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 250,
+    "rating": 251,
     "updated": "2021-04-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5622,8 +5667,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 585,
-    "updated": "2021-11-27",
+    "rating": 601,
+    "updated": "2021-12-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5817,7 +5862,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 122,
+    "rating": 123,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -6185,7 +6230,7 @@
     "description": "A Taskwarrior hook that logs task start/stop times to a file that (h)ledger can read",
     "dormant": false,
     "language": [
-      "Shell"
+      "Python"
     ],
     "license": "GNU General Public License v3.0",
     "name": "task-timelog-hook",
@@ -6193,7 +6238,7 @@
       "linuxcaffe"
     ],
     "rating": 1,
-    "updated": "2021-11-23",
+    "updated": "2021-12-05",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
@@ -6528,7 +6573,7 @@
   },
   {
     "description": "Create, read and update tasks to wip.chat as you work in TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -7887,7 +7932,7 @@
     "owner": [
       "pi3ch"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2013-04-02",
     "url": "https://github.com/pi3ch/tb2taskwarrior"
   },
@@ -8128,7 +8173,7 @@
       "ralphbean"
     ],
     "rating": 574,
-    "updated": "2021-11-25",
+    "updated": "2021-11-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8383,7 +8428,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2021-11-24",
+    "updated": "2021-12-07",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -8505,21 +8550,6 @@
     "rating": 1,
     "updated": "2021-05-20",
     "url": "https://github.com/scmbradley/taskw-i3blocks"
-  },
-  {
-    "description": "Rust todo manager with notes",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "tasker",
-    "owner": [
-      "sebastian-steiner"
-    ],
-    "rating": 2,
-    "updated": "2019-04-03",
-    "url": "https://github.com/sebastian-steiner/tasker"
   },
   {
     "description": "Taskwarrior extension for vscode",
@@ -9387,7 +9417,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 616,
+    "rating": 617,
     "updated": "2021-10-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9627,7 +9657,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 295,
+    "rating": 300,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
