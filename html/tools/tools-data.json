@@ -33,7 +33,7 @@
   },
   {
     "description": "A tmux-based dashboard for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Perl"
     ],
@@ -210,21 +210,6 @@
     "rating": 3,
     "updated": "2021-02-23",
     "url": "https://github.com/AlexanderBrevig/twgcals"
-  },
-  {
-    "description": "An app to defeat procrastination",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "just-start",
-    "owner": [
-      "AliGhahraei"
-    ],
-    "rating": 4,
-    "updated": "2021-05-13",
-    "url": "https://github.com/AliGhahraei/just-start"
   },
   {
     "description": null,
@@ -435,6 +420,21 @@
     "rating": 33,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
+  },
+  {
+    "description": "a php lib for taskwarrior",
+    "dormant": false,
+    "language": [
+      "PHP"
+    ],
+    "license": "MIT License",
+    "name": "Taskwarrior",
+    "owner": [
+      "DavidBadura"
+    ],
+    "rating": 16,
+    "updated": "2020-12-07",
+    "url": "https://github.com/DavidBadura/Taskwarrior"
   },
   {
     "description": "[ALPHA] with the power of taskwarrior! (web ui for taskwarrior)",
@@ -2548,7 +2548,7 @@
       "bergercookie"
     ],
     "rating": 105,
-    "updated": "2021-12-05",
+    "updated": "2021-12-08",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -4367,7 +4367,7 @@
     "url": "https://github.com/gknorton/taskwarrior"
   },
   {
-    "description": "This program will export the taskwarrior into markdown files as table.",
+    "description": "This program will export the taskwarrior results into a markdown table.",
     "dormant": false,
     "language": [
       "JavaScript"
@@ -4377,8 +4377,8 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 0,
-    "updated": "2021-12-07",
+    "rating": 1,
+    "updated": "2021-12-08",
     "url": "https://github.com/gkssjovi/taskmd"
   },
   {
@@ -8550,6 +8550,21 @@
     "rating": 1,
     "updated": "2021-05-20",
     "url": "https://github.com/scmbradley/taskw-i3blocks"
+  },
+  {
+    "description": "Rust todo manager with notes",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "tasker",
+    "owner": [
+      "sebastian-steiner"
+    ],
+    "rating": 2,
+    "updated": "2019-04-03",
+    "url": "https://github.com/sebastian-steiner/tasker"
   },
   {
     "description": "Taskwarrior extension for vscode",
