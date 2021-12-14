@@ -212,6 +212,21 @@
     "url": "https://github.com/AlexanderBrevig/twgcals"
   },
   {
+    "description": "An app to defeat procrastination",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "just-start",
+    "owner": [
+      "AliGhahraei"
+    ],
+    "rating": 4,
+    "updated": "2021-05-13",
+    "url": "https://github.com/AliGhahraei/just-start"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
@@ -555,6 +570,21 @@
     "rating": 0,
     "updated": "2016-10-11",
     "url": "https://github.com/Doctor-Andonuts/taskwarriorandroid"
+  },
+  {
+    "description": "win\u4e0b\u5b9e\u73b0\u7c7b\u4f3cTaskwarrior\u7684\u5c0f\u4e1c\u897f",
+    "dormant": false,
+    "language": [
+      "C++"
+    ],
+    "license": "MIT License",
+    "name": "Todo_manager",
+    "owner": [
+      "EUye9IM"
+    ],
+    "rating": 0,
+    "updated": "2021-12-11",
+    "url": "https://github.com/EUye9IM/Todo_manager"
   },
   {
     "description": null,
@@ -1812,7 +1842,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 49,
+    "rating": 50,
     "updated": "2021-10-20",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -2533,7 +2563,7 @@
       "bergercookie"
     ],
     "rating": 2,
-    "updated": "2021-11-26",
+    "updated": "2021-12-12",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
   {
@@ -2547,8 +2577,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 105,
-    "updated": "2021-12-08",
+    "rating": 107,
+    "updated": "2021-12-12",
     "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
@@ -2637,7 +2667,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 106,
+    "rating": 109,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2742,7 +2772,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 478,
+    "rating": 477,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3237,8 +3267,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 492,
-    "updated": "2021-11-28",
+    "rating": 493,
+    "updated": "2021-12-13",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -4378,7 +4408,7 @@
       "gkssjovi"
     ],
     "rating": 1,
-    "updated": "2021-12-08",
+    "updated": "2021-12-09",
     "url": "https://github.com/gkssjovi/taskmd"
   },
   {
@@ -4392,7 +4422,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-11-02",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -4753,7 +4783,7 @@
       "ibrahimfayyaz26"
     ],
     "rating": 0,
-    "updated": "2021-12-07",
+    "updated": "2021-12-11",
     "url": "https://github.com/ibrahimfayyaz26/taskServerSql"
   },
   {
@@ -5067,7 +5097,7 @@
     "owner": [
       "jbarratt"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2021-08-28",
     "url": "https://github.com/jbarratt/trello_to_task"
   },
@@ -5487,7 +5517,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 251,
+    "rating": 253,
     "updated": "2021-04-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5667,8 +5697,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 601,
-    "updated": "2021-12-07",
+    "rating": 607,
+    "updated": "2021-12-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8172,8 +8202,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 574,
-    "updated": "2021-11-30",
+    "rating": 575,
+    "updated": "2021-12-12",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8220,6 +8250,21 @@
     "rating": 0,
     "updated": "2021-06-10",
     "url": "https://github.com/raspbeguy/ITwarrior"
+  },
+  {
+    "description": "Api for Tasklister using graphql and express",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "graphql-express-taskserver",
+    "owner": [
+      "rawrlolarawr"
+    ],
+    "rating": 0,
+    "updated": "2021-12-10",
+    "url": "https://github.com/rawrlolarawr/graphql-express-taskserver"
   },
   {
     "description": "Web UI for Taskwarrior",
@@ -9252,7 +9297,7 @@
     "owner": [
       "teranex"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2013-12-01",
     "url": "https://github.com/teranex/vimwiki-tasks"
   },
@@ -9672,7 +9717,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 300,
+    "rating": 302,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
