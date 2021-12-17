@@ -583,7 +583,7 @@
       "EUye9IM"
     ],
     "rating": 0,
-    "updated": "2021-12-11",
+    "updated": "2021-12-15",
     "url": "https://github.com/EUye9IM/Todo_manager"
   },
   {
@@ -2563,23 +2563,8 @@
       "bergercookie"
     ],
     "rating": 2,
-    "updated": "2021-12-12",
+    "updated": "2021-12-14",
     "url": "https://github.com/bergercookie/item_synchronizer"
-  },
-  {
-    "description": "Synchronization between Taskwarrior tasks and Google Calendar events-reminders",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "taskw_gcal_sync",
-    "owner": [
-      "bergercookie"
-    ],
-    "rating": 107,
-    "updated": "2021-12-12",
-    "url": "https://github.com/bergercookie/taskw_gcal_sync"
   },
   {
     "description": "This project has been merged to https://github.com/bergercookie/awesome-albert-plugins",
@@ -2610,6 +2595,21 @@
     "rating": 1,
     "updated": "2021-03-28",
     "url": "https://github.com/bergercookie/taskwarrior-deno"
+  },
+  {
+    "description": "Synchronization between Taskwarrior tasks and services such as Google Calendar, Notion and ClickUp. Formerly taskw_gcal_sync",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-syncall",
+    "owner": [
+      "bergercookie"
+    ],
+    "rating": 110,
+    "updated": "2021-12-16",
+    "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
     "description": "Franz Recipe for taskwarrior-web",
@@ -2727,7 +2727,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2952,7 +2952,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 86,
+    "rating": 87,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -3267,7 +3267,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 493,
+    "rating": 492,
     "updated": "2021-12-13",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4122,7 +4122,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 118,
+    "rating": 119,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -4197,7 +4197,7 @@
     "owner": [
       "fplourde"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2020-12-29",
     "url": "https://github.com/fplourde/Taskwarrior-habitica-hooks"
   },
@@ -5697,7 +5697,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 607,
+    "rating": 610,
     "updated": "2021-12-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -5773,7 +5773,7 @@
       "kevinstadler"
     ],
     "rating": 0,
-    "updated": "2021-11-24",
+    "updated": "2021-12-16",
     "url": "https://github.com/kevinstadler/taskwarrior-vit-config"
   },
   {
@@ -7423,7 +7423,7 @@
       "nerab"
     ],
     "rating": 22,
-    "updated": "2021-07-14",
+    "updated": "2021-12-16",
     "url": "https://github.com/nerab/twdeps"
   },
   {
@@ -7723,7 +7723,7 @@
       "ogarcia"
     ],
     "rating": 88,
-    "updated": "2021-05-14",
+    "updated": "2021-12-14",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
   {
@@ -8203,7 +8203,7 @@
       "ralphbean"
     ],
     "rating": 575,
-    "updated": "2021-12-12",
+    "updated": "2021-12-17",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9178,7 +9178,7 @@
       "szaffarano"
     ],
     "rating": 1,
-    "updated": "2021-10-24",
+    "updated": "2021-12-15",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -9540,6 +9540,21 @@
     "rating": 0,
     "updated": "2014-03-16",
     "url": "https://github.com/tribly/task-notify"
+  },
+  {
+    "description": "a bridge for taskwarrior inside ubuntu subsystem",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "task",
+    "owner": [
+      "ttschnz"
+    ],
+    "rating": 0,
+    "updated": "2021-12-14",
+    "url": "https://github.com/ttschnz/task"
   },
   {
     "description": "Provides support for attachment management for Taskwarrior",
