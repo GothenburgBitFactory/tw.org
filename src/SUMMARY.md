@@ -1,11 +1,12 @@
 # Summary
 
-- [Getting Started](placeholder.md)
-  - [Introduction](introduction.md)
-  - [Configuration](placeholder.md)
+[Introduction](start.md)
+
+# Getting Started
+  - [Configuration](introduction.md)
   - [30-Second Tutorial](placeholder.md)
   - [Getting Help](placeholder.md)
-- [Basic Usage](placeholder.md)
+# Basic Usage
   - [Command Line Syntax](placeholder.md)
   - [Best Practices](placeholder.md)
   - [Example Commands](placeholder.md)
@@ -26,7 +27,7 @@
     - [Verbosity](placeholder.md)
     - [Color Themes](placeholder.md)
   - [Terminology](placeholder.md)
-- [Advanced Topics](placeholder.md)
+# Advanced Topics
   - [Urgency](placeholder.md)
   - [ID Numbers](placeholder.md)
   - [Context](placeholder.md)
@@ -38,14 +39,14 @@
   - [JSON Import/Export Format](placeholder.md)
   - [Deprecated Features](placeholder.md)
   - [Philosophy](placeholder.md)
-- [Taskserver](placeholder.md)
+# Taskserver
   - [Why do I need a Taskserver?](placeholder.md)
   - [Taskserver Setup & Guide](placeholder.md)
   - [Taskserver Troubleshooting Guide](placeholder.md)
-- [Tasksh](placeholder.md)
-- [Other Projects](placeholder.md)
+# Other Projects
+  - [Tasksh](placeholder.md)
   - [Clog](placeholder.md)
-- [Contributors](placeholder.md)
+# Contributors
   - [Hooks API](placeholder.md)
   - [Hooks v2 API](placeholder.md)
   - [Hook Author's Guide](placeholder.md)
@@ -66,11 +67,11 @@
       - [Message Format](placeholder.md)
       - [Sync Algorithm](placeholder.md)
       - [Client](placeholder.md)
-- [Feedback](placeholder.md)
+# Feedback
   - [How to Report a Bug](placeholder.md)
   - [How to Request a Feature](placeholder.md)
   - [How to Ask a Question](placeholder.md)
-- [About](placeholder.md)
+# About
   - [Taskwarrior Release History](placeholder.md)
   - [Taskserver Release History](placeholder.md)
   - [MIT License](placeholder.md)
