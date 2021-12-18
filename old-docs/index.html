@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/images/favicon.ico">
+
+    <title>Taskwarrior - What's next?</title>
+
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    <link href="/docs/docs.css" rel="stylesheet">
+
+    <!--[if lt IE 9]><script src="/bootstrap/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="navbar navbar-default navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <a class="navbar-brand text-heavy" href="/"><img src="/images/tw-s.png" width="24" height="24"> TASKWARRIOR</a>
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="/news/">News</a></li>
+            <li class="active"><a href="/docs/">Docs</a></li>
+            <li><a href="/download/">Download</a></li>
+            <li><a href="/support/">Support</a></li>
+            <li><a href="/tools/">Tools</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="col-md-12">
+        <p class="lead">
+          Here is the complete set of Taskwarrior and Taskserver documentation.
+        </p>
+      </div>
+
+      <div class="col-md-10 main">
+        <div class="row">
+          <table class="table table-striped">
+            <tr>
+              <td>
+                <p id="start" class="text-large"><strong>Getting Started</strong></p>
+              </td>
+              <td>
+                <p>
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/start.html">Introduction</a> - What to do first</li>
+                    <li><a href="/docs/introduction.html">Configuration</a> - Creating a <code>.taskrc</code> file</li>
+                    <li><a href="/docs/30second.html">30-Second Tutorial</a> - all you need to begin using Taskwarrior</li>
+                    <li><a href="/docs/help.html">Getting Help</a></li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p id="basic" class="text-large"><strong>Basic Usage</strong></p>
+              </td>
+              <td>
+                <p>
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/syntax.html">Command Line Syntax</a></li>
+                    <li><a href="/docs/best-practices.html">Best Practices</a></li>
+                    <li><a href="/docs/examples.html">Example Commands</a> - Commonly asked questions</li>
+                    <li><a href="/docs/workflow.html">Example Workflows</a> - Everyone uses Taskwarrior differently</li>
+                    <li><a href="/docs/commands/">All the Commands</a></li>
+                    <li><a href="/docs/using_dates.html">Using Dates Effectively</a></li>
+                    <li><a href="/docs/unicode.html">Unicode</a> <span class="label label-success">2.5.0</span></li>
+                    <li><a href="/docs/searching.html">Searching</a></li>
+                    <li><a href="/docs/report.html">Reports</a></li>
+                    <li><a href="/docs/filter.html">Filters</a></li>
+                    <li><a href="/docs/priority.html">Priority</a> <span class="label label-success">2.4.3</span></li>
+                    <li><a href="/docs/tags.html">Tags &amp; Virtual Tags</a></li>
+                    <li><a href="/docs/dates.html">Date &amp; Time</a> <span class="label label-success">2.4.0</span></li>
+                    <li><a href="/docs/named_dates.html">Named Dates</a> <span class="label label-success">2.4.0</span></li>
+                    <li><a href="/docs/durations.html">Duration Values</a> <span class="label label-success">2.4.0</span></li>
+                  </ul>
+
+                  <b>Configuring Taskwarrior</b>
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/configuration.html">Configuration</a></li>
+                    <li><a href="/docs/verbosity.html">Verbosity</a></li>
+                    <li><a href="/docs/themes.html">Color Themes</a></li>
+                  </ul>
+
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/terminology.html">Terminology</a> - a glossary of terms</li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p id="advanced" class="text-large"><strong>Advanced Topics</strong></p>
+              </td>
+              <td>
+                <p>
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/urgency.html">Urgency</a></li>
+                    <li><a href="/docs/ids.html">ID Numbers</a></li>
+                    <li><a href="/docs/context.html">Context</a> <span class="label label-success">2.4.2</span></li>
+                    <li><a href="/docs/recurrence.html">How Recurrence Works</a></li>
+                    <li><a href="/docs/udas.html">User Defined Attributes (UDAs)</a></li>
+                    <li><a href="/tools/">External Scripts</a></li>
+                    <li><a href="/docs/escapes.html">Escaping Command Line Characters</a></li>
+                    <li><a href="/docs/dom.html">DOM - Document Object Model</a></li>
+                    <li><a href="/docs/design/task.html">JSON Import/Export Format</a></li>
+                    <li><a href="/docs/deprecated.html">Deprecated Features</a></li>
+                    <li><a href="/docs/philosophy.html">Philosophy</a></li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p id="taskd" class="text-large"><strong>Taskserver</strong></p>
+              </td>
+              <td>
+                <p>
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/taskserver/why.html">Why do I need a Taskserver?</a></li>
+                    <li><a href="https://gothenburgbitfactory.github.io/taskserver-setup/">Taskserver Setup Guide</a></li>
+                    <li><a href="https://gothenburgbitfactory.github.io/taskserver-troubleshooting/">Taskserver Troubleshooting Guide</a></li>
+<!--
+                    <li><a href="/docs/taskserver/setup.html">Setting up your own Taskserver</a></li>
+                    <li><a href="/docs/taskserver/ciphers.html">Cipher Selection</a></li>
+                    <li><a href="/docs/taskserver/protocol.html">Protocol Selection</a> <span class="label label-success">1.1.0</span></li>
+                    <li><a href="/docs/taskserver/upgrade.html">Upgrading Taskserver</a> <span class="label label-success">1.1.0</span></li>
+                    <li><a href="/docs/taskserver/troubleshooting-sync.html">Troubleshooting Sync</a></li>
+-->
+                  </ul>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p id="tasksh" class="text-large"><strong>Tasksh</strong></p>
+              </td>
+              <td>
+                <p>
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/review.html">Reviewing tasks using tasksh</a> <span class="label label-success">1.1.0</span></li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p id="other" class="text-large"><strong>Other Projects</strong></p>
+              </td>
+              <td>
+                <p>
+                  <ul class="list-unstyled">
+                    <li><a href="https://timewarrior.net">Timewarrior Home Page</a></li>
+                    <li><a href="/docs/clog/index.html">Clog Home Page</a></li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p id="contrib" class="text-large"><strong>Contributors</strong></p>
+              </td>
+              <td>
+                <p>
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/hooks.html">Hooks API</a> <span class="label label-success">2.4.0</span></li>
+                    <li><a href="/docs/hooks2.html">Hooks v2 API</a> <span class="label label-success">2.4.3</span></li>
+                    <li><a href="/docs/hooks_guide.html">Hook Author's Guide</a> <span class="label label-success">2.4.0</span></li>
+                    <li><a href="/docs/build.html">How To Build Taskwarrior</a></li>
+                    <li><a href="/docs/contribute.html">Contributing to the Project</a></li>
+                    <li><a href="/docs/first_time.html">How to become an Open Source Contributor</a></li>
+                    <li><a href="/docs/coding_style.html">Coding Style</a></li>
+                    <li><a href="/docs/branching.html">Branching Model</a></li>
+                    <li><a href="/docs/3rd-party.html">3rd Party Application Guidelines</a></li>
+                    <li><a href="/docs/design/index.html">Design Documents (RFCs)</a></li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p id="feedback" class="text-large"><strong>Feedback</strong></p>
+              </td>
+              <td>
+                <p>
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/bugs.html">How to Report a Bug</a></li>
+                    <li><a href="/docs/features.html">How to Request a Feature</a></li>
+                    <li><a href="http://www.catb.org/esr/faqs/smart-questions.html">How to ask a question</a></li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <p id="about" class="text-large"><strong>About</strong></p>
+              </td>
+              <td>
+                <p>
+                  <ul class="list-unstyled">
+                    <li><a href="/docs/history.html">Taskwarrior Release History</a></li>
+                    <li><a href="/docs/history_td.html">Taskserver Release History</a></li>
+                    <li><a href="/docs/license.html">MIT License</a></li>
+                  </ul>
+                </p>
+              </td>
+            </tr>
+          </table>
+
+          <br />
+          <br />
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="alert alert-warning">
+          <ul class="list-unstyled">
+            <li><a class="alert-link" href="#start">Getting Started</a></li>
+            <li><a class="alert-link" href="#basic">Basic</a></li>
+            <li><a class="alert-link" href="#advanced">Advanced</a></li>
+            <li><a class="alert-link" href="#taskd">Taskserver</a></li>
+            <li><a class="alert-link" href="#tasksh">Tasksh</a></li>
+            <li><a class="alert-link" href="#other">Other Projects</a></li>
+            <li><a class="alert-link" href="#contrib">Contributors</a></li>
+            <li><a class="alert-link" href="#feedback">Feedback</a></li>
+            <li><a class="alert-link" href="#about">About</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <div class="col-md-2">
+          <p class="text-muted">
+            Get Involved
+            <br />
+            <a href="https://github.com/GothenburgBitFactory/taskwarrior/issues">Submit a bug</a>
+            <br />
+            <a href="https://github.com/GothenburgBitFactory/taskwarrior">Clone the code</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Related Sites
+            <br />
+            <a href="https://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
+            <br />
+            <a href="https://holidata.net">holidata.net</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Contact
+            <br />
+            <a href="mailto:support@taskwarrior.org"><span class="glyphicon glyphicon-envelope"></span> Email</a>
+            <br />
+            <a href="https://twitter.com/taskwarrior"><img src="/images/twitter_dark.png" width="16px" height="16px"> Twitter</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Donate
+            <br />
+            <a href="https://github.com/sponsors/GothenburgBitFactory">Sponsor us on Github sponsors!</a>
+          </p>
+        </div>
+        <div class="col-md-2">
+          <p class="text-muted">
+            Copyright &copy: 2018 <a href="/about.html">Göteborg Bit Factory</a>
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
