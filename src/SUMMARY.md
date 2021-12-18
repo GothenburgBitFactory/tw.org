@@ -4,10 +4,10 @@
 
 # Getting Started
   - [Configuration](introduction.md)
-  - [30-Second Tutorial](placeholder.md)
-  - [Getting Help](placeholder.md)
+  - [30-Second Tutorial](30second.md)
+  - [Getting Help](help.md)
 # Basic Usage
-  - [Command Line Syntax](placeholder.md)
+  - [Command Line Syntax](syntax.md)
   - [Best Practices](placeholder.md)
   - [Example Commands](placeholder.md)
   - [Example Workflows](placeholder.md)

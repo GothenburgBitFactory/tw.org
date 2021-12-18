@@ -1,0 +1,249 @@
+<!DOCTYPE HTML>
+<html lang="en" class="sidebar-visible no-js light">
+    <head>
+        <!-- Book generated using mdBook -->
+        <meta charset="UTF-8">
+        <title>30-Second Tutorial - Taskwarrior</title>
+
+
+        <!-- Custom HTML head -->
+
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="theme-color" content="#ffffff" />
+
+        <link rel="icon" href="favicon.svg">
+        <link rel="shortcut icon" href="favicon.png">
+        <link rel="stylesheet" href="css/variables.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href="css/chrome.css">
+        <link rel="stylesheet" href="css/print.css" media="print">
+
+        <!-- Fonts -->
+        <link rel="stylesheet" href="FontAwesome/css/font-awesome.css">
+        <link rel="stylesheet" href="fonts/fonts.css">
+
+        <!-- Highlight.js Stylesheets -->
+        <link rel="stylesheet" href="highlight.css">
+        <link rel="stylesheet" href="tomorrow-night.css">
+        <link rel="stylesheet" href="ayu-highlight.css">
+
+        <!-- Custom theme stylesheets -->
+
+    </head>
+    <body>
+        <!-- Provide site root to javascript -->
+        <script type="text/javascript">
+            var path_to_root = "";
+            var default_theme = window.matchMedia("(prefers-color-scheme: dark)").matches ? "navy" : "light";
+        </script>
+
+        <!-- Work around some values being stored in localStorage wrapped in quotes -->
+        <script type="text/javascript">
+            try {
+                var theme = localStorage.getItem('mdbook-theme');
+                var sidebar = localStorage.getItem('mdbook-sidebar');
+
+                if (theme.startsWith('"') && theme.endsWith('"')) {
+                    localStorage.setItem('mdbook-theme', theme.slice(1, theme.length - 1));
+                }
+
+                if (sidebar.startsWith('"') && sidebar.endsWith('"')) {
+                    localStorage.setItem('mdbook-sidebar', sidebar.slice(1, sidebar.length - 1));
+                }
+            } catch (e) { }
+        </script>
+
+        <!-- Set the theme before any content is loaded, prevents flash -->
+        <script type="text/javascript">
+            var theme;
+            try { theme = localStorage.getItem('mdbook-theme'); } catch(e) { }
+            if (theme === null || theme === undefined) { theme = default_theme; }
+            var html = document.querySelector('html');
+            html.classList.remove('no-js')
+            html.classList.remove('light')
+            html.classList.add(theme);
+            html.classList.add('js');
+        </script>
+
+        <!-- Hide / unhide sidebar before it is displayed -->
+        <script type="text/javascript">
+            var html = document.querySelector('html');
+            var sidebar = 'hidden';
+            if (document.body.clientWidth >= 1080) {
+                try { sidebar = localStorage.getItem('mdbook-sidebar'); } catch(e) { }
+                sidebar = sidebar || 'visible';
+            }
+            html.classList.remove('sidebar-visible');
+            html.classList.add("sidebar-" + sidebar);
+        </script>
+
+        <nav id="sidebar" class="sidebar" aria-label="Table of contents">
+            <div class="sidebar-scrollbox">
+                <ol class="chapter"><li class="chapter-item expanded affix "><a href="start.html">Introduction</a></li><li class="chapter-item expanded affix "><li class="part-title">Getting Started</li><li class="chapter-item expanded "><a href="introduction.html"><strong aria-hidden="true">1.</strong> Configuration</a></li><li class="chapter-item expanded "><a href="30second.html" class="active"><strong aria-hidden="true">2.</strong> 30-Second Tutorial</a></li><li class="chapter-item expanded "><a href="help.html"><strong aria-hidden="true">3.</strong> Getting Help</a></li><li class="chapter-item expanded affix "><li class="part-title">Basic Usage</li><li class="chapter-item expanded "><a href="syntax.html"><strong aria-hidden="true">4.</strong> Command Line Syntax</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">5.</strong> Best Practices</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">6.</strong> Example Commands</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">7.</strong> Example Workflows</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">8.</strong> All the Commands</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">9.</strong> Using Dates Effectively</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">10.</strong> Unicode</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">11.</strong> Searching</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">12.</strong> Reports</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">13.</strong> Filters</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">14.</strong> Priority</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">15.</strong> Tags &amp; Virtual Tags</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">16.</strong> Date &amp; Time</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">17.</strong> Named Dates</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">18.</strong> Duration Values</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">19.</strong> Configuring Taskwarrior</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">19.1.</strong> Configuration</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">19.2.</strong> Verbosity</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">19.3.</strong> Color Themes</a></li></ol></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">20.</strong> Terminology</a></li><li class="chapter-item expanded affix "><li class="part-title">Advanced Topics</li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">21.</strong> Urgency</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">22.</strong> ID Numbers</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">23.</strong> Context</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">24.</strong> How Recurrence Works</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">25.</strong> User Defined Attributes (UDAs)</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">26.</strong> External Scripts</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">27.</strong> Escaping Command Line Characters</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">28.</strong> DOM - Document Object Model</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">29.</strong> JSON Import/Export Format</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">30.</strong> Deprecated Features</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">31.</strong> Philosophy</a></li><li class="chapter-item expanded affix "><li class="part-title">Taskserver</li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">32.</strong> Why do I need a Taskserver?</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">33.</strong> Taskserver Setup &amp; Guide</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">34.</strong> Taskserver Troubleshooting Guide</a></li><li class="chapter-item expanded affix "><li class="part-title">Other Projects</li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">35.</strong> Tasksh</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">36.</strong> Clog</a></li><li class="chapter-item expanded affix "><li class="part-title">Contributors</li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">37.</strong> Hooks API</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">38.</strong> Hooks v2 API</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">39.</strong> Hook Author's Guide</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">40.</strong> How To Build Taskwarrior</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">41.</strong> Contributing to the Project</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">42.</strong> Coding Style</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">43.</strong> Branching Model</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">44.</strong> 3rd Party Application Guidelines</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.</strong> Design Documents (RFCs)</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.1.</strong> Taskwarrior</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.1.1.</strong> Rules System</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.1.2.</strong> Full DOM Support</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.1.3.</strong> Recurrence</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.1.4.</strong> Taskwarrior JSON Format</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.1.5.</strong> CLI Updates</a></li></ol></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.2.</strong> Taskserver</a></li><li><ol class="section"><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.2.1.</strong> Sync Protocol</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.2.2.</strong> Message Format</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.2.3.</strong> Sync Algorithm</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">45.2.4.</strong> Client</a></li></ol></li></ol></li><li class="chapter-item expanded "><li class="part-title">Feedback</li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">46.</strong> How to Report a Bug</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">47.</strong> How to Request a Feature</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">48.</strong> How to Ask a Question</a></li><li class="chapter-item expanded affix "><li class="part-title">About</li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">49.</strong> Taskwarrior Release History</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">50.</strong> Taskserver Release History</a></li><li class="chapter-item expanded "><a href="placeholder.html"><strong aria-hidden="true">51.</strong> MIT License</a></li></ol>
+            </div>
+            <div id="sidebar-resize-handle" class="sidebar-resize-handle"></div>
+        </nav>
+
+        <div id="page-wrapper" class="page-wrapper">
+
+            <div class="page">
+                <div id="menu-bar-hover-placeholder"></div>
+                <div id="menu-bar" class="menu-bar sticky bordered">
+                    <div class="left-buttons">
+                        <button id="sidebar-toggle" class="icon-button" type="button" title="Toggle Table of Contents" aria-label="Toggle Table of Contents" aria-controls="sidebar">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <button id="theme-toggle" class="icon-button" type="button" title="Change theme" aria-label="Change theme" aria-haspopup="true" aria-expanded="false" aria-controls="theme-list">
+                            <i class="fa fa-paint-brush"></i>
+                        </button>
+                        <ul id="theme-list" class="theme-popup" aria-label="Themes" role="menu">
+                            <li role="none"><button role="menuitem" class="theme" id="light">Light (default)</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="rust">Rust</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="coal">Coal</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="navy">Navy</button></li>
+                            <li role="none"><button role="menuitem" class="theme" id="ayu">Ayu</button></li>
+                        </ul>
+                        <button id="search-toggle" class="icon-button" type="button" title="Search. (Shortkey: s)" aria-label="Toggle Searchbar" aria-expanded="false" aria-keyshortcuts="S" aria-controls="searchbar">
+                            <i class="fa fa-search"></i>
+                        </button>
+                    </div>
+
+                    <h1 class="menu-title">Taskwarrior</h1>
+
+                    <div class="right-buttons">
+                        <a href="print.html" title="Print this book" aria-label="Print this book">
+                            <i id="print-button" class="fa fa-print"></i>
+                        </a>
+
+                    </div>
+                </div>
+
+                <div id="search-wrapper" class="hidden">
+                    <form id="searchbar-outer" class="searchbar-outer">
+                        <input type="search" id="searchbar" name="searchbar" placeholder="Search this book ..." aria-controls="searchresults-outer" aria-describedby="searchresults-header">
+                    </form>
+                    <div id="searchresults-outer" class="searchresults-outer hidden">
+                        <div id="searchresults-header" class="searchresults-header"></div>
+                        <ul id="searchresults">
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Apply ARIA attributes after the sidebar and the sidebar toggle button are added to the DOM -->
+                <script type="text/javascript">
+                    document.getElementById('sidebar-toggle').setAttribute('aria-expanded', sidebar === 'visible');
+                    document.getElementById('sidebar').setAttribute('aria-hidden', sidebar !== 'visible');
+                    Array.from(document.querySelectorAll('#sidebar a')).forEach(function(link) {
+                        link.setAttribute('tabIndex', sidebar === 'visible' ? 0 : -1);
+                    });
+                </script>
+
+                <div id="content" class="content">
+                    <main>
+                        <h1 id="30-second-tutorial"><a class="header" href="#30-second-tutorial">30-Second Tutorial</a></h1>
+<p>Let's get started. Here's a quick demonstration showing how to perform basic task management.</p>
+<p>Here is an explanation of what is happening. First add two tasks.</p>
+<pre><code>$ task add Read Taskwarrior documents later
+Created task 1.
+
+$ task add priority:H Pay bills
+Created task 2.
+</code></pre>
+<p>Easy. Do you see that second one has a High priority? Now look at those tasks, using the report <code>next</code>. Notice that the two tasks are ordered by urgency, and the urgency is affected by the priority, among other things.</p>
+<pre><code>$ task next
+
+ID Age P Description                      Urg
+-- --- - -------------------------------- ----
+ 2 10s H Pay bills                           6
+ 1 20s   Read Taskwarrior documents later    0
+</code></pre>
+<p>Suppose the bills are paid and we wish to mark task 2 as completed.</p>
+<pre><code>$ task 2 done
+Completed task 2 'Pay bills'.
+Completed 1 task.
+</code></pre>
+<p>Now we can omit the <code>next</code> command, because it is the default command.</p>
+<pre><code>$ task
+
+ID Age Description                      Urg
+-- --- -------------------------------- ----
+ 1 5m  Read Taskwarrior documents later    0
+</code></pre>
+<p>Task 2 is now gone. Notice that no visible tasks have a priority set, and so the priority column is not shown. Now we can delete that remaining task, because we are already using the tutorial.</p>
+<pre><code>$ task 1 delete
+Permanently delete task 1 'Read Taskwarrior documents later'? (yes/no) y
+Deleting task 1 'Read Taskwarrior documents later'.
+Deleted 1 task.
+
+$ task
+No matches.
+</code></pre>
+<p>That is all you <em>need</em> to know. These four commands (add, done, delete, next) will allow you to use Taskwarrior effectively. If you are new to Taskwarrior, it is recommended that you stop here, go and start to manage your task list for a while. We don't want you to be overwhelmed at a time when you just need a way to organize and get things done.</p>
+<p>When you are comfortable with basic Taskwarrior usage, there are many other features you can learn about. While you are not expected to learn all of them, or even find them useful, you might just find exactly what you need.</p>
+
+                    </main>
+
+                    <nav class="nav-wrapper" aria-label="Page navigation">
+                        <!-- Mobile navigation buttons -->
+                            <a rel="prev" href="introduction.html" class="mobile-nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                                <i class="fa fa-angle-left"></i>
+                            </a>
+
+                            <a rel="next" href="help.html" class="mobile-nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+
+                        <div style="clear: both"></div>
+                    </nav>
+                </div>
+            </div>
+
+            <nav class="nav-wide-wrapper" aria-label="Page navigation">
+                    <a rel="prev" href="introduction.html" class="nav-chapters previous" title="Previous chapter" aria-label="Previous chapter" aria-keyshortcuts="Left">
+                        <i class="fa fa-angle-left"></i>
+                    </a>
+
+                    <a rel="next" href="help.html" class="nav-chapters next" title="Next chapter" aria-label="Next chapter" aria-keyshortcuts="Right">
+                        <i class="fa fa-angle-right"></i>
+                    </a>
+            </nav>
+
+        </div>
+
+        <!-- Livereload script (if served using the cli tool) -->
+        <script type="text/javascript">
+            var socket = new WebSocket("ws://0.0.0.0:3000/__livereload");
+            socket.onmessage = function (event) {
+                if (event.data === "reload") {
+                    socket.close();
+                    location.reload();
+                }
+            };
+
+            window.onbeforeunload = function() {
+                socket.close();
+            }
+        </script>
+
+
+
+        <script type="text/javascript">
+            window.playground_copyable = true;
+        </script>
+
+
+        <script src="elasticlunr.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="mark.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="searcher.js" type="text/javascript" charset="utf-8"></script>
+
+        <script src="clipboard.min.js" type="text/javascript" charset="utf-8"></script>
+        <script src="highlight.js" type="text/javascript" charset="utf-8"></script>
+        <script src="book.js" type="text/javascript" charset="utf-8"></script>
+
+        <!-- Custom JS scripts -->
+
+
+    </body>
+</html>
