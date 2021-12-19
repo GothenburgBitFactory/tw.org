@@ -2607,7 +2607,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 110,
+    "rating": 111,
     "updated": "2021-12-16",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2863,7 +2863,7 @@
       "bradyt"
     ],
     "rating": 19,
-    "updated": "2021-12-03",
+    "updated": "2021-12-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3268,7 +3268,7 @@
       "coddingtonbear"
     ],
     "rating": 492,
-    "updated": "2021-12-13",
+    "updated": "2021-12-19",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -6673,7 +6673,7 @@
       "maralorn"
     ],
     "rating": 4,
-    "updated": "2021-11-26",
+    "updated": "2021-12-17",
     "url": "https://github.com/maralorn/kassandra"
   },
   {
@@ -6768,7 +6768,7 @@
   },
   {
     "description": "couple of wrappers around TaskWarrior suitable for GTD-based approach",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -8202,7 +8202,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 575,
+    "rating": 576,
     "updated": "2021-12-17",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -8473,7 +8473,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2021-12-07",
+    "updated": "2021-12-17",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9732,7 +9732,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 302,
+    "rating": 303,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
