@@ -988,7 +988,7 @@
       "KevCui"
     ],
     "rating": 14,
-    "updated": "2021-11-19",
+    "updated": "2021-12-19",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2563,7 +2563,7 @@
       "bergercookie"
     ],
     "rating": 2,
-    "updated": "2021-12-14",
+    "updated": "2021-12-19",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
   {
@@ -2607,8 +2607,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 111,
-    "updated": "2021-12-16",
+    "rating": 112,
+    "updated": "2021-12-19",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2772,7 +2772,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 477,
+    "rating": 476,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -9477,7 +9477,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 617,
+    "rating": 616,
     "updated": "2021-10-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
