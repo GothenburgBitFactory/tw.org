@@ -2608,7 +2608,7 @@
       "bergercookie"
     ],
     "rating": 112,
-    "updated": "2021-12-19",
+    "updated": "2021-12-20",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -3268,7 +3268,7 @@
       "coddingtonbear"
     ],
     "rating": 492,
-    "updated": "2021-12-19",
+    "updated": "2021-12-20",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -5697,7 +5697,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 610,
+    "rating": 611,
     "updated": "2021-12-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -5773,7 +5773,7 @@
       "kevinstadler"
     ],
     "rating": 0,
-    "updated": "2021-12-16",
+    "updated": "2021-12-20",
     "url": "https://github.com/kevinstadler/taskwarrior-vit-config"
   },
   {
@@ -9075,6 +9075,21 @@
     "rating": 0,
     "updated": "2018-01-29",
     "url": "https://github.com/straumer/taskscripts"
+  },
+  {
+    "description": "Sync tasks between taskwarrior and kanboard",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "kanboard-taskwarrior",
+    "owner": [
+      "strawpants"
+    ],
+    "rating": 0,
+    "updated": "2021-12-20",
+    "url": "https://github.com/strawpants/kanboard-taskwarrior"
   },
   {
     "description": "experimental implementation of GTD with Taskwarrior and vit",
