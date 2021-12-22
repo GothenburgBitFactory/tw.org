@@ -1,0 +1,126 @@
+{{ partial "header.html" . }}
+
+<main role="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 main">
+        <article>
+          <section>
+            {{ .Content }}
+          </section>
+        </article>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2 main">
+        <div class="well">
+          <fieldset>
+            <legend>Search</legend>
+            <label>Search keywords
+            <input type="search" class="form-control"  placeholder="Search &hellip;" data-bind="textInput: query" autocomplete="off" />
+            </label>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" data-bind="checked: ObsoleteSelected"/>
+                <small>
+                  Include obsolete projects
+                  <span class="tooltip">
+                    &#9432;
+                    <span class="tooltiptext">Projects are considered 'obsolete' if their last update was more than 3 years ago</span>
+                  </span>
+                </small>
+              </label>
+            </div>
+          </fieldset>
+        </div>
+        <div class="well">
+          <fieldset>
+            <legend>Languages</legend>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="all" data-bind="checked: selectedAllLanguages"/>
+                <em>All</em>
+              </label>
+            </div>
+            <div class="checkbox" data-bind="foreach: languages">
+              <label>
+                <input type="checkbox" data-bind="checkedValue: $data, checked: $parent.LanguagesSelected"/>
+                <span data-bind="text: $data"></span>
+              </label>
+              <br>
+            </div>
+          </fieldset>
+        </div>
+        <div class="well">
+          <fieldset>
+            <legend>Owners</legend>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" value="all" data-bind="checked: selectedAllOwners"/>
+                <em>All</em>
+              </label>
+            </div>
+            <div class="checkbox" data-bind="foreach: owners">
+              <label>
+                <input type="checkbox" data-bind="checkedValue: $data, checked: $parent.OwnersSelected"/>
+                <span data-bind="text: $data"></span>
+              </label>
+              <br/>
+            </div >
+          </fieldset>
+        </div>
+      </div>
+      <div class="col-md-8 main">
+        <p class="lead">
+          There
+          <span data-bind="visible: filteredTools().length != 1">are</span>
+          <span data-bind="visible: filteredTools().length == 1">is</span>
+          <span id="total_tools" data-bind="text: filteredTools().length">0</span>
+          <span data-bind="visible: filteredTools().length != 1">tools/extensions</span>
+          <span data-bind="visible: filteredTools().length == 1">tool/extension</span>
+          matching your search:
+        </p>
+        <table class="table table-striped" aria-label="tools table">
+          <thead>
+          <tr>
+            <th scope="col">Tool</th>
+            <th scope="col">Description</th>
+            <th scope="col">License</th>
+          </tr>
+          </thead>
+          <tbody class="tools content row" data-bind="foreach: filteredTools">
+          <tr>
+            <td>
+              <p>
+                <strong><a title="Project" data-bind="text: name, attr:{ href: url }"></a></strong><br>
+                <span data-bind="visible: owner.length > 0"><small>by <em title="Owners" data-bind="text: owner.join(', ')"></em></small></span>
+              </p>
+              <p>
+                <span>Rating: <span title="Rating" data-bind="text: rating"></span> &star;</span>
+              </p>
+            </td>
+            <td>
+              <p data-bind="html: description"></p>
+              <p>
+                <small>
+                  <span data-bind="visible: language.length > 0">Language: <span data-bind="text: language"></span></span><br>
+                  Last update: <span title="Last update" data-bind="text: updated"></span>
+                  <strong data-bind="visible: obsolete">(Obsolete)</strong>
+                </small>
+              </p>
+            </td>
+            <td>
+              <p title="License" data-bind="text: license"></p>
+            </td>
+          </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</main>
+
+{{ partial "footer.html" . }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js" type="text/javascript"></script>
+<script src="/js/filter-ko.js" type="text/javascript" defer="defer"></script>

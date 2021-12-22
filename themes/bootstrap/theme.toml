@@ -1,0 +1,22 @@
+name = "Bootstrap Docs"
+license = "MIT"
+description = "Bootstrap documentation theme for hugo"
+features = ["documentation", ""]
+
+[author]
+  name = "Gothenburg Bitfactory"
+  homepage = "https://gothenburgbitfactory.org/"
+
+[markup]
+  [markup.highlight]
+    anchorLineNos = false
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineAnchors = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4

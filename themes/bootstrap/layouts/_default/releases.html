@@ -1,0 +1,46 @@
+{{ partial "header.html" . }}
+
+<main role="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-10 doc-main">
+        <section>
+          {{ .Content }}
+        </section>
+      </div>
+    </div>
+  </div>
+  <div class="banner" style="background-color:#c4cbb7;">
+    <div class="container">
+      <h2>Current release</h2>
+      {{ $currentRelease := index ($.Site.Data.releases) 0 }}
+      <section>
+        <h3>Timewarrior {{ $currentRelease.version }}</h3>
+        <p>released {{ $currentRelease.date }}</p>
+        <p class="lead">
+          <a href="{{ $currentRelease.url }}">{{ $currentRelease.name }}</a>
+          <br/>
+          <small>SHA256: {{ $currentRelease.sha256 }}</small>
+        </p>
+      </section>
+    </div>
+  </div>
+  <div class="banner" style="background-color:#ebefc9;">
+    <div class="container">
+      <h2>Previous releases</h2>
+      {{ range $release := after 1 $.Site.Data.releases }}
+      <section>
+        <h3>Timewarrior {{ $release.version }}</h3>
+        <p>released {{ $release.date }}</p>
+        <p class="lead">
+          <a href="{{ $release.url }}">{{ $release.name }}</a>
+          <br />
+          <small>SHA256: {{ $release.sha256 }}</small>
+        </p>
+      </section>
+      {{ end }}
+    </div> <!-- /.doc-main -->
+  </div>
+</main>
+
+{{ partial "footer.html" . }}
