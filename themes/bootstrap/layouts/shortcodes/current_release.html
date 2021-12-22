@@ -1,0 +1,2 @@
+{{ $currentRelease := index ($.Site.Data.releases) 0 }}
+{{- index $currentRelease ( .Get 0 ) -}}

@@ -1,0 +1,36 @@
+{{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
+{{ partial "header.html" . }}
+
+<main role="main">
+  <div class="banner" style="background-color:#54b1db;">
+    <div class="container">
+      <h1>Welcome to Timewarrior</h1>
+      <p class="lead">
+        {{ .Site.Params.description }}
+      </p>
+      <p>
+        <img src="/images/swatch.png" style="width:50%;" alt="Timewarrior samples.">
+        <br />
+        <br />
+      </p>
+    </div>
+  </div>
+  <div class="banner" >
+    <div class="container">
+      <h3>Current Release</h3>
+      {{ $currentRelease := index ($.Site.Data.releases) 0 }}
+      <section>
+        <p class="lead">Timewarrior {{ $currentRelease.version }} released {{ $currentRelease.date }}.</p>
+        <p class="lead">
+          <a href="{{ $currentRelease.url }}">{{ $currentRelease.tarball }}</a>
+          <br />
+          <small>SHA256: {{ $currentRelease.sha256 }}</small>
+        </p>
+      </section>
+      <p>Please consult the <a href="/docs/install">Documentation</a> for binary packages and the installation guide.</p>
+      <p>Older releases can be found in the <a href="/releases">archive</a>.</p>
+      </div>
+  </div>
+</main>
+
+{{ partial "footer.html" . }}
