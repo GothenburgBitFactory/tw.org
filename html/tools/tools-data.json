@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -583,7 +583,7 @@
       "EUye9IM"
     ],
     "rating": 0,
-    "updated": "2021-12-15",
+    "updated": "2021-12-24",
     "url": "https://github.com/EUye9IM/Todo_manager"
   },
   {
@@ -988,7 +988,7 @@
       "KevCui"
     ],
     "rating": 12,
-    "updated": "2021-12-19",
+    "updated": "2021-12-24",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -3267,7 +3267,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 493,
+    "rating": 494,
     "updated": "2021-12-21",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5548,7 +5548,7 @@
       "jspricke"
     ],
     "rating": 7,
-    "updated": "2021-10-14",
+    "updated": "2021-12-24",
     "url": "https://github.com/jspricke/python-icstask"
   },
   {
@@ -5697,7 +5697,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 611,
+    "rating": 612,
     "updated": "2021-12-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9477,8 +9477,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 616,
-    "updated": "2021-12-21",
+    "rating": 617,
+    "updated": "2021-12-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -9732,7 +9732,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 303,
+    "rating": 304,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
