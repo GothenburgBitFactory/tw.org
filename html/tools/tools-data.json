@@ -2608,7 +2608,7 @@
       "bergercookie"
     ],
     "rating": 112,
-    "updated": "2021-12-20",
+    "updated": "2021-12-26",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2667,7 +2667,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 109,
+    "rating": 110,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3267,7 +3267,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 494,
+    "rating": 495,
     "updated": "2021-12-21",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5022,7 +5022,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -5548,7 +5548,7 @@
       "jspricke"
     ],
     "rating": 7,
-    "updated": "2021-12-24",
+    "updated": "2021-12-26",
     "url": "https://github.com/jspricke/python-icstask"
   },
   {
@@ -5697,7 +5697,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 613,
+    "rating": 614,
     "updated": "2021-12-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8533,7 +8533,7 @@
       "samxsmith"
     ],
     "rating": 0,
-    "updated": "2021-10-10",
+    "updated": "2021-12-26",
     "url": "https://github.com/samxsmith/taskwarrior_utils"
   },
   {
@@ -9732,7 +9732,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 304,
+    "rating": 303,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
