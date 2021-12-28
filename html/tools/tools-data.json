@@ -2608,7 +2608,7 @@
       "bergercookie"
     ],
     "rating": 112,
-    "updated": "2021-12-26",
+    "updated": "2021-12-27",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -4175,21 +4175,6 @@
     "description": null,
     "dormant": false,
     "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "taskwarrior-notifications",
-    "owner": [
-      "fmlatghor"
-    ],
-    "rating": 0,
-    "updated": "2021-09-04",
-    "url": "https://github.com/fmlatghor/taskwarrior-notifications"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
       "Python"
     ],
     "license": null,
@@ -5548,7 +5533,7 @@
       "jspricke"
     ],
     "rating": 7,
-    "updated": "2021-12-26",
+    "updated": "2021-12-27",
     "url": "https://github.com/jspricke/python-icstask"
   },
   {
@@ -8502,7 +8487,7 @@
     "owner": [
       "ryansb"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2012-02-03",
     "url": "https://github.com/ryansb/gitwarrior"
   },
