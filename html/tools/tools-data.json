@@ -282,7 +282,7 @@
     "owner": [
       "AnotherKamila"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2019-03-05",
     "url": "https://github.com/AnotherKamila/tasksched"
   },
@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -732,7 +732,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 101,
+    "rating": 102,
     "updated": "2021-11-08",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -2607,7 +2607,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 112,
+    "rating": 113,
     "updated": "2021-12-27",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2772,7 +2772,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 476,
+    "rating": 477,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -2790,6 +2790,21 @@
     "rating": 1,
     "updated": "2016-02-13",
     "url": "https://github.com/bmejias/kanban4taskwarrior"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "docker-dart-taskserver-issue",
+    "owner": [
+      "bradyt"
+    ],
+    "rating": 0,
+    "updated": "2021-12-28",
+    "url": "https://github.com/bradyt/docker-dart-taskserver-issue"
   },
   {
     "description": null,
@@ -3312,7 +3327,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 247,
+    "rating": 248,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -3883,7 +3898,7 @@
       "encima"
     ],
     "rating": 15,
-    "updated": "2021-10-21",
+    "updated": "2021-12-28",
     "url": "https://github.com/encima/flask-task"
   },
   {
@@ -8487,7 +8502,7 @@
     "owner": [
       "ryansb"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2012-02-03",
     "url": "https://github.com/ryansb/gitwarrior"
   },
@@ -9462,7 +9477,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 617,
+    "rating": 618,
     "updated": "2021-12-24",
     "url": "https://github.com/tools-life/taskwiki"
   },
