@@ -223,7 +223,7 @@
       "AliGhahraei"
     ],
     "rating": 4,
-    "updated": "2021-05-13",
+    "updated": "2021-12-30",
     "url": "https://github.com/AliGhahraei/just-start"
   },
   {
@@ -583,7 +583,7 @@
       "EUye9IM"
     ],
     "rating": 0,
-    "updated": "2021-12-24",
+    "updated": "2021-12-29",
     "url": "https://github.com/EUye9IM/Todo_manager"
   },
   {
@@ -988,7 +988,7 @@
       "KevCui"
     ],
     "rating": 12,
-    "updated": "2021-12-24",
+    "updated": "2021-12-31",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1662,7 +1662,7 @@
     "owner": [
       "TheBeachLab"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-12-07",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
@@ -2608,7 +2608,7 @@
       "bergercookie"
     ],
     "rating": 113,
-    "updated": "2021-12-27",
+    "updated": "2021-12-30",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2727,7 +2727,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2772,7 +2772,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 477,
+    "rating": 476,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -2803,7 +2803,7 @@
       "bradyt"
     ],
     "rating": 0,
-    "updated": "2021-12-28",
+    "updated": "2021-12-29",
     "url": "https://github.com/bradyt/docker-dart-taskserver-issue"
   },
   {
@@ -2878,7 +2878,7 @@
       "bradyt"
     ],
     "rating": 19,
-    "updated": "2021-12-18",
+    "updated": "2022-01-01",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3042,7 +3042,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -4527,7 +4527,7 @@
     "owner": [
       "hamlinux"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2021-08-23",
     "url": "https://github.com/hamlinux/taskwarrior-GTD"
   },
@@ -5517,7 +5517,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 253,
+    "rating": 254,
     "updated": "2021-04-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5592,7 +5592,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -5683,7 +5683,7 @@
       "kdheepak"
     ],
     "rating": 0,
-    "updated": "2021-11-01",
+    "updated": "2022-01-01",
     "url": "https://github.com/kdheepak/taskwarrior-testdata"
   },
   {
@@ -5697,8 +5697,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 614,
-    "updated": "2021-12-11",
+    "rating": 616,
+    "updated": "2022-01-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5892,7 +5892,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 123,
+    "rating": 124,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -6597,7 +6597,7 @@
     "owner": [
       "lyz-code"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2020-04-23",
     "url": "https://github.com/lyz-code/taskwarrior_recurrence"
   },
@@ -8172,7 +8172,7 @@
     "owner": [
       "quandangv"
     ],
-    "rating": 5,
+    "rating": 4,
     "updated": "2020-10-12",
     "url": "https://github.com/quandangv/polybar-warrior"
   },
@@ -8533,7 +8533,7 @@
       "samxsmith"
     ],
     "rating": 0,
-    "updated": "2021-12-26",
+    "updated": "2021-12-31",
     "url": "https://github.com/samxsmith/taskwarrior_utils"
   },
   {
@@ -8907,7 +8907,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 58,
+    "rating": 59,
     "updated": "2021-01-17",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -9478,7 +9478,7 @@
       "tools-life"
     ],
     "rating": 618,
-    "updated": "2021-12-24",
+    "updated": "2021-12-30",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -9732,7 +9732,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 303,
+    "rating": 304,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
