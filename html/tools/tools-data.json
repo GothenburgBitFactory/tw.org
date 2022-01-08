@@ -228,7 +228,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "CSS"
     ],
@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2177,21 +2177,6 @@
     "url": "https://github.com/alerque/que-task"
   },
   {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "RestAPI_taskServer",
-    "owner": [
-      "alexcharcoepn"
-    ],
-    "rating": 0,
-    "updated": "2021-02-24",
-    "url": "https://github.com/alexcharcoepn/RestAPI_taskServer"
-  },
-  {
     "description": "ASP .NET CORE API",
     "dormant": false,
     "language": [
@@ -3060,6 +3045,21 @@
     "rating": 7,
     "updated": "2019-12-31",
     "url": "https://github.com/cgardner/taskhelper"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "RestAPI_taskServer",
+    "owner": [
+      "charcoalex"
+    ],
+    "rating": 0,
+    "updated": "2021-02-24",
+    "url": "https://github.com/charcoalex/RestAPI_taskServer"
   },
   {
     "description": "sync obsidian to taskwarrior",
@@ -5697,7 +5697,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 624,
+    "rating": 625,
     "updated": "2022-01-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8595,21 +8595,6 @@
     "rating": 1,
     "updated": "2021-05-20",
     "url": "https://github.com/scmbradley/taskw-i3blocks"
-  },
-  {
-    "description": "Rust todo manager with notes",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "tasker",
-    "owner": [
-      "sebastian-steiner"
-    ],
-    "rating": 2,
-    "updated": "2019-04-03",
-    "url": "https://github.com/sebastian-steiner/tasker"
   },
   {
     "description": "Taskwarrior extension for vscode",
