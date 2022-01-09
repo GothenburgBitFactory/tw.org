@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -988,7 +988,7 @@
       "KevCui"
     ],
     "rating": 12,
-    "updated": "2021-12-31",
+    "updated": "2022-01-08",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2757,7 +2757,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 476,
+    "rating": 477,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -2862,7 +2862,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2022-01-01",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3477,7 +3477,7 @@
     "owner": [
       "dakuten"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2017-06-12",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
   },
@@ -7887,7 +7887,7 @@
     "owner": [
       "philipgatzka"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2019-03-13",
     "url": "https://github.com/philipgatzka/docker-taskd"
   },
@@ -8595,6 +8595,21 @@
     "rating": 1,
     "updated": "2021-05-20",
     "url": "https://github.com/scmbradley/taskw-i3blocks"
+  },
+  {
+    "description": "Rust todo manager with notes",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "tasker",
+    "owner": [
+      "sebastian-steiner"
+    ],
+    "rating": 2,
+    "updated": "2019-04-03",
+    "url": "https://github.com/sebastian-steiner/tasker"
   },
   {
     "description": "Taskwarrior extension for vscode",
@@ -9387,7 +9402,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 463,
+    "rating": 465,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9462,7 +9477,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 619,
+    "rating": 620,
     "updated": "2021-12-30",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9717,7 +9732,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 308,
+    "rating": 310,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
