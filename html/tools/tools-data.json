@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -747,7 +747,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-08-13",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
@@ -988,7 +988,7 @@
       "KevCui"
     ],
     "rating": 12,
-    "updated": "2022-01-08",
+    "updated": "2022-01-09",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2343,7 +2343,7 @@
   },
   {
     "description": "Creates task in taskwarrior from email within mutt",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -2862,7 +2862,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2022-01-01",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3282,7 +3282,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 495,
+    "rating": 496,
     "updated": "2022-01-06",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3327,7 +3327,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 249,
+    "rating": 250,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -3855,21 +3855,6 @@
     "rating": 0,
     "updated": "2020-01-30",
     "url": "https://github.com/edufarest/task2gcal"
-  },
-  {
-    "description": "session of taskwarrior in term",
-    "dormant": false,
-    "language": [
-      "C"
-    ],
-    "license": null,
-    "name": "taskwarrior_session",
-    "owner": [
-      "emil0zulkarnaev"
-    ],
-    "rating": 0,
-    "updated": "2021-06-30",
-    "url": "https://github.com/emil0zulkarnaev/taskwarrior_session"
   },
   {
     "description": "A Taskwarrior Theme without annoying stuff.",
@@ -5697,7 +5682,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 625,
+    "rating": 627,
     "updated": "2022-01-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6162,7 +6147,7 @@
     "owner": [
       "lharding"
     ],
-    "rating": 113,
+    "rating": 114,
     "updated": "2021-11-06",
     "url": "https://github.com/lharding/tasknc"
   },
@@ -7692,7 +7677,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2021-06-04",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
@@ -8203,7 +8188,7 @@
       "ralphbean"
     ],
     "rating": 578,
-    "updated": "2021-12-17",
+    "updated": "2022-01-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9477,7 +9462,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 620,
+    "rating": 621,
     "updated": "2021-12-30",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9732,7 +9717,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 310,
+    "rating": 311,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
