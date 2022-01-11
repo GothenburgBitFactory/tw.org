@@ -432,7 +432,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -988,7 +988,7 @@
       "KevCui"
     ],
     "rating": 12,
-    "updated": "2022-01-09",
+    "updated": "2022-01-10",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1662,7 +1662,7 @@
     "owner": [
       "TheBeachLab"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2021-12-07",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
@@ -2592,7 +2592,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 113,
+    "rating": 114,
     "updated": "2021-12-30",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2712,7 +2712,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2862,7 +2862,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 23,
+    "rating": 25,
     "updated": "2022-01-01",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -4062,7 +4062,7 @@
     "owner": [
       "eyenx"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-08-03",
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
   },
@@ -5553,7 +5553,7 @@
   },
   {
     "description": "Golang library to interact with taskwarrior database",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Go"
     ],
@@ -5563,7 +5563,7 @@
       "jubnzv"
     ],
     "rating": 21,
-    "updated": "2018-11-06",
+    "updated": "2022-01-10",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
   {
@@ -5683,7 +5683,7 @@
       "kdheepak"
     ],
     "rating": 627,
-    "updated": "2022-01-05",
+    "updated": "2022-01-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -7872,7 +7872,7 @@
     "owner": [
       "philipgatzka"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2019-03-13",
     "url": "https://github.com/philipgatzka/docker-taskd"
   },
@@ -9387,7 +9387,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 465,
+    "rating": 464,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9717,7 +9717,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 311,
+    "rating": 313,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
