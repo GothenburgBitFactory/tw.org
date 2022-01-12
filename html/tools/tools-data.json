@@ -897,7 +897,7 @@
     "owner": [
       "Ivangonz"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-01-31",
     "url": "https://github.com/Ivangonz/sethrak"
   },
@@ -2712,7 +2712,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2862,7 +2862,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2022-01-01",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3282,7 +3282,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 496,
+    "rating": 497,
     "updated": "2022-01-06",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3537,7 +3537,7 @@
     "owner": [
       "davidsierradz"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2020-10-25",
     "url": "https://github.com/davidsierradz/i3blocks-taskwarrior-clojure"
   },
@@ -5067,7 +5067,7 @@
     "owner": [
       "jbarratt"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2012-09-06",
     "url": "https://github.com/jbarratt/AlfredTaskwarrior"
   },
@@ -5563,7 +5563,7 @@
       "jubnzv"
     ],
     "rating": 21,
-    "updated": "2022-01-10",
+    "updated": "2022-01-11",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
   {
@@ -5682,8 +5682,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 627,
-    "updated": "2022-01-10",
+    "rating": 630,
+    "updated": "2022-01-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6252,7 +6252,7 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-12-05",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
@@ -6342,7 +6342,7 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2018-08-22",
     "url": "https://github.com/linuxcaffe/tw-import-export-scripts"
   },
@@ -7167,7 +7167,7 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2020-01-25",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
@@ -8188,7 +8188,7 @@
       "ralphbean"
     ],
     "rating": 578,
-    "updated": "2022-01-09",
+    "updated": "2022-01-11",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8250,21 +8250,6 @@
     "rating": 0,
     "updated": "2021-12-10",
     "url": "https://github.com/rawrlolarawr/graphql-express-taskserver"
-  },
-  {
-    "description": "Web UI for Taskwarrior",
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": "MIT License",
-    "name": "twui",
-    "owner": [
-      "regnat"
-    ],
-    "rating": 2,
-    "updated": "2015-05-31",
-    "url": "https://github.com/regnat/twui"
   },
   {
     "description": "Self-hostable Telegram bot to interface with Taskwarrior through the inthe.am api",
@@ -8577,7 +8562,7 @@
     "owner": [
       "scmbradley"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-05-20",
     "url": "https://github.com/scmbradley/taskw-i3blocks"
   },
@@ -9407,6 +9392,21 @@
     "url": "https://github.com/thewellington/taskwarrior.widget"
   },
   {
+    "description": "Web UI for Taskwarrior",
+    "dormant": true,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "MIT License",
+    "name": "twui",
+    "owner": [
+      "thufschmitt"
+    ],
+    "rating": 2,
+    "updated": "2015-05-31",
+    "url": "https://github.com/thufschmitt/twui"
+  },
+  {
     "description": "a status item for taskwarrior on OSX",
     "dormant": true,
     "language": [
@@ -9717,7 +9717,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 313,
+    "rating": 314,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
@@ -10155,6 +10155,21 @@
     "rating": 0,
     "updated": "2017-06-09",
     "url": "https://github.com/yunghuffy/champain-taskwarrior_server"
+  },
+  {
+    "description": "a small cli to keep track of my current and next task with taskwarrior",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Other",
+    "name": "current-next",
+    "owner": [
+      "zacharyfrederick"
+    ],
+    "rating": 0,
+    "updated": "2022-01-11",
+    "url": "https://github.com/zacharyfrederick/current-next"
   },
   {
     "description": "Simple taskwarrior sync unit and timer file",
