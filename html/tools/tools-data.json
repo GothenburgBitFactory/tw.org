@@ -2592,7 +2592,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 114,
+    "rating": 115,
     "updated": "2021-12-30",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2652,7 +2652,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 113,
+    "rating": 114,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2712,7 +2712,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 35,
+    "rating": 37,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3613,7 +3613,7 @@
       "dezmondfinney"
     ],
     "rating": 1,
-    "updated": "2021-10-06",
+    "updated": "2022-01-13",
     "url": "https://github.com/dezmondfinney/Montu"
   },
   {
@@ -4303,7 +4303,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2021-11-24",
+    "updated": "2022-01-14",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -4348,7 +4348,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2021-10-06",
+    "updated": "2022-01-14",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -4407,7 +4407,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-11-02",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -4662,7 +4662,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -4932,7 +4932,7 @@
     "owner": [
       "j-jith"
     ],
-    "rating": 17,
+    "rating": 16,
     "updated": "2018-10-23",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
@@ -5333,13 +5333,13 @@
       "Common Lisp"
     ],
     "license": "MIT License",
-    "name": "gtd-review",
+    "name": "projectwarrior",
     "owner": [
       "jonathanabennett"
     ],
     "rating": 7,
-    "updated": "2022-01-05",
-    "url": "https://github.com/jonathanabennett/gtd-review"
+    "updated": "2022-01-14",
+    "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
     "description": "wip: wunderlist & taskwarrior two-way sync in python3",
@@ -5567,7 +5567,7 @@
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
   {
-    "description": "An open-source organizer based on Taskwarrior",
+    "description": "GUI organizer based on Taskwarrior",
     "dormant": false,
     "language": [
       "C++"
@@ -5682,8 +5682,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 630,
-    "updated": "2022-01-11",
+    "rating": 635,
+    "updated": "2022-01-12",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5998,7 +5998,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2021-10-12",
+    "updated": "2022-01-14",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -8187,8 +8187,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 578,
-    "updated": "2022-01-11",
+    "rating": 579,
+    "updated": "2022-01-14",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9717,7 +9717,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 314,
+    "rating": 316,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
@@ -10218,7 +10218,7 @@
   },
   {
     "description": "Role for configuring a Taskwarrior server",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
