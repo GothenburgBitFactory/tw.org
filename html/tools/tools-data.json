@@ -890,7 +890,7 @@
     "description": "PyQt GUI for TaskWarrior",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": null,
     "name": "sethrak",
@@ -898,7 +898,7 @@
       "Ivangonz"
     ],
     "rating": 2,
-    "updated": "2021-01-31",
+    "updated": "2022-01-15",
     "url": "https://github.com/Ivangonz/sethrak"
   },
   {
@@ -988,7 +988,7 @@
       "KevCui"
     ],
     "rating": 12,
-    "updated": "2022-01-10",
+    "updated": "2022-01-15",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1245,6 +1245,21 @@
     "rating": 0,
     "updated": "2021-06-11",
     "url": "https://github.com/Nitesh7664/taskServer"
+  },
+  {
+    "description": "log timesheets in zoho from terminal in a taskwarrior inspired way",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "ztask",
+    "owner": [
+      "PabloRuizCuevas"
+    ],
+    "rating": 0,
+    "updated": "2022-01-15",
+    "url": "https://github.com/PabloRuizCuevas/ztask"
   },
   {
     "description": null,
@@ -2757,7 +2772,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 477,
+    "rating": 478,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3283,7 +3298,7 @@
       "coddingtonbear"
     ],
     "rating": 497,
-    "updated": "2022-01-06",
+    "updated": "2022-01-15",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -5502,7 +5517,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 256,
+    "rating": 257,
     "updated": "2021-04-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8187,7 +8202,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 579,
+    "rating": 580,
     "updated": "2022-01-14",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
