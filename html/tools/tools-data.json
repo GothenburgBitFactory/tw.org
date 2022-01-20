@@ -377,6 +377,21 @@
     "url": "https://github.com/Colorless-Green-Ideas/django-taskd"
   },
   {
+    "description": "Generate kanban style HTML pages from taskwarrior databases",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "kanbanwarrior",
+    "owner": [
+      "CourrierGui"
+    ],
+    "rating": 0,
+    "updated": "2022-01-16",
+    "url": "https://github.com/CourrierGui/kanbanwarrior"
+  },
+  {
     "description": "[Ported] Taskwarrior integration for Sublime Text 3",
     "dormant": true,
     "language": [
@@ -732,7 +747,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 102,
+    "rating": 103,
     "updated": "2021-11-08",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -777,7 +792,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 40,
+    "rating": 41,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -883,7 +898,7 @@
       "HiveMinds"
     ],
     "rating": 7,
-    "updated": "2021-10-08",
+    "updated": "2022-01-18",
     "url": "https://github.com/HiveMinds/tw-install"
   },
   {
@@ -1258,7 +1273,7 @@
       "PabloRuizCuevas"
     ],
     "rating": 0,
-    "updated": "2022-01-15",
+    "updated": "2022-01-19",
     "url": "https://github.com/PabloRuizCuevas/ztask"
   },
   {
@@ -1275,6 +1290,21 @@
     "rating": 0,
     "updated": "2021-04-06",
     "url": "https://github.com/Patizy-tel/taskserver"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "gtd-rust-taskwarrior",
+    "owner": [
+      "Pete-Hamlin"
+    ],
+    "rating": 0,
+    "updated": "2022-01-16",
+    "url": "https://github.com/Pete-Hamlin/gtd-rust-taskwarrior"
   },
   {
     "description": null,
@@ -2232,7 +2262,7 @@
     "owner": [
       "alkim0"
     ],
-    "rating": 3,
+    "rating": 5,
     "updated": "2020-08-30",
     "url": "https://github.com/alkim0/task-attach"
   },
@@ -2877,7 +2907,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2022-01-01",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3193,7 +3223,7 @@
       "cinatic"
     ],
     "rating": 119,
-    "updated": "2021-07-16",
+    "updated": "2022-01-16",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -3297,7 +3327,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 497,
+    "rating": 498,
     "updated": "2022-01-15",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3342,7 +3372,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 250,
+    "rating": 251,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5517,7 +5547,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 257,
+    "rating": 259,
     "updated": "2021-04-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5563,7 +5593,7 @@
       "juanedflores"
     ],
     "rating": 2,
-    "updated": "2021-07-05",
+    "updated": "2022-01-16",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
   {
@@ -5697,7 +5727,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 635,
+    "rating": 637,
     "updated": "2022-01-12",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7422,7 +7452,7 @@
     "owner": [
       "nerab"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2021-12-16",
     "url": "https://github.com/nerab/twdeps"
   },
@@ -7482,7 +7512,7 @@
     "owner": [
       "neuhalje"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2019-05-29",
     "url": "https://github.com/neuhalje/notmuch-task"
   },
@@ -8202,7 +8232,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 580,
+    "rating": 582,
     "updated": "2022-01-14",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -8458,7 +8488,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2022-01-04",
+    "updated": "2022-01-19",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -8518,7 +8548,7 @@
       "samxsmith"
     ],
     "rating": 1,
-    "updated": "2021-12-31",
+    "updated": "2022-01-17",
     "url": "https://github.com/samxsmith/taskwarrior_utils"
   },
   {
@@ -8792,6 +8822,21 @@
     "url": "https://github.com/sjcoope/sjcnet-taskwarrior-ui"
   },
   {
+    "description": "My attempt at making dotfiles super portable",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": null,
+    "name": "titan",
+    "owner": [
+      "skbolton"
+    ],
+    "rating": 151,
+    "updated": "2022-01-18",
+    "url": "https://github.com/skbolton/titan"
+  },
+  {
     "description": "Taskwarrior sync server",
     "dormant": true,
     "language": [
@@ -8878,7 +8923,7 @@
       "sorrowless"
     ],
     "rating": 1,
-    "updated": "2021-04-03",
+    "updated": "2022-01-18",
     "url": "https://github.com/sorrowless/twsyncer"
   },
   {
@@ -9387,7 +9432,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 464,
+    "rating": 465,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9477,7 +9522,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 621,
+    "rating": 624,
     "updated": "2021-12-30",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9732,7 +9777,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 316,
+    "rating": 317,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
