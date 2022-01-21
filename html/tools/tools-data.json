@@ -447,7 +447,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2757,7 +2757,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -5775,6 +5775,21 @@
     "rating": 0,
     "updated": "2021-10-29",
     "url": "https://github.com/kellya/task-status"
+  },
+  {
+    "description": "utility to loop through adding tasks to a taskwarrior project",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskloop",
+    "owner": [
+      "kellya"
+    ],
+    "rating": 0,
+    "updated": "2022-01-20",
+    "url": "https://github.com/kellya/taskloop"
   },
   {
     "description": "A taskwarrior color scheme that pulls colors from pineapplegiant/spaceduck color palette and applies them to taskwarrior output (reports, lists, etc.)",
@@ -8832,7 +8847,7 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 151,
+    "rating": 152,
     "updated": "2022-01-18",
     "url": "https://github.com/skbolton/titan"
   },
@@ -9432,7 +9447,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 465,
+    "rating": 466,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -10155,6 +10170,21 @@
     "rating": 0,
     "updated": "2021-06-27",
     "url": "https://github.com/yukiohmiya/taskserver-installation"
+  },
+  {
+    "description": "A tiny command-line orientated PKM tool inspired by Taskwarrior and daily logging.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Apache License 2.0",
+    "name": "eden",
+    "owner": [
+      "yulqen"
+    ],
+    "rating": 0,
+    "updated": "2022-01-20",
+    "url": "https://github.com/yulqen/eden"
   },
   {
     "description": "Process date and holiday data in taskwarrior",
