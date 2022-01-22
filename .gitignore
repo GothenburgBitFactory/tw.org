@@ -1,2 +1,3 @@
 venv/
 update_tools.sh
+.hugo_build.lock
