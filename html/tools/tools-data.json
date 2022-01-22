@@ -747,7 +747,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 103,
+    "rating": 104,
     "updated": "2021-11-08",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1002,7 +1002,7 @@
     "owner": [
       "KevCui"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2022-01-15",
     "url": "https://github.com/KevCui/dotfiles"
   },
@@ -2307,7 +2307,7 @@
     "owner": [
       "amracks"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2017-04-10",
     "url": "https://github.com/amracks/tgs"
   },
@@ -5727,7 +5727,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 637,
+    "rating": 638,
     "updated": "2022-01-12",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -5788,7 +5788,7 @@
       "kellya"
     ],
     "rating": 0,
-    "updated": "2022-01-20",
+    "updated": "2022-01-21",
     "url": "https://github.com/kellya/taskloop"
   },
   {
@@ -5818,7 +5818,7 @@
       "kevinstadler"
     ],
     "rating": 0,
-    "updated": "2021-12-20",
+    "updated": "2022-01-21",
     "url": "https://github.com/kevinstadler/taskwarrior-vit-config"
   },
   {
@@ -8787,7 +8787,7 @@
     "owner": [
       "shushcat"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2017-11-26",
     "url": "https://github.com/shushcat/taskgv"
   },
@@ -8848,7 +8848,7 @@
       "skbolton"
     ],
     "rating": 152,
-    "updated": "2022-01-18",
+    "updated": "2022-01-22",
     "url": "https://github.com/skbolton/titan"
   },
   {
@@ -8938,7 +8938,7 @@
       "sorrowless"
     ],
     "rating": 1,
-    "updated": "2022-01-18",
+    "updated": "2022-01-21",
     "url": "https://github.com/sorrowless/twsyncer"
   },
   {
@@ -10183,7 +10183,7 @@
       "yulqen"
     ],
     "rating": 0,
-    "updated": "2022-01-20",
+    "updated": "2022-01-21",
     "url": "https://github.com/yulqen/eden"
   },
   {
