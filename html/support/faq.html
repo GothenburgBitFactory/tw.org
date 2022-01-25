@@ -155,7 +155,7 @@
               </p>
               <pre>$ task project.none: list
 $ task project: list
-$ task project != '' list
+$ task project == '' list
 $ task -PROJECT list</pre>
               <p>
                 The last example makes use of a virtual tag designed for this
@@ -168,7 +168,7 @@ $ task -PROJECT list</pre>
 
               <pre>$ task project.any: list
 $ task project.not: list
-$ task project == '' list
+$ task project != '' list
 $ task +PROJECT list</pre>
             </li>
           </ul>
