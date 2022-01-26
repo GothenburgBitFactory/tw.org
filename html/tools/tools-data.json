@@ -42,7 +42,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 55,
+    "rating": 54,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -388,7 +388,7 @@
       "CourrierGui"
     ],
     "rating": 0,
-    "updated": "2022-01-16",
+    "updated": "2022-01-22",
     "url": "https://github.com/CourrierGui/kanbanwarrior"
   },
   {
@@ -898,7 +898,7 @@
       "HiveMinds"
     ],
     "rating": 7,
-    "updated": "2022-01-18",
+    "updated": "2022-01-24",
     "url": "https://github.com/HiveMinds/tw-install"
   },
   {
@@ -1003,7 +1003,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-01-15",
+    "updated": "2022-01-22",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -3328,7 +3328,7 @@
       "coddingtonbear"
     ],
     "rating": 498,
-    "updated": "2022-01-15",
+    "updated": "2022-01-23",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3345,6 +3345,21 @@
     "rating": 2,
     "updated": "2020-10-12",
     "url": "https://github.com/coddingtonbear/nagios-taskserver-plugin"
+  },
+  {
+    "description": "Python bindings for Taskwarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "python-taskwarrior",
+    "owner": [
+      "coddingtonbear"
+    ],
+    "rating": 1,
+    "updated": "2022-01-24",
+    "url": "https://github.com/coddingtonbear/python-taskwarrior"
   },
   {
     "description": "Utilities to make using Inthe.AM with Taskwarrior just a little easier.",
@@ -3372,7 +3387,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 251,
+    "rating": 252,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5727,8 +5742,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 638,
-    "updated": "2022-01-12",
+    "rating": 641,
+    "updated": "2022-01-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5788,7 +5803,7 @@
       "kellya"
     ],
     "rating": 0,
-    "updated": "2022-01-21",
+    "updated": "2022-01-24",
     "url": "https://github.com/kellya/taskloop"
   },
   {
@@ -6402,7 +6417,7 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2018-08-22",
     "url": "https://github.com/linuxcaffe/tw-import-export-scripts"
   },
@@ -6870,6 +6885,21 @@
     "rating": 1,
     "updated": "2019-06-12",
     "url": "https://github.com/mattmacari/taskwarrior-helpers"
+  },
+  {
+    "description": "Calendar tui with taskwarrior integration",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "taskcalrs",
+    "owner": [
+      "mbpowers"
+    ],
+    "rating": 0,
+    "updated": "2022-01-24",
+    "url": "https://github.com/mbpowers/taskcalrs"
   },
   {
     "description": "The server for our app",
@@ -8247,7 +8277,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 582,
+    "rating": 583,
     "updated": "2022-01-14",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -8277,8 +8307,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 143,
-    "updated": "2021-11-25",
+    "rating": 144,
+    "updated": "2022-01-24",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -8847,8 +8877,8 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 152,
-    "updated": "2022-01-22",
+    "rating": 154,
+    "updated": "2022-01-24",
     "url": "https://github.com/skbolton/titan"
   },
   {
@@ -9537,8 +9567,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 624,
-    "updated": "2021-12-30",
+    "rating": 626,
+    "updated": "2022-01-23",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
