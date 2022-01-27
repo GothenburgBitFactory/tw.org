@@ -447,7 +447,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 40,
+    "rating": 42,
     "updated": "2021-11-13",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1272,7 +1272,7 @@
     "owner": [
       "PabloRuizCuevas"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-01-19",
     "url": "https://github.com/PabloRuizCuevas/ztask"
   },
@@ -2222,6 +2222,21 @@
     "url": "https://github.com/alerque/que-task"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "RestAPI_taskServer",
+    "owner": [
+      "alexandervcc"
+    ],
+    "rating": 0,
+    "updated": "2021-02-24",
+    "url": "https://github.com/alexandervcc/RestAPI_taskServer"
+  },
+  {
     "description": "ASP .NET CORE API",
     "dormant": false,
     "language": [
@@ -2757,7 +2772,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2908,7 +2923,7 @@
       "bradyt"
     ],
     "rating": 27,
-    "updated": "2022-01-01",
+    "updated": "2022-01-26",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3090,21 +3105,6 @@
     "rating": 7,
     "updated": "2019-12-31",
     "url": "https://github.com/cgardner/taskhelper"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "RestAPI_taskServer",
-    "owner": [
-      "charcoalex"
-    ],
-    "rating": 0,
-    "updated": "2021-02-24",
-    "url": "https://github.com/charcoalex/RestAPI_taskServer"
   },
   {
     "description": "sync obsidian to taskwarrior",
@@ -5562,8 +5562,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 259,
-    "updated": "2021-04-01",
+    "rating": 260,
+    "updated": "2022-01-26",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -5743,7 +5743,7 @@
       "kdheepak"
     ],
     "rating": 641,
-    "updated": "2022-01-25",
+    "updated": "2022-01-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8277,7 +8277,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 583,
+    "rating": 584,
     "updated": "2022-01-14",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -8878,7 +8878,7 @@
       "skbolton"
     ],
     "rating": 154,
-    "updated": "2022-01-24",
+    "updated": "2022-01-26",
     "url": "https://github.com/skbolton/titan"
   },
   {
