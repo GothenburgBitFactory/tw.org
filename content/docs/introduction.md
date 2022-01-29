@@ -2,14 +2,12 @@
 title: "Taskwarrior - Introduction"
 ---
 
-### Introduction
+# Introduction
 
 Hello, and welcome to Taskwarrior. This is the first of many tutorials, and
 covers first-time use.
 
-[]{#first}
-
-#### First Time Use
+## First Time Use
 
 As a first-time user, you are going to need a configuration file and a data
 directory. Taskwarrior will create both of these for you, in your home
@@ -31,7 +29,7 @@ directory, the first time you run Taskwarrior. Here is an example:
     'man task-color', 'man task-sync' or at https://taskwarrior.org
 
 Answer `yes` to the question. After creating the missing file and directory,
-you\'ll see the current version displayed. The configuration file that was just
+you'll see the current version displayed. The configuration file that was just
 created contains very little.
 
     $ cat ~/.taskrc
@@ -72,5 +70,5 @@ directory, which is currently empty:
     $ ls ~/.task
     $
 
-This is because there are no tasks yet. Typically you won\'t need to look in
+This is because there are no tasks yet. Typically you won't need to look in
 that directory.
