@@ -2,7 +2,7 @@
 title: "Taskwarrior - Best Practices"
 ---
 
-### Best Practices
+# Best Practices
 
 If you have installed Taskwarrior and gone through the intro and some of the
 tutorials, you may be wondering how to start using some features to help you
@@ -17,11 +17,11 @@ a list of the most urgent tasks. With a few tips to follow, the `next` report
 can be your most valuable resource. Here are the tips for making the `next`
 report work in your favor.
 
-#### Tips
+## Tips
 
-You\'ll notice that these tips are all about providing more context and metadata
+You'll notice that these tips are all about providing more context and metadata
 for tasks. If all you need is a simple shopping list, then switch back to pencil
-and paper, you\'ll be happier. But if you want some sophistication and the
+and paper, you'll be happier. But if you want some sophistication and the
 ability to manipulate and view the data\...
 
 -   Capture all the tasks and details that you can. Getting the information off
@@ -36,7 +36,7 @@ ability to manipulate and view the data\...
 
         task ID modify due:31st
 
-    Don\'t overdo this though, as a delay might force you to spend too much time
+    Don't overdo this though, as a delay might force you to spend too much time
     reorganizing everything.
 
 -   When you start working on a task, mark it started:
@@ -50,8 +50,8 @@ ability to manipulate and view the data\...
 
         task ID modify priority:M
 
-    But don\'t fall into the trap of shifting the priorities too often, as
-    you\'ll waste a lot of time.
+    But don't fall into the trap of shifting the priorities too often, as
+    you'll waste a lot of time.
 
 -   Add useful tags to a task:
 
@@ -70,11 +70,11 @@ ability to manipulate and view the data\...
 
 -   Try not to have large, long-term tasks that will sit on your list forever.
     It can be very satisfying and motivating to complete tasks, so create more,
-    but smaller, tasks. Don\'t have a \'learn Japanese\' task, instead have a
-    \'Complete chapter 1\' task instead, it\'s more readily achievable, and you
+    but smaller, tasks. Don't have a 'learn Japanese' task, instead have a
+    'Complete chapter 1' task instead, it's more readily achievable, and you
     can more easily see progress, which can be motivating.
 
-#### How That Helps
+## How That Helps
 
 The `next` report is sorted by urgency. Urgency is just a number, but a number
 calculated using a polynomial that considers many aspects of your tasks. What
@@ -106,7 +106,7 @@ Override it:
 
 A zero coefficient means that blocked tasks now have *no* effect on the urgency.
 
-#### Describe Carefully
+## Describe Carefully
 
 Providing good descriptions for your tasks is enormously helpful. Here is a very
 bad example of a task:
@@ -147,13 +147,13 @@ Break down tasks into smaller tasks - the extra effort required to be more
 precise can pay off in terms of efficiently performing the work in the right
 sequence, at the right time.
 
-#### Review Your Tasks
+## Review Your Tasks
 
 Go over your list periodically and correct any erroneous data, like an incorrect
 due date, or a priority that no longer applies because of external factors, or
 even delete tasks that are no longer relevant. This keeps your list current and
 up to date, more accurately reflecting the work you need to accomplish. Accurate
-metadata and good urgency coefficients mean that Taskwarrior\'s idea of urgency
+metadata and good urgency coefficients mean that Taskwarrior's idea of urgency
 more closely matches yours. That will be a big help.
 
 Consider installing and using the Taskwarrior Shell
@@ -167,13 +167,13 @@ doing the *right* work. Good advice would be to spend as little time as you can
 on the task list, but enough to make sure that it is up to date, correct and
 complete. Then rely on the tools, and go get some work done.
 
-#### Common Sense
+## Common Sense
 
 Use a task list, look at it often, correct any mistakes and remove items that no
 longer apply. Choose a methodology that works for you (GTD, Pomodoro \...) or
-devise your own - it\'s not complicated. Be consistent. Backup your data.
+devise your own - it's not complicated. Be consistent. Backup your data.
 
-#### Future Enhancements
+## Future Enhancements
 
 We are always looking into better ways to represent your task list, better ways
 to display it, and better ways to support methodologies that work. We will be
