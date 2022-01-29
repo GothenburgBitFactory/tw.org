@@ -807,7 +807,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 41,
+    "rating": 43,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -2787,7 +2787,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3027,7 +3027,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 87,
+    "rating": 86,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -3402,7 +3402,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 253,
+    "rating": 254,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5312,6 +5312,21 @@
     "url": "https://github.com/jhmartin/taskwarrior-effort-tracker"
   },
   {
+    "description": "Taskwarrior for Android [TESTING]",
+    "dormant": false,
+    "language": [
+      "Kotlin"
+    ],
+    "license": null,
+    "name": "Androwarrior",
+    "owner": [
+      "jijames"
+    ],
+    "rating": 0,
+    "updated": "2019-08-06",
+    "url": "https://github.com/jijames/Androwarrior"
+  },
+  {
     "description": "A script to add planner tasks to taskwarrior",
     "dormant": true,
     "language": [
@@ -5562,7 +5577,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 261,
+    "rating": 262,
     "updated": "2022-01-26",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5742,7 +5757,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 641,
+    "rating": 645,
     "updated": "2022-01-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8627,21 +8642,6 @@
     "url": "https://github.com/schnn/taskserver"
   },
   {
-    "description": "Small script to add tasks to Taskwarrior from a text file in Dropbox.",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskwarrior-dropbox",
-    "owner": [
-      "sclo"
-    ],
-    "rating": 0,
-    "updated": "2013-01-14",
-    "url": "https://github.com/sclo/taskwarrior-dropbox"
-  },
-  {
     "description": "A block for i3blocks that displays information about taskwarrior active tasks",
     "dormant": false,
     "language": [
@@ -8760,6 +8760,21 @@
     "rating": 0,
     "updated": "2018-07-21",
     "url": "https://github.com/sh78/taskwarrior-deduplicate"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "base16-taskwarrior",
+    "owner": [
+      "shebang"
+    ],
+    "rating": 0,
+    "updated": "2021-04-04",
+    "url": "https://github.com/shebang/base16-taskwarrior"
   },
   {
     "description": null,
@@ -9207,7 +9222,7 @@
     "owner": [
       "svenhertle"
     ],
-    "rating": 30,
+    "rating": 29,
     "updated": "2015-03-01",
     "url": "https://github.com/svenhertle/tasktime"
   },
@@ -9462,7 +9477,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 467,
+    "rating": 466,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9552,7 +9567,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 626,
+    "rating": 627,
     "updated": "2022-01-27",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9807,7 +9822,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 317,
+    "rating": 318,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
@@ -10230,6 +10245,21 @@
     "rating": 0,
     "updated": "2019-02-17",
     "url": "https://github.com/yulqen/tw_templates"
+  },
+  {
+    "description": "Integrate taskwarrior and REMIND",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "twremind",
+    "owner": [
+      "yulqen"
+    ],
+    "rating": 1,
+    "updated": "2021-10-25",
+    "url": "https://github.com/yulqen/twremind"
   },
   {
     "description": "A puppet role designed to set up the taskwarrior server",
