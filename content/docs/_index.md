@@ -5,222 +5,86 @@ viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
 
-# Test
-::: {.navbar .navbar-default .navbar-inverse .navbar-fixed-top role="navigation"}
-::: {.container}
-[![](/images/tw-s.png){width="24" height="24"} TASKWARRIOR](/){.navbar-brand
-.text-heavy}
+[*DOCS TO-DO*](/docs/todo)
 
-::: {.navbar-header}
-[Toggle navigation]{.sr-only} []{.icon-bar} []{.icon-bar} []{.icon-bar}
-:::
-
-::: {.collapse .navbar-collapse}
--   [News](/news/)
--   [Docs](/docs/)
--   [Download](/download/)
--   [Support](/support/)
--   [Tools](/tools/)
-:::
-:::
-:::
-
-::: {.container}
-::: {.col-md-12}
 Here is the complete set of Taskwarrior and Taskserver documentation.
-:::
 
-::: {.col-md-10 .main}
-::: {.row}
-+---------------------------------------+---------------------------------------+
-| **Getting Started**                   | -                                     |
-|                                       |    [Introduction](/docs/start.html) - |
-|                                       |     What to do first                  |
-|                                       | -   [Conf                             |
-|                                       | iguration](/docs/introduction.html) - |
-|                                       |     Creating a `.taskrc` file         |
-|                                       | -   [30-Second                        |
-|                                       |     Tutorial](/docs/30second.html) -  |
-|                                       |     all you need to begin using       |
-|                                       |     Taskwarrior                       |
-|                                       | -   [Getting Help](/docs/help.html)   |
-+---------------------------------------+---------------------------------------+
-| **Basic Usage**                       | -   [Command Line                     |
-|                                       |     Syntax](/docs/syntax.html)        |
-|                                       | -   [Best                             |
-|                                       |                                       |
-|                                       | Practices](/docs/best-practices.html) |
-|                                       | -   [Example                          |
-|                                       |     Commands](/docs/examples.html) -  |
-|                                       |     Commonly asked questions          |
-|                                       | -   [Example                          |
-|                                       |     Workflows](/docs/workflow.html) - |
-|                                       |     Everyone uses Taskwarrior         |
-|                                       |     differently                       |
-|                                       | -   [All the                          |
-|                                       |     Commands](/docs/commands/)        |
-|                                       | -   [Using Dates                      |
-|                                       |                                       |
-|                                       |  Effectively](/docs/using_dates.html) |
-|                                       | -   [Unicode](/docs/unicode.html)     |
-|                                       |     [2.5.0]{.label .label-success}    |
-|                                       | -   [Searching](/docs/searching.html) |
-|                                       | -   [Reports](/docs/report.html)      |
-|                                       | -   [Filters](/docs/filter.html)      |
-|                                       | -   [Priority](/docs/priority.html)   |
-|                                       |     [2.4.3]{.label .label-success}    |
-|                                       | -   [Tags & Virtual                   |
-|                                       |     Tags](/docs/tags.html)            |
-|                                       | -   [Date & Time](/docs/dates.html)   |
-|                                       |     [2.4.0]{.label .label-success}    |
-|                                       | -   [Named                            |
-|                                       |     Dates](/docs/named_dates.html)    |
-|                                       |     [2.4.0]{.label .label-success}    |
-|                                       | -   [Duration                         |
-|                                       |     Values](/docs/durations.html)     |
-|                                       |     [2.4.0]{.label .label-success}    |
-|                                       |                                       |
-|                                       | **Configuring Taskwarrior**           |
-|                                       |                                       |
-|                                       | -   [Con                              |
-|                                       | figuration](/docs/configuration.html) |
-|                                       | -   [Verbosity](/docs/verbosity.html) |
-|                                       | -   [Color Themes](/docs/themes.html) |
-|                                       |                                       |
-|                                       | ```{=html}                            |
-|                                       | <!-- -->                              |
-|                                       | ```                                   |
-|                                       | -   [T                                |
-|                                       | erminology](/docs/terminology.html) - |
-|                                       |     a glossary of terms               |
-+---------------------------------------+---------------------------------------+
-| **Advanced Topics**                   | -   [Urgency](/docs/urgency.html)     |
-|                                       | -   [ID Numbers](/docs/ids.html)      |
-|                                       | -   [Context](/docs/context.html)     |
-|                                       |     [2.4.2]{.label .label-success}    |
-|                                       | -   [How Recurrence                   |
-|                                       |     Works](/docs/recurrence.html)     |
-|                                       | -   [User Defined Attributes          |
-|                                       |     (UDAs)](/docs/udas.html)          |
-|                                       | -   [External Scripts](/tools/)       |
-|                                       | -   [Escaping Command Line            |
-|                                       |     Characters](/docs/escapes.html)   |
-|                                       | -   [DOM - Document Object            |
-|                                       |     Model](/docs/dom.html)            |
-|                                       | -   [JSON Import/Export               |
-|                                       |     Format](/docs/design/task.html)   |
-|                                       | -   [Deprecated                       |
-|                                       |     Features](/docs/deprecated.html)  |
-|                                       | -                                     |
-|                                       |   [Philosophy](/docs/philosophy.html) |
-+---------------------------------------+---------------------------------------+
-| **Taskserver**                        | -   [Why do I need a                  |
-|                                       |     Ta                                |
-|                                       | skserver?](/docs/taskserver/why.html) |
-|                                       | -   [Taskserver Setup                 |
-|                                       |     Guide](https://gothenburgbi       |
-|                                       | tfactory.github.io/taskserver-setup/) |
-|                                       | -   [Taskserver Troubleshooting       |
-|                                       |                                       |
-|                                       | Guide](https://gothenburgbitfactory.g |
-|                                       | ithub.io/taskserver-troubleshooting/) |
-+---------------------------------------+---------------------------------------+
-| **Tasksh**                            | -   [Reviewing tasks using            |
-|                                       |     tasksh](/docs/review.html)        |
-|                                       |     [1.1.0]{.label .label-success}    |
-+---------------------------------------+---------------------------------------+
-| **Other Projects**                    | -   [Timewarrior Home                 |
-|                                       |     Page](https://timewarrior.net)    |
-|                                       | -   [Clog Home                        |
-|                                       |     Page](/docs/clog/index.html)      |
-+---------------------------------------+---------------------------------------+
-| **Contributors**                      | -   [Hooks API](/docs/hooks.html)     |
-|                                       |     [2.4.0]{.label .label-success}    |
-|                                       | -   [Hooks v2 API](/docs/hooks2.html) |
-|                                       |     [2.4.3]{.label .label-success}    |
-|                                       | -   [Hook Author\'s                   |
-|                                       |     Guide](/docs/hooks_guide.html)    |
-|                                       |     [2.4.0]{.label .label-success}    |
-|                                       | -   [How To Build                     |
-|                                       |     Taskwarrior](/docs/build.html)    |
-|                                       | -   [Contributing to the              |
-|                                       |     Project](/docs/contribute.html)   |
-|                                       | -   [How to become an Open Source     |
-|                                       |                                       |
-|                                       |   Contributor](/docs/first_time.html) |
-|                                       | -   [Coding                           |
-|                                       |     Style](/docs/coding_style.html)   |
-|                                       | -   [Branching                        |
-|                                       |     Model](/docs/branching.html)      |
-|                                       | -   [3rd Party Application            |
-|                                       |     Guidelines](/docs/3rd-party.html) |
-|                                       | -   [Design Documents                 |
-|                                       |     (RFCs)](/docs/design/index.html)  |
-+---------------------------------------+---------------------------------------+
-| **Feedback**                          | -   [How to Report a                  |
-|                                       |     Bug](/docs/bugs.html)             |
-|                                       | -   [How to Request a                 |
-|                                       |     Feature](/docs/features.html)     |
-|                                       | -   [How to ask a                     |
-|                                       |     question](http://www.ca           |
-|                                       | tb.org/esr/faqs/smart-questions.html) |
-+---------------------------------------+---------------------------------------+
-| **About**                             | -   [Taskwarrior Release              |
-|                                       |     History](/docs/history.html)      |
-|                                       | -   [Taskserver Release               |
-|                                       |     History](/docs/history_td.html)   |
-|                                       | -   [MIT License](/docs/license.html) |
-+---------------------------------------+---------------------------------------+
+## Getting Started
 
-\
-\
-:::
-:::
+-   [Introduction](/docs/start) - What to do first
+-   [Configuration](/docs/introduction) - Creating a `.taskrc` file
+-   [30-Second Tutorial](/docs/30second) - all you need to begin using Taskwarrior
+-   [Getting Help](/docs/help)
 
-::: {.col-md-2}
-::: {.alert .alert-warning}
--   [Getting Started](#start){.alert-link}
--   [Basic](#basic){.alert-link}
--   [Advanced](#advanced){.alert-link}
--   [Taskserver](#taskd){.alert-link}
--   [Tasksh](#tasksh){.alert-link}
--   [Other Projects](#other){.alert-link}
--   [Contributors](#contrib){.alert-link}
--   [Feedback](#feedback){.alert-link}
--   [About](#about){.alert-link}
-:::
-:::
-:::
+## Basic Usage
 
-::: {#footer}
-::: {.container}
-::: {.col-md-2}
-Get Involved\
-[Submit a bug](https://github.com/GothenburgBitFactory/taskwarrior/issues)\
-[Clone the code](https://github.com/GothenburgBitFactory/taskwarrior)
-:::
+-   [Command Line Syntax](/docs/syntax)
+-   [Best Practices](/docs/best-practices)
+-   [Example Commands](/docs/examples) - Commonly asked questions
+-   [Example Workflows](/docs/workflow) - Everyone uses Taskwarrior differently
+-   [All the Commands](/docs/commands/)
+-   [Using Dates Effectively](/docs/using_dates)
+-   [Unicode](/docs/unicode) [2.5.0]{.label .label-success}
+-   [Searching](/docs/searching)
+-   [Reports](/docs/report)
+-   [Filters](/docs/filter)
+-   [Priority](/docs/priority) [2.4.3]{.label .label-success}
+-   [Tags & Virtual Tags](/docs/tags)
+-   [Date & Time](/docs/dates) [2.4.0]{.label .label-success}
+-   [Named Dates](/docs/named_dates) [2.4.0]{.label .label-success}
+-   [Duration Values](/docs/durations) [2.4.0]{.label .label-success}
 
-::: {.col-md-2}
-Related Sites\
-[gothenburgbitfactory.org](https://gothenburgbitfactory.org)\
-[holidata.net](https://holidata.net)
-:::
+## Configuring Taskwarrior
 
-::: {.col-md-2}
-Contact\
-[[]{.glyphicon .glyphicon-envelope} Email](mailto:support@taskwarrior.org)\
-[![](/images/twitter_dark.png){width="16px" height="16px"}
-Twitter](https://twitter.com/taskwarrior)
-:::
+-   [Configuration](/docs/configuration)
+-   [Verbosity](/docs/verbosity)
+-   [Color Themes](/docs/themes)
+-   [Terminology](/docs/terminology) - a glossary of terms
 
-::: {.col-md-2}
-Donate\
-[Sponsor us on Github
-sponsors!](https://github.com/sponsors/GothenburgBitFactory)
-:::
+## Advanced Topics
 
-::: {.col-md-2}
-Copyright &copy: 2018 [Göteborg Bit Factory](/about.html)
-:::
-:::
-:::
+-   [Urgency](/docs/urgency)
+-   [ID Numbers](/docs/ids)
+-   [Context](/docs/context) [2.4.2]{.label .label-success}
+-   [How Recurrence Works](/docs/recurrence)
+-   [User Defined Attributes (UDAs)](/docs/udas)
+-   [External Scripts](/tools/)
+-   [Escaping Command Line Characters](/docs/escapes)
+-   [DOM - Document Object Model](/docs/dom)
+-   [JSON Import/Export Format](/docs/design/task)
+-   [Deprecated Features](/docs/deprecated)
+-   [Philosophy](/docs/philosophy)
+
+## Taskserver
+-   [Why do I need a Taskserver?](/docs/taskserver/why)
+-   [Taskserver Setup Guide](https://gothenburgbitfactory.github.io/taskserver-setup/)
+-   [Taskserver Troubleshooting Guide](https://gothenburgbitfactory.github.io/taskserver-troubleshooting/)
+
+## Tasksh
+-   [Reviewing tasks using tasksh](/docs/review) [1.1.0]{.label .label-success}
+
+## Other Projects
+-   [Timewarrior Home Page](https://timewarrior.net)
+-   [Clog Home Page](/docs/clog/index)
+
+## Contributors
+-   [Hooks API](/docs/hooks) [2.4.0]{.label .label-success}
+-   [Hooks v2 API](/docs/hooks2) [2.4.3]{.label .label-success}
+-   [Hook Author\'s Guide](/docs/hooks_guide) [2.4.0]{.label .label-success}
+-   [How To Build Taskwarrior](/docs/build)
+-   [Contributing to the Project](/docs/contribute)
+-   [How to become an Open Source Contributor](/docs/first_time)
+-   [Coding Style](/docs/coding_style)
+-   [Branching Model](/docs/branching)
+-   [3rd Party Application Guidelines](/docs/3rd-party)
+-   [Design Documents (RFCs)](/docs/design/index)
+
+## Feedback
+-   [How to Report a Bug](/docs/bugs)
+-   [How to Request a Feature](/docs/features)
+-   [How to ask a question](http://www.catb.org/esr/faqs/smart-questions)
+
+## About
+-   [Taskwarrior Release History](/docs/history)
+-   [Taskserver Release History](/docs/history_td)
+-   [MIT License](/docs/license)
