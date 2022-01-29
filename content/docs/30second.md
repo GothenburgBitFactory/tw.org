@@ -2,9 +2,9 @@
 title: "Taskwarrior - 30-Second Tutorial"
 ---
 
-### 30-Second Tutorial
+# 30-Second Tutorial
 
-Let\'s get started. Here\'s a quick demonstration showing how to perform basic
+Let's get started. Here's a quick demonstration showing how to perform basic
 task management.
 
 Here is an explanation of what is happening. First add two tasks.
@@ -55,7 +55,7 @@ are already using the tutorial.
 That is all you *need* to know. These four commands (add, done, delete, next)
 will allow you to use Taskwarrior effectively. If you are new to Taskwarrior, it
 is recommended that you stop here, go and start to manage your task list for a
-while. We don\'t want you to be overwhelmed at a time when you just need a way
+while. We don't want you to be overwhelmed at a time when you just need a way
 to organize and get things done.
 
 When you are comfortable with basic Taskwarrior usage, there are many other

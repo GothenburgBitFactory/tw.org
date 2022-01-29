@@ -11,8 +11,9 @@ Here is the complete set of Taskwarrior and Taskserver documentation.
 
 ## Getting Started
 
--   [Introduction](/docs/start) - What to do first
--   [Configuration](/docs/introduction) - Creating a `.taskrc` file
+-   [Getting Started](/docs/start) - What to do first
+-   [Introduction](/docs/introduction) - Welcome to Taskwarrior
+-   [Configuration](/docs/configuration) - Creating a `.taskrc` file
 -   [30-Second Tutorial](/docs/30second) - all you need to begin using Taskwarrior
 -   [Getting Help](/docs/help)
 
