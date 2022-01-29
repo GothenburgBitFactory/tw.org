@@ -21,7 +21,7 @@ Here is the complete set of Taskwarrior and Taskserver documentation.
 
 -   [Command Line Syntax](/docs/syntax)
 -   [Best Practices](/docs/best-practices)
--   [Example Commands](/docs/examples) - Commonly asked questions
+-   [Example Commands](/docs/examples) - Common uses of Taskwarrior
 -   [Example Workflows](/docs/workflow) - Everyone uses Taskwarrior differently
 -   [All the Commands](/docs/commands/)
 -   [Using Dates Effectively](/docs/using_dates)
