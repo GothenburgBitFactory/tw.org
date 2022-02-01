@@ -1877,6 +1877,21 @@
     "url": "https://github.com/Zebradil/docker-taskd"
   },
   {
+    "description": "My Dockerfiles",
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": null,
+    "name": "dockerfiles",
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 2,
+    "updated": "2019-12-15",
+    "url": "https://github.com/Zebradil/dockerfiles"
+  },
+  {
     "description": "\u4de1\u2192\u4dc6 A Powerline segment for displaying information from Taskwarrior task manager",
     "dormant": false,
     "language": [
@@ -2652,7 +2667,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 115,
+    "rating": 116,
     "updated": "2021-12-30",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -4363,7 +4378,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2022-01-14",
+    "updated": "2022-01-30",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5563,7 +5578,7 @@
       "jschlatow"
     ],
     "rating": 262,
-    "updated": "2022-01-26",
+    "updated": "2022-01-30",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -5742,7 +5757,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 645,
+    "rating": 647,
     "updated": "2022-01-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8863,7 +8878,7 @@
       "skbolton"
     ],
     "rating": 155,
-    "updated": "2022-01-30",
+    "updated": "2022-01-31",
     "url": "https://github.com/skbolton/titan"
   },
   {
@@ -9252,7 +9267,7 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2022-01-05",
     "url": "https://github.com/szaffarano/gotas"
   },
