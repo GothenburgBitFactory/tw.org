@@ -238,7 +238,7 @@
       "AndreResh"
     ],
     "rating": 0,
-    "updated": "2022-02-10",
+    "updated": "2022-02-14",
     "url": "https://github.com/AndreResh/TaskServer"
   },
   {
@@ -297,7 +297,7 @@
     "owner": [
       "AnotherKamila"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2019-03-05",
     "url": "https://github.com/AnotherKamila/tasksched"
   },
@@ -345,6 +345,21 @@
     "rating": 0,
     "updated": "2022-01-27",
     "url": "https://github.com/Ariful01303/taskServer"
+  },
+  {
+    "description": "Script to convert JSON with tasks exported from Asana to Taskwarrior JSON",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "Apache License 2.0",
+    "name": "asana2taskwarrior",
+    "owner": [
+      "ArtUshak"
+    ],
+    "rating": 0,
+    "updated": "2022-02-13",
+    "url": "https://github.com/ArtUshak/asana2taskwarrior"
   },
   {
     "description": "Im trying to build a simple TaskServer that can handle multiple Clients at the same time and manages the Tasks in a SQL database",
@@ -477,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2022-02-09",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -822,7 +837,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 43,
+    "rating": 44,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -1033,7 +1048,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-02-06",
+    "updated": "2022-02-13",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2847,7 +2862,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 479,
+    "rating": 478,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -2953,7 +2968,7 @@
       "bradyt"
     ],
     "rating": 27,
-    "updated": "2022-02-12",
+    "updated": "2022-02-14",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3417,7 +3432,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 255,
+    "rating": 256,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -3687,7 +3702,7 @@
     "owner": [
       "desbma"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-11-01",
     "url": "https://github.com/desbma/task-board"
   },
@@ -4422,7 +4437,7 @@
     "owner": [
       "garykl"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2021-04-13",
     "url": "https://github.com/garykl/task2dot"
   },
@@ -4438,7 +4453,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2022-02-11",
+    "updated": "2022-02-13",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -4752,7 +4767,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 56,
+    "rating": 58,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -4858,7 +4873,7 @@
       "ibrahimfayyaz26"
     ],
     "rating": 0,
-    "updated": "2022-01-27",
+    "updated": "2022-02-13",
     "url": "https://github.com/ibrahimfayyaz26/taskServerSql"
   },
   {
@@ -5592,7 +5607,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 263,
+    "rating": 264,
     "updated": "2022-02-06",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5667,7 +5682,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 6,
+    "rating": 8,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -5772,8 +5787,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 663,
-    "updated": "2022-02-09",
+    "rating": 667,
+    "updated": "2022-02-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6088,7 +6103,7 @@
       "ky-s"
     ],
     "rating": 1,
-    "updated": "2022-02-11",
+    "updated": "2022-02-13",
     "url": "https://github.com/ky-s/taskwarrior-electron"
   },
   {
@@ -6103,7 +6118,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-02-12",
+    "updated": "2022-02-13",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -7123,7 +7138,7 @@
       "mmattocks"
     ],
     "rating": 0,
-    "updated": "2022-02-12",
+    "updated": "2022-02-13",
     "url": "https://github.com/mmattocks/AjrJihadi"
   },
   {
@@ -8337,8 +8352,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 587,
-    "updated": "2022-02-12",
+    "rating": 588,
+    "updated": "2022-02-14",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8835,6 +8850,21 @@
     "rating": 0,
     "updated": "2021-04-04",
     "url": "https://github.com/shebang/base16-taskwarrior"
+  },
+  {
+    "description": "The missing piece between browser and taskwarrior",
+    "dormant": false,
+    "language": [
+      "HTML"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "Taskwarrior-Connector",
+    "owner": [
+      "shenlebantongying"
+    ],
+    "rating": 1,
+    "updated": "2022-02-13",
+    "url": "https://github.com/shenlebantongying/Taskwarrior-Connector"
   },
   {
     "description": null,
@@ -9537,7 +9567,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 469,
+    "rating": 470,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9627,7 +9657,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 629,
+    "rating": 628,
     "updated": "2022-02-11",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9882,7 +9912,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 319,
+    "rating": 321,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
@@ -10018,7 +10048,7 @@
       "winpat"
     ],
     "rating": 4,
-    "updated": "2020-04-04",
+    "updated": "2022-02-13",
     "url": "https://github.com/winpat/taskwarrior.el"
   },
   {
