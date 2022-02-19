@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2022-02-17",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1048,7 +1048,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-02-13",
+    "updated": "2022-02-18",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2862,7 +2862,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 478,
+    "rating": 479,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3718,7 +3718,7 @@
       "dezmondfinney"
     ],
     "rating": 1,
-    "updated": "2022-02-12",
+    "updated": "2022-02-18",
     "url": "https://github.com/dezmondfinney/Montu"
   },
   {
@@ -5443,7 +5443,7 @@
       "jonathanabennett"
     ],
     "rating": 7,
-    "updated": "2022-02-17",
+    "updated": "2022-02-18",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -5787,8 +5787,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 668,
-    "updated": "2022-02-17",
+    "rating": 669,
+    "updated": "2022-02-18",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6118,7 +6118,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-02-13",
+    "updated": "2022-02-18",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -8730,21 +8730,6 @@
     "rating": 2,
     "updated": "2021-05-20",
     "url": "https://github.com/scmbradley/taskw-i3blocks"
-  },
-  {
-    "description": "Rust todo manager with notes",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "tasker",
-    "owner": [
-      "sebastian-steiner"
-    ],
-    "rating": 2,
-    "updated": "2019-04-03",
-    "url": "https://github.com/sebastian-steiner/tasker"
   },
   {
     "description": "Taskwarrior extension for vscode",
