@@ -2,12 +2,11 @@
 title: "Taskwarrior - Prepend"
 ---
 
-[]{#prepend}
 
-### prepend
+# prepend
 
 The `prepend` command is a way to add words to the beginning of a task
-description, and it mirrors the [`append`{.sample}](/docs/commands/append.html)
+description, and it mirrors the [`append`](/docs/commands/append)
 command:
 
     $ task add sandwich
@@ -23,12 +22,10 @@ can also update other attributes:
     -- ---- ------- ----------------------- ----
      1 4min Food    sudo make me a sandwich  1.8
 
-[]{#also}
 
-#### See Also
+## See Also
 
 Other ways of modifying task descriptions include:
 
--   [`modify`{.sample}](/docs/commands/modify.html) command
--   [`append`{.sample}](/docs/commands/append.html) command
-:::
+-   [`modify`](/docs/commands/modify) command
+-   [`append`](/docs/commands/append) command

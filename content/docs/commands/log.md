@@ -2,11 +2,10 @@
 title: "Taskwarrior - Log Command"
 ---
 
-[]{#log}
 
-### log
+# log
 
-The `log` command is the ѕame as the [`add`](/docs/commands/add.html) command,
+The `log` command is the ѕame as the [`add`](/docs/commands/add) command,
 with one difference - the task is added in the completed state. Sometimes it is
 necessary to record tasks that are already completed, if you are faithfully
 tracking work. For example:
@@ -21,13 +20,11 @@ displayed on any report that shows pending tasks.
 This task is immediately recorded as completed with a beginning and an ending
 date.
 
-[]{#also}
 
-#### See Also
+## See Also
 
 Other ways of creating tasks include:
 
--   [`add`{.sample}](/docs/commands/add.html) command
--   `duplicate`{.sample} command
--   `import`{.sample} command
-:::
+-   [`add`](/docs/commands/add) command
+-   `duplicate` command
+-   `import` command

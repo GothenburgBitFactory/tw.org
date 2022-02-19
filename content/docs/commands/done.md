@@ -2,9 +2,8 @@
 title: "Taskwarrior - Done Command"
 ---
 
-[]{#done}
 
-### done
+# done
 
 The `done` command is how tasks are marked as completed.
 
@@ -18,9 +17,8 @@ The `done` command is how tasks are marked as completed.
 This sets the task status to `completed`, adds an `end` date and updates the
 `modified` date.
 
-[]{#enpassant}
 
-#### En Passant
+## En Passant
 
 There is a feature shared by several commands, named *en passant*, which allows
 further changes, above and beyond the command to be made. An example would be to
@@ -40,9 +38,8 @@ annotation:
 
 Here the text `Paint dried overnight` is added as an annotation.
 
-[]{#uuid}
 
-#### UUID
+## UUID
 
 Once a task is completed, it can be referred to by its UUID, because it no
 longer has an ID:
@@ -65,13 +62,11 @@ longer has an ID:
     2015-09-01 23:08:27 End set to '2015-09-01 23:08:27'.
                         Status changed from 'pending' to 'completed'.
 
-[]{#also}
 
-#### See Also
+## See Also
 
 Related topics include:
 
--   [`log`{.sample}](/docs/commands/log.html) command
--   `delete`{.sample} command
--   `undo`{.sample} command
-:::
+-   [`log`](/docs/commands/log) command
+-   `delete` command
+-   `undo` command

@@ -2,9 +2,8 @@
 title: "Taskwarrior - Modify Command"
 ---
 
-[]{#modify}
 
-### modify
+# modify
 
 The `modify` command is the most direct way to change a task, for example,
 replacing a description:
@@ -31,9 +30,8 @@ Changing just about everything about a task:
 
     $ task 1 modify +tag /from/to/ project:New priority:H depends:2 due:tomorrow recur:weekly New description
 
-[]{#config}
 
-#### Configuration
+## Configuration
 
 Taskwarrior has a \'bulk\' threshold, which defaults to three tasks. If you
 attempt to modify more than three tasks in one command, then additional
@@ -47,9 +45,8 @@ The `rc.bulk` configuration setting can be modified to raise the threshold, with
 a value of `0` meaning infinity. The bulk threshold is intended to protect
 against commands that have an incorrect filter.
 
-[]{#recur}
 
-#### Recurrence
+## Recurrence
 
 If you modify a recurring task, you will be asked whether you want the changes
 propagated to the other instances:
@@ -83,9 +80,8 @@ propagated to the other instances:
 
 Declining the modification will affect only the specified task.
 
-[]{#limitations}
 
-#### Limitations
+## Limitations
 
 -   When modifying tasks using a filter, it is easy to forget to limit the
     changes to just the pending tasks, requiring `status:pending` to be added to
@@ -93,13 +89,11 @@ Declining the modification will affect only the specified task.
 -   With `rc.confirmation=off`, `rc.bulk=0`, `rc.recurrence.confirmation=off`,
     and no filter, it is possible to cause great damage.
 
-[]{#also}
 
-#### See Also
+## See Also
 
 Other ways of modifying tasks include:
 
--   [`append`{.sample}](/docs/commands/append.html) command
--   `edit`{.sample} command
--   [`prepend`{.sample}](/docs/commands/prepend.html) command
-:::
+-   [`append`](/docs/commands/append) command
+-   `edit` command
+-   [`prepend`](/docs/commands/prepend) command

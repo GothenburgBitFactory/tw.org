@@ -2,9 +2,8 @@
 title: "Taskwarrior - Count Command"
 ---
 
-[]{#count}
 
-### count
+# count
 
 The `count` command simply counts tasks:
 
@@ -17,13 +16,11 @@ pending. If you want to count just the pending tasks, add a filter:
     $ task status:pending count
     32
 
-If a [context](/docs/context.html) is active, the `count` command obeys it.
+If a [context](/docs/context) is active, the `count` command obeys it.
 
-[]{#also}
 
-#### See Also
+## See Also
 
 Other ways of counting tasks include:
 
--   [`_unique`{.sample}](/docs/commands/_unique.html) command
-:::
+-   [`_unique`](/docs/commands/_unique) command

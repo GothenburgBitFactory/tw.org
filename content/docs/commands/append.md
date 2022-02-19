@@ -2,9 +2,7 @@
 title: "Taskwarrior - Append Command"
 ---
 
-[]{#append}
-
-### append
+# append
 
 The `append` command is a way to add words to the end of a task description:
 
@@ -21,12 +19,9 @@ update other attributes:
     -- ---- ------- ------ ------------------------------------------------------ ----
      1 4min Home    repair Fix plumbing before the house floods and before winter  1.8
 
-[]{#also}
-
-#### See Also
+## See Also
 
 Other ways of modifying task descriptions include:
 
--   [`modify`{.sample}](/docs/commands/modify.html) command
--   [`prepend`{.sample}](/docs/commands/prepend.html) command
-:::
+-   [`modify`](/docs/commands/modify) command
+-   [`prepend`](/docs/commands/prepend) command
