@@ -2,17 +2,15 @@
 title: "Taskwarrior - Calc Command"
 ---
 
-[]{#calc}
 
-### calc
+# calc
 
 Taskwarrior has a `calc` command that exposes the algebraic expression evaluator
 used by all other commands and filters. This is handy for quick calculations
 from the command line, but combined with DOM access, can be very useful.
 
-[]{#numbers}
 
-#### Numbers
+## Numbers
 
 This can be used to perform basic mathematics using the `+`, `-`, `*` and `/`
 operators:
@@ -31,9 +29,8 @@ In addition to integers, you can use real numbers and scientific notation:
 
 In addition to exponentiation, `^`, there is the `%` modulus operator.
 
-[]{#boolean}
 
-#### Boolean
+## Boolean
 
 The `and`, `or`, `xor`, `==`, `!==`, `=`, `!=`, `!`, `~`, `!~`, `<=`, `<`, `>=`,
 and `>` operators allow Boolean expressions:
@@ -54,9 +51,8 @@ A number can be converted to a Boolean value with a double negative:
 
 Otherwise, type conversions are automatic.
 
-[]{#text}
 
-#### Text
+## Text
 
 Text, or strings, can be manipulated in more limited ways, for example there is
 concatenation:
@@ -82,9 +78,8 @@ operator:
 Again, you\'ll need to protect the `~` and `!~` characters from interpretation
 by the shell, and in the last example, to protect the spaces in the sentence.
 
-[]{#dates}
 
-#### Dates
+## Dates
 
 With date support, basic date synonyms like `now`, `today`, `yesterday` and
 `tomorrow` are supported:
@@ -111,9 +106,8 @@ in the EST (local) time zone?
     $ task calc 2014-07-13T16:00:00-03:00
     2014-07-13T15:00:00
 
-[]{#durations}
 
-#### Durations
+## Durations
 
 A duration is either the difference between dates, or a specified interval.
 Durations can be summed:
@@ -143,9 +137,8 @@ until the FIFA World Cup final?
 Durations are shown using the ISO-8601 designated format, using only prescise
 units, that is, not in years or months.
 
-[]{#dom}
 
-#### DOM Access
+## DOM Access
 
 The expression evaluator has access to the Taskwarrior DOM, which is a complete
 source of task information. This information can be accessed and used in an
@@ -165,17 +158,15 @@ What week was that?
     $ task calc 100.entry.week
     30
 
-[]{#utility}
 
-#### Calc Utility
+## Calc Utility
 
 Taskwarrior has a standalone `calc` utility that has the same features, with the
 exception of DOM access. This utility is used for testing, but has a few
 interesting features of its own.
 
-[]{#postfix}
 
-#### Calc Postfix
+## Calc Postfix
 
 Internally, the expression evaluator converts infix expressions (1 + 2 \* 3) to
 postfix (1 2 3 \* +), which is easier to implement and optimize, but `calc`
@@ -184,9 +175,8 @@ exposes this:
     $ calc --postfix '1 2 3 * +'
     7
 
-[]{#debug}
 
-#### Calc Debugging
+## Calc Debugging
 
 There is also support for a `--debug` commadn line option, which displays the
 stack operations as the expression is evaluated in postfix form.
@@ -216,4 +206,3 @@ The number in brackets is the stack ѕize before the operation is performed.
 
 If there is a problem found with the Taskwarrior expression evaluator, it can be
 verified and tested in this way, using the `calc` utility.
-:::

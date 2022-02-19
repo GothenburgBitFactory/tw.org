@@ -2,12 +2,10 @@
 title: "Taskwarrior - Synchronize"
 ---
 
-[]{#synchronize}
 
-### synchronize
+# synchronize
 
-The `synchronize` command, which first appeared in version [2.3.0]{.label
-.label-success}, connects your Taskwarrior client to a
+The `synchronize` command, which first appeared in version 2.3.0, connects your Taskwarrior client to a
 [Taskserver](/docs/#taskd) instance, uploads local changes, downloads remote
 changes, and merges the results. You can have several clients making local
 changes all of which sync to a single server instance, and they will all be kept
@@ -17,7 +15,7 @@ The Taskserver is designed to handle multiple clients that may not have
 synchronized recently, all with local changes, with only temporary network
 connectivity, and still do the right thing.
 
-With a [correctly configured](/docs/taskserver/taskwarrior.html) client, adding
+With a [correctly configured](/docs/taskserver/taskwarrior) client, adding
 a task, or modifying an existing task, creates a local change that needs to be
 synced. Taskwarrior will add a footnote to all output if a `synchronize` is
 needed.
@@ -56,20 +54,18 @@ with the Taskserver.
 
     Sync successful.  No changes.
 
-[]{#limitations}
 
-#### Limitations
+## Limitations
 
 -   Network connectivity is required in order to sync.
 -   Taskwarrior must be [correctly
-    configured](/docs/taskserver/taskwarrior.html) to connect to a Taskserver.
+    configured](/docs/taskserver/taskwarrior) to connect to a Taskserver.
 
-[]{#also}
 
-#### See Also
+## See Also
 
 Other ways of moving tasks around include:
 
--   [`export`{.sample}](/docs/commands/export.html) command
--   `import`{.sample} command
+-   [`export`](/docs/commands/export) command
+-   `import` command
 :::

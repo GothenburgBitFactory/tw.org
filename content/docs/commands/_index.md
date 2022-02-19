@@ -12,7 +12,7 @@ with the version in which they were first available.
   * [`add` - Add a new task](/docs/commands/add)
   * `annotate` - Add an annotation to a task
   * [`append` - Append words to a task description](/docs/commands/append)
-  * [`calc` [2.4.0]{.label .label-success} - Expression calculator](/docs/commands/calc)
+  * [`calc` [2.4.0] - Expression calculator](/docs/commands/calc)
   * `config` - Modify configuration settings
   * `context` - Manage contexts
   * [`count` - Count the tasks matching a filter](/docs/commands/count)

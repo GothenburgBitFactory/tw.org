@@ -2,9 +2,8 @@
 title: "Taskwarrior - Export Command"
 ---
 
-[]{#export}
 
-### export
+# export
 
 The `export` command accepts a filter, and generates a JSON formatted text
 output. For example:
@@ -16,17 +15,15 @@ This command allows you to extract all data from Taskwarrior, in a
 machine-readable, standard format. The `export` command is used by many
 Taskwarrior extensions to gain access to the data.
 
-[]{#format}
 
-#### JSON Format
+## JSON Format
 
 The JSON is formatted according to the [Taskwarrior JSON
-Format](/docs/design/task.html), which consists of one JSON object per line,
+Format](/docs/design/task), which consists of one JSON object per line,
 where one object represents one task.
 
-[]{#config}
 
-#### Configuration
+## Configuration
 
 There is a configuration setting `json.array` which defaults to \'off\', but
 when set to \'on\' generates a single JSON array, rather than a set of
@@ -46,18 +43,15 @@ objects are presented in a list, one per line:
 
 Which setting you use depends on how you handle the JSON.
 
-[]{#limitations}
 
-#### Limitations
+## Limitations
 
 The `export` command JSON includes metadata that is not stored. The `id` and
 `urgency` values are included because some external programs want to see this,
 but are derived values, not stored values.
 
-[]{#also}
 
-#### See Also
+## See Also
 
--   [`_get`{.sample}](/docs/commands/_get.html) command
--   `import`{.sample} command
-:::
+-   [`_get`](/docs/commands/_get) command
+-   `import` command
