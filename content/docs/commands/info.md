@@ -2,13 +2,12 @@
 title: "Taskwarrior - Info Command"
 ---
 
-[]{#add}
 
-### info
+# info
 
 The `info` command (the full command name is `information`) is a way to display
 all the task metadata in human-readable form. This includes
-[UDAs](/docs/udas.html).
+[UDAs](/docs/udas).
 
     $ task 1 info
 
@@ -33,11 +32,11 @@ all the task metadata in human-readable form. This includes
     ------------------- ------------------
     2014-09-27 11:01:02 Tags set to 'bug'.
 
-Taskwarrior [2.4.0]{.label .label-success} will also show a detailed breakdown
+Taskwarrior [2.4.0] will also show a detailed breakdown
 of the urgency calculation, as shown.
 
-Taskwarrior [2.4.2]{.label .label-success} will also show a list of valid
-[Virtual Tags](/docs/tags.html).
+Taskwarrior [2.4.2] will also show a list of valid
+[Virtual Tags](/docs/tags).
 
 The `info` command also accepts `UUID`s to identify tasks, so you can inspect
 completed and deleted tasks also.
@@ -71,28 +70,25 @@ The `info` command also accepts filters, for example searching:
     $ task /duration\ values/ info
     ...
 
-Taskwarrior [2.4.0]{.label .label-success} will use the `info` command in cases
+Taskwarrior [2.4.0] will use the `info` command in cases
 when no command is specified, and the only arguments are IDs or UUIDs, for
 example:
 
     $ task 242
     ...
 
-[]{#config}
 
-#### Configuration
+ Configuration
 
 The date format can be overridden using `dateformat.info`.
 
 Setting `journal.info` to \'yes\' will show a change log for the task, as seen
 in the examples above.
 
-[]{#also}
 
-#### See Also
+ See Also
 
 Other ways of inspecting tasks include:
 
--   [`edit`{.sample}](#) command
--   [`export`{.sample}](#) command
-:::
+-   [`edit`](#) command
+-   [`export`](#) command

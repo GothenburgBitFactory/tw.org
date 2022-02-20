@@ -2,9 +2,8 @@
 title: "Taskwarrior - Columns Command"
 ---
 
-[]{#columns}
 
-### columns
+# columns
 
 The `columns` command shows a list of all the supported columns available for
 inclusion in a custom report. Each column may have multiple formats, and there
@@ -139,4 +138,3 @@ Here is sample output for the `columns` command:
                                    indicator
 
     * Means default format, and therefore optional.  For example, 'due' and 'due.formatted' are equivalent.
-:::

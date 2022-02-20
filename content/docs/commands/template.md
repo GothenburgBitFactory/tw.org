@@ -2,33 +2,28 @@
 title: "Taskwarrior - Template"
 ---
 
-[]{#add}
 
-### add
+# add
 
 The `add` command is the primary means of creating tasks. The simplest task
 requires only a description:
 
     $ task add Fix the leaky plumbing
 
-[]{#config}
 
-#### Configuration
+ Configuration
 
-[]{#limitations}
 
-#### Limitations
+ Limitations
 
 -   
 -   
 
-[]{#also}
 
-#### See Also
+ See Also
 
 Related topics include:
 
--   [`log`{.sample}](/docs/commands/log.html) command
--   [`duplicate`{.sample}](/docs/commands/duplicate.html) command
--   [`import`{.sample}](/docs/commands/import.html) command
-:::
+-   [`log`](/docs/commands/log) command
+-   [`duplicate`](/docs/commands/duplicate) command
+-   [`import`](/docs/commands/import) command

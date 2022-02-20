@@ -112,7 +112,7 @@ Helper commands are not intended for regular use, but there is no reason for tha
   * `_show` - List of `name=value` configuration settings
   * `_tags` - Filtered list of tags in use
   * `_udas` - List of configured UDA names
-  * [`_unique` - [2.5.0]{.label .label-success}   List of unique values for the specified attribute](/docs/commands/_unique)
+  * [`_unique` - [2.5.0]   List of unique values for the specified attribute](/docs/commands/_unique)
   * `_urgency` - Filtered list of task urgencies
   * `_uuids` - Filtered list of pending UUIDs
   * `_version` - Task version (and optional git commit)
