@@ -2,7 +2,7 @@
 title: "Taskwarrior - List Report"
 ---
 
-### list
+# list
 
 The `list` report is a customizable report, which means that many aspects of the
 report is configurable. You may override any of these aspects by modifyign the
@@ -24,19 +24,17 @@ using the `show` command like this:
 These are five settings that define the report. The description and labels are
 straightforward text.
 
-[]{#columns}
 
-#### Columns
+ Columns
 
 The columns are the task metadata, with optional format specifiers. For example,
 the `description.count` column means the description column, but not the
 annotations; instead show a count of the annotations, if any. You can see the
 supported columns and formats using the [`columns`
-command](/docs/commands/columns.html).
+command](/docs/commands/columns).
 
-[]{#filter}
 
-#### Filter
+ Filter
 
 The filter is automatically applied when you run this report. In this case the
 filter shows only pending tasks, using `status:pending`. This can cause some
@@ -53,9 +51,8 @@ that, so you get the expected results by running:
 
     $ task status:completed all
 
-[]{#sort}
 
-#### Sort
+ Sort
 
 The sort setting is a list of columns, with an optional direction (ascending or
 descending), and an optional break indicator. A sort column need not be one that
@@ -71,9 +68,8 @@ Breaking this down, it means the `project` attribute is sorted in ascendign
 collating sequence (hence the `+`), and the solidus (`/`) indicates that this is
 a break column, which means a blank line is inserted before every unique value.
 
-[]{#config}
 
-#### Configuration
+ Configuration
 
 There is a configuration option, named `print.empty.columns`, which defaults to
 `off`. This means that if a report has a column where no task shown has a value,
@@ -82,10 +78,8 @@ then do not display this empty column. This results in much narrower reports.
 The `list` report has thirteen columns, but due to this setting, it is rare to
 see more than six or seven columns in the output.
 
-[]{#also}
 
-#### See Also
+ See Also
 
--   [Reports](/docs/report.html)
--   [`columns`{.sample}](/docs/commands/columns.html) command
-:::
+-   [Reports](/docs/report)
+-   [`columns`](/docs/commands/columns) command

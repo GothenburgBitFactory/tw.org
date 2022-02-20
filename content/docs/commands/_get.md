@@ -2,11 +2,10 @@
 title: "Taskwarrior - _get"
 ---
 
-[]{#_get}
 
-### \_get
+# \_get
 
-The `_get` command is a [DOM](/docs/dom.html) accessor. You can use this command
+The `_get` command is a [DOM](/docs/dom) accessor. You can use this command
 to extract any piece of information stored by taskwarrior. For example to obtain
 the description of task 12:
 
@@ -33,10 +32,8 @@ The `_get` command makes it easy to map between ID and UUID:
 The `_get` command is a helper command, which means it is more useful for
 scripts and extensions than command line use.
 
-[]{#also}
 
-#### See Also
+ See Also
 
--   [DOM](/docs/dom.html)
--   [`export`{.sample}](/docs/commands/export.html) command
-:::
+-   [DOM](/docs/dom)
+-   [`export`](/docs/commands/export) command
