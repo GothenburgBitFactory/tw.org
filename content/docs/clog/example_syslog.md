@@ -2,7 +2,7 @@
 title: "Clog - Syslog Rules"
 ---
 
-### Syslog Rules
+# Syslog Rules
 
 This example shows color highlighting for `syslog` severities.
 
@@ -13,4 +13,3 @@ This example shows color highlighting for `syslog` severities.
     default rule "critical"     --> bold red line
     default rule "critical"     --> blank
     default rule "ignore"       --> suppress
-:::

@@ -2,7 +2,7 @@
 title: "Taskwarrior - Using Dates Effectively"
 ---
 
-### Using Dates Effectively
+# Using Dates Effectively
 
 A task does not require a due date, and can simply be a statement of need:
 
@@ -16,9 +16,8 @@ effects. You can choose to use some, all or none of these, but like all
 Taskwarrior features, they are there in case your needs require it, but you do
 not pay a performance or friction penalty by not using them.
 
-[]{#due}
 
-#### The `due` Date
+## The `due` Date
 
 Use a `due` date to specify the exact date by which a task must be completed.
 This corresponds to the last possible moment when the task can be considered
@@ -68,9 +67,8 @@ What we see here is that Taskwarrior leverages the metadata to drive various
 features. Several reports will sort by `due` date, and as we see above, a task
 that has a due date now belongs on your schedule.
 
-[]{#scheduled}
 
-#### The `scheduled` Date
+## The `scheduled` Date
 
 A `scheduled` date is different from a `due` date, and represents the earliest
 opportunity to work on a task. Let\'s continue with the same example above. You
@@ -97,9 +95,8 @@ this:
 Tasks that have no `scheduled` date are considered always ready. Again, metadata
 drives the sophistication of your task list.
 
-[]{#wait}
 
-#### The `wait` Date
+## The `wait` Date
 
 Many people do not like to look at long task lists, finding them daunting, or
 just distracting. You can add a `wait` date to a task, which has the effect of
@@ -127,9 +124,8 @@ to use the `all` report with it, otherwise you get conflicts with the other
 reports that specify a \'pending\' status, because a waiting task is not
 pending.
 
-[]{#until}
 
-#### The `until` Date
+## The `until` Date
 
 Now suppose I miss Alice\'s birthday completely. Shame on me. The task would be
 overdue, but this is the kind of task where I don\'t want to complete it late,
@@ -160,9 +156,8 @@ This are evaluated only at task creation time, so if you change the due date,
 you also need to change the other dates. Note there is an `UNTIL` virtual tag to
 show you all tasks that are set to auto-expire.
 
-[]{#other}
 
-#### Other Dates
+## Other Dates
 
 There are other dates associated with a task, but these are more for internal
 use, and are less useful for you.
@@ -177,27 +172,24 @@ In addition, you may find you have a use case for a different kind of date for
 your task lists. For example, you may adhere to an agile development process,
 and a task may be assigned to a sprint, and that sprint may be identified by its
 end date. You can add arbitrary dates like this to Taskwarrior by defining a
-[User Defined Attribute](/docs/udas.html) (UDA) and then storing that metadata
+[User Defined Attribute](/docs/udas) (UDA) and then storing that metadata
 with your tasks. In this case, Taskwarrior will do nothing with your UDA but
 store it, and let you use it in reports and filters.
 
-[]{#urgency}
 
-#### Urgency
+## Urgency
 
 The presence and values of date metadata in your tasks affects the urgency
 calculations. For example, if a task is blocked by a dependency, the urgency is
 reduced. Similarly tasks that are ready have an elevated urgency.
 
-[]{#also}
 
-#### See Also
+## See Also
 
 For other discussions of dates see:
 
--   [Date & Time](/docs/dates.html)
--   [Named Dates](/docs/named_dates.html)
--   [User Defined Attributes](/docs/udas.html)
--   [Best Practices](/docs/best-practices.html)
--   [Urgency](/docs/urgency.html)
-:::
+-   [Date & Time](/docs/dates)
+-   [Named Dates](/docs/named_dates)
+-   [User Defined Attributes](/docs/udas)
+-   [Best Practices](/docs/best-practices)
+-   [Urgency](/docs/urgency)

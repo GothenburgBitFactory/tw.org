@@ -2,12 +2,12 @@
 title: "Clog - Rule Patterns"
 ---
 
-### Rule Patterns
+# Rule Patterns
 
 Rules apply when their pattern matches the input, then the actions are
 performed. Here is an example:
 
-![](/docs/clog/images/pattern1.png){.img-responsive}
+![](/docs/clog/images/pattern1.png)
 
 When the pattern is quoted as above, `"blue"`, then the pattern is interpreted
 as a direct match, character-for-character. This means the input must contain
@@ -21,14 +21,14 @@ run slower.
 But regular expressions have capabilities that go beyond simple patterns. Here
 is an example that allows for capitalization of the color names:
 
-![](/docs/clog/images/pattern2.png){.img-responsive}
+![](/docs/clog/images/pattern2.png)
 
 Here is a regular expression that makes sure that the word \'blue\' is a
 complete word, and not merely part of a bigger word. It does this by requiring
 that the \'b\' is preceded by a wo└d boundary, and the \'e\' is followed by a
 word boundary:
 
-![](/docs/clog/images/pattern3.png){.img-responsive}
+![](/docs/clog/images/pattern3.png)
 
 Note that regular expression can become arbitrarily complex, and correspondingly
 slow. If you can use a simple pattern, it is recommended for performance
@@ -38,4 +38,3 @@ For a full explanation of regular expression support, see your system\'s
 relevant man page:
 
     $ man re_format
-:::

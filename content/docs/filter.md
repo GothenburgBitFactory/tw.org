@@ -2,9 +2,8 @@
 title: "Taskwarrior - Filters"
 ---
 
-[]{#filters}
 
-### Filters
+# Filters
 
 A filter is a set of command line arguments that specify a set of tasks and
 filters can range from being simple to very complex. The simplest filter is an
@@ -59,9 +58,8 @@ regular expression, although it can also be just a simple word.
 This assumes you have enabled regular expression support, using the `rc.regex`
 configuration setting.
 
-[]{#complex}
 
-#### Complex Filters
+## Complex Filters
 
 Filters gain complexity by adding more filter terms and logic. Suppose we want
 to see the number of tasks that have the \'Home\' project, and do not have the
@@ -95,9 +93,8 @@ not specfically stated. The unstated implication is that the disjunction
 This example asks how many tasks are part of the \'Home\' project, or do not
 have the \'work\' tag - either is a match.
 
-[]{#prec}
 
-#### Precedence
+## Precedence
 
 It was mentioned earlier that the simplest filter was an empty filter, such as
 in use by the `count` command. Now we shall consider the `ls` report, which has
@@ -150,7 +147,7 @@ the shell, and must be escaped in one of the following ways:
 
 Note that there are many characters used by the taskwarrior command line that
 have special meaning to the shell, and as such must be properly escaped, as
-[described here](/docs/escapes.html).
+[described here](/docs/escapes).
 
 Also note that when searching for tasks without the specified entry at the end
 of the parenthesis, you need to add a space, otherwise you\'ll get \"Mismatched
@@ -161,9 +158,8 @@ parentheses in expression\".
     # Not that
     $ task '(project:)'
 
-[]{#config}
 
-#### Configuration
+## Configuration
 
 Regular expressions in pattern filters are only used when enabled with:
 

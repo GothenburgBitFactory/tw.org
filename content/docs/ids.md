@@ -2,7 +2,7 @@
 title: "Taskwarrior - ID Numbers"
 ---
 
-### ID Numbers
+# ID Numbers
 
 Taskwarrior assigns ID numbers to tasks. The ID number is actually a simple line
 count of the entries in the `pending.data` file. When a task is completed or
@@ -23,9 +23,8 @@ remain small, and less prone to error during data entry.
 One downside is that ID numbers change occasionally, although in a predictable
 way.
 
-[]{#gc}
 
-#### Garbage Collection
+## Garbage Collection
 
 When a task is marked as deleted, it gets a new status, and an `end` attribute,
 among other things. The task is written back into the `pending.data` file, but
@@ -55,9 +54,8 @@ be a mistake to renumber any tasks. When the last command is run, new ID numbers
 are shown, and any subsequent commands would use those. This is why only
 commands that display ID numbers perform a gc first.
 
-[]{#config}
 
-#### Configuration
+## Configuration
 
 The `gc` configuration setting may be set to \'off\' to disable the gc
 operation. This has the effect of letting data accumulate in the `pending.data`
@@ -70,4 +68,4 @@ way:
 
 The setting can be made permanent, but this is not recommended.
 
-[\[1\] Based on more than 7 years of monitored usage.]{.small}
+[\[1\] Based on more than 7 years of monitored usage.]

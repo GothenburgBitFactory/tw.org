@@ -2,7 +2,7 @@
 title: "Clog - Setup"
 ---
 
-### Setup
+# Setup
 
 Clog needs a rules file before it can do anything. If you run `clog` before
 creating a rules file, you see this:
@@ -31,4 +31,3 @@ create a rule file like this:
 
 Examples of what should be in your rules files are discussed in subsequent
 documents.
-:::

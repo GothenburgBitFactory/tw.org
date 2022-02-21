@@ -2,18 +2,17 @@
 title: "Taskwarrior - Philosophy"
 ---
 
-### Taskwarrior Philosophy
+# Taskwarrior Philosophy
 
 Taskwarrior is developed using a philosophy that explains a lot about why
 certain decisions have been made, and will continue to be made. All Taskwarrior
 family projects follow this same philosophy.
 
-[]{#open}
 
-#### Openness
+## Openness
 
 The [source code](https://github.com/GothenburgBitFactory/taskwarrior),
-[plans](/docs/design/plans.html), [designs](/docs/design),
+[plans](/docs/design/plans), [designs](/docs/design),
 [bugs](https://github.com/GothenburgBitFactory/taskwarrior/issues),
 [testing](https://github.com/GothenburgBitFactory/taskwarrior/actions),
 [docs](/docs), and [website](https://github.com/GothenburgBitFactory/tw.org) are
@@ -24,9 +23,8 @@ improvements in all aspects of the project. There is no hidden agenda.
 The goals of the project are to support all workflows at minimal friction and
 minimal complexity, while improving list management.
 
-[]{#friction}
 
-#### Low Friction
+## Low Friction
 
 A tool that allows you to capture tasks needs to be low-friction. This means
 that there should be no login authentication, lengthy launch delay, or
@@ -37,9 +35,8 @@ get much easier than this:
 
 Any tool that has friction will discourage its own use.
 
-[]{#penalty}
 
-#### No Penalty
+## No Penalty
 
 There should be no penalty for features that you don\'t use. As an example,
 Taskwarrior supports recurrence and dependencies, but if you don\'t use those
@@ -49,9 +46,8 @@ But that also means the features are there if you need them. If you decide to
 start using priorities, then you can, and having tasks where some have
 priorities and some don\'t is fine.
 
-[]{#agnostic}
 
-#### Methodology Agnostic
+## Methodology Agnostic
 
 Productivity methodologies promote simple, habit-forming, repeatable processes
 and workflow, combined with some discipline to give you an effective approach to
@@ -68,9 +64,8 @@ work well and not so well for you, and you will likely evolve your own unique
 methodology. This means Taskwarrior supports all of the above in some form, as
 you develop your own working methodology.
 
-[]{#toolkit}
 
-#### Toolkit
+## Toolkit
 
 Supporting all methodologies and workflows means there are a lot of features,
 but you are not expected to use or even be aware of them all. Think of
@@ -80,9 +75,8 @@ any given methodology will only use a small subset of the features.
 Your kitchen has many tools and gadgets, but you likely only use a fraction of
 them. They exist so that you have options.
 
-[]{#ext}
 
-#### Extension Friendly
+## Extension Friendly
 
 Import/export using industry-standard JSON allows you to move data into and out
 of Taskwarrior, so you can provide a front end, or higher-order feature:
@@ -115,9 +109,8 @@ A full DOM allows you to drill down to a single datum:
     $ task _get rc.dateformat
     Y-M-D
 
-[]{#community}
 
-#### Community
+## Community
 
 Taskwarrior is greatly enhanced by the community that surrounds and supports it.
 You\'ll find help, support, extensions, and more online.
@@ -125,11 +118,10 @@ You\'ll find help, support, extensions, and more online.
 Talk to us. Join the community, help others, help yourself, and advance the
 project. We welcome all of you into our community.
 
-Here is our [Code of Conduct](/conduct.html).
+Here is our [Code of Conduct](/conduct).
 
-[]{#focus}
 
-#### Focus
+## Focus
 
 Taskwarrior carefully limits the features it supports, in order to focus on
 doing one thing well. It does not offer reminders and time tracking, because

@@ -2,7 +2,7 @@
 title: "Taskwarrior - How to become an Open Source Contributor"
 ---
 
-### How to become an Open Source Contributor
+# How to become an Open Source Contributor
 
 Welcome, potential new Open Source contributor! This is a guide to show you
 exactly how to make a contribution, and will lead you through the entire
@@ -33,9 +33,8 @@ going through the procedure, which is somewhat independent from the nature of
 the change. The steps are numbered, and it all fits on this one page. Get all
 the way to the end, and you will be an open source contributor.
 
-[]{#setup}
 
-#### [1]{.label .label-success} Development Environment Setup
+## [1] Development Environment Setup
 
 In order to build and test software, you need a development environment. That\'s
 just a term that means you need certain tools installed before proceeding. Here
@@ -55,9 +54,8 @@ commands you would use on Debian:
     $ sudo apt-get install cmake
     $ sudo apt-get install make
 
-[]{#clone}
 
-#### [2]{.label .label-success} Get the Code
+## [2] Get the Code
 
 Now you have the tools, next you need the code. This involves cloning the
 repository using git and looking at the development branch:
@@ -96,9 +94,8 @@ use that by doing this:
 Here\'s a thought - if this page does not show the latest branch names, then,
 you know, you could fix that\...
 
-[]{#fix}
 
-#### [3]{.label .label-success} Fix Something
+## [3] Fix Something
 
 Now that you have the code, find something to fix. This may be the hardest step,
 but knowing how many typos there are in the source code and docs, it shouldn\'t
@@ -117,9 +114,8 @@ Then fix it, using a text editor. Try to make the smallest possible change to
 achieve what you want, because smaller changeѕ are easier to verify and approve,
 and no reviewer wants to receive a large change to approve.
 
-[]{#test}
 
-#### [4]{.label .label-success} Run the Test Suite
+## [4] Run the Test Suite
 
 Taskwarrior has an extensive test suite to prove that things are still working
 as expected. You\'ll need to build the program and run this test suite in order
@@ -195,9 +191,8 @@ on your hardware and OS:
 
 We are looking for zero failed tests, as shown. This means all is well.
 
-[]{#commit}
 
-#### [5]{.label .label-success} Commit the Change
+## [5] Commit the Change
 
 Now you\'ve made a change, built and tested the code. The next step is to commit
 the change locally. This example assumes you fixed a typo in the man page. Check
@@ -223,9 +218,8 @@ to see which file you changed, stage that file, then commit it:
 Notice how the commit message looks like this: `Category: Brief description`,
 which is how the commit messages should look.
 
-[]{#patch}
 
-#### [6]{.label .label-success} Make a Patch
+## [6] Make a Patch
 
 Once the commit is made, making a patch is simple:
 
@@ -233,9 +227,8 @@ Once the commit is made, making a patch is simple:
     0001-Docs-corrected-typo-in-the-main-man-page.patch
     $
 
-[]{#submit}
 
-#### [7]{.label .label-success} Submit the Patch
+## [7] Submit the Patch
 
 Finally you just need to email that patch file to
 `taskwarrior-dev@googlegroups.com`. You will need to attach it to an email, and

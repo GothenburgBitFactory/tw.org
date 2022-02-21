@@ -2,16 +2,14 @@
 title: "Taskwarrior - Taskserver Installation from Git-Repository"
 ---
 
-[]{#installation}
 
-### [2.3]{.label .label-success} Installation
+# [2.3] Installation
 
 Installing Taskserver from git is a matter of cloning the git repository and
 building the server.
 
-[]{#depends}
 
-#### Dependencies
+## Dependencies
 
 Before building the software, you will need to satisfy the dependencies by
 installing the following:
@@ -31,16 +29,14 @@ good idea if you can. GnuTLS is a security component, and as such, it is very
 important that it is current. Using GnuTLS version 2.12.x is neither adequately
 secure, nor production quality.
 
-[]{#clone}
 
-#### Clone
+## Clone
 
 Now clone the repository like this:
 
     $ git clone https://github.com/GothenburgBitFactory/taskserver.git taskserver.git
     ...
 
-::: {.alert .alert-info}
 It is hightly recommended that you build the stable version. This involves
 simply moving on to the next step, [\'Build\'](#build). Only under special
 circumstances should you build the unstable development version.
@@ -86,11 +82,9 @@ would choose to build 1.2.0 as the latest development branch like this:
     Receiving objects: 100% (2180/2180), 373.50 KiB | 244.00 KiB/s, done.
     Resolving deltas: 100% (1640/1640), done.
     Submodule path 'src/libshared': checked out '2b0b70d90acb9a3ff3548befab9db8beb85a0c2d'
-:::
 
-[]{#build}
 
-#### Build
+## Build
 
 Now build the Taskserver.
 
@@ -100,9 +94,8 @@ Now build the Taskserver.
     $ make
     ...
 
-[]{#test}
 
-#### Test
+## Test
 
 Having built the server, now build and run the unit tests. Although this is an
 optional step, it is a good idea to know whether the build works on your
@@ -126,9 +119,8 @@ report them. Note that there are some unit tests that fail if you have not built
 the latest commit. Seeing 4 test failures may mean all is well. Seeing 30
 failures does not.
 
-[]{#install}
 
-#### Install
+## Install
 
 Now install Taskserver. This copies files into the right place, and installs man
 pages.
@@ -136,9 +128,8 @@ pages.
     $ sudo make install
     ...
 
-[]{#verify}
 
-#### Verify
+## Verify
 
 Run the `taskd` command to verify that the server is installed, and the location
 is in your `$PATH`. You should see something like this:
@@ -177,4 +168,3 @@ is in your `$PATH`. You should see something like this:
       --debug        Generates debugging diagnostics
       --data <root>  Data directory, otherwise $TASKDDATA
       --NAME=VALUE   Temporary configuration override
-:::

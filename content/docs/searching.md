@@ -2,7 +2,7 @@
 title: "Taskwarrior - Searching"
 ---
 
-### Searching
+# Searching
 
 Searching for keywords and patterns in tasks is straightforward, and uses the
 `/pattern/` syntax. First we create some sample tasks, then we\'ll search them.
@@ -37,11 +37,10 @@ Here the `long` report is used so we can see the full annotation text. Notice
 that the `foo` in the description of task 1, as well as the `footwear` in the
 annotation of task 3 were both found.
 
-[]{#regexes}
 
-#### Regular Expressions
+## Regular Expressions
 
-Beginning in version [2.4.0]{.label .label-success} all search terms are by
+Beginning in version [2.4.0] all search terms are by
 default [regular expressions](/docs/terminology.html#regex). This means we could
 have searched using this pattern, which means an `f` followed by two `o`
 characters:
@@ -74,9 +73,8 @@ regular expression support:
 This fails because the search term `/fo{2}/` is this time considered just text,
 not a regular expression and this term does not appear in any task.
 
-[]{#shell}
 
-#### Shell
+## Shell
 
 If your search term contains one or more spaces, then your
 [shell](/docs/terminology.html#shell) is going to break the search pattern into
@@ -89,9 +87,8 @@ escaping like these examples:
 This guarantees that Taskwarrior sees one argument, `/foo bar/` instead of two,
 `/foo`, `bar/`.
 
-[]{#operators}
 
-#### Operators
+## Operators
 
 The search pattern syntax of `/pattern/` is there as a convenience, but there
 are more powerful low-level operators, such that the above pattern is equivalent

@@ -2,9 +2,8 @@
 title: "Clog - Download"
 ---
 
-[]{#how}
 
-### How To Build Clog
+# How To Build Clog
 
 This is for developers. Specifically those who know how to use tools, satisfy
 dependencies, and want to set up a development environment. It is not
@@ -17,9 +16,8 @@ You\'ll need these tools:
 -   make
 -   C++ compiler, currently gcc 4.7+ or clang 3.3+ for full C++11 support
 
-[]{#download}
 
-### Downloading the Repo
+# Downloading the Repo
 
 The next step is to obtain the code. This means getting the released tarball.
 You can download the tarball with `curl`, as an example of just one of many ways
@@ -27,9 +25,8 @@ to download the tarball.
 
     $ curl -L -O https://gothenburgbitfactory.org/download/clog-1.3.0.tar.gz
 
-[]{#build}
 
-### Building the Tarball
+# Building the Tarball
 
 Expand the tarball, build Clog, and install it. This copies files into the right
 place, and installs the man page.
@@ -42,9 +39,7 @@ place, and installs the man page.
     ...
     $ sudo make install
 
-[]{#patch}
 
-### Submitting a Patch
+# Submitting a Patch
 
 [See here for details](/docs/clog/clone.html#patch).
-:::

@@ -2,9 +2,8 @@
 title: "Taskwarrior - Creating a Taskserver Client"
 ---
 
-[]{#client}
 
-### Creating a Taskserver Client
+# Creating a Taskserver Client
 
 A Taskserver client is a todo-list manager. It may be as simple as a program
 that captures a single task, as complex as Taskwarrior, or anything in between.
@@ -23,9 +22,8 @@ by the user to synchronize.
 
 The client will need proper credentials to talk to the server.
 
-[]{#req}
 
-#### Requirements
+## Requirements
 
 In this document, we adopt the convention discussed in Section 1.3.2 of
 [RFC1122](https://tools.ietf.org/html/rfc1122#page-16) of using the capitalized
@@ -38,16 +36,14 @@ may exist valid reasons for ignoring this item, but the full implications should
 be understood before doing so; and \"MAY\" (or \"OPTIONAL\") means that this
 item is optional, and may be omitted without careful consideration.
 
-[]{#account}
 
-#### Taskserver Account
+## Taskserver Account
 
 A Taskserver account must be created. This process creates a storage area, and
 generates the necessary credentials.
 
-[]{#credentials}
 
-#### Credentials
+## Credentials
 
 A Taskserver client needs the following credentials in order to communicate with
 a server:
@@ -85,16 +81,14 @@ This is used for encryption. It should be considered a secret.
 These credentials need to be stored on the client, and used during the sync
 operation.
 
-[]{#client_desc}
 
-#### Description of a Taskserver Client
+## Description of a Taskserver Client
 
 This section describes how a client might behave in order to facilitate
 integration with the Taskserver.
 
-[]{#encryption}
 
-#### Encryption
+## Encryption
 
 The Taskserver only communicates using encryption. Therefore all user data is
 encrypted while in transit. The Taskserver currently uses
@@ -108,9 +102,8 @@ the following protocols:
 
 The client may use any library that supports the above.
 
-[]{#config}
 
-#### Configuration
+## Configuration
 
 The client needs to store configuration, which matches the credentials needed
 for Taskserver communication. See section 2.1 \"Credentials\".
@@ -120,18 +113,16 @@ The credentials may not be modified by the user without losing server access.
 The server:port data may need to be changed automatically following a redirect
 response from the server. See section 5 \"Server Errors\".
 
-[]{#storage}
 
-#### Local Storage
+## Local Storage
 
 The client needs to store task data locally. The client will need to be able to
 find tasks by their UUID and overwrite them. Uploaded and downloaded task
 changes will use the [Taskwarrior Data Interchange
-Format](/docs/design/task.html).
+Format](/docs/design/task).
 
-[]{#changes}
 
-#### Local Changes
+## Local Changes
 
 Whenever local data is modified, that change MUST be synced with the server. But
 this does not have to occur immediately, in fact the client SHOULD NOT assume
@@ -152,9 +143,8 @@ Note that tasks have a \"modified\" attribute, which should be updated whenever
 a change is made. This attribute contributes to conflict resolution on the
 server.
 
-[]{#remote}
 
-#### Remote Changes
+## Remote Changes
 
 When a server sends remote changes to a client, in the response to a sync
 request, the changes have already been merged by the server, and therefore the
@@ -166,9 +156,8 @@ modification (and should overwrite it\'s existing entry).
 
 The client MUST NOT perform any merges.
 
-[]{#sync_key}
 
-#### Sync Key
+## Sync Key
 
 Whenever a sync is performed, the server responds by sending a sync key and any
 remote changes. The sync key is important, and should be included in the next
@@ -178,9 +167,8 @@ response message.
 If a client omits the sync key in a sync message, the response will be a
 complete set of all tasks and modifications.
 
-[]{#integrity}
 
-#### Data Integrity
+## Data Integrity
 
 Although a task is guaranteed to contain at least \'entry\', \'description\' and
 \'uuid\' attributes, it may also contain other known fields, and unknown
@@ -199,44 +187,39 @@ still maintain custom attributes.
 
 This is a requirement. Any client that does not obey this requirement is broken.
 
-[]{#synchronizing}
 
-#### Synchronizing
+## Synchronizing
 
 Synchronizing with the Taskserver consists of a single transaction. Once an
 encrypted connection is made with the server, the client MUST compose a [sync
-request message](/docs/design/request.html). This message includes credentials
+request message](/docs/design/request). This message includes credentials
 and local changes. The response message contains status and remote changes,
 which MUST be stored locally.
 
-[]{#connect}
 
-#### Establishing Encrypted Connection
+## Establishing Encrypted Connection
 
 All communication with the Taskserver is encrypted using the certificate and key
 provided to each user. Using the \'server\' configuration setting, establish a
 connection.
 
-[]{#sync_request}
 
-#### Sync Request
+## Sync Request
 
-See [sync request message](/docs/design/request.html). A sync request MUST
+See [sync request message](/docs/design/request). A sync request MUST
 contain a sync key if one was provided by a previous sync. A sync request MUST
 contain a list of modified tasks, in JSON format (see [Task
-JSON](/docs/design/task.html)), if local modifications have been made.
+JSON](/docs/design/task)), if local modifications have been made.
 
-[]{#sync_response}
 
-#### Sync Response
+## Sync Response
 
 A sync response WILL contain a \'code\' and \'status\' header variable, WILL
 contain a sync key in the payload, and MAY contain a list of tasks from the
-server in JSON format (see [Task JSON](/docs/design/task.html)).
+server in JSON format (see [Task JSON](/docs/design/task)).
 
-[]{#server_messages}
 
-#### Server Messages
+## Server Messages
 
 There are cases when the server needs to inform the user of some condition. This
 may be anticipated server downtime, for example. The response message is
@@ -249,12 +232,11 @@ typically not present, but may be present in the header, containing a string:
 If such a message is returned by the server, it SHOULD be made available to the
 user. This is a recommendation, not a requirement.
 
-[]{#errors}
 
-#### Server Errors
+## Server Errors
 
 The server may generate many errors (See
-[Protocol](/docs/design/protocol.html)), but the following is a list of the ones
+[Protocol](/docs/design/protocol)), but the following is a list of the ones
 most in need of special handling:
 
 -   200 Success
@@ -274,9 +256,8 @@ consist of a code and a status message:
     code: 200
     status: Success
 
-[]{#examples}
 
-#### Examples
+## Examples
 
 Here are examples of properly formatted request and response messages. Note that
 the messages are indented for clarity in this document, but is not the case in a
@@ -295,16 +276,15 @@ The example above illustrates text consisting of:
     U+000D   newline
 
 Note that these values are left unspecified, but should be clear from the
-context, and the [message format](/docs/design/request.html) spec:
+context, and the [message format](/docs/design/request) spec:
 
     <size>
     <organization>
     <user>
     <password>
 
-[]{#first}
 
-#### First Sync
+## First Sync
 
 The first time a client syncs, there is (perhaps) no data to upload, and no sync
 key from a previous sync.
@@ -319,9 +299,8 @@ key from a previous sync.
 Note the double newline character separating header from payload, with an empty
 payload.
 
-[]{#sync_no_data}
 
-#### Request: Sync No Data
+## Request: Sync No Data
 
 Ordinarily when a client syncs, there is a sync key from the previous sync
 response to send. This example shows a sync with no local changes, but a sync
@@ -336,9 +315,8 @@ key from a previous sync.
 
     2e4685f8-34bc-4f9b-b7ed-399388e182e1
 
-[]{#sync_data}
 
-#### Request: Sync Data
+## Request: Sync Data
 
 This sync request shows a sync key from the previous sync, and a locally
 modified task.
@@ -353,9 +331,8 @@ modified task.
     2e4685f8-34bc-4f9b-b7ed-399388e182e1
     {"description":"An example","uuid":"8ad2e3db-914d-4832-b0e6-72fa04f6e331",...}
 
-[]{#resp_no_data}
 
-#### Response: No Data
+## Response: No Data
 
 If a sync results in no downloads to the client, the response will look like
 this.
@@ -371,9 +348,8 @@ this.
 Note that there is a sync key which must be stored and used in the next sync
 request, but there are no remote changes to store.
 
-[]{#resp_data}
 
-#### Response: Remote Data
+## Response: Remote Data
 
 This shows a sync response providing a new sync key, and a remote change to two
 tasks.
@@ -393,9 +369,8 @@ Note that the sync key must be stored for the next sync request.
 Note that the two changed tasks must be stored locally, and if the UUID in the
 tasks matches local tasks, then the local tasks must be overwritten.
 
-[]{#resp_error}
 
-#### Response: Error
+## Response: Error
 
     <size>type: response
     client: taskd 1.0.0
@@ -406,9 +381,8 @@ tasks matches local tasks, then the local tasks must be overwritten.
 Note the double newline character separating header from payload, with an empty
 payload.
 
-[]{#resp_relocate}
 
-#### Response: Relocate
+## Response: Relocate
 
     <size>type: response
     client: taskd 1.0.0
@@ -424,14 +398,13 @@ server.
 Note the double newline character separating header from payload, with an empty
 payload.
 
-[]{#resp_message}
 
-#### Response: Message
+## Response: Message
 
 Occasionally the server will need to convey a message, and will include an
 additional header variable containing that message.
 
-The server [protocol](/docs/design/protocol.html) states that the message SHOULD
+The server [protocol](/docs/design/protocol) states that the message SHOULD
 be shown to the user. This message will be used for system event messages, used
 rarely, and never used for advertising or promotion.
 
@@ -446,9 +419,8 @@ rarely, and never used for advertising or promotion.
 
 Note that the same message will likely be included in consecutive responses.
 
-[]{#reference}
 
-#### Reference Implementation
+## Reference Implementation
 
 The Taskserver 1.1.0 codebase contains a reference implementation of an SSL/TLS
 client and server program, which communicate text strings.
@@ -470,4 +442,3 @@ The Taskwarrior codebase, version 2.4.0, is the reference implementation.
     task.git/src/TLSClient.h
     task.git/src/commands/CmdSync.cpp      # Sync implementation
     task.git/src/commands/CmdSync.h
-:::

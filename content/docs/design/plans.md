@@ -2,225 +2,435 @@
 title: "Plans"
 ---
 
-::: {.navbar .navbar-default .navbar-inverse .navbar-fixed-top role="navigation"}
-::: {.container}
-[![](/images/tw-s.png){width="24" height="24"} TASKWARRIOR](/){.navbar-brand
-.text-heavy}
-
-::: {.navbar-header}
-[Toggle navigation]{.sr-only} []{.icon-bar} []{.icon-bar} []{.icon-bar}
-:::
-
-::: {.collapse .navbar-collapse}
--   [News](/news/)
--   [Docs](/docs/)
--   [Download](/download/)
--   [Support](/support/)
--   [Tools](/tools/)
-:::
-:::
-:::
-
-::: {.container}
-::: {.col-md-12}
-::: {.col-md-10}
 There are many interconnected features and technologies in Taskwarrior,
-Taskserver, Tasksh and Timewarrior, each piece having it\'s own goals.
+Taskserver, Tasksh and Timewarrior, each piece having it's own goals.
 
 This matrix allows a simple reading of where things are, and where they are
 going. This is a low-resolution time line. It is subject to change. It does not
 constitute a concrete plan. This is an all-volunteer effort, and scheduling is
 difficult.
 
-[Last updated 2016-08-08.]{.small}\
-\
+[Last updated 2016-08-08.]
 
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  Taskwarrior\              [2.5.1]{.label .label-success}\               [2.6.0]{.label .label-danger}\                [2.x]{.label .label-info}\
-  Technology/Feature        Current\                                      Next\                                         Future
-                            \                                             \                                             
-                            Released 2016-02-24                           2017                                          
-  ------------------------- --------------------------------------------- --------------------------------------------- ---------------------------------------------------
-  Core                      [DOM](/docs/dom.html)\                        [Recurrence](/docs/design/recurrence.html)\   True Color
-                            Filters\                                      Shared library\                               
-                            Expressions\                                  `purge` command\                              
-                            Color Rules\                                                                                
-                            Custom Reports\                                                                             
-                            Annotations\                                                                                
-                            Tags / Virtual Tags\                                                                        
-                            [Context](/docs/context.html)\                                                              
+<table class="table table-bordered table-striped">
+<tr>
+  <th>Taskwarrior<br />Technology/Feature</th>
+  <th>
+    <span class="label label-success">2.5.1</span><br />
+    Current<br /><br />
+    Released 2016-02-24
+  </th>
+  <th>
+    <span class="label label-danger">2.6.0</span><br />
+    Next<br /><br />
+    2017
+  </th>
+  <th>
+    <span class="label label-info">2.x</span><br />
+    Future
+  </th>
+</tr>
 
-  API                       [JSON](/docs/design/task.html)\                                                             `on-sync` hook\
-                            Import\                                                                                     Full DOM\
-                            Export\                                                                                     DOM access in rc\
-                            [Hooks](/docs/hooks.html)\                                                                  `$ENV` access in rc\
-                            [Hooks v2](/docs/hooks2.html)\                                                              Report columns as DOM refs\
-                            [DOM](/docs/dom.html)\                                                                      
-                            Helper commands\                                                                            
+<tr>
+  <td>Core</td>
+  <td>
+    <a href="/docs/dom.html">DOM</a><br />
+    Filters<br />
+    Expressions<br />
+    Color Rules<br />
+    Custom Reports<br />
+    Annotations<br />
+    Tags / Virtual Tags<br />
+    <a href="/docs/context.html">Context</a><br />
+  </td>
+  <td>
+    <a href="/docs/design/recurrence.html">Recurrence</a><br />
+    Shared library<br />
+    <code>purge</code> command<br />
+  </td>
+  <td>
+    True Color
+  </td>
+</tr>
 
-  Attributes\               `modified`\                                   `template`\                                   `org`\
-  [User Defined Attributes  `priority` as a UDA\                          `rtype`\                                      `group`\
-  (UDA)](/docs/udas.html)                                                 Remove `mask`\                                
-                                                                          Remove `imask`\                               
-                                                                          Remove `parent`\                              
+<tr>
+  <td>API</td>
+  <td>
+    <a href="/docs/design/task.html">JSON</a><br />
+    Import<br />
+    Export<br />
+    <a href="/docs/hooks.html">Hooks</a><br />
+    <a href="/docs/hooks2.html">Hooks v2</a><br />
+    <a href="/docs/dom.html">DOM</a><br />
+    Helper commands<br />
+  </td>
+  <td>
+  </td>
+  <td>
+    <code>on-sync</code> hook<br />
+    Full DOM<br />
+    DOM access in rc<br />
+    <code>$ENV</code> access in rc<br />
+    Report columns as DOM refs<br />
+  </td>
+</tr>
 
-  Reports                   Improved layouts\                             Daily, Weekly reports (history, ghistory)\    
-                            Improved Themes                                                                             
+<tr>
+  <td>
+    Attributes<br />
+    <a href="/docs/udas.html">User Defined Attributes (UDA)</a>
+  </td>
+  <td>
+    <code>modified</code><br />
+    <code>priority</code> as a UDA<br />
+  </td>
+  <td>
+    <code>template</code><br />
+    <code>rtype</code><br />
+    Remove <code>mask</code><br />
+    Remove <code>imask</code><br />
+    Remove <code>parent</code><br />
+  </td>
+  <td>
+    <code>org</code><br />
+    <code>group</code><br />
+  </td>
+</tr>
 
-  Synchronization           `task sync`\                                                                                `task sync reset`\
-                            `task sync init` (all tasks)\                                                               
+<tr>
+  <td>Reports</td>
+  <td>
+    Improved layouts<br />
+    Improved Themes
+  </td>
+  <td>
+    Daily, Weekly reports (history, ghistory)<br />
+  </td>
+  <td>
+  </td>
+</tr>
 
-  TDB (task database)       Local file locking\                                                                         Threaded file load\
-                            Single file set\                                                                            Read-only mode
-                            Single user                                                                                 
+<tr>
+  <td>Synchronization</td>
+  <td>
+    <code>task sync</code><br />
+    <code>task sync init</code> (all tasks)<br />
+  </td>
+  <td>
+  </td>
+  <td>
+    <code>task sync reset</code><br />
+  </td>
+</tr>
 
-  I18N / L10N               UTF-8 support\                                No I18N / L10N                                Migrate to
-                            `deu-DEU`\                                                                                  [gettext](https://www.gnu.org/software/gettext/)\
-                            `eng-USA`\                                                                                  
-                            `epo-RUS`\                                                                                  
-                            `esp-ESP`\                                                                                  
-                            `fra-FRA`\                                                                                  
-                            `ita-ITA`\                                                                                  
-                            `pol-POL`\                                                                                  
-                            `por-PRT`\                                                                                  
+<tr>
+  <td>TDB (task database)</td>
+  <td>
+    Local file locking<br />
+    Single file set<br />
+    Single user
+  </td>
+  <td>
+  </td>
+  <td>
+    Threaded file load<br />
+    Read-only mode
+  </td>
+</tr>
 
-  Documentation             man: task\                                                                                  New video tutorials\
-                            man: taskrc\                                                                                
-                            man: task-color\                                                                            
-                            man: task-sync\                                                                             
-                            youtube: various\                                                                           
-                            [taskwarrior.org](https://taskwarrior.org)\                                                 
-                            taskwarrior.com: Support Site\                                                              
+<tr>
+  <td>I18N / L10N</td>
+  <td>
+    UTF-8 support<br />
+    <code>deu-DEU</code><br />
+    <code>eng-USA</code><br />
+    <code>epo-RUS</code><br />
+    <code>esp-ESP</code><br />
+    <code>fra-FRA</code><br />
+    <code>ita-ITA</code><br />
+    <code>pol-POL</code><br />
+    <code>por-PRT</code><br />
+  </td>
+  <td>
+    No I18N / L10N
+  </td>
+  <td>
+    Migrate to <a href="https://www.gnu.org/software/gettext/">gettext</a><br />
+  </td>
+</tr>
 
-  Testing                   C++ tests\                                    Migration to Flod2\                           
-                            Python tests\                                                                               
-                            Sync tests\                                                                                 
-                            Parallel tests\                                                                             
+<tr>
+  <td>Documentation</td>
+  <td>
+    man: task<br />
+    man: taskrc<br />
+    man: task-color<br />
+    man: task-sync<br />
+    youtube: various<br />
+    <a href="https://taskwarrior.org">taskwarrior.org</a><br />
+    taskwarrior.com: Support Site<br />
+  </td>
+  <td>
+  </td>
+  <td>
+    New video tutorials<br />
+  </td>
+</tr>
 
-  Tool Chain                GCC 4.7 / Clang 3.3\                          GCC 4.9 / Clang 3.4\                          Full C++14 support\
-                            C++11 support\                                Full C++11 support\                           Full C++17 support\
-                            CMake\                                                                                      
-  -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<tr>
+  <td>Testing</td>
+  <td>
+    C++ tests<br />
+    Python tests<br />
+    Sync tests<br />
+    Parallel tests<br />
+  </td>
+  <td>
+    Migration to Flod2<br />
+  </td>
+  <td>
+  </td>
+</tr>
 
-\
-\
-\
-\
+<tr>
+  <td>Tool Chain</td>
+  <td>
+    GCC 4.7 / Clang 3.3<br />
+    C++11 support<br />
+    CMake<br />
+  </td>
+  <td>
+    GCC 4.9 / Clang 3.4<br />
+    Full C++11 support<br />
+  </td>
+  <td>
+    Full C++14 support<br />
+    Full C++17 support<br />
+  </td>
+</tr>
+</table>
 
-  -------------------------------------------------------------------------------------------
-  Tasksh\              [1.1.0]{.label                 [1.2.0]{.label      [1.x]{.label
-  Technology/Feature   .label-success}\               .label-danger}\     .label-info}\
-                       Current\                       Next\               Future
-                       \                              \                   
-                       Released 2016-09-05            2017                
-  -------------------- ------------------------------ ------------------- -------------------
-  Core                 [Review](/docs/review.html)\                       Pomodoro timer\
-                       libreadline\                                       
-                       Shared library\                                    
+<table class="table table-bordered table-striped">
+<tr>
+  <th>Tasksh<br />Technology/Feature</th>
+  <th>
+    <span class="label label-success">1.1.0</span><br />
+    Current<br /><br />
+    Released 2016-09-05
+  </th>
+  <th>
+    <span class="label label-danger">1.2.0</span><br />
+    Next<br /><br />
+    2017
+  </th>
+  <th>
+    <span class="label label-info">1.x</span><br />
+    Future
+  </th>
+</tr>
 
-  Tool Chain           CMake\                         GCC 4.9 / Clang     Full C++14 support\
-                       GCC 4.7 / Clang 3.3\           3.4\                Full C++17 support\
-                                                      Full C++11 support\ 
-  -------------------------------------------------------------------------------------------
+<tr>
+  <td>Core</td>
+  <td>
+    <a href="/docs/review.html">Review</a><br />
+    libreadline<br />
+    Shared library<br />
+  </td>
+  <td>
+  </td>
+  <td>
+    Pomodoro timer<br />
+  </td>
+</tr>
 
-\
-\
-\
-\
+<tr>
+  <td>Tool Chain</td>
+  <td>
+    CMake<br />
+    GCC 4.7 / Clang 3.3<br />
+  </td>
+  <td>
+    GCC 4.9 / Clang 3.4<br />
+    Full C++11 support<br />
+  </td>
+  <td>
+    Full C++14 support<br />
+    Full C++17 support<br />
+  </td>
+</tr>
+</table>
 
-  --------------------------------------------------------------------------------
-  Taskserver\          [1.1.0]{.label      [1.2.0]{.label      [1.x]{.label
-  Technology/Feature   .label-success}\    .label-danger}\     .label-info}\
-                       Current\            Next\               Future
-                       \                   \                   
-                       Released 2015-05-10 2017                
-  -------------------- ------------------- ------------------- -------------------
-  Core                 Serial server       Shared library\     Threaded server
+<table class="table table-bordered table-striped">
+<tr>
+  <th>Taskserver<br />Technology/Feature</th>
+  <th>
+    <span class="label label-success">1.1.0</span><br />
+    Current<br /><br />
+    Released 2015-05-10
+  </th>
+  <th>
+    <span class="label label-danger">1.2.0</span><br />
+    Next<br /><br />
+    2017
+  </th>
+  <th>
+    <span class="label label-info">1.x</span><br />
+    Future
+  </th>
+</tr>
 
-  Protocol             v1                  v1.1 - client reset v1.2
-                                           request\            
+<tr>
+  <td>Core</td>
+  <td>
+    Serial server
+  </td>
+  <td>
+    Shared library<br />
+  </td>
+  <td>
+    Threaded server
+  </td>
+</tr>
 
-  DB (Data Storage)                                            GC
+<tr>
+  <td>Protocol</td>
+  <td>
+    v1
+  </td>
+  <td>
+    v1.1 - client reset request<br />
+  </td>
+  <td>
+    v1.2
+  </td>
+</tr>
 
-  Security             Validation                              UUID:Cert
-                                                               Verification\
-                                                               Combined Certs
+<tr>
+  <td>DB (Data Storage)</td>
+  <td>
+  </td>
+  <td>
+  </td>
+  <td>
+    GC
+  </td>
+</tr>
 
-  Tool Chain           GCC 4.7 / Clang     GCC 4.9 / Clang     Full C++14 support\
-                       3.3\                3.4\                Full C++17 support\
-                       CMake\              Full C++11 support\ 
-  --------------------------------------------------------------------------------
+<tr>
+  <td>Security</td>
+  <td>
+    Validation
+  </td>
+  <td>
+  </td>
+  <td>
+    UUID:Cert Verification<br />
+    Combined Certs
+  </td>
+</tr>
 
-\
-\
-\
-\
+<tr>
+  <td>Tool Chain</td>
+  <td>
+    GCC 4.7 / Clang 3.3<br />
+    CMake<br />
+  </td>
+  <td>
+    GCC 4.9 / Clang 3.4<br />
+    Full C++11 support<br />
+  </td>
+  <td>
+    Full C++14 support<br />
+    Full C++17 support<br />
+  </td>
+</tr>
+</table>
 
-  --------------------------------------------------------------------------------
-  Timewarrior\         [1.0.0]{.label      [1.1.0]{.label      [1.x]{.label
-  Technology/Feature   .label-success}\    .label-danger}\     .label-info}\
-                       Current\            Next\               Future
-                       \                   \                   
-                       Released 2016-08-20 2017                
-  -------------------- ------------------- ------------------- -------------------
-  Core                 Shared library\                         True Color
 
-  Reports              `summary` report\                       
-                       `gaps` report\                          
-                       `day` chart\                            
-                       `week` chart\                           
-                       `month` chart\                          
-                       `totals.py`                             
-                       extension\                              
+<table class="table table-bordered table-striped">
+<tr>
+  <th>Timewarrior<br />Technology/Feature</th>
+  <th>
+    <span class="label label-success">1.0.0</span><br />
+    Current<br /><br />
+    Released 2016-08-20
+  </th>
+  <th>
+    <span class="label label-danger">1.1.0</span><br />
+    Next<br /><br />
+    2017
+  </th>
+  <th>
+    <span class="label label-info">1.x</span><br />
+    Future
+  </th>
+</tr>
 
-  Rules                Simple                                  Rule System\
-                       configuration rules                     
+<tr>
+  <td>Core</td>
+  <td>
+    Shared library<br />
+  </td>
+  <td>
+  </td>
+  <td>
+    True Color
+  </td>
+</tr>
 
-  Integration          Taskwarrior                             
-                       `on-modify` hook                        
-                       script                                  
+<tr>
+  <td>Reports</td>
+  <td>
+    <code>summary</code> report<br />
+    <code>gaps</code> report<br />
+    <code>day</code> chart<br />
+    <code>week</code> chart<br />
+    <code>month</code> chart<br />
+    <code>totals.py</code> extension<br />
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+</tr>
 
-  Tool Chain           CMake\              GCC 4.9 / Clang     Full C++14 support\
-                       GCC 4.7 / Clang     3.4\                Full C++17 support\
-                       3.3\                Full C++11 support\ 
-                       C++11 support\                          
-  --------------------------------------------------------------------------------
+<tr>
+  <td>Rules</td>
+  <td>
+    Simple configuration rules
+  </td>
+  <td>
+  </td>
+  <td>
+    Rule System<br />
+  </td>
+</tr>
 
-\
-\
-:::
-:::
-:::
+<tr>
+  <td>Integration</td>
+  <td>
+    Taskwarrior <code>on-modify</code> hook script
+  </td>
+  <td>
+  </td>
+  <td>
+  </td>
+</tr>
 
-::: {#footer}
-::: {.container}
-::: {.col-md-2}
-Get Involved\
-[Submit a bug](https://github.com/GothenburgBitFactory/taskwarrior/issues)\
-[Clone the code](https://github.com/GothenburgBitFactory/taskwarrior)
-:::
-
-::: {.col-md-2}
-Related Sites\
-[gothenburgbitfactory.org](https://gothenburgbitfactory.org)\
-[holidata.net](https://holidata.net)
-:::
-
-::: {.col-md-2}
-Contact\
-[[]{.glyphicon .glyphicon-envelope} Email](mailto:support@taskwarrior.org)\
-[![](/images/twitter_dark.png){width="16px" height="16px"}
-Twitter](https://twitter.com/taskwarrior)
-:::
-
-::: {.col-md-2}
-Donate\
-[Sponsor us on Github
-sponsors!](https://github.com/sponsors/GothenburgBitFactory)
-:::
-
-::: {.col-md-2}
-Copyright &copy: 2018 [Göteborg Bit Factory](/about.html)
-:::
-:::
-:::
+<tr>
+  <td>Tool Chain</td>
+  <td>
+    CMake<br />
+    GCC 4.7 / Clang 3.3<br />
+    C++11 support<br />
+  </td>
+  <td>
+    GCC 4.9 / Clang 3.4<br />
+    Full C++11 support<br />
+  </td>
+  <td>
+    Full C++14 support<br />
+    Full C++17 support<br />
+  </td>
+</tr>
+</table>

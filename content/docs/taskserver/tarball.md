@@ -2,16 +2,14 @@
 title: "Taskwarrior - Taskserver Installation from Tarball"
 ---
 
-[]{#installation}
 
-### [2.2]{.label .label-success} Installation
+# [2.2] Installation
 
 Installing Taskserver from a tarball is a matter of downloading the tarball,
 extracting it, satisfying dependencies and building the server.
 
-[]{#depends}
 
-#### Dependencies
+## Dependencies
 
 Before building the software, you will need to satisfy the dependencies by
 installing the following:
@@ -30,9 +28,8 @@ good idea if you can. GnuTLS is a security component, and as such, it is very
 important that it is current. Using GnuTLS version 2.12.x is neither adequately
 secure, nor production quality.
 
-[]{#download}
 
-#### Download
+## Download
 
 The next step is to obtain the code. This means getting the Task Server 1.0.0
 (or newer) source tarball. You should check for the latest stable release here:
@@ -44,9 +41,8 @@ to download the tarball.
 
     $ curl -LO https://taskwarrior.org/download/taskd-latest.tar.gz
 
-[]{#build}
 
-#### Build
+## Build
 
 Expand the tarball, and build the Taskserver.
 
@@ -57,9 +53,8 @@ Expand the tarball, and build the Taskserver.
     $ make
     ...
 
-[]{#install}
 
-#### Install
+## Install
 
 Now install Taskserver. This copies files into the right place, and installs man
 pages.
@@ -67,9 +62,8 @@ pages.
     $ sudo make install
     ...
 
-[]{#verify}
 
-#### Verify
+## Verify
 
 Run the `taskd` command to verify that the server is installed, and the location
 is in your `$PATH`. You should see something like this:
@@ -108,4 +102,3 @@ is in your `$PATH`. You should see something like this:
       --debug        Generates debugging diagnostics
       --data <root>  Data directory, otherwise $TASKDDATA
       --NAME=VALUE   Temporary configuration override
-:::

@@ -2,25 +2,23 @@
 title: "Taskwarrior - Upgrading Taskserver"
 ---
 
-### Upgrading Taskserver
+# Upgrading Taskserver
 
-Upgrading to Taskserver [1.1.0]{.label .label-success} requires some
+Upgrading to Taskserver [1.1.0] requires some
 configuration changes. The required changes are mostly concerned with
 improvements to security and encryption. Updating the software itself is
 straightforward.
 
-[]{#software}
 
-#### Upgrade the Software
+## Upgrade the Software
 
 This is simply a matter of shutting down the server, installing the new
 software, modifying the configuration as discussed below, and restarting the
 server. Before doing this, please read the issues below, so that you will be
 prepared, and more secure.
 
-[]{#pki}
 
-#### PKI
+## PKI
 
 If you used self-signed certificates, and the scripts provided with Taskserver
 1.0.0, then you will want to regenerate all your CA, CRL, server, client and
@@ -38,17 +36,15 @@ It is generally a good idea to expire and renew certificates. Long-term
 certificates may need to be revoked using the CRL, so short-term certificates
 provide a dead-man\'s switch approach.
 
-[]{#allowdeny}
 
-#### Allow/Deny
+## Allow/Deny
 
 The `client.allow` and `client.deny` configuration settings should be removed,
 as this feature has been removed from the server. As it is easy to spoof a valid
 client, this technique offered no security.
 
-[]{#trust}
 
-#### Trust
+## Trust
 
 The new `trust` configuration setting determines how client certificates are
 validated. Values maybe either `allow all` or `strict`. The value `allow all`
@@ -59,9 +55,8 @@ Note that using the `strict` value may require that your server certificates be
 replaced. This depends on the data used to create your original certificates.
 Taskserver PKI scripts now create certificates with a proper CN value.
 
-[]{#gnutls}
 
-#### GnuTLS
+## GnuTLS
 
 Please bear in mind that [GnuTLS](https://gnutls.org/) is a security product,
 and it is important that you use the most recent version available. Please
@@ -76,4 +71,3 @@ down your Taskserver over time.
 In addition to benefiting from bug fixes and leak fixes, newer GnuTLS versions
 include new and more secure default ciphers and algorithms. Security is
 important.
-:::

@@ -2,7 +2,7 @@
 title: "Clog - Help"
 ---
 
-### Getting Help
+# Getting Help
 
 There are three source of help for Timewarrior:
 
@@ -18,4 +18,3 @@ will be updated between releases.
 
 When you become more familiar with Clog, you will probably refer to the man page
 or built-in help, which is a more concise reference.
-:::

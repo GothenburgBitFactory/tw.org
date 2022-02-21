@@ -2,7 +2,7 @@
 title: "Clog - What is it?"
 ---
 
-### What is Clog?
+# What is Clog?
 
 Clog is a filter that colorizes log files. Have you ever done something like
 this:
@@ -31,7 +31,7 @@ be more restrictive, because it will also match words like \'persevered\', but
 that is optional.
 
 Full 16- and 256-color support is included, for the colorization of the log
-entries. See [Color Specification](/docs/clog/color.html) for full details.
+entries. See [Color Specification](/docs/clog/color) for full details.
 
 Instead of coloring the whole line, specifying \'match\' instead will only color
 the parts of the line that match.
@@ -52,4 +52,3 @@ of\' that of an earlier rule.
 Note that there is a default section, called \'default\'. Putting rules in the
 default section means that no section need be specified on the command line.
 Multiple sections may be specified, and the rules are combined.
-:::

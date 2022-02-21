@@ -2,9 +2,8 @@
 title: "Taskwarrior - Request"
 ---
 
-[]{#message}
 
-### Taskserver Message Format
+# Taskserver Message Format
 
 The Taskserver accepts and emits only messages. These messages look somewhat
 like email, as defined in [RFC821](https://tools.ietf.org/html/rfc821),
@@ -14,9 +13,8 @@ The message format allows for data, metadata, and extensibility. This
 combination allows the Taskserver to accommodate current and future needs. This
 document describes the message format, and the supported message types.
 
-[]{#req}
 
-#### Requirements
+## Requirements
 
 In this document, we adopt the convention discussed in Section 1.3.2 of
 [RFC1122](https://tools.ietf.org/html/rfc1122#page-16) of using the capitalized
@@ -29,15 +27,13 @@ may exist valid reasons for ignoring this item, but the full implications should
 be understood before doing so; and \"MAY\" (or \"OPTIONAL\") means that this
 item is optional, and may be omitted without careful consideration.
 
-[]{#encoding}
 
-#### Encoding
+## Encoding
 
 All messages are UTF8-encoded text.
 
-[]{#format}
 
-#### Message Format
+## Message Format
 
 This format is based on [RFC2822](https://tools.ietf.org/html/rfc2822),
 \'Internet Message Format\'. Here is an example of the format:
@@ -60,9 +56,8 @@ characters. All text is UTF8-encoded.
 The payload section is arbitrary, and message type-specific. However, it is
 still UTF8-encoded text.
 
-[]{#msgreq}
 
-#### Message Requirements
+## Message Requirements
 
 Messages SHALL contain particular headers. Those are:
 
@@ -89,9 +84,8 @@ As an example:
 DO NOT spoof any other software using this client value. If another client is
 spoofed, then patches addressing protocol errors may break working software.
 
-[]{#auth}
 
-#### Auth Data
+## Auth Data
 
 Every request from the client SHALL contain \"auth\" information, which involves
 these header entries:
@@ -110,9 +104,8 @@ Authentication failure can result in these errors:
 -   430 Authentication failed
 -   431 Account suspended
 
-[]{#status}
 
-#### Status Data
+## Status Data
 
 Every response from the Taskserver SHALL contain status data:
 
@@ -120,18 +113,16 @@ Every response from the Taskserver SHALL contain status data:
     status: <status text>
 
 The code is a numeric status indicator defined in the [Sync
-Protocol](/docs/design/protocol.html).
+Protocol](/docs/design/protocol).
 
-[]{#payload}
 
-#### Payload Data
+## Payload Data
 
 Payload data is optional, arbitrary and message type dependent. It is always
 UTF8-encoded text.
 
-[]{#types}
 
-#### Message Types
+## Message Types
 
 The Taskserver supports several message types, thus providing a set of
 primitives for use by clients.
@@ -139,9 +130,8 @@ primitives for use by clients.
 It is expected that the number of supported ticket types will increase over
 time.
 
-[]{#sync}
 
-#### Sync Message
+## Sync Message
 
 The \"sync\" message always originates from the client, but the response will
 contain data from the server. A sync is therefore a single request with a single
@@ -193,9 +183,8 @@ An example response message might be:
 The status indicates success, and the payload contains zero remote task
 modifications, followed by a sync key.
 
-[]{#stats}
 
-#### Statistics Message
+## Statistics Message
 
 The message format іs simply:
 
@@ -230,4 +219,3 @@ There is no payload, and the results are in the header variables.
 Note that the statistics gathered by the server are growing, which means new
 values are occasionally added to the response message. Existing values will not
 be removed.
-:::

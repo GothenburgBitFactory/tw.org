@@ -2,7 +2,7 @@
 title: "Taskwarrior - Priority"
 ---
 
-### Priority
+# Priority
 
 Taskwarrior has supported the notion of task priority since the beginning.
 Priority was defined to have four allowable values, `H`, `M` and `L`, with the
@@ -11,7 +11,7 @@ Medium, Low and No priority. The `L` value is considered a higher priority than
 no priority. Priority has been used to sort tasks in most built-in reports.
 
 Beginning with Taskwarrior 2.4.3, priority is no longer a core attribute, and is
-replaced with an equivalent [User Defined Attribute](/docs/udas.html). This
+replaced with an equivalent [User Defined Attribute](/docs/udas). This
 offers several advantages, and users may now configure priority and attributes
 that affect urgency to match their needs more closely.
 
@@ -19,9 +19,8 @@ This change should go unnoticed, but there are some differences. This document
 describes how you may further customize priority to match *your* notion of what
 priority means.
 
-[]{#default}
 
-#### Default Configuration
+## Default Configuration
 
 Here is the new default configuration for the UDA priority, which closely
 matches the old core attribute priority.
@@ -47,9 +46,8 @@ The `uda.priority.values` setting specifies the possible values, which are `H`,
 `M`, `L`, and no priority. Notice the comma at the end with no value after it -
 that is how you specify that an empty value is allowed.
 
-[]{#custom}
 
-#### Custom Configuration
+## Custom Configuration
 
 If you believe that a priority level of `L` should be the lowest value, lower
 even than no value, you can do this:
@@ -66,9 +64,8 @@ like this:
 There is no practical limit on what values, or how many values you use. This
 example suggests you might want to rename `priority` to be `severity` instead.
 
-[]{#warning}
 
-#### Warning
+## Warning
 
 If you sync tasks between different clients, you will need to configure those
 clients in the same way, otherwise you\'ll find that Taskwarrior will enforce

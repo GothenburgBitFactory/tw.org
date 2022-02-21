@@ -2,11 +2,11 @@
 title: "Taskwarrior - Troubleshooting Sync"
 ---
 
-### Troubleshooting Sync
+# Troubleshooting Sync
 
 Here is a list of problems you may encounter, with the most common ones listed
 first. The single most common problem has been that the [Taskserver Setup
-Instructions](/docs/taskserver/setup.html) were not properly followed. Please
+Instructions](/docs/taskserver/setup) were not properly followed. Please
 review the steps you took.
 
 It is always a good idea to make sure that you are using the latest release of
@@ -14,21 +14,20 @@ Taskwarrior and Taskserver, not just because bugs are fixed that may help you,
 but also because the solutions below are geared toward the current releases.
 
 If you upgrade from an older release of Taskserver, you will need to follow the
-[upgrade instructions](/docs/taskserver/upgrade.html).
+[upgrade instructions](/docs/taskserver/upgrade).
 
-[]{#problems}
 
-#### Problems
+## Problems
 
 +-------------------------------------------------------------------------------+
-| []{.glyphicon .glyphicon-question-sign} You tried `task sync` but Taskwarrior |
+| [] You tried `task sync` but Taskwarrior |
 | showed you a task list instead                                                |
 |                                                                               |
 | You have a version of Taskwarrior older than `2.3.0`, which means there was   |
 | no `sync` command, and you are seeing a list filtered by the search term      |
 | \'sync\'. Upgrading is the only solution.                                     |
 +-------------------------------------------------------------------------------+
-| []{.glyphicon .glyphicon-question-sign} You tried `task sync` and saw         |
+| [] You tried `task sync` and saw         |
 | \'Taskwarrior was built without GnuTLS support. Sync is not available.\'      |
 |                                                                               |
 | You are using version `2.3.0` or later, but the Taskwarrior binary was        |
@@ -51,7 +50,7 @@ If you upgrade from an older release of Taskserver, you will need to follow the
 |     $ task diagnostics | grep libgnutls                                       |
 |       libgnutls: 3.3.18                                                       |
 +-------------------------------------------------------------------------------+
-| []{.glyphicon .glyphicon-question-sign} nodename nor servname provided, or    |
+| [] nodename nor servname provided, or    |
 | not known                                                                     |
 |                                                                               |
 | Despite the terrible wording, this means the Taskwarrior setting              |
@@ -62,13 +61,13 @@ If you upgrade from an older release of Taskserver, you will need to follow the
 | resolution for the name? Is there a firewall between Taskwarrior and          |
 | Taskserver that is not letting through `<port>` traffic?                      |
 +-------------------------------------------------------------------------------+
-| []{.glyphicon .glyphicon-question-sign} Could not connect to \<host\>         |
+| [] Could not connect to \<host\>         |
 | \<port\>                                                                      |
 |                                                                               |
 | Taskserver may not be running on `<host>`. Check with                         |
 | `ps -leaf | grep taskd`.                                                      |
 +-------------------------------------------------------------------------------+
-| []{.glyphicon .glyphicon-question-sign} Unable to use port 53589?             |
+| [] Unable to use port 53589?             |
 |                                                                               |
 | By default, port `53589` is used, but whichever you chose must be open on the |
 | server.                                                                       |
@@ -82,7 +81,7 @@ If you upgrade from an older release of Taskserver, you will need to follow the
 |                                                                               |
 |     task rc.taskd.server:localhost:localport                                  |
 +-------------------------------------------------------------------------------+
-| []{.glyphicon .glyphicon-question-sign} Certificate fails validation,         |
+| [] Certificate fails validation,         |
 | Handshake failed                                                              |
 |                                                                               |
 | There are many reasons that the TLS handshake can fail.                       |
@@ -103,7 +102,7 @@ If you upgrade from an older release of Taskserver, you will need to follow the
 | there is overlap between client and server. There needs to be a cipher that   |
 | is available to both, otherwise they cannot communicate.                      |
 +-------------------------------------------------------------------------------+
-| []{.glyphicon .glyphicon-question-sign} Is your certificate still valid?      |
+| [] Is your certificate still valid?      |
 |                                                                               |
 | Certificates have expiration dates, and if you followed our instructions, you |
 | created a certificate that is valid for one year. Check your certificate with |
@@ -121,9 +120,9 @@ If you upgrade from an older release of Taskserver, you will need to follow the
 | For these reasons, choose an expiration date that lets you reevaluate your    |
 | choices in the relatively near future.                                        |
 +-------------------------------------------------------------------------------+
-| []{.glyphicon .glyphicon-question-sign} Is your GnuTLS library up to date?    |
+| [] Is your GnuTLS library up to date?    |
 |                                                                               |
-| As a [security product](https://gnutls.org/security.html), it is imperative   |
+| As a [security product](https://gnutls.org/security), it is imperative   |
 | that you keep your GnuTLS up to date.                                         |
 |                                                                               |
 | As with many security products, GnuTLS is maintained by a responsible and     |
@@ -135,7 +134,7 @@ If you upgrade from an older release of Taskserver, you will need to follow the
 | conditions. Newer releases have addressed memory leaks that were able to take |
 | down Taskserver.                                                              |
 +-------------------------------------------------------------------------------+
-| []{.glyphicon .glyphicon-question-sign} ERROR: Could not find common ancestor |
+| [] ERROR: Could not find common ancestor |
 | for \...\                                                                     |
 | Client sync key not found.                                                    |
 |                                                                               |
@@ -147,9 +146,8 @@ If you upgrade from an older release of Taskserver, you will need to follow the
 | sync key, which identifies the last sync transaction.                         |
 +-------------------------------------------------------------------------------+
 
-[]{#debug}
 
-#### Debugging
+## Debugging
 
 You may wish to try and debug the problem yourself. You will probably not. But
 if you do, here is how.
@@ -187,9 +185,8 @@ Similarly, Taskwarrior has a verbose debug mode, and debug TLS mode:
     $ task rc.debug=1 rc.debug.tls=2 sync
     ...
 
-[]{#help}
 
-#### Getting Help
+## Getting Help
 
 As a last resort, ask for help. But please make sure you have carefully reviewed
 your setup, and gone through the checks above before asking. No one wants to
@@ -210,4 +207,3 @@ There are several ways of getting help:
 -   Join us IRC in the \#taskwarrior channel on Freenode.net, and get a quick
     response from the community, where, as you have anticipated, we will walk
     you through the checklist above.
-:::

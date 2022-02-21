@@ -2,17 +2,15 @@
 title: "Taskwarrior - Taskserver Syncing"
 ---
 
-[]{#sync}
 
-### [5]{.label .label-success} Syncing Taskwarrior
+# [5] Syncing Taskwarrior
 
 You are now ready to sync your Taskwarrior client. You will do this differently
 depending on whether this is the first sync per device, or one of the many
 subsequent syncs.
 
-[]{#first}
 
-#### First Time Sync
+## First Time Sync
 
 The first time you sync is special - the client sends all your pending tasks to
 the server. This is something you should only do once. Run this:
@@ -25,9 +23,8 @@ the server. This is something you should only do once. Run this:
 
 You should get an indication that tasks were uploaded, in this case 2 of them.
 
-[]{#general}
 
-#### General Sync
+## General Sync
 
 After the first time sync, you switch and just use this command:
 
@@ -51,9 +48,8 @@ merging.
 Taskwarrior and Taskserver were designed to work together, and tolerate
 intermittent connectivity.
 
-[]{#reminder}
 
-#### Sync Reminder
+## Sync Reminder
 
 After you modify data locally, Taskwarrior will start notifying you that you
 need to sync, after commands, like this:
@@ -74,4 +70,3 @@ If you do not respond with a sync, then local changes accumulate unseen by other
 clients. When you do eventually sync, the data will be properly propagated, so
 it is a question of whether you *need* current data on the server. It is
 perfectly fine to allow *weeks* to go by without a sync.
-:::

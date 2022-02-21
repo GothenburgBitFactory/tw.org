@@ -2,9 +2,8 @@
 title: "Clog - Clone"
 ---
 
-[]{#how}
 
-### How To Build Clog
+# How To Build Clog
 
 This is for developers. Specifically those who know how to use tools, satisfy
 dependencies, and want to set up a development environment. It is not
@@ -18,15 +17,13 @@ You\'ll need these tools:
 -   C++ compiler, currently gcc 4.7+ or clang 3.3+ for full C++11 support
 -   Python 2.7 or later (for tests)
 
-[]{#clone}
 
-### Cloning the Repo
+# Cloning the Repo
 
     $ git clone --recursive https://github.com/GothenburgBitFactory/clog.git clog.git
 
-[]{#stable}
 
-### Building the Stable Version
+# Building the Stable Version
 
 The master branch always represents the more recently released version, and
 should be your preferred choice.
@@ -36,9 +33,8 @@ should be your preferred choice.
     $ cmake -DCMAKE_BUILD_TYPE=release . # 'release' for performance.
     $ make                               # Just build it.
 
-[]{#build}
 
-### Building the Dev Branch
+# Building the Dev Branch
 
 The dev branch is always the highest numbered branch, in this example, `1.4.0`.
 
@@ -53,9 +49,8 @@ Build the debug type if you want symbols in the binary for debugging.
 Note: the development branch is not always stable, doesn\'t always pass tests,
 and sometimes doesn\'t even compile. Choose wisely.
 
-[]{#tests}
 
-### Running the Test Suite
+# Running the Test Suite
 
 There are C++ and Python, build and run them:
 
@@ -64,9 +59,8 @@ There are C++ and Python, build and run them:
     $ ./run_all          # Runs all tests silently > all.log
     $ ./problems         # Find errors in all.log
 
-[]{#patch}
 
-### Submitting a Patch
+# Submitting a Patch
 
 Talk to us first - make sure you are working on something that is wanted.
 Patches will not be applied simply because you did the work, or because it was
@@ -106,4 +100,3 @@ latter, make sure someone knows about it, or it could go unnoticed.
 Expect feedback. It is unlikely your patch will be accepted unmodified. Usually
 this is because you violated the coding style, worked in the wrong branch, or
 *forgot* about documentation and unit tests.
-:::

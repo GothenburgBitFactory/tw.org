@@ -2,11 +2,11 @@
 title: "Taskwarrior - Date &amp; Time"
 ---
 
-### Date & Time
+# Date & Time
 
 Taskwarrior supports date and time values. Date fields are used to track task
 creation, due date, scheduled date, end date and so on, as well as providing a
-date type for use with [UDA](/docs/udas.html) fields.
+date type for use with [UDA](/docs/udas) fields.
 
 Whichever format is used to accept and display date and time, Taskwarrior
 resolves it to a UTC epoch value, accurate to one second. This is called Unix
@@ -15,9 +15,8 @@ Time, POSIX time, or Epoch time.
 But you have full control over the format entered and the format displayed, and
 this document is a demonstration of this.
 
-[]{#due}
 
-#### Due Date Example
+## Due Date Example
 
 Let us begin with an example of specifying a due date when the task is created:
 
@@ -35,9 +34,8 @@ Finally removing a due date from a task:
 This examples uses the default `rc.dateformat`, which is `Y-M-D`, to read the
 date from the command line.
 
-[]{#dateformat}
 
-#### rc.dateformat
+## rc.dateformat
 
 The `rc.dateformat` setting allows you to specify other formats for date input.
 An example is the default, `Y-M-D`, which means a date is:
@@ -50,31 +48,28 @@ An example is the default, `Y-M-D`, which means a date is:
 
 Here are the possible elements of `rc.dateformat`:
 
-  ------------------- ----------------------------------------------------------------------------------------
-  `m`                 1 or 2 digit month number, eg \'1\', \'12\'
-  `M`                 2 digit month number, eg \'01\', \'12\'
-  `d`                 1 or 2 digit day of month number¸ eg \'1\', \'12\'
-  `D`                 2 digit day of month number, eg \'01\', \'30\'
-  `y`                 2 digit year, eg \'12\', where the century is assumed to be \'20\', therefore \'2012\'
-  `Y`                 4 digit year, eg \'2015\'
-  `h`                 1 or 2 digit hours, eg \'1\', \'23\'
-  `H`                 2 digit hours, eg \'01\', \'23\'
-  `n`                 1 or 2 digit minutes, eg \'1\', \'59\'
-  `N`                 2 digit minutes, eg \'01\', \'59\'
-  `s`                 1 or 2 digit seconds, eg \'1\', \'59\'
-  `S`                 2 digit seconds, eg \'01\', \'59\'
-  `v`                 1 or 2 digit week number, eg \'1\', \'52\'
-  `V`                 2 digit week number, eg \'01\', \'52\'
-  `a`                 3-character English day name abbreviation, eg \'mon\', \'tue\'
-  `A`                 Complete English day name, eg \'monday\', \'tuesday\'
-  `b`                 3-character English month name abbreviation, eg \'jan\', \'feb\'
-  `B`                 Complete English month name, eg \'january\', \'february\'
-  `Everything else`   All other format characters are taken as literals
-  ------------------- ----------------------------------------------------------------------------------------
+* `m`               - 1 or 2 digit month number, eg \'1\', \'12\'
+* `M`               - 2 digit month number, eg \'01\', \'12\'
+* `d`               - 1 or 2 digit day of month number¸ eg \'1\', \'12\'
+* `D`               - 2 digit day of month number, eg \'01\', \'30\'
+* `y`               - 2 digit year, eg \'12\', where the century is assumed to be \'20\', therefore \'2012\'
+* `Y`               - 4 digit year, eg \'2015\'
+* `h`               - 1 or 2 digit hours, eg \'1\', \'23\'
+* `H`               - 2 digit hours, eg \'01\', \'23\'
+* `n`               - 1 or 2 digit minutes, eg \'1\', \'59\'
+* `N`               - 2 digit minutes, eg \'01\', \'59\'
+* `s`               - 1 or 2 digit seconds, eg \'1\', \'59\'
+* `S`               - 2 digit seconds, eg \'01\', \'59\'
+* `v`               - 1 or 2 digit week number, eg \'1\', \'52\'
+* `V`               - 2 digit week number, eg \'01\', \'52\'
+* `a`               - 3-character English day name abbreviation, eg \'mon\', \'tue\'
+* `A`               - Complete English day name, eg \'monday\', \'tuesday\'
+* `b`               - 3-character English month name abbreviation, eg \'jan\', \'feb\'
+* `B`               - Complete English month name, eg \'january\', \'february\'
+* Everything else   - All other format characters are taken as literals
 
-[]{#time}
 
-#### Including Time
+## Including Time
 
 Using `rc.dateformat` you can specify a date with or without elements that
 include time. If your dateformat omits any time elements, then you just specify
@@ -120,9 +115,8 @@ The second task added specified an `rc.dateformat` override value of
 You can specify date, or date + time, but whatever you specify must match your
 `rc.dateformat` setting.
 
-[]{#reports}
 
-#### Reports
+## Reports
 
 The `rc.dateformat` setting is used for both specifying dates on the command
 line, and displaying them in reports. Most reports allow a further override, for
@@ -131,14 +125,11 @@ there are others. See `man taskrc` for a complete list.
 
 For display purposes, there are two additional elements:
 
-  ----- ----------------------------------------------------------------------------------------------------------
-  `j`   1, 2 or 3 digit day-of-year number, sometimes referred to as a Julian date, eg \'1\', \'11\', or \'365\'
-  `J`   3 digit day of year number, sometimes referred to as a Julian date, eg \'001\', \'011\', or \'365\'
-  ----- ----------------------------------------------------------------------------------------------------------
+* `j`   - 1, 2 or 3 digit day-of-year number, sometimes referred to as a Julian date, eg \'1\', \'11\', or \'365\'
+* `J`   - 3 digit day of year number, sometimes referred to as a Julian date, eg \'001\', \'011\', or \'365\'
 
-[]{#names}
 
-#### Synonyms [2.4.0]{.label .label-success}
+## Synonyms [2.4.0]
 
 In addition to formatted dates, you can use a date synonym instead:
 
@@ -147,53 +138,46 @@ In addition to formatted dates, you can use a date synonym instead:
 Here the synonym `eom` means \'end of the month\'. Synonyms are a useful
 shortcut to entering lengthy dates. Here is the full set:
 
-  ---------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  `now`                        Current local date and time.
-  `today`                      Current local date, with time 00:00:00.
-  `sod`                        Local date of the start of the next day, with time 00:00:00. Same as `tomorrow`.
-  `eod`                        Current local date, with time 23:59:59.
-  `yesterday`                  Local date for yesterday, with time 00:00:00.
-  `tomorrow`                   Local date for tomorrow, with time 00:00:00. Same as `sod`.
-  `monday`, `tuesday` \...     Local date for the specified day, after today, with time 00:00:00. Can be shortened, e.g. `mon`, `tue` [2.6.0]{.label .label-success} Can be capitalized, e.g. `Monday`, `Tue`
-  `january`, `february` \...   Local date for the specified month, 1st day, with time 00:00:00. Can be shortened, e.g. `jan`, `feb`. [2.6.0]{.label .label-success} Can be capitalized, e.g. `January`, `Feb`.
-  `later`, `someday`           Local 2038-01-18, with time 00:00:00. A date far away, with semantically meaningful to GTD users.
-  `soy`                        Local date for the next year, January 1st, with time 00:00:00.
-  `eoy`                        Local date for this year, December 31st, with time 00:00:00.
-  `soq`                        Local date for the start of the next quarter (January, April, July, October), 1st, with time 00:00:00.
-  `eoq`                        Local date for the end of the current quarter (March, June, September, December), last day of the month, with time 23:59:59.
-  `som`                        Local date for the 1st day of the next month, with time 00:00:00.
-  `socm`                       Local date for the 1st day of the current month, with time 00:00:00.
-  `eom`, `eocm`                Local date for the last day of the current month, with time 23:59:59.
-  `sow`                        Local date for the next Sunday, with time 00:00:00.
-  `socw`                       Local date for the last Sunday, with time 00:00:00.
-  `eow`, `eocw`                Local date for the end of the week, Saturday night, with time 00:00:00.
-  `soww`                       Local date for the start of the work week, next Monday, with time 00:00:00.
-  `eoww`                       Local date for the end of the work week, Friday night, with time 23:59:59.
-  `1st`, `2nd`, \...           Local date for the next Nth day, with time 00:00:00.
-  `goodfriday`                 Local date for the next Good Friday, with time 00:00:00.
-  `easter`                     Local date for the next Easter Sunday, with time 00:00:00.
-  `eastermonday`               Local date for the next Easter Monday, with time 00:00:00.
-  `ascension`                  Local date for the next Ascension (39 days after Easter Sunday), with time 00:00:00.
-  `pentecost`                  Local date for the next Pentecost (40 days after Easter Sunday), with time 00:00:00.
-  `midsommar`                  Local date for the Saturday after June 20th, with time 00:00:00. Swedish.
-  `midsommarafton`             Local date for the Friday after June 19th, with time 00:00:00. Swedish.
-  ---------------------------- ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* `now`                        - Current local date and time.
+* `today`                      - Current local date, with time 00:00:00.
+* `sod`                        - Local date of the start of the next day, with time 00:00:00. Same as `tomorrow`.
+* `eod`                        - Current local date, with time 23:59:59.
+* `yesterday`                  - Local date for yesterday, with time 00:00:00.
+* `tomorrow`                   - Local date for tomorrow, with time 00:00:00. Same as `sod`.
+* `monday`, `tuesday` \...     - Local date for the specified day, after today, with time 00:00:00. Can be shortened, e.g. `mon`, `tue` [2.6.0] Can be capitalized, e.g. `Monday`, `Tue`
+* `january`, `february` \...   - Local date for the specified month, 1st day, with time 00:00:00. Can be shortened, e.g. `jan`, `feb`. [2.6.0] Can be capitalized, e.g. `January`, `Feb`.
+* `later`, `someday`           - Local 2038-01-18, with time 00:00:00. A date far away, with semantically meaningful to GTD users.
+* `soy`                        - Local date for the next year, January 1st, with time 00:00:00.
+* `eoy`                        - Local date for this year, December 31st, with time 00:00:00.
+* `soq`                        - Local date for the start of the next quarter (January, April, July, October), 1st, with time 00:00:00.
+* `eoq`                        - Local date for the end of the current quarter (March, June, September, December), last day of the month, with time 23:59:59.
+* `som`                        - Local date for the 1st day of the next month, with time 00:00:00.
+* `socm`                       - Local date for the 1st day of the current month, with time 00:00:00.
+* `eom`, `eocm`                - Local date for the last day of the current month, with time 23:59:59.
+* `sow`                        - Local date for the next Sunday, with time 00:00:00.
+* `socw`                       - Local date for the last Sunday, with time 00:00:00.
+* `eow`, `eocw`                - Local date for the end of the week, Saturday night, with time 00:00:00.
+* `soww`                       - Local date for the start of the work week, next Monday, with time 00:00:00.
+* `eoww`                       - Local date for the end of the work week, Friday night, with time 23:59:59.
+* `1st`, `2nd`, \...           - Local date for the next Nth day, with time 00:00:00.
+* `goodfriday`                 - Local date for the next Good Friday, with time 00:00:00.
+* `easter`                     - Local date for the next Easter Sunday, with time 00:00:00.
+* `eastermonday`               - Local date for the next Easter Monday, with time 00:00:00.
+* `ascension`                  - Local date for the next Ascension (39 days after Easter Sunday), with time 00:00:00.
+* `pentecost`                  - Local date for the next Pentecost (40 days after Easter Sunday), with time 00:00:00.
+* `midsommar`                  - Local date for the Saturday after June 20th, with time 00:00:00. Swedish.
+* `midsommarafton`             - Local date for the Friday after June 19th, with time 00:00:00. Swedish.
 
 The synonyms are supported in addition to `rc.dateformat`
 
-[]{#iso}
 
-#### ISO-8601 Format [2.4.0]{.label .label-success}
+## ISO-8601 Format [2.4.0]
 
 The ISO-8601 standard defines an unambiguous format for specifying date and time
 around the world. Taskwarrior supports the following formats defined by
 ISO-8601:
 
 `YYYY-MM-DDThh:mm:ssZ`
-:::
-:::
-:::
-:::
 
 `2015-06-15T12:34:56Z`
 
@@ -446,28 +430,25 @@ Today, hours, minutes, 00 seconds, local time.
 
 ISO dates are comprised of standard elements:
 
-  -------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  `YYYY`   Only four-digit years are supported by ISO-8601, no abbreviations.
-  `MM`     Two-digit, zero-padded month numbers range from `01` to `12`.
-  `DD`     Two-digit, zero-padded day numbers range from `01` to `31`, depending on month and year.
-  `Www`    Week number `W01` is defined as the first week of the year with a Thursday in it. `W01` sometimes starts at the end of December of the previous year. Some years range from `W01` up to `W53`
-  `D`      Day of week is 1-7, Monday-Sunday.
-  `DDD`    Day ordinal is 001 for January 1st, 365 for December 31st, or 366 in a leap year.
-  `T`      A separator between date elements and time elements.
-  `Z`      Indicates UTC time, the \'Z\' means \'Zulu\', a military format.
-  `+/-`    Positive offset is *East* of UTC. Negative offset is *West* of UTC.
-  `hh`     Two-digit, zero-padded hours, between `00` and `23`.
-  `mm`     Two-digit, zero-padded minutes, between `00` and `59`.
-  `ss`     Two-digit, zero-padded seconds, between `00` and `59`.
-  -------- -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* `YYYY`   - Only four-digit years are supported by ISO-8601, no abbreviations.
+* `MM`     - Two-digit, zero-padded month numbers range from `01` to `12`.
+* `DD`     - Two-digit, zero-padded day numbers range from `01` to `31`, depending on month and year.
+* `Www`    - Week number `W01` is defined as the first week of the year with a Thursday in it. `W01` sometimes starts at the end of December of the previous year. Some years range from `W01` up to `W53`
+* `D`      - Day of week is 1-7, Monday-Sunday.
+* `DDD`    - Day ordinal is 001 for January 1st, 365 for December 31st, or 366 in a leap year.
+* `T`      - A separator between date elements and time elements.
+* `Z`      - Indicates UTC time, the \'Z\' means \'Zulu\', a military format.
+* `+/-`    - Positive offset is *East* of UTC. Negative offset is *West* of UTC.
+* `hh`     - Two-digit, zero-padded hours, between `00` and `23`.
+* `mm`     - Two-digit, zero-padded minutes, between `00` and `59`.
+* `ss`     - Two-digit, zero-padded seconds, between `00` and `59`.
 
 You can use any of the ISO formats, independent from your `rc.dateformat`
 setting. Future releases of taskwarrior will not need `rc.dateformat` for
 date/time input.
 
-[]{#warning}
 
-#### Warning
+## Warning
 
 It is possible to set a `dateformat` that conflicts with a built-in format, or
 with other parsed lex types from the command line. Date formats are high on the

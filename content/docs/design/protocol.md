@@ -2,13 +2,11 @@
 title: "Taskwarrior - Sync Protocol"
 ---
 
-[]{#sync}
 
-### Sync Protocol
+# Sync Protocol
 
-[]{#intro}
 
-#### Introduction
+## Introduction
 
 Taskwarrior data has typically been shared in several ways. Those include SCM
 (source code management) systems, directory synchronizing software (such as
@@ -36,9 +34,8 @@ modification to this protocol.
 The Taskserver protocol will be implemented by the taskd project and first used
 in taskwarrior 2.3.0. Other clients will follow.
 
-[]{#req}
 
-#### Requirements
+## Requirements
 
 In this document, we adopt the convention discussed in Section 1.3.2 of
 [RFC1122](https://tools.ietf.org/html/rfc1122#page-16) of using the capitalized
@@ -51,9 +48,8 @@ may exist valid reasons for ignoring this item, but the full implications should
 be understood before doing so; and \"MAY\" (or \"OPTIONAL\") means that this
 item is optional, and may be omitted without careful consideration.
 
-[]{#link}
 
-#### Link Level
+## Link Level
 
 The Taskserver protocol assumes a reliable data stream such as provided by TCP.
 When TCP is used, a Taskserver listens on a single predetermined port *for the
@@ -63,38 +59,35 @@ distinct sets of clients.
 This server is only an interface between programs and the task data. It does not
 perform any user interaction or presentation-level functions.
 
-[]{#tx}
 
-#### Transactions
+## Transactions
 
 Each transaction is a single incoming message, with a single response message.
 All communication therefore consists of a single \'send\', followed by a single
 \'receive\', then termination. There are no sessions, and no continuously open
 connections. The message format is described in the [Taskserver Message
-Format](/docs/design/request.html) document.
+Format](/docs/design/request) document.
 
-[]{#server}
 
-#### Responsibilities of the Server
+## Responsibilities of the Server
 
 The server will maintain a set of transactions, in the original sequence,
 punctuated by sync keys which are UUIDs. Each sync key represents a non- trivial
 sync operation by a client. Each transaction is a [JSON-formatted
-task](/docs/design/task.html), followed by a newline (\\n) character. The result
+task](/docs/design/task), followed by a newline (\\n) character. The result
 is a single file that contains interleaved lines of two types: tasks and sync
 keys.
 
 This design allows the server to maintain a set of deltas such that multiple
 clients may request a minimal set of changes since their last sync.
 
-[]{#client}
 
-#### Responsibilities of the Client
+## Responsibilities of the Client
 
 This describes how Taskwarrior implements sync.
 
 All modifications to tasks (add, modify, done, delete \...) are recorded in the
-form of a fully-composed [JSON-formatted task](/docs/design/task.html). The
+form of a fully-composed [JSON-formatted task](/docs/design/task). The
 formatted task is added to a local backlog.data file. If a task is modified a
 second time, it is added again to the backlog.data file - the lines are not
 combined. Each task SHALL have a \'modified\' date attribute that will help
@@ -131,16 +124,14 @@ permits individual clients to augment the task data without other clients
 stripping it meaningful data. This is how UDAs (user defined attributes) are
 handled.
 
-[]{#ext}
 
-#### Extensions
+## Extensions
 
 This protocol was designed so that extensions to the protocol will take the form
 of additional message types and status codes.
 
-[]{#status}
 
-#### Summary of Response Codes
+## Summary of Response Codes
 
 Status responses indicate the server\'s response to the last command received
 from the client. The codes consist of a 3 digit numeric code.
@@ -201,16 +192,14 @@ A summary of all status response are:
   504   Request too big
   ----- -----------------------------------
 
-[]{#security}
 
-#### Security Considerations
+## Security Considerations
 
 All communication with the Taskserver uses SSL 3.0 or TLS 1.0, 1.1 or 1.2.
 Encryption is mandatory. Data is never transmitted in plain text.
 
-[]{#limitations}
 
-#### Limitations and Guidelines
+## Limitations and Guidelines
 
 Some limitations exists to reduce bandwidth and load on the server. They are:
 
@@ -220,4 +209,3 @@ Some limitations exists to reduce bandwidth and load on the server. They are:
     local data store, and properly using sync keys.
 -   A client should minimize data transfers by limiting the frequency of sync
     requests.
-:::

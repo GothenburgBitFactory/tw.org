@@ -2,7 +2,7 @@
 title: "Taskwarrior - Urgency"
 ---
 
-### Urgency
+# Urgency
 
 Taskwarrior has a `next` report, which is sorted by decreasing urgency. If that
 measure of urgency represents or approximates your idea of what is important,
@@ -81,9 +81,8 @@ The urgency caused by tags and annotations is further modified by the number of
 tags/annotations present: The factor is 0.8 for one, 0.9 for two and 1.0 for
 more.
 
-[]{#custom}
 
-#### Customizing Coefficients
+## Customizing Coefficients
 
 The default coefficients have been chosen to represent all of the terms in a
 simple, common-sense way. While these do not necessarily reflect your own

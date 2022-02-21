@@ -2,9 +2,8 @@
 title: "Taskwarrior - Taskwarrior JSON Format"
 ---
 
-[]{#json}
 
-### Taskwarrior JSON Format
+# Taskwarrior JSON Format
 
 When Taskwarrior exchanges data, it uses [JSON](https://www.json.org/). This
 document describes the structure and semantics for tasks exported from
@@ -17,9 +16,8 @@ communication and sync protocol between client and server.
 This document is subject to change. The data attributes are also subject to
 change.
 
-[]{#req}
 
-#### Requirements
+## Requirements
 
 In this document, we adopt the convention discussed in Section 1.3.2 of
 [RFC1122](https://tools.ietf.org/html/rfc1122#page-16) of using the capitalized
@@ -32,9 +30,8 @@ may exist valid reasons for ignoring this item, but the full implications should
 be understood before doing so; and \"MAY\" (or \"OPTIONAL\") means that this
 item is optional, and may be omitted without careful consideration.
 
-[]{#general}
 
-#### General Format
+## General Format
 
 The format is JSON, specifically a JSON object as a single line of text,
 terminated by a newline (U+000D).
@@ -53,28 +50,24 @@ meaning that a task consists of a single line of text.
 
 All data is UTF8.
 
-[]{#types}
 
-#### Data Types
+## Data Types
 
 There are five data types used in the task format.
 
-[]{#type_string}
 
-#### Data Type: String
+## Data Type: String
 
 Strings may consist of any UTF8 encoded characters.
 
-[]{#type_fixedstring}
 
-#### Data Type: Fixed String
+## Data Type: Fixed String
 
 A fixed string is one value from a set of acceptable values, such as a priority
 level, where the values may only be \"\", \"L\", \"M\" or \"H\".
 
-[]{#type_uuid}
 
-#### Data Type: UUID
+## Data Type: UUID
 
 A UUID is a 32-hex-character lower case string, formatted in this way:
 
@@ -84,17 +77,15 @@ An example:
 
     296d835e-8f85-4224-8f36-c612cad1b9f8
 
-[]{#type_int}
 
-#### Data Type: Integer
+## Data Type: Integer
 
 Integers are rendered in a simple fashion:
 
     123
 
-[]{#type_date}
 
-#### Data Type: Date
+## Data Type: Date
 
 Dates are rendered in ISO 8601 combined date and time in UTC format using the
 template:
@@ -107,9 +98,8 @@ An example:
 
 No other formats are supported.
 
-[]{#type_duration}
 
-#### Data Type: Duration
+## Data Type: Duration
 
 Duration values represent a time period. They take the form:
 
@@ -181,35 +171,101 @@ half a year.
 Note that not all combinations of and make sense, for example \"3annual\" makes
 no sense, but evaluates to \"3years\".
 
-[]{#atts}
 
-#### The Attributes
+## The Attributes
 
 Here are the standard attributes that may comprise a task:
 
-  Name            Type
-  --------------- ---------
-  status          String
-  uuid            UUID
-  entry           Date
-  description     String
-  start           Date
-  end             Date
-  due             Date
-  until           Date
-  wait            Date
-  modified        Date
-  scheduled       Date
-  recur           String
-  mask            String
-  imask           Integer
-  parent          UUID
-  project         String
-  priority        String
-  depends         String
-  tags \*         String
-  annotation \*   String
-                  ?
+<table>
+<tr>
+  <th>Name</th>
+  <th>Type</th>
+</tr>
+<tr>
+  <td>status</td>
+  <td>String</td>
+</tr>
+<tr>
+  <td>uuid</td>
+  <td>UUID</td>
+</tr>
+<tr>
+  <td>entry</td>
+  <td>Date</td>
+</tr>
+<tr>
+  <td>description</td>
+  <td>String</td>
+</tr>
+<tr>
+  <td>start</td>
+  <td>Date</td>
+</tr>
+<tr>
+  <td>end</td>
+  <td>Date</td>
+</tr>
+<tr>
+  <td>due</td>
+  <td>Date</td>
+</tr>
+<tr>
+  <td>until</td>
+  <td>Date</td>
+</tr>
+<tr>
+  <td>wait</td>
+  <td>Date</td>
+</tr>
+<tr>
+  <td>modified</td>
+  <td>Date</td>
+</tr>
+<tr>
+  <td>scheduled</td>
+  <td>Date</td>
+</tr>
+<tr>
+  <td>recur</td>
+  <td>String</td>
+</tr>
+<tr>
+  <td>mask</td>
+  <td>String</td>
+</tr>
+<tr>
+  <td>imask</td>
+  <td>Integer</td>
+</tr>
+<tr>
+  <td>parent</td>
+  <td>UUID</td>
+</tr>
+<tr>
+  <td>project</td>
+  <td>String</td>
+</tr>
+<tr>
+  <td>priority</td>
+  <td>String</td>
+</tr>
+<tr>
+  <td>depends</td>
+  <td>String</td>
+</tr>
+<tr>
+  <td>tags *</td>
+  <td>String</td>
+</tr>
+<tr>
+  <td>annotation *</td>
+  <td>String</td>
+</tr>
+<tr>
+  <td>(UDA)</td>
+  <td>?</td>
+</tr>
+</table>
 
 \* Both tags and annotations are lists of strings and objects.
 
@@ -217,29 +273,206 @@ Any UDA fields are assumed to be of type string.
 
 There are other forms, which are conditional upon the state of a task:
 
-  Status Value   Pending   Deleted   Completed   Waiting   Recurring Parent   Recurring Child
-  -------------- --------- --------- ----------- --------- ------------------ -----------------
-  status         Reqd      Reqd      Reqd        Reqd      Reqd               Reqd
-  uuid           Reqd      Reqd      Reqd        Reqd      Reqd               Reqd
-  entry          Reqd      Reqd      Reqd        Reqd      Reqd               Reqd
-  description    Reqd      Reqd      Reqd        Reqd      Reqd               Reqd
-  start          Opt       Opt       Opt         Opt       Opt                Opt
-  end                      Reqd      Reqd                                     
-  due            Opt       Opt       Opt         Opt       Reqd               Opt
-  until          Opt       Opt       Opt         Opt       Opt                Opt
-  scheduled      Opt       Opt       Opt         Opt       Opt                Opt
-  wait                                           Reqd                         
-  recur                                                    Reqd               Reqd
-  mask                                                     Intrn              
-  imask                                                                       Intrn
-  parent                                                                      Reqd
-  annotation     Opt       Opt       Opt         Opt       Opt                Opt
-  project        Opt       Opt       Opt         Opt       Opt                Opt
-  tags           Opt       Opt       Opt         Opt       Opt                Opt
-  priority       Opt       Opt       Opt         Opt       Opt                Opt
-  depends        Opt       Opt       Opt         Opt       Opt                Opt
-  modified       Intrn     Intrn     Intrn       Intrn     Intrn              Intrn
-  UDA            Opt       Opt       Opt         Opt       Opt                Opt
+<table>
+<tr>
+  <th>Status Value</th>
+  <th>Pending</th>
+  <th>Deleted</th>
+  <th>Completed</th>
+  <th>Waiting</th>
+  <th>Recurring Parent</th>
+  <th>Recurring Child</th>
+</tr>
+<tr>
+  <td>status</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+</tr>
+<tr>
+  <td>uuid</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+</tr>
+<tr>
+  <td>entry</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+</tr>
+<tr>
+  <td>description</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+</tr>
+<tr>
+  <td>start</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+</tr>
+<tr>
+  <td>end</td>
+  <td></td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+  <td></td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>due</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td class="danger">Reqd</td>
+  <td>Opt</td>
+</tr>
+<tr>
+  <td>until</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+</tr>
+<tr>
+  <td>scheduled</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+</tr>
+<tr>
+  <td>wait</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="danger">Reqd</td>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td>recur</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="danger">Reqd</td>
+  <td class="danger">Reqd</td>
+</tr>
+<tr>
+  <td>mask</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="info">Intrn</td>
+  <td></td>
+</tr>
+<tr>
+  <td>imask</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="info">Intrn</td>
+</tr>
+<tr>
+  <td>parent</td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td></td>
+  <td class="danger">Reqd</td>
+</tr>
+<tr>
+  <td>annotation</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+</tr>
+<tr>
+  <td>project</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+</tr>
+<tr>
+  <td>tags</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+</tr>
+<tr>
+  <td>priority</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+</tr>
+<tr>
+  <td>depends</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+</tr>
+<tr>
+  <td>modified</td>
+  <td class="info">Intrn</td>
+  <td class="info">Intrn</td>
+  <td class="info">Intrn</td>
+  <td class="info">Intrn</td>
+  <td class="info">Intrn</td>
+  <td class="info">Intrn</td>
+</tr>
+<tr>
+  <td>UDA</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+  <td>Opt</td>
+</tr>
+</table>
 
 (Legend: Reqd = required, Opt = optional, Intrn = Internally generated)
 
@@ -274,9 +507,8 @@ A recurring child task is not created by the user, but is cloned from the
 recurring parent task by the Taskserver. It may be modified by the user. On
 completion, there is special handling to be done. See section 3.11.
 
-[]{#additional}
 
-#### Additional Attributes
+## Additional Attributes
 
 There MAY be other fields than those listed above in a task definition. Such
 fields MUST be preserved intact by any client, which means that if a task is
@@ -285,17 +517,15 @@ and MUST continue to exist in the task..
 
 User Defined Attributes (UDAs) are additional fields.
 
-[]{#details}
 
-#### Attribute Details
+## Attribute Details
 
 The individual fields convey important information about a task, and in some
 cases work only in collusion with other fields. All such details are listed
 here.
 
-[]{#attr_status}
 
-#### Attribute: status
+## Attribute: status
 
 The status field describes the state of the task, which may ONLY be one of these
 literal strings:
@@ -330,63 +560,55 @@ that represents the recurrences. Each cloned child task has an \"imask\" field
 that indexes into the parent \"mask\" field, as well as a \"parent\" field that
 lists the UUID of the parent.
 
-[]{#attr_uuid}
 
-#### Attribute: uuid
+## Attribute: uuid
 
 When a task is created, it MUST be assigned a new UUID by the client. Once
 assigned, a UUID field MUST NOT be modified. UUID fields are permanent.
 
-[]{#attr_entry}
 
-#### Attribute: entry
+## Attribute: entry
 
 When a task is created, it MUST be assigned an \"entry\" date by the client.
 This is the creation date of the task.
 
-[]{#attr_description}
 
-#### Attribute: description
+## Attribute: description
 
 When a task is created, it MUST have a \"description\" field value, which
 contains UTF8 characters. A \"description\" field may not contain newline
 characters, but may contain other characters, properly escaped. See
 <https://json.org> for details.
 
-[]{#attr_start}
 
-#### Attribute: start
+## Attribute: start
 
 To indicate that a task is being worked on, it MAY be assigned a \"start\"
 field. Such a task is then considered Active.
 
-[]{#attr_end}
 
-#### Attribute: end
+## Attribute: end
 
 When a task is deleted or completed, is MUST be assigned an \"end\" field. It is
 not valid for a task to have an \"end\" field unless the status is also
 \"completed\" or \"deleted\". If a completed task is restored to the \"pending\"
 state, the \"end\" field is removed.
 
-[]{#attr_due}
 
-#### Attribute: due
+## Attribute: due
 
 A task MAY have a \"due\" field, which indicates when the task should be
 completed.
 
-[]{#attr_until}
 
-#### Attribute: until
+## Attribute: until
 
 A recurring task MAY have an \"until\" field, which is the date after which no
 more recurring tasks should be generated. At that time, the parent recurring
 task is set to \"completed\".
 
-[]{#attr_wait}
 
-#### Attribute: wait
+## Attribute: wait
 
 A task MAY have a \"wait\" field date, in conjunction with a \"status\" of
 \"waiting\". A waiting task is one that is not typically shown on reports until
@@ -397,18 +619,16 @@ reminder in 10 months time, but can have a \"wait\" date 9 months from now,
 which means the task remains hidden until 1 month before the due date. This
 prevents long-term tasks from cluttering reports until they become relevant.
 
-[]{#attr_recur}
 
-#### Attribute: recur
+## Attribute: recur
 
 The \"recur\" field is for recurring tasks, and specifies the period between
 child tasks, in the form of a duration value. The value is kept in the raw state
 (such as \"3wks\") as a string, so that it may be evaluated each time it is
 needed.
 
-[]{#attr_mask}
 
-#### Attribute: mask
+## Attribute: mask
 
 A parent recurring task has a \"mask\" field that is an array of child status
 indicators. Suppose a task is created that is due every week for a month. The
@@ -420,12 +640,10 @@ This mask has four slots, indicating that there are four child tasks, and each
 slot indicates, in this case, that the child tasks are pending (\"-\"). The
 possible slot indicators are:
 
-  ---- -----------
-  \-   Pending
-  \+   Completed
-  X    Deleted
-  W    Waiting
-  ---- -----------
+* `-` - Pending
+* `+` - Completed
+* `X` - Deleted
+* `W` - Waiting
 
 Suppose the first three tasks has been completed, the mask would look like this:
 
@@ -438,9 +656,8 @@ If there were only three indicators in the mask:
 This would indicate that the second task is pending, the first and third are
 complete, and the fourth has not yet been generated.
 
-[]{#attr_imask}
 
-#### Attribute: imask
+## Attribute: imask
 
 Child recurring tasks have an \"imask\" field instead of a \"mask\" field like
 their parent. The \"imask\" field is a zero-based integer offset into the
@@ -450,18 +667,16 @@ If a child task is completed, one of the changes that MUST occur is to look up
 the parent task, and using \"imask\" set the \"mask\" of the parent to the
 correct indicator. This prevents recurring tasks from being generated twice.
 
-[]{#attr_parent}
 
-#### Attribute: parent
+## Attribute: parent
 
 A recurring task instance MUST have a \"parent\" field, which is the UUID of the
 task that has \"status\" of \"recurring\". This linkage between tasks,
 established using \"parent\", \"mask\" and \"imask\" is used to track the need
 to generate more recurring tasks.
 
-[]{#attr_annotation}
 
-#### Attribute: annotation\_\...
+## Attribute: annotation\_\...
 
 Annotations are strings with timestamps. Each annotation itself has an \"entry\"
 field and a \"description\" field, similar to the task itself. Annotations form
@@ -472,9 +687,8 @@ an array named \"annotations\". For example (lines broken for clarity):
       {"entry":"20120110T234559Z","description":"Pay the bills"}
     ]
 
-[]{#attr_project}
 
-#### Attribute: project
+## Attribute: project
 
 A project is a single string. For example:
 
@@ -488,18 +702,16 @@ used, it implies a hierarchy, which means the following two projects:
 
 are both considered part of the \"Home\" project.
 
-[]{#attr_tags}
 
-#### Attribute: tags
+## Attribute: tags
 
 The \"tags\" field is an array of string, where each string is a single word
 containing no spaces. For example:
 
     "tags":["home","garden"]
 
-[]{#attr_priority}
 
-#### Attribute: priority
+## Attribute: priority
 
 The \"priority\" field, if present, MAY contain one of the following strings:
 
@@ -510,9 +722,8 @@ The \"priority\" field, if present, MAY contain one of the following strings:
 These represent High, Medium and Low priorities. An absent priority field
 indicates no priority.
 
-[]{#attr_depends}
 
-#### Attribute: depends
+## Attribute: depends
 
 The \"depends\" field is a string containing a comma-separated unique set of
 UUIDs. If task 2 depends on task 1, then it is task 1 that must be completed
@@ -524,24 +735,21 @@ first. Task 1 is considered a \"blocking\" tasks, and task 2 is considered a
 Note that in a future version of this specification, this will be changed to a
 JSON array of strings, like the \"tags\" field.
 
-[]{#attr_modified}
 
-#### Attribute: modified
+## Attribute: modified
 
 A task MUST have a \"modified\" field set if it is modified. This field is of
 type \"date\", and is used as a reference when merging tasks.
 
-[]{#attr_scheduled}
 
-#### Attribute: scheduled
+## Attribute: scheduled
 
 A task MAY have a \"scheduled\" field, which indicates when the task should be
 available to start. A task that has passed its \"scheduled\" data is said to be
 \"ready\".
 
-[]{#udas}
 
-#### User Defined Attributes
+## User Defined Attributes
 
 A User Defined Attribute (UDA) is a field that is defined via configuration.
 Given that the configuration is not present in the JSON format of a task, any
@@ -550,5 +758,4 @@ task contains a UDA, unless the meaning of it is understood, it MUST be
 preserved.
 
 UDAs may have one of four types: string, numeric, date and duration.
-:::
 

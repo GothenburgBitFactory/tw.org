@@ -2,16 +2,15 @@
 title: "Taskwarrior - Taskserver Ciphers"
 ---
 
-[]{#cipher}
 
-### Cipher Selection
+# Cipher Selection
 
-By default, Taskserver [1.0.0]{.label .label-success} uses the GnuTLS cipher
+By default, Taskserver [1.0.0] uses the GnuTLS cipher
 set:
 
     PERFORMANCE:%SERVER_PRECEDENCE
 
-Taskserver [1.1.0]{.label .label-success} and later uses this GnuTLS cipher set:
+Taskserver [1.1.0] and later uses this GnuTLS cipher set:
 
     NORMAL
 
@@ -37,9 +36,8 @@ Should elliptical curves later be compromised, perhaps use:
 You should be aware that this is a dynamic and volatile subject, and for the
 best security you need to be aware of vulnerabilities.
 
-[]{#installed}
 
-#### Installed Ciphers
+## Installed Ciphers
 
 Use this command to see a list of installed ciphers, and run it on both the
 cilent and server machine to confirm that there is overlapping support between
@@ -232,10 +230,8 @@ client and server.
 
 This is example output, and it changes with GnuTLS releases. Choose well.
 
-[]{#config}
 
-#### Configuration
+## Configuration
 
 Taskserver supports the `ciphers` configuration setting and Taskwarrior supports
 `taskd.ciphers` as a means to override the default set.
-:::
