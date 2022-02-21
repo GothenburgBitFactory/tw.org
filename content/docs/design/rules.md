@@ -2,24 +2,21 @@
 title: "Taskwarrior - Rule System"
 ---
 
-#### Work in Progress
+## Work in Progress
 
 This design document is a work in progress, and subject to change. Once
 finalized, the feature will be scheduled for an upcoming release.
-:::
 
-[]{#rules}
 
-### Rule System
+# Rule System
 
 The rule system is a framework that supports highly configurable features, with
 runtime evaluation, DOM access and an internal API. Implementing a rule system
 meets the goal of shrinking and stabilizing the product core, while adding new
 features, and enabling many more.
 
-[]{#requirements}
 
-#### Required Enhancements
+## Required Enhancements
 
 To prepare for a Rules System, various subsystems must first be enhanced:
 
@@ -66,9 +63,8 @@ To prepare for a Rules System, various subsystems must first be enhanced:
 At that point, the rules system can be implemented in `libshared`, and will use
 a pluggable architecture to allow its integration into several projects.
 
-[]{#dom}
 
-#### DOM Enhancements
+## DOM Enhancements
 
 DOM references will be enhanced, with many more references supported. All DOM
 references will begin with `dom.`, yielding unambiguous references. References
@@ -110,9 +106,8 @@ Finally, access to state:
        dom.state.run.last
        dom.state.context
 
-[]{#syntax}
 
-#### RC Syntax Changes
+## RC Syntax Changes
 
 The current configuration system supports only two different forms of syntax:
 
@@ -132,9 +127,8 @@ settings. The rule syntax will require a blank line to terminate the rule
 definition, the result being that the RC file should be quite readable, although
 it will look like Python.
 
-[]{#hooks}
 
-#### Hook Scripts
+## Hook Scripts
 
 While this functionality can also be implemented using hook scripts, rules will
 run in-process, and therefore do not require external interpreters to be
@@ -150,57 +144,47 @@ Hook scripts are not likely to be extended beyond their current form, and with
 greater DOM access and a growing API, rules should be able to supplant most hook
 script use cases.
 
-[]{#triggers}
 
-#### Rule Triggers
+## Rule Triggers
 
 The set of supported rule types will include:
 
-  --------------- ----------------------------------------------------------------------------------------------------------------------------------------------
-  `on_launch`     Triggered on program launch.
-  `on_add`        Triggered when a task is added. A context task will be provided. The rule can modify the task, and approve or reject it.
-  `on_modify`     Triggered when a task is modified. A before and after context task will be provided. The rule can modify the task, and approve or reject it.
-  `on_exit`       Triggered on program exit.
-  `color`         Triggered when colors are being determined.
-  `virtual tag`   Defines a new virtual tag.
-  `format`        Triggered when an attribute needs formatting, defines are new format.
-  --------------- ----------------------------------------------------------------------------------------------------------------------------------------------
+* `on_launch`     - Triggered on program launch.
+* `on_add`        - Triggered when a task is added. A context task will be provided. The rule can modify the task, and approve or reject it.
+* `on_modify`     - Triggered when a task is modified. A before and after context task will be provided. The rule can modify the task, and approve or reject it.
+* `on_exit`       - Triggered on program exit.
+* `color`         - Triggered when colors are being determined.
+* `virtual tag`   - Defines a new virtual tag.
+* `format`        - Triggered when an attribute needs formatting, defines are new format.
 
 More rules types will be added for more capabilities in future releases.
 
-[]{#api}
 
-#### API
+## API
 
 The API is a simple set of actions that may be taken by a rule.
 
-  --------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
-  `debug(<string>)`                 Displays the string in debug mode only and continues processing.
-  `warn(<string>)`                  Displays the string as a warning continues processing.
-  `error(<string>)`                 Displays the string as an error and terminates processing.
-  `exec(<binary> [ <args> ... ])`   Executes the external program and passes arguments to it. If the program exits with non-zero status, it is treated as an error.
-  `return <value>`                  Provides a result value for the rule, when necessary.
-  --------------------------------- ---------------------------------------------------------------------------------------------------------------------------------
+* `debug(<string>)`                 - Displays the string in debug mode only and continues processing.
+* `warn(<string>)`                  - Displays the string as a warning continues processing.
+* `error(<string>)`                 - Displays the string as an error and terminates processing.
+* `exec(<binary> [ <args> ... ])`   - Executes the external program and passes arguments to it. If the program exits with non-zero status, it is treated as an error.
+* `return <value>`                  - Provides a result value for the rule, when necessary.
 
 This is a very limited set at first, and more API calls will be added to support
 capabilities in future releases.
 
-[]{#grammar}
 
-#### Grammar
+## Grammar
 
 The grammar closely tracks that of Python. Blocks are indented consistently.
 
-  -------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  `if <condition>: ... else: ...                 `   The condition is a full Algebraic expression, and supports none of the command line conveniences. Terms must be combined with logical operators. The condition is an expression that is evaluated and converted to a Boolean value.
-  `for <name> in <collection>:                 `     There is no native type for a collection, but there are DOM references (`tags` \...) that reference collections. This provides a way to iterate.
-  `set <name> = <expression>                 `       Writes to a named type. The name may be a writable DOM object (`dom...`) or temporary variable storage (`tmp...`). Writing to a read-only DOM reference is an error.
-  `<function>([<args>])                 `            A function is either a rule or an API call. Calling an undefined function is an error.
-  -------------------------------------------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* `if <condition>: ... else: ...                 `   - The condition is a full Algebraic expression, and supports none of the command line conveniences. Terms must be combined with logical operators. The condition is an expression that is evaluated and converted to a Boolean value.
+* `for <name> in <collection>:                 `     - There is no native type for a collection, but there are DOM references (`tags` \...) that reference collections. This provides a way to iterate.
+* `set <name> = <expression>                 `       - Writes to a named type. The name may be a writable DOM object (`dom...`) or temporary variable storage (`tmp...`). Writing to a read-only DOM reference is an error.
+* `<function>([<args>])                 `            - A function is either a rule or an API call. Calling an undefined function is an error.
 
-[]{#examples}
 
-#### Examples
+## Examples
 
 Here are some example rules which illustrate the syntax and API.
 
@@ -245,4 +229,3 @@ Policy:
             if rc.default.project == '':
                 error('You must specify a project')
             set task.project = rc.default.project
-:::

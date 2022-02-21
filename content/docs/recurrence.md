@@ -2,7 +2,7 @@
 title: "Taskwarrior - How Recurrence Works"
 ---
 
-### How Recurrence Works
+# How Recurrence Works
 
 A recurring task is a task with a due date that keeps coming back as a reminder.
 Here is an example:

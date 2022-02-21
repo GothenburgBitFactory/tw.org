@@ -2,13 +2,7 @@
 title: "Taskwarrior - DOM - Document Object Model"
 ---
 
----
-lang: en
-title: 'Taskwarrior - DOM'
-viewport: 'width=device-width, initial-scale=1'
----
-
-### DOM - Document Object Model
+# DOM - Document Object Model
 
 Taskwarrior has a Document Object Model, or DOM, which defines a way to
 reference all the data managed by taskwarrior. You may be familiar with the DOM
@@ -22,7 +16,7 @@ Taskwarrior allows the same kind of data access in a similar form, for example:
     1.description
 
 This references the description text of task 1. There is a [`_get` helper
-command](/docs/commands/_get.html) that queries data using a DOM reference.
+command](/docs/commands/_get) that queries data using a DOM reference.
 Let\'s see it in action, by first creating a detailed task.
 
     $ task add Buy milk due:tomorrow +store project:Home pri:H
@@ -64,15 +58,10 @@ examples:
     $ task _get 1.due.julian
     272
 
-[]{#supported}
 
-#### Supported References
+## Supported References
 
 `system.version`
-:::
-:::
-:::
-:::
 
 The version of taskwarrior, for example:
 
@@ -119,114 +108,83 @@ Any attribute of the specified task UUID, as above.
 Any attribute that is of type `date` can be directly accessed as a date, or it
 can be accessed by the elements of that date. For example:
 
-+---------------------------------------+---------------------------------------+
-| `<date>.year`                         | [2.4.0]{.label .label-success} The    |
-|                                       | year, for example:                    |
-|                                       |                                       |
-|                                       |     $ task _get 1.due.year            |
-|                                       |     2014                              |
-+---------------------------------------+---------------------------------------+
-| `<date>.month`                        | [2.4.0]{.label .label-success} The    |
-|                                       | month, for example:                   |
-|                                       |                                       |
-|                                       |     $ task _get 1.due.month           |
-|                                       |     9                                 |
-+---------------------------------------+---------------------------------------+
-| `<date>.day`                          | [2.4.0]{.label .label-success} The    |
-|                                       | day of the month, for example:        |
-|                                       |                                       |
-|                                       |     $ task _get 1.due.day             |
-|                                       |     29                                |
-+---------------------------------------+---------------------------------------+
-| `<date>.week`                         | [2.4.0]{.label .label-success} The    |
-|                                       | week number of the date, for example: |
-|                                       |                                       |
-|                                       |     $ task _get 1.due.week            |
-|                                       |     40                                |
-+---------------------------------------+---------------------------------------+
-| `<date>.weekday`                      | [2.4.0]{.label .label-success} The    |
-|                                       | numbered weekday of the date, where 0 |
-|                                       | is Sunday and 6 is Saturday. For      |
-|                                       | example:                              |
-|                                       |                                       |
-|                                       |     $ task _get 1.due.weekday         |
-|                                       |     1                                 |
-+---------------------------------------+---------------------------------------+
-| `<date>.julian`                       | [2.4.0]{.label .label-success} The    |
-|                                       | Julian day of the date, which is the  |
-|                                       | day number of the date in the year.   |
-|                                       | For example, January 1st is 1,        |
-|                                       | February 10th is 41. For example:     |
-|                                       |                                       |
-|                                       |     $ task _get 1.due.julian          |
-|                                       |     272                               |
-+---------------------------------------+---------------------------------------+
-| `<date>.hour`                         | [2.4.0]{.label .label-success} The    |
-|                                       | hour of the day, for example:         |
-|                                       |                                       |
-|                                       |     $ task _get 1.due.hour            |
-|                                       |     0                                 |
-+---------------------------------------+---------------------------------------+
-| `<date>.minute`                       | [2.4.0]{.label .label-success} The    |
-|                                       | minute of the hour, for example:      |
-|                                       |                                       |
-|                                       |     $ task _get 1.due.minute          |
-|                                       |     0                                 |
-+---------------------------------------+---------------------------------------+
-| `<date>.second`                       | [2.4.0]{.label .label-success} The    |
-|                                       | seconds of the minute, for example:   |
-|                                       |                                       |
-|                                       |     $ task _get 1.due.second          |
-|                                       |     0                                 |
-+---------------------------------------+---------------------------------------+
+* `<date>.year`                         - [2.4.0] The year, for example:
+
+        $ task _get 1.due.year
+        2014
+
+* `<date>.month` - [2.4.0] The month, for example:
+
+        $ task _get 1.due.month
+        9
+
+* `<date>.day`  - [2.4.0] The day of the month, for example:
+
+        $ task _get 1.due.day
+        29
+
+* `<date>.week` - [2.4.0] The week number of the date, for example:
+
+        $ task _get 1.due.week
+        40
+
+* `<date>.weekday` - [2.4.0] The numbered weekday of the date, where 0 is Sunday and 6 is Saturday. For
+ example:
+
+        $ task _get 1.due.weekday
+        1
+
+* `<date>.julian` - [2.4.0] The Julian day of the date, which is the day number of the date in the year.  For example, January 1st is 1, February 10th is 41. For example:
+
+        $ task _get 1.due.julian
+        272
+
+* `<date>.hour` - [2.4.0] The hour of the day, for example:
+
+        $ task _get 1.due.hour
+        0
+
+* `<date>.minute` - [2.4.0] The minute of the hour, for example:
+
+        $ task _get 1.due.minute
+        0
+
+* `<date>.second` - [2.4.0] The seconds of the minute, for example:
+
+        $ task _get 1.due.second
+        0
 
 Tags can be accessed as a single item as an `<attribute>`, of the individual
 tags can be accessed:
 
-+---------------------------------------+---------------------------------------+
-| `tags.<literal>`                      | [2.4.0]{.label .label-success} Direct |
-|                                       | access, per-tag, for example:         |
-|                                       |                                       |
-|                                       |     $ task _get 1.tag.home            |
-|                                       |     home                              |
-|                                       |                                       |
-|                                       | If the tag is present, it is shown,   |
-|                                       | otherwise the result is blank, and    |
-|                                       | Taskwarrior exits with a non-zero     |
-|                                       | status.                               |
-|                                       |                                       |
-|                                       |     $ task _get 1.tag.DUE             |
-|                                       |     DUE                               |
-|                                       |     $ task _get 1.tag.OVERDUE         |
-|                                       |                                       |
-|                                       | Workѕ for virtual tags too, in the    |
-|                                       | same manner.                          |
-+---------------------------------------+---------------------------------------+
+* `tags.<literal>` - [2.4.0] Direct access, per-tag, for example:
+
+        $ task _get 1.tag.home
+        home
+
+   If the tag is present, it is shown, otherwise the result is blank, and Taskwarrior exits with a non-zero status.
+
+        $ task _get 1.tag.DUE
+        DUE
+        $ task _get 1.tag.OVERDUE
+
+   Workѕ for virtual tags too, in the same manner.
+
 
 Annotations are compound data structures, with two elements, which are
 `description` and `entry`. Annotations are accessed by an ordinal.
 
-+---------------------------------------+---------------------------------------+
-| `annotations.<N>.description`         | [2.4.0]{.label .label-success} The    |
-|                                       | description of the Nth annotation,    |
-|                                       | for example:                          |
-|                                       |                                       |
-|                                       |     $                                 |
-|                                       | task _get 1.annotations.0.description |
-+---------------------------------------+---------------------------------------+
-| `annotations.<N>.entry`               | [2.4.0]{.label .label-success} The    |
-|                                       | creation timestamp of the Nth         |
-|                                       | annotation, for example:              |
-|                                       |                                       |
-|                                       |     $ task _get 1.annotations.0.entry |
-|                                       |                                       |
-|                                       | Note that because `entry` is of type  |
-|                                       | `date`, the individual elements can   |
-|                                       | be addressed, as above, for example:  |
-|                                       |                                       |
-|                                       |     $                                 |
-|                                       |  task _get 1.annotations.0.entry.year |
-|                                       |     2014                              |
-+---------------------------------------+---------------------------------------+
+* `annotations.<N>.description` - [2.4.0] The description of the Nth annotation, for example:
+
+        $ task _get 1.annotations.0.description
+
+* `annotations.<N>.entry` - [2.4.0] The creation timestamp of the Nth annotation, for example:
+
+        $ task _get 1.annotations.0.entry
+
+    Note that because `entry` is of type `date`, the individual elements can be addressed, as above, for example:
+
+        $ task _get 1.annotations.0.entry.year
+        2014
 
 UDA values can be accessed in the same manner.

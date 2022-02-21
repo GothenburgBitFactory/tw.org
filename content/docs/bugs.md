@@ -2,9 +2,8 @@
 title: "Taskwarrior - How to report a bug"
 ---
 
-[]{#how}
 
-### How to Report a Bug
+# How to Report a Bug
 
 Please report bugs and odd behavior when you see it. We don\'t necessarily know
 it\'s broken, unless you tell us. A good bug description improves response time
@@ -35,5 +34,4 @@ categorize, prioritize and replicate the problem:
     private data with the `rc.obfuscate=1` configuration override:
 
     [![Data
-    Obfuscation](/docs/images/obfuscate.png){.img-thumbnail}](/docs/images/obfuscate.png)
-:::
+    Obfuscation](/docs/images/obfuscate.png)](/docs/images/obfuscate.png)

@@ -2,9 +2,8 @@
 title: "Taskwarrior - How to Request a Feature"
 ---
 
-[]{#request}
 
-### How to Request a Feature
+# How to Request a Feature
 
 We encourage you to request features.
 
@@ -14,9 +13,8 @@ create an account, create an issue, and set the type to either \'improvement\'
 or \'feature\', at your discretion. But there is a little more to it than that.
 After all, wouldn\'t you like to see your request implemented?
 
-[]{#good}
 
-#### What Makes a Good Feature Request?
+## What Makes a Good Feature Request?
 
 Requesting a feature is easy, but you must remember that it doesn\'t mean it
 will get done. It may be a simple or vague request. It may be a complex request
@@ -31,7 +29,7 @@ for making a good feature request:
     feature?
 -   Describe how the feature might interact with existing features. We prefer it
     when a new feature is more than simply storing a new piece of data, for
-    later retrieval - we have [UDAs](/docs/udas.html) for that.
+    later retrieval - we have [UDAs](/docs/udas) for that.
 -   Describe any new reports that may be needed.
 -   Describe who might benefit from this feature.
 -   Describe a feature that doesn\'t impose a cost on users that choose not to
@@ -41,9 +39,8 @@ for making a good feature request:
 One thing to bear in mind is that we have a long term goal of simplifying the
 way we manage tasks, simplifying Taskwarrior, and improving consistency.
 
-[]{#avoid}
 
-#### Things to Avoid
+## Things to Avoid
 
 -   If your suggestion affects basic usage (add, list, done) then it will not be
     implemented.
@@ -61,11 +58,8 @@ way we manage tasks, simplifying Taskwarrior, and improving consistency.
     Ease of implementation has nothing to do with whether an idea is good.
     Instead, convince everyone that the idea is great.
 
-::: {.row}
-[]{#examples}
 
-::: {.callout .callout-info}
-#### A Good Example
+## A Good Example
 
 I think dependencies would be a great feature, because it would help me organize
 tasks and know which ones I need to work on first. It would also tell me which
@@ -74,24 +68,13 @@ ones I cannot work on now. Tasks that are depended upon could affect the
 depend on multiple other tasks. I would need to both add and remove a
 dependency. Dependencies are a commonly understood concept, and so would be
 useful to many users.
-:::
-:::
 
-::: {.row}
-::: {.callout .callout-info}
-#### Another Good Example
+## Another Good Example
 
 I should be allowed to use \'status\' field in a report. It doesn\'t make sense
 to withhold just this one field. For the sake of consistency, please add this as
 a reportable, sortable field.
-:::
-:::
 
-::: {.row}
-::: {.callout .callout-danger}
-#### A Bad Example
+## A Bad Example
 
 Why can\'t we just make the @ character mean \.....? How hard can that be?
-:::
-:::
-:::

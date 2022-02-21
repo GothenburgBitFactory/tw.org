@@ -2,15 +2,13 @@
 title: "Taskwarrior - Taskserver Configuration"
 ---
 
-[]{#config}
 
-### [3]{.label .label-success} Server Configuration
+# [3] Server Configuration
 
 Configuring the server is straightforward, but needs a little planning.
 
-[]{#location}
 
-#### Choose a Data Location
+## Choose a Data Location
 
 A location for the data must be chosen and created. The `TASKDDATA` environment
 variable will be used to indicate that location to all the `taskd` commands.
@@ -29,9 +27,8 @@ mistake to make.
 Note that there must be write permission in the directory for the user that will
 run the server.
 
-[]{#init}
 
-#### Initialization
+## Initialization
 
 Now we let the server initialize that directory:
 
@@ -41,9 +38,8 @@ Now we let the server initialize that directory:
 
     Created /var/taskd
 
-[]{#keys}
 
-#### Keys & Certificates
+## Keys & Certificates
 
 Now we create certificates and keys. The command below will generate all the
 certs and keys for the server, but this uses self-signed certificates, and this
@@ -94,9 +90,8 @@ authenticate the server and encrypt. Finally there are client key/certs, which
 are not what you might expect. These are for API access, and not for your
 Taskwarrior client. Those are created later.
 
-[]{#other}
 
-#### Configuration
+## Configuration
 
 Now we configure some basic details for the server. The chosen port is 53589.
 Note that we allow Taskwarrior clients specifically.
@@ -118,4 +113,3 @@ You can look at all the configuration settings:
 You can view all the supported settings with:
 
     $ man taskdrc
-:::

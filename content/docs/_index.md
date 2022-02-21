@@ -25,15 +25,15 @@ Here is the complete set of Taskwarrior and Taskserver documentation.
 -   [Example Workflows](/docs/workflow) - Everyone uses Taskwarrior differently
 -   [All the Commands](/docs/commands/)
 -   [Using Dates Effectively](/docs/using_dates)
--   [Unicode](/docs/unicode) [2.5.0]{.label .label-success}
+-   [Unicode](/docs/unicode) [2.5.0]
 -   [Searching](/docs/searching)
 -   [Reports](/docs/report)
 -   [Filters](/docs/filter)
--   [Priority](/docs/priority) [2.4.3]{.label .label-success}
+-   [Priority](/docs/priority) [2.4.3]
 -   [Tags & Virtual Tags](/docs/tags)
--   [Date & Time](/docs/dates) [2.4.0]{.label .label-success}
--   [Named Dates](/docs/named_dates) [2.4.0]{.label .label-success}
--   [Duration Values](/docs/durations) [2.4.0]{.label .label-success}
+-   [Date & Time](/docs/dates) [2.4.0]
+-   [Named Dates](/docs/named_dates) [2.4.0]
+-   [Duration Values](/docs/durations) [2.4.0]
 
 ## Configuring Taskwarrior
 
@@ -46,7 +46,7 @@ Here is the complete set of Taskwarrior and Taskserver documentation.
 
 -   [Urgency](/docs/urgency)
 -   [ID Numbers](/docs/ids)
--   [Context](/docs/context) [2.4.2]{.label .label-success}
+-   [Context](/docs/context) [2.4.2]
 -   [How Recurrence Works](/docs/recurrence)
 -   [User Defined Attributes (UDAs)](/docs/udas)
 -   [External Scripts](/tools/)
@@ -62,23 +62,23 @@ Here is the complete set of Taskwarrior and Taskserver documentation.
 -   [Taskserver Troubleshooting Guide](https://gothenburgbitfactory.github.io/taskserver-troubleshooting/)
 
 ## Tasksh
--   [Reviewing tasks using tasksh](/docs/review) [1.1.0]{.label .label-success}
+-   [Reviewing tasks using tasksh](/docs/review) [1.1.0]
 
 ## Other Projects
 -   [Timewarrior Home Page](https://timewarrior.net)
 -   [Clog Home Page](/docs/clog/index)
 
 ## Contributors
--   [Hooks API](/docs/hooks) [2.4.0]{.label .label-success}
--   [Hooks v2 API](/docs/hooks2) [2.4.3]{.label .label-success}
--   [Hook Author\'s Guide](/docs/hooks_guide) [2.4.0]{.label .label-success}
+-   [Hooks API](/docs/hooks) [2.4.0]
+-   [Hooks v2 API](/docs/hooks2) [2.4.3]
+-   [Hook Author\'s Guide](/docs/hooks_guide) [2.4.0]
 -   [How To Build Taskwarrior](/docs/build)
 -   [Contributing to the Project](/docs/contribute)
 -   [How to become an Open Source Contributor](/docs/first_time)
 -   [Coding Style](/docs/coding_style)
 -   [Branching Model](/docs/branching)
 -   [3rd Party Application Guidelines](/docs/3rd-party)
--   [Design Documents (RFCs)](/docs/design/index)
+-   [Design Documents (RFCs)](/docs/design/)
 
 ## Feedback
 -   [How to Report a Bug](/docs/bugs)

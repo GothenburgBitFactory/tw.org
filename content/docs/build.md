@@ -2,9 +2,8 @@
 title: "Taskwarrior - How to build"
 ---
 
-[]{#how}
 
-### How To Build Taskwarrior
+# How To Build Taskwarrior
 
 This is for developers. Specifically those who know how to use tools, satisfy
 dependencies, and want to set up a development environment. It is not
@@ -26,15 +25,13 @@ You\'ll need these libraries:
 
 Specifically the development versions, `uuid-dev` on Debian, for example.
 
-[]{#clone}
 
-### Cloning the Repo
+# Cloning the Repo
 
     $ git clone https://github.com/GothenburgBitFactory/taskwarrior.git taskwarrior.git
 
-[]{#stable}
 
-### Building the Stable Version
+# Building the Stable Version
 
 The master always represents the more recently released version, and should be
 your preferred choice.
@@ -44,9 +41,8 @@ your preferred choice.
     $ cmake -DCMAKE_BUILD_TYPE=release . # 'release' for performance.
     $ make                               # Just build it.
 
-[]{#build}
 
-### Building the Dev Branch
+# Building the Dev Branch
 
 The dev branch is always the highest numbered branch, in this example, `2.6.0`.
 
@@ -59,12 +55,11 @@ The dev branch is always the highest numbered branch, in this example, `2.6.0`.
 
 Build the debug type if you want symbols in the binary.
 
-[]{#tests}
 
-### Running the Test Suite
+# Running the Test Suite
 
 There are scripts to facilitate running the test suite. In particular, the
-[vramsteg](https://gothenburgbitfactory.org/projects/vramsteg.html) utility
+[vramsteg](https://gothenburgbitfactory.org/projects/vramsteg) utility
 provides blinkenlights for test progress.
 
     $ cd taskwarrior.git/test
@@ -72,9 +67,8 @@ provides blinkenlights for test progress.
     $ ./run_all          # Runs all tests silently > all.log
     $ ./problems         # Find errors in all.log
 
-[]{#patch}
 
-### Submitting a Patch
+# Submitting a Patch
 
 Talk to us first - make sure you are working on something that is wanted.
 Patches will not be applied simply because you did the work. Remember the

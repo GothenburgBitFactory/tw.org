@@ -2,7 +2,7 @@
 title: "Taskwarrior - Reports"
 ---
 
-### Reports
+# Reports
 
 Taskwarrior has three kinds of reports. There are built-in reports that cannot
 be modified, such as `info` and `summary`. There are built-in reports which can
@@ -44,9 +44,8 @@ are your own custom reports. To generate a list of \*all\* the reports, use the
 
     28 reports
 
-[]{#static}
 
-#### Built-In Static Reports
+## Built-In Static Reports
 
 Typically a report consists of a table of data, with one row of data
 corresponding to a single task, with the task attributes represented as columns.
@@ -71,9 +70,8 @@ quirky and require custom code. These reports are:
 Each of these reports takes non-standard arguments, may or may not support
 filters, and generates distinctive output.
 
-[]{#modifiable}
 
-#### Built-In Modifiable Reports
+## Built-In Modifiable Reports
 
 These reports are standard format, using standard arguments, and are also
 modifiable.
@@ -122,9 +120,8 @@ values:
 You can think of the built-in modifiable reports as a set of default custom
 reports.
 
-[]{#custom}
 
-#### Custom Reports
+## Custom Reports
 
 Defining a custom report is straightforward. You have control over the data
 shown, the sort order and the column labels. A custom report is simply a set of

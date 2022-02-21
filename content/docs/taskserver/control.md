@@ -2,9 +2,8 @@
 title: "Taskwarrior - Control Tasksserver"
 ---
 
-[]{#control}
 
-### [3]{.label .label-success} Server Start/Stop
+# [3] Server Start/Stop
 
 You can now to launch the server:
 
@@ -21,9 +20,8 @@ this:
 
     $ ps -leaf | grep taskd
 
-[]{#interactive}
 
-#### Interactive or Non-Daemon Server
+## Interactive or Non-Daemon Server
 
 A daemon server is typically how you would want to run Taskserver, but there may
 be times when you need to run the server attached to a terminal. These two
@@ -45,9 +43,8 @@ TLS debug mode, like this:
 With a `debug.tls` setting that is non-zero, you see lots of security-related
 diagnostic output.
 
-[]{#systemd}
 
-#### Configure Taskserver to run with a systemd-unit-file
+## Configure Taskserver to run with a systemd-unit-file
 
 You can start Taskserver using a systemd-unitfile like the following (please add
 the contents of `$TASKDDATA` not the variable itself). Running the Taskserver as
@@ -84,4 +81,3 @@ In case everything is running fine, enable the script to start Taskserver on
 every boot.
 
     $ systemctl enable taskd.service
-:::

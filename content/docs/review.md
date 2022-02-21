@@ -2,9 +2,9 @@
 title: "Taskwarrior - Tasksh Review"
 ---
 
-### Tasksh Review
+# Tasksh Review
 
-Beginning with release [1.1.0]{.label .label-success} the Taskwarrior shell
+Beginning with release [1.1.0] the Taskwarrior shell
 (`tasksh`) has a `review` command that lets you review your tasks.
 
 Reviewing your task list is important because you need to make sure you work on
@@ -16,9 +16,8 @@ tasks that are no longer needed.
 
 Here is a quick demo of the review feature:
 
-[]{#how}
 
-#### How it Works
+## How it Works
 
 Ideally you would review your task list reguarly, once a week. If you find
 yourself making no changes to the tasks, perhaps you should review less often.
@@ -32,7 +31,7 @@ through that list of tasks one at a time, and have the chance to modify, skip or
 mark the task as reviewed.
 
 When you mark a task as reviewed, Tasksh adds a `reviewed` timestamp to the
-task, as a [UDA](/docs/udas.html) defined for this purpose. This attribute is
+task, as a [UDA](/docs/udas) defined for this purpose. This attribute is
 used in the `_reviewed` report filter to make sure you don\'t review the same
 task more often than weekly.
 
@@ -62,9 +61,8 @@ can modify it. Here is the report definition:
 
 The filter term `reviewed.before:now-1week` can be changed to suit your needs.
 
-[]{#tasksh}
 
-#### Launch Tasksh
+## Launch Tasksh
 
 Launch tasksh, and you will immediately see a summary of available commands,
 followed by a prompt:
@@ -95,4 +93,3 @@ Or you can review a fixed quantity of tasks:
 
 Reviewing a fixed quantity can help you iteratively review all your tasks at
 convenient times, without having to go through the entire list at once.
-:::

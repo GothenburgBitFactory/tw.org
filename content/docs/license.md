@@ -2,7 +2,7 @@
 title: "Taskwarrior - License"
 ---
 
-### The MIT License (MIT)
+# The MIT License (MIT)
 
 Copyright 2006 - 2017, Paul Beckingham, Federico Hernandez.
 

@@ -2,7 +2,7 @@
 title: "Taskwarrior - Triage"
 ---
 
-### Triage
+# Triage
 
 This is the initial assessment of an issue. The purpose is to get it moving in
 the right direction and make sure it gets noticed in the right context, which
@@ -10,7 +10,7 @@ means making sure that every issue has a suitable category and version. New
 issues are reported all the time, sometimes the submitter fills in fields,
 sometimes not. That cannot be controlled. Everything else can.
 
-#### Initial Assessment
+## Initial Assessment
 
 -   Move the issue to the correct project. Sometimes an issue is reported as a
     Taskserver bug, but it is a sync issue with Taskwarrior.
@@ -19,7 +19,7 @@ sometimes not. That cannot be controlled. Everything else can.
     reporting a feature request in the form of a bug, assuming that bugs gets
     more attention than feature requests. We\'re not fooled by that.
 
-#### Bugs
+## Bugs
 
 -   All bugs should have the \"Target version\" set to the current development
     effort. This reflects the need to fix as many bugs in a release as practical
@@ -50,7 +50,7 @@ sometimes not. That cannot be controlled. Everything else can.
     are permanent and therefore searchable and useful to everyone.
 -   If a bug looks like a really big problem, tell people, make a noise.
 
-#### Features
+## Features
 
 Same as \"Bugs\" above , but with these differences:
 

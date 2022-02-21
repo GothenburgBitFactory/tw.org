@@ -2,9 +2,8 @@
 title: "Taskwarrior - Taskserver Installation from Package"
 ---
 
-[]{#installation}
 
-### [2.1]{.label .label-success} Installation
+# [2.1] Installation
 
 Installing Taskserver from a binary package is the simplest option, but you will
 need to refer to your package manager\'s documentation and procedures for doing
@@ -19,4 +18,3 @@ packages available. It is expected that this situation will change soon. When it
 does, this page will be updated.
 
 Meanwhile, there is installation from either git or tarball.
-:::

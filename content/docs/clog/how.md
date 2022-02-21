@@ -2,7 +2,7 @@
 title: "Clog - How does it work?"
 ---
 
-### How does it work?
+# How does it work?
 
 Clog is a filter, which means it reads standard input, and writes that input to
 standard output. Here is an example of a filter that does nothing:
@@ -25,4 +25,3 @@ The rules are applied to the input, in the order in which they are defined in
 the `~/.clogrc` file. The first rule is run first, and so on. This can mean that
 some rules are eclipsed by others, and you can modify the behavior by reordering
 the rules.
-:::

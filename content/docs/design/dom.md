@@ -2,15 +2,13 @@
 title: "Taskwarrior - Full DOM Support"
 ---
 
-#### Work in Progress
+## Work in Progress
 
 This design document is a work in progress, and subject to change. Once
 finalized, the feature will be scheduled for an upcoming release.
-:::
 
-[]{#current}
 
-### Full DOM Support
+# Full DOM Support
 
 Taskwarrior currently supports DOM references that can access any stored data
 item. The general forms supported are:
@@ -41,9 +39,8 @@ it further to include data formats, higher-level constructs, and then to make
 use of DOM references in more locations. This contributes to our goal of
 simplifying Taskwarrior.
 
-[]{#format}
 
-#### Proposed Format Support
+## Proposed Format Support
 
 When defining a custom report, the columns shown are defined like this:
 
@@ -67,10 +64,6 @@ separate syntax for custom reports, and provide this:
 A standard set of formats per data type would be:
 
 Type
-:::
-:::
-:::
-:::
 
 Formats
 
@@ -197,9 +190,8 @@ Custom report sort criteria will also use DOM references. This will be augmented
 by the `+`/`-` sort direction and `/` break indicator, which are not part of the
 DOM.
 
-[]{#high}
 
-#### High Level Construct Support
+## High Level Construct Support
 
 There need to be read-only DOM references that do not correspond directly to
 stored attributes. Tasks have emergent properties represented by virtual tags,
@@ -214,9 +206,8 @@ combination of the two. Other examples may include:
     task.pending.count
     task.hooks.installed
 
-[]{#writable}
 
-#### Writable References
+## Writable References
 
 When a DOM reference refers to an attribute or RC setting, and does not extend
 further and reference a component or format, it may be writable. For example:
@@ -225,9 +216,8 @@ further and reference a component or format, it may be writable. For example:
     123.description    # writable
     123.entry.month    # not writable, not an attribute
 
-[]{#interchange}
 
-#### Data Interchange
+## Data Interchange
 
 The export command can be used to show a filtered set of tasks in JSON format,
 and this will also be available as a DOM format:
@@ -235,9 +225,8 @@ and this will also be available as a DOM format:
     123.json
     a87bc10f-931b-4558-a44a-e901a77db011.json
 
-[]{#rc}
 
-#### RC File Support
+## RC File Support
 
 The RC file (`~/.taskrc`) will support DOM references in values. This will form
 a late-bound reference, which is evaluated at runtime, every time.
@@ -252,9 +241,8 @@ is written, but is evaluated every time the value is read, thus providing
 late-bound behavior. Then if the description of the `list` report changes, so
 does that of the `ls` report automatically.
 
-[]{#dev}
 
-#### Implementation Details
+## Implementation Details
 
 These notes list a series of anticipated changes to the codebase.
 

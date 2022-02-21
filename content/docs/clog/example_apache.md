@@ -2,7 +2,7 @@
 title: "Clog - Apache Rules"
 ---
 
-### Apache Rules
+# Apache Rules
 
 This example shows color highlighting for HTTP status code.
 
@@ -12,4 +12,3 @@ This example shows color highlighting for HTTP status code.
     apache rule / 3[0-9][0-9] / --> yellow match
     apache rule / 4[0-9][0-9] / --> red match
     apache rule / 5[0-9][0-9] / --> bold red match
-:::

@@ -2,7 +2,7 @@
 title: "Taskwarrior - Recurrence"
 ---
 
-### Draft
+# Draft
 
 This is a draft design document. Your
 [feedback](mailto:support@taskwarrior.org?Subject=Feedback) is welcomed.
@@ -12,9 +12,9 @@ Recurrence
 
 Recurrence needs an overhaul to improve weaknesses and add new features.
 
-### Terminology
+# Terminology
 
--   The hidden \'parent\' task is called the template.
+-   The hidden 'parent' task is called the template.
 -   Synthesis is the name for the generation of new recurring task instances
     when necessary.
 -   The synthesized tasks are called instances.
@@ -22,7 +22,7 @@ Recurrence needs an overhaul to improve weaknesses and add new features.
 -   Drift is the accumulated errors in time that cause a due date to slowly
     change for each recurring task.
 
-### Criticism of Current Implementation
+# Criticism of Current Implementation
 
 -   The `mask` attribute grows unbounded.
 -   Only strict recurrence cycles are supported. The example of mowing the lawn
@@ -36,37 +36,35 @@ Recurrence needs an overhaul to improve weaknesses and add new features.
     all other child tasks.
 -   Task instances cannot individually expire.
 
-### Proposals
+# Proposals
 
-#### Proposal: Eliminate `mask`, `imaѕk` Attributes
+## Proposal: Eliminate `mask`, `imaѕk` Attributes
 
 The `mask` attribute in the template is replaced by `last`, which indicates the
 most recent instance index synthesized. Because instances are never synthesized
 out of order, we only need to store the most recent index. The `imask` attribute
 in the instance is no longer needed.
 
-#### Proposal: Rename `parent` to `template`
+## Proposal: Rename `parent` to `template`
 
 The name `parent` implies subtasks, and confuses those who inspect the
 internals. The value remains the UUID of the template. This frees up the
 namespace for future use with subtasks.
 
-#### Proposal: New \'rtype\' attribute
+## Proposal: New 'rtype' attribute
 
 To indicate the flavor of recurrence, support the following values:
 
-  ------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  `periodic`   Instances are created on a regular schedule. Example: send birthday flowers. It must occur on a regular schedule, and doesn\'t matter if you were late last year. This is the default value.
-  `chained`    Instances are created back to back, so when one instance ends, the next begins, with the same recurrence. Example: mow the lawn. If you mow two days late, the next instance is not two days early to compensate.
-  ------------ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* `periodic`   - Instances are created on a regular schedule. Example: send birthday flowers. It must occur on a regular schedule, and doesn't matter if you were late last year. This is the default value.
+* `chained`    - Instances are created back to back, so when one instance ends, the next begins, with the same recurrence. Example: mow the lawn. If you mow two days late, the next instance is not two days early to compensate.
 
-#### Proposal: Use relative offsets
+## Proposal: Use relative offsets
 
 The delta between `wait` and `due` date in the template should be reflected in
 the delta between `wait` and `due` date in the instance. Similarly,
-\'scheduled\' must be handled the same way.
+'scheduled' must be handled the same way.
 
-#### Proposal: On load, auto-upgrade legacy tasks
+## Proposal: On load, auto-upgrade legacy tasks
 
 Upgrade template:
 
@@ -82,17 +80,17 @@ Upgrade instance:
 -   Update `scheduled` if not set to:
     `scheduled:due + (template.due - template.scheduled)`
 
-#### Proposal: Deleting a chained instance
+## Proposal: Deleting a chained instance
 
 Deleting a `rtype:chained` instance causes the next chained instance to be
 synthesized. This gives the illusion that the due date is simply pushed out to
 `(now + template.recur)`.
 
-#### Proposal: Modification Propagation
+## Proposal: Modification Propagation
 
 TBD
 
-#### Proposal: Exotic Dates
+## Proposal: Exotic Dates
 
 Expand date specifications to use pattern phrases:
 
@@ -111,13 +109,13 @@ Expand date specifications to use pattern phrases:
 
 Got suggestions?
 
-#### Proposal: User-Defined Week Start
+## Proposal: User-Defined Week Start
 
 TBD
 
-### Implementation
+# Implementation
 
-#### Implementation: Adding a new `periodic` template
+## Implementation: Adding a new `periodic` template
 
 When adding a new periodic template:
 
@@ -150,7 +148,7 @@ Creating the Nth instance (index N):
 
     template.last:        N
 
-#### Implementation: Adding a new `chained` template
+## Implementation: Adding a new `chained` template
 
 When adding a new chained template:
 
@@ -183,7 +181,7 @@ Creating the Nth instance (index N):
 Chained tasks do not obey `rc.recurrence.limit`, and show only one pending task
 at a time.
 
-#### Implementation: Special handling for months
+## Implementation: Special handling for months
 
 Certain recurrence periods are inexact:
 
@@ -203,4 +201,3 @@ daylight savings, and causes drift.
 Drift should be avoided by carefully implementing:
 
     instance.due: template.due + (N * template.recur)
-:::

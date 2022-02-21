@@ -2,18 +2,16 @@
 title: "Taskwarrior - Hooks v1"
 ---
 
-#### Hooks v1
+## Hooks v1
 
-The API defined here is the [Hooks v1]{.kbd} API. Later versions will allow a
+The API defined here is the [Hooks v1] API. Later versions will allow a
 script to determine which version of the Hooks API is being used.
-:::
 
-[]{#hooks}
 
-### Hooks
+# Hooks
 
 A hook system is a way to run other programs/scripts at certain points in
-Taskwarrior\'s execution, so that processing can be influenced. These callout
+Taskwarrior's execution, so that processing can be influenced. These callout
 points correspond to locations in the code where some critical processing is
 occurring. These are called *events*.
 
@@ -28,25 +26,21 @@ diagnostics and exit with a status code.
 There is no configuration required for the hook scripts - their presence,
 accessibility and execute permission is all that is required.
 
-[]{#events}
 
-#### Events
+## Events
 
 Hooks are triggered by events, and the list of supported events is kept short.
 
-  ------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  `on-launch`   This event is triggered at launch, after the initialization of all data structures, but before any processing. This event provides an opportunity to prevent launch.
-  `on-exit`     This event is triggered after all processing, but immediately before output is displayed, which is the last opportunity to contribute footnotes/errors. This event has no opportunity to modify tasks.
-  `on-add`      This event is triggered when a new task is created, after the data has been processed, but before the task is saved. This event provides an opportunity to approve, deny or or modify the task being created.
-  `on-modify`   This event is triggered when an existing task is modified, after the data has been read and processed, but before the task is saved. This event provides an opportunity to approve, deny, or further change the modification of the task.
-  ------------- -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+* `on-launch` - This event is triggered at launch, after the initialization of all data structures, but before any processing. This event provides an opportunity to prevent launch.
+* `on-exit`   - This event is triggered after all processing, but immediately before output is displayed, which is the last opportunity to contribute footnotes/errors. This event has no opportunity to modify tasks.
+* `on-add`    - This event is triggered when a new task is created, after the data has been processed, but before the task is saved. This event provides an opportunity to approve, deny or or modify the task being created.
+* `on-modify` - This event is triggered when an existing task is modified, after the data has been read and processed, but before the task is saved. This event provides an opportunity to approve, deny, or further change the modification of the task.
 
 Task completion and deletion are considered modifications, indicated by the
-change to the \'status\' attribute.
+change to the 'status' attribute.
 
-[]{#git}
 
-#### The Git Model
+## The Git Model
 
 Following the Git model, a hook script need only exist in a specific location,
 possess a recognizable name, and have execute permission, in order for it to be
@@ -75,13 +69,12 @@ execution is the collating sequence of the script name. A hook script can be
 disabled by either removing execute permission, renaming it, or moving it to
 another location.
 
-[]{#input}
 
-#### Input
+## Input
 
 Input to hook scripts consists of JSON-formatted objects, one per line, in the
-[Taskwarrior JSON Format](/docs/design/task.html) which is also used by the
-[`export`{.sample} command](/docs/commands/export.html).
+[Taskwarrior JSON Format](/docs/design/task) which is also used by the
+[`export` command](/docs/commands/export).
 
     $ task 1 export
     {"description":"Buy some milk","entry":"20141118T050231Z","status":"pending","uuid":"a360fc44-315c-4366-b70c-ea7e7520b749"}
@@ -90,15 +83,14 @@ The above example may wrap over several lines, but exported JSON always contains
 1 object per line. Whitespace within the line is permitted, per the JSON
 standard, but the task *must* occupy only one line of output.
 
-[]{#output}
 
-#### Output
+## Output
 
 Output from a hook script is a combination of a JSON-formatted task and text.
 Just as the JSON for a task must occupy a single line, so must a single feedback
 message. Feedback text is optional for a successful hook script, but required
 for a failing script. If provided it will be displayed by Taskwarrior according
-to the [verbosity setting](/docs/verbosity.html).
+to the [verbosity setting](/docs/verbosity).
 
 Here is sample output from a hypothetical spell-checking hook script:
 
@@ -111,9 +103,8 @@ task, and a single line of feedback text to be displayed.
 There may only be one line of JSON, and it must be for the same task that was
 provided as input.
 
-[]{#status}
 
-#### Exit Status
+## Exit Status
 
 A hook script may exit with a zero status which signals that all is well. A
 tasks emitted will be added/modified, and any feedback will be shown as a
@@ -123,61 +114,135 @@ A hook script may exit with a non-zero status which signals a problem. This
 terminates processing. All tasks emitted will be ignored. Feedback is required
 in this case, and will be shown as an error.
 
-[]{#interfaces}
 
-#### Interfaces
+## Interfaces
 
 The hook scripts have different responsibilities, depending on the type of hook.
 Some are provided with JSON input, some are expected to indicate that processing
 should continue or stop. All may provide error messages.
 
-+---------------+---------------+---------------+---------------+---------------+
-| Event         | Input         | Output        | Status\       | Status\       |
-|               |               |               | Zero 0        | Non-Zero      |
-+===============+===============+===============+===============+===============+
-| `on-launch`   | -   None      | -   No JSON   | -   Optional  | -   Required  |
-|               |               | -   Feedback  |     feedback  |     feedback  |
-|               |               |               |     becomes   |     becomes   |
-|               |               |               |     footnotes |     errors    |
-|               |               |               | -             | -             |
-|               |               |               |    Processing |    Processing |
-|               |               |               |     continues |               |
-|               |               |               |               |    terminates |
-+---------------+---------------+---------------+---------------+---------------+
-| `on-exit`     | -   JSON for  | -   No JSON   | -   Optional  | -   Required  |
-|               |     a         | -   Feedback  |     feedback  |     feedback  |
-|               | dded/modified |               |     becomes   |     becomes   |
-|               |     tasks     |               |     footnotes |     errors    |
-+---------------+---------------+---------------+---------------+---------------+
-| `on-add`      | -   JSON for  | -   JSON for  | -   JSON for  | -   JSON      |
-|               |     added     |     added     |     added     |     ignored   |
-|               |     task      |     task      |     task      | -   Required  |
-|               |               | -   Feedback  | -   Optional  |     feedback  |
-|               |               |               |     feedback  |     becomes   |
-|               |               |               |     becomes   |     errors    |
-|               |               |               |     footnotes | -             |
-|               |               |               | -             |    Processing |
-|               |               |               |    Processing |               |
-|               |               |               |     continues |    terminates |
-+---------------+---------------+---------------+---------------+---------------+
-| `on-modify`   | -   JSON for  | -   JSON for  | -   JSON for  | -   JSON      |
-|               |     original  |     modified  |     modified  |     ignored   |
-|               |     task      |     tasks     |     task      | -   Required  |
-|               | -   JSON for  | -   Feedback  | -   Optional  |     feedback  |
-|               |     modified  |               |     feedback  |     becomes   |
-|               |     task      |               |     becomes   |     errors    |
-|               |               |               |     footnotes | -             |
-|               |               |               | -             |    Processing |
-|               |               |               |    Processing |               |
-|               |               |               |     continues |    terminates |
-+---------------+---------------+---------------+---------------+---------------+
+<table class="table table-striped table-condensed">
+<tr>
+  <th>Event</th>
+  <th>Input</th>
+  <th>Output</th>
+  <th>Status<br />Zero 0</th>
+  <th>Status<br />Non-Zero</th>
+</tr>
+<tr>
+  <td><code>on-launch</code></td>
+  <td>
+    <ul>
+      <li>None</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>No JSON</li>
+      <li>Feedback</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>Optional feedback becomes footnotes</li>
+      <li>Processing continues</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>Required feedback becomes errors</li>
+      <li>Processing terminates</li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td><code>on-exit</code></td>
+  <td>
+    <ul>
+      <li>JSON for added/modified tasks</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>No JSON</li>
+      <li>Feedback</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>Optional feedback becomes footnotes</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>Required feedback becomes errors</li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td><code>on-add</code></td>
+  <td>
+    <ul>
+      <li>JSON for added task</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>JSON for added task</li>
+      <li>Feedback</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>JSON for added task</li>
+      <li>Optional feedback becomes footnotes</li>
+      <li>Processing continues</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>JSON ignored</li>
+      <li>Required feedback becomes errors</li>
+      <li>Processing terminates</li>
+    </ul>
+  </td>
+</tr>
+<tr>
+  <td><code>on-modify</code></td>
+  <td>
+    <ul>
+      <li>JSON for original task</li>
+      <li>JSON for modified task</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>JSON for modified tasks</li>
+      <li>Feedback</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>JSON for modified task</li>
+      <li>Optional feedback becomes footnotes</li>
+      <li>Processing continues</li>
+    </ul>
+  </td>
+  <td>
+    <ul>
+      <li>JSON ignored</li>
+      <li>Required feedback becomes errors</li>
+      <li>Processing terminates</li>
+    </ul>
+  </td>
+</tr>
+</table>
 
 This means that on-launch hooks should expect 0 lines of input, on-exit 0 to
 many, on-add 1, and on-modify 2.
 
-[]{#impact}
 
-#### Impact
+## Impact
 
 The hook system is visible in several places:
 
@@ -191,9 +256,8 @@ The hook system is visible in several places:
 -   Setting `rc.debug.hooks=2` will also show the input, output and exit status
     of the hook scripts.
 
-[]{#safety}
 
-#### Safety
+## Safety
 
 With any hook system there are potential problems which involve race conditions,
 infinite loops and runaway cascading effects. Various measures are taken to
@@ -203,11 +267,10 @@ mitigate these problems:
 -   Correct JSON that is not a task is simply ignored by Taskwarrior
 
 Please note: installing hook scripts can be as dangerous as installing any
-software, and if you are unsure of what the script does, don\'t install it.
+software, and if you are unsure of what the script does, don't install it.
 
-[]{#examples}
 
-#### Examples
+## Examples
 
 Here are some example uses for hooks. This list is intended as inspiration, and
 may not represent actual scripts that exist.
@@ -224,4 +287,3 @@ may not represent actual scripts that exist.
 -   Performing a sync on launch
 
 There are example hook scripts installed with Taskwarrior.
-:::

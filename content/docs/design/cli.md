@@ -2,15 +2,13 @@
 title: "Taskwarrior - Command Line Interface"
 ---
 
-#### Work in Progress
+## Work in Progress
 
 This design document is a work in progress, and subject to change. Once
 finalized, the feature will be scheduled for an upcoming release.
-:::
 
-[]{#cli}
 
-### CLI Syntax Update
+# CLI Syntax Update
 
 The Taskwarrior command line syntax is being updated to allow more consistent
 and predictable results, while making room for new features.
@@ -30,9 +28,8 @@ changes to 3rd-party software, where possible. Only the more advanced and as-yet
 unintroduced features will require a more strict syntax. This is why now is an
 ideal time to tighten the requirements.
 
-[]{#types}
 
-#### Argument Types
+## Argument Types
 
 The argument types supported remain the same, adding some new constructs.
 
@@ -92,9 +89,8 @@ The argument types supported remain the same, adding some new constructs.
                                           `'<word> <word> ...'`
   --------------------------------------- ---------------------------------------
 
-[]{#rules}
 
-#### New Command Line Rules
+## New Command Line Rules
 
 Certain command line constructs will no longer be supported, and this is imposed
 by the new rules:
@@ -140,9 +136,8 @@ by the new rules:
         task urgency \< 5.0 list     # Good
         task 'urgency < 5.0 list'    # Bad
 
-[]{#other}
 
-#### Other Changes
+## Other Changes
 
 Aside from the command line parser, there are other changes needed:
 
@@ -165,4 +160,3 @@ Aside from the command line parser, there are other changes needed:
 
 -   The tutorial videos will be even more out of date, and will be replaced by a
     large number of smaller demo \'movies\'.
-:::

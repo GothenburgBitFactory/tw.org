@@ -2,20 +2,18 @@
 title: "Taskwarrior - Taskserver Sync Algorithm"
 ---
 
-[]{#algorithm}
 
-### Taskserver Sync Algorithm
+# Taskserver Sync Algorithm
 
 This document describes how task changes are merged by the Taskserver. It does
-not describe [the protocol](/docs/design/protocol.html) used by the Taskserver.
+not describe [the protocol](/docs/design/protocol) used by the Taskserver.
 
 The Taskserver merges tasks from multiple sources, resulting in conflict- free
 syncing of data. The algorithm used to achieve this is simple and effective,
 paralleling what SCM systems do to perform a rebase.
 
-[]{#req}
 
-#### Requirements
+## Requirements
 
 In this document, we adopt the convention discussed in Section 1.3.2 of
 [RFC1122](https://tools.ietf.org/html/rfc1122#page-16) of using the capitalized
@@ -28,9 +26,8 @@ may exist valid reasons for ignoring this item, but the full implications should
 be understood before doing so; and \"MAY\" (or \"OPTIONAL\") means that this
 item is optional, and may be omitted without careful consideration.
 
-[]{#problem}
 
-#### Problem Definition
+## Problem Definition
 
 The sync algorithm considers a single task, with multiple changes occurring in
 two separate locations that must be resolved. The two locations are the local
@@ -39,9 +36,8 @@ machine and the server. This results in two parallel change sequences.
 Examples using multiple clients collapse down to the simple two-branch case
 because the clients are merged serially.
 
-[]{#change_sequence}
 
-#### Change Sequence
+## Change Sequence
 
 A sequence of changes to the same task is represented as:
 
@@ -55,9 +51,8 @@ legend:
     T1   Represents the task with a non-trivial set of changes.
     T2   Represents the task with further changes.
 
-[]{#deltas}
 
-#### Deltas
+## Deltas
 
 The transition from T0 \--\> T1 can be seen as a transform applied to T0,
 resulting in T1. That transform is the delta (d1) between T0 and T1, which is a
@@ -77,17 +72,15 @@ sequence yields:
     T0 --> T1 --> T2 = T0 + d1 + d2
                      = T0 + (T1 - T0) + (T2 - T1)
 
-[]{#use_case_types}
 
-#### Use Case Classification
+## Use Case Classification
 
 Because clients sync requests are processed serially, there is no need to
 consider the multiple client cases. This means there is only ever the case with
 two parallel change sequences = the two branch case.
 
-[]{#two_branch}
 
-#### Two Branch Case
+## Two Branch Case
 
 The two branch case represents changes made to the same task in two locations,
 resulting in two deltas that must be applied to the same base.
@@ -111,9 +104,8 @@ d2, this neatly collapses down to a single branch sequence:
 Note that the result in this case is T3, because it will be neither T1 nor T2,
 unless the deltas are identical.
 
-[]{#two_branch_changes}
 
-#### Two Branch, Multiple Changes Case
+## Two Branch, Multiple Changes Case
 
 The two branch case can be complicated by multiple changes per branch:
 
@@ -139,9 +131,8 @@ Then epplied to the base, yielding T6:
 
     T0 + d1 + d2 + d3 + d4 +d5 = T6
 
-[]{#ex_two_branch}
 
-#### Two Branch Case Example
+## Two Branch Case Example
 
 Suppose the base task looks like this:
 
@@ -176,16 +167,14 @@ If d1 occurred before d2, the result is:
 
     T3 =  project:TWO  due:23rd  priority:H  +tag1  Modified description
 
-[]{#use_cases}
 
-#### Use Cases
+## Use Cases
 
 A range of illustrated use cases, from the trivial to the complex will show the
 algorithm in use.
 
-[]{#use_case_1}
 
-#### Use Case 1: New Local Task
+## Use Case 1: New Local Task
 
 Initial state:
 
@@ -197,9 +186,8 @@ The server has no data, and so T0 is stored. The result is now:
     Server:  T0
     Client:  T0
 
-[]{#use_case_2}
 
-#### Use Case 2: Local Change
+## Use Case 2: Local Change
 
 Initial state:
 
@@ -216,9 +204,8 @@ T1 is stored. The result is now:
     Server:  T0 --> T1
     Client:  T1
 
-[]{#use_case_3}
 
-#### Use Case 3: Local and Remote Change
+## Use Case 3: Local and Remote Change
 
 Initial state:
 
@@ -239,9 +226,8 @@ T3 is stored on the server, and returned to the client. The result is now:
     Server:  T0 --> T1 --> T2 --> T3
     Client:  T3
 
-[]{#use_case_4}
 
-#### Use Case 4: Multiple Local and Remote Changes
+## Use Case 4: Multiple Local and Remote Changes
 
 Initial state:
 
@@ -265,4 +251,3 @@ T5 is stored on the server, and returned to the client. The result is now:
 
     Server:  T0 --> T1 --> T2 --> T3 --> T4 --> T5
     Client:  T5
-:::

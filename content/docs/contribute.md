@@ -2,9 +2,8 @@
 title: "Taskwarrior - Contribute?"
 ---
 
-[]{#want}
 
-### Want to Contribute?
+# Want to Contribute?
 
 Help is needed in all areas of Taskwarrior development - design, coding,
 testing, support and marketing. Applicants must be friendly. Perhaps you are
@@ -25,7 +24,7 @@ help:
 -   Participate in the [bug
     tracking](https://github.com/GothenburgBitFactory/taskwarrior/issues)
     database, to help others and maybe learn something yourself.
--   Help [triage](/docs/triage.html) the issues list.
+-   Help [triage](/docs/triage) the issues list.
 -   Join the IRC channel \#taskwarrior on freenode.net and help answer some
     questions.
 -   Join either the
@@ -49,4 +48,3 @@ help:
 
 Please remember that we need contributions from all skillsets, however small.
 Every contribution helps.
-:::

@@ -2,15 +2,14 @@
 title: "Taskwarrior - 3rd-Party Application Guidelines"
 ---
 
-[]{#3p}
 
-### 3rd-Party Application Guidelines
+# 3rd-Party Application Guidelines
 
 Taskwarrior can be extended by means of a third-party application, which can be
 a wrapper, or hook script. There are script examples of import and export
 add-ons that support many different formats (clone the repository, look in
 `taskwarrior.git/scripts/add-ons`). Then there are more sophisticated
-applications such as [Vit](https://gothenburgbitfactory.org/projects/vit.html)
+applications such as [Vit](https://gothenburgbitfactory.org/projects/vit)
 that provide a complete replacement UI.
 
 All of these provide interesting new features and improve ease of use for
@@ -19,9 +18,8 @@ so, there are some rules that must be followed, which will not only protect the
 users data from mistreatment, but also your application from being sensitive to
 changes in Taskwarrior.
 
-[]{#rules}
 
-#### Rules
+## Rules
 
 -   Produce, consume and handle UTF8 text properly. UTF8 is the only text
     encoding supported by Taskwarrior.
@@ -44,7 +42,7 @@ changes in Taskwarrior.
     using Taskwarrior itself to query the data, with a commodity JSON parser in
     conjunction. While the JSON format will be tweaked over time, the general
     form will not.
--   Beginning with version [2.4.5]{.label .label-success}, use the `import`
+-   Beginning with version [2.4.5], use the `import`
     command to import modified JSON back into Taskwarrior.
 -   Older versions: Use the command line interface to put data into Taskwarrior.
     Composing a valid command line is a simple way to put data in to
@@ -64,9 +62,8 @@ changes in Taskwarrior.
     from other data sources. It also prevents the Taskserver from stripping out
     *your* data.
 
-[]{#guidelines}
 
-#### Guidelines
+## Guidelines
 
 -   If you need to store additional data, consider putting your own data file in
     the `~/.task` directory. Just don\'t use the file names `pending.data`,
@@ -79,4 +76,3 @@ changes in Taskwarrior.
     disabling gc, modifying verbosity and so on. There are ways around almost
     all the restrictions, and while these don\'t make sense for regular users,
     they can be critical for add-on authors.
-:::

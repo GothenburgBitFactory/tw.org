@@ -23,9 +23,8 @@ Open Source: Good for the software. Good for the résumé/c.v. Good for the soul
 
 --------------------------------------------------------------------------------
 
-[]{#issue_manager}
 
-### [Issue Manager]{.kbd}
+# [Issue Manager]
 
 +---------------------------------------+---------------------------------------+
 | Responsibilities                      | You own the Jira databases for all    |
@@ -55,9 +54,8 @@ Open Source: Good for the software. Good for the résumé/c.v. Good for the soul
 
 --------------------------------------------------------------------------------
 
-[]{#test_automation}
 
-### [Test Automation]{.kbd}
+# [Test Automation]
 
 +---------------------------------------+---------------------------------------+
 | Responsibilities                      | You own the test suites for all the   |
@@ -87,9 +85,8 @@ Open Source: Good for the software. Good for the résumé/c.v. Good for the soul
 
 --------------------------------------------------------------------------------
 
-[]{#sound_and_fury}
 
-### [Sound and Fury]{.kbd}
+# [Sound and Fury]
 
 +---------------------------------------+---------------------------------------+
 | Responsibilities                      | Everyone loves a live demo, but we    |
@@ -117,9 +114,8 @@ Open Source: Good for the software. Good for the résumé/c.v. Good for the soul
 
 --------------------------------------------------------------------------------
 
-[]{#tech_community_liaison}
 
-### [Technical Community Liaison]{.kbd}
+# [Technical Community Liaison]
 
 +---------------------------------------+---------------------------------------+
 | Responsibilities                      | You own the relationships with        |
@@ -152,9 +148,8 @@ Open Source: Good for the software. Good for the résumé/c.v. Good for the soul
 
 --------------------------------------------------------------------------------
 
-[]{#doc_manager}
 
-### [Documentation Manager]{.kbd}
+# [Documentation Manager]
 
 +---------------------------------------+---------------------------------------+
 | Responsibilities                      | You own all the documentation for all |
@@ -182,9 +177,8 @@ Open Source: Good for the software. Good for the résumé/c.v. Good for the soul
 
 --------------------------------------------------------------------------------
 
-[]{#publishing}
 
-### [Publishing]{.kbd}
+# [Publishing]
 
 +---------------------------------------+---------------------------------------+
 | Responsibilities                      | The websites are currently            |

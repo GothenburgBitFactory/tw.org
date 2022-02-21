@@ -2,18 +2,16 @@
 title: "Taskwarrior - Hook Author's Guide"
 ---
 
-[]{#guide}
 
-### Hook Author\'s Guide
+# Hook Author\'s Guide
 
 This guide walks through the process of writing and testing a Taskwarrior hook
 script. While this is a simple and straightforward process for developers, there
 are still many considerations. A hooks script will be developed, and the various
 concerns discussed.
 
-[]{#example}
 
-#### Example Hook Script
+## Example Hook Script
 
 As an example, we\'re going to create a hook script that detects tasks that
 refer to Taskwarrior bug numbers (ie \'TW-179\') in the description, and
@@ -24,9 +22,8 @@ replaces the bug number with a URL that links to the bug. Whenever the pattern
 This script will simply need to search for a pattern, and perform a replacement,
 for new tasks only. This will be a very simple hook script.
 
-[]{#language}
 
-#### Choosing a Language
+## Choosing a Language
 
 You can write a hook script in any language you wish. But there is more to
 consider:
@@ -46,18 +43,16 @@ This example will be written in Python 2.6+, because Python is well known,
 modern, and commonly available. It has a built-in JSON parser. It is ideal for
 this task.
 
-[]{#api}
 
-#### Hooks API
+## Hooks API
 
-Read and understand the [Hooks API](/docs/hooks.html). This is important because
+Read and understand the [Hooks API](/docs/hooks). This is important because
 the hook script must comply with the API requirements. Taskwarrior is strict
 about compliance. Hook scripts have the ability to harm data, so they are
 carefully monitored.
 
-[]{#framework}
 
-#### Framework
+## Framework
 
 From the API, we know that an `on-add` hook script will need to read a line of
 JSON from standard input, and emit an optionally modified line of JSON,
@@ -82,9 +77,8 @@ modification. An exit code of zero indicates that the added task is accepted.
 Although this script does nothing to the task, it only requires a few more lines
 added to be complete.
 
-[]{#testing}
 
-#### Testing
+## Testing
 
 You can test your hook script independently from Taskwarrior, which is a good
 idea. First we make our script executable, then we simply run it from the
@@ -103,9 +97,8 @@ code is zero. This script works.
 
 Now we add logic to the script to make it do something.
 
-[]{#implementation}
 
-#### Implementation
+## Implementation
 
 For the implementation, the script needs to look for bug numbers. Taskwarrior
 bug numbers can be represented with a regular expression like this:
@@ -149,9 +142,8 @@ The script has correctly identified the bug number, and replaced it with the
 correct URL. The feedback message indicates this. We are ready to install this
 hook script and test it using Taskwarrior.
 
-[]{#install}
 
-#### Install and Enable
+## Install and Enable
 
 To install the script, copy it to the `~/.task/hooks` directory, creating that
 directory if necessary, and make sure the script is executable. It must also be
@@ -193,9 +185,8 @@ It works, but we have done minimal testing here. If you write a hook script with
 any non-trivial capabilities, your testing should be much more thorough. This is
 only an example.
 
-[]{#debugging}
 
-#### Debugging
+## Debugging
 
 Taskwarrior has a hook debug configuration setting, which will show you how
 Taskwarrior processes the hook input and output, what happened, and how long it
@@ -228,9 +219,8 @@ In this case the hook script ran in 31ms, which is certainly fast enough to not
 cause the user to wonder what is happening. In this example all hook processing
 was completed in 33ms.
 
-[]{#dist}
 
-#### Distribute
+## Distribute
 
 With your hook script complete, will you be sharing your script? It\'s optional
 of course, but if you do, consider a license and copyright, establish a web

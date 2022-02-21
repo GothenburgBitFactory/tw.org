@@ -2,9 +2,8 @@
 title: "Taskwarrior - Context"
 ---
 
-[]{#context}
 
-### Context
+# Context
 
 A context is associated with a location. An example of this might be that you
 perform tasks in three locations:
@@ -22,9 +21,8 @@ the tasks listed could be filtered accordingly. You would then be working within
 a context. A context is therefore a named filter, and the current context is a
 form of default filter.
 
-[]{#define}
 
-#### Defining a Context
+## Defining a Context
 
 In order to work within a context, you first need to define that context.
 Because a context is essentially a task filter, defining a context is really
@@ -43,9 +41,8 @@ accounted for, although this is not necessary.
 It is an error to try to define a context with the names `define`, `list`,
 `show`, `none`, or `delete`.
 
-[]{#set}
 
-#### Setting the Context
+## Setting the Context
 
 To set or switch the current context, simply:
 
@@ -59,9 +56,8 @@ Now with the context set to `home`, all the tasks listed will pertain to the
 `home` context, as defined. There will be a footnote after every report that
 reminds you of the current context.
 
-[]{#show}
 
-#### Showing the Context
+## Showing the Context
 
 Although the current context is included in a footnote after every report, this
 can be disabled with the verbosity controls. To show the current context:
@@ -74,9 +70,8 @@ This can also be obtained using `_get`:
     $ task _get rc.context
     home
 
-[]{#list}
 
-#### Listing All Contexts
+## Listing All Contexts
 
 You can list all the contexts using the new `context list` command:
 
@@ -87,9 +82,8 @@ You can list all the contexts using the new `context list` command:
     study   +school or +homework
     work    +work or +freelance
 
-[]{#clear}
 
-#### Clearing the Context
+## Clearing the Context
 
 To clear the current context:
 
@@ -98,9 +92,8 @@ To clear the current context:
 The context `none` has special meaning. All subsequent commands will not have
 any implicit context filters applied.
 
-[]{#delete}
 
-#### Deleting a Context
+## Deleting a Context
 
 To delete one of the contexts:
 
@@ -109,25 +102,21 @@ To delete one of the contexts:
 Now you can no longer set the context to `study`. If the current context was
 already `study` when you deleted it, the context is cleared.
 
-[]{#impact}
 
-#### Impact on Commands
+## Impact on Commands
 
 All reports that accept filters will use the context if one is defined and set.
 
-[]{#related}
 
-#### Related Support
+## Related Support
 
 The `tasksh` program will show the current context in its prompt.
 
-[]{#implementation}
 
-#### Implementation Details
+## Implementation Details
 
 Context will be stored in `rc.context` and defined contexts will be stored as
 `rc.context.<name>` in the `.taskrc` file.
 
 When a context filter is used, it will be implicitly surrounded by parentheses,
 so that it may contain arbitrary logic.
-:::
