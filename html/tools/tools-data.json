@@ -148,7 +148,7 @@
       "Aerex"
     ],
     "rating": 0,
-    "updated": "2021-10-14",
+    "updated": "2022-02-24",
     "url": "https://github.com/Aerex/baikal-storage-plugin"
   },
   {
@@ -238,7 +238,7 @@
       "AndreResh"
     ],
     "rating": 0,
-    "updated": "2022-02-17",
+    "updated": "2022-02-24",
     "url": "https://github.com/AndreResh/TaskServer"
   },
   {
@@ -432,7 +432,7 @@
     "owner": [
       "CourrierGui"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-01-22",
     "url": "https://github.com/CourrierGui/kanbanwarrior"
   },
@@ -508,7 +508,7 @@
       "DavidBadura"
     ],
     "rating": 16,
-    "updated": "2020-12-07",
+    "updated": "2022-02-24",
     "url": "https://github.com/DavidBadura/Taskwarrior"
   },
   {
@@ -792,7 +792,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 104,
+    "rating": 105,
     "updated": "2021-11-08",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -837,7 +837,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -1048,7 +1048,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-02-18",
+    "updated": "2022-02-20",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2083,7 +2083,7 @@
       "abrochier"
     ],
     "rating": 0,
-    "updated": "2021-01-20",
+    "updated": "2022-02-22",
     "url": "https://github.com/abrochier/ImapTW"
   },
   {
@@ -2697,7 +2697,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 119,
+    "rating": 121,
     "updated": "2021-12-30",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2817,7 +2817,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 40,
+    "rating": 42,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2968,7 +2968,7 @@
       "bradyt"
     ],
     "rating": 27,
-    "updated": "2022-02-16",
+    "updated": "2022-02-25",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3373,7 +3373,7 @@
       "coddingtonbear"
     ],
     "rating": 502,
-    "updated": "2022-02-10",
+    "updated": "2022-02-19",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -4153,7 +4153,7 @@
       "eyenx"
     ],
     "rating": 2,
-    "updated": "2021-08-03",
+    "updated": "2022-02-19",
     "url": "https://github.com/eyenx/docker-taskwarriormail"
   },
   {
@@ -4168,7 +4168,7 @@
       "eyenx"
     ],
     "rating": 1,
-    "updated": "2021-08-03",
+    "updated": "2022-02-19",
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
   },
   {
@@ -4227,7 +4227,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 119,
+    "rating": 121,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -4453,7 +4453,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2022-02-13",
+    "updated": "2022-02-19",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -4873,7 +4873,7 @@
       "ibrahimfayyaz26"
     ],
     "rating": 0,
-    "updated": "2022-02-13",
+    "updated": "2022-02-22",
     "url": "https://github.com/ibrahimfayyaz26/taskServerSql"
   },
   {
@@ -5112,7 +5112,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -5443,7 +5443,7 @@
       "jonathanabennett"
     ],
     "rating": 7,
-    "updated": "2022-02-18",
+    "updated": "2022-02-25",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -5652,7 +5652,7 @@
     "owner": [
       "juanedflores"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-01-16",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
@@ -5787,8 +5787,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 669,
-    "updated": "2022-02-18",
+    "rating": 674,
+    "updated": "2022-02-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5802,7 +5802,7 @@
     "owner": [
       "keigezellig"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2020-11-16",
     "url": "https://github.com/keigezellig/kanbanwarrior"
   },
@@ -6387,7 +6387,7 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-12-05",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
@@ -7318,7 +7318,7 @@
       "mrVanDalo"
     ],
     "rating": 3,
-    "updated": "2020-01-25",
+    "updated": "2022-02-22",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
   {
@@ -8353,7 +8353,7 @@
       "ralphbean"
     ],
     "rating": 588,
-    "updated": "2022-02-17",
+    "updated": "2022-02-25",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8702,6 +8702,21 @@
     "url": "https://github.com/sanjayankur31/task-theme"
   },
   {
+    "description": "A tool to parse Tandoor shopping lists to Taskwarrior todo entries",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "tandoor-task",
+    "owner": [
+      "scattenlaeufer"
+    ],
+    "rating": 0,
+    "updated": "2022-02-25",
+    "url": "https://github.com/scattenlaeufer/tandoor-task"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
@@ -8730,6 +8745,21 @@
     "rating": 2,
     "updated": "2021-05-20",
     "url": "https://github.com/scmbradley/taskw-i3blocks"
+  },
+  {
+    "description": "Rust todo manager with notes",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "tasker",
+    "owner": [
+      "sebastian-steiner"
+    ],
+    "rating": 2,
+    "updated": "2019-04-03",
+    "url": "https://github.com/sebastian-steiner/tasker"
   },
   {
     "description": "Taskwarrior extension for vscode",
@@ -8952,7 +8982,7 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 158,
+    "rating": 159,
     "updated": "2022-01-31",
     "url": "https://github.com/skbolton/titan"
   },
@@ -9057,7 +9087,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2021-01-17",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -9087,7 +9117,7 @@
     "owner": [
       "spencermamer"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2020-11-22",
     "url": "https://github.com/spencermamer/task-graphdeps"
   },
@@ -9552,7 +9582,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 470,
+    "rating": 472,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9642,7 +9672,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 630,
+    "rating": 631,
     "updated": "2022-02-16",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10233,7 +10263,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
