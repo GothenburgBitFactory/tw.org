@@ -792,7 +792,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 105,
+    "rating": 106,
     "updated": "2021-11-08",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -837,7 +837,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 45,
+    "rating": 46,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -943,7 +943,7 @@
       "HiveMinds"
     ],
     "rating": 8,
-    "updated": "2022-01-24",
+    "updated": "2022-02-26",
     "url": "https://github.com/HiveMinds/tw-install"
   },
   {
@@ -1977,7 +1977,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2018-09-05",
     "url": "https://github.com/Zebradil/tw-wifi-contexter"
   },
@@ -2697,7 +2697,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 121,
+    "rating": 122,
     "updated": "2021-12-30",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2757,7 +2757,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 115,
+    "rating": 116,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3373,7 +3373,7 @@
       "coddingtonbear"
     ],
     "rating": 502,
-    "updated": "2022-02-19",
+    "updated": "2022-02-26",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3432,7 +3432,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 256,
+    "rating": 257,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -3718,7 +3718,7 @@
       "dezmondfinney"
     ],
     "rating": 1,
-    "updated": "2022-02-18",
+    "updated": "2022-02-26",
     "url": "https://github.com/dezmondfinney/Montu"
   },
   {
@@ -5967,7 +5967,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2019-11-07",
     "url": "https://github.com/kostajh/task-git"
   },
@@ -6118,7 +6118,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-02-18",
+    "updated": "2022-02-26",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -8353,7 +8353,7 @@
       "ralphbean"
     ],
     "rating": 588,
-    "updated": "2022-02-25",
+    "updated": "2022-02-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8382,7 +8382,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 144,
+    "rating": 145,
     "updated": "2022-01-24",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -8982,8 +8982,8 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 159,
-    "updated": "2022-01-31",
+    "rating": 160,
+    "updated": "2022-02-26",
     "url": "https://github.com/skbolton/titan"
   },
   {
@@ -9927,7 +9927,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 322,
+    "rating": 323,
     "updated": "2021-11-26",
     "url": "https://github.com/vit-project/vit"
   },
