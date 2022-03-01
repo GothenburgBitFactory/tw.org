@@ -943,7 +943,7 @@
       "HiveMinds"
     ],
     "rating": 8,
-    "updated": "2022-02-26",
+    "updated": "2022-02-27",
     "url": "https://github.com/HiveMinds/tw-install"
   },
   {
@@ -1503,7 +1503,7 @@
   },
   {
     "description": "Based on idea taskwarriors-web",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -1933,7 +1933,7 @@
       "Zebradil"
     ],
     "rating": 50,
-    "updated": "2021-10-20",
+    "updated": "2022-02-28",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2757,7 +2757,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 116,
+    "rating": 117,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3372,8 +3372,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 502,
-    "updated": "2022-02-26",
+    "rating": 503,
+    "updated": "2022-02-27",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -4453,7 +4453,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2022-02-19",
+    "updated": "2022-02-27",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -5787,8 +5787,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 674,
-    "updated": "2022-02-19",
+    "rating": 676,
+    "updated": "2022-02-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6118,7 +6118,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-02-26",
+    "updated": "2022-02-27",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -7857,7 +7857,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2021-11-23",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -8352,7 +8352,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 588,
+    "rating": 589,
     "updated": "2022-02-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -8982,8 +8982,8 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 160,
-    "updated": "2022-02-26",
+    "rating": 161,
+    "updated": "2022-02-27",
     "url": "https://github.com/skbolton/titan"
   },
   {
