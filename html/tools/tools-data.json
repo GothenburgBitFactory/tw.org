@@ -42,7 +42,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 54,
+    "rating": 53,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -643,7 +643,7 @@
       "EUye9IM"
     ],
     "rating": 0,
-    "updated": "2022-02-08",
+    "updated": "2022-03-02",
     "url": "https://github.com/EUye9IM/Todo_manager"
   },
   {
@@ -808,7 +808,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 2,
-    "updated": "2021-08-13",
+    "updated": "2022-03-03",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -823,7 +823,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2021-08-13",
+    "updated": "2022-03-03",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -2697,7 +2697,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 122,
+    "rating": 123,
     "updated": "2021-12-30",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -4153,7 +4153,7 @@
       "eyenx"
     ],
     "rating": 2,
-    "updated": "2022-02-19",
+    "updated": "2022-03-02",
     "url": "https://github.com/eyenx/docker-taskwarriormail"
   },
   {
@@ -4168,7 +4168,7 @@
       "eyenx"
     ],
     "rating": 1,
-    "updated": "2022-02-19",
+    "updated": "2022-03-02",
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
   },
   {
@@ -4453,7 +4453,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2022-02-27",
+    "updated": "2022-03-02",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -5492,21 +5492,6 @@
     "url": "https://github.com/jonsterling/Tasky"
   },
   {
-    "description": "A go client for taskd",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskd-client-go",
-    "owner": [
-      "jrabbit"
-    ],
-    "rating": 4,
-    "updated": "2021-05-02",
-    "url": "https://github.com/jrabbit/taskd-client-go"
-  },
-  {
     "description": ":hammer: :snake: A python client for taskd",
     "dormant": false,
     "language": [
@@ -5788,7 +5773,7 @@
       "kdheepak"
     ],
     "rating": 676,
-    "updated": "2022-02-27",
+    "updated": "2022-03-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5892,7 +5877,7 @@
     "owner": [
       "kevinstadler"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2021-10-27",
     "url": "https://github.com/kevinstadler/taskwarrior-vit-config-old"
   },
@@ -6103,7 +6088,7 @@
       "ky-s"
     ],
     "rating": 1,
-    "updated": "2022-02-13",
+    "updated": "2022-03-02",
     "url": "https://github.com/ky-s/taskwarrior-electron"
   },
   {
@@ -8352,7 +8337,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 589,
+    "rating": 590,
     "updated": "2022-02-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
