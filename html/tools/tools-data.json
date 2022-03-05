@@ -477,7 +477,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-02-04",
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
@@ -942,8 +942,8 @@
     "owner": [
       "HiveMinds"
     ],
-    "rating": 8,
-    "updated": "2022-02-27",
+    "rating": 9,
+    "updated": "2022-03-03",
     "url": "https://github.com/HiveMinds/tw-install"
   },
   {
@@ -2862,7 +2862,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 479,
+    "rating": 478,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5443,7 +5443,7 @@
       "jonathanabennett"
     ],
     "rating": 7,
-    "updated": "2022-03-01",
+    "updated": "2022-03-03",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -5490,6 +5490,21 @@
     "rating": 31,
     "updated": "2018-04-09",
     "url": "https://github.com/jonsterling/Tasky"
+  },
+  {
+    "description": "A go client for taskd",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskd-client-go",
+    "owner": [
+      "jrabbit"
+    ],
+    "rating": 5,
+    "updated": "2021-05-02",
+    "url": "https://github.com/jrabbit/taskd-client-go"
   },
   {
     "description": ":hammer: :snake: A python client for taskd",
@@ -5773,7 +5788,7 @@
       "kdheepak"
     ],
     "rating": 676,
-    "updated": "2022-03-02",
+    "updated": "2022-03-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -7083,7 +7098,7 @@
   },
   {
     "description": "mark mutt email as a task in taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -9357,7 +9372,7 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-02-08",
     "url": "https://github.com/szaffarano/gotas"
   },
@@ -9657,8 +9672,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 631,
-    "updated": "2022-02-16",
+    "rating": 632,
+    "updated": "2022-03-04",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
