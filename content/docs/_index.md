@@ -68,16 +68,12 @@ Here is the complete set of Taskwarrior and Taskserver documentation.
 -   [Timewarrior Home Page](https://timewarrior.net)
 -   [Clog Home Page](/docs/clog/index)
 
-## Contributors
+## Integrating with Taskwarrior
 -   [Hooks API](/docs/hooks) [2.4.0]
 -   [Hooks v2 API](/docs/hooks2) [2.4.3]
 -   [Hook Author\'s Guide](/docs/hooks_guide) [2.4.0]
--   [How To Build Taskwarrior](/docs/build)
--   [Contributing to the Project](/docs/contribute)
--   [How to become an Open Source Contributor](/docs/first_time)
--   [Coding Style](/docs/coding_style)
--   [Branching Model](/docs/branching)
 -   [3rd Party Application Guidelines](/docs/3rd-party)
+
 -   [Design Documents (RFCs)](/docs/design/)
 
 ## Feedback
