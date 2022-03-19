@@ -238,7 +238,7 @@
       "AndreResh"
     ],
     "rating": 0,
-    "updated": "2022-02-24",
+    "updated": "2022-03-18",
     "url": "https://github.com/AndreResh/TaskServer"
   },
   {
@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 48,
+    "rating": 50,
     "updated": "2022-02-17",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -648,6 +648,21 @@
   },
   {
     "description": null,
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": null,
+    "name": "taskserver_docker",
+    "owner": [
+      "Ellana42"
+    ],
+    "rating": 0,
+    "updated": "2022-03-17",
+    "url": "https://github.com/Ellana42/taskserver_docker"
+  },
+  {
+    "description": null,
     "dormant": true,
     "language": [
       "Shell"
@@ -793,7 +808,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 106,
-    "updated": "2022-03-13",
+    "updated": "2022-03-15",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
   {
@@ -1037,6 +1052,21 @@
     "url": "https://github.com/JongilLim/taskserver"
   },
   {
+    "description": "Taskserver docker image with help scripts",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "docker-taskd",
+    "owner": [
+      "JurajMarcin"
+    ],
+    "rating": 0,
+    "updated": "2022-03-16",
+    "url": "https://github.com/JurajMarcin/docker-taskd"
+  },
+  {
     "description": "\u26ab Configuration files",
     "dormant": false,
     "language": [
@@ -1048,7 +1078,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-02-20",
+    "updated": "2022-03-18",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1348,7 +1378,7 @@
       "Pete-Hamlin"
     ],
     "rating": 0,
-    "updated": "2022-01-16",
+    "updated": "2022-03-15",
     "url": "https://github.com/Pete-Hamlin/gtd-rust-taskwarrior"
   },
   {
@@ -1380,21 +1410,6 @@
     "rating": 0,
     "updated": "2018-11-19",
     "url": "https://github.com/QantumEntangled/taskwarrior-web-dc"
-  },
-  {
-    "description": "Envoy is a cross-platform Taskwarrior client that runs on Web, Android, iOS, Windows, and MacOS.",
-    "dormant": false,
-    "language": [
-      "TypeScript"
-    ],
-    "license": "MIT License",
-    "name": "Envoy",
-    "owner": [
-      "ROODAY"
-    ],
-    "rating": 0,
-    "updated": "2022-03-09",
-    "url": "https://github.com/ROODAY/Envoy"
   },
   {
     "description": "Taskwarrior helm chart",
@@ -1767,7 +1782,7 @@
     "owner": [
       "TheBeachLab"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2021-12-07",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
@@ -2772,7 +2787,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 117,
+    "rating": 118,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2982,8 +2997,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 28,
-    "updated": "2022-03-09",
+    "rating": 29,
+    "updated": "2022-03-15",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3147,7 +3162,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -3387,7 +3402,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 504,
+    "rating": 505,
     "updated": "2022-02-27",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3570,6 +3585,21 @@
     "rating": 0,
     "updated": "2018-05-25",
     "url": "https://github.com/crystalsilver/TaskServerSwift"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": null,
+    "name": "taskwarrior-deployment",
+    "owner": [
+      "csams"
+    ],
+    "rating": 0,
+    "updated": "2022-03-16",
+    "url": "https://github.com/csams/taskwarrior-deployment"
   },
   {
     "description": "Golang server to spawn and monitor Linux processes on a remote server",
@@ -4138,7 +4168,7 @@
       "ethueter"
     ],
     "rating": 0,
-    "updated": "2021-09-30",
+    "updated": "2022-03-15",
     "url": "https://github.com/ethueter/TaskServer"
   },
   {
@@ -4242,7 +4272,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 122,
+    "rating": 124,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -4545,6 +4575,21 @@
     "rating": 0,
     "updated": "2021-02-28",
     "url": "https://github.com/gorrioncillo/TaskwarriorHolidaysGcalendar"
+  },
+  {
+    "description": "If you ever wanted to track your time with mite in a workflow around taskwarrior, this is for you!",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "mitewarrior",
+    "owner": [
+      "grasegger"
+    ],
+    "rating": 0,
+    "updated": "2022-03-18",
+    "url": "https://github.com/grasegger/mitewarrior"
   },
   {
     "description": "Emacs support for Taskwarrior",
@@ -5622,7 +5667,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 264,
+    "rating": 263,
     "updated": "2022-02-06",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5802,7 +5847,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 678,
+    "rating": 684,
     "updated": "2022-03-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7902,7 +7947,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 89,
+    "rating": 91,
     "updated": "2021-12-14",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -8397,7 +8442,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 591,
+    "rating": 593,
     "updated": "2022-03-12",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9043,7 +9088,7 @@
       "skbolton"
     ],
     "rating": 162,
-    "updated": "2022-03-13",
+    "updated": "2022-03-18",
     "url": "https://github.com/skbolton/titan"
   },
   {
@@ -9433,7 +9478,7 @@
       "szaffarano"
     ],
     "rating": 1,
-    "updated": "2022-03-11",
+    "updated": "2022-03-16",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -9492,7 +9537,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -9732,7 +9777,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 635,
+    "rating": 636,
     "updated": "2022-03-04",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9987,8 +10032,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 327,
-    "updated": "2022-03-06",
+    "rating": 332,
+    "updated": "2022-03-15",
     "url": "https://github.com/vit-project/vit"
   },
   {
