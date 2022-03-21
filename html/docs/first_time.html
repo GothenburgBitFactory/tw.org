@@ -140,7 +140,7 @@ $ sudo apt-get install make</pre>
               development branch:
             </p>
 
-            <pre>$ git clone --recursive -b 2.6.0 https://github.com/GothenburgBitFactory/taskwarrior.git taskwarrior.git
+            <pre>$ git clone --recursive -b 2.6.2 https://github.com/GothenburgBitFactory/taskwarrior.git taskwarrior.git
 Cloning into 'taskwarrior.git'...
 remote: Counting objects: 55345, done.
 remote: Compressing objects: 100% (12655/12655), done.
@@ -166,14 +166,14 @@ $</pre>
 
             <pre>$ cd taskwarrior.git
 $ git branch -a
-* 2.6.0
-  remotes/origin/2.6.0
-  remotes/origin/HEAD -&gt; origin/2.6.0
+* 2.6.2
+  remotes/origin/2.6.2
+  remotes/origin/HEAD -&gt; origin/2.6.2
   remotes/origin/master
 $</pre>
 
             <p>
-              Here we see that 2.6.0 is the highest-numbered branch, and therefore
+              Here we see that 2.6.2 is the highest-numbered branch, and therefore
               the current development branch.  If there were a higher numbered branch,
               you would want to use that by doing this:
             </p>
@@ -315,8 +315,8 @@ Runtime:                        32.50 seconds</pre>
 
             <pre>$ cd taskwarrior.git
 $ git status
-On branch 2.6.0
-Your branch is up-to-date with 'origin/2.6.0'.
+On branch 2.6.2
+Your branch is up-to-date with 'origin/2.6.2'.
 Changes not staged for commit:
   (use "git add <file>..." to update what will be committed)
   (use "git checkout -- <file>..." to discard changes in working directory)
@@ -326,7 +326,7 @@ Changes not staged for commit:
 no changes added to commit (use "git add" and/or "git commit -a")
 $ git add doc/man/task.1.in
 $ git commit -m 'Docs: corrected typo in the main man page'
-[2.6.0 ddbb07e] Docs: corrected typo in the main man page
+[2.6.2 ddbb07e] Docs: corrected typo in the main man page
  1 file changed, 1 insertion(+)
 $</pre>
 
