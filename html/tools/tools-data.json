@@ -222,24 +222,9 @@
     "owner": [
       "AliGhahraei"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2021-12-30",
     "url": "https://github.com/AliGhahraei/just-start"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "AndreResh"
-    ],
-    "rating": 0,
-    "updated": "2022-03-18",
-    "url": "https://github.com/AndreResh/TaskServer"
   },
   {
     "description": null,
@@ -330,21 +315,6 @@
     "rating": 0,
     "updated": "2017-11-30",
     "url": "https://github.com/AnotherKamila/todo-viewer"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskServer",
-    "owner": [
-      "Ariful01303"
-    ],
-    "rating": 0,
-    "updated": "2022-01-27",
-    "url": "https://github.com/Ariful01303/taskServer"
   },
   {
     "description": "Script to convert JSON with tasks exported from Asana to Taskwarrior JSON",
@@ -492,7 +462,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 50,
+    "rating": 51,
     "updated": "2022-02-17",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -630,21 +600,6 @@
     "rating": 0,
     "updated": "2016-10-11",
     "url": "https://github.com/Doctor-Andonuts/taskwarriorandroid"
-  },
-  {
-    "description": "win\u4e0b\u5b9e\u73b0\u7c7b\u4f3cTaskwarrior\u7684\u5c0f\u4e1c\u897f",
-    "dormant": false,
-    "language": [
-      "C++"
-    ],
-    "license": "MIT License",
-    "name": "Todo_manager",
-    "owner": [
-      "EUye9IM"
-    ],
-    "rating": 0,
-    "updated": "2022-03-02",
-    "url": "https://github.com/EUye9IM/Todo_manager"
   },
   {
     "description": null,
@@ -807,8 +762,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 106,
-    "updated": "2022-03-15",
+    "rating": 107,
+    "updated": "2022-03-22",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
   {
@@ -1337,21 +1292,6 @@
     "url": "https://github.com/Nitesh7664/taskServer"
   },
   {
-    "description": "log timesheets in zoho from terminal in a taskwarrior inspired way",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "ztask",
-    "owner": [
-      "PabloRuizCuevas"
-    ],
-    "rating": 1,
-    "updated": "2022-01-19",
-    "url": "https://github.com/PabloRuizCuevas/ztask"
-  },
-  {
     "description": null,
     "dormant": false,
     "language": [
@@ -1547,21 +1487,6 @@
     "url": "https://github.com/Shekcon/Tasks-Web"
   },
   {
-    "description": "Sets up DSC or Davical on Ubuntu 20.04 with https://www.davx5.com/ for android. Integrate with Nextcloud and Taskwarrior.",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "Calendar-server",
-    "owner": [
-      "Simple-Setup"
-    ],
-    "rating": 0,
-    "updated": "2021-10-10",
-    "url": "https://github.com/Simple-Setup/Calendar-server"
-  },
-  {
     "description": "A web-based mobile todo-list app with taskwarrior-like features",
     "dormant": false,
     "language": [
@@ -1682,21 +1607,6 @@
     "url": "https://github.com/SteveMuise/TaskServer"
   },
   {
-    "description": "servidor de mern task",
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "SvantDreki"
-    ],
-    "rating": 0,
-    "updated": "2021-10-25",
-    "url": "https://github.com/SvantDreki/TaskServer"
-  },
-  {
     "description": "Time tracking web/cli app based on Taskwarrior",
     "dormant": true,
     "language": [
@@ -1755,21 +1665,6 @@
     "rating": 0,
     "updated": "2020-04-13",
     "url": "https://github.com/TaskOrganizer/TaskServer"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "TaskServerSide",
-    "owner": [
-      "TehilaPick"
-    ],
-    "rating": 0,
-    "updated": "2021-11-24",
-    "url": "https://github.com/TehilaPick/TaskServerSide"
   },
   {
     "description": "This is the story of how I am slowly becoming free",
@@ -1937,21 +1832,6 @@
     "url": "https://github.com/Zebradil/docker-taskd"
   },
   {
-    "description": "My Dockerfiles",
-    "dormant": false,
-    "language": [
-      "Dockerfile"
-    ],
-    "license": null,
-    "name": "dockerfiles",
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 2,
-    "updated": "2019-12-15",
-    "url": "https://github.com/Zebradil/dockerfiles"
-  },
-  {
     "description": "\u4de1\u2192\u4dc6 A Powerline segment for displaying information from Taskwarrior task manager",
     "dormant": false,
     "language": [
@@ -1963,7 +1843,7 @@
       "Zebradil"
     ],
     "rating": 50,
-    "updated": "2022-03-01",
+    "updated": "2022-03-21",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2295,21 +2175,6 @@
     "rating": 0,
     "updated": "2018-01-04",
     "url": "https://github.com/alerque/que-task"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "RestAPI_taskServer",
-    "owner": [
-      "alexandervcc"
-    ],
-    "rating": 0,
-    "updated": "2021-02-24",
-    "url": "https://github.com/alexandervcc/RestAPI_taskServer"
   },
   {
     "description": "ASP .NET CORE API",
@@ -2727,7 +2592,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 124,
+    "rating": 125,
     "updated": "2022-03-12",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -3402,7 +3267,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 505,
+    "rating": 506,
     "updated": "2022-02-27",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4173,6 +4038,21 @@
   },
   {
     "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "ThingsToTaskwarrior",
+    "owner": [
+      "evantravers"
+    ],
+    "rating": 1,
+    "updated": "2022-03-23",
+    "url": "https://github.com/evantravers/ThingsToTaskwarrior"
+  },
+  {
+    "description": null,
     "dormant": true,
     "language": [
       "Ruby"
@@ -4677,7 +4557,7 @@
     "owner": [
       "hamlinux"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2021-08-23",
     "url": "https://github.com/hamlinux/taskwarrior-GTD"
   },
@@ -4905,36 +4785,6 @@
     "rating": 13,
     "updated": "2016-01-11",
     "url": "https://github.com/iamnafets/taskwarrior_depends"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskServer",
-    "owner": [
-      "ibrahimfayyaz26"
-    ],
-    "rating": 0,
-    "updated": "2021-11-23",
-    "url": "https://github.com/ibrahimfayyaz26/taskServer"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskServerSql",
-    "owner": [
-      "ibrahimfayyaz26"
-    ],
-    "rating": 0,
-    "updated": "2022-02-22",
-    "url": "https://github.com/ibrahimfayyaz26/taskServerSql"
   },
   {
     "description": "Just a simple script that will help me get a daily report by email.",
@@ -5172,7 +5022,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 61,
+    "rating": 62,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -5402,21 +5252,6 @@
     "url": "https://github.com/jhmartin/taskwarrior-effort-tracker"
   },
   {
-    "description": "Taskwarrior for Android [TESTING]",
-    "dormant": false,
-    "language": [
-      "Kotlin"
-    ],
-    "license": null,
-    "name": "Androwarrior",
-    "owner": [
-      "jijames"
-    ],
-    "rating": 0,
-    "updated": "2019-08-06",
-    "url": "https://github.com/jijames/Androwarrior"
-  },
-  {
     "description": "A script to add planner tasks to taskwarrior",
     "dormant": true,
     "language": [
@@ -5503,7 +5338,7 @@
       "jonathanabennett"
     ],
     "rating": 7,
-    "updated": "2022-03-12",
+    "updated": "2022-03-24",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -5667,7 +5502,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 263,
+    "rating": 264,
     "updated": "2022-02-06",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5697,7 +5532,7 @@
     "owner": [
       "jspricke"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2021-12-27",
     "url": "https://github.com/jspricke/python-icstask"
   },
@@ -5742,7 +5577,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -5847,8 +5682,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 684,
-    "updated": "2022-03-05",
+    "rating": 695,
+    "updated": "2022-03-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6387,7 +6222,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2017-11-11",
     "url": "https://github.com/liloman/pomodoroTasks2"
   },
@@ -6402,7 +6237,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2017-03-29",
     "url": "https://github.com/liloman/warriors"
   },
@@ -7095,21 +6930,6 @@
     "rating": 2,
     "updated": "2014-12-30",
     "url": "https://github.com/metamorph/taskwarrior-journal"
-  },
-  {
-    "description": "interactive shell for taskwarror",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "itask",
-    "owner": [
-      "mhoff"
-    ],
-    "rating": 2,
-    "updated": "2018-07-06",
-    "url": "https://github.com/mhoff/itask"
   },
   {
     "description": "taskwarrior irc bot",
@@ -7917,7 +7737,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2021-06-04",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
@@ -7980,6 +7800,21 @@
     "rating": 6,
     "updated": "2017-10-24",
     "url": "https://github.com/oleg-fiksel/ansible-taskd"
+  },
+  {
+    "description": "A python CLI that extends taskwarrior for productivity scoreboard & gamification (quantified self)",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "taskquant",
+    "owner": [
+      "onlyphantom"
+    ],
+    "rating": 0,
+    "updated": "2022-03-23",
+    "url": "https://github.com/onlyphantom/taskquant"
   },
   {
     "description": "Videodateien mit dem Thema Taskwarrior vom Projekt openscreencast.de",
@@ -8443,7 +8278,7 @@
       "ralphbean"
     ],
     "rating": 593,
-    "updated": "2022-03-12",
+    "updated": "2022-03-23",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8732,21 +8567,6 @@
     "url": "https://github.com/ryansb/gitwarrior"
   },
   {
-    "description": "My dotfiles for GNU+Linux",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "salastro"
-    ],
-    "rating": 2,
-    "updated": "2021-08-15",
-    "url": "https://github.com/salastro/dotfiles"
-  },
-  {
     "description": "A simple pomodoro tool for task warrior",
     "dormant": false,
     "language": [
@@ -8835,21 +8655,6 @@
     "rating": 2,
     "updated": "2021-05-20",
     "url": "https://github.com/scmbradley/taskw-i3blocks"
-  },
-  {
-    "description": "Rust todo manager with notes",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "tasker",
-    "owner": [
-      "sebastian-steiner"
-    ],
-    "rating": 2,
-    "updated": "2019-04-03",
-    "url": "https://github.com/sebastian-steiner/tasker"
   },
   {
     "description": "Taskwarrior extension for vscode",
@@ -8942,21 +8747,6 @@
     "url": "https://github.com/sh78/taskwarrior-deduplicate"
   },
   {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "base16-taskwarrior",
-    "owner": [
-      "shebang"
-    ],
-    "rating": 0,
-    "updated": "2021-04-04",
-    "url": "https://github.com/shebang/base16-taskwarrior"
-  },
-  {
     "description": "The missing piece between browser and taskwarrior",
     "dormant": false,
     "language": [
@@ -8967,7 +8757,7 @@
     "owner": [
       "shenlebantongying"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2022-02-13",
     "url": "https://github.com/shenlebantongying/Taskwarrior-Connector"
   },
@@ -9075,21 +8865,6 @@
     "rating": 0,
     "updated": "2021-09-06",
     "url": "https://github.com/sjcoope/sjcnet-taskwarrior-ui"
-  },
-  {
-    "description": "My attempt at making dotfiles super portable",
-    "dormant": false,
-    "language": [
-      "Lua"
-    ],
-    "license": null,
-    "name": "titan",
-    "owner": [
-      "skbolton"
-    ],
-    "rating": 162,
-    "updated": "2022-03-18",
-    "url": "https://github.com/skbolton/titan"
   },
   {
     "description": "Taskwarrior sync server",
@@ -9777,7 +9552,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 636,
+    "rating": 637,
     "updated": "2022-03-04",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10032,8 +9807,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 332,
-    "updated": "2022-03-15",
+    "rating": 334,
+    "updated": "2022-03-22",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -10425,21 +10200,6 @@
     "rating": 0,
     "updated": "2021-06-27",
     "url": "https://github.com/yukiohmiya/taskserver-installation"
-  },
-  {
-    "description": "A tiny command-line orientated PKM tool inspired by Taskwarrior and daily logging.",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "Apache License 2.0",
-    "name": "eden",
-    "owner": [
-      "yulqen"
-    ],
-    "rating": 0,
-    "updated": "2022-02-04",
-    "url": "https://github.com/yulqen/eden"
   },
   {
     "description": "Process date and holiday data in taskwarrior",
