@@ -2157,7 +2157,7 @@
     "owner": [
       "alepeh"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2020-09-20",
     "url": "https://github.com/alepeh/taskwarrior-apple-reminders"
   },
@@ -2712,7 +2712,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -4048,7 +4048,7 @@
       "evantravers"
     ],
     "rating": 1,
-    "updated": "2022-03-23",
+    "updated": "2022-03-25",
     "url": "https://github.com/evantravers/ThingsToTaskwarrior"
   },
   {
@@ -5338,7 +5338,7 @@
       "jonathanabennett"
     ],
     "rating": 7,
-    "updated": "2022-03-24",
+    "updated": "2022-03-25",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -6027,7 +6027,7 @@
     "owner": [
       "languitar"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2018-08-21",
     "url": "https://github.com/languitar/taskwarrior-emails"
   },
@@ -6222,7 +6222,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2017-11-11",
     "url": "https://github.com/liloman/pomodoroTasks2"
   },
@@ -6852,7 +6852,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-03-11",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -6930,6 +6930,21 @@
     "rating": 2,
     "updated": "2014-12-30",
     "url": "https://github.com/metamorph/taskwarrior-journal"
+  },
+  {
+    "description": "interactive shell for taskwarror",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "itask",
+    "owner": [
+      "mhoff"
+    ],
+    "rating": 2,
+    "updated": "2018-07-06",
+    "url": "https://github.com/mhoff/itask"
   },
   {
     "description": "taskwarrior irc bot",
@@ -7632,7 +7647,7 @@
     "owner": [
       "nnist"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-05-27",
     "url": "https://github.com/nnist/taskschedule"
   },
@@ -7767,7 +7782,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 91,
+    "rating": 92,
     "updated": "2021-12-14",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -9552,7 +9567,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 637,
+    "rating": 636,
     "updated": "2022-03-04",
     "url": "https://github.com/tools-life/taskwiki"
   },
