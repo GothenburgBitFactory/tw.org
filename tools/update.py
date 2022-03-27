@@ -90,6 +90,8 @@ def search_github(names, keywords):
                 log_debug("Adding '{}' as {} (at {:.4f}, delta {:.4f})", repo.html_url, len(results), current, delta)
                 # GitHub API allows 30 requests per minute and delivers results
                 # in pages of 30 items. Add sleep to stay below rate limit.
+                rate_limit_search = client.get_rate_limit().search
+                log_debug("Rate limit: Remaining {} of {}, reset at {}", rate_limit_search.remaining, rate_limit_search.limit, rate_limit_search.reset.timestamp())
                 time.sleep(0.070)
 
     log_info("Received {} entries from GitHub", len(results))
