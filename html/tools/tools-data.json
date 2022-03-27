@@ -462,8 +462,8 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 51,
-    "updated": "2022-02-17",
+    "rating": 53,
+    "updated": "2022-03-27",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -1213,7 +1213,7 @@
       "Mossop"
     ],
     "rating": 1,
-    "updated": "2021-09-22",
+    "updated": "2022-03-27",
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
   {
@@ -1783,7 +1783,7 @@
       "VelychkoOleksandr"
     ],
     "rating": 0,
-    "updated": "2022-02-10",
+    "updated": "2022-03-26",
     "url": "https://github.com/VelychkoOleksandr/TaskServer-v2"
   },
   {
@@ -3327,7 +3327,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 257,
+    "rating": 256,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4152,7 +4152,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 124,
+    "rating": 125,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -4333,7 +4333,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2022-02-16",
+    "updated": "2022-03-26",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5682,7 +5682,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 695,
+    "rating": 694,
     "updated": "2022-03-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -5998,7 +5998,7 @@
       "ky-s"
     ],
     "rating": 1,
-    "updated": "2022-03-02",
+    "updated": "2022-03-25",
     "url": "https://github.com/ky-s/taskwarrior-electron"
   },
   {
@@ -6013,7 +6013,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-02-27",
+    "updated": "2022-03-26",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -8098,7 +8098,7 @@
       "pld-linux"
     ],
     "rating": 0,
-    "updated": "2021-02-28",
+    "updated": "2022-03-26",
     "url": "https://github.com/pld-linux/vit"
   },
   {
@@ -8352,7 +8352,7 @@
     "owner": [
       "rawrlolarawr"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-12-10",
     "url": "https://github.com/rawrlolarawr/graphql-express-taskserver"
   },
@@ -8548,7 +8548,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2022-03-07",
+    "updated": "2022-03-25",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9568,7 +9568,7 @@
       "tools-life"
     ],
     "rating": 636,
-    "updated": "2022-03-04",
+    "updated": "2022-03-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
