@@ -463,7 +463,7 @@
       "DCsunset"
     ],
     "rating": 53,
-    "updated": "2022-03-27",
+    "updated": "2022-03-28",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -2862,7 +2862,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2022-03-15",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -4038,21 +4038,6 @@
   },
   {
     "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "ThingsToTaskwarrior",
-    "owner": [
-      "evantravers"
-    ],
-    "rating": 1,
-    "updated": "2022-03-25",
-    "url": "https://github.com/evantravers/ThingsToTaskwarrior"
-  },
-  {
-    "description": null,
     "dormant": true,
     "language": [
       "Ruby"
@@ -4992,7 +4977,7 @@
     "owner": [
       "j6s"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2020-05-17",
     "url": "https://github.com/j6s/docker-taskwarrior-taskserver"
   },
@@ -5682,7 +5667,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 694,
+    "rating": 695,
     "updated": "2022-03-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7782,7 +7767,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 92,
+    "rating": 93,
     "updated": "2021-12-14",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
