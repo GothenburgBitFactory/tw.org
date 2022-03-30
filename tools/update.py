@@ -78,12 +78,15 @@ def search_github(names, keywords):
 
     first = time.perf_counter()
     last = first
+
     log_debug("Processing {} keywords", len(keywords))
     for keyword in keywords:
         for qualifier in ["topic", "name,description"]:
             log_debug("Querying GitHub for repositories with keyword '{}' in '{}'", keyword, qualifier)
+            repos = client.search_repositories(keyword, **{"in": f"{qualifier}"})
 
-            for repo in client.search_repositories(keyword, **{"in": f"{qualifier}"}):
+            for repo in repos:
+                log_debug("Walking a list of {} repos", repos.totalCount)
                 results.append(from_github_repo(repo))
                 current = time.perf_counter() - first
                 delta = current - last
@@ -91,9 +94,11 @@ def search_github(names, keywords):
                 log_debug("Adding '{}' as {} (at {:.4f}, delta {:.4f})", repo.html_url, len(results), current, delta)
                 # GitHub API allows 30 requests per minute and delivers results
                 # in pages of 30 items. Add sleep to stay below rate limit.
-                rate_limit_search = client.get_rate_limit().search
-                log_debug("Search rate limit: Remaining {} of {}, reset at {}", rate_limit_search.remaining, rate_limit_search.limit, rate_limit_search.reset.timestamp())
-                log_debug("Core rate limit: Remaining {} of {}, reset at {}", repo.raw_headers['x-ratelimit-remaining'], repo.raw_headers['x-ratelimit-limit'], repo.raw_headers['x-ratelimit-reset']);
+                log_debug("{} rate limit: Remaining {} of {}, reset at {}",
+                          repo.raw_headers['x-ratelimit-resource'].capitalize(),
+                          repo.raw_headers['x-ratelimit-remaining'],
+                          repo.raw_headers['x-ratelimit-limit'],
+                          repo.raw_headers['x-ratelimit-reset'])
                 time.sleep(0.070)
 
     log_info("Received {} entries from GitHub", len(results))
