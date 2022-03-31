@@ -18,7 +18,10 @@ class LogLevel(IntEnum):
 
 
 # Keywords used to search for projects
-KEYWORDS = ["taskwarrior", "taskserver"]
+KEYWORDS = [
+    "taskwarrior",
+    "taskserver"
+]
 
 # The number of days at which point we consider a repository dormant (3 years)
 DAYS_DORMANT = 3 * 365
@@ -86,20 +89,29 @@ def search_github(names, keywords):
             repos = client.search_repositories(keyword, **{"in": f"{qualifier}"})
 
             for repo in repos:
-                log_debug("Walking a list of {} repos", repos.totalCount)
                 results.append(from_github_repo(repo))
+
                 current = time.perf_counter() - first
                 delta = current - last
                 last = current
+
                 log_debug("Adding '{}' as {} (at {:.4f}, delta {:.4f})", repo.html_url, len(results), current, delta)
-                # GitHub API allows 30 requests per minute and delivers results
-                # in pages of 30 items. Add sleep to stay below rate limit.
-                log_debug("{} rate limit: Remaining {} of {}, reset at {}",
+
+                reset_time = float(repo.raw_headers['x-ratelimit-reset'])
+                remaining_requests = int(repo.raw_headers['x-ratelimit-remaining'])
+                log_debug("{} rate limit: {} of {} requests remaining, reset at {}",
                           repo.raw_headers['x-ratelimit-resource'].capitalize(),
-                          repo.raw_headers['x-ratelimit-remaining'],
+                          remaining_requests,
                           repo.raw_headers['x-ratelimit-limit'],
-                          repo.raw_headers['x-ratelimit-reset'])
-                time.sleep(0.070)
+                          reset_time)
+                current_time = time.time()
+                diff = reset_time - current_time if reset_time > current_time else 0
+                log_debug("{:.3f} s until rate limit reset", diff)
+                time_per_request = diff / max(remaining_requests, 1)
+                log_debug("Budget: {:.3f} s per request", time_per_request)
+                sleep_period = max(0.0, time_per_request - delta)
+                log_debug("Sleeping {:.3f} s", sleep_period)
+                time.sleep(sleep_period)
 
     log_info("Received {} entries from GitHub", len(results))
 
