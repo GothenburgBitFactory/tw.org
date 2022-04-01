@@ -91,7 +91,7 @@ def search_github(names, keywords):
             for repo in repos:
                 results.append(from_github_repo(repo))
 
-                current = time.perf_counter() - first
+                current = time.perf_counter()
                 delta = current - last
                 last = current
 
@@ -107,9 +107,9 @@ def search_github(names, keywords):
                 current_time = time.time()
                 diff = reset_time - current_time if reset_time > current_time else 0
                 log_debug("{:.3f} s until rate limit reset", diff)
-                time_per_request = diff / max(remaining_requests, 1)
+                time_per_request = diff / remaining_requests if remaining_requests > 0 else diff + 5
                 log_debug("Budget: {:.3f} s per request", time_per_request)
-                sleep_period = max(0.0, time_per_request - delta)
+                sleep_period = max(0.0, time_per_request)
                 log_debug("Sleeping {:.3f} s", sleep_period)
                 time.sleep(sleep_period)
 
