@@ -42,7 +42,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -462,7 +462,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2022-03-28",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -778,7 +778,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 2,
-    "updated": "2022-03-06",
+    "updated": "2022-03-30",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -793,7 +793,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2022-03-03",
+    "updated": "2022-03-30",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -807,7 +807,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 46,
+    "rating": 45,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -1318,7 +1318,7 @@
       "Pete-Hamlin"
     ],
     "rating": 0,
-    "updated": "2022-03-15",
+    "updated": "2022-03-31",
     "url": "https://github.com/Pete-Hamlin/gtd-rust-taskwarrior"
   },
   {
@@ -1947,7 +1947,7 @@
     "owner": [
       "abesto"
     ],
-    "rating": 12,
+    "rating": 11,
     "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
   },
@@ -2358,7 +2358,7 @@
   },
   {
     "description": "TaskMonad: xmonad + taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Haskell"
     ],
@@ -2592,7 +2592,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 125,
+    "rating": 127,
     "updated": "2022-03-12",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2652,7 +2652,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 118,
+    "rating": 120,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2863,7 +2863,7 @@
       "bradyt"
     ],
     "rating": 30,
-    "updated": "2022-03-15",
+    "updated": "2022-03-28",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3327,7 +3327,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 256,
+    "rating": 257,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -3540,6 +3540,21 @@
     "rating": 0,
     "updated": "2020-11-19",
     "url": "https://github.com/david-ellinger/docker-taskserver"
+  },
+  {
+    "description": "\u23f3 Soothing pastel theme for Taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior",
+    "owner": [
+      "davidbgonz"
+    ],
+    "rating": 0,
+    "updated": "2022-03-31",
+    "url": "https://github.com/davidbgonz/taskwarrior"
   },
   {
     "description": "taskwarrior i3block with clojure's babashka",
@@ -3837,7 +3852,7 @@
     "owner": [
       "dylandoamaral"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-03-14",
     "url": "https://github.com/dylandoamaral/taskwarrior-sky-fedora"
   },
@@ -4035,6 +4050,21 @@
     "rating": 0,
     "updated": "2022-03-15",
     "url": "https://github.com/ethueter/TaskServer"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "ThingsToTaskwarrior",
+    "owner": [
+      "evantravers"
+    ],
+    "rating": 1,
+    "updated": "2022-03-25",
+    "url": "https://github.com/evantravers/ThingsToTaskwarrior"
   },
   {
     "description": null,
@@ -5007,7 +5037,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 62,
+    "rating": 63,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -5323,7 +5353,7 @@
       "jonathanabennett"
     ],
     "rating": 7,
-    "updated": "2022-03-25",
+    "updated": "2022-03-30",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -5518,7 +5548,7 @@
       "jspricke"
     ],
     "rating": 8,
-    "updated": "2021-12-27",
+    "updated": "2022-03-28",
     "url": "https://github.com/jspricke/python-icstask"
   },
   {
@@ -5608,7 +5638,7 @@
       "kaiec"
     ],
     "rating": 2,
-    "updated": "2021-10-27",
+    "updated": "2022-03-31",
     "url": "https://github.com/kaiec/dotfiles"
   },
   {
@@ -5667,7 +5697,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 695,
+    "rating": 698,
     "updated": "2022-03-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -5998,7 +6028,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-03-26",
+    "updated": "2022-03-31",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -6105,21 +6135,6 @@
     "rating": 0,
     "updated": "2020-08-04",
     "url": "https://github.com/lemontree1991/TaskServer"
-  },
-  {
-    "description": "A set of configuration files for use with AlpineWSL under Windows 10",
-    "dormant": false,
-    "language": [
-      "Vim script"
-    ],
-    "license": "MIT License",
-    "name": "dotfiles-alpinewsl",
-    "owner": [
-      "leonfeng"
-    ],
-    "rating": 2,
-    "updated": "2021-01-25",
-    "url": "https://github.com/leonfeng/dotfiles-alpinewsl"
   },
   {
     "description": "taskwarrior for iOS",
@@ -8247,7 +8262,7 @@
     "owner": [
       "quandangv"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2020-10-12",
     "url": "https://github.com/quandangv/polybar-warrior"
   },
@@ -8278,7 +8293,7 @@
       "ralphbean"
     ],
     "rating": 593,
-    "updated": "2022-03-23",
+    "updated": "2022-03-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8577,7 +8592,7 @@
     "owner": [
       "samxsmith"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-02-17",
     "url": "https://github.com/samxsmith/taskwarrior-pomodoro"
   },
@@ -9552,7 +9567,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 636,
+    "rating": 639,
     "updated": "2022-03-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9807,8 +9822,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 334,
-    "updated": "2022-03-22",
+    "rating": 336,
+    "updated": "2022-03-28",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -9913,7 +9928,7 @@
       "weinshec"
     ],
     "rating": 0,
-    "updated": "2022-03-12",
+    "updated": "2022-04-01",
     "url": "https://github.com/weinshec/taskw"
   },
   {
@@ -9988,7 +10003,7 @@
       "wuweiss"
     ],
     "rating": 0,
-    "updated": "2021-09-22",
+    "updated": "2022-03-29",
     "url": "https://github.com/wuweiss/taskserver"
   },
   {
