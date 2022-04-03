@@ -1277,6 +1277,36 @@
     "url": "https://github.com/Ninlives/taskwarrior-telegram-bot"
   },
   {
+    "description": "Sample Repo for GSOC project TaskWarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "TaskWarrior",
+    "owner": [
+      "NishantSinghal19"
+    ],
+    "rating": 0,
+    "updated": "2022-04-02",
+    "url": "https://github.com/NishantSinghal19/TaskWarrior"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "taskwarrior-gsoc",
+    "owner": [
+      "NishantSinghal19"
+    ],
+    "rating": 0,
+    "updated": "2022-04-02",
+    "url": "https://github.com/NishantSinghal19/taskwarrior-gsoc"
+  },
+  {
     "description": "Backend using Nodejs, MongoDB, Express",
     "dormant": false,
     "language": [
@@ -2352,7 +2382,7 @@
     "owner": [
       "artur-shaik"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2019-01-09",
     "url": "https://github.com/artur-shaik/mutt2task"
   },
@@ -2862,7 +2892,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2022-03-28",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -5517,7 +5547,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 264,
+    "rating": 265,
     "updated": "2022-02-06",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7828,7 +7858,7 @@
       "onlyphantom"
     ],
     "rating": 0,
-    "updated": "2022-03-23",
+    "updated": "2022-04-02",
     "url": "https://github.com/onlyphantom/taskquant"
   },
   {
@@ -8293,7 +8323,7 @@
       "ralphbean"
     ],
     "rating": 593,
-    "updated": "2022-03-30",
+    "updated": "2022-04-03",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
