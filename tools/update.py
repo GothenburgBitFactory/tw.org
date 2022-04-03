@@ -89,7 +89,7 @@ def search_github(names, keywords):
     log_debug("Processing {} keywords", len(keywords))
     for keyword in keywords:
         for qualifier in ["topic", "name,description"]:
-            log_debug("Querying GitHub for repositories with keyword '{}' in '{}'", keyword, qualifier)
+            log_info("Querying GitHub for repositories with keyword '{}' in '{}'...", keyword, qualifier)
             repos = client.search_repositories(keyword, **{"in": f"{qualifier}"})
 
             for repo in repos:
