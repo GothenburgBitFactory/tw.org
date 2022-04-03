@@ -2,116 +2,46 @@
 title: "Taskwarrior - FAQ"
 ---
 
-FAQ - highlights from years of Q&A.
+# FAQ - highlights from years of Q&A.
 
-Have a question that\'s not here? [Ask us\...](mailto:support@taskwarrior.org)
+Have a question that\'s not here? [Ask us...](mailto:support@taskwarrior.org)
 
-#### Taskwarrior
+## Taskwarrior
 
-[Q: How do I implement Pomodoro?](#q1)\
-[Q: How do I remove an attribute?](#q2)\
-[Q: How do I list tasks that have no project?](#q3)\
-[Q: How do I filter tasks containing words that are also commands?](#q4)\
-[Q: How do I hide the change history when using the `info` report?](#q5)\
-[Q: How do I list tasks scheduled today?](#q6)\
-[Q: How do I bring back a task that I completed or deleted by mistake?](#q7)\
-[Q: How do I improve output readability?](#q8)\
-[Q: How do I set the wait date to be 2 days before the due date?](#q9)\
-[Q: How do I create a traditional GTD Next Actions list?](#q13)\
-[Q: Why have attribute modifiers (`urgency.over:10`) rather than the more
-readable and algebraic form (`urgency>10`)?](#q14)\
-[Q: How do I pipe a UUID into another task command?](#q15)\
-[Q: How do I get the UUID of the last task added?](#q16)\
-[Q: How do I change many due dates using one command?](#q17)\
-[Q: How do I search for tasks?](#q18)\
-[Q: How do I create a task that recurs on more than one day of the week?](#q19)\
-[Q: How can I include the time spent on a task in a custom report?](#q21)\
-[Q: How do I hide tasks that have unfinished dependencies?](#q22)\
-[Q: How do I record a task that is already completed?](#q23)\
-[Q: How do I include the recurrence frequency in a report?](#q24)\
-[Q: How do I solve \"Taskwarrior was built without GnuTLS support. Sync is not
-available.\"?](#q25)\
-[Q: How do I get color working?](#q26)\
-[Q: How do I fix this libgnutls-deb0.so.28 error?](#q27)\
+### Q: How do I implement Pomodoro?
 
-#### Timewarrior
+Taskwarrior currently doesn\'t support the pomodoro technique, not because it doesn\'t have all the necessary features, but because it has no way to notify the user if a given point in time has arrived.
+Remember: most of the time, Taskwarrior isn\'t running.
 
-[Q: How do I control Taskwarrior through Timewarrior?](#q11)\
+You can however use the pomodoro timer or any other timer software (KTeaTimer, Gnome\'s Tea Timer, Gnome\'s pomodoro shell extension, pyStopWatch, or any of the many timers out there), together with taskwarrior to manage and prioritize your ToDo list.
 
-#### Tasksh
+### Q: How do I remove an attribute?
 
-[Q: How do I use arrow keys in tasksh?](#q10)\
-[Q: How do I repeat the last command?](#q28)\
+Modify the attribute and give it a blank value:
 
-#### Taskserver
+    $ task 16 modify due:
 
-[Q: How do I setup Taskserver to use LetsEncrypt certs?](#q12)\
-[Q: Which version of GnuTLS shoud I use?](#q20)\
+Taskwarrior doesn\'t store blank values, so it deletes the attribute.
 
---------------------------------------------------------------------------------
+### Q: How do I list tasks that have no project?
 
-[]{#q1}
+There are a few ways:
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I implement Pomodoro?
-:::
+    $ task project.none: list
+    $ task project: list
+    $ task project != '' list
+    $ task -PROJECT list
 
--   Taskwarrior currently doesn\'t support the pomodoro technique, not because
-    it doesn\'t have all the necessary features, but because it has no way to
-    notify the user if a given point in time has arrived. Remember: most of the
-    time, Taskwarrior isn\'t running.
+The last example makes use of a virtual tag designed for this use case, and is the preferred mechanism.
 
-    You can however use the pomodoro timer or any other timer software
-    (KTeaTimer, Gnome\'s Tea Timer, Gnome\'s pomodoro shell extension,
-    pyStopWatch, or any of the many timers out there), together with taskwarrior
-    to manage and prioritize your ToDo list.
-:::
+To list tasks that do have a project assigned, you can use these alternates:
 
-[]{#q2}
+    $ task project.any: list
+    $ task project.not: list
+    $ task project == '' list
+    $ task +PROJECT list
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I remove an attribute?
-:::
-
--   Modify the attribute and give it a blank value:
-
-        $ task 16 modify due:
-
-    Taskwarrior doesn\'t store blank values, so it deletes the attribute.
-:::
-
-[]{#q3}
-
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I list tasks that have no project?
-:::
-
--   There are a few ways:
-
-        $ task project.none: list
-        $ task project: list
-        $ task project != '' list
-        $ task -PROJECT list
-
-    The last example makes use of a virtual tag designed for this use case, and
-    is the preferred mechanism.
-
-    To list tasks that do have a project assigned, you can use these alternates:
-
-        $ task project.any: list
-        $ task project.not: list
-        $ task project == '' list
-        $ task +PROJECT list
-:::
-
-[]{#q4}
-
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I filter tasks containing words that are also commands?
+### Q: How do I filter tasks containing words that are also commands?
 
 I have tasks with descriptions such as:
 
@@ -126,489 +56,338 @@ When I try to filter them like this, it runs the command instead:
     ...
     $ tasĸ info
     ...
-:::
 
--   There is an operator `--` intended for this purpose:
+There is an operator `--` intended for this purpose:
 
-        $ task -- report
-        ...
-        $ task -- info
-        ...
+    $ task -- report
+    ...
+    $ task -- info
+    ...
 
-    The `--` operator is a directive that tells Taskwarrior to just treat all
-    subsequent arguments as plain words. It is also a good way to add a
-    description that might contain things like `dep:`, `proj:`, tags or
-    modifiers.
-:::
+The `--` operator is a directive that tells Taskwarrior to just treat all subsequent arguments as plain words.
+It is also a good way to add a description that might contain things like `dep:`, `proj:`, tags or modifiers.
 
-[]{#q5}
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I hide the change history when using the `info` report?
-:::
+### Q: How do I hide the change history when using the `info` report?
 
--   You need to turn off journalling, like this:
+You need to turn off journaling, like this:
 
-        $ task config journal.info off
+    $ task config journal.info off
 
-    See \'man taskrc\' for more details.
-:::
+See `man taskrc` for more details.
 
-[]{#q6}
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I list tasks scheduled today?
-:::
+### Q: How do I list tasks scheduled today?
 
--   To filter tasks within a date range:
+To filter tasks within a date range:
 
-        $ task scheduled \> today and scheduled \< tomorrow list
+    $ task scheduled \> today and scheduled \< tomorrow list
 
-    Note how filter operators need to be escaped, otherwise your shell will
-    think it knows what to do. Alternately, do this:
+Note how filter operators need to be escaped, otherwise your shell will think it knows what to do.
+Alternately, do this:
 
-        $ task scheduled.after:today and scheduled.before:tomorrow list
-:::
+    $ task scheduled.after:today and scheduled.before:tomorrow list
 
-[]{#q7}
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I bring back a task that I completed or deleted by mistake?
-:::
+### Q: How do I bring back a task that I completed or deleted by mistake?
 
--   Simply changing the `status` of the task to `pending` is enough, Taskwarrior
-    takes care of the rest:
+Simply changing the `status` of the task to `pending` is enough, Taskwarrior takes care of the rest:
 
-        $ task <uuid> modify status:pending
+    $ task <uuid> modify status:pending
 
-    You can obtain the `<uuid>` in several ways. Here is how to see the 10 most
-    recently completed or deleted tasks, with the most recent shown first:
+You can obtain the `<uuid>` in several ways.
+Here is how to see the 10 most recently completed or deleted tasks, with the most recent shown first:
 
-        $ task limit:10 \( status:completed or status:deleted \) rc.report.all.sort:end- all
-:::
+    $ task limit:10 \( status:completed or status:deleted \) rc.report.all.sort:end- all
 
-[]{#q8}
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I improve output readability?
-:::
+### Q: How do I improve output readability?
 
--   You can use line breaks which allow blank lines between sort keys. See
-    [Report](/docs/report.html#custom) for details. You can also use alternating
-    line colors setting, which helps visually separate the tasks.
+You can use line breaks which allow blank lines between sort keys.
+See [Report](/docs/report/#custom-reports) for details.
+You can also use alternating line colors setting, which helps visually separate the tasks.
 
-        $ task show color.alternate
-        ...
-        $ task color legend
-        ...
+    $ task show color.alternate
+    ...
+    $ task color legend
+    ...
 
-    Most color themes already support this.
-:::
+Most color themes already support this.
 
-[]{#q9}
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I set the wait date to be 2 days before the due date?
-:::
+### Q: How do I set the wait date to be 2 days before the due date?
 
--   Taskwarrior can do date math, so use this:
+Taskwarrior can do date math, so use this:
 
-        $ task add ... due:eom wait:due-2days
+    $ task add ...
+due:eom wait:due-2days
 
-    That `due-2days` value is evaluated by Taskwarrior, using the value you
-    specified for the due date and subtracting two days. You can also verify
-    that date using the `calc` command:
+That `due-2days` value is evaluated by Taskwarrior, using the value you specified for the due date and subtracting two days.
+You can also verify that date using the `calc` command:
 
-        $ task calc eom-2days
-        2018-01-30T00:00:00
-:::
+    $ task calc eom-2days
+    2018-01-30T00:00:00
 
-[]{#q10}
+## Tasksh
 
-::: {.panel .panel-warning}
-::: {.panel-heading}
-Q: How do I use arrow keys in tasksh?
-:::
+### Q: How do I use arrow keys in tasksh?
 
--   Tasksh supports `readline`, so if you are building from source, install the
-    dev readline library first.
-:::
+Tasksh supports `readline`, so if you are building from source, install the dev readline library first.
 
-[]{#q11}
+## Timewarrior
 
-::: {.panel .panel-success}
-::: {.panel-heading}
-Q: How do I control Taskwarrior through Timewarrior?
+### Q: How do I control Taskwarrior through Timewarrior?
 
-For example, if I start tracking in Timewarrior, how do I make the task active
-also?
-:::
+For example, if I start tracking in Timewarrior, how do I make the task active also?
 
--   Taskwarrior uses Timewarrior to track time, via a Taskwarrior hook. You just
-    start/stop tasks using Taskwarrior, and Timewarrior will start/stop
-    tracking.
+Taskwarrior uses Timewarrior to track time, via a Taskwarrior hook.
+You just start/stop tasks using Taskwarrior, and Timewarrior will start/stop tracking.
 
-    If you start/stop in Timewarrior, it does not control Taskwarrior.
-:::
+If you start/stop in Timewarrior, it does not control Taskwarrior.
 
-[]{#q12}
+## Taskserver
 
-::: {.panel .panel-primary}
-::: {.panel-heading}
-Q: How do I setup Taskserver to use LetsEncrypt certs?
-:::
+### Q: How do I set up Taskserver to use LetsEncrypt certs?
 
--   On the Taskserver server:
+On the Taskserver server:
 
-    -   Generate a self-signed CA (use `taskd/pki/generate.ca`)
+Generate a self-signed CA (use `taskd/pki/generate.ca`)
 
-    -   Get a copy of your domain\'s TLS certificates from Lets Encrypt
+Get a copy of your domain\'s TLS certificates from Lets Encrypt
 
-    -   Configure Taskserver:
+Configure Taskserver:
 
-            ca.cert=ca.cert.pem
-            server.cert=example.com.crt
-            server.key=example.com.key
-            server=0.0.0.0:53589
+        ca.cert=ca.cert.pem
+        server.cert=example.com.crt
+        server.key=example.com.key
+        server=0.0.0.0:53589
 
-    On each client:
+On each client:
 
-    -   Get a self-signed client keypair from the Taskserver
-        (`taskd/pki/generate.client`)
+Get a self-signed client keypair from the Taskserver
+    (`taskd/pki/generate.client`)
 
-    -   Get a copy of the DST Root CA X3
+Get a copy of the DST Root CA X3
 
-    -   Configure Taskwarrior:
+Configure Taskwarrior:
 
-            taskd.certificate=client.cert.pem
-            taskd.key=client.key.pem
-            taskd.ca=DST_ROOT_CA_X3.crt
-            taskd.server=example.com:53589
-            taskd.credentials=Group/Name/UUID
+        taskd.certificate=client.cert.pem
+        taskd.key=client.key.pem
+        taskd.ca=DST_ROOT_CA_X3.crt
+        taskd.server=example.com:53589
+        taskd.credentials=Group/Name/UUID
 
-    Client certificates and user credentials are created per the docs, as
-    normal. Client certificates can be revoked by generating a CRL file and
-    pointing server.crl to it in the Taskserver config. See the bottom of
-    `taskd/pki/generate.crl` for invocations. For personal installations, it is
-    easier just to regenerate the self-signed CA and distribute new client
-    certs.
-:::
+Client certificates and user credentials are created per the docs, as normal.
+Client certificates can be revoked by generating a CRL file and pointing `server.crl` to it in the Taskserver config.
+See the bottom of `taskd/pki/generate.crl` for invocations.
+For personal installations, it is easier just to regenerate the self-signed CA and distribute new client certs.
 
-[]{#q13}
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I create a traditional GTD Next Actions list?
+### Q: How do I create a traditional GTD Next Actions list?
 
-I am looking to create a custom report that lists all pending tasks without a
-project and the single most urgent from each project.
-:::
+I am looking to create a custom report that lists all pending tasks without a project and the single most urgent from each project.
 
--   The report you describe is not possible as a single custom report because it
-    combines multiple independent filters. It could be done as a series of
-    separate reports (one for the project-less, one for each project), but
-    that\'s not convenient.
+The report you describe is not possible as a single custom report because it combines multiple independent filters.
+It could be done as a series of separate reports (one for the project-less, one for each project), but that\'s not convenient.
 
-    What would be better is to instead write a script that automates all this,
-    pulling together a list of task UUIDs and presenting one result report. Like
-    this:
+What would be better is to instead write a script that automates all this, pulling together a list of task UUIDs and presenting one result report.
+Like this:
 
-    <https://taskwarrior.org/download/gtdnext.sh>
+<https://taskwarrior.org/download/gtdnext.sh>
 
-    It\'s a bash script, and easily modifiable.
-:::
+It\'s a bash script, and easily modifiable.
 
-[]{#q14}
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: Why have attribute modifiers (`urgency.over:10`) rather than the more
-readable and algebraic form (`urgency>10`)?
-:::
+### Q: Why have attribute modifiers (`urgency.over:10`) rather than the more readable and algebraic form (`urgency>10`)?
 
--   Taskwarrior already supports both forms. The attribute modifier form is
-    older and predates more complex filter support. The algebraic form requires
-    that you escape any characters that the shell will otherwise interpret.
+Taskwarrior already supports both forms.
+The attribute modifier form is older and predates more complex filter support.
+The algebraic form requires that you escape any characters that the shell will otherwise interpret.
 
-    At some point the attribute modifier form will likely be deprecated. The
-    algebraic form is already much more capable.
+At some point the attribute modifier form will likely be deprecated.
+The algebraic form is already much more capable.
 
-        $ task help
-        ...
-        Attribute modifiers make filters more precise.  Supported modifiers are:
+    $ task help
+    ...
+    Attribute modifiers make filters more precise.
 
-          Modifiers         Example            Equivalent           Meaning
-          ----------------  -----------------  -------------------  -------------------------
-                            due:today          due = today          Fuzzy match
-          not               due.not:today      due != today         Fuzzy non-match
-          before, below     due.before:today   due < tomorrow       Exact date comparison
-          after, above      due.after:today    due > tomorrow       Exact date comparison
-          none              project.none:      project == ''        Empty
-          any               project.any:       project !== ''       Not empty
-          is, equals        project.is:x       project == x         Exact match
-          isnt              project.isnt:x     project !== x        Exact non-match
-          has, contains     desc.has:Hello     desc ~ Hello         Pattern match
-          hasnt,            desc.hasnt:Hello   desc !~ Hello        Pattern non-match
-          startswith, left  desc.left:Hel      desc ~ '^Hel'        Beginning match
-          endswith, right   desc.right:llo     desc ~ 'llo$'        End match
-          word              desc.word:Hello    desc ~ '\bHello\b'   Boundaried word match
-          noword            desc.noword:Hello  desc !~ '\bHello\b'  Boundaried word non-match
-        ...
+Supported modifiers are:
 
-    See \'man task\', for the `ATTRIBUTE MODIFIERS` and
-    `EXPRESSIONS AND OPERATORS` sections.
-:::
+      Modifiers         Example            Equivalent           Meaning
+      ----------------  -----------------  -------------------  -------------------------
+                        due:today          due = today          Fuzzy match
+      not               due.not:today      due != today         Fuzzy non-match
+      before, below     due.before:today   due < tomorrow       Exact date comparison
+      after, above      due.after:today    due > tomorrow       Exact date comparison
+      none              project.none:      project == ''        Empty
+      any               project.any:       project !== ''       Not empty
+      is, equals        project.is:x       project == x         Exact match
+      isnt              project.isnt:x     project !== x        Exact non-match
+      has, contains     desc.has:Hello     desc ~ Hello         Pattern match
+      hasnt,            desc.hasnt:Hello   desc !~ Hello        Pattern non-match
+      startswith, left  desc.left:Hel      desc ~ '^Hel'        Beginning match
+      endswith, right   desc.right:llo     desc ~ 'llo$'        End match
+      word              desc.word:Hello    desc ~ '\bHello\b'   Boundaried word match
+      noword            desc.noword:Hello  desc !~ '\bHello\b'  Boundaried word non-match
+    ...
 
-[]{#q15}
+See \'man task\', for the `ATTRIBUTE MODIFIERS` and `EXPRESSIONS AND OPERATORS` sections.
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I pipe a UUID into another task command?
-:::
 
--   You can use Bash subprocess syntax to achieve this:
+### Q: How do I pipe a UUID into another task command?
 
-        $ task $(task _uuids +FOO) modify -FOO +BAR
-:::
+You can use Bash subprocess syntax to achieve this:
 
-[]{#q16}
+    $ task $(task _uuids +FOO) modify -FOO +BAR
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I get the UUID of the last task added?
-:::
 
--   There is a `LATEST` virtual tag for just this. It corresponds to the most
-    recently added task.
+### Q: How do I get the UUID of the last task added?
 
-        $ task +LATEST uuids
-:::
+There is a `LATEST` virtual tag for just this.
+It corresponds to the most recently added task.
 
-[]{#q17}
+    $ task +LATEST uuids
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I change many due dates using one command?
 
-Something come up yesterday and completely derailed my day. As a result, I have
-many tasks that need to be rescheduled to today. What command can I use to
-change the due date of tasks I missed yesterday to be due today?
-:::
+### Q: How do I change many due dates using one command?
 
--   This will change all overdue tasks to be due today:
+Something come up yesterday and completely derailed my day.
+As a result, I have many tasks that need to be rescheduled to today.
+What command can I use to change the due date of tasks I missed yesterday to be due today?
 
-        $ task +OVERDUE mod due:today
+This will change all overdue tasks to be due today:
 
-    Depending on whether you want all overdue tasks or not, you\'ll need to
-    adjust the filter.
-:::
+    $ task +OVERDUE mod due:today
 
-[]{#q18}
+Depending on whether you want all overdue tasks or not, you\'ll need to adjust the filter.
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I search for tasks?
-:::
 
--   There are several ways to search the description and annotations of your
-    tasks. The first is to simply look for a search term:
+### Q: How do I search for tasks?
 
-        $ task ABC list
+There are several ways to search the description and annotations of your tasks.
+The first is to simply look for a search term:
 
-    The second uses the `/.../` syntax, which uses regular expressions. This is
-    equivalent to the above form:
+    $ task ABC list
 
-        $ task /ABC/ list
+The second uses the `/.../` syntax, which uses regular expressions.
+This is equivalent to the above form:
 
-    Regular expressions support sophisticated search terms:
+    $ task /ABC/ list
 
-        $ task /[A-Z]../ list
-:::
+Regular expressions support sophisticated search terms:
 
-[]{#q19}
+    $ task /[A-Z]../ list
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I create a task that recurs on more than one day of the week?
-:::
 
--   This is not supported, but you can simulate this by creating multiple tasks
-    due weekly on different days:
+### Q: How do I create a task that recurs on more than one day of the week?
 
-        $ task add Do the thing due:monday recur:weekly
-        $ task add Do the thing due:friday recur:weekly
-:::
+This is not supported, but you can simulate this by creating multiple tasks due weekly on different days:
 
-[]{#q20}
+    $ task add Do the thing due:monday recur:weekly
+    $ task add Do the thing due:friday recur:weekly
 
-::: {.panel .panel-primary}
-::: {.panel-heading}
-Q: Which version of GnuTLS shoud I use?
-:::
 
--   As a security component, it is best for you to use the latest available
-    version.
-:::
+### Q: Which version of GnuTLS should I use?
 
-[]{#q21}
+As a security component, it is best for you to use the latest available version.
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How can I include the time spent on a task in a custom report?
-:::
 
--   Total active time is not a reportable field. It\'s not even a field, it\'s
-    simply aggregated from the `undo.data` file. As such it is a faithful
-    account of how long a task was in the active state, but that is not what is
-    needed for time tracking.
+### Q: How can I include the time spent on a task in a custom report?
 
-    Proper time tracking allows for corrections, and mining the `undo.data` file
-    does not permit corrections. Many people confuse this for time tracking,
-    which it is not.
+Total active time is not a reportable field.
+It\'s not even a field, it\'s simply aggregated from the `undo.data` file.
+As such it is a faithful account of how long a task was in the active state, but that is not what is needed for time tracking.
 
-    You can achieve limited time tracking with hook scripts, and here are two
-    such examples:
+Proper time tracking allows for corrections, and mining the `undo.data` file does not permit corrections.
+Many people confuse this for time tracking, which it is not.
 
-    -   <https://github.com/kostajh/taskwarrior-time-tracking-hook>
-    -   <https://github.com/coddingtonbear/taskwarrior-timebook-hook>
+You can achieve limited time tracking with hook scripts, and here are two such examples:
 
-    The real answer, though, is to [Use Timewarrior!](https://timewarrior.net)
-:::
+<https://github.com/kostajh/taskwarrior-time-tracking-hook>
+<https://github.com/coddingtonbear/taskwarrior-timebook-hook>
 
-[]{#q22}
+The real answer, though, is to [Use Timewarrior!](https://timewarrior.net)
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I hide tasks that have unfinished dependencies?
-:::
 
--   Try
+### Q: How do I hide tasks that have unfinished dependencies?
 
-        $ task -BLOCKED
+Try
 
-    The virtual tags that are relevant for the present situation are BLOCKED
-    and/or UNBLOCKED.
-:::
+    $ task -BLOCKED
 
-[]{#q23}
+The virtual tags that are relevant for the present situation are BLOCKED and/or UNBLOCKED.
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I record a task that is already completed?
-:::
 
--   There are several ways to do this. The simplest is to use the `log` command,
-    which creates a new task and immediately sets the status to `completed`:
+### Q: How do I record a task that is already completed?
 
-        $ task log ...
+There are several ways to do this.
+The simplest is to use the `log` command, which creates a new task and immediately sets the status to `completed`:
 
-    You can achieve the same thing using the `add` command:
+    $ task log ...
 
-        $ task add status:completed ...
+You can achieve the same thing using the `add` command:
 
-    Furthermore if you wish to record the date the task was completed:
+    $ task add status:completed ...
 
-        $ task log end:2018-01-22 ...
-:::
+Furthermore, if you wish to record the date the task was completed:
 
-[]{#q24}
+    $ task log end:2018-01-22 ...
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I include the recurrence frequency in a report?
-:::
 
--   Try this command:
+### Q: How do I include the recurrence frequency in a report?
 
-        $ task columns
+Try this command:
 
-    This will give you a list of all the columns and their formats that you can
-    use in a report. What you are looking for is the `recur` column.
-:::
+    $ task columns
 
-[]{#q25}
+This will give you a list of all the columns and their formats that you can use in a report.
+What you are looking for is the `recur` column.
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I solve \"Taskwarrior was built without GnuTLS support. Sync is not
-available.\"?
-:::
 
--   Install `libgnutls-dev` and rebuild:
+### Q: How do I solve \"Taskwarrior was built without GnuTLS support. Sync is not available.\"?
 
-        $ make clean
-        $ rm CMakeCache.txt
-        $ cmake .
-        $ make
-        $ sudo make install
-:::
+Install `libgnutls-dev` and rebuild:
 
-[]{#q26}
+    $ make clean
+    $ rm CMakeCache.txt
+    $ cmake .
+    $ make
+    $ sudo make install
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I get color working?
-:::
 
--   Try the command:
+### Q: How do I get color working?
 
-        $ task color
+Try the command:
 
-    Does it show colors?
+    $ task color
 
-    This can happen because there are no tasks in the output that matches any of
-    the color rules. You will need to provide metadata, such as due dates, to
-    get any color rules to match.
-:::
+Does it show colors?
 
-[]{#q27}
+This can happen because there are no tasks in the output that matches any of the color rules.
+You will need to provide metadata, such as due dates, to get any color rules to match.
 
-::: {.panel .panel-info}
-::: {.panel-heading}
-Q: How do I fix this libgnutls-deb0.so.28 error?
 
-Upon upgrading from Ubuntu 15.10 to 16.04 I am now seeing the following error
-message when I try to run Taskwarrior:
+### Q: How do I fix this libgnutls-deb0.so.28 error?
 
-    error while loading shared libraries: libgnutls-deb0.so.28: cannot open
-    shared object file: No such file or directory
+Upon upgrading from Ubuntu 15.10 to 16.04 I am now seeing the following error message when I try to run Taskwarrior:
 
-Gnutls was already installed and had been working on my 15.10 installation for
-some time now. I attempted to fix it by uninstalling and reinstalling gnutls but
-it still doesn\'t work.
-:::
+    error while loading shared libraries: libgnutls-deb0.so.28: cannot open shared object file: No such file or directory
 
--   Your Taskwarrior was built using a version of GnuTLS that is no longer
-    installed. If you built Taskwarrior from source, then rebuild.
+Gnutls was already installed and had been working on my 15.10 installation for some time now.
+I attempted to fix it by uninstalling and reinstalling gnutls, but it still doesn\'t work.
 
-    If you installed Taskwarrior from a binary package, uninstall and reinstall
-    Taskwarrior.
-:::
+Your Taskwarrior was built using a version of GnuTLS that is no longer installed.
+If you built Taskwarrior from source, then rebuild.
 
-[]{#q28}
+If you installed Taskwarrior from a binary package, uninstall and reinstall Taskwarrior.
 
-::: {.panel .panel-warning}
-::: {.panel-heading}
-Q: How do I repeat the last command?
-:::
 
--   In tasksh like most linux shell, you can navigate the list of your last
-    input commands by using the UP/DOWN arrows for history navigation and
-    PageUp/PageDown for prefixed history navigation (other names may apply
-    here).
+### Q: How do I repeat the last command?
 
-    With prefixed history navigation you can start typing a command, say mod and
-    by using PageUp/PageDown you will only browse history commands that start by
-    mod, whereas full history ignores any input that already exists and simply
-    navigates history in order.
+In tasksh like most linux shell, you can navigate the list of your last input commands by using the UP/DOWN arrows for history navigation and PageUp/PageDown for prefixed history navigation (other names may apply here).
 
-    A: if ( e.g. after changing from 2.3.0 to 2.5.1) in tasksh the
+With prefixed history navigation you can start typing a command, say mod and by using PageUp/PageDown you will only browse history commands that start by mod, whereas full history ignores any input that already exists and simply navigates history in order.
 
-    Tasksh supports `libreadline`, but make sure the development version is
-    installed, and rebuild.
-:::
+A: if ( e.g. after changing from 2.3.0 to 2.5.1) in tasksh the
+
+Tasksh supports `libreadline`, but make sure the development version is installed, and rebuild.
