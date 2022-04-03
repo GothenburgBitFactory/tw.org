@@ -11,11 +11,11 @@ jobs:
       - name: Update tools
         env:
           GITHUB_API_KEY: ${{ secrets.GITHUB_TOKEN }}
+          LOG_LEVEL: "DEBUG"
         run: |
           python3 -m venv /tmp/venv
           /tmp/venv/bin/pip install --upgrade pip
           /tmp/venv/bin/pip install -r tools/requirements.txt
-          export LOG_LEVEL=DEBUG
           /tmp/venv/bin/python tools/update.py html/tools/tools-data.json
       - name: Create Pull Request
         id: cpr
