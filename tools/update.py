@@ -11,10 +11,11 @@ from json import JSONDecodeError
 
 
 class LogLevel(IntEnum):
-    DEBUG = 0
-    INFO = 1
-    WARN = 2
-    ERROR = 3
+    TRACE = 0
+    DEBUG = 1
+    INFO = 2
+    WARN = 3
+    ERROR = 4
 
 
 # Keywords used to search for projects
@@ -37,6 +38,12 @@ def log_message(message, *args, label=None):
         print(message.format(*args))
     else:
         print("[{}]".format(label), message.format(*args))
+
+
+def log_trace(message, *args):
+    if LOG_LEVEL > LogLevel.TRACE:
+        return
+    log_message(message, *args, label="TRACE")
 
 
 def log_debug(message, *args):
@@ -79,9 +86,6 @@ def search_github(names, keywords):
         log_debug("Querying GitHub for repository '{}'", name)
         results.append(from_github_repo(client.get_repo(name)))
 
-    first = time.perf_counter()
-    last = first
-
     log_debug("Processing {} keywords", len(keywords))
     for keyword in keywords:
         for qualifier in ["topic", "name,description"]:
@@ -90,26 +94,10 @@ def search_github(names, keywords):
 
             for repo in repos:
                 results.append(from_github_repo(repo))
+                log_debug("Adding '{}' as {}", repo.html_url, len(results))
 
-                current = time.perf_counter()
-                delta = current - last
-                last = current
+                sleep_period = calculate_sleep(repo.raw_headers)
 
-                log_debug("Adding '{}' as {} (at {:.4f}, delta {:.4f})", repo.html_url, len(results), current, delta)
-
-                reset_time = float(repo.raw_headers['x-ratelimit-reset'])
-                remaining_requests = int(repo.raw_headers['x-ratelimit-remaining'])
-                log_debug("{} rate limit: {} of {} requests remaining, reset at {}",
-                          repo.raw_headers['x-ratelimit-resource'].capitalize(),
-                          remaining_requests,
-                          repo.raw_headers['x-ratelimit-limit'],
-                          reset_time)
-                current_time = time.time()
-                diff = reset_time - current_time if reset_time > current_time else 0
-                log_debug("{:.3f} s until rate limit reset", diff)
-                time_per_request = diff / remaining_requests if remaining_requests > 0 else diff + 5
-                log_debug("Budget: {:.3f} s per request", time_per_request)
-                sleep_period = max(0.0, time_per_request)
                 log_debug("Sleeping {:.3f} s", sleep_period)
                 time.sleep(sleep_period)
 
@@ -154,6 +142,25 @@ def is_dormant(pushed_at):
     """
     elapsed = datetime.datetime.now() - pushed_at
     return elapsed.days > DAYS_DORMANT
+
+
+def calculate_sleep(headers):
+    resource_name = headers['x-ratelimit-resource'].capitalize()
+    remaining_requests = int(headers['x-ratelimit-remaining'])
+    max_requests = headers['x-ratelimit-limit']
+    reset_time = float(headers['x-ratelimit-reset'])
+
+    log_trace("{} rate limit: {} of {} requests remaining",
+              resource_name,
+              remaining_requests,
+              max_requests)
+
+    current_time = time.time()
+    diff = reset_time - current_time if reset_time > current_time else 0
+    log_trace("{:.3f} s until rate limit reset ({})", diff, reset_time)
+    sleep_period = diff / remaining_requests if remaining_requests > 0 else diff + 5
+
+    return sleep_period
 
 
 def filter_tools(inputs):
