@@ -2622,7 +2622,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 127,
+    "rating": 129,
     "updated": "2022-03-12",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2682,7 +2682,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 120,
+    "rating": 121,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3297,7 +3297,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 506,
+    "rating": 507,
     "updated": "2022-02-27",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5383,7 +5383,7 @@
       "jonathanabennett"
     ],
     "rating": 7,
-    "updated": "2022-03-30",
+    "updated": "2022-04-04",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -5727,7 +5727,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 698,
+    "rating": 701,
     "updated": "2022-03-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6718,7 +6718,7 @@
       "maralorn"
     ],
     "rating": 6,
-    "updated": "2021-12-17",
+    "updated": "2022-04-03",
     "url": "https://github.com/maralorn/kassandra"
   },
   {
@@ -6748,7 +6748,7 @@
       "maralorn"
     ],
     "rating": 1,
-    "updated": "2020-07-07",
+    "updated": "2022-04-03",
     "url": "https://github.com/maralorn/taskwarrior-git-backend"
   },
   {
@@ -7858,7 +7858,7 @@
       "onlyphantom"
     ],
     "rating": 0,
-    "updated": "2022-04-02",
+    "updated": "2022-04-03",
     "url": "https://github.com/onlyphantom/taskquant"
   },
   {
@@ -9302,21 +9302,6 @@
     "url": "https://github.com/szaffarano/gotas"
   },
   {
-    "description": "A Taskserver for Taskwarrior",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "szczepad"
-    ],
-    "rating": 0,
-    "updated": "2021-11-23",
-    "url": "https://github.com/szczepad/taskserver"
-  },
-  {
     "description": "Hook for task warrior that stores stop and start times in task annotations",
     "dormant": true,
     "language": [
@@ -9597,7 +9582,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 639,
+    "rating": 640,
     "updated": "2022-03-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
