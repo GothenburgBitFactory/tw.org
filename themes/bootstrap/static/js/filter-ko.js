@@ -4,10 +4,10 @@
 
 function Tool(data) {
     this.description = data.description;
+    this.dormant = data.dormant;
     this.language = data.language;
     this.license = data.license;
     this.name = data.name;
-    this.obsolete = data.obsolete;
     this.owner = data.owner;
     this.rating = data.rating === undefined ? 1 : data.rating;
     this.updated = data.updated;
@@ -52,7 +52,7 @@ function ToolsViewModel() {
         self.tools.sort((left, right) => compare(left.name, right.name));
     });
 
-    self.ObsoleteSelected = ko.observable(false);
+    self.excludeDormant = ko.observable(false);
 
     // The Language selector
     self.LanguagesSelected = ko.observableArray();
@@ -94,7 +94,7 @@ function ToolsViewModel() {
                             || (tool.description && tool.description.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
                             || (tool.license && tool.license.toLowerCase().indexOf( self.query().toLowerCase() ) > -1)
                             || (tool.owner && tool.owner.join().toLowerCase().indexOf( self.query().toLowerCase() ) > -1);
-                    return (!tool.obsolete || self.ObsoleteSelected()) && isLanguageIn && isOwnerIn && isQuery;
+                    return (!tool.dormant || !self.excludeDormant()) && isLanguageIn && isOwnerIn && isQuery;
                 } ).sort(sort_by_rating_and_name);
         }
     );
