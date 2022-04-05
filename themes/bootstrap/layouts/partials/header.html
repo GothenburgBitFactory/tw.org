@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-{{ $baseUrl := .Site.BaseURL }}
+{{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
 {{ $currentPage := path.Base .RelPermalink }}
 {{ $currentDir := path.Dir .RelPermalink }}
 <html lang="en">
@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="{{ $baseUrl }}/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ $baseUrl }}/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="{{ $baseUrl }}/css/theme.css">
+  <link rel="stylesheet" href="{{ $baseUrl }}/css/bootstrap-icons-1.8.0/bootstrap-icons.css">
 </head>
 
 <body role="document">
@@ -31,14 +32,15 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
+        <li {{ if ( eq $currentDir "/news" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/news">News</a></li>
         <li {{ if ( eq $currentDir "/docs" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/docs">Docs</a></li>
+        <li {{ if ( eq $currentDir "/download" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/download">Download</a></li>
         <li {{ if ( eq $currentDir "/support" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/support">Support</a></li>
-        <li {{ if ( eq $currentDir "/releases" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/releases">Releases</a></li>
         <li {{ if ( eq $currentDir "/tools" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/tools">Tools</a></li>
-        {{ $url := .URL }}
+        {{ $url := .Permalink }}
         {{ with .Site.Menus.main }}
         {{ range $menu := . }}
-        <li {{ if eq $url .URL }}class="active"{{ end }}><a href="{{ .URL }}">{{ .Name }}</a></li>
+        <li {{ if eq $url .Permalink }}class="active"{{ end }}><a href="{{ .Permalink }}">{{ .Name }}</a></li>
         {{ end }}
         {{ end }}
       </ul>
