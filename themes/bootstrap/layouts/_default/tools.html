@@ -21,12 +21,14 @@
             </label>
             <div class="checkbox">
               <label>
-                <input type="checkbox" data-bind="checked: ObsoleteSelected"/>
+                <input type="checkbox" data-bind="checked: excludeDormant"/>
                 <small>
-                  Include obsolete projects
+                  Exclude dormant projects&ensp;
                   <span class="tooltip">
-                    &#9432;
-                    <span class="tooltiptext">Projects are considered 'obsolete' if their last update was more than 3 years ago</span>
+                    <em class="bi bi-moon-stars"></em>
+                    <span class="tooltip-text">
+                      Projects are considered 'dormant' if their last update was more than 3 years ago, or if the repository has been archived.
+                    </span>
                   </span>
                 </small>
               </label>
@@ -92,11 +94,15 @@
           <tr>
             <td>
               <p>
-                <strong><a title="Project" data-bind="text: name, attr:{ href: url }"></a></strong><br>
+                <strong><a title="Project" data-bind="text: name, attr:{ href: url }"></a></strong>&ensp;
+                <span data-bind="visible: dormant" class="tooltip">
+                  <em class="bi bi-moon-stars"></em>
+                  <span class="tooltip-text">This project is dormant</span>
+                </span><br>
                 <span data-bind="visible: owner.length > 0"><small>by <em title="Owners" data-bind="text: owner.join(', ')"></em></small></span>
               </p>
               <p>
-                <span>Rating: <span title="Rating" data-bind="text: rating"></span> &star;</span>
+                <span>Rating: <span title="Rating" data-bind="text: rating"></span>&ensp;<em class="bi bi-star"></em></span>
               </p>
             </td>
             <td>
@@ -105,7 +111,6 @@
                 <small>
                   <span data-bind="visible: language.length > 0">Language: <span data-bind="text: language"></span></span><br>
                   Last update: <span title="Last update" data-bind="text: updated"></span>
-                  <strong data-bind="visible: obsolete">(Obsolete)</strong>
                 </small>
               </p>
             </td>
