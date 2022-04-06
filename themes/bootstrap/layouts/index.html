@@ -2,34 +2,34 @@
 {{ partial "header.html" . }}
 
 <main role="main">
-  <div class="banner" style="background-color:#54b1db;">
-    <div class="container">
-      <h1>Welcome to Timewarrior</h1>
+  <div class="banner" style="background-color:#619693;">
+    <div class="container" style="color: #cccccc">
+      <h1>Welcome to Taskwarrior</h1>
       <p class="lead">
-        {{ .Site.Params.description }}
+        Taskwarrior is Free and Open Source Software that manages your TODO list from the command line.<br>
+        It is flexible, fast, and unobtrusive.
+        It does its job then gets out of your way.
       </p>
       <p>
-        <img src="/images/swatch.png" style="width:50%;" alt="Timewarrior samples.">
-        <br />
-        <br />
+        <img src="/images/swatch.png" style="width:50%;" alt="Taskwarrior samples.">
+        <br/>
+        <br/>
+      </p>
+      <p class="lead">
+        New User?&nbsp;&nbsp;&nbsp;<a class="btn btn-success btn-lg" href="/docs/start" role="button">Start here...</a>
       </p>
     </div>
   </div>
-  <div class="banner" >
-    <div class="container">
-      <h3>Current Release</h3>
-      {{ $currentRelease := index ($.Site.Data.releases) 0 }}
-      <section>
-        <p class="lead">Timewarrior {{ $currentRelease.version }} released {{ $currentRelease.date }}.</p>
-        <p class="lead">
-          <a href="{{ $currentRelease.url }}">{{ $currentRelease.tarball }}</a>
-          <br />
-          <small>SHA256: {{ $currentRelease.sha256 }}</small>
-        </p>
-      </section>
-      <p>Please consult the <a href="/docs/install">Documentation</a> for binary packages and the installation guide.</p>
-      <p>Older releases can be found in the <a href="/releases">archive</a>.</p>
-      </div>
+  <div class="container">
+    <h3>Help</h3>
+    <p>
+      Need help?
+      Take a look at our <a href="/support">support page</a>.
+    </p>
+    <p>
+      Looking to learn?
+      Take a look at our <a href="/docs">online documentation</a>.
+    </p>
   </div>
 </main>
 
