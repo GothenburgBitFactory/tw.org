@@ -1,14 +1,14 @@
 ---
-title: "News: Date &amp; Time Support"
+title: "Date &amp; Time Support"
+date: 2015-01-03
 ---
 
-### Date & Time Support [2015-01-03]{.small}
+### Date & Time Support 
 
-Taskwarrior 2.4.0 supports many new date & time formatting options. These are
-all documented in the new [Date & Time](/docs/dates.html) page. Here is a small
-sample:
+Taskwarrior 2.4.0 supports many new date & time formatting options.
+These are all documented in the new [Date & Time](/docs/dates) page.
+Here is a small sample:
 
-[![ISO Date
-Demo](/news/images/iso_date.png){.img-thumbnail}](/news/images/iso_date.png)
+[![ISO Date Demo](/images/iso_date.png)](/images/iso_date.png)
 
-[Read more](/docs/dates.html) about the extensive ISO-8601 support.
+[Read more](/docs/dates) about the extensive ISO-8601 support.
