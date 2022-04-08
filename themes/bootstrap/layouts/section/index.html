@@ -1,4 +1,4 @@
-{{ $baseUrl := .Site.BaseURL }}
+{{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
 {{ partial "header.html" . }}
 
 <div class="row">
