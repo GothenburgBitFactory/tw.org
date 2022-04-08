@@ -1,25 +1,26 @@
 ---
-title: "News: Taskserver Documentation Update"
+title: "Taskserver Documentation Update"
+date: 2014-04-12
 ---
 
-### Taskserver Documentation Update [2014-04-12]{.small}
+### Taskserver Documentation Update 
 
-The Taskserver setup documentation has been significantly improved. The setup
-page is:
+The Taskserver setup documentation has been significantly improved.
+The setup page is:
 
-[Setting up your own Taskserver](/docs/taskserver/setup.html)
+[Setting up your own Taskserver](/docs/taskserver/setup)
 
-The sub pages now cover single topics:
+The sub-pages now cover single topics:
 
-[Pre-Installation Preparation](/docs/taskserver/prep.html)\
-[Install binary package](/docs/taskserver/package.html)\
-[Install from tarball](/docs/taskserver/tarball.html)\
-[Install from git](/docs/taskserver/git.html)\
-[Server Configuration](/docs/taskserver/configure.html)\
-[Server Start/Stop](/docs/taskserver/control.html)\
-[Add User to Server](/docs/taskserver/user.html)\
-[Configure Taskwarrior](/docs/taskserver/taskwarrior.html)\
-[Syncing Taskwarrior](/docs/taskserver/sync.html)\
-[Troubleshooting](/docs/taskserver/troubleshooting-sync.html)
+[Pre-Installation Preparation](/docs/taskserver/prep)\
+[Install binary package](/docs/taskserver/package)\
+[Install from tarball](/docs/taskserver/tarball)\
+[Install from git](/docs/taskserver/git)\
+[Server Configuration](/docs/taskserver/configure)\
+[Server Start/Stop](/docs/taskserver/control)\
+[Add User to Server](/docs/taskserver/user)\
+[Configure Taskwarrior](/docs/taskserver/taskwarrior)\
+[Syncing Taskwarrior](/docs/taskserver/sync)\
+[Troubleshooting](/docs/taskserver/troubleshooting-sync)
 
 Feedback on the new pages would be appreciated.

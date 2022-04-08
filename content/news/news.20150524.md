@@ -1,10 +1,10 @@
 ---
-title: "News: Taskwarrior Live Demo"
+title: "Taskwarrior Live Demo"
+date: 2015-05-24
 ---
 
-### Taskwarrior Live Demo [2015-05-24]{.small}
+### Taskwarrior Live Demo 
 
-Try Taskwarrior [live in your browser](https://wbsch.de/jswarrior/).
+Try Taskwarrior [live in your browser](https://wbsch.de/jswarrior).
 
-[![Live
-Demo](/news/images/live_demo-thumb.png){.img-thumbnail}](/news/images/live_demo.png)
+[![Live Demo](/images/live_demo-thumb.png)](/images/live_demo.png)

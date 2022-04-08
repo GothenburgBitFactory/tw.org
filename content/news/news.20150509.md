@@ -1,30 +1,37 @@
 ---
-title: "News: Tasksh in Homebrew"
+title: "Tasksh in Homebrew"
+date: 2015-05-09
 ---
 
-### Tasksh in Homebrew [2015-05-09]{.small}
+### Tasksh in Homebrew 
 
-Tasksh, the Taskwarrior Shell, can now be installed using
-[Homebrew](https://brew.sh) on the Mac:
+Tasksh, the Taskwarrior Shell, can now be installed using [Homebrew](https://brew.sh) on the Mac:
 
-    $ brew install tasksh
+```
+$ brew install tasksh
+```
 
-This means that all three related Taskwarrior family members can now be
-installed via Homebrew:
+This means that all three related Taskwarrior family members can now be installed via Homebrew:
 
-    $ brew install task
-    ...
-    $ brew install taskd
-    ...
-    $ brew install tasksh
-    ...
+```
+$ brew install task
+...
+$ brew install taskd
+...
+$ brew install tasksh
+...
+```
 
 Existing Homebrew users can obtain the formulae:
 
-    $ brew update
-    ...
+```
+$ brew update
+...
+```
 
 Then later upgrade their Task software easily:
 
-    $ brew upgrade
-    ...
+```
+$ brew upgrade
+...
+```

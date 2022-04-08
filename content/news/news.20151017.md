@@ -1,8 +1,9 @@
 ---
-title: "News: Taskwarrior 2.5.0 beta3 Released"
+title: "Taskwarrior 2.5.0 beta3 Released"
+date: 2015-10-17
 ---
 
-### Taskwarrior 2.5.0 beta3 Released [2015-10-17]{.small}
+### Taskwarrior 2.5.0 beta3 Released 
 
 A new beta3 is available for the upcoming 2.5.0 release.
 
