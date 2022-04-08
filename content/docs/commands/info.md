@@ -2,93 +2,91 @@
 title: "Taskwarrior - Info Command"
 ---
 
-
 # info
 
-The `info` command (the full command name is `information`) is a way to display
-all the task metadata in human-readable form. This includes
-[UDAs](/docs/udas).
+The `info` command (the full command name is `information`) is a way to display all the task metadata in human-readable form.
+This includes [UDAs](/docs/udas).
 
-    $ task 1 info
+```
+$ task 1 info
 
-    Name          Value
-    ------------- ------------------------------------------------------------------
-    ID            241
-    Description   Need to map stored duration values to the supported subset on load
-    Status        Pending
-    Project       tw.240
-    Entered       2014-09-19 11:32:22 (2 weeks)
-    Last modified 2014-09-19 11:32:22 (2 weeks)
-    Tags          bug
-    Virtual tags  PENDING READY TAGGED UNBLOCKED
-    UUID          91bbb01f-4a43-42bd-a7a3-03ce3a2451ff
-    Urgency       4.882
-                               project     1  *    1 =     1
-                                  tags   0.8  *    1 =   0.8
-                                   age 0.041  *    2 = 0.082
-                               TAG bug     1  *    3 =     3
+Name          Value
+------------- ------------------------------------------------------------------
+ID            241
+Description   Need to map stored duration values to the supported subset on load
+Status        Pending
+Project       tw.240
+Entered       2014-09-19 11:32:22 (2 weeks)
+Last modified 2014-09-19 11:32:22 (2 weeks)
+Tags          bug
+Virtual tags  PENDING READY TAGGED UNBLOCKED
+UUID          91bbb01f-4a43-42bd-a7a3-03ce3a2451ff
+Urgency       4.882
+                           project     1  *    1 =     1
+                              tags   0.8  *    1 =   0.8
+                               age 0.041  *    2 = 0.082
+                           TAG bug     1  *    3 =     3
 
-    Date                Modification
-    ------------------- ------------------
-    2014-09-27 11:01:02 Tags set to 'bug'.
+Date                Modification
+------------------- ------------------
+2014-09-27 11:01:02 Tags set to 'bug'.
+```
 
-Taskwarrior [2.4.0] will also show a detailed breakdown
-of the urgency calculation, as shown.
+Taskwarrior {{< label >}}2.4.0{{< /label >}} will also show a detailed breakdown of the urgency calculation, as shown.
 
-Taskwarrior [2.4.2] will also show a list of valid
-[Virtual Tags](/docs/tags).
+Taskwarrior {{< label >}}2.4.2{{< /label >}} will also show a list of valid [Virtual Tags](/docs/tags).
 
-The `info` command also accepts `UUID`s to identify tasks, so you can inspect
-completed and deleted tasks also.
+The `info` command also accepts `UUID`s to identify tasks, so you can inspect completed and deleted tasks also.
 
-    $ task 91bbb01f-4a43-42bd-a7a3-03ce3a2451ff
-     info
+```
+$ task 91bbb01f-4a43-42bd-a7a3-03ce3a2451ff
+ info
 
-    Name          Value
-    ------------- ------------------------------------------------------------------
-    ID            241
-    Description   Need to map stored duration values to the supported subset on load
-    Status        Pending
-    Project       tw.240
-    Entered       2014-09-19 11:32:22 (2 weeks)
-    Last modified 2014-09-19 11:32:22 (2 weeks)
-    Tags          bug
-    Virtual tags  PENDING READY TAGGED UNBLOCKED
-    UUID          91bbb01f-4a43-42bd-a7a3-03ce3a2451ff
-    Urgency       4.882
-                               project     1  *    1 =     1
-                                  tags   0.8  *    1 =   0.8
-                                   age 0.041  *    2 = 0.082
-                               TAG bug     1  *    3 =     3
+Name          Value
+------------- ------------------------------------------------------------------
+ID            241
+Description   Need to map stored duration values to the supported subset on load
+Status        Pending
+Project       tw.240
+Entered       2014-09-19 11:32:22 (2 weeks)
+Last modified 2014-09-19 11:32:22 (2 weeks)
+Tags          bug
+Virtual tags  PENDING READY TAGGED UNBLOCKED
+UUID          91bbb01f-4a43-42bd-a7a3-03ce3a2451ff
+Urgency       4.882
+                           project     1  *    1 =     1
+                              tags   0.8  *    1 =   0.8
+                               age 0.041  *    2 = 0.082
+                           TAG bug     1  *    3 =     3
 
-    Date                Modification
-    ------------------- ------------------
-    2014-09-27 11:01:02 Tags set to 'bug'.
+Date                Modification
+------------------- ------------------
+2014-09-27 11:01:02 Tags set to 'bug'.
+```
 
 The `info` command also accepts filters, for example searching:
 
-    $ task /duration\ values/ info
-    ...
+```
+$ task /duration\ values/ info
+...
+```
 
-Taskwarrior [2.4.0] will use the `info` command in cases
-when no command is specified, and the only arguments are IDs or UUIDs, for
-example:
+Taskwarrior {{< label >}}2.4.0{{< /label >}} will use the `info` command in cases when no command is specified, and the only arguments are IDs or UUIDs, for example:
 
-    $ task 242
-    ...
+```
+$ task 242
+...
+```
 
-
- Configuration
+## Configuration
 
 The date format can be overridden using `dateformat.info`.
 
-Setting `journal.info` to \'yes\' will show a change log for the task, as seen
-in the examples above.
+Setting `journal.info` to \'yes\' will show a change log for the task, as seen in the examples above.
 
-
- See Also
+## See Also
 
 Other ways of inspecting tasks include:
 
--   [`edit`](#) command
--   [`export`](#) command
+- [`edit`](#) command
+- [`export`](#) command

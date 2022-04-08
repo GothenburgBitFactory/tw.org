@@ -2,12 +2,11 @@
 title: "Taskwarrior - _get"
 ---
 
-
 # \_get
 
-The `_get` command is a [DOM](/docs/dom) accessor. You can use this command
-to extract any piece of information stored by taskwarrior. For example to obtain
-the description of task 12:
+The `_get` command is a [DOM](/docs/dom) accessor.
+You can use this command to extract any piece of information stored by taskwarrior.
+For example to obtain the description of task 12:
 
     $ task _get 12.description
     Buy some milk
@@ -29,11 +28,9 @@ The `_get` command makes it easy to map between ID and UUID:
     $ task _get a360fc44-315c-4366-b70c-ea7e7520b749.id
     12
 
-The `_get` command is a helper command, which means it is more useful for
-scripts and extensions than command line use.
+The `_get` command is a helper command, which means it is more useful for scripts and extensions than command line use.
 
+See Also
 
- See Also
-
--   [DOM](/docs/dom)
--   [`export`](/docs/commands/export) command
+- [DOM](/docs/dom)
+- [`export`](/docs/commands/export) command
