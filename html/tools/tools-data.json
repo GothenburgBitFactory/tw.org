@@ -462,7 +462,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 55,
+    "rating": 56,
     "updated": "2022-03-28",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1213,7 +1213,7 @@
       "Mossop"
     ],
     "rating": 1,
-    "updated": "2022-03-27",
+    "updated": "2022-04-07",
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
   {
@@ -2682,7 +2682,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 121,
+    "rating": 122,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2893,7 +2893,7 @@
       "bradyt"
     ],
     "rating": 32,
-    "updated": "2022-03-28",
+    "updated": "2022-04-07",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3297,7 +3297,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 507,
+    "rating": 508,
     "updated": "2022-02-27",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3418,7 +3418,7 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2022-04-05",
+    "updated": "2022-04-07",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
@@ -5383,7 +5383,7 @@
       "jonathanabennett"
     ],
     "rating": 7,
-    "updated": "2022-04-04",
+    "updated": "2022-04-06",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -5727,7 +5727,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 701,
+    "rating": 703,
     "updated": "2022-03-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7622,21 +7622,6 @@
     "url": "https://github.com/nikolavp/taskwarrior-utils"
   },
   {
-    "description": "The TaskWarrior visualisation and extension for team management",
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "KanWarrior",
-    "owner": [
-      "nitesuit"
-    ],
-    "rating": 11,
-    "updated": "2016-05-26",
-    "url": "https://github.com/nitesuit/KanWarrior"
-  },
-  {
     "description": "Installs taskserver to sync tasks with taskwarrior",
     "dormant": false,
     "language": [
@@ -7992,7 +7977,7 @@
     "owner": [
       "phepp"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2017-03-19",
     "url": "https://github.com/phepp/todoist-taskwarrior-integration"
   },
@@ -8172,7 +8157,7 @@
     "owner": [
       "proxypoke"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2018-05-17",
     "url": "https://github.com/proxypoke/git-task"
   },
@@ -8323,7 +8308,7 @@
       "ralphbean"
     ],
     "rating": 593,
-    "updated": "2022-04-05",
+    "updated": "2022-04-07",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8607,7 +8592,7 @@
     "owner": [
       "ryansb"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2012-02-03",
     "url": "https://github.com/ryansb/gitwarrior"
   },
@@ -9150,6 +9135,21 @@
     "rating": 21,
     "updated": "2016-05-24",
     "url": "https://github.com/stackedsax/taskwarrior_scripts"
+  },
+  {
+    "description": "The TaskWarrior visualisation and extension for team management",
+    "dormant": true,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "KanWarrior",
+    "owner": [
+      "staskus"
+    ],
+    "rating": 11,
+    "updated": "2016-05-26",
+    "url": "https://github.com/staskus/KanWarrior"
   },
   {
     "description": null,
@@ -10062,7 +10062,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-11-12",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
