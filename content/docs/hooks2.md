@@ -4,53 +4,41 @@ title: "Taskwarrior - Hooks v2"
 
 ## Hooks v2
 
-The API defined here is the [Hooks v2] API. This API is part of the
-TaskWarrior 2.4.3 release.
-
+The API defined here is the [Hooks v2] API.
+This API is part of the TaskWarrior 2.4.3 release.
 
 # Hooks v2
-
 
 ## Events
 
 No change.
 
-
 ## Input
 
 No change.
-
 
 ## Output
 
 No change.
 
-
 ## Exit Status
 
 No change.
-
 
 ## Interfaces
 
 No change.
 
-
 ## Command Line Arguments
 
-To support an evolving Hooks API, Taskwarrior must provide hook scripts with a
-mechanism for determining which version of the Hooks API is providing the
-context for the script. It is anticipated that in future versions, new events
-will be added, and changes to the interfaces will occur. A hook script needs to
-act according to the API version, otherwise it risks incompatibility with
-Taskwarrior.
+To support an evolving Hooks API, Taskwarrior must provide hook scripts with a mechanism for determining which version of the Hooks API is providing the context for the script.
+It is anticipated that in future versions, new events will be added, and changes to the interfaces will occur.
+A hook script needs to act according to the API version, otherwise it risks incompatibility with Taskwarrior.
 
-The interfaces define what is provided as standard input, and what is expected
-on standard output. With `v2` there will also be command line arguments provided
-to the script.
+The interfaces define what is provided as standard input, and what is expected on standard output.
+With `v2` there will also be command line arguments provided to the script.
 
-A script may take advantage of the `v2` enhancements though, to extend its
-capabilities.
+A script may take advantage of the `v2` enhancements though, to extend its capabilities.
 
 <table class="table table-striped table-condensed">
 <tr>
@@ -112,8 +100,8 @@ capabilities.
   <td><code>version:x.y.z</code></td>
   <td>
     <p>
-      Taskwarrior version calling the hook. Same as the one
-      reported by "task --version", e.g. "2.4.3"
+      Taskwarrior version calling the hook.
+      Same as the one reported by "task --version", e.g. "2.4.3"
     </p>
   </td>
 </tr>
@@ -131,14 +119,11 @@ Here is a contrived example simulating how a hook script will be invoked:
         <input.txt \
         >output.txt
 
-This information can be used by the script to see that an alternate `rc` file
-was specified on the command line.
-
+This information can be used by the script to see that an alternate `rc` file was specified on the command line.
 
 ## Backward Compatibility
 
-The `v1` and `v2` API is identical, so any hook script will run unmodified in
-both scenarios. This may not be true for future versions.
+The `v1` and `v2` API is identical, so any hook script will run unmodified in both scenarios.
+This may not be true for future versions.
 
-A script that requires `v2` but is run in a `v1` context should issue a warning
-that it is not able to perform its function, but it should not fail.
+A script that requires `v2` but is run in a `v1` context should issue a warning that it is not able to perform its function, but it should not fail.
