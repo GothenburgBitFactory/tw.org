@@ -6,21 +6,11 @@ html {
 body {
   margin-bottom: 120px;
   padding-top: 51px;
-  padding-bottom: 0px;
+  padding-bottom: 0;
 }
 
-.theme-dropdown .dropdown-menu {
-  position: static;
-  display: block;
-  margin-bottom: 20px;
-}
-
-.theme-showcase > p > .btn {
-  margin: 5px 0;
-}
-
-.theme-showcase .navbar .container {
-  width: auto;
+body > .container {
+  padding: 60px 15px 0
 }
 
 main > .container {
@@ -28,12 +18,19 @@ main > .container {
   padding-bottom: 20px;
 }
 
-dl dt {
-  margin-left: 20px;
+img {
+  width: 100%;
+  border-radius: 4px;
 }
 
-dl dd {
-  margin-left: 40px;
+pre code {
+  white-space: pre;
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 td, th {
@@ -43,43 +40,129 @@ td, th {
   border-top: 1px solid #ddd;
 }
 
-table {
+dl dd {
+  margin-left: 40px;
+}
+
+dl dt {
+  margin-left: 20px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  padding-top: 10px;
   width: 100%;
-  margin-top: 20px;
+  height: 140px;
+  line-height: 20px;
+  background-color: #222;
+}
+
+.banner h1 {
+  color: white;
+}
+
+h4 .callout {
+  margin-top: 0;
+  margin-bottom: 5px
+}
+
+h4 .callout-danger {
+  color: #d9534f
+}
+
+h4 .callout-info {
+  color: #5bc0de
+}
+
+h4 .callout-warning {
+  color: #f0ad4e
+}
+
+.banner {
+  background-color: #eee;
+  color: inherit;
+  margin-bottom: 0;
+  padding: 10px 10px;
+}
+
+.callout code {
+  background-color: #fff;
+  border-radius: 3px
+}
+
+.callout p:last-child {
+  margin-bottom: 0
+}
+
+.callout {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 3px solid #eee
+}
+
+.callout-danger {
+  background-color: #fdf7f7;
+  border-color: #d9534f
+}
+
+.callout-info {
+  background-color: #f4f8fa;
+  border-color: #5bc0de
+}
+
+.callout-warning {
+  background-color: #fcf8f2;
+  border-color: #f0ad4e
+}
+
+.container .text-muted {
+  margin: 20px 0
+}
+
+.sidebar-toc {
+  position: fixed;
+  background: #C4CBB728;
+  background: rgba(196, 203, 183, 0.16);
+  padding: 5px 20px;
+  border-radius: 10px;
+}
+
+.text-heavy {
+  font-weight: 500
+}
+
+.text-large {
+  font-size: 125%
+}
+
+.text-tiny {
+  font-size: 75%
+}
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
   margin-bottom: 20px;
 }
 
-.footer {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding-top: 20px;
-  height: 120px;
-  line-height: 20px;
-  background-color: #333;
+.theme-showcase .navbar .container {
+  width: auto;
 }
 
-img {
-  width: 100%;
-  border-radius: 4px;
-}
-
-:target::before {
-  content: "";
-  display: block;
-  height: 60px; /* fixed header height*/
-  margin: -60px 0 0; /* negative fixed header height */
+.theme-showcase > p > .btn {
+  margin: 5px 0;
 }
 
 /* Tools page */
 .tooltip {
   position: relative;
   display: inline-block;
-  opacity: 100;
+  opacity: 1;
 }
 
 /* Tooltip text */
-.tooltip .tooltiptext {
+.tooltip .tooltip-text {
   visibility: hidden;
   width: 180px;
   background-color: #555;
@@ -100,8 +183,14 @@ img {
   transition: opacity 0.3s;
 }
 
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+}
+
 /* Tooltip arrow */
-.tooltip .tooltiptext::after {
+.tooltip .tooltip-text::after {
   content: "";
   position: absolute;
   bottom: 100%;
@@ -112,8 +201,22 @@ img {
   border-color: transparent transparent #555 transparent;
 }
 
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
+:target::before {
+  content: "";
+  display: block;
+  height: 60px; /* fixed header height*/
+  margin: -60px 0 0; /* negative fixed header height */
+}
+
+/* Used to limit the number of authors displayed
+   https://stackoverflow.com/questions/3922739/limit-text-length-to-n-lines-using-css */
+.giveMeEllipsis {
+  margin-bottom: 0.4em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -ms-box-orient: vertical;
+  -webkit-line-clamp: 2; /* number of lines to show */
 }

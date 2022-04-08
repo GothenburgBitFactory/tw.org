@@ -4,8 +4,10 @@ title = "Taskwarrior"
 theme = "bootstrap"
 publishDir = "html"
 
-    [markup.goldmark.renderer]
-          unsafe = true
-
 [params]
 description = "Taskwarrior is Free and Open Source Software that manages your TODO list from the command line."
+
+[markup]
+    [markup.tableOfContents]
+        endLevel = 2
+        ordered = false
