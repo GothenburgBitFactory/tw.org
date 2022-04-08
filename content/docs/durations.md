@@ -4,30 +4,24 @@ title: "Taskwarrior - Durations"
 
 # Durations
 
-Taskwarrior supports duration values. In the core, durations are used directly
-in one place - the `recur` attribute, used for recurring tasks. For example,
-here is a recurring task that recurs every monday:
+Taskwarrior supports duration values.
+In the core, durations are used directly in one place - the `recur` attribute, used for recurring tasks.
+For example, here is a recurring task that recurs every monday:
 
     $ task add Take out the trash due:monday recur:weekly
 
-The value `monday` is interpreted as \'next monday\', and the value `weekly` is
-interpreted as a 7-day duration.
+The value `monday` is interpreted as \'next monday\', and the value `weekly` is interpreted as a 7-day duration.
 
-The other place where durations are supported directly is with [UDA
-attributes](/docs/udas) of type `duration`.
-
+The other place where durations are supported directly is with [UDA attributes](/docs/udas) of type `duration`.
 
 ## Relative Date
 
-There is indirect support for durations everywhere that a date value is
-expected. For example, here is a task due in two days:
+There is indirect support for durations everywhere that a date value is expected.
+For example, here is a task due in two days:
 
     $ task add Birthday party due:2days
 
-Whenever Taskwarrior expects a date (due date in this example) but instead finds
-a duration, it is interpreted as a relative duration added to the current
-date/time, in this example `now + 2days`.
-
+Whenever Taskwarrior expects a date (due date in this example) but instead finds a duration, it is interpreted as a relative duration added to the current date/time, in this example `now + 2days`.
 
 ## Duration Format
 
@@ -131,7 +125,7 @@ date/time, in this example `now + 2days`.
 * `quarter`
 * `qrtr`
 * `qtr`
-* `semiannual`                           One hundred and eighty three days.  Missing ordinal implies six months.  This is an imprecise value.
+* `semiannual`                           One hundred and eighty-three days.  Missing ordinal implies six months.  This is an imprecise value.
 * `1 years`                              One year.
 * `1 year`
 * `1 yrs`
@@ -142,28 +136,24 @@ date/time, in this example `now + 2days`.
 * `1yrs`
 * `1yr`
 * `1y`
-* `annual`                               Three hundred and sixty five days. Missing ordinal implies one year. This is an imprecise value.
+* `annual`                               Three hundred and sixty-five days. Missing ordinal implies one year. This is an imprecise value.
 * `yearly`
 * `year`
 * `yr`
 * `biannual`                             Seven hundred and thirty days. Missing ordinal implies two years. This is an imprecise value.
 * `biyearly`
 
-
 ## ISO-8601 Format
 
-ISO-8601 defines a duration format which is supported by Taskwarrior. The format
-looks like this:
+ISO-8601 defines a duration format which is supported by Taskwarrior.
+The format looks like this:
 
     P[nY][nM][nD][T[nH][nM][nS]]
 
-The format always begins with a \'P\' (period). The date elements
-(`[nY][nM][nD]`) are optional, as are the time elements (`[nH][nM][nS]`), but
-there must be one element specified.
+The format always begins with a \'P\' (period).
+The date elements (`[nY][nM][nD]`) are optional, as are the time elements (`[nH][nM][nS]`), but there must be one element specified.
 
-Even though the month and minute values use the character \'M\', there is no
-ambiguity because of the placement of the character \'T\' which delineates date
-from time elements.
+Even though the month and minute values use the character \'M\', there is no ambiguity because of the placement of the character \'T\' which delineates date from time elements.
 
 Here is a list of examples:
 
@@ -184,6 +174,5 @@ Here is a list of examples:
 * `PT12H40M50S`       - Twelve hours, forty minutes and fifty seconds.
 * `P1Y2M3DT12H40M50S` - One year, two months, three days, twelve hours, forty minutes and fifty seconds. This is an imprecise value.
 
-Precise values include days, hours, minutes, seconds. Year and month are not
-precise because they vary, and can only be made precise if the duration is
-anchored to a known date.
+Precise values include days, hours, minutes, seconds.
+Year and month are not precise because they vary, and can only be made precise if the duration is anchored to a known date.

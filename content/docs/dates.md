@@ -4,47 +4,47 @@ title: "Taskwarrior - Date &amp; Time"
 
 # Date & Time
 
-Taskwarrior supports date and time values. Date fields are used to track task
-creation, due date, scheduled date, end date and so on, as well as providing a
-date type for use with [UDA](/docs/udas) fields.
+Taskwarrior supports date and time values.
+Date fields are used to track task creation, due date, scheduled date, end date and so on, as well as providing a date type for use with [UDA](/docs/udas) fields.
 
-Whichever format is used to accept and display date and time, Taskwarrior
-resolves it to a UTC epoch value, accurate to one second. This is called Unix
-Time, POSIX time, or Epoch time.
+Whichever format is used to accept and display date and time, Taskwarrior resolves it to a UTC epoch value, accurate to one second.
+This is called Unix Time, POSIX time, or Epoch time.
 
-But you have full control over the format entered and the format displayed, and
-this document is a demonstration of this.
-
+But you have full control over the format entered and the format displayed, and this document is a demonstration of this.
 
 ## Due Date Example
 
 Let us begin with an example of specifying a due date when the task is created:
 
-    $ task add Pay the rent due:2015-01-31
+```
+$ task add Pay the rent due:2015-01-31
+```
 
 Or adding a due date to an existing task:
 
-    $ task add Pay the rent
-    $ task 1 modify due:2015-01-31
+```
+$ task add Pay the rent
+$ task 1 modify due:2015-01-31
+```
 
-Finally removing a due date from a task:
+Finally, removing a due date from a task:
 
-    $ task 1 modify due:
+```
+$ task 1 modify due:
+```
 
-This examples uses the default `rc.dateformat`, which is `Y-M-D`, to read the
-date from the command line.
-
+This examples uses the default `rc.dateformat`, which is `Y-M-D`, to read the date from the command line.
 
 ## rc.dateformat
 
 The `rc.dateformat` setting allows you to specify other formats for date input.
 An example is the default, `Y-M-D`, which means a date is:
 
--   a 4-digit year (\'Y\')
--   followed by a hyphen (\'-\')
--   followed by a 2-digit month (\'M\')
--   followed by a hyphen (\'-\')
--   followed by a 2-digit day (\'D\')
+- a 4-digit year (\'Y\')
+- followed by a hyphen (\'-\')
+- followed by a 2-digit month (\'M\')
+- followed by a hyphen (\'-\')
+- followed by a 2-digit day (\'D\')
 
 Here are the possible elements of `rc.dateformat`:
 
@@ -68,75 +68,73 @@ Here are the possible elements of `rc.dateformat`:
 * `B`               - Complete English month name, eg \'january\', \'february\'
 * Everything else   - All other format characters are taken as literals
 
-
 ## Including Time
 
-Using `rc.dateformat` you can specify a date with or without elements that
-include time. If your dateformat omits any time elements, then you just specify
-the date, and the time defaults to `00:00:00`.
+Using `rc.dateformat` you can specify a date with or without elements that include time.
+If your dateformat omits any time elements, then you just specify the date, and the time defaults to `00:00:00`.
 
 An example shows this using a temporary override:
 
-    $ task add Pay the rent due:2015-01-01
-    $ task 1
+```
+$ task add Pay the rent due:2015-01-01
+$ task 1
 
-    Name          Value
-    ------------- ------------------------------------------
-    ID            1
-    Description   Pay the rent
-    Status        Pending
-    Entered       2015-01-02 16:57:44 (8 seconds)
-    Due           2015-01-01 00:00:00
-    Last modified 2015-01-02 16:57:44 (8 seconds)
-    UUID          6eb7c4d7-6323-4ee3-bf13-63c580de3712
-    Urgency       9.58
+Name          Value
+------------- ------------------------------------------
+ID            1
+Description   Pay the rent
+Status        Pending
+Entered       2015-01-02 16:57:44 (8 seconds)
+Due           2015-01-01 00:00:00
+Last modified 2015-01-02 16:57:44 (8 seconds)
+UUID          6eb7c4d7-6323-4ee3-bf13-63c580de3712
+Urgency       9.58
 
-    $ task add Open the store due:2015-01-01T08:30:00 rc.dateformat:Y-M-DTH:N:S
-    $ task 2
+$ task add Open the store due:2015-01-01T08:30:00 rc.dateformat:Y-M-DTH:N:S
+$ task 2
 
-    Name          Value
-    ------------- ------------------------------------------
-    ID            2
-    Description   Open the store
-    Status        Pending
-    Entered       2015-01-02 16:58:15 (6 seconds)
-    Due           2015-01-01 08:30:00
-    Last modified 2015-01-02 16:58:15 (6 seconds)
-    UUID          bc8f9b89-8dea-4dae-87e5-b320b651c25c
-    Urgency       9.419
+Name          Value
+------------- ------------------------------------------
+ID            2
+Description   Open the store
+Status        Pending
+Entered       2015-01-02 16:58:15 (6 seconds)
+Due           2015-01-01 08:30:00
+Last modified 2015-01-02 16:58:15 (6 seconds)
+UUID          bc8f9b89-8dea-4dae-87e5-b320b651c25c
+Urgency       9.419
+```
 
-The first task added used the default `rc.dateformat` value of `Y-M-D`. You can
-see that the `due` date was recorded with time `00:00:00`.
+The first task added used the default `rc.dateformat` value of `Y-M-D`.
+You can see that the `due` date was recorded with time `00:00:00`.
 
-The second task added specified an `rc.dateformat` override value of
-`Y-M-DTH:N:S`. You can see that the `due` date was recorded with time
-`08:30:00`, as specified.
+The second task added specified an `rc.dateformat` override value of `Y-M-DTH:N:S`.
+You can see that the `due` date was recorded with time `08:30:00`, as specified.
 
-You can specify date, or date + time, but whatever you specify must match your
-`rc.dateformat` setting.
-
+You can specify date, or date + time, but whatever you specify must match your `rc.dateformat` setting.
 
 ## Reports
 
-The `rc.dateformat` setting is used for both specifying dates on the command
-line, and displaying them in reports. Most reports allow a further override, for
-report-specific display formats, such as `rc.report.REPORT.dateformat`, but
-there are others. See `man taskrc` for a complete list.
+The `rc.dateformat` setting is used for both specifying dates on the command line, and displaying them in reports.
+Most reports allow a further override, for report-specific display formats, such as `rc.report.REPORT.dateformat`, but there are others.
+See `man taskrc` for a complete list.
 
 For display purposes, there are two additional elements:
 
 * `j`   - 1, 2 or 3 digit day-of-year number, sometimes referred to as a Julian date, eg \'1\', \'11\', or \'365\'
 * `J`   - 3 digit day of year number, sometimes referred to as a Julian date, eg \'001\', \'011\', or \'365\'
 
-
-## Synonyms [2.4.0]
+## Synonyms {{< label >}}2.4.0{{< /label >}}
 
 In addition to formatted dates, you can use a date synonym instead:
 
-    $ task add Pay the rent due:eom
+```
+$ task add Pay the rent due:eom
+```
 
-Here the synonym `eom` means \'end of the month\'. Synonyms are a useful
-shortcut to entering lengthy dates. Here is the full set:
+Here the synonym `eom` means \'end of the month\'.
+Synonyms are a useful shortcut to entering lengthy dates.
+Here is the full set:
 
 * `now`                        - Current local date and time.
 * `today`                      - Current local date, with time 00:00:00.
@@ -144,8 +142,8 @@ shortcut to entering lengthy dates. Here is the full set:
 * `eod`                        - Current local date, with time 23:59:59.
 * `yesterday`                  - Local date for yesterday, with time 00:00:00.
 * `tomorrow`                   - Local date for tomorrow, with time 00:00:00. Same as `sod`.
-* `monday`, `tuesday` \...     - Local date for the specified day, after today, with time 00:00:00. Can be shortened, e.g. `mon`, `tue` [2.6.0] Can be capitalized, e.g. `Monday`, `Tue`
-* `january`, `february` \...   - Local date for the specified month, 1st day, with time 00:00:00. Can be shortened, e.g. `jan`, `feb`. [2.6.0] Can be capitalized, e.g. `January`, `Feb`.
+* `monday`, `tuesday`, ...     - Local date for the specified day, after today, with time 00:00:00. Can be shortened, e.g. `mon`, `tue` {{< label >}}2.6.0{{< /label >}} Can be capitalized, e.g. `Monday`, `Tue`
+* `january`, `february`, ...   - Local date for the specified month, 1st day, with time 00:00:00. Can be shortened, e.g. `jan`, `feb`. {{< label >}}2.6.0{{< /label >}} Can be capitalized, e.g. `January`, `Feb`.
 * `later`, `someday`           - Local 2038-01-18, with time 00:00:00. A date far away, with semantically meaningful to GTD users.
 * `soy`                        - Local date for the next year, January 1st, with time 00:00:00.
 * `eoy`                        - Local date for this year, December 31st, with time 00:00:00.
@@ -159,7 +157,7 @@ shortcut to entering lengthy dates. Here is the full set:
 * `eow`, `eocw`                - Local date for the end of the week, Saturday night, with time 00:00:00.
 * `soww`                       - Local date for the start of the work week, next Monday, with time 00:00:00.
 * `eoww`                       - Local date for the end of the work week, Friday night, with time 23:59:59.
-* `1st`, `2nd`, \...           - Local date for the next Nth day, with time 00:00:00.
+* `1st`, `2nd`, ...           - Local date for the next Nth day, with time 00:00:00.
 * `goodfriday`                 - Local date for the next Good Friday, with time 00:00:00.
 * `easter`                     - Local date for the next Easter Sunday, with time 00:00:00.
 * `eastermonday`               - Local date for the next Easter Monday, with time 00:00:00.
@@ -170,12 +168,10 @@ shortcut to entering lengthy dates. Here is the full set:
 
 The synonyms are supported in addition to `rc.dateformat`
 
+## ISO-8601 Format {{< label >}}2.4.0{{< /label >}}
 
-## ISO-8601 Format [2.4.0]
-
-The ISO-8601 standard defines an unambiguous format for specifying date and time
-around the world. Taskwarrior supports the following formats defined by
-ISO-8601:
+The ISO-8601 standard defines an unambiguous format for specifying date and time around the world.
+Taskwarrior supports the following formats defined by ISO-8601:
 
 `YYYY-MM-DDThh:mm:ssZ`
 
@@ -231,8 +227,7 @@ Year, week number, first day of week, hours, minutes, 00 seconds, UTC.
 `2015-06-15T12:34:56+05:00`\
 `2015-06-15T12:34:56-05:00`
 
-Year, month, day, hours, minutes, seconds, positive or negative offset from UTC
-of hours, minutes.
+Year, month, day, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
 
 `YYYY-MM-DDThh:mm+hh:mm`\
 `YYYY-MM-DDThh:mm-hh:mm`
@@ -240,8 +235,7 @@ of hours, minutes.
 `2015-06-15T12:34+05:00`\
 `2015-06-15T12:34-05:00`
 
-Year, month, day, hours, minutes, 00 seconds, positive or negative offset from
-UTC of hours, minutes.
+Year, month, day, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
 
 `YYYY-DDDThh:mm:ss+hh:mm`\
 `YYYY-DDDThh:mm:ss-hh:mm`
@@ -249,8 +243,7 @@ UTC of hours, minutes.
 `2015-166T12:34:56+05:00`\
 `2015-166T12:34:56-05:00`
 
-Year, day ordinal, hours, minutes, seconds, positive or negative offset from UTC
-of hours, minutes.
+Year, day ordinal, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
 
 `YYYY-DDDThh:mm+hh:mm`\
 `YYYY-DDDThh:mm-hh:mm`
@@ -258,8 +251,7 @@ of hours, minutes.
 `2015-166T12:34+05:00`\
 `2015-166T12:34-05:00`
 
-Year, day ordinal, hours, minutes, 00 seconds, positive or negative offset from
-UTC of hours, minutes.
+Year, day ordinal, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
 
 `YYYY-Www-DThh:mm:ss+hh:mm`\
 `YYYY-Www-DThh:mm:ss-hh:mm`
@@ -267,8 +259,7 @@ UTC of hours, minutes.
 `2015-W24-1T12:34:56+05:00`\
 `2015-W24-1T12:34:56-05:00`
 
-Year, week number, day number, hours, minutes, seconds, positive or negative
-offset from UTC of hours, minutes.
+Year, week number, day number, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
 
 `YYYY-Www-DThh:mm+hh:mm`\
 `YYYY-Www-DThh:mm-hh:mm`
@@ -276,8 +267,7 @@ offset from UTC of hours, minutes.
 `2015-W24-1T12:34+05:00`\
 `2015-W24-1T12:34-05:00`
 
-Year, week number, day number, hours, minutes, 00 seconds, positive or negative
-offset from UTC of hours, minutes.
+Year, week number, day number, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
 
 `YYYY-WwwThh:mm:ss+hh:mm`\
 `YYYY-WwwThh:mm:ss-hh:mm`
@@ -285,8 +275,7 @@ offset from UTC of hours, minutes.
 `2015-W24T12:34:56+05:00`\
 `2015-W24T12:34:56-05:00`
 
-Year, week number, first day of week, hours, minutes, seconds, positive or
-negative offset from UTC of hours, minutes.
+Year, week number, first day of week, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
 
 `YYYY-WwwThh:mm+hh:mm`\
 `YYYY-WwwThh:mm-hh:mm`
@@ -294,8 +283,7 @@ negative offset from UTC of hours, minutes.
 `2015-W24T12:34+05:00`\
 `2015-W24T12:34-05:00`
 
-Year, week number, first day of week, hours, minutes, 00 seconds, positive or
-negative offset from UTC of hours, minutes.
+Year, week number, first day of week, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
 
 `YYYY-MM-DDThh:mm:ss`
 
@@ -349,7 +337,8 @@ Year, week number, first day of week, hours, minutes, 00 seconds, local time.
 
 `2015-06-15`
 
-Year, month, day, 00:00:00 local time. Note that this format is the same as the
+Year, month, day, 00:00:00 local time.
+Note that this format is the same as the
 `rc.dateformat` default.
 
 `YYYY-DDD`
@@ -433,31 +422,33 @@ ISO dates are comprised of standard elements:
 * `YYYY`   - Only four-digit years are supported by ISO-8601, no abbreviations.
 * `MM`     - Two-digit, zero-padded month numbers range from `01` to `12`.
 * `DD`     - Two-digit, zero-padded day numbers range from `01` to `31`, depending on month and year.
-* `Www`    - Week number `W01` is defined as the first week of the year with a Thursday in it. `W01` sometimes starts at the end of December of the previous year. Some years range from `W01` up to `W53`
+* `Www`    - Week number `W01` is defined as the first week of the year with a Thursday in it. `W01` sometimes starts at the end of December of the previous year.
+Some years range from `W01` up to `W53`
 * `D`      - Day of week is 1-7, Monday-Sunday.
 * `DDD`    - Day ordinal is 001 for January 1st, 365 for December 31st, or 366 in a leap year.
 * `T`      - A separator between date elements and time elements.
 * `Z`      - Indicates UTC time, the \'Z\' means \'Zulu\', a military format.
-* `+/-`    - Positive offset is *East* of UTC. Negative offset is *West* of UTC.
+* `+/-`    - Positive offset is *East* of UTC.
+Negative offset is *West* of UTC.
 * `hh`     - Two-digit, zero-padded hours, between `00` and `23`.
 * `mm`     - Two-digit, zero-padded minutes, between `00` and `59`.
 * `ss`     - Two-digit, zero-padded seconds, between `00` and `59`.
 
 You can use any of the ISO formats, independent from your `rc.dateformat`
-setting. Future releases of taskwarrior will not need `rc.dateformat` for
-date/time input.
-
+setting.
+Future releases of taskwarrior will not need `rc.dateformat` for date/time input.
 
 ## Warning
 
-It is possible to set a `dateformat` that conflicts with a built-in format, or
-with other parsed lex types from the command line. Date formats are high on the
-lexer precedence list, and therefore able to eclipse other types.
+It is possible to set a `dateformat` that conflicts with a built-in format, or with other parsed lex types from the command line.
+Date formats are high on the lexer precedence list, and therefore able to eclipse other types.
 
 As an example a `dateformat` of `m-d` means that this command:
-
-    $ task 1-5 list
+```
+$ task 1-5 list
+```
 
 is interpreted as this meaningless filter that always succeeds:
-
-    $ task 2016-01-05 list
+```
+$ task 2016-01-05 list
+```
