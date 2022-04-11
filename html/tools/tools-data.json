@@ -32,6 +32,21 @@
     "url": "https://github.com/0x6d64/taskwarrior-helpers"
   },
   {
+    "description": "An \u00fcbersicht widget for taskwarrior",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "ubertask",
+    "owner": [
+      "13tales"
+    ],
+    "rating": 0,
+    "updated": "2022-04-09",
+    "url": "https://github.com/13tales/ubertask"
+  },
+  {
     "description": "A tmux-based dashboard for taskwarrior",
     "dormant": true,
     "language": [
@@ -463,7 +478,7 @@
       "DCsunset"
     ],
     "rating": 56,
-    "updated": "2022-03-28",
+    "updated": "2022-04-09",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -762,7 +777,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 107,
+    "rating": 108,
     "updated": "2022-03-22",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -807,7 +822,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 45,
+    "rating": 46,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -2892,7 +2907,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2022-04-07",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3298,7 +3313,7 @@
       "coddingtonbear"
     ],
     "rating": 508,
-    "updated": "2022-02-27",
+    "updated": "2022-04-11",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3422,6 +3437,21 @@
     "url": "https://github.com/codekie/spartaaa"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "taskServerUniversity-",
+    "owner": [
+      "comy777"
+    ],
+    "rating": 0,
+    "updated": "2022-04-08",
+    "url": "https://github.com/comy777/taskServerUniversity-"
+  },
+  {
     "description": "A simple terminal kanban for taskwarrior",
     "dormant": true,
     "language": [
@@ -3522,7 +3552,7 @@
     "owner": [
       "dakuten"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2017-06-12",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
   },
@@ -4078,7 +4108,7 @@
       "ethueter"
     ],
     "rating": 0,
-    "updated": "2022-03-15",
+    "updated": "2022-04-09",
     "url": "https://github.com/ethueter/TaskServer"
   },
   {
@@ -5038,7 +5068,7 @@
       "j6s"
     ],
     "rating": 5,
-    "updated": "2020-05-17",
+    "updated": "2022-04-09",
     "url": "https://github.com/j6s/docker-taskwarrior-taskserver"
   },
   {
@@ -5622,7 +5652,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 9,
+    "rating": 8,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -5728,7 +5758,7 @@
       "kdheepak"
     ],
     "rating": 703,
-    "updated": "2022-03-24",
+    "updated": "2022-04-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -5937,7 +5967,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 126,
+    "rating": 127,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -6043,7 +6073,7 @@
       "ky-s"
     ],
     "rating": 1,
-    "updated": "2022-03-25",
+    "updated": "2022-04-09",
     "url": "https://github.com/ky-s/taskwarrior-electron"
   },
   {
@@ -7063,7 +7093,7 @@
       "mitchlxj"
     ],
     "rating": 0,
-    "updated": "2022-02-12",
+    "updated": "2022-04-09",
     "url": "https://github.com/mitchlxj/taskServer"
   },
   {
@@ -8282,6 +8312,21 @@
     "url": "https://github.com/quandangv/polybar-warrior"
   },
   {
+    "description": "A fork of the default on-modify hook from Taskwarrior to change how tags are transferred to Timewarrior.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-hooks",
+    "owner": [
+      "radarsymphony"
+    ],
+    "rating": 0,
+    "updated": "2022-04-10",
+    "url": "https://github.com/radarsymphony/taskwarrior-hooks"
+  },
+  {
     "description": "TaskWarrior source for Denite.  List, view, and preview tasks from Neo/Vim",
     "dormant": true,
     "language": [
@@ -8308,7 +8353,7 @@
       "ralphbean"
     ],
     "rating": 593,
-    "updated": "2022-04-07",
+    "updated": "2022-04-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9492,7 +9537,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 473,
+    "rating": 474,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9582,8 +9627,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 640,
-    "updated": "2022-03-26",
+    "rating": 643,
+    "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -10032,7 +10077,7 @@
     "owner": [
       "x4121"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2019-11-27",
     "url": "https://github.com/x4121/docker-taskd"
   },
@@ -10080,6 +10125,21 @@
     "rating": 1,
     "updated": "2020-04-10",
     "url": "https://github.com/yagizsenal/taskwarrior-spacedlearning"
+  },
+  {
+    "description": "My attempt to creating interactive web interface with taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "TapyWeb",
+    "owner": [
+      "yahoyoungho"
+    ],
+    "rating": 0,
+    "updated": "2022-04-08",
+    "url": "https://github.com/yahoyoungho/TapyWeb"
   },
   {
     "description": null,
