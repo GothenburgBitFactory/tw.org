@@ -27,7 +27,7 @@ On first usage, generate API tokens and store them safely for later:
 * [GitHub](https://github.com/settings/tokens): requires no special scopes
 
 
-Then setup the Python 3 environment:
+Then set up the Python 3 environment:
 
 ```sh
 # Create a virtual environment to avoid clobbering global installation
@@ -44,7 +44,7 @@ $ pip install -r tools/requirements.txt
 Then create the `update_tools.sh` script by copying the sample, and set API keys there. This file will be ignored and should not be committed.
 
 
-Now that everything is setup, the tools can be updated by running `update_tools.sh`:
+Now that everything is set up, the tools can be updated by running `update_tools.sh`:
 
 ```sh
 $ source venv/bin/activate
