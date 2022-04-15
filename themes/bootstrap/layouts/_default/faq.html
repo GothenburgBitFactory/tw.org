@@ -1,0 +1,25 @@
+{{ partial "header.html" . }}
+
+<main role="main">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 doc-main">
+        <article>
+          {{.Content}}
+        </article>
+        {{ range $topic := (slice "Taskwarrior" "Taskserver" "Taskshell" "Timewarrior") }}
+        <h2>{{ $topic }}</h2>
+        <ul>
+          {{ range (where $.Pages ".Params.topic" $topic) }}
+          <li>
+            <a href="{{.Permalink}}">{{.Params.question}}</a>
+          </li>
+          {{ end }}
+        </ul>
+        {{ end }}
+      </div> <!-- /.doc-main -->
+    </div> <!-- /.row -->
+  </div>
+</main>
+
+{{ partial "footer.html" . }}

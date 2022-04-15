@@ -8,10 +8,10 @@ title: "Taskwarrior - What's next?"
 
 ## Latest stable release
 
-**taskwarrior 2.5.3** (Released 2021-01-03):
-[task-2.5.3.tar.gz](/download/task-2.5.3.tar.gz)  
-SHA1 ba1a3cbc5903979755d47f724d14ebeff40b6c81  
-[Changelog](https://github.com/GothenburgBitFactory/taskwarrior/blob/master/ChangeLog)
+**taskwarrior 2.6.2** (Released 2022-03-16):
+[task-2.6.2.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v2.6.2/task-2.6.2.tar.gz)  
+SHA3 92e547ac6bb88659e674877a19cb88dc9687be2ab989f0279b04f286  
+[Changelog](https://github.com/GothenburgBitFactory/taskwarrior/blob/stable/ChangeLog)
 
 **taskd server 1.1.0** (Released 2015-05-10):
 [taskd-1.1.0.tar.gz](/download/taskd-1.1.0.tar.gz)  
@@ -30,9 +30,9 @@ This transcript illustrates a typical installation:
 
 ```
 $ ls
-task-2.5.3.tar.gz
-$ tar xzvf task-2.5.3.tar.gz
-$ cd task-2.5.3
+task-2.6.2.tar.gz
+$ tar xzvf task-2.6.2.tar.gz
+$ cd task-2.6.2
 $ cmake -DCMAKE_BUILD_TYPE=release .
 ...
 $ make
