@@ -47,6 +47,21 @@
     "url": "https://github.com/13tales/ubertask"
   },
   {
+    "description": "Bakalari -> Taskwarrior syncing",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "The Unlicense",
+    "name": "bakalari-taskwarrior-sync",
+    "owner": [
+      "3top1a"
+    ],
+    "rating": 0,
+    "updated": "2022-04-11",
+    "url": "https://github.com/3top1a/bakalari-taskwarrior-sync"
+  },
+  {
     "description": "A tmux-based dashboard for taskwarrior",
     "dormant": true,
     "language": [
@@ -463,7 +478,7 @@
       "DCsunset"
     ],
     "rating": 6,
-    "updated": "2022-02-04",
+    "updated": "2022-04-12",
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
   {
@@ -477,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 56,
+    "rating": 57,
     "updated": "2022-04-09",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1350,6 +1365,21 @@
     "rating": 0,
     "updated": "2021-04-06",
     "url": "https://github.com/Patizy-tel/taskserver"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Dart"
+    ],
+    "license": null,
+    "name": "taskwarrior_flutter",
+    "owner": [
+      "Pavel401"
+    ],
+    "rating": 0,
+    "updated": "2022-04-13",
+    "url": "https://github.com/Pavel401/taskwarrior_flutter"
   },
   {
     "description": null,
@@ -2582,6 +2612,21 @@
     "url": "https://github.com/basalbr/taskserver"
   },
   {
+    "description": "Bidirectional Sync between Things3 & TaskWarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "t3tw",
+    "owner": [
+      "bd3dowling"
+    ],
+    "rating": 0,
+    "updated": "2022-04-14",
+    "url": "https://github.com/bd3dowling/t3tw"
+  },
+  {
     "description": "\ud83d\udd04 Synchronize items from two different sources",
     "dormant": false,
     "language": [
@@ -2697,7 +2742,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 122,
+    "rating": 124,
     "updated": "2021-11-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2907,7 +2952,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2022-04-07",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3072,7 +3117,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -3312,7 +3357,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 508,
+    "rating": 512,
     "updated": "2022-04-11",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3543,7 +3588,7 @@
   },
   {
     "description": "merely just a script showing the most urgent task and allowing it to be marked done",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Shell"
     ],
@@ -3552,8 +3597,8 @@
     "owner": [
       "dakuten"
     ],
-    "rating": 19,
-    "updated": "2017-06-12",
+    "rating": 20,
+    "updated": "2022-04-14",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
   },
   {
@@ -4512,7 +4557,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2021-11-02",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -5757,8 +5802,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 703,
-    "updated": "2022-04-08",
+    "rating": 706,
+    "updated": "2022-04-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6088,7 +6133,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-03-31",
+    "updated": "2022-04-12",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -8323,7 +8368,7 @@
       "radarsymphony"
     ],
     "rating": 0,
-    "updated": "2022-04-10",
+    "updated": "2022-04-11",
     "url": "https://github.com/radarsymphony/taskwarrior-hooks"
   },
   {
@@ -8352,8 +8397,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 593,
-    "updated": "2022-04-09",
+    "rating": 594,
+    "updated": "2022-04-15",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9312,7 +9357,7 @@
     "owner": [
       "svijee"
     ],
-    "rating": 120,
+    "rating": 121,
     "updated": "2016-02-27",
     "url": "https://github.com/svijee/taskwarrior-androidapp"
   },
@@ -9468,7 +9513,7 @@
   },
   {
     "description": "A simple python3 wrapper for Taskwarrior interactions.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -9537,7 +9582,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 474,
+    "rating": 475,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9627,7 +9672,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 643,
+    "rating": 645,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
