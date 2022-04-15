@@ -19,6 +19,15 @@ $ task add "Don't forget to shut off the main water valve first"
 ```
 
 In this example the double-quotes hide the single unclosed quote in "Don't".
+
+You can also enter multi-line descriptions using quoted strings:
+
+```
+$ task add "Five syllables here
+Seven more syllables there
+Are you happy now?"
+```
+
 It is a good idea to quote task descriptions to avoid some problems with the shell, although not necessary.
 The (outer) quotes are not considered part of the description, in fact Taskwarrior never sees them because the shell removes them first.
 Dealing with shell issues is covered in detail in the [Escaping Shell Characters](#) page.
@@ -47,8 +56,6 @@ These are created automatically.
 
 ## Limitations
 
-- Task descriptions may only contain one line of text.
-  Taskwarrior will wrap that text when it is displayed, but there is no means of entering multi-line tasks.
 - There is no way to simultaneously add a task and annotate it.
   Annotations must be applied to existing tasks.
 
