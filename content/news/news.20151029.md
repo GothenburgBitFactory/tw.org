@@ -16,5 +16,5 @@ The mailing lists are an additional communication channel, your original options
 - Email us at ~~`support@taskwarrior.org`~~.
 - User Q & A at ~~`answers.tasktools.org`~~: Submit questions, receive answers, better answers get voted up.
   Requires account created at ~~`bug.tasktools.org`~~.
-- IRC ~~`#taskwarrior`~~ on [freenode.net](https://freenode.net).
+- IRC `#taskwarrior` on ~~`freenode.net`~~.
   Publicly logged on ~~`https://botbot.me/freenode/taskwarrior`~~.

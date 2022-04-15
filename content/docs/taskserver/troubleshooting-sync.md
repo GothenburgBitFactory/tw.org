@@ -182,4 +182,4 @@ There are several ways of getting help:
 
 - Check the FAQ (coming soon).
 - Email us at <taskwarrior-user@googlegroups.com>, then wait patiently for a volunteer to respond.
-- Join us IRC in the \#taskwarrior channel on Freenode.net, and get a quick response from the community, where, as you have anticipated, we will walk you through the checklist above.
+- Join us IRC in the \#taskwarrior channel on libera.chat, and get a quick response from the community, where, as you have anticipated, we will walk you through the checklist above.

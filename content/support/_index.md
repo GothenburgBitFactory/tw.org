@@ -18,8 +18,7 @@ Take a look here - there is a good chance your question is already answered.
 
 ## IRC
 
-There is an active and well-attended \#taskwarrior channel on freenode.
-It is logged here: https://botbot.me/freenode/taskwarrior
+There is an active and well-attended \#taskwarrior channel on libera.chat.
 
 ## Documentation
 
