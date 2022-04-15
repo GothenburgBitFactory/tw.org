@@ -31,7 +31,7 @@ For a full list, see the git history of all the projects.
 |            | - Task: Now uses the CMake CXXSniffer code.                                                                                                                             |
 |            | - Taskd: Now uses the CMake CXXSniffer code.                                                                                                                            |
 |            | - Taskd: Now builds all source as a temp library against which to link tests, for faster builds.                                                                        |
-|            | - Timewarrior: Learned to parse it\'s own command line.                                                                                                                 |
+|            | - Timewarrior: Learned to parse its own command line.                                                                                                                   |
 | 2016-04-10 | - Timewarrior: Gains an extension API.                                                                                                                                  |
 | 2016-04-11 | - libshared: Added support for `socq`, `eocq`, `socy` and `eocy`.                                                                                                       |
 |            | - libshared: Removed Datetime abbreviations for some dates, i.e. `socm`, `socy`.                                                                                        |

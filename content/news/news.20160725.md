@@ -17,5 +17,5 @@ It is intended to replace the `timesheet` command in Taskwarrior, and add much, 
 ![](/images/day8.png)
 
 As a beta release, we hope you will download it and try it out.
-While Timewarrior has all it\'s 1.0-level features, it likely still has a few bugs, and the purpose of the beta release is to find and fix those.
+While Timewarrior has all its 1.0-level features, it likely still has a few bugs, and the purpose of the beta release is to find and fix those.
 Your feedback will help us prepare Timewarrior for full release.
