@@ -478,7 +478,7 @@
       "DCsunset"
     ],
     "rating": 6,
-    "updated": "2022-04-12",
+    "updated": "2022-04-16",
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
   {
@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 57,
+    "rating": 58,
     "updated": "2022-04-09",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2638,7 +2638,7 @@
       "bergercookie"
     ],
     "rating": 2,
-    "updated": "2021-12-19",
+    "updated": "2022-04-18",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
   {
@@ -2683,7 +2683,7 @@
       "bergercookie"
     ],
     "rating": 130,
-    "updated": "2022-03-12",
+    "updated": "2022-04-18",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -3253,7 +3253,7 @@
       "cinatic"
     ],
     "rating": 119,
-    "updated": "2022-01-16",
+    "updated": "2022-04-16",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -5802,7 +5802,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 706,
+    "rating": 708,
     "updated": "2022-04-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7332,7 +7332,7 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-02-22",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
@@ -8398,7 +8398,7 @@
       "ralphbean"
     ],
     "rating": 594,
-    "updated": "2022-04-15",
+    "updated": "2022-04-17",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9927,8 +9927,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 336,
-    "updated": "2022-03-28",
+    "rating": 338,
+    "updated": "2022-04-17",
     "url": "https://github.com/vit-project/vit"
   },
   {
