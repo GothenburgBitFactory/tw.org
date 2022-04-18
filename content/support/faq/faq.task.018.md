@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How can I include the time spent on a task in a custom report?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How can I include the time spent on a task in a custom report?
 
 Total active time is not a reportable field.

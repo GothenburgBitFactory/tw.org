@@ -4,6 +4,8 @@ topic: "Timewarrior"
 question: "How do I control Taskwarrior through Timewarrior?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I control Taskwarrior through Timewarrior?
 
 For example, if I start tracking in Timewarrior, how do I make the task active also?

@@ -4,6 +4,8 @@ topic: "Taskserver"
 question: "Building taskd, cmake cannot find gnutls"
 ---
 
+Back to the [FAQ](/support/faq)
+
 Q: Building taskd, cmake cannot find gnutls
 
 Cmake (v2.8.4) is not finding GnuTLS, despite both being installed.

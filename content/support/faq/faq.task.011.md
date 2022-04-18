@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do you run a report listing recurring task templates?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 Q: List recurring task templates
 
 How do you run a report listing recurring task templates?

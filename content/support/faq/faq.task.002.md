@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do I remove an attribute?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I remove an attribute?
 
 Modify the attribute and give it a blank value:
@@ -12,4 +14,4 @@ Modify the attribute and give it a blank value:
 $ task 16 modify due:
 ```
 
-Taskwarrior doesn\'t store blank values, so it deletes the attribute.
+Taskwarrior doesn't store blank values, so it deletes the attribute.

@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do I hide tasks that have unfinished dependencies?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I hide tasks that have unfinished dependencies?
 
 Try

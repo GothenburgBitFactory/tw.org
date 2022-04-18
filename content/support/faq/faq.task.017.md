@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do I create a task that recurs on more than one day of the week?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I create a task that recurs on more than one day of the week?
 
 This is not supported, but you can simulate this by creating multiple tasks due weekly on different days:

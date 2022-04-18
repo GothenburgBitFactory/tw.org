@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do I change many due dates using one command?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I change many due dates using one command?
 
 Something come up yesterday and completely derailed my day.
@@ -16,4 +18,4 @@ This will change all overdue tasks to be due today:
 $ task +OVERDUE mod due:today
 ```
 
-Depending on whether you want all overdue tasks or not, you\'ll need to adjust the filter.
+Depending on whether you want all overdue tasks or not, you'll need to adjust the filter.

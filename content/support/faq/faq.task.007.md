@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do I bring back a task that I completed or deleted by mistake?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I bring back a task that I completed or deleted by mistake?
 
 Simply changing the `status` of the task to `pending` is enough, Taskwarrior takes care of the rest:
