@@ -4,6 +4,8 @@ topic: "Taskshell"
 question: "How do I repeat the last command?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I repeat the last command?
 
 In tasksh like most linux shell, you can navigate the list of your last input commands by using the UP/DOWN arrows for history navigation and PageUp/PageDown for prefixed history navigation (other names may apply here).

@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do I search for tasks?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I search for tasks?
 
 There are several ways to search the description and annotations of your tasks.

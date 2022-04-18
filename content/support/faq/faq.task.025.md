@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do you delete a recurring task?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 Q: Delete a recurring task template
 
 How do you delete a recurring task?

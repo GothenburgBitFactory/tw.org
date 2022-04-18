@@ -4,13 +4,15 @@ topic: "Taskserver"
 question: "How do I set up Taskserver to use LetsEncrypt certs?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I set up Taskserver to use LetsEncrypt certs?
 
 On the Taskserver server:
 
 Generate a self-signed CA (use `taskd/pki/generate.ca`)
 
-Get a copy of your domain\'s TLS certificates from Lets Encrypt
+Get a copy of your domain's TLS certificates from Lets Encrypt
 
 Configure Taskserver:
 

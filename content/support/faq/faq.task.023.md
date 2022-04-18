@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do I get color working?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I get color working?
 
 Try the command:

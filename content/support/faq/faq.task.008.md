@@ -4,6 +4,8 @@ topic: "Taskwarrior"
 question: "How do I improve output readability?"
 ---
 
+Back to the [FAQ](/support/faq)
+
 ### Q: How do I improve output readability?
 
 You can use line breaks which allow blank lines between sort keys.
