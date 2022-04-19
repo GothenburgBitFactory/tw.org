@@ -58,7 +58,7 @@
       "3top1a"
     ],
     "rating": 0,
-    "updated": "2022-04-11",
+    "updated": "2022-04-18",
     "url": "https://github.com/3top1a/bakalari-taskwarrior-sync"
   },
   {
@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 58,
+    "rating": 59,
     "updated": "2022-04-09",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2672,7 +2672,7 @@
     "url": "https://github.com/bergercookie/taskwarrior-deno"
   },
   {
-    "description": "Synchronization between Taskwarrior tasks and services such as Google Calendar, Notion and ClickUp. Formerly taskw_gcal_sync",
+    "description": "Synchronization between Taskwarrior tasks and services such as Google Calendar, Notion and GoogleKeep. Formerly taskw_gcal_sync",
     "dormant": false,
     "language": [
       "Python"
@@ -2682,7 +2682,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 130,
+    "rating": 134,
     "updated": "2022-04-18",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2847,7 +2847,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 478,
+    "rating": 479,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3253,7 +3253,7 @@
       "cinatic"
     ],
     "rating": 119,
-    "updated": "2022-04-16",
+    "updated": "2022-04-18",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -4652,6 +4652,21 @@
     "url": "https://github.com/guludo/taskwarrior-autotagger"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Dart"
+    ],
+    "license": null,
+    "name": "taskwarrior",
+    "owner": [
+      "guptapriyanshu7"
+    ],
+    "rating": 0,
+    "updated": "2022-04-18",
+    "url": "https://github.com/guptapriyanshu7/taskwarrior"
+  },
+  {
     "description": "taskserver",
     "dormant": false,
     "language": [
@@ -5802,7 +5817,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 708,
+    "rating": 710,
     "updated": "2022-04-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8188,7 +8203,7 @@
       "pld-linux"
     ],
     "rating": 0,
-    "updated": "2022-03-26",
+    "updated": "2022-04-18",
     "url": "https://github.com/pld-linux/vit"
   },
   {
@@ -8397,8 +8412,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 594,
-    "updated": "2022-04-17",
+    "rating": 595,
+    "updated": "2022-04-18",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9582,7 +9597,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 475,
+    "rating": 474,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9927,7 +9942,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 338,
+    "rating": 339,
     "updated": "2022-04-17",
     "url": "https://github.com/vit-project/vit"
   },
