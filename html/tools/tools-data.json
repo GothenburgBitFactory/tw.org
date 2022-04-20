@@ -2672,7 +2672,7 @@
     "url": "https://github.com/bergercookie/taskwarrior-deno"
   },
   {
-    "description": "Synchronization between Taskwarrior tasks and services such as Google Calendar, Notion and GoogleKeep. Formerly taskw_gcal_sync",
+    "description": "Synchronization between Taskwarrior tasks and services such as Google Calendar, Notion and Google Keep. Formerly taskw_gcal_sync",
     "dormant": false,
     "language": [
       "Python"
@@ -2682,8 +2682,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 134,
-    "updated": "2022-04-18",
+    "rating": 135,
+    "updated": "2022-04-19",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2802,7 +2802,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 45,
+    "rating": 46,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3300,6 +3300,21 @@
     "rating": 0,
     "updated": "2020-11-10",
     "url": "https://github.com/clearlinux-pkgs/taskwarrior"
+  },
+  {
+    "description": "Matrix bot for taskwarrior using matrix-nio",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "task-matrix-bot",
+    "owner": [
+      "clemux"
+    ],
+    "rating": 0,
+    "updated": "2022-04-19",
+    "url": "https://github.com/clemux/task-matrix-bot"
   },
   {
     "description": "A dockerized version of taskd server",
@@ -5028,6 +5043,21 @@
   },
   {
     "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "israelcena"
+    ],
+    "rating": 0,
+    "updated": "2022-04-19",
+    "url": "https://github.com/israelcena/taskServer"
+  },
+  {
+    "description": null,
     "dormant": true,
     "language": [
       "Python"
@@ -5818,7 +5848,7 @@
       "kdheepak"
     ],
     "rating": 710,
-    "updated": "2022-04-13",
+    "updated": "2022-04-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8442,7 +8472,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 146,
+    "rating": 147,
     "updated": "2022-01-24",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -9942,7 +9972,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 339,
+    "rating": 340,
     "updated": "2022-04-17",
     "url": "https://github.com/vit-project/vit"
   },
