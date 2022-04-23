@@ -493,7 +493,7 @@
       "DCsunset"
     ],
     "rating": 59,
-    "updated": "2022-04-09",
+    "updated": "2022-04-22",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -1063,7 +1063,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-03-18",
+    "updated": "2022-04-22",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2682,8 +2682,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 135,
-    "updated": "2022-04-19",
+    "rating": 137,
+    "updated": "2022-04-22",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2952,7 +2952,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2022-04-07",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3183,7 +3183,7 @@
   },
   {
     "description": "Taskwarrior based doability projector and reviser",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3298,7 +3298,7 @@
       "clearlinux-pkgs"
     ],
     "rating": 0,
-    "updated": "2020-11-10",
+    "updated": "2022-04-22",
     "url": "https://github.com/clearlinux-pkgs/taskwarrior"
   },
   {
@@ -4468,7 +4468,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2022-03-26",
+    "updated": "2022-04-21",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5053,7 +5053,7 @@
       "israelcena"
     ],
     "rating": 0,
-    "updated": "2022-04-19",
+    "updated": "2022-04-20",
     "url": "https://github.com/israelcena/taskServer"
   },
   {
@@ -5847,8 +5847,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 710,
-    "updated": "2022-04-19",
+    "rating": 714,
+    "updated": "2022-04-21",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -7887,7 +7887,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 10,
+    "rating": 9,
     "updated": "2021-06-04",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
@@ -8443,7 +8443,7 @@
       "ralphbean"
     ],
     "rating": 595,
-    "updated": "2022-04-18",
+    "updated": "2022-04-22",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8488,7 +8488,7 @@
       "raspbeguy"
     ],
     "rating": 0,
-    "updated": "2022-02-10",
+    "updated": "2022-04-22",
     "url": "https://github.com/raspbeguy/ITwarrior"
   },
   {
@@ -8940,21 +8940,6 @@
     "rating": 0,
     "updated": "2018-06-26",
     "url": "https://github.com/shhr1214/taskserver"
-  },
-  {
-    "description": "taskserver",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "task_server",
-    "owner": [
-      "shitingbao"
-    ],
-    "rating": 0,
-    "updated": "2021-07-23",
-    "url": "https://github.com/shitingbao/task_server"
   },
   {
     "description": "Directed graphs of Taskwarrior projects, tags, and tasks.",
@@ -9717,7 +9702,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 645,
+    "rating": 646,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9972,7 +9957,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 340,
+    "rating": 343,
     "updated": "2022-04-17",
     "url": "https://github.com/vit-project/vit"
   },
@@ -10098,7 +10083,7 @@
   },
   {
     "description": "Ansible role for Taskwarrior's taskserver",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
