@@ -1063,7 +1063,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-04-22",
+    "updated": "2022-04-23",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2682,8 +2682,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 137,
-    "updated": "2022-04-22",
+    "rating": 139,
+    "updated": "2022-04-23",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2847,7 +2847,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 479,
+    "rating": 480,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3313,7 +3313,7 @@
       "clemux"
     ],
     "rating": 0,
-    "updated": "2022-04-19",
+    "updated": "2022-04-23",
     "url": "https://github.com/clemux/task-matrix-bot"
   },
   {
@@ -4213,7 +4213,7 @@
       "eyenx"
     ],
     "rating": 2,
-    "updated": "2022-03-02",
+    "updated": "2022-04-23",
     "url": "https://github.com/eyenx/docker-taskwarriormail"
   },
   {
@@ -4228,7 +4228,7 @@
       "eyenx"
     ],
     "rating": 1,
-    "updated": "2022-03-02",
+    "updated": "2022-04-23",
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
   },
   {
@@ -5667,7 +5667,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 265,
+    "rating": 264,
     "updated": "2022-02-06",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5847,7 +5847,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 714,
+    "rating": 716,
     "updated": "2022-04-21",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8443,7 +8443,7 @@
       "ralphbean"
     ],
     "rating": 595,
-    "updated": "2022-04-22",
+    "updated": "2022-04-23",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9957,7 +9957,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 343,
+    "rating": 344,
     "updated": "2022-04-17",
     "url": "https://github.com/vit-project/vit"
   },
