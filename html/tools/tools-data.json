@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2022-04-22",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -792,7 +792,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 108,
+    "rating": 109,
     "updated": "2022-03-22",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1063,7 +1063,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-04-23",
+    "updated": "2022-04-24",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2682,8 +2682,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 139,
-    "updated": "2022-04-23",
+    "rating": 140,
+    "updated": "2022-04-25",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2742,8 +2742,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 124,
-    "updated": "2021-11-25",
+    "rating": 125,
+    "updated": "2022-04-27",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -2952,8 +2952,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 35,
-    "updated": "2022-04-07",
+    "rating": 38,
+    "updated": "2022-04-24",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3253,7 +3253,7 @@
       "cinatic"
     ],
     "rating": 119,
-    "updated": "2022-04-18",
+    "updated": "2022-04-26",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -3302,7 +3302,7 @@
     "url": "https://github.com/clearlinux-pkgs/taskwarrior"
   },
   {
-    "description": "Matrix bot for taskwarrior using matrix-nio",
+    "description": "Matrix bot for taskwarrior",
     "dormant": false,
     "language": [
       "Python"
@@ -3313,7 +3313,7 @@
       "clemux"
     ],
     "rating": 0,
-    "updated": "2022-04-23",
+    "updated": "2022-04-26",
     "url": "https://github.com/clemux/task-matrix-bot"
   },
   {
@@ -3432,7 +3432,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 257,
+    "rating": 258,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4422,7 +4422,7 @@
     "owner": [
       "fsimkovic"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2019-05-20",
     "url": "https://github.com/fsimkovic/taskwarrior-pomodoro"
   },
@@ -5085,6 +5085,21 @@
     "rating": 0,
     "updated": "2015-02-02",
     "url": "https://github.com/ivan-cukic/taskwarrior-kactivities"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Java"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "ivich1"
+    ],
+    "rating": 0,
+    "updated": "2022-04-26",
+    "url": "https://github.com/ivich1/taskServer"
   },
   {
     "description": null,
@@ -5847,7 +5862,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 716,
+    "rating": 720,
     "updated": "2022-04-21",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6192,7 +6207,7 @@
     "owner": [
       "languitar"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2018-08-21",
     "url": "https://github.com/languitar/taskwarrior-emails"
   },
@@ -8052,7 +8067,7 @@
     "owner": [
       "pauby"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2020-11-04",
     "url": "https://github.com/pauby/PSTodoWarrior"
   },
@@ -8442,8 +8457,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 595,
-    "updated": "2022-04-23",
+    "rating": 596,
+    "updated": "2022-04-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9748,7 +9763,7 @@
       "tpeetz"
     ],
     "rating": 3,
-    "updated": "2021-05-26",
+    "updated": "2022-04-25",
     "url": "https://github.com/tpeetz/pull-task"
   },
   {
@@ -9958,7 +9973,7 @@
       "vit-project"
     ],
     "rating": 344,
-    "updated": "2022-04-17",
+    "updated": "2022-04-26",
     "url": "https://github.com/vit-project/vit"
   },
   {
