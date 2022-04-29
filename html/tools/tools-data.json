@@ -792,7 +792,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 109,
+    "rating": 110,
     "updated": "2022-03-22",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -2683,7 +2683,7 @@
       "bergercookie"
     ],
     "rating": 140,
-    "updated": "2022-04-25",
+    "updated": "2022-04-27",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2742,7 +2742,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 125,
+    "rating": 126,
     "updated": "2022-04-27",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3090,6 +3090,21 @@
     "rating": 0,
     "updated": "2020-12-15",
     "url": "https://github.com/carlosfosorio1978/taskserver"
+  },
+  {
+    "description": "Telegram bot that sends taskwarrior urgent tasks",
+    "dormant": false,
+    "language": [
+      "Ruby"
+    ],
+    "license": null,
+    "name": "telegram-taskwarrior",
+    "owner": [
+      "cedricbousmanne"
+    ],
+    "rating": 0,
+    "updated": "2022-04-28",
+    "url": "https://github.com/cedricbousmanne/telegram-taskwarrior"
   },
   {
     "description": "CodeTask is a Visual Studio Code for TaskWarrior Integration",
@@ -4468,7 +4483,7 @@
       "garybgenett"
     ],
     "rating": 14,
-    "updated": "2022-04-21",
+    "updated": "2022-04-28",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5848,7 +5863,7 @@
       "kdheepak"
     ],
     "rating": 0,
-    "updated": "2022-02-07",
+    "updated": "2022-04-28",
     "url": "https://github.com/kdheepak/taskwarrior-testdata"
   },
   {
@@ -5862,8 +5877,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 720,
-    "updated": "2022-04-21",
+    "rating": 721,
+    "updated": "2022-04-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8458,7 +8473,7 @@
       "ralphbean"
     ],
     "rating": 596,
-    "updated": "2022-04-26",
+    "updated": "2022-04-28",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8892,7 +8907,7 @@
     "owner": [
       "sgaraud"
     ],
-    "rating": 48,
+    "rating": 50,
     "updated": "2021-09-08",
     "url": "https://github.com/sgaraud/gnome-extension-taskwarrior"
   },
@@ -9627,7 +9642,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 474,
+    "rating": 475,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9765,6 +9780,21 @@
     "rating": 3,
     "updated": "2022-04-25",
     "url": "https://github.com/tpeetz/pull-task"
+  },
+  {
+    "description": "A Timewarrior report script for calculating billable hours.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timew-billable",
+    "owner": [
+      "trev-dev"
+    ],
+    "rating": 0,
+    "updated": "2022-04-28",
+    "url": "https://github.com/trev-dev/timew-billable"
   },
   {
     "description": "Various notifications for taskwarrior",
@@ -9972,8 +10002,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 344,
-    "updated": "2022-04-26",
+    "rating": 345,
+    "updated": "2022-04-28",
     "url": "https://github.com/vit-project/vit"
   },
   {
