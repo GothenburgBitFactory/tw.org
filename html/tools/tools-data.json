@@ -192,7 +192,7 @@
     "owner": [
       "Aerex"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-10-15",
     "url": "https://github.com/Aerex/icaltask"
   },
@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2022-04-22",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -808,7 +808,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 2,
-    "updated": "2022-03-30",
+    "updated": "2022-04-29",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -823,7 +823,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2022-03-30",
+    "updated": "2022-04-29",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -1107,7 +1107,7 @@
     "owner": [
       "Liberationtech"
     ],
-    "rating": 8,
+    "rating": 7,
     "updated": "2012-09-18",
     "url": "https://github.com/Liberationtech/taskpacifist"
   },
@@ -1758,7 +1758,7 @@
   },
   {
     "description": "Python script for synchronizing a gmail label and taskwarrior tasks",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -2517,7 +2517,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2015-11-23",
     "url": "https://github.com/awwaiid/tnote"
   },
@@ -2637,7 +2637,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-04-18",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
@@ -2682,7 +2682,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 140,
+    "rating": 141,
     "updated": "2022-04-27",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2952,7 +2952,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2022-04-24",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3302,6 +3302,21 @@
     "url": "https://github.com/claudiomattera/taskreminder"
   },
   {
+    "description": "VS Code extension to manage Taskwarrior tasks",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": "Apache License 2.0",
+    "name": "vscode-taskwarrior",
+    "owner": [
+      "claui"
+    ],
+    "rating": 1,
+    "updated": "2022-04-30",
+    "url": "https://github.com/claui/vscode-taskwarrior"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
@@ -3387,7 +3402,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 512,
+    "rating": 511,
     "updated": "2022-04-11",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4183,7 +4198,7 @@
       "ethueter"
     ],
     "rating": 0,
-    "updated": "2022-04-09",
+    "updated": "2022-04-29",
     "url": "https://github.com/ethueter/TaskServer"
   },
   {
@@ -4407,7 +4422,7 @@
     "owner": [
       "frenchrd"
     ],
-    "rating": 5,
+    "rating": 4,
     "updated": "2013-07-16",
     "url": "https://github.com/frenchrd/taskwarrior-progress"
   },
@@ -4528,7 +4543,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2022-03-02",
+    "updated": "2022-04-29",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -5877,8 +5892,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 721,
-    "updated": "2022-04-28",
+    "rating": 725,
+    "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6208,7 +6223,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-04-12",
+    "updated": "2022-04-29",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -7007,21 +7022,6 @@
     "url": "https://github.com/mattcl/task-streamer"
   },
   {
-    "description": "Some helper scripts for my TaskWarrior setup",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskwarrior-helpers",
-    "owner": [
-      "mattmacari"
-    ],
-    "rating": 1,
-    "updated": "2019-06-12",
-    "url": "https://github.com/mattmacari/taskwarrior-helpers"
-  },
-  {
     "description": "Show todos from different sources in a sidebar like app",
     "dormant": false,
     "language": [
@@ -7032,7 +7032,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 5,
+    "rating": 4,
     "updated": "2022-03-11",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -7383,7 +7383,7 @@
   },
   {
     "description": "Scripts around taskwarrior and friends.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "R"
     ],
@@ -8472,8 +8472,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 596,
-    "updated": "2022-04-28",
+    "rating": 595,
+    "updated": "2022-04-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9417,7 +9417,7 @@
     "owner": [
       "svijee"
     ],
-    "rating": 121,
+    "rating": 120,
     "updated": "2016-02-27",
     "url": "https://github.com/svijee/taskwarrior-androidapp"
   },
@@ -9642,7 +9642,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 475,
+    "rating": 476,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9732,7 +9732,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 646,
+    "rating": 647,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -9792,8 +9792,8 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 0,
-    "updated": "2022-04-28",
+    "rating": 4,
+    "updated": "2022-04-30",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
@@ -10003,7 +10003,7 @@
       "vit-project"
     ],
     "rating": 345,
-    "updated": "2022-04-28",
+    "updated": "2022-05-01",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -10250,16 +10250,16 @@
     "description": "My attempt to creating interactive web interface with taskwarrior",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "MIT License",
-    "name": "TapyWeb",
+    "name": "TTWarrior",
     "owner": [
       "yahoyoungho"
     ],
     "rating": 0,
-    "updated": "2022-04-08",
-    "url": "https://github.com/yahoyoungho/TapyWeb"
+    "updated": "2022-04-30",
+    "url": "https://github.com/yahoyoungho/TTWarrior"
   },
   {
     "description": null,
@@ -10293,7 +10293,7 @@
   },
   {
     "description": "plugin system for the Taskwarrior task manager",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Perl"
     ],
