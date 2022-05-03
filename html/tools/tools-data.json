@@ -808,7 +808,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 2,
-    "updated": "2022-04-29",
+    "updated": "2022-05-02",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -823,7 +823,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2022-04-29",
+    "updated": "2022-05-02",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -2802,7 +2802,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2952,7 +2952,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2022-04-24",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -4395,6 +4395,21 @@
     "rating": 6,
     "updated": "2011-01-28",
     "url": "https://github.com/framallo/taskwarrior.vim"
+  },
+  {
+    "description": "Simple solution to create tasks via email in taskworrior",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "Email2taskwarrior",
+    "owner": [
+      "frasom"
+    ],
+    "rating": 0,
+    "updated": "2022-05-02",
+    "url": "https://github.com/frasom/Email2taskwarrior"
   },
   {
     "description": null,
@@ -5892,7 +5907,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 725,
+    "rating": 726,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8473,7 +8488,7 @@
       "ralphbean"
     ],
     "rating": 595,
-    "updated": "2022-04-30",
+    "updated": "2022-05-03",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
