@@ -1862,6 +1862,21 @@
     "url": "https://github.com/VelychkoOleksandr/TaskServer-v2"
   },
   {
+    "description": "Taskserver client for Rust app",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "taskserver-rust",
+    "owner": [
+      "YuseiIto"
+    ],
+    "rating": 0,
+    "updated": "2022-05-04",
+    "url": "https://github.com/YuseiIto/taskserver-rust"
+  },
+  {
     "description": "Your secretary app, note taking tool with taskwarrior capabilities",
     "dormant": true,
     "language": [
@@ -2743,7 +2758,7 @@
       "bgregos"
     ],
     "rating": 126,
-    "updated": "2022-04-27",
+    "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -2847,7 +2862,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 480,
+    "rating": 481,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5802,7 +5817,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -7947,7 +7962,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2021-11-23",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -9657,7 +9672,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 476,
+    "rating": 475,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
