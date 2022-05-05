@@ -942,7 +942,7 @@
     "owner": [
       "HiveMinds"
     ],
-    "rating": 9,
+    "rating": 8,
     "updated": "2022-03-03",
     "url": "https://github.com/HiveMinds/tw-install"
   },
@@ -3553,7 +3553,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-04-08",
+    "updated": "2022-05-04",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -4213,7 +4213,7 @@
       "ethueter"
     ],
     "rating": 0,
-    "updated": "2022-04-29",
+    "updated": "2022-05-04",
     "url": "https://github.com/ethueter/TaskServer"
   },
   {
@@ -4332,7 +4332,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 125,
+    "rating": 126,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -5910,21 +5910,6 @@
     "rating": 0,
     "updated": "2022-04-28",
     "url": "https://github.com/kdheepak/taskwarrior-testdata"
-  },
-  {
-    "description": "`taskwarrior-tui`: A terminal user interface for taskwarrior",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "taskwarrior-tui",
-    "owner": [
-      "kdheepak"
-    ],
-    "rating": 726,
-    "updated": "2022-05-01",
-    "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
     "description": "A python script supporting my kanban workflow for taskwarrior",
@@ -9823,7 +9808,7 @@
       "trev-dev"
     ],
     "rating": 4,
-    "updated": "2022-04-30",
+    "updated": "2022-05-04",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
@@ -10257,7 +10242,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2021-11-12",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
