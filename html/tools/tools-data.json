@@ -792,7 +792,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 110,
+    "rating": 111,
     "updated": "2022-03-22",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1242,7 +1242,7 @@
     "owner": [
       "Mossop"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-04-07",
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
@@ -2307,7 +2307,7 @@
     "owner": [
       "alkim0"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2020-08-30",
     "url": "https://github.com/alkim0/task-attach"
   },
@@ -2388,7 +2388,7 @@
   },
   {
     "description": "taskwarrior blocks: attribute for inverse dependencies",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -2697,8 +2697,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 141,
-    "updated": "2022-04-27",
+    "rating": 142,
+    "updated": "2022-05-11",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2757,7 +2757,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 126,
+    "rating": 128,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2817,7 +2817,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2967,7 +2967,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 40,
+    "rating": 42,
     "updated": "2022-04-24",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3057,7 +3057,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 89,
+    "rating": 90,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -3162,7 +3162,7 @@
     "owner": [
       "cgardner"
     ],
-    "rating": 7,
+    "rating": 6,
     "updated": "2019-12-31",
     "url": "https://github.com/cgardner/taskhelper"
   },
@@ -3282,7 +3282,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 119,
+    "rating": 120,
     "updated": "2022-04-26",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -3328,7 +3328,7 @@
       "claui"
     ],
     "rating": 1,
-    "updated": "2022-04-30",
+    "updated": "2022-05-10",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
   {
@@ -3343,7 +3343,7 @@
       "clearlinux-pkgs"
     ],
     "rating": 0,
-    "updated": "2022-04-22",
+    "updated": "2022-05-12",
     "url": "https://github.com/clearlinux-pkgs/taskwarrior"
   },
   {
@@ -3417,7 +3417,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 511,
+    "rating": 512,
     "updated": "2022-04-11",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3657,7 +3657,7 @@
     "owner": [
       "dakuten"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2022-04-14",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
   },
@@ -4258,7 +4258,7 @@
       "eyenx"
     ],
     "rating": 2,
-    "updated": "2022-04-23",
+    "updated": "2022-05-06",
     "url": "https://github.com/eyenx/docker-taskwarriormail"
   },
   {
@@ -4273,7 +4273,7 @@
       "eyenx"
     ],
     "rating": 1,
-    "updated": "2022-04-23",
+    "updated": "2022-05-06",
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
   },
   {
@@ -4332,7 +4332,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 126,
+    "rating": 127,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -4527,8 +4527,8 @@
     "owner": [
       "garybgenett"
     ],
-    "rating": 14,
-    "updated": "2022-04-28",
+    "rating": 15,
+    "updated": "2022-05-10",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5577,7 +5577,7 @@
     "owner": [
       "jonathanabennett"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2022-04-06",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
@@ -5742,7 +5742,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 264,
+    "rating": 265,
     "updated": "2022-02-06",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5910,6 +5910,21 @@
     "rating": 0,
     "updated": "2022-04-28",
     "url": "https://github.com/kdheepak/taskwarrior-testdata"
+  },
+  {
+    "description": "`taskwarrior-tui`: A terminal user interface for taskwarrior",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-tui",
+    "owner": [
+      "kdheepak"
+    ],
+    "rating": 735,
+    "updated": "2022-05-01",
+    "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
     "description": "A python script supporting my kanban workflow for taskwarrior",
@@ -6117,7 +6132,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 127,
+    "rating": 128,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -6777,7 +6792,7 @@
     "owner": [
       "lukasdietrich"
     ],
-    "rating": 2,
+    "rating": 1,
     "updated": "2018-10-11",
     "url": "https://github.com/lukasdietrich/taskwarrior-docker"
   },
@@ -7947,7 +7962,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2021-11-23",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -8007,7 +8022,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-04-03",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -8442,7 +8457,7 @@
     "owner": [
       "quandangv"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2020-10-12",
     "url": "https://github.com/quandangv/polybar-warrior"
   },
@@ -8487,8 +8502,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 595,
-    "updated": "2022-05-03",
+    "rating": 596,
+    "updated": "2022-05-06",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8517,8 +8532,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 147,
-    "updated": "2022-01-24",
+    "rating": 148,
+    "updated": "2022-05-07",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -8652,7 +8667,7 @@
     "owner": [
       "robwhitaker"
     ],
-    "rating": 5,
+    "rating": 4,
     "updated": "2020-02-15",
     "url": "https://github.com/robwhitaker/taskwarrior-habitica-bridge"
   },
@@ -9462,7 +9477,7 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-03-16",
     "url": "https://github.com/szaffarano/gotas"
   },
@@ -9507,7 +9522,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 29,
+    "rating": 31,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -9627,7 +9642,7 @@
     "owner": [
       "thehunmonkgroup"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2021-08-15",
     "url": "https://github.com/thehunmonkgroup/onenote"
   },
@@ -9657,7 +9672,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 475,
+    "rating": 476,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9747,7 +9762,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 647,
+    "rating": 650,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10017,8 +10032,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 345,
-    "updated": "2022-05-01",
+    "rating": 347,
+    "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
   {
