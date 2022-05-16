@@ -792,7 +792,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 112,
+    "rating": 113,
     "updated": "2022-03-22",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -2712,7 +2712,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 143,
+    "rating": 145,
     "updated": "2022-05-11",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -3075,6 +3075,21 @@
     "rating": 90,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
+  },
+  {
+    "description": "Subtasks in taskwarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "subtaskwarrior",
+    "owner": [
+      "cakira"
+    ],
+    "rating": 0,
+    "updated": "2022-05-16",
+    "url": "https://github.com/cakira/subtaskwarrior"
   },
   {
     "description": "A Django-based web front-end for taskwarrior",
@@ -4557,7 +4572,7 @@
     "owner": [
       "garybgenett"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2022-05-10",
     "url": "https://github.com/garybgenett/tasks"
   },
@@ -5952,7 +5967,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 736,
+    "rating": 740,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6808,7 +6823,7 @@
       "louis-morgan"
     ],
     "rating": 0,
-    "updated": "2022-05-14",
+    "updated": "2022-05-15",
     "url": "https://github.com/louis-morgan/obsidian-taskwarrior-cli"
   },
   {
@@ -7077,7 +7092,7 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
@@ -8547,7 +8562,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 596,
+    "rating": 598,
     "updated": "2022-05-13",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9027,7 +9042,7 @@
     "owner": [
       "shenlebantongying"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-02-13",
     "url": "https://github.com/shenlebantongying/Taskwarrior-Connector"
   },
@@ -9807,7 +9822,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 650,
+    "rating": 649,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10077,7 +10092,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 347,
+    "rating": 348,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
