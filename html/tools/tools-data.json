@@ -2127,7 +2127,7 @@
     "owner": [
       "ajpierce"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2012-03-05",
     "url": "https://github.com/ajpierce/taskmailer"
   },
@@ -2712,8 +2712,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 145,
-    "updated": "2022-05-11",
+    "rating": 146,
+    "updated": "2022-05-16",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2772,7 +2772,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 128,
+    "rating": 129,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2982,7 +2982,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 42,
+    "rating": 43,
     "updated": "2022-04-24",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3507,7 +3507,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 258,
+    "rating": 259,
     "updated": "2021-04-21",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5787,7 +5787,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 265,
+    "rating": 266,
     "updated": "2022-02-06",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5967,7 +5967,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 740,
+    "rating": 758,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8562,8 +8562,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 598,
-    "updated": "2022-05-13",
+    "rating": 603,
+    "updated": "2022-05-16",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8593,7 +8593,7 @@
       "ralphbean"
     ],
     "rating": 148,
-    "updated": "2022-05-07",
+    "updated": "2022-05-16",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -8818,7 +8818,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2022-03-25",
+    "updated": "2022-05-16",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9822,7 +9822,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 649,
+    "rating": 662,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10242,7 +10242,7 @@
     "owner": [
       "winpat"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-02-13",
     "url": "https://github.com/winpat/taskwarrior.el"
   },
@@ -10258,7 +10258,7 @@
       "wushuangge"
     ],
     "rating": 0,
-    "updated": "2021-07-22",
+    "updated": "2022-05-16",
     "url": "https://github.com/wushuangge/taskServer"
   },
   {
