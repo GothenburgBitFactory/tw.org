@@ -492,8 +492,8 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 61,
-    "updated": "2022-04-22",
+    "rating": 62,
+    "updated": "2022-05-20",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -1548,7 +1548,7 @@
   },
   {
     "description": "ASP.NET Core \u0441\u0435\u0440\u0432\u0435\u0440 \u0441 SignalR",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "C#"
     ],
@@ -2712,7 +2712,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 147,
+    "rating": 149,
     "updated": "2022-05-16",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2982,7 +2982,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 43,
+    "rating": 44,
     "updated": "2022-04-24",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3447,7 +3447,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 512,
+    "rating": 514,
     "updated": "2022-04-11",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4362,7 +4362,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 127,
+    "rating": 128,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -4503,7 +4503,7 @@
   },
   {
     "description": "Pomodoro UI for time-tracking of TaskWarrior tasks",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -5787,7 +5787,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 266,
+    "rating": 267,
     "updated": "2022-02-06",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5967,7 +5967,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 762,
+    "rating": 767,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6177,7 +6177,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 128,
+    "rating": 129,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -6298,7 +6298,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-04-29",
+    "updated": "2022-05-19",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -6798,7 +6798,7 @@
   },
   {
     "description": "Taswarrior scripts",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6958,7 +6958,7 @@
       "maralorn"
     ],
     "rating": 7,
-    "updated": "2022-01-03",
+    "updated": "2022-05-20",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -7033,7 +7033,7 @@
       "markeganfuller"
     ],
     "rating": 0,
-    "updated": "2020-06-12",
+    "updated": "2022-05-20",
     "url": "https://github.com/markeganfuller/taskrc"
   },
   {
@@ -8563,7 +8563,7 @@
       "ralphbean"
     ],
     "rating": 605,
-    "updated": "2022-05-16",
+    "updated": "2022-05-20",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8810,7 +8810,7 @@
     "description": "derp(dot)files ",
     "dormant": false,
     "language": [
-      "Shell"
+      "Lua"
     ],
     "license": "MIT License",
     "name": "derpfiles",
@@ -8818,7 +8818,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2022-05-16",
+    "updated": "2022-05-20",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9075,6 +9075,21 @@
     "rating": 21,
     "updated": "2017-11-26",
     "url": "https://github.com/shushcat/taskgv"
+  },
+  {
+    "description": "Microsoft To-Do integration with Taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-ms-todo",
+    "owner": [
+      "simachri"
+    ],
+    "rating": 0,
+    "updated": "2022-05-18",
+    "url": "https://github.com/simachri/taskwarrior-ms-todo"
   },
   {
     "description": null,
@@ -9732,7 +9747,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 476,
+    "rating": 477,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9822,7 +9837,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 662,
+    "rating": 663,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10092,7 +10107,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 348,
+    "rating": 351,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
@@ -10407,7 +10422,7 @@
     "owner": [
       "yanick"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2018-10-11",
     "url": "https://github.com/yanick/nvim-taskwarrior"
   },
