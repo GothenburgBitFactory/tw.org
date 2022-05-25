@@ -108,7 +108,7 @@
   },
   {
     "description": "Make an email in Mail.app a task with TaskWarrior and Taskopen using Applescript",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "AppleScript"
     ],
@@ -2877,7 +2877,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 481,
+    "rating": 482,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -2983,7 +2983,7 @@
       "bradyt"
     ],
     "rating": 44,
-    "updated": "2022-04-24",
+    "updated": "2022-05-25",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3088,7 +3088,7 @@
       "cakira"
     ],
     "rating": 0,
-    "updated": "2022-05-23",
+    "updated": "2022-05-24",
     "url": "https://github.com/cakira/subtaskwarrior"
   },
   {
@@ -5967,7 +5967,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 772,
+    "rating": 773,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8818,7 +8818,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2022-05-20",
+    "updated": "2022-05-24",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
@@ -9242,6 +9242,21 @@
     "url": "https://github.com/sorrowless/twsyncer"
   },
   {
+    "description": "\u23f1 Vim plugin for Unfog CLI task & time manager.",
+    "dormant": false,
+    "language": [
+      "Vim script"
+    ],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "name": "unfog.vim",
+    "owner": [
+      "soywod"
+    ],
+    "rating": 61,
+    "updated": "2021-01-17",
+    "url": "https://github.com/soywod/unfog.vim"
+  },
+  {
     "description": "Taskwarrior-inspired CalDAV command line tool.",
     "dormant": true,
     "language": [
@@ -9492,7 +9507,7 @@
     "owner": [
       "svenhertle"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2015-03-01",
     "url": "https://github.com/svenhertle/tasktime"
   },
@@ -10092,7 +10107,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 351,
+    "rating": 352,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
@@ -10407,7 +10422,7 @@
     "owner": [
       "yanick"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2018-10-11",
     "url": "https://github.com/yanick/nvim-taskwarrior"
   },
