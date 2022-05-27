@@ -15,8 +15,8 @@ jobs:
         run: |
           python3 -m venv /tmp/venv
           /tmp/venv/bin/pip install --upgrade pip
-          /tmp/venv/bin/pip install -r tools/requirements.txt
-          /tmp/venv/bin/python tools/update.py html/tools/tools-data.json
+          /tmp/venv/bin/pip install -r bin/requirements.txt
+          /tmp/venv/bin/python bin/update.py static/tools-data.json
       - name: Create Pull Request
         id: cpr
         uses: peter-evans/create-pull-request@v3
