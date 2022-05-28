@@ -1382,7 +1382,7 @@
     "url": "https://github.com/Pavel401/taskwarrior_flutter"
   },
   {
-    "description": null,
+    "description": "A CLI assistant for using taskwarrior with the GTD methodology",
     "dormant": false,
     "language": [
       "Rust"
@@ -2712,7 +2712,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 150,
+    "rating": 151,
     "updated": "2022-05-16",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -3088,7 +3088,7 @@
       "cakira"
     ],
     "rating": 0,
-    "updated": "2022-05-24",
+    "updated": "2022-05-25",
     "url": "https://github.com/cakira/subtaskwarrior"
   },
   {
@@ -3583,7 +3583,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-05-04",
+    "updated": "2022-05-25",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -7788,7 +7788,7 @@
   },
   {
     "description": "Running neomutt, taskwarrior, afew, and notmuchtask in Docker.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -8037,24 +8037,9 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 93,
+    "rating": 94,
     "updated": "2022-05-17",
     "url": "https://github.com/ogarcia/trellowarrior"
-  },
-  {
-    "description": "A work in progress towards a responsive front end for TaskWarrior",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "handytask",
-    "owner": [
-      "okennedy"
-    ],
-    "rating": 1,
-    "updated": "2020-11-01",
-    "url": "https://github.com/okennedy/handytask"
   },
   {
     "description": "Ansible Playbook for deploying taskd (taskwarrior server).",
@@ -8563,7 +8548,7 @@
       "ralphbean"
     ],
     "rating": 607,
-    "updated": "2022-05-22",
+    "updated": "2022-05-25",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10257,7 +10242,7 @@
     "owner": [
       "winpat"
     ],
-    "rating": 5,
+    "rating": 4,
     "updated": "2022-02-13",
     "url": "https://github.com/winpat/taskwarrior.el"
   },
@@ -10422,7 +10407,7 @@
     "owner": [
       "yanick"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2018-10-11",
     "url": "https://github.com/yanick/nvim-taskwarrior"
   },
