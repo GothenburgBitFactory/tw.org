@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 62,
+    "rating": 63,
     "updated": "2022-05-22",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2983,7 +2983,7 @@
       "bradyt"
     ],
     "rating": 44,
-    "updated": "2022-05-25",
+    "updated": "2022-05-28",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3312,7 +3312,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 120,
+    "rating": 121,
     "updated": "2022-04-26",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -5862,7 +5862,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -5967,7 +5967,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 773,
+    "rating": 774,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -5997,7 +5997,7 @@
     "owner": [
       "kellya"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-07-27",
     "url": "https://github.com/kellya/mutt2tw"
   },
@@ -6627,7 +6627,7 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2015-03-04",
     "url": "https://github.com/linuxcaffe/tw-hledger-add-hook"
   },
@@ -8040,6 +8040,21 @@
     "rating": 94,
     "updated": "2022-05-17",
     "url": "https://github.com/ogarcia/trellowarrior"
+  },
+  {
+    "description": "A work in progress towards a responsive front end for TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "handytask",
+    "owner": [
+      "okennedy"
+    ],
+    "rating": 1,
+    "updated": "2020-11-01",
+    "url": "https://github.com/okennedy/handytask"
   },
   {
     "description": "Ansible Playbook for deploying taskd (taskwarrior server).",
