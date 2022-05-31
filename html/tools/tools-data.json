@@ -1408,7 +1408,7 @@
       "Psyhackological"
     ],
     "rating": 0,
-    "updated": "2022-05-22",
+    "updated": "2022-05-29",
     "url": "https://github.com/Psyhackological/dotfiles"
   },
   {
@@ -2713,7 +2713,7 @@
       "bergercookie"
     ],
     "rating": 151,
-    "updated": "2022-05-16",
+    "updated": "2022-05-30",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2772,7 +2772,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 129,
+    "rating": 130,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2877,7 +2877,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 482,
+    "rating": 481,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -2983,7 +2983,7 @@
       "bradyt"
     ],
     "rating": 44,
-    "updated": "2022-05-28",
+    "updated": "2022-05-31",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3177,7 +3177,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 40,
+    "rating": 41,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -3687,7 +3687,7 @@
     "owner": [
       "dakuten"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2022-04-14",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
   },
@@ -5967,7 +5967,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 774,
+    "rating": 775,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6492,7 +6492,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2017-11-11",
     "url": "https://github.com/liloman/pomodoroTasks2"
   },
@@ -7092,7 +7092,7 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
@@ -7803,7 +7803,7 @@
   },
   {
     "description": "notmuchmail, taskwarrior and mutt are about to be your next dreamteam",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -8563,7 +8563,7 @@
       "ralphbean"
     ],
     "rating": 607,
-    "updated": "2022-05-25",
+    "updated": "2022-05-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8593,7 +8593,7 @@
       "ralphbean"
     ],
     "rating": 148,
-    "updated": "2022-05-16",
+    "updated": "2022-05-30",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -9837,7 +9837,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 663,
+    "rating": 664,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10107,7 +10107,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 352,
+    "rating": 353,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
