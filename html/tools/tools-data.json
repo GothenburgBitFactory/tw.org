@@ -2283,7 +2283,7 @@
   },
   {
     "description": "ASP .NET CORE API",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "C#"
     ],
@@ -2832,7 +2832,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 48,
+    "rating": 49,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3168,7 +3168,7 @@
   },
   {
     "description": "A command-line tool to manage todo list and record time spent on tasks.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3387,7 +3387,7 @@
     "owner": [
       "clemux"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-04-26",
     "url": "https://github.com/clemux/task-matrix-bot"
   },
@@ -4962,7 +4962,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 58,
+    "rating": 59,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -8818,7 +8818,7 @@
       "rucas"
     ],
     "rating": 2,
-    "updated": "2022-05-24",
+    "updated": "2022-05-31",
     "url": "https://github.com/rucas/derpfiles"
   },
   {
