@@ -72,7 +72,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 63,
+    "rating": 64,
     "updated": "2022-05-22",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1767,7 +1767,7 @@
     "owner": [
       "TheBeachLab"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2021-12-07",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
@@ -1902,7 +1902,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2019-01-07",
     "url": "https://github.com/Zebradil/Skribe"
   },
@@ -2732,6 +2732,21 @@
     "url": "https://github.com/bergercookie/taskwarrior-web-franz-recipe"
   },
   {
+    "description": "Collection of Taskwarrior hooks",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "tw-hooks",
+    "owner": [
+      "bergercookie"
+    ],
+    "rating": 0,
+    "updated": "2022-06-02",
+    "url": "https://github.com/bergercookie/tw-hooks"
+  },
+  {
     "description": "Create tasks from audio files",
     "dormant": false,
     "language": [
@@ -3447,7 +3462,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 514,
+    "rating": 515,
     "updated": "2022-04-11",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5787,7 +5802,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 268,
+    "rating": 269,
     "updated": "2022-06-01",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7092,7 +7107,7 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
@@ -8563,7 +8578,7 @@
       "ralphbean"
     ],
     "rating": 608,
-    "updated": "2022-05-30",
+    "updated": "2022-06-02",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8712,7 +8727,7 @@
     "owner": [
       "robwhitaker"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2020-01-20",
     "url": "https://github.com/robwhitaker/hasknote"
   },
@@ -9837,7 +9852,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 664,
+    "rating": 665,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
