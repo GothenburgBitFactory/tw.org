@@ -2732,7 +2732,7 @@
     "url": "https://github.com/bergercookie/taskwarrior-web-franz-recipe"
   },
   {
-    "description": "Collection of Taskwarrior hooks",
+    "description": "Collection of Taskwarrior hooks + detection and registration mechanism",
     "dormant": false,
     "language": [
       "Python"
@@ -2743,7 +2743,7 @@
       "bergercookie"
     ],
     "rating": 0,
-    "updated": "2022-06-02",
+    "updated": "2022-06-03",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
   {
@@ -2787,7 +2787,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 132,
+    "rating": 133,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4633,7 +4633,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2022-06-01",
+    "updated": "2022-06-03",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -5003,13 +5003,13 @@
       "Shell"
     ],
     "license": null,
-    "name": "polybar-taskwarrior",
+    "name": "polybar_module-taskwarrior",
     "owner": [
       "husjon"
     ],
     "rating": 0,
     "updated": "2020-10-25",
-    "url": "https://github.com/husjon/polybar-taskwarrior"
+    "url": "https://github.com/husjon/polybar_module-taskwarrior"
   },
   {
     "description": "reward system for taskwarrior",
@@ -5743,7 +5743,7 @@
       "jrabbit"
     ],
     "rating": 5,
-    "updated": "2021-07-05",
+    "updated": "2022-06-03",
     "url": "https://github.com/jrabbit/taskd-redshirt"
   },
   {
@@ -8578,7 +8578,7 @@
       "ralphbean"
     ],
     "rating": 608,
-    "updated": "2022-06-02",
+    "updated": "2022-06-04",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9762,7 +9762,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 477,
+    "rating": 478,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
