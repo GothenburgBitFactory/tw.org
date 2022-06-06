@@ -1562,21 +1562,6 @@
     "url": "https://github.com/SVyacheslav/TaskServer"
   },
   {
-    "description": "Based on idea taskwarriors-web",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "Tasks-Web",
-    "owner": [
-      "Shekcon"
-    ],
-    "rating": 0,
-    "updated": "2019-02-27",
-    "url": "https://github.com/Shekcon/Tasks-Web"
-  },
-  {
     "description": "A web-based mobile todo-list app with taskwarrior-like features",
     "dormant": false,
     "language": [
@@ -1995,6 +1980,21 @@
     "rating": 2,
     "updated": "2018-09-05",
     "url": "https://github.com/Zebradil/tw-wifi-contexter"
+  },
+  {
+    "description": "ncurses interface for Taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "ncurtask",
+    "owner": [
+      "Zhbert"
+    ],
+    "rating": 0,
+    "updated": "2022-06-04",
+    "url": "https://github.com/Zhbert/ncurtask"
   },
   {
     "description": "Taskserver (taskd) in Docker",
@@ -2713,7 +2713,7 @@
       "bergercookie"
     ],
     "rating": 151,
-    "updated": "2022-06-02",
+    "updated": "2022-06-05",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2743,7 +2743,7 @@
       "bergercookie"
     ],
     "rating": 0,
-    "updated": "2022-06-03",
+    "updated": "2022-06-05",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
   {
@@ -2787,7 +2787,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 133,
+    "rating": 134,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -5795,15 +5795,15 @@
     "description": "Tool for taking notes and open urls with taskwarrior",
     "dormant": false,
     "language": [
-      "Perl"
+      "Nim"
     ],
-    "license": null,
+    "license": "GNU General Public License v2.0",
     "name": "taskopen",
     "owner": [
       "jschlatow"
     ],
     "rating": 269,
-    "updated": "2022-06-01",
+    "updated": "2022-06-04",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -5982,7 +5982,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 775,
+    "rating": 776,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6192,7 +6192,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 129,
+    "rating": 130,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -8578,7 +8578,7 @@
       "ralphbean"
     ],
     "rating": 608,
-    "updated": "2022-06-04",
+    "updated": "2022-06-05",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9045,6 +9045,21 @@
     "rating": 0,
     "updated": "2018-07-21",
     "url": "https://github.com/sh78/taskwarrior-deduplicate"
+  },
+  {
+    "description": "Based on idea taskwarriors-web",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "Tasks-Web",
+    "owner": [
+      "shekcon"
+    ],
+    "rating": 0,
+    "updated": "2019-02-27",
+    "url": "https://github.com/shekcon/Tasks-Web"
   },
   {
     "description": "The missing piece between browser and taskwarrior",
@@ -9733,7 +9748,7 @@
       "thehunmonkgroup"
     ],
     "rating": 14,
-    "updated": "2021-08-15",
+    "updated": "2022-06-05",
     "url": "https://github.com/thehunmonkgroup/onenote"
   },
   {
@@ -9852,7 +9867,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 665,
+    "rating": 666,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
