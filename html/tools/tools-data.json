@@ -1063,7 +1063,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-05-14",
+    "updated": "2022-06-07",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1862,6 +1862,21 @@
     "url": "https://github.com/VelychkoOleksandr/TaskServer-v2"
   },
   {
+    "description": "A Taskwarrior reminder generator",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "gjallarhorn",
+    "owner": [
+      "YR-ZR0"
+    ],
+    "rating": 0,
+    "updated": "2022-06-08",
+    "url": "https://github.com/YR-ZR0/gjallarhorn"
+  },
+  {
     "description": "Taskserver client for Rust app",
     "dormant": false,
     "language": [
@@ -1933,7 +1948,7 @@
       "Zebradil"
     ],
     "rating": 50,
-    "updated": "2022-03-21",
+    "updated": "2022-06-08",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -1993,7 +2008,7 @@
       "Zhbert"
     ],
     "rating": 0,
-    "updated": "2022-06-04",
+    "updated": "2022-06-08",
     "url": "https://github.com/Zhbert/ncurtask"
   },
   {
@@ -2322,7 +2337,7 @@
     "owner": [
       "alkim0"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2020-08-30",
     "url": "https://github.com/alkim0/task-attach"
   },
@@ -2787,7 +2802,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 134,
+    "rating": 135,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2997,7 +3012,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 45,
+    "rating": 46,
     "updated": "2022-05-31",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -5832,7 +5847,7 @@
     "owner": [
       "jspricke"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2022-03-28",
     "url": "https://github.com/jspricke/python-icstask"
   },
@@ -7138,7 +7153,7 @@
       "maxjoehnk"
     ],
     "rating": 4,
-    "updated": "2022-06-06",
+    "updated": "2022-06-07",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8578,7 +8593,7 @@
       "ralphbean"
     ],
     "rating": 608,
-    "updated": "2022-06-05",
+    "updated": "2022-06-08",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9583,7 +9598,7 @@
       "szaffarano"
     ],
     "rating": 2,
-    "updated": "2022-03-16",
+    "updated": "2022-06-07",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
