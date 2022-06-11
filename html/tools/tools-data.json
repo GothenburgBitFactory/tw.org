@@ -252,7 +252,7 @@
     "owner": [
       "AliGhahraei"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2021-12-30",
     "url": "https://github.com/AliGhahraei/just-start"
   },
@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2022-05-22",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2802,7 +2802,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 135,
+    "rating": 137,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3207,7 +3207,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 41,
+    "rating": 42,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -3918,7 +3918,7 @@
   },
   {
     "description": "My taskwarrior dotfiles",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -4992,7 +4992,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -5652,8 +5652,8 @@
     "owner": [
       "jonathanabennett"
     ],
-    "rating": 8,
-    "updated": "2022-04-06",
+    "rating": 9,
+    "updated": "2022-06-10",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -5817,7 +5817,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 269,
+    "rating": 270,
     "updated": "2022-06-04",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -5997,7 +5997,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 778,
+    "rating": 781,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8052,7 +8052,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2021-11-23",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -8112,7 +8112,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-04-03",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -8592,8 +8592,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 608,
-    "updated": "2022-06-08",
+    "rating": 610,
+    "updated": "2022-06-10",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9792,7 +9792,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 478,
+    "rating": 479,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -9882,7 +9882,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 666,
+    "rating": 667,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10152,7 +10152,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 353,
+    "rating": 354,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
