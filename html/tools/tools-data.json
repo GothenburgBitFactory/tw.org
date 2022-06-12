@@ -1063,7 +1063,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-06-07",
+    "updated": "2022-06-11",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2727,7 +2727,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 151,
+    "rating": 152,
     "updated": "2022-06-05",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2802,7 +2802,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 137,
+    "rating": 138,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4472,7 +4472,7 @@
     "url": "https://github.com/framallo/taskwarrior.vim"
   },
   {
-    "description": "Simple solution to create tasks via email in taskworrior",
+    "description": "Simple solution to create tasks via email in taskwarrior",
     "dormant": false,
     "language": [
       "Shell"
@@ -4483,7 +4483,7 @@
       "frasom"
     ],
     "rating": 0,
-    "updated": "2022-05-02",
+    "updated": "2022-06-11",
     "url": "https://github.com/frasom/Email2taskwarrior"
   },
   {
@@ -5997,7 +5997,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 781,
+    "rating": 782,
     "updated": "2022-05-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9882,7 +9882,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 667,
+    "rating": 668,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
