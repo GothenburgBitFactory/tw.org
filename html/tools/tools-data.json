@@ -178,7 +178,7 @@
       "Aerex"
     ],
     "rating": 0,
-    "updated": "2022-02-24",
+    "updated": "2022-06-19",
     "url": "https://github.com/Aerex/baikal-storage-plugin"
   },
   {
@@ -238,7 +238,7 @@
       "AjmirSarker"
     ],
     "rating": 0,
-    "updated": "2022-06-17",
+    "updated": "2022-06-18",
     "url": "https://github.com/AjmirSarker/taskserver"
   },
   {
@@ -807,7 +807,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 113,
+    "rating": 114,
     "updated": "2022-06-06",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -2367,7 +2367,7 @@
     "owner": [
       "alkim0"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2020-08-30",
     "url": "https://github.com/alkim0/task-attach"
   },
@@ -2757,7 +2757,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 155,
+    "rating": 156,
     "updated": "2022-06-05",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2832,7 +2832,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 140,
+    "rating": 142,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2892,7 +2892,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 49,
+    "rating": 50,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -2997,7 +2997,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-07-07",
     "url": "https://github.com/bradyt/taskd-client-dart"
   },
@@ -3012,7 +3012,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-07-07",
     "url": "https://github.com/bradyt/taskd-setup-dart"
   },
@@ -3042,7 +3042,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 46,
+    "rating": 48,
     "updated": "2022-05-31",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3132,7 +3132,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 91,
+    "rating": 92,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -3162,7 +3162,7 @@
     "owner": [
       "campbellr"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2016-08-05",
     "url": "https://github.com/campbellr/taskweb"
   },
@@ -3507,7 +3507,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 517,
+    "rating": 519,
     "updated": "2022-06-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3597,7 +3597,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2015-01-28",
     "url": "https://github.com/coddingtonbear/taskwarrior-timebook-hook"
   },
@@ -3643,7 +3643,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-05-25",
+    "updated": "2022-06-22",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -3898,7 +3898,7 @@
       "dezmondfinney"
     ],
     "rating": 1,
-    "updated": "2022-06-01",
+    "updated": "2022-06-22",
     "url": "https://github.com/dezmondfinney/Montu"
   },
   {
@@ -4303,7 +4303,7 @@
       "ethueter"
     ],
     "rating": 0,
-    "updated": "2022-06-17",
+    "updated": "2022-06-20",
     "url": "https://github.com/ethueter/TaskServer"
   },
   {
@@ -4737,7 +4737,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2021-11-02",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -5028,7 +5028,7 @@
   },
   {
     "description": "Synchronize tasks between Clubhouse.io and TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -5757,7 +5757,7 @@
     "owner": [
       "jrabbit"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2021-07-27",
     "url": "https://github.com/jrabbit/taskd-client-py"
   },
@@ -5847,7 +5847,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 272,
+    "rating": 273,
     "updated": "2022-06-04",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6027,8 +6027,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 783,
-    "updated": "2022-05-01",
+    "rating": 790,
+    "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6088,7 +6088,7 @@
       "kellya"
     ],
     "rating": 0,
-    "updated": "2022-01-24",
+    "updated": "2022-06-21",
     "url": "https://github.com/kellya/taskloop"
   },
   {
@@ -6222,7 +6222,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2016-10-06",
     "url": "https://github.com/kostajh/taskwarrior-time-report"
   },
@@ -7813,7 +7813,7 @@
       "nerab"
     ],
     "rating": 24,
-    "updated": "2022-06-16",
+    "updated": "2022-06-21",
     "url": "https://github.com/nerab/twdeps"
   },
   {
@@ -8622,8 +8622,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 611,
-    "updated": "2022-06-15",
+    "rating": 612,
+    "updated": "2022-06-22",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8652,8 +8652,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 148,
-    "updated": "2022-05-30",
+    "rating": 149,
+    "updated": "2022-06-18",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
@@ -9628,7 +9628,7 @@
       "szaffarano"
     ],
     "rating": 2,
-    "updated": "2022-06-07",
+    "updated": "2022-06-21",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -9672,7 +9672,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -9687,7 +9687,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2016-03-19",
     "url": "https://github.com/tbabej/taskwarrior-block-recurrence-hook"
   },
@@ -10182,7 +10182,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 355,
+    "rating": 358,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
@@ -10513,7 +10513,7 @@
       "yellow001"
     ],
     "rating": 0,
-    "updated": "2019-10-29",
+    "updated": "2022-06-22",
     "url": "https://github.com/yellow001/TaskServerDemo"
   },
   {
