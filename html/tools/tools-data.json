@@ -2832,7 +2832,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 142,
+    "rating": 143,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -6027,7 +6027,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 790,
+    "rating": 791,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7038,7 +7038,7 @@
   },
   {
     "description": "A tree viewer for taskwarrior tasks in rust with gtk+.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -8622,7 +8622,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 612,
+    "rating": 613,
     "updated": "2022-06-22",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9912,7 +9912,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 670,
+    "rating": 671,
     "updated": "2022-04-08",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10182,7 +10182,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 358,
+    "rating": 359,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
