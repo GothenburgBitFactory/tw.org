@@ -513,7 +513,7 @@
   },
   {
     "description": "a php lib for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "PHP"
     ],
@@ -523,7 +523,7 @@
       "DavidBadura"
     ],
     "rating": 16,
-    "updated": "2022-02-24",
+    "updated": "2022-06-26",
     "url": "https://github.com/DavidBadura/Taskwarrior"
   },
   {
@@ -2057,6 +2057,21 @@
     "url": "https://github.com/a-tal/taskserver"
   },
   {
+    "description": "A taskwarrior like app written in Nim",
+    "dormant": false,
+    "language": [
+      "Nim"
+    ],
+    "license": null,
+    "name": "task.nim",
+    "owner": [
+      "aMOPel"
+    ],
+    "rating": 0,
+    "updated": "2022-06-26",
+    "url": "https://github.com/aMOPel/task.nim"
+  },
+  {
     "description": "A Java client to communicate with a taskwarrior server (= taskd).",
     "dormant": false,
     "language": [
@@ -2832,7 +2847,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 143,
+    "rating": 144,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3042,8 +3057,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 48,
-    "updated": "2022-05-31",
+    "rating": 49,
+    "updated": "2022-06-26",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -6027,7 +6042,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 791,
+    "rating": 792,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8082,7 +8097,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2021-11-23",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
