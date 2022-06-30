@@ -1978,7 +1978,7 @@
       "Zebradil"
     ],
     "rating": 50,
-    "updated": "2022-06-27",
+    "updated": "2022-06-28",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3522,7 +3522,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 519,
+    "rating": 520,
     "updated": "2022-06-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3688,7 +3688,7 @@
       "cp1059"
     ],
     "rating": 0,
-    "updated": "2020-07-02",
+    "updated": "2022-06-28",
     "url": "https://github.com/cp1059/taskserver"
   },
   {
@@ -4873,7 +4873,7 @@
       "gzshop"
     ],
     "rating": 0,
-    "updated": "2020-06-27",
+    "updated": "2022-06-28",
     "url": "https://github.com/gzshop/taskserver"
   },
   {
@@ -5862,8 +5862,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 273,
-    "updated": "2022-06-04",
+    "rating": 274,
+    "updated": "2022-06-28",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -6042,7 +6042,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 792,
+    "rating": 794,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8097,7 +8097,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2021-11-23",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -8112,7 +8112,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 95,
+    "rating": 96,
     "updated": "2022-05-17",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -8518,7 +8518,7 @@
       "pztrn"
     ],
     "rating": 0,
-    "updated": "2021-11-19",
+    "updated": "2022-06-29",
     "url": "https://github.com/pztrn/taskd"
   },
   {
@@ -8667,7 +8667,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 149,
+    "rating": 150,
     "updated": "2022-06-18",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -9342,7 +9342,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 61,
+    "rating": 62,
     "updated": "2021-01-17",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -9927,8 +9927,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 671,
-    "updated": "2022-06-27",
+    "rating": 672,
+    "updated": "2022-06-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
