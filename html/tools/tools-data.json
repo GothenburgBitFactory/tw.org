@@ -2057,21 +2057,6 @@
     "url": "https://github.com/a-tal/taskserver"
   },
   {
-    "description": "A taskwarrior like app written in Nim",
-    "dormant": false,
-    "language": [
-      "Nim"
-    ],
-    "license": null,
-    "name": "task.nim",
-    "owner": [
-      "aMOPel"
-    ],
-    "rating": 1,
-    "updated": "2022-06-27",
-    "url": "https://github.com/aMOPel/task.nim"
-  },
-  {
     "description": "A Java client to communicate with a taskwarrior server (= taskd).",
     "dormant": false,
     "language": [
@@ -2803,7 +2788,7 @@
       "bergercookie"
     ],
     "rating": 0,
-    "updated": "2022-06-05",
+    "updated": "2022-06-30",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
   {
@@ -3522,7 +3507,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 520,
+    "rating": 521,
     "updated": "2022-06-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3658,7 +3643,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-06-22",
+    "updated": "2022-06-30",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -6042,7 +6027,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 794,
+    "rating": 795,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7317,7 +7302,7 @@
     "owner": [
       "mikebobroski"
     ],
-    "rating": 43,
+    "rating": 44,
     "updated": "2017-12-22",
     "url": "https://github.com/mikebobroski/tasknote"
   },
@@ -8802,7 +8787,7 @@
     "owner": [
       "robwhitaker"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2020-02-15",
     "url": "https://github.com/robwhitaker/taskwarrior-habitica-bridge"
   },
@@ -9643,7 +9628,7 @@
       "szaffarano"
     ],
     "rating": 2,
-    "updated": "2022-06-24",
+    "updated": "2022-06-30",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
