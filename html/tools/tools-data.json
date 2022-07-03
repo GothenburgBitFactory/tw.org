@@ -957,7 +957,7 @@
     "owner": [
       "HiveMinds"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2022-03-03",
     "url": "https://github.com/HiveMinds/tw-install"
   },
@@ -2757,7 +2757,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 156,
+    "rating": 155,
     "updated": "2022-06-05",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2832,7 +2832,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 145,
+    "rating": 147,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2937,7 +2937,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 481,
+    "rating": 482,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -4633,7 +4633,7 @@
       "garybgenett"
     ],
     "rating": 15,
-    "updated": "2022-07-01",
+    "updated": "2022-07-02",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6027,7 +6027,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 798,
+    "rating": 799,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
