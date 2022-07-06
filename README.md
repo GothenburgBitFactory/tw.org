@@ -4,8 +4,9 @@ This repository contains the content of the taskwarrior.org site.
 
 
 ## To Clone this Repository:
-
-   git clone https://github.com/GothenburgBitFactory/tw.org.git
+```sh
+git clone https://github.com/GothenburgBitFactory/tw.org.git
+```
 
 
 ## Instruction For Updating tw.org/html/tools
