@@ -193,7 +193,7 @@
       "Aerex"
     ],
     "rating": 3,
-    "updated": "2021-10-15",
+    "updated": "2022-07-05",
     "url": "https://github.com/Aerex/icaltask"
   },
   {
@@ -1783,7 +1783,7 @@
       "TheBeachLab"
     ],
     "rating": 6,
-    "updated": "2021-12-07",
+    "updated": "2022-07-04",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
   {
@@ -1977,7 +1977,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 50,
+    "rating": 51,
     "updated": "2022-06-28",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -3042,7 +3042,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 49,
+    "rating": 50,
     "updated": "2022-06-26",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3507,7 +3507,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 521,
+    "rating": 522,
     "updated": "2022-06-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4308,21 +4308,6 @@
   },
   {
     "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "ThingsToTaskwarrior",
-    "owner": [
-      "evantravers"
-    ],
-    "rating": 1,
-    "updated": "2022-03-25",
-    "url": "https://github.com/evantravers/ThingsToTaskwarrior"
-  },
-  {
-    "description": null,
     "dormant": true,
     "language": [
       "Ruby"
@@ -4592,21 +4577,6 @@
     "url": "https://github.com/functioncreep/twgtd"
   },
   {
-    "description": "A basic taskd server",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "taskd-dockerized",
-    "owner": [
-      "fyusuf-a"
-    ],
-    "rating": 1,
-    "updated": "2021-10-01",
-    "url": "https://github.com/fyusuf-a/taskd-dockerized"
-  },
-  {
     "description": "Taskwarrior to share tasks between multiple clients and colleagues, Bugwarrior to rule them all (Github, Gitlab, Jira, Gmail,...)",
     "dormant": false,
     "language": [
@@ -4737,7 +4707,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2021-11-02",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -5852,21 +5822,6 @@
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
-    "description": "Process taskwarrior items using GTD methodologies written in Node",
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "tw-gtd",
-    "owner": [
-      "jschloer"
-    ],
-    "rating": 1,
-    "updated": "2018-01-10",
-    "url": "https://github.com/jschloer/tw-gtd"
-  },
-  {
     "description": "Python library to convert between Taskwarrior and vObject",
     "dormant": false,
     "language": [
@@ -5907,7 +5862,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2022-01-11",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
@@ -6027,7 +5982,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 799,
+    "rating": 804,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6103,7 +6058,7 @@
       "kellya"
     ],
     "rating": 0,
-    "updated": "2021-11-25",
+    "updated": "2022-07-05",
     "url": "https://github.com/kellya/tw-spaceduck"
   },
   {
@@ -7813,7 +7768,7 @@
       "nerab"
     ],
     "rating": 24,
-    "updated": "2022-06-21",
+    "updated": "2022-07-04",
     "url": "https://github.com/nerab/twdeps"
   },
   {
@@ -9092,21 +9047,6 @@
     "url": "https://github.com/sh78/taskwarrior-deduplicate"
   },
   {
-    "description": "Based on idea taskwarriors-web",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "Tasks-Web",
-    "owner": [
-      "shekcon"
-    ],
-    "rating": 0,
-    "updated": "2019-02-27",
-    "url": "https://github.com/shekcon/Tasks-Web"
-  },
-  {
     "description": "The missing piece between browser and taskwarrior",
     "dormant": false,
     "language": [
@@ -9567,7 +9507,7 @@
     "owner": [
       "svamberg"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-11-15",
     "url": "https://github.com/svamberg/xfce4-taskwarrior"
   },
