@@ -2367,7 +2367,7 @@
     "owner": [
       "alkim0"
     ],
-    "rating": 7,
+    "rating": 6,
     "updated": "2020-08-30",
     "url": "https://github.com/alkim0/task-attach"
   },
@@ -2773,7 +2773,7 @@
       "bergercookie"
     ],
     "rating": 156,
-    "updated": "2022-07-11",
+    "updated": "2022-07-12",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -4622,6 +4622,21 @@
     "url": "https://github.com/functioncreep/twgtd"
   },
   {
+    "description": "A basic taskd server",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskd-dockerized",
+    "owner": [
+      "fyusuf-a"
+    ],
+    "rating": 1,
+    "updated": "2021-10-01",
+    "url": "https://github.com/fyusuf-a/taskd-dockerized"
+  },
+  {
     "description": "Taskwarrior to share tasks between multiple clients and colleagues, Bugwarrior to rule them all (Github, Gitlab, Jira, Gmail,...)",
     "dormant": false,
     "language": [
@@ -5998,7 +6013,7 @@
       "kaiec"
     ],
     "rating": 2,
-    "updated": "2022-03-31",
+    "updated": "2022-07-12",
     "url": "https://github.com/kaiec/dotfiles"
   },
   {
@@ -6057,7 +6072,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 807,
+    "rating": 809,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7213,7 +7228,7 @@
       "maxjoehnk"
     ],
     "rating": 4,
-    "updated": "2022-07-11",
+    "updated": "2022-07-12",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -7290,6 +7305,21 @@
     "rating": 2,
     "updated": "2014-12-30",
     "url": "https://github.com/metamorph/taskwarrior-journal"
+  },
+  {
+    "description": "interactive shell for taskwarror",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "itask",
+    "owner": [
+      "mhoff"
+    ],
+    "rating": 2,
+    "updated": "2018-07-06",
+    "url": "https://github.com/mhoff/itask"
   },
   {
     "description": "taskwarrior irc bot",
@@ -7723,7 +7753,7 @@
       "n8henrie"
     ],
     "rating": 0,
-    "updated": "2022-02-03",
+    "updated": "2022-07-12",
     "url": "https://github.com/n8henrie/taskwarrior-rs"
   },
   {
@@ -8637,8 +8667,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 613,
-    "updated": "2022-07-07",
+    "rating": 615,
+    "updated": "2022-07-12",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
