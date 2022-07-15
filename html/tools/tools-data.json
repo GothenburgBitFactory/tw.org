@@ -2952,7 +2952,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 482,
+    "rating": 483,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -4678,7 +4678,7 @@
       "garybgenett"
     ],
     "rating": 15,
-    "updated": "2022-07-02",
+    "updated": "2022-07-14",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6072,7 +6072,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 810,
+    "rating": 811,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8667,7 +8667,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 615,
+    "rating": 617,
     "updated": "2022-07-13",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9957,7 +9957,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 672,
+    "rating": 673,
     "updated": "2022-06-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
