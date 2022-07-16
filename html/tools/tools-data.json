@@ -1093,7 +1093,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-06-11",
+    "updated": "2022-07-15",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2702,21 +2702,6 @@
     "url": "https://github.com/basalbr/taskserver"
   },
   {
-    "description": "Bidirectional Sync between Things3 & TaskWarrior",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "t3tw",
-    "owner": [
-      "bd3dowling"
-    ],
-    "rating": 0,
-    "updated": "2022-04-14",
-    "url": "https://github.com/bd3dowling/t3tw"
-  },
-  {
     "description": "\ud83d\udd04 Synchronize items from two different sources",
     "dormant": false,
     "language": [
@@ -2773,7 +2758,7 @@
       "bergercookie"
     ],
     "rating": 156,
-    "updated": "2022-07-12",
+    "updated": "2022-07-15",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -4572,7 +4557,7 @@
     "owner": [
       "frenchrd"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2013-07-16",
     "url": "https://github.com/frenchrd/taskwarrior-progress"
   },
@@ -5037,7 +5022,7 @@
     "owner": [
       "hpainter"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2015-02-16",
     "url": "https://github.com/hpainter/task-toggl"
   },
@@ -6072,7 +6057,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 811,
+    "rating": 813,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7857,7 +7842,7 @@
     "owner": [
       "nerab"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2022-07-04",
     "url": "https://github.com/nerab/twdeps"
   },
@@ -8922,7 +8907,7 @@
     "owner": [
       "rucas"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-06-16",
     "url": "https://github.com/rucas/derpfiles"
   },
@@ -9202,13 +9187,13 @@
     "language": [
       "Go"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "taskwarrior-ms-todo",
     "owner": [
       "simachri"
     ],
     "rating": 0,
-    "updated": "2022-07-13",
+    "updated": "2022-07-15",
     "url": "https://github.com/simachri/taskwarrior-ms-todo"
   },
   {
@@ -9372,7 +9357,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 62,
+    "rating": 63,
     "updated": "2021-01-17",
     "url": "https://github.com/soywod/unfog.vim"
   },
