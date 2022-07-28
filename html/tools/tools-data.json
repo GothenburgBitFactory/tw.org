@@ -507,7 +507,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 69,
+    "rating": 71,
     "updated": "2022-07-20",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -807,7 +807,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 114,
+    "rating": 115,
     "updated": "2022-06-06",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1093,7 +1093,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-07-15",
+    "updated": "2022-07-26",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1363,7 +1363,7 @@
       "NishantSinghal19"
     ],
     "rating": 0,
-    "updated": "2022-07-25",
+    "updated": "2022-07-27",
     "url": "https://github.com/NishantSinghal19/taskwarrior-gsoc"
   },
   {
@@ -3117,7 +3117,7 @@
     "owner": [
       "brutus"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-03-25",
     "url": "https://github.com/brutus/taskwarrior-local"
   },
@@ -4663,7 +4663,7 @@
       "garybgenett"
     ],
     "rating": 15,
-    "updated": "2022-07-20",
+    "updated": "2022-07-27",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5952,7 +5952,7 @@
     "owner": [
       "juanedflores"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2022-01-16",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
@@ -6087,7 +6087,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 821,
+    "rating": 825,
     "updated": "2022-06-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6297,7 +6297,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 130,
+    "rating": 129,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -8567,6 +8567,21 @@
     "url": "https://github.com/pztrn/taskd"
   },
   {
+    "description": "Hooks for taskwarrior.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwarrior_hooks",
+    "owner": [
+      "pztrn"
+    ],
+    "rating": 0,
+    "updated": "2022-07-27",
+    "url": "https://github.com/pztrn/taskwarrior_hooks"
+  },
+  {
     "description": "taskwarrior to jabber interface (NodeJS,JavaScript)",
     "dormant": true,
     "language": [
@@ -9732,7 +9747,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -9972,7 +9987,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 674,
+    "rating": 675,
     "updated": "2022-06-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10242,7 +10257,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 364,
+    "rating": 365,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
