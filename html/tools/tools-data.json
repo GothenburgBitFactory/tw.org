@@ -1363,7 +1363,7 @@
       "NishantSinghal19"
     ],
     "rating": 0,
-    "updated": "2022-07-27",
+    "updated": "2022-07-28",
     "url": "https://github.com/NishantSinghal19/taskwarrior-gsoc"
   },
   {
@@ -2757,8 +2757,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 158,
-    "updated": "2022-07-15",
+    "rating": 160,
+    "updated": "2022-07-28",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2955,36 +2955,6 @@
     "rating": 1,
     "updated": "2016-02-13",
     "url": "https://github.com/bmejias/kanban4taskwarrior"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "docker-dart-taskserver-issue",
-    "owner": [
-      "bradyt"
-    ],
-    "rating": 0,
-    "updated": "2021-12-29",
-    "url": "https://github.com/bradyt/docker-dart-taskserver-issue"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "docker-taskwarrior",
-    "owner": [
-      "bradyt"
-    ],
-    "rating": 0,
-    "updated": "2021-11-12",
-    "url": "https://github.com/bradyt/docker-taskwarrior"
   },
   {
     "description": "Taskserver client Dart library",
@@ -4663,7 +4633,7 @@
       "garybgenett"
     ],
     "rating": 15,
-    "updated": "2022-07-27",
+    "updated": "2022-07-28",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6087,8 +6057,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 825,
-    "updated": "2022-06-19",
+    "rating": 829,
+    "updated": "2022-07-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6420,6 +6390,21 @@
     "rating": 0,
     "updated": "2022-07-22",
     "url": "https://github.com/ky-s/taskwarrior_rails"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "kylape"
+    ],
+    "rating": 0,
+    "updated": "2022-07-28",
+    "url": "https://github.com/kylape/taskserver"
   },
   {
     "description": "My minimalistic hack for sending taskwarrior task reminders.",
@@ -8578,7 +8563,7 @@
       "pztrn"
     ],
     "rating": 0,
-    "updated": "2022-07-27",
+    "updated": "2022-07-28",
     "url": "https://github.com/pztrn/taskwarrior_hooks"
   },
   {
