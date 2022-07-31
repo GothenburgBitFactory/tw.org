@@ -9,7 +9,7 @@ Development is shifting focus for Taskwarrior and Taskserver.
 No more features will be added, and completeness, stability and testing become the new focus.
 
 The goal is to work towards good beta releases.
-There is no schedule for this work for a couple of reasons; we are more concerned with quality than delivery date, and as an all-volunteer organization, participation is not predictable ([you can help](/docs/contribute)).
+There is no schedule for this work for a couple of reasons; we are more concerned with quality than delivery date, and as an all-volunteer organization, participation is not predictable ([you can help](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/contrib/contribute.md)).
 
 Although Taskwarrior 2.3.0, 2.4.0, and Taskserver 1.0.0, 1.1.0 are all compatible with each other, there will be an almost simultaneous release of the updates, as they work together better.
 
