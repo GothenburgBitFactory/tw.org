@@ -9,7 +9,7 @@ All Taskwarrior family projects follow this same philosophy.
 
 ## Openness
 
-The [source code](https://github.com/GothenburgBitFactory/taskwarrior), [plans](/docs/design/plans), [designs](/docs/design), [bugs](https://github.com/GothenburgBitFactory/taskwarrior/issues), [testing](https://github.com/GothenburgBitFactory/taskwarrior/actions), [docs](/docs), and [website](https://github.com/GothenburgBitFactory/tw.org) are all free and open source.
+The [source code](https://github.com/GothenburgBitFactory/taskwarrior), [plans](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/plans.md), [designs](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/index.md), [bugs](https://github.com/GothenburgBitFactory/taskwarrior/issues), [testing](https://github.com/GothenburgBitFactory/taskwarrior/actions), [docs](/docs), and [website](https://github.com/GothenburgBitFactory/tw.org) are all free and open source.
 Your data is kept as plain text, and never held hostage by a proprietary format.
 You are welcome to contribute and identify improvements in all aspects of the project.
 There is no hidden agenda.
