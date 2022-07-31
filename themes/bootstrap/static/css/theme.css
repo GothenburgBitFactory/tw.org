@@ -130,6 +130,16 @@ h4 .callout-warning {
   margin: 20px 0
 }
 
+.navbar-brand {
+  padding-left: 28px;
+}
+.navbar-brand::before {
+  content: url(/images/tw.svg);
+  margin-left: -36px;
+  margin-top: -4px;
+  position: absolute;
+}
+
 .sidebar-toc {
   position: fixed;
   background: #C4CBB728;
