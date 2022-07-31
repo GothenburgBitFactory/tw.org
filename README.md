@@ -14,9 +14,15 @@ For minor changes, it is perfectly fine to simply change the relevant Markdown f
 For more complex changes, here is how to build the documentation locally:
 
 1. Install [hugo](https://gohugo.io/getting-started/quick-start/).
-2. Run `hugo server -D -w`.
-   This defaults to running a web server on `http://localhost:1313`.
-   If you are running on an external host, try `hugo server -D -w --bind 0.0.0.0 -b http://<hostname>`
+2. Run
+   ```sh
+   hugo server -D -w
+   ```
+   This defaults to running a web server on `http://localhost:1313`.  
+   If you are running on an external host, try 
+   ```sh
+   hugo server -D -w --bind 0.0.0.0 -b http://<hostname>
+   ```
 
 ## Updating Tools
 
