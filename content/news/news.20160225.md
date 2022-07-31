@@ -14,7 +14,7 @@ Author Konstantin Vorobyev has created an Android client with Syncing and many o
 [![Taskwarrior for Android](/images/twa5.png)](/images/twa5.png)
 
 Taskwarrior for Android has an embedded copy of Taskwarrior, and so inherits all the behaviors.
-Take a look at [Taskwarrior for Android](https://play.google.com/store/apps/details?id=kvj.taskw) on Google Play.
+Take a look at ~~`Taskwarrior for Android`~~ on Google Play.
 
 Taskwarrior for Android is open source, and can be found on [bitbucket.org/kvorobyev/taskwarriorandroid](https://bitbucket.org/kvorobyev/taskwarriorandroid/wiki/Home).
 
