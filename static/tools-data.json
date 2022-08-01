@@ -2937,7 +2937,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 484,
+    "rating": 486,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -6057,7 +6057,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 831,
+    "rating": 832,
     "updated": "2022-07-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8122,13 +8122,13 @@
     "language": [
       "Makefile"
     ],
-    "license": "MIT License",
+    "license": "GNU General Public License v3.0",
     "name": "docker-taskd",
     "owner": [
       "ogarcia"
     ],
     "rating": 40,
-    "updated": "2021-11-23",
+    "updated": "2022-07-31",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
@@ -8682,7 +8682,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 620,
+    "rating": 621,
     "updated": "2022-07-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9223,7 +9223,7 @@
       "simachri"
     ],
     "rating": 0,
-    "updated": "2022-07-30",
+    "updated": "2022-07-31",
     "url": "https://github.com/simachri/taskwarrior-ms-todo"
   },
   {
@@ -9972,7 +9972,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 675,
+    "rating": 677,
     "updated": "2022-06-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
