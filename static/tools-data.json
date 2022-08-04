@@ -767,6 +767,21 @@
     "url": "https://github.com/FoxieDev/TaskTesting"
   },
   {
+    "description": "A CLI Task Manager similar to TaskWarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "NerdTask",
+    "owner": [
+      "FredericKarliczek"
+    ],
+    "rating": 0,
+    "updated": "2022-08-01",
+    "url": "https://github.com/FredericKarliczek/NerdTask"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
@@ -990,21 +1005,6 @@
     "rating": 0,
     "updated": "2021-08-26",
     "url": "https://github.com/JCilenti/Tasks"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "TaskServer",
-    "owner": [
-      "JYudelson1"
-    ],
-    "rating": 0,
-    "updated": "2022-06-18",
-    "url": "https://github.com/JYudelson1/TaskServer"
   },
   {
     "description": "Taskwarrior is an open-source cross platform command-line task management tool.",
@@ -1363,7 +1363,7 @@
       "NishantSinghal19"
     ],
     "rating": 0,
-    "updated": "2022-07-28",
+    "updated": "2022-08-01",
     "url": "https://github.com/NishantSinghal19/taskwarrior-gsoc"
   },
   {
@@ -2657,6 +2657,21 @@
     "url": "https://github.com/ayosec/task-changes"
   },
   {
+    "description": "Gtk wrapper for TaskWarrior written in Python",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "TaskWarrior_Gtk",
+    "owner": [
+      "azr4e1"
+    ],
+    "rating": 0,
+    "updated": "2022-08-04",
+    "url": "https://github.com/azr4e1/TaskWarrior_Gtk"
+  },
+  {
     "description": "Taskwarrior ncurses application in Python, inspired by tasknc",
     "dormant": true,
     "language": [
@@ -3613,7 +3628,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-07-30",
+    "updated": "2022-08-03",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -4407,7 +4422,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 129,
+    "rating": 130,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -6057,7 +6072,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 832,
+    "rating": 833,
     "updated": "2022-07-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7533,7 +7548,7 @@
   },
   {
     "description": "Simpletask client with a TaskWarrior backend",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Java"
     ],
@@ -7767,7 +7782,7 @@
     "owner": [
       "nagua"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2017-11-07",
     "url": "https://github.com/nagua/harbour-taskwarrior-GUI"
   },
@@ -8682,8 +8697,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 621,
-    "updated": "2022-07-30",
+    "rating": 620,
+    "updated": "2022-08-01",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8925,21 +8940,6 @@
     "rating": 0,
     "updated": "2016-05-08",
     "url": "https://github.com/rubenrubiob/task-parser"
-  },
-  {
-    "description": "derp(dot)files ",
-    "dormant": false,
-    "language": [
-      "Lua"
-    ],
-    "license": "MIT License",
-    "name": "derpfiles",
-    "owner": [
-      "rucas"
-    ],
-    "rating": 3,
-    "updated": "2022-06-16",
-    "url": "https://github.com/rucas/derpfiles"
   },
   {
     "description": "taskwarrior docker container",
@@ -9972,7 +9972,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 677,
+    "rating": 680,
     "updated": "2022-06-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10242,7 +10242,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 365,
+    "rating": 364,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
