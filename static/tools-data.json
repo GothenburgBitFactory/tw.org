@@ -1007,6 +1007,21 @@
     "url": "https://github.com/JCilenti/Tasks"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TaskServer",
+    "owner": [
+      "JYudelson1"
+    ],
+    "rating": 0,
+    "updated": "2022-06-18",
+    "url": "https://github.com/JYudelson1/TaskServer"
+  },
+  {
     "description": "Taskwarrior is an open-source cross platform command-line task management tool.",
     "dormant": true,
     "language": [
@@ -1363,7 +1378,7 @@
       "NishantSinghal19"
     ],
     "rating": 0,
-    "updated": "2022-08-01",
+    "updated": "2022-08-04",
     "url": "https://github.com/NishantSinghal19/taskwarrior-gsoc"
   },
   {
@@ -1470,21 +1485,6 @@
     "rating": 0,
     "updated": "2018-11-19",
     "url": "https://github.com/QantumEntangled/taskwarrior-web-dc"
-  },
-  {
-    "description": "Taskwarrior helm chart",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "helmwarrior",
-    "owner": [
-      "RafaelPalomar"
-    ],
-    "rating": 0,
-    "updated": "2021-09-10",
-    "url": "https://github.com/RafaelPalomar/helmwarrior"
   },
   {
     "description": "TaskWarrior client app for iOS. MVVM + RxSwift",
@@ -2668,7 +2668,7 @@
       "azr4e1"
     ],
     "rating": 0,
-    "updated": "2022-08-04",
+    "updated": "2022-08-06",
     "url": "https://github.com/azr4e1/TaskWarrior_Gtk"
   },
   {
@@ -3628,7 +3628,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-08-03",
+    "updated": "2022-08-04",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -4648,7 +4648,7 @@
       "garybgenett"
     ],
     "rating": 15,
-    "updated": "2022-07-30",
+    "updated": "2022-08-05",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -4890,6 +4890,21 @@
     "rating": 0,
     "updated": "2022-06-28",
     "url": "https://github.com/gzshop/taskserver"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "h2magic-axious"
+    ],
+    "rating": 0,
+    "updated": "2022-08-06",
+    "url": "https://github.com/h2magic-axious/TaskServer"
   },
   {
     "description": "A taskwarrior framework to follow the GTD methodology based off of CS Syd's blogposts",
@@ -5373,7 +5388,7 @@
   },
   {
     "description": "TaskFrontend is view of TaskServer Which was created by me",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -6072,7 +6087,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 833,
+    "rating": 835,
     "updated": "2022-07-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6088,7 +6103,7 @@
       "keigezellig"
     ],
     "rating": 19,
-    "updated": "2020-11-16",
+    "updated": "2022-08-04",
     "url": "https://github.com/keigezellig/kanbanwarrior"
   },
   {
@@ -6285,6 +6300,21 @@
     "rating": 129,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
+  },
+  {
+    "description": "A GCP docker image for TaskWarrior's TaskServer",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "docker-taskwarrior-taskserver",
+    "owner": [
+      "kpe"
+    ],
+    "rating": 0,
+    "updated": "2022-08-06",
+    "url": "https://github.com/kpe/docker-taskwarrior-taskserver"
   },
   {
     "description": "Solarized theme for task warrior",
@@ -7260,6 +7290,21 @@
     "rating": 0,
     "updated": "2022-01-24",
     "url": "https://github.com/mbpowers/taskcalrs"
+  },
+  {
+    "description": "A command line based todo manager that combines TaskWarrior's efficiency with the popularity of icalendar. ",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "icalwarrior",
+    "owner": [
+      "mbyrenh"
+    ],
+    "rating": 0,
+    "updated": "2022-08-05",
+    "url": "https://github.com/mbyrenh/icalwarrior"
   },
   {
     "description": "The server for our app",
@@ -9972,7 +10017,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 680,
+    "rating": 681,
     "updated": "2022-06-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
