@@ -3628,7 +3628,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-08-04",
+    "updated": "2022-08-09",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -4982,6 +4982,21 @@
     "url": "https://github.com/harleypig/perl-taskwarrior"
   },
   {
+    "description": "This Perl script is used for exporting daily tasks, tracked in taskwarrior, to an Obsidian document.",
+    "dormant": false,
+    "language": [
+      "Perl"
+    ],
+    "license": "MIT License",
+    "name": "rectasks",
+    "owner": [
+      "hashref"
+    ],
+    "rating": 0,
+    "updated": "2022-08-10",
+    "url": "https://github.com/hashref/rectasks"
+  },
+  {
     "description": "Use a Raspberry Pi and a touch display to tasks from taskwarrior",
     "dormant": false,
     "language": [
@@ -6087,7 +6102,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 838,
+    "rating": 840,
     "updated": "2022-07-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7260,6 +7275,21 @@
     "rating": 0,
     "updated": "2021-01-10",
     "url": "https://github.com/mattcl/task-streamer"
+  },
+  {
+    "description": "Rust library for writing taskwarrior hooks",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "name": "task-hookrs",
+    "owner": [
+      "matthiasbeyer"
+    ],
+    "rating": 0,
+    "updated": "2022-08-09",
+    "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
     "description": "Show todos from different sources in a sidebar like app",
@@ -9733,7 +9763,7 @@
       "szaffarano"
     ],
     "rating": 2,
-    "updated": "2022-06-30",
+    "updated": "2022-08-09",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -10287,7 +10317,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 365,
+    "rating": 366,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
