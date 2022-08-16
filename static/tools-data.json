@@ -72,7 +72,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 55,
+    "rating": 56,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -492,7 +492,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-04-16",
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
@@ -1395,6 +1395,21 @@
     "rating": 0,
     "updated": "2021-06-11",
     "url": "https://github.com/Nitesh7664/taskServer"
+  },
+  {
+    "description": "Server to store tasks",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Olichss"
+    ],
+    "rating": 0,
+    "updated": "2022-08-15",
+    "url": "https://github.com/Olichss/TaskServer"
   },
   {
     "description": null,
@@ -6102,7 +6117,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 841,
+    "rating": 843,
     "updated": "2022-07-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6315,6 +6330,21 @@
     "rating": 129,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "kotfind"
+    ],
+    "rating": 0,
+    "updated": "2022-08-14",
+    "url": "https://github.com/kotfind/taskserver"
   },
   {
     "description": "A GCP docker image for TaskWarrior's TaskServer",
@@ -8772,7 +8802,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 620,
+    "rating": 621,
     "updated": "2022-08-01",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9462,7 +9492,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2021-01-17",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -9675,6 +9705,21 @@
     "rating": 0,
     "updated": "2018-01-11",
     "url": "https://github.com/sunnaren/CustomVIT"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "superactivedubai"
+    ],
+    "rating": 0,
+    "updated": "2022-08-14",
+    "url": "https://github.com/superactivedubai/taskserver"
   },
   {
     "description": "Command line task manager with alexa + google mail integration.",
