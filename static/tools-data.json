@@ -6132,7 +6132,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 844,
+    "rating": 845,
     "updated": "2022-07-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8433,7 +8433,7 @@
   },
   {
     "description": "This is a fork of https://bitbucket.org/kvorobyev/taskwarriorandroid",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "C++"
     ],
