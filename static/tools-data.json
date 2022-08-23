@@ -197,6 +197,21 @@
     "url": "https://github.com/Aerex/icaltask"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "AhmedHoss"
+    ],
+    "rating": 0,
+    "updated": "2022-08-19",
+    "url": "https://github.com/AhmedHoss/TaskServer"
+  },
+  {
     "description": "Taskwarrior to LaTeX",
     "dormant": true,
     "language": [
@@ -523,7 +538,7 @@
       "DCsunset"
     ],
     "rating": 73,
-    "updated": "2022-07-20",
+    "updated": "2022-08-19",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -1123,7 +1138,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-08-11",
+    "updated": "2022-08-21",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1393,7 +1408,7 @@
       "NishantSinghal19"
     ],
     "rating": 1,
-    "updated": "2022-08-17",
+    "updated": "2022-08-22",
     "url": "https://github.com/NishantSinghal19/taskwarrior-gsoc"
   },
   {
@@ -1483,7 +1498,7 @@
       "Psyhackological"
     ],
     "rating": 0,
-    "updated": "2022-06-01",
+    "updated": "2022-08-21",
     "url": "https://github.com/Psyhackological/dotfiles"
   },
   {
@@ -1812,7 +1827,7 @@
     "owner": [
       "TheBeachLab"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-07-04",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
@@ -2397,7 +2412,7 @@
     "owner": [
       "alkim0"
     ],
-    "rating": 7,
+    "rating": 6,
     "updated": "2020-08-30",
     "url": "https://github.com/alkim0/task-attach"
   },
@@ -2802,7 +2817,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 161,
+    "rating": 162,
     "updated": "2022-07-28",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -3387,7 +3402,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 122,
+    "rating": 121,
     "updated": "2022-04-26",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -3658,12 +3673,12 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-08-18",
+    "updated": "2022-08-22",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
     "description": "A simple terminal kanban for taskwarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -3673,7 +3688,7 @@
       "contrun"
     ],
     "rating": 3,
-    "updated": "2018-05-25",
+    "updated": "2022-08-19",
     "url": "https://github.com/contrun/taskwarrior-terminal-kanban"
   },
   {
@@ -3762,7 +3777,7 @@
     "owner": [
       "dakuten"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2022-04-14",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
   },
@@ -4452,7 +4467,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 130,
+    "rating": 131,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -5193,7 +5208,7 @@
   },
   {
     "description": "Just a simple script that will help me get a daily report by email.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -6132,7 +6147,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 845,
+    "rating": 847,
     "updated": "2022-07-28",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6342,7 +6357,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 129,
+    "rating": 130,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -7993,7 +8008,7 @@
       "nerab"
     ],
     "rating": 25,
-    "updated": "2022-08-17",
+    "updated": "2022-08-19",
     "url": "https://github.com/nerab/twdeps"
   },
   {
@@ -8278,7 +8293,7 @@
       "ogarcia"
     ],
     "rating": 96,
-    "updated": "2022-05-17",
+    "updated": "2022-08-20",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
   {
@@ -8682,7 +8697,7 @@
     "owner": [
       "pztrn"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-06-29",
     "url": "https://github.com/pztrn/taskd"
   },
@@ -9237,7 +9252,7 @@
     "owner": [
       "sgaraud"
     ],
-    "rating": 51,
+    "rating": 50,
     "updated": "2021-09-08",
     "url": "https://github.com/sgaraud/gnome-extension-taskwarrior"
   },
@@ -9343,7 +9358,7 @@
       "simachri"
     ],
     "rating": 0,
-    "updated": "2022-07-31",
+    "updated": "2022-08-20",
     "url": "https://github.com/simachri/taskwarrior-ms-todo"
   },
   {
