@@ -537,7 +537,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2022-08-19",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1408,7 +1408,7 @@
       "NishantSinghal19"
     ],
     "rating": 1,
-    "updated": "2022-08-22",
+    "updated": "2022-08-25",
     "url": "https://github.com/NishantSinghal19/taskwarrior-gsoc"
   },
   {
@@ -1485,6 +1485,21 @@
     "rating": 1,
     "updated": "2022-07-10",
     "url": "https://github.com/Pete-Hamlin/gtd-rust-taskwarrior"
+  },
+  {
+    "description": "Task warrior is a mobile app for both iOS and android developed to simulate the real task warrior which is an open source CLI based todo app that runs from the terminal. This mobile app also syncs task with the Taskserver.",
+    "dormant": false,
+    "language": [
+      "Dart"
+    ],
+    "license": null,
+    "name": "task-warrior-mobile-app",
+    "owner": [
+      "Procoder16"
+    ],
+    "rating": 0,
+    "updated": "2022-08-24",
+    "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
   {
     "description": "My Linux dotfiles",
@@ -1802,6 +1817,21 @@
     "url": "https://github.com/TShadwell/Pester"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "TagaevRenat"
+    ],
+    "rating": 0,
+    "updated": "2022-08-25",
+    "url": "https://github.com/TagaevRenat/TaskServer"
+  },
+  {
     "description": "Small educational project",
     "dormant": false,
     "language": [
@@ -2023,7 +2053,7 @@
       "Zebradil"
     ],
     "rating": 52,
-    "updated": "2022-06-28",
+    "updated": "2022-08-23",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2817,7 +2847,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 162,
+    "rating": 163,
     "updated": "2022-07-28",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2892,7 +2922,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 152,
+    "rating": 154,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3072,7 +3102,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2022-06-26",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3448,7 +3478,7 @@
       "claui"
     ],
     "rating": 1,
-    "updated": "2022-07-30",
+    "updated": "2022-08-28",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
   {
@@ -3537,7 +3567,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 526,
+    "rating": 525,
     "updated": "2022-07-20",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3673,7 +3703,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-08-22",
+    "updated": "2022-08-26",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -4813,7 +4843,7 @@
       "gkssjovi"
     ],
     "rating": 11,
-    "updated": "2021-11-02",
+    "updated": "2022-08-26",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
   {
@@ -5442,7 +5472,7 @@
     "owner": [
       "j6s"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-04-09",
     "url": "https://github.com/j6s/docker-taskwarrior-taskserver"
   },
@@ -5967,7 +5997,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 276,
+    "rating": 277,
     "updated": "2022-06-28",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6057,7 +6087,7 @@
     "owner": [
       "juzim"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2017-06-01",
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
@@ -6147,8 +6177,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 847,
-    "updated": "2022-07-28",
+    "rating": 849,
+    "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6373,7 +6403,7 @@
       "kotfind"
     ],
     "rating": 0,
-    "updated": "2022-08-17",
+    "updated": "2022-08-23",
     "url": "https://github.com/kotfind/taskserver"
   },
   {
@@ -6777,8 +6807,8 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 3,
-    "updated": "2021-12-05",
+    "rating": 4,
+    "updated": "2022-08-29",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
@@ -8008,7 +8038,7 @@
       "nerab"
     ],
     "rating": 25,
-    "updated": "2022-08-19",
+    "updated": "2022-08-26",
     "url": "https://github.com/nerab/twdeps"
   },
   {
@@ -8277,7 +8307,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 40,
+    "rating": 41,
     "updated": "2022-07-31",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -8292,7 +8322,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 96,
+    "rating": 97,
     "updated": "2022-08-20",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -8833,7 +8863,7 @@
       "ralphbean"
     ],
     "rating": 621,
-    "updated": "2022-08-01",
+    "updated": "2022-08-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -8862,7 +8892,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 152,
+    "rating": 153,
     "updated": "2022-06-18",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -9267,7 +9297,7 @@
     "owner": [
       "sh78"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2018-07-20",
     "url": "https://github.com/sh78/google-tasks-taskwarrior-import"
   },
@@ -9710,7 +9740,7 @@
     "description": "Sync tasks between taskwarrior and kanboard",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "MIT License",
     "name": "kanboard-taskwarrior",
@@ -9718,7 +9748,7 @@
       "strawpants"
     ],
     "rating": 0,
-    "updated": "2021-12-20",
+    "updated": "2022-08-23",
     "url": "https://github.com/strawpants/kanboard-taskwarrior"
   },
   {
@@ -9838,7 +9868,7 @@
       "szaffarano"
     ],
     "rating": 2,
-    "updated": "2022-08-09",
+    "updated": "2022-08-25",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -10093,7 +10123,7 @@
       "tom-doerr"
     ],
     "rating": 1,
-    "updated": "2021-06-26",
+    "updated": "2022-08-28",
     "url": "https://github.com/tom-doerr/taskwarrior-auto-tag-hook"
   },
   {
@@ -10122,7 +10152,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 683,
+    "rating": 685,
     "updated": "2022-08-12",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10227,7 +10257,7 @@
     "owner": [
       "tzok"
     ],
-    "rating": 11,
+    "rating": 10,
     "updated": "2012-04-19",
     "url": "https://github.com/tzok/taskattach"
   },
@@ -10920,6 +10950,21 @@
     "rating": 0,
     "updated": "2016-08-22",
     "url": "https://github.com/zhouchengkho/taskServer"
+  },
+  {
+    "description": "personal scripts for automating taskwarrior",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskwarrior-scripts",
+    "owner": [
+      "zhurai"
+    ],
+    "rating": 0,
+    "updated": "2022-08-28",
+    "url": "https://github.com/zhurai/taskwarrior-scripts"
   },
   {
     "description": "Role for configuring a Taskwarrior server",
