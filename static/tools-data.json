@@ -2847,7 +2847,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 163,
+    "rating": 165,
     "updated": "2022-07-28",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -3703,7 +3703,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-08-26",
+    "updated": "2022-08-31",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -6177,7 +6177,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 849,
+    "rating": 850,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7152,7 +7152,7 @@
     "owner": [
       "lyz-code"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2020-04-23",
     "url": "https://github.com/lyz-code/taskwarrior_recurrence"
   },
@@ -7212,7 +7212,7 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2022-06-15",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
@@ -8937,7 +8937,7 @@
     "owner": [
       "rhnvrm"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-10-26",
     "url": "https://github.com/rhnvrm/tg-taskwarrior-bot"
   },
@@ -9743,13 +9743,13 @@
       "Python"
     ],
     "license": "MIT License",
-    "name": "kanboard-taskwarrior",
+    "name": "kanboard_taskwarrior",
     "owner": [
       "strawpants"
     ],
     "rating": 0,
     "updated": "2022-08-23",
-    "url": "https://github.com/strawpants/kanboard-taskwarrior"
+    "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
   {
     "description": "experimental implementation of GTD with Taskwarrior and vit",
