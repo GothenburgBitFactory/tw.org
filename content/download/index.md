@@ -14,7 +14,7 @@ SHA3 92e547ac6bb88659e674877a19cb88dc9687be2ab989f0279b04f286
 [Changelog](https://github.com/GothenburgBitFactory/taskwarrior/blob/stable/ChangeLog)
 
 **taskd server 1.1.0** (Released 2015-05-10):
-[taskd-1.1.0.tar.gz](/download/taskd-1.1.0.tar.gz)  
+[taskd-1.1.0.tar.gz](https://github.com/GothenburgBitFactory/taskserver/releases/download/v1.1.0/taskd-1.1.0.tar.gz)  
 SHA1 ded339deeee65277e4712f71a9159502f8b20b52  
 [Changelog](https://github.com/GothenburgBitFactory/taskserver/blob/master/ChangeLog)
 

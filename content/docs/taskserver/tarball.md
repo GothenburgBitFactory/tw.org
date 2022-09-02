@@ -31,7 +31,7 @@ You should check for the latest stable release here: <https://taskwarrior.org/do
 You can download the tarball with `curl`, as an example of just one of many ways to download the tarball.
 
 ```
-$ curl -LO https://taskwarrior.org/download/taskd-latest.tar.gz
+$ curl -LO https://github.com/GothenburgBitFactory/taskserver/releases/download/v1.1.0/taskd-1.1.0.tar.gz
 ```
 
 ## Build
