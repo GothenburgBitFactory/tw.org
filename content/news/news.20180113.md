@@ -68,5 +68,5 @@ Timewarrior is a relatively new project, and needs [your feedback](mailto:suppor
 We are looking to streamline the user experience.
 
 For full details, see the ChangeLog file included in the release.
-The release is immediately available as a source [tarball](/download/timew-1.1.0.tar.gz).
+The release is immediately available as a source [tarball](https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.1.0/timew-1.1.0.tar.gz).
 Binary packages for your OS may appear soon.

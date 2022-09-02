@@ -7,7 +7,7 @@ date: 2016-06-20
 
 Timewarrior 0.9.5 is in alpha! Please download and give us feedback.
 
-Download here: [timew-1.0.0.tar.gz](/download/timew-1.0.0.tar.gz) (Edit: Updated to the beta tarball)
+Download here: [timew-1.0.0.tar.gz](https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.0.0/timew-1.0.0.tar.gz) (Edit: Updated to the beta tarball)
 
 Online documentation here: [Timewarrior Documentation Home](https://timewarrior.net/docs)
 
