@@ -537,7 +537,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 75,
+    "rating": 76,
     "updated": "2022-08-19",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -4723,7 +4723,7 @@
       "garybgenett"
     ],
     "rating": 15,
-    "updated": "2022-08-13",
+    "updated": "2022-09-01",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6177,7 +6177,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 850,
+    "rating": 853,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8863,7 +8863,7 @@
       "ralphbean"
     ],
     "rating": 621,
-    "updated": "2022-08-26",
+    "updated": "2022-09-01",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9748,7 +9748,7 @@
       "strawpants"
     ],
     "rating": 0,
-    "updated": "2022-08-23",
+    "updated": "2022-09-01",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
   {
@@ -10422,7 +10422,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 368,
+    "rating": 369,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
