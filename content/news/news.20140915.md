@@ -27,7 +27,7 @@ Taskwarrior 2.4.0 is in beta, and available as a source ~~tarball~~.
   Now there are eng-USA, esp-ESP, fra-FRA, ita-ITA, por-PRT, epo-RUS. 
   Dolphin and Klingon next.
 
-Tasksh 1.0.0 is also in beta, and available as a source [tarball](/download/tasksh-latest.tar.gz).
+Tasksh 1.0.0 is also in beta, and available as a source [tarball](https://github.com/GothenburgBitFactory/taskshell/releases/download/v1.0.0/tasksh-1.0.0.tar.gz).
 Features in tasksh include:
 
 - Libreadline support for command line history.
