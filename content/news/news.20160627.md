@@ -8,7 +8,7 @@ date: 2016-06-27
 Clog 1.3.0 is released, with regular expression improvements, bug fixes, rule precedence and overlapping match support.
 This release is a recommended upgrade.
 
-The release is immediately available as a source tarball [clog-1.3.0.tar.gz](https://gothenburgbitfactory.org/download/clog-1.3.0.tar.gz).
+The release is immediately available as a source tarball [clog-1.3.0.tar.gz](https://github.com/GothenburgBitFactory/clog/releases/download/v1.3.0/clog-1.3.0.tar.gz).
 
 Clog is a colorized log tail utility.
 It can spot patterns in an input stream and colorize or suppress the lines.

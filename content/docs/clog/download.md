@@ -22,7 +22,7 @@ This means getting the released tarball.
 You can download the tarball with `curl`, as an example of just one of many ways to download the tarball.
 
 ```
-$ curl -L -O https://gothenburgbitfactory.org/download/clog-1.3.0.tar.gz
+$ curl -L -O https://github.com/GothenburgBitFactory/clog/releases/download/v1.3.0/clog-1.3.0.tar.gz
 ```
 
 ## Building the Tarball
