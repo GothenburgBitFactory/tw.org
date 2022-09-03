@@ -47,7 +47,7 @@ The Taskserver codebase is being cleaned up in preparation for a major fix and t
 |            | - libshared: Merged Configuration with Taskd enhancements                                                                                      |
 | 2016-11-24 | - rat: Now has PEG syntax tests                                                                                                                |
 |            | - rat: Migrated to libshared.git Args                                                                                                          |
-| 2016-11-25 | - tw.org: Fixed typos in [task-2.5.1.r ef.pdf](/download/task-2.5.1.ref.pdf) online                                                            |
+| 2016-11-25 | - tw.org: Fixed typos in [task-2.5.1.ref.pdf](/download/task-2.5.1.ref.pdf) online                                                             |
 |            | - WWW: HTTP now served and deployed by [caddy](https://caddyserver.com)                                                                        |
 | 2016-11-26 | - Taskd: Inherited bug fixes from Taskwarrior                                                                                                  |
 | 2016-11-27 | - libshared: join() now supports vector\<int\>                                                                                                 |
