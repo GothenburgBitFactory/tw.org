@@ -59,7 +59,7 @@ Build the debug type if you want symbols in the binary.
 ## Running the Test Suite
 
 There are scripts to facilitate running the test suite.
-In particular, the[vramsteg](https://gothenburgbitfactory.org/projects/vramsteg) utility provides blinkenlights for test progress.
+In particular, the [vramsteg](https://gothenburgbitfactory.org/projects/vramsteg) utility provides blinkenlights for test progress.
 
 ```
 $ cd taskwarrior.git/test
