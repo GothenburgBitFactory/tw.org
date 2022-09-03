@@ -27,7 +27,7 @@ More details soon.
 | 2016-10-04 | - Timewarrior: Taskwarrior projects are now used intact as Timewarrior tags, in addition to being split on \'.\' for hierarchical tags                        |
 | 2016-10-07 | - [#24: documentation typo](https://github.com/GothenburgBitFactory/tw.org/issues/24) fixed                                                                   |
 | 2016-10-08 | - Flod: Now builds tinderbox report with minimal I/O                                                                                                          |
-|            | - Flod: New report template ([prototype](https://gothenburgbitfactory.org/prototype/anomaly-1.2.0)) with collapsible sections                                 |
+|            | - Flod: New report template (see ~~`prototype`~~) with collapsible sections                                                                                   |
 | 2016-10-11 | - WWW: Transferred all DNS handling over to [DNSimple](https://dnsimple.com)                                                                                  |
 |            | - WWW: Acknowledged generous support from [Digitalocean](https://digitalocean.com)                                                                            |
 | 2016-10-13 | - Flod: Incorporates build times in report                                                                                                                    |
