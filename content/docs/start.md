@@ -31,7 +31,7 @@ Five good reasons to use Taskwarrior
    Need an immediate answer - check your man pages and [online docs](/docs).
    Need to ask someone a question? try IRC #taskwarrior on libera.chat.
 
-5. Taskwarrior is open in as many ways as it can be:
+4. Taskwarrior is open in as many ways as it can be:
    - It is [free and open source](https://github.com/GothenburgBitFactory/taskwarrior), using the MIT license
    - It uses human-readable text files for storage.
      It imports and exports [JSON](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/task.md), so your data is never held captive
@@ -42,7 +42,7 @@ Five good reasons to use Taskwarrior
    - There is [Inthe.AM](https://inthe.am/about), a free online sync service, web UI and iOS client
    - There is [BugWarrior](https://github.com/ralphbean/bugwarrior), so you can import your bug issues from a dozen different bug systems
 
-6. Taskwarrior is an active, vibrant project.
+5. Taskwarrior is an active, vibrant project.
    In the last year, it has averaged 5.58 changes per day.
    Taskwarrior enjoys lively participation from many contributors, with currently over 60 providers of code patches.
    But there are even more contributors (252 of them) helping out with documentation, bugs, support, ideas, requests and extensions.
