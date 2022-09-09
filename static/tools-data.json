@@ -537,7 +537,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 76,
+    "rating": 77,
     "updated": "2022-08-19",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1497,7 +1497,7 @@
     "owner": [
       "Procoder16"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-08-24",
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
@@ -2462,6 +2462,21 @@
     "url": "https://github.com/almostnobody/task2org"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "alonsoarol"
+    ],
+    "rating": 0,
+    "updated": "2022-09-08",
+    "url": "https://github.com/alonsoarol/taskserver"
+  },
+  {
     "description": "Server processes tasks from client's queue. Client set tasks to server.",
     "dormant": true,
     "language": [
@@ -2847,8 +2862,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 166,
-    "updated": "2022-07-28",
+    "rating": 169,
+    "updated": "2022-09-06",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2982,7 +2997,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 52,
+    "rating": 54,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3102,7 +3117,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2022-06-26",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3432,7 +3447,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 121,
+    "rating": 122,
     "updated": "2022-04-26",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -3568,7 +3583,7 @@
       "coddingtonbear"
     ],
     "rating": 525,
-    "updated": "2022-07-20",
+    "updated": "2022-09-05",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3627,7 +3642,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 262,
+    "rating": 263,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -3703,7 +3718,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-09-04",
+    "updated": "2022-09-08",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -4768,7 +4783,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2022-06-03",
+    "updated": "2022-09-08",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -5997,8 +6012,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 277,
-    "updated": "2022-06-28",
+    "rating": 278,
+    "updated": "2022-09-07",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -6177,7 +6192,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 856,
+    "rating": 863,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6387,7 +6402,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 130,
+    "rating": 131,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -8193,6 +8208,21 @@
   },
   {
     "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "nnnp-arol"
+    ],
+    "rating": 0,
+    "updated": "2022-09-06",
+    "url": "https://github.com/nnnp-arol/taskserver"
+  },
+  {
+    "description": null,
     "dormant": true,
     "language": [
       "N/A"
@@ -8862,7 +8892,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 623,
+    "rating": 624,
     "updated": "2022-09-03",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9452,6 +9482,21 @@
     "url": "https://github.com/sjcoope/sjcnet-taskwarrior-ui"
   },
   {
+    "description": "taskwarrior integration into neorg",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "neorg-taskwarrior",
+    "owner": [
+      "skbolton"
+    ],
+    "rating": 5,
+    "updated": "2022-09-07",
+    "url": "https://github.com/skbolton/neorg-taskwarrior"
+  },
+  {
     "description": "Taskwarrior sync server",
     "dormant": true,
     "language": [
@@ -9553,7 +9598,7 @@
       "soywod"
     ],
     "rating": 65,
-    "updated": "2021-01-17",
+    "updated": "2022-09-06",
     "url": "https://github.com/soywod/unfog.vim"
   },
   {
@@ -9748,7 +9793,7 @@
       "strawpants"
     ],
     "rating": 0,
-    "updated": "2022-09-01",
+    "updated": "2022-09-07",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
   {
@@ -10422,7 +10467,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 369,
+    "rating": 370,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
@@ -10963,7 +11008,7 @@
       "zhurai"
     ],
     "rating": 0,
-    "updated": "2022-09-02",
+    "updated": "2022-09-06",
     "url": "https://github.com/zhurai/taskwarrior-scripts"
   },
   {
