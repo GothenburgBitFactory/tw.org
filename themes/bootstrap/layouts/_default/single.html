@@ -1,18 +1,18 @@
 {{ partial "header.html" . }}
 
 <main role="main">
-	<div class="container">
-		<div class="row">
-			<div class="col-sm-8 doc-main">
-				<article>
-					<section>
-						{{ .Content }}
-					</section>
-				</article>
-			</div> <!-- /.doc-main -->
-			{{ partial "sidebar-single.html" . }}
-		</div>
-	</div> <!-- /.row -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8 doc-main">
+        <article>
+          <section>
+            {{ .Content }}
+          </section>
+        </article>
+      </div> <!-- /.doc-main -->
+      {{ partial "sidebar-single.html" . }}
+    </div>
+  </div> <!-- /.row -->
 </main>
 
 {{ partial "footer.html" . }}
