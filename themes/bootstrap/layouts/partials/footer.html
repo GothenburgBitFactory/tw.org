@@ -1,8 +1,8 @@
 {{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
 
-<footer class="footer">
+<footer>
   <div class="container">
-    <div class="col-md-2">
+    <div class="footer-item">
       <p class="text-muted">
         Get Involved
         <br>
@@ -11,7 +11,7 @@
         <a href="https://github.com/GothenburgBitFactory/taskwarrior"><em class="bi bi-github"></em>&ensp;Clone the code</a>
       </p>
     </div>
-    <div class="col-md-2">
+    <div class="footer-item">
       <p class="text-muted">
         Related Sites
         <br>
@@ -22,7 +22,7 @@
         <a href="https://timewarrior.net">timewarrior.net</a>
       </p>
     </div>
-    <div class="col-md-2">
+    <div class="footer-item">
       <p class="text-muted">
         Contact
         <br>
@@ -31,14 +31,14 @@
         <a href="https://twitter.com/taskwarrior"><em class="bi bi-twitter"></em>&ensp;Twitter</a>
       </p>
     </div>
-    <div class="col-md-2">
+    <div class="footer-item">
       <div class="text-muted">
         Donate
         <br>
         <a href="https://github.com/sponsors/GothenburgBitFactory"><em class="bi bi-github"></em>&ensp;GitHub sponsors</a>
       </div>
     </div>
-    <div class="col-md-2">
+    <div class="footer-item">
       <p class="text-muted">
         Copyright &copy; {{ now.Year }} <a href="https://github.com/GothenburgBitFactory">Göteborg Bit Factory</a>
       </p>
