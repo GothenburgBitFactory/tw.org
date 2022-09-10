@@ -3042,7 +3042,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 486,
+    "rating": 487,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3582,7 +3582,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 525,
+    "rating": 526,
     "updated": "2022-09-05",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -6192,7 +6192,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 863,
+    "rating": 866,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8893,7 +8893,7 @@
       "ralphbean"
     ],
     "rating": 624,
-    "updated": "2022-09-03",
+    "updated": "2022-09-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9793,7 +9793,7 @@
       "strawpants"
     ],
     "rating": 0,
-    "updated": "2022-09-07",
+    "updated": "2022-09-09",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
   {
@@ -10098,7 +10098,7 @@
   },
   {
     "description": "A web interface for the Taskwarrior todo application. Because being a neckbeard is only fun sometimes.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Ruby"
     ],
