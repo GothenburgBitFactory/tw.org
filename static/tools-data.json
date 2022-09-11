@@ -1497,7 +1497,7 @@
     "owner": [
       "Procoder16"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-08-24",
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
@@ -2937,7 +2937,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 154,
+    "rating": 155,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3042,7 +3042,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 487,
+    "rating": 488,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3718,7 +3718,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-09-08",
+    "updated": "2022-09-10",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -5817,7 +5817,7 @@
     "owner": [
       "johnivore"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-03-09",
     "url": "https://github.com/johnivore/docker-taskd"
   },
@@ -6012,7 +6012,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 278,
+    "rating": 279,
     "updated": "2022-09-07",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6192,7 +6192,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 866,
+    "rating": 868,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9485,7 +9485,7 @@
     "description": "taskwarrior integration into neorg",
     "dormant": false,
     "language": [
-      "N/A"
+      "Lua"
     ],
     "license": null,
     "name": "neorg-taskwarrior",
@@ -9493,7 +9493,7 @@
       "skbolton"
     ],
     "rating": 5,
-    "updated": "2022-09-07",
+    "updated": "2022-09-11",
     "url": "https://github.com/skbolton/neorg-taskwarrior"
   },
   {
@@ -10467,7 +10467,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 370,
+    "rating": 369,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
