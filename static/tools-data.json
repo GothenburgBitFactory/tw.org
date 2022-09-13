@@ -522,7 +522,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2022-04-16",
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
@@ -1167,7 +1167,7 @@
     "owner": [
       "KonradIT"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2016-08-03",
     "url": "https://github.com/KonradIT/pebble-taskwarrior"
   },
@@ -2492,6 +2492,21 @@
     "url": "https://github.com/alter/TaskServer"
   },
   {
+    "description": "Creating tasks form asciidoc checklists",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior-asciidoc.nvim",
+    "owner": [
+      "amiroslaw"
+    ],
+    "rating": 0,
+    "updated": "2022-09-11",
+    "url": "https://github.com/amiroslaw/taskwarrior-asciidoc.nvim"
+  },
+  {
     "description": "Taskwarrior git sync hooks",
     "dormant": true,
     "language": [
@@ -2863,7 +2878,7 @@
       "bergercookie"
     ],
     "rating": 169,
-    "updated": "2022-09-06",
+    "updated": "2022-09-11",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2893,7 +2908,7 @@
       "bergercookie"
     ],
     "rating": 1,
-    "updated": "2022-07-09",
+    "updated": "2022-09-11",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
   {
@@ -2937,7 +2952,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 155,
+    "rating": 156,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3718,7 +3733,7 @@
       "comy777"
     ],
     "rating": 0,
-    "updated": "2022-09-10",
+    "updated": "2022-09-12",
     "url": "https://github.com/comy777/taskServerUniversity-"
   },
   {
@@ -6093,7 +6108,7 @@
   },
   {
     "description": "Convert taskwarrior exports to todo.txt format",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -6102,8 +6117,8 @@
     "owner": [
       "juzim"
     ],
-    "rating": 4,
-    "updated": "2017-06-01",
+    "rating": 5,
+    "updated": "2022-09-12",
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
   {
@@ -6192,7 +6207,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 868,
+    "rating": 869,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6522,7 +6537,7 @@
     "owner": [
       "kvj"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2017-05-24",
     "url": "https://github.com/kvj/TaskwarriorC2"
   },
@@ -7758,7 +7773,7 @@
   },
   {
     "description": "Taskwarrior hook to log start/stop time intervals into a CSV file.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "D"
     ],
@@ -8492,6 +8507,21 @@
     "url": "https://github.com/pauby/PSTodoWarrior"
   },
   {
+    "description": null,
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "Apache License 2.0",
+    "name": "taskserver-docker",
+    "owner": [
+      "peon-pasado-zeitnot"
+    ],
+    "rating": 0,
+    "updated": "2018-05-05",
+    "url": "https://github.com/peon-pasado-zeitnot/taskserver-docker"
+  },
+  {
     "description": "Time management bot (wrapper around Taskwarrior)",
     "dormant": true,
     "language": [
@@ -8893,7 +8923,7 @@
       "ralphbean"
     ],
     "rating": 624,
-    "updated": "2022-09-09",
+    "updated": "2022-09-12",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9327,7 +9357,7 @@
     "owner": [
       "sh78"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2018-07-20",
     "url": "https://github.com/sh78/google-tasks-taskwarrior-import"
   },
@@ -10107,7 +10137,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 483,
+    "rating": 484,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -10440,21 +10470,6 @@
     "rating": 0,
     "updated": "2021-07-10",
     "url": "https://github.com/victorneo/taskwarrior-config"
-  },
-  {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "Apache License 2.0",
-    "name": "taskserver-docker",
-    "owner": [
-      "viroos"
-    ],
-    "rating": 0,
-    "updated": "2018-05-05",
-    "url": "https://github.com/viroos/taskserver-docker"
   },
   {
     "description": "VIT is a lightweight, fast, curses-based front end to Taskwarrior",
