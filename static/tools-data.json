@@ -72,7 +72,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 56,
+    "rating": 57,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -537,7 +537,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 77,
+    "rating": 79,
     "updated": "2022-08-19",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -748,7 +748,7 @@
       "Fongshway"
     ],
     "rating": 1,
-    "updated": "2021-06-02",
+    "updated": "2022-09-14",
     "url": "https://github.com/Fongshway/twpm"
   },
   {
@@ -852,7 +852,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 115,
+    "rating": 116,
     "updated": "2022-06-06",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1408,7 +1408,7 @@
       "NishantSinghal19"
     ],
     "rating": 1,
-    "updated": "2022-08-25",
+    "updated": "2022-09-13",
     "url": "https://github.com/NishantSinghal19/taskwarrior-gsoc"
   },
   {
@@ -2052,7 +2052,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2022-08-23",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -2877,7 +2877,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 169,
+    "rating": 170,
     "updated": "2022-09-11",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -3597,7 +3597,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 526,
+    "rating": 527,
     "updated": "2022-09-05",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4527,7 +4527,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 131,
+    "rating": 133,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -6207,7 +6207,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 869,
+    "rating": 870,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6387,7 +6387,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2019-11-07",
     "url": "https://github.com/kostajh/task-git"
   },
@@ -8067,7 +8067,7 @@
     "owner": [
       "nerab"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2022-08-26",
     "url": "https://github.com/nerab/twdeps"
   },
@@ -8922,7 +8922,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 624,
+    "rating": 626,
     "updated": "2022-09-12",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -8952,7 +8952,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 153,
+    "rating": 154,
     "updated": "2022-06-18",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -10137,7 +10137,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 484,
+    "rating": 485,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
