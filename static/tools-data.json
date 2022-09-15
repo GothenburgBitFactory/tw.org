@@ -897,7 +897,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 45,
+    "rating": 46,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -1497,7 +1497,7 @@
     "owner": [
       "Procoder16"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-08-24",
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
@@ -3012,7 +3012,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3057,7 +3057,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 488,
+    "rating": 489,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3507,7 +3507,7 @@
     "owner": [
       "claui"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-08-28",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
@@ -3597,7 +3597,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 527,
+    "rating": 528,
     "updated": "2022-09-05",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4532,6 +4532,21 @@
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
   {
+    "description": "TaskWarrior OpenProject Syncronization",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "twop",
+    "owner": [
+      "flippipe"
+    ],
+    "rating": 0,
+    "updated": "2020-10-08",
+    "url": "https://github.com/flippipe/twop"
+  },
+  {
     "description": "Evolution extension to create tasks from E-Mails",
     "dormant": false,
     "language": [
@@ -4782,7 +4797,7 @@
     "owner": [
       "garykl"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2021-04-13",
     "url": "https://github.com/garykl/task2dot"
   },
@@ -6207,7 +6222,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 870,
+    "rating": 871,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8352,7 +8367,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 41,
+    "rating": 42,
     "updated": "2022-07-31",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -8922,7 +8937,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 626,
+    "rating": 627,
     "updated": "2022-09-12",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9088,7 +9103,7 @@
       "robwhitaker"
     ],
     "rating": 5,
-    "updated": "2020-02-15",
+    "updated": "2022-09-14",
     "url": "https://github.com/robwhitaker/taskwarrior-habitica-bridge"
   },
   {
@@ -10137,7 +10152,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 485,
+    "rating": 486,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -10482,7 +10497,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 369,
+    "rating": 370,
     "updated": "2022-05-09",
     "url": "https://github.com/vit-project/vit"
   },
