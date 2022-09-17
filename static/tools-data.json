@@ -1403,13 +1403,13 @@
       "Dart"
     ],
     "license": null,
-    "name": "taskwarrior-gsoc",
+    "name": "taskwarrior-flutter",
     "owner": [
       "NishantSinghal19"
     ],
     "rating": 1,
     "updated": "2022-09-13",
-    "url": "https://github.com/NishantSinghal19/taskwarrior-gsoc"
+    "url": "https://github.com/NishantSinghal19/taskwarrior-flutter"
   },
   {
     "description": "Backend using Nodejs, MongoDB, Express",
@@ -2877,8 +2877,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 170,
-    "updated": "2022-09-11",
+    "rating": 171,
+    "updated": "2022-09-16",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -4408,7 +4408,7 @@
       "ethueter"
     ],
     "rating": 0,
-    "updated": "2022-07-07",
+    "updated": "2022-09-16",
     "url": "https://github.com/ethueter/TaskServer"
   },
   {
@@ -8428,7 +8428,7 @@
       "onlyphantom"
     ],
     "rating": 2,
-    "updated": "2022-04-03",
+    "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
   {
@@ -10242,7 +10242,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 686,
+    "rating": 687,
     "updated": "2022-08-12",
     "url": "https://github.com/tools-life/taskwiki"
   },
