@@ -853,7 +853,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 116,
-    "updated": "2022-06-06",
+    "updated": "2022-09-17",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
   {
@@ -3598,7 +3598,7 @@
       "coddingtonbear"
     ],
     "rating": 529,
-    "updated": "2022-09-05",
+    "updated": "2022-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -6222,7 +6222,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 873,
+    "rating": 876,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10470,21 +10470,6 @@
     "rating": 1,
     "updated": "2016-09-17",
     "url": "https://github.com/venturecommunism/meteor-taskwarrior-react"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "taskwarrior-config",
-    "owner": [
-      "victorneo"
-    ],
-    "rating": 0,
-    "updated": "2021-07-10",
-    "url": "https://github.com/victorneo/taskwarrior-config"
   },
   {
     "description": "VIT is a lightweight, fast, curses-based front end to Taskwarrior",
