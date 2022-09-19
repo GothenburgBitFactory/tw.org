@@ -1408,7 +1408,7 @@
       "NishantSinghal19"
     ],
     "rating": 1,
-    "updated": "2022-09-13",
+    "updated": "2022-09-18",
     "url": "https://github.com/NishantSinghal19/taskwarrior-flutter"
   },
   {
@@ -2490,21 +2490,6 @@
     "rating": 0,
     "updated": "2013-04-02",
     "url": "https://github.com/alter/TaskServer"
-  },
-  {
-    "description": "Creating tasks form asciidoc checklists",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskwarrior-asciidoc.nvim",
-    "owner": [
-      "amiroslaw"
-    ],
-    "rating": 0,
-    "updated": "2022-09-11",
-    "url": "https://github.com/amiroslaw/taskwarrior-asciidoc.nvim"
   },
   {
     "description": "Taskwarrior git sync hooks",
@@ -10152,7 +10137,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 487,
+    "rating": 488,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
