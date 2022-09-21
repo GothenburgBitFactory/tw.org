@@ -72,7 +72,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 57,
+    "rating": 58,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -852,7 +852,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 116,
+    "rating": 117,
     "updated": "2022-09-17",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -897,7 +897,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -942,7 +942,7 @@
     "owner": [
       "Hatoris"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-08-15",
     "url": "https://github.com/Hatoris/taskwarrior_jrnl_hook"
   },
@@ -1138,7 +1138,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-08-21",
+    "updated": "2022-09-19",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1408,7 +1408,7 @@
       "NishantSinghal19"
     ],
     "rating": 1,
-    "updated": "2022-09-18",
+    "updated": "2022-09-20",
     "url": "https://github.com/NishantSinghal19/taskwarrior-flutter"
   },
   {
@@ -2862,8 +2862,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 171,
-    "updated": "2022-09-16",
+    "rating": 172,
+    "updated": "2022-09-20",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -2937,7 +2937,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 156,
+    "rating": 157,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3582,7 +3582,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 529,
+    "rating": 531,
     "updated": "2022-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3627,7 +3627,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 62,
+    "rating": 63,
     "updated": "2020-12-15",
     "url": "https://github.com/coddingtonbear/taskwarrior-inthe.am"
   },
@@ -3642,7 +3642,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 263,
+    "rating": 264,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -8067,7 +8067,7 @@
     "owner": [
       "nerab"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2022-08-26",
     "url": "https://github.com/nerab/twdeps"
   },
@@ -8235,21 +8235,6 @@
     "rating": 0,
     "updated": "2022-09-06",
     "url": "https://github.com/nnnp-arol/taskserver"
-  },
-  {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskwarrior-notes",
-    "owner": [
-      "nnungest"
-    ],
-    "rating": 0,
-    "updated": "2018-02-05",
-    "url": "https://github.com/nnungest/taskwarrior-notes"
   },
   {
     "description": "Taskwarrior landscape",
@@ -8923,7 +8908,7 @@
       "ralphbean"
     ],
     "rating": 627,
-    "updated": "2022-09-12",
+    "updated": "2022-09-19",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9522,7 +9507,7 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-09-11",
     "url": "https://github.com/skbolton/neorg-taskwarrior"
   },
