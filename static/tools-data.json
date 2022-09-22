@@ -538,7 +538,7 @@
       "DCsunset"
     ],
     "rating": 79,
-    "updated": "2022-08-19",
+    "updated": "2022-09-21",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -3447,7 +3447,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 122,
+    "rating": 123,
     "updated": "2022-04-26",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -3690,6 +3690,21 @@
     "rating": 2,
     "updated": "2015-01-17",
     "url": "https://github.com/coddingtonbear/taskwarrior-timecrimes"
+  },
+  {
+    "description": "Docker environment for taskwarrior/timewarrior/etc.",
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": "Apache License 2.0",
+    "name": "dock-warrior",
+    "owner": [
+      "codehivetx"
+    ],
+    "rating": 0,
+    "updated": "2022-09-21",
+    "url": "https://github.com/codehivetx/dock-warrior"
   },
   {
     "description": "Web-app for taskwarrior",
@@ -4393,7 +4408,7 @@
       "ethueter"
     ],
     "rating": 0,
-    "updated": "2022-09-16",
+    "updated": "2022-09-21",
     "url": "https://github.com/ethueter/TaskServer"
   },
   {
@@ -4512,7 +4527,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 133,
+    "rating": 134,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -7963,7 +7978,7 @@
       "n8henrie"
     ],
     "rating": 0,
-    "updated": "2022-07-12",
+    "updated": "2022-09-21",
     "url": "https://github.com/n8henrie/taskwarrior-rs"
   },
   {
@@ -8235,6 +8250,21 @@
     "rating": 0,
     "updated": "2022-09-06",
     "url": "https://github.com/nnnp-arol/taskserver"
+  },
+  {
+    "description": null,
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-notes",
+    "owner": [
+      "nnungest"
+    ],
+    "rating": 0,
+    "updated": "2018-02-05",
+    "url": "https://github.com/nnungest/taskwarrior-notes"
   },
   {
     "description": "Taskwarrior landscape",
@@ -8907,7 +8937,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 627,
+    "rating": 628,
     "updated": "2022-09-19",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
