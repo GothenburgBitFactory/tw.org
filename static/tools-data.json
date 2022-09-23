@@ -1138,7 +1138,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-09-19",
+    "updated": "2022-09-22",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2937,7 +2937,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 157,
+    "rating": 158,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3703,7 +3703,7 @@
       "codehivetx"
     ],
     "rating": 0,
-    "updated": "2022-09-21",
+    "updated": "2022-09-23",
     "url": "https://github.com/codehivetx/dock-warrior"
   },
   {
@@ -6222,7 +6222,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 876,
+    "rating": 877,
     "updated": "2022-08-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7422,7 +7422,7 @@
     "owner": [
       "matthiasbeyer"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-08-09",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
@@ -7827,7 +7827,7 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-02-22",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
@@ -8367,7 +8367,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 42,
+    "rating": 43,
     "updated": "2022-07-31",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -9838,7 +9838,7 @@
       "strawpants"
     ],
     "rating": 0,
-    "updated": "2022-09-09",
+    "updated": "2022-09-22",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
   {
@@ -10152,7 +10152,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 488,
+    "rating": 487,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
