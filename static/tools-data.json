@@ -433,7 +433,7 @@
       "CCExtractor"
     ],
     "rating": 3,
-    "updated": "2022-09-30",
+    "updated": "2022-10-01",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -8412,7 +8412,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 98,
+    "rating": 99,
     "updated": "2022-08-20",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -10287,7 +10287,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 687,
+    "rating": 688,
     "updated": "2022-08-12",
     "url": "https://github.com/tools-life/taskwiki"
   },
