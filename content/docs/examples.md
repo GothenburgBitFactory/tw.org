@@ -167,7 +167,7 @@ What are all the projects I have ever used?
 ```
 $ task rc.list.all.projects=1 projects
 $ task rc.list.all.projects=1 _projects
-$ task _unique projects
+$ task _unique project
 ```
 
 ## Tags
