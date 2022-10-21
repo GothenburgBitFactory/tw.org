@@ -155,6 +155,21 @@
     "description": null,
     "dormant": false,
     "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "ARS1337"
+    ],
+    "rating": 0,
+    "updated": "2022-10-18",
+    "url": "https://github.com/ARS1337/taskServer"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
       "HTML"
     ],
     "license": null,
@@ -433,7 +448,7 @@
       "CCExtractor"
     ],
     "rating": 6,
-    "updated": "2022-10-17",
+    "updated": "2022-10-19",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -852,7 +867,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 117,
+    "rating": 118,
     "updated": "2022-10-04",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1138,7 +1153,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-09-30",
+    "updated": "2022-10-18",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2532,7 +2547,7 @@
     "owner": [
       "andrey-utkin"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2021-11-03",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
@@ -2863,7 +2878,7 @@
       "bergercookie"
     ],
     "rating": 178,
-    "updated": "2022-09-23",
+    "updated": "2022-10-19",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -3117,7 +3132,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2022-06-26",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -4472,6 +4487,21 @@
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
   },
   {
+    "description": "A tool to add spaced repetition workflow to taskwarrior",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "repeat",
+    "owner": [
+      "farukara"
+    ],
+    "rating": 0,
+    "updated": "2022-10-20",
+    "url": "https://github.com/farukara/repeat"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
@@ -4768,7 +4798,7 @@
       "garybgenett"
     ],
     "rating": 15,
-    "updated": "2022-10-10",
+    "updated": "2022-10-18",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5433,21 +5463,6 @@
   },
   {
     "description": null,
-    "dormant": false,
-    "language": [
-      "Java"
-    ],
-    "license": null,
-    "name": "taskServer",
-    "owner": [
-      "ivich1"
-    ],
-    "rating": 0,
-    "updated": "2022-04-26",
-    "url": "https://github.com/ivich1/taskServer"
-  },
-  {
-    "description": null,
     "dormant": true,
     "language": [
       "N/A"
@@ -6057,7 +6072,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 282,
+    "rating": 283,
     "updated": "2022-09-07",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6598,7 +6613,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-10-06",
+    "updated": "2022-10-20",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -7742,6 +7757,21 @@
     "url": "https://github.com/mokrunka/taskwarrior-subtask-capsule"
   },
   {
+    "description": "Current Taskwarrior sync server is complicated to setup. This sync system use simple sync by pushing to Github Gist as encrypted PGP",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "Taskwarrior-sync",
+    "owner": [
+      "mozram"
+    ],
+    "rating": 0,
+    "updated": "2022-10-21",
+    "url": "https://github.com/mozram/Taskwarrior-sync"
+  },
+  {
     "description": "Convert all your Things.app tasks to Taskwarrior",
     "dormant": true,
     "language": [
@@ -8353,7 +8383,7 @@
       "nya1"
     ],
     "rating": 0,
-    "updated": "2022-10-16",
+    "updated": "2022-10-20",
     "url": "https://github.com/nya1/scatola"
   },
   {
@@ -8952,7 +8982,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 628,
+    "rating": 629,
     "updated": "2022-09-25",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10273,7 +10303,7 @@
       "tools-life"
     ],
     "rating": 693,
-    "updated": "2022-10-16",
+    "updated": "2022-10-19",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -10512,8 +10542,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 372,
-    "updated": "2022-10-14",
+    "rating": 373,
+    "updated": "2022-10-19",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -10923,7 +10953,7 @@
   },
   {
     "description": "Process date and holiday data in taskwarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -10933,7 +10963,7 @@
       "yulqen"
     ],
     "rating": 0,
-    "updated": "2017-12-16",
+    "updated": "2022-10-18",
     "url": "https://github.com/yulqen/tw-date-tools"
   },
   {
