@@ -732,7 +732,7 @@
     "owner": [
       "Epictek"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2018-08-22",
     "url": "https://github.com/Epictek/termux-taskwarrior"
   },
@@ -828,7 +828,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "C++"
     ],
@@ -3057,7 +3057,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 489,
+    "rating": 490,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -8383,7 +8383,7 @@
       "nya1"
     ],
     "rating": 0,
-    "updated": "2022-10-20",
+    "updated": "2022-10-21",
     "url": "https://github.com/nya1/scatola"
   },
   {
@@ -10302,8 +10302,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 693,
-    "updated": "2022-10-19",
+    "rating": 694,
+    "updated": "2022-10-21",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -10543,7 +10543,7 @@
       "vit-project"
     ],
     "rating": 373,
-    "updated": "2022-10-19",
+    "updated": "2022-10-21",
     "url": "https://github.com/vit-project/vit"
   },
   {
