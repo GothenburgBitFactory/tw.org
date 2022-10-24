@@ -372,7 +372,7 @@
     "owner": [
       "AnotherKamila"
     ],
-    "rating": 32,
+    "rating": 34,
     "updated": "2019-03-05",
     "url": "https://github.com/AnotherKamila/tasksched"
   },
@@ -867,7 +867,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 118,
+    "rating": 119,
     "updated": "2022-10-04",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1153,7 +1153,7 @@
       "KevCui"
     ],
     "rating": 13,
-    "updated": "2022-10-18",
+    "updated": "2022-10-23",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2012,21 +2012,6 @@
     "url": "https://github.com/YuseiIto/taskserver-rust"
   },
   {
-    "description": "Your secretary app, note taking tool with taskwarrior capabilities",
-    "dormant": true,
-    "language": [
-      "Rust"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "Skribe",
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 3,
-    "updated": "2019-01-07",
-    "url": "https://github.com/Zebradil/Skribe"
-  },
-  {
     "description": "Personal collection of docker service files",
     "dormant": true,
     "language": [
@@ -2053,7 +2038,7 @@
       "Zebradil"
     ],
     "rating": 0,
-    "updated": "2020-07-18",
+    "updated": "2022-10-23",
     "url": "https://github.com/Zebradil/docker-taskd"
   },
   {
@@ -2068,7 +2053,7 @@
       "Zebradil"
     ],
     "rating": 55,
-    "updated": "2022-08-23",
+    "updated": "2022-10-23",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3597,7 +3582,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 536,
+    "rating": 537,
     "updated": "2022-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -6252,7 +6237,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 896,
+    "rating": 897,
     "updated": "2022-10-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7768,7 +7753,7 @@
       "mozram"
     ],
     "rating": 0,
-    "updated": "2022-10-21",
+    "updated": "2022-10-22",
     "url": "https://github.com/mozram/Taskwarrior-sync"
   },
   {
@@ -8938,7 +8923,7 @@
       "quandangv"
     ],
     "rating": 7,
-    "updated": "2020-10-12",
+    "updated": "2022-10-24",
     "url": "https://github.com/quandangv/polybar-warrior"
   },
   {
@@ -8982,7 +8967,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 629,
+    "rating": 631,
     "updated": "2022-09-25",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10302,7 +10287,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 694,
+    "rating": 695,
     "updated": "2022-10-21",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10543,7 +10528,7 @@
       "vit-project"
     ],
     "rating": 373,
-    "updated": "2022-10-21",
+    "updated": "2022-10-23",
     "url": "https://github.com/vit-project/vit"
   },
   {
