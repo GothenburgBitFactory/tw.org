@@ -72,7 +72,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 58,
+    "rating": 59,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -447,8 +447,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 6,
-    "updated": "2022-10-19",
+    "rating": 8,
+    "updated": "2022-10-25",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -508,7 +508,7 @@
       "CourrierGui"
     ],
     "rating": 2,
-    "updated": "2022-08-17",
+    "updated": "2022-11-02",
     "url": "https://github.com/CourrierGui/kanbanwarrior"
   },
   {
@@ -552,7 +552,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2022-04-16",
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
@@ -567,7 +567,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 84,
+    "rating": 85,
     "updated": "2022-10-16",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -643,7 +643,7 @@
       "DerHabicht"
     ],
     "rating": 1,
-    "updated": "2022-10-17",
+    "updated": "2022-10-28",
     "url": "https://github.com/DerHabicht/tw_dep_grapher"
   },
   {
@@ -705,6 +705,21 @@
     "rating": 0,
     "updated": "2016-10-11",
     "url": "https://github.com/Doctor-Andonuts/taskwarriorandroid"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "Elena933"
+    ],
+    "rating": 0,
+    "updated": "2022-10-31",
+    "url": "https://github.com/Elena933/taskServer"
   },
   {
     "description": null,
@@ -777,7 +792,7 @@
     "owner": [
       "Fongshway"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-10-17",
     "url": "https://github.com/Fongshway/twpm"
   },
@@ -942,7 +957,7 @@
     "owner": [
       "HTunne"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2020-10-04",
     "url": "https://github.com/HTunne/task-vue"
   },
@@ -1723,7 +1738,7 @@
       "Stefan-Radu"
     ],
     "rating": 0,
-    "updated": "2022-09-26",
+    "updated": "2022-10-27",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -1847,6 +1862,21 @@
     "url": "https://github.com/TagaevRenat/TaskServer"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "TaskApplication"
+    ],
+    "rating": 0,
+    "updated": "2022-11-01",
+    "url": "https://github.com/TaskApplication/taskServer"
+  },
+  {
     "description": "Small educational project",
     "dormant": false,
     "language": [
@@ -1860,6 +1890,21 @@
     "rating": 0,
     "updated": "2020-04-13",
     "url": "https://github.com/TaskOrganizer/TaskServer"
+  },
+  {
+    "description": "Local Taskwarrior Management.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-box",
+    "owner": [
+      "TaskWarrior-UI"
+    ],
+    "rating": 0,
+    "updated": "2022-10-29",
+    "url": "https://github.com/TaskWarrior-UI/taskwarrior-box"
   },
   {
     "description": "This is the story of how I am slowly becoming free",
@@ -2012,6 +2057,21 @@
     "url": "https://github.com/YuseiIto/taskserver-rust"
   },
   {
+    "description": "Your secretary app, note taking tool with taskwarrior capabilities",
+    "dormant": true,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "Skribe",
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 3,
+    "updated": "2019-01-07",
+    "url": "https://github.com/Zebradil/Skribe"
+  },
+  {
     "description": "Personal collection of docker service files",
     "dormant": true,
     "language": [
@@ -2052,8 +2112,8 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 55,
-    "updated": "2022-10-23",
+    "rating": 56,
+    "updated": "2022-11-03",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2492,6 +2552,21 @@
     "url": "https://github.com/alter/TaskServer"
   },
   {
+    "description": "GUI application for presenting taskwarrior data on charts.",
+    "dormant": false,
+    "language": [
+      "Java"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "TimeFX",
+    "owner": [
+      "amiroslaw"
+    ],
+    "rating": 1,
+    "updated": "2022-11-01",
+    "url": "https://github.com/amiroslaw/TimeFX"
+  },
+  {
     "description": "Taskwarrior git sync hooks",
     "dormant": true,
     "language": [
@@ -2535,6 +2610,21 @@
     "rating": 26,
     "updated": "2021-11-03",
     "url": "https://github.com/andrey-utkin/taskdb"
+  },
+  {
+    "description": "Conceptually a distant, distant cousin of TaskWarrior. Less of a fighter.",
+    "dormant": false,
+    "language": [
+      "Clojure"
+    ],
+    "license": "Apache License 2.0",
+    "name": "task-bard",
+    "owner": [
+      "apetro"
+    ],
+    "rating": 0,
+    "updated": "2022-11-03",
+    "url": "https://github.com/apetro/task-bard"
   },
   {
     "description": "taskwarrior blocks: attribute for inverse dependencies",
@@ -2862,7 +2952,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 178,
+    "rating": 182,
     "updated": "2022-10-19",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -2937,7 +3027,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 161,
+    "rating": 162,
     "updated": "2022-05-04",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -2955,6 +3045,21 @@
     "rating": 0,
     "updated": "2021-07-15",
     "url": "https://github.com/bijenkins/taskserver"
+  },
+  {
+    "description": "Takes JSON export data from taskwarrior and converts it to a table.",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "obsidianmd-taskwarrior-export-consumer",
+    "owner": [
+      "bkohler616"
+    ],
+    "rating": 1,
+    "updated": "2022-10-25",
+    "url": "https://github.com/bkohler616/obsidianmd-taskwarrior-export-consumer"
   },
   {
     "description": "Python scripts to implement GTD process with TaskWarrior",
@@ -2997,7 +3102,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 56,
+    "rating": 59,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3042,7 +3147,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 490,
+    "rating": 489,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3117,8 +3222,8 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 55,
-    "updated": "2022-06-26",
+    "rating": 57,
+    "updated": "2022-11-03",
     "url": "https://github.com/bradyt/taskw-dart"
   },
   {
@@ -3447,8 +3552,8 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 124,
-    "updated": "2022-04-26",
+    "rating": 125,
+    "updated": "2022-11-02",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -3582,7 +3687,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 537,
+    "rating": 538,
     "updated": "2022-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3813,7 +3918,7 @@
   },
   {
     "description": "Golang server to spawn and monitor Linux processes on a remote server",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -3933,7 +4038,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -4572,7 +4677,7 @@
     "owner": [
       "fmauch"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-05-05",
     "url": "https://github.com/fmauch/evolution-taskwarrior"
   },
@@ -4812,7 +4917,7 @@
     "owner": [
       "garykl"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2021-04-13",
     "url": "https://github.com/garykl/task2dot"
   },
@@ -4828,7 +4933,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2022-10-12",
+    "updated": "2022-10-30",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -4902,7 +5007,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2022-08-26",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -5217,7 +5322,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -5547,7 +5652,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -5817,7 +5922,7 @@
     "owner": [
       "jmriego"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-05-25",
     "url": "https://github.com/jmriego/TaskwarriorC2"
   },
@@ -5877,7 +5982,7 @@
     "owner": [
       "jonathanabennett"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2022-06-10",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
@@ -6057,7 +6162,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 283,
+    "rating": 284,
     "updated": "2022-09-07",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6177,7 +6282,7 @@
     "owner": [
       "kaiec"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-07-21",
     "url": "https://github.com/kaiec/dotfiles"
   },
@@ -6237,8 +6342,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 897,
-    "updated": "2022-10-13",
+    "rating": 905,
+    "updated": "2022-11-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -6583,7 +6688,7 @@
       "ky-s"
     ],
     "rating": 1,
-    "updated": "2022-07-21",
+    "updated": "2022-11-02",
     "url": "https://github.com/ky-s/taskwarrior-electron"
   },
   {
@@ -7287,7 +7392,7 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-06-01",
     "url": "https://github.com/maralorn/kassandra"
   },
@@ -7453,7 +7558,7 @@
       "maxjoehnk"
     ],
     "rating": 4,
-    "updated": "2022-09-29",
+    "updated": "2022-11-04",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -7753,8 +7858,23 @@
       "mozram"
     ],
     "rating": 0,
-    "updated": "2022-10-22",
+    "updated": "2022-10-30",
     "url": "https://github.com/mozram/Taskwarrior-sync"
+  },
+  {
+    "description": "Rust version of https://github.com/mozram/Taskwarrior-sync",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-sync-rs",
+    "owner": [
+      "mozram"
+    ],
+    "rating": 0,
+    "updated": "2022-10-30",
+    "url": "https://github.com/mozram/taskwarrior-sync-rs"
   },
   {
     "description": "Convert all your Things.app tasks to Taskwarrior",
@@ -7845,6 +7965,21 @@
     "rating": 6,
     "updated": "2022-02-22",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-utils",
+    "owner": [
+      "mrVanDalo"
+    ],
+    "rating": 0,
+    "updated": "2022-11-05",
+    "url": "https://github.com/mrVanDalo/taskwarrior-utils"
   },
   {
     "description": "A horrifying implementation of a TaskWarrior server in a docker container",
@@ -8142,7 +8277,7 @@
     "owner": [
       "neuhalje"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2019-05-27",
     "url": "https://github.com/neuhalje/docker-mua-and-friends"
   },
@@ -8157,7 +8292,7 @@
     "owner": [
       "neuhalje"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2019-05-29",
     "url": "https://github.com/neuhalje/notmuch-task"
   },
@@ -8362,13 +8497,13 @@
     "language": [
       "TypeScript"
     ],
-    "license": "GNU General Public License v3.0",
+    "license": "MIT License",
     "name": "scatola",
     "owner": [
       "nya1"
     ],
     "rating": 0,
-    "updated": "2022-10-21",
+    "updated": "2022-10-26",
     "url": "https://github.com/nya1/scatola"
   },
   {
@@ -8967,7 +9102,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 631,
+    "rating": 630,
     "updated": "2022-09-25",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -8997,7 +9132,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 158,
+    "rating": 160,
     "updated": "2022-06-18",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -9267,7 +9402,7 @@
     "owner": [
       "samxsmith"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-01-17",
     "url": "https://github.com/samxsmith/taskwarrior_utils"
   },
@@ -9868,7 +10003,7 @@
       "strawpants"
     ],
     "rating": 0,
-    "updated": "2022-10-17",
+    "updated": "2022-11-01",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
   {
@@ -9903,7 +10038,7 @@
   },
   {
     "description": "Command line task manager with alexa + google mail integration.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -9988,7 +10123,7 @@
       "szaffarano"
     ],
     "rating": 2,
-    "updated": "2022-10-12",
+    "updated": "2022-10-25",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -10032,7 +10167,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -10287,7 +10422,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 695,
+    "rating": 697,
     "updated": "2022-10-21",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10340,7 +10475,7 @@
     "description": "A Timewarrior report script for calculating billable hours.",
     "dormant": false,
     "language": [
-      "Python"
+      "Nim"
     ],
     "license": "GNU General Public License v3.0",
     "name": "timew-billable",
@@ -10348,7 +10483,7 @@
       "trev-dev"
     ],
     "rating": 5,
-    "updated": "2022-05-04",
+    "updated": "2022-11-05",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
@@ -10527,8 +10662,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 373,
-    "updated": "2022-10-23",
+    "rating": 376,
+    "updated": "2022-10-26",
     "url": "https://github.com/vit-project/vit"
   },
   {
