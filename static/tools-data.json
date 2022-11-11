@@ -1352,21 +1352,6 @@
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
   {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "TaskServer-client",
-    "owner": [
-      "Na11a"
-    ],
-    "rating": 0,
-    "updated": "2021-11-08",
-    "url": "https://github.com/Na11a/TaskServer-client"
-  },
-  {
     "description": "Script which adds tasks to taskwarrior with a bunch of intervals (due dates)",
     "dormant": true,
     "language": [
@@ -3028,7 +3013,7 @@
       "bgregos"
     ],
     "rating": 162,
-    "updated": "2022-11-09",
+    "updated": "2022-11-11",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3687,7 +3672,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 539,
+    "rating": 541,
     "updated": "2022-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3732,7 +3717,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 64,
+    "rating": 63,
     "updated": "2020-12-15",
     "url": "https://github.com/coddingtonbear/taskwarrior-inthe.am"
   },
@@ -4513,7 +4498,7 @@
       "ethueter"
     ],
     "rating": 0,
-    "updated": "2022-11-08",
+    "updated": "2022-11-10",
     "url": "https://github.com/ethueter/TaskServer"
   },
   {
@@ -6688,7 +6673,7 @@
       "ky-s"
     ],
     "rating": 1,
-    "updated": "2022-11-02",
+    "updated": "2022-11-10",
     "url": "https://github.com/ky-s/taskwarrior-electron"
   },
   {
@@ -6867,7 +6852,7 @@
     "owner": [
       "lharding"
     ],
-    "rating": 114,
+    "rating": 113,
     "updated": "2021-11-06",
     "url": "https://github.com/lharding/tasknc"
   },
@@ -10122,7 +10107,7 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-10-25",
     "url": "https://github.com/szaffarano/gotas"
   },
@@ -10470,21 +10455,6 @@
     "rating": 3,
     "updated": "2022-04-25",
     "url": "https://github.com/tpeetz/pull-task"
-  },
-  {
-    "description": "A Timewarrior report script for calculating billable hours.",
-    "dormant": false,
-    "language": [
-      "Nim"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "timew-billable",
-    "owner": [
-      "trev-dev"
-    ],
-    "rating": 7,
-    "updated": "2022-11-09",
-    "url": "https://github.com/trev-dev/timew-billable"
   },
   {
     "description": "Various notifications for taskwarrior",
@@ -10843,7 +10813,7 @@
       "wuweiss"
     ],
     "rating": 0,
-    "updated": "2022-03-29",
+    "updated": "2022-11-11",
     "url": "https://github.com/wuweiss/taskserver"
   },
   {
