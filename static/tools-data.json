@@ -1352,6 +1352,21 @@
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer-client",
+    "owner": [
+      "Na11a"
+    ],
+    "rating": 0,
+    "updated": "2021-11-08",
+    "url": "https://github.com/Na11a/TaskServer-client"
+  },
+  {
     "description": "Script which adds tasks to taskwarrior with a bunch of intervals (due dates)",
     "dormant": true,
     "language": [
@@ -2537,21 +2552,6 @@
     "url": "https://github.com/alter/TaskServer"
   },
   {
-    "description": "GUI application for presenting taskwarrior data on charts.",
-    "dormant": false,
-    "language": [
-      "Java"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "TimeFX",
-    "owner": [
-      "amiroslaw"
-    ],
-    "rating": 1,
-    "updated": "2022-11-01",
-    "url": "https://github.com/amiroslaw/TimeFX"
-  },
-  {
     "description": "Taskwarrior git sync hooks",
     "dormant": true,
     "language": [
@@ -3672,7 +3672,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 541,
+    "rating": 540,
     "updated": "2022-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5223,7 +5223,7 @@
   },
   {
     "description": "Use a Raspberry Pi and a touch display to tasks from taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -5295,6 +5295,21 @@
     "rating": 3,
     "updated": "2015-01-07",
     "url": "https://github.com/hpainter/taskwarrior-solarized"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior",
+    "owner": [
+      "hpi"
+    ],
+    "rating": 0,
+    "updated": "2022-11-13",
+    "url": "https://github.com/hpi/taskwarrior"
   },
   {
     "description": "IOS port of the command-line tool TaskWarrior",
@@ -7843,7 +7858,7 @@
       "mozram"
     ],
     "rating": 0,
-    "updated": "2022-11-09",
+    "updated": "2022-11-13",
     "url": "https://github.com/mozram/Taskwarrior-sync"
   },
   {
@@ -9088,7 +9103,7 @@
       "ralphbean"
     ],
     "rating": 631,
-    "updated": "2022-09-25",
+    "updated": "2022-11-11",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10317,7 +10332,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 489,
+    "rating": 490,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -10455,6 +10470,21 @@
     "rating": 3,
     "updated": "2022-04-25",
     "url": "https://github.com/tpeetz/pull-task"
+  },
+  {
+    "description": "A Timewarrior report script for calculating billable hours.",
+    "dormant": false,
+    "language": [
+      "Nim"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timew-billable",
+    "owner": [
+      "trev-dev"
+    ],
+    "rating": 7,
+    "updated": "2022-11-13",
+    "url": "https://github.com/trev-dev/timew-billable"
   },
   {
     "description": "Various notifications for taskwarrior",
@@ -11118,7 +11148,7 @@
   },
   {
     "description": "Simple taskwarrior sync unit and timer file",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
