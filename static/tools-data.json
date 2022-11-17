@@ -207,7 +207,7 @@
     "owner": [
       "Aerex"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2022-07-05",
     "url": "https://github.com/Aerex/icaltask"
   },
@@ -883,7 +883,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 119,
-    "updated": "2022-10-04",
+    "updated": "2022-11-15",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
   {
@@ -1167,8 +1167,8 @@
     "owner": [
       "KevCui"
     ],
-    "rating": 13,
-    "updated": "2022-10-23",
+    "rating": 14,
+    "updated": "2022-11-15",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2113,7 +2113,7 @@
       "Zebradil"
     ],
     "rating": 56,
-    "updated": "2022-11-07",
+    "updated": "2022-11-16",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2937,7 +2937,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 182,
+    "rating": 184,
     "updated": "2022-10-19",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -3012,7 +3012,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 162,
+    "rating": 164,
     "updated": "2022-11-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3087,7 +3087,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3432,7 +3432,7 @@
     "owner": [
       "charles-e"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2021-04-06",
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
@@ -3537,7 +3537,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 125,
+    "rating": 126,
     "updated": "2022-11-02",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -3672,8 +3672,8 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 540,
-    "updated": "2022-09-17",
+    "rating": 541,
+    "updated": "2022-11-14",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -6117,7 +6117,7 @@
     "owner": [
       "jrenslin"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2017-12-05",
     "url": "https://github.com/jrenslin/mattermost-taskwarrior"
   },
@@ -6342,7 +6342,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 911,
+    "rating": 912,
     "updated": "2022-11-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9102,7 +9102,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 631,
+    "rating": 632,
     "updated": "2022-11-11",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
