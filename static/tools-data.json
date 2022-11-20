@@ -567,8 +567,8 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 86,
-    "updated": "2022-11-09",
+    "rating": 87,
+    "updated": "2022-11-18",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -883,7 +883,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 119,
-    "updated": "2022-11-15",
+    "updated": "2022-11-17",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
   {
@@ -2937,13 +2937,13 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 184,
+    "rating": 185,
     "updated": "2022-10-19",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
     "description": "Franz Recipe for taskwarrior-web",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -3012,7 +3012,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 164,
+    "rating": 166,
     "updated": "2022-11-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3672,7 +3672,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 541,
+    "rating": 542,
     "updated": "2022-11-14",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4053,7 +4053,7 @@
   },
   {
     "description": "taskwarrior-web gem dockerized",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dockerfile"
     ],
@@ -4093,7 +4093,7 @@
       "dezmondfinney"
     ],
     "rating": 1,
-    "updated": "2022-09-30",
+    "updated": "2022-11-18",
     "url": "https://github.com/dezmondfinney/Montu"
   },
   {
@@ -4182,7 +4182,7 @@
     "owner": [
       "dominicdoty"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2019-10-15",
     "url": "https://github.com/dominicdoty/canvas_warrior"
   },
@@ -4707,7 +4707,7 @@
     "owner": [
       "fplourde"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2020-12-29",
     "url": "https://github.com/fplourde/Taskwarrior-habitica-hooks"
   },
@@ -6342,7 +6342,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 912,
+    "rating": 913,
     "updated": "2022-11-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7557,8 +7557,8 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 4,
-    "updated": "2022-11-04",
+    "rating": 5,
+    "updated": "2022-11-18",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8532,7 +8532,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2022-10-04",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -8547,7 +8547,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 99,
+    "rating": 100,
     "updated": "2022-08-20",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -10122,8 +10122,8 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 3,
-    "updated": "2022-10-25",
+    "rating": 4,
+    "updated": "2022-11-18",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -10167,7 +10167,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -10332,7 +10332,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 490,
+    "rating": 491,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -10662,7 +10662,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 377,
+    "rating": 378,
     "updated": "2022-10-26",
     "url": "https://github.com/vit-project/vit"
   },
