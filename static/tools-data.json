@@ -1727,21 +1727,6 @@
     "url": "https://github.com/Stantheman/TextPuller"
   },
   {
-    "description": "hooray, here you'll find my dotfiles",
-    "dormant": false,
-    "language": [
-      "Vim Script"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "Stefan-Radu"
-    ],
-    "rating": 0,
-    "updated": "2022-10-27",
-    "url": "https://github.com/Stefan-Radu/dotfiles"
-  },
-  {
     "description": "Fork of https://git.webmeisterei.com/webmeisterei/todoist-taskwarrior (which is a fork of https://github.com/matt-snider/todoist-taskwarrior)",
     "dormant": false,
     "language": [
@@ -2608,7 +2593,7 @@
       "apetro"
     ],
     "rating": 0,
-    "updated": "2022-11-03",
+    "updated": "2022-11-20",
     "url": "https://github.com/apetro/task-bard"
   },
   {
@@ -3297,7 +3282,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 93,
+    "rating": 94,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -8748,7 +8733,7 @@
   },
   {
     "description": "Taskwarrior server container",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Shell"
     ],
@@ -8758,7 +8743,7 @@
       "philipgatzka"
     ],
     "rating": 2,
-    "updated": "2019-03-13",
+    "updated": "2022-11-20",
     "url": "https://github.com/philipgatzka/docker-taskd"
   },
   {
@@ -10662,7 +10647,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 378,
+    "rating": 379,
     "updated": "2022-10-26",
     "url": "https://github.com/vit-project/vit"
   },
