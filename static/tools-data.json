@@ -87,7 +87,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2016-04-13",
     "url": "https://github.com/8ware/task-gantt"
   },
@@ -567,7 +567,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 87,
+    "rating": 90,
     "updated": "2022-11-18",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1572,7 +1572,7 @@
     "owner": [
       "Rag0n"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2016-01-18",
     "url": "https://github.com/Rag0n/TaskBerserk"
   },
@@ -2128,7 +2128,7 @@
       "Zebradil"
     ],
     "rating": 57,
-    "updated": "2022-11-26",
+    "updated": "2022-12-01",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2502,7 +2502,7 @@
     "owner": [
       "alfredopalhares"
     ],
-    "rating": 12,
+    "rating": 11,
     "updated": "2014-02-12",
     "url": "https://github.com/alfredopalhares/cookbook-taskwarrior"
   },
@@ -2938,7 +2938,7 @@
       "bergercookie"
     ],
     "rating": 185,
-    "updated": "2022-11-21",
+    "updated": "2022-11-28",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -3012,8 +3012,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 166,
-    "updated": "2022-11-11",
+    "rating": 168,
+    "updated": "2022-12-01",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3207,7 +3207,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2022-11-03",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3672,7 +3672,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 543,
+    "rating": 544,
     "updated": "2022-11-23",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3793,7 +3793,7 @@
       "codehivetx"
     ],
     "rating": 0,
-    "updated": "2022-09-27",
+    "updated": "2022-11-28",
     "url": "https://github.com/codehivetx/dock-warrior"
   },
   {
@@ -4872,8 +4872,8 @@
     "owner": [
       "garybgenett"
     ],
-    "rating": 15,
-    "updated": "2022-10-18",
+    "rating": 16,
+    "updated": "2022-11-30",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6177,7 +6177,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 285,
+    "rating": 287,
     "updated": "2022-09-07",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6633,7 +6633,7 @@
   },
   {
     "description": "Ansible role for installing and configuring the task management tool \"taskwarrior\" (see https://taskwarrior.org/ )",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -7393,7 +7393,7 @@
       "maralorn"
     ],
     "rating": 9,
-    "updated": "2022-06-15",
+    "updated": "2022-11-28",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -7573,7 +7573,7 @@
       "maxjoehnk"
     ],
     "rating": 5,
-    "updated": "2022-11-21",
+    "updated": "2022-11-30",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8548,7 +8548,7 @@
       "ogarcia"
     ],
     "rating": 45,
-    "updated": "2022-11-24",
+    "updated": "2022-11-28",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
@@ -9163,7 +9163,7 @@
       "raremurk"
     ],
     "rating": 0,
-    "updated": "2022-11-25",
+    "updated": "2022-11-28",
     "url": "https://github.com/raremurk/TaskServer"
   },
   {
@@ -10137,7 +10137,7 @@
     "owner": [
       "svijee"
     ],
-    "rating": 119,
+    "rating": 118,
     "updated": "2016-02-27",
     "url": "https://github.com/svijee/taskwarrior-androidapp"
   },
@@ -10168,7 +10168,7 @@
       "szaffarano"
     ],
     "rating": 4,
-    "updated": "2022-11-18",
+    "updated": "2022-12-01",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -10467,7 +10467,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 699,
+    "rating": 701,
     "updated": "2022-10-21",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10707,7 +10707,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 380,
+    "rating": 381,
     "updated": "2022-10-26",
     "url": "https://github.com/vit-project/vit"
   },
