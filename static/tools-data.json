@@ -567,7 +567,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 90,
+    "rating": 92,
     "updated": "2022-11-18",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -798,7 +798,7 @@
   },
   {
     "description": "Import GitHub issues to TaskWarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "C#"
     ],
@@ -808,7 +808,7 @@
       "ForNeVeR"
     ],
     "rating": 2,
-    "updated": "2017-12-17",
+    "updated": "2022-12-04",
     "url": "https://github.com/ForNeVeR/taskomatic"
   },
   {
@@ -2937,7 +2937,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 185,
+    "rating": 186,
     "updated": "2022-11-28",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
@@ -4093,7 +4093,7 @@
       "dezmondfinney"
     ],
     "rating": 1,
-    "updated": "2022-11-18",
+    "updated": "2022-12-04",
     "url": "https://github.com/dezmondfinney/Montu"
   },
   {
@@ -4567,13 +4567,13 @@
     "language": [
       "Go"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "repeat",
     "owner": [
       "farukara"
     ],
     "rating": 0,
-    "updated": "2022-10-20",
+    "updated": "2022-12-04",
     "url": "https://github.com/farukara/repeat"
   },
   {
@@ -4632,7 +4632,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 135,
+    "rating": 136,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -4833,7 +4833,7 @@
   },
   {
     "description": "Taskwarrior to share tasks between multiple clients and colleagues, Bugwarrior to rule them all (Github, Gitlab, Jira, Gmail,...)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "CSS"
     ],
@@ -4873,7 +4873,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2022-11-30",
+    "updated": "2022-12-04",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6207,7 +6207,7 @@
     "owner": [
       "jspricke"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2022-10-06",
     "url": "https://github.com/jspricke/python-icstask"
   },
@@ -6357,7 +6357,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 918,
+    "rating": 921,
     "updated": "2022-11-21",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9117,7 +9117,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 633,
+    "rating": 634,
     "updated": "2022-11-11",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10377,7 +10377,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 493,
+    "rating": 494,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -10528,7 +10528,7 @@
       "trev-dev"
     ],
     "rating": 7,
-    "updated": "2022-11-23",
+    "updated": "2022-12-02",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
@@ -10782,7 +10782,7 @@
     "owner": [
       "vrutkovs"
     ],
-    "rating": 7,
+    "rating": 6,
     "updated": "2018-10-05",
     "url": "https://github.com/vrutkovs/telch"
   },
