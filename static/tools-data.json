@@ -313,7 +313,7 @@
       "AliGhahraei"
     ],
     "rating": 6,
-    "updated": "2021-12-30",
+    "updated": "2022-12-08",
     "url": "https://github.com/AliGhahraei/just-start"
   },
   {
@@ -448,7 +448,7 @@
       "CCExtractor"
     ],
     "rating": 8,
-    "updated": "2022-10-25",
+    "updated": "2022-12-08",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -493,7 +493,7 @@
       "Colorless-Green-Ideas"
     ],
     "rating": 6,
-    "updated": "2021-10-21",
+    "updated": "2022-12-07",
     "url": "https://github.com/Colorless-Green-Ideas/django-taskd"
   },
   {
@@ -567,8 +567,8 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 92,
-    "updated": "2022-11-18",
+    "rating": 93,
+    "updated": "2022-12-06",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -808,7 +808,7 @@
       "ForNeVeR"
     ],
     "rating": 2,
-    "updated": "2022-12-04",
+    "updated": "2022-12-06",
     "url": "https://github.com/ForNeVeR/taskomatic"
   },
   {
@@ -1348,7 +1348,7 @@
       "Mossop"
     ],
     "rating": 2,
-    "updated": "2022-06-24",
+    "updated": "2022-12-06",
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
   {
@@ -1512,7 +1512,7 @@
     "owner": [
       "Procoder16"
     ],
-    "rating": 4,
+    "rating": 6,
     "updated": "2022-08-24",
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
@@ -2038,7 +2038,7 @@
       "VelychkoOleksandr"
     ],
     "rating": 0,
-    "updated": "2022-03-26",
+    "updated": "2022-12-07",
     "url": "https://github.com/VelychkoOleksandr/TaskServer-v2"
   },
   {
@@ -2893,7 +2893,7 @@
       "bergercookie"
     ],
     "rating": 3,
-    "updated": "2022-04-18",
+    "updated": "2022-12-05",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
   {
@@ -2937,8 +2937,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 186,
-    "updated": "2022-11-28",
+    "rating": 187,
+    "updated": "2022-12-05",
     "url": "https://github.com/bergercookie/taskwarrior-syncall"
   },
   {
@@ -3012,7 +3012,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 168,
+    "rating": 169,
     "updated": "2022-12-01",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3282,7 +3282,7 @@
     "owner": [
       "brutus"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2021-03-25",
     "url": "https://github.com/brutus/taskwarrior-local"
   },
@@ -3493,7 +3493,7 @@
       "chess-seventh"
     ],
     "rating": 2,
-    "updated": "2021-08-04",
+    "updated": "2022-12-08",
     "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
   {
@@ -3537,24 +3537,9 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 126,
+    "rating": 128,
     "updated": "2022-11-02",
     "url": "https://github.com/cinatic/taskwhisperer"
-  },
-  {
-    "description": "This is a helper script for configuring Taskwarrior clients to sync with a taskserver.",
-    "dormant": true,
-    "language": [
-      "Shell"
-    ],
-    "license": "Open Software License 3.0",
-    "name": "Taskserver-Client-Setup",
-    "owner": [
-      "cjpf"
-    ],
-    "rating": 0,
-    "updated": "2019-11-23",
-    "url": "https://github.com/cjpf/Taskserver-Client-Setup"
   },
   {
     "description": "Sends reminders for tasks from Taskwarrior",
@@ -3673,7 +3658,7 @@
       "coddingtonbear"
     ],
     "rating": 544,
-    "updated": "2022-11-23",
+    "updated": "2022-12-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -3808,7 +3793,7 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2022-10-05",
+    "updated": "2022-12-05",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
@@ -3927,7 +3912,7 @@
     "owner": [
       "dakuten"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2022-04-14",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
   },
@@ -4363,7 +4348,7 @@
       "encima"
     ],
     "rating": 15,
-    "updated": "2021-12-28",
+    "updated": "2022-12-07",
     "url": "https://github.com/encima/flask-task"
   },
   {
@@ -4498,7 +4483,7 @@
       "ethueter"
     ],
     "rating": 0,
-    "updated": "2022-11-10",
+    "updated": "2022-12-05",
     "url": "https://github.com/ethueter/TaskServer"
   },
   {
@@ -4873,7 +4858,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2022-12-04",
+    "updated": "2022-12-08",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -4918,7 +4903,7 @@
       "georgioghazzi"
     ],
     "rating": 0,
-    "updated": "2022-11-23",
+    "updated": "2022-12-06",
     "url": "https://github.com/georgioghazzi/taskwarrior-ionic"
   },
   {
@@ -4992,7 +4977,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -6073,7 +6058,7 @@
       "jrabbit"
     ],
     "rating": 16,
-    "updated": "2021-07-27",
+    "updated": "2022-12-08",
     "url": "https://github.com/jrabbit/taskd-client-py"
   },
   {
@@ -6177,8 +6162,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 287,
-    "updated": "2022-09-07",
+    "rating": 288,
+    "updated": "2022-12-08",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -6357,7 +6342,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 921,
+    "rating": 926,
     "updated": "2022-11-21",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6703,7 +6688,7 @@
       "ky-s"
     ],
     "rating": 1,
-    "updated": "2022-11-22",
+    "updated": "2022-12-05",
     "url": "https://github.com/ky-s/taskwarrior-electron"
   },
   {
@@ -6718,7 +6703,7 @@
       "ky-s"
     ],
     "rating": 0,
-    "updated": "2022-10-20",
+    "updated": "2022-12-05",
     "url": "https://github.com/ky-s/taskwarrior_rails"
   },
   {
@@ -7573,7 +7558,7 @@
       "maxjoehnk"
     ],
     "rating": 5,
-    "updated": "2022-11-30",
+    "updated": "2022-12-08",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9117,7 +9102,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 634,
+    "rating": 635,
     "updated": "2022-11-11",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9253,7 +9238,7 @@
       "rmonico"
     ],
     "rating": 3,
-    "updated": "2021-11-05",
+    "updated": "2022-12-08",
     "url": "https://github.com/rmonico/itask"
   },
   {
@@ -10467,7 +10452,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 701,
+    "rating": 702,
     "updated": "2022-10-21",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -10528,7 +10513,7 @@
       "trev-dev"
     ],
     "rating": 7,
-    "updated": "2022-12-02",
+    "updated": "2022-12-06",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
@@ -10888,7 +10873,7 @@
       "wuweiss"
     ],
     "rating": 0,
-    "updated": "2022-11-11",
+    "updated": "2022-12-08",
     "url": "https://github.com/wuweiss/taskserver"
   },
   {
@@ -11038,7 +11023,7 @@
       "yellow001"
     ],
     "rating": 0,
-    "updated": "2022-06-22",
+    "updated": "2022-12-07",
     "url": "https://github.com/yellow001/TaskServerDemo"
   },
   {
@@ -11128,7 +11113,7 @@
       "yulqen"
     ],
     "rating": 0,
-    "updated": "2022-10-18",
+    "updated": "2022-12-07",
     "url": "https://github.com/yulqen/tw-date-tools"
   },
   {
