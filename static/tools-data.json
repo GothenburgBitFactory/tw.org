@@ -912,7 +912,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 120,
+    "rating": 121,
     "updated": "2022-11-17",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -2232,7 +2232,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 58,
+    "rating": 59,
     "updated": "2023-02-01",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -3057,7 +3057,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 204,
+    "rating": 206,
     "updated": "2023-02-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3162,7 +3162,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 180,
+    "rating": 183,
     "updated": "2023-01-31",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3448,7 +3448,7 @@
       "bsiebens"
     ],
     "rating": 1,
-    "updated": "2023-02-19",
+    "updated": "2023-02-20",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -6377,6 +6377,21 @@
     "url": "https://github.com/jrabbit/taskwarrior-debian"
   },
   {
+    "description": "Righting a wrong that the GothenburgBitFactory forgot to fix",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-themes",
+    "owner": [
+      "jrcharney"
+    ],
+    "rating": 0,
+    "updated": "2023-02-21",
+    "url": "https://github.com/jrcharney/taskwarrior-themes"
+  },
+  {
     "description": "Taskwarrior integration for Mattermost",
     "dormant": true,
     "language": [
@@ -6432,7 +6447,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 296,
+    "rating": 297,
     "updated": "2022-12-09",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6627,8 +6642,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 987,
-    "updated": "2023-01-18",
+    "rating": 989,
+    "updated": "2023-02-21",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -7843,7 +7858,7 @@
       "maxjoehnk"
     ],
     "rating": 10,
-    "updated": "2023-02-13",
+    "updated": "2023-02-21",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8308,7 +8323,7 @@
       "mrusme"
     ],
     "rating": 43,
-    "updated": "2023-02-17",
+    "updated": "2023-02-21",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9447,7 +9462,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 643,
+    "rating": 644,
     "updated": "2023-02-17",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10197,7 +10212,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2022-10-10",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -10335,6 +10350,21 @@
     "rating": 21,
     "updated": "2016-05-24",
     "url": "https://github.com/stackedsax/taskwarrior_scripts"
+  },
+  {
+    "description": "Navodila in nastavitve programa Taskwarrior.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-navodila",
+    "owner": [
+      "stankotrcek"
+    ],
+    "rating": 0,
+    "updated": "2023-02-21",
+    "url": "https://github.com/stankotrcek/taskwarrior-navodila"
   },
   {
     "description": "The TaskWarrior visualisation and extension for team management",
@@ -10812,7 +10842,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 717,
+    "rating": 718,
     "updated": "2022-12-14",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11052,7 +11082,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 388,
+    "rating": 389,
     "updated": "2022-10-26",
     "url": "https://github.com/vit-project/vit"
   },
@@ -11262,7 +11292,7 @@
     "owner": [
       "x4121"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2019-11-27",
     "url": "https://github.com/x4121/docker-taskd"
   },
