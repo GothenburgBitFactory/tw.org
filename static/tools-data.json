@@ -462,8 +462,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 14,
-    "updated": "2023-02-22",
+    "rating": 15,
+    "updated": "2023-02-25",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -582,9 +582,24 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 103,
+    "rating": 104,
     "updated": "2023-02-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
+  },
+  {
+    "description": "Urbe task app backend",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "DanielUrn"
+    ],
+    "rating": 0,
+    "updated": "2023-02-23",
+    "url": "https://github.com/DanielUrn/taskServer"
   },
   {
     "description": "a php lib for taskwarrior",
@@ -885,6 +900,21 @@
     "rating": 0,
     "updated": "2019-10-22",
     "url": "https://github.com/Gander7/taskwarrior"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Java"
+    ],
+    "license": null,
+    "name": "Test-taskServerApp",
+    "owner": [
+      "Gitch14"
+    ],
+    "rating": 0,
+    "updated": "2023-02-25",
+    "url": "https://github.com/Gitch14/Test-taskServerApp"
   },
   {
     "description": "Sends your Assignments, Homework and Tests from Inna to TaskWarrior",
@@ -1920,6 +1950,21 @@
     "rating": 0,
     "updated": "2014-04-11",
     "url": "https://github.com/SteveMuise/TaskServer"
+  },
+  {
+    "description": "nvim, hammerspoon, zsh, omzsh, taskwarrior, shkd",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "eco_lua",
+    "owner": [
+      "SunGodRamen"
+    ],
+    "rating": 0,
+    "updated": "2023-02-25",
+    "url": "https://github.com/SunGodRamen/eco_lua"
   },
   {
     "description": "Time tracking web/cli app based on Taskwarrior",
@@ -3057,7 +3102,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 208,
+    "rating": 211,
     "updated": "2023-02-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3162,7 +3207,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 184,
+    "rating": 185,
     "updated": "2023-01-31",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3237,7 +3282,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 62,
+    "rating": 64,
     "updated": "2021-04-18",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3448,7 +3493,7 @@
       "bsiebens"
     ],
     "rating": 1,
-    "updated": "2023-02-20",
+    "updated": "2023-02-23",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -3733,7 +3778,7 @@
       "claui"
     ],
     "rating": 4,
-    "updated": "2023-02-04",
+    "updated": "2023-02-23",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
   {
@@ -4215,6 +4260,21 @@
     "rating": 0,
     "updated": "2019-11-03",
     "url": "https://github.com/deepblue0755/taskwarrior"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskwarrior-agysoft",
+    "owner": [
+      "dehidehidehi"
+    ],
+    "rating": 0,
+    "updated": "2023-02-24",
+    "url": "https://github.com/dehidehidehi/taskwarrior-agysoft"
   },
   {
     "description": null,
@@ -5487,7 +5547,7 @@
     "owner": [
       "hpainter"
     ],
-    "rating": 5,
+    "rating": 4,
     "updated": "2015-02-16",
     "url": "https://github.com/hpainter/task-toggl"
   },
@@ -6642,8 +6702,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 991,
-    "updated": "2023-02-21",
+    "rating": 995,
+    "updated": "2023-02-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8712,7 +8772,7 @@
     "owner": [
       "nnist"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2021-05-27",
     "url": "https://github.com/nnist/taskschedule"
   },
@@ -9242,6 +9302,21 @@
     "url": "https://github.com/pld-linux/vit"
   },
   {
+    "description": "Taskwarrior hook to sync with Toggl Track",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "togglwarrior",
+    "owner": [
+      "polyntsov"
+    ],
+    "rating": 1,
+    "updated": "2023-02-24",
+    "url": "https://github.com/polyntsov/togglwarrior"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
@@ -9462,8 +9537,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 645,
-    "updated": "2023-02-22",
+    "rating": 646,
+    "updated": "2023-02-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10212,7 +10287,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 66,
+    "rating": 67,
     "updated": "2022-10-10",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -10647,7 +10722,7 @@
     "owner": [
       "teranex"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2013-12-01",
     "url": "https://github.com/teranex/vimwiki-tasks"
   },
@@ -10888,7 +10963,7 @@
       "tpeetz"
     ],
     "rating": 3,
-    "updated": "2022-04-25",
+    "updated": "2023-02-23",
     "url": "https://github.com/tpeetz/pull-task"
   },
   {
@@ -11082,7 +11157,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 390,
+    "rating": 391,
     "updated": "2022-10-26",
     "url": "https://github.com/vit-project/vit"
   },
