@@ -463,7 +463,7 @@
       "CCExtractor"
     ],
     "rating": 15,
-    "updated": "2023-02-25",
+    "updated": "2023-02-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -582,7 +582,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 104,
+    "rating": 105,
     "updated": "2023-02-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -3102,7 +3102,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 211,
+    "rating": 212,
     "updated": "2023-02-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3493,7 +3493,7 @@
       "bsiebens"
     ],
     "rating": 1,
-    "updated": "2023-02-23",
+    "updated": "2023-02-27",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -3522,7 +3522,7 @@
     "owner": [
       "cakira"
     ],
-    "rating": 0,
+    "rating": 2,
     "updated": "2022-05-25",
     "url": "https://github.com/cakira/subtaskwarrior"
   },
@@ -3867,7 +3867,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 557,
+    "rating": 558,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4153,7 +4153,7 @@
       "danieleades"
     ],
     "rating": 0,
-    "updated": "2023-02-16",
+    "updated": "2023-02-27",
     "url": "https://github.com/danieleades/rustwarrior"
   },
   {
@@ -6507,7 +6507,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 298,
+    "rating": 300,
     "updated": "2022-12-09",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6702,7 +6702,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 995,
+    "rating": 996,
     "updated": "2023-02-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6717,7 +6717,7 @@
     "owner": [
       "keigezellig"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2022-08-04",
     "url": "https://github.com/keigezellig/kanbanwarrior"
   },
@@ -8772,7 +8772,7 @@
     "owner": [
       "nnist"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2021-05-27",
     "url": "https://github.com/nnist/taskschedule"
   },
@@ -9538,7 +9538,7 @@
       "ralphbean"
     ],
     "rating": 646,
-    "updated": "2023-02-26",
+    "updated": "2023-02-27",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9567,7 +9567,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 164,
+    "rating": 165,
     "updated": "2023-01-10",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -10077,7 +10077,7 @@
     "owner": [
       "shushcat"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2017-11-26",
     "url": "https://github.com/shushcat/taskgv"
   },
@@ -10618,7 +10618,7 @@
       "szaffarano"
     ],
     "rating": 4,
-    "updated": "2022-12-01",
+    "updated": "2023-02-27",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -10827,7 +10827,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 497,
+    "rating": 498,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
