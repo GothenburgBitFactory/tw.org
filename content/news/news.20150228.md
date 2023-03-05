@@ -11,4 +11,4 @@ This release represents the first sync-capable Taskwarrior release on the Cygwin
 This exposes our Cygwin users to new online services, such as:
 
 - [Inthe.AM](https://inthe.am) - a free online task synchronization service, with client support, an iOS client, and a web interface.
-- [FreeCinc](https://freecinc.com) - a free online task synchronization service, for those who need to synchronize tasks across devices, but don't wish to maintain their own [Taskserver](/docs/#taskserver).
+- ~~`FreeCinc`~~ - a free online task synchronization service, for those who need to synchronize tasks across devices, but don't wish to maintain their own [Taskserver](/docs/#taskserver).
