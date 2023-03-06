@@ -462,8 +462,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 15,
-    "updated": "2023-02-27",
+    "rating": 19,
+    "updated": "2023-03-04",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1377,7 +1377,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 0,
+    "rating": 12,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -1888,7 +1888,7 @@
       "Stefan-Radu"
     ],
     "rating": 0,
-    "updated": "2023-02-22",
+    "updated": "2023-03-05",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -3102,7 +3102,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 212,
+    "rating": 215,
     "updated": "2023-02-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3327,7 +3327,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 492,
+    "rating": 494,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3747,7 +3747,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 128,
+    "rating": 127,
     "updated": "2022-11-02",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -4032,7 +4032,7 @@
     "owner": [
       "contrun"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2022-08-19",
     "url": "https://github.com/contrun/taskwarrior-terminal-kanban"
   },
@@ -4153,7 +4153,7 @@
       "danieleades"
     ],
     "rating": 0,
-    "updated": "2023-02-27",
+    "updated": "2023-02-28",
     "url": "https://github.com/danieleades/rustwarrior"
   },
   {
@@ -4273,7 +4273,7 @@
       "dehidehidehi"
     ],
     "rating": 0,
-    "updated": "2023-02-24",
+    "updated": "2023-03-01",
     "url": "https://github.com/dehidehidehi/taskwarrior-agysoft"
   },
   {
@@ -4812,7 +4812,7 @@
     "owner": [
       "eyenx"
     ],
-    "rating": 4,
+    "rating": 3,
     "updated": "2023-02-06",
     "url": "https://github.com/eyenx/docker-taskwarriormail"
   },
@@ -5922,7 +5922,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 66,
+    "rating": 68,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -6567,7 +6567,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2022-01-11",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
@@ -6702,7 +6702,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 996,
+    "rating": 1002,
     "updated": "2023-02-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7737,8 +7737,8 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 9,
-    "updated": "2022-11-28",
+    "rating": 10,
+    "updated": "2023-03-03",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -7918,7 +7918,7 @@
       "maxjoehnk"
     ],
     "rating": 10,
-    "updated": "2023-02-22",
+    "updated": "2023-03-03",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8343,7 +8343,7 @@
   },
   {
     "description": "A horrifying implementation of a TaskWarrior server in a docker container",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dockerfile"
     ],
@@ -8353,7 +8353,7 @@
       "mrdaemon"
     ],
     "rating": 1,
-    "updated": "2021-01-24",
+    "updated": "2023-02-28",
     "url": "https://github.com/mrdaemon/taskd-server"
   },
   {
@@ -8922,7 +8922,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 55,
+    "rating": 56,
     "updated": "2023-02-13",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -9537,8 +9537,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 646,
-    "updated": "2023-02-27",
+    "rating": 647,
+    "updated": "2023-03-04",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9627,7 +9627,7 @@
     "owner": [
       "rhnvrm"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-10-26",
     "url": "https://github.com/rhnvrm/tg-taskwarrior-bot"
   },
@@ -10247,6 +10247,21 @@
     "url": "https://github.com/smh/taskwarriorrc"
   },
   {
+    "description": "Nest.js server for Task Warrior",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "taskwarrior-server",
+    "owner": [
+      "smpower"
+    ],
+    "rating": 0,
+    "updated": "2023-03-05",
+    "url": "https://github.com/smpower/taskwarrior-server"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
@@ -10617,7 +10632,7 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 4,
+    "rating": 6,
     "updated": "2023-02-27",
     "url": "https://github.com/szaffarano/gotas"
   },
@@ -10917,7 +10932,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 718,
+    "rating": 719,
     "updated": "2022-12-14",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11158,7 +11173,7 @@
       "vit-project"
     ],
     "rating": 391,
-    "updated": "2022-10-26",
+    "updated": "2023-03-02",
     "url": "https://github.com/vit-project/vit"
   },
   {
