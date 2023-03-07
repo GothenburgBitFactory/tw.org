@@ -462,8 +462,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 19,
-    "updated": "2023-03-04",
+    "rating": 18,
+    "updated": "2023-03-06",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -583,7 +583,7 @@
       "DCsunset"
     ],
     "rating": 105,
-    "updated": "2023-02-12",
+    "updated": "2023-03-06",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -1377,7 +1377,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 12,
+    "rating": 25,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -3102,7 +3102,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 215,
+    "rating": 214,
     "updated": "2023-02-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3493,7 +3493,7 @@
       "bsiebens"
     ],
     "rating": 1,
-    "updated": "2023-02-27",
+    "updated": "2023-03-06",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -4153,7 +4153,7 @@
       "danieleades"
     ],
     "rating": 0,
-    "updated": "2023-02-28",
+    "updated": "2023-03-06",
     "url": "https://github.com/danieleades/rustwarrior"
   },
   {
@@ -5922,7 +5922,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -6702,7 +6702,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1002,
+    "rating": 1003,
     "updated": "2023-02-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7918,7 +7918,7 @@
       "maxjoehnk"
     ],
     "rating": 10,
-    "updated": "2023-03-03",
+    "updated": "2023-03-06",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8352,7 +8352,7 @@
     "owner": [
       "mrdaemon"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-02-28",
     "url": "https://github.com/mrdaemon/taskd-server"
   },
@@ -8623,7 +8623,7 @@
       "nerab"
     ],
     "rating": 29,
-    "updated": "2023-01-30",
+    "updated": "2023-03-06",
     "url": "https://github.com/nerab/twdeps"
   },
   {
@@ -9162,7 +9162,7 @@
     "owner": [
       "philipgatzka"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-11-24",
     "url": "https://github.com/philipgatzka/docker-taskd"
   },
@@ -11685,6 +11685,21 @@
     "rating": 0,
     "updated": "2022-01-11",
     "url": "https://github.com/zacharyfrederick/current-next"
+  },
+  {
+    "description": "a tui application for gitlab, github, taskwarrior, jira and cfserver",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "Apache License 2.0",
+    "name": "cafe",
+    "owner": [
+      "zbeaver"
+    ],
+    "rating": 0,
+    "updated": "2023-03-06",
+    "url": "https://github.com/zbeaver/cafe"
   },
   {
     "description": "Simple taskwarrior sync unit and timer file",
