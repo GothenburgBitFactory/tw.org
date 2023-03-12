@@ -463,7 +463,7 @@
       "CCExtractor"
     ],
     "rating": 18,
-    "updated": "2023-03-06",
+    "updated": "2023-03-10",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -942,7 +942,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 121,
+    "rating": 122,
     "updated": "2022-11-17",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1078,7 +1078,7 @@
       "Hirschiii"
     ],
     "rating": 0,
-    "updated": "2023-02-06",
+    "updated": "2023-03-08",
     "url": "https://github.com/Hirschiii/tw-Kanban"
   },
   {
@@ -1648,7 +1648,7 @@
       "Psyhackological"
     ],
     "rating": 0,
-    "updated": "2023-02-05",
+    "updated": "2023-03-10",
     "url": "https://github.com/Psyhackological/dotfiles"
   },
   {
@@ -1843,7 +1843,7 @@
       "Spreadcat"
     ],
     "rating": 0,
-    "updated": "2023-02-05",
+    "updated": "2023-03-07",
     "url": "https://github.com/Spreadcat/ansible-role-taskwarrior"
   },
   {
@@ -1887,8 +1887,8 @@
     "owner": [
       "Stefan-Radu"
     ],
-    "rating": 0,
-    "updated": "2023-03-05",
+    "rating": 1,
+    "updated": "2023-03-11",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -2278,7 +2278,7 @@
       "Zebradil"
     ],
     "rating": 59,
-    "updated": "2023-02-01",
+    "updated": "2023-03-09",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3102,8 +3102,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 214,
-    "updated": "2023-02-15",
+    "rating": 215,
+    "updated": "2023-03-08",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3207,7 +3207,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 185,
+    "rating": 187,
     "updated": "2023-01-31",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3327,7 +3327,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 494,
+    "rating": 495,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3493,7 +3493,7 @@
       "bsiebens"
     ],
     "rating": 1,
-    "updated": "2023-03-06",
+    "updated": "2023-03-08",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -4170,6 +4170,21 @@
     "rating": 0,
     "updated": "2021-06-21",
     "url": "https://github.com/datatalking/taskwarrior"
+  },
+  {
+    "description": "An image for isolated automation of Taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-docker-dev",
+    "owner": [
+      "dathanb"
+    ],
+    "rating": 0,
+    "updated": "2023-03-10",
+    "url": "https://github.com/dathanb/taskwarrior-docker-dev"
   },
   {
     "description": "A simple util to help with prioritizing and deprioritizing tasks in taskwarrior",
@@ -4902,7 +4917,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 137,
+    "rating": 138,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -5143,7 +5158,7 @@
       "garybgenett"
     ],
     "rating": 15,
-    "updated": "2023-02-17",
+    "updated": "2023-03-10",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6507,7 +6522,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 300,
+    "rating": 301,
     "updated": "2022-12-09",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6702,7 +6717,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1003,
+    "rating": 1009,
     "updated": "2023-02-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -6897,7 +6912,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 134,
+    "rating": 135,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -7227,7 +7242,7 @@
     "owner": [
       "lharding"
     ],
-    "rating": 113,
+    "rating": 114,
     "updated": "2021-11-06",
     "url": "https://github.com/lharding/tasknc"
   },
@@ -7918,7 +7933,7 @@
       "maxjoehnk"
     ],
     "rating": 10,
-    "updated": "2023-03-06",
+    "updated": "2023-03-10",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8400,6 +8415,21 @@
     "rating": 0,
     "updated": "2018-01-10",
     "url": "https://github.com/mrwonko/WPTaskClient"
+  },
+  {
+    "description": "Boilerplate code for writing Taskwarrior hooks in Golang",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "go-taskwarrior-hook-boilerplate",
+    "owner": [
+      "msemjan"
+    ],
+    "rating": 0,
+    "updated": "2023-03-11",
+    "url": "https://github.com/msemjan/go-taskwarrior-hook-boilerplate"
   },
   {
     "description": "Task Warrior Server",
@@ -9537,7 +9567,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 647,
+    "rating": 649,
     "updated": "2023-03-04",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9807,7 +9837,7 @@
     "owner": [
       "rucas"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2018-07-11",
     "url": "https://github.com/rucas/taskd"
   },
@@ -10788,7 +10818,7 @@
   },
   {
     "description": "Export OmniFocus data in a format that can be imported into TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -10932,7 +10962,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 719,
+    "rating": 721,
     "updated": "2022-12-14",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11172,7 +11202,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 391,
+    "rating": 392,
     "updated": "2023-03-02",
     "url": "https://github.com/vit-project/vit"
   },
