@@ -224,7 +224,7 @@ What tags am I currently using?
 $ task tags
 ```
 
-What are all the tags I have ever u   sed?
+What are all the tags I have ever used?
 
 ```
 $ task rc.list.all.tags=1 tags
