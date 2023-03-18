@@ -86,7 +86,7 @@ $ task end.after:today-1wk completed
 Show tasks in `This` project or `That` project.
 
 ```
-$ tsk project:This or project:That list
+$ task project:This or project:That list
 ```
 
 More complex algebraic filters.
