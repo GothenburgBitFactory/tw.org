@@ -582,7 +582,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 110,
+    "rating": 109,
     "updated": "2023-04-08",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1377,7 +1377,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -1952,6 +1952,21 @@
     "url": "https://github.com/SteveMuise/TaskServer"
   },
   {
+    "description": "Dotfiles for a rapid prototyping work flow; nVim and Taskwarrior",
+    "dormant": false,
+    "language": [
+      "Vim Script"
+    ],
+    "license": null,
+    "name": ".config",
+    "owner": [
+      "SunGodRamen"
+    ],
+    "rating": 0,
+    "updated": "2023-04-09",
+    "url": "https://github.com/SunGodRamen/.config"
+  },
+  {
     "description": "nvim, hammerspoon, zsh, omzsh, taskwarrior, shkd",
     "dormant": false,
     "language": [
@@ -1965,21 +1980,6 @@
     "rating": 0,
     "updated": "2023-02-25",
     "url": "https://github.com/SunGodRamen/eco_lua"
-  },
-  {
-    "description": "Dotfiles for a rapid prototyping work flow; nVim and Taskwarrior",
-    "dormant": false,
-    "language": [
-      "Vim Script"
-    ],
-    "license": null,
-    "name": "proj_dot",
-    "owner": [
-      "SunGodRamen"
-    ],
-    "rating": 0,
-    "updated": "2023-04-09",
-    "url": "https://github.com/SunGodRamen/proj_dot"
   },
   {
     "description": "Project template that enforces documentation and project lifecycle across tools; nvim, taskwarrior, drawio, using githooks to enforce and automate tracking.",
@@ -2832,7 +2832,7 @@
     "owner": [
       "anazimok"
     ],
-    "rating": 5,
+    "rating": 4,
     "updated": "2018-08-06",
     "url": "https://github.com/anazimok/taskwarrior-workflow"
   },
@@ -4992,7 +4992,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 139,
+    "rating": 138,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -6807,7 +6807,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1035,
+    "rating": 1037,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7872,7 +7872,7 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-06-06",
     "url": "https://github.com/maralorn/tasktree"
   },
