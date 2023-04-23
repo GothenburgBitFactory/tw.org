@@ -2323,7 +2323,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-04-21",
+    "updated": "2023-04-22",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2730,21 +2730,6 @@
     "rating": 0,
     "updated": "2019-05-31",
     "url": "https://github.com/alexger97/TaskServer"
-  },
-  {
-    "description": "todoist/taskwarrior (two-way sync)",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "tist",
-    "owner": [
-      "alexstedev"
-    ],
-    "rating": 0,
-    "updated": "2023-01-13",
-    "url": "https://github.com/alexstedev/tist"
   },
   {
     "description": "A Chef cookbook to manage taskwarrior and friends.",
@@ -3927,7 +3912,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 562,
+    "rating": 563,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -6807,7 +6792,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1039,
+    "rating": 1040,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8172,7 +8157,7 @@
     "owner": [
       "mikebobroski"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2017-12-22",
     "url": "https://github.com/mikebobroski/tasknote"
   },
@@ -8502,7 +8487,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2023-03-22",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -9000,6 +8985,21 @@
     "rating": 0,
     "updated": "2015-05-14",
     "url": "https://github.com/nocejo/tsh"
+  },
+  {
+    "description": "Taskwarrior-inspired approach to append logs",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "feedwarrior",
+    "owner": [
+      "nolash"
+    ],
+    "rating": 0,
+    "updated": "2023-04-22",
+    "url": "https://github.com/nolash/feedwarrior"
   },
   {
     "description": null,
@@ -11367,7 +11367,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 401,
+    "rating": 402,
     "updated": "2023-04-14",
     "url": "https://github.com/vit-project/vit"
   },
