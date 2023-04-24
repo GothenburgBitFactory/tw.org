@@ -207,7 +207,7 @@
     "owner": [
       "Aerex"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-06-19",
     "url": "https://github.com/Aerex/baikal-storage-plugin"
   },
@@ -4250,21 +4250,6 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "docker-taskserver",
-    "owner": [
-      "david-ellinger"
-    ],
-    "rating": 0,
-    "updated": "2020-11-19",
-    "url": "https://github.com/david-ellinger/docker-taskserver"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
       "Shell"
     ],
     "license": null,
@@ -5657,6 +5642,21 @@
     "url": "https://github.com/hpi/taskwarrior"
   },
   {
+    "description": "A small and lightweight Taskwarrior integration plugin.",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "MIT License",
+    "name": "twig.nvim",
+    "owner": [
+      "hugginsio"
+    ],
+    "rating": 0,
+    "updated": "2023-04-24",
+    "url": "https://github.com/hugginsio/twig.nvim"
+  },
+  {
     "description": "IOS port of the command-line tool TaskWarrior",
     "dormant": true,
     "language": [
@@ -5967,7 +5967,7 @@
     "owner": [
       "j6s"
     ],
-    "rating": 9,
+    "rating": 8,
     "updated": "2022-04-09",
     "url": "https://github.com/j6s/docker-taskwarrior-taskserver"
   },
@@ -6163,7 +6163,7 @@
       "jeka1331"
     ],
     "rating": 0,
-    "updated": "2023-02-19",
+    "updated": "2023-04-23",
     "url": "https://github.com/jeka1331/taskwarrior-vscode-extension"
   },
   {
@@ -6792,7 +6792,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1040,
+    "rating": 1039,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8475,21 +8475,6 @@
     "rating": 11,
     "updated": "2021-08-25",
     "url": "https://github.com/mrschyte/taskwarrior-hooks"
-  },
-  {
-    "description": "dotfiles",
-    "dormant": false,
-    "language": [
-      "Vim Script"
-    ],
-    "license": "MIT License",
-    "name": "dotfiles",
-    "owner": [
-      "mrusme"
-    ],
-    "rating": 45,
-    "updated": "2023-03-22",
-    "url": "https://github.com/mrusme/dotfiles"
   },
   {
     "description": "A very simple Taskwarrior Client for Windows (Phone)",
@@ -11127,7 +11112,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 729,
+    "rating": 730,
     "updated": "2022-12-14",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11175,21 +11160,6 @@
     "rating": 3,
     "updated": "2023-02-23",
     "url": "https://github.com/tpeetz/pull-task"
-  },
-  {
-    "description": "A Timewarrior report script for calculating billable hours.",
-    "dormant": false,
-    "language": [
-      "Nim"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "timew-billable",
-    "owner": [
-      "trev-dev"
-    ],
-    "rating": 8,
-    "updated": "2022-12-06",
-    "url": "https://github.com/trev-dev/timew-billable"
   },
   {
     "description": "Various notifications for taskwarrior",
