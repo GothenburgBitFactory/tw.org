@@ -3147,7 +3147,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 230,
+    "rating": 232,
     "updated": "2023-04-08",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3252,7 +3252,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 192,
+    "rating": 193,
     "updated": "2023-03-25",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4888,7 +4888,7 @@
       "eyenx"
     ],
     "rating": 3,
-    "updated": "2023-02-06",
+    "updated": "2023-04-27",
     "url": "https://github.com/eyenx/docker-taskwarriormail"
   },
   {
@@ -4903,7 +4903,7 @@
       "eyenx"
     ],
     "rating": 1,
-    "updated": "2023-02-06",
+    "updated": "2023-04-27",
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
   },
   {
@@ -5697,7 +5697,7 @@
     "owner": [
       "huntrar"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2019-06-21",
     "url": "https://github.com/huntrar/clubwarrior"
   },
@@ -6178,7 +6178,7 @@
       "jeka1331"
     ],
     "rating": 0,
-    "updated": "2023-04-24",
+    "updated": "2023-04-26",
     "url": "https://github.com/jeka1331/taskwarrior-vscode-extension"
   },
   {
@@ -6807,7 +6807,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1042,
+    "rating": 1044,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8007,7 +8007,7 @@
     "owner": [
       "matthiasbeyer"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2023-02-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
@@ -8022,8 +8022,8 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 11,
-    "updated": "2023-04-16",
+    "rating": 12,
+    "updated": "2023-04-26",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8442,7 +8442,7 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2022-02-22",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
@@ -9732,8 +9732,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 658,
-    "updated": "2023-04-10",
+    "rating": 659,
+    "updated": "2023-04-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -9762,7 +9762,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 166,
+    "rating": 167,
     "updated": "2023-01-10",
     "url": "https://github.com/ralphbean/taskw"
   },
