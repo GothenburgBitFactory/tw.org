@@ -3912,7 +3912,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 564,
+    "rating": 565,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -3972,7 +3972,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 269,
+    "rating": 270,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4080,21 +4080,6 @@
     "rating": 5,
     "updated": "2022-08-19",
     "url": "https://github.com/contrun/taskwarrior-terminal-kanban"
-  },
-  {
-    "description": "taskserver",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "cp1059"
-    ],
-    "rating": 0,
-    "updated": "2022-06-28",
-    "url": "https://github.com/cp1059/taskserver"
   },
   {
     "description": "Alternate note taking plugin for taskwarrior",
@@ -4918,7 +4903,7 @@
       "farukara"
     ],
     "rating": 0,
-    "updated": "2023-01-20",
+    "updated": "2023-04-29",
     "url": "https://github.com/farukara/repeat"
   },
   {
@@ -5445,21 +5430,6 @@
     "rating": 0,
     "updated": "2022-04-18",
     "url": "https://github.com/guptapriyanshu7/taskwarrior"
-  },
-  {
-    "description": "taskserver",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "gzshop"
-    ],
-    "rating": 0,
-    "updated": "2022-06-28",
-    "url": "https://github.com/gzshop/taskserver"
   },
   {
     "description": null,
@@ -6807,7 +6777,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1043,
+    "rating": 1044,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8038,7 +8008,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-04-28",
+    "updated": "2023-04-30",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
