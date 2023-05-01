@@ -852,7 +852,7 @@
     "owner": [
       "ForNeVeR"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-12-29",
     "url": "https://github.com/ForNeVeR/taskomatic"
   },
@@ -1250,7 +1250,7 @@
     "description": "A Python frontend to Taskwarrior with textualize.io",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "MIT License",
     "name": "tasktual",
@@ -1258,7 +1258,7 @@
       "KarstenSchulz"
     ],
     "rating": 0,
-    "updated": "2023-04-16",
+    "updated": "2023-04-30",
     "url": "https://github.com/KarstenSchulz/tasktual"
   },
   {
@@ -6582,7 +6582,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 307,
+    "rating": 308,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6972,7 +6972,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 135,
+    "rating": 136,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -7667,21 +7667,6 @@
     "url": "https://github.com/louis-morgan/obsidian-taskwarrior-cli"
   },
   {
-    "description": "server task pour upload file",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskserverImage",
-    "owner": [
-      "lucasmtvilain"
-    ],
-    "rating": 0,
-    "updated": "2020-01-24",
-    "url": "https://github.com/lucasmtvilain/taskserverImage"
-  },
-  {
     "description": null,
     "dormant": false,
     "language": [
@@ -7993,7 +7978,7 @@
       "matthiasbeyer"
     ],
     "rating": 4,
-    "updated": "2023-02-01",
+    "updated": "2023-05-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -8998,7 +8983,7 @@
       "nolash"
     ],
     "rating": 0,
-    "updated": "2023-04-22",
+    "updated": "2023-04-30",
     "url": "https://github.com/nolash/feedwarrior"
   },
   {
@@ -9717,7 +9702,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 659,
+    "rating": 660,
     "updated": "2023-04-26",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
