@@ -6388,7 +6388,7 @@
       "jonathanabennett"
     ],
     "rating": 11,
-    "updated": "2022-06-10",
+    "updated": "2023-05-03",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
@@ -6582,7 +6582,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 308,
+    "rating": 309,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6777,7 +6777,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1046,
+    "rating": 1047,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9057,7 +9057,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2023-04-06",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -9807,7 +9807,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2023-03-25",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
