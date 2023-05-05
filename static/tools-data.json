@@ -1272,7 +1272,7 @@
     "owner": [
       "KevCui"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2023-04-03",
     "url": "https://github.com/KevCui/dotfiles"
   },
@@ -2323,7 +2323,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-05-01",
+    "updated": "2023-05-05",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3912,7 +3912,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 565,
+    "rating": 564,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4002,7 +4002,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2015-01-28",
     "url": "https://github.com/coddingtonbear/taskwarrior-timebook-hook"
   },
@@ -4152,7 +4152,7 @@
     "owner": [
       "dakuten"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2022-04-14",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
   },
@@ -5987,21 +5987,6 @@
     "url": "https://github.com/jackdesert/freecinc"
   },
   {
-    "description": "Project management s/w based on taskwarrior and inspired by GTD and cardo(tiddlywiki)",
-    "dormant": false,
-    "language": [
-      "Svelte"
-    ],
-    "license": null,
-    "name": "tw-pm",
-    "owner": [
-      "jahagirdar"
-    ],
-    "rating": 0,
-    "updated": "2023-01-30",
-    "url": "https://github.com/jahagirdar/tw-pm"
-  },
-  {
     "description": "Fizzy compliant taskwarrior configs",
     "dormant": true,
     "language": [
@@ -6582,7 +6567,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 309,
+    "rating": 308,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6972,7 +6957,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 135,
+    "rating": 136,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -9542,21 +9527,6 @@
     "url": "https://github.com/puchodr/TaskWarrior"
   },
   {
-    "description": "Taskwarrior sync server.",
-    "dormant": false,
-    "language": [
-      "Dockerfile"
-    ],
-    "license": null,
-    "name": "taskd",
-    "owner": [
-      "pztrn"
-    ],
-    "rating": 1,
-    "updated": "2022-06-29",
-    "url": "https://github.com/pztrn/taskd"
-  },
-  {
     "description": "Hooks for taskwarrior.",
     "dormant": false,
     "language": [
@@ -9703,7 +9673,7 @@
       "ralphbean"
     ],
     "rating": 661,
-    "updated": "2023-04-26",
+    "updated": "2023-05-04",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -11112,7 +11082,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 734,
+    "rating": 735,
     "updated": "2023-04-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
