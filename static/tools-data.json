@@ -3147,7 +3147,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 234,
+    "rating": 235,
     "updated": "2023-04-08",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5987,6 +5987,21 @@
     "url": "https://github.com/jackdesert/freecinc"
   },
   {
+    "description": "Project management s/w based on taskwarrior and inspired by GTD and cardo(tiddlywiki)",
+    "dormant": false,
+    "language": [
+      "Svelte"
+    ],
+    "license": null,
+    "name": "tw-pm",
+    "owner": [
+      "jahagirdar"
+    ],
+    "rating": 0,
+    "updated": "2023-01-30",
+    "url": "https://github.com/jahagirdar/tw-pm"
+  },
+  {
     "description": "Fizzy compliant taskwarrior configs",
     "dormant": true,
     "language": [
@@ -6762,7 +6777,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1047,
+    "rating": 1049,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9527,6 +9542,21 @@
     "url": "https://github.com/puchodr/TaskWarrior"
   },
   {
+    "description": "Taskwarrior sync server.",
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": null,
+    "name": "taskd",
+    "owner": [
+      "pztrn"
+    ],
+    "rating": 1,
+    "updated": "2022-06-29",
+    "url": "https://github.com/pztrn/taskd"
+  },
+  {
     "description": "Hooks for taskwarrior.",
     "dormant": false,
     "language": [
@@ -9673,7 +9703,7 @@
       "ralphbean"
     ],
     "rating": 661,
-    "updated": "2023-05-04",
+    "updated": "2023-05-05",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10410,6 +10440,21 @@
     "rating": 1,
     "updated": "2023-03-21",
     "url": "https://github.com/smpower/taskwarrior-server"
+  },
+  {
+    "description": "Here are some utility scripts I wrote for myself. For the most part, it's mainly to learn about scripting in shell but also to automate some repetitive tasks.",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "utility-scripts",
+    "owner": [
+      "somecho"
+    ],
+    "rating": 0,
+    "updated": "2023-05-05",
+    "url": "https://github.com/somecho/utility-scripts"
   },
   {
     "description": null,
