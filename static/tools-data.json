@@ -582,7 +582,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 111,
+    "rating": 112,
     "updated": "2023-04-08",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -927,7 +927,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 125,
+    "rating": 126,
     "updated": "2022-11-17",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1377,7 +1377,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -2323,7 +2323,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-05-05",
+    "updated": "2023-05-06",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3147,7 +3147,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 235,
+    "rating": 237,
     "updated": "2023-04-08",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3657,7 +3657,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -3972,7 +3972,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 270,
+    "rating": 271,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5637,7 +5637,7 @@
     "owner": [
       "hugginsio"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-04-24",
     "url": "https://github.com/hugginsio/twig.nvim"
   },
@@ -6582,7 +6582,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 308,
+    "rating": 309,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6777,7 +6777,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1049,
+    "rating": 1051,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9702,7 +9702,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 661,
+    "rating": 663,
     "updated": "2023-05-05",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10442,18 +10442,18 @@
     "url": "https://github.com/smpower/taskwarrior-server"
   },
   {
-    "description": "Here are some utility scripts I wrote for myself. For the most part, it's mainly to learn about scripting in shell but also to automate some repetitive tasks.",
+    "description": "A collection utility scripts written in Clojure for some repetitive tasks managing clj and Taskwarrior.",
     "dormant": false,
     "language": [
-      "Shell"
+      "Clojure"
     ],
     "license": null,
     "name": "utility-scripts",
     "owner": [
       "somecho"
     ],
-    "rating": 0,
-    "updated": "2023-05-05",
+    "rating": 2,
+    "updated": "2023-05-06",
     "url": "https://github.com/somecho/utility-scripts"
   },
   {
@@ -11127,7 +11127,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 735,
+    "rating": 736,
     "updated": "2023-04-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
