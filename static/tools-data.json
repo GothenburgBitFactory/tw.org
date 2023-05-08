@@ -3253,7 +3253,7 @@
       "bgregos"
     ],
     "rating": 194,
-    "updated": "2023-05-02",
+    "updated": "2023-05-07",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3447,7 +3447,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 69,
+    "rating": 70,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -6777,7 +6777,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1051,
+    "rating": 1052,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8522,6 +8522,21 @@
     "url": "https://github.com/mshorty/docker-taskserver"
   },
   {
+    "description": "Web app to provide access to taskwarrior tasks",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "name": "httask",
+    "owner": [
+      "mtesauro"
+    ],
+    "rating": 0,
+    "updated": "2023-05-07",
+    "url": "https://github.com/mtesauro/httask"
+  },
+  {
     "description": "add toggl integration to taskwarrior",
     "dormant": false,
     "language": [
@@ -9703,7 +9718,7 @@
       "ralphbean"
     ],
     "rating": 663,
-    "updated": "2023-05-05",
+    "updated": "2023-05-07",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10442,7 +10457,7 @@
     "url": "https://github.com/smpower/taskwarrior-server"
   },
   {
-    "description": "A collection utility scripts written in Clojure for some repetitive tasks managing clj and Taskwarrior.",
+    "description": "A collection utility scripts written in Clojure for some repetitive personal tasks. Helper tools for Clj, Ledger and Taskwarrior.",
     "dormant": false,
     "language": [
       "Clojure"
@@ -10453,7 +10468,7 @@
       "somecho"
     ],
     "rating": 2,
-    "updated": "2023-05-06",
+    "updated": "2023-05-07",
     "url": "https://github.com/somecho/utility-scripts"
   },
   {
@@ -11533,7 +11548,7 @@
       "wrvsrx"
     ],
     "rating": 0,
-    "updated": "2023-04-21",
+    "updated": "2023-05-07",
     "url": "https://github.com/wrvsrx/taskwarrior-to-dot"
   },
   {
