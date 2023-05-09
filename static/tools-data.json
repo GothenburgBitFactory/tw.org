@@ -2697,7 +2697,7 @@
     "owner": [
       "alepeh"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2020-09-20",
     "url": "https://github.com/alepeh/taskwarrior-apple-reminders"
   },
@@ -3538,7 +3538,7 @@
       "bsiebens"
     ],
     "rating": 2,
-    "updated": "2023-05-01",
+    "updated": "2023-05-08",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -3957,7 +3957,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2020-12-15",
     "url": "https://github.com/coddingtonbear/taskwarrior-inthe.am"
   },
@@ -6777,7 +6777,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1052,
+    "rating": 1053,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8473,7 +8473,7 @@
       "mrusme"
     ],
     "rating": 45,
-    "updated": "2023-03-22",
+    "updated": "2023-05-08",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10467,8 +10467,8 @@
     "owner": [
       "somecho"
     ],
-    "rating": 2,
-    "updated": "2023-05-07",
+    "rating": 3,
+    "updated": "2023-05-08",
     "url": "https://github.com/somecho/utility-scripts"
   },
   {
