@@ -462,7 +462,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2023-04-25",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -3148,7 +3148,7 @@
       "bergercookie"
     ],
     "rating": 237,
-    "updated": "2023-04-08",
+    "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3972,7 +3972,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 271,
+    "rating": 272,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -6777,7 +6777,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1053,
+    "rating": 1054,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7992,7 +7992,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 12,
+    "rating": 11,
     "updated": "2023-04-30",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -9717,8 +9717,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 663,
-    "updated": "2023-05-07",
+    "rating": 664,
+    "updated": "2023-05-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
