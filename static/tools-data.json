@@ -582,7 +582,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 112,
+    "rating": 113,
     "updated": "2023-04-08",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2343,7 +2343,7 @@
   },
   {
     "description": "My personal hook collection for the Taskwarrior task manager hero.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3657,7 +3657,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -6777,7 +6777,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1054,
+    "rating": 1055,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7407,7 +7407,7 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2015-09-05",
     "url": "https://github.com/linuxcaffe/taskdata"
   },
@@ -7993,7 +7993,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-04-30",
+    "updated": "2023-05-11",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8473,7 +8473,7 @@
       "mrusme"
     ],
     "rating": 45,
-    "updated": "2023-05-08",
+    "updated": "2023-05-11",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9717,7 +9717,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 664,
+    "rating": 665,
     "updated": "2023-05-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -9822,7 +9822,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2023-03-25",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -10468,7 +10468,7 @@
       "somecho"
     ],
     "rating": 3,
-    "updated": "2023-05-10",
+    "updated": "2023-05-11",
     "url": "https://github.com/somecho/utility-scripts"
   },
   {
