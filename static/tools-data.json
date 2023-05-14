@@ -1272,7 +1272,7 @@
     "owner": [
       "KevCui"
     ],
-    "rating": 20,
+    "rating": 19,
     "updated": "2023-04-03",
     "url": "https://github.com/KevCui/dotfiles"
   },
@@ -1843,7 +1843,7 @@
       "Spreadcat"
     ],
     "rating": 0,
-    "updated": "2023-05-02",
+    "updated": "2023-05-12",
     "url": "https://github.com/Spreadcat/ansible-role-taskwarrior"
   },
   {
@@ -3372,7 +3372,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 499,
+    "rating": 500,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5747,6 +5747,21 @@
     "url": "https://github.com/icaoberg/taskwarrior-daily-report"
   },
   {
+    "description": "Push upcoming taskwarrior tasks to ntfy.sh subscription",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "task2ntfy",
+    "owner": [
+      "ifben"
+    ],
+    "rating": 0,
+    "updated": "2023-02-16",
+    "url": "https://github.com/ifben/task2ntfy"
+  },
+  {
     "description": "Dockerfile and helper scripts for taskserver",
     "dormant": true,
     "language": [
@@ -6777,7 +6792,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1055,
+    "rating": 1058,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8668,7 +8683,7 @@
       "nbossard"
     ],
     "rating": 0,
-    "updated": "2023-03-31",
+    "updated": "2023-05-12",
     "url": "https://github.com/nbossard/taskwarrior-hook-addannotation"
   },
   {
@@ -9072,7 +9087,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2023-05-10",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -9237,7 +9252,7 @@
     "owner": [
       "pauby"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2020-11-04",
     "url": "https://github.com/pauby/PSTodoWarrior"
   },
@@ -9747,7 +9762,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 167,
+    "rating": 168,
     "updated": "2023-01-10",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -10457,18 +10472,18 @@
     "url": "https://github.com/smpower/taskwarrior-server"
   },
   {
-    "description": "A collection utility scripts written in Clojure for some repetitive personal tasks. Helper tools for Clj, Ledger and Taskwarrior.",
+    "description": "A collection of helper scripts for Clj, Java, Ledger and Taskwarrior. Written in Clojure.",
     "dormant": false,
     "language": [
       "Clojure"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "utility-scripts",
     "owner": [
       "somecho"
     ],
-    "rating": 3,
-    "updated": "2023-05-11",
+    "rating": 4,
+    "updated": "2023-05-12",
     "url": "https://github.com/somecho/utility-scripts"
   },
   {
@@ -11142,8 +11157,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 736,
-    "updated": "2023-04-28",
+    "rating": 739,
+    "updated": "2023-05-12",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -11382,7 +11397,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 403,
+    "rating": 404,
     "updated": "2023-04-14",
     "url": "https://github.com/vit-project/vit"
   },
