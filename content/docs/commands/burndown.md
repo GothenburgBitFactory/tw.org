@@ -41,7 +41,7 @@ This simply means that tasks tend to be created earlier in the process, and comp
 This tends to create a peak number of pending tasks.
 
 With the convergence date based on a recent completion rate and count, the estimated completion date is just an estimate, and it\'s accuracy is unknown, but is related to consistency in the size of tasks, consistency in your time spent completing tasks.
-A more sophisticated approach such as [Evidence-Based Scheduling](https://www.joelonsoftware.com/items/2007/10/26) (EBS) would take into consideration estimates, actual time, and your task history.
+A more sophisticated approach such as [Evidence-Based Scheduling](https://www.joelonsoftware.com/2007/10/26/evidence-based-scheduling/) (EBS) would take into consideration estimates, actual time, and your task history.
 
 In earlier releases, the convergence algorithm tried too hard and got it wrong too often.
 Let\'s not mention that.
