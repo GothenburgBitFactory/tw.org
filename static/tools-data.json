@@ -1273,7 +1273,7 @@
       "KevCui"
     ],
     "rating": 19,
-    "updated": "2023-04-03",
+    "updated": "2023-05-15",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1888,7 +1888,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-03-28",
+    "updated": "2023-05-15",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -3538,7 +3538,7 @@
       "bsiebens"
     ],
     "rating": 2,
-    "updated": "2023-05-08",
+    "updated": "2023-05-15",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -4185,6 +4185,21 @@
     "rating": 0,
     "updated": "2023-05-01",
     "url": "https://github.com/danieleades/rustwarrior"
+  },
+  {
+    "description": "A simple taskwarrior clone that saves tasks to a .txt file",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "my-taskArchon",
+    "owner": [
+      "dataninja-python"
+    ],
+    "rating": 0,
+    "updated": "2023-05-15",
+    "url": "https://github.com/dataninja-python/my-taskArchon"
   },
   {
     "description": null,
@@ -6792,7 +6807,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1058,
+    "rating": 1060,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8008,7 +8023,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-05-14",
+    "updated": "2023-05-15",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
