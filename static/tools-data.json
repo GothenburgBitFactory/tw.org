@@ -1100,6 +1100,21 @@
     "description": null,
     "dormant": false,
     "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "Ibeenoch"
+    ],
+    "rating": 0,
+    "updated": "2023-05-17",
+    "url": "https://github.com/Ibeenoch/taskserver"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
       "JavaScript"
     ],
     "license": null,
@@ -2323,7 +2338,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-05-06",
+    "updated": "2023-05-16",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2637,7 +2652,7 @@
     "owner": [
       "albfan"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2016-08-10",
     "url": "https://github.com/albfan/taskwarriorandroid"
   },
@@ -2652,7 +2667,7 @@
     "owner": [
       "albfan"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2016-08-10",
     "url": "https://github.com/albfan/taskwarriorandroidcli"
   },
@@ -3447,7 +3462,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 70,
+    "rating": 71,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3912,7 +3927,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 565,
+    "rating": 566,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -6177,7 +6192,7 @@
     "owner": [
       "jeka1331"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-04-26",
     "url": "https://github.com/jeka1331/taskwarrior-vscode-extension"
   },
@@ -8503,7 +8518,7 @@
       "mrusme"
     ],
     "rating": 45,
-    "updated": "2023-05-11",
+    "updated": "2023-05-16",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
