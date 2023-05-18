@@ -1100,21 +1100,6 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "Ibeenoch"
-    ],
-    "rating": 0,
-    "updated": "2023-05-17",
-    "url": "https://github.com/Ibeenoch/taskserver"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
       "JavaScript"
     ],
     "license": null,
@@ -2115,21 +2100,6 @@
     "rating": 0,
     "updated": "2020-04-13",
     "url": "https://github.com/TaskOrganizer/TaskServer"
-  },
-  {
-    "description": "Local Taskwarrior Management.",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskwarrior-box",
-    "owner": [
-      "TaskWarrior-UI"
-    ],
-    "rating": 0,
-    "updated": "2022-10-29",
-    "url": "https://github.com/TaskWarrior-UI/taskwarrior-box"
   },
   {
     "description": "This is the story of how I am slowly becoming free",
@@ -4050,21 +4020,6 @@
     "rating": 0,
     "updated": "2022-11-28",
     "url": "https://github.com/codehivetx/dock-warrior"
-  },
-  {
-    "description": "Web-app for taskwarrior",
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "spartaaa",
-    "owner": [
-      "codekie"
-    ],
-    "rating": 1,
-    "updated": "2022-12-26",
-    "url": "https://github.com/codekie/spartaaa"
   },
   {
     "description": null,
@@ -10067,6 +10022,21 @@
     "url": "https://github.com/ryansb/gitwarrior"
   },
   {
+    "description": "todos web app using laravel, hopefully can support taskwarrior API",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "laravel_tw_todos",
+    "owner": [
+      "sakarimov"
+    ],
+    "rating": 0,
+    "updated": "2023-05-17",
+    "url": "https://github.com/sakarimov/laravel_tw_todos"
+  },
+  {
     "description": "A simple pomodoro tool for task warrior",
     "dormant": false,
     "language": [
@@ -10500,21 +10470,6 @@
     "rating": 1,
     "updated": "2023-03-21",
     "url": "https://github.com/smpower/taskwarrior-server"
-  },
-  {
-    "description": "A collection of helper scripts for Clj, Java, Ledger and Taskwarrior. Written in Clojure.",
-    "dormant": false,
-    "language": [
-      "Clojure"
-    ],
-    "license": "MIT License",
-    "name": "utility-scripts",
-    "owner": [
-      "somecho"
-    ],
-    "rating": 4,
-    "updated": "2023-05-12",
-    "url": "https://github.com/somecho/utility-scripts"
   },
   {
     "description": null,
@@ -11188,7 +11143,7 @@
       "tools-life"
     ],
     "rating": 739,
-    "updated": "2023-05-12",
+    "updated": "2023-05-17",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
