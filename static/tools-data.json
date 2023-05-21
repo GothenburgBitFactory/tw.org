@@ -1632,7 +1632,7 @@
     "owner": [
       "Procoder16"
     ],
-    "rating": 6,
+    "rating": 5,
     "updated": "2022-08-24",
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
@@ -3252,8 +3252,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 194,
-    "updated": "2023-05-07",
+    "rating": 195,
+    "updated": "2023-05-20",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -6482,21 +6482,6 @@
     "url": "https://github.com/jrabbit/taskd-client-go"
   },
   {
-    "description": ":hammer: :snake: A python client for taskd",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU Lesser General Public License v3.0",
-    "name": "taskd-client-py",
-    "owner": [
-      "jrabbit"
-    ],
-    "rating": 16,
-    "updated": "2022-12-08",
-    "url": "https://github.com/jrabbit/taskd-client-py"
-  },
-  {
     "description": ":hammer: :whale: docker images for taskd+debian debs+ next gnutls",
     "dormant": false,
     "language": [
@@ -6737,21 +6722,6 @@
     "url": "https://github.com/k4y4k/dotfiles"
   },
   {
-    "description": "My Linux configuration, feel free to steal or get in touch.",
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "kaiec"
-    ],
-    "rating": 3,
-    "updated": "2023-01-22",
-    "url": "https://github.com/kaiec/dotfiles"
-  },
-  {
     "description": null,
     "dormant": false,
     "language": [
@@ -6807,7 +6777,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1062,
+    "rating": 1064,
     "updated": "2023-04-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8502,7 +8472,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 45,
+    "rating": 44,
     "updated": "2023-05-16",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -9747,7 +9717,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 665,
+    "rating": 666,
     "updated": "2023-05-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10422,7 +10392,7 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2022-09-11",
     "url": "https://github.com/skbolton/neorg-taskwarrior"
   },
@@ -11187,8 +11157,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 739,
-    "updated": "2023-05-18",
+    "rating": 740,
+    "updated": "2023-05-20",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
@@ -11235,21 +11205,6 @@
     "rating": 3,
     "updated": "2023-02-23",
     "url": "https://github.com/tpeetz/pull-task"
-  },
-  {
-    "description": "A Timewarrior report script for calculating billable hours.",
-    "dormant": false,
-    "language": [
-      "Nim"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "timew-billable",
-    "owner": [
-      "trev-dev"
-    ],
-    "rating": 8,
-    "updated": "2022-12-06",
-    "url": "https://github.com/trev-dev/timew-billable"
   },
   {
     "description": "Various notifications for taskwarrior",
