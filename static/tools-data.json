@@ -3147,7 +3147,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 238,
+    "rating": 239,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3538,7 +3538,7 @@
       "bsiebens"
     ],
     "rating": 2,
-    "updated": "2023-05-15",
+    "updated": "2023-05-22",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -3748,7 +3748,7 @@
       "chess-seventh"
     ],
     "rating": 2,
-    "updated": "2023-04-06",
+    "updated": "2023-05-22",
     "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
   {
@@ -3912,7 +3912,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 567,
+    "rating": 566,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5673,7 +5673,7 @@
   },
   {
     "description": "Synchronize tasks between Clubhouse.io and TaskWarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -5683,7 +5683,7 @@
       "huntrar"
     ],
     "rating": 6,
-    "updated": "2019-06-21",
+    "updated": "2023-05-22",
     "url": "https://github.com/huntrar/clubwarrior"
   },
   {
@@ -8012,21 +8012,6 @@
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
-    "description": "Show todos from different sources in a sidebar like app",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "sidenotes",
-    "owner": [
-      "maxjoehnk"
-    ],
-    "rating": 11,
-    "updated": "2023-05-21",
-    "url": "https://github.com/maxjoehnk/sidenotes"
-  },
-  {
     "description": "Calendar tui with taskwarrior integration",
     "dormant": false,
     "language": [
@@ -9747,7 +9732,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 666,
+    "rating": 667,
     "updated": "2023-05-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
