@@ -582,7 +582,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 113,
+    "rating": 114,
     "updated": "2023-04-08",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1963,7 +1963,7 @@
       "SunGodRamen"
     ],
     "rating": 0,
-    "updated": "2023-04-09",
+    "updated": "2023-05-23",
     "url": "https://github.com/SunGodRamen/.config"
   },
   {
@@ -2323,7 +2323,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-05-16",
+    "updated": "2023-05-23",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3058,7 +3058,7 @@
       "ayosec"
     ],
     "rating": 0,
-    "updated": "2023-01-19",
+    "updated": "2023-05-23",
     "url": "https://github.com/ayosec/task-changes"
   },
   {
@@ -8012,6 +8012,21 @@
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
+    "description": "Show todos from different sources in a sidebar like app",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "sidenotes",
+    "owner": [
+      "maxjoehnk"
+    ],
+    "rating": 11,
+    "updated": "2023-05-22",
+    "url": "https://github.com/maxjoehnk/sidenotes"
+  },
+  {
     "description": "Calendar tui with taskwarrior integration",
     "dormant": false,
     "language": [
@@ -9732,7 +9747,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 667,
+    "rating": 668,
     "updated": "2023-05-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
