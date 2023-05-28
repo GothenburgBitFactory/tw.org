@@ -2882,21 +2882,6 @@
     "url": "https://github.com/apetro/task-bard"
   },
   {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "taskwarrior-tui",
-    "owner": [
-      "archlinux-packages"
-    ],
-    "rating": 0,
-    "updated": "2023-05-27",
-    "url": "https://github.com/archlinux-packages/taskwarrior-tui"
-  },
-  {
     "description": "taskwarrior blocks: attribute for inverse dependencies",
     "dormant": true,
     "language": [
@@ -3298,7 +3283,7 @@
       "bgregos"
     ],
     "rating": 195,
-    "updated": "2023-05-21",
+    "updated": "2023-05-27",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -4528,7 +4513,7 @@
       "dnaaun"
     ],
     "rating": 1,
-    "updated": "2023-04-10",
+    "updated": "2023-05-27",
     "url": "https://github.com/dnaaun/dotfiles"
   },
   {
@@ -5263,7 +5248,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2023-04-02",
+    "updated": "2023-05-27",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6393,7 +6378,7 @@
   },
   {
     "description": "Shell scripts to publish Taskwarrior to a Web site.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -6853,7 +6838,7 @@
       "kdheepak"
     ],
     "rating": 1065,
-    "updated": "2023-05-26",
+    "updated": "2023-05-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8052,7 +8037,7 @@
     "owner": [
       "matthiasbeyer"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2023-05-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
