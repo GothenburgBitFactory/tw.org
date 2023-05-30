@@ -3177,7 +3177,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 239,
+    "rating": 240,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4215,6 +4215,21 @@
     "rating": 0,
     "updated": "2023-05-01",
     "url": "https://github.com/danieleades/rustwarrior"
+  },
+  {
+    "description": "A personal task tracker heavily inspired by taskwarrior. See end notes for sources.",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "MIT License",
+    "name": "my-task-list",
+    "owner": [
+      "dataninja-python"
+    ],
+    "rating": 0,
+    "updated": "2023-05-30",
+    "url": "https://github.com/dataninja-python/my-task-list"
   },
   {
     "description": "A simple taskwarrior clone that saves tasks to a .txt file",
@@ -6838,7 +6853,7 @@
       "kdheepak"
     ],
     "rating": 1065,
-    "updated": "2023-05-27",
+    "updated": "2023-05-30",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8053,7 +8068,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-05-28",
+    "updated": "2023-05-29",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11457,7 +11472,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 407,
+    "rating": 408,
     "updated": "2023-04-14",
     "url": "https://github.com/vit-project/vit"
   },
@@ -12003,7 +12018,7 @@
   },
   {
     "description": "Another CLI for TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
