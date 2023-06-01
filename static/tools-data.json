@@ -478,7 +478,7 @@
       "CCExtractor"
     ],
     "rating": 23,
-    "updated": "2023-05-28",
+    "updated": "2023-05-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -597,7 +597,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 114,
+    "rating": 116,
     "updated": "2023-04-08",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2353,7 +2353,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-05-28",
+    "updated": "2023-05-31",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2562,7 +2562,7 @@
     "owner": [
       "adam-gaia"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-01-10",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
@@ -3283,7 +3283,7 @@
       "bgregos"
     ],
     "rating": 195,
-    "updated": "2023-05-27",
+    "updated": "2023-05-30",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -6512,6 +6512,21 @@
     "url": "https://github.com/jonsterling/Tasky"
   },
   {
+    "description": "Generates TaskWarrior command based on command line argument with desired TODO item",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TaskWarriorOpenAI",
+    "owner": [
+      "joshir3"
+    ],
+    "rating": 0,
+    "updated": "2023-05-30",
+    "url": "https://github.com/joshir3/TaskWarriorOpenAI"
+  },
+  {
     "description": "A go client for taskd",
     "dormant": false,
     "language": [
@@ -6852,7 +6867,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1065,
+    "rating": 1070,
     "updated": "2023-05-30",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7407,7 +7422,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2017-11-11",
     "url": "https://github.com/liloman/pomodoroTasks2"
   },
@@ -8053,7 +8068,7 @@
       "matthiasbeyer"
     ],
     "rating": 5,
-    "updated": "2023-05-01",
+    "updated": "2023-06-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -8068,7 +8083,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-05-29",
+    "updated": "2023-05-31",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8547,7 +8562,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2023-05-16",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -8743,7 +8758,7 @@
       "nbossard"
     ],
     "rating": 0,
-    "updated": "2023-05-12",
+    "updated": "2023-05-31",
     "url": "https://github.com/nbossard/taskwarrior-hook-addannotation"
   },
   {
@@ -9897,7 +9912,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2023-03-25",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11472,7 +11487,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 408,
+    "rating": 411,
     "updated": "2023-04-14",
     "url": "https://github.com/vit-project/vit"
   },
