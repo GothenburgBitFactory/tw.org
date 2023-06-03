@@ -2353,7 +2353,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-05-31",
+    "updated": "2023-06-01",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3282,7 +3282,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 195,
+    "rating": 196,
     "updated": "2023-05-30",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3687,7 +3687,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 48,
+    "rating": 49,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -6027,7 +6027,7 @@
     "owner": [
       "j6s"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2022-04-09",
     "url": "https://github.com/j6s/docker-taskwarrior-taskserver"
   },
@@ -6717,7 +6717,7 @@
     "owner": [
       "juanedflores"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2022-01-16",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
@@ -6867,7 +6867,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1070,
+    "rating": 1071,
     "updated": "2023-05-30",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8083,7 +8083,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-05-31",
+    "updated": "2023-06-02",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8847,7 +8847,7 @@
     "owner": [
       "nerab"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2023-03-15",
     "url": "https://github.com/nerab/twdeps"
   },
@@ -10562,7 +10562,7 @@
     "url": "https://github.com/smpower/taskwarrior-server"
   },
   {
-    "description": "A collection of helper scripts for Clj, Java, Ledger and Taskwarrior. Written in Clojure.",
+    "description": "A collection of helper scripts for Clojure, Java, Ledger and Taskwarrior. Written in Clojure.",
     "dormant": false,
     "language": [
       "Clojure"
@@ -10572,8 +10572,8 @@
     "owner": [
       "somecho"
     ],
-    "rating": 4,
-    "updated": "2023-05-12",
+    "rating": 9,
+    "updated": "2023-06-02",
     "url": "https://github.com/somecho/utility-scripts"
   },
   {
@@ -11248,7 +11248,7 @@
       "tools-life"
     ],
     "rating": 741,
-    "updated": "2023-05-20",
+    "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
