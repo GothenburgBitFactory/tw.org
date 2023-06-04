@@ -3823,7 +3823,7 @@
       "cinatic"
     ],
     "rating": 128,
-    "updated": "2022-11-02",
+    "updated": "2023-06-03",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -6868,7 +6868,7 @@
       "kdheepak"
     ],
     "rating": 1071,
-    "updated": "2023-05-30",
+    "updated": "2023-06-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8250,6 +8250,21 @@
     "rating": 0,
     "updated": "2014-08-03",
     "url": "https://github.com/mikefilonov/taskserver"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "PHP"
+    ],
+    "license": null,
+    "name": "taskwarrior",
+    "owner": [
+      "millancore"
+    ],
+    "rating": 0,
+    "updated": "2023-06-03",
+    "url": "https://github.com/millancore/taskwarrior"
   },
   {
     "description": "Taskwarrior's alarm clock",
@@ -10572,7 +10587,7 @@
     "owner": [
       "somecho"
     ],
-    "rating": 9,
+    "rating": 11,
     "updated": "2023-06-02",
     "url": "https://github.com/somecho/utility-scripts"
   },
