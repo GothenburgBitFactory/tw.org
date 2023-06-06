@@ -1303,7 +1303,7 @@
       "KevCui"
     ],
     "rating": 18,
-    "updated": "2023-05-26",
+    "updated": "2023-06-05",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -3737,6 +3737,21 @@
     "url": "https://github.com/chazu/ansible-role-taskwarrior"
   },
   {
+    "description": "Taskwarrior visualizer for important scrum rituals",
+    "dormant": false,
+    "language": [
+      "Crystal"
+    ],
+    "license": "MIT License",
+    "name": "cherryramatisdev-taskwarrior-scrum",
+    "owner": [
+      "cherryramatisdev"
+    ],
+    "rating": 0,
+    "updated": "2023-06-05",
+    "url": "https://github.com/cherryramatisdev/cherryramatisdev-taskwarrior-scrum"
+  },
+  {
     "description": "Converter for TaskCoach to Taskwarrior state",
     "dormant": true,
     "language": [
@@ -3852,7 +3867,7 @@
     "owner": [
       "claui"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2023-02-23",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
@@ -4002,7 +4017,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 272,
+    "rating": 273,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -6867,8 +6882,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1073,
-    "updated": "2023-06-03",
+    "rating": 1074,
+    "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8083,7 +8098,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-06-04",
+    "updated": "2023-06-05",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8263,7 +8278,7 @@
       "millancore"
     ],
     "rating": 0,
-    "updated": "2023-06-03",
+    "updated": "2023-06-05",
     "url": "https://github.com/millancore/taskwarrior"
   },
   {
@@ -10587,7 +10602,7 @@
     "owner": [
       "somecho"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2023-06-02",
     "url": "https://github.com/somecho/utility-scripts"
   },
