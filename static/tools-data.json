@@ -1123,7 +1123,7 @@
       "HiveMinds"
     ],
     "rating": 10,
-    "updated": "2022-03-03",
+    "updated": "2023-06-06",
     "url": "https://github.com/HiveMinds/tw-install"
   },
   {
@@ -1918,7 +1918,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-05-15",
+    "updated": "2023-06-06",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -2353,7 +2353,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-06-01",
+    "updated": "2023-06-06",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2863,7 +2863,7 @@
       "andrey-utkin"
     ],
     "rating": 28,
-    "updated": "2021-11-03",
+    "updated": "2023-06-06",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
   {
@@ -3743,13 +3743,13 @@
       "Crystal"
     ],
     "license": "MIT License",
-    "name": "cherryramatisdev-taskwarrior-scrum",
+    "name": "taskwarrior-scrum",
     "owner": [
       "cherryramatisdev"
     ],
-    "rating": 0,
-    "updated": "2023-06-05",
-    "url": "https://github.com/cherryramatisdev/cherryramatisdev-taskwarrior-scrum"
+    "rating": 1,
+    "updated": "2023-06-06",
+    "url": "https://github.com/cherryramatisdev/taskwarrior-scrum"
   },
   {
     "description": "Converter for TaskCoach to Taskwarrior state",
@@ -6882,7 +6882,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1074,
+    "rating": 1075,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8593,7 +8593,7 @@
       "mrusme"
     ],
     "rating": 45,
-    "updated": "2023-05-16",
+    "updated": "2023-06-06",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9192,7 +9192,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 61,
+    "rating": 62,
     "updated": "2023-05-10",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
