@@ -478,7 +478,7 @@
       "CCExtractor"
     ],
     "rating": 23,
-    "updated": "2023-05-30",
+    "updated": "2023-06-07",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -2353,7 +2353,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-06-06",
+    "updated": "2023-06-08",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -6882,7 +6882,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1075,
+    "rating": 1076,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8592,7 +8592,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 45,
+    "rating": 47,
     "updated": "2023-06-06",
     "url": "https://github.com/mrusme/dotfiles"
   },
