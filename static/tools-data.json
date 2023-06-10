@@ -478,7 +478,7 @@
       "CCExtractor"
     ],
     "rating": 23,
-    "updated": "2023-06-07",
+    "updated": "2023-06-09",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -597,7 +597,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 116,
+    "rating": 117,
     "updated": "2023-04-08",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2353,7 +2353,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-06-08",
+    "updated": "2023-06-09",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3748,7 +3748,7 @@
       "cherryramatisdev"
     ],
     "rating": 1,
-    "updated": "2023-06-06",
+    "updated": "2023-06-10",
     "url": "https://github.com/cherryramatisdev/taskwarrior-scrum"
   },
   {
@@ -4788,7 +4788,7 @@
   },
   {
     "description": "Utilities for Handling Taskwarrior Data",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "R"
     ],
@@ -6882,7 +6882,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1077,
+    "rating": 1079,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
