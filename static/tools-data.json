@@ -478,7 +478,7 @@
       "CCExtractor"
     ],
     "rating": 23,
-    "updated": "2023-06-09",
+    "updated": "2023-06-10",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -597,7 +597,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 117,
+    "rating": 118,
     "updated": "2023-04-08",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2442,7 +2442,7 @@
     "owner": [
       "aaschmid"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2020-02-09",
     "url": "https://github.com/aaschmid/taskwarrior-java-client"
   },
@@ -3282,7 +3282,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 196,
+    "rating": 198,
     "updated": "2023-05-30",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3477,7 +3477,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 71,
+    "rating": 70,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -6567,7 +6567,7 @@
     "owner": [
       "jrabbit"
     ],
-    "rating": 16,
+    "rating": 18,
     "updated": "2022-12-08",
     "url": "https://github.com/jrabbit/taskd-client-py"
   },
@@ -9837,7 +9837,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 668,
+    "rating": 669,
     "updated": "2023-05-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -11277,7 +11277,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 741,
+    "rating": 742,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11733,7 +11733,7 @@
   },
   {
     "description": "taskwarrior distribution with dependencies for windows",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
