@@ -2432,6 +2432,21 @@
     "url": "https://github.com/a-tal/taskserver"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "aaditya25052002"
+    ],
+    "rating": 0,
+    "updated": "2023-06-11",
+    "url": "https://github.com/aaditya25052002/taskserver"
+  },
+  {
     "description": "A Java client to communicate with a taskwarrior server (= taskd).",
     "dormant": true,
     "language": [
@@ -3402,7 +3417,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 500,
+    "rating": 501,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3568,7 +3583,7 @@
       "bsiebens"
     ],
     "rating": 2,
-    "updated": "2023-05-22",
+    "updated": "2023-06-11",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -3748,7 +3763,7 @@
       "cherryramatisdev"
     ],
     "rating": 1,
-    "updated": "2023-06-10",
+    "updated": "2023-06-11",
     "url": "https://github.com/cherryramatisdev/taskwarrior-scrum"
   },
   {
@@ -6882,7 +6897,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1079,
+    "rating": 1078,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11082,7 +11097,7 @@
     "owner": [
       "teranex"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2023-04-25",
     "url": "https://github.com/teranex/vimwiki-tasks"
   },
@@ -11277,7 +11292,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 742,
+    "rating": 743,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
