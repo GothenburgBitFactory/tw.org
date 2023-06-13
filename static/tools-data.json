@@ -3583,7 +3583,7 @@
       "bsiebens"
     ],
     "rating": 2,
-    "updated": "2023-06-11",
+    "updated": "2023-06-12",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -10458,7 +10458,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -11532,7 +11532,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 411,
+    "rating": 412,
     "updated": "2023-04-14",
     "url": "https://github.com/vit-project/vit"
   },
