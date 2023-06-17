@@ -3177,7 +3177,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-12-05",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
@@ -3852,7 +3852,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 128,
+    "rating": 129,
     "updated": "2023-06-03",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -6897,7 +6897,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1080,
+    "rating": 1081,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10437,7 +10437,7 @@
     "owner": [
       "simachri"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-08-20",
     "url": "https://github.com/simachri/taskwarrior-ms-todo"
   },
@@ -10662,7 +10662,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 69,
+    "rating": 68,
     "updated": "2022-10-10",
     "url": "https://github.com/soywod/unfog.vim"
   },
