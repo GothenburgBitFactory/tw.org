@@ -582,7 +582,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 10,
+    "rating": 9,
     "updated": "2022-11-09",
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
@@ -3297,7 +3297,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 199,
+    "rating": 200,
     "updated": "2023-05-30",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -6897,7 +6897,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1081,
+    "rating": 1085,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9042,7 +9042,7 @@
     "owner": [
       "nnist"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2021-05-27",
     "url": "https://github.com/nnist/taskschedule"
   },
