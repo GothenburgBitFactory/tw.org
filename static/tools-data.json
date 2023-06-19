@@ -477,7 +477,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2023-06-15",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -3583,7 +3583,7 @@
       "bsiebens"
     ],
     "rating": 2,
-    "updated": "2023-06-13",
+    "updated": "2023-06-18",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -4032,7 +4032,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 273,
+    "rating": 274,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4473,7 +4473,7 @@
   },
   {
     "description": "Web GUI for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "HTML"
     ],
@@ -6897,7 +6897,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1085,
+    "rating": 1086,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
