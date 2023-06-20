@@ -598,7 +598,7 @@
       "DCsunset"
     ],
     "rating": 118,
-    "updated": "2023-04-08",
+    "updated": "2023-06-20",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -2537,6 +2537,21 @@
     "url": "https://github.com/abhishektc/taskServerSideMEAN"
   },
   {
+    "description": "A taskwarrior client for mobile.",
+    "dormant": false,
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "tw",
+    "owner": [
+      "abitbetterthanyesterday"
+    ],
+    "rating": 0,
+    "updated": "2023-06-19",
+    "url": "https://github.com/abitbetterthanyesterday/tw"
+  },
+  {
     "description": "A quick and dirty script to synchronize Taskwarrior and an IMAP mailbox",
     "dormant": false,
     "language": [
@@ -3583,7 +3598,7 @@
       "bsiebens"
     ],
     "rating": 2,
-    "updated": "2023-06-18",
+    "updated": "2023-06-19",
     "url": "https://github.com/bsiebens/taskguardian"
   },
   {
@@ -6702,7 +6717,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 311,
+    "rating": 312,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7947,7 +7962,7 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 9,
+    "rating": 8,
     "updated": "2023-01-15",
     "url": "https://github.com/maralorn/kassandra"
   },
@@ -8805,6 +8820,21 @@
     "rating": 0,
     "updated": "2023-05-31",
     "url": "https://github.com/nbossard/taskwarrior-hook-addannotation"
+  },
+  {
+    "description": "Why use taskwarrior instead of another todo list",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior_pres",
+    "owner": [
+      "nbossard"
+    ],
+    "rating": 0,
+    "updated": "2023-06-19",
+    "url": "https://github.com/nbossard/taskwarrior_pres"
   },
   {
     "description": "vim plugin for taskwarrior conf files",
@@ -10650,21 +10680,6 @@
     "rating": 2,
     "updated": "2022-01-21",
     "url": "https://github.com/sorrowless/twsyncer"
-  },
-  {
-    "description": "\u23f1 Vim plugin for Unfog CLI task & time manager.",
-    "dormant": false,
-    "language": [
-      "Vim Script"
-    ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "name": "unfog.vim",
-    "owner": [
-      "soywod"
-    ],
-    "rating": 68,
-    "updated": "2022-10-10",
-    "url": "https://github.com/soywod/unfog.vim"
   },
   {
     "description": "Taskwarrior-inspired CalDAV command line tool.",
