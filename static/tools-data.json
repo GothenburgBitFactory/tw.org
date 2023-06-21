@@ -957,7 +957,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 127,
+    "rating": 128,
     "updated": "2023-05-10",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1878,7 +1878,7 @@
   },
   {
     "description": "A CLI tool to import ICS (RFC5455) event into task in TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1907,7 +1907,7 @@
     "url": "https://github.com/Stantheman/TextPuller"
   },
   {
-    "description": "hooray, here you'll find my dotfiles",
+    "description": "hooray, here you can find my dotfiles. they're cool I know",
     "dormant": false,
     "language": [
       "Vim Script"
@@ -1918,7 +1918,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-06-06",
+    "updated": "2023-06-20",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -2157,7 +2157,7 @@
     "owner": [
       "TheBeachLab"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2023-04-07",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
@@ -3313,7 +3313,7 @@
       "bgregos"
     ],
     "rating": 200,
-    "updated": "2023-05-30",
+    "updated": "2023-06-20",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3558,7 +3558,7 @@
   },
   {
     "description": "Monte carlo estimation of completion dates for evidence-based scheduling in taskwarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6912,7 +6912,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1086,
+    "rating": 1085,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10680,6 +10680,21 @@
     "rating": 2,
     "updated": "2022-01-21",
     "url": "https://github.com/sorrowless/twsyncer"
+  },
+  {
+    "description": "\u23f1 Vim plugin for Unfog CLI task & time manager.",
+    "dormant": false,
+    "language": [
+      "Vim Script"
+    ],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "name": "unfog.vim",
+    "owner": [
+      "soywod"
+    ],
+    "rating": 68,
+    "updated": "2022-10-10",
+    "url": "https://github.com/soywod/unfog.vim"
   },
   {
     "description": "Taskwarrior-inspired CalDAV command line tool.",
