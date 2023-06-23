@@ -597,7 +597,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 118,
+    "rating": 119,
     "updated": "2023-06-20",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -705,21 +705,6 @@
     "rating": 0,
     "updated": "2020-12-14",
     "url": "https://github.com/DerHabicht/twinput"
-  },
-  {
-    "description": "c++ Task service",
-    "dormant": true,
-    "language": [
-      "C++"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "DiegoViqueira"
-    ],
-    "rating": 0,
-    "updated": "2017-11-29",
-    "url": "https://github.com/DiegoViqueira/TaskServer"
   },
   {
     "description": null,
@@ -1787,6 +1772,21 @@
     "url": "https://github.com/RohanTaufique/taskServer"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "Romanovskyi2137"
+    ],
+    "rating": 0,
+    "updated": "2023-06-22",
+    "url": "https://github.com/Romanovskyi2137/taskServer"
+  },
+  {
     "description": "A small alternative to TaskWarrior with auto-reminding. ",
     "dormant": true,
     "language": [
@@ -2353,7 +2353,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-06-21",
+    "updated": "2023-06-22",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3312,8 +3312,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 200,
-    "updated": "2023-06-20",
+    "rating": 199,
+    "updated": "2023-06-23",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -4200,21 +4200,6 @@
     "rating": 0,
     "updated": "2022-03-16",
     "url": "https://github.com/csams/taskwarrior-deployment"
-  },
-  {
-    "description": "Golang server to spawn and monitor Linux processes on a remote server",
-    "dormant": true,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "cvhariharan"
-    ],
-    "rating": 0,
-    "updated": "2019-10-27",
-    "url": "https://github.com/cvhariharan/TaskServer"
   },
   {
     "description": "merely just a script showing the most urgent task and allowing it to be marked done",
@@ -6912,7 +6897,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1087,
+    "rating": 1090,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7922,21 +7907,6 @@
     "url": "https://github.com/manishrjain/taskreview"
   },
   {
-    "description": "Frontend for taskwarrior using neovim, blazing fast and isolated using NVIM_APPNAME",
-    "dormant": false,
-    "language": [
-      "Lua"
-    ],
-    "license": null,
-    "name": "taskwar.nvim",
-    "owner": [
-      "manyids2"
-    ],
-    "rating": 0,
-    "updated": "2023-04-28",
-    "url": "https://github.com/manyids2/taskwar.nvim"
-  },
-  {
     "description": "Types and aeson instances for the taskwarrior json import/export specification",
     "dormant": false,
     "language": [
@@ -8128,7 +8098,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-06-21",
+    "updated": "2023-06-22",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8880,21 +8850,6 @@
     "rating": 0,
     "updated": "2021-11-27",
     "url": "https://github.com/neingeist/task-recurring-delete"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "nenadcurcic"
-    ],
-    "rating": 0,
-    "updated": "2020-12-22",
-    "url": "https://github.com/nenadcurcic/TaskServer"
   },
   {
     "description": "Ruby bindings for TaskWarrior",
@@ -11730,21 +11685,6 @@
     "rating": 0,
     "updated": "2023-05-28",
     "url": "https://github.com/wrvsrx/taskwarrior-to-dot"
-  },
-  {
-    "description": "this is a go server",
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskServer",
-    "owner": [
-      "wushuangge"
-    ],
-    "rating": 0,
-    "updated": "2022-05-16",
-    "url": "https://github.com/wushuangge/taskServer"
   },
   {
     "description": null,
