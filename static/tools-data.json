@@ -707,6 +707,21 @@
     "url": "https://github.com/DerHabicht/twinput"
   },
   {
+    "description": "c++ Task service",
+    "dormant": true,
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "DiegoViqueira"
+    ],
+    "rating": 0,
+    "updated": "2017-11-29",
+    "url": "https://github.com/DiegoViqueira/TaskServer"
+  },
+  {
     "description": null,
     "dormant": true,
     "language": [
@@ -1710,21 +1725,6 @@
     "rating": 11,
     "updated": "2016-01-18",
     "url": "https://github.com/Rag0n/TaskBerserk"
-  },
-  {
-    "description": "A golang program to email taskwarrior tasks",
-    "dormant": true,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "taskmail",
-    "owner": [
-      "RaghavSood"
-    ],
-    "rating": 1,
-    "updated": "2018-05-26",
-    "url": "https://github.com/RaghavSood/taskmail"
   },
   {
     "description": "Just a little script to help me with Taskwarrior",
@@ -3312,7 +3312,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 199,
+    "rating": 200,
     "updated": "2023-06-23",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3387,7 +3387,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -4200,6 +4200,21 @@
     "rating": 0,
     "updated": "2022-03-16",
     "url": "https://github.com/csams/taskwarrior-deployment"
+  },
+  {
+    "description": "Golang server to spawn and monitor Linux processes on a remote server",
+    "dormant": true,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "cvhariharan"
+    ],
+    "rating": 0,
+    "updated": "2019-10-27",
+    "url": "https://github.com/cvhariharan/TaskServer"
   },
   {
     "description": "merely just a script showing the most urgent task and allowing it to be marked done",
@@ -6702,7 +6717,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 312,
+    "rating": 313,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6897,7 +6912,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1090,
+    "rating": 1091,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7907,6 +7922,21 @@
     "url": "https://github.com/manishrjain/taskreview"
   },
   {
+    "description": "Frontend for taskwarrior using neovim, blazing fast and isolated using NVIM_APPNAME",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": null,
+    "name": "taskwar.nvim",
+    "owner": [
+      "manyids2"
+    ],
+    "rating": 0,
+    "updated": "2023-04-28",
+    "url": "https://github.com/manyids2/taskwar.nvim"
+  },
+  {
     "description": "Types and aeson instances for the taskwarrior json import/export specification",
     "dormant": false,
     "language": [
@@ -8085,21 +8115,6 @@
     "rating": 5,
     "updated": "2023-06-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
-  },
-  {
-    "description": "Show todos from different sources in a sidebar like app",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "sidenotes",
-    "owner": [
-      "maxjoehnk"
-    ],
-    "rating": 11,
-    "updated": "2023-06-22",
-    "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
     "description": "Calendar tui with taskwarrior integration",
@@ -8850,6 +8865,21 @@
     "rating": 0,
     "updated": "2021-11-27",
     "url": "https://github.com/neingeist/task-recurring-delete"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "nenadcurcic"
+    ],
+    "rating": 0,
+    "updated": "2020-12-22",
+    "url": "https://github.com/nenadcurcic/TaskServer"
   },
   {
     "description": "Ruby bindings for TaskWarrior",
@@ -11187,7 +11217,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 500,
+    "rating": 501,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -11237,19 +11267,19 @@
     "url": "https://github.com/tmcw-up-for-adoption/xtw"
   },
   {
-    "description": "This hook script allows to automatically add tags to a task.",
+    "description": "Yet another taskwarrior web wrapper",
     "dormant": false,
     "language": [
       "Python"
     ],
-    "license": "MIT License",
-    "name": "taskwarrior-auto-tag-hook",
+    "license": null,
+    "name": "TaskW",
     "owner": [
-      "tom-doerr"
+      "toffan"
     ],
-    "rating": 1,
-    "updated": "2022-08-28",
-    "url": "https://github.com/tom-doerr/taskwarrior-auto-tag-hook"
+    "rating": 0,
+    "updated": "2023-04-06",
+    "url": "https://github.com/toffan/TaskW"
   },
   {
     "description": null,
@@ -11445,21 +11475,6 @@
     "rating": 0,
     "updated": "2020-08-21",
     "url": "https://github.com/v786/TaskServer"
-  },
-  {
-    "description": "OpenTaskServer is a Symfony2 bundle to manage automatically a list of tasks ",
-    "dormant": true,
-    "language": [
-      "PHP"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "TaskServerBundle",
-    "owner": [
-      "vbergae"
-    ],
-    "rating": 0,
-    "updated": "2014-01-30",
-    "url": "https://github.com/vbergae/TaskServerBundle"
   },
   {
     "description": "Apollo / Mantra / GraphQL / Taskwarrior",
@@ -11685,6 +11700,21 @@
     "rating": 0,
     "updated": "2023-05-28",
     "url": "https://github.com/wrvsrx/taskwarrior-to-dot"
+  },
+  {
+    "description": "this is a go server",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "wushuangge"
+    ],
+    "rating": 0,
+    "updated": "2022-05-16",
+    "url": "https://github.com/wushuangge/taskServer"
   },
   {
     "description": null,
