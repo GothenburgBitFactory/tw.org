@@ -478,7 +478,7 @@
       "CCExtractor"
     ],
     "rating": 23,
-    "updated": "2023-06-15",
+    "updated": "2023-06-24",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1725,6 +1725,21 @@
     "rating": 11,
     "updated": "2016-01-18",
     "url": "https://github.com/Rag0n/TaskBerserk"
+  },
+  {
+    "description": "A golang program to email taskwarrior tasks",
+    "dormant": true,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "taskmail",
+    "owner": [
+      "RaghavSood"
+    ],
+    "rating": 1,
+    "updated": "2018-05-26",
+    "url": "https://github.com/RaghavSood/taskmail"
   },
   {
     "description": "Just a little script to help me with Taskwarrior",
@@ -3867,7 +3882,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 129,
+    "rating": 130,
     "updated": "2023-06-03",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -3898,7 +3913,7 @@
       "claui"
     ],
     "rating": 8,
-    "updated": "2023-02-23",
+    "updated": "2023-06-24",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
   {
@@ -8117,6 +8132,21 @@
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
+    "description": "Show todos from different sources in a sidebar like app",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "sidenotes",
+    "owner": [
+      "maxjoehnk"
+    ],
+    "rating": 11,
+    "updated": "2023-06-24",
+    "url": "https://github.com/maxjoehnk/sidenotes"
+  },
+  {
     "description": "Calendar tui with taskwarrior integration",
     "dormant": false,
     "language": [
@@ -10232,6 +10262,21 @@
     "url": "https://github.com/sanjayankur31/task-theme"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "saurabhranjan007"
+    ],
+    "rating": 0,
+    "updated": "2023-06-24",
+    "url": "https://github.com/saurabhranjan007/TaskServer"
+  },
+  {
     "description": "A tool to parse Tandoor shopping lists to Taskwarrior todo entries",
     "dormant": false,
     "language": [
@@ -11282,6 +11327,21 @@
     "url": "https://github.com/toffan/TaskW"
   },
   {
+    "description": "This hook script allows to automatically add tags to a task.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-auto-tag-hook",
+    "owner": [
+      "tom-doerr"
+    ],
+    "rating": 1,
+    "updated": "2022-08-28",
+    "url": "https://github.com/tom-doerr/taskwarrior-auto-tag-hook"
+  },
+  {
     "description": null,
     "dormant": true,
     "language": [
@@ -11477,6 +11537,21 @@
     "url": "https://github.com/v786/TaskServer"
   },
   {
+    "description": "OpenTaskServer is a Symfony2 bundle to manage automatically a list of tasks ",
+    "dormant": true,
+    "language": [
+      "PHP"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "TaskServerBundle",
+    "owner": [
+      "vbergae"
+    ],
+    "rating": 0,
+    "updated": "2014-01-30",
+    "url": "https://github.com/vbergae/TaskServerBundle"
+  },
+  {
     "description": "Apollo / Mantra / GraphQL / Taskwarrior",
     "dormant": true,
     "language": [
@@ -11533,7 +11608,7 @@
       "vit-project"
     ],
     "rating": 414,
-    "updated": "2023-04-14",
+    "updated": "2023-06-25",
     "url": "https://github.com/vit-project/vit"
   },
   {
