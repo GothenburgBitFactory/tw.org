@@ -597,7 +597,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 119,
+    "rating": 120,
     "updated": "2023-06-20",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2368,7 +2368,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-06-22",
+    "updated": "2023-06-26",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3222,7 +3222,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 241,
+    "rating": 242,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6927,7 +6927,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1090,
+    "rating": 1092,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8143,7 +8143,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-06-25",
+    "updated": "2023-06-26",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8310,21 +8310,6 @@
     "rating": 0,
     "updated": "2014-08-03",
     "url": "https://github.com/mikefilonov/taskserver"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "PHP"
-    ],
-    "license": null,
-    "name": "taskwarrior",
-    "owner": [
-      "millancore"
-    ],
-    "rating": 0,
-    "updated": "2023-06-05",
-    "url": "https://github.com/millancore/taskwarrior"
   },
   {
     "description": "Taskwarrior's alarm clock",
@@ -9643,7 +9628,7 @@
       "pld-linux"
     ],
     "rating": 0,
-    "updated": "2023-06-25",
+    "updated": "2023-06-26",
     "url": "https://github.com/pld-linux/vit"
   },
   {
@@ -11367,7 +11352,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 744,
+    "rating": 745,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11607,8 +11592,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 414,
-    "updated": "2023-06-25",
+    "rating": 415,
+    "updated": "2023-06-26",
     "url": "https://github.com/vit-project/vit"
   },
   {
