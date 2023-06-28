@@ -3327,7 +3327,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 200,
+    "rating": 201,
     "updated": "2023-06-23",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3522,7 +3522,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 70,
+    "rating": 71,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -8143,7 +8143,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-06-26",
+    "updated": "2023-06-27",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8818,7 +8818,7 @@
       "nbossard"
     ],
     "rating": 0,
-    "updated": "2023-05-31",
+    "updated": "2023-06-27",
     "url": "https://github.com/nbossard/taskwarrior-hook-addannotation"
   },
   {
@@ -11628,7 +11628,7 @@
   },
   {
     "description": "A script to make taskwarrior tasks sequential",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
