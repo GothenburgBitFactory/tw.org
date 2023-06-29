@@ -2368,7 +2368,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-06-26",
+    "updated": "2023-06-28",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3222,7 +3222,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 242,
+    "rating": 243,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3328,7 +3328,7 @@
       "bgregos"
     ],
     "rating": 201,
-    "updated": "2023-06-23",
+    "updated": "2023-06-28",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3522,7 +3522,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 71,
+    "rating": 72,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -4002,7 +4002,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 569,
+    "rating": 570,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5427,7 +5427,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-12-09",
     "url": "https://github.com/gkssjovi/taskmd"
   },
@@ -6672,7 +6672,7 @@
     "owner": [
       "jrcharney"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-02-21",
     "url": "https://github.com/jrcharney/taskwarrior-themes"
   },
@@ -6732,7 +6732,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 312,
+    "rating": 313,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6927,7 +6927,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1092,
+    "rating": 1093,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8132,21 +8132,6 @@
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
-    "description": "Show todos from different sources in a sidebar like app",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "sidenotes",
-    "owner": [
-      "maxjoehnk"
-    ],
-    "rating": 11,
-    "updated": "2023-06-27",
-    "url": "https://github.com/maxjoehnk/sidenotes"
-  },
-  {
     "description": "Calendar tui with taskwarrior integration",
     "dormant": false,
     "language": [
@@ -9237,7 +9222,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 62,
+    "rating": 63,
     "updated": "2023-05-10",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -9882,7 +9867,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 672,
+    "rating": 673,
     "updated": "2023-05-09",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
