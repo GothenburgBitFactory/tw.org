@@ -1790,7 +1790,7 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "JavaScript"
     ],
     "license": null,
     "name": "taskServer",
@@ -1798,7 +1798,7 @@
       "Romanovskyi2137"
     ],
     "rating": 0,
-    "updated": "2023-06-22",
+    "updated": "2023-07-01",
     "url": "https://github.com/Romanovskyi2137/taskServer"
   },
   {
@@ -2172,7 +2172,7 @@
     "owner": [
       "TheBeachLab"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2023-04-07",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
@@ -2805,6 +2805,21 @@
     "rating": 0,
     "updated": "2019-05-31",
     "url": "https://github.com/alexger97/TaskServer"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "obsidian-taskwarrior",
+    "owner": [
+      "alexrios"
+    ],
+    "rating": 0,
+    "updated": "2023-07-02",
+    "url": "https://github.com/alexrios/obsidian-taskwarrior"
   },
   {
     "description": "A Chef cookbook to manage taskwarrior and friends.",
@@ -5772,7 +5787,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 60,
+    "rating": 59,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -6270,21 +6285,6 @@
     "rating": 8,
     "updated": "2015-12-13",
     "url": "https://github.com/jeaye/remind-warrior"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "TypeScript"
-    ],
-    "license": null,
-    "name": "taskwarrior-vscode-extension",
-    "owner": [
-      "jeka1331"
-    ],
-    "rating": 1,
-    "updated": "2023-04-26",
-    "url": "https://github.com/jeka1331/taskwarrior-vscode-extension"
   },
   {
     "description": null,
@@ -6927,7 +6927,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1095,
+    "rating": 1097,
     "updated": "2023-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8132,21 +8132,6 @@
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
-    "description": "Show todos from different sources in a sidebar like app",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "sidenotes",
-    "owner": [
-      "maxjoehnk"
-    ],
-    "rating": 11,
-    "updated": "2023-06-30",
-    "url": "https://github.com/maxjoehnk/sidenotes"
-  },
-  {
     "description": "Calendar tui with taskwarrior integration",
     "dormant": false,
     "language": [
@@ -8218,7 +8203,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-06-30",
+    "updated": "2023-07-02",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -11262,7 +11247,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 502,
+    "rating": 501,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -11773,7 +11758,7 @@
       "wrvsrx"
     ],
     "rating": 0,
-    "updated": "2023-05-28",
+    "updated": "2023-07-01",
     "url": "https://github.com/wrvsrx/taskwarrior-to-dot"
   },
   {
