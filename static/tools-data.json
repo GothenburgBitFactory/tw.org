@@ -597,7 +597,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 120,
+    "rating": 121,
     "updated": "2023-06-20",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -3117,7 +3117,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2015-11-23",
     "url": "https://github.com/awwaiid/tw-gmail-star-sync"
   },
@@ -3237,7 +3237,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 243,
+    "rating": 244,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5457,7 +5457,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -6290,6 +6290,21 @@
     "description": null,
     "dormant": false,
     "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "taskwarrior-vscode-extension",
+    "owner": [
+      "jeka1331"
+    ],
+    "rating": 1,
+    "updated": "2023-04-26",
+    "url": "https://github.com/jeka1331/taskwarrior-vscode-extension"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
       "Dockerfile"
     ],
     "license": null,
@@ -6927,8 +6942,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1097,
-    "updated": "2023-06-05",
+    "rating": 1099,
+    "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8127,9 +8142,24 @@
     "owner": [
       "matthiasbeyer"
     ],
-    "rating": 5,
+    "rating": 8,
     "updated": "2023-06-30",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
+  },
+  {
+    "description": "Show todos from different sources in a sidebar like app",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "sidenotes",
+    "owner": [
+      "maxjoehnk"
+    ],
+    "rating": 11,
+    "updated": "2023-06-30",
+    "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
     "description": "Calendar tui with taskwarrior integration",
@@ -11593,7 +11623,7 @@
       "vit-project"
     ],
     "rating": 415,
-    "updated": "2023-06-26",
+    "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
   {
