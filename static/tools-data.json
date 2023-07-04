@@ -587,7 +587,7 @@
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
   {
-    "description": "Responsive Web UI for Taskwarrior based on Vue.js and Koa.js",
+    "description": "Self-hosted Responsive Web UI for Taskwarrior based on Vue.js and Koa.js",
     "dormant": false,
     "language": [
       "Vue"
@@ -1445,15 +1445,15 @@
     "description": "Painless chained recurrence for Taskwarrior.",
     "dormant": false,
     "language": [
-      "Python"
+      "N/A"
     ],
-    "license": "ISC License",
+    "license": null,
     "name": "Taskwarrior-Chained",
     "owner": [
       "Matt-Deacalion"
     ],
     "rating": 4,
-    "updated": "2023-01-05",
+    "updated": "2023-07-03",
     "url": "https://github.com/Matt-Deacalion/Taskwarrior-Chained"
   },
   {
@@ -1933,7 +1933,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-06-20",
+    "updated": "2023-07-03",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -6942,7 +6942,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1099,
+    "rating": 1100,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8233,7 +8233,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-07-02",
+    "updated": "2023-07-03",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -11072,6 +11072,21 @@
     "url": "https://github.com/szaffarano/gotas"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior_subtask_hook",
+    "owner": [
+      "t-nil"
+    ],
+    "rating": 0,
+    "updated": "2023-07-03",
+    "url": "https://github.com/t-nil/taskwarrior_subtask_hook"
+  },
+  {
     "description": "Hook for task warrior that stores stop and start times in task annotations",
     "dormant": true,
     "language": [
@@ -11382,7 +11397,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 746,
+    "rating": 747,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
