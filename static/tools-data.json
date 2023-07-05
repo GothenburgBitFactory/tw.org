@@ -1453,7 +1453,7 @@
       "Matt-Deacalion"
     ],
     "rating": 4,
-    "updated": "2023-07-03",
+    "updated": "2023-07-04",
     "url": "https://github.com/Matt-Deacalion/Taskwarrior-Chained"
   },
   {
@@ -1933,7 +1933,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-07-03",
+    "updated": "2023-07-04",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -2550,6 +2550,21 @@
     "rating": 0,
     "updated": "2020-11-07",
     "url": "https://github.com/abhishektc/taskServerSideMEAN"
+  },
+  {
+    "description": "A tasklib clone built with Dart",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "name": "dart-taskwarrior",
+    "owner": [
+      "abitbetterthanyesterday"
+    ],
+    "rating": 0,
+    "updated": "2023-07-04",
+    "url": "https://github.com/abitbetterthanyesterday/dart-taskwarrior"
   },
   {
     "description": "A taskwarrior client for mobile.",
@@ -6942,7 +6957,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1100,
+    "rating": 1101,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8233,7 +8248,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-07-03",
+    "updated": "2023-07-04",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -11877,7 +11892,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2021-11-12",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
