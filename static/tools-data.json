@@ -597,7 +597,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 121,
+    "rating": 122,
     "updated": "2023-06-20",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1407,7 +1407,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 30,
+    "rating": 29,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -2368,7 +2368,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-06-28",
+    "updated": "2023-07-08",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3357,8 +3357,8 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 201,
-    "updated": "2023-06-29",
+    "rating": 202,
+    "updated": "2023-07-07",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3857,21 +3857,6 @@
     "url": "https://github.com/cherusk/tw_projector"
   },
   {
-    "description": "TaskKhalReschedulWarrior",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "TaskKhalReschedulWarrior",
-    "owner": [
-      "chess-seventh"
-    ],
-    "rating": 2,
-    "updated": "2023-05-22",
-    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
-  },
-  {
     "description": "Simple taskwarrior notifications in rust",
     "dormant": false,
     "language": [
@@ -4032,7 +4017,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 569,
+    "rating": 571,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4092,7 +4077,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 274,
+    "rating": 275,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4260,6 +4245,21 @@
     "rating": 0,
     "updated": "2019-10-27",
     "url": "https://github.com/cvhariharan/TaskServer"
+  },
+  {
+    "description": "A small collection of scripts to make a multi-user taskwarrior setup.",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "The Unlicense",
+    "name": "task-multiuser",
+    "owner": [
+      "cyberoperations-club"
+    ],
+    "rating": 1,
+    "updated": "2023-07-06",
+    "url": "https://github.com/cyberoperations-club/task-multiuser"
   },
   {
     "description": "merely just a script showing the most urgent task and allowing it to be marked done",
@@ -5112,7 +5112,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 140,
+    "rating": 141,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -6762,7 +6762,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 313,
+    "rating": 314,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6900,6 +6900,21 @@
     "rating": 3,
     "updated": "2023-01-22",
     "url": "https://github.com/kaiec/dotfiles"
+  },
+  {
+    "description": "A simple pomodoro timer that integrates with taskwarrior. Because there aren't enough of those.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "pomodoro-warrior",
+    "owner": [
+      "kanderoo"
+    ],
+    "rating": 0,
+    "updated": "2023-07-07",
+    "url": "https://github.com/kanderoo/pomodoro-warrior"
   },
   {
     "description": null,
@@ -8158,7 +8173,7 @@
       "matthiasbeyer"
     ],
     "rating": 8,
-    "updated": "2023-06-30",
+    "updated": "2023-07-07",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -8248,7 +8263,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-07-05",
+    "updated": "2023-07-07",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -11462,21 +11477,6 @@
     "url": "https://github.com/tpeetz/pull-task"
   },
   {
-    "description": "A Timewarrior report script for calculating billable hours.",
-    "dormant": false,
-    "language": [
-      "Nim"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "timew-billable",
-    "owner": [
-      "trev-dev"
-    ],
-    "rating": 8,
-    "updated": "2022-12-06",
-    "url": "https://github.com/trev-dev/timew-billable"
-  },
-  {
     "description": "Various notifications for taskwarrior",
     "dormant": true,
     "language": [
@@ -11652,7 +11652,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 416,
+    "rating": 415,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
