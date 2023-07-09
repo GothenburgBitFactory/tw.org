@@ -1337,6 +1337,21 @@
     "url": "https://github.com/KonradIT/pebble-taskwarrior"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-waybar",
+    "owner": [
+      "Krakazybik"
+    ],
+    "rating": 0,
+    "updated": "2023-07-08",
+    "url": "https://github.com/Krakazybik/taskwarrior-waybar"
+  },
+  {
     "description": "A vim plugin for doing GTD with Taskwarrior",
     "dormant": true,
     "language": [
@@ -1933,7 +1948,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-07-04",
+    "updated": "2023-07-08",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -3857,6 +3872,21 @@
     "url": "https://github.com/cherusk/tw_projector"
   },
   {
+    "description": "TaskKhalReschedulWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "TaskKhalReschedulWarrior",
+    "owner": [
+      "chess-seventh"
+    ],
+    "rating": 2,
+    "updated": "2023-05-22",
+    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
+  },
+  {
     "description": "Simple taskwarrior notifications in rust",
     "dormant": false,
     "language": [
@@ -4017,7 +4047,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 571,
+    "rating": 572,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -8263,7 +8293,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-07-07",
+    "updated": "2023-07-08",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -10422,7 +10452,7 @@
     "owner": [
       "sgaraud"
     ],
-    "rating": 51,
+    "rating": 50,
     "updated": "2021-09-08",
     "url": "https://github.com/sgaraud/gnome-extension-taskwarrior"
   },
@@ -11475,6 +11505,21 @@
     "rating": 3,
     "updated": "2023-02-23",
     "url": "https://github.com/tpeetz/pull-task"
+  },
+  {
+    "description": "A Timewarrior report script for calculating billable hours.",
+    "dormant": false,
+    "language": [
+      "Nim"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timew-billable",
+    "owner": [
+      "trev-dev"
+    ],
+    "rating": 8,
+    "updated": "2022-12-06",
+    "url": "https://github.com/trev-dev/timew-billable"
   },
   {
     "description": "Various notifications for taskwarrior",
