@@ -597,7 +597,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 122,
+    "rating": 123,
     "updated": "2023-06-20",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1340,7 +1340,7 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "TypeScript"
     ],
     "license": null,
     "name": "taskwarrior-waybar",
@@ -1348,7 +1348,7 @@
       "Krakazybik"
     ],
     "rating": 0,
-    "updated": "2023-07-08",
+    "updated": "2023-07-09",
     "url": "https://github.com/Krakazybik/taskwarrior-waybar"
   },
   {
@@ -3372,7 +3372,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 202,
+    "rating": 201,
     "updated": "2023-07-07",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3870,21 +3870,6 @@
     "rating": 1,
     "updated": "2019-04-21",
     "url": "https://github.com/cherusk/tw_projector"
-  },
-  {
-    "description": "TaskKhalReschedulWarrior",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "TaskKhalReschedulWarrior",
-    "owner": [
-      "chess-seventh"
-    ],
-    "rating": 2,
-    "updated": "2023-05-22",
-    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
   {
     "description": "Simple taskwarrior notifications in rust",
@@ -5502,7 +5487,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -7002,7 +6987,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1102,
+    "rating": 1104,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8293,7 +8278,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-07-08",
+    "updated": "2023-07-09",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -11127,7 +11112,7 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2023-04-25",
     "url": "https://github.com/szaffarano/gotas"
   },
@@ -11697,7 +11682,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 415,
+    "rating": 414,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
