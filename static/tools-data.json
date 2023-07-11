@@ -598,7 +598,7 @@
       "DCsunset"
     ],
     "rating": 123,
-    "updated": "2023-06-20",
+    "updated": "2023-07-10",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -3372,7 +3372,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 201,
+    "rating": 202,
     "updated": "2023-07-07",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3492,7 +3492,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 501,
+    "rating": 502,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3872,6 +3872,21 @@
     "url": "https://github.com/cherusk/tw_projector"
   },
   {
+    "description": "TaskKhalReschedulWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "TaskKhalReschedulWarrior",
+    "owner": [
+      "chess-seventh"
+    ],
+    "rating": 2,
+    "updated": "2023-05-22",
+    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
+  },
+  {
     "description": "Simple taskwarrior notifications in rust",
     "dormant": false,
     "language": [
@@ -4032,7 +4047,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 572,
+    "rating": 573,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4092,7 +4107,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 275,
+    "rating": 276,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -8278,7 +8293,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-07-09",
+    "updated": "2023-07-10",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9312,7 +9327,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 63,
+    "rating": 64,
     "updated": "2023-05-10",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -10137,7 +10152,7 @@
     "owner": [
       "robwhitaker"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2020-01-20",
     "url": "https://github.com/robwhitaker/hasknote"
   },
