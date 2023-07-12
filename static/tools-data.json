@@ -598,7 +598,7 @@
       "DCsunset"
     ],
     "rating": 123,
-    "updated": "2023-07-10",
+    "updated": "2023-07-11",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -3267,7 +3267,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 245,
+    "rating": 246,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3373,7 +3373,7 @@
       "bgregos"
     ],
     "rating": 202,
-    "updated": "2023-07-07",
+    "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -5142,7 +5142,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 141,
+    "rating": 142,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -7002,7 +7002,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1104,
+    "rating": 1107,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8203,7 +8203,7 @@
       "matthiasbeyer"
     ],
     "rating": 8,
-    "updated": "2023-07-07",
+    "updated": "2023-07-11",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -8293,7 +8293,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-07-10",
+    "updated": "2023-07-11",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -10078,7 +10078,7 @@
       "ribelo"
     ],
     "rating": 31,
-    "updated": "2023-03-25",
+    "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
   {
@@ -10167,7 +10167,7 @@
     "owner": [
       "robwhitaker"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2022-09-14",
     "url": "https://github.com/robwhitaker/taskwarrior-habitica-bridge"
   },
