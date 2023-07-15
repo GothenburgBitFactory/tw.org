@@ -598,7 +598,7 @@
       "DCsunset"
     ],
     "rating": 123,
-    "updated": "2023-07-11",
+    "updated": "2023-07-14",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -1813,7 +1813,7 @@
       "Romanovskyi2137"
     ],
     "rating": 0,
-    "updated": "2023-07-12",
+    "updated": "2023-07-14",
     "url": "https://github.com/Romanovskyi2137/taskServer"
   },
   {
@@ -1948,7 +1948,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-07-08",
+    "updated": "2023-07-14",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -2383,7 +2383,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-07-08",
+    "updated": "2023-07-14",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3492,7 +3492,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 502,
+    "rating": 503,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -7002,7 +7002,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1108,
+    "rating": 1110,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8293,7 +8293,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-07-11",
+    "updated": "2023-07-14",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -8712,8 +8712,8 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 47,
-    "updated": "2023-07-12",
+    "rating": 48,
+    "updated": "2023-07-14",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9973,7 +9973,7 @@
       "ralphbean"
     ],
     "rating": 674,
-    "updated": "2023-05-09",
+    "updated": "2023-07-14",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -11457,7 +11457,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 747,
+    "rating": 748,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12012,7 +12012,7 @@
     "owner": [
       "yanick"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2019-05-01",
     "url": "https://github.com/yanick/Taskwarrior-Kusarigama"
   },
