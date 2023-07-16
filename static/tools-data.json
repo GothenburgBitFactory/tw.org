@@ -1813,7 +1813,7 @@
       "Romanovskyi2137"
     ],
     "rating": 0,
-    "updated": "2023-07-14",
+    "updated": "2023-07-15",
     "url": "https://github.com/Romanovskyi2137/taskServer"
   },
   {
@@ -2703,7 +2703,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -3267,7 +3267,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 245,
+    "rating": 246,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8592,7 +8592,7 @@
     "owner": [
       "mpcjanssen"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2019-08-01",
     "url": "https://github.com/mpcjanssen/simpletask-taskwarrior"
   },
@@ -11697,7 +11697,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 414,
+    "rating": 415,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
