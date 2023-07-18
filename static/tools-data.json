@@ -512,21 +512,6 @@
     "url": "https://github.com/CarlosNihelton/todoist-taskwarrior"
   },
   {
-    "description": ":hammer: :earth_americas: A taskd implementation for the Django web framework.",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU Affero General Public License v3.0",
-    "name": "django-taskd",
-    "owner": [
-      "Colorless-Green-Ideas"
-    ],
-    "rating": 6,
-    "updated": "2022-12-07",
-    "url": "https://github.com/Colorless-Green-Ideas/django-taskd"
-  },
-  {
     "description": "Generate kanban style HTML pages from taskwarrior databases",
     "dormant": false,
     "language": [
@@ -1002,7 +987,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -1275,21 +1260,6 @@
     "rating": 0,
     "updated": "2022-03-16",
     "url": "https://github.com/JurajMarcin/docker-taskd"
-  },
-  {
-    "description": "A Python frontend to Taskwarrior with textualize.io",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "tasktual",
-    "owner": [
-      "KarstenSchulz"
-    ],
-    "rating": 0,
-    "updated": "2023-04-30",
-    "url": "https://github.com/KarstenSchulz/tasktual"
   },
   {
     "description": "\u26ab Configuration files",
@@ -1813,7 +1783,7 @@
       "Romanovskyi2137"
     ],
     "rating": 0,
-    "updated": "2023-07-15",
+    "updated": "2023-07-17",
     "url": "https://github.com/Romanovskyi2137/taskServer"
   },
   {
@@ -2383,7 +2353,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-07-14",
+    "updated": "2023-07-16",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4107,7 +4077,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 276,
+    "rating": 277,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5383,7 +5353,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2023-05-27",
+    "updated": "2023-07-17",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5712,7 +5682,7 @@
     "owner": [
       "hashref"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2022-08-10",
     "url": "https://github.com/hashref/rectasks"
   },
@@ -6853,7 +6823,7 @@
       "jubnzv"
     ],
     "rating": 25,
-    "updated": "2022-01-11",
+    "updated": "2023-07-16",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
   {
@@ -7002,7 +6972,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1110,
+    "rating": 1111,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8218,7 +8188,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-07-06",
+    "updated": "2023-07-17",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9973,7 +9943,7 @@
       "ralphbean"
     ],
     "rating": 674,
-    "updated": "2023-07-14",
+    "updated": "2023-07-17",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -11457,7 +11427,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 748,
+    "rating": 749,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
