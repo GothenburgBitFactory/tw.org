@@ -512,6 +512,21 @@
     "url": "https://github.com/CarlosNihelton/todoist-taskwarrior"
   },
   {
+    "description": ":hammer: :earth_americas: A taskd implementation for the Django web framework.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "name": "django-taskd",
+    "owner": [
+      "Colorless-Green-Ideas"
+    ],
+    "rating": 6,
+    "updated": "2022-12-07",
+    "url": "https://github.com/Colorless-Green-Ideas/django-taskd"
+  },
+  {
     "description": "Generate kanban style HTML pages from taskwarrior databases",
     "dormant": false,
     "language": [
@@ -3237,7 +3252,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 246,
+    "rating": 247,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6972,7 +6987,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1111,
+    "rating": 1112,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
