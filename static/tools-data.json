@@ -3912,7 +3912,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 130,
+    "rating": 131,
     "updated": "2023-06-03",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -3943,7 +3943,7 @@
       "claui"
     ],
     "rating": 8,
-    "updated": "2023-06-24",
+    "updated": "2023-07-19",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
   {
@@ -6317,6 +6317,21 @@
     "url": "https://github.com/jeaye/remind-warrior"
   },
   {
+    "description": "A taskwarrior inspired, crdt-based task management tool",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "tasknet",
+    "owner": [
+      "jeffa5"
+    ],
+    "rating": 0,
+    "updated": "2023-07-19",
+    "url": "https://github.com/jeffa5/tasknet"
+  },
+  {
     "description": null,
     "dormant": false,
     "language": [
@@ -6777,7 +6792,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 314,
+    "rating": 315,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -6987,7 +7002,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1112,
+    "rating": 1113,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8203,7 +8218,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-07-17",
+    "updated": "2023-07-19",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9958,7 +9973,7 @@
       "ralphbean"
     ],
     "rating": 674,
-    "updated": "2023-07-17",
+    "updated": "2023-07-19",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -11442,7 +11457,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 749,
+    "rating": 750,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
