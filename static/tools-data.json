@@ -3868,7 +3868,7 @@
       "chess-seventh"
     ],
     "rating": 2,
-    "updated": "2023-05-22",
+    "updated": "2023-07-20",
     "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
   {
@@ -6328,7 +6328,7 @@
       "jeffa5"
     ],
     "rating": 0,
-    "updated": "2023-07-19",
+    "updated": "2023-07-20",
     "url": "https://github.com/jeffa5/tasknet"
   },
   {
@@ -7002,7 +7002,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1113,
+    "rating": 1115,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8713,7 +8713,7 @@
       "mrusme"
     ],
     "rating": 48,
-    "updated": "2023-07-14",
+    "updated": "2023-07-20",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9327,7 +9327,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2023-05-10",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -11352,7 +11352,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 501,
+    "rating": 502,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
