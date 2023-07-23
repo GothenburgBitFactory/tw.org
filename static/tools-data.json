@@ -242,6 +242,21 @@
     "url": "https://github.com/AhmedHoss/TaskServer"
   },
   {
+    "description": "My taskwarrior config stuff",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskwarrior-config",
+    "owner": [
+      "AidanTilgner"
+    ],
+    "rating": 0,
+    "updated": "2023-07-22",
+    "url": "https://github.com/AidanTilgner/taskwarrior-config"
+  },
+  {
     "description": "Taskwarrior to LaTeX",
     "dormant": true,
     "language": [
@@ -478,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 23,
-    "updated": "2023-07-05",
+    "updated": "2023-07-22",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -2368,7 +2383,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-07-21",
+    "updated": "2023-07-22",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3237,7 +3252,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-12-05",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
@@ -3252,7 +3267,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 246,
+    "rating": 247,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7002,7 +7017,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1116,
+    "rating": 1117,
     "updated": "2023-07-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9972,7 +9987,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 674,
+    "rating": 675,
     "updated": "2023-07-21",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
