@@ -912,7 +912,7 @@
     "owner": [
       "ForNeVeR"
     ],
-    "rating": 3,
+    "rating": 2,
     "updated": "2016-12-31",
     "url": "https://github.com/ForNeVeR/wekan-to-taskwarrior"
   },
@@ -1948,7 +1948,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-07-21",
+    "updated": "2023-07-25",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -3372,7 +3372,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 204,
+    "rating": 205,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3883,7 +3883,7 @@
       "chess-seventh"
     ],
     "rating": 2,
-    "updated": "2023-07-20",
+    "updated": "2023-07-25",
     "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
   {
@@ -4623,7 +4623,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -7018,7 +7018,7 @@
       "kdheepak"
     ],
     "rating": 1117,
-    "updated": "2023-07-02",
+    "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8357,6 +8357,21 @@
     "url": "https://github.com/metamorph/taskwarrior-journal"
   },
   {
+    "description": "Utility for creating notes files for TaskWarrior tasks.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "tasknotes",
+    "owner": [
+      "mhayden7"
+    ],
+    "rating": 0,
+    "updated": "2023-07-21",
+    "url": "https://github.com/mhayden7/tasknotes"
+  },
+  {
     "description": "interactive shell for taskwarror",
     "dormant": true,
     "language": [
@@ -8728,7 +8743,7 @@
       "mrusme"
     ],
     "rating": 48,
-    "updated": "2023-07-21",
+    "updated": "2023-07-25",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
