@@ -2383,7 +2383,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-07-27",
+    "updated": "2023-07-29",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3372,7 +3372,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 205,
+    "rating": 206,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4107,7 +4107,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 277,
+    "rating": 276,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -6597,7 +6597,7 @@
     "owner": [
       "jonathanabennett"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2023-05-03",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
@@ -7017,7 +7017,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1118,
+    "rating": 1117,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9372,7 +9372,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 101,
+    "rating": 100,
     "updated": "2022-08-20",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -10107,7 +10107,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 31,
+    "rating": 30,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
