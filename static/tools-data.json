@@ -3267,7 +3267,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 247,
+    "rating": 249,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3447,7 +3447,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 66,
+    "rating": 67,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -5382,7 +5382,7 @@
     "owner": [
       "garybgenett"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2023-07-17",
     "url": "https://github.com/garybgenett/tasks"
   },
@@ -6587,21 +6587,6 @@
     "url": "https://github.com/jokerdino/taskwarrior-flask"
   },
   {
-    "description": "A suite of tools to guide a user through a thorough weekly review in the GTD format.",
-    "dormant": false,
-    "language": [
-      "Common Lisp"
-    ],
-    "license": "MIT License",
-    "name": "projectwarrior",
-    "owner": [
-      "jonathanabennett"
-    ],
-    "rating": 12,
-    "updated": "2023-05-03",
-    "url": "https://github.com/jonathanabennett/projectwarrior"
-  },
-  {
     "description": "wip: wunderlist & taskwarrior two-way sync in python3",
     "dormant": true,
     "language": [
@@ -7017,7 +7002,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1117,
+    "rating": 1119,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
