@@ -5383,7 +5383,7 @@
       "garybgenett"
     ],
     "rating": 17,
-    "updated": "2023-07-17",
+    "updated": "2023-07-31",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6343,7 +6343,7 @@
       "jeffa5"
     ],
     "rating": 0,
-    "updated": "2023-07-26",
+    "updated": "2023-07-31",
     "url": "https://github.com/jeffa5/tasknet"
   },
   {
@@ -6585,6 +6585,21 @@
     "rating": 1,
     "updated": "2023-04-09",
     "url": "https://github.com/jokerdino/taskwarrior-flask"
+  },
+  {
+    "description": "A suite of tools to guide a user through a thorough weekly review in the GTD format.",
+    "dormant": false,
+    "language": [
+      "Common Lisp"
+    ],
+    "license": "MIT License",
+    "name": "projectwarrior",
+    "owner": [
+      "jonathanabennett"
+    ],
+    "rating": 12,
+    "updated": "2023-05-03",
+    "url": "https://github.com/jonathanabennett/projectwarrior"
   },
   {
     "description": "wip: wunderlist & taskwarrior two-way sync in python3",
@@ -6930,6 +6945,21 @@
     "rating": 3,
     "updated": "2023-01-22",
     "url": "https://github.com/kaiec/dotfiles"
+  },
+  {
+    "description": "server to host db.json file ",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "kaizokuopamya"
+    ],
+    "rating": 0,
+    "updated": "2023-07-31",
+    "url": "https://github.com/kaizokuopamya/taskserver"
   },
   {
     "description": "A simple pomodoro timer that integrates with taskwarrior. Because there aren't enough of those.",
@@ -8038,7 +8068,7 @@
       "maralorn"
     ],
     "rating": 11,
-    "updated": "2023-03-03",
+    "updated": "2023-07-31",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -8203,7 +8233,7 @@
       "matthiasbeyer"
     ],
     "rating": 8,
-    "updated": "2023-07-11",
+    "updated": "2023-08-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -11472,7 +11502,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 751,
+    "rating": 752,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
