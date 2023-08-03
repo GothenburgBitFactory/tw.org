@@ -493,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 23,
-    "updated": "2023-07-22",
+    "updated": "2023-08-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -3447,7 +3447,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 67,
+    "rating": 68,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -4107,7 +4107,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 276,
+    "rating": 278,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5383,7 +5383,7 @@
       "garybgenett"
     ],
     "rating": 17,
-    "updated": "2023-07-31",
+    "updated": "2023-08-02",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7032,7 +7032,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1120,
+    "rating": 1123,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11173,7 +11173,7 @@
       "szaffarano"
     ],
     "rating": 7,
-    "updated": "2023-04-25",
+    "updated": "2023-08-02",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -11292,7 +11292,7 @@
     "owner": [
       "teranex"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2023-04-25",
     "url": "https://github.com/teranex/vimwiki-tasks"
   },
@@ -11458,7 +11458,7 @@
       "toffan"
     ],
     "rating": 0,
-    "updated": "2023-04-06",
+    "updated": "2023-08-02",
     "url": "https://github.com/toffan/TaskW"
   },
   {
@@ -11502,7 +11502,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 753,
+    "rating": 754,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
