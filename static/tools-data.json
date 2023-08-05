@@ -138,7 +138,7 @@
   },
   {
     "description": "Python script checks for overdue tasks that match filter and deletes old ones",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1422,7 +1422,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -3267,7 +3267,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 250,
+    "rating": 251,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3492,7 +3492,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 503,
+    "rating": 504,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -6095,7 +6095,7 @@
     "description": "Creates an HTML Kanban view from taskwarrior",
     "dormant": false,
     "language": [
-      "HTML"
+      "Jinja"
     ],
     "license": "MIT License",
     "name": "taskwarrior-kanban",
@@ -6103,7 +6103,7 @@
       "j-jith"
     ],
     "rating": 18,
-    "updated": "2023-04-20",
+    "updated": "2023-08-04",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
   {
@@ -7032,7 +7032,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1123,
+    "rating": 1125,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8327,6 +8327,21 @@
     "url": "https://github.com/me-and/asmodeus"
   },
   {
+    "description": "Task managing tool influenced by TaskWarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "mtask",
+    "owner": [
+      "medsrk"
+    ],
+    "rating": 0,
+    "updated": "2023-08-04",
+    "url": "https://github.com/medsrk/mtask"
+  },
+  {
     "description": null,
     "dormant": true,
     "language": [
@@ -8757,7 +8772,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 48,
+    "rating": 49,
     "updated": "2023-07-25",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -11502,7 +11517,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 754,
+    "rating": 756,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11742,7 +11757,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 414,
+    "rating": 413,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
@@ -11982,7 +11997,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2021-11-12",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
