@@ -3642,7 +3642,7 @@
     "owner": [
       "brutus"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2021-03-25",
     "url": "https://github.com/brutus/taskwarrior-local"
   },
@@ -3870,21 +3870,6 @@
     "rating": 1,
     "updated": "2019-04-21",
     "url": "https://github.com/cherusk/tw_projector"
-  },
-  {
-    "description": "TaskKhalReschedulWarrior",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "TaskKhalReschedulWarrior",
-    "owner": [
-      "chess-seventh"
-    ],
-    "rating": 2,
-    "updated": "2023-07-25",
-    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
   {
     "description": "Simple taskwarrior notifications in rust",
@@ -6807,7 +6792,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 315,
+    "rating": 314,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7032,7 +7017,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1125,
+    "rating": 1124,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7488,7 +7473,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -11628,7 +11613,7 @@
   },
   {
     "description": "A lightweight alpine docker image for taskwarrior server",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Makefile"
     ],
