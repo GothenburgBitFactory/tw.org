@@ -87,7 +87,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -3267,7 +3267,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 252,
+    "rating": 254,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3672,7 +3672,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 94,
+    "rating": 95,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -3927,7 +3927,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 130,
+    "rating": 132,
     "updated": "2023-06-03",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -4077,7 +4077,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2023-01-12",
     "url": "https://github.com/coddingtonbear/python-taskwarrior"
   },
@@ -4577,6 +4577,21 @@
     "url": "https://github.com/dezmondfinney/montu-sveltejs"
   },
   {
+    "description": "An opinionated web interface for taskwarrior",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "taskwarrior-web",
+    "owner": [
+      "dghaehre"
+    ],
+    "rating": 0,
+    "updated": "2023-08-07",
+    "url": "https://github.com/dghaehre/taskwarrior-web"
+  },
+  {
     "description": "Kubernetes operator for deploying an instance of the Taskwarrior server",
     "dormant": false,
     "language": [
@@ -4648,7 +4663,7 @@
       "dnaaun"
     ],
     "rating": 1,
-    "updated": "2023-07-12",
+    "updated": "2023-08-07",
     "url": "https://github.com/dnaaun/dotfiles"
   },
   {
@@ -5502,7 +5517,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -7032,7 +7047,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1128,
+    "rating": 1131,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11247,7 +11262,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -11517,7 +11532,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 757,
+    "rating": 758,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
