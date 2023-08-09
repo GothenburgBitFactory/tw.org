@@ -612,7 +612,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 123,
+    "rating": 124,
     "updated": "2023-07-14",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -3267,7 +3267,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 254,
+    "rating": 255,
     "updated": "2023-05-09",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4517,21 +4517,6 @@
     "url": "https://github.com/dennistang/toodledo-to-taskwarrior"
   },
   {
-    "description": "taskwarrior-web gem dockerized",
-    "dormant": true,
-    "language": [
-      "Dockerfile"
-    ],
-    "license": "Other",
-    "name": "docker-taskweb",
-    "owner": [
-      "derekslenk"
-    ],
-    "rating": 0,
-    "updated": "2019-11-19",
-    "url": "https://github.com/derekslenk/docker-taskweb"
-  },
-  {
     "description": "Simple & fast Taskwarrior web frontend",
     "dormant": true,
     "language": [
@@ -4545,21 +4530,6 @@
     "rating": 7,
     "updated": "2021-11-01",
     "url": "https://github.com/desbma/task-board"
-  },
-  {
-    "description": "Montu -- A Taskwarrior Manager",
-    "dormant": false,
-    "language": [
-      "Vue"
-    ],
-    "license": null,
-    "name": "Montu",
-    "owner": [
-      "dezmondfinney"
-    ],
-    "rating": 1,
-    "updated": "2023-01-04",
-    "url": "https://github.com/dezmondfinney/Montu"
   },
   {
     "description": "Web GUI for Taskwarrior",
@@ -5427,7 +5397,7 @@
     "owner": [
       "garykl"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2021-04-13",
     "url": "https://github.com/garykl/task2dot"
   },
@@ -8220,21 +8190,6 @@
     "rating": 14,
     "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
-  },
-  {
-    "description": "WIP taskwarrior -> twitch panel",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "task-streamer",
-    "owner": [
-      "mattcl"
-    ],
-    "rating": 0,
-    "updated": "2021-01-10",
-    "url": "https://github.com/mattcl/task-streamer"
   },
   {
     "description": "Rust library for writing taskwarrior hooks",
@@ -11532,7 +11487,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 758,
+    "rating": 759,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
