@@ -1532,6 +1532,21 @@
     "url": "https://github.com/Mossop/taskwarrior-api"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Mugisha88"
+    ],
+    "rating": 0,
+    "updated": "2023-08-09",
+    "url": "https://github.com/Mugisha88/TaskServer"
+  },
+  {
     "description": "Script which adds tasks to taskwarrior with a bunch of intervals (due dates)",
     "dormant": true,
     "language": [
@@ -3327,7 +3342,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2023-01-22",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
@@ -3777,7 +3792,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 50,
+    "rating": 51,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -4517,6 +4532,21 @@
     "url": "https://github.com/dennistang/toodledo-to-taskwarrior"
   },
   {
+    "description": "taskwarrior-web gem dockerized",
+    "dormant": true,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": "Other",
+    "name": "docker-taskweb",
+    "owner": [
+      "derekslenk"
+    ],
+    "rating": 0,
+    "updated": "2019-11-19",
+    "url": "https://github.com/derekslenk/docker-taskweb"
+  },
+  {
     "description": "Simple & fast Taskwarrior web frontend",
     "dormant": true,
     "language": [
@@ -4530,6 +4560,21 @@
     "rating": 7,
     "updated": "2021-11-01",
     "url": "https://github.com/desbma/task-board"
+  },
+  {
+    "description": "Montu -- A Taskwarrior Manager",
+    "dormant": false,
+    "language": [
+      "Vue"
+    ],
+    "license": null,
+    "name": "Montu",
+    "owner": [
+      "dezmondfinney"
+    ],
+    "rating": 1,
+    "updated": "2023-01-04",
+    "url": "https://github.com/dezmondfinney/Montu"
   },
   {
     "description": "Web GUI for Taskwarrior",
@@ -6792,7 +6837,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 314,
+    "rating": 315,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7017,7 +7062,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1131,
+    "rating": 1134,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7632,7 +7677,7 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-09-03",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
@@ -8192,6 +8237,21 @@
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
   {
+    "description": "WIP taskwarrior -> twitch panel",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "task-streamer",
+    "owner": [
+      "mattcl"
+    ],
+    "rating": 0,
+    "updated": "2021-01-10",
+    "url": "https://github.com/mattcl/task-streamer"
+  },
+  {
     "description": "Rust library for writing taskwarrior hooks",
     "dormant": false,
     "language": [
@@ -8368,7 +8428,7 @@
       "mhayden7"
     ],
     "rating": 0,
-    "updated": "2023-07-21",
+    "updated": "2023-08-09",
     "url": "https://github.com/mhayden7/tasknotes"
   },
   {
@@ -11727,7 +11787,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 414,
+    "rating": 415,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
@@ -12057,7 +12117,7 @@
     "owner": [
       "yanick"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2018-10-11",
     "url": "https://github.com/yanick/nvim-taskwarrior"
   },
@@ -12075,21 +12135,6 @@
     "rating": 0,
     "updated": "2023-01-24",
     "url": "https://github.com/yashgoyal97/TaskServerPipeline"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "C#"
-    ],
-    "license": null,
-    "name": "TaskServerDemo",
-    "owner": [
-      "yellow001"
-    ],
-    "rating": 0,
-    "updated": "2022-12-07",
-    "url": "https://github.com/yellow001/TaskServerDemo"
   },
   {
     "description": "multiarch docker container with taskserver/taskd",
