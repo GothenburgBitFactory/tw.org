@@ -2323,7 +2323,7 @@
       "YR-ZR0"
     ],
     "rating": 0,
-    "updated": "2023-04-04",
+    "updated": "2023-08-10",
     "url": "https://github.com/YR-ZR0/gjallarhorn"
   },
   {
@@ -2398,7 +2398,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-07-29",
+    "updated": "2023-08-10",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3282,8 +3282,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 255,
-    "updated": "2023-05-09",
+    "rating": 256,
+    "updated": "2023-08-10",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3942,7 +3942,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 132,
+    "rating": 131,
     "updated": "2023-06-03",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -6373,7 +6373,7 @@
       "jeffa5"
     ],
     "rating": 0,
-    "updated": "2023-07-31",
+    "updated": "2023-08-10",
     "url": "https://github.com/jeffa5/tasknet"
   },
   {
@@ -7062,7 +7062,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1134,
+    "rating": 1139,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10062,8 +10062,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 675,
-    "updated": "2023-07-23",
+    "rating": 676,
+    "updated": "2023-08-10",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -12135,6 +12135,21 @@
     "rating": 0,
     "updated": "2023-01-24",
     "url": "https://github.com/yashgoyal97/TaskServerPipeline"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "C#"
+    ],
+    "license": null,
+    "name": "TaskServerDemo",
+    "owner": [
+      "yellow001"
+    ],
+    "rating": 0,
+    "updated": "2022-12-07",
+    "url": "https://github.com/yellow001/TaskServerDemo"
   },
   {
     "description": "multiarch docker container with taskserver/taskd",
