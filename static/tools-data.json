@@ -3282,7 +3282,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 256,
+    "rating": 257,
     "updated": "2023-08-10",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3387,7 +3387,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 208,
+    "rating": 209,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3897,7 +3897,7 @@
     "owner": [
       "chess-seventh"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2023-07-25",
     "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
@@ -6977,21 +6977,6 @@
     "url": "https://github.com/kaiec/dotfiles"
   },
   {
-    "description": "server to host db.json file ",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "kaizokuopamya"
-    ],
-    "rating": 0,
-    "updated": "2023-07-31",
-    "url": "https://github.com/kaizokuopamya/taskserver"
-  },
-  {
     "description": "A simple pomodoro timer that integrates with taskwarrior. Because there aren't enough of those.",
     "dormant": false,
     "language": [
@@ -7062,7 +7047,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1139,
+    "rating": 1141,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9407,6 +9392,21 @@
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
   {
+    "description": "A simple plugin to connect obsidian with task warrior.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "obsidian-taskwarrior-plugin",
+    "owner": [
+      "o-hgm"
+    ],
+    "rating": 0,
+    "updated": "2023-08-11",
+    "url": "https://github.com/o-hgm/obsidian-taskwarrior-plugin"
+  },
+  {
     "description": "Taskwarrior is an Open Source Software that manages your TODO list from your command line.",
     "dormant": false,
     "language": [
@@ -10063,7 +10063,7 @@
       "ralphbean"
     ],
     "rating": 676,
-    "updated": "2023-08-10",
+    "updated": "2023-08-11",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
