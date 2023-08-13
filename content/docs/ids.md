@@ -12,7 +12,7 @@ All tasks, pending or otherwise, have a UUID, and are always addressable by UUID
 By keeping the tasks in two separate files, average performance is improved.
 This works because most of the commands and reports are based on only the pending tasks, which are in the `pending.data` file.
 This file tends to stabilize at a constant size, regardless of the amount of work you are getting done \[1\].
-The `completed.data` file, on the other hand, grows unbounded
+The `completed.data` file, on the other hand, grows unbounded.
 This means that some reports, such as the `completed` or `all` report will run slower over time because there is more data to read and display.
 
 One nice side effect of this mechanism is that the ID numbers of pending tasks remain small, and less prone to error during data entry.
@@ -21,7 +21,7 @@ One downside is that ID numbers change occasionally, although in a predictable w
 
 ## Garbage Collection
 
-When a task is marked as deleted, it gets a new status, and an `end` attribute, among other things
+When a task is marked as deleted, it gets a new status, and an `end` attribute, among other things.
 The task is written back into the `pending.data` file, but it doesn\'t belong there - it belongs in the `completed.data` file.
 There is an operation called Garbage Collection (gc) that is automatically run by taskwarrior to move tasks into the correct files.
 When moving tasks between the files, ID numbers are affected, because they are simply line numbers in the `pending.data` file.
