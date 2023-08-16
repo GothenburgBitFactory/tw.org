@@ -64,7 +64,7 @@ layout: single
 
 ## Other Projects
 - [Timewarrior Home Page](https://timewarrior.net)
-- [Clog Home Page](/docs/clog)
+- [Clog Home Page](https://gothenburgbitfactory.org/clog)
 
 ## Integrating with Taskwarrior
 - [Hooks API](/docs/hooks) {{< label >}}2.4.0{{< /label >}}
