@@ -34,7 +34,7 @@ Five good reasons to use Taskwarrior
 4. Taskwarrior is open in as many ways as it can be:
    - It is [free and open source](https://github.com/GothenburgBitFactory/taskwarrior), using the MIT license
    - It uses human-readable text files for storage.
-     It imports and exports [JSON](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/task.md), so your data is never held captive
+     It imports and exports [JSON](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/task.md), so your data is never held captive
    - There is [DOM](/docs/dom) access and a [Hook script API](/docs/hooks)
    - There are many available free and open [extension scripts](/tools)
    - There is [Vit](https://gothenburgbitfactory.org/projects/vit), a curses-based UI

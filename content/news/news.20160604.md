@@ -79,7 +79,7 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 |            | - Timewarrior: Fixed bug where the `summary` report projected open intervals into the future                                                                             |
 |            | - Timewarrior: Added mockup of `week` report                                                                                                                             |
 |            | - taskwarrior.org: Added `Windows 10` to the [download page](/download)                                                                                                  |
-|            | - taskwarrior.org: Added [plan details](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/plans.md)                                             |
+|            | - taskwarrior.org: Added [plan details](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/plans.md)                                        |
 | 2016-05-21 | - libshared: Added `Datetime` support for `12am` which was oddly missing                                                                                                 |
 |            | - Timewarrior: Supports `theme.colors.holiday`                                                                                                                           |
 |            | - Timewarrior: Added `csv.py` extension to export data in CSV format                                                                                                     |

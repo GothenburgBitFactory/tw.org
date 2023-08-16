@@ -213,7 +213,7 @@ The `modify` is different, and updates the task description instead of annotatin
 Task can be exported from Taskwarrior, using the `export` command.
 You can apply a filter to the export command to control which tasks are exported.
 
-Tasks are exported using the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/task.md).
+Tasks are exported using the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/task.md).
 
 ```
 $ task add Buy milk

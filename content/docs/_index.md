@@ -50,7 +50,7 @@ layout: single
 - [External Scripts](/tools)
 - [Escaping Command Line Characters](/docs/escapes)
 - [DOM - Document Object Model](/docs/dom)
-- [JSON Import/Export Format](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/task.md)
+- [JSON Import/Export Format](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/task.md)
 - [Deprecated Features](/docs/deprecated)
 - [Philosophy](/docs/philosophy)
 
@@ -71,7 +71,7 @@ layout: single
 - [Hooks v2 API](/docs/hooks2) {{< label >}}2.4.3{{< /label >}}
 - [Hook Author\'s Guide](/docs/hooks_guide) {{< label >}}2.4.0{{< /label >}}
 - [3rd Party Application Guidelines](/docs/3rd-party)
-- [Design Documents (RFCs)](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/docs/rfcs)
+- [Design Documents (RFCs)](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs)
 
 ## Feedback
 - [How to Report a Bug](/docs/bugs)
