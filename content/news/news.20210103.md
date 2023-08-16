@@ -11,7 +11,7 @@ The TaskWarrior team is happy to announce a new release! This bugfix-only releas
 There were no other critical issues reported specifically for the 2.5.2 release, which either means we did an exceptional job in backporting bugfixes from 2.6.0, or nobody tested the 2.5.2 release and we\'re talking to ourselves here.
 Going forward, we\'re going to [tweet more](https://twitter.com/taskwarrior). We can get hearts there.
 
-While most developments happen on the 2.6.0 branch, the 2.5.3 also proudly features refactored CI system which gave its [stamp of approval for this release](https://github.com/GothenburgBitFactory/taskwarrior/actions/runs/460332412).
+While most developments happen on the 2.6.0 branch, the 2.5.3 also proudly features refactored CI system which gave its stamp of approval for this release.
 
 This is a recommended upgrade.
 The release contains following files:
