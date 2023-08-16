@@ -64,7 +64,7 @@ A hook script can be disabled by either removing execute permission, renaming it
 
 ## Input
 
-Input to hook scripts consists of JSON-formatted objects, one per line, in the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/task.md) which is also used by the [`export` command](/docs/commands/export).
+Input to hook scripts consists of JSON-formatted objects, one per line, in the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/task.md) which is also used by the [`export` command](/docs/commands/export).
 
 ```
 $ task 1 export

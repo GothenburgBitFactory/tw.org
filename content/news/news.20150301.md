@@ -22,11 +22,11 @@ A bug in the code that executes hook scripts is fixed, which allows hook script 
 
 2015-02-07
 
-A preliminary design for supporting the notion of active contexts was agreed upon, written up and placed among the [design docs](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/index.md).
+A preliminary design for supporting the notion of active contexts was agreed upon, written up and placed among the [design docs](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/README.md).
 
 2015-02-08
 
-The document describing [future plans](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/plans.md) was updated.
+The document describing [future plans](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/plans.md) was updated.
 This document shows a high-level overview of what areas of Taskwarrior are planned for future work.
 While there is minimal detail, it does represent all the planning that exists.
 It lists the current release, the next release (short term) and future releases (long term) milestones.
@@ -53,7 +53,7 @@ Taskwarrior 2.4.1 is ready to release, pending testing by
 
 2015-02-15
 
-The [future plans](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/docs/rfcs/plans.md) document was updated to include Taskserver plans (which are currently sparse).
+The [future plans](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/plans.md) document was updated to include Taskserver plans (which are currently sparse).
 More details were added to the Taskwarrior plans.
 
 2015-02-15
