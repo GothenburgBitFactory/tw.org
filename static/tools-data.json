@@ -1303,7 +1303,7 @@
       "KevCui"
     ],
     "rating": 18,
-    "updated": "2023-08-18",
+    "updated": "2023-08-19",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1697,6 +1697,21 @@
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
   {
+    "description": "My Linux dotfiles",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "Psyhackological"
+    ],
+    "rating": 0,
+    "updated": "2023-03-22",
+    "url": "https://github.com/Psyhackological/dotfiles"
+  },
+  {
     "description": null,
     "dormant": true,
     "language": [
@@ -1903,7 +1918,7 @@
       "Spreadcat"
     ],
     "rating": 0,
-    "updated": "2023-08-17",
+    "updated": "2023-08-19",
     "url": "https://github.com/Spreadcat/ansible-role-taskwarrior"
   },
   {
@@ -2342,6 +2357,21 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
+    "description": "Personal collection of docker service files",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "docker-services",
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 0,
+    "updated": "2017-05-18",
+    "url": "https://github.com/Zebradil/docker-services"
+  },
+  {
     "description": "Dockerized taskwarrior sync server (aka taskd)",
     "dormant": false,
     "language": [
@@ -2580,6 +2610,21 @@
     "rating": 0,
     "updated": "2023-06-19",
     "url": "https://github.com/abitbetterthanyesterday/tw"
+  },
+  {
+    "description": "A quick and dirty script to synchronize Taskwarrior and an IMAP mailbox",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "ImapTW",
+    "owner": [
+      "abrochier"
+    ],
+    "rating": 0,
+    "updated": "2022-02-22",
+    "url": "https://github.com/abrochier/ImapTW"
   },
   {
     "description": "Taskwarrior Docker Container",
@@ -3342,7 +3387,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 210,
+    "rating": 211,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3792,7 +3837,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 6,
+    "rating": 14,
     "updated": "2023-08-18",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -6692,6 +6737,21 @@
     "url": "https://github.com/jrabbit/taskd-client-py"
   },
   {
+    "description": ":hammer: :whale: docker images for taskd+debian debs+ next gnutls",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "taskd-docker",
+    "owner": [
+      "jrabbit"
+    ],
+    "rating": 1,
+    "updated": "2021-05-07",
+    "url": "https://github.com/jrabbit/taskd-docker"
+  },
+  {
     "description": ":hammer: :rocket:a web api for taskwarrior's taskd user and certificate management",
     "dormant": false,
     "language": [
@@ -6900,6 +6960,36 @@
     "rating": 0,
     "updated": "2013-07-18",
     "url": "https://github.com/jvonmitchell/taskserver"
+  },
+  {
+    "description": "my dotfiles :)",
+    "dormant": false,
+    "language": [
+      "Emacs Lisp"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "k4y4k"
+    ],
+    "rating": 4,
+    "updated": "2023-04-09",
+    "url": "https://github.com/k4y4k/dotfiles"
+  },
+  {
+    "description": "My Linux configuration, feel free to steal or get in touch.",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "kaiec"
+    ],
+    "rating": 3,
+    "updated": "2023-01-22",
+    "url": "https://github.com/kaiec/dotfiles"
   },
   {
     "description": "A simple pomodoro timer that integrates with taskwarrior. Because there aren't enough of those.",
@@ -7787,6 +7877,21 @@
     "url": "https://github.com/linuxcaffe/tw-vim-color"
   },
   {
+    "description": "taskwarrior \"wizard\" script, to help users with various tw-related things",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "tw-wiz-sh",
+    "owner": [
+      "linuxcaffe"
+    ],
+    "rating": 0,
+    "updated": "2015-12-24",
+    "url": "https://github.com/linuxcaffe/tw-wiz-sh"
+  },
+  {
     "description": "A taskwarrior taskpirate hook to initiate actions on task start",
     "dormant": true,
     "language": [
@@ -8280,6 +8385,21 @@
     "rating": 0,
     "updated": "2013-05-31",
     "url": "https://github.com/megamingus/taskServerOld"
+  },
+  {
+    "description": null,
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "task_gcal_sync",
+    "owner": [
+      "mehdidc"
+    ],
+    "rating": 0,
+    "updated": "2018-05-13",
+    "url": "https://github.com/mehdidc/task_gcal_sync"
   },
   {
     "description": "Extract a journal / diary from TaskWarrior entries",
@@ -11222,6 +11342,21 @@
     "url": "https://github.com/tbabej/taskwarrior-tag_expire-hook"
   },
   {
+    "description": "An app that could act as a server, client, or gateway for pushing TaskWarrior task updates to many devices, acting as one such device, or sending the updates to be pushed.",
+    "dormant": false,
+    "language": [
+      "C"
+    ],
+    "license": null,
+    "name": "taskWarriorSyncServer",
+    "owner": [
+      "techflashYT"
+    ],
+    "rating": 0,
+    "updated": "2023-08-19",
+    "url": "https://github.com/techflashYT/taskWarriorSyncServer"
+  },
+  {
     "description": "A simply query interface for Taskwarrior",
     "dormant": true,
     "language": [
@@ -11457,7 +11592,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 758,
+    "rating": 759,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11697,7 +11832,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 417,
+    "rating": 416,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
