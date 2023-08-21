@@ -493,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 24,
-    "updated": "2023-08-14",
+    "updated": "2023-08-20",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -3387,7 +3387,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 211,
+    "rating": 212,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3837,8 +3837,8 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 14,
-    "updated": "2023-08-18",
+    "rating": 27,
+    "updated": "2023-08-20",
     "url": "https://github.com/charmbracelet/taskcli"
   },
   {
@@ -4382,21 +4382,6 @@
     "url": "https://github.com/dataninja-python/my-task-list"
   },
   {
-    "description": "A simple taskwarrior clone that saves tasks to a .txt file",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "my-taskArchon",
-    "owner": [
-      "dataninja-python"
-    ],
-    "rating": 0,
-    "updated": "2023-05-15",
-    "url": "https://github.com/dataninja-python/my-taskArchon"
-  },
-  {
     "description": null,
     "dormant": false,
     "language": [
@@ -4860,6 +4845,21 @@
     "rating": 0,
     "updated": "2022-12-30",
     "url": "https://github.com/dzintars/taskwarrior.nvim"
+  },
+  {
+    "description": "Notmuch interaction with taskwarrior in emacs",
+    "dormant": false,
+    "language": [
+      "Emacs Lisp"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "notmuch-taskwarrior",
+    "owner": [
+      "ecocode"
+    ],
+    "rating": 0,
+    "updated": "2023-08-20",
+    "url": "https://github.com/ecocode/notmuch-taskwarrior"
   },
   {
     "description": "full-screen terminal interface for Taskwarrior",
@@ -7062,7 +7062,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1146,
+    "rating": 1148,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9330,6 +9330,21 @@
     "rating": 0,
     "updated": "2015-05-14",
     "url": "https://github.com/nocejo/tsh"
+  },
+  {
+    "description": "A wrapper for Taskwarrior, featuring a fancier output and local repositories workflow.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "name": "taskwarrior-deluxe",
+    "owner": [
+      "nojhan"
+    ],
+    "rating": 0,
+    "updated": "2023-08-20",
+    "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
   {
     "description": "Taskwarrior-inspired approach to append logs",
@@ -11640,21 +11655,6 @@
     "rating": 3,
     "updated": "2023-02-23",
     "url": "https://github.com/tpeetz/pull-task"
-  },
-  {
-    "description": "A Timewarrior report script for calculating billable hours.",
-    "dormant": false,
-    "language": [
-      "Nim"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "timew-billable",
-    "owner": [
-      "trev-dev"
-    ],
-    "rating": 8,
-    "updated": "2022-12-06",
-    "url": "https://github.com/trev-dev/timew-billable"
   },
   {
     "description": "Various notifications for taskwarrior",
