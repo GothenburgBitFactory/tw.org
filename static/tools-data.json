@@ -3837,7 +3837,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 27,
+    "rating": 29,
     "updated": "2023-08-20",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -3957,7 +3957,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 131,
+    "rating": 130,
     "updated": "2023-06-03",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -4077,7 +4077,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 573,
+    "rating": 574,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4380,6 +4380,21 @@
     "rating": 0,
     "updated": "2023-05-30",
     "url": "https://github.com/dataninja-python/my-task-list"
+  },
+  {
+    "description": "A simple taskwarrior clone that saves tasks to a .txt file",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "my-taskArchon",
+    "owner": [
+      "dataninja-python"
+    ],
+    "rating": 0,
+    "updated": "2023-05-15",
+    "url": "https://github.com/dataninja-python/my-taskArchon"
   },
   {
     "description": null,
@@ -4858,7 +4873,7 @@
       "ecocode"
     ],
     "rating": 0,
-    "updated": "2023-08-20",
+    "updated": "2023-08-21",
     "url": "https://github.com/ecocode/notmuch-taskwarrior"
   },
   {
@@ -6388,7 +6403,7 @@
       "jeffa5"
     ],
     "rating": 0,
-    "updated": "2023-08-10",
+    "updated": "2023-08-21",
     "url": "https://github.com/jeffa5/tasknet"
   },
   {
@@ -7062,7 +7077,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1148,
+    "rating": 1149,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9343,7 +9358,7 @@
       "nojhan"
     ],
     "rating": 0,
-    "updated": "2023-08-20",
+    "updated": "2023-08-21",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
   {
@@ -9615,21 +9630,6 @@
     "rating": 10,
     "updated": "2020-11-04",
     "url": "https://github.com/pauby/PSTodoWarrior"
-  },
-  {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "Apache License 2.0",
-    "name": "taskserver-docker",
-    "owner": [
-      "peon-pasado-zeitnot"
-    ],
-    "rating": 0,
-    "updated": "2018-05-05",
-    "url": "https://github.com/peon-pasado-zeitnot/taskserver-docker"
   },
   {
     "description": "Time management bot (wrapper around Taskwarrior)",
@@ -11502,7 +11502,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 502,
+    "rating": 503,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -11607,7 +11607,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 759,
+    "rating": 760,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11655,6 +11655,21 @@
     "rating": 3,
     "updated": "2023-02-23",
     "url": "https://github.com/tpeetz/pull-task"
+  },
+  {
+    "description": "A Timewarrior report script for calculating billable hours.",
+    "dormant": false,
+    "language": [
+      "Nim"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timew-billable",
+    "owner": [
+      "trev-dev"
+    ],
+    "rating": 8,
+    "updated": "2022-12-06",
+    "url": "https://github.com/trev-dev/timew-billable"
   },
   {
     "description": "Various notifications for taskwarrior",
@@ -11832,7 +11847,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 416,
+    "rating": 418,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
