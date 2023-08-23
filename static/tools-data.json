@@ -2030,7 +2030,7 @@
     "description": "Dotfiles for a rapid prototyping work flow; nVim and Taskwarrior",
     "dormant": false,
     "language": [
-      "Vim Script"
+      "Shell"
     ],
     "license": null,
     "name": ".config",
@@ -2038,7 +2038,7 @@
       "SunGodRamen"
     ],
     "rating": 0,
-    "updated": "2023-05-23",
+    "updated": "2023-08-22",
     "url": "https://github.com/SunGodRamen/.config"
   },
   {
@@ -3582,7 +3582,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 72,
+    "rating": 73,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -4077,7 +4077,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 574,
+    "rating": 573,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4137,7 +4137,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 277,
+    "rating": 278,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5202,7 +5202,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 142,
+    "rating": 143,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -6657,7 +6657,7 @@
     "owner": [
       "jonathanabennett"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2023-05-03",
     "url": "https://github.com/jonathanabennett/projectwarrior"
   },
@@ -7077,7 +7077,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1149,
+    "rating": 1150,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8368,7 +8368,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-08-18",
+    "updated": "2023-08-22",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -10092,7 +10092,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 677,
+    "rating": 678,
     "updated": "2023-08-11",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10618,7 +10618,7 @@
       "shahid66"
     ],
     "rating": 0,
-    "updated": "2023-06-14",
+    "updated": "2023-08-22",
     "url": "https://github.com/shahid66/taskServer"
   },
   {
@@ -11263,7 +11263,7 @@
       "szaffarano"
     ],
     "rating": 7,
-    "updated": "2023-08-02",
+    "updated": "2023-08-22",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -11763,7 +11763,7 @@
   },
   {
     "description": "A task manager comprising of servers and tasks.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "HTML"
     ],
@@ -11847,7 +11847,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 418,
+    "rating": 419,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
