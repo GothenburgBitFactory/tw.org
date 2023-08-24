@@ -24,6 +24,8 @@ You\'ll need these libraries:
 
 Specifically the development versions, `uuid-dev` on Debian, for example.
 
+For more details, go to the [contribution](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/contrib/README.md) documentation in the taskwarrior repository.
+
 ## Cloning the Repo
 
 ```
@@ -32,22 +34,23 @@ $ git clone https://github.com/GothenburgBitFactory/taskwarrior.git taskwarrior.
 
 ## Building the Stable Version
 
-The master always represents the more recently released version, and should be your preferred choice.
+The `stable` branch always represents the more recently released version, and should be your preferred choice.
 
 ```
 $ cd taskwarrior.git
-$ git checkout master                # Master is the stable branch.
+$ git checkout stable                # 'stable' is the current branch matching the latest release.
 $ cmake -DCMAKE_BUILD_TYPE=release . # 'release' for performance.
 $ make                               # Just build it.
 ```
 
 ## Building the Dev Branch
 
-The dev branch is always the highest numbered branch, in this example, `2.6.2`.
+The `develop` branch contains the latest changes.
+Choose this branch if you want to work on the code, or if you want to try out the latest features.
 
 ```
 $ cd taskwarrior.git
-$ git checkout 2.6.2                 # Dev branch
+$ git checkout develop               # Dev branch
 $ git submodule init                 # Register submodule
 $ git submodule update               # Get the submodule
 $ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release, default: neither
