@@ -492,7 +492,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2023-08-20",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1752,7 +1752,7 @@
     "owner": [
       "Rag0n"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2016-01-18",
     "url": "https://github.com/Rag0n/TaskBerserk"
   },
@@ -3282,8 +3282,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 266,
-    "updated": "2023-08-17",
+    "rating": 267,
+    "updated": "2023-08-23",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3507,7 +3507,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 505,
+    "rating": 506,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3837,7 +3837,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2023-08-20",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -3987,7 +3987,7 @@
     "owner": [
       "claui"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2023-07-19",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
@@ -4077,7 +4077,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 573,
+    "rating": 574,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -7077,7 +7077,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1150,
+    "rating": 1153,
     "updated": "2023-07-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11607,7 +11607,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 760,
+    "rating": 761,
     "updated": "2023-06-02",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11847,7 +11847,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 419,
+    "rating": 420,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
@@ -12013,7 +12013,7 @@
       "wrvsrx"
     ],
     "rating": 0,
-    "updated": "2023-07-01",
+    "updated": "2023-08-23",
     "url": "https://github.com/wrvsrx/taskwarrior-to-dot"
   },
   {
