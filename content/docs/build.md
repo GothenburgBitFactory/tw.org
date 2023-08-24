@@ -45,7 +45,8 @@ $ make                               # Just build it.
 
 ## Building the Dev Branch
 
-The `develop` branch contains the latest changes. Choose this branch if you want to work on the code, or if you want to try out the latest features.
+The `develop` branch contains the latest changes.
+Choose this branch if you want to work on the code, or if you want to try out the latest features.
 
 ```
 $ cd taskwarrior.git
