@@ -2398,7 +2398,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-08-15",
+    "updated": "2023-08-25",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3792,7 +3792,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 51,
+    "rating": 52,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -3837,8 +3837,8 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 30,
-    "updated": "2023-08-20",
+    "rating": 33,
+    "updated": "2023-08-24",
     "url": "https://github.com/charmbracelet/taskcli"
   },
   {
@@ -6093,21 +6093,6 @@
   },
   {
     "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskServer",
-    "owner": [
-      "israelcena"
-    ],
-    "rating": 0,
-    "updated": "2022-04-20",
-    "url": "https://github.com/israelcena/taskServer"
-  },
-  {
-    "description": null,
     "dormant": true,
     "language": [
       "Python"
@@ -6867,7 +6852,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 315,
+    "rating": 316,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7078,7 +7063,7 @@
       "kdheepak"
     ],
     "rating": 1153,
-    "updated": "2023-07-25",
+    "updated": "2023-08-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8293,7 +8278,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-08-01",
+    "updated": "2023-08-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8368,7 +8353,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-08-22",
+    "updated": "2023-08-24",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -8818,7 +8803,7 @@
       "mrusme"
     ],
     "rating": 49,
-    "updated": "2023-07-25",
+    "updated": "2023-08-24",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9462,7 +9447,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 66,
+    "rating": 67,
     "updated": "2023-05-10",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -11657,21 +11642,6 @@
     "url": "https://github.com/tpeetz/pull-task"
   },
   {
-    "description": "A Timewarrior report script for calculating billable hours.",
-    "dormant": false,
-    "language": [
-      "Nim"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "timew-billable",
-    "owner": [
-      "trev-dev"
-    ],
-    "rating": 8,
-    "updated": "2022-12-06",
-    "url": "https://github.com/trev-dev/timew-billable"
-  },
-  {
     "description": "Various notifications for taskwarrior",
     "dormant": true,
     "language": [
@@ -12013,7 +11983,7 @@
       "wrvsrx"
     ],
     "rating": 0,
-    "updated": "2023-08-23",
+    "updated": "2023-08-24",
     "url": "https://github.com/wrvsrx/taskwarrior-to-dot"
   },
   {
