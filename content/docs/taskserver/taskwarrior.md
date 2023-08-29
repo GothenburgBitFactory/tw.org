@@ -51,7 +51,7 @@ $ task config taskd.credentials -- Public/First Last/cf31f287-ee9e-43a8-843e-e8b
 
 ## Trust
 
-It is possible to configure Taskwarrior\'s trust level, which determines how the server certificate is treated.
+It is possible to configure Taskwarrior's trust level, which determines how the server certificate is treated.
 
 For Taskwarrior {{< label >}}2.3.0{{< /label >}} you can specify `taskd.trust=yes` in order to skip certificate validation.
 ***This is a bad idea.***

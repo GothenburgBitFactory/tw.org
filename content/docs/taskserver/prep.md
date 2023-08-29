@@ -9,7 +9,7 @@ You need to prepare.
 
 ## Backup Your Data
 
-Let\'s reinforce a good habit and make a backup copy of your data first.
+Let's reinforce a good habit and make a backup copy of your data first.
 Here is a very easy way to back up your data:
 
 ```
@@ -25,7 +25,7 @@ All software contains bugs, so make regular backups.
 A suitable machine to run your Taskserver is one that is always available.
 If you have such a machine, or have access to a hosted machine, that is ideal.
 
-If your machine is not continuously available, it can still be a suitable Taskserver because the sync mechanism doesn\'t require continuous access.
+If your machine is not continuously available, it can still be a suitable Taskserver because the sync mechanism doesn't require continuous access.
 When a client cannot sync, it simply accumulates local, unpropagated changes until it can sync.
 
 A laptop is a poor choice for a Taskserver host.

@@ -19,7 +19,7 @@ Before building the software, you will need to satisfy the dependencies by insta
 
 Note that some OSes (Darwin, FreeBSD, ...) include `libuuid` functionality in libc.
 
-You don\'t necessarily need the latest version of all components, but it is a good idea if you can.
+You don't necessarily need the latest version of all components, but it is a good idea if you can.
 GnuTLS is a security component, and as such, it is very important that it is current.
 Using GnuTLS version 2.12.x is neither adequately secure, nor production quality.
 
@@ -33,7 +33,8 @@ $ git clone https://github.com/GothenburgBitFactory/taskserver.git taskserver.gi
 ```
 
 It is highly recommended that you build the stable version.
-This involves simply moving on to the next step, [\'Build\'](#build). Only under special circumstances should you build the unstable development version.
+This involves simply moving on to the next step, ['Build'](#build).
+Only under special circumstances should you build the unstable development version.
 
 The unstable development version is at no point guaranteed to work or even compile.
 The only time it does stabilize is right at the end of the development cycle, and in that case, you should wait until the release, so you are running a supported version.
@@ -53,8 +54,7 @@ $ git branch -a
 ```
 
 The convention we use is that `master` represents the stable release.
-The numbered branches represent the latest development (1.2.0, the \'highest\'
-branch number, ending in \'.0\') and a patch branch (1.1.1, ending in a non-zero number).
+The numbered branches represent the latest development (1.2.0, the 'highest' branch number, ending in '.0') and a patch branch (1.1.1, ending in a non-zero number).
 
 Patch branches are reserved for emergency releases, so in this example you would choose to build 1.2.0 as the latest development branch like this:
 

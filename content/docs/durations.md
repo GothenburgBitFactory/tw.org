@@ -10,7 +10,7 @@ For example, here is a recurring task that recurs every monday:
 
     $ task add Take out the trash due:monday recur:weekly
 
-The value `monday` is interpreted as \'next monday\', and the value `weekly` is interpreted as a 7-day duration.
+The value `monday` is interpreted as 'next monday', and the value `weekly` is interpreted as a 7-day duration.
 
 The other place where durations are supported directly is with [UDA attributes](/docs/udas) of type `duration`.
 
@@ -150,10 +150,10 @@ The format looks like this:
 
     P[nY][nM][nD][T[nH][nM][nS]]
 
-The format always begins with a \'P\' (period).
+The format always begins with a 'P' (period).
 The date elements (`[nY][nM][nD]`) are optional, as are the time elements (`[nH][nM][nS]`), but there must be one element specified.
 
-Even though the month and minute values use the character \'M\', there is no ambiguity because of the placement of the character \'T\' which delineates date from time elements.
+Even though the month and minute values use the character 'M', there is no ambiguity because of the placement of the character 'T' which delineates date from time elements.
 
 Here is a list of examples:
 

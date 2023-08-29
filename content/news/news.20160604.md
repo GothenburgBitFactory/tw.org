@@ -27,7 +27,7 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 |------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2016-05-01 | - Task: Deprecated the `new-uuid` verbosity token                                                                                                                        |
 |            | - Timewarrior: Added the `+` indicator on charts, for open intervals                                                                                                     |
-|            | - Timewarrior: Charts stop rendering at \'now\' instead of EOD                                                                                                           |
+|            | - Timewarrior: Charts stop rendering at 'now' instead of EOD                                                                                                             |
 | 2016-05-02 | - Timewarrior: Added support for the `:lastweek` hint                                                                                                                    |
 |            | - Timewarrior: Corrected the `:day` hint                                                                                                                                 |
 |            | - Timewarrior: Finalized the API document                                                                                                                                |
@@ -42,7 +42,7 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 | 2016-05-06 | - Timewarrior: Added `show` command, for consistency with Taskwarrior, and soon Taskserver                                                                               |
 |            | - Timewarrior: The command `timew config` with no arguments, delegates to the `show` command                                                                             |
 | 2016-05-08 | - Task: Fixed the `countdown` format that was only showing dates in the past                                                                                             |
-| 2016-05-09 | - Timewarrior: Added `Range::encloses` to detect exclusions like \'lunch\'                                                                                               |
+| 2016-05-09 | - Timewarrior: Added `Range::encloses` to detect exclusions like 'lunch'                                                                                                 |
 | 2016-05-10 | - Timewarrior: Fixed bug where all command line arguments were tokenized, leading to extra spaces - a familiar Taskwarrior bug                                           |
 | 2016-05-11 | - Timewarrior: Exclusions now properly anchor `<` and `>` at midnight                                                                                                    |
 | 2016-05-12 | - Timewarrior: Added `Range::is_open` which simplifies a lot of code                                                                                                     |
@@ -55,7 +55,7 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 |            | - Timewarrior: When recorded time exceeds available time, do not report negative remaining time                                                                          |
 |            | - Timewarrior: Default command now summarizes all contiguous open intervals                                                                                              |
 |            | - Timewarrior: In preparation for an `undo` command, now records all data-changing transactions in an `undo.data` file                                                   |
-|            | - Timewarrior: Fixed bug where total available time on a report didn\'t add up                                                                                           |
+|            | - Timewarrior: Fixed bug where total available time on a report didn't add up                                                                                            |
 |            | - Timewarrior: Now uses precision hour formatting                                                                                                                        |
 |            | - Timewarrior: Added range asserts for debugging                                                                                                                         |
 | 2016-05-16 | - Guides: [Taskserver Troubleshooting PDF](https://github.com/GothenburgBitFactory/guides/blob/master/taskserver-troubleshooting/taskserver-troubleshooting.pdf) updated |
@@ -65,7 +65,7 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 | 2016-05-17 | - Timewarrior: Added proper argument scanning, instead of simply counting arguments, for identifying the default command                                                 |
 | 2016-05-18 |                                                                                                                                                                          |
 |            | - libshared: `Datetime` was oddly missing accessors for days, hours, minutes, seconds                                                                                    |
-|            | - libshared: `Duration` wasn\'t consistent with `Datetime`                                                                                                               |
+|            | - libshared: `Duration` wasn't consistent with `Datetime`                                                                                                                |
 |            | - Timewarrior: Added a `refresh` script to update holiday files                                                                                                          |
 |            | - Timewarrior: Documented how to update holiday files                                                                                                                    |
 | 2016-05-19 | - Timewarrior: Added `week` report                                                                                                                                       |
@@ -107,7 +107,7 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 |            | - Timewarrior: In `:debug` mode shows runtime data                                                                                                                       |
 |            | - taskwarrior.org: Update the [Tools](/tools) page data, after filtering updated were pulled                                                                             |
 | 2016-05-29 | - Timewarrior: All reports now support the `:blank` hint                                                                                                                 |
-|            | - Timewarrior: Supports `reports.<type>.hours = all                                                                                                                      |auto` setting to control the x-axis
+|            | - Timewarrior: Supports `reports.<type>.hours = all\|auto` setting to control the x-axis                                                                                 |
 |            | - Timewarrior: All reports now have default settings for displaying various elements                                                                                     |
 |            | - Timewarrior: Supports `rc.<name>=<value>` command line overrides, like Taskwarrior                                                                                     |
 |            | - taskwarrior.org: Added 301 redirects to list of common 404s                                                                                                            |
@@ -120,7 +120,7 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 |            | `Started 2016-05-30T18:29:43 Current            17:04:02`                                                                                                                |
 |            | - Timewarrior: Added the `:ids` hint                                                                                                                                     |
 |            | - Timewarrior: The `summary` report supports `:ids`                                                                                                                      |
-|            | - Timewarrior: Supports `reports.<type>.holidays = yes\                                                                                                                  |no` to optionally display relevant holidays                                                                      |
+|            | - Timewarrior: Supports `reports.<type>.holidays = yes\|no` to optionally display relevant holidays                                                                      |                                                                      |
 |            | - Timewarrior: When showing holidays, adds the country code, for those who use multiple holiday files                                                                    |
 |            | - Timewarrior: Fixed tests that use relative times, and are therefore behave differently when run at different times of the day                                          |
 |            | - Timewarrior: Fixed a bug where range subtraction auto-closed the result ranges                                                                                         |

@@ -20,7 +20,7 @@ It shows all the supported commands and options at a glance.
 
 Take a look at the [FAQ](/support/faq) - you may find your question has already been asked and answered.
 
-## IRC \#taskwarrior on libera.chat
+## IRC #taskwarrior on libera.chat
 
 You can join the Taskwarrior IRC channel to pose questions, or join in the discussion.
 

@@ -21,7 +21,7 @@ The JSON is formatted according to the [Taskwarrior JSON Format](https://github.
 
 ## Configuration
 
-There is a configuration setting `json.array` which defaults to \'off\', but when set to \'on\' generates a single JSON array, rather than a set of individual JSON objects.
+There is a configuration setting `json.array` which defaults to 'off', but when set to 'on' generates a single JSON array, rather than a set of individual JSON objects.
 In the example below you see a set of JSON objects (`{...}`), one per line:
 
 ```
@@ -30,7 +30,7 @@ $ task 1-2 export rc.json.array=off
 {"id":2,"description":"Buy potatoes" ...}
 ```
 
-Setting `json.array` to \'on\', a similar structure is emitted but the task objects are presented in a list, one per line:
+Setting `json.array` to 'on', a similar structure is emitted but the task objects are presented in a list, one per line:
 
 ```
 $ task 1-2 export rc.json.array=on

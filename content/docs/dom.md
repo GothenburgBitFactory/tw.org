@@ -20,7 +20,7 @@ Taskwarrior allows the same kind of data access in a similar form, for example:
 
 This references the description text of task 1.
 There is a [`_get` helper command](/docs/commands/_get) that queries data using a DOM reference.
-Let\'s see it in action, by first creating a detailed task.
+Let's see it in action, by first creating a detailed task.
 
 ```
 $ task add Buy milk due:tomorrow +store project:Home pri:H
@@ -104,7 +104,7 @@ Note that no task ID or UUID is specified, so this variant is only useful on the
 $ task add Pay rent due:eom wait:'due - 3days'
 ```
 
-Note that \'due\' is a DOM reference from earlier on the command line.
+Note that 'due' is a DOM reference from earlier on the command line.
 
 ### `<id>.<attribute>`
 
@@ -115,7 +115,8 @@ For example:
 $ task add Fix the leak depends:3 scheduled:3.due
 ```
 
-This makes the new task dependent on task 3, and scheduled on the due date of task 3. Note that \'3.due\' is a DOM reference of a specific task.
+This makes the new task dependent on task 3, and scheduled on the due date of task 3.
+Note that '3.due' is a DOM reference of a specific task.
 
 ### `<uuid>.<attribute>`
 

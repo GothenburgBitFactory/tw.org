@@ -2,7 +2,7 @@
 title: "Taskwarrior - Hook Author's Guide"
 ---
 
-# Hook Author\'s Guide
+# Hook Author's Guide
 
 This guide walks through the process of writing and testing a Taskwarrior hook script.
 While this is a simple and straightforward process for developers, there are still many considerations.
@@ -10,7 +10,7 @@ A hooks script will be developed, and the various concerns discussed.
 
 ## Example Hook Script
 
-As an example, we\'re going to create a hook script that detects tasks that refer to Taskwarrior bug numbers (ie \'TW-179\') in the description, and replaces the bug number with a URL that links to the bug.
+As an example, we're going to create a hook script that detects tasks that refer to Taskwarrior bug numbers (ie 'TW-179') in the description, and replaces the bug number with a URL that links to the bug.
 Whenever the pattern `tw-179` is found in a task description, it should change to `https://github.com/GothenburgBitFactory/taskwarrior/issues/179`.
 
 This script will simply need to search for a pattern, and perform a replacement, for new tasks only.
@@ -29,7 +29,7 @@ But there is more to consider:
   Are you going to be requiring that the user install additional software?
 - If you are considering a compiled language, will you ship source or binaries?
   Developers typically have compilers installed, but regular users do not.
-  Shipping binaries means you\'ll need to provide them for different OSes and versions.
+  Shipping binaries means you'll need to provide them for different OSes and versions.
 
 This example will be written in Python 2.6+, because Python is well known, modern, and commonly available.
 It has a built-in JSON parser.
@@ -70,7 +70,7 @@ Although this script does nothing to the task, it only requires a few more lines
 
 You can test your hook script independently from Taskwarrior, which is a good idea.
 First we make our script executable, then we simply run it from the command line and feed it sample JSON.
-Here is an example test run, using valid JSON, but it is not a valid task - it\'s just a test.
+Here is an example test run, using valid JSON, but it is not a valid task - it's just a test.
 
 ```
 $ chmod +x hook.py
@@ -146,7 +146,7 @@ $ cp hook.py ~/.task/hooks/on-add-bug-link.py
 $ chmod +x ~/.task/hooks/on-add-bug-link.py
 ```
 
-There is a configuration setting that enables/disables hooks and you\'ll need to make sure hooks are enabled, although this is the default value:
+There is a configuration setting that enables/disables hooks and you'll need to make sure hooks are enabled, although this is the default value:
 
 ```
 $ task _get rc.hooks
@@ -165,7 +165,7 @@ Hooks
 ```
 
 We see that the hook script is found by Taskwarrior.
-Now let\'s see it in action, and note that the `--` terminator is being used so that `tw-179` is not perceived as a mathematical expression:
+Now let's see it in action, and note that the `--` terminator is being used so that `tw-179` is not perceived as a mathematical expression:
 
 ```
 $ task add -- Contains no bug number
@@ -217,6 +217,6 @@ In this example all hook processing was completed in 33ms.
 ## Distribute
 
 With your hook script complete, will you be sharing your script?
-It\'s optional of course, but if you do, consider a license and copyright, establish a web presence so it can be found and downloaded, perhaps put contact info in the script so you can be told of problems, then tell people about it.
+It's optional of course, but if you do, consider a license and copyright, establish a web presence so it can be found and downloaded, perhaps put contact info in the script so you can be told of problems, then tell people about it.
 
-You can tell us about your hook script, because we\'d like to list it on the [Tools](/tools) page, along with many others.
+You can tell us about your hook script, because we'd like to list it on the [Tools](/tools) page, along with many others.

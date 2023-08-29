@@ -23,4 +23,4 @@ Please bear in mind that [GnuTLS](https://gnutls.org) is a security product, and
 Please upgrade GnuTLS before building Taskwarrior and Taskserver.
 
 The release is immediately available as a source [tarball](/download).
-Binary packages will soon be available via your Operating System\'s package manager.
+Binary packages will soon be available via your Operating System's package manager.

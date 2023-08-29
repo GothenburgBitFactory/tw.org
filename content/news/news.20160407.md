@@ -3,9 +3,10 @@ title: "Taskwarrior running under \"Bash on Ubuntu on Windows\""
 date: 2016-04-07
 ---
 
-### Taskwarrior running under \"Bash on Ubuntu on Windows\" 
+### Taskwarrior running under "Bash on Ubuntu on Windows" 
 
-Today we could verify that Taskwarrior works out of the box under \"Bash on Ubuntu on Windows 10\". Either by installing it via apt-get (which pulls the regular Ubuntu package) or by compiling it.
+Today we could verify that Taskwarrior works out of the box under "Bash on Ubuntu on Windows 10".
+Either by installing it via apt-get (which pulls the regular Ubuntu package) or by compiling it.
 No changes needed to the source code.
 You compile it as you would do it on native Ubuntu.
 A few tests were failing.

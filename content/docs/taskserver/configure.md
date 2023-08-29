@@ -19,7 +19,7 @@ $ mkdir -p $TASKDDATA
 If the `TASKDDATA` variable is not set, then most `taskd` commands require the `--data ...` argument, otherwise the commands rely on the `TASKDDATA` value to indicate the location.
 Everything the server does will be confined to that directory.
 
-Note that there are two \'D\'s in `TASKDDATA`, and omitting one is a common mistake to make.
+Note that there are two 'D's in `TASKDDATA`, and omitting one is a common mistake to make.
 
 Note that there must be write permission in the directory for the user that will run the server.
 
@@ -51,7 +51,7 @@ CN=localhost
 ```
 
 You will need to modify this value to match your server.
-It is this value against which Taskwarrior validates the server name, so use a value similar to `foo.example.com`, but of course don\'t expect that to work for you.
+It is this value against which Taskwarrior validates the server name, so use a value similar to `foo.example.com`, but of course don't expect that to work for you.
 If you do not change this value, the only option for the client is to skip some or all certificate validation, ***which is a bad idea.***
 
 Go to your `taskd` directory, which depends on which installation method you chose.

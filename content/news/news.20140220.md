@@ -12,7 +12,7 @@ Download here: ~~vit-1.2.beta1.tar.gz~~.
 VIT 1.2 brings a customizable way to interact with your tasks with user-defined shortcuts.
 You can now define keys to launch external commands with the currently selected task as input.
 Keybinds can now be specified in `~/.vitrc`.
-For example, to use the external script [tasknote](https://github.com/mikebobroski/tasknote) when you press \"ctrl + n\", you can do:
+For example, to use the external script [tasknote](https://github.com/mikebobroski/tasknote) when you press "ctrl + n", you can do:
 
 ```
 map \cn=:!wr tasknote %TASKID<Return>
@@ -29,7 +29,7 @@ Key changes:
 
 - `gg` moves to the top of the task list
 - `D` now deletes a task when not over an annotation
-- `s` runs `task sync` (task \> 2.30 required)
+- `s` runs `task sync` (task > 2.30 required)
 - `!:` runs a command in the shell (and replaces %TASKID with the selected task ID)
 - `c` is renamed to `m` (for *modify* so more consistent with Taskwarrior)
 - `P [hmln]` now sets priority

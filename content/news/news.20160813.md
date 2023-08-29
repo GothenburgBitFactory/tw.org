@@ -42,7 +42,7 @@ There will be Taskwarrior Stickers and a Cheat Sheet for Taskwarrior available.
 Any support will be highly appreciated.
 The workshops are focused on answering your questions and getting things up and running.
 We would like to invite all people to come and have a chat, or even better support others with their problems.
-Anyone attending and offering support should contact [Dirk](mailto:dirk@deimeke.net) by Monday, to receive a badge for the Event (free lunch, but don\'t tell).
+Anyone attending and offering support should contact [Dirk](mailto:dirk@deimeke.net) by Monday, to receive a badge for the Event (free lunch, but don't tell).
 
 We see this as community event for all Taskwarriors, and Taskwarriors to be.
 

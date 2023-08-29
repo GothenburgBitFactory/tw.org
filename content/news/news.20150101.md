@@ -5,7 +5,7 @@ date: 2015-01-01
 
 ### Taskwarrior 2.4.0 Released 
 
-Taskwarrior 2.4.0 is released, it\'s a major release, and a recommended upgrade.
+Taskwarrior 2.4.0 is released, it's a major release, and a recommended upgrade.
 Happy new year.
 
 After almost a year of development, 108 bug fixes, 47 new/improved features,
@@ -15,7 +15,7 @@ Changes include:
 
 - New localization: Portuguese and Esperanto translations
 - New `dateformat` space handling
-- New date support: \'february\', extensive support for ISO-8601
+- New date support: 'february', extensive support for ISO-8601
 - New column formats: `description.truncated_count`, `uda.NAME.indicator`, `recur.short`, tag sorting
 - New color rules: `color.uda.NAME.VALUE`, `color.label.sort`, `color.until`
 - New virtual tags: READY, YESTERDAY, TOMORROW, PENDING, DELETED, COMPLETED, TAGGED
@@ -43,7 +43,7 @@ Changes include:
 - Improved Vim support files
 - Updated holiday files
 - Removed deprecated features: `push`, `pull`, `merge`, old file formats, unused configuration settings
-- Removed the misunderstood \'total active time\' feature, replaced by a 3rd party hook script
+- Removed the misunderstood 'total active time' feature, replaced by a 3rd party hook script
 - Removed the shadow file feature, replaced by a hook script example
 
 For full details, see the ChangeLog file included in the release.
@@ -51,4 +51,4 @@ For full details, see the ChangeLog file included in the release.
 Look for a series of new online documents over the coming days, highlighting some of the new functionality.
 
 The release is immediately available as a source [tarball](/download/task-2.4.0.tar.gz).
-Binary packages will soon be available via your Operating System\'s package manager.
+Binary packages will soon be available via your Operating System's package manager.

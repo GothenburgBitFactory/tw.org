@@ -11,6 +11,6 @@ Check this page for outages.
 
 The second is an operations information page from [StatusPage.io](https://statuspage.io) which shows status, uptime, response time and incidents.
 
-You\'ll find links to the new status pages in the page footer on the front page.
+You'll find links to the new status pages in the page footer on the front page.
 
 We would like to thank Pingdom and StatusPage.io for the generous donation of their services.

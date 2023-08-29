@@ -33,7 +33,7 @@ It lists the current release, the next release (short term) and future releases 
 
 2015-02-09
 
-More \"category\" values were addd to Jira to allow more useful grouping of issues.
+More "category" values were addd to Jira to allow more useful grouping of issues.
 
 2015-02-13
 
@@ -79,7 +79,7 @@ Ralph Bean releases [taskw](https://pypi.python.org/pypi/taskw) with support for
 2015-02-16
 
 Renato doubles the speed of the test suite.
-We\'re not sure how.
+We're not sure how.
 
 2015-02-16
 

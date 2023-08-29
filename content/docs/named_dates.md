@@ -4,8 +4,8 @@ title: "Taskwarrior - Named Dates"
 
 # Named Dates
 
-The term \'date\' is used here to describe a timestamp of varying precision and specificity.
-The terms \'timestamp\', or \'datetime\' also apply.
+The term 'date' is used here to describe a timestamp of varying precision and specificity.
+The terms 'timestamp', or 'datetime' also apply.
 
 Taskwarrior supports the notion of specifying dates in several ways.
 There are ISO-8601 dates:
@@ -54,9 +54,9 @@ The months are recognized in three-letter abbreviated form and the full month na
 ## Year Dates
 
 Year dates are abbreviated names for dates within the year, that occur at various boundaries.
-The abbreviations use \'s\' to mean the start, and \'e\' to mean the end of the period.
-The periods are indicated using \'m\' (month), \'q\' (quarter) and \'y\' (year).
-So the date \'socy\' means \'start of current year\'.
+The abbreviations use 's' to mean the start, and 'e' to mean the end of the period.
+The periods are indicated using 'm' (month), 'q' (quarter) and 'y' (year).
+So the date 'socy' means 'start of current year'.
 
 * `socy`, `eocy`   - Start of the current year. End of the current year. Time is 0:00:00 local.
 * `socq`, `eocq`   - Start of the current quarter. End of the current quarter. Time is 0:00:00 local.
@@ -66,15 +66,15 @@ So the date \'socy\' means \'start of current year\'.
 * `som`, `eom`     - Start of the next month. End of the month. Time is 0:00:00 local.
 
 There is redundancy in this table, and it exists for the sake of symmetry.
-For example, \'eom\' and \'eocm\' are always the same, but exist so that every date has a matching pair.
+For example, 'eom' and 'eocm' are always the same, but exist so that every date has a matching pair.
 
 [![](/images/year.png)](/images/year.png)
 
 ## Week Dates
 
 Week dates are abbreviated names for dates within the week, that occur at various boundaries.
-The abbreviations use \'s\' to mean the start, and \'e\' to mean the end of the period.
-The periods are indicated using \'d\' (day), \'w\' (week).
+The abbreviations use 's' to mean the start, and 'e' to mean the end of the period.
+The periods are indicated using 'd' (day), 'w' (week).
 
 * `socw`, `eocw` - Start of the current week. End of the current week. Time is 0:00:00 local.
 * `sow`, `eow`   - Start of the next week. End of the week. Time is 0:00:00 local.

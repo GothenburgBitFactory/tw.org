@@ -69,7 +69,7 @@ layout: single
 ## Integrating with Taskwarrior
 - [Hooks API](/docs/hooks) {{< label >}}2.4.0{{< /label >}}
 - [Hooks v2 API](/docs/hooks2) {{< label >}}2.4.3{{< /label >}}
-- [Hook Author\'s Guide](/docs/hooks_guide) {{< label >}}2.4.0{{< /label >}}
+- [Hook Author's Guide](/docs/hooks_guide) {{< label >}}2.4.0{{< /label >}}
 - [3rd Party Application Guidelines](/docs/3rd-party)
 - [Design Documents (RFCs)](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs)
 

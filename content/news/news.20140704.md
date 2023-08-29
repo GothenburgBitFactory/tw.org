@@ -9,10 +9,10 @@ The Taskwarrior 2.4.0 development branch has been unusable for a few weeks
 ([mentioned here](/news/news.20140524)) while new functionality was integrated.
 It has been a long process, with about 750 code changes so far, but now all the tests are passing again.
 
-Does this mean it\'s ready for alpha and beta? No, not yet, because now there is a need for a lot of new tests to cover all the new functionality.
+Does this mean it's ready for alpha and beta? No, not yet, because now there is a need for a lot of new tests to cover all the new functionality.
 This is the next phase of cycle, improving tests, fixing open bugs, and updating documentation.
 
-Now it\'s time for a preview of some of the new features...
+Now it's time for a preview of some of the new features...
 
 #### Virtual Tags
 

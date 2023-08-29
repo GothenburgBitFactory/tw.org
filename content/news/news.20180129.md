@@ -15,10 +15,10 @@ Will we be planning features and releases?
 
 No.
 
-This time we\'re all about the frites and beer.
-Wasn\'t that the theme last time?
+This time we're all about the frites and beer.
+Wasn't that the theme last time?
 Yes it was.
-This year we\'re being honest.
+This year we're being honest.
 
 Spot a logo, and come talk to us.
-Tell us why we\'re wrong.
+Tell us why we're wrong.

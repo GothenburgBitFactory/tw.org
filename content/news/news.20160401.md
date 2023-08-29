@@ -16,7 +16,7 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 | 2016-03-01 | - libshared: Gained JSON parser from Taskwarrior                                                                                                         |
 | 2016-03-02 | - Guides: New repo for Taskwarrior presentations online                                                                                                  |
 | 2016-03-13 | - Timewarrior: Design outline complete                                                                                                                   |
-| 2016-03-16 | - libshared: Renamed from the older \'common\' - a git submodule to share code across projects                                                           |
+| 2016-03-16 | - libshared: Renamed from the older 'common' - a git submodule to share code across projects                                                             |
 | 2016-03-17 | - Flod: Added support for submodules, using `git clone --recursive ...`                                                                                  |
 |            | - Flod2: Migrated to use `libshared.git`                                                                                                                 |
 |            | - libshared: Can now join strings                                                                                                                        |
@@ -49,7 +49,7 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 |            | - Timewarrior: Added a debug report to test the extension API                                                                                            |
 | 2016-03-27 | - Flod: Documentation fixes                                                                                                                              |
 |            | - libshared: Now has a split function that coalesces whitespace                                                                                          |
-|            | - task/libshared: Now knows when \'juhannus\' is                                                                                                         |
+|            | - task/libshared: Now knows when 'juhannus' is                                                                                                           |
 | 2016-03-28 | - libshared: Table now switches to hyphen underlines when output is not to a TTY                                                                         |
 |            | - Timewarrior: Now colorizes tags                                                                                                                        |
 |            | - Timewarrior: Now has a working `tags` command                                                                                                          |

@@ -17,7 +17,7 @@ For example, we dislike escaping shell characters, so I want this to *just work*
 $ task "(project = foo or project = bar) and +tag" list
 ```
 
-We want to be able to quote the whole command line as one big argument, so the parentheses don\'t need to be individually escaped.
+We want to be able to quote the whole command line as one big argument, so the parentheses don't need to be individually escaped.
 
 What do you want to *just work*? Please submit answers here: [Issues on GitHub](https://github.com/GothenburgBitFactory/taskwarrior/issues)
 

@@ -9,7 +9,7 @@ User Defined Attributes ([UDAs](/docs/udas)) have been enhanced so that type `st
 This enhancement permits the migration of the `priority` attribute to a UDA.
 This means you may now define your own priority levels, sorting and urgency coefficients.
 
-Although it may appear otherwise, there is no new monthly release cycle, it\'s all a coincidence.
+Although it may appear otherwise, there is no new monthly release cycle, it's all a coincidence.
 The next release will likely take a little longer as we shift focus to Taskserver improvements.
 
 Although this is a minor release, there are significant bug fixes and new features make this a recommended upgrade.
@@ -37,4 +37,4 @@ Changes include:
 For full details, see the ChangeLog file included in the release.
 
 The release is immediately available as a source [tarball](/download/task-2.4.3.tar.gz).
-Binary packages will soon be available via your Operating System\'s package manager.
+Binary packages will soon be available via your Operating System's package manager.

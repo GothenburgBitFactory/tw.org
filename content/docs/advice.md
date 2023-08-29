@@ -17,12 +17,12 @@ If you could draw a boundary between that which is already supported, and that w
 Feature requests only nibble at the periphery.
 Bold changes originate elsewhere.
 
-People will get excited about something a project doesn\'t yet support.
+People will get excited about something a project doesn't yet support.
 Deliver it, and they will get excited about the next thing.
 
 If a feature works well, you'll never hear about it again.
 
-There is a fine line between \"richly-featured\" and \"bloated\".
+There is a fine line between "richly-featured" and "bloated".
 There may not be a line at all.
 
 If you demo two features, and talk about twenty more, users still only know about the two.
@@ -30,18 +30,18 @@ Visual demonstrations have far greater impact.
 
 Every change will ruin someone's day.
 They will be sure to tell you about it.
-The same change will improve someone\'s day.
+The same change will improve someone's day.
 You will not hear of this.
 
-People will disguise feature requests as bugs, which means either they consider difference of opinion a defect, or believe that calling it a flaw will force implementation, but hopefully they just forgot to set the issue type to \'enhancement\'.
+People will disguise feature requests as bugs, which means either they consider difference of opinion a defect, or believe that calling it a flaw will force implementation, but hopefully they just forgot to set the issue type to 'enhancement'.
 
 Some people find it very difficult to articulate what they want.
-It\'s worth being patient and finding out what they need.
+It's worth being patient and finding out what they need.
 
 What you keep out of a project is just as important as what you allow in to a project.
 
 Many new users will submit feature requests, just to show that they are knowledgeable and clever.
-They don\'t really want that feature, it\'s a form of positive feedback.
+They don't really want that feature, it's a form of positive feedback.
 
 Beware of suggestions from users who have used your software for only a day or so.
 Be equally aware of suggestions from users who have used your software for a long, long time.
@@ -57,7 +57,7 @@ A paragraph of text will be ignored.
 
 Man pages are too densely crammed with information, and too lengthy, for most modern humans to ingest.
 
-*\"What have you tried so far?\"* is the best question to identify time wasters.
+*"What have you tried so far?"* is the best question to identify time wasters.
 
 People will pick a fight with you about all your incidental choices.
 Your issue tracker, your branching strategy, your version numbers, the text editor you use, and so on.
@@ -85,7 +85,7 @@ Keep your tutorials short.
 Presence at industry events is important.
 Offering talks and workshops helps make people aware of your project.
 
-\"Virtual teams\" work well, but it gets even better after meeting in real life.
+"Virtual teams" work well, but it gets even better after meeting in real life.
 
 It is good if the members of your team share the same sense of humor.
 If not, be careful writing messages with an ironic tone.
@@ -100,7 +100,7 @@ Have a recognizable logo.
 Do not make the logo yourself, if you are not a designer.
 If you have no budget, ask a designer to judge your work.
 
-Offering gratis stickers is great, having SWAG \- Souvenirs, Wearables And Gifts \- users can choose from is even better.
+Offering gratis stickers is great, having SWAG - Souvenirs, Wearables And Gifts - users can choose from is even better.
 
 People love to make mashups of two `things`, or add an extension to a `thing`.
 Very few contributors want to work on the `thing`.

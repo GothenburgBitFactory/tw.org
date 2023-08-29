@@ -45,12 +45,12 @@ In the example above, the replacement is an algebraic expression, `project ~ ^ab
 Simple words being interpreted as search terms is deprecated in 2.4.0 and will be removed in a future release.
 The preferred syntax is `task /pattern/ ...`.
 
-### The \'limit\' Pseudo Attribute [deprecated since 2.4.0]
+### The 'limit' Pseudo Attribute [deprecated since 2.4.0]
 
 The `limit:20` pseudo attribute looks like a task attribute, but is just syntactic sugar.
 It is deprecated and will be replaced by `rc.limit` in a future release.
 
-### The \'urgency.inherit.coefficient\' Setting [deprecated since 2.4.5]
+### The 'urgency.inherit.coefficient' Setting [deprecated since 2.4.5]
 
 Urgency inheritance changes with 2.4.5, and this settings will no longer be used.
 
@@ -72,10 +72,10 @@ The `DUETODAY` virtual tag is a synonym for the more consistently named `TODAY` 
 ### Use of Boolean configuration values other than `0` or `1` [deprecated since 2.6.0]
 
 Deprecated use of alternate Boolean configuration settings.
-Use values \"0\" for off, and \"1\" for on.
-Avoid used of \"on\", \"off\", \"true\", \"t\", \"false\", \"f\", \"yes\", \"y\", \"no\", \"n\".
+Use values "0" for off, and "1" for on.
+Avoid used of "on", "off", "true", "t", "false", "f", "yes", "y", "no", "n".
 
-### DOM references: context.\* [deprecated since 2.6.0]
+### DOM references: context.* [deprecated since 2.6.0]
 
 The dom references `context.program`, `context.args`, `context.width`, and `context.height` are replaced by `tw.program`, `tw.args`, `tw.width`, and `tw.height`.
 

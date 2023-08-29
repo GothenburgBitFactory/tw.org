@@ -23,7 +23,7 @@ The main focus is a new command line parser, which brings with it new capabiliti
 
 - New command line parser, with fewer quirks and support for new features.
 - New `calc` command, which shows off the expression evaluation capabilities that are built in to many other commands.
-  This allows you to refer to a task\'s due date, for example, and add a week to it, in addition to basic math.
+  This allows you to refer to a task's due date, for example, and add a week to it, in addition to basic math.
 - Lots of new virtual tags, which are now used in the custom report definitions, for simpler filters.
 - New report improvements and streamlining - the result of many years of use and consideration by our designer, urgency calculation details, configuration default values, listing breaks.
 - Features: multiline task descriptions, UUID partial matching, default `info` report when just an ID/UUID is specified, propagated urgency values, improved color rules, new themes, default support for regular expressions.
@@ -39,7 +39,7 @@ The main focus is a new command line parser, which brings with it new capabiliti
 
 This is a much smaller release, which is focusing on improved security, stability and diagnostics, with simplified setup.
 
-- Diagnostic improvements: can log to stdout, includes line numbers for data issues, uses more consistent language, log indicates when server is ready, shows data statistics with the diagnostic command is provided with \'\--data\'.
+- Diagnostic improvements: can log to stdout, includes line numbers for data issues, uses more consistent language, log indicates when server is ready, shows data statistics with the diagnostic command is provided with '\--data'.
 - Portability fixes for NetBSD, Solaris, musl C library, fewer sh/bash assumptions.
 - Networking: Improved IPv6 support, now obeys hostname.
 - Security: certificates are now validated for older GnuTLS versions.

@@ -527,8 +527,8 @@ Your `.taskrc`file should contain this section:
 #include /usr/local/share/doc/task/rc/dark-gray-blue-256.theme
 ```
 
-All of these lines are said to be 'commented out', which means the '\#' symbol at the beginning of the line prevents Taskwarrior from reading the rest of the line.
-Removing a '\#' enables the color theme.
+All of these lines are said to be 'commented out', which means the '#' symbol at the beginning of the line prevents Taskwarrior from reading the rest of the line.
+Removing a '#' enables the color theme.
 For example, to enable the `dark-violets-256.theme` file, change the above to look like this:
 
 ```

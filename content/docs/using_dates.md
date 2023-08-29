@@ -17,7 +17,7 @@ You can choose to use some, all or none of these, but like all Taskwarrior featu
 
 Use a `due` date to specify the exact date by which a task must be completed.
 This corresponds to the last possible moment when the task can be considered on-time.
-Using our example, we can set the `due` date to be Alice\'s birthday
+Using our example, we can set the `due` date to be Alice's birthday
 (line breaks added for clarity):
 
     $ task add Send Alice a birthday card \
@@ -26,7 +26,8 @@ Using our example, we can set the `due` date to be Alice\'s birthday
 Now your task has an associated `due` date, to help you determine when you need to work on it.
 But what effect does this have on Taskwarrior? How can it be used to best advantage?
 
-We call the `due` date of a task \'metadata\'. As such, it is just a piece of data associated with the task, and therefore it can become part of a filter:
+We call the `due` date of a task 'metadata'.
+As such, it is just a piece of data associated with the task, and therefore it can become part of a filter:
 
     $ task due:today list
     ...
@@ -61,8 +62,8 @@ Several reports will sort by `due` date, and as we see above, a task that has a 
 ## The `scheduled` Date
 
 A `scheduled` date is different from a `due` date, and represents the earliest opportunity to work on a task.
-Let\'s continue with the same example above.
-You need to send a birthday card to Alice, but her birthday isn\'t until November, so it\'s not the kind of task that can be done in advance.
+Let's continue with the same example above.
+You need to send a birthday card to Alice, but her birthday isn't until November, so it's not the kind of task that can be done in advance.
 Ideally this would be done a few days ahead of the `due` date:
 
     $ task add Send Alice a birthday card \
@@ -86,8 +87,8 @@ Again, metadata drives the sophistication of your task list.
 
 Many people do not like to look at long task lists, finding them daunting, or just distracting.
 You can add a `wait` date to a task, which has the effect of hiding the task from you until that date.
-In our example, Alice\'s birthday isn\'t close yet, so we applied a `scheduled` date to indicate that we should not begin the task yet, as it is not ready.
-Now let\'s add a `wait` date to the task:
+In our example, Alice's birthday isn't close yet, so we applied a `scheduled` date to indicate that we should not begin the task yet, as it is not ready.
+Now let's add a `wait` date to the task:
 
     $ task add Send Alice a birthday card \
                due:2016-11-08 \
@@ -95,7 +96,7 @@ Now let\'s add a `wait` date to the task:
                wait:november
 
 Here the task is given a `wait` date of 2016-11-01, via the useful shortcut
-\'november\', which means the task will not appear on lists until November.
+'november', which means the task will not appear on lists until November.
 At that time, it will reappear, but it will still not be ready until 2016-11-04.
 
 You can view all the hidden waiting tasks using the `waiting` report:
@@ -103,13 +104,13 @@ You can view all the hidden waiting tasks using the `waiting` report:
     $ task waiting
     ...
 
-There is a `WAITING` virtual tag to select these tasks, but note that you have to use the `all` report with it, otherwise you get conflicts with the other reports that specify a \'pending\' status, because a waiting task is not pending.
+There is a `WAITING` virtual tag to select these tasks, but note that you have to use the `all` report with it, otherwise you get conflicts with the other reports that specify a 'pending' status, because a waiting task is not pending.
 
 ## The `until` Date
 
-Now suppose I miss Alice\'s birthday completely.
+Now suppose I miss Alice's birthday completely.
 Shame on me.
-The task would be overdue, but this is the kind of task where I don\'t want to complete it late, I\'d rather just forget it, and wish Alice a belated happy birthday in person.
+The task would be overdue, but this is the kind of task where I don't want to complete it late, I'd rather just forget it, and wish Alice a belated happy birthday in person.
 I could simply delete or complete the task, but there is another option, which is to add an `until` date:
 
     $ task add Send Alice a birthday card \
@@ -119,7 +120,7 @@ I could simply delete or complete the task, but there is another option, which i
                until:2016-11-10
 
 This means that on 2016-11-10, the task self-destructs, and is automatically deleted.
-This might be the right thing to do for a birthday card task, but is not suitable for a \"Pay the rent\" task.
+This might be the right thing to do for a birthday card task, but is not suitable for a "Pay the rent" task.
 Beware!
 
 There is a DOM-based shortcut you can use, to make the command above a little more formulaic:

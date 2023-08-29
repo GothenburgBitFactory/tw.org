@@ -135,7 +135,8 @@ Here are some example workflows, to make you think about your own particular app
 - **For what kind of work do you use Taskwarrior?**
 - **How do you sync? What kind of devices do you use?**
   I use Taskwarrior on every device with a full, non-proxied internet connection and sync those installations with a self-hosted Taskserver on the net.
-  All devices have the same configuration. \"Every device\" includes my notebook (Fedora Linux), a fix home-based computer (CentOS), four servers on the net (CentOS) and my mobile phone and my tablet as well (both Android).
+  All devices have the same configuration.
+  "Every device" includes my notebook (Fedora Linux), a fix home-based computer (CentOS), four servers on the net (CentOS) and my mobile phone and my tablet as well (both Android).
 - **Which is your default report?**
 - **Do you use a standard or customized methodology?**
 - **Do you use extensions? Hook scripts?**
@@ -174,7 +175,7 @@ Here are some example workflows, to make you think about your own particular app
 - **Do you use extensions? Hook scripts?**
 - **What features do you rely on most?**
   Projects and tags to simulate state of tasks like in Kanban.
-  Easy basic reports to filter on project and then on \"state tags\".
+  Easy basic reports to filter on project and then on "state tags".
   Annotations to record information or refer to my big-arse-text-file-from-hell.
   Task calendar is used a lot to find out about calendar weeks and dates at work.
 - **What features do you deliberately not use?**

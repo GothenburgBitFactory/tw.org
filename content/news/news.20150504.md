@@ -31,7 +31,7 @@ There have been a few changes:
 - `validate` command will parse/validate a JSON string or file.
   Used for debugging Taskserver clients.
 - If the `trust` setting contains a bad value, the `diagnostics` command will indicate this, and the server will log it.
-- Can log to STDOUT when configuration setting `log` is set to \'-\'.
+- Can log to STDOUT when configuration setting `log` is set to '-'.
 - Improved `diagnostics` command output.
 - Taskserver no longer ignore the host definition.
 - Improved logging for errors, problems, data conflicts, JSON parsing, ...
