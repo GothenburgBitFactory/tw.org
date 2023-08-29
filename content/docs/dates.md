@@ -40,32 +40,32 @@ This examples uses the default `rc.dateformat`, which is `Y-M-D`, to read the da
 The `rc.dateformat` setting allows you to specify other formats for date input.
 An example is the default, `Y-M-D`, which means a date is:
 
-- a 4-digit year (\'Y\')
-- followed by a hyphen (\'-\')
-- followed by a 2-digit month (\'M\')
-- followed by a hyphen (\'-\')
-- followed by a 2-digit day (\'D\')
+- a 4-digit year ('Y')
+- followed by a hyphen ('-')
+- followed by a 2-digit month ('M')
+- followed by a hyphen ('-')
+- followed by a 2-digit day ('D')
 
 Here are the possible elements of `rc.dateformat`:
 
-* `m`               - 1 or 2 digit month number, eg \'1\', \'12\'
-* `M`               - 2 digit month number, eg \'01\', \'12\'
-* `d`               - 1 or 2 digit day of month number¸ eg \'1\', \'12\'
-* `D`               - 2 digit day of month number, eg \'01\', \'30\'
-* `y`               - 2 digit year, eg \'12\', where the century is assumed to be \'20\', therefore \'2012\'
-* `Y`               - 4 digit year, eg \'2015\'
-* `h`               - 1 or 2 digit hours, eg \'1\', \'23\'
-* `H`               - 2 digit hours, eg \'01\', \'23\'
-* `n`               - 1 or 2 digit minutes, eg \'1\', \'59\'
-* `N`               - 2 digit minutes, eg \'01\', \'59\'
-* `s`               - 1 or 2 digit seconds, eg \'1\', \'59\'
-* `S`               - 2 digit seconds, eg \'01\', \'59\'
-* `v`               - 1 or 2 digit week number, eg \'1\', \'52\'
-* `V`               - 2 digit week number, eg \'01\', \'52\'
-* `a`               - 3-character English day name abbreviation, eg \'mon\', \'tue\'
-* `A`               - Complete English day name, eg \'monday\', \'tuesday\'
-* `b`               - 3-character English month name abbreviation, eg \'jan\', \'feb\'
-* `B`               - Complete English month name, eg \'january\', \'february\'
+* `m`               - 1 or 2 digit month number, eg '1', '12'
+* `M`               - 2 digit month number, eg '01', '12'
+* `d`               - 1 or 2 digit day of month number¸ eg '1', '12'
+* `D`               - 2 digit day of month number, eg '01', '30'
+* `y`               - 2 digit year, eg '12', where the century is assumed to be '20', therefore '2012'
+* `Y`               - 4 digit year, eg '2015'
+* `h`               - 1 or 2 digit hours, eg '1', '23'
+* `H`               - 2 digit hours, eg '01', '23'
+* `n`               - 1 or 2 digit minutes, eg '1', '59'
+* `N`               - 2 digit minutes, eg '01', '59'
+* `s`               - 1 or 2 digit seconds, eg '1', '59'
+* `S`               - 2 digit seconds, eg '01', '59'
+* `v`               - 1 or 2 digit week number, eg '1', '52'
+* `V`               - 2 digit week number, eg '01', '52'
+* `a`               - 3-character English day name abbreviation, eg 'mon', 'tue'
+* `A`               - Complete English day name, eg 'monday', 'tuesday'
+* `b`               - 3-character English month name abbreviation, eg 'jan', 'feb'
+* `B`               - Complete English month name, eg 'january', 'february'
 * Everything else   - All other format characters are taken as literals
 
 ## Including Time
@@ -121,8 +121,8 @@ See `man taskrc` for a complete list.
 
 For display purposes, there are two additional elements:
 
-* `j`   - 1, 2 or 3 digit day-of-year number, sometimes referred to as a Julian date, eg \'1\', \'11\', or \'365\'
-* `J`   - 3 digit day of year number, sometimes referred to as a Julian date, eg \'001\', \'011\', or \'365\'
+* `j`   - 1, 2 or 3 digit day-of-year number, sometimes referred to as a Julian date, eg '1', '11', or '365'
+* `J`   - 3 digit day of year number, sometimes referred to as a Julian date, eg '001', '011', or '365'
 
 ## Synonyms {{< label >}}2.4.0{{< /label >}}
 
@@ -132,7 +132,7 @@ In addition to formatted dates, you can use a date synonym instead:
 $ task add Pay the rent due:eom
 ```
 
-Here the synonym `eom` means \'end of the month\'.
+Here the synonym `eom` means 'end of the month'.
 Synonyms are a useful shortcut to entering lengthy dates.
 Here is the full set:
 
@@ -221,66 +221,82 @@ Year, week number, first day of week, hours, minutes, seconds, UTC.
 
 Year, week number, first day of week, hours, minutes, 00 seconds, UTC.
 
-`YYYY-MM-DDThh:mm:ss+hh:mm`\
+`YYYY-MM-DDThh:mm:ss+hh:mm`
+
 `YYYY-MM-DDThh:mm:ss-hh:mm`
 
-`2015-06-15T12:34:56+05:00`\
+`2015-06-15T12:34:56+05:00`
+
 `2015-06-15T12:34:56-05:00`
 
 Year, month, day, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
 
-`YYYY-MM-DDThh:mm+hh:mm`\
+`YYYY-MM-DDThh:mm+hh:mm`
+
 `YYYY-MM-DDThh:mm-hh:mm`
 
-`2015-06-15T12:34+05:00`\
+`2015-06-15T12:34+05:00`
+
 `2015-06-15T12:34-05:00`
 
 Year, month, day, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
 
-`YYYY-DDDThh:mm:ss+hh:mm`\
+`YYYY-DDDThh:mm:ss+hh:mm`
+
 `YYYY-DDDThh:mm:ss-hh:mm`
 
-`2015-166T12:34:56+05:00`\
+`2015-166T12:34:56+05:00`
+
 `2015-166T12:34:56-05:00`
 
 Year, day ordinal, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
 
-`YYYY-DDDThh:mm+hh:mm`\
+`YYYY-DDDThh:mm+hh:mm`
+
 `YYYY-DDDThh:mm-hh:mm`
 
-`2015-166T12:34+05:00`\
+`2015-166T12:34+05:00`
+
 `2015-166T12:34-05:00`
 
 Year, day ordinal, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
 
-`YYYY-Www-DThh:mm:ss+hh:mm`\
+`YYYY-Www-DThh:mm:ss+hh:mm`
+
 `YYYY-Www-DThh:mm:ss-hh:mm`
 
-`2015-W24-1T12:34:56+05:00`\
+`2015-W24-1T12:34:56+05:00`
+
 `2015-W24-1T12:34:56-05:00`
 
 Year, week number, day number, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
 
-`YYYY-Www-DThh:mm+hh:mm`\
+`YYYY-Www-DThh:mm+hh:mm`
+
 `YYYY-Www-DThh:mm-hh:mm`
 
-`2015-W24-1T12:34+05:00`\
+`2015-W24-1T12:34+05:00`
+
 `2015-W24-1T12:34-05:00`
 
 Year, week number, day number, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
 
-`YYYY-WwwThh:mm:ss+hh:mm`\
+`YYYY-WwwThh:mm:ss+hh:mm`
+
 `YYYY-WwwThh:mm:ss-hh:mm`
 
-`2015-W24T12:34:56+05:00`\
+`2015-W24T12:34:56+05:00`
+
 `2015-W24T12:34:56-05:00`
 
 Year, week number, first day of week, hours, minutes, seconds, positive or negative offset from UTC of hours, minutes.
 
-`YYYY-WwwThh:mm+hh:mm`\
+`YYYY-WwwThh:mm+hh:mm`
+
 `YYYY-WwwThh:mm-hh:mm`
 
-`2015-W24T12:34+05:00`\
+`2015-W24T12:34+05:00`
+
 `2015-W24T12:34-05:00`
 
 Year, week number, first day of week, hours, minutes, 00 seconds, positive or negative offset from UTC of hours, minutes.
@@ -389,18 +405,22 @@ Today, hours, minutes, seconds in UTC.
 
 Today, hours, minutes, 00 seconds in UTC.
 
-`hh:mm:ss+hh:mm`\
+`hh:mm:ss+hh:mm`
+
 `hh:mm:ss-hh:mm`
 
-`12:34:56+05:00`\
+`12:34:56+05:00`
+
 `12:34:56-05:00`
 
 Today, hours, minutes, seconds, positive or negative offset from UTC.
 
-`hh:mm+hh:mm`\
+`hh:mm+hh:mm`
+
 `hh:mm-hh:mm`
 
-`12:34+05:00`\
+`12:34+05:00`
+
 `12:34-05:00`
 
 Today, hours, minutes, 00 seconds, positive or negative offset from UTC.
@@ -427,9 +447,9 @@ Some years range from `W01` up to `W53`
 * `D`      - Day of week is 1-7, Monday-Sunday.
 * `DDD`    - Day ordinal is 001 for January 1st, 365 for December 31st, or 366 in a leap year.
 * `T`      - A separator between date elements and time elements.
-* `Z`      - Indicates UTC time, the \'Z\' means \'Zulu\', a military format.
+* `Z`      - Indicates UTC time, the 'Z' means 'Zulu', a military format.
 * `+/-`    - Positive offset is *East* of UTC.
-Negative offset is *West* of UTC.
+             Negative offset is *West* of UTC.
 * `hh`     - Two-digit, zero-padded hours, between `00` and `23`.
 * `mm`     - Two-digit, zero-padded minutes, between `00` and `59`.
 * `ss`     - Two-digit, zero-padded seconds, between `00` and `59`.

@@ -45,5 +45,5 @@ It is working well, and will be rolled out in October, with new features and gre
 | 2016-09-25 | - Flod2: Reworked scripts for efficiency, converted to Python, changed to a non-daemon model                                       |
 | 2016-09-27 | - Holidata: Added US 2017, 2018; GB 2017, 2018 dates                                                                               |
 | 2016-09-29 | - [#22: Fix holiday type on en-GB Christmas 2016](https://github.com/GothenburgBitFactory/tw.org/issues/22) fixed                  |
-|            | - [#23: I think some files weren\'t added after the last build](https://github.com/GothenburgBitFactory/tw.org/issues/23) fixed    |
+|            | - [#23: I think some files weren't added after the last build](https://github.com/GothenburgBitFactory/tw.org/issues/23) fixed     |
 | 2016-09-30 | - Guides: Taskd troubleshooting guides gains more diagnostic commands                                                              |

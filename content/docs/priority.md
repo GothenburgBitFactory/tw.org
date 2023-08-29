@@ -62,4 +62,4 @@ This example suggests you might want to rename `priority` to be `severity` inste
 
 ## Warning
 
-If you sync tasks between different clients, you will need to configure those clients in the same way, otherwise you\'ll find that Taskwarrior will enforce the default configuration.
+If you sync tasks between different clients, you will need to configure those clients in the same way, otherwise you'll find that Taskwarrior will enforce the default configuration.

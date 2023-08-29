@@ -14,7 +14,7 @@ There are currently 24 failing tests, mostly regarding newly added capabilities.
 
 Now it is time to make significant structural changes, and this is guaranteed to break many more tests, and generally make Taskwarrior 2.4.0-dev unusable, for a while.
 
-To make an analogy, we\'re renovating a house, while living in it.
+To make an analogy, we're renovating a house, while living in it.
 This involves mere inconveniences some of the time, such as tools lying around, and some holes in the walls.
 But there comes a point where the plumbing is disconnected and the electrical system shut off.
 Perhaps the windows are missing.
@@ -24,9 +24,9 @@ This is Taskwarrior 2.4.0-dev right now - the plumbing is about to be shut off.
 There is lots of instrumented code slowing things down, for example the command line is parsed twice, by the old parser, and now the new one.
 Task filtering is done twice - by the old filter mechanism and by the new expression evaluator.
 Everything is currently running very slowly, with lots of debug output.
-But it\'s about to get worse.
+But it's about to get worse.
 
-We feel it is time to issue a warning, namely, please don\'t use version 2.4.0-dev for a while, and please don\'t report issues against it yet.
+We feel it is time to issue a warning, namely, please don't use version 2.4.0-dev for a while, and please don't report issues against it yet.
 There will be an alpha release made when things are working again.
 
 You can track the decline and ultimate recovery of this process from our continuous integration report:

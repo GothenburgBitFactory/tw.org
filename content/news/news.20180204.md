@@ -21,8 +21,8 @@ The recurrence changes will not be included.
 
 We have two high-quality guides to help Taskserver users:
 
-[Taskserver Setup Guide](https://github.com/GothenburgBitFactory/guides/blob/master/taskserver-setup/taskserver-setup.pdf)\
-[Taskserver Troubleshooting Guide](https://github.com/GothenburgBitFactory/guides/blob/master/taskserver-troubleshooting/taskserver-troubleshooting.pdf)
+* [Taskserver Setup Guide](https://github.com/GothenburgBitFactory/guides/blob/master/taskserver-setup/taskserver-setup.pdf)
+* [Taskserver Troubleshooting Guide](https://github.com/GothenburgBitFactory/guides/blob/master/taskserver-troubleshooting/taskserver-troubleshooting.pdf)
 
 These will be moved online, probably using GitPitch.
 

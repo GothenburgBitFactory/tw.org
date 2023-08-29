@@ -8,7 +8,7 @@ date: 2018-02-03
 Timewarrior 1.1.1 is released.
 This is a bug fix release and we recommend that everyone upgrade to 1.1.1.
 
-There is one bug fix in this release, and it\'s an important one that fixes a long-standing problem that has been there from the beginning.
+There is one bug fix in this release, and it's an important one that fixes a long-standing problem that has been there from the beginning.
 
 The problem is when a tracked interval spans an exclusion, the recorded interval has only one start and end time, and the exclusion is subtracted from this interval, resulting in multiple interval elements.
 

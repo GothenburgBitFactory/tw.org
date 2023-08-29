@@ -16,20 +16,20 @@ If you upgrade from an older release of Taskserver, you will need to follow the 
 
 ### You tried `task sync` but Taskwarrior showed you a task list instead
 
-You have a version of Taskwarrior older than `2.3.0`, which means there was no `sync` command, and you are seeing a list filtered by the search term \'sync\'.
+You have a version of Taskwarrior older than `2.3.0`, which means there was no `sync` command, and you are seeing a list filtered by the search term 'sync'.
 Upgrading is the only solution.                                     
 
-### You tried `task sync` and saw \'Taskwarrior was built without GnuTLS support. Sync is not available.\'
+### You tried `task sync` and saw 'Taskwarrior was built without GnuTLS support. Sync is not available.'
 
 You are using version `2.3.0` or later, but the Taskwarrior binary was compiled without [GnuTLS](https://www.gnutls.org) support.                    
 
-If you installed Taskwarrior using your OS\'s package manager, you may be suffering from an out of date package.
-Prod your OS\'s package maintainer for an update.                                                                    
+If you installed Taskwarrior using your OS's package manager, you may be suffering from an out of date package.
+Prod your OS's package maintainer for an update.                                                                    
 
 Recent releases make GnuTLS support opt-out instead of opt-in, so upgrading to the latest version may help.
 Otherwise, you will need to build Taskwarrior from the [latest source tarball](/download/task-latest.tar.gz), following the instructions in the `INSTALL` file.
 If you are a developer, do that.
-If you are not, then installing a development environment is probably not something you want to do, in which case contact your OS\'s package maintainer.         
+If you are not, then installing a development environment is probably not something you want to do, in which case contact your OS's package maintainer.         
 
 Verify that your Taskwarrior was built with GnuTLS support by running `task diagnostics`:
 
@@ -47,7 +47,7 @@ Is the domain correct?
 Is there a valid DNS resolution for the name?
 Is there a firewall between Taskwarrior and Taskserver that is not letting through `<port>` traffic?                      
 
-### Could not connect to \<host\>:\<port\>                                                                      
+### Could not connect to <host>:<port>                                                                      
 
 Taskserver may not be running on `<host>`.
 Check with `ps -leaf | grep taskd`.                                                      
@@ -76,7 +76,7 @@ When you generated certificates, you modified a `vars` file, in particular the `
 That name must match the output of `$ hostname -f` on the server for the certificate to validate.                                
 
 Additionally, that name must also be used in the `taskd.server=<host>:<port>` setting for Taskwarrior.
-Otherwise you\'ll need `taskd.trust=ignore hostname`.                                                
+Otherwise you'll need `taskd.trust=ignore hostname`.                                                
 
 If you are using a self-signed certificate, did you specify it using the `taskd.ca` setting?                                                           
 
@@ -132,7 +132,7 @@ But if you do, here is how.
 
 Both Taskwarrior and Taskserver have a `diagnostics` command, the purpose of which is to show you relevant troubleshooting details.
 Additionally, it will indicate problems directly, for example, it will tell you if your cert/key files are not readable.
-The output from `diagnostics` is intended to be included in bug reports, and doing so saves you a lot of time, because it\'s the first thing we\'ll ask for.
+The output from `diagnostics` is intended to be included in bug reports, and doing so saves you a lot of time, because it's the first thing we'll ask for.
 
 ```
 $ task diagnostics
@@ -172,14 +172,14 @@ $ task rc.debug=1 rc.debug.tls=2 sync
 
 As a last resort, ask for help.
 But please make sure you have carefully reviewed your setup, and gone through the checks above before asking.
-No one wants to lead you through the steps above to discover that you didn\'t.
+No one wants to lead you through the steps above to discover that you didn't.
 
-We\'ll ask you to provide the `diagnostics` output for both Taskwarrior and Taskserver, then we\'re going to go through the steps above, because this is our checklist also.
+We'll ask you to provide the `diagnostics` output for both Taskwarrior and Taskserver, then we're going to go through the steps above, because this is our checklist also.
 
-Impress us and mention the codeword \'Weasel\', to prove that you at least read this page all the way to the end.
+Impress us and mention the codeword 'Weasel', to prove that you at least read this page all the way to the end.
 
 There are several ways of getting help:
 
 - Check the FAQ (coming soon).
 - Email us at <taskwarrior-user@googlegroups.com>, then wait patiently for a volunteer to respond.
-- Join us IRC in the \#taskwarrior channel on libera.chat, and get a quick response from the community, where, as you have anticipated, we will walk you through the checklist above.
+- Join us IRC in the #taskwarrior channel on libera.chat, and get a quick response from the community, where, as you have anticipated, we will walk you through the checklist above.

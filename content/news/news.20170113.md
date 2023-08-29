@@ -13,4 +13,4 @@ There is no better opportunity to register your complaints directly and receive 
 We should be easily recognizable: that far-away look in our eyes, logo stickers, beer and of course, no mouse.
 
 Find us, talk to us.
-We\'d love to hear what you think.
+We'd love to hear what you think.

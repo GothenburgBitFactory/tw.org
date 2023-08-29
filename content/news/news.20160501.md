@@ -15,11 +15,11 @@ For a full list, see the git history of all the projects.
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2016-04-01 | - [#1811: Support additional countable infinities](https://github.com/GothenburgBitFactory/taskwarrior/issues/1811) reported                                            |
 |            | - [#1812: Urgency computations involving NaN are incorrect](https://github.com/GothenburgBitFactory/taskwarrior/issues/1812) reported                                   |
-| 2016-04-02 | - [#1813: taskrc(5) manpage: spurious \"pri.\" in rule.precedence.color](https://github.com/GothenburgBitFactory/taskwarrior/issues/1813) fixed                         |
+| 2016-04-02 | - [#1813: taskrc(5) manpage: spurious "pri." in rule.precedence.color](https://github.com/GothenburgBitFactory/taskwarrior/issues/1813) fixed                           |
 |            | - libshared: Added support for informal time: `8am`, `2:34pm` ...                                                                                                       |
 |            | - taskwarrior.org: Compressed all the images on the site.                                                                                                               |
 |            | - taskwarrior.org: Replaced email  addresses with mailing lists.                                                                                                        |
-| 2016-04-03 | - [#1814: The info command uses \'0\' to reference dependencies on non-pending tasks](https://github.com/GothenburgBitFactory/taskwarrior/issues/1814) fixed            |
+| 2016-04-03 | - [#1814: The info command uses '0' to reference dependencies on non-pending tasks](https://github.com/GothenburgBitFactory/taskwarrior/issues/1814) fixed              |
 |            | - Task: When a task ID is not available, a UUID is now used instead.                                                                                                    |
 | 2016-04-04 | - libshared: Added JSON2 SAX parser.                                                                                                                                    |
 | 2016-04-05 | - Timewarrior: Learns the `:quiet` hint.                                                                                                                                |
@@ -41,7 +41,7 @@ For a full list, see the git history of all the projects.
 |            | - libshared: Datetime can now work in look-forward or look-behind mode, i.e. what does `Monday` mean?                                                                   |
 |            | - libshared: Datetime disambiguated `som` from `someday`.                                                                                                               |
 |            | - Task: Removed a broken flapping test.                                                                                                                                 |
-|            | - Timewarrior: Defined what a filter is, and it\'s very simple.                                                                                                         |
+|            | - Timewarrior: Defined what a filter is, and it's very simple.                                                                                                          |
 | 2016-04-16 | - [#118: Shebang issue](https://github.com/GothenburgBitFactory/taskserver/issues/118) fixed                                                                            |
 | 2016-04-17 | - Timewarrior: Data access resolved down to `addInterval` and `deleteInterval`. Simple.                                                                                 |
 |            | - Timewarrior: Properly handles intervals that span data files.                                                                                                         |
@@ -52,7 +52,7 @@ For a full list, see the git history of all the projects.
 |            | - Timewarrior: Gained holiday file support.                                                                                                                             |
 | 2016-04-22 | - Timewarrior: Expanded set of report mockups for feedback.                                                                                                             |
 | 2016-04-23 | - Clog: Migrated to use libshared, updated the code base for C++11.                                                                                                     |
-|            | - Flod2: Typo in build system linked to missing library that wasn\'t used.                                                                                              |
+|            | - Flod2: Typo in build system linked to missing library that wasn't used.                                                                                               |
 |            | - libshared: Color can now emit raw codes.                                                                                                                              |
 |            | - Timewarrior: `diagnostics` now references the theme and shows swatches.                                                                                               |
 | 2016-04-24 | - Flod: Learned how to clone and switch branches in one step.                                                                                                           |

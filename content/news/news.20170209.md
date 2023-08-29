@@ -43,7 +43,7 @@ Finally, the team spent a little time getting ready for FOSDEM.
 |            | - rat: Now protects against multiple imports                                                                                                |
 |            | - rat: PEG supports new `<hex>` intrinsic                                                                                                   |
 | 2017-01-14 | - task: Build fixed in SunOS-like environments: OpenIndiana, Omnios, SmartOS                                                                |
-| 2017-01-15 | - taskd: Do not use \'which\' for finding gnutls certool path                                                                               |
+| 2017-01-15 | - taskd: Do not use 'which' for finding gnutls certool path                                                                                 |
 | 2017-01-16 | - [#257: Align countdown column on boundary between number and text.](https://github.com/GothenburgBitFactory/taskwarrior/issues/257) fixed |
 |            | - [#1598: Alternative approach to urgency inheritance](https://github.com/GothenburgBitFactory/taskwarrior/issues/1598) fixed               |
 |            | - [#1691: hooks: upon failure indicate which hook failed](https://github.com/GothenburgBitFactory/taskwarrior/issues/1691) fixed            |
@@ -53,7 +53,7 @@ Finally, the team spent a little time getting ready for FOSDEM.
 |            | - [#1893: Missing last character(s) in Description field](https://github.com/GothenburgBitFactory/taskwarrior/issues/1893) fixed            |
 |            | - [#1894: default.scheduled seems not to work](https://github.com/GothenburgBitFactory/taskwarrior/issues/1894) fixed                       |
 |            | - [#1874: Truncated description when adding annotation](https://github.com/GothenburgBitFactory/taskwarrior/issues/1874) fixed              |
-|            | - [#54: new theme files aren\'t installed](https://github.com/GothenburgBitFactory/timewarrior/issues/54) fixed                             |
+|            | - [#54: new theme files aren't installed](https://github.com/GothenburgBitFactory/timewarrior/issues/54) fixed                              |
 |            | - libshared: Duration::formatVague can now pad all values to the same length                                                                |
 | 2017-01-21 | - flod: Project no longer updated or supported                                                                                              |
 |            | - flod2: Project now public and begins deployment                                                                                           |

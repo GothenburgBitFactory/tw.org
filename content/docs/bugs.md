@@ -5,7 +5,7 @@ title: "Taskwarrior - How to report a bug"
 # How to Report a Bug
 
 Please report bugs and odd behavior when you see it.
-We don\'t necessarily know it\'s broken, unless you tell us.
+We don't necessarily know it's broken, unless you tell us.
 A good bug description improves response time and reduces the burden on the developers.
 
 It helps if you first determine whether this is a known bug.
@@ -13,7 +13,7 @@ To do this, you will need to look at the current list of bugs here:
 
 <https://github.com/GothenburgBitFactory/taskwarrior/issues>
 
-If you don\'t see the bug listed, sign up for an account at the link above, and create a new issue.
+If you don't see the bug listed, sign up for an account at the link above, and create a new issue.
 Please include the following information, as it helps us categorize, prioritize and replicate the problem:
 
 - Tell us *exactly* what command you ran

@@ -43,5 +43,5 @@ The value in this case consists of two tokens which cause footnotes to be shown 
 * sync       - Shows feedback during sync.
 * filter     - Shows the complete filter used. {{< label >}}2.4.0{{< /label >}}
 * override   - Shows in the header if TASKDATA or TASKRC are overridden. {{< label >}}2.6.0{{< /label >}}
-* unwait     - Notification whe a task leaves the \`waiting\` state. Displayed in the footnote.{{< label >}}2.5.0{{< /label >}}
+* unwait     - Notification whe a task leaves the `waiting` state. Displayed in the footnote.{{< label >}}2.5.0{{< /label >}}
 * context    - Show the current context. Displayed in footnote. {{< label >}}2.5.0{{< /label >}}

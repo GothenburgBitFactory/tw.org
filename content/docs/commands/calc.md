@@ -78,7 +78,7 @@ $ task calc '"The quick brown fox" ~ "q"'
 true
 ```
 
-Again, you\'ll need to protect the `~` and `!~` characters from interpretation by the shell, and in the last example, to protect the spaces in the sentence.
+Again, you'll need to protect the `~` and `!~` characters from interpretation by the shell, and in the last example, to protect the spaces in the sentence.
 
 ## Dates
 
@@ -130,7 +130,7 @@ $ task calc eoy-eom
 P184DT1H
 ```
 
-Note that the \'1H\' corresponds to the extra hour gained when summer time ends.
+Note that the '1H' corresponds to the extra hour gained when summer time ends.
 
 When does the 32-bit `time_t` problem (Unix Epoch, Y2K38) arrive?
 
@@ -179,7 +179,7 @@ This utility is used for testing, but has a few interesting features of its own.
 
 ## Calc Postfix
 
-Internally, the expression evaluator converts infix expressions (1 + 2 \* 3) to postfix (1 2 3 \* +), which is easier to implement and optimize, but `calc` exposes this:
+Internally, the expression evaluator converts infix expressions (1 + 2 * 3) to postfix (1 2 3 * +), which is easier to implement and optimize, but `calc` exposes this:
 
 ```
 $ calc --postfix '1 2 3 * +'

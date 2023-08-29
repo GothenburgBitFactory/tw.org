@@ -16,5 +16,5 @@ The newer accounts will be migrated shortly.
 To add bugs and feature requests please use: https://github.com/GothenburgBitFactory/taskwarrior/issues
 
 We will be without forums while the new system is brought online, which may take a little time.
-If you have questions, please use IRC \#taskwarrior at freenode, or email <support@gothenburgbitfactory.org> in the meantime.
+If you have questions, please use IRC #taskwarrior at freenode, or email <support@gothenburgbitfactory.org> in the meantime.
 We will be back online soon with better support options.

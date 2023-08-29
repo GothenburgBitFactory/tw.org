@@ -18,7 +18,7 @@ Before building the software, you will need to satisfy the dependencies by insta
 
 Note that some OSes (Darwin, FreeBSD, ...) include `libuuid` functionality in libc.
 
-You don\'t necessarily need the latest version of all components, but it is a good idea if you can.
+You don't necessarily need the latest version of all components, but it is a good idea if you can.
 GnuTLS is a security component, and as such, it is very important that it is current.
 Using GnuTLS version 2.12.x is neither adequately secure, nor production quality.
 

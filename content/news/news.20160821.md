@@ -19,8 +19,8 @@ Here are the features in 1.0.0:
 - [Taskwarrior integration](https://timewarrior.net/docs/taskwarrior)
 - [Data correction commands](https://timewarrior.net/docs/corrections)
 - [Tagging of time blocks](https://timewarrior.net/docs/tags)
-- [Automatic \'fill\' of the available time](https://timewarrior.net/docs/hints)
-- [Ability to define your work week, so that tracked time \'wraps\' around your available time](https://timewarrior.net/docs/workweek)
+- [Automatic 'fill' of the available time](https://timewarrior.net/docs/hints)
+- [Ability to define your work week, so that tracked time 'wraps' around your available time](https://timewarrior.net/docs/workweek)
 - [Vacations and holidays excluded from your work week](https://timewarrior.net/docs/holidays)
 - Holiday data from <https://holidata.net>
 - [Color themes (one built-in default, three others provided)](https://timewarrior.net/docs/themes)

@@ -25,7 +25,7 @@ This means no certificate is valid after a year.
 If you used the default scripts when you installed Taskserver 1.0.0, you may have already discovered this.
 
 It is generally a good idea to expire and renew certificates.
-Long-term certificates may need to be revoked using the CRL, so short-term certificates provide a dead-man\'s switch approach.
+Long-term certificates may need to be revoked using the CRL, so short-term certificates provide a dead-man's switch approach.
 
 ## Allow/Deny
 

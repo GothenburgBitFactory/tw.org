@@ -82,7 +82,7 @@ $ task 242
 
 The date format can be overridden using `dateformat.info`.
 
-Setting `journal.info` to \'yes\' will show a change log for the task, as seen in the examples above.
+Setting `journal.info` to 'yes' will show a change log for the task, as seen in the examples above.
 
 ## See Also
 

@@ -8,8 +8,8 @@ date: 2021-01-03
 The TaskWarrior team is happy to announce a new release! This bugfix-only release ships a critical fix for issue
 [#2375](https://github.com/GothenburgBitFactory/taskwarrior/issues/2375), which can make your task report commands hang and eventually die in certain scenarios.
 
-There were no other critical issues reported specifically for the 2.5.2 release, which either means we did an exceptional job in backporting bugfixes from 2.6.0, or nobody tested the 2.5.2 release and we\'re talking to ourselves here.
-Going forward, we\'re going to [tweet more](https://twitter.com/taskwarrior). We can get hearts there.
+There were no other critical issues reported specifically for the 2.5.2 release, which either means we did an exceptional job in backporting bugfixes from 2.6.0, or nobody tested the 2.5.2 release and we're talking to ourselves here.
+Going forward, we're going to [tweet more](https://twitter.com/taskwarrior). We can get hearts there.
 
 While most developments happen on the 2.6.0 branch, the 2.5.3 also proudly features refactored CI system which gave its stamp of approval for this release.
 

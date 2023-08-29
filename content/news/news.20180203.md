@@ -20,7 +20,7 @@ Here is a list of what is happening right now:
 
 - The old Confluence site at ~~`answers.tasktools.org`~~ has been retired.
   We will  be better served by an FAQ page, which is a curated list of questions, which  have been clarified, tested, and sometimes made for more general use.
-  This mean we\'ll have an organized FAQ, with no duplication, no bugs being  reported in the wrong place, no wrong answers being voted on, and so on.
+  This mean we'll have an organized FAQ, with no duplication, no bugs being  reported in the wrong place, no wrong answers being voted on, and so on.
   Additionally, there will be reduced costs and administration for us.
   The [new FAQ page](/support/faq) has begun, and  will be expanded as we work on it.
 

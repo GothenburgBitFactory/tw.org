@@ -11,7 +11,7 @@ This is not a complete list of all activity, just work that results in a non-tri
 For a full list, see the git history of all the projects.
 
 This covers a seven-month period.
-Due to unforeseen circumstances, there was a lengthy break in 2017. We\'re back.
+Due to unforeseen circumstances, there was a lengthy break in 2017. We're back.
 
 #### Summary
 
@@ -30,10 +30,10 @@ Most of the time was spent moving Timewarrior 1.1.0 closer to release.
 |            | - Timewarrior: data: Added better error when an attempt is made to track a future interval                                                            |
 | 2017-06-12 | - Taskwarrior: tests: Add tests for complex and-or queries                                                                                            |
 | 2017-06-14 | - Twarrior: Quote tags containing underscores                                                                                                         |
-| 2017-07-22 | - Taskwarrior: Recurrence: Updated \'until\' handling                                                                                                 |
+| 2017-07-22 | - Taskwarrior: Recurrence: Updated 'until' handling                                                                                                   |
 | 2017-07-27 | - Taskwarrior: context: Do not allow show, list or none as new context names                                                                          |
 | 2017-07-30 | - [#74: timew config converts integers to times](https://github.com/GothenburgBitFactory/timewarrior/issues/74) fixed                                 |
-| 2017-08-05 | - [#82: Tag parsing broken for tags starting with \"or\_\"](https://github.com/GothenburgBitFactory/timewarrior/issues/82) fixed                      |
+| 2017-08-05 | - [#82: Tag parsing broken for tags starting with "or_"](https://github.com/GothenburgBitFactory/timewarrior/issues/82) fixed                         |
 |            | - Flod: Improved test report formatting                                                                                                               |
 |            | - Flod: Added test count for 100% case                                                                                                                |
 | 2017-08-18 | - All: Update git repo url                                                                                                                            |
@@ -44,14 +44,14 @@ Most of the time was spent moving Timewarrior 1.1.0 closer to release.
 | 2017-10-23 | - libshared: Added Packrat `external` tests                                                                                                           |
 | 2017-11-21 | - Timewarrior: Commands: Reduce code duplication                                                                                                      |
 | 2017-11-24 | - All: Improve TAP compliance in test suite                                                                                                           |
-|            | - Taskwarrior: CLI2,Config: Add \'override\' verbosity options                                                                                        |
+|            | - Taskwarrior: CLI2,Config: Add 'override' verbosity options                                                                                          |
 |            | - Docs/CLI2: Additional dev docs for applyOverrides                                                                                                   |
 | 2017-12-01 | - [#79: Fix cases where interval borders match when applying :fill hint](https://github.com/GothenburgBitFactory/timewarrior/issues/79) fixed         |
 | 2017-12-02 | - [#1942: Typo in help](https://github.com/GothenburgBitFactory/taskwarrior/issues/1942) fixed                                                        |
 |            | - [#1947: Separate verbosity category for rc overrides](https://github.com/GothenburgBitFactory/taskwarrior/issues/1947) fixed                        |
 |            | - [#1948: Tweak tests to have fuller TAP compliance](https://github.com/GothenburgBitFactory/taskwarrior/issues/1948) fixed                           |
-| 2017-12-05 | - [#94: Update help for command \' continue\'](https://github.com/GothenburgBitFactory/timewarrior/issues/94) fixed                                   |
-|            | - [#94: Make \'continue\' accept a date range](https://github.com/GothenburgBitFactory/timewarrior/issues/94) fixed                                   |
+| 2017-12-05 | - [#94: Update help for command 'continue'](https://github.com/GothenburgBitFactory/timewarrior/issues/94) fixed                                      |
+|            | - [#94: Make 'continue' accept a date range](https://github.com/GothenburgBitFactory/timewarrior/issues/94) fixed                                     |
 | 2017-12-07 | - Timewarrior: Fix filter for summary when only a date is given                                                                                       |
 | 2017-12-09 | - [#1948: Tweak tests to have fuller TAP compliance](https://github.com/GothenburgBitFactory/taskwarrior/issues/1948) fixed                           |
 |            | - [#1950: Adjust behaviour of new-uuid and new-id verbosity levels](https://github.com/GothenburgBitFactory/taskwarrior/issues/1950) fixed            |

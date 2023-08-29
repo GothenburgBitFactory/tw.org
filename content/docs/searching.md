@@ -5,7 +5,7 @@ title: "Taskwarrior - Searching"
 # Searching
 
 Searching for keywords and patterns in tasks is straightforward, and uses the `/pattern/` syntax.
-First we create some sample tasks, then we\'ll search them.
+First we create some sample tasks, then we'll search them.
 
 ```
 $ task add foo
@@ -25,7 +25,7 @@ ID Age   D Description Urg
 
 The `/` characters delimit the search term, indicating what Taskwarrior should do.
 Because task annotations are also searchable text, we can be sure that any annotations containing the pattern `/foo/` will also be found.
-Let\'s add a task with such an annotation:
+Let's add a task with such an annotation:
 
 ```
 $ task 3 annotate footwear

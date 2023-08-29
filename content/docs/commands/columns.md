@@ -9,7 +9,7 @@ Each column may have multiple formats, and there are examples shown of each of t
 
 As an example, a `due` date can be shown in various ways.
 It can be formatted according to the `dateformat` configuration setting.
-It can also be shown as a Julian date, a POSIX epoch, in ISO-8601 format, as an \'age\' value or as a \'countdown\' value.
+It can also be shown as a Julian date, a POSIX epoch, in ISO-8601 format, as an 'age' value or as a 'countdown' value.
 
 Each column has a default format, so if the custom report specifies:
 

@@ -12,9 +12,9 @@ Here are the new features:
 
 - Nope
 
-There aren\'t any, this is a bug fix and performance release.
+There aren't any, this is a bug fix and performance release.
 We just wanted to make it all work better.
-Don\'t you just wish everyone did this once in a while?
+Don't you just wish everyone did this once in a while?
 
 For full details, see the ChangeLog file included in the release.
 The release is immediately available as a source [tarball](/download/task-2.5.1.tar.gz).

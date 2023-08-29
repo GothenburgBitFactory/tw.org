@@ -8,12 +8,13 @@ title: "Taskwarrior - Job Openings"
 We need help, in all kinds of areas, for all skill levels.{{< /lead >}}
 
 This is Open Source volunteer work.
-The pay is zero, but you\'ll get your hands dirty in a set of active projects that need all different kinds of help.
-Perhaps you\'re a professional with a little time here and there to donate to the projects.
-Perhaps you\'re new to this, and would like to be active in Open Source, in a friendly community where you can get lots of help, make much-needed contributions, and maybe learn something.
+The pay is zero, but you'll get your hands dirty in a set of active projects that need all different kinds of help.
+Perhaps you're a professional with a little time here and there to donate to the projects.
+Perhaps you're new to this, and would like to be active in Open Source, in a friendly community where you can get lots of help, make much-needed contributions, and maybe learn something.
 
-We believe a lot of you would like to join in, but don\'t know where to start.
-We\'ll guide you and teach you what you need. [Talk to us](mailto:support@gothenburgbitfactory.org).
+We believe a lot of you would like to join in, but don't know where to start.
+We'll guide you and teach you what you need.
+[Talk to us](mailto:support@gothenburgbitfactory.org).
 
 Open Source: Good for the software. Good for the résumé/c.v. Good for the soul.
 
@@ -57,7 +58,7 @@ This involves:
 - Refactor bad tests.
 - Combining/reducing existing duplicate tests.
 - Improving test coverage.
-  Taskwarrior was at 90% some time ago, the others we don\'t have time to check.
+  Taskwarrior was at 90% some time ago, the others we don't have time to check.
 - Improve release quality.
 - Improve test suite speed.
 - Veto for project releases.
@@ -93,7 +94,7 @@ This involves:
 
 ### Time Commitment
 
-We don\'t know.
+We don't know.
 Demos are hard work.
 
 ## Technical Community Liaison
@@ -109,7 +110,7 @@ This involves:
 - Help us find a Cygwin package maintainer.
 - Advise distros with their documentation.
 - Identify missing distros and make noise.
-- Solve some problems: Debian won\'t use our PDFs, or update old GnuTLS libs.
+- Solve some problems: Debian won't use our PDFs, or update old GnuTLS libs.
 - Advise development on distro issues, improvements.
 
 ### Skills Needed
@@ -140,7 +141,7 @@ This involves:
 
 ### Time Commitment
 
-We don\'t know.
+We don't know.
 More at first, less over time.
 
 ## Publishing

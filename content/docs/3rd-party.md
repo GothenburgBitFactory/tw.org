@@ -15,11 +15,11 @@ We encourage you to create such add-ons, but in doing so, there are some rules t
 
 - Produce, consume and handle UTF8 text properly.
   UTF8 is the only text encoding supported by Taskwarrior.
-- Don\'t attempt to parse the pending.data file.
-  Here\'s why: the `.data` file format is currently on its fourth version.
+- Don't attempt to parse the pending.data file.
+  Here's why: the `.data` file format is currently on its fourth version.
   The very first version was never released, so if you want to read Taskwarrior data properly, you will need to parse the three supported formats.
   Those formats are not documented.
-  Additionally, you will need to handle the GC operations, implement the task \"unwait\" feature, observe user defined attribute handling restrictions, and implement recurring task synthesis all of which require `.taskrc` and default value access.
+  Additionally, you will need to handle the GC operations, implement the task "unwait" feature, observe user defined attribute handling restrictions, and implement recurring task synthesis all of which require `.taskrc` and default value access.
   You would essentially be rewriting the data access and configuration portion of Taskwarrior, which is a major undertaking.
   To support filters you would also need to evaluate the supported clauses, provide DOM access and implement aliases.
   Then there is also the fifth data format, which is planned...
@@ -45,8 +45,8 @@ We encourage you to create such add-ons, but in doing so, there are some rules t
 ## Guidelines
 
 - If you need to store additional data, consider putting your own data file in the `~/.task` directory.
-  Just don\'t use the file names `pending.data`, `completed.data`, `backlog.data`, or `undo.data`.
+  Just don't use the file names `pending.data`, `completed.data`, `backlog.data`, or `undo.data`.
 - There are many helper commands designed to assist add-on scripts such as shell completion scripts.
   These commands all begin with an underscore, see them with this command: `task help | grep ' _'`.
 - Familiarize yourself with the means of forcing color on or off, disabling word wrapping, disabling bulk operation limitations, disabling confirmation, disabling gc, modifying verbosity and so on.
-  There are ways around almost all the restrictions, and while these don\'t make sense for regular users, they can be critical for add-on authors.
+  There are ways around almost all the restrictions, and while these don't make sense for regular users, they can be critical for add-on authors.

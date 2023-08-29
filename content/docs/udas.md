@@ -37,12 +37,12 @@ The `string` UDA type is special, in that a list of acceptable values may also b
 
 A UDA is created by modifying configuration.
 There are two or three configuration settings involved.
-Let\'s create an `estimate` UDA that is numeric:
+Let's create an `estimate` UDA that is numeric:
 
     $ task config uda.estimate.type numeric
     $ task config uda.estimate.label Est
 
-That\'s all - but note there are three pieces of information there: first there is \"estimate\", which is the attribute name, then \"numeric\" which is the type, and finally \"Est\", which is the default label used when the UDA is included in a report.
+That's all - but note there are three pieces of information there: first there is "estimate", which is the attribute name, then "numeric" which is the type, and finally "Est", which is the default label used when the UDA is included in a report.
 Now you can add or modify a task to include an estimate.
 
     $ task add "Paint the door" project:Home estimate:4
@@ -51,15 +51,14 @@ Now you can add or modify a task to include an estimate.
 ## Example: size
 
 Now suppose you are developing software in an Agile environment.
-You may wish to have a `size` attribute that may contain a fixed set of values, such as
-\"large\", \"medium\" or \"small\".
+You may wish to have a `size` attribute that may contain a fixed set of values, such as "large", "medium" or "small".
 This is achieved using an additional configuration setting:
 
     $ task config uda.size.type string
     $ task config uda.size.label Size
     $ task config uda.size.values large,medium,small
 
-Now if you attempt to store a value such as \"tiny\", taskwarrior will disallow it.
+Now if you attempt to store a value such as "tiny", taskwarrior will disallow it.
 
 ## Default Values
 

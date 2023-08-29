@@ -6,7 +6,7 @@ title: "Taskwarrior - Reports"
 
 Taskwarrior has three kinds of reports.
 There are built-in reports that cannot be modified, such as `info` and `summary`. There are built-in reports which can be redefined completely or eliminated, such as `list`, `next`. And finally there are your own custom reports.
-To generate a list of \*all\* the reports, use the
+To generate a list of *all* the reports, use the
 `reports` command:
 
     $ task reports

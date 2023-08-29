@@ -17,7 +17,7 @@ It is based on a dozen or more factors that combine to form an overall urgency s
 Now this is not going to be a complete and accurate representation of urgency for many reasons, primarily because each of us has different criteria when judging the importance of a task.
 But it will *approximate* urgency, and that is the goal.
 
-There are many other real-life examples of algorithms that are used to approximate qualities: the Apgar Score that assesses the health of newborns, Google\'s Page Rank that measures the importance of a web link, or credit ratings.
+There are many other real-life examples of algorithms that are used to approximate qualities: the Apgar Score that assesses the health of newborns, Google's Page Rank that measures the importance of a web link, or credit ratings.
 These examples all approximate, but cannot perfectly represent, a complex concept.
 
 Taskwarrior uses a polynomial expression to calculate urgency.
@@ -53,7 +53,7 @@ The urgency coefficients and their default values are:
 
 The first coefficient has a value of 15.0, which is the highest value.
 This means that any task with the `+next` tag has an urgency score of at least 15.0.
-The `+next` tag is known as a \'special tag\', which is simply a tag that triggers some behavior in taskwarrior - in this case it elevates the urgency score.
+The `+next` tag is known as a 'special tag', which is simply a tag that triggers some behavior in taskwarrior - in this case it elevates the urgency score.
 Because the coefficient has the largest value, it indicates that the
 `+next` tag has the greatest influence on urgency.
 

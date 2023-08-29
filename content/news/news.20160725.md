@@ -7,7 +7,7 @@ date: 2016-07-25
 
 Timewarrior 1.0.0 is in beta! Please download and give us feedback.
 
-Download here: [timew-1.0.0.tar.gz](https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.0.0/timew-1.0.0.tar.gz)\
+Download here: [timew-1.0.0.tar.gz](https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.0.0/timew-1.0.0.tar.gz)
 
 Online documentation here: [Timewarrior Documentation Home](https://timewarrior.net/docs)
 

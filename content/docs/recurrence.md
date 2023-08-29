@@ -58,7 +58,7 @@ Urgency     2.4
 Notice how the instance has a status `pending`, and a reference back to the template task (Parent task).
 In addition, you can see it inherited the recurrence and description, and if there was a project, priority and tags, those would also be inherited.
 
-The recurring instance has an attribute named \'Mask Index\', which is zero.
+The recurring instance has an attribute named 'Mask Index', which is zero.
 This indicates that it is the first of the many recurring task instances, the counting being zero-based.
 
 Now if we look back at the template task, we see changes:
@@ -98,4 +98,4 @@ Instead, you interact with the recurring task instances, and in most cases, chan
 In this example one task instance is generated for the next due period.
 This is because the configuration setting `recurrence.limit` is set to 1, the default.
 If this number is increased to 2, then you would see the next 2 instances generated.
-Note that this only generates two steps into the future, without regard for whether those two instances are completed or not - don\'t expect to complete the first task and see a new one pop up immediately.
+Note that this only generates two steps into the future, without regard for whether those two instances are completed or not - don't expect to complete the first task and see a new one pop up immediately.

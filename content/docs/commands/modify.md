@@ -41,7 +41,7 @@ $ task 1 modify +tag /from/to/ project:New priority:H depends:2 due:tomorrow rec
 
 ## Configuration
 
-Taskwarrior has a \'bulk\' threshold, which defaults to three tasks.
+Taskwarrior has a 'bulk' threshold, which defaults to three tasks.
 If you attempt to modify more than three tasks in one command, then additional confirmation is needed:
 
 ```

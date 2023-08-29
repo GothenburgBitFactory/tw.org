@@ -7,7 +7,7 @@ draft: false
 
 Certain characters are interpreted by the shell.
 For example, the `&`.
-If you wish to include the `&` in a task description, you need to escape it, so the shell doesn\'t interpret it.
+If you wish to include the `&` in a task description, you need to escape it, so the shell doesn't interpret it.
 For example:
 
     $ task add Buy bread & milk
@@ -19,7 +19,7 @@ The shell will consider this to be two commands:
     $ milk
 
 The shell treats the `&` character as an indicator that the command is complete and should be run in the background.
-Then the shell considers \"milk\" to be a command all by itself, which it is not.
+Then the shell considers "milk" to be a command all by itself, which it is not.
 One way to get around this is to individually escape the `&` character:
 
     $ task add Buy bread \& milk
@@ -35,7 +35,6 @@ If you wish to use quotes in the task description itself, you can individually e
 In other situations, the shell sees spaces and breaks up arguments.
 For example, this command:
 
-``````
     $ task 123 modify /from this/to that/
 
 is broken up into several arguments, which is corrected with quotes:
@@ -62,7 +61,7 @@ There is a special command line argument which is two hyphens `--`, and when thi
 ## When All Else Fails...
 
 There is a solution.
-We don\'t like it, but it exists for difficult cases.
+We don't like it, but it exists for difficult cases.
 The [`edit` command](#) is a way to bypass all the shell problems.
 Simply do this:
 

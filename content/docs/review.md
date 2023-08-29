@@ -23,12 +23,12 @@ It is named `_reviewed` and simply lists the UUID values of tasks that need to b
 This report then drives an interactive session where you go through that list of tasks one at a time, and have the chance to modify, skip or mark the task as reviewed.
 
 When you mark a task as reviewed, Tasksh adds a `reviewed` timestamp to the task, as a [UDA](/docs/udas) defined for this purpose.
-This attribute is used in the `_reviewed` report filter to make sure you don\'t review the same task more often than weekly.
+This attribute is used in the `_reviewed` report filter to make sure you don't review the same task more often than weekly.
 
 The combination of the `reviewed` timestamp, and the `_reviewed` report means that if you were to review all your tasks today, then immediately performing another review would yield no tasks to review.
 After a week has passed, you will be able to review all the tasks again.
 
-This ability to \'resume\' a review session means that you can stop a review session at any time, and resume later.
+This ability to 'resume' a review session means that you can stop a review session at any time, and resume later.
 You can even specify how many tasks you would like to review, which means you can review a small set of tasks more frequently, making the review process shorter.
 
 When you first review, Tasksh will automatically configure Taskwarrior to create the `_reviewed` report, and the `reviewed` UDA.

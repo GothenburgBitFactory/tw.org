@@ -19,10 +19,10 @@ The following are changes included since the beta release:
 - do not print control characters to prompts
 - fix recognition of backspace in tmux
 - fix a prompt bug that prevented editing
-- \'vit -audit\' now creates a log with debug info
+- 'vit -audit' now creates a log with debug info
 
 Many thanks to Devendra Ghate and Nemo Inis, who provided quality feedback.
 
-For bug reports and feature requests, [please register](https://github.com/GothenburgBitFactory/taskwarrior/issues) and create an issue for the project \"VIT\".
+For bug reports and feature requests, [please register](https://github.com/GothenburgBitFactory/taskwarrior/issues) and create an issue for the project "VIT".
 
-For any other questions, please email Scott Kostyshak at skostysh\@princeton.edu.
+For any other questions, please email Scott Kostyshak at skostysh@princeton.edu.

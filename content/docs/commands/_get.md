@@ -2,7 +2,7 @@
 title: "Taskwarrior - _get"
 ---
 
-# \_get
+# _get
 
 The `_get` command is a [DOM](/docs/dom) accessor.
 You can use this command to extract any piece of information stored by taskwarrior.

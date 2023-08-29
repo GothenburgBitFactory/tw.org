@@ -2,7 +2,7 @@
 title: "Taskwarrior - _unique"
 ---
 
-# \_unique
+# _unique
 
 The `_unique` command generates a filtered list of unique values for a given attribute.
 For example, to generate the list project names:

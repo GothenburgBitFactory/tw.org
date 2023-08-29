@@ -43,5 +43,6 @@ $ task config taskd.server ::1:53589
 $ task config taskd.server fe80::1:53589
 ```
 
-The \'localhost\' uses whichever your system is set to use.
-The \'127.0.0.1\' s an IPv4 address, and therefore uses IPv4. The last two are IPv6 addresses, and therefore use IPv6.
+The 'localhost' uses whichever your system is set to use.
+The '127.0.0.1' s an IPv4 address, and therefore uses IPv4.
+The last two are IPv6 addresses, and therefore use IPv6.
