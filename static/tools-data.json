@@ -1790,6 +1790,21 @@
     "description": null,
     "dormant": false,
     "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "Taskwarrior_sh",
+    "owner": [
+      "Rodrigo-Hip27989"
+    ],
+    "rating": 0,
+    "updated": "2022-11-24",
+    "url": "https://github.com/Rodrigo-Hip27989/Taskwarrior_sh"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
       "JavaScript"
     ],
     "license": null,
@@ -2565,6 +2580,21 @@
     "rating": 0,
     "updated": "2020-11-07",
     "url": "https://github.com/abhishektc/taskServerSideMEAN"
+  },
+  {
+    "description": "A tasklib clone built with Dart",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "name": "dart-taskwarrior",
+    "owner": [
+      "abitbetterthanyesterday"
+    ],
+    "rating": 0,
+    "updated": "2023-07-04",
+    "url": "https://github.com/abitbetterthanyesterday/dart-taskwarrior"
   },
   {
     "description": "A taskwarrior client for mobile.",
@@ -3807,7 +3837,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2023-08-24",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4168,7 +4198,7 @@
       "codehivetx"
     ],
     "rating": 0,
-    "updated": "2022-11-28",
+    "updated": "2023-08-29",
     "url": "https://github.com/codehivetx/dock-warrior"
   },
   {
@@ -4395,6 +4425,21 @@
     "rating": 0,
     "updated": "2023-03-10",
     "url": "https://github.com/dathanb/taskwarrior-docker-dev"
+  },
+  {
+    "description": "A simple util to help with prioritizing and deprioritizing tasks in taskwarrior",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "taskwarrior-focus",
+    "owner": [
+      "dathanb"
+    ],
+    "rating": 0,
+    "updated": "2023-02-20",
+    "url": "https://github.com/dathanb/taskwarrior-focus"
   },
   {
     "description": null,
@@ -6752,6 +6797,21 @@
     "url": "https://github.com/jrcharney/taskwarrior-themes"
   },
   {
+    "description": "Taskwarrior integration for Mattermost",
+    "dormant": true,
+    "language": [
+      "PHP"
+    ],
+    "license": "MIT License",
+    "name": "mattermost-taskwarrior",
+    "owner": [
+      "jrenslin"
+    ],
+    "rating": 1,
+    "updated": "2017-12-05",
+    "url": "https://github.com/jrenslin/mattermost-taskwarrior"
+  },
+  {
     "description": "a tiny program that emits allergy-shot-related taskwarrior tasks",
     "dormant": true,
     "language": [
@@ -7002,8 +7062,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1155,
-    "updated": "2023-08-28",
+    "rating": 1158,
+    "updated": "2023-08-29",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8218,7 +8278,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-08-28",
+    "updated": "2023-08-29",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8293,7 +8353,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-08-24",
+    "updated": "2023-08-29",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -8942,6 +9002,21 @@
     "url": "https://github.com/nbossard/taskwarrior-hook-addannotation"
   },
   {
+    "description": "Why use taskwarrior instead of another todo list",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior_pres",
+    "owner": [
+      "nbossard"
+    ],
+    "rating": 0,
+    "updated": "2023-06-19",
+    "url": "https://github.com/nbossard/taskwarrior_pres"
+  },
+  {
     "description": "vim plugin for taskwarrior conf files",
     "dormant": false,
     "language": [
@@ -9087,7 +9162,7 @@
     "owner": [
       "neuhalje"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2019-05-29",
     "url": "https://github.com/neuhalje/notmuch-task"
   },
@@ -9255,6 +9330,21 @@
     "rating": 0,
     "updated": "2015-05-14",
     "url": "https://github.com/nocejo/tsh"
+  },
+  {
+    "description": "A wrapper for Taskwarrior, featuring a fancier output and local repositories workflow.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU Affero General Public License v3.0",
+    "name": "taskwarrior-deluxe",
+    "owner": [
+      "nojhan"
+    ],
+    "rating": 0,
+    "updated": "2023-08-21",
+    "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
   {
     "description": "Taskwarrior-inspired approach to append logs",
@@ -9988,7 +10078,7 @@
       "ralphbean"
     ],
     "rating": 679,
-    "updated": "2023-08-11",
+    "updated": "2023-08-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
