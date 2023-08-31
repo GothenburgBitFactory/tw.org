@@ -3282,8 +3282,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 268,
-    "updated": "2023-08-23",
+    "rating": 269,
+    "updated": "2023-08-30",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3387,7 +3387,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 212,
+    "rating": 214,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4873,7 +4873,7 @@
       "ecocode"
     ],
     "rating": 0,
-    "updated": "2023-08-27",
+    "updated": "2023-08-30",
     "url": "https://github.com/ecocode/notmuch-taskwarrior"
   },
   {
@@ -6222,7 +6222,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 69,
+    "rating": 68,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -7062,7 +7062,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1158,
+    "rating": 1159,
     "updated": "2023-08-29",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8278,7 +8278,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-08-29",
+    "updated": "2023-08-31",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8353,7 +8353,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-08-29",
+    "updated": "2023-08-30",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9343,7 +9343,7 @@
       "nojhan"
     ],
     "rating": 0,
-    "updated": "2023-08-21",
+    "updated": "2023-08-30",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
   {
@@ -11592,7 +11592,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 761,
+    "rating": 762,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11640,21 +11640,6 @@
     "rating": 3,
     "updated": "2023-02-23",
     "url": "https://github.com/tpeetz/pull-task"
-  },
-  {
-    "description": "A Timewarrior report script for calculating billable hours.",
-    "dormant": false,
-    "language": [
-      "Nim"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "timew-billable",
-    "owner": [
-      "trev-dev"
-    ],
-    "rating": 8,
-    "updated": "2022-12-06",
-    "url": "https://github.com/trev-dev/timew-billable"
   },
   {
     "description": "Various notifications for taskwarrior",
