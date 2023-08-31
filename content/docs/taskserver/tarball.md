@@ -31,7 +31,7 @@ You should check for the latest stable release here: <https://taskwarrior.org/do
 You can download the tarball with `curl`, as an example of just one of many ways to download the tarball.
 
 ```
-$ curl -LO https://taskwarrior.org/download/taskd-latest.tar.gz
+$ curl -LO {{< project "taskd" "stable" "url" >}}
 ```
 
 ## Build
@@ -39,8 +39,8 @@ $ curl -LO https://taskwarrior.org/download/taskd-latest.tar.gz
 Expand the tarball, and build the Taskserver.
 
 ```
-$ tar xzf taskd-latest.tar.gz
-$ cd taskd-1.1.0
+$ tar xzf taskd-{{< project "taskd" "stable" "version" >}}.tar.gz
+$ cd taskd-{{< project "taskd" "stable" "version" >}}
 $ cmake -DCMAKE_BUILD_TYPE=release .
 ...
 $ make

@@ -43,38 +43,18 @@
     </div>
     <div class="col-md-3">
       <div class="alert alert-success">
-        <h4><a class="alert-link" href="#">Questions?</a></h4>
+        <h4><strong>Questions?</strong></h4>
         <div class="small">
           <p>
             Try our <a href="/support/faq">FAQ</a>, a growing list of curated questions and answers.
           </p>
           <p>
-            <a href="https://gothenburgbitfactory.github.io/taskserver-setup/">Taskserver Setup Guide</a>
-            <br>
-            <a href="https://gothenburgbitfactory.github.io/taskserver-troubleshooting/">Taskserver Troubleshooting
-              Guide</a>.
+            <a href="https://gothenburgbitfactory.github.io/taskserver-setup/">Taskserver Setup Guide</a><br>
+            <a href="https://gothenburgbitfactory.github.io/taskserver-troubleshooting/">Taskserver Troubleshooting Guide</a>.
           </p>
         </div>
       </div>
-
-      <div class="alert alert-danger">
-        <h4>Get the Code</h4>
-        <div class="small">
-          Stable: <a class="alert-link" href="/download/task-2.6.2.tar.gz">Taskwarrior 2.6.2</a><br>
-          Stable: <a class="alert-link" href="/download/taskd-1.1.0.tar.gz">Taskserver 1.1.0</a><br>
-          Stable: <a class="alert-link" href="/download/tasksh-1.2.0.tar.gz">Tasksh 1.2.0</a><br>
-          Stable: <a class="alert-link" href="https://timewarrior.net/">Timewarrior 1.4.3</a><br>
-          <br>
-          Dev: <a class="alert-link" href="https://github.com/GothenburgBitFactory/taskwarrior/tree/develop">Taskwarrior
-          3.0.0</a><br>
-          Dev: <a class="alert-link" href="https://github.com/GothenburgBitFactory/taskserver/tree/1.2.0">Taskserver
-          1.2.0</a><br>
-          Dev: <a class="alert-link" href="https://github.com/GothenburgBitFactory/taskshell/tree/1.3.0">Tasksh
-          1.3.0</a><br>
-          Dev: <a class="alert-link" href="https://github.com/GothenburgBitFactory/timewarrior">Timewarrior
-          dev</a><br>
-        </div>
-      </div>
+      {{ partial "get_the_code.html" . }}
     </div>
   </div>
 </main>

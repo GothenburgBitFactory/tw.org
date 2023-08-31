@@ -1,0 +1,1 @@
+{{ $project := index $.Site.Data.projects ( .Get 0 ) }}{{ $branch := index $project ( .Get 1 ) }}{{- index $branch ( .Get 2 ) -}}

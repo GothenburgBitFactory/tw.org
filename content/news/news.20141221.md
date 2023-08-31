@@ -21,4 +21,4 @@ It achieves this by having almost no features.
 
 The 1.0.0 release is a starting point, a platform on which we can build interesting capabilities that are external to Taskwarrior.
 
-The release is available as a source [tarball](/download/tasksh-1.1.0.tar.gz).
+The release is available as a source [tarball](https://github.com/GothenburgBitFactory/taskshell/releases/download/v1.0.0/tasksh-1.0.0.tar.gz).

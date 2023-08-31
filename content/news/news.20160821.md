@@ -41,5 +41,5 @@ Please let us know how Timewarrior does and does not meet your needs.
 We are looking to release Timewarrior improvements regularly, streamline the user experience, and add some rules and triggers.
 
 For full details, see the ChangeLog file included in the release.
-The release is immediately available as a source [tarball](/download/timew-1.0.0.tar.gz).
+The release is immediately available as a source [tarball](https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.0.0/timew-1.0.0.tar.gz).
 Binary packages for your OS may appear soon.

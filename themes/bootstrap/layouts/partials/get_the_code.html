@@ -1,0 +1,24 @@
+<div class="alert alert-danger">
+  <h4><strong>Get the Code</strong></h4>
+  <div class="small">
+    {{ range $project := index $.Site.Data.projects }}
+      {{ $name := .name }}
+      {{ with $project }}
+        {{ $branch := index . "stable" }}
+        {{ with $branch }}
+    Stable: <a class="alert-link" href="{{ .url }}">{{ $name }} {{ .version }}</a><br>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+    <br>
+    {{ range $project := index $.Site.Data.projects }}
+      {{ $name := .name }}
+      {{ with $project }}
+        {{ $branch := index . "develop" }}
+        {{ with $branch }}
+    Develop: <a class="alert-link" href="{{ .url }}">{{ $name }} {{ .version }}</a><br>
+        {{ end }}
+      {{ end }}
+    {{ end }}
+  </div>
+</div>

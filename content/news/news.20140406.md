@@ -7,7 +7,7 @@ date: 2014-04-06
 
 Version 1.2 of the VIT front-end for Taskwarrior is available for download now.
 
-Download here: [vit-1.2.tar.gz](/download/vit-1.2.tar.gz).
+Download here: [vit-1.2.tar.gz](https://github.com/vit-project/vit/archive/refs/tags/v1.2.tar.gz).
 
 See the [VIT 1.2 beta1 announcement](/news/news.20140220) for the features introduced in 1.2.
 
