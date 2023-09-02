@@ -493,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 25,
-    "updated": "2023-08-28",
+    "updated": "2023-09-01",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -612,7 +612,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 125,
+    "rating": 126,
     "updated": "2023-07-14",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1303,7 +1303,7 @@
       "KevCui"
     ],
     "rating": 18,
-    "updated": "2023-08-19",
+    "updated": "2023-09-01",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2398,7 +2398,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-08-25",
+    "updated": "2023-09-02",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2883,7 +2883,7 @@
   },
   {
     "description": "A set of scripts to manage attachments in TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3462,7 +3462,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 69,
+    "rating": 68,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -5037,7 +5037,7 @@
     "owner": [
       "erikh"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2021-08-29",
     "url": "https://github.com/erikh/calwarrior"
   },
@@ -5652,7 +5652,7 @@
     "owner": [
       "guludo"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-07-07",
     "url": "https://github.com/guludo/taskwarrior-autotagger"
   },
@@ -6882,7 +6882,7 @@
     "owner": [
       "jspricke"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2022-10-06",
     "url": "https://github.com/jspricke/python-icstask"
   },
@@ -9343,7 +9343,7 @@
       "nojhan"
     ],
     "rating": 0,
-    "updated": "2023-08-30",
+    "updated": "2023-09-01",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
   {
@@ -10077,7 +10077,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 679,
+    "rating": 680,
     "updated": "2023-08-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -11642,6 +11642,21 @@
     "url": "https://github.com/tpeetz/pull-task"
   },
   {
+    "description": "A Timewarrior report script for calculating billable hours.",
+    "dormant": false,
+    "language": [
+      "Nim"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "timew-billable",
+    "owner": [
+      "trev-dev"
+    ],
+    "rating": 8,
+    "updated": "2022-12-06",
+    "url": "https://github.com/trev-dev/timew-billable"
+  },
+  {
     "description": "Various notifications for taskwarrior",
     "dormant": true,
     "language": [
@@ -12057,7 +12072,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2021-11-12",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
