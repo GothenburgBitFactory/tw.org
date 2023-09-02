@@ -7,8 +7,6 @@ title: "Taskwarrior - Hooks v2"
 The API defined here is the [Hooks v2] API.
 This API is part of the TaskWarrior 2.4.3 release.
 
-# Hooks v2
-
 ## Events
 
 No change.
@@ -40,72 +38,14 @@ With `v2` there will also be command line arguments provided to the script.
 
 A script may take advantage of the `v2` enhancements though, to extend its capabilities.
 
-<table class="table table-striped table-condensed">
-<tr>
-  <th>Argument</th>
-  <th>Meaning</th>
-</tr>
-<tr>
-  <td><code>api:2</code></td>
-  <td>
-    <p>
-      The <code>2</code> specified means Hooks API <code>v2</code>.
-      This will be a monotonically increasing number, as the
-      Hooks API evolves.
-    </p>
-    <p>
-      The only possible value for this argument is currently
-      <code>2</code>, because the <code>v1</code> API does not
-      provide command line arguments.
-    </p>
-  </td>
-</tr>
-<tr>
-  <td><code>args:task ...</code></td>
-  <td>
-    <p>
-      The script has read-only access to the command line that
-      Taskwarrior received.
-    </p>
-  </td>
-</tr>
-<tr>
-  <td><code>command:add|done|sync|...</code></td>
-  <td>
-    <p>
-      The command Taskwarrior recognized in its command line
-      arguments.
-    </p>
-  </td>
-</tr>
-<tr>
-  <td><code>rc:/path/to/.taskrc</code></td>
-  <td>
-    <p>
-      Absolute path of rc file used by Taskwarrior after all
-      overrides have been applied.
-    </p>
-  </td>
-</tr>
-<tr>
-  <td><code>data:/path/to/task/folder</code></td>
-  <td>
-    <p>
-      Absolute path of folder containing Taskwarrior's *.data
-      files.
-    </p>
-  </td>
-</tr>
-<tr>
-  <td><code>version:x.y.z</code></td>
-  <td>
-    <p>
-      Taskwarrior version calling the hook.
-      Same as the one reported by "task --version", e.g. "2.4.3"
-    </p>
-  </td>
-</tr>
-</table>
+| Argument                       | Meaning                                                                                                                                                                                                                                     |
+|--------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `api:2`                        | The `2` specified means Hooks API `v2`. This will be a monotonically increasing number, as the Hooks API evolves. The only possible value for this argument is currently `2`, because the `v1` API does not provide command line arguments. |
+| `args:task ...`                | The script has read-only access to the command line that Taskwarrior received.                                                                                                                                                              |
+| `command:add\|done\|sync\|...` | The command Taskwarrior recognized in its command line arguments.                                                                                                                                                                           |
+| `rc:/path/to/.taskrc`          | Absolute path of rc file used by Taskwarrior after all overrides have been applied.                                                                                                                                                         |
+| `data:/path/to/task/folder`    | Absolute path of folder containing Taskwarrior's *.data files.                                                                                                                                                                              |
+| `version:x.y.z`                | Taskwarrior version calling the hook. Same as the one reported by `task --version`, e.g. `2.4.3`                                                                                                                                            |
 
 Here is a contrived example simulating how a hook script will be invoked:
 
