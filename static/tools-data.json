@@ -492,8 +492,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 25,
-    "updated": "2023-09-02",
+    "rating": 26,
+    "updated": "2023-09-03",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1680,6 +1680,21 @@
     "rating": 2,
     "updated": "2022-07-10",
     "url": "https://github.com/Pete-Hamlin/gtd-rust-taskwarrior"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Pradeep1G"
+    ],
+    "rating": 0,
+    "updated": "2023-09-03",
+    "url": "https://github.com/Pradeep1G/TaskServer"
   },
   {
     "description": "Task warrior is a mobile app for both iOS and android developed to simulate the real task warrior which is an open source CLI based todo app that runs from the terminal. This mobile app also syncs task with the Taskserver.",
@@ -4077,7 +4092,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 574,
+    "rating": 573,
     "updated": "2023-02-08",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5082,7 +5097,7 @@
     "owner": [
       "evantravers"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2022-03-25",
     "url": "https://github.com/evantravers/ThingsToTaskwarrior"
   },
@@ -6852,7 +6867,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 316,
+    "rating": 317,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7062,8 +7077,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1159,
-    "updated": "2023-08-29",
+    "rating": 1160,
+    "updated": "2023-09-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8803,7 +8818,7 @@
       "mrusme"
     ],
     "rating": 49,
-    "updated": "2023-08-24",
+    "updated": "2023-09-03",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
