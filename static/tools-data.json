@@ -1352,6 +1352,21 @@
     "url": "https://github.com/Krakazybik/taskwarrior-waybar"
   },
   {
+    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TTM",
+    "owner": [
+      "LanHikari22"
+    ],
+    "rating": 0,
+    "updated": "2023-09-05",
+    "url": "https://github.com/LanHikari22/TTM"
+  },
+  {
     "description": "A vim plugin for doing GTD with Taskwarrior",
     "dormant": true,
     "language": [
@@ -2413,7 +2428,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-09-02",
+    "updated": "2023-09-04",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3207,7 +3222,7 @@
     "owner": [
       "ayosec"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-05-23",
     "url": "https://github.com/ayosec/task-changes"
   },
@@ -3297,7 +3312,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 269,
+    "rating": 270,
     "updated": "2023-08-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5143,7 +5158,7 @@
       "eyenx"
     ],
     "rating": 1,
-    "updated": "2023-04-27",
+    "updated": "2023-09-04",
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
   },
   {
@@ -6403,7 +6418,7 @@
       "jeffa5"
     ],
     "rating": 0,
-    "updated": "2023-08-28",
+    "updated": "2023-09-04",
     "url": "https://github.com/jeffa5/tasknet"
   },
   {
@@ -6867,7 +6882,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 317,
+    "rating": 318,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7078,7 +7093,7 @@
       "kdheepak"
     ],
     "rating": 1160,
-    "updated": "2023-09-03",
+    "updated": "2023-09-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8293,7 +8308,7 @@
       "maxjoehnk"
     ],
     "rating": 11,
-    "updated": "2023-08-31",
+    "updated": "2023-09-04",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10092,7 +10107,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 680,
+    "rating": 681,
     "updated": "2023-08-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -11607,7 +11622,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 762,
+    "rating": 763,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
