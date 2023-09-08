@@ -332,6 +332,21 @@
     "url": "https://github.com/AlexanderBrevig/twgcals"
   },
   {
+    "description": "An app to defeat procrastination",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "just-start",
+    "owner": [
+      "AliGhahraei"
+    ],
+    "rating": 7,
+    "updated": "2022-12-08",
+    "url": "https://github.com/AliGhahraei/just-start"
+  },
+  {
     "description": "Raycast and Taskwarrior integration",
     "dormant": false,
     "language": [
@@ -478,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 27,
-    "updated": "2023-09-06",
+    "updated": "2023-09-07",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1422,7 +1437,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 31,
+    "rating": 30,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -1693,7 +1708,7 @@
       "Pradeep1G"
     ],
     "rating": 0,
-    "updated": "2023-09-06",
+    "updated": "2023-09-07",
     "url": "https://github.com/Pradeep1G/TaskServer"
   },
   {
@@ -1998,7 +2013,7 @@
   },
   {
     "description": "Tooling to create reports from TaskWarrior using Mozilla Nunjucks.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -2413,7 +2428,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-09-04",
+    "updated": "2023-09-07",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3297,7 +3312,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 271,
+    "rating": 272,
     "updated": "2023-08-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6722,6 +6737,21 @@
     "url": "https://github.com/joshir3/TaskWarriorOpenAI"
   },
   {
+    "description": "A go client for taskd",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskd-client-go",
+    "owner": [
+      "jrabbit"
+    ],
+    "rating": 5,
+    "updated": "2021-05-02",
+    "url": "https://github.com/jrabbit/taskd-client-go"
+  },
+  {
     "description": ":hammer: :snake: A python client for taskd",
     "dormant": false,
     "language": [
@@ -8252,6 +8282,21 @@
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
+    "description": "Show todos from different sources in a sidebar like app",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "sidenotes",
+    "owner": [
+      "maxjoehnk"
+    ],
+    "rating": 12,
+    "updated": "2023-09-07",
+    "url": "https://github.com/maxjoehnk/sidenotes"
+  },
+  {
     "description": "Calendar tui with taskwarrior integration",
     "dormant": false,
     "language": [
@@ -8773,7 +8818,7 @@
       "mrusme"
     ],
     "rating": 49,
-    "updated": "2023-09-03",
+    "updated": "2023-09-07",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10892,6 +10937,21 @@
     "url": "https://github.com/sorrowless/twsyncer"
   },
   {
+    "description": "\u23f1 Vim plugin for Unfog CLI task & time manager.",
+    "dormant": false,
+    "language": [
+      "Vim Script"
+    ],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "name": "unfog.vim",
+    "owner": [
+      "soywod"
+    ],
+    "rating": 68,
+    "updated": "2022-10-10",
+    "url": "https://github.com/soywod/unfog.vim"
+  },
+  {
     "description": "Taskwarrior-inspired CalDAV command line tool.",
     "dormant": true,
     "language": [
@@ -11802,7 +11862,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 422,
+    "rating": 423,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
