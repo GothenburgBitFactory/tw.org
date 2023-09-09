@@ -2552,21 +2552,6 @@
     "url": "https://github.com/abedef/task-web"
   },
   {
-    "description": "pyqt GUI for taskwarrior",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "Phalanx",
-    "owner": [
-      "abers"
-    ],
-    "rating": 0,
-    "updated": "2018-03-21",
-    "url": "https://github.com/abers/Phalanx"
-  },
-  {
     "description": "Scripts for an easier GTD workflow with Taskwarrior",
     "dormant": false,
     "language": [
@@ -2787,7 +2772,7 @@
     "owner": [
       "albfan"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2016-08-10",
     "url": "https://github.com/albfan/taskwarriorandroid"
   },
@@ -2802,7 +2787,7 @@
     "owner": [
       "albfan"
     ],
-    "rating": 2,
+    "rating": 1,
     "updated": "2016-08-10",
     "url": "https://github.com/albfan/taskwarriorandroidcli"
   },
@@ -3417,7 +3402,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 214,
+    "rating": 213,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3987,7 +3972,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 131,
+    "rating": 132,
     "updated": "2023-06-03",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -6252,7 +6237,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -7002,8 +6987,8 @@
     "owner": [
       "kaiec"
     ],
-    "rating": 3,
-    "updated": "2023-09-06",
+    "rating": 2,
+    "updated": "2023-09-08",
     "url": "https://github.com/kaiec/dotfiles"
   },
   {
@@ -7077,7 +7062,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1163,
+    "rating": 1162,
     "updated": "2023-09-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7272,7 +7257,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 137,
+    "rating": 138,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -8293,7 +8278,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-09-07",
+    "updated": "2023-09-08",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8817,8 +8802,8 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 49,
-    "updated": "2023-09-07",
+    "rating": 48,
+    "updated": "2023-09-08",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9162,7 +9147,7 @@
     "owner": [
       "neuhalje"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2019-05-27",
     "url": "https://github.com/neuhalje/docker-mua-and-friends"
   },
@@ -9177,7 +9162,7 @@
     "owner": [
       "neuhalje"
     ],
-    "rating": 8,
+    "rating": 7,
     "updated": "2019-05-29",
     "url": "https://github.com/neuhalje/notmuch-task"
   },
@@ -10092,7 +10077,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 681,
+    "rating": 682,
     "updated": "2023-08-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10197,7 +10182,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11622,7 +11607,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 763,
+    "rating": 765,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11862,7 +11847,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 423,
+    "rating": 424,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
