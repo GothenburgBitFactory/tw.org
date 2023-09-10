@@ -493,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 27,
-    "updated": "2023-09-07",
+    "updated": "2023-09-09",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1708,7 +1708,7 @@
       "Pradeep1G"
     ],
     "rating": 0,
-    "updated": "2023-09-07",
+    "updated": "2023-09-09",
     "url": "https://github.com/Pradeep1G/TaskServer"
   },
   {
@@ -5458,7 +5458,7 @@
       "garybgenett"
     ],
     "rating": 17,
-    "updated": "2023-09-02",
+    "updated": "2023-09-09",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5892,7 +5892,7 @@
     "owner": [
       "hugginsio"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2023-04-24",
     "url": "https://github.com/hugginsio/twig.nvim"
   },
@@ -7062,7 +7062,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1162,
+    "rating": 1163,
     "updated": "2023-09-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7155,6 +7155,21 @@
     "rating": 0,
     "updated": "2021-10-27",
     "url": "https://github.com/kevinstadler/taskwarrior-vit-config-old"
+  },
+  {
+    "description": "Bi-directional syncing between Taskwarrior and Todoist",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "tasksync",
+    "owner": [
+      "kgoettler"
+    ],
+    "rating": 0,
+    "updated": "2023-09-09",
+    "url": "https://github.com/kgoettler/tasksync"
   },
   {
     "description": "PHP library for interacting with Taskwarrior 2.x",
@@ -8278,7 +8293,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-09-08",
+    "updated": "2023-09-10",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10678,7 +10693,7 @@
       "shutils"
     ],
     "rating": 0,
-    "updated": "2023-09-06",
+    "updated": "2023-09-09",
     "url": "https://github.com/shutils/ddu-source-taskwarrior"
   },
   {
@@ -11607,7 +11622,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 765,
+    "rating": 766,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
