@@ -493,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 27,
-    "updated": "2023-09-09",
+    "updated": "2023-09-10",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -612,7 +612,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 127,
+    "rating": 128,
     "updated": "2023-07-14",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1727,7 +1727,7 @@
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
   {
-    "description": "My Linux dotfiles",
+    "description": ":penguin: My Linux dotfiles for an optimized and personalized environment.",
     "dormant": false,
     "language": [
       "Shell"
@@ -2730,6 +2730,21 @@
     "rating": 8,
     "updated": "2011-03-13",
     "url": "https://github.com/akervern/taskWarrior-Mobile-Front-end"
+  },
+  {
+    "description": "Android integration of Taskwarrior ",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "ntfwarrior",
+    "owner": [
+      "akim-13"
+    ],
+    "rating": 0,
+    "updated": "2023-09-10",
+    "url": "https://github.com/akim-13/ntfwarrior"
   },
   {
     "description": null,
@@ -6372,7 +6387,7 @@
     "owner": [
       "jdcasey"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2017-10-06",
     "url": "https://github.com/jdcasey/jtmote"
   },
