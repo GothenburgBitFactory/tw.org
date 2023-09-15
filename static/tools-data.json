@@ -493,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 27,
-    "updated": "2023-09-13",
+    "updated": "2023-09-14",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -552,7 +552,7 @@
     "owner": [
       "CourrierGui"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-11-02",
     "url": "https://github.com/CourrierGui/kanbanwarrior"
   },
@@ -1197,7 +1197,7 @@
     "owner": [
       "Ivangonz"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-01-15",
     "url": "https://github.com/Ivangonz/sethrak"
   },
@@ -2458,7 +2458,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-09-07",
+    "updated": "2023-09-14",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3642,7 +3642,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -6942,7 +6942,7 @@
     "owner": [
       "juanedflores"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-01-16",
     "url": "https://github.com/juanedflores/TaskVisualizer"
   },
@@ -6972,7 +6972,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -8413,7 +8413,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-08-30",
+    "updated": "2023-09-14",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9027,7 +9027,7 @@
     "owner": [
       "nagua"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2017-11-07",
     "url": "https://github.com/nagua/harbour-taskwarrior-GUI"
   },
@@ -9108,7 +9108,7 @@
   },
   {
     "description": "Add a task to taskwarrior via email",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -11922,7 +11922,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 424,
+    "rating": 425,
     "updated": "2023-07-02",
     "url": "https://github.com/vit-project/vit"
   },
