@@ -493,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 27,
-    "updated": "2023-09-15",
+    "updated": "2023-09-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1333,7 +1333,7 @@
       "KevCui"
     ],
     "rating": 18,
-    "updated": "2023-09-05",
+    "updated": "2023-09-16",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1467,7 +1467,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 30,
+    "rating": 29,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -3962,21 +3962,6 @@
     "url": "https://github.com/cherusk/tw_projector"
   },
   {
-    "description": "TaskKhalReschedulWarrior",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "TaskKhalReschedulWarrior",
-    "owner": [
-      "chess-seventh"
-    ],
-    "rating": 3,
-    "updated": "2023-07-25",
-    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
-  },
-  {
     "description": "Simple taskwarrior notifications in rust",
     "dormant": false,
     "language": [
@@ -4138,7 +4123,7 @@
       "coddingtonbear"
     ],
     "rating": 573,
-    "updated": "2023-02-08",
+    "updated": "2023-09-16",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -4753,7 +4738,7 @@
       "dnaaun"
     ],
     "rating": 1,
-    "updated": "2023-08-12",
+    "updated": "2023-09-16",
     "url": "https://github.com/dnaaun/dotfiles"
   },
   {
@@ -5503,7 +5488,7 @@
       "garybgenett"
     ],
     "rating": 17,
-    "updated": "2023-09-09",
+    "updated": "2023-09-16",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -8863,7 +8848,7 @@
       "mrusme"
     ],
     "rating": 48,
-    "updated": "2023-09-08",
+    "updated": "2023-09-16",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
