@@ -7,7 +7,7 @@
         <article>
           {{.Content}}
         </article>
-        {{ range $topic := (slice "Taskwarrior" "Taskserver" "Taskshell" "Timewarrior") }}
+        {{ range $topic := (slice "General" "Taskwarrior" "Taskserver" "Taskshell" "Timewarrior") }}
         <h2>{{ $topic }}</h2>
         <ul>
           {{ range (where $.Pages ".Params.topic" $topic) }}
