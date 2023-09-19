@@ -6,7 +6,8 @@ question: "Modifying End Dates"
 
 Back to the [FAQ](/support/faq)
 
-Q: Modifying End Dates
+{{< question >}}
+### Modifying End Dates
 Some days I forget to log the "extra" tasks that I picked up and completed throughout the day.
 The next morning, I  wish to log these tasks as completed on the previous day.
 I can't figure out the syntax for these.
@@ -21,9 +22,10 @@ mod complete.yesterday
  
 
 How do I make this happen?
-
-A: Try this:
+{{< /question >}}
+{{< answer >}}
+Try this:
 
 $ task log "task desc." end:yesterday
 Taskwarrior will warn you, but that is just a warning.
-
+{{< /answer >}}

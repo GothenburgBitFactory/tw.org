@@ -6,8 +6,11 @@ question: "How do I solve \"Taskwarrior was built without GnuTLS support. Sync i
 
 Back to the [FAQ](/support/faq)
 
-### Q: How do I solve "Taskwarrior was built without GnuTLS support. Sync is not available."?
+{{< question >}}
+### How do I solve "Taskwarrior was built without GnuTLS support. Sync is not available."?
+{{< /question >}}
 
+{{< answer >}}
 Install `libgnutls-dev` and rebuild:
 
 ```
@@ -18,3 +21,4 @@ $ make
 $ sudo make install
 ```
 
+{{< /answer >}}

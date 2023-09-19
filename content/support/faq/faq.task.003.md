@@ -6,8 +6,10 @@ question: "How do I list tasks that have no project?"
 
 Back to the [FAQ](/support/faq)
 
-### Q: How do I list tasks that have no project?
-
+{{< question >}}
+### How do I list tasks that have no project?
+{{< /question >}}
+{{< answer >}}
 There are a few ways:
 
 ```
@@ -27,3 +29,4 @@ $ task project.not: list
 $ task project != '' list
 $ task +PROJECT list
 ```
+{{< /answer >}}

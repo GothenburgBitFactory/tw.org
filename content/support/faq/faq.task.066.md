@@ -6,7 +6,8 @@ question: "Batch delete by tag or description."
 
 Back to the [FAQ](/support/faq)
 
-Q: Batch delete by tag or description.
+{{< question >}}
+### Batch delete by tag or description.
 The issue I have with recurring tasks is how many of them show up and how they seem to multiply like rabbits.
 
 Can I delete all recurring tasks containing a certain description or a tag in one swoop, instead of deleting them by id?
@@ -35,8 +36,9 @@ Kind of a drag.
 
 What I'm asking is if there's a better way.
 Say, deleting all recurring instances of a task by tag instead of having to specify each task id, without deleting the parent task?
-
-A: Maybe you have to understand a basic concept.
+{{< /question >}}
+{{< answer >}}
+Maybe you have to understand a basic concept.
 
 In case you want to delete by tag or description, you should take a look, which tasks match your filter:
 
@@ -51,4 +53,4 @@ is more like the resultset you wish to delete.
 You can find the parent tasks with
 
 task +tag status:recurring all
-
+{{< /answer >}}

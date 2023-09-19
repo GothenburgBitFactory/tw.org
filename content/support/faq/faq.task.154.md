@@ -6,7 +6,8 @@ question: "How do you handle these two situations?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How do you handle these two situations?
+{{< question >}}
+### How do you handle these two situations?
 
 Hi, I'm wondering you have any best practices for these two situations:
 
@@ -19,8 +20,9 @@ I don't have a good solution for #2, but for #1, I have a separate Taskwarrior i
  
 
 How do you handle these two situations? Since I don't have any answer to #2, I'm really curious what others do there.
-
-A: I think the solution to item #2 is just one of perspective.
+{{< /question >}}
+{{< answer >}}
+I think the solution to item #2 is just one of perspective.
 All of the items are things you need to do, so they belong in Taskwarrior.
 The problem, I think, is that you are looking at the whole set all the time.
 
@@ -29,3 +31,4 @@ Then you just need to make sure that the right tasks have the right tag, and use
 
 Your report is likely cluttered because you are looking at the set of all tasks as one list, and not as a collection of lists, which you pull out using tags.
 
+{{< /answer >}}

@@ -6,7 +6,8 @@ question: "multi-line report"
 
 Back to the [FAQ](/support/faq)
 
-Q: multi-line report
+{{< question >}}
+### multi-line report
 
 My reports are getting a little wide for an 80-column screen, for example,
 
@@ -33,8 +34,10 @@ ID Tags       R Wait                 Scheduled
  6 remind sdo   2016-09-01 09:00 6d  2016-09-06 09:00
 
                 2016-09-06 09:00 install the backup disk
-
-A: No.
+{{< /question >}}
+{{< answer >}}
+No.
 
 But you can make a custom report that includes fewer columns, or add a report-specific dateformat to shrink the timestamp, etc.
 
+{{< /answer >}}

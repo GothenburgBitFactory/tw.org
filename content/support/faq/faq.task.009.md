@@ -6,8 +6,11 @@ question: "How do I set the wait date to be 2 days before the due date?"
 
 Back to the [FAQ](/support/faq)
 
-### Q: How do I set the wait date to be 2 days before the due date?
+{{< question >}}
+### How do I set the wait date to be 2 days before the due date?
+{{< /question >}}
 
+{{< answer >}}
 Taskwarrior can do date math, so use this:
 
 ```
@@ -22,3 +25,4 @@ You can also verify that date using the `calc` command:
 $ task calc eom-2days
 2018-01-30T00:00:00
 ```
+{{< /answer >}}

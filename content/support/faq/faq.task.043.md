@@ -6,9 +6,11 @@ question: "How do I sort a report by tasks' due-dates and then their description
 
 Back to the [FAQ](/support/faq)
 
-Q: How do I sort a report by tasks' due-dates and then their descriptions?
-
-A: Take a report, here the "list" report as example and modify it to meet your own requirements (expecially the variable called report.list.sort):
+{{< question >}}
+### How do I sort a report by tasks' due-dates and then their descriptions?
+{{< /question >}}
+{{< answer >}}
+Take a report, here the "list" report as example and modify it to meet your own requirements (expecially the variable called report.list.sort):
 
 $ task show report.list
 
@@ -56,4 +58,4 @@ report.own.labels      ID,Proj,Pri,Due,Active,Age,Description
 
 report.own.sort        due+,description+
 Try it with task own
-
+{{< /answer >}}

@@ -6,7 +6,8 @@ question: "information about coding style"
 
 Back to the [FAQ](/support/faq)
 
-Q: information about coding style
+{{< question >}}
+### information about coding style
 
 Hi.
 
@@ -30,8 +31,9 @@ Or is there some formatting only done by eye or smell?
 Any tips are highly appreciated, not only for Perl.
 
 Thanks
-
-A: You're absolutely right - there is nothing written down, and it's done partly by smell.
+{{< /question >}}
+{{< answer >}}
+You're absolutely right - there is nothing written down, and it's done partly by smell.
 I was hoping to avoid the need to write down coding conventions by language, by making the coding standard this:
 
 Make all changes and additions such that they blend in perfectly with the surrounding code, so it looks like only one person worked on the source, and that person is rigidly consistent.
@@ -47,4 +49,4 @@ I will add a page to the site, containing the above, and we can develop it furth
  
 
 Edit: https://taskwarrior.org/docs/coding_style.html
-
+{{< /answer >}}

@@ -6,7 +6,8 @@ question: "Task Organization for offroad fabricators"
 
 Back to the [FAQ](/support/faq)
 
-Q: Task Organization for offroad fabricators
+{{< question >}}
+### Task Organization for offroad fabricators
 
 Hello fellow Taskwarrior users,
 
@@ -26,8 +27,9 @@ How to improve my reminders and delays?
 How can I bring online parts into play? 
 
 Can I add some sort of price so I can budget the parts and my monthly income to best order the ones that i need first? Please any advise is welcome. 
-
-A: Hi there Alfredo,
+{{< /question >}}
+{{< answer >}}
+Hi there Alfredo,
 
 It seems to me that you are trying to squeeze too much "methodology" into Taskwarrior going beyond the uses for which Taskwarrior was designed.
 
@@ -46,4 +48,4 @@ With existing tasks you can use:
 
 task task_id mod wait:5d
 to have the task show up 5 days from now.
-
+{{< /answer >}}

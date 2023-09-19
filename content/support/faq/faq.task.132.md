@@ -6,7 +6,8 @@ question: "Can you show the days of the week in the due column?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Can you show the days of the week in the due column?
+{{< question >}}
+### Can you show the days of the week in the due column?
 
 Something like...
 
@@ -19,10 +20,11 @@ Rather than...
 Due:
 
 2016-04-26
-
-A: Yes.
+{{< /question >}}
+{{< answer >}}
+Yes.
 Take a look at:
 
 $ man taskrc
 Look for report.x.dateformat.
-
+{{< /answer >}}

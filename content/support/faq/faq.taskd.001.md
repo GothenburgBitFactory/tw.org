@@ -6,8 +6,10 @@ question: "How do I set up Taskserver to use LetsEncrypt certs?"
 
 Back to the [FAQ](/support/faq)
 
-### Q: How do I set up Taskserver to use LetsEncrypt certs?
-
+{{< question >}}
+### How do I set up Taskserver to use LetsEncrypt certs?
+{{< /question >}}
+{{< answer >}}
 On the Taskserver server:
 
 Generate a self-signed CA (use `taskd/pki/generate.ca`)
@@ -43,4 +45,4 @@ Client certificates and user credentials are created per the docs, as normal.
 Client certificates can be revoked by generating a CRL file and pointing `server.crl` to it in the Taskserver config.
 See the bottom of `taskd/pki/generate.crl` for invocations.
 For personal installations, it is easier just to regenerate the self-signed CA and distribute new client certs.
-
+{{< /answer >}}

@@ -6,7 +6,8 @@ question: "sync failed after six weeks usage on one client"
 
 Back to the [FAQ](/support/faq)
 
-Q: sync failed after six weeks usage on one client
+{{< question >}}
+### sync failed after six weeks usage on one client
 
 Hi there, and thanks for an awesome and truly unique Taskwarrior.
 
@@ -18,8 +19,9 @@ The Taskserver returned error: 500 ERROR: Could not find common ancestor for 33d
 And yes I did 'task sync init' two months ago, at least on the first client. Am I supposed to do this with subsequent clients, or will it then erase what is on the server?
 
 Sine it worked perfectly for six weeks I suspect something has gone wrong, what can I do?
-
-A: Here is how to fix this:
+{{< /question >}}
+{{< answer >}}
+Here is how to fix this:
 
 Let's call your working client the primary, and all the other clients secondary.
 
@@ -42,4 +44,4 @@ $ rm ~/.task/{pending,completed,backlog}.data
 $ task sync
 If any step fails, stop and please report.
 But don't worry - you made backups.
-
+{{< /answer >}}

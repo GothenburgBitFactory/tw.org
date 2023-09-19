@@ -6,15 +6,17 @@ question: "Is it possible to sync per-context?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Is it possible to sync per-context?
+{{< question >}}
+### Is it possible to sync per-context?
 
 Hi,
 
 I want to use Taskwarrior at home and at work, but I don't want to store personal tasks in the work computer. Is it possible to sync a subset of the database, for example, only a context 'work'?
 
 Thanks,
-
-A: Sync is not a filtered operation, so no, this is not supported.
+{{< /question >}}
+{{< answer >}}
+Sync is not a filtered operation, so no, this is not supported.
 
  
 
@@ -45,4 +47,4 @@ $ taskp sync
 Error
 The idea is that the .taskrc_work file configures the Taskserver, but the .taskrc_pers file does not.
 Each of the configuration files must use a separate database, ie the data.location setting in each file needs to be different.
-
+{{< /answer >}}

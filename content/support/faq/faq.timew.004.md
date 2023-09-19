@@ -6,8 +6,10 @@ question: "Can I sync Timewarrior with Taskserver?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Can I sync Timewarrior with Taskserver?
-
-A: No.
+{{< question >}}
+### Can I sync Timewarrior with Taskserver?
+{{< /question >}}
+{{< answer >}}
+No.
 Taskserver syncs only tasks.
-
+{{< /answer >}}

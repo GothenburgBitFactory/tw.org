@@ -6,11 +6,10 @@ question: "How do i manually block and unblock a task?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How do i manually block and unblock a task?
+{{< question >}}
+### How do i manually block and unblock a task?
 
 I would like to manually [un]block a task as if it were blocked by a adding a dependancy to another task.
-
- 
 
 Here's my simple use case:
 
@@ -21,8 +20,9 @@ I will unblock it when i'll get theses documents.
  
 
 I don't know when i will get theses documents so that's why i would like to manually lock/unlock the task.
-
-A: At the moment the only way to block a task is to have it depend on another task.
+{{< /question >}}
+{{< answer >}}
+At the moment the only way to block a task is to have it depend on another task.
 
 You can do this by doing:
 
@@ -34,4 +34,4 @@ This way if you include -BLOCKED in your report filters you will only see the ta
 Alternatively you can use the wait: attribute to have a task "disappear" from your task list until a given point in time.
 
 Have a look at this and other answers for examples of how to use these attributes or use man task for full documentation.
-
+{{< /answer >}}

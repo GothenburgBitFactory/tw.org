@@ -6,11 +6,15 @@ question: "How do I create a task that recurs on more than one day of the week?"
 
 Back to the [FAQ](/support/faq)
 
-### Q: How do I create a task that recurs on more than one day of the week?
+{{< question >}}
+### How do I create a task that recurs on more than one day of the week?
+{{< /question >}}
 
+{{< answer >}}
 This is not supported, but you can simulate this by creating multiple tasks due weekly on different days:
 
 ```
 $ task add Do the thing due:monday recur:weekly
 $ task add Do the thing due:friday recur:weekly
 ```
+{{< /answer >}}

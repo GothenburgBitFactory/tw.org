@@ -6,7 +6,8 @@ question: "Quickly finding a task by description"
 
 Back to the [FAQ](/support/faq)
 
-Q: Quickly finding a task by description
+{{< question >}}
+### Quickly finding a task by description
 
 I find myself fairly frequently piping task list into grep (task list | grep "someregex") to find the ID of a particular task. Does Taskwarrior have a built-in flow for this?
 
@@ -19,8 +20,9 @@ If not, I often find that piping the list report into grep produces this rather 
  
 
 Is there any way to avoid this?
-
-A: Here's a document you might find useful - there are many features you might want to know about:
+{{< /question >}}
+{{< answer >}}
+Here's a document you might find useful - there are many features you might want to know about:
 
 https://taskwarrior.org/docs/examples.html
 
@@ -40,3 +42,4 @@ When you force the output of Taskwarrior into a pipe, it no longer has ability t
 You can override this, and the fact that color is disabled for the same reason.
 See 'man taskrc' for full details.
 
+{{< /answer >}}

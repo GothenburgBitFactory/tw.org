@@ -6,7 +6,8 @@ question: "How to preserve tags when task is completed?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How to preserve tags when task is completed?
+{{< question >}}
+### How to preserve tags when task is completed?
 
 I'm running v2.3, compiled on Ubuntu 14.04 (packaged only had v2.2).
 When tasks are added, I usually include tags.
@@ -48,8 +49,9 @@ Complete   Proj Age Description                        UUID
  
 
   Thanks!
-
-A: Don't worry - your data is intact.
+{{< /question >}}
+{{< answer >}}
+Don't worry - your data is intact.
 What you're seeing is that your default 'long' report and the 'completed' report show different task metadata.
 You can modify these reports if you wish them to show the same columns.
 
@@ -57,4 +59,4 @@ Meanwhile, you can see that your tags are intact, with the 'info' report, which 
 Try this:
 
 task ad3b5c51-8148-438c-9309-96080012f79a info
-
+{{< /answer >}}

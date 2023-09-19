@@ -6,7 +6,8 @@ question: "How to set 'wait' until one day before 'due'?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How to set 'wait' until one day before 'due'?
+{{< question >}}
+### How to set 'wait' until one day before 'due'?
 Construction:
 
 ```
@@ -14,8 +15,9 @@ task 1 modify wait:due-1days
 ```
 
 unfortunately doesn't work.
-
-A: Currently date expressions are not supported.
+{{< /question >}}
+{{< answer >}}
+Currently date expressions are not supported.
 This means instead of:
 
 ```
@@ -32,3 +34,4 @@ Here is an example from the dev branch, using the new 'calc' command:
 $ task calc 20140430 - 1days
 2014-04-29T00:00:00
 ```
+{{< /answer >}}

@@ -6,9 +6,11 @@ question: "How can I track my 'not to be done' list?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How can I track my 'not to be done' list?
-
-A: As far as I know Taskwarrior has no status that represents "not to be done".
+{{< question >}}
+### How can I track my 'not to be done' list?
+{{< /question >}}
+{{< answer >}}
+As far as I know Taskwarrior has no status that represents "not to be done".
 In practice most people simply delete tasks that are no longer valid.
 
 Still, you can use existing functionality to provide such feature.
@@ -59,3 +61,4 @@ Given all these possibilities, choose the one that you find easier to use and be
 
 PS: There may be better ways to specify default options.
 I need to dig into that subject myself.
+{{< /answer >}}

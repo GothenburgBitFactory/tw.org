@@ -6,7 +6,8 @@ question: "Prevent modify all tasks"
 
 Back to the [FAQ](/support/faq)
 
-Q: Prevent modify all tasks
+{{< question >}}
+### Prevent modify all tasks
 
 When "mod" is typed before a task it asks "This command has no filter, and will modify all tasks.
 Are you sure?"
@@ -15,8 +16,9 @@ Seeing as I can't forsee a situation where I'd want to modify ALL tasks and it's
 
 $ task mod 456 blah blah blah
   Nope, try again.
-
-A: You could use a simple shell function to check the first parameter.
+{{< /question >}}
+{{< answer >}}
+You could use a simple shell function to check the first parameter.
 
 task () {
     if [[ $1 == "mod"* ]]; then
@@ -33,4 +35,4 @@ You'll be able to specify:
 
 allow.empty.filter=no
 which will cause Taskwarrior to simply fail when a write command with no filter is run.
-
+{{< /answer >}}

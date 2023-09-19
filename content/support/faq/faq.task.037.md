@@ -6,15 +6,17 @@ question: "How to show tasks with active \"wait\"-date?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How to show tasks with active "wait"-date?
+{{< question >}}
+### How to show tasks with active "wait"-date?
 I have various tasks with a wait:-date in the future. Of course, these tasks are not shown in a regular task-list until the wait date matches current date.
 
 Now I want to review these waiting tasks, but I could not find a way to show them. 
 I tried "task wait:any" and "task wait.before:eoy", but I was not successful with this in task 2.3.0
 
 Is there a way to do that? 
-
-A: "wait.any:" and "wait.before:eoy" should both work. But there is a chance you also use the "list" report, which has a contradictory filter.
+{{< /question >}}
+{{< answer >}}
+"wait.any:" and "wait.before:eoy" should both work. But there is a chance you also use the "list" report, which has a contradictory filter.
 
 A: There is a report for that, try
 
@@ -46,4 +48,4 @@ As you can see, the waiting reports uses the filter status:waiting +WAITING.
 If you want to see a raw report without any filters use task all.
 
 A: Dirk, that's a bug - "status:waiting" and "+WAITING" are redundant. I'll fix that. Thanks.
-
+{{< /answer >}}

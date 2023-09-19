@@ -6,7 +6,8 @@ question: "Taskwarrior as a .so library?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Taskwarrior as a .so library?
+{{< question >}}
+### Taskwarrior as a .so library?
 
 I'm newly trying out Taskwarrior and can see a lot of benefits in its CLI-based design.
 
@@ -21,8 +22,9 @@ IMO it would be really nice to be able to separate task into two pieces - the CL
 That would make it easier to embed Taskwarrior securely into "web" back-end languages (for example) and also hopefully encourage development of a standard API, even standard RESTful API, for tasks, annotations, tags, etc.
 
 Is this something that has been discussed at all? Has it been considered?
-
-A: This has been discussed, and isn't likely to happen.
+{{< /question >}}
+{{< answer >}}
+This has been discussed, and isn't likely to happen.
 
 You may not be aware of the lack of C++ binary interface standards or the difficulty of shoe-horning C++ objects into a well-designed C API for exposure via .so.
 No one wants to do this, and neither do you, which is why you ask about the possibility.
@@ -40,4 +42,4 @@ Pay/motivate someone to attempt option 4.
 As you pointed out, direct I/O on the *.data files is a very bad idea, because it means you would need to support the four current file formats, and respond to the fifth format, which may happen soon, not to mention implement recurrence, waiting and other features.
 
 https://taskwarrior.org/docs/3rd-party.html
-
+{{< /answer >}}

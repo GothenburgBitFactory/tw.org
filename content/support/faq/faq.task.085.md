@@ -6,7 +6,8 @@ question: "Filter by end/entry/modified date"
 
 Back to the [FAQ](/support/faq)
 
-Q: Filter by end/entry/modified date
+{{< question >}}
+### Filter by end/entry/modified date
 
 Filtering tasks by due date seems to work pretty well:
 
@@ -15,8 +16,10 @@ But similar queries for `end`, `entry` or `modified` date fields don't work, e.g
 
 task status:completed end:2014-09-30
 Any ideas how to do this? or is filtering by these date fields not supported?
-
-A: To answer my own question:
+{{< /question >}}
+{{< answer >}}
+To answer my own question:
 
 task status:completed end:2014-09-30 all
 Otherwise, we're just looking at pending tasks by default.
+{{< /answer >}}

@@ -6,10 +6,12 @@ question: "How do recurring tasks work?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How do recurring tasks work?
+{{< question >}}
+### How do recurring tasks work?
 How do recurring tasks work?  (A guide to recurring tasks)
-
-A: This guide is written for task version 2.3.0.
+{{< /question >}}
+{{< answer >}}
+This guide is written for task version 2.3.0.
 
 Due to inconsistencies and general lack of documentation, I thought it would be useful to write this, both as a personal reference and for others who need it.
 
@@ -68,3 +70,4 @@ Ideas to try: write a script to delete the lines from ~/.task/pending.data, or d
 Make sure you delete from the bottom up so the line numbers don't shift as you are working.)
 
 You can use this script to clean up expired task templates: https://gist.github.com/darkfeline/7d138198b68271a9f6fe  Read the code to see what it does, and modify it if needed.
+{{< /answer >}}

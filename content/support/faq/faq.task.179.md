@@ -6,7 +6,8 @@ question: "scheduled but still urgent?"
 
 Back to the [FAQ](/support/faq)
 
-Q: scheduled but still urgent?
+{{< question >}}
+### scheduled but still urgent?
 
 Greetings.
 I'm confused about "scheduled" tasks.
@@ -46,8 +47,9 @@ I thought that the "scheduled" tag means "cannot be completed before this."  So 
 I want to see that it's upcoming, but clearly I have more urgent tasks than this one.
 
 Am I missing something?
-
-A: You are using scheduled correctly.
+{{< /question >}}
+{{< answer >}}
+You are using scheduled correctly.
 If you intend to spend all day thursday and friday on a lengthy task, then the scheduled date is early thursday, and the due date is late friday.
 Schedule and due therefore bracket the time range.
 
@@ -64,3 +66,4 @@ It is also sorted by urgency, but will not include future scheduled tasks.
 And of course, you can change any of the above through configuration, so for example you can use the ready report filter and add it to the next report filter, or set ready as your default command, and you can adjust the urgency coefficients to suit your notion of urgency.
 All documented online.
 
+{{< /answer >}}

@@ -6,11 +6,10 @@ question: "Is there an updated command reference"
 
 Back to the [FAQ](/support/faq)
 
-Q: Is there an updated command reference
-
-Previously somewhere I saw an old command reference cheat-sheet for Taskwarrior. 
-
+{{< question >}}
+### Is there an updated command reference
+{{< /question >}}
+{{< answer >}}
 Is there an updated version of this somewhere? 
 
-A: Yep: https://taskwarrior.org/download/
-
+{{< /answer >}}

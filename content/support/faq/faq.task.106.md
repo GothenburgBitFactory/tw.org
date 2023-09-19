@@ -6,7 +6,8 @@ question: "Setting multiple urgency coefficients for one uda"
 
 Back to the [FAQ](/support/faq)
 
-Q: Setting multiple urgency coefficients for one uda
+{{< question >}}
+### Setting multiple urgency coefficients for one uda
 
 Hi all
 
@@ -21,8 +22,9 @@ Is this possible?
 Regards
 
 Ed
-
-A: Yes, this is supported, depending on the version you have (2.4.3 or later).
+{{< /question >}}
+{{< answer >}}
+Yes, this is supported, depending on the version you have (2.4.3 or later).
 What you are describing matches the setup for the priority UDA.
 In your case, you need this:
 
@@ -30,4 +32,4 @@ urgency.uda.size.1.coefficient=...
 urgency.uda.size.2.coefficient=...
 urgency.uda.size.3.coefficient=...
 If you run man taskrc and search for 'URGENCY' you'll see all the settings discussed.
-
+{{< /answer >}}
