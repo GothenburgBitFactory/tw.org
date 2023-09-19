@@ -6,7 +6,8 @@ question: "How to share a task between users?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How to share a task between users?
+{{< question >}}
+### How to share a task between users?
 Or... is it "Organization" parameter in user creation useful at the moment?
 
 Here: https://taskwarrior.org/docs/server_user.html
@@ -20,10 +21,11 @@ Is it actually possible to view/edit task of different users?
 Task can be edited by people in the same organization or in the same project?
 
 Cheers and thanks for the nice work
-
-A: The key phrase there is "Future features will utilize this".
+{{< /question >}}
+{{< answer >}}
+The key phrase there is "Future features will utilize this".
 Taskserver will gain the ability to create shared lists (groups), and to transfer tasks between users.
 But not yet.
 
 If you wish to share a task list now, you need to put the files in a common location, with read/write access to all, and hope that every client enables file locking.
-
+{{< /answer >}}

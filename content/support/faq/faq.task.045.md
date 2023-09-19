@@ -6,7 +6,8 @@ question: "How to show tasks done today?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How to show tasks done today?
+{{< question >}}
+### How to show tasks done today?
 'm feeling stupid as it should be trivial. I've completed some tasks with:
 
    <id> done
@@ -26,8 +27,9 @@ But none of them are showing anything.
 EDIT: I'm using tasksh
 
 UPDATE: See comments on Renato's accepted answer
-
-A: You can use one of:
+{{< /question >}}
+{{< answer >}}
+You can use one of:
 
 task com
 task completed
@@ -43,4 +45,4 @@ The following examples should work:
 
 task com end.after:today
 task completed end.after:today
-
+{{< /answer >}}

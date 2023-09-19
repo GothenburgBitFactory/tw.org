@@ -6,7 +6,8 @@ question: "Calendar and holiday questions"
 
 Back to the [FAQ](/support/faq)
 
-Q: Calendar and holiday questions
+{{< question >}}
+### Calendar and holiday questions
 
 Hello - in the man file for taskrc it explains how to add holidata holidays to .taskrc, so it was no problem getting them to appear. I do consulting with people in various countries, and I like to know when they are on holiday so I can give them a greeting or know they won't be available. If I add more holidays than what I have, US and JP, it's a little confusing. 
 
@@ -15,8 +16,9 @@ So, first: Can I customize the little list that shows up, so that it prepends th
 2016-04-18 US Patriots' Day
 2016-04-29 JP ????
 And second, the holiday files are hard coded to a specific version. Do you happen to know if there's a skillful way to tell it to variable-ize the version? 
-
-A: ncluding multiple holiday files works, and the data does not collide.
+{{< /question >}}
+{{< answer >}}
+ncluding multiple holiday files works, and the data does not collide.
 But they are not distinguished with the country code in the description.
 You could manually edit the files and add a "US" or "JP" prefix to the description.
 
@@ -33,4 +35,4 @@ include ~/.task/holidays.en-US
 Then make that symlink yourself with this:
 
 $ ln -s /path/to/real/holidays.en-US ~/.tsak/holidays.en-US
-
+{{< /answer >}}

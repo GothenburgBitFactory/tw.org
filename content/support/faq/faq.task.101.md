@@ -6,11 +6,13 @@ question: "task list output customization"
 
 Back to the [FAQ](/support/faq)
 
-Q: task list output customization
+{{< question >}}
+### task list output customization
 
 In Taskwarrior 2.4.0 the output of task list has more columns than in the previous stable version and the listing is wider than the 80 columns that my default terminal has. I have searched in the taskrc manual page but could not find a way to remove some of the columns from the "task list" command.
-
-A: Please use
+{{< /question >}}
+{{< answer >}}
+Please use
 
 task show list
 to see every config item related to list.
@@ -28,4 +30,4 @@ After that you can do a
 
 task config report.list.columns id,start,...
 and add all columns you want to see.
-
+{{< /answer >}}

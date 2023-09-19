@@ -6,10 +6,12 @@ question: "Can I add due date to blocked task: \"30 days after blocking task is 
 
 Back to the [FAQ](/support/faq)
 
-Q: Can I add due date to blocked task: "30 days after blocking task is done"?
+{{< question >}}
+### Can I add due date to blocked task: "30 days after blocking task is done"?
 I have two tasks. Task A is blocking task B. Task B could be started only after completing task A, and it will take some time to complete. I would like to automatically add due date to task B (30 days for example) after task A is complete. Is this possible?
-
-A: Short answer:
+{{< /question >}}
+{{< answer >}}
+Short answer:
 Not at the moment and not automatically.
 
 Long answer:
@@ -21,4 +23,4 @@ If you know the code versioning tool Git, the "event hooks" that I'm talking abo
 So as of now Taskwarrior doesn't support triggering events, even less events that affect other tasks.
 
 This has been added as a feature request.
-
+{{< /answer >}}

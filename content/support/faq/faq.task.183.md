@@ -6,7 +6,8 @@ question: "How to express precedence, or the reciprocal of dependency?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How to express precedence, or the reciprocal of dependency?
+{{< question >}}
+### How to express precedence, or the reciprocal of dependency?
 
 Taskwarrior allow me to specify that a given task (task 1) depends upon another task (task 2). The command for this is specific to task 1:
 
@@ -15,8 +16,9 @@ But what if I am working on task 2, and I want to modify task 2 to show that it 
 
 task 2 add precedes:1
 (*An antecedent is something that logically precedes another thing, so these two words are closely linked. These are probably not the best terms here; they're just the ones I could think of.)
-
-A: There is a hook script that implements this:
+{{< /question >}}
+{{< answer >}}
+There is a hook script that implements this:
 
 https://gist.github.com/wbsch/a2f7264c6302918dfb30
 
@@ -24,3 +26,4 @@ https://gist.github.com/wbsch/a2f7264c6302918dfb30
  The reason this isn't implemented is that it's not just funky syntax - the depends:xxx directly references the attribute depends.
 The precedes is not an attribute.
 
+{{< /answer >}}

@@ -6,7 +6,8 @@ question: "Create task with a context does not apply the filter to the task"
 
 Back to the [FAQ](/support/faq)
 
-Q: Create task with a context does not apply the filter to the task
+{{< question >}}
+### Create task with a context does not apply the filter to the task
 
 HI guys,
 
@@ -43,6 +44,8 @@ Last modified 19.06.2016 18:04 (1s)
 I would expect that setting up a context would imply to new create task to be in the same context as well.
 
 Is this intended or not?
+{{< /question >}}
+{{< answer >}}
+Context was designed to be a persistent, meta-filter reducing the task list to a given context (like work, home, shopping etc) following the GTD(tm) idea that you con only perform tasks that are in the context you are in right now. It was a conscious decision for the context feature to affect only reporting actions. Let's say you were at home, using the home context to show only tasks relevant to that context, but you suddenly have ideas for tasks to perform in other contexts, it is important to allow the user to quickly input any task, any time, without having to disable the context filters first.
 
-A: Context was designed to be a persistent, meta-filter reducing the task list to a given context (like work, home, shopping etc) following the GTD(tm) idea that you con only perform tasks that are in the context you are in right now. It was a conscious decision for the context feature to affect only reporting actions. Let's say you were at home, using the home context to show only tasks relevant to that context, but you suddenly have ideas for tasks to perform in other contexts, it is important to allow the user to quickly input any task, any time, without having to disable the context filters first.
-
+{{< /answer >}}

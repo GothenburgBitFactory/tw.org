@@ -6,7 +6,8 @@ question: "Deleting recurring task"
 
 Back to the [FAQ](/support/faq)
 
-Q: Deleting recurring task
+{{< question >}}
+### Deleting recurring task
 
 I have a parent recurring task that has been deleted but it is still present in my ~/.task/pending.data file with the following mask:
 
@@ -26,10 +27,11 @@ I have tried to run this command (on Taskwarrior 2.3.0):
 $task 23c826a7-c936-49ed-9d44-1af8ee829142 delete
 
 Task 24 'pay rent' is not deletable.
-
-A: Yes, it is safe to delete that line from pending.data.
+{{< /question >}}
+{{< answer >}}
+Yes, it is safe to delete that line from pending.data.
 But you should be able to delete it using this:
 
 task 23c826a7-c936-49ed-9d44-1af8ee829142 delete
 I should add that if you are syncing using Taskserver, manually deleting lines bypasses the mechanism that keeps things in sync.
-
+{{< /answer >}}

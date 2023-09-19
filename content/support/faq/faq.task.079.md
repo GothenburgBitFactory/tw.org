@@ -6,7 +6,8 @@ question: "Annotations vs dependencies"
 
 Back to the [FAQ](/support/faq)
 
-Q: Annotations vs dependencies
+{{< question >}}
+### Annotations vs dependencies
 
 Annotating vs dependencies
 
@@ -36,8 +37,9 @@ task add foobar pro:projectfoo
 task 99 mod dep:100,101
 Mainly though it's just easier to read annotations below the projects.
 What am I doing wrong or what do you usually do?
-
-A: The issue you are referring to is one that has been asked many times before in different forms.
+{{< /question >}}
+{{< answer >}}
+The issue you are referring to is one that has been asked many times before in different forms.
 People end up "misusing" annotations to add things that should instead be "subtasks". Much like the last example you provide.
 This is currently an open issue pending design and implementation.
 
@@ -63,4 +65,4 @@ ID  Project   Description
                9/7/2014 Arrived. Everything ok.
 (set task to done)
 the part in parenthesis reflects my actions and is not part of the annotation.
-
+{{< /answer >}}

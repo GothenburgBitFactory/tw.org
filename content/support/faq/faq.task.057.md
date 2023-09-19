@@ -6,7 +6,8 @@ question: "Can you use whitespace in project names?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Can you use whitespace in project names?
+{{< question >}}
+### Can you use whitespace in project names?
 
 When I try to set a project name containing whitespace, task tries to set the project name to the first whitespace-separated token and then replace the existing task description with the rest of the string. Example:
 
@@ -15,8 +16,9 @@ $ task 19 modify proj:"Max Bedroom"
 - Project will be changed from 'max_bedroom' to 'Max'.
 Modify task 19 'Bedroom'? (yes/no)
 I'm assuming at this point that this is by design, but wasn't able to find anything substantiating this in the docs, so I thought I'd throw the question out here. If I can't use whitespace in the project description, is there another way to add some additional descriptive text to a project?
-
-A: On the project description itself:
+{{< /question >}}
+{{< answer >}}
+On the project description itself:
 
 I think it's a bug. 
 Work around it via changing the project text it in an editor:
@@ -44,4 +46,4 @@ You may end up with something like the following:
 Is this a qualified answer to your question? Kindly note if I have misunderstood you in any point.
 
 Have I been able to help you solving your problem?
-
+{{< /answer >}}

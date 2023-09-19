@@ -6,7 +6,8 @@ question: "recurring tasks with flexible wait/due dates?"
 
 Back to the [FAQ](/support/faq)
 
-Q: recurring tasks with flexible wait/due dates?
+{{< question >}}
+### recurring tasks with flexible wait/due dates?
 
 Let's say I have a recurring task like "give medicine to cat" that recurs every 30 days, with wait set to "due-1days".
 
@@ -21,8 +22,9 @@ These kinds of tasks come up a lot. You should do them every X days, but if you 
 The other thing is that new instances shouldn't be created automatically even when the user is inactive, but should be one new instance per one completed instance. Like if I have a task "take medicine" which recurs daily, if I forget a few days I should not have 4 instances of the same task, which is obviously wrong. There should just be one instance, notifying the user to take the medicine 1 time, not 4 times at once.
 
 Is there any way to do any of this?
-
-A: You're describing a style of recurrence that we don't really have a name for, and have not yet implemented. Here is a detailed description of how recurrence works today:
+{{< /question >}}
+{{< answer >}}
+You're describing a style of recurrence that we don't really have a name for, and have not yet implemented. Here is a detailed description of how recurrence works today:
 
 https://taskwarrior.org/docs/recurrence.html
 
@@ -37,4 +39,4 @@ https://github.com/GothenburgBitFactory/taskwarrior/issues/203
 https://github.com/GothenburgBitFactory/taskwarrior/issues/97
 https://github.com/GothenburgBitFactory/taskwarrior/issues/146
 You have ideas - please make sure they are represented in the above list, and so can be considered when the work begins.
-
+{{< /answer >}}

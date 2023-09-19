@@ -6,7 +6,8 @@ question: "Are subtasks possible"
 
 Back to the [FAQ](/support/faq)
 
-Q: Are subtasks possible
+{{< question >}}
+### Are subtasks possible
 
 I like to divide tasks into smaller subtasks. I normally maintain a normal text file for my todos. An example would be like this:
 
@@ -36,8 +37,9 @@ clean your apartment
 In Taskwarrior I tried to create projects and subprojects, but only the subprojects have tasks via this system. The Project would be "Clean your apartment" and the tasks "Clean the bathroom" or "Clean the kitchen" would be subprojects.
 
 The "task report summary" command shows a good summary, but I think I am overseeing a way to handle my case.
-
-A: The way Taskwarrior implements subtasks is by creating tasks that depend on other tasks, effectively making one a subtask of the other.
+{{< /question >}}
+{{< answer >}}
+The way Taskwarrior implements subtasks is by creating tasks that depend on other tasks, effectively making one a subtask of the other.
 
 You can define a task to be dependent on another by using the depends: filter like so.
 
@@ -65,4 +67,4 @@ ID Description  Urg
 -- ------------ ----
  1 Subtask A       9
  2 Subtask B       9
-
+ {{< /answer >}}

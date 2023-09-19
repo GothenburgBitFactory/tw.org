@@ -6,7 +6,8 @@ question: "taskd with external hostname"
 
 Back to the [FAQ](/support/faq)
 
-Q: taskd with external hostname
+{{< question >}}
+### taskd with external hostname
 
 This project is amazing, I really want to make it work on my server. Thank you guys.
 
@@ -29,8 +30,9 @@ s: INFO IPv4: xx.xx.xx.xxx <----my ip
 I have poor sysadmin experience, but I thing I'm almost there. Please help me!
 
 Thanks in advance
-
-A: I have found the same problem a couple of days ago, and fighting with it I have solved the following way:
+{{< /question >}}
+{{< answer >}}
+I have found the same problem a couple of days ago, and fighting with it I have solved the following way:
 
 I have used the external server name on the client side
 I have used on the server side the local IP 
@@ -65,4 +67,4 @@ Syncing with sub.domain.tld:53589
 
 Sync successful.
 No changes.
-
+{{< /answer >}}

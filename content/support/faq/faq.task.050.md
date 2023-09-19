@@ -6,15 +6,17 @@ question: "Sort on due or scheduled"
 
 Back to the [FAQ](/support/faq)
 
-Q: Sort on due or scheduled
+{{< question >}}
+### Sort on due or scheduled
 
 I want tasks sorted in the increasing order of due or scheduled date.
 
 So, task due on 2014-05-06 is followed by the task scheduled on 2014-05-07 is followed by a task due on 2014-05-08, etc.
 
 Any way to accomplish this?
-
-A: So you want ascending order, not descending order of due dates.
+{{< /question >}}
+{{< answer >}}
+So you want ascending order, not descending order of due dates.
 Whichever report you are referring to (you didn't mention) has a sort order defined.
 Look at the sort order with this:
 
@@ -54,4 +56,4 @@ A: I see. That's not supported. I'm not sure it even makes sense.
 A: in certain workflows (mine, for instance), it does make sense :) I wish I could use a filter that says (due OR sche)+
 
 A: You can - a filter is a different animal than a sort.
-
+{{< /answer >}}

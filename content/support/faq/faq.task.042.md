@@ -6,10 +6,12 @@ question: "How can I prevent renumbering of tasks' ids?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How can I prevent renumbering of tasks' ids?
+{{< question >}}
+### How can I prevent renumbering of tasks' ids?
 After I have marked a task as complete or have deleted it, the ids of the remaining change. How can I prevent task of doing so?
-
-A: You can disable the renumber, but it's there for a reason, a very good reason, which is performance.
+{{< /question >}}
+{{< answer >}}
+You can disable the renumber, but it's there for a reason, a very good reason, which is performance.
 Without the renumbering, Taskwarrior response time will grow proportional to the total number of pending and completed tasks.
 
 See ID Numbers for details.
@@ -27,4 +29,4 @@ rc.gc=off
 e.g.
 
 task list rc.gc=off
-
+{{< /answer >}}

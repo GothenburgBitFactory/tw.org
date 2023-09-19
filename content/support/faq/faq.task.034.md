@@ -6,7 +6,8 @@ question: "How do I remove duplicate UUIDs?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How do I remove duplicate UUIDs?
+{{< question >}}
+### How do I remove duplicate UUIDs?
 
 If the command:
 
@@ -16,8 +17,9 @@ $ task diag
 ```
 
 states that there are duplicate UUIDs, how do I remove them?
-
-A: As far as I know there is no automated way to deal with duplicate UUIDs.
+{{< /question >}}
+{{< answer >}}
+As far as I know there is no automated way to deal with duplicate UUIDs.
 
 What follows is what I would do (did) in this situation.
 
@@ -70,3 +72,4 @@ This information requires confirmation.
 As far as I know the duplicate UUID problem cannot be solved by manually crafting entries in the backlog.data file.
 
 I never had to go this far, but I can only envision a road with a lot of pain!
+{{< /answer >}}

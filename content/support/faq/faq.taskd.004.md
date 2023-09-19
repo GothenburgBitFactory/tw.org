@@ -6,15 +6,17 @@ question: "How to go back in time? Or: Reverting your messed up database!"
 
 Back to the [FAQ](/support/faq)
 
-Q: How to go back in time? Or: Reverting your messed up database!
+{{< question >}}
+### How to go back in time? Or: Reverting your messed up database!
 
 I just tested the current beta of Mirakel which supports better handling of recurring tasks but apparently it messed up my database which led to a huge duplication of already completed tasks and some other stuff.
 
 However, I was just wondering: How to back in in time? Al those nasty changes, I do not want to keep them, I'd love to have my database from yesterday back. Any idea?
 
 taskd 1.0.0 and task 2.3.0
-
-A:Using beta software without first making a backup of your data leads to ... exactly this kind of problem.
+{{< /question >}}
+{{< answer >}}
+Using beta software without first making a backup of your data leads to ... exactly this kind of problem.
 Let's assume you have learned your lesson.
 Without further lecturing, here is the recovery process:
 
@@ -50,4 +52,5 @@ Don't worry, because you made a backup.
 Take a good look at your tasks.
 7. If there is a mistake, restore from your backup and repeat from step 3.
 8. Once you are satisfied, make another backup.
+   {{< /answer >}}
 

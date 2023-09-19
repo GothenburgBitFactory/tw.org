@@ -6,11 +6,13 @@ question: "Sort by date modified"
 
 Back to the [FAQ](/support/faq)
 
-Q: Sort by date modified
+{{< question >}}
+### Sort by date modified
 
 How can I sort the tasks by date modified?
-
-A: You could define a report.
+{{< /question >}}
+{{< answer >}}
+You could define a report.
 
 Btw. if you name the report mod as in this example, you have also a solution for your other question. Instead of Nope, try again. you will get (most likely) No matches.
 
@@ -27,4 +29,4 @@ task sortMod
 A: You can also use a one-time override for this, although creating/modifying a report is the correct answer:
 
 $ task rc.report.list.sort=modified- list
-
+{{< /answer >}}

@@ -6,8 +6,10 @@ question: "How do I list tasks scheduled today?"
 
 Back to the [FAQ](/support/faq)
 
-### Q: How do I list tasks scheduled today?
-
+{{< question >}}
+### How do I list tasks scheduled today?
+{{< /question >}}
+{{< answer >}}
 To filter tasks within a date range:
 
 ```
@@ -21,3 +23,4 @@ Alternately, do this:
 $ task scheduled.after:today and scheduled.before:tomorrow list
 ```
 
+{{< /answer >}}

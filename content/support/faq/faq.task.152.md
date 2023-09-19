@@ -6,11 +6,13 @@ question: "Timewarrior & Taskwarrior: How to represent never-ending tasks?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Timewarrior & Taskwarrior: How to represent never-ending tasks?
+{{< question >}}
+### Timewarrior & Taskwarrior: How to represent never-ending tasks?
 
 What's a reasonable way to represent never-ending tasks for the purposes of tracking time when using the Taskwarrior hook? Take, for instance, email, which is not really a task you can cross off, but still something you'd prefer to log time against.
-
-A: Good question.
+{{< /question >}}
+{{< answer >}}
+Good question.
 Here are two suggestions:
 
 Create a "Process Email" task, with an email tag, but do not assign a due date.
@@ -25,3 +27,4 @@ $ timew start 'Process Email' email
 ...
 $ timew stop
 
+{{< /answer >}}

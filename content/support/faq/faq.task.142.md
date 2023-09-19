@@ -6,7 +6,8 @@ question: "urgency.scheduled not being applied"
 
 Back to the [FAQ](/support/faq)
 
-Q: urgency.scheduled not being applied
+{{< question >}}
+### urgency.scheduled not being applied
 
 I don't know if this is a bug or just my misunderstanding.
 
@@ -39,11 +40,13 @@ Priority      H
 
 This task has a "scheduled" date and a SCHEDULED virtual tag, but the urgency.scheduled coefficient is not being applied.
 Should it be?
-
-A: This is expected.
+{{< /question >}}
+{{< answer >}}
+This is expected.
 The scheduled coefficient only comes into play when the task is ready.
 In other words when scheduled < now.
 
 Your task has a scheduled date in the future, which means the task is not ready to start working on, and the urgency from the scheduled coefficient is zero.
 You'll see the urgency jump up on 2016-11-18, by the amount of the scheduled coefficient.
 
+{{< /answer >}}

@@ -6,7 +6,8 @@ question: "Can Taskwarrior be used as a work log?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Can Taskwarrior be used as a work log? Does anyone else use it this way?
+{{< question >}}
+### Can Taskwarrior be used as a work log? Does anyone else use it this way?
 
 First time post here.
 I've been using TW on and off for about a year.
@@ -23,6 +24,7 @@ So in my use case, I'm using it equally as much as a log book as I am a task man
 Was curious if that is a common use for others, if it's an 'appropriate' use of TW, and what others are doing in that regard.
 
 PS - Please keep up the good work!!  And ty for the s/w!
-
-A: You need Timewarrior!
-
+{{< /question >}}
+{{< answer >}}
+You need Timewarrior!
+{{< /answer >}}

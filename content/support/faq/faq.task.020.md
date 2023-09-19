@@ -6,8 +6,11 @@ question: "How do I record a task that is already completed?"
 
 Back to the [FAQ](/support/faq)
 
-### Q: How do I record a task that is already completed?
+{{< question >}}
+### How do I record a task that is already completed?
+{{< /question >}}
 
+{{< answer >}}
 There are several ways to do this.
 The simplest is to use the `log` command, which creates a new task and immediately sets the status to `completed`:
 
@@ -26,3 +29,4 @@ Furthermore, if you wish to record the date the task was completed:
 ```
 $ task log end:2018-01-22 ...
 ```
+{{< /answer >}}

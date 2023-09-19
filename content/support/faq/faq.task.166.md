@@ -6,7 +6,8 @@ question: "Create recurring task with due date the date instance was created"
 
 Back to the [FAQ](/support/faq)
 
-Q: Taskwarrior: create recurring task with due date the date instance was created
+{{< question >}}
+### Taskwarrior: create recurring task with due date the date instance was created
 
 I would like to create a recurring task to remind me to process my GTD intray (it can be used also to implement any other habit), that has the due date of the instance equal the day the instance was created, and it expires (gets deleted) after 24 hours after the instance was created.
 
@@ -20,6 +21,8 @@ But this doesn't work as expected: The due date of 'today' is in relation to the
 Having the instance task have the due date set to current day would be useful because I could see the task with the +DUETODAY virtual tag, and it makes sense because it's something that must be accomplished that day
 
 Thank you for any suggestions
+{{< /question >}}
+{{< answer >}}
+I think you need  due:23:45  (or some specific time of day) to accomplish this.
 
-A: I think you need  due:23:45  (or some specific time of day) to accomplish this.
-
+{{< /answer >}}

@@ -8,12 +8,14 @@ Back to the [FAQ](/support/faq)
 
 Back to the [FAQ](/support/faq)
 
-Q: Is it possible to specify urgency when no project is assigned?
+{{< question >}}
+### Is it possible to specify urgency when no project is assigned?
 The idea behind this question is when you quickly add a task (just not to forget it), but don't have the time to classify it precisely (with tags and or projects)
 
 This way when task next is launched, the "new and unspecified" task jumps to the top of the list so that I can classify them in priority (once correctly classified, they will drop at their expected urgency level)
-
-A: Taskwarrior calculates "urgency" based on several values called coefficients.
+{{< /question >}}
+{{< answer >}}
+Taskwarrior calculates "urgency" based on several values called coefficients.
 
 These can be listed using task show coeff and by reading the manpage man taskrc.
 
@@ -31,4 +33,4 @@ report.review.filter              proj: tags: due: pri: (add more filters here)
 and customize the report.review.filter line to match what you consider new and unspecified tasks.
 
 Then you can simply run task review to list tasks that require further metadata processing.
-
+{{< /answer >}}

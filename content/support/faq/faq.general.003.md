@@ -3,10 +3,13 @@ title: "Taskwarrior - FAQ"
 topic: "General"
 question: "What is the project's coding style?"
 ---
+Back to the [FAQ](/support/faq)
 
-Q: Is there somewhere information about the coding style for the different programming languages used?
-
-A: Make all changes and additions such that they blend in perfectly with the surrounding code, so it looks like only one person worked on the source, and that person is rigidly consistent.
+{{< question "What is the project's coding style?" >}}
+Is there somewhere information about the coding style for the different programming languages used?
+{{< /question >}}
+{{< answer >}}
+Make all changes and additions such that they blend in perfectly with the surrounding code, so it looks like only one person worked on the source, and that person is rigidly consistent.
 
 That's the general guideline, but to be more explicit about it, here are some of the rules:
 
@@ -16,3 +19,4 @@ That's the general guideline, but to be more explicit about it, here are some of
 * No cuddled braces
 
 https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/contrib/coding_style.md
+{{< /answer >}}

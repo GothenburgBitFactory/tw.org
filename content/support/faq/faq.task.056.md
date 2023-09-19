@@ -6,9 +6,11 @@ question: "How can I write a test for task?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How can I write a test for task?
-
-A: Copied from TW-1334 (pbeckingham):
+{{< question >}}
+### How can I write a test for task?
+{{< /question >}}
+{{< answer >}}
+Copied from TW-1334 (pbeckingham):
 
 Here is the basic form:
 
@@ -25,4 +27,4 @@ Look at the Python tests specifically, as we are only accepting new test scripts
 There is documentation on running the tests:
 
 https://taskwarrior.org/docs/build.html
-
+{{< /answer >}}

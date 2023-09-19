@@ -6,7 +6,8 @@ question: "How to run shell command inside tasksh?"
 
 Back to the [FAQ](/support/faq)
 
-Q: How to run shell command inside tasksh (or evaluate another task-command)
+{{< question >}}
+### How to run shell command inside tasksh (or evaluate another task-command)
 
 From the shell you can run
 ```
@@ -27,8 +28,9 @@ gives an error:
 ```
 
 (How) does this work?
-
-A: From the tasksh 1.1.0 man page:
+{{< /question >}}
+{{< answer >}}
+From the tasksh 1.1.0 man page:
 ```
 exec <commands>
        This command allows you to run shell commands from within
@@ -40,4 +42,4 @@ But that requires tasksh-1.1.0 installed.
 
 The 2.3.0 you are using has a tasksh command which supports an undocumented xc command.
 This older tasksh has been replaced by the above.
-
+{{< /answer >}}

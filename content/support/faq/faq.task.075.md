@@ -6,7 +6,8 @@ question: "Custom report by tag, project and dependency"
 
 Back to the [FAQ](/support/faq)
 
-Q: Custom report by tag, project and dependency
+{{< question >}}
+### Custom report by tag, project and dependency
 
 I'm pretty ignorant when it comes to making custom reports so bear with me.
 
@@ -41,7 +42,8 @@ Then my tasks are sorted by the people involved and the project dependencies (as
  
 
 How do I set this up as one command?
-
-A: The simplest way is to put the above commands in a shell script.
+{{< /question >}}
+{{< answer >}}
+The simplest way is to put the above commands in a shell script.
 Insert an 'echo' command between task commands to create titles.
-
+{{< /answer >}}

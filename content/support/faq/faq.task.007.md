@@ -6,8 +6,10 @@ question: "How do I bring back a task that I completed or deleted by mistake?"
 
 Back to the [FAQ](/support/faq)
 
-### Q: How do I bring back a task that I completed or deleted by mistake?
-
+{{< question >}}
+### How do I bring back a task that I completed or deleted by mistake?
+{{< /question >}}
+{{< answer >}}
 Simply changing the `status` of the task to `pending` is enough, Taskwarrior takes care of the rest:
 
 ```
@@ -20,3 +22,4 @@ Here is how to see the 10 most recently completed or deleted tasks, with the mos
 ```
 $ task limit:10 \( status:completed or status:deleted \) rc.report.all.sort:end- all
 ```
+{{< /answer >}}

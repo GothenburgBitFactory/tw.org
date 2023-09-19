@@ -6,11 +6,13 @@ question: "Can I create a recurring task which repeats based on the date of comp
 
 Back to the [FAQ](/support/faq)
 
-Q: Can I create a recurring task which repeats based on the date of completion, rather than the due date?
+{{< question >}}
+### Can I create a recurring task which repeats based on the date of completion, rather than the due date?
 
 Example: Have a task to clean your pet's cage weekly; if you do it a few days early, then the new task should be generated 7 days from the date of completion.
-
-A: This is not supported.
+{{< /question >}}
+{{< answer >}}
+This is not supported.
 But there is hope.
 
 Since adding recurrence to Taskwarrior we have learned over the years that there are different types of recurrence.
@@ -26,4 +28,4 @@ A: I was really missing this feature, so I at least put together a hook simulati
 It is available on GitHub:
 
 https://github.com/JensErat/task-relative-recur
-
+{{< /answer >}}

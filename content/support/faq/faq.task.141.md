@@ -6,7 +6,8 @@ question: "filter based on count?"
 
 Back to the [FAQ](/support/faq)
 
-Q: filter based on count?
+{{< question >}}
+### filter based on count?
 
 I have a custom report with this filter:
 
@@ -16,10 +17,12 @@ report.soon.filter=(status:pending or status:waiting) due.before:30d
 Is there a filter option that says "show me 15 tasks" ?
 
 I know I can use head, but piping the output means I lose colors and such.
-
-A: https://taskwarrior.org/docs/examples.html
+{{< /question >}}
+{{< answer >}}
+https://taskwarrior.org/docs/examples.html
 
 Use this:
 
 task ... limit:15
 
+{{< /answer >}}

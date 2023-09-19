@@ -6,7 +6,8 @@ question: "Excluding tasks from a report?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Excluding tasks from a report?
+{{< question >}}
+### Excluding tasks from a report?
 
 I mainly rely on tags for making reports
 
@@ -19,8 +20,9 @@ Is there a way to exclude tasks that contain a certain tag, or that are low prio
 task +somebody -dothislater >> myreport.txt
 task +someoneelse -waitingonsomething >> myreport.txt
 task +someoneelse -pri:L>> myreport.txt<Paste>
-
-A: Actually, you are providing your answer.
+{{< /question >}}
+{{< answer >}}
+Actually, you are providing your answer.
 
 task +somebody -dothislater >> myreport.txt
 Is exactly how you should do it.
@@ -34,4 +36,4 @@ You should also check
 man task
 man taskrc
 as these provide most of the information
-
+{{< /answer >}}

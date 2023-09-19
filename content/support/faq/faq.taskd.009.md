@@ -6,7 +6,8 @@ question: "taskd: \"A TLS packet with unexpected length was received\" on task s
 
 Back to the [FAQ](/support/faq)
 
-Q: taskd: "A TLS packet with unexpected length was received" on task sync init
+{{< question >}}
+### taskd: "A TLS packet with unexpected length was received" on task sync init
 
 I just setup my task server and it works already great with Mirakel. Unfortunateley, the same credentials and certificates don't work on my laptop (even if I used it for creating the Mirakle config file). 
 
@@ -88,12 +89,18 @@ Tests
       $TERM: ansi (254x63)
        Dups: Scanned 1 tasks for duplicate UUIDs:
              No duplicates found
-
+{{< /question >}}
+{{< answer >}}
 A: You have the setting
 
+```
 taskd.trust=strict
+```
 On your 2.4.0b1 client, that means hostname is checked in the certificate.
-Did you set the hostname in the server cert such that this will work?  If not, either regenerate the certs with the right hostname, or change the setting:
+Did you set the hostname in the server cert such that this will work?
+If not, either regenerate the certs with the right hostname, or change the setting:
 
+```
 taskd.trust=ignore hostname
-
+```
+{{< /answer >}}

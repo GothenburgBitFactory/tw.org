@@ -6,7 +6,8 @@ question: "combine multiple conditions in filter"
 
 Back to the [FAQ](/support/faq)
 
-Q: combine multiple conditions in filter
+{{< question >}}
+### combine multiple conditions in filter
 
 I was trying to combine multiple conditions in the filter with and/ or between them.
 
@@ -21,8 +22,9 @@ I have tried escaping the brackets using " as shown above, single quote ' and a 
 The error is the same.
 
 What am I doing wrong and how do I set it right?
-
-A: You're not doing anything wrong, this looks like a parser bug. Adding a space before the closing ")" can be used as a workaround:
+{{< /question >}}
+{{< answer >}}
+You're not doing anything wrong, this looks like a parser bug. Adding a space before the closing ")" can be used as a workaround:
 
 task project:P1 and "(due.before:tomorrow or sch.before:tomorrow )"
 If you want to see where Taskwarrior goes wrong, try running it like this:
@@ -33,4 +35,4 @@ and notice how the closing ")" is assumed to be part of the schedule date.
  
 
 The good news is that this will "magically" be fixed in Taskwarrior 2.4.0, which comes with a new and more powerful parser. Still, you might want to open a bug report so Paul doesn't miss this as a potential test case before releasing 2.4.0
-
+{{< /answer >}}

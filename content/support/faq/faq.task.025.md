@@ -6,14 +6,16 @@ question: "How do you delete a recurring task?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Delete a recurring task template
+{{< question >}}
+### Delete a recurring task template
 
 How do you delete a recurring task?
 
 task ID delete
 says task is not deletable.
-
-A: The easiest way would be
+{{< /question >}}
+{{< answer >}}
+The easiest way would be
 
 task ID modify until:-1d
 It will be deleted the next time you run a report.
@@ -32,3 +34,4 @@ Recur:
 and save. 
 
 After that you can easily delete the task, because its no longer a recurring one.
+{{< /answer >}}

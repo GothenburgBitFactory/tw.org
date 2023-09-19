@@ -6,10 +6,11 @@ question: "Task calendar not dislaying holidays"
 
 Back to the [FAQ](/support/faq)
 
-Q: Task calendar not dislaying holidays
+{{< question >}}
+### Task calendar not dislaying holidays
 
 I don't know why the calendar is not displaying the holidays. This is the my taskrc :
-
+```
 # [Created by task 2.3.0 7/23/2014 14:29:17]
 # Taskwarrior program configuration file.
 # For more documentation, see https://taskwarrior.org or try 'man task', 'man task-faq',
@@ -67,8 +68,10 @@ calendar.details=full
 calendar.holidays=full
 
 calendar.details.report=list
-
-A: Take a look inside this file that you are including, and verify that you have holidays extending at least until the end of 2014:
+```
+{{< /question >}}
+{{< answer >}}
+Take a look inside this file that you are including, and verify that you have holidays extending at least until the end of 2014:
 
 /usr/local/Cellar/task/2.3.0/share/doc/task/rc/holidays.en-US.rc
-
+{{< /answer >}}

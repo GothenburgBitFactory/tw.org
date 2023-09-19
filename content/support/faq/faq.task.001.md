@@ -5,10 +5,12 @@ question: "How do I implement Pomodoro?"
 ---
 
 Back to the [FAQ](/support/faq)
-
-### Q: How do I implement Pomodoro?
-
+{{< question >}}
+### How do I implement Pomodoro?
+{{< /question >}}
+{{< answer >}}
 Taskwarrior currently doesn't support the pomodoro technique, not because it doesn't have all the necessary features, but because it has no way to notify the user if a given point in time has arrived.
 Remember: most of the time, Taskwarrior isn't running.
 
 You can however use the pomodoro timer or any other timer software (KTeaTimer, Gnome's Tea Timer, Gnome's pomodoro shell extension, pyStopWatch, or any of the many timers out there), together with Taskwarrior to manage and prioritize your ToDo list.
+{{< /answer >}}

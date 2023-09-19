@@ -6,7 +6,8 @@ question: "Can I create shorter aliases for keywords?"
 
 Back to the [FAQ](/support/faq)
 
-Q: Can I create shorter aliases for keywords?
+{{< question >}}
+### Can I create shorter aliases for keywords?
 
 Is there a simple way to set my own shorthand for Taskwarrior commands and keywords?
 
@@ -19,8 +20,9 @@ I thought there might be built-in aliases akin to what I was looking for, but I 
 Thanks in advance! 
 
 Edit: I found documentation for adding command aliases, but that method does not seem to work with the project: keyword. 
-
-A: Taskwarrior already supports abbreviated commands and attributes.
+{{< /question >}}
+{{< answer >}}
+Taskwarrior already supports abbreviated commands and attributes.
 
 Look in the task.1 man page, under "ABBREVIATION".
-
+{{< /answer >}}
