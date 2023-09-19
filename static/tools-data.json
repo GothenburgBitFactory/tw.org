@@ -492,7 +492,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2023-09-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -4137,7 +4137,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 573,
+    "rating": 574,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5503,7 +5503,7 @@
       "garybgenett"
     ],
     "rating": 17,
-    "updated": "2023-09-16",
+    "updated": "2023-09-18",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6448,7 +6448,7 @@
       "jeffa5"
     ],
     "rating": 0,
-    "updated": "2023-09-04",
+    "updated": "2023-09-18",
     "url": "https://github.com/jeffa5/tasknet"
   },
   {
@@ -6912,7 +6912,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 320,
+    "rating": 321,
     "updated": "2023-03-24",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7107,7 +7107,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1164,
+    "rating": 1165,
     "updated": "2023-09-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9493,7 +9493,7 @@
       "nyarly"
     ],
     "rating": 13,
-    "updated": "2022-12-14",
+    "updated": "2023-09-18",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
   {
@@ -10152,7 +10152,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 682,
+    "rating": 683,
     "updated": "2023-08-30",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
