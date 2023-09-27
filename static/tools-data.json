@@ -493,7 +493,7 @@
       "CCExtractor"
     ],
     "rating": 30,
-    "updated": "2023-09-16",
+    "updated": "2023-09-26",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1168,7 +1168,7 @@
       "HiveMinds"
     ],
     "rating": 11,
-    "updated": "2023-09-24",
+    "updated": "2023-09-25",
     "url": "https://github.com/HiveMinds/tw-install"
   },
   {
@@ -1333,7 +1333,7 @@
       "KevCui"
     ],
     "rating": 18,
-    "updated": "2023-09-22",
+    "updated": "2023-09-25",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1768,7 +1768,7 @@
       "Psyhackological"
     ],
     "rating": 0,
-    "updated": "2023-03-22",
+    "updated": "2023-09-25",
     "url": "https://github.com/Psyhackological/dotfiles"
   },
   {
@@ -2163,7 +2163,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3567,7 +3567,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 506,
+    "rating": 507,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3642,7 +3642,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 74,
+    "rating": 75,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3962,21 +3962,6 @@
     "url": "https://github.com/cherusk/tw_projector"
   },
   {
-    "description": "TaskKhalReschedulWarrior",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "TaskKhalReschedulWarrior",
-    "owner": [
-      "chess-seventh"
-    ],
-    "rating": 3,
-    "updated": "2023-07-25",
-    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
-  },
-  {
     "description": "Simple taskwarrior notifications in rust",
     "dormant": false,
     "language": [
@@ -4137,7 +4122,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 576,
+    "rating": 575,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5503,7 +5488,7 @@
       "garybgenett"
     ],
     "rating": 17,
-    "updated": "2023-09-20",
+    "updated": "2023-09-26",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6448,7 +6433,7 @@
       "jeffa5"
     ],
     "rating": 0,
-    "updated": "2023-09-18",
+    "updated": "2023-09-25",
     "url": "https://github.com/jeffa5/tasknet"
   },
   {
@@ -7033,7 +7018,7 @@
       "kaiec"
     ],
     "rating": 2,
-    "updated": "2023-09-13",
+    "updated": "2023-09-26",
     "url": "https://github.com/kaiec/dotfiles"
   },
   {
@@ -7107,8 +7092,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1169,
-    "updated": "2023-09-11",
+    "rating": 1171,
+    "updated": "2023-09-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8338,7 +8323,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-09-17",
+    "updated": "2023-09-26",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11638,7 +11623,7 @@
       "timothyrenner"
     ],
     "rating": 0,
-    "updated": "2023-09-24",
+    "updated": "2023-09-25",
     "url": "https://github.com/timothyrenner/taskwarrior-extractor"
   },
   {
