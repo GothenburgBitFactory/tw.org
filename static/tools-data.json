@@ -1393,7 +1393,7 @@
       "LanHikari22"
     ],
     "rating": 0,
-    "updated": "2023-09-05",
+    "updated": "2023-09-27",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -1452,7 +1452,7 @@
     "owner": [
       "LukasGasior1"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-08-19",
     "url": "https://github.com/LukasGasior1/taskwarrior-fullcalendar"
   },
@@ -3102,7 +3102,7 @@
     "owner": [
       "artur-shaik"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2019-01-09",
     "url": "https://github.com/artur-shaik/mutt2task"
   },
@@ -3252,7 +3252,7 @@
     "owner": [
       "ayosec"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-05-23",
     "url": "https://github.com/ayosec/task-changes"
   },
@@ -3447,7 +3447,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 215,
+    "rating": 217,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3960,6 +3960,21 @@
     "rating": 1,
     "updated": "2019-04-21",
     "url": "https://github.com/cherusk/tw_projector"
+  },
+  {
+    "description": "TaskKhalReschedulWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "TaskKhalReschedulWarrior",
+    "owner": [
+      "chess-seventh"
+    ],
+    "rating": 3,
+    "updated": "2023-07-25",
+    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
   {
     "description": "Simple taskwarrior notifications in rust",
@@ -6897,7 +6912,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 322,
+    "rating": 323,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7093,7 +7108,7 @@
       "kdheepak"
     ],
     "rating": 1171,
-    "updated": "2023-09-26",
+    "updated": "2023-09-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8323,7 +8338,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-09-26",
+    "updated": "2023-09-27",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9732,7 +9747,7 @@
     "owner": [
       "phepp"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2017-03-19",
     "url": "https://github.com/phepp/todoist-taskwarrior-integration"
   },
@@ -10153,7 +10168,7 @@
       "ralphbean"
     ],
     "rating": 685,
-    "updated": "2023-08-30",
+    "updated": "2023-09-27",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
