@@ -987,7 +987,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 131,
+    "rating": 132,
     "updated": "2023-05-10",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1032,7 +1032,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -1467,7 +1467,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -1738,7 +1738,7 @@
       "Pradeep1G"
     ],
     "rating": 0,
-    "updated": "2023-09-09",
+    "updated": "2023-09-28",
     "url": "https://github.com/Pradeep1G/TaskServer"
   },
   {
@@ -2458,7 +2458,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-09-19",
+    "updated": "2023-09-28",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3027,7 +3027,7 @@
     "owner": [
       "andrey-utkin"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2023-06-06",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
@@ -3327,7 +3327,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
@@ -3747,7 +3747,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 95,
+    "rating": 96,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -3820,11 +3820,11 @@
     "license": null,
     "name": "telegram-taskwarrior",
     "owner": [
-      "cedricbousmanne"
+      "cedricdekimpe"
     ],
     "rating": 0,
     "updated": "2022-04-28",
-    "url": "https://github.com/cedricbousmanne/telegram-taskwarrior"
+    "url": "https://github.com/cedricdekimpe/telegram-taskwarrior"
   },
   {
     "description": "CodeTask is a Visual Studio Code for TaskWarrior Integration",
@@ -4197,7 +4197,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 280,
+    "rating": 281,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4392,7 +4392,7 @@
     "owner": [
       "dakuten"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2022-04-14",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
   },
@@ -7107,7 +7107,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1171,
+    "rating": 1172,
     "updated": "2023-09-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7212,7 +7212,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-09-09",
     "url": "https://github.com/kgoettler/tasksync"
   },
@@ -7532,6 +7532,21 @@
     "url": "https://github.com/laugg/talk-taskwarrior"
   },
   {
+    "description": "taskwarrior for iOS",
+    "dormant": false,
+    "language": [
+      "Swift"
+    ],
+    "license": null,
+    "name": "taskmage",
+    "owner": [
+      "leandwo"
+    ],
+    "rating": 1,
+    "updated": "2021-07-20",
+    "url": "https://github.com/leandwo/taskmage"
+  },
+  {
     "description": "Quick task creator for taskwarrior",
     "dormant": true,
     "language": [
@@ -7590,21 +7605,6 @@
     "rating": 0,
     "updated": "2020-08-04",
     "url": "https://github.com/lemontree1991/TaskServer"
-  },
-  {
-    "description": "taskwarrior for iOS",
-    "dormant": false,
-    "language": [
-      "Swift"
-    ],
-    "license": null,
-    "name": "taskmage",
-    "owner": [
-      "leosolid"
-    ],
-    "rating": 1,
-    "updated": "2021-07-20",
-    "url": "https://github.com/leosolid/taskmage"
   },
   {
     "description": "Curses-based taskwarrior dashboard for your pocket computer.",
@@ -9582,7 +9582,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -10168,7 +10168,7 @@
       "ralphbean"
     ],
     "rating": 685,
-    "updated": "2023-09-27",
+    "updated": "2023-09-28",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10197,7 +10197,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 168,
+    "rating": 169,
     "updated": "2023-06-25",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -11638,7 +11638,7 @@
       "timothyrenner"
     ],
     "rating": 0,
-    "updated": "2023-09-25",
+    "updated": "2023-09-28",
     "url": "https://github.com/timothyrenner/taskwarrior-extractor"
   },
   {
