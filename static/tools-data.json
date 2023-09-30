@@ -2458,7 +2458,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-09-28",
+    "updated": "2023-09-30",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3327,7 +3327,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
@@ -3342,7 +3342,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 276,
+    "rating": 277,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3882,7 +3882,7 @@
     "owner": [
       "charles-e"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2021-04-06",
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
@@ -5208,7 +5208,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -6987,7 +6987,7 @@
     "owner": [
       "juzim"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-09-12",
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
@@ -7107,7 +7107,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1172,
+    "rating": 1174,
     "updated": "2023-09-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8338,7 +8338,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-09-27",
+    "updated": "2023-09-29",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9523,7 +9523,7 @@
       "ogarcia"
     ],
     "rating": 69,
-    "updated": "2023-05-10",
+    "updated": "2023-09-29",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
@@ -10168,7 +10168,7 @@
       "ralphbean"
     ],
     "rating": 685,
-    "updated": "2023-09-28",
+    "updated": "2023-09-29",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -11233,7 +11233,7 @@
       "strawpants"
     ],
     "rating": 1,
-    "updated": "2022-12-13",
+    "updated": "2023-09-29",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
   {
@@ -11638,7 +11638,7 @@
       "timothyrenner"
     ],
     "rating": 0,
-    "updated": "2023-09-28",
+    "updated": "2023-09-29",
     "url": "https://github.com/timothyrenner/taskwarrior-extractor"
   },
   {
@@ -11712,7 +11712,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 769,
+    "rating": 771,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11952,7 +11952,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 426,
+    "rating": 427,
     "updated": "2023-09-17",
     "url": "https://github.com/vit-project/vit"
   },
