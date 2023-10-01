@@ -722,21 +722,6 @@
     "url": "https://github.com/DerHabicht/twinput"
   },
   {
-    "description": "Rust Productivity Manager && Scheduler: A productivity manager and scheduler made in Rust that depends on TaskWarrior.",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "rpms",
-    "owner": [
-      "Dev-Myna"
-    ],
-    "rating": 0,
-    "updated": "2023-08-28",
-    "url": "https://github.com/Dev-Myna/rpms"
-  },
-  {
     "description": "c++ Task service",
     "dormant": true,
     "language": [
@@ -945,6 +930,36 @@
     "rating": 0,
     "updated": "2019-10-22",
     "url": "https://github.com/Gander7/taskwarrior"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior",
+    "owner": [
+      "GarethPaulBell"
+    ],
+    "rating": 0,
+    "updated": "2023-09-30",
+    "url": "https://github.com/GarethPaulBell/taskwarrior"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior_data",
+    "owner": [
+      "GarethPaulBell"
+    ],
+    "rating": 0,
+    "updated": "2023-10-01",
+    "url": "https://github.com/GarethPaulBell/taskwarrior_data"
   },
   {
     "description": null,
@@ -3978,7 +3993,7 @@
   },
   {
     "description": "Simple taskwarrior notifications in rust",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -4742,6 +4757,21 @@
     "url": "https://github.com/dkpeakbil/taskserver"
   },
   {
+    "description": "Rust Productivity Manager && Scheduler: A productivity manager and scheduler made in Rust that depends on TaskWarrior.",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "rpms",
+    "owner": [
+      "dmyna"
+    ],
+    "rating": 0,
+    "updated": "2023-08-28",
+    "url": "https://github.com/dmyna/rpms"
+  },
+  {
     "description": "Dotfiles spanning neovim, tmux, i3wm, qutebrowser, yabai, skhd, taskwarrior, various REPLs.",
     "dormant": false,
     "language": [
@@ -5503,7 +5533,7 @@
       "garybgenett"
     ],
     "rating": 17,
-    "updated": "2023-09-26",
+    "updated": "2023-09-30",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7107,7 +7137,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1174,
+    "rating": 1175,
     "updated": "2023-09-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8323,7 +8353,7 @@
       "matthiasbeyer"
     ],
     "rating": 8,
-    "updated": "2023-08-01",
+    "updated": "2023-10-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -8338,7 +8368,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-09-29",
+    "updated": "2023-09-30",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8862,8 +8892,8 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 48,
-    "updated": "2023-09-16",
+    "rating": 49,
+    "updated": "2023-09-30",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10167,7 +10197,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 685,
+    "rating": 686,
     "updated": "2023-09-29",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10872,7 +10902,7 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2022-09-11",
     "url": "https://github.com/skbolton/neorg-taskwarrior"
   },
@@ -11627,21 +11657,6 @@
     "url": "https://github.com/thufschmitt/twui"
   },
   {
-    "description": "Prefect pipeline for extracting my taskwarrior data and structuring it",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "taskwarrior-extractor",
-    "owner": [
-      "timothyrenner"
-    ],
-    "rating": 0,
-    "updated": "2023-09-29",
-    "url": "https://github.com/timothyrenner/taskwarrior-extractor"
-  },
-  {
     "description": "a status item for taskwarrior on OSX",
     "dormant": true,
     "language": [
@@ -11952,7 +11967,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 427,
+    "rating": 428,
     "updated": "2023-09-17",
     "url": "https://github.com/vit-project/vit"
   },
