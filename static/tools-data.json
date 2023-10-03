@@ -950,7 +950,7 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "Shell"
     ],
     "license": null,
     "name": "taskwarrior_data",
@@ -2577,7 +2577,7 @@
     "owner": [
       "aaschmid"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2020-02-09",
     "url": "https://github.com/aaschmid/taskwarrior-java-client"
   },
@@ -4152,7 +4152,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 575,
+    "rating": 576,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4332,7 +4332,7 @@
     "owner": [
       "crockeo"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2023-01-01",
     "url": "https://github.com/crockeo/taskn"
   },
@@ -4783,7 +4783,7 @@
       "dnaaun"
     ],
     "rating": 1,
-    "updated": "2023-09-22",
+    "updated": "2023-10-02",
     "url": "https://github.com/dnaaun/dotfiles"
   },
   {
@@ -6478,7 +6478,7 @@
       "jeffa5"
     ],
     "rating": 0,
-    "updated": "2023-09-25",
+    "updated": "2023-10-02",
     "url": "https://github.com/jeffa5/tasknet"
   },
   {
@@ -7137,8 +7137,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1175,
-    "updated": "2023-09-27",
+    "rating": 1176,
+    "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8893,7 +8893,7 @@
       "mrusme"
     ],
     "rating": 49,
-    "updated": "2023-09-30",
+    "updated": "2023-10-02",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -11967,7 +11967,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 428,
+    "rating": 430,
     "updated": "2023-09-17",
     "url": "https://github.com/vit-project/vit"
   },
