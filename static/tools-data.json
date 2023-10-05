@@ -492,7 +492,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2023-09-26",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -612,7 +612,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 129,
+    "rating": 130,
     "updated": "2023-07-14",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1047,7 +1047,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 55,
+    "rating": 56,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -2473,7 +2473,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-09-30",
+    "updated": "2023-10-03",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3357,7 +3357,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 277,
+    "rating": 278,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3897,7 +3897,7 @@
     "owner": [
       "charles-e"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-04-06",
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
@@ -4152,7 +4152,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 576,
+    "rating": 577,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4272,7 +4272,7 @@
     "owner": [
       "codehivetx"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-08-29",
     "url": "https://github.com/codehivetx/dock-warrior"
   },
@@ -5533,7 +5533,7 @@
       "garybgenett"
     ],
     "rating": 17,
-    "updated": "2023-09-30",
+    "updated": "2023-10-04",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -5787,7 +5787,7 @@
     "owner": [
       "hamlinux"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2021-08-23",
     "url": "https://github.com/hamlinux/taskwarrior-GTD"
   },
@@ -6312,7 +6312,7 @@
     "owner": [
       "jackdesert"
     ],
-    "rating": 70,
+    "rating": 69,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
   },
@@ -7137,7 +7137,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1176,
+    "rating": 1177,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8368,7 +8368,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-09-30",
+    "updated": "2023-10-03",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8892,8 +8892,8 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 49,
-    "updated": "2023-10-02",
+    "rating": 50,
+    "updated": "2023-10-04",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9102,7 +9102,7 @@
     "owner": [
       "nbossard"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-06-27",
     "url": "https://github.com/nbossard/taskwarrior-hook-addannotation"
   },
@@ -9522,7 +9522,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2023-09-18",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
@@ -9552,7 +9552,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 69,
+    "rating": 70,
     "updated": "2023-09-29",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -10197,7 +10197,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 686,
+    "rating": 687,
     "updated": "2023-09-29",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -11727,7 +11727,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 771,
+    "rating": 773,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12543,7 +12543,7 @@
   },
   {
     "description": "personal scripts for automating taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
