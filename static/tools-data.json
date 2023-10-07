@@ -1068,7 +1068,7 @@
   },
   {
     "description": "A web front end for taskwarrior written in vue js with vuetify. Designed to work with task-rest.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Vue"
     ],
@@ -2473,7 +2473,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-10-03",
+    "updated": "2023-10-05",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3252,7 +3252,7 @@
     "owner": [
       "ayosec"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-09-08",
     "url": "https://github.com/ayosec/git-tasks"
   },
@@ -3357,7 +3357,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 278,
+    "rating": 279,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3462,7 +3462,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 217,
+    "rating": 218,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3867,7 +3867,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -4152,7 +4152,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 577,
+    "rating": 576,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4212,7 +4212,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 281,
+    "rating": 279,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4698,7 +4698,7 @@
   },
   {
     "description": "Kubernetes operator for deploying an instance of the Taskwarrior server",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -5112,7 +5112,7 @@
     "owner": [
       "erickt"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2016-04-03",
     "url": "https://github.com/erickt/task-hookrs"
   },
@@ -5967,7 +5967,7 @@
     "owner": [
       "hugginsio"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2023-04-24",
     "url": "https://github.com/hugginsio/twig.nvim"
   },
@@ -6942,7 +6942,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 323,
+    "rating": 324,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7647,7 +7647,7 @@
     "owner": [
       "lharding"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2015-07-29",
     "url": "https://github.com/lharding/dashborg"
   },
@@ -7902,7 +7902,7 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2016-10-29",
     "url": "https://github.com/linuxcaffe/tw-subtask-sh"
   },
@@ -8172,7 +8172,7 @@
     "owner": [
       "manyids2"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-04-28",
     "url": "https://github.com/manyids2/taskwar.nvim"
   },
@@ -8443,7 +8443,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-09-24",
+    "updated": "2023-10-05",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9612,7 +9612,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -9762,7 +9762,7 @@
     "owner": [
       "petrovag"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-01-29",
     "url": "https://github.com/petrovag/taskw"
   },
@@ -10047,7 +10047,7 @@
     "owner": [
       "pztrn"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-07-28",
     "url": "https://github.com/pztrn/taskwarrior_hooks"
   },
@@ -10138,7 +10138,7 @@
       "quantonganh"
     ],
     "rating": 0,
-    "updated": "2023-07-12",
+    "updated": "2023-10-05",
     "url": "https://github.com/quantonganh/taskwarrior-tui"
   },
   {
@@ -10198,7 +10198,7 @@
       "ralphbean"
     ],
     "rating": 687,
-    "updated": "2023-09-29",
+    "updated": "2023-10-06",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10302,7 +10302,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 34,
+    "rating": 36,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -10527,7 +10527,7 @@
     "owner": [
       "samxsmith"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-02-17",
     "url": "https://github.com/samxsmith/taskwarrior-pomodoro"
   },
@@ -11172,7 +11172,7 @@
     "owner": [
       "sstallion"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-10-19",
     "url": "https://github.com/sstallion/taskwarrior-hooks"
   },
@@ -11442,7 +11442,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -11727,7 +11727,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 773,
+    "rating": 774,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11967,7 +11967,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 430,
+    "rating": 432,
     "updated": "2023-09-17",
     "url": "https://github.com/vit-project/vit"
   },
@@ -12072,7 +12072,7 @@
     "owner": [
       "weinshec"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-04-04",
     "url": "https://github.com/weinshec/taskw"
   },
