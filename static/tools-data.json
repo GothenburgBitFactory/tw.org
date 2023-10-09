@@ -2473,7 +2473,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-10-05",
+    "updated": "2023-10-08",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3357,7 +3357,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 279,
+    "rating": 280,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4760,7 +4760,7 @@
     "description": "Rust Productivity Manager && Scheduler: A productivity manager and scheduler made in Rust that depends on TaskWarrior.",
     "dormant": false,
     "language": [
-      "Rust"
+      "Shell"
     ],
     "license": null,
     "name": "rpms",
@@ -4768,7 +4768,7 @@
       "dmyna"
     ],
     "rating": 0,
-    "updated": "2023-08-28",
+    "updated": "2023-10-08",
     "url": "https://github.com/dmyna/rpms"
   },
   {
@@ -7137,7 +7137,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1177,
+    "rating": 1178,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8893,7 +8893,7 @@
       "mrusme"
     ],
     "rating": 50,
-    "updated": "2023-10-04",
+    "updated": "2023-10-08",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9552,7 +9552,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 70,
+    "rating": 71,
     "updated": "2023-09-29",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -10197,7 +10197,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 687,
+    "rating": 688,
     "updated": "2023-10-06",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
