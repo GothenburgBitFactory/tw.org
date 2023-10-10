@@ -3357,7 +3357,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 280,
+    "rating": 281,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3827,6 +3827,21 @@
     "url": "https://github.com/carlosfosorio1978/taskserver"
   },
   {
+    "description": "TaskSultan - a bundle of utilities for TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "tasksultan",
+    "owner": [
+      "catanadj"
+    ],
+    "rating": 0,
+    "updated": "2023-10-09",
+    "url": "https://github.com/catanadj/tasksultan"
+  },
+  {
     "description": "Telegram bot that sends taskwarrior urgent tasks",
     "dormant": false,
     "language": [
@@ -4152,7 +4167,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 576,
+    "rating": 575,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5292,7 +5307,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 143,
+    "rating": 144,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -10197,7 +10212,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 688,
+    "rating": 687,
     "updated": "2023-10-06",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
