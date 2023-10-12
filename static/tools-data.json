@@ -1002,7 +1002,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 132,
+    "rating": 133,
     "updated": "2023-05-10",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1182,7 +1182,7 @@
     "owner": [
       "HiveMinds"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2023-09-25",
     "url": "https://github.com/HiveMinds/tw-install"
   },
@@ -2473,7 +2473,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-10-08",
+    "updated": "2023-10-11",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3537,7 +3537,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -3927,7 +3927,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 40,
+    "rating": 42,
     "updated": "2023-08-24",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4227,7 +4227,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 279,
+    "rating": 280,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -7152,7 +7152,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1178,
+    "rating": 1179,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8908,7 +8908,7 @@
       "mrusme"
     ],
     "rating": 50,
-    "updated": "2023-10-08",
+    "updated": "2023-10-10",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10213,7 +10213,7 @@
       "ralphbean"
     ],
     "rating": 687,
-    "updated": "2023-10-06",
+    "updated": "2023-10-11",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -11742,7 +11742,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 774,
+    "rating": 775,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11803,7 +11803,7 @@
       "trev-dev"
     ],
     "rating": 8,
-    "updated": "2022-12-06",
+    "updated": "2023-10-11",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
@@ -11982,7 +11982,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 432,
+    "rating": 434,
     "updated": "2023-09-17",
     "url": "https://github.com/vit-project/vit"
   },
