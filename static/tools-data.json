@@ -613,7 +613,7 @@
       "DCsunset"
     ],
     "rating": 130,
-    "updated": "2023-07-14",
+    "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -2473,7 +2473,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-10-11",
+    "updated": "2023-10-12",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4173,7 +4173,7 @@
   },
   {
     "description": "Nagios plugin for monitoring Taskwarrior's Taskserver (AKA taskd)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -10212,8 +10212,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 687,
-    "updated": "2023-10-11",
+    "rating": 688,
+    "updated": "2023-10-12",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -11803,7 +11803,7 @@
       "trev-dev"
     ],
     "rating": 8,
-    "updated": "2023-10-11",
+    "updated": "2023-10-12",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
