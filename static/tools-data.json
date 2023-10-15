@@ -492,7 +492,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2023-09-26",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -3657,7 +3657,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 75,
+    "rating": 76,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -3957,7 +3957,7 @@
     "owner": [
       "cherryramatisdev"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-06-13",
     "url": "https://github.com/cherryramatisdev/taskwarrior-scrum"
   },
@@ -4212,7 +4212,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2020-12-15",
     "url": "https://github.com/coddingtonbear/taskwarrior-inthe.am"
   },
@@ -10212,8 +10212,8 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 688,
-    "updated": "2023-10-12",
+    "rating": 689,
+    "updated": "2023-10-13",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10362,7 +10362,7 @@
     "owner": [
       "rmonico"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-12-27",
     "url": "https://github.com/rmonico/itask"
   },
@@ -11637,7 +11637,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 504,
+    "rating": 505,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -11742,7 +11742,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 775,
+    "rating": 776,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11982,7 +11982,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 434,
+    "rating": 435,
     "updated": "2023-09-17",
     "url": "https://github.com/vit-project/vit"
   },
