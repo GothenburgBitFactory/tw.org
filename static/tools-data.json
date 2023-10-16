@@ -77,6 +77,21 @@
     "url": "https://github.com/3top1a/bakalari-taskwarrior-sync"
   },
   {
+    "description": "Scans paper and puts tasks into taskwarrior",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "Creative Commons Zero v1.0 Universal",
+    "name": "scantotask",
+    "owner": [
+      "5balls"
+    ],
+    "rating": 0,
+    "updated": "2023-10-15",
+    "url": "https://github.com/5balls/scantotask"
+  },
+  {
     "description": "A tmux-based dashboard for taskwarrior",
     "dormant": true,
     "language": [
@@ -493,7 +508,7 @@
       "CCExtractor"
     ],
     "rating": 32,
-    "updated": "2023-09-26",
+    "updated": "2023-10-15",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1002,7 +1017,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 133,
+    "rating": 134,
     "updated": "2023-05-10",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1047,7 +1062,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 56,
+    "rating": 58,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3357,7 +3372,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 281,
+    "rating": 282,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3462,7 +3477,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 218,
+    "rating": 219,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3582,7 +3597,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 507,
+    "rating": 508,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3657,7 +3672,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 76,
+    "rating": 77,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -4047,7 +4062,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 132,
+    "rating": 133,
     "updated": "2023-06-03",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -6957,7 +6972,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 324,
+    "rating": 325,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8907,7 +8922,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 50,
+    "rating": 51,
     "updated": "2023-10-10",
     "url": "https://github.com/mrusme/dotfiles"
   },
