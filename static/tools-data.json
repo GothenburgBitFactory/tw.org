@@ -627,7 +627,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 130,
+    "rating": 129,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2488,7 +2488,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-10-12",
+    "updated": "2023-10-18",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3942,7 +3942,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 43,
+    "rating": 44,
     "updated": "2023-08-24",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -7167,7 +7167,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1179,
+    "rating": 1180,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8398,7 +8398,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-10-03",
+    "updated": "2023-10-18",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10332,7 +10332,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11757,7 +11757,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 776,
+    "rating": 777,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11997,7 +11997,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 435,
+    "rating": 437,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
