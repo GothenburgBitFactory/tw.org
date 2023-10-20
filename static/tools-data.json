@@ -2488,7 +2488,7 @@
       "Zebradil"
     ],
     "rating": 60,
-    "updated": "2023-10-18",
+    "updated": "2023-10-19",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4427,6 +4427,21 @@
     "url": "https://github.com/cyberoperations-club/task-multiuser"
   },
   {
+    "description": "Cygwin packaging paraphernalia for Taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior",
+    "owner": [
+      "cygporter"
+    ],
+    "rating": 0,
+    "updated": "2023-10-19",
+    "url": "https://github.com/cygporter/taskwarrior"
+  },
+  {
     "description": "merely just a script showing the most urgent task and allowing it to be marked done",
     "dormant": false,
     "language": [
@@ -6312,7 +6327,7 @@
     "owner": [
       "j6s"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2022-04-09",
     "url": "https://github.com/j6s/docker-taskwarrior-taskserver"
   },
@@ -8473,7 +8488,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-10-17",
+    "updated": "2023-10-19",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -8592,7 +8607,7 @@
     "owner": [
       "mikebobroski"
     ],
-    "rating": 45,
+    "rating": 46,
     "updated": "2017-12-22",
     "url": "https://github.com/mikebobroski/tasknote"
   },
@@ -9582,7 +9597,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 72,
+    "rating": 73,
     "updated": "2023-09-29",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -10227,7 +10242,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 689,
+    "rating": 690,
     "updated": "2023-10-13",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
