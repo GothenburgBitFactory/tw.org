@@ -348,7 +348,7 @@
   },
   {
     "description": "An app to defeat procrastination",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -973,7 +973,7 @@
       "GarethPaulBell"
     ],
     "rating": 0,
-    "updated": "2023-10-08",
+    "updated": "2023-10-21",
     "url": "https://github.com/GarethPaulBell/taskwarrior_data"
   },
   {
@@ -1918,7 +1918,7 @@
       "Romanovskyi2137"
     ],
     "rating": 0,
-    "updated": "2023-10-07",
+    "updated": "2023-10-20",
     "url": "https://github.com/Romanovskyi2137/taskServer"
   },
   {
@@ -3372,7 +3372,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 283,
+    "rating": 284,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4063,7 +4063,7 @@
       "cinatic"
     ],
     "rating": 133,
-    "updated": "2023-06-03",
+    "updated": "2023-10-21",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -4438,7 +4438,7 @@
       "cygporter"
     ],
     "rating": 0,
-    "updated": "2023-10-19",
+    "updated": "2023-10-20",
     "url": "https://github.com/cygporter/taskwarrior"
   },
   {
@@ -7182,7 +7182,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1180,
+    "rating": 1181,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8488,7 +8488,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-10-19",
+    "updated": "2023-10-21",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -10242,7 +10242,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 690,
+    "rating": 691,
     "updated": "2023-10-13",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -11772,7 +11772,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 777,
+    "rating": 778,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12012,7 +12012,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 437,
+    "rating": 438,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
