@@ -1655,6 +1655,21 @@
     "description": null,
     "dormant": false,
     "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Nileshp4321"
+    ],
+    "rating": 0,
+    "updated": "2023-10-23",
+    "url": "https://github.com/Nileshp4321/TaskServer"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
       "Python"
     ],
     "license": null,
@@ -2487,7 +2502,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2023-10-19",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -3942,7 +3957,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2023-08-24",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4438,7 +4453,7 @@
       "cygporter"
     ],
     "rating": 0,
-    "updated": "2023-10-20",
+    "updated": "2023-10-23",
     "url": "https://github.com/cygporter/taskwarrior"
   },
   {
@@ -6987,7 +7002,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 325,
+    "rating": 326,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8413,7 +8428,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-10-18",
+    "updated": "2023-10-23",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8488,7 +8503,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-10-22",
+    "updated": "2023-10-23",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9612,7 +9627,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 100,
+    "rating": 101,
     "updated": "2022-08-20",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -11428,7 +11443,7 @@
       "szaffarano"
     ],
     "rating": 7,
-    "updated": "2023-09-15",
+    "updated": "2023-10-23",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
