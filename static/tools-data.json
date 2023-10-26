@@ -507,7 +507,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 33,
+    "rating": 35,
     "updated": "2023-10-15",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1933,7 +1933,7 @@
       "Romanovskyi2137"
     ],
     "rating": 0,
-    "updated": "2023-10-20",
+    "updated": "2023-10-24",
     "url": "https://github.com/Romanovskyi2137/taskServer"
   },
   {
@@ -2503,7 +2503,7 @@
       "Zebradil"
     ],
     "rating": 61,
-    "updated": "2023-10-19",
+    "updated": "2023-10-24",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -2967,7 +2967,7 @@
     "owner": [
       "alexrios"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-07-02",
     "url": "https://github.com/alexrios/obsidian-taskwarrior"
   },
@@ -3387,7 +3387,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 284,
+    "rating": 285,
     "updated": "2023-09-15",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3492,7 +3492,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 219,
+    "rating": 220,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4078,7 +4078,7 @@
       "cinatic"
     ],
     "rating": 133,
-    "updated": "2023-10-22",
+    "updated": "2023-10-25",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -4623,7 +4623,7 @@
   },
   {
     "description": "taskwarrior i3block with clojure's babashka",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Clojure"
     ],
@@ -5187,7 +5187,7 @@
     "owner": [
       "erikh"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2021-08-29",
     "url": "https://github.com/erikh/calwarrior"
   },
@@ -7302,7 +7302,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-09-09",
     "url": "https://github.com/kgoettler/tasksync"
   },
@@ -7407,7 +7407,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 139,
+    "rating": 138,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -8428,7 +8428,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-10-23",
+    "updated": "2023-10-25",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10257,7 +10257,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 691,
+    "rating": 692,
     "updated": "2023-10-13",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10287,7 +10287,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 169,
+    "rating": 168,
     "updated": "2023-06-25",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -10362,7 +10362,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -12027,7 +12027,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 438,
+    "rating": 439,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
