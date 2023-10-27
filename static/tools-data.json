@@ -6063,7 +6063,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -7197,7 +7197,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1181,
+    "rating": 1182,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8428,7 +8428,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-10-25",
+    "updated": "2023-10-26",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10362,7 +10362,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11787,7 +11787,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 778,
+    "rating": 777,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -11865,6 +11865,21 @@
     "rating": 0,
     "updated": "2014-03-16",
     "url": "https://github.com/tribly/task-notify"
+  },
+  {
+    "description": "Taskwarrior clone to learn how to use Cobra and work on my go skills",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "taskgo",
+    "owner": [
+      "trmendes"
+    ],
+    "rating": 0,
+    "updated": "2023-10-26",
+    "url": "https://github.com/trmendes/taskgo"
   },
   {
     "description": "a bridge for taskwarrior inside ubuntu subsystem",
