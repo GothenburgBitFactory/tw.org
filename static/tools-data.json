@@ -507,7 +507,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2023-10-15",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -627,7 +627,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 129,
+    "rating": 130,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -973,7 +973,7 @@
       "GarethPaulBell"
     ],
     "rating": 0,
-    "updated": "2023-10-21",
+    "updated": "2023-10-27",
     "url": "https://github.com/GarethPaulBell/taskwarrior_data"
   },
   {
@@ -4453,7 +4453,7 @@
       "cygporter"
     ],
     "rating": 0,
-    "updated": "2023-10-23",
+    "updated": "2023-10-27",
     "url": "https://github.com/cygporter/taskwarrior"
   },
   {
@@ -8428,7 +8428,7 @@
       "maxjoehnk"
     ],
     "rating": 12,
-    "updated": "2023-10-26",
+    "updated": "2023-10-27",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8952,7 +8952,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 51,
+    "rating": 50,
     "updated": "2023-10-10",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -11443,7 +11443,7 @@
       "szaffarano"
     ],
     "rating": 7,
-    "updated": "2023-10-23",
+    "updated": "2023-10-27",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
