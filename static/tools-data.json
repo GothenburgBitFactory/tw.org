@@ -627,7 +627,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 130,
+    "rating": 131,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -973,7 +973,7 @@
       "GarethPaulBell"
     ],
     "rating": 0,
-    "updated": "2023-10-27",
+    "updated": "2023-10-28",
     "url": "https://github.com/GarethPaulBell/taskwarrior_data"
   },
   {
@@ -1497,7 +1497,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -3492,7 +3492,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 220,
+    "rating": 221,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3957,7 +3957,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 45,
+    "rating": 46,
     "updated": "2023-08-24",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -7197,7 +7197,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1182,
+    "rating": 1183,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11682,7 +11682,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 506,
+    "rating": 508,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -11882,6 +11882,21 @@
     "url": "https://github.com/trmendes/taskgo"
   },
   {
+    "description": ":calendar: Convert taskwarrior tasks to calendar events.",
+    "dormant": false,
+    "language": [
+      "Ruby"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-calendar",
+    "owner": [
+      "tschaefer"
+    ],
+    "rating": 0,
+    "updated": "2023-10-28",
+    "url": "https://github.com/tschaefer/taskwarrior-calendar"
+  },
+  {
     "description": "a bridge for taskwarrior inside ubuntu subsystem",
     "dormant": false,
     "language": [
@@ -12042,7 +12057,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 439,
+    "rating": 440,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
