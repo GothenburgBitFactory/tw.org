@@ -627,7 +627,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 132,
+    "rating": 133,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -2132,21 +2132,6 @@
     "url": "https://github.com/SteveMuise/TaskServer"
   },
   {
-    "description": "Dotfiles for a rapid prototyping work flow; nVim and Taskwarrior",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": ".config",
-    "owner": [
-      "SunGodRamen"
-    ],
-    "rating": 0,
-    "updated": "2023-08-22",
-    "url": "https://github.com/SunGodRamen/.config"
-  },
-  {
     "description": "nvim, hammerspoon, zsh, omzsh, taskwarrior, shkd",
     "dormant": false,
     "language": [
@@ -3612,7 +3597,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 508,
+    "rating": 509,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3868,7 +3853,7 @@
       "catanadj"
     ],
     "rating": 1,
-    "updated": "2023-10-31",
+    "updated": "2023-11-02",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -4197,7 +4182,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 575,
+    "rating": 576,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -7077,7 +7062,7 @@
     "owner": [
       "juzim"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-09-12",
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
@@ -9648,7 +9633,7 @@
   },
   {
     "description": "A work in progress towards a responsive front end for TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -10272,7 +10257,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 692,
+    "rating": 693,
     "updated": "2023-10-13",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -11697,7 +11682,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 508,
+    "rating": 509,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
