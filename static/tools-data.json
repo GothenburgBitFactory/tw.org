@@ -1197,7 +1197,7 @@
     "owner": [
       "HiveMinds"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2023-09-25",
     "url": "https://github.com/HiveMinds/tw-install"
   },
@@ -1805,7 +1805,7 @@
     "description": ":penguin: My Linux dotfiles for an optimized and personalized environment.",
     "dormant": false,
     "language": [
-      "Shell"
+      "Lua"
     ],
     "license": null,
     "name": "dotfiles",
@@ -1813,7 +1813,7 @@
       "Psyhackological"
     ],
     "rating": 0,
-    "updated": "2023-09-25",
+    "updated": "2023-11-03",
     "url": "https://github.com/Psyhackological/dotfiles"
   },
   {
@@ -4182,7 +4182,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 576,
+    "rating": 577,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4242,7 +4242,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 280,
+    "rating": 281,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -7182,7 +7182,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1184,
+    "rating": 1185,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8953,7 +8953,7 @@
       "mrusme"
     ],
     "rating": 50,
-    "updated": "2023-10-10",
+    "updated": "2023-11-03",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10752,7 +10752,7 @@
     "owner": [
       "sh78"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2018-07-20",
     "url": "https://github.com/sh78/google-tasks-taskwarrior-import"
   },
