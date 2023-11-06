@@ -973,7 +973,7 @@
       "GarethPaulBell"
     ],
     "rating": 0,
-    "updated": "2023-10-28",
+    "updated": "2023-11-05",
     "url": "https://github.com/GarethPaulBell/taskwarrior_data"
   },
   {
@@ -3373,7 +3373,7 @@
       "bergercookie"
     ],
     "rating": 287,
-    "updated": "2023-09-15",
+    "updated": "2023-11-05",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3477,7 +3477,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 222,
+    "rating": 223,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -7097,6 +7097,21 @@
     "url": "https://github.com/k4y4k/dotfiles"
   },
   {
+    "description": "A private, web-based todo list with ideas from taskwarrior. ",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "taskdruid",
+    "owner": [
+      "kaesluder"
+    ],
+    "rating": 0,
+    "updated": "2023-11-04",
+    "url": "https://github.com/kaesluder/taskdruid"
+  },
+  {
     "description": "My Linux configuration, feel free to steal or get in touch.",
     "dormant": false,
     "language": [
@@ -8412,7 +8427,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2023-10-31",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -9768,7 +9783,7 @@
   },
   {
     "description": "This is a powershell CLI to the Todo.txt todo file format with some PowerShell like features and also taking inspiration from Taskwarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "PowerShell"
     ],
@@ -10258,7 +10273,7 @@
       "ralphbean"
     ],
     "rating": 693,
-    "updated": "2023-10-13",
+    "updated": "2023-11-04",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -12057,7 +12072,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 440,
+    "rating": 441,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
