@@ -1967,6 +1967,21 @@
     "url": "https://github.com/RvstFyth/rofi-taskwarrior"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "C#"
+    ],
+    "license": null,
+    "name": "TaskServerMonitor",
+    "owner": [
+      "RyanBiggs"
+    ],
+    "rating": 0,
+    "updated": "2023-11-06",
+    "url": "https://github.com/RyanBiggs/TaskServerMonitor"
+  },
+  {
     "description": "ASP.NET Core \u0441\u0435\u0440\u0432\u0435\u0440 \u0441 SignalR",
     "dormant": true,
     "language": [
@@ -2068,7 +2083,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-07-25",
+    "updated": "2023-11-06",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -3372,7 +3387,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 287,
+    "rating": 289,
     "updated": "2023-11-05",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7197,7 +7212,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1185,
+    "rating": 1186,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8503,7 +8518,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-10-30",
+    "updated": "2023-11-06",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -11458,7 +11473,7 @@
       "szaffarano"
     ],
     "rating": 7,
-    "updated": "2023-10-27",
+    "updated": "2023-11-06",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
