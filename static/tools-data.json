@@ -507,7 +507,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2023-10-15",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -627,7 +627,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 133,
+    "rating": 134,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -840,21 +840,6 @@
     "rating": 0,
     "updated": "2023-05-25",
     "url": "https://github.com/Fajarudeen/taskServer"
-  },
-  {
-    "description": "Small script to parse ics and execute taskwarrior to generate a new task from vcEvents",
-    "dormant": true,
-    "language": [
-      "Haskell"
-    ],
-    "license": "GNU General Public License v2.0",
-    "name": "taskharrier",
-    "owner": [
-      "FiskerLars"
-    ],
-    "rating": 1,
-    "updated": "2015-08-26",
-    "url": "https://github.com/FiskerLars/taskharrier"
   },
   {
     "description": "Helper Scripting for TaskWarrior ",
@@ -2818,7 +2803,7 @@
       "akim-13"
     ],
     "rating": 0,
-    "updated": "2023-09-20",
+    "updated": "2023-11-07",
     "url": "https://github.com/akim-13/ntfwarrior"
   },
   {
@@ -3362,21 +3347,6 @@
     "url": "https://github.com/basalbr/taskserver"
   },
   {
-    "description": "\ud83d\udd04 Synchronize items from two different sources",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "item_synchronizer",
-    "owner": [
-      "bergercookie"
-    ],
-    "rating": 9,
-    "updated": "2023-09-15",
-    "url": "https://github.com/bergercookie/item_synchronizer"
-  },
-  {
     "description": "Bi-directional synchronization between services such as Taskwarrior, Google Calendar, Notion, Asana, and more",
     "dormant": false,
     "language": [
@@ -3447,7 +3417,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2023-01-22",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
@@ -3510,21 +3480,6 @@
     "rating": 0,
     "updated": "2021-07-15",
     "url": "https://github.com/bijenkins/taskserver"
-  },
-  {
-    "description": "Takes JSON export data from taskwarrior and converts it to a table.",
-    "dormant": false,
-    "language": [
-      "TypeScript"
-    ],
-    "license": null,
-    "name": "obsidianmd-taskwarrior-export-consumer",
-    "owner": [
-      "bkohler616"
-    ],
-    "rating": 0,
-    "updated": "2022-10-25",
-    "url": "https://github.com/bkohler616/obsidianmd-taskwarrior-export-consumer"
   },
   {
     "description": "Python scripts to implement GTD process with TaskWarrior",
@@ -3867,7 +3822,7 @@
     "owner": [
       "catanadj"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-11-02",
     "url": "https://github.com/catanadj/tasksultan"
   },
@@ -5352,7 +5307,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 144,
+    "rating": 145,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -7002,7 +6957,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 326,
+    "rating": 325,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7212,7 +7167,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1186,
+    "rating": 1185,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8443,7 +8398,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-10-31",
+    "updated": "2023-11-07",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10287,7 +10242,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 693,
+    "rating": 694,
     "updated": "2023-11-04",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
