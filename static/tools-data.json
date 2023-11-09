@@ -842,6 +842,21 @@
     "url": "https://github.com/Fajarudeen/taskServer"
   },
   {
+    "description": "Small script to parse ics and execute taskwarrior to generate a new task from vcEvents",
+    "dormant": true,
+    "language": [
+      "Haskell"
+    ],
+    "license": "GNU General Public License v2.0",
+    "name": "taskharrier",
+    "owner": [
+      "FiskerLars"
+    ],
+    "rating": 1,
+    "updated": "2015-08-26",
+    "url": "https://github.com/FiskerLars/taskharrier"
+  },
+  {
     "description": "Helper Scripting for TaskWarrior ",
     "dormant": true,
     "language": [
@@ -2293,7 +2308,7 @@
       "TheBeachLab"
     ],
     "rating": 16,
-    "updated": "2023-04-07",
+    "updated": "2023-11-08",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
   {
@@ -2643,7 +2658,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -2803,7 +2818,7 @@
       "akim-13"
     ],
     "rating": 0,
-    "updated": "2023-11-07",
+    "updated": "2023-11-08",
     "url": "https://github.com/akim-13/ntfwarrior"
   },
   {
@@ -3345,6 +3360,21 @@
     "rating": 0,
     "updated": "2017-12-03",
     "url": "https://github.com/basalbr/taskserver"
+  },
+  {
+    "description": "\ud83d\udd04 Synchronize items from two different sources",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "item_synchronizer",
+    "owner": [
+      "bergercookie"
+    ],
+    "rating": 9,
+    "updated": "2023-09-15",
+    "url": "https://github.com/bergercookie/item_synchronizer"
   },
   {
     "description": "Bi-directional synchronization between services such as Taskwarrior, Google Calendar, Notion, Asana, and more",
@@ -7167,7 +7197,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1185,
+    "rating": 1186,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8473,7 +8503,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-11-06",
+    "updated": "2023-11-08",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
