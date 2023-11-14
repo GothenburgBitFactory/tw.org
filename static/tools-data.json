@@ -2308,7 +2308,7 @@
       "TheBeachLab"
     ],
     "rating": 17,
-    "updated": "2023-11-12",
+    "updated": "2023-11-13",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
   {
@@ -3927,7 +3927,7 @@
     "owner": [
       "charles-e"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2021-04-06",
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
@@ -4828,7 +4828,7 @@
       "dnaaun"
     ],
     "rating": 1,
-    "updated": "2023-10-02",
+    "updated": "2023-11-13",
     "url": "https://github.com/dnaaun/dotfiles"
   },
   {
@@ -7182,7 +7182,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1190,
+    "rating": 1191,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11772,7 +11772,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 779,
+    "rating": 780,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
