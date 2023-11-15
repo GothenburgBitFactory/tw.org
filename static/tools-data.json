@@ -1352,21 +1352,6 @@
     "url": "https://github.com/JurajMarcin/docker-taskd"
   },
   {
-    "description": "\u26ab Configuration files",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "KevCui"
-    ],
-    "rating": 18,
-    "updated": "2023-09-25",
-    "url": "https://github.com/KevCui/dotfiles"
-  },
-  {
     "description": "An \u00dcbersicht widget to display your Taskwarrior pending tasks on the desktop",
     "dormant": true,
     "language": [
@@ -1412,19 +1397,19 @@
     "url": "https://github.com/Krakazybik/taskwarrior-waybar"
   },
   {
-    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
+    "description": null,
     "dormant": false,
     "language": [
       "Python"
     ],
-    "license": "MIT License",
-    "name": "TTM",
+    "license": null,
+    "name": "TaskServerFastAPI",
     "owner": [
-      "LanHikari22"
+      "KrivovDE"
     ],
     "rating": 0,
-    "updated": "2023-09-27",
-    "url": "https://github.com/LanHikari22/TTM"
+    "updated": "2023-11-14",
+    "url": "https://github.com/KrivovDE/TaskServerFastAPI"
   },
   {
     "description": "A vim plugin for doing GTD with Taskwarrior",
@@ -1802,36 +1787,6 @@
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
   {
-    "description": ":penguin: My Linux dotfiles for an optimized and personalized environment.",
-    "dormant": false,
-    "language": [
-      "Lua"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "Psyhackological"
-    ],
-    "rating": 0,
-    "updated": "2023-11-03",
-    "url": "https://github.com/Psyhackological/dotfiles"
-  },
-  {
-    "description": null,
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "name": "taskd-dc",
-    "owner": [
-      "QantumEntangled"
-    ],
-    "rating": 0,
-    "updated": "2018-11-19",
-    "url": "https://github.com/QantumEntangled/taskd-dc"
-  },
-  {
     "description": null,
     "dormant": true,
     "language": [
@@ -2070,21 +2025,6 @@
     "rating": 2,
     "updated": "2011-05-13",
     "url": "https://github.com/Stantheman/TextPuller"
-  },
-  {
-    "description": "hooray, here you'll find my dotfiles. they're cool I know",
-    "dormant": false,
-    "language": [
-      "Vim Script"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "Stefan-Radu"
-    ],
-    "rating": 1,
-    "updated": "2023-11-06",
-    "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
     "description": "Fork of https://git.webmeisterei.com/webmeisterei/todoist-taskwarrior (which is a fork of https://github.com/matt-snider/todoist-taskwarrior)",
@@ -3492,7 +3432,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 223,
+    "rating": 224,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4740,6 +4680,21 @@
     "rating": 0,
     "updated": "2023-08-07",
     "url": "https://github.com/dghaehre/taskwarrior-web"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Clojure"
+    ],
+    "license": null,
+    "name": "taskwarriorweb",
+    "owner": [
+      "dghaehre"
+    ],
+    "rating": 2,
+    "updated": "2023-11-14",
+    "url": "https://github.com/dghaehre/taskwarriorweb"
   },
   {
     "description": "Kubernetes operator for deploying an instance of the Taskwarrior server",
@@ -7067,21 +7022,6 @@
     "url": "https://github.com/jvonmitchell/taskserver"
   },
   {
-    "description": "my dotfiles :)",
-    "dormant": false,
-    "language": [
-      "Emacs Lisp"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "k4y4k"
-    ],
-    "rating": 4,
-    "updated": "2023-04-09",
-    "url": "https://github.com/k4y4k/dotfiles"
-  },
-  {
     "description": "A private, web-based todo list with ideas from taskwarrior. ",
     "dormant": false,
     "language": [
@@ -7095,21 +7035,6 @@
     "rating": 0,
     "updated": "2023-11-04",
     "url": "https://github.com/kaesluder/taskdruid"
-  },
-  {
-    "description": "My Linux configuration, feel free to steal or get in touch.",
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "kaiec"
-    ],
-    "rating": 2,
-    "updated": "2023-09-26",
-    "url": "https://github.com/kaiec/dotfiles"
   },
   {
     "description": "A simple pomodoro timer that integrates with taskwarrior. Because there aren't enough of those.",
@@ -8413,7 +8338,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-11-11",
+    "updated": "2023-11-14",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9947,6 +9872,21 @@
     "url": "https://github.com/piyas1234/taskServer"
   },
   {
+    "description": "Python implementation of a Taskfile Server",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskserver.py",
+    "owner": [
+      "planet-lodder"
+    ],
+    "rating": 0,
+    "updated": "2023-11-14",
+    "url": "https://github.com/planet-lodder/taskserver.py"
+  },
+  {
     "description": null,
     "dormant": true,
     "language": [
@@ -11340,21 +11280,6 @@
     "rating": 0,
     "updated": "2022-08-14",
     "url": "https://github.com/superactivedubai/taskserver"
-  },
-  {
-    "description": "Command line task manager with alexa + google mail integration.",
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": "MIT License",
-    "name": "Task",
-    "owner": [
-      "suwdus"
-    ],
-    "rating": 1,
-    "updated": "2019-10-31",
-    "url": "https://github.com/suwdus/Task"
   },
   {
     "description": "Taskwarrior plugin for xfce4 panel",
