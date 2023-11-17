@@ -102,7 +102,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -507,8 +507,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 39,
-    "updated": "2023-10-15",
+    "rating": 40,
+    "updated": "2023-11-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1352,6 +1352,21 @@
     "url": "https://github.com/JurajMarcin/docker-taskd"
   },
   {
+    "description": "\u26ab Configuration files",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "KevCui"
+    ],
+    "rating": 18,
+    "updated": "2023-09-25",
+    "url": "https://github.com/KevCui/dotfiles"
+  },
+  {
     "description": "An \u00dcbersicht widget to display your Taskwarrior pending tasks on the desktop",
     "dormant": true,
     "language": [
@@ -1410,6 +1425,21 @@
     "rating": 0,
     "updated": "2023-11-14",
     "url": "https://github.com/KrivovDE/TaskServerFastAPI"
+  },
+  {
+    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TTM",
+    "owner": [
+      "LanHikari22"
+    ],
+    "rating": 0,
+    "updated": "2023-09-27",
+    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "description": "A vim plugin for doing GTD with Taskwarrior",
@@ -1787,6 +1817,36 @@
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
   {
+    "description": ":penguin: My Linux dotfiles for an optimized and personalized environment.",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "Psyhackological"
+    ],
+    "rating": 0,
+    "updated": "2023-11-03",
+    "url": "https://github.com/Psyhackological/dotfiles"
+  },
+  {
+    "description": null,
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "name": "taskd-dc",
+    "owner": [
+      "QantumEntangled"
+    ],
+    "rating": 0,
+    "updated": "2018-11-19",
+    "url": "https://github.com/QantumEntangled/taskd-dc"
+  },
+  {
     "description": null,
     "dormant": true,
     "language": [
@@ -2025,6 +2085,21 @@
     "rating": 2,
     "updated": "2011-05-13",
     "url": "https://github.com/Stantheman/TextPuller"
+  },
+  {
+    "description": "hooray, here you'll find my dotfiles. they're cool I know",
+    "dormant": false,
+    "language": [
+      "Vim Script"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "Stefan-Radu"
+    ],
+    "rating": 1,
+    "updated": "2023-11-06",
+    "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
     "description": "Fork of https://git.webmeisterei.com/webmeisterei/todoist-taskwarrior (which is a fork of https://github.com/matt-snider/todoist-taskwarrior)",
@@ -2442,7 +2517,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 61,
+    "rating": 62,
     "updated": "2023-10-29",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -3432,7 +3507,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 224,
+    "rating": 225,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3837,7 +3912,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 53,
+    "rating": 52,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -3882,7 +3957,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2023-08-24",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4122,7 +4197,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 577,
+    "rating": 578,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4182,7 +4257,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 281,
+    "rating": 282,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -6237,7 +6312,7 @@
     "owner": [
       "j-jith"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2023-08-04",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
@@ -6927,7 +7002,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 325,
+    "rating": 326,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7022,6 +7097,21 @@
     "url": "https://github.com/jvonmitchell/taskserver"
   },
   {
+    "description": "my dotfiles :)",
+    "dormant": false,
+    "language": [
+      "Emacs Lisp"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "k4y4k"
+    ],
+    "rating": 4,
+    "updated": "2023-04-09",
+    "url": "https://github.com/k4y4k/dotfiles"
+  },
+  {
     "description": "A private, web-based todo list with ideas from taskwarrior. ",
     "dormant": false,
     "language": [
@@ -7035,6 +7125,21 @@
     "rating": 0,
     "updated": "2023-11-04",
     "url": "https://github.com/kaesluder/taskdruid"
+  },
+  {
+    "description": "My Linux configuration, feel free to steal or get in touch.",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "kaiec"
+    ],
+    "rating": 2,
+    "updated": "2023-09-26",
+    "url": "https://github.com/kaiec/dotfiles"
   },
   {
     "description": "A simple pomodoro timer that integrates with taskwarrior. Because there aren't enough of those.",
@@ -7107,7 +7212,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1191,
+    "rating": 1194,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8338,7 +8443,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-11-14",
+    "updated": "2023-11-16",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8413,7 +8518,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-11-08",
+    "updated": "2023-11-16",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9883,7 +9988,7 @@
       "planet-lodder"
     ],
     "rating": 0,
-    "updated": "2023-11-14",
+    "updated": "2023-11-16",
     "url": "https://github.com/planet-lodder/taskserver.py"
   },
   {
@@ -10183,7 +10288,7 @@
       "ralphbean"
     ],
     "rating": 694,
-    "updated": "2023-11-10",
+    "updated": "2023-11-15",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10212,7 +10317,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 169,
+    "rating": 170,
     "updated": "2023-06-25",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -10287,7 +10392,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11282,6 +11387,21 @@
     "url": "https://github.com/superactivedubai/taskserver"
   },
   {
+    "description": "Command line task manager with alexa + google mail integration.",
+    "dormant": true,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "MIT License",
+    "name": "Task",
+    "owner": [
+      "suwdus"
+    ],
+    "rating": 1,
+    "updated": "2019-10-31",
+    "url": "https://github.com/suwdus/Task"
+  },
+  {
     "description": "Taskwarrior plugin for xfce4 panel",
     "dormant": false,
     "language": [
@@ -11592,7 +11712,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 509,
+    "rating": 510,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -11697,7 +11817,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 780,
+    "rating": 781,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
