@@ -29,6 +29,19 @@
       "rating": null,
       "updated": "2020-09-25",
       "url": "https://gitlab.com/doronbehar/taskwarrior-fzf"
+    },
+    {
+      "description": "TaskwarriorGPT: an AI Assistant for Taskwarrior Users",
+      "dormant": false,
+      "language": [ "ChatGPT" ],
+      "license": "unknown",
+      "name": "TaskwarriorGPT",
+      "owner": [
+        "younes-io"
+      ],
+      "rating": null,
+      "updated": "2023-11-16",
+      "url": "https://chat.openai.com/g/g-vHnl2dh7J-taskwarriorgpt"
     }
   ]
 }
