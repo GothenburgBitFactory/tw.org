@@ -17,6 +17,21 @@
     "url": null
   },
   {
+    "description": "TaskwarriorGPT: an AI Assistant for Taskwarrior Users",
+    "dormant": false,
+    "language": [
+      "ChatGPT"
+    ],
+    "license": "unknown",
+    "name": "TaskwarriorGPT",
+    "owner": [
+      "younes-io"
+    ],
+    "rating": null,
+    "updated": "2023-11-16",
+    "url": "https://chat.openai.com/g/g-vHnl2dh7J-taskwarriorgpt"
+  },
+  {
     "description": "general helpers for everyday taskwarrior usage",
     "dormant": true,
     "language": [
@@ -508,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 41,
-    "updated": "2023-11-18",
+    "updated": "2023-11-20",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -2133,7 +2148,7 @@
   },
   {
     "description": "Taskwarrior API endpoint for IOT based stuff",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -3387,7 +3402,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 292,
+    "rating": 294,
     "updated": "2023-11-11",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4563,7 +4578,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -4813,7 +4828,7 @@
       "djotaku"
     ],
     "rating": 0,
-    "updated": "2023-11-20",
+    "updated": "2023-11-21",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
   {
@@ -7212,7 +7227,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1195,
+    "rating": 1196,
     "updated": "2023-10-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8443,7 +8458,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-11-18",
+    "updated": "2023-11-20",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10303,7 +10318,7 @@
       "ralphbean"
     ],
     "rating": 694,
-    "updated": "2023-11-15",
+    "updated": "2023-11-20",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -10333,7 +10348,7 @@
       "ralphbean"
     ],
     "rating": 170,
-    "updated": "2023-06-25",
+    "updated": "2023-11-20",
     "url": "https://github.com/ralphbean/taskw"
   },
   {
