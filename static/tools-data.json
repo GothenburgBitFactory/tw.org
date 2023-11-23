@@ -1032,7 +1032,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 134,
+    "rating": 135,
     "updated": "2023-05-10",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1077,7 +1077,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2021-07-25",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3402,7 +3402,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 294,
+    "rating": 295,
     "updated": "2023-11-11",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4257,7 +4257,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 282,
+    "rating": 281,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4828,7 +4828,7 @@
       "djotaku"
     ],
     "rating": 0,
-    "updated": "2023-11-21",
+    "updated": "2023-11-22",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
   {
@@ -5623,7 +5623,7 @@
       "garybgenett"
     ],
     "rating": 17,
-    "updated": "2023-11-18",
+    "updated": "2023-11-22",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7017,7 +7017,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 327,
+    "rating": 328,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8458,7 +8458,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-11-20",
+    "updated": "2023-11-23",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8998,7 +8998,7 @@
       "mrusme"
     ],
     "rating": 50,
-    "updated": "2023-11-19",
+    "updated": "2023-11-22",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10247,21 +10247,6 @@
     "url": "https://github.com/quandangv/polybar-warrior"
   },
   {
-    "description": "A Terminal UI for Taskwarrior",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "taskwarrior-tui",
-    "owner": [
-      "quantonganh"
-    ],
-    "rating": 0,
-    "updated": "2023-10-05",
-    "url": "https://github.com/quantonganh/taskwarrior-tui"
-  },
-  {
     "description": "A fork of the default on-modify hook from Taskwarrior to change how tags are transferred to Timewarrior.",
     "dormant": false,
     "language": [
@@ -10347,7 +10332,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 170,
+    "rating": 171,
     "updated": "2023-11-20",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -10422,7 +10407,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 40,
+    "rating": 41,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11847,7 +11832,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 783,
+    "rating": 785,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
