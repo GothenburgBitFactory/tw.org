@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 41,
-    "updated": "2023-11-21",
+    "updated": "2023-11-23",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -4828,7 +4828,7 @@
       "djotaku"
     ],
     "rating": 0,
-    "updated": "2023-11-22",
+    "updated": "2023-11-23",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
   {
@@ -10247,6 +10247,21 @@
     "url": "https://github.com/quandangv/polybar-warrior"
   },
   {
+    "description": "A Terminal UI for Taskwarrior",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "taskwarrior-tui",
+    "owner": [
+      "quantonganh"
+    ],
+    "rating": 0,
+    "updated": "2023-10-05",
+    "url": "https://github.com/quantonganh/taskwarrior-tui"
+  },
+  {
     "description": "A fork of the default on-modify hook from Taskwarrior to change how tags are transferred to Timewarrior.",
     "dormant": false,
     "language": [
@@ -10302,7 +10317,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 694,
+    "rating": 695,
     "updated": "2023-11-20",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -11178,7 +11193,7 @@
   },
   {
     "description": "Updated for of the graphdeps.py Taskwarrior \u2192 GraphViz script, which creates a colorful graph of task dependencies",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
