@@ -642,7 +642,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 138,
+    "rating": 139,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1843,7 +1843,7 @@
       "Psyhackological"
     ],
     "rating": 0,
-    "updated": "2023-11-03",
+    "updated": "2023-11-24",
     "url": "https://github.com/Psyhackological/dotfiles"
   },
   {
@@ -3402,7 +3402,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 295,
+    "rating": 296,
     "updated": "2023-11-11",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4197,7 +4197,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 577,
+    "rating": 578,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -7227,7 +7227,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1198,
+    "rating": 1197,
     "updated": "2023-11-21",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8458,7 +8458,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-11-23",
+    "updated": "2023-11-25",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9225,21 +9225,6 @@
     "rating": 1,
     "updated": "2022-12-20",
     "url": "https://github.com/nbossard/vim-taskwarrior-conf"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Lua"
-    ],
-    "license": "MIT License",
-    "name": "nvim-taskwarrior",
-    "owner": [
-      "ncarchar"
-    ],
-    "rating": 0,
-    "updated": "2023-11-18",
-    "url": "https://github.com/ncarchar/nvim-taskwarrior"
   },
   {
     "description": "Add a task to taskwarrior via email",
@@ -10317,7 +10302,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 695,
+    "rating": 697,
     "updated": "2023-11-20",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
@@ -10422,7 +10407,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 41,
+    "rating": 42,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
