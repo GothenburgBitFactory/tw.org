@@ -642,7 +642,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 139,
+    "rating": 140,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -4333,7 +4333,7 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2023-06-21",
+    "updated": "2023-11-25",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
@@ -7227,8 +7227,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1197,
-    "updated": "2023-11-21",
+    "rating": 1198,
+    "updated": "2023-11-25",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8533,7 +8533,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-11-18",
+    "updated": "2023-11-25",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -12030,6 +12030,21 @@
     "rating": 0,
     "updated": "2020-08-21",
     "url": "https://github.com/v786/TaskServer"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "varshavenugopal-kp"
+    ],
+    "rating": 0,
+    "updated": "2023-11-25",
+    "url": "https://github.com/varshavenugopal-kp/TaskServer"
   },
   {
     "description": "OpenTaskServer is a Symfony2 bundle to manage automatically a list of tasks ",
