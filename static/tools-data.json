@@ -7227,7 +7227,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1199,
+    "rating": 1201,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9642,7 +9642,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2023-09-29",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -10052,6 +10052,21 @@
     "url": "https://github.com/polyntsov/togglwarrior"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Kotlin"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "pouryash"
+    ],
+    "rating": 0,
+    "updated": "2021-03-02",
+    "url": "https://github.com/pouryash/TaskServer"
+  },
+  {
     "description": "Typescript utility that displays currently active taskwarrior task in i3status bar.",
     "dormant": true,
     "language": [
@@ -10258,7 +10273,7 @@
       "rafaelbes"
     ],
     "rating": 0,
-    "updated": "2023-09-23",
+    "updated": "2023-11-27",
     "url": "https://github.com/rafaelbes/TLTWFeeder"
   },
   {
