@@ -522,7 +522,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 41,
+    "rating": 42,
     "updated": "2023-11-28",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -3612,7 +3612,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 509,
+    "rating": 510,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -3957,7 +3957,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 48,
+    "rating": 49,
     "updated": "2023-08-24",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4077,7 +4077,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 133,
+    "rating": 132,
     "updated": "2023-10-25",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -7227,7 +7227,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1201,
+    "rating": 1202,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8458,7 +8458,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-11-25",
+    "updated": "2023-11-29",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8533,7 +8533,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-11-26",
+    "updated": "2023-11-29",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -10302,7 +10302,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 697,
+    "rating": 698,
     "updated": "2023-11-20",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
