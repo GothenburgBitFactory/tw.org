@@ -2553,7 +2553,7 @@
   },
   {
     "description": "Simple hook for taskwarrior which switches context according to WIFI SSID.",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -2563,7 +2563,7 @@
       "Zebradil"
     ],
     "rating": 2,
-    "updated": "2018-09-05",
+    "updated": "2023-12-01",
     "url": "https://github.com/Zebradil/tw-wifi-contexter"
   },
   {
@@ -7227,7 +7227,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1202,
+    "rating": 1205,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8458,7 +8458,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-11-29",
+    "updated": "2023-11-30",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9133,7 +9133,7 @@
       "n8henrie"
     ],
     "rating": 0,
-    "updated": "2023-02-04",
+    "updated": "2023-12-01",
     "url": "https://github.com/n8henrie/taskwarrior-rs"
   },
   {
