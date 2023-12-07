@@ -2533,7 +2533,7 @@
       "Zebradil"
     ],
     "rating": 62,
-    "updated": "2023-10-29",
+    "updated": "2023-12-06",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -7227,7 +7227,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1206,
+    "rating": 1207,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8458,7 +8458,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-11-30",
+    "updated": "2023-12-06",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9357,7 +9357,7 @@
     "owner": [
       "neuhalje"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2019-05-29",
     "url": "https://github.com/neuhalje/notmuch-task"
   },
