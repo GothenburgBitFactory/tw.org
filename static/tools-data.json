@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 45,
-    "updated": "2023-12-05",
+    "updated": "2023-12-08",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -2533,7 +2533,7 @@
       "Zebradil"
     ],
     "rating": 62,
-    "updated": "2023-12-06",
+    "updated": "2023-12-09",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3507,7 +3507,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 227,
+    "rating": 228,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3957,7 +3957,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 49,
+    "rating": 50,
     "updated": "2023-08-24",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -5622,7 +5622,7 @@
     "owner": [
       "garybgenett"
     ],
-    "rating": 17,
+    "rating": 16,
     "updated": "2023-11-22",
     "url": "https://github.com/garybgenett/tasks"
   },
@@ -10303,7 +10303,7 @@
       "ralphbean"
     ],
     "rating": 698,
-    "updated": "2023-11-20",
+    "updated": "2023-12-08",
     "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
@@ -11727,7 +11727,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 511,
+    "rating": 510,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
