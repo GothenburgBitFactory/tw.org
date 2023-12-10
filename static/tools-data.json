@@ -1022,6 +1022,21 @@
     "url": "https://github.com/Glitch-is/InnaTasks"
   },
   {
+    "description": "Pull github, bitbucket, and trac issues into taskwarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "bugwarrior",
+    "owner": [
+      "GothenburgBitFactory"
+    ],
+    "rating": 698,
+    "updated": "2023-12-09",
+    "url": "https://github.com/GothenburgBitFactory/bugwarrior"
+  },
+  {
     "description": "A Python library for interacting with taskwarrior databases.",
     "dormant": false,
     "language": [
@@ -7332,7 +7347,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2023-09-09",
     "url": "https://github.com/kgoettler/tasksync"
   },
@@ -10290,21 +10305,6 @@
     "rating": 2,
     "updated": "2017-05-15",
     "url": "https://github.com/rafi/vim-denite-task"
-  },
-  {
-    "description": "Pull github, bitbucket, and trac issues into taskwarrior",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "bugwarrior",
-    "owner": [
-      "ralphbean"
-    ],
-    "rating": 698,
-    "updated": "2023-12-08",
-    "url": "https://github.com/ralphbean/bugwarrior"
   },
   {
     "description": "taskwarrior plugin for Matt Daemon",
