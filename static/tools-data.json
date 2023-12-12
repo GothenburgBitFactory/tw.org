@@ -1032,7 +1032,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 698,
+    "rating": 700,
     "updated": "2023-12-09",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -2352,7 +2352,7 @@
     "owner": [
       "TheBeachLab"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2023-11-13",
     "url": "https://github.com/TheBeachLab/selfhosted"
   },
@@ -3072,7 +3072,7 @@
     "owner": [
       "amracks"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2017-04-10",
     "url": "https://github.com/amracks/tgs"
   },
@@ -3417,7 +3417,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 299,
+    "rating": 301,
     "updated": "2023-11-11",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3522,7 +3522,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 228,
+    "rating": 229,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -3627,7 +3627,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 510,
+    "rating": 511,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -4635,6 +4635,21 @@
     "rating": 0,
     "updated": "2022-03-31",
     "url": "https://github.com/davidbgonz/taskwarrior"
+  },
+  {
+    "description": "rust / bevy CLI app for task and project management, inspired by Taskwarrior and the modelling freedom of an entity component system.",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "vex",
+    "owner": [
+      "davidlee"
+    ],
+    "rating": 1,
+    "updated": "2023-12-12",
+    "url": "https://github.com/davidlee/vex"
   },
   {
     "description": "taskwarrior i3block with clojure's babashka",
@@ -7242,7 +7257,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1207,
+    "rating": 1209,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7347,7 +7362,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2023-09-09",
     "url": "https://github.com/kgoettler/tasksync"
   },
@@ -8473,7 +8488,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-12-07",
+    "updated": "2023-12-11",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11727,7 +11742,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 510,
+    "rating": 511,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -11998,7 +12013,7 @@
       "ulrichschinz"
     ],
     "rating": 0,
-    "updated": "2023-12-10",
+    "updated": "2023-12-11",
     "url": "https://github.com/ulrichschinz/taskwarrior"
   },
   {
