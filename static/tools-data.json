@@ -3417,7 +3417,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 301,
+    "rating": 302,
     "updated": "2023-11-11",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3967,13 +3967,13 @@
     "language": [
       "Go"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "taskcli",
     "owner": [
       "charmbracelet"
     ],
-    "rating": 50,
-    "updated": "2023-08-24",
+    "rating": 52,
+    "updated": "2023-12-12",
     "url": "https://github.com/charmbracelet/taskcli"
   },
   {
@@ -4647,7 +4647,7 @@
     "owner": [
       "davidlee"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-12-12",
     "url": "https://github.com/davidlee/vex"
   },
@@ -7257,7 +7257,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1209,
+    "rating": 1211,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10422,7 +10422,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 42,
+    "rating": 43,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -12147,7 +12147,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 442,
+    "rating": 443,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
