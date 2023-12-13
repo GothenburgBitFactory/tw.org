@@ -119,8 +119,7 @@ Most color themes already support this.
 
 Taskwarrior can do date math, so use this:
 
-    $ task add ...
-due:eom wait:due-2days
+    $ task add ... due:eom wait:due-2days
 
 That `due-2days` value is evaluated by Taskwarrior, using the value you specified for the due date and subtracting two days.
 You can also verify that date using the `calc` command:
