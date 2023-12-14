@@ -557,6 +557,21 @@
     "url": "https://github.com/CarlosNihelton/todoist-taskwarrior"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "HTML"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "Cemile15"
+    ],
+    "rating": 0,
+    "updated": "2023-12-13",
+    "url": "https://github.com/Cemile15/taskserver"
+  },
+  {
     "description": ":hammer: :earth_americas: A taskd implementation for the Django web framework.",
     "dormant": false,
     "language": [
@@ -3102,7 +3117,7 @@
     "owner": [
       "andrey-utkin"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2023-06-06",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
@@ -3972,7 +3987,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2023-12-12",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -7257,7 +7272,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1211,
+    "rating": 1212,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8488,7 +8503,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-12-11",
+    "updated": "2023-12-13",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10422,7 +10437,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 43,
+    "rating": 44,
     "updated": "2023-07-11",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11503,7 +11518,7 @@
       "szaffarano"
     ],
     "rating": 7,
-    "updated": "2023-11-06",
+    "updated": "2023-12-13",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
