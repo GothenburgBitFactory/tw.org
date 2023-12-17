@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 44,
-    "updated": "2023-12-08",
+    "rating": 46,
+    "updated": "2023-12-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -2883,7 +2883,7 @@
   },
   {
     "description": "Automate taskwarrior project set up",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -3888,7 +3888,7 @@
   },
   {
     "description": "una prueba",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -4002,7 +4002,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2023-12-12",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4278,7 +4278,7 @@
   },
   {
     "description": "Utilities to make using Inthe.AM with Taskwarrior just a little easier.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -7287,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1215,
+    "rating": 1214,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8518,7 +8518,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-12-14",
+    "updated": "2023-12-16",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8853,7 +8853,7 @@
   },
   {
     "description": "Easily create subtasks",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -12177,7 +12177,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 443,
+    "rating": 444,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
