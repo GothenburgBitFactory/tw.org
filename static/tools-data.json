@@ -1048,7 +1048,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 702,
-    "updated": "2023-12-09",
+    "updated": "2023-12-17",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -3058,7 +3058,7 @@
       "allgreed"
     ],
     "rating": 0,
-    "updated": "2023-12-15",
+    "updated": "2023-12-17",
     "url": "https://github.com/allgreed/tw-ical-feed"
   },
   {
@@ -4002,7 +4002,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2023-12-12",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -5472,7 +5472,7 @@
     "owner": [
       "fmauch"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-05-05",
     "url": "https://github.com/fmauch/evolution-taskwarrior"
   },
@@ -7287,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1214,
+    "rating": 1215,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7665,6 +7665,21 @@
     "rating": 0,
     "updated": "2022-07-28",
     "url": "https://github.com/kylape/taskserver"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskserverfinal",
+    "owner": [
+      "kylemod"
+    ],
+    "rating": 0,
+    "updated": "2023-12-17",
+    "url": "https://github.com/kylemod/taskserverfinal"
   },
   {
     "description": "My minimalistic hack for sending taskwarrior task reminders.",
@@ -11532,7 +11547,7 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2023-12-13",
     "url": "https://github.com/szaffarano/gotas"
   },
