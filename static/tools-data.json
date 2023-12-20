@@ -4242,7 +4242,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 578,
+    "rating": 579,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5112,7 +5112,7 @@
     "owner": [
       "ecocode"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-09-15",
     "url": "https://github.com/ecocode/notmuch-taskwarrior"
   },
@@ -7287,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1217,
+    "rating": 1219,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12357,7 +12357,7 @@
     "owner": [
       "winpat"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-02-13",
     "url": "https://github.com/winpat/taskwarrior.el"
   },
