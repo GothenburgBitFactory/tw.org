@@ -2382,7 +2382,7 @@
     "owner": [
       "TheNeuralBit"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2019-04-29",
     "url": "https://github.com/TheNeuralBit/task-gmail-sync"
   },
@@ -2967,7 +2967,7 @@
     "owner": [
       "alepeh"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2020-09-20",
     "url": "https://github.com/alepeh/taskwarrior-apple-reminders"
   },
@@ -3552,7 +3552,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 229,
+    "rating": 230,
     "updated": "2023-07-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4005,21 +4005,6 @@
     "rating": 55,
     "updated": "2023-12-12",
     "url": "https://github.com/charmbracelet/taskcli"
-  },
-  {
-    "description": "Ansible Role to install Taskwarrior's remote server and set it up.",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "ansible-role-taskwarrior",
-    "owner": [
-      "chazu"
-    ],
-    "rating": 0,
-    "updated": "2017-03-12",
-    "url": "https://github.com/chazu/ansible-role-taskwarrior"
   },
   {
     "description": "Taskwarrior visualizer for important scrum rituals",
@@ -7287,7 +7272,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1219,
+    "rating": 1220,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10332,7 +10317,7 @@
     "owner": [
       "quantonganh"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-10-05",
     "url": "https://github.com/quantonganh/taskwarrior-tui"
   },
@@ -11727,7 +11712,7 @@
     "owner": [
       "theJonathanToth"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-09-28",
     "url": "https://github.com/theJonathanToth/gmailtaskadd"
   },
