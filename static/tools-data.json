@@ -1408,7 +1408,7 @@
       "KevCui"
     ],
     "rating": 18,
-    "updated": "2023-09-25",
+    "updated": "2023-12-21",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -3447,7 +3447,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 304,
+    "rating": 305,
     "updated": "2023-11-11",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3553,7 +3553,7 @@
       "bgregos"
     ],
     "rating": 230,
-    "updated": "2023-07-11",
+    "updated": "2023-12-21",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3687,7 +3687,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-07-07",
     "url": "https://github.com/bradyt/taskd-client-dart"
   },
@@ -4007,6 +4007,21 @@
     "url": "https://github.com/charmbracelet/taskcli"
   },
   {
+    "description": "Ansible Role to install Taskwarrior's remote server and set it up.",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "ansible-role-taskwarrior",
+    "owner": [
+      "chazu"
+    ],
+    "rating": 0,
+    "updated": "2017-03-12",
+    "url": "https://github.com/chazu/ansible-role-taskwarrior"
+  },
+  {
     "description": "Taskwarrior visualizer for important scrum rituals",
     "dormant": false,
     "language": [
@@ -4227,7 +4242,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 579,
+    "rating": 580,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
