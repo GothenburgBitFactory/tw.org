@@ -35,11 +35,11 @@
   "timew": {
     "name": "Timewarrior",
     "stable": {
-      "version": "1.6.0",
-      "url": "https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.6.0/timew-1.6.0.tar.gz"
+      "version": "1.7.0",
+      "url": "https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.7.0/timew-1.7.0.tar.gz"
     },
     "develop": {
-      "version": "1.6.0-dev",
+      "version": "1.7.0-dev",
       "url": "https://github.com/GothenburgBitFactory/timewarrior"
     }
   }
