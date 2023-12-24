@@ -342,7 +342,7 @@
     "owner": [
       "AlexanderBrevig"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-08-17",
     "url": "https://github.com/AlexanderBrevig/tree-sitter-task"
   },
@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 45,
-    "updated": "2023-12-18",
+    "rating": 46,
+    "updated": "2023-12-23",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -657,7 +657,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 141,
+    "rating": 142,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1242,7 +1242,7 @@
     "owner": [
       "HiveMinds"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2023-09-25",
     "url": "https://github.com/HiveMinds/tw-install"
   },
@@ -1408,7 +1408,7 @@
       "KevCui"
     ],
     "rating": 18,
-    "updated": "2023-12-21",
+    "updated": "2023-12-23",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -3447,8 +3447,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 305,
-    "updated": "2023-11-11",
+    "rating": 307,
+    "updated": "2023-12-23",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -4002,7 +4002,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 55,
+    "rating": 56,
     "updated": "2023-12-12",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4918,7 +4918,7 @@
       "dmyna"
     ],
     "rating": 0,
-    "updated": "2023-10-08",
+    "updated": "2023-12-23",
     "url": "https://github.com/dmyna/rpms"
   },
   {
@@ -4933,7 +4933,7 @@
       "dnaaun"
     ],
     "rating": 1,
-    "updated": "2023-11-13",
+    "updated": "2023-12-23",
     "url": "https://github.com/dnaaun/dotfiles"
   },
   {
@@ -7287,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1220,
+    "rating": 1223,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7887,7 +7887,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2017-03-29",
     "url": "https://github.com/liloman/warriors"
   },
@@ -8623,7 +8623,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-11-29",
+    "updated": "2023-12-23",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9348,7 +9348,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -10482,7 +10482,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 44,
+    "rating": 43,
     "updated": "2023-12-14",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
