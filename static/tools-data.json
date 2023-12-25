@@ -3447,7 +3447,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 307,
+    "rating": 308,
     "updated": "2023-12-23",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8623,7 +8623,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-12-23",
+    "updated": "2023-12-24",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -12075,6 +12075,21 @@
     "rating": 0,
     "updated": "2023-12-11",
     "url": "https://github.com/ulrichschinz/taskwarrior"
+  },
+  {
+    "description": "WebTW is a service and website to expose taskwarrior tasks.",
+    "dormant": false,
+    "language": [
+      "Clojure"
+    ],
+    "license": "Eclipse Public License 1.0",
+    "name": "webtw",
+    "owner": [
+      "ulrichschinz"
+    ],
+    "rating": 0,
+    "updated": "2023-12-24",
+    "url": "https://github.com/ulrichschinz/webtw"
   },
   {
     "description": "TaskWarrior indicator applet",
