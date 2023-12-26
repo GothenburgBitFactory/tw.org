@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 46,
-    "updated": "2023-12-23",
+    "updated": "2023-12-25",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1483,7 +1483,7 @@
       "LanHikari22"
     ],
     "rating": 0,
-    "updated": "2023-09-27",
+    "updated": "2023-12-26",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -3448,7 +3448,7 @@
       "bergercookie"
     ],
     "rating": 308,
-    "updated": "2023-12-23",
+    "updated": "2023-12-25",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -4918,7 +4918,7 @@
       "dmyna"
     ],
     "rating": 0,
-    "updated": "2023-12-23",
+    "updated": "2023-12-25",
     "url": "https://github.com/dmyna/rpms"
   },
   {
@@ -9087,7 +9087,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 51,
+    "rating": 52,
     "updated": "2023-11-22",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -10482,7 +10482,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 43,
+    "rating": 44,
     "updated": "2023-12-14",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11892,7 +11892,7 @@
     "owner": [
       "tomdurrant"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2018-03-11",
     "url": "https://github.com/tomdurrant/taskwarrior-toggl-hook"
   },
