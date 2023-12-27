@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 46,
-    "updated": "2023-12-25",
+    "rating": 47,
+    "updated": "2023-12-26",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -3448,7 +3448,7 @@
       "bergercookie"
     ],
     "rating": 308,
-    "updated": "2023-12-25",
+    "updated": "2023-12-26",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -4918,7 +4918,7 @@
       "dmyna"
     ],
     "rating": 0,
-    "updated": "2023-12-25",
+    "updated": "2023-12-26",
     "url": "https://github.com/dmyna/rpms"
   },
   {
@@ -7077,7 +7077,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 329,
+    "rating": 330,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
