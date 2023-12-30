@@ -2563,7 +2563,7 @@
       "Zebradil"
     ],
     "rating": 62,
-    "updated": "2023-12-09",
+    "updated": "2023-12-29",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3432,7 +3432,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2023-11-11",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
@@ -3447,7 +3447,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 308,
+    "rating": 310,
     "updated": "2023-12-27",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3702,7 +3702,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-07-07",
     "url": "https://github.com/bradyt/taskd-setup-dart"
   },
@@ -4242,7 +4242,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 580,
+    "rating": 581,
     "updated": "2023-09-17",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4907,19 +4907,19 @@
     "url": "https://github.com/dkpeakbil/taskserver"
   },
   {
-    "description": "Rust Productivity Manager && Scheduler: A productivity manager and scheduler made in Rust that depends on TaskWarrior.",
+    "description": "Four Year Productivity Manager: A productivity manager for the Four Year Workflow.",
     "dormant": false,
     "language": [
       "Shell"
     ],
     "license": null,
-    "name": "rpms",
+    "name": "fypm",
     "owner": [
       "dmyna"
     ],
     "rating": 0,
-    "updated": "2023-12-26",
-    "url": "https://github.com/dmyna/rpms"
+    "updated": "2023-12-28",
+    "url": "https://github.com/dmyna/fypm"
   },
   {
     "description": "Dotfiles spanning neovim, tmux, i3wm, qutebrowser, yabai, skhd, taskwarrior, various REPLs.",
@@ -7287,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1223,
+    "rating": 1225,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8623,7 +8623,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-12-24",
+    "updated": "2023-12-29",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -8853,7 +8853,7 @@
   },
   {
     "description": "Plugin framework wrapping taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -9702,7 +9702,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 15,
+    "rating": 14,
     "updated": "2023-09-18",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
@@ -10482,7 +10482,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 45,
+    "rating": 46,
     "updated": "2023-12-14",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -12342,7 +12342,7 @@
     "owner": [
       "wichtounet"
     ],
-    "rating": 4,
+    "rating": 3,
     "updated": "2012-07-06",
     "url": "https://github.com/wichtounet/taskwarrior-php"
   },
