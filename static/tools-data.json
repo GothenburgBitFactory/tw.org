@@ -522,7 +522,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2023-12-26",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -552,7 +552,7 @@
     "owner": [
       "CarlosNihelton"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-05-08",
     "url": "https://github.com/CarlosNihelton/todoist-taskwarrior"
   },
@@ -1047,7 +1047,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 702,
+    "rating": 703,
     "updated": "2023-12-17",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1408,7 +1408,7 @@
       "KevCui"
     ],
     "rating": 18,
-    "updated": "2023-12-23",
+    "updated": "2023-12-30",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -3448,7 +3448,7 @@
       "bergercookie"
     ],
     "rating": 310,
-    "updated": "2023-12-27",
+    "updated": "2023-12-30",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3732,7 +3732,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 77,
+    "rating": 78,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -5508,7 +5508,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -7287,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1225,
+    "rating": 1226,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8502,7 +8502,7 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
@@ -8548,7 +8548,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-12-16",
+    "updated": "2023-12-30",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8623,7 +8623,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-12-29",
+    "updated": "2023-12-30",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9150,6 +9150,21 @@
     "rating": 0,
     "updated": "2023-05-07",
     "url": "https://github.com/mtesauro/httask"
+  },
+  {
+    "description": "a application wrapper for taskwarrior terminal application",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "Wrapper_for_TaskWarrior",
+    "owner": [
+      "muazzammullah"
+    ],
+    "rating": 0,
+    "updated": "2023-12-30",
+    "url": "https://github.com/muazzammullah/Wrapper_for_TaskWarrior"
   },
   {
     "description": "add toggl integration to taskwarrior",
@@ -10407,7 +10422,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 171,
+    "rating": 172,
     "updated": "2023-11-20",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -11907,7 +11922,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 789,
+    "rating": 790,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
