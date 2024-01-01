@@ -51,6 +51,7 @@ layout: single
 - [Escaping Command Line Characters](/docs/escapes)
 - [DOM - Document Object Model](/docs/dom)
 - [JSON Import/Export Format](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/task.md)
+- [Task Representation](/docs/task)
 - [Deprecated Features](/docs/deprecated)
 - [Philosophy](/docs/philosophy)
 
