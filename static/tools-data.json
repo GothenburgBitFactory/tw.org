@@ -657,7 +657,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 142,
+    "rating": 143,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1048,7 +1048,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 703,
-    "updated": "2023-12-17",
+    "updated": "2024-01-01",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1063,7 +1063,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 135,
-    "updated": "2023-12-14",
+    "updated": "2024-01-01",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
   {
@@ -1242,7 +1242,7 @@
     "owner": [
       "HiveMinds"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2023-09-25",
     "url": "https://github.com/HiveMinds/tw-install"
   },
@@ -3433,7 +3433,7 @@
       "bergercookie"
     ],
     "rating": 10,
-    "updated": "2023-11-11",
+    "updated": "2023-12-31",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
   {
@@ -3447,8 +3447,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 310,
-    "updated": "2023-12-30",
+    "rating": 312,
+    "updated": "2024-01-01",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -7287,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1226,
+    "rating": 1228,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8533,7 +8533,7 @@
       "matthiasbeyer"
     ],
     "rating": 9,
-    "updated": "2023-11-01",
+    "updated": "2024-01-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -8548,7 +8548,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-12-30",
+    "updated": "2023-12-31",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
