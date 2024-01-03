@@ -1063,7 +1063,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 135,
-    "updated": "2024-01-01",
+    "updated": "2024-01-02",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
   {
@@ -2055,6 +2055,21 @@
     "rating": 0,
     "updated": "2019-05-19",
     "url": "https://github.com/SVyacheslav/TaskServer"
+  },
+  {
+    "description": "taskwarrior, timewarrior weekly report script (personal script. not general)",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "report-twarriors",
+    "owner": [
+      "ShockRabbit"
+    ],
+    "rating": 0,
+    "updated": "2021-03-06",
+    "url": "https://github.com/ShockRabbit/report-twarriors"
   },
   {
     "description": "A web-based mobile todo-list app with taskwarrior-like features",
@@ -3448,7 +3463,7 @@
       "bergercookie"
     ],
     "rating": 312,
-    "updated": "2024-01-01",
+    "updated": "2024-01-02",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3552,7 +3567,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 230,
+    "rating": 231,
     "updated": "2023-12-21",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -7287,7 +7302,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1228,
+    "rating": 1229,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
