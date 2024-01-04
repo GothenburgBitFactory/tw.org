@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 48,
-    "updated": "2023-12-26",
+    "updated": "2024-01-03",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1048,7 +1048,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 703,
-    "updated": "2024-01-01",
+    "updated": "2024-01-03",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -2372,6 +2372,21 @@
     "url": "https://github.com/TaskWarrior-UI/taskwarrior-box"
   },
   {
+    "description": "Nest.js server for Task Warrior",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "taskwarrior-server",
+    "owner": [
+      "TecFancy"
+    ],
+    "rating": 1,
+    "updated": "2023-03-21",
+    "url": "https://github.com/TecFancy/taskwarrior-server"
+  },
+  {
     "description": "This is the story of how I am slowly becoming free",
     "dormant": false,
     "language": [
@@ -3567,7 +3582,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 231,
+    "rating": 232,
     "updated": "2023-12-21",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4258,7 +4273,7 @@
       "coddingtonbear"
     ],
     "rating": 581,
-    "updated": "2023-09-17",
+    "updated": "2024-01-03",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
   {
@@ -4317,7 +4332,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 281,
+    "rating": 282,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -8563,7 +8578,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2023-12-31",
+    "updated": "2024-01-03",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9822,7 +9837,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -11175,21 +11190,6 @@
     "rating": 0,
     "updated": "2017-03-12",
     "url": "https://github.com/smh/taskwarriorrc"
-  },
-  {
-    "description": "Nest.js server for Task Warrior",
-    "dormant": false,
-    "language": [
-      "TypeScript"
-    ],
-    "license": null,
-    "name": "taskwarrior-server",
-    "owner": [
-      "smpower"
-    ],
-    "rating": 1,
-    "updated": "2023-03-21",
-    "url": "https://github.com/smpower/taskwarrior-server"
   },
   {
     "description": "To report an issue or request an update, go to: https://issues.getsol.us",
