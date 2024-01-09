@@ -447,7 +447,7 @@
     "owner": [
       "AnotherKamila"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2019-03-05",
     "url": "https://github.com/AnotherKamila/tasksched"
   },
@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 49,
-    "updated": "2024-01-05",
+    "updated": "2024-01-07",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1378,7 +1378,7 @@
       "KevCui"
     ],
     "rating": 18,
-    "updated": "2023-12-30",
+    "updated": "2024-01-08",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -1662,8 +1662,8 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 3,
-    "updated": "2024-01-06",
+    "rating": 8,
+    "updated": "2024-01-07",
     "url": "https://github.com/MythicalCow/vayu"
   },
   {
@@ -3462,7 +3462,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 314,
+    "rating": 315,
     "updated": "2024-01-02",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4082,21 +4082,6 @@
     "url": "https://github.com/cherusk/tw_projector"
   },
   {
-    "description": "TaskKhalReschedulWarrior",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "TaskKhalReschedulWarrior",
-    "owner": [
-      "chess-seventh"
-    ],
-    "rating": 3,
-    "updated": "2023-07-25",
-    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
-  },
-  {
     "description": "Simple taskwarrior notifications in rust",
     "dormant": true,
     "language": [
@@ -4257,7 +4242,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 581,
+    "rating": 582,
     "updated": "2024-01-03",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5698,7 +5683,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2023-11-22",
+    "updated": "2024-01-08",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -6132,7 +6117,7 @@
     "owner": [
       "hugginsio"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2023-12-04",
     "url": "https://github.com/hugginsio/twig.nvim"
   },
@@ -7137,7 +7122,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2023-07-16",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
@@ -8548,7 +8533,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2024-01-06",
+    "updated": "2024-01-08",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9762,7 +9747,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 101,
+    "rating": 102,
     "updated": "2022-08-20",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
