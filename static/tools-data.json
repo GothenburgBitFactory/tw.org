@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 49,
-    "updated": "2024-01-07",
+    "updated": "2024-01-09",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1017,7 +1017,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 704,
+    "rating": 705,
     "updated": "2024-01-03",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1032,7 +1032,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 135,
+    "rating": 136,
     "updated": "2024-01-02",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -3462,7 +3462,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 315,
+    "rating": 316,
     "updated": "2024-01-02",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3627,7 +3627,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 69,
+    "rating": 70,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -4082,6 +4082,21 @@
     "url": "https://github.com/cherusk/tw_projector"
   },
   {
+    "description": "TaskKhalReschedulWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "TaskKhalReschedulWarrior",
+    "owner": [
+      "chess-seventh"
+    ],
+    "rating": 3,
+    "updated": "2023-07-25",
+    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
+  },
+  {
     "description": "Simple taskwarrior notifications in rust",
     "dormant": true,
     "language": [
@@ -4242,7 +4257,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 582,
+    "rating": 583,
     "updated": "2024-01-03",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5957,21 +5972,6 @@
     "url": "https://github.com/hanyd81/taskServer"
   },
   {
-    "description": "Task Server",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "hardkiller"
-    ],
-    "rating": 0,
-    "updated": "2018-10-14",
-    "url": "https://github.com/hardkiller/taskserver"
-  },
-  {
     "description": "A TaskWarrior library for Node.js",
     "dormant": true,
     "language": [
@@ -6808,7 +6808,7 @@
       "jmriego"
     ],
     "rating": 2,
-    "updated": "2021-05-25",
+    "updated": "2024-01-10",
     "url": "https://github.com/jmriego/TaskwarriorC2"
   },
   {
@@ -7287,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1231,
+    "rating": 1232,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8533,7 +8533,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2024-01-08",
+    "updated": "2024-01-10",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9060,21 +9060,6 @@
     "rating": 11,
     "updated": "2021-08-25",
     "url": "https://github.com/mrschyte/taskwarrior-hooks"
-  },
-  {
-    "description": "dotfiles",
-    "dormant": false,
-    "language": [
-      "Vim Script"
-    ],
-    "license": "MIT License",
-    "name": "dotfiles",
-    "owner": [
-      "mrusme"
-    ],
-    "rating": 52,
-    "updated": "2023-11-22",
-    "url": "https://github.com/mrusme/dotfiles"
   },
   {
     "description": "A very simple Taskwarrior Client for Windows (Phone)",
@@ -10092,7 +10077,7 @@
     "owner": [
       "planet-lodder"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-11-16",
     "url": "https://github.com/planet-lodder/taskserver.py"
   },
@@ -11547,7 +11532,7 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2023-12-13",
     "url": "https://github.com/szaffarano/gotas"
   },
@@ -11892,7 +11877,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 790,
+    "rating": 788,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12192,7 +12177,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 445,
+    "rating": 446,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
