@@ -657,7 +657,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 143,
+    "rating": 142,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1017,7 +1017,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 705,
+    "rating": 702,
     "updated": "2024-01-03",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1032,7 +1032,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 136,
+    "rating": 135,
     "updated": "2024-01-02",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1527,7 +1527,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -2578,7 +2578,7 @@
       "Zebradil"
     ],
     "rating": 62,
-    "updated": "2023-12-29",
+    "updated": "2024-01-12",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3312,7 +3312,7 @@
     "owner": [
       "avli"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2018-03-11",
     "url": "https://github.com/avli/taskwarrior"
   },
@@ -3462,8 +3462,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 316,
-    "updated": "2024-01-02",
+    "rating": 313,
+    "updated": "2024-01-12",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -7287,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1233,
+    "rating": 1232,
     "updated": "2023-11-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9060,21 +9060,6 @@
     "rating": 11,
     "updated": "2021-08-25",
     "url": "https://github.com/mrschyte/taskwarrior-hooks"
-  },
-  {
-    "description": "dotfiles",
-    "dormant": false,
-    "language": [
-      "Vim Script"
-    ],
-    "license": "MIT License",
-    "name": "dotfiles",
-    "owner": [
-      "mrusme"
-    ],
-    "rating": 52,
-    "updated": "2023-11-22",
-    "url": "https://github.com/mrusme/dotfiles"
   },
   {
     "description": "A very simple Taskwarrior Client for Windows (Phone)",
@@ -12192,7 +12177,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 446,
+    "rating": 445,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
