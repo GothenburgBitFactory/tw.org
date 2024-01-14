@@ -1017,7 +1017,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 702,
+    "rating": 703,
     "updated": "2024-01-03",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1032,7 +1032,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 135,
+    "rating": 136,
     "updated": "2024-01-02",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -3567,7 +3567,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 232,
+    "rating": 233,
     "updated": "2023-12-21",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -8252,6 +8252,21 @@
     "url": "https://github.com/lukecampbell/task-conversion"
   },
   {
+    "description": "A simple taskwarrior clone written in Rust",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "task_rust",
+    "owner": [
+      "lvhungdev"
+    ],
+    "rating": 0,
+    "updated": "2024-01-13",
+    "url": "https://github.com/lvhungdev/task_rust"
+  },
+  {
     "description": "Taskwarrior based program to manage your kanban workflow",
     "dormant": true,
     "language": [
@@ -9060,6 +9075,21 @@
     "rating": 11,
     "updated": "2021-08-25",
     "url": "https://github.com/mrschyte/taskwarrior-hooks"
+  },
+  {
+    "description": "dotfiles",
+    "dormant": false,
+    "language": [
+      "Vim Script"
+    ],
+    "license": "MIT License",
+    "name": "dotfiles",
+    "owner": [
+      "mrusme"
+    ],
+    "rating": 52,
+    "updated": "2024-01-13",
+    "url": "https://github.com/mrusme/dotfiles"
   },
   {
     "description": "A very simple Taskwarrior Client for Windows (Phone)",
@@ -12177,7 +12207,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 445,
+    "rating": 446,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
