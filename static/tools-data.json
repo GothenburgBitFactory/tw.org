@@ -522,7 +522,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 49,
+    "rating": 50,
     "updated": "2024-01-11",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1662,7 +1662,7 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2024-01-07",
     "url": "https://github.com/MythicalCow/vayu"
   },
@@ -4017,7 +4017,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 59,
+    "rating": 61,
     "updated": "2024-01-05",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -5325,6 +5325,21 @@
     "rating": 0,
     "updated": "2022-12-10",
     "url": "https://github.com/ethueter/TaskServer"
+  },
+  {
+    "description": "Feature tracker app built on top of taskwarrior",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "nextwarrior",
+    "owner": [
+      "eug-vs"
+    ],
+    "rating": 0,
+    "updated": "2024-01-15",
+    "url": "https://github.com/eug-vs/nextwarrior"
   },
   {
     "description": null,
@@ -7288,7 +7303,7 @@
       "kdheepak"
     ],
     "rating": 1232,
-    "updated": "2023-11-26",
+    "updated": "2024-01-15",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8263,7 +8278,7 @@
       "lvhungdev"
     ],
     "rating": 0,
-    "updated": "2024-01-13",
+    "updated": "2024-01-14",
     "url": "https://github.com/lvhungdev/task_rust"
   },
   {
@@ -9072,7 +9087,7 @@
     "owner": [
       "mrschyte"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2021-08-25",
     "url": "https://github.com/mrschyte/taskwarrior-hooks"
   },
@@ -9088,7 +9103,7 @@
       "mrusme"
     ],
     "rating": 52,
-    "updated": "2024-01-13",
+    "updated": "2024-01-14",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -11907,7 +11922,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 789,
+    "rating": 788,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12207,7 +12222,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 446,
+    "rating": 447,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
@@ -12483,7 +12498,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Handlebars"
     ],
@@ -12588,7 +12603,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
