@@ -482,21 +482,6 @@
     "url": "https://github.com/AnotherKamila/todo-viewer"
   },
   {
-    "description": "Script to convert JSON with tasks exported from Asana to Taskwarrior JSON",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "Apache License 2.0",
-    "name": "asana2taskwarrior",
-    "owner": [
-      "ArtUshak"
-    ],
-    "rating": 0,
-    "updated": "2022-02-13",
-    "url": "https://github.com/ArtUshak/asana2taskwarrior"
-  },
-  {
     "description": "Im trying to build a simple TaskServer that can handle multiple Clients at the same time and manages the Tasks in a SQL database",
     "dormant": true,
     "language": [
@@ -523,7 +508,7 @@
       "CCExtractor"
     ],
     "rating": 50,
-    "updated": "2024-01-11",
+    "updated": "2024-01-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1813,7 +1798,7 @@
       "Pete-Hamlin"
     ],
     "rating": 2,
-    "updated": "2022-07-10",
+    "updated": "2024-01-16",
     "url": "https://github.com/Pete-Hamlin/gtd-rust-taskwarrior"
   },
   {
@@ -1923,7 +1908,7 @@
   },
   {
     "description": "Just a little script to help me with Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -2143,7 +2128,7 @@
       "Stefan-Radu"
     ],
     "rating": 1,
-    "updated": "2023-11-28",
+    "updated": "2024-01-17",
     "url": "https://github.com/Stefan-Radu/dotfiles"
   },
   {
@@ -3462,7 +3447,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 313,
+    "rating": 315,
     "updated": "2024-01-12",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4017,24 +4002,9 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 61,
+    "rating": 62,
     "updated": "2024-01-05",
     "url": "https://github.com/charmbracelet/taskcli"
-  },
-  {
-    "description": "Ansible Role to install Taskwarrior's remote server and set it up.",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "ansible-role-taskwarrior",
-    "owner": [
-      "chazu"
-    ],
-    "rating": 0,
-    "updated": "2017-03-12",
-    "url": "https://github.com/chazu/ansible-role-taskwarrior"
   },
   {
     "description": "Taskwarrior visualizer for important scrum rituals",
@@ -7187,21 +7157,6 @@
     "url": "https://github.com/jvonmitchell/taskserver"
   },
   {
-    "description": "my dotfiles :)",
-    "dormant": false,
-    "language": [
-      "Emacs Lisp"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "k4y4k"
-    ],
-    "rating": 4,
-    "updated": "2023-04-09",
-    "url": "https://github.com/k4y4k/dotfiles"
-  },
-  {
     "description": "A private, web-based todo list with ideas from taskwarrior. ",
     "dormant": false,
     "language": [
@@ -7303,7 +7258,7 @@
       "kdheepak"
     ],
     "rating": 1232,
-    "updated": "2024-01-15",
+    "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8205,21 +8160,6 @@
     "rating": 0,
     "updated": "2019-05-20",
     "url": "https://github.com/loonies/taskwarrior-scripts"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "obsidian-taskwarrior-cli",
-    "owner": [
-      "louis-morgan"
-    ],
-    "rating": 0,
-    "updated": "2022-05-15",
-    "url": "https://github.com/louis-morgan/obsidian-taskwarrior-cli"
   },
   {
     "description": null,
