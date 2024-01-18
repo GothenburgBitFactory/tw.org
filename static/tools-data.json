@@ -482,6 +482,21 @@
     "url": "https://github.com/AnotherKamila/todo-viewer"
   },
   {
+    "description": "Script to convert JSON with tasks exported from Asana to Taskwarrior JSON",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "Apache License 2.0",
+    "name": "asana2taskwarrior",
+    "owner": [
+      "ArtUshak"
+    ],
+    "rating": 0,
+    "updated": "2022-02-13",
+    "url": "https://github.com/ArtUshak/asana2taskwarrior"
+  },
+  {
     "description": "Im trying to build a simple TaskServer that can handle multiple Clients at the same time and manages the Tasks in a SQL database",
     "dormant": true,
     "language": [
@@ -1002,7 +1017,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 703,
+    "rating": 704,
     "updated": "2024-01-03",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -2563,7 +2578,7 @@
       "Zebradil"
     ],
     "rating": 62,
-    "updated": "2024-01-12",
+    "updated": "2024-01-17",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3447,7 +3462,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 315,
+    "rating": 316,
     "updated": "2024-01-12",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4007,6 +4022,21 @@
     "url": "https://github.com/charmbracelet/taskcli"
   },
   {
+    "description": "Ansible Role to install Taskwarrior's remote server and set it up.",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "ansible-role-taskwarrior",
+    "owner": [
+      "chazu"
+    ],
+    "rating": 0,
+    "updated": "2017-03-12",
+    "url": "https://github.com/chazu/ansible-role-taskwarrior"
+  },
+  {
     "description": "Taskwarrior visualizer for important scrum rituals",
     "dormant": false,
     "language": [
@@ -4050,21 +4080,6 @@
     "rating": 1,
     "updated": "2019-04-21",
     "url": "https://github.com/cherusk/tw_projector"
-  },
-  {
-    "description": "TaskKhalReschedulWarrior",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "TaskKhalReschedulWarrior",
-    "owner": [
-      "chess-seventh"
-    ],
-    "rating": 3,
-    "updated": "2023-07-25",
-    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
   {
     "description": "Simple taskwarrior notifications in rust",
@@ -7157,6 +7172,21 @@
     "url": "https://github.com/jvonmitchell/taskserver"
   },
   {
+    "description": "my dotfiles :)",
+    "dormant": false,
+    "language": [
+      "Emacs Lisp"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "k4y4k"
+    ],
+    "rating": 4,
+    "updated": "2023-04-09",
+    "url": "https://github.com/k4y4k/dotfiles"
+  },
+  {
     "description": "A private, web-based todo list with ideas from taskwarrior. ",
     "dormant": false,
     "language": [
@@ -7257,7 +7287,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1232,
+    "rating": 1234,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8165,6 +8195,21 @@
     "description": null,
     "dormant": false,
     "language": [
+      "JavaScript"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "obsidian-taskwarrior-cli",
+    "owner": [
+      "louis-morgan"
+    ],
+    "rating": 0,
+    "updated": "2022-05-15",
+    "url": "https://github.com/louis-morgan/obsidian-taskwarrior-cli"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
       "N/A"
     ],
     "license": "MIT License",
@@ -8503,7 +8548,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2024-01-11",
+    "updated": "2024-01-17",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10452,7 +10497,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2023-12-14",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11862,7 +11907,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 788,
+    "rating": 789,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12162,7 +12207,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 447,
+    "rating": 446,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
@@ -12402,7 +12447,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2021-11-12",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
