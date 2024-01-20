@@ -522,7 +522,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 50,
+    "rating": 51,
     "updated": "2024-01-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -657,7 +657,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 142,
+    "rating": 145,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -912,7 +912,7 @@
     "owner": [
       "ForNeVeR"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-12-29",
     "url": "https://github.com/ForNeVeR/taskomatic"
   },
@@ -1017,7 +1017,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 704,
+    "rating": 706,
     "updated": "2024-01-03",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -2578,7 +2578,7 @@
       "Zebradil"
     ],
     "rating": 62,
-    "updated": "2024-01-17",
+    "updated": "2024-01-18",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3462,8 +3462,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 316,
-    "updated": "2024-01-12",
+    "rating": 322,
+    "updated": "2024-01-18",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -4082,6 +4082,21 @@
     "url": "https://github.com/cherusk/tw_projector"
   },
   {
+    "description": "TaskKhalReschedulWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "TaskKhalReschedulWarrior",
+    "owner": [
+      "chess-seventh"
+    ],
+    "rating": 3,
+    "updated": "2023-07-25",
+    "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
+  },
+  {
     "description": "Simple taskwarrior notifications in rust",
     "dormant": true,
     "language": [
@@ -4242,7 +4257,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 583,
+    "rating": 584,
     "updated": "2024-01-03",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -5337,7 +5352,7 @@
     "owner": [
       "evantravers"
     ],
-    "rating": 4,
+    "rating": 3,
     "updated": "2022-03-25",
     "url": "https://github.com/evantravers/ThingsToTaskwarrior"
   },
@@ -7017,7 +7032,7 @@
     "owner": [
       "jrcharney"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-02-21",
     "url": "https://github.com/jrcharney/taskwarrior-themes"
   },
@@ -7287,7 +7302,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1234,
+    "rating": 1238,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8263,7 +8278,7 @@
       "lvhungdev"
     ],
     "rating": 0,
-    "updated": "2024-01-14",
+    "updated": "2024-01-19",
     "url": "https://github.com/lvhungdev/task_rust"
   },
   {
@@ -8367,7 +8382,7 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 12,
+    "rating": 11,
     "updated": "2023-07-31",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
@@ -8382,7 +8397,7 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 8,
+    "rating": 7,
     "updated": "2023-01-15",
     "url": "https://github.com/maralorn/kassandra"
   },
@@ -8548,7 +8563,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2024-01-17",
+    "updated": "2024-01-19",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9088,7 +9103,7 @@
       "mrusme"
     ],
     "rating": 52,
-    "updated": "2024-01-14",
+    "updated": "2024-01-19",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -11232,7 +11247,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 69,
+    "rating": 68,
     "updated": "2022-10-10",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -11607,7 +11622,7 @@
     "owner": [
       "taskswamp"
     ],
-    "rating": 41,
+    "rating": 42,
     "updated": "2021-05-28",
     "url": "https://github.com/taskswamp/taskswamp"
   },
@@ -11622,7 +11637,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 40,
+    "rating": 41,
     "updated": "2021-01-28",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -11907,7 +11922,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 789,
+    "rating": 791,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12207,7 +12222,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 446,
+    "rating": 447,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
