@@ -522,7 +522,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 51,
+    "rating": 52,
     "updated": "2024-01-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -3463,8 +3463,23 @@
       "bergercookie"
     ],
     "rating": 322,
-    "updated": "2024-01-18",
+    "updated": "2024-01-20",
     "url": "https://github.com/bergercookie/syncall"
+  },
+  {
+    "description": "Next Generation Taskwarrior Python API",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskw-ng",
+    "owner": [
+      "bergercookie"
+    ],
+    "rating": 0,
+    "updated": "2024-01-20",
+    "url": "https://github.com/bergercookie/taskw-ng"
   },
   {
     "description": "This project has been merged to https://github.com/bergercookie/awesome-albert-plugins",
@@ -3568,7 +3583,7 @@
       "bgregos"
     ],
     "rating": 233,
-    "updated": "2023-12-21",
+    "updated": "2024-01-20",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -4933,7 +4948,7 @@
       "dmyna"
     ],
     "rating": 0,
-    "updated": "2023-12-28",
+    "updated": "2024-01-20",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7302,7 +7317,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1238,
+    "rating": 1239,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9762,7 +9777,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 75,
+    "rating": 76,
     "updated": "2023-09-29",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -11457,7 +11472,7 @@
     "owner": [
       "strawpants"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-09-29",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
