@@ -252,7 +252,7 @@
     "owner": [
       "Aerex"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-07-05",
     "url": "https://github.com/Aerex/icaltask"
   },
@@ -570,6 +570,21 @@
     "rating": 0,
     "updated": "2023-12-13",
     "url": "https://github.com/Cemile15/taskserver"
+  },
+  {
+    "description": "Scripts to help me synchronise JIRA and taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskjira",
+    "owner": [
+      "ChrisKSeal"
+    ],
+    "rating": 0,
+    "updated": "2024-01-21",
+    "url": "https://github.com/ChrisKSeal/taskjira"
   },
   {
     "description": ":hammer: :earth_americas: A taskd implementation for the Django web framework.",
@@ -3462,8 +3477,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 322,
-    "updated": "2024-01-20",
+    "rating": 323,
+    "updated": "2024-01-21",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3478,7 +3493,7 @@
       "bergercookie"
     ],
     "rating": 0,
-    "updated": "2024-01-20",
+    "updated": "2024-01-21",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
   {
@@ -3583,7 +3598,7 @@
       "bgregos"
     ],
     "rating": 233,
-    "updated": "2024-01-20",
+    "updated": "2024-01-21",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -3762,7 +3777,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 78,
+    "rating": 79,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -7317,7 +7332,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1239,
+    "rating": 1242,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11832,7 +11847,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 511,
+    "rating": 512,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -12477,7 +12492,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2021-11-12",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
