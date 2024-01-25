@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 52,
-    "updated": "2024-01-16",
+    "rating": 54,
+    "updated": "2024-01-24",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -575,7 +575,7 @@
     "description": "Scripts to help me synchronise JIRA and taskwarrior",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "MIT License",
     "name": "taskjira",
@@ -583,7 +583,7 @@
       "ChrisKSeal"
     ],
     "rating": 0,
-    "updated": "2024-01-21",
+    "updated": "2024-01-24",
     "url": "https://github.com/ChrisKSeal/taskjira"
   },
   {
@@ -1032,7 +1032,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 706,
+    "rating": 707,
     "updated": "2024-01-03",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1677,7 +1677,7 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2024-01-07",
     "url": "https://github.com/MythicalCow/vayu"
   },
@@ -1905,6 +1905,21 @@
     "rating": 0,
     "updated": "2018-11-19",
     "url": "https://github.com/QantumEntangled/taskwarrior-web-dc"
+  },
+  {
+    "description": "Conteinerized TaskWarrior with TUI for distrobox",
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": "Apache License 2.0",
+    "name": "taskwarrior-portable",
+    "owner": [
+      "RafaelPalomar"
+    ],
+    "rating": 0,
+    "updated": "2024-01-22",
+    "url": "https://github.com/RafaelPalomar/taskwarrior-portable"
   },
   {
     "description": "TaskWarrior client app for iOS. MVVM + RxSwift",
@@ -3477,8 +3492,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 323,
-    "updated": "2024-01-21",
+    "rating": 325,
+    "updated": "2024-01-23",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -3493,7 +3508,7 @@
       "bergercookie"
     ],
     "rating": 0,
-    "updated": "2024-01-21",
+    "updated": "2024-01-23",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
   {
@@ -3597,7 +3612,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 233,
+    "rating": 234,
     "updated": "2024-01-21",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4287,7 +4302,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 584,
+    "rating": 585,
     "updated": "2024-01-03",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4723,7 +4738,7 @@
       "davidlee"
     ],
     "rating": 2,
-    "updated": "2023-12-15",
+    "updated": "2024-01-22",
     "url": "https://github.com/davidlee/vex"
   },
   {
@@ -6843,7 +6858,7 @@
   },
   {
     "description": "Fork of https://bitbucket.org/kvorobyev/taskwarriorc2/",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Java"
     ],
@@ -6853,7 +6868,7 @@
       "jmriego"
     ],
     "rating": 2,
-    "updated": "2024-01-10",
+    "updated": "2024-01-24",
     "url": "https://github.com/jmriego/TaskwarriorC2"
   },
   {
@@ -7122,7 +7137,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 331,
+    "rating": 332,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7332,7 +7347,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1242,
+    "rating": 1244,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7437,7 +7452,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 4,
+    "rating": 3,
     "updated": "2023-09-09",
     "url": "https://github.com/kgoettler/tasksync"
   },
@@ -8308,7 +8323,7 @@
       "lvhungdev"
     ],
     "rating": 0,
-    "updated": "2024-01-19",
+    "updated": "2024-01-23",
     "url": "https://github.com/lvhungdev/task_rust"
   },
   {
@@ -8593,7 +8608,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2024-01-19",
+    "updated": "2024-01-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9133,7 +9148,7 @@
       "mrusme"
     ],
     "rating": 52,
-    "updated": "2024-01-19",
+    "updated": "2024-01-24",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10542,7 +10557,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2023-12-14",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -11488,7 +11503,7 @@
       "strawpants"
     ],
     "rating": 2,
-    "updated": "2023-09-29",
+    "updated": "2024-01-24",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
   {
@@ -11608,7 +11623,7 @@
       "szaffarano"
     ],
     "rating": 9,
-    "updated": "2023-12-13",
+    "updated": "2024-01-24",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
