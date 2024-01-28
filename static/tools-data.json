@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 54,
-    "updated": "2024-01-25",
+    "rating": 56,
+    "updated": "2024-01-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -672,7 +672,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 145,
+    "rating": 147,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1677,7 +1677,7 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2024-01-07",
     "url": "https://github.com/MythicalCow/vayu"
   },
@@ -2608,7 +2608,7 @@
       "Zebradil"
     ],
     "rating": 62,
-    "updated": "2024-01-18",
+    "updated": "2024-01-26",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3492,7 +3492,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 325,
+    "rating": 328,
     "updated": "2024-01-23",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3508,7 +3508,7 @@
       "bergercookie"
     ],
     "rating": 1,
-    "updated": "2024-01-23",
+    "updated": "2024-01-27",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
   {
@@ -3717,7 +3717,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 511,
+    "rating": 512,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -4062,7 +4062,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 62,
+    "rating": 64,
     "updated": "2024-01-05",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4978,7 +4978,7 @@
       "dmyna"
     ],
     "rating": 0,
-    "updated": "2024-01-20",
+    "updated": "2024-01-28",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -5652,7 +5652,7 @@
     "owner": [
       "frenchrd"
     ],
-    "rating": 5,
+    "rating": 4,
     "updated": "2013-07-16",
     "url": "https://github.com/frenchrd/taskwarrior-progress"
   },
@@ -6132,7 +6132,7 @@
     "owner": [
       "hpainter"
     ],
-    "rating": 4,
+    "rating": 3,
     "updated": "2015-02-16",
     "url": "https://github.com/hpainter/task-toggl"
   },
@@ -7347,7 +7347,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1248,
+    "rating": 1249,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8323,7 +8323,7 @@
       "lvhungdev"
     ],
     "rating": 0,
-    "updated": "2024-01-23",
+    "updated": "2024-01-27",
     "url": "https://github.com/lvhungdev/task_rust"
   },
   {
@@ -8608,7 +8608,7 @@
       "maxjoehnk"
     ],
     "rating": 13,
-    "updated": "2024-01-25",
+    "updated": "2024-01-27",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9298,7 +9298,7 @@
       "n8henrie"
     ],
     "rating": 0,
-    "updated": "2023-12-01",
+    "updated": "2024-01-27",
     "url": "https://github.com/n8henrie/taskwarrior-rs"
   },
   {
@@ -9462,7 +9462,7 @@
     "owner": [
       "nerab"
     ],
-    "rating": 31,
+    "rating": 30,
     "updated": "2023-03-15",
     "url": "https://github.com/nerab/twdeps"
   },
@@ -11402,21 +11402,6 @@
     "url": "https://github.com/ssoriche/Taskwarrior-Kusarigama-Plugin-Command-Shelf"
   },
   {
-    "description": "Taskwarrior Hooks",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "BSD 2-Clause \"Simplified\" License",
-    "name": "taskwarrior-hooks",
-    "owner": [
-      "sstallion"
-    ],
-    "rating": 1,
-    "updated": "2021-10-19",
-    "url": "https://github.com/sstallion/taskwarrior-hooks"
-  },
-  {
     "description": "A repo for all of my TaskWarrior scripts",
     "dormant": true,
     "language": [
@@ -11967,7 +11952,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 791,
+    "rating": 790,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12267,7 +12252,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 447,
+    "rating": 449,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
