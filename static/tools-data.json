@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 57,
-    "updated": "2024-01-29",
+    "rating": 59,
+    "updated": "2024-01-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -672,7 +672,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 148,
+    "rating": 149,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1047,7 +1047,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 136,
+    "rating": 137,
     "updated": "2024-01-02",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1827,7 +1827,7 @@
     "owner": [
       "Pete-Hamlin"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-01-16",
     "url": "https://github.com/Pete-Hamlin/gtd-rust-taskwarrior"
   },
@@ -3477,8 +3477,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 329,
-    "updated": "2024-01-29",
+    "rating": 330,
+    "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -4047,7 +4047,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2024-01-05",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -5192,6 +5192,21 @@
     "url": "https://github.com/edufarest/task2gcal"
   },
   {
+    "description": "A Taskwarrior client for iOS. Used to synchronize your tasks between your phone and your laptop/desktop.",
+    "dormant": true,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskwarrior-ios-client",
+    "owner": [
+      "eliasdemnati"
+    ],
+    "rating": 0,
+    "updated": "2018-06-24",
+    "url": "https://github.com/eliasdemnati/taskwarrior-ios-client"
+  },
+  {
     "description": "A Taskwarrior Theme without annoying stuff.",
     "dormant": true,
     "language": [
@@ -5743,7 +5758,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-01-08",
+    "updated": "2024-01-31",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7332,7 +7347,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1250,
+    "rating": 1251,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8578,7 +8593,7 @@
       "matthiasbeyer"
     ],
     "rating": 9,
-    "updated": "2024-01-01",
+    "updated": "2024-02-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -8592,8 +8607,8 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 13,
-    "updated": "2024-01-29",
+    "rating": 14,
+    "updated": "2024-01-31",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9133,7 +9148,7 @@
       "mrusme"
     ],
     "rating": 52,
-    "updated": "2024-01-29",
+    "updated": "2024-01-31",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9852,7 +9867,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -10557,7 +10572,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 48,
+    "rating": 50,
     "updated": "2023-12-14",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
