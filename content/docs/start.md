@@ -38,7 +38,6 @@ Five good reasons to use Taskwarrior
    - There is [DOM](/docs/dom) access and a [Hook script API](/docs/hooks)
    - There are many available free and open [extension scripts](/tools)
    - There is [Vit](https://gothenburgbitfactory.org/projects/vit), a curses-based UI
-   - There is [Inthe.AM](https://inthe.am/about), a free online sync service, web UI and iOS client
    - There is [BugWarrior](https://github.com/ralphbean/bugwarrior), so you can import your bug issues from a dozen different bug systems
 
 5. Taskwarrior is an active, vibrant project.
