@@ -4278,7 +4278,7 @@
   },
   {
     "description": "Access your Taskwarrior tasks from any browser anywhere",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
