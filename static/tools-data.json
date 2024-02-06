@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 59,
-    "updated": "2024-02-01",
+    "rating": 60,
+    "updated": "2024-02-04",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -690,6 +690,21 @@
     "rating": 0,
     "updated": "2023-02-23",
     "url": "https://github.com/DanielUrn/taskServer"
+  },
+  {
+    "description": "A functional yet elegant taskwarrior TUI",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "tasksmith",
+    "owner": [
+      "DarkKronicle"
+    ],
+    "rating": 1,
+    "updated": "2024-02-03",
+    "url": "https://github.com/DarkKronicle/tasksmith"
   },
   {
     "description": "a php lib for taskwarrior",
@@ -1033,7 +1048,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 707,
-    "updated": "2024-02-02",
+    "updated": "2024-02-05",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1918,7 +1933,7 @@
       "RafaelPalomar"
     ],
     "rating": 0,
-    "updated": "2024-01-22",
+    "updated": "2024-02-05",
     "url": "https://github.com/RafaelPalomar/taskwarrior-portable"
   },
   {
@@ -2592,7 +2607,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 62,
+    "rating": 63,
     "updated": "2024-01-26",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -2730,6 +2745,21 @@
     "rating": 0,
     "updated": "2015-01-26",
     "url": "https://github.com/abesto/taskproxy"
+  },
+  {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "abhishekmaheshwari"
+    ],
+    "rating": 0,
+    "updated": "2024-02-06",
+    "url": "https://github.com/abhishekmaheshwari/taskserver"
   },
   {
     "description": null,
@@ -3477,7 +3507,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 331,
+    "rating": 332,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3597,7 +3627,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 234,
+    "rating": 235,
     "updated": "2024-01-21",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4032,7 +4062,7 @@
     "owner": [
       "charles-e"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2021-04-06",
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
@@ -4167,7 +4197,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 132,
+    "rating": 133,
     "updated": "2023-10-25",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -4278,7 +4308,7 @@
   },
   {
     "description": "Access your Taskwarrior tasks from any browser anywhere",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -5192,21 +5222,6 @@
     "url": "https://github.com/edufarest/task2gcal"
   },
   {
-    "description": "A Taskwarrior client for iOS. Used to synchronize your tasks between your phone and your laptop/desktop.",
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskwarrior-ios-client",
-    "owner": [
-      "eliasdemnati"
-    ],
-    "rating": 0,
-    "updated": "2018-06-24",
-    "url": "https://github.com/eliasdemnati/taskwarrior-ios-client"
-  },
-  {
     "description": "A Taskwarrior Theme without annoying stuff.",
     "dormant": true,
     "language": [
@@ -6072,7 +6087,7 @@
     "owner": [
       "hashref"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-08-10",
     "url": "https://github.com/hashref/rectasks"
   },
@@ -7347,7 +7362,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1253,
+    "rating": 1259,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8323,7 +8338,7 @@
       "lvhungdev"
     ],
     "rating": 0,
-    "updated": "2024-02-02",
+    "updated": "2024-02-05",
     "url": "https://github.com/lvhungdev/task_rust"
   },
   {
@@ -8608,7 +8623,7 @@
       "maxjoehnk"
     ],
     "rating": 14,
-    "updated": "2024-01-31",
+    "updated": "2024-02-06",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8683,7 +8698,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2023-12-30",
+    "updated": "2024-02-05",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9148,7 +9163,7 @@
       "mrusme"
     ],
     "rating": 52,
-    "updated": "2024-02-02",
+    "updated": "2024-02-04",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -11967,7 +11982,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 790,
+    "rating": 791,
     "updated": "2023-08-28",
     "url": "https://github.com/tools-life/taskwiki"
   },
