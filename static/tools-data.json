@@ -2748,21 +2748,6 @@
   },
   {
     "description": null,
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "abhishekmaheshwari"
-    ],
-    "rating": 0,
-    "updated": "2024-02-06",
-    "url": "https://github.com/abhishekmaheshwari/taskserver"
-  },
-  {
-    "description": null,
     "dormant": true,
     "language": [
       "JavaScript"
@@ -3507,7 +3492,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 332,
+    "rating": 333,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4993,7 +4978,7 @@
       "dmyna"
     ],
     "rating": 0,
-    "updated": "2024-01-28",
+    "updated": "2024-02-06",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7362,7 +7347,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1259,
+    "rating": 1260,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8338,7 +8323,7 @@
       "lvhungdev"
     ],
     "rating": 0,
-    "updated": "2024-02-05",
+    "updated": "2024-02-07",
     "url": "https://github.com/lvhungdev/task_rust"
   },
   {
@@ -9163,7 +9148,7 @@
       "mrusme"
     ],
     "rating": 52,
-    "updated": "2024-02-04",
+    "updated": "2024-02-06",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10633,7 +10618,7 @@
       "rmonico"
     ],
     "rating": 5,
-    "updated": "2022-12-27",
+    "updated": "2024-02-06",
     "url": "https://github.com/rmonico/itask"
   },
   {
@@ -11983,7 +11968,7 @@
       "tools-life"
     ],
     "rating": 791,
-    "updated": "2023-08-28",
+    "updated": "2024-02-06",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
