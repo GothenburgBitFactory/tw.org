@@ -17,7 +17,7 @@ _Before_ installing Taskwarrior 3, export all of your tasks:
 task export > all-tasks.json
 ```
 
-Then, install Taskwarrior 2 and re-import your tasks:
+Then, install Taskwarrior 3 and re-import your tasks:
 
 ```shell
 task import all-tasks.json
@@ -31,7 +31,7 @@ If you'd like, you may delete the `*.data` files in that directory, as they are 
 ## Upgrading Sync
 
 Taskwarrior 2 used `taskd` as a server for its synchronization.
-Taskwarrior 3 has a completely new sync implementatoin, and does not interface with `taskd`.
+Taskwarrior 3 has a completely new sync implementation, and does not interface with `taskd`.
 If you have been sync'ing tasks, you will need to adopt a new approach.
 
 The recommended solution as of Taskwarrior 3.0 is to use a cloud-storage backend.
