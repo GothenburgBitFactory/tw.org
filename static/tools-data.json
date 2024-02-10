@@ -177,7 +177,7 @@
     "owner": [
       "ABeehive"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2020-08-03",
     "url": "https://github.com/ABeehive/TaskWarrior-recur-with-until"
   },
@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 60,
-    "updated": "2024-02-07",
+    "updated": "2024-02-09",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -672,7 +672,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 151,
+    "rating": 152,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -703,7 +703,7 @@
       "DarkKronicle"
     ],
     "rating": 1,
-    "updated": "2024-02-03",
+    "updated": "2024-02-09",
     "url": "https://github.com/DarkKronicle/tasksmith"
   },
   {
@@ -1047,7 +1047,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 707,
+    "rating": 706,
     "updated": "2024-02-05",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1482,7 +1482,7 @@
     "owner": [
       "LanHikari22"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-12-26",
     "url": "https://github.com/LanHikari22/TTM"
   },
@@ -1743,7 +1743,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3612,7 +3612,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 235,
+    "rating": 236,
     "updated": "2024-01-21",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4182,7 +4182,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 133,
+    "rating": 134,
     "updated": "2023-10-25",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -5517,7 +5517,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 146,
+    "rating": 147,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -5892,7 +5892,7 @@
     "owner": [
       "gorrioncillo"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-02-28",
     "url": "https://github.com/gorrioncillo/TaskwarriorHolidaysGcalendar"
   },
@@ -6447,7 +6447,7 @@
     "owner": [
       "j-jith"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2023-08-04",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
@@ -7347,7 +7347,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1261,
+    "rating": 1265,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -7725,21 +7725,6 @@
     "rating": 0,
     "updated": "2022-07-28",
     "url": "https://github.com/kylape/taskserver"
-  },
-  {
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskserverfinal",
-    "owner": [
-      "kylemod"
-    ],
-    "rating": 0,
-    "updated": "2023-12-17",
-    "url": "https://github.com/kylemod/taskserverfinal"
   },
   {
     "description": "My minimalistic hack for sending taskwarrior task reminders.",
@@ -8593,7 +8578,7 @@
       "maxjoehnk"
     ],
     "rating": 14,
-    "updated": "2024-02-06",
+    "updated": "2024-02-10",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -8668,7 +8653,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2024-02-05",
+    "updated": "2024-02-09",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -10557,7 +10542,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 51,
+    "rating": 52,
     "updated": "2023-12-14",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
