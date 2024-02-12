@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 60,
-    "updated": "2024-02-09",
+    "rating": 62,
+    "updated": "2024-02-11",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -672,7 +672,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 152,
+    "rating": 153,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -703,7 +703,7 @@
       "DarkKronicle"
     ],
     "rating": 1,
-    "updated": "2024-02-09",
+    "updated": "2024-02-11",
     "url": "https://github.com/DarkKronicle/tasksmith"
   },
   {
@@ -1047,7 +1047,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 706,
+    "rating": 707,
     "updated": "2024-02-05",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1335,6 +1335,36 @@
     "rating": 14,
     "updated": "2017-07-18",
     "url": "https://github.com/JensErat/docker-taskd"
+  },
+  {
+    "description": "Markdown task notes for taskwarrior.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TaskNote",
+    "owner": [
+      "Jimmy2027"
+    ],
+    "rating": 0,
+    "updated": "2024-02-10",
+    "url": "https://github.com/Jimmy2027/TaskNote"
+  },
+  {
+    "description": "Taskwarrior integration for Github notifications",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "gh_taskw",
+    "owner": [
+      "Jimmy2027"
+    ],
+    "rating": 0,
+    "updated": "2024-02-10",
+    "url": "https://github.com/Jimmy2027/gh_taskw"
   },
   {
     "description": "Just for testing purpose",
@@ -3492,7 +3522,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 334,
+    "rating": 336,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3612,7 +3642,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 236,
+    "rating": 237,
     "updated": "2024-01-21",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4947,7 +4977,7 @@
     "owner": [
       "djotaku"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-11-23",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
@@ -8578,7 +8608,7 @@
       "maxjoehnk"
     ],
     "rating": 14,
-    "updated": "2024-02-10",
+    "updated": "2024-02-11",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9118,7 +9148,7 @@
       "mrusme"
     ],
     "rating": 52,
-    "updated": "2024-02-07",
+    "updated": "2024-02-11",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
