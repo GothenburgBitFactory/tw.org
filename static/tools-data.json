@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 63,
-    "updated": "2024-02-11",
+    "updated": "2024-02-13",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -703,7 +703,7 @@
       "DarkKronicle"
     ],
     "rating": 1,
-    "updated": "2024-02-12",
+    "updated": "2024-02-13",
     "url": "https://github.com/DarkKronicle/tasksmith"
   },
   {
@@ -1048,7 +1048,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 707,
-    "updated": "2024-02-12",
+    "updated": "2024-02-13",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1963,7 +1963,7 @@
       "RafaelPalomar"
     ],
     "rating": 0,
-    "updated": "2024-02-05",
+    "updated": "2024-02-13",
     "url": "https://github.com/RafaelPalomar/taskwarrior-portable"
   },
   {
@@ -3522,7 +3522,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 338,
+    "rating": 339,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4978,7 +4978,7 @@
       "djotaku"
     ],
     "rating": 1,
-    "updated": "2024-02-12",
+    "updated": "2024-02-14",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
   {
@@ -7377,7 +7377,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1265,
+    "rating": 1266,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11877,7 +11877,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 512,
+    "rating": 513,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
