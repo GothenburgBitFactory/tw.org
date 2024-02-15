@@ -42,6 +42,7 @@ layout: single
 
 ## Advanced Topics
 
+- [Upgrading to Taskwarrior 3](/docs/upgrade-3) {{< label >}}3.0.0{{< /label >}}
 - [Urgency](/docs/urgency)
 - [ID Numbers](/docs/ids)
 - [Context](/docs/context) {{< label >}}2.4.2{{< /label >}}
