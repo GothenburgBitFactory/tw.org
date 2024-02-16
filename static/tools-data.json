@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 63,
-    "updated": "2024-02-13",
+    "rating": 64,
+    "updated": "2024-02-15",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -703,7 +703,7 @@
       "DarkKronicle"
     ],
     "rating": 1,
-    "updated": "2024-02-13",
+    "updated": "2024-02-14",
     "url": "https://github.com/DarkKronicle/tasksmith"
   },
   {
@@ -1047,8 +1047,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 707,
-    "updated": "2024-02-13",
+    "rating": 708,
+    "updated": "2024-02-15",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1363,7 +1363,7 @@
       "Jimmy2027"
     ],
     "rating": 0,
-    "updated": "2024-02-10",
+    "updated": "2024-02-15",
     "url": "https://github.com/Jimmy2027/gh_taskw"
   },
   {
@@ -3747,7 +3747,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 512,
+    "rating": 513,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -4862,36 +4862,6 @@
     "url": "https://github.com/desbma/task-board"
   },
   {
-    "description": "Montu -- A Taskwarrior Manager",
-    "dormant": false,
-    "language": [
-      "Vue"
-    ],
-    "license": null,
-    "name": "Montu",
-    "owner": [
-      "dezmondfinney"
-    ],
-    "rating": 1,
-    "updated": "2023-01-04",
-    "url": "https://github.com/dezmondfinney/Montu"
-  },
-  {
-    "description": "Web GUI for Taskwarrior",
-    "dormant": true,
-    "language": [
-      "HTML"
-    ],
-    "license": null,
-    "name": "montu-sveltejs",
-    "owner": [
-      "dezmondfinney"
-    ],
-    "rating": 0,
-    "updated": "2020-06-17",
-    "url": "https://github.com/dezmondfinney/montu-sveltejs"
-  },
-  {
     "description": "An opinionated web interface for taskwarrior",
     "dormant": false,
     "language": [
@@ -4978,7 +4948,7 @@
       "djotaku"
     ],
     "rating": 1,
-    "updated": "2024-02-14",
+    "updated": "2024-02-16",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
   {
@@ -5008,7 +4978,7 @@
       "dmyna"
     ],
     "rating": 0,
-    "updated": "2024-02-06",
+    "updated": "2024-02-15",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -6378,7 +6348,7 @@
   },
   {
     "description": "An extension for taskwarrior to switch between task contexts with a specified schedule",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "C"
     ],
@@ -7377,7 +7347,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1266,
+    "rating": 1267,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8608,7 +8578,7 @@
       "maxjoehnk"
     ],
     "rating": 14,
-    "updated": "2024-02-11",
+    "updated": "2024-02-15",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9148,7 +9118,7 @@
       "mrusme"
     ],
     "rating": 52,
-    "updated": "2024-02-12",
+    "updated": "2024-02-14",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9975,6 +9945,21 @@
     "rating": 10,
     "updated": "2020-11-04",
     "url": "https://github.com/pauby/PSTodoWarrior"
+  },
+  {
+    "description": "Cli tool for taiga.io inspired by taskwarrior",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taiga-cli",
+    "owner": [
+      "paulchambaz"
+    ],
+    "rating": 0,
+    "updated": "2024-02-15",
+    "url": "https://github.com/paulchambaz/taiga-cli"
   },
   {
     "description": "Time management bot (wrapper around Taskwarrior)",
@@ -11982,7 +11967,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 791,
+    "rating": 790,
     "updated": "2024-02-06",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12282,7 +12267,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 450,
+    "rating": 451,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
@@ -12522,7 +12507,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2021-11-12",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
