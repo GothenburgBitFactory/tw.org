@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 64,
-    "updated": "2024-02-16",
+    "rating": 65,
+    "updated": "2024-02-20",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -703,7 +703,7 @@
       "DarkKronicle"
     ],
     "rating": 1,
-    "updated": "2024-02-16",
+    "updated": "2024-02-19",
     "url": "https://github.com/DarkKronicle/tasksmith"
   },
   {
@@ -1047,7 +1047,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 708,
+    "rating": 709,
     "updated": "2024-02-16",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3522,7 +3522,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 339,
+    "rating": 342,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3702,7 +3702,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 70,
+    "rating": 69,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -4092,7 +4092,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 67,
+    "rating": 68,
     "updated": "2024-01-05",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4332,7 +4332,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 588,
+    "rating": 587,
     "updated": "2024-01-03",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -4392,7 +4392,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 283,
+    "rating": 282,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -4948,7 +4948,7 @@
       "djotaku"
     ],
     "rating": 1,
-    "updated": "2024-02-16",
+    "updated": "2024-02-20",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
   {
@@ -6012,7 +6012,7 @@
     "owner": [
       "hamlinux"
     ],
-    "rating": 8,
+    "rating": 7,
     "updated": "2021-08-23",
     "url": "https://github.com/hamlinux/taskwarrior-GTD"
   },
@@ -7137,7 +7137,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 332,
+    "rating": 333,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -7197,7 +7197,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -7347,7 +7347,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1269,
+    "rating": 1271,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9117,7 +9117,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2024-02-14",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -10572,7 +10572,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2023-12-14",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -10618,7 +10618,7 @@
       "rmonico"
     ],
     "rating": 5,
-    "updated": "2024-02-06",
+    "updated": "2024-02-20",
     "url": "https://github.com/rmonico/itask"
   },
   {
@@ -11172,7 +11172,7 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 14,
+    "rating": 13,
     "updated": "2022-09-11",
     "url": "https://github.com/skbolton/neorg-taskwarrior"
   },
@@ -11967,7 +11967,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 790,
+    "rating": 792,
     "updated": "2024-02-06",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12267,7 +12267,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 451,
+    "rating": 450,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
