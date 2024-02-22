@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 65,
-    "updated": "2024-02-20",
+    "updated": "2024-02-21",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -672,7 +672,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 154,
+    "rating": 155,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1078,7 +1078,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 6,
-    "updated": "2023-06-29",
+    "updated": "2024-02-21",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -1093,7 +1093,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2023-06-29",
+    "updated": "2024-02-21",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -3522,7 +3522,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 342,
+    "rating": 343,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4993,7 +4993,7 @@
       "dnaaun"
     ],
     "rating": 1,
-    "updated": "2024-02-12",
+    "updated": "2024-02-21",
     "url": "https://github.com/dnaaun/dotfiles"
   },
   {
@@ -6000,6 +6000,21 @@
     "rating": 0,
     "updated": "2022-08-06",
     "url": "https://github.com/h2magic-axious/TaskServer"
+  },
+  {
+    "description": "A task manager based on taskwarrior",
+    "dormant": true,
+    "language": [
+      "Rust"
+    ],
+    "license": "Other",
+    "name": "toodoux",
+    "owner": [
+      "hadronized"
+    ],
+    "rating": 50,
+    "updated": "2021-07-31",
+    "url": "https://github.com/hadronized/toodoux"
   },
   {
     "description": "A taskwarrior framework to follow the GTD methodology based off of CS Syd's blogposts",
@@ -8653,7 +8668,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2024-02-09",
+    "updated": "2024-02-21",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -9958,7 +9973,7 @@
       "paulchambaz"
     ],
     "rating": 0,
-    "updated": "2024-02-16",
+    "updated": "2024-02-21",
     "url": "https://github.com/paulchambaz/taiga-cli"
   },
   {
@@ -10543,7 +10558,7 @@
       "remllezrovert"
     ],
     "rating": 0,
-    "updated": "2024-01-29",
+    "updated": "2024-02-21",
     "url": "https://github.com/remllezrovert/LibreGainz"
   },
   {
@@ -10618,7 +10633,7 @@
       "rmonico"
     ],
     "rating": 5,
-    "updated": "2024-02-20",
+    "updated": "2024-02-21",
     "url": "https://github.com/rmonico/itask"
   },
   {
@@ -11623,7 +11638,7 @@
       "szaffarano"
     ],
     "rating": 9,
-    "updated": "2024-01-24",
+    "updated": "2024-02-21",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
