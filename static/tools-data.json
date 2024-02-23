@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 65,
-    "updated": "2024-02-21",
+    "rating": 66,
+    "updated": "2024-02-22",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1048,7 +1048,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 709,
-    "updated": "2024-02-16",
+    "updated": "2024-02-22",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -5162,6 +5162,21 @@
     "url": "https://github.com/dzintars/taskwarrior.nvim"
   },
   {
+    "description": "An obsidian plugin that implements a basic taskwarrior UI for listing and modifying tasks.",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "ego-rock",
+    "owner": [
+      "echo-bravo-yahoo"
+    ],
+    "rating": 0,
+    "updated": "2024-02-22",
+    "url": "https://github.com/echo-bravo-yahoo/ego-rock"
+  },
+  {
     "description": "Notmuch interaction with taskwarrior in emacs",
     "dormant": false,
     "language": [
@@ -7362,7 +7377,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1271,
+    "rating": 1272,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8593,7 +8608,7 @@
       "maxjoehnk"
     ],
     "rating": 14,
-    "updated": "2024-02-15",
+    "updated": "2024-02-23",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9133,7 +9148,7 @@
       "mrusme"
     ],
     "rating": 53,
-    "updated": "2024-02-14",
+    "updated": "2024-02-22",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
