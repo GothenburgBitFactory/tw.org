@@ -348,7 +348,7 @@
   },
   {
     "description": "TaskWarrior Google Calendar Sync",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 66,
-    "updated": "2024-02-22",
+    "rating": 68,
+    "updated": "2024-02-25",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1047,7 +1047,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 709,
+    "rating": 710,
     "updated": "2024-02-22",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1078,7 +1078,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 6,
-    "updated": "2024-02-21",
+    "updated": "2024-02-23",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -1093,7 +1093,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2024-02-21",
+    "updated": "2024-02-23",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -1363,7 +1363,7 @@
       "Jimmy2027"
     ],
     "rating": 0,
-    "updated": "2024-02-15",
+    "updated": "2024-02-25",
     "url": "https://github.com/Jimmy2027/gh_taskw"
   },
   {
@@ -1392,7 +1392,7 @@
     "owner": [
       "JoergPalmer"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2019-02-04",
     "url": "https://github.com/JoergPalmer/taskwarrior-button"
   },
@@ -3522,7 +3522,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 343,
+    "rating": 345,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4092,7 +4092,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2024-01-05",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4332,7 +4332,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 587,
+    "rating": 588,
     "updated": "2024-01-03",
     "url": "https://github.com/coddingtonbear/inthe.am"
   },
@@ -7377,7 +7377,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1272,
+    "rating": 1273,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9148,7 +9148,7 @@
       "mrusme"
     ],
     "rating": 53,
-    "updated": "2024-02-22",
+    "updated": "2024-02-25",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -9867,7 +9867,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -10152,7 +10152,7 @@
     "owner": [
       "pi3ch"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2013-04-02",
     "url": "https://github.com/pi3ch/tb2taskwarrior"
   },
@@ -10512,7 +10512,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 172,
+    "rating": 173,
     "updated": "2023-11-20",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -10573,7 +10573,7 @@
       "remllezrovert"
     ],
     "rating": 0,
-    "updated": "2024-02-21",
+    "updated": "2024-02-25",
     "url": "https://github.com/remllezrovert/LibreGainz"
   },
   {
@@ -12297,7 +12297,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 450,
+    "rating": 451,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
