@@ -522,7 +522,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2024-02-25",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -672,7 +672,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 155,
+    "rating": 157,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1047,7 +1047,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 710,
+    "rating": 709,
     "updated": "2024-02-22",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3522,7 +3522,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 345,
+    "rating": 346,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3537,7 +3537,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-01-29",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
@@ -4888,7 +4888,7 @@
       "dghaehre"
     ],
     "rating": 2,
-    "updated": "2023-11-14",
+    "updated": "2024-02-27",
     "url": "https://github.com/dghaehre/taskwarriorweb"
   },
   {
@@ -7377,7 +7377,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1273,
+    "rating": 1276,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9807,7 +9807,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 76,
+    "rating": 77,
     "updated": "2024-02-01",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -10573,7 +10573,7 @@
       "remllezrovert"
     ],
     "rating": 0,
-    "updated": "2024-02-25",
+    "updated": "2024-02-27",
     "url": "https://github.com/remllezrovert/LibreGainz"
   },
   {
@@ -11997,7 +11997,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 792,
+    "rating": 793,
     "updated": "2024-02-06",
     "url": "https://github.com/tools-life/taskwiki"
   },
