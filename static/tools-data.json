@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 69,
-    "updated": "2024-02-25",
+    "updated": "2024-02-28",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -3642,7 +3642,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 237,
+    "rating": 238,
     "updated": "2024-01-21",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -4888,7 +4888,7 @@
       "dghaehre"
     ],
     "rating": 2,
-    "updated": "2024-02-27",
+    "updated": "2024-02-28",
     "url": "https://github.com/dghaehre/taskwarriorweb"
   },
   {
@@ -4977,7 +4977,7 @@
     "owner": [
       "dmyna"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-02-15",
     "url": "https://github.com/dmyna/fypm"
   },
@@ -5173,7 +5173,7 @@
       "echo-bravo-yahoo"
     ],
     "rating": 0,
-    "updated": "2024-02-22",
+    "updated": "2024-02-28",
     "url": "https://github.com/echo-bravo-yahoo/ego-rock"
   },
   {
@@ -8608,7 +8608,7 @@
       "maxjoehnk"
     ],
     "rating": 14,
-    "updated": "2024-02-23",
+    "updated": "2024-02-28",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10262,6 +10262,21 @@
     "url": "https://github.com/pouryash/TaskServer"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "prasanthmaran1"
+    ],
+    "rating": 0,
+    "updated": "2024-02-28",
+    "url": "https://github.com/prasanthmaran1/taskserver"
+  },
+  {
     "description": "Typescript utility that displays currently active taskwarrior task in i3status bar.",
     "dormant": true,
     "language": [
@@ -10602,7 +10617,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 54,
+    "rating": 56,
     "updated": "2023-12-14",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
