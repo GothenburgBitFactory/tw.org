@@ -523,7 +523,7 @@
       "CCExtractor"
     ],
     "rating": 69,
-    "updated": "2024-02-28",
+    "updated": "2024-02-29",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -3522,7 +3522,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 346,
+    "rating": 345,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -3747,7 +3747,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 513,
+    "rating": 512,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5172,7 +5172,7 @@
     "owner": [
       "echo-bravo-yahoo"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-02-28",
     "url": "https://github.com/echo-bravo-yahoo/ego-rock"
   },
@@ -5898,7 +5898,7 @@
   },
   {
     "description": "taskwarrior holidays from goggle calendars",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -8593,7 +8593,7 @@
       "matthiasbeyer"
     ],
     "rating": 9,
-    "updated": "2024-02-01",
+    "updated": "2024-03-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -9147,7 +9147,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2024-02-25",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -12012,8 +12012,8 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 793,
-    "updated": "2024-02-06",
+    "rating": 795,
+    "updated": "2024-02-29",
     "url": "https://github.com/tools-life/taskwiki"
   },
   {
