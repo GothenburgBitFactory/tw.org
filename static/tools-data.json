@@ -522,8 +522,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 69,
-    "updated": "2024-02-29",
+    "rating": 71,
+    "updated": "2024-03-01",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -672,7 +672,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 157,
+    "rating": 158,
     "updated": "2023-10-12",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1047,7 +1047,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 709,
+    "rating": 708,
     "updated": "2024-02-22",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1062,7 +1062,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 138,
+    "rating": 139,
     "updated": "2024-01-02",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -3522,7 +3522,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 345,
+    "rating": 346,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4077,7 +4077,7 @@
     "owner": [
       "charles-e"
     ],
-    "rating": 9,
+    "rating": 8,
     "updated": "2021-04-06",
     "url": "https://github.com/charles-e/obsidian-taskwarsync-plugin"
   },
@@ -4888,7 +4888,7 @@
       "dghaehre"
     ],
     "rating": 2,
-    "updated": "2024-02-28",
+    "updated": "2024-03-01",
     "url": "https://github.com/dghaehre/taskwarriorweb"
   },
   {
@@ -7377,7 +7377,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1276,
+    "rating": 1274,
     "updated": "2024-01-16",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8608,7 +8608,7 @@
       "maxjoehnk"
     ],
     "rating": 14,
-    "updated": "2024-02-28",
+    "updated": "2024-03-01",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9148,7 +9148,7 @@
       "mrusme"
     ],
     "rating": 54,
-    "updated": "2024-02-25",
+    "updated": "2024-03-01",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10588,7 +10588,7 @@
       "remllezrovert"
     ],
     "rating": 0,
-    "updated": "2024-02-27",
+    "updated": "2024-03-01",
     "url": "https://github.com/remllezrovert/LibreGainz"
   },
   {
@@ -12012,7 +12012,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 795,
+    "rating": 796,
     "updated": "2024-02-29",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12312,7 +12312,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 451,
+    "rating": 452,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
