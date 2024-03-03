@@ -1048,7 +1048,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 708,
-    "updated": "2024-02-22",
+    "updated": "2024-03-02",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -3702,7 +3702,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 69,
+    "rating": 70,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -4948,7 +4948,7 @@
       "djotaku"
     ],
     "rating": 1,
-    "updated": "2024-02-20",
+    "updated": "2024-03-02",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
   {
@@ -8608,7 +8608,7 @@
       "maxjoehnk"
     ],
     "rating": 14,
-    "updated": "2024-03-01",
+    "updated": "2024-03-02",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10248,7 +10248,7 @@
   },
   {
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Kotlin"
     ],
