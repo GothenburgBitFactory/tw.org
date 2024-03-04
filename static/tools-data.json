@@ -1363,7 +1363,7 @@
       "Jimmy2027"
     ],
     "rating": 0,
-    "updated": "2024-02-25",
+    "updated": "2024-03-03",
     "url": "https://github.com/Jimmy2027/gh_taskw"
   },
   {
@@ -1918,7 +1918,7 @@
       "Psyhackological"
     ],
     "rating": 0,
-    "updated": "2023-11-24",
+    "updated": "2024-03-03",
     "url": "https://github.com/Psyhackological/dotfiles"
   },
   {
@@ -3287,6 +3287,21 @@
     "url": "https://github.com/artur-shaik/mutt2task"
   },
   {
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "asdf-taskwarrior",
+    "owner": [
+      "arubertoson"
+    ],
+    "rating": 0,
+    "updated": "2024-03-03",
+    "url": "https://github.com/arubertoson/asdf-taskwarrior"
+  },
+  {
     "description": "TaskMonad: xmonad + taskwarrior",
     "dormant": true,
     "language": [
@@ -3522,7 +3537,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 346,
+    "rating": 347,
     "updated": "2024-01-30",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4888,7 +4903,7 @@
       "dghaehre"
     ],
     "rating": 2,
-    "updated": "2024-03-01",
+    "updated": "2024-03-03",
     "url": "https://github.com/dghaehre/taskwarriorweb"
   },
   {
@@ -7167,7 +7182,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 333,
+    "rating": 335,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -10588,7 +10603,7 @@
       "remllezrovert"
     ],
     "rating": 0,
-    "updated": "2024-03-01",
+    "updated": "2024-03-03",
     "url": "https://github.com/remllezrovert/LibreGainz"
   },
   {
