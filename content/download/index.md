@@ -8,15 +8,10 @@ title: "Taskwarrior - What's next?"
 
 ## Latest stable release
 
-**taskwarrior 2.6.2** (Released 2022-03-16):
-[task-2.6.2.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v2.6.2/task-2.6.2.tar.gz)  
-SHA3 92e547ac6bb88659e674877a19cb88dc9687be2ab989f0279b04f286  
+**taskwarrior 3.0.0** (Released 2024-03-24):
+[task-3.0.0.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.0.0/task-3.0.0.tar.gz)  
+SHA256 30f397081044f5dc2e5a0ba51609223011a23281cd9947ea718df98d149fcc83  
 [Changelog](https://github.com/GothenburgBitFactory/taskwarrior/blob/stable/ChangeLog)
-
-**taskd server 1.1.0** (Released 2015-05-10):
-[taskd-1.1.0.tar.gz](https://github.com/GothenburgBitFactory/taskserver/releases/download/v1.1.0/taskd-1.1.0.tar.gz)  
-SHA1 ded339deeee65277e4712f71a9159502f8b20b52  
-[Changelog](https://github.com/GothenburgBitFactory/taskserver/blob/master/ChangeLog)
 
 Command reference taskwarrior 2.5.3:
 [task-2.5.3.ref.pdf](/download/task-2.5.3.ref.pdf)
@@ -30,9 +25,9 @@ This transcript illustrates a typical installation:
 
 ```
 $ ls
-task-2.6.2.tar.gz
-$ tar xzvf task-2.6.2.tar.gz
-$ cd task-2.6.2
+task-3.0.0.tar.gz
+$ tar xzvf task-3.0.0.tar.gz
+$ cd task-3.0.0
 $ cmake -DCMAKE_BUILD_TYPE=release .
 ...
 $ make
