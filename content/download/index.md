@@ -8,9 +8,9 @@ title: "Taskwarrior - What's next?"
 
 ## Latest stable release
 
-**taskwarrior 3.0.0** (Released 2024-03-24):
-[task-3.0.0.tar.gz](https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.0.0/task-3.0.0.tar.gz)  
-SHA256 30f397081044f5dc2e5a0ba51609223011a23281cd9947ea718df98d149fcc83  
+**Taskwarrior {{< current_release "version" >}}** (Released {{< current_release "date" >}}):
+[task-{{< current_release "version" >}}.tar.gz]({{< current_release "url" >}})  
+SHA256 {{< current_release "sha256" >}}  
 [Changelog](https://github.com/GothenburgBitFactory/taskwarrior/blob/stable/ChangeLog)
 
 Command reference taskwarrior 2.5.3:
@@ -25,9 +25,9 @@ This transcript illustrates a typical installation:
 
 ```
 $ ls
-task-3.0.0.tar.gz
-$ tar xzvf task-3.0.0.tar.gz
-$ cd task-3.0.0
+task-{{< current_release "version" >}}.tar.gz
+$ tar xzvf task-{{< current_release "version" >}}.tar.gz
+$ cd task-{{< current_release "version" >}}
 $ cmake -DCMAKE_BUILD_TYPE=release .
 ...
 $ make
