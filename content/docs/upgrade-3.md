@@ -27,7 +27,9 @@ task import rc.hooks=0 all-tasks.json
 ### Task Storage
 
 Your tasks are now stored in `taskchampion.sqlite3` in your task directory.
-If you'd like, you may delete the `*.data` files in that directory, as they are no longer used.
+
+You may back up or remove the `*.data` files in that directory, as they are no longer used.
+Taskwarrior will issue a warning on every run as long as the `*.data` files still exist.
 
 ## Upgrading Sync
 
