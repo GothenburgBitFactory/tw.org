@@ -76,7 +76,7 @@ $ ./problems         # Find errors in all.log
 Talk to us first - make sure you are working on something that is wanted.
 Patches will not be applied simply because you did the work.
 Remember the various forms of documentation involved, and the test suite.
-Work on the dev branch, not `master`.
+Work on the `develop` branch.
 When you are ready to submit, do this:
 
 ```
