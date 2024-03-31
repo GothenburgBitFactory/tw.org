@@ -17,10 +17,11 @@ _Before_ installing Taskwarrior 3, export all of your tasks:
 task export > all-tasks.json
 ```
 
-Then, install Taskwarrior 3 and re-import your tasks:
+Then, install Taskwarrior 3 and re-import your tasks.
+Taskwarrior hooks run during import, so disable them during this invocation with `rc.hooks=0`:
 
 ```shell
-task import all-tasks.json
+task import rc.hooks=0 all-tasks.json
 ```
 
 ### Task Storage
