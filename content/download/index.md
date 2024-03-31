@@ -71,10 +71,10 @@ You will need [git](https://git-scm.com) installed.
 
 ### Disclaimer:
 
-The `master` branch represents the latest stable release.
+The `stable` branch represents the latest stable release.
 
 All other branches are development branches, and are works in progress and may not pass all quality tests, therefore may harm your data.
-While we welcome bug reports from the development branch, we do not guarantee proper or timely fixes.
+While we welcome bug reports from the `develop` branch, we do not guarantee proper or timely fixes.
 
 - Broken functionality may arise from ongoing development work
 - Make proper backups
