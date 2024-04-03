@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-import datetime
+from datetime import datetime, timezone
 import json
 import os
 import sys
@@ -153,7 +153,7 @@ def is_dormant(pushed_at):
     """
     A repo is considered dormant after 3 years of inactivity
     """
-    elapsed = datetime.datetime.now() - pushed_at
+    elapsed = datetime.now(timezone.utc) - pushed_at
     return elapsed.days > DAYS_DORMANT
 
 
