@@ -3,8 +3,9 @@
  */
 
 function Tool(data) {
+    this.archived = data.archived;
     this.description = data.description;
-    this.dormant = data.dormant;
+    this.dormant = data.dormant && !data.archived;
     this.language = data.language;
     this.license = data.license;
     this.name = data.name;
@@ -53,6 +54,7 @@ function ToolsViewModel() {
     });
 
     self.excludeDormant = ko.observable(false);
+    self.includeArchived = ko.observable(false);
 
     // The Language selector
     self.LanguagesSelected = ko.observableArray();
@@ -94,7 +96,7 @@ function ToolsViewModel() {
                             || (tool.description && tool.description.toLowerCase().indexOf(self.query().toLowerCase()) > -1)
                             || (tool.license && tool.license.toLowerCase().indexOf( self.query().toLowerCase() ) > -1)
                             || (tool.owner && tool.owner.join().toLowerCase().indexOf( self.query().toLowerCase() ) > -1);
-                    return (!tool.dormant || !self.excludeDormant()) && isLanguageIn && isOwnerIn && isQuery;
+                    return (!tool.archived || self.includeArchived()) && (!tool.dormant || !self.excludeDormant()) && isLanguageIn && isOwnerIn && isQuery;
                 } ).sort(sort_by_rating_and_name);
         }
     );

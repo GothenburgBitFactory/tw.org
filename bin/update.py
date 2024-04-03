@@ -123,6 +123,7 @@ def from_github_repo(repo):
     """
     Convert repo object from GitHub v3 API to our own format
 
+    archived:    flag indicating whether the tool repository has been archived
     description: description of the tool
     dormant:     flag indicating whether the tool is deemed dormant or not
     language:    language the tool is written in
@@ -134,8 +135,9 @@ def from_github_repo(repo):
     url:         url of the tool's repository
     """
     data = {
+        "archived": repo.archived,
         "description": repo.description,
-        "dormant": is_dormant(repo.pushed_at) or repo.archived,
+        "dormant": is_dormant(repo.pushed_at),
         "language": [repo.language if repo.language is not None else "N/A"],
         # Oddly the `license` isn't exposed by the library and would normally require an additional request.
         "license": repo._rawData["license"]["name"] if repo._rawData["license"] else None,

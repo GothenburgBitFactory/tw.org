@@ -28,7 +28,22 @@
                   <span class="tooltip">
                     <em class="bi bi-moon-stars"></em>
                     <span class="tooltip-text">
-                      Projects are considered 'dormant' if their last update was more than 3 years ago, or if the repository has been archived.
+                      A project is considered 'dormant' if its last update was more than 3 years ago.
+                    </span>
+                  </span>
+                </small>
+              </label>
+            </div>
+            <div class="checkbox">
+              <label>
+                <input type="checkbox" data-bind="checked: includeArchived"/>
+                <small>
+                  Include archived projects&ensp;
+                  <span class="tooltip">
+                    <em class="bi bi-archive"></em>
+                    <span class="tooltip-text">
+                      Include tools whose repository has been archived by their owner.
+                      Note that those are no longer maintained!
                     </span>
                   </span>
                 </small>
@@ -98,7 +113,11 @@
                 <strong><a title="Project" data-bind="text: name, attr:{ href: url }"></a></strong>&ensp;
                 <span data-bind="visible: dormant" class="tooltip">
                   <em class="bi bi-moon-stars"></em>
-                  <span class="tooltip-text">This project is dormant</span>
+                  <span class="tooltip-text">project is dormant</span>
+                </span>
+                <span data-bind="visible: archived" class="tooltip">
+                  <em class="bi bi-archive"></em>
+                  <span class="tooltip-text">project has been archived</span>
                 </span><br>
                 <span data-bind="visible: owner.length > 0"><small>by <em title="Owners" data-bind="text: owner.join(', ')"></em></small></span>
               </p>
