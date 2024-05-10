@@ -61,6 +61,22 @@
       "rating": null,
       "updated": "2023-11-16",
       "url": "https://chat.openai.com/g/g-vHnl2dh7J-taskwarriorgpt"
+    },
+    {
+      "archived": false,
+      "description": "Painless chained recurrence for Taskwarrior.",
+      "dormant": false,
+      "language": [
+        "Python"
+      ],
+      "license": "ISC License",
+      "name": "Taskwarrior-Chained",
+      "owner": [
+        "Matt-Deacalion"
+      ],
+      "rating": 1,
+      "updated": "2023-08-26",
+      "url": "https://codeberg.org/Dokana/Taskwarrior-Chained"
     }
   ]
 }
