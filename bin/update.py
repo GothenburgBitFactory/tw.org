@@ -86,15 +86,18 @@ def search_github(names, keywords):
         log_debug("Querying GitHub for repository '{}'", name)
         results.append(from_github_repo(client.get_repo(name)))
 
+    total = 0
     log_debug("Processing {} keywords", len(keywords))
     for keyword in keywords:
         for qualifier in ["topic", "name,description"]:
             log_info("Querying GitHub for repositories with keyword '{}' in '{}'...", keyword, qualifier)
             repos = client.search_repositories(keyword, **{"in": f"{qualifier}"})
 
+            log_debug("Found {} repositories", repos.totalCount)
+            total += repos.totalCount
             for repo in repos:
                 results.append(from_github_repo(repo))
-                log_debug("Adding '{}' as {}", repo.html_url, len(results))
+                log_debug("Adding '{}' as {}/{}", repo.html_url, len(results), total)
 
                 sleep_period = calculate_sleep(repo.raw_headers)
 
@@ -156,8 +159,9 @@ def calculate_sleep(headers):
               max_requests)
 
     current_time = time.time()
+    log_trace("Now is {}", current_time)
     diff = reset_time - current_time if reset_time > current_time else 0
-    log_trace("{:.3f} s until rate limit reset ({})", diff, reset_time)
+    log_trace("{}: {:.3f} s until rate limit reset ({})",resource_name, diff, reset_time)
     sleep_period = diff / remaining_requests if remaining_requests > 0 else diff + 5
 
     return sleep_period
