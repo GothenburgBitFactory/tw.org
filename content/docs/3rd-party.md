@@ -6,7 +6,7 @@ title: "Taskwarrior - 3rd-Party Application Guidelines"
 
 Taskwarrior can be extended by means of a third-party application, which can be a wrapper, or hook script.
 There are script examples of import and export add-ons that support many formats (clone the repository, look in `taskwarrior.git/scripts/add-ons`).
-Then there are more sophisticated applications such as [Vit](https://gothenburgbitfactory.org/projects/vit) that provide a complete replacement UI.
+Then there are more sophisticated applications such as [Vit](https://gothenburgbitfactory.org/projects/vit/) that provide a complete replacement UI.
 
 All of these provide interesting new features and improve ease of use for different kinds of users.
 We encourage you to create such add-ons, but in doing so, there are some rules that must be followed, which will not only protect the user's data from mistreatment, but also your application from being sensitive to changes in Taskwarrior.

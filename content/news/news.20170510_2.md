@@ -9,4 +9,4 @@ A BYOP (Bring Your Own Project) MeetUp was held in Gothenburg.
 We had the chance to present FLOD2 - our own CI, and distribute Taskwarrior stickers.
 The MeetUp presentation was followed by sitting together, hacking away and having a couple of beers.
 
-![](/images/meetup.jpg)
+![](../../images/meetup.jpg)

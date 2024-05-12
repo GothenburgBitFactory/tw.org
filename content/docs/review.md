@@ -22,7 +22,7 @@ Tasksh implements the review by creating a Taskwarrior report just for this purp
 It is named `_reviewed` and simply lists the UUID values of tasks that need to be reviewed.
 This report then drives an interactive session where you go through that list of tasks one at a time, and have the chance to modify, skip or mark the task as reviewed.
 
-When you mark a task as reviewed, Tasksh adds a `reviewed` timestamp to the task, as a [UDA](/docs/udas) defined for this purpose.
+When you mark a task as reviewed, Tasksh adds a `reviewed` timestamp to the task, as a [UDA](../udas/) defined for this purpose.
 This attribute is used in the `_reviewed` report filter to make sure you don't review the same task more often than weekly.
 
 The combination of the `reviewed` timestamp, and the `_reviewed` report means that if you were to review all your tasks today, then immediately performing another review would yield no tasks to review.

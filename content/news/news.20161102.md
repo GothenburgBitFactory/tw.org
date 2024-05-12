@@ -29,7 +29,7 @@ More details soon.
 | 2016-10-08 | - Flod: Now builds tinderbox report with minimal I/O                                                                                                        |
 |            | - Flod: New report template (see ~~`prototype`~~) with collapsible sections                                                                                 |
 | 2016-10-11 | - WWW: Transferred all DNS handling over to [DNSimple](https://dnsimple.com)                                                                                |
-|            | - WWW: Acknowledged generous support from [Digitalocean](https://digitalocean.com)                                                                          |
+|            | - WWW: Acknowledged generous support from [Digitalocean](https://www.digitalocean.com/)                                                                     |
 | 2016-10-13 | - Flod: Incorporates build times in report                                                                                                                  |
 |            | - Flod: Configurable report length                                                                                                                          |
 | 2016-10-14 | - Flod: Can now execute remote build/test over ssh                                                                                                          |

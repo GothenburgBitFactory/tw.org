@@ -10,7 +10,7 @@ The values represent High, Medium, Low and No priority.
 The `L` value is considered a higher priority than no priority.
 Priority has been used to sort tasks in most built-in reports.
 
-Beginning with Taskwarrior 2.4.3, priority is no longer a core attribute, and is replaced with an equivalent [User Defined Attribute](/docs/udas).
+Beginning with Taskwarrior 2.4.3, priority is no longer a core attribute, and is replaced with an equivalent [User Defined Attribute](../udas/).
 This offers several advantages, and users may now configure priority and attributes that affect urgency to match their needs more closely.
 
 This change should go unnoticed, but there are some differences.

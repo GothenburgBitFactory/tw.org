@@ -156,7 +156,7 @@ This keeps your list current and up to date, more accurately reflecting the work
 Accurate metadata and good urgency coefficients mean that Taskwarrior's idea of urgency more closely matches yours.
 That will be a big help.
 
-Consider installing and using the Taskwarrior Shell ([tasksh](/news/news.20160905.2)) program, which among a few other things provides a `review` command that helps you cycle through your task list and keep it current.
+Consider installing and using the Taskwarrior Shell ([tasksh](../../news/news.20160905.2/)) program, which among a few other things provides a `review` command that helps you cycle through your task list and keep it current.
 
 Some would argue that spending as little time on your task list as possible means more time for doing work.
 While this is true, it does assume that you are doing the *right* work.

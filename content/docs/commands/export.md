@@ -17,7 +17,7 @@ The `export` command is used by many Taskwarrior extensions to gain access to th
 
 ## JSON Format
 
-The JSON is formatted according to the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/task.md), which consists of one JSON object per line, where one object represents one task.
+The JSON is formatted according to the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/task.md), which consists of one JSON object per line, where one object represents one task.
 
 ## Configuration
 
@@ -47,5 +47,5 @@ The `id` and `urgency` values are included because some external programs want t
 
 ## See Also
 
-- [`_get`](/docs/commands/_get) command
+- [`_get`](../_get/) command
 - `import` command

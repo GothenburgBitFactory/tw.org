@@ -56,5 +56,5 @@ Please upgrade GnuTLS before building Taskwarrior and Taskserver.
 
 For full details, see the ChangeLog file included in the release.
 
-The release is immediately available as a source [tarball](/download).
+The release is immediately available as a source [tarball](../../download/).
 Binary packages will soon be available via your Operating System's package manager.

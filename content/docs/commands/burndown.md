@@ -23,18 +23,18 @@ The filtered tasks are scanned to see if a peak number of pending tasks exists.
 If the peak number of pending tasks is any time in the last three days, then more tasks are being added than are being completed.
 In this case, it is not possible to predict when that will change, and therefore when the tasks will all be completed.
 
-![](/images/nofixrate.png)
+![](../../../images/nofixrate.png)
 
 In the case where a peak has occurred more than three days ago, and the number of pending tasks has been dropping since, a *net fix rate* can be determined, which is the average number of tasks completed per day.
 This rate is shown on the chart.
 
-![](/images/fixrate.png)
+![](../../../images/fixrate.png)
 
 If a *net fix rate* is known, then it can be determined how long it might take to complete all the remaining matching tasks.
 This duration is added to the current date, and a predicted completion date can be calculated.
 This date is shown on the chart.
 
-![](/images/completion.png)
+![](../../../images/completion.png)
 
 This approach is based on a common pattern, which is that projects tend to move from a planning phase to an execution phase.
 This simply means that tasks tend to be created earlier in the process, and completed later in the process.

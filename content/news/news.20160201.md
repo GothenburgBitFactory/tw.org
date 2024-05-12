@@ -16,7 +16,7 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 | 2016-01-04 | - clog: Code cleanup, inherited fixes and tests from task                                                                                                            |
 |            | - taskd: The pki scripts now respect expiration date                                                                                                                 |
 | 2016-01-05 | - flod: Began building on-demand system                                                                                                                              |
-|            | - taskwarrior.org: Added `systemd` integration to the [taskserver control](/docs/taskserver/control) page                                                            |
+|            | - taskwarrior.org: Added `systemd` integration to the [taskserver control](../../docs/taskserver/control/) page                                                      |
 | 2016-01-08 | - task: Fix invalid context command example in man page fixed                                                                                                        |
 | 2016-01-09 | - task: Removed lots of obsolete and unused code                                                                                                                     |
 | 2016-01-11 | - [#23: add review option (m)odify](https://github.com/GothenburgBitFactory/taskshell/issues/23) fixed                                                               |
@@ -29,13 +29,13 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 |            | - [#1772: CMakeLists shouldn't hardcode libc++ on Darwin](https://github.com/GothenburgBitFactory/taskwarrior/issues/1772) fixed                                     |
 |            | - [#1776: cleanup of diag output](https://github.com/GothenburgBitFactory/taskwarrior/issues/1776) fixed                                                             |
 |            | - task: Logic that determined `BLOCKING` and `BLOCKED` tasks that was different in two locations fixed                                                               |
-|            | - taskwarrior.org: Added `on-modify.timetrack.pl` to the [tools](/tools) page                                                                                        |
+|            | - taskwarrior.org: Added `on-modify.timetrack.pl` to the [tools](../../tools/) page                                                                                  |
 | 2016-01-12 | - [#1743: Description cannot contain improper ordinals](https://github.com/GothenburgBitFactory/taskwarrior/issues/1743) fixed                                       |
 |            | - taskd: New pki script for checking cert expiration                                                                                                                 |
 |            | - gothenburgbitfactory.org: Updated `clog` homebrew instructions                                                                                                     |
 | 2016-01-15 | - task: OpenBSD also puts `libuuid` functions inside `libc` fixed                                                                                                    |
 |            | - taskd: Large improvements to the pki scripts                                                                                                                       |
-|            | - taskwarrior.org: Better defaults for the [taskserver control](/docs/taskserver/control) page                                                                       |
+|            | - taskwarrior.org: Better defaults for the [taskserver control](../../docs/taskserver/control/) page                                                                 |
 | 2016-01-16 | - anomaly: The signal and system reactions were switched fixed                                                                                                       |
 |            | - anomaly: Incorrect error message wording                                                                                                                           |
 |            | - anomaly: Improved C++11 CppCoreGuidelines compliance                                                                                                               |

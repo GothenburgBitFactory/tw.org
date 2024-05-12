@@ -16,9 +16,9 @@ April was a relatively quiet month, but with two main efforts: Timewarrior 1.1.0
 Flod CI is now operating on five platforms (more coming soon), for every commit on every branch for every project.
 This transition allowed us to decommission several old machines.
 
-![](/images/central.png)
+![](../../images/central.png)
 
-![](/images/tw.png)
+![](../../images/tw.png)
 
 | Date       |                                                                                                                                                                                                                               | 
 |------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -29,9 +29,9 @@ This transition allowed us to decommission several old machines.
 | 2017-04-08 | - [#73: Let commands convert synthetic intervals before modifying them](https://github.com/GothenburgBitFactory/timewarrior/issues/73) fixed                                                                                  |
 | 2017-04-10 | - flod: Integrated flod reports with Gitea                                                                                                                                                                                    |
 |            | - flod: Implemented summary report at ~~`https: //central.gothenburgbitfactory.org`~~                                                                                                                                         |
-|            | - task: Implemented framework for supporting the [new recurrence model](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/recurrence.md)                                                        |
+|            | - task: Implemented framework for supporting the [new recurrence model](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/recurrence.md)                                                        |
 | 2017-04-11 | - [#67: TimeWarrior should not ignore invalid command](https://github.com/GothenburgBitFactory/timewarrior/issues/67) fixed                                                                                                   |
 |            | - Flod: Deployed Flod CI testing for all projects                                                                                                                                                                             |
 | 2017-04-14 | - timew: The totals.py extension now supports both Python 2.x and 3.x                                                                                                                                                         |
 | 2017-04-22 | - timew: The future command line syntax design is progressing. [Follow it here](https://github.com/GothenburgBitFactory/timewarrior/blob/v1.1.0/doc/rfc_command_definition.md)                                                |
-| 2017-04-30 | - task: Implemented new DOM resolver tree to simplify existing DOM support and enable [greater DOM support](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/recurrence.md), including formats |
+| 2017-04-30 | - task: Implemented new DOM resolver tree to simplify existing DOM support and enable [greater DOM support](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/recurrence.md), including formats |

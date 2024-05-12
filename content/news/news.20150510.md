@@ -22,5 +22,5 @@ For full details, see the ChangeLog file included in the release.
 Please bear in mind that [GnuTLS](https://gnutls.org) is a security product, and it is important that you use the most recent version available.
 Please upgrade GnuTLS before building Taskwarrior and Taskserver.
 
-The release is immediately available as a source [tarball](/download).
+The release is immediately available as a source [tarball](../../download/).
 Binary packages will soon be available via your Operating System's package manager.

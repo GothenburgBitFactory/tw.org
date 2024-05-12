@@ -12,7 +12,7 @@ Timewarrior tracks your time from the command line and generates reports.
 Your data is stored locally in clear text.
 It integrates well with Taskwarrior.
 
-![](/images/ti.png)
+![](../../images/ti.png)
 
 Here are the changes in 1.1.0:
 

@@ -5,10 +5,10 @@ date: 2016-08-24
 
 ### FrOSCon 2016 Materials Online 
 
-![](/images/froscon.jpg)
+![](../../images/froscon.jpg)
 Photo: [Sujeevan Vijayakumaran](https://twitter.com/svijee)
 
-Materials presented by [Dirk Deimeke](https://www.deimeke.net/dirk/blog) at [FrOSCon 2016](https://www.froscon.de) are now online, as promised (click on Raw file):
+Materials presented by [Dirk Deimeke](https://www.deimeke.net/dirk/blog/) at [FrOSCon 2016](https://froscon.org/) are now online, as promised (click on Raw file):
 
 - [Introduction to Taskwarrior](https://github.com/GothenburgBitFactory/guides/blob/master/20160821_de_froscon-Introduction_to_Taskwarrior/tw-froscon16_introtw.pdf)
 - [Taskwarrior and Taskserver](https://github.com/GothenburgBitFactory/guides/blob/master/20160820_de_froscon-Taskwarrior_and_Taskserver/tw-froscon16_tw+td.pdf)

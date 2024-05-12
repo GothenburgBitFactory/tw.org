@@ -9,7 +9,7 @@ New system status pages are online, which provide up-to-the-minute status for th
 The first is a Pingdom public report showing system status of the bug system, git hosting, web services and others.
 Check this page for outages.
 
-The second is an operations information page from [StatusPage.io](https://statuspage.io) which shows status, uptime, response time and incidents.
+The second is an operations information page from [StatusPage.io](https://www.atlassian.com/software/statuspage) which shows status, uptime, response time and incidents.
 
 You'll find links to the new status pages in the page footer on the front page.
 

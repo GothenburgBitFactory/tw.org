@@ -26,4 +26,4 @@ For more detailed changes, we recommend reading the [ChangeLog](https://github.c
 If you want to see the release highlights, you can read the NEWS file or try running our freshly minted task news command 🙂
  
 This is a recommended upgrade for all Taskwarrior users.
-[Download here](/download).
+[Download here](../../download/).

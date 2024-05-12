@@ -5,7 +5,7 @@ title: "Taskwarrior - Date &amp; Time"
 # Date & Time
 
 Taskwarrior supports date and time values.
-Date fields are used to track task creation, due date, scheduled date, end date and so on, as well as providing a date type for use with [UDA](/docs/udas) fields.
+Date fields are used to track task creation, due date, scheduled date, end date and so on, as well as providing a date type for use with [UDA](../udas/) fields.
 
 Whichever format is used to accept and display date and time, Taskwarrior resolves it to a UTC epoch value, accurate to one second.
 This is called Unix Time, POSIX time, or Epoch time.

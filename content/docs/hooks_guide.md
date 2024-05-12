@@ -37,7 +37,7 @@ It is ideal for this task.
 
 ## Hooks API
 
-Read and understand the [Hooks API](/docs/hooks).
+Read and understand the [Hooks API](../hooks/).
 This is important because the hook script must comply with the API requirements.
 Taskwarrior is strict about compliance.
 Hook scripts have the ability to harm data, so they are carefully monitored.
@@ -219,4 +219,4 @@ In this example all hook processing was completed in 33ms.
 With your hook script complete, will you be sharing your script?
 It's optional of course, but if you do, consider a license and copyright, establish a web presence so it can be found and downloaded, perhaps put contact info in the script so you can be told of problems, then tell people about it.
 
-You can tell us about your hook script, because we'd like to list it on the [Tools](/tools) page, along with many others.
+You can tell us about your hook script, because we'd like to list it on the [Tools](../../tools/) page, along with many others.

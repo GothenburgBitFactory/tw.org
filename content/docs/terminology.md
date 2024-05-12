@@ -80,7 +80,7 @@ $ calc --postfix '1 2 3 * +'
 
 While this is just a simple example, there is also support for dates, durations, Boolean operations and many operators.
 
-See [Calc Command](/docs/commands/calc) for full details.
+See [Calc Command](../commands/calc/) for full details.
 
 ## certificate
 
@@ -116,7 +116,7 @@ Taskwarrior has several built-in reports, some of which are modifiable via confi
 
 Additionally, you can create your own Custom Reports, where you can define the command, attributes show, length, filter, sorting and breaks.
 
-The [Report](/docs/report) gives a detailed explanation of how to use, modify and create reports.
+The [Report](../report/) gives a detailed explanation of how to use, modify and create reports.
 
 ## daemon
 
@@ -213,7 +213,7 @@ The `modify` is different, and updates the task description instead of annotatin
 Task can be exported from Taskwarrior, using the `export` command.
 You can apply a filter to the export command to control which tasks are exported.
 
-Tasks are exported using the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/task.md).
+Tasks are exported using the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/task.md).
 
 ```
 $ task add Buy milk
@@ -242,7 +242,7 @@ Expressions of this kind can appear in filters or modifications.
 ## extension
 
 An extension is a program that adds functionality to Taskwarrior.
-This could be in the form of a wrapper ([Vit](https://gothenburgbitfactory.org/projects/vit)), or an aliased script, or a [hook](/docs/terminology/#hooks) script.
+This could be in the form of a wrapper ([Vit](https://gothenburgbitfactory.org/projects/vit/)), or an aliased script, or a [hook](#hooks) script.
 
 ## filter
 
@@ -266,7 +266,7 @@ So in total, the command has four filter terms, that restrict the tasks shown.
 A filter is essentially an algebraic expression that must evaluate to`True` for each task, for it to be included in the result.
 
 Most commands accept filters.
-See [Filters](/docs/filter) for a more complete discussion.
+See [Filters](../filter/) for a more complete discussion.
 
 ## gc
 
@@ -274,14 +274,14 @@ Taskwarrior performs a Garbage Collect (gc) operation whenever it is necessary.
 Tasks that are deleted and completed are moved from the`pending.data` file to the `completed.data` file.
 This process keeps the`pending.data` file compact and fast to read, and keeps the ID numbers as low as possible.
 
-Although gc can be disabled, to keep the ID numbers static, [this is considered a bad idea](/docs/ids).
+Although gc can be disabled, to keep the ID numbers static, [this is considered a bad idea](../ids/).
 
 ## hooks
 
 Hooks are a mechanism that allows other programs/scripts to run at certain points in Taskwarrior's execution, so that processing can be influenced.
 This is an extension mechanism.
 
-See the [Hooks Design](/docs/hooks) document.
+See the [Hooks Design](../hooks/) document.
 
 ## infix
 
@@ -577,7 +577,7 @@ urgency.uda.<name>.coefficient
 
 UDAs may have default values (`uda.<name>.default`), allowable values (`uda.<name>.values`), types (`string`, `date`, `duration`, and `numeric`) and finally a label for report headers (`uda.<name>.label`).
 
-See [User Defined Attributes (UDAs)](/docs/udas) for more details.
+See [User Defined Attributes (UDAs)](../udas/) for more details.
 
 ## until
 
@@ -618,7 +618,7 @@ The `urgency` attribute is featured in the `next` report, although it can be use
 As the polynomial term weights (coefficients) are all modifiable, you can tweak them to make the urgency value more closely match your own notions of importance.
 Provided you understand the way the coefficients are used, this can be very beneficial.
 
-See [Urgency](/docs/urgency).
+See [Urgency](../urgency/).
 
 ## UUID
 
@@ -657,7 +657,7 @@ Filter: ( ( status == pending ) )
 Aside from the actual data, there is an initial blank line, a set of column headers, another blank line, the summary '31 tasks', the configuration override, and the filter used.
 All of these decorative elements, and more, are controlled by the verbosity settings in the `verbose` configuration setting.
 
-See [Verbosity](/docs/verbosity).
+See [Verbosity](../verbosity/).
 
 ## virtual tag
 

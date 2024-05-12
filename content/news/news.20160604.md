@@ -78,8 +78,8 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 |            | - Timewarrior: Added the `day`, `week` and `month` reports to the documentation, with examples                                                                           |
 |            | - Timewarrior: Fixed bug where the `summary` report projected open intervals into the future                                                                             |
 |            | - Timewarrior: Added mockup of `week` report                                                                                                                             |
-|            | - taskwarrior.org: Added `Windows 10` to the [download page](/download)                                                                                                  |
-|            | - taskwarrior.org: Added [plan details](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/plans.md)                                        |
+|            | - taskwarrior.org: Added `Windows 10` to the [download page](../../download/)                                                                                            |
+|            | - taskwarrior.org: Added [plan details](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/plans.md)                                        |
 | 2016-05-21 | - libshared: Added `Datetime` support for `12am` which was oddly missing                                                                                                 |
 |            | - Timewarrior: Supports `theme.colors.holiday`                                                                                                                           |
 |            | - Timewarrior: Added `csv.py` extension to export data in CSV format                                                                                                     |
@@ -88,11 +88,11 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 |            | - Timewarrior: Supports `reports.<type>.totals` to control display of day totals                                                                                         |
 |            | - Timewarrior: Command line args like `9` are now assumed to be hours `9:00`                                                                                             |
 |            | - Timewarrior: Supports `report.<type>.<label>` where `<label>` is one of: `month`, `week`, `weekday` or `day` to control the date axis                                  |
-|            | - taskwarrior.org: Timewarrior adds [initial documentation](/docs#timew), with a lot more to come                                                                        |
+|            | - taskwarrior.org: Timewarrior adds [initial documentation](../../docs/#timew), with a lot more to come                                                                  |
 | 2016-05-22 | - Timewarrior: Shows holidays in a different color on charts                                                                                                             |
-|            | - taskwarrior.org: Added new search features to the [Tools](/tools) page, which now features automated data scraping, to find new Taskwarrior tools.                     |
-|            | - taskwarrior.org: [All site contributors](/support/authors) now listed online. Thank you all!                                                                           |
-|            | - taskwarrior.org: Added `MSYS2` to the [download page](/download)                                                                                                       |
+|            | - taskwarrior.org: Added new search features to the [Tools](../../tools/) page, which now features automated data scraping, to find new Taskwarrior tools.               |
+|            | - taskwarrior.org: [All site contributors](../../support/authors/) now listed online. Thank you all!                                                                     |
+|            | - taskwarrior.org: Added `MSYS2` to the [download page](../../download/)                                                                                                 |
 | 2016-05-26 | - Timewarrior: In `:debug` mode, shows data I/O details                                                                                                                  |
 |            | - Timewarrior: Added a `debug()` function to handle switchable debug output                                                                                              |
 | 2016-05-27 | - [#10: Two line tags causes false entry in                                                                                                                              |
@@ -105,7 +105,7 @@ Most importantly, fixing bugs in `libshared` will fix bugs in all projects, with
 |            | - Timewarrior: Fixed broken `:lastweek` hint                                                                                                                             |
 |            | - Timewarrior: Supports `reports.gaps.range`, and has a default                                                                                                          |
 |            | - Timewarrior: In `:debug` mode shows runtime data                                                                                                                       |
-|            | - taskwarrior.org: Update the [Tools](/tools) page data, after filtering updated were pulled                                                                             |
+|            | - taskwarrior.org: Update the [Tools](../../tools/) page data, after filtering updated were pulled                                                                       |
 | 2016-05-29 | - Timewarrior: All reports now support the `:blank` hint                                                                                                                 |
 |            | - Timewarrior: Supports `reports.<type>.hours = all\|auto` setting to control the x-axis                                                                                 |
 |            | - Timewarrior: All reports now have default settings for displaying various elements                                                                                     |

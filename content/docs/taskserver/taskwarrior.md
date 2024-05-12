@@ -14,7 +14,7 @@ You should have these files and this information:
 - Organization: `Public`
 - Account name: `First Last`
 - Server:port `host.domain:53589`.
-  In the [server configuration](/docs/taskserver/configure) we used `localhost` as an example.
+  In the [server configuration](../configure/) we used `localhost` as an example.
   Whatever you actually used there, should be used here.
 
 Now we feed this information to Taskwarrior.

@@ -14,7 +14,7 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 | Date       |                                                                                                                                                                     |
 |------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 2015-11-01 | - Task: Migrated code from using C-style string formatting to C++11-style.                                                                                          |
-|            | - Task: Began resolving [Flint++](https://github.com/L2Program/FlintPlusPlus) issues.                                                                               |
+|            | - Task: Began resolving [Flint++](https://github.com/JossWhittle/FlintPlusPlus) issues.                                                                             |
 | 2015-11-02 | - Task: Significant performance enhancements (~45-55%) in string colorization.                                                                                      |
 |            | - Task: Many C++11 changes reverted because it was discovered that Cygwin doesn't support several C++11 features with GCC 4.9                                       |
 | 2015-11-03 | - Task: Performance enhancements (~3%) in JSON composition.                                                                                                         |

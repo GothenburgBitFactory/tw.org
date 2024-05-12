@@ -13,8 +13,7 @@ For a full list, see the git history of all the projects.
 
 Both Taskwarrior and Taskserver improved [GnuTLS](https://gnutls.org) support, in particular with more robust certificate validation, and error reporting/logging.
 
-The rat parser is now handling complex grammars, such as the
-[clog](/docs/clog) configuration file, and will later be used to handle command line parsing in all projects.
+The rat parser is now handling complex grammars, such as the [clog](https://gothenburgbitfactory.org/clog/) configuration file, and will later be used to handle command line parsing in all projects.
 
 The Taskwarrior overhaul of recurrence features has begun, which will culminate in the 2.6.0 release with new types of recurring tasks.
 

@@ -7,11 +7,11 @@ date: 2016-02-25
 
 Author Konstantin Vorobyev has created an Android client with Syncing and many other features.
 
-[![Taskwarrior for Android](/images/twa1.png)](/images/twa1.png)
-[![Taskwarrior for Android](/images/twa2.png)](/images/twa2.png)
-[![Taskwarrior for Android](/images/twa3.png)](/images/twa3.png)
-[![Taskwarrior for Android](/images/twa4.png)](/images/twa4.png)
-[![Taskwarrior for Android](/images/twa5.png)](/images/twa5.png)
+[![Taskwarrior for Android](../../images/twa1.png)](../../images/twa1.png)
+[![Taskwarrior for Android](../../images/twa2.png)](../../images/twa2.png)
+[![Taskwarrior for Android](../../images/twa3.png)](../../images/twa3.png)
+[![Taskwarrior for Android](../../images/twa4.png)](../../images/twa4.png)
+[![Taskwarrior for Android](../../images/twa5.png)](../../images/twa5.png)
 
 Taskwarrior for Android has an embedded copy of Taskwarrior, and so inherits all the behaviors.
 Take a look at ~~`Taskwarrior for Android`~~ on Google Play.

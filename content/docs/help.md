@@ -6,19 +6,19 @@ toc: true
 # Getting Help
 
 There are several forms of help available
-All support avenues are listed at the [Support](/support) page.
+All support avenues are listed at the [Support](../../support/) page.
 
 ## https://taskwarrior.org
 
 If you find you have any questions, you can get answers in several ways.
 The website has user forums, issue tracking and online documentation, including this tutorial.
 
-There is also a [Command reference PDF](/download/task-latest.ref.pdf) that we recommend you download and use.
+There is also a [Command reference PDF](../../download/task-latest.ref.pdf) that we recommend you download and use.
 It shows all the supported commands and options at a glance.
 
 ## FAQ
 
-Take a look at the [FAQ](/support/faq) - you may find your question has already been asked and answered.
+Take a look at the [FAQ](../../support/faq/) - you may find your question has already been asked and answered.
 
 ## IRC #taskwarrior on libera.chat
 

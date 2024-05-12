@@ -23,7 +23,7 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 |            | - libshared: Log object added                                                                                                                            |
 |            | - Timewarrior: Migrated to use `libshared.git`                                                                                                           |
 |            | - Timewarrior: Repo goes public                                                                                                                          |
-| 2016-03-19 | - Taskwarrior.org: Added `estact` to the [Tools](/tools) page                                                                                            |
+| 2016-03-19 | - Taskwarrior.org: Added `estact` to the [Tools](../../tools/) page                                                                                      |
 |            | - Timewarrior: Now has a working `help` command                                                                                                          |
 | 2016-03-20 | - Task: Gained a new `purge` command to eliminate old data                                                                                               |
 |            | - Timewarrior: Can now load data                                                                                                                         |

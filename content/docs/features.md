@@ -24,7 +24,7 @@ Here are some tips for making a good feature request:
   What new things could you do if you had this feature?
   How would you be more effective at managing tasks with this feature?
 - Describe how the feature might interact with existing features.
-  We prefer it when a new feature is more than simply storing a new piece of data, for later retrieval - we have [UDAs](/docs/udas) for that.
+  We prefer it when a new feature is more than simply storing a new piece of data, for later retrieval - we have [UDAs](../udas/) for that.
 - Describe any new reports that may be needed.
 - Describe who might benefit from this feature.
 - Describe a feature that doesn't impose a cost on users that choose not to use it.

@@ -23,4 +23,4 @@ Please include the following information, as it helps us categorize, prioritize 
   Notice that the `diagnostics` command was added specifically for reporting issues, and it gives us information about your operating system, libraries, compiler and so on.
   If you feel some of the information is personal, then remove that line.
 - If you need to demonstrate a problem with a screenshot, you can hide your private data with the `rc.obfuscate=1` configuration override:
-  [![Data Obfuscation](/images/obfuscate.png)](/images/obfuscate.png)
+  ![Data Obfuscation](../../images/obfuscate.png)

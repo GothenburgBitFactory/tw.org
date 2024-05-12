@@ -13,7 +13,7 @@ Although this is a minor release, there are significant bug fixes and new featur
 Changes include:
 
 - New `context` command.
-  See the [online documentation](/docs/context) for full details.
+  See the [online documentation](../../docs/context/) for full details.
 - Theme fixes, eliminating the very low contrast problems reported
 - Minor built-in report changes
 - Assorted color fixes
@@ -27,5 +27,5 @@ Changes include:
 
 For full details, see the ChangeLog file included in the release.
 
-The release is immediately available as a source [tarball](/download/task-2.4.2.tar.gz).
+The release is immediately available as a source [tarball](../../download/task-2.4.2.tar.gz).
 Binary packages will soon be available via your Operating System's package manager.

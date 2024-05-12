@@ -7,14 +7,14 @@ date: 2014-04-06
 
 Version 1.2 of the VIT front-end for Taskwarrior is available for download now.
 
-Download here: [vit-1.2.tar.gz](https://github.com/vit-project/vit/archive/refs/tags/v1.2.tar.gz).
+Download here: [vit-1.2.tar.gz](https://codeload.github.com/vit-project/vit/tar.gz/refs/tags/v1.2).
 
-See the [VIT 1.2 beta1 announcement](/news/news.20140220) for the features introduced in 1.2.
+See the [VIT 1.2 beta1 announcement](../news.20140220/) for the features introduced in 1.2.
 
 The following are changes included since the beta release:
 
 - the key can now be used in shortcuts
-- exit with informative error if shortcut too long (see [#42:](https://github.com/scottkosty/vit/issues/42))
+- exit with informative error if shortcut too long (see [#42:](https://github.com/vit-project/vit/issues/42))
 - fix colors for running VIT in tmux
 - do not print control characters to prompts
 - fix recognition of backspace in tmux

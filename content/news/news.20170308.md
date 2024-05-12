@@ -8,7 +8,7 @@ date: 2017-03-08
 We'd like to thank [HELLOTUX](https://www.hellotux.com) for doing a fantastic job designing embroidered apparel for Taskwarrior fans.
 This is the real thing - quality embroidery, not merely printed.
 
-![](/images/shirt.png)
+![](../../images/shirt.png)
 
 Please check out the [Taskwarrior section](https://www.hellotux.com/taskwarrior)
 on the HELLOTUX website.
@@ -21,6 +21,6 @@ Just write in the comment field the color (black/write) when ordering."*
 The Taskwarrior project receives some money for each item sold.
 Don't let this discourage you from also sending us bags of cash.
 
-![](/images/hellotux.gif)
+![](../../images/hellotux.gif)
 
 [HELLOTUX](https://www.hellotux.com) is the family business of Gábor Kum, a Linux system administrator, software developer, and Linux user since 1999. We also think he's a nice guy.

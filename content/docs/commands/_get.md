@@ -4,7 +4,7 @@ title: "Taskwarrior - _get"
 
 # _get
 
-The `_get` command is a [DOM](/docs/dom) accessor.
+The `_get` command is a [DOM](../../dom/) accessor.
 You can use this command to extract any piece of information stored by taskwarrior.
 For example to obtain the description of task 12:
 
@@ -32,5 +32,5 @@ The `_get` command is a helper command, which means it is more useful for script
 
 See Also
 
-- [DOM](/docs/dom)
-- [`export`](/docs/commands/export) command
+- [DOM](../../dom/)
+- [`export`](../export/) command

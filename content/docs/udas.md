@@ -6,7 +6,7 @@ title: "Taskwarrior - User Defined Attributes (UDA)"
 
 Taskwarrior supports a set of standard attributes for a task, known as the core attributes.
 These include `project`, `description`, `due` and so on.
-There are more than 20 standard attributes (see [columns](/docs/commands/columns) for a full list).
+There are more than 20 standard attributes (see [columns](../commands/columns/) for a full list).
 They are necessary to provide all the functionality of Taskwarrior.
 For example, the `project` attribute is used to provide feedback on completion of a project, the `projects` command itself, and project hierarchy filtering.
 The `project` attribute has a lot of functionality associated with it, and this is why `project` is a core attribute.

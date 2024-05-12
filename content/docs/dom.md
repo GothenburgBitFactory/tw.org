@@ -19,7 +19,7 @@ Taskwarrior allows the same kind of data access in a similar form, for example:
 ```
 
 This references the description text of task 1.
-There is a [`_get` helper command](/docs/commands/_get) that queries data using a DOM reference.
+There is a [`_get` helper command](../commands/_get/) that queries data using a DOM reference.
 Let's see it in action, by first creating a detailed task.
 
 ```

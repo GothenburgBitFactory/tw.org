@@ -142,7 +142,7 @@ Each task has an `entry` date which records when it was created.
 Each completed or deleted task has an `end` date, which records when it was completed or deleted. An active, or started task has a `start` date, but only while it is in the active state. Finally, every task has a `modification` date, which records when it was last modified. This is used as a hint when tasks are being synced.
 
 In addition, you may find you have a use case for a different kind of date for your task lists. For example, you may adhere to an agile development process, and a task may be assigned to a sprint, and that sprint may be identified by its end date. You can add arbitrary dates like this to Taskwarrior by defining a
-[User Defined Attribute](/docs/udas) (UDA) and then storing that metadata with your tasks. In this case, Taskwarrior will do nothing with your UDA but store it, and let you use it in reports and filters.
+[User Defined Attribute](../udas/) (UDA) and then storing that metadata with your tasks. In this case, Taskwarrior will do nothing with your UDA but store it, and let you use it in reports and filters.
 
 ## Urgency
 
@@ -154,8 +154,8 @@ Similarly, tasks that are ready have an elevated urgency.
 
 For other discussions of dates see:
 
-- [Date & Time](/docs/dates)
-- [Named Dates](/docs/named_dates)
-- [User Defined Attributes](/docs/udas)
-- [Best Practices](/docs/best-practices)
-- [Urgency](/docs/urgency)
+- [Date & Time](../dates/)
+- [Named Dates](../named_dates/)
+- [User Defined Attributes](../udas/)
+- [Best Practices](../best-practices/)
+- [Urgency](../urgency/)

@@ -43,7 +43,7 @@ Notice that the `foo` in the description of task 1, as well as the `footwear` in
 
 ## Regular Expressions
 
-Beginning in version {{< label >}}2.4.0{{< /label >}} all search terms are by default [regular expressions](/docs/terminology/#regex).
+Beginning in version {{< label >}}2.4.0{{< /label >}} all search terms are by default [regular expressions](../terminology/#regex).
 This means we could have searched using this pattern, which means an `f` followed by two `o` characters:
 
 ```
@@ -81,7 +81,7 @@ This fails because the search term `/fo{2}/` is this time considered just text, 
 
 ## Shell
 
-If your search term contains one or more spaces, then your [shell](/docs/terminology/#shell) is going to break the search pattern into two arguments, and Taskwarrior will be confused.
+If your search term contains one or more spaces, then your [shell](../terminology/#shell) is going to break the search pattern into two arguments, and Taskwarrior will be confused.
 Solve this by either quoting or escaping like these examples:
 
 ```

@@ -16,6 +16,6 @@ While this works, it does mean that if you change your exclusion configuration, 
 
 The new behavior correctly subtracts the exclusion as soon as the interval ends, and therefore the recorded data represents the exclusion configuration active at the time.
 
-There is a script prepared that will fix your timewarrior data, and the download and description is found on the [DB Correction Script](https://timewarrior.net/docs/dbcorrection) page.
+There is a script prepared that will fix your timewarrior data, and the download and description is found on the [DB Correction Script](https://timewarrior.net/docs/dbcorrection/) page.
 
 The release is immediately available as a source [tarball](https://github.com/GothenburgBitFactory/timewarrior/releases/download/v1.1.1/timew-1.1.1.tar.gz). Binary packages for your OS may appear soon.

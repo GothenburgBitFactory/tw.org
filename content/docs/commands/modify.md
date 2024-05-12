@@ -98,6 +98,6 @@ Declining the modification will affect only the specified task.
 
 Other ways of modifying tasks include:
 
-- [`append`](/docs/commands/append) command
+- [`append`](../append/) command
 - `edit` command
-- [`prepend`](/docs/commands/prepend) command
+- [`prepend`](../prepend/) command

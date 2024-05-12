@@ -5,7 +5,7 @@ date: 2017-04-02
 
 ### Code Repositories Moved 
 
-The code repositories have been relocated to our new [Gitea](https://gitea.io/en-US) server.
+The code repositories have been relocated to our new [Gitea](https://about.gitea.com) server.
 
 Gitea is a community managed fork of Gogs, lightweight code hosting solution written in Go and published under the MIT license.
 We like all of those things.

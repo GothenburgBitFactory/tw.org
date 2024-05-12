@@ -10,8 +10,8 @@ It is not user-friendly.
 
 You'll need these tools:
 
-- [git](https://git-scm.com/)
-- [cmake](https://cmake.org)
+- [Git](https://git-scm.com/)
+- [CMake](https://cmake.org)
 - make
 - C++ compiler, currently gcc 4.7+ or clang 3.3+ for full C++11 support
 - Python 2.7 or later (for tests)
@@ -62,7 +62,7 @@ Build the debug type if you want symbols in the binary.
 ## Running the Test Suite
 
 There are scripts to facilitate running the test suite.
-In particular, the [vramsteg](https://gothenburgbitfactory.org/projects/vramsteg) utility provides blinkenlights for test progress.
+In particular, the [vramsteg](https://gothenburgbitfactory.org/projects/vramsteg/) utility provides blinkenlights for test progress.
 
 ```
 $ cd taskwarrior.git/test

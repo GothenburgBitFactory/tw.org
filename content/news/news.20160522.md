@@ -5,7 +5,7 @@ date: 2016-05-22
 
 ### Taskwarrior Tools Search 
 
-The [Taskwarrior Tools page](/tools) now has interactive categorized search capabilities, thanks to a significant contribution by Bruno Vernay.
+The [Taskwarrior Tools page](../../tools/) now has interactive categorized search capabilities, thanks to a significant contribution by Bruno Vernay.
 We encourage you to take a look.
 
 This feature is driven by automated [GitHub](https://github.com) data extraction, which identifies taskwarrior-related projects and finds their metadata.

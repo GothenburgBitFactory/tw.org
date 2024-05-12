@@ -9,7 +9,7 @@ All Taskwarrior family projects follow this same philosophy.
 
 ## Openness
 
-The [source code](https://github.com/GothenburgBitFactory/taskwarrior), [plans](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/plans.md), [designs](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/README.md), [bugs](https://github.com/GothenburgBitFactory/taskwarrior/issues), [testing](https://github.com/GothenburgBitFactory/taskwarrior/actions), [docs](/docs), and [website](https://github.com/GothenburgBitFactory/tw.org) are all free and open source.
+The [source code](https://github.com/GothenburgBitFactory/taskwarrior), [plans](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/plans.md), [designs](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/README.md), [bugs](https://github.com/GothenburgBitFactory/taskwarrior/issues), [testing](https://github.com/GothenburgBitFactory/taskwarrior/actions), [docs](../), and [website](https://github.com/GothenburgBitFactory/tw.org) are all free and open source.
 Your data is kept as plain text, and never held hostage by a proprietary format.
 You are welcome to contribute and identify improvements in all aspects of the project.
 There is no hidden agenda.
@@ -102,7 +102,7 @@ Talk to us.
 Join the community, help others, help yourself, and advance the project.
 We welcome all of you into our community.
 
-Here is our [Code of Conduct](/conduct).
+Here is our [Code of Conduct](../../conduct/).
 
 ## Focus
 

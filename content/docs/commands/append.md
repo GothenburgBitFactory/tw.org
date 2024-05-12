@@ -26,5 +26,5 @@ ID Age  Project Tags   Description                                            Ur
 
 Other ways of modifying task descriptions include:
 
-- [`modify`](/docs/commands/modify) command
-- [`prepend`](/docs/commands/prepend) command
+- [`modify`](../modify/) command
+- [`prepend`](../prepend/) command

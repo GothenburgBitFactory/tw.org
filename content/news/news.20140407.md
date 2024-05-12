@@ -13,6 +13,6 @@ You know how it works.
 
 As a brand-new site, the content is a little light right now, but as the questions come in, we believe this will grow into the primary resource for all those situations you need a little help with.
 
-![](/images/qanda.png)
+![](../../images/qanda.png)
 
-The ~~`https://answers.tasktools.org`~~ site is powered by [Atlassian Confluence Questions](https://www.atlassian.com/software/confluence/questions).
+The ~~`https://answers.tasktools.org`~~ site is powered by [Atlassian Confluence Questions](https://marketplace.atlassian.com/apps/1211644/questions-for-confluence).

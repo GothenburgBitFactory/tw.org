@@ -4,7 +4,7 @@ title: "Taskwarrior - Log Command"
 
 # log
 
-The `log` command is the same as the [`add`](/docs/commands/add) command, with one difference - the task is added in the completed state.
+The `log` command is the same as the [`add`](../add/) command, with one difference - the task is added in the completed state.
 Sometimes it is necessary to record tasks that are already completed, if you are faithfully tracking work.
 For example:
 
@@ -24,6 +24,6 @@ This task is immediately recorded as completed with a beginning and an ending da
 
 Other ways of creating tasks include:
 
-- [`add`](/docs/commands/add) command
+- [`add`](../add/) command
 - `duplicate` command
 - `import` command

@@ -5,7 +5,7 @@ title: "Taskwarrior - Info Command"
 # info
 
 The `info` command (the full command name is `information`) is a way to display all the task metadata in human-readable form.
-This includes [UDAs](/docs/udas).
+This includes [UDAs](../../udas/).
 
 ```
 $ task 1 info
@@ -34,7 +34,7 @@ Date                Modification
 
 Taskwarrior {{< label >}}2.4.0{{< /label >}} will also show a detailed breakdown of the urgency calculation, as shown.
 
-Taskwarrior {{< label >}}2.4.2{{< /label >}} will also show a list of valid [Virtual Tags](/docs/tags).
+Taskwarrior {{< label >}}2.4.2{{< /label >}} will also show a list of valid [Virtual Tags](../../tags/).
 
 The `info` command also accepts `UUID`s to identify tasks, so you can inspect completed and deleted tasks also.
 

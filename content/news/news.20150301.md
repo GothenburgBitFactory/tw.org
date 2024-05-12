@@ -14,7 +14,7 @@ Renato adds a wrapper script that instruments all hooks scripts which gives the 
 
 2015-02-03
 
-It was reiterated that there is a place to check, to see what the latest release of Taskwarrior is: `https://tasktools.org/latest`. This is suitable for anyone who needs to programmatically scan for notification of a release.
+It was reiterated that there is a place to check, to see what the latest release of Taskwarrior is: `https://gothenburgbitfactory.org/task/latest`. This is suitable for anyone who needs to programmatically scan for notification of a release.
 
 2015-02-07
 
@@ -26,7 +26,7 @@ A preliminary design for supporting the notion of active contexts was agreed upo
 
 2015-02-08
 
-The document describing [future plans](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/plans.md) was updated.
+The document describing [future plans](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/plans.md) was updated.
 This document shows a high-level overview of what areas of Taskwarrior are planned for future work.
 While there is minimal detail, it does represent all the planning that exists.
 It lists the current release, the next release (short term) and future releases (long term) milestones.
@@ -47,25 +47,25 @@ This will help deal with non-compliant hook scripts, and scripts in development.
 2015-02-14
 
 Taskwarrior 2.4.1 is ready to release, pending testing by
-[Bugwarrior](https://github.com/ralphbean/bugwarrior),
-[inthe.am](https://inthe.am/about), and
+[Bugwarrior](https://github.com/GothenburgBitFactory/bugwarrior),
+~~`inthe.am`~~, and
 [tasklib](https://github.com/tbabej/tasklib).
 
 2015-02-15
 
-The [future plans](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/plans.md) document was updated to include Taskserver plans (which are currently sparse).
+The [future plans](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/plans.md) document was updated to include Taskserver plans (which are currently sparse).
 More details were added to the Taskwarrior plans.
 
 2015-02-15
 
 Testing showed that 2.4.1 does not degrade performance any more than 2.4.0 did.
-See the [Performance Comparison](https://gothenburgbitfactory.org/projects/performance) for charts.
+See the [Performance Comparison](https://gothenburgbitfactory.org/projects/performance/) for charts.
 Note that 2.4.0 contains on-load legacy value mapping for durations, which introduced a performance hit.
 
 2015-02-16
 
-[Taskwarrior 2.4.1](/download/task-2.4.1.tar.gz) is released.
-Although a minor release, there are significant bug fixes and improvements to the [Hook system](/docs/hooks) that make this a recommended upgrade.
+[Taskwarrior 2.4.1](../../download/task-2.4.1.tar.gz) is released.
+Although a minor release, there are significant bug fixes and improvements to the [Hook system](../../docs/hooks/) that make this a recommended upgrade.
 
 2015-02-16
 
@@ -74,7 +74,7 @@ Mostly.
 
 2015-02-16
 
-Ralph Bean releases [taskw](https://pypi.python.org/pypi/taskw) with support for Taskwarrior 2.4.1.
+Ralph Bean releases [taskw](https://pypi.org/project/taskw/) with support for Taskwarrior 2.4.1.
 
 2015-02-16
 
@@ -92,7 +92,7 @@ The `INSTALL` file gets a fresh set of instructions which now mention the depend
 
 2015-02-17
 
-The website gains a page devoted to showing [Command Line Examples](/docs/examples) intended to answer a few common questions and showcase some tricks.
+The website gains a page devoted to showing [Command Line Examples](../../docs/examples/) intended to answer a few common questions and showcase some tricks.
 
 2015-02-19
 
@@ -113,7 +113,7 @@ Taskserver gained a new man page for `taskdctl`.
 
 2015-02-23
 
-Tomas implements the new [context](/docs/context) feature and commands.
+Tomas implements the new [context](../../docs/context/) feature and commands.
 
 2015-02-24
 

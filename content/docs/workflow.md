@@ -150,7 +150,7 @@ Here are some example workflows, to make you think about your own particular app
   To do work in a specific area I filter my tasks with projects, but I think I will change to use contexts instead.
   I like annotations and use them a lot.
   On the one hand to set my long-term goals (private and business wise), on the other hand I annotate tasks with links.
-  To make handling of annotations easier, I love [taskopen](https://github.com/ValiValpas/taskopen) on my desktop and strictly recommend this to everyone.
+  To make handling of annotations easier, I love [taskopen](https://github.com/jschlatow/taskopen) on my desktop and strictly recommend this to everyone.
 - **What features do you deliberately not use?**
   Very seldom I use dependencies, mostly I steer that with time constraints.
   Task B has a due date end-of-work-week and task B has a wait-date till beginning of next work-week.

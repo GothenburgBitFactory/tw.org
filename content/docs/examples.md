@@ -295,7 +295,7 @@ $ task add Pay rent due:28th recur:monthly until:now+1yr
 
 ## Priority
 
-Priority is now a [User Defined Attribute](/docs/udas) since version 2.4.3, and as such can be configured.
+Priority is now a [User Defined Attribute](../udas/) since version 2.4.3, and as such can be configured.
 
 Make priority `L` sort lower than no priority.
 

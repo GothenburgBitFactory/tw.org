@@ -25,7 +25,7 @@ It is working well, and will be rolled out in October, with new features and gre
 |            | - Task: Updated test suite to use only non-deprecated Boolean config values                                                        |
 |            | - [#10: Autoclear in the Task Shell](https://github.com/GothenburgBitFactory/taskshell/issues/10) fixed                            |
 |            | - [#27: Please add a (m)odify feature for review](https://github.com/GothenburgBitFactory/taskshell/issues/27) fixed               |
-| 2016-09-05 | - Tasksh: [Version 1.1.0](/news/news.20160905.2) released, with new review feature                                                 |
+| 2016-09-05 | - Tasksh: [Version 1.1.0](../news.20160905.2/) released, with new review feature                                                   |
 |            | - Flod: All satellite build servers updated to latest releases                                                                     |
 | 2016-09-06 | - Tasksh: Fixed build on Cygwin                                                                                                    |
 |            | - [#28: tasksh hangs trying to read task from stdin](https://github.com/GothenburgBitFactory/taskshell/issues/28) fixed            |

@@ -13,6 +13,6 @@ Take a look at [Dirk's logbook](https://www.deimeke.net/dirk/blog/index.php?/arc
 
 Dirk also previewed the new command reference shown here:
 
-[![](/images/ref230.png)](/images/ref230.png)
+[![](../../images/ref230.png)](../../images/ref230.png)
 
-You can get the [Reference Sheet PDF](/download/task-latest.ref.pdf) from the download page.
+You can get the [Reference Sheet PDF](../../download/task-latest.ref.pdf) from the download page.

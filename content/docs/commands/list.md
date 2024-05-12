@@ -29,8 +29,7 @@ The description and labels are straightforward text.
 
 The columns are the task metadata, with optional format specifiers.
 For example, the `description.count` column means the description column, but not the annotations; instead show a count of the annotations, if any.
-You can see the supported columns and formats using the [`columns`
-command](/docs/commands/columns).
+You can see the supported columns and formats using the [`columns` command](../columns/).
 
 ## Filter
 
@@ -73,5 +72,5 @@ The `list` report has thirteen columns, but due to this setting, it is rare to s
 
 ## See Also
 
-- [Reports](/docs/report)
-- [`columns`](/docs/commands/columns) command
+- [Reports](../../report/)
+- [`columns`](../columns/) command

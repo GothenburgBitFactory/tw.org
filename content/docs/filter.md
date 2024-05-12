@@ -133,7 +133,7 @@ Except now, we have one more problem - those parentheses have special meaning to
     ...
     $ task "(project:Home or project:Garden)" list
 
-Note that there are many characters used by the taskwarrior command line that have special meaning to the shell, and as such must be properly escaped, as [described here](/docs/escapes).
+Note that there are many characters used by the taskwarrior command line that have special meaning to the shell, and as such must be properly escaped, as [described here](../escapes/).
 
 Also note that when searching for tasks without the specified entry at the end of the parenthesis, you need to add a space, otherwise you'll get "Mismatched parentheses in expression".
 

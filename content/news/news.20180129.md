@@ -5,7 +5,7 @@ date: 2018-01-29
 
 ### FOSDEM 2018: Taskwarrior Presence 
 
-The Taskwarrior Team will be attending [FOSDEM 2018](https://archive.fosdem.org/2018) on February 3rd and 4th in Brussels.
+The Taskwarrior Team will be attending [FOSDEM 2018](https://archive.fosdem.org/2018/) on February 3rd and 4th in Brussels.
 This is the second annual carbon-space meetup.
 
 What will the focus be this time?

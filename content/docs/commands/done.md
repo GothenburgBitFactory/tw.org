@@ -69,6 +69,6 @@ Date                Modification
 
 Related topics include:
 
-- [`log`](/docs/commands/log) command
+- [`log`](../log/) command
 - `delete` command
 - `undo` command

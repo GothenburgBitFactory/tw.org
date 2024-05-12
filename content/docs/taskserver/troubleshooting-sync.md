@@ -5,12 +5,12 @@ title: "Taskwarrior - Troubleshooting Sync"
 # Troubleshooting Sync
 
 Here is a list of problems you may encounter, with the most common ones listed first.
-The single most common problem has been that the [Taskserver Setup Instructions](/docs/taskserver/setup) were not properly followed.
+The single most common problem has been that the [Taskserver Setup Instructions](../setup/) were not properly followed.
 Please review the steps you took.
 
 It is always a good idea to make sure that you are using the latest release of Taskwarrior and Taskserver, not just because bugs are fixed that may help you, but also because the solutions below are geared toward the current releases.
 
-If you upgrade from an older release of Taskserver, you will need to follow the [upgrade instructions](/docs/taskserver/upgrade).
+If you upgrade from an older release of Taskserver, you will need to follow the [upgrade instructions](../upgrade/).
 
 ## Problems
 
@@ -27,7 +27,7 @@ If you installed Taskwarrior using your OS's package manager, you may be sufferi
 Prod your OS's package maintainer for an update.                                                                    
 
 Recent releases make GnuTLS support opt-out instead of opt-in, so upgrading to the latest version may help.
-Otherwise, you will need to build Taskwarrior from the [latest source tarball](/download/task-latest.tar.gz), following the instructions in the `INSTALL` file.
+Otherwise, you will need to build Taskwarrior from the [latest source tarball](../../../download/task-latest.tar.gz), following the instructions in the `INSTALL` file.
 If you are a developer, do that.
 If you are not, then installing a development environment is probably not something you want to do, in which case contact your OS's package maintainer.         
 

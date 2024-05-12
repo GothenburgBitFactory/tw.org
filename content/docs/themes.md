@@ -38,52 +38,52 @@ Below are examples of each of the provided themes.
 
 ## dark-16.theme
 
-[![Theme swatch](/images/dark-16.png)](/images/dark-16.png)
+[![Theme swatch](../../images/dark-16.png)](../../images/dark-16.png)
 
 ## dark-256.theme
 
-[![Theme swatch](/images/dark-256.png)](/images/dark-256.png)
+[![Theme swatch](../../images/dark-256.png)](../../images/dark-256.png)
 
 ## dark-blue-256.theme
 
-[![Theme swatch](/images/dark-blue-256.png)](/images/dark-blue-256.png)
+[![Theme swatch](../../images/dark-blue-256.png)](../../images/dark-blue-256.png)
 
 ## dark-gray-256.theme
 
-[![Theme swatch](/images/dark-gray-256.png)](/images/dark-gray-256.png)
+[![Theme swatch](../../images/dark-gray-256.png)](../../images/dark-gray-256.png)
 
 ## dark-gray-blue-256.theme
 
-[![Theme swatch](/images/dark-gray-blue-256.png)](/images/dark-gray-blue-256.png)
+[![Theme swatch](../../images/dark-gray-blue-256.png)](../../images/dark-gray-blue-256.png)
 
 ## dark-green-256.theme
 
-[![Theme swatch](/images/dark-green-256.png)](/images/dark-green-256.png)
+[![Theme swatch](../../images/dark-green-256.png)](../../images/dark-green-256.png)
 
 ## dark-red-256.theme
 
-[![Theme swatch](/images/dark-red-256.png)](/images/dark-red-256.png)
+[![Theme swatch](../../images/dark-red-256.png)](../../images/dark-red-256.png)
 
 ## dark-violets-256.theme
 
-[![Theme swatch](/images/dark-violets-256.png)](/images/dark-violets-256.png)
+[![Theme swatch](../../images/dark-violets-256.png)](../../images/dark-violets-256.png)
 
 ## dark-yellow-green-256.theme
 
-[![Theme swatch](/images/dark-yellow-green-256.png)](/images/dark-yellow-green-256.png)
+[![Theme swatch](../../images/dark-yellow-green-256.png)](../../images/dark-yellow-green-256.png)
 
 ## light-16.theme
 
-[![Theme swatch](/images/light-16.png)](/images/light-16.png)
+[![Theme swatch](../../images/light-16.png)](../../images/light-16.png)
 
 ## light-256.theme
 
-[![Theme swatch](/images/light-256.png)](/images/light-256.png)
+[![Theme swatch](../../images/light-256.png)](../../images/light-256.png)
 
 ## solarized-dark-256.theme
 
-[![Theme swatch](/images/solarized-dark-256.png)](/images/solarized-dark-256.png)
+[![Theme swatch](../../images/solarized-dark-256.png)](../../images/solarized-dark-256.png)
 
 ## solarized-light-256.theme
 
-[![Theme swatch](/images/solarized-light-256.png)](/images/solarized-light-256.png)
+[![Theme swatch](../../images/solarized-light-256.png)](../../images/solarized-light-256.png)

@@ -64,7 +64,7 @@ A hook script can be disabled by either removing execute permission, renaming it
 
 ## Input
 
-Input to hook scripts consists of JSON-formatted objects, one per line, in the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/task.md) which is also used by the [`export` command](/docs/commands/export).
+Input to hook scripts consists of JSON-formatted objects, one per line, in the [Taskwarrior JSON Format](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/task.md) which is also used by the [`export` command](../commands/export/).
 
 ```
 $ task 1 export
@@ -79,7 +79,7 @@ Whitespace within the line is permitted, per the JSON standard, but the task *mu
 Output from a hook script is a combination of a JSON-formatted task and text.
 Just as the JSON for a task must occupy a single line, so must a single feedback message.
 Feedback text is optional for a successful hook script, but required for a failing script.
-If provided it will be displayed by Taskwarrior according to the [verbosity setting](/docs/verbosity).
+If provided it will be displayed by Taskwarrior according to the [verbosity setting](../verbosity/).
 
 Here is sample output from a hypothetical spell-checking hook script:
 

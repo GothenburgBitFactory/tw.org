@@ -10,46 +10,46 @@ layout: single
 Here are the commands alphabetically.
 Version-specific features are labelled with the version in which they were first available.
 
-  * [`add` - Add a new task](/docs/commands/add)
+  * [`add` - Add a new task](add/)
   * `annotate` - Add an annotation to a task
-  * [`append` - Append words to a task description](/docs/commands/append)
-  * [`calc` {{< label >}}2.4.0{{< /label >}} - Expression calculator](/docs/commands/calc)
+  * [`append` - Append words to a task description](append/)
+  * [`calc` {{< label >}}2.4.0{{< /label >}} - Expression calculator](calc/)
   * `config` - Modify configuration settings
   * `context` - Manage contexts
-  * [`count` - Count the tasks matching a filter](/docs/commands/count)
+  * [`count` - Count the tasks matching a filter](count/)
   * `delete` - Mark a task as deleted
   * `denotate` - Remove an annotation from a task
-  * [`done` - Complete a task](/docs/commands/done)
+  * [`done` - Complete a task](done/)
   * `duplicate` - Clone an existing task
   * `edit` - Launch your text editor to modify a task
   * `execute` - Execute an external command
-  * [`export` - Export tasks in JSON format](/docs/commands/export)
+  * [`export` - Export tasks in JSON format](export/)
   * `help` - Show high-level help, a cheat-sheet
   * `import` - Import tasks in JSON form
-  * [`log` - Record an already-completed task](/docs/commands/log)
+  * [`log` - Record an already-completed task](log/)
   * `logo` - Show the Taskwarrior logo
-  * [`modify` - Modify one or more tasks](/docs/commands/modify)
-  * [`prepend` - Prepend words to a task description](/docs/commands/prepend)
+  * [`modify` - Modify one or more tasks](modify/)
+  * [`prepend` - Prepend words to a task description](prepend/)
   * `purge` {{< label >}}2.6.0{{< /label >}} - Completely removes tasks, rather than change status to `deleted`
   * `start` - Start working on a task, make active
   * `stop` - Stop working on a task, no longer active
-  * [`synchronize` - Syncs tasks with Taskserver](/docs/commands/synchronize)
+  * [`synchronize` - Syncs tasks with Taskserver](synchronize/)
   * `undo` - Revert last change
   * `version` - Version details and copyright
 
 ## Customizable Reports
 
-[Customizable reports](/docs/report) can be modified to suit your needs.
-They all work in same manner, and mostly differ by the [columns](/docs/commands/columns) shown, the [filter](/docs/filter) applied, and the sorting performed.
+[Customizable reports](../report/) can be modified to suit your needs.
+They all work in same manner, and mostly differ by the [columns](columns/) shown, the [filter](../filter/) applied, and the sorting performed.
 
-Because all the customizable reports work in the same way, [the `list` report](/docs/commands/list) is the only report discussed.
+Because all the customizable reports work in the same way, [the `list` report](list/) is the only report discussed.
 
   * `active` - Started tasks
   * `all` - Pending, completed and deleted tasks
   * `blocked` - Tasks that are blocked by other tasks
   * `blocking` - Tasks that block other tasks
   * `completed` - Tasks that have been completed
-  * [`list` - Pending tasks](/docs/commands/list)
+  * [`list` - Pending tasks](list/)
   * `long` - Pending tasks, long form
   * `ls` - Pending tasks, short form
   * `minimal` - Pending tasks, minimal form
@@ -66,12 +66,12 @@ Because all the customizable reports work in the same way, [the `list` report](/
 
 The fixed reports have minimal customization, typically only color.
 
-  * [`burndown.daily` - Burndown chart, by day](/docs/commands/burndown)
-  * [`burndown.monthly` - Burndown chart, by month](/docs/commands/burndown)
-  * [`burndown.weekly` - Burndown chart, by week](/docs/commands/burndown)
+  * [`burndown.daily` - Burndown chart, by day](burndown/)
+  * [`burndown.monthly` - Burndown chart, by month](burndown/)
+  * [`burndown.weekly` - Burndown chart, by week](burndown/)
   * `calendar` - Calendar and holidays
   * `colors` - Demonstrates all supported colors
-  * [`columns` - List of report columns and supported formats](/docs/commands/columns)
+  * [`columns` - List of report columns and supported formats](columns/)
   * `commands` {{< label >}}2.5.0{{< /label >}} - List of commands, with their behaviors
   * `diagnostics` - Show diagnostics, for troubleshooting
   * `ghistory.annual` - History graph, by year
@@ -83,7 +83,7 @@ The fixed reports have minimal customization, typically only color.
   * `history.weekly` {{< label >}}2.6.0{{< /label >}} - History report, by week
   * `history.daily` - History report, by day
   * `ids` - Filtered list of task IDs
-  * [`information` - All attributes shown](/docs/commands/info)
+  * [`information` - All attributes shown](info/)
   * `projects` - Filtered list of projects, with task counts
   * `reports` - List of available reports
   * `show` - Filtered list of configuration settings
@@ -106,13 +106,13 @@ Helper commands are not intended for regular use, but there is no reason for tha
   * `_commands` - List of supported commands
   * `_config` - List of configuration setting names
   * `_context` - List of defined context names
-  * [`_get` - DOM accessor](/docs/commands/_get)
+  * [`_get` - DOM accessor](_get/)
   * `_ids` - Filtered list of task IDs
   * `_projects` - Filtered list of project names
   * `_show` - List of `name=value` configuration settings
   * `_tags` - Filtered list of tags in use
   * `_udas` - List of configured UDA names
-  * [`_unique` - {{< label >}}2.5.0{{< /label >}}   List of unique values for the specified attribute](/docs/commands/_unique)
+  * [`_unique` - {{< label >}}2.5.0{{< /label >}}   List of unique values for the specified attribute](_unique/)
   * `_urgency` - Filtered list of task urgencies
   * `_uuids` - Filtered list of pending UUIDs
   * `_version` - Task version (and optional git commit)

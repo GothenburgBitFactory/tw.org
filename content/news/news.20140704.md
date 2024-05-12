@@ -6,7 +6,7 @@ date: 2014-07-04
 ### Taskwarrior 2.4.0 Preview 
 
 The Taskwarrior 2.4.0 development branch has been unusable for a few weeks
-([mentioned here](/news/news.20140524)) while new functionality was integrated.
+([mentioned here](../news.20140524/)) while new functionality was integrated.
 It has been a long process, with about 750 code changes so far, but now all the tests are passing again.
 
 Does this mean it's ready for alpha and beta? No, not yet, because now there is a need for a lot of new tests to cover all the new functionality.
@@ -54,7 +54,7 @@ Additionally, the `info` command now shows how the urgency values are calculated
 #### Hooks
 
 The new hook system will allow a new class of extensions and add-ons.
-Just copy a script into your `~/.task/hooks` directory, give it the right name, and it will be run. [Design details here](/docs/hooks).
+Just copy a script into your `~/.task/hooks` directory, give it the right name, and it will be run. [Design details here](../../docs/hooks/).
 
 #### ISO-8601 Dates
 
@@ -68,7 +68,7 @@ $ task add Buy chair due:2014-154
 $ task add Buy table due:10:30
 ```
 
-There is now a more comprehensive set of [named dates](/docs/dates).
+There is now a more comprehensive set of [named dates](../../docs/dates/).
 
 #### ISO-8601 Durations
 
@@ -109,7 +109,7 @@ $ calc --postfix '3 2 * 1 +'
 7
 ```
 
-[Take a look here](/docs/commands/calc) at a more detailed look at the `calc` capabilities.
+[Take a look here](../../docs/commands/calc/) at a more detailed look at the `calc` capabilities.
 The `calc` command in Taskwarrior also has DOM access.
 
 #### Extended DOM

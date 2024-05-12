@@ -27,11 +27,11 @@ Focus then shifted to finishing up Tasksh 1.1.0 work.
 | 2016-08-16 | - [#39: Make timew more user-friendly by adding --help and default output](https://github.com/GothenburgBitFactory/timewarrior/issues/39) fixed |
 |            | - [#33: Work week not blocked off in charts](https://github.com/GothenburgBitFactory/timewarrior/issues/33) fixed                               |
 | 2016-08-18 | - libshared: Pig does a better job at bounds checking                                                                                           |
-| 2016-08-20 | - FrOSCon 2016: [Several presentations](/news/news.20160824)                                                                                    |
+| 2016-08-20 | - FrOSCon 2016: [Several presentations](../news.20160824/)                                                                                      |
 |            | - libshared: Pig can now extract substrings                                                                                                     |
 |            | - Taskserver: Add build type to docs                                                                                                            |
 |            | - Timewarrior: [https://timewarrior.net](https://timewarrior.net) launched                                                                      |
-| 2016-08-21 | - FrOSCon 2016: [Timewarrior 1.0.0 Released](/news/news.20160821)                                                                               |
+| 2016-08-21 | - FrOSCon 2016: [Timewarrior 1.0.0 Released](../news.20160821/)                                                                                 |
 | 2016-08-22 | - Taskwarrior: Updated error message to not refer to only pending tasks                                                                         |
 | 2016-08-24 | - [#120: Missing cmakedefine for HAVE_GET_CURRENT_DIR_NAME](https://github.com/GothenburgBitFactory/taskserver/issues/120) fixed                |
 |            | - [#1861: Cygwin build fails, missing get_current_dir_name](https://github.com/GothenburgBitFactory/taskwarrior/issues/1861) fixed              |

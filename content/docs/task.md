@@ -4,7 +4,7 @@ title: "Task Representation"
 # Tasks
 
 > The information here describes the task model exposed by TaskChampion.
-> See [the TaskChampion documentation](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/taskchampion/docs/src/tasks.md) for authoritative information.
+> See [the TaskChampion documentation](https://github.com/GothenburgBitFactory/taskchampion/blob/main/docs/src/tasks.md) for authoritative information.
 
 Tasks are stored internally as a key/value map with string keys and values.
 All fields are optional: the `Create` operation creates an empty task.

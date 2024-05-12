@@ -4,16 +4,16 @@ title: "Taskwarrior - FAQ"
 
 # FAQ - highlights from years of Q&A.
 
-Have a question that\'s not here? [Ask us...](mailto:support@taskwarrior.org)
+Have a question that's not here? [Ask us...](mailto:support@taskwarrior.org)
 
 ## Taskwarrior
 
 ### Q: How do I implement Pomodoro?
 
-Taskwarrior currently doesn\'t support the pomodoro technique, not because it doesn\'t have all the necessary features, but because it has no way to notify the user if a given point in time has arrived.
-Remember: most of the time, Taskwarrior isn\'t running.
+Taskwarrior currently doesn't support the pomodoro technique, not because it doesn't have all the necessary features, but because it has no way to notify the user if a given point in time has arrived.
+Remember: most of the time, Taskwarrior isn't running.
 
-You can however use the pomodoro timer or any other timer software (KTeaTimer, Gnome\'s Tea Timer, Gnome\'s pomodoro shell extension, pyStopWatch, or any of the many timers out there), together with taskwarrior to manage and prioritize your ToDo list.
+You can however use the pomodoro timer or any other timer software (KTeaTimer, Gnome's Tea Timer, Gnome's pomodoro shell extension, pyStopWatch, or any of the many timers out there), together with taskwarrior to manage and prioritize your ToDo list.
 
 ### Q: How do I remove an attribute?
 
@@ -21,7 +21,7 @@ Modify the attribute and give it a blank value:
 
     $ task 16 modify due:
 
-Taskwarrior doesn\'t store blank values, so it deletes the attribute.
+Taskwarrior doesn't store blank values, so it deletes the attribute.
 
 ### Q: How do I list tasks that have no project?
 
@@ -104,7 +104,7 @@ Here is how to see the 10 most recently completed or deleted tasks, with the mos
 ### Q: How do I improve output readability?
 
 You can use line breaks which allow blank lines between sort keys.
-See [Report](/docs/report/#custom-reports) for details.
+See [Report](../../docs/report/#custom-reports) for details.
 You can also use alternating line colors setting, which helps visually separate the tasks.
 
     $ task show color.alternate
@@ -152,7 +152,7 @@ On the Taskserver server:
 
 Generate a self-signed CA (use `taskd/pki/generate.ca`)
 
-Get a copy of your domain\'s TLS certificates from Lets Encrypt
+Get a copy of your domain's TLS certificates from Lets Encrypt
 
 Configure Taskserver:
 
@@ -187,14 +187,14 @@ For personal installations, it is easier just to regenerate the self-signed CA a
 I am looking to create a custom report that lists all pending tasks without a project and the single most urgent from each project.
 
 The report you describe is not possible as a single custom report because it combines multiple independent filters.
-It could be done as a series of separate reports (one for the project-less, one for each project), but that\'s not convenient.
+It could be done as a series of separate reports (one for the project-less, one for each project), but that's not convenient.
 
 What would be better is to instead write a script that automates all this, pulling together a list of task UUIDs and presenting one result report.
 Like this:
 
 <https://taskwarrior.org/download/gtdnext.sh>
 
-It\'s a bash script, and easily modifiable.
+It's a bash script, and easily modifiable.
 
 
 ### Q: Why have attribute modifiers (`urgency.over:10`) rather than the more readable and algebraic form (`urgency>10`)?
@@ -258,7 +258,7 @@ This will change all overdue tasks to be due today:
 
     $ task +OVERDUE mod due:today
 
-Depending on whether you want all overdue tasks or not, you\'ll need to adjust the filter.
+Depending on whether you want all overdue tasks or not, you'll need to adjust the filter.
 
 
 ### Q: How do I search for tasks?
@@ -294,7 +294,7 @@ As a security component, it is best for you to use the latest available version.
 ### Q: How can I include the time spent on a task in a custom report?
 
 Total active time is not a reportable field.
-It\'s not even a field, it\'s simply aggregated from the `undo.data` file.
+It's not even a field, it's simply aggregated from the `undo.data` file.
 As such it is a faithful account of how long a task was in the active state, but that is not what is needed for time tracking.
 
 Proper time tracking allows for corrections, and mining the `undo.data` file does not permit corrections.
@@ -373,7 +373,7 @@ Upon upgrading from Ubuntu 15.10 to 16.04 I am now seeing the following error me
     error while loading shared libraries: libgnutls-deb0.so.28: cannot open shared object file: No such file or directory
 
 Gnutls was already installed and had been working on my 15.10 installation for some time now.
-I attempted to fix it by uninstalling and reinstalling gnutls, but it still doesn\'t work.
+I attempted to fix it by uninstalling and reinstalling gnutls, but it still doesn't work.
 
 Your Taskwarrior was built using a version of GnuTLS that is no longer installed.
 If you built Taskwarrior from source, then rebuild.

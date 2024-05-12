@@ -50,7 +50,7 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 |            | - [#1797: one task eaten all my RAM](https://github.com/GothenburgBitFactory/taskwarrior/issues/1797) fixed                                                                                   |
 |            | - task: Found that tag attribute column width was never actually calculated                                                                                                                   |
 |            | - task: Found that line hyphenation has been broken for a long time                                                                                                                           |
-| 2016-02-24 | - task: [2.5.1 released](/news/news.20160224) which focused entirely on bug fixes and performance                                                                                             |
+| 2016-02-24 | - task: [2.5.1 released](../news.20160224/) which focused entirely on bug fixes and performance                                                                                               |
 |            | - task: 2.6.0 development begins, intending to greatly improve recurrence                                                                                                                     |
 |            | - task: Removed deprecated `alias._query` default                                                                                                                                             |
 | 2016-02-25 | - task: Eliminated `sprintf`                                                                                                                                                                  |

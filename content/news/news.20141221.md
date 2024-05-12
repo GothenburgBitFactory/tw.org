@@ -11,7 +11,7 @@ Up to, and including, Taskwarrior 2.3.0, the `shell` command implemented this fu
 Starting with Taskwarrior 2.4.0, there is no `shell` command.
 Instead, there is the `tasksh` project.
 
-[![Tasksh Demo](/images/tasksh.png)](/images/tasksh.png)
+[![Tasksh Demo](../../images/tasksh.png)](../../images/tasksh.png)
 
 The tasksh supports libreadline, although it can be built without it.
 Libreadline provides command history and command editing.

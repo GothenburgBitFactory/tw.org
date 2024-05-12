@@ -4,7 +4,7 @@ title: "Taskwarrior - Release History"
 
 # Release History
 
-This is a summary of the Taskwarrior [ChangeLog](https://github.com/GothenburgBitFactory/taskwarrior/blob/master/ChangeLog) file.
+This is a summary of the Taskwarrior [ChangeLog](https://github.com/GothenburgBitFactory/taskwarrior/blob/stable/ChangeLog) file.
 
 It is no longer updated.
 

@@ -18,7 +18,7 @@ Who knows what will emerge from this.
 Here are the first few workflow details.
 Clearly we have not learned what questions are important yet, or how to present the information, but this will change.
 
-[Taskwarrior workflow](/docs/workflow).
+[Taskwarrior workflow](../../docs/workflow/).
 
 Please tell us your workflow.
 It's almost certain that you have something unique to share.

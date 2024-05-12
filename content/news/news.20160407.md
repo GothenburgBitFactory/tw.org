@@ -13,4 +13,4 @@ A few tests were failing.
 But no major ones.
 Enjoy the screenshot and enjoy the thoughts of being able to abandon Cygwin soon, if you are using Taskwarrior on Windows.
 
-[![Bash on Ubuntu on Windows](/images/win10-thumb.png)](/images/win10.png)
+[![Bash on Ubuntu on Windows](../../images/win10-thumb.png)](../../images/win10.png)

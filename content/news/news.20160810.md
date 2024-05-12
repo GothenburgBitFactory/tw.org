@@ -21,7 +21,7 @@ July was spent mostly getting Timewarrior ready for beta.
 |            | - libshared: End of day is now `24:00:00` and not `23:59:59`                                                                                                |
 |            | - libshared: Week start is Monday, per isO-8601                                                                                                             |
 | 2016-07-03 | - [#17: Task spanning over whole day should show up as taking 24:00 instead of 23:59](https://github.com/GothenburgBitFactory/timewarrior/issues/17) fixed  |
-|            | - taskwarrior.org: The [tools page](/tools) now shows Github star ratings                                                                                   |
+|            | - taskwarrior.org: The [tools page](../../tools/) now shows Github star ratings                                                                             |
 |            | - Timewarrior: Added basic themes                                                                                                                           |
 | 2016-07-04 | - [#20: report command does not find extensions](https://github.com/GothenburgBitFactory/timewarrior/issues/20) fixed                                       |
 |            | - [#30: The 'day' chart crashes if there is an open interval and no others](https://github.com/GothenburgBitFactory/timewarrior/issues/30) fixed            |
@@ -42,5 +42,5 @@ July was spent mostly getting Timewarrior ready for beta.
 | 2016-07-23 | - Timewarrior: New extension script `totals.py`                                                                                                             |
 | 2016-07-24 | - Timewarrior: Errors now yield a non-zero exit code                                                                                                        |
 |            | - Timewarrior: Now detects `@id` range errors                                                                                                               |
-| 2016-07-25 | - Timewarrior: [beta release](/news/news.20160725)                                                                                                          |
+| 2016-07-25 | - Timewarrior: [beta release](../news.20160725/)                                                                                                            |
 | 2016-07-30 | - Timewarrior: The `totals.py` extension now obeys color settings                                                                                           |

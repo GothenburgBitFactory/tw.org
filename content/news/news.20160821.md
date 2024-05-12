@@ -10,31 +10,31 @@ Timewarrior tracks your time from the command line, and generates reports.
 Your data is stored locally in clear text.
 Integrates with Taskwarrior.
 
-![](/images/ti.png)
+![](../../images/ti.png)
 
 Here are the features in 1.0.0:
 
-- [Start/stop time tracking](https://timewarrior.net/docs/stopwatch)
-- [Historical time tracking](https://timewarrior.net/docs/track)
-- [Taskwarrior integration](https://timewarrior.net/docs/taskwarrior)
-- [Data correction commands](https://timewarrior.net/docs/corrections)
-- [Tagging of time blocks](https://timewarrior.net/docs/tags)
-- [Automatic 'fill' of the available time](https://timewarrior.net/docs/hints)
-- [Ability to define your work week, so that tracked time 'wraps' around your available time](https://timewarrior.net/docs/workweek)
-- [Vacations and holidays excluded from your work week](https://timewarrior.net/docs/holidays)
+- [Start/stop time tracking](https://timewarrior.net/docs/stopwatch/)
+- [Historical time tracking](https://timewarrior.net/docs/track/)
+- [Taskwarrior integration](https://timewarrior.net/docs/taskwarrior/)
+- [Data correction commands](https://timewarrior.net/docs/corrections/)
+- [Tagging of time blocks](https://timewarrior.net/docs/tags/)
+- [Automatic 'fill' of the available time](https://timewarrior.net/docs/hints/)
+- [Ability to define your work week, so that tracked time 'wraps' around your available time](https://timewarrior.net/docs/workweek/)
+- [Vacations and holidays excluded from your work week](https://timewarrior.net/docs/holidays/)
 - Holiday data from <https://holidata.net>
-- [Color themes (one built-in default, three others provided)](https://timewarrior.net/docs/themes)
-- [Visual charts representing day/week/month or custom date ranges](https://timewarrior.net/docs/charts)
-- [Summary and gap reporting](https://timewarrior.net/docs/summary)
-- [Command line overrides](https://timewarrior.net/docs/overrides)
-- [Reporting API for custom reports](https://timewarrior.net/docs/api)
+- [Color themes (one built-in default, three others provided)](https://timewarrior.net/docs/themes/)
+- [Visual charts representing day/week/month or custom date ranges](https://timewarrior.net/docs/charts/)
+- [Summary and gap reporting](https://timewarrior.net/docs/summary/)
+- [Command line overrides](https://timewarrior.net/docs/overrides/)
+- [Reporting API for custom reports](https://timewarrior.net/docs/api/)
 - Sample custom report `totals.py`
 - JSON data export
-- [Built-in help and man pages](https://timewarrior.net/docs/help)
-- [Uses the Taskwarrior support channels](/support)
+- [Built-in help and man pages](https://timewarrior.net/docs/help/)
+- [Uses the Taskwarrior support channels](../../support/)
 - Dedicated site <https://timewarrior.net>
-- [Full online documentation](https://timewarrior.net/docs)
-- [Detailed tutorial](https://timewarrior.net/docs/tutorial)
+- [Full online documentation](https://timewarrior.net/docs/)
+- [Detailed tutorial](https://timewarrior.net/docs/tutorial/)
 
 Timewarrior is a new project, and needs [your feedback](mailto:support@timewarrior.net).
 Please let us know how Timewarrior does and does not meet your needs.

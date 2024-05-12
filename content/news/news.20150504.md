@@ -6,7 +6,7 @@ date: 2015-04-04
 ### Taskserver 1.1.0 beta1 Released 
 
 Taskserver 1.1.0 is in beta, and we are asking you to please test this release in your environment.
-See https://taskwarrior.org/docs/taskserver/upgrade.html for instructions to upgrade your server.
+See https://taskwarrior.org/docs/taskserver/upgrade/ for instructions to upgrade your server.
 There have been a few changes:
 
 #### Configuration

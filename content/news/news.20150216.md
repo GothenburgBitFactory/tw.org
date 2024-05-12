@@ -23,5 +23,5 @@ Changes include:
 
 For full details, see the ChangeLog file included in the release.
 
-The release is immediately available as a source [tarball](/download/task-2.4.1.tar.gz).
+The release is immediately available as a source [tarball](../../download/task-2.4.1.tar.gz).
 Binary packages will soon be available via your Operating System's package manager.

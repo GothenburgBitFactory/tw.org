@@ -6,8 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="{{ .Site.Title }}">
-  <link rel="icon" href="{{ $baseUrl }}/favicon.ico">
+  <link rel="icon" href="{{ $baseUrl }}/images/favicon.ico">
   <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
   <link rel="stylesheet" href="{{ $baseUrl }}/css/highlight/{{ with .Site.Params.highlightStyle }}{{ . }}{{ else }}default{{ end }}.css">
   <link rel="stylesheet" href="{{ $baseUrl }}/css/bootstrap.min.css">
@@ -32,11 +31,11 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li {{ if ( eq $currentDir "/news" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/news">News</a></li>
-        <li {{ if ( eq $currentDir "/docs" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/docs">Docs</a></li>
-        <li {{ if ( eq $currentDir "/download" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/download">Download</a></li>
-        <li {{ if ( eq $currentDir "/support" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/support">Support</a></li>
-        <li {{ if ( eq $currentDir "/tools" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/tools">Tools</a></li>
+        <li {{ if ( hasSuffix $currentDir "/news" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/news/">News</a></li>
+        <li {{ if ( hasSuffix $currentDir "/docs" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/docs/">Docs</a></li>
+        <li {{ if ( hasSuffix $currentDir "/download" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/download/">Download</a></li>
+        <li {{ if ( hasSuffix $currentDir "/support" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/support/">Support</a></li>
+        <li {{ if ( hasSuffix $currentDir "/tools" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/tools/">Tools</a></li>
         {{ $url := .Permalink }}
         {{ with .Site.Menus.main }}
         {{ range $menu := . }}
@@ -44,6 +43,6 @@
         {{ end }}
         {{ end }}
       </ul>
-    </div><!--/.nav-collapse -->
+    </div>
   </div>
 </nav>

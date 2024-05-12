@@ -68,7 +68,7 @@ So the date 'socy' means 'start of current year'.
 There is redundancy in this table, and it exists for the sake of symmetry.
 For example, 'eom' and 'eocm' are always the same, but exist so that every date has a matching pair.
 
-[![](/images/year.png)](/images/year.png)
+[![](../../images/year.png)](../../images/year.png)
 
 ## Week Dates
 
@@ -87,7 +87,7 @@ The periods are indicated using 'd' (day), 'w' (week).
 
 Again, there is redundancy in the table, for the sake of symmetry.
 
-[![](/images/week.png)](/images/week.png)
+[![](../../images/week.png)](../../images/week.png)
 
 ## Calculated Dates
 

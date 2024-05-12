@@ -18,7 +18,7 @@ This new functionality needs to be refined before a beta release.
 
 The [Timewarrior bug tracker](https://github.com/GothenburgBitFactory/timewarrior/issues) is now open for business.
 
-Although comparatively minor, [Clog 1.3.0](/news/news.20160627) was released.
+Although comparatively minor, [Clog 1.3.0](../news.20160627/) was released.
 
 | Date       |                                                                                                                                              |
 |------------|----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -52,7 +52,7 @@ Although comparatively minor, [Clog 1.3.0](/news/news.20160627) was released.
 |            | - Timewarrior: Learned how to `join` intervals together                                                                                      |
 |            | - Timewarrior: Themes and holidays are now installed                                                                                         |
 | 2016-06-20 | - [#121: Log time in user's specified timezone](https://github.com/GothenburgBitFactory/taskserver/issues/121) fixed                         |
-|            | - Timewarrior [Timewarrior 0.9.5 alpha](/news/news.20160620) released                                                                        |
+|            | - Timewarrior [Timewarrior 0.9.5 alpha](../news.20160620/) released                                                                          |
 | 2016-06-22 | - Timewarrior: Fixed missing file install bug                                                                                                |
 | 2016-06-23 | - [#: The suppress context doesn't suppress the newline character](https://github.com/GothenburgBitFactory/clog/issues) fixed                |
 | 2016-06-24 | - [#: Overlapping rules are not respected](https://github.com/GothenburgBitFactory/clog/issues) fixed                                        |
@@ -63,11 +63,11 @@ Although comparatively minor, [Clog 1.3.0](/news/news.20160627) was released.
 |            | - libshared: Integrated Lexer from Timewarrior                                                                                               |
 |            | - Task: Began integration of libshared                                                                                                       |
 | 2016-06-26 | - Taskserver: Integrated libshared                                                                                                           |
-|            | - Taskwarrior.org: Added all [Timewarrior docs](https://timewarrior.net/docs)                                                                |
-|            | - Taskwarrior.org: Added all [Clog docs](/docs/clog)                                                                                         |
+|            | - Taskwarrior.org: Added all [Timewarrior docs](https://timewarrior.net/docs/)                                                               |
+|            | - Taskwarrior.org: Added all [Clog docs](https://gothenburgbitfactory.org/clog/docs/)                                                        |
 | 2016-06-27 | - [#: clog; nested include files](https://github.com/GothenburgBitFactory/clog/issues) fixed                                                 |
 |            | - Clog: Test suite grew to include rules parsing tests                                                                                       |
-|            | - [Clog: 1.3.0 released](/news/news.20160627)                                                                                                |
+|            | - [Clog: 1.3.0 released](../news.20160627/)                                                                                                  |
 | 2016-06-28 | - [#24: Should handle case where taskwarrior hook is used before timew](https://github.com/GothenburgBitFactory/timewarrior/issues/24) fixed |
 |            | - Timewarrior: The `rc.reports.<type>.totals` now controls the 'Totals' label                                                                |
 |            | - Timewarrior: Fixed out of source builds                                                                                                    |

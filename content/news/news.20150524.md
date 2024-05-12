@@ -5,6 +5,6 @@ date: 2015-05-24
 
 ### Taskwarrior Live Demo 
 
-Try Taskwarrior [live in your browser](https://wbsch.de/jswarrior).
+Try Taskwarrior [live in your browser](https://www.wbsch.de/jswarrior/).
 
-[![Live Demo](/images/live_demo-thumb.png)](/images/live_demo.png)
+[![Live Demo](../../images/live_demo-thumb.png)](../../images/live_demo.png)

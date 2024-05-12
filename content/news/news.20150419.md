@@ -5,7 +5,7 @@ date: 2015-04-19
 
 ### Taskwarrior 2.4.3 Released 
 
-User Defined Attributes ([UDAs](/docs/udas)) have been enhanced so that type `string` attributes may now designate the sort order of allowed values.
+User Defined Attributes ([UDAs](../../docs/udas/)) have been enhanced so that type `string` attributes may now designate the sort order of allowed values.
 This enhancement permits the migration of the `priority` attribute to a UDA.
 This means you may now define your own priority levels, sorting and urgency coefficients.
 
@@ -15,7 +15,7 @@ The next release will likely take a little longer as we shift focus to Taskserve
 Although this is a minor release, there are significant bug fixes and new features make this a recommended upgrade.
 Changes include:
 
-- [Hooks API v2](/docs/hooks2), which is backwards compatible with v1.
+- [Hooks API v2](../../docs/hooks2/), which is backwards compatible with v1.
   This allows hooks to be more aware of the context in which they are run.
 - Default values no longer are applied to recurring tasks.
 - Default values no longer are applied to synced tasks.
@@ -36,5 +36,5 @@ Changes include:
 
 For full details, see the ChangeLog file included in the release.
 
-The release is immediately available as a source [tarball](/download/task-2.4.3.tar.gz).
+The release is immediately available as a source [tarball](../../download/task-2.4.3.tar.gz).
 Binary packages will soon be available via your Operating System's package manager.

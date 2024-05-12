@@ -25,20 +25,20 @@ Five good reasons to use Taskwarrior
    Taskwarrior uses a natural and expressive command line syntax.
 
 2. Taskwarrior is methodology-neutral.
-   Whether you follow [GTD](https://gettingthingsdone.com), use the [Pomodoro technique](http://pomodorotechnique.com), or just do whatever works for you, Taskwarrior provides capabilities to help you, not restrict you.
+   Whether you follow [GTD](https://gettingthingsdone.com), use the [Pomodoro technique](https://www.pomodorotechnique.com/), or just do whatever works for you, Taskwarrior provides capabilities to help you, not restrict you.
 
-3. Taskwarrior has an active and friendly community, providing support and various forms of help to new and experienced users. [Start here](/support) for a list of support options.
-   Need an immediate answer - check your man pages and [online docs](/docs).
+3. Taskwarrior has an active and friendly community, providing support and various forms of help to new and experienced users. [Start here](../../support/) for a list of support options.
+   Need an immediate answer - check your man pages and [online docs](../).
    Need to ask someone a question? try IRC #taskwarrior on libera.chat.
 
 4. Taskwarrior is open in as many ways as it can be:
    - It is [free and open source](https://github.com/GothenburgBitFactory/taskwarrior), using the MIT license
    - It uses human-readable text files for storage.
-     It imports and exports [JSON](https://github.com/GothenburgBitFactory/taskwarrior/tree/develop/doc/devel/rfcs/task.md), so your data is never held captive
-   - There is [DOM](/docs/dom) access and a [Hook script API](/docs/hooks)
-   - There are many available free and open [extension scripts](/tools)
-   - There is [Vit](https://gothenburgbitfactory.org/projects/vit), a curses-based UI
-   - There is [BugWarrior](https://github.com/ralphbean/bugwarrior), so you can import your bug issues from a dozen different bug systems
+     It imports and exports [JSON](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/task.md), so your data is never held captive
+   - There is [DOM](../dom/) access and a [Hook script API](../hooks/)
+   - There are many available free and open [extension scripts](../../tools/)
+   - There is [Vit](https://gothenburgbitfactory.org/projects/vit/), a curses-based UI
+   - There is [BugWarrior](https://github.com/GothenburgBitFactory/bugwarrior), so you can import your bug issues from a dozen different bug systems
 
 5. Taskwarrior is an active, vibrant project.
    In the last year, it has averaged 5.58 changes per day.
@@ -102,9 +102,9 @@ There are several ways for you to get a copy of Taskwarrior:
 - Install a binary package.
   Your operating system probably already has a binary package available.
   These packages are usually named 'task'.
-- Download a release tarball, from [here](/download), then make sure you have libuuid-dev (maybe called uuid-dev) and gnutls-dev installed.
-  Then using cmake, GCC 4.7 / Clang 3.3, [build Taskwarrior](/docs/build).
-- Using [git](https://git-scm.com), clone the code repository, switch to the current development branch, and [build Taskwarrior](/docs/build).
+- Download a release tarball, from [here](../../download/), then make sure you have libuuid-dev (maybe called uuid-dev) and gnutls-dev installed.
+  Then using cmake, GCC 4.7 / Clang 3.3, [build Taskwarrior](../build/).
+- Using [git](https://git-scm.com), clone the code repository, switch to the current development branch, and [build Taskwarrior](../build/).
 
 ## What's next?
 
@@ -119,6 +119,6 @@ Perhaps you are missing due dates, and need more defined deadlines.
 Perhaps you need to make greater use of tags to help you filter tasks differently.
 You'll know if your workflow is not really helping you as much as it could.
 
-This is when you might look closer at the [docs](/docs) and the recommended [Best Practices](/docs/best-practices).
+This is when you might look closer at the [docs](../) and the recommended [Best Practices](../best-practices/).
 
 Welcome to Taskwarrior.

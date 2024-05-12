@@ -15,8 +15,3 @@ One nice side effect of using a Taskserver is an automatic backup of your tasks.
 ## Why Would I Want a *Personal* Taskserver?
 
 Setting up your own Taskserver means having complete control and privacy.
-
-## Hosted Taskserver Accounts
-
-There are now hosted Taskserver accounts where you can sync your tasks without needing to set up and maintain a personal Taskserver.
-See our [tools services](/tools/#services) section.

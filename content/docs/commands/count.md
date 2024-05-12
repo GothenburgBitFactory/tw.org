@@ -19,10 +19,10 @@ $ task status:pending count
 32
 ```
 
-If a [context](/docs/context) is active, the `count` command obeys it.
+If a [context](../../context/) is active, the `count` command obeys it.
 
 ## See Also
 
 Other ways of counting tasks include:
 
-- [`_unique`](/docs/commands/_unique) command
+- [`_unique`](../_unique/) command

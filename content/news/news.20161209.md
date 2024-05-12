@@ -5,7 +5,7 @@ date: 2016-12-09
 
 ### In-House Talk and Workshop at TNG Technology Consulting 
 
-[![TNG Technology Consulting](/images/tng.png)](https://www.tngtech.com)
+[![TNG Technology Consulting](../../images/tng.png)](https://www.tngtech.com)
 
 TNG Technology Consulting GmbH, of Unterföhring Germany, hosted an internal event "Techday" on December 9th, which is a regular occurrence at TNG.
 

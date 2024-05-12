@@ -4,7 +4,7 @@ title: "Taskwarrior - Prepend"
 
 # prepend
 
-The `prepend` command is a way to add words to the beginning of a task description, and it mirrors the [`append`](/docs/commands/append) command:
+The `prepend` command is a way to add words to the beginning of a task description, and it mirrors the [`append`](../append/) command:
 
 ```
 $ task add sandwich
@@ -26,5 +26,5 @@ ID Age  Project Description             Urg
 
 Other ways of modifying task descriptions include:
 
-- [`modify`](/docs/commands/modify) command
-- [`append`](/docs/commands/append) command
+- [`modify`](../modify/) command
+- [`append`](../append/) command

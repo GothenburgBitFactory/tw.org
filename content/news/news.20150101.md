@@ -50,5 +50,5 @@ For full details, see the ChangeLog file included in the release.
 
 Look for a series of new online documents over the coming days, highlighting some of the new functionality.
 
-The release is immediately available as a source [tarball](/download/task-2.4.0.tar.gz).
+The release is immediately available as a source [tarball](../../download/task-2.4.0.tar.gz).
 Binary packages will soon be available via your Operating System's package manager.

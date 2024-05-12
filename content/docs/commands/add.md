@@ -63,6 +63,6 @@ These are created automatically.
 
 Other ways of creating tasks include:
 
-- [`log`](/docs/commands/log) command
+- [`log`](../log/) command
 - `duplicate` command
 - `import` command

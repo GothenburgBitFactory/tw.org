@@ -12,7 +12,7 @@ For example, here is a recurring task that recurs every monday:
 
 The value `monday` is interpreted as 'next monday', and the value `weekly` is interpreted as a 7-day duration.
 
-The other place where durations are supported directly is with [UDA attributes](/docs/udas) of type `duration`.
+The other place where durations are supported directly is with [UDA attributes](../udas/) of type `duration`.
 
 ## Relative Date
 

@@ -63,5 +63,5 @@ The details needed are:
 - The organization, `Public`.
 - The full and proper username, `First Last`.
 - The server address and port, `host.domain:53589`.
-  In the [server configuration](/docs/taskserver/configure) we used `localhost` as an example.
+  In the [server configuration](../configure/) we used `localhost` as an example.
   Whatever you actually used there, should be used here.

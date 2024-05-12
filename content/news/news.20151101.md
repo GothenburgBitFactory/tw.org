@@ -36,7 +36,7 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 |            | - Tasksh: The `exec` (or `!`) command is now complete                                                                                                |
 |            | - Tasksh: The `review` command now takes a numeric argument indicating how many tasks should be reviewed, e.g. `review 10`                           |
 |            | - [#1740: on-modify hooks fail if `date.iso` is not set](https://github.com/GothenburgBitFactory/taskwarrior/issues/1740) fixed                      |
-| 2015-10-21 | - [Task: 2.5.0 released](/news/news.20151021)                                                                                                        |
+| 2015-10-21 | - [Task: 2.5.0 released](../news.20151021/)                                                                                                          |
 |            | - Task: 2.5.1 begins, which will be a bugfix and performance release                                                                                 |
 | 2015-10-24 | - Task: JSON decoder performance increased                                                                                                           |
 | 2015-10-28 | - Task: Code test coverage raised to 90.6%, which helps find problems                                                                                |
