@@ -6,7 +6,7 @@ import os
 import sys
 import time
 from enum import IntEnum
-from github import Github
+from github import Github, GithubException
 from json import JSONDecodeError
 
 
@@ -95,19 +95,24 @@ def search_github(names, keywords):
             log_debug("Found {} repositories", repos.totalCount)
             total += repos.totalCount
 
-            for repo in repos:
-                if len(results) % 30 == 0:
-                    rate_limits = client.get_rate_limit()
-                    log_debug("Rate limits:\n- core: {}\n- search: {}", rate_limits.core, rate_limits.search)
-                    calculate_sleep_search(rate_limits)
+            try:
+                for repo in repos:
+                    if len(results) % 30 == 0:
+                        rate_limits = client.get_rate_limit()
+                        log_debug("Rate limits:\n- core: {}\n- search: {}", rate_limits.core, rate_limits.search)
+                        log_debug("Rate limits: {}", rate_limits.raw_data)
+                        calculate_sleep_search(rate_limits)
 
-                results.append(from_github_repo(repo))
-                log_debug("Adding '{}' as {}/{}", repo.html_url, len(results), total)
+                    results.append(from_github_repo(repo))
+                    log_debug("Adding '{}' as {}/{}", repo.html_url, len(results), total)
 
-                sleep_period = calculate_sleep_core(repo.raw_headers)
+                    sleep_period = calculate_sleep_core(repo.raw_headers)
 
-                log_debug("Sleeping {:.3f} s", sleep_period)
-                time.sleep(sleep_period)
+                    log_debug("Sleeping {:.3f} s", sleep_period)
+                    time.sleep(sleep_period)
+            except GithubException as e:
+                log_error("Encountered exception {} with headers {}", e, e.headers)
+                raise e
 
     log_info("Received {} entries from GitHub", len(results))
 
