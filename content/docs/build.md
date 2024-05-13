@@ -14,6 +14,8 @@ You'll need these tools:
 - [CMake](https://cmake.org)
 - make
 - C++ compiler, currently gcc 4.7+ or clang 3.3+ for full C++11 support
+- rustc
+- cargo
 - Python 2.7 or later (for tests)
 - Bash (for tests)
 
