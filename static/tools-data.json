@@ -598,7 +598,7 @@
       "CCExtractor"
     ],
     "rating": 86,
-    "updated": "2024-05-15",
+    "updated": "2024-05-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -3732,7 +3732,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 376,
+    "rating": 377,
     "updated": "2024-04-28",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5068,7 +5068,7 @@
       "dghaehre"
     ],
     "rating": 2,
-    "updated": "2024-05-14",
+    "updated": "2024-05-16",
     "url": "https://github.com/dghaehre/taskwarriorweb"
   },
   {
@@ -7572,7 +7572,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1345,
+    "rating": 1347,
     "updated": "2024-05-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8818,7 +8818,7 @@
       "maxjoehnk"
     ],
     "rating": 18,
-    "updated": "2024-05-15",
+    "updated": "2024-05-16",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -9297,7 +9297,7 @@
     "owner": [
       "mpoquet"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2019-05-01",
     "url": "https://github.com/mpoquet/taskwarrior-scripts"
   },
@@ -10872,7 +10872,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -12237,7 +12237,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 515,
+    "rating": 517,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -12342,7 +12342,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 815,
+    "rating": 816,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -12702,7 +12702,7 @@
     "owner": [
       "voidcase"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2020-06-26",
     "url": "https://github.com/voidcase/taskseq"
   },
