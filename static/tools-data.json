@@ -583,7 +583,7 @@
       "BrawlerXull"
     ],
     "rating": 0,
-    "updated": "2024-05-15",
+    "updated": "2024-05-17",
     "url": "https://github.com/BrawlerXull/Taskwarrior-GetX"
   },
   {
@@ -1123,7 +1123,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 720,
-    "updated": "2024-05-15",
+    "updated": "2024-05-17",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -3032,6 +3032,21 @@
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
+    "description": "reward system for taskwarrior",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "gold",
+    "owner": [
+      "adamschmalhofer"
+    ],
+    "rating": 0,
+    "updated": "2018-09-23",
+    "url": "https://github.com/adamschmalhofer/gold"
+  },
+  {
     "description": "Make and maintain a daily pushups routine via taskwarrior and pgp integration",
     "dormant": true,
     "language": [
@@ -3732,7 +3747,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 377,
+    "rating": 378,
     "updated": "2024-04-28",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5068,7 +5083,7 @@
       "dghaehre"
     ],
     "rating": 2,
-    "updated": "2024-05-16",
+    "updated": "2024-05-17",
     "url": "https://github.com/dghaehre/taskwarriorweb"
   },
   {
@@ -6452,21 +6467,6 @@
     "url": "https://github.com/husjon/polybar_module-taskwarrior"
   },
   {
-    "description": "reward system for taskwarrior",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "gold",
-    "owner": [
-      "hut"
-    ],
-    "rating": 2,
-    "updated": "2015-09-14",
-    "url": "https://github.com/hut/gold"
-  },
-  {
     "description": null,
     "dormant": false,
     "language": [
@@ -7572,7 +7572,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1347,
+    "rating": 1348,
     "updated": "2024-05-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8818,7 +8818,7 @@
       "maxjoehnk"
     ],
     "rating": 18,
-    "updated": "2024-05-16",
+    "updated": "2024-05-17",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -10048,7 +10048,7 @@
       "ogarcia"
     ],
     "rating": 81,
-    "updated": "2024-02-01",
+    "updated": "2024-05-17",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
