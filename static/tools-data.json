@@ -583,7 +583,7 @@
       "BrawlerXull"
     ],
     "rating": 0,
-    "updated": "2024-05-18",
+    "updated": "2024-05-19",
     "url": "https://github.com/BrawlerXull/Taskwarrior-GetX"
   },
   {
@@ -1122,7 +1122,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 720,
+    "rating": 721,
     "updated": "2024-05-17",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1137,7 +1137,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 58,
+    "rating": 60,
     "updated": "2024-05-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -3747,7 +3747,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 378,
+    "rating": 379,
     "updated": "2024-04-28",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4302,7 +4302,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 86,
+    "rating": 87,
     "updated": "2024-01-05",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -7788,7 +7788,7 @@
   },
   {
     "description": "A simple Taskwarrior hook allowing one to track total time spent on a task.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -10048,7 +10048,7 @@
       "ogarcia"
     ],
     "rating": 81,
-    "updated": "2024-05-17",
+    "updated": "2024-05-19",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
   {
@@ -12237,7 +12237,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 518,
+    "rating": 519,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
