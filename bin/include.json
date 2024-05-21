@@ -1,6 +1,7 @@
 {
   "manual": [
     {
+      "archived": false,
       "description": "These are the format conversion scripts formerly included with Taskwarrior releases, but now moved online.<ul><li><small><a href=\"https://taskwarrior.org/download/export-csv.pl\">export-csv.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-html.pl\">export-html.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-ical.pl\">export-ical.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-sql.py\">export-sql.py</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-tsv.pl\">export-tsv.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-xml.pl\">export-xml.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-xml.py\">export-xml.py</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-xml.rb\">export-xml.rb</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-yad.pl\">export-yad.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/export-yaml.pl\">export-yaml.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/import-todo.sh.pl\">import-todo.sh.pl</a></small></li><li><small><a href=\"https://taskwarrior.org/download/import-yaml.pl\">import-yaml.pl</a></small></li></ul>",
       "dormant": false,
       "language": [
@@ -18,6 +19,7 @@
       "url": null
     },
     {
+      "archived": false,
       "description": "An fzf based UI for taskwarrior, implemented as a /bin/sh script.",
       "dormant": false,
       "language": [ "Bash" ],
@@ -31,6 +33,7 @@
       "url": "https://gitlab.com/doronbehar/taskwarrior-fzf"
     },
     {
+      "archived": false,
       "description": "TaskwarriorGPT: an AI Assistant for Taskwarrior Users",
       "dormant": false,
       "language": [ "ChatGPT" ],
