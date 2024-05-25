@@ -157,7 +157,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2016-04-13",
     "url": "https://github.com/8ware/task-gantt"
   },
@@ -3997,7 +3997,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 380,
+    "rating": 381,
     "updated": "2024-04-28",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5518,7 +5518,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-05-23",
+    "updated": "2024-05-24",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -6564,7 +6564,7 @@
   {
     "archived": false,
     "description": "Python reporting and front end for Taskwarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -6574,7 +6574,7 @@
       "grovesteyn"
     ],
     "rating": 33,
-    "updated": "2013-10-31",
+    "updated": "2024-05-24",
     "url": "https://github.com/grovesteyn/tchart"
   },
   {
@@ -7837,7 +7837,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 348,
+    "rating": 349,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9998,7 +9998,7 @@
       "mrusme"
     ],
     "rating": 56,
-    "updated": "2024-05-20",
+    "updated": "2024-05-24",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -12675,6 +12675,22 @@
   },
   {
     "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "HTML"
+    ],
+    "license": null,
+    "name": "api-taskwarrior-pytest",
+    "owner": [
+      "sumant326541"
+    ],
+    "rating": 0,
+    "updated": "2024-05-24",
+    "url": "https://github.com/sumant326541/api-taskwarrior-pytest"
+  },
+  {
+    "archived": false,
     "description": "experimental implementation of GTD with Taskwarrior and vit",
     "dormant": true,
     "language": [
@@ -13326,7 +13342,7 @@
       "ulrichschinz"
     ],
     "rating": 0,
-    "updated": "2024-05-23",
+    "updated": "2024-05-24",
     "url": "https://github.com/ulrichschinz/taskwarrior"
   },
   {
