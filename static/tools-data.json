@@ -622,7 +622,7 @@
       "BrawlerXull"
     ],
     "rating": 0,
-    "updated": "2024-05-19",
+    "updated": "2024-05-26",
     "url": "https://github.com/BrawlerXull/Taskwarrior-GetX"
   },
   {
@@ -1278,7 +1278,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 61,
-    "updated": "2021-07-25",
+    "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
   {
@@ -4125,7 +4125,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 245,
+    "rating": 246,
     "updated": "2024-04-09",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -5518,7 +5518,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-05-25",
+    "updated": "2024-05-26",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -6803,6 +6803,22 @@
   },
   {
     "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwarrior",
+    "owner": [
+      "hroonr"
+    ],
+    "rating": 0,
+    "updated": "2024-05-26",
+    "url": "https://github.com/hroonr/taskwarrior"
+  },
+  {
+    "archived": false,
     "description": "Simple utility plugin for taskwarrior in Neovim",
     "dormant": false,
     "language": [
@@ -7837,7 +7853,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 349,
+    "rating": 350,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -11597,7 +11613,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 70,
+    "rating": 71,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -13181,7 +13197,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 816,
+    "rating": 818,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -13565,7 +13581,7 @@
     "owner": [
       "voidcase"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2020-06-26",
     "url": "https://github.com/voidcase/taskseq"
   },
