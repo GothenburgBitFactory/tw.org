@@ -622,7 +622,7 @@
       "BrawlerXull"
     ],
     "rating": 0,
-    "updated": "2024-05-27",
+    "updated": "2024-05-28",
     "url": "https://github.com/BrawlerXull/Taskwarrior-GetX"
   },
   {
@@ -637,7 +637,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 89,
+    "rating": 90,
     "updated": "2024-05-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1197,7 +1197,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 721,
+    "rating": 722,
     "updated": "2024-05-23",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1438,7 +1438,7 @@
       "HiveMinds"
     ],
     "rating": 17,
-    "updated": "2023-09-25",
+    "updated": "2024-05-28",
     "url": "https://github.com/HiveMinds/tw-install"
   },
   {
@@ -3997,7 +3997,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 381,
+    "rating": 382,
     "updated": "2024-04-28",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -12868,7 +12868,7 @@
   {
     "archived": false,
     "description": "Create a taskwarrior/tmux/xterm session with multiple reports and refreshing",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -13533,7 +13533,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 470,
+    "rating": 471,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
