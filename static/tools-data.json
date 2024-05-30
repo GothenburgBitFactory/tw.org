@@ -622,7 +622,7 @@
       "BrawlerXull"
     ],
     "rating": 0,
-    "updated": "2024-05-28",
+    "updated": "2024-05-29",
     "url": "https://github.com/BrawlerXull/Taskwarrior-GetX"
   },
   {
@@ -5518,7 +5518,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-05-26",
+    "updated": "2024-05-29",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7058,6 +7058,22 @@
     "url": "https://github.com/isaacs4m/taskwarrior-purge"
   },
   {
+    "archived": false,
+    "description": "Built for Taskserver Project in GSoC'24 @CCExtractor",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "ccsync",
+    "owner": [
+      "its-me-abhishek"
+    ],
+    "rating": 0,
+    "updated": "2024-05-29",
+    "url": "https://github.com/its-me-abhishek/ccsync"
+  },
+  {
     "archived": true,
     "description": null,
     "dormant": true,
@@ -7853,7 +7869,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 350,
+    "rating": 351,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8093,7 +8109,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1352,
+    "rating": 1353,
     "updated": "2024-05-20",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9629,7 +9645,7 @@
     "owner": [
       "mikebobroski"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2017-12-22",
     "url": "https://github.com/mikebobroski/tasknote"
   },
