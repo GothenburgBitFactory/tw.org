@@ -35,6 +35,22 @@
   },
   {
     "archived": false,
+    "description": "Painless chained recurrence for Taskwarrior.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "ISC License",
+    "name": "Taskwarrior-Chained",
+    "owner": [
+      "Matt-Deacalion"
+    ],
+    "rating": 1,
+    "updated": "2023-08-26",
+    "url": "https://codeberg.org/Dokana/Taskwarrior-Chained"
+  },
+  {
+    "archived": false,
     "description": "Taskwarrior and Timewarrior config using XDG, as much as they allow",
     "dormant": false,
     "language": [
@@ -638,7 +654,7 @@
       "CCExtractor"
     ],
     "rating": 91,
-    "updated": "2024-05-16",
+    "updated": "2024-06-01",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1213,7 +1229,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 62,
+    "rating": 63,
     "updated": "2024-05-31",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -1856,22 +1872,6 @@
     "rating": 0,
     "updated": "2017-11-24",
     "url": "https://github.com/Mange/new-task-gtk"
-  },
-  {
-    "archived": false,
-    "description": "Painless chained recurrence for Taskwarrior.",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "Taskwarrior-Chained",
-    "owner": [
-      "Matt-Deacalion"
-    ],
-    "rating": 5,
-    "updated": "2023-07-04",
-    "url": "https://github.com/Matt-Deacalion/Taskwarrior-Chained"
   },
   {
     "archived": false,
@@ -3587,6 +3587,22 @@
   },
   {
     "archived": false,
+    "description": "config files for i3 - spectrwm - taskwarrior etc",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "linux_configs",
+    "owner": [
+      "amirhosseinkarimi7"
+    ],
+    "rating": 0,
+    "updated": "2024-06-01",
+    "url": "https://github.com/amirhosseinkarimi7/linux_configs"
+  },
+  {
+    "archived": false,
     "description": "Taskwarrior git sync hooks",
     "dormant": true,
     "language": [
@@ -4724,7 +4740,7 @@
   {
     "archived": false,
     "description": "Sends reminders for tasks from Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -4834,7 +4850,7 @@
     "url": "https://github.com/coaxial/docker-taskserver"
   },
   {
-    "archived": false,
+    "archived": true,
     "description": "Access your Taskwarrior tasks from any browser anywhere",
     "dormant": false,
     "language": [
@@ -5518,7 +5534,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-05-31",
+    "updated": "2024-06-02",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7070,7 +7086,7 @@
       "its-me-abhishek"
     ],
     "rating": 0,
-    "updated": "2024-05-31",
+    "updated": "2024-06-01",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -8109,7 +8125,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1353,
+    "rating": 1354,
     "updated": "2024-05-20",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10029,7 +10045,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 57,
+    "rating": 58,
     "updated": "2024-05-31",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -13101,7 +13117,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 520,
+    "rating": 521,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
