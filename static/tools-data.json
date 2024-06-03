@@ -653,8 +653,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 91,
-    "updated": "2024-06-01",
+    "rating": 92,
+    "updated": "2024-06-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1229,8 +1229,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 63,
-    "updated": "2024-05-31",
+    "rating": 64,
+    "updated": "2024-06-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -4013,7 +4013,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 383,
+    "rating": 384,
     "updated": "2024-04-28",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4416,22 +4416,6 @@
     "rating": 9,
     "updated": "2021-03-25",
     "url": "https://github.com/brutus/taskwarrior-local"
-  },
-  {
-    "archived": false,
-    "description": "Taskguardian is a taskwarrior (https://taskwarrior.org/) Web UI build in Svelte",
-    "dormant": false,
-    "language": [
-      "Svelte"
-    ],
-    "license": "MIT License",
-    "name": "taskguardian",
-    "owner": [
-      "bsiebens"
-    ],
-    "rating": 2,
-    "updated": "2023-06-19",
-    "url": "https://github.com/bsiebens/taskguardian"
   },
   {
     "archived": false,
@@ -6845,7 +6829,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2024-05-10",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -7086,7 +7070,7 @@
       "its-me-abhishek"
     ],
     "rating": 0,
-    "updated": "2024-06-01",
+    "updated": "2024-06-02",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
