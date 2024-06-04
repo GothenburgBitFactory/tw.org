@@ -3283,6 +3283,22 @@
   },
   {
     "archived": false,
+    "description": "Python Based Automation of CLI application and REST API endpoints ",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "cli-taskwarrior-and-restapi-automation",
+    "owner": [
+      "ak-arsalan"
+    ],
+    "rating": 0,
+    "updated": "2024-06-03",
+    "url": "https://github.com/ak-arsalan/cli-taskwarrior-and-restapi-automation"
+  },
+  {
+    "archived": false,
     "description": "Julia Wrapper for Taskwarrior",
     "dormant": true,
     "language": [
@@ -4141,7 +4157,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 247,
+    "rating": 248,
     "updated": "2024-04-09",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -7070,7 +7086,7 @@
       "its-me-abhishek"
     ],
     "rating": 0,
-    "updated": "2024-06-02",
+    "updated": "2024-06-03",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -8109,8 +8125,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1354,
-    "updated": "2024-05-20",
+    "rating": 1353,
+    "updated": "2024-06-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -11678,7 +11694,7 @@
       "rmonico"
     ],
     "rating": 5,
-    "updated": "2024-05-10",
+    "updated": "2024-06-03",
     "url": "https://github.com/rmonico/itask"
   },
   {
@@ -13549,7 +13565,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 471,
+    "rating": 472,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
