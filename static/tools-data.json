@@ -7085,8 +7085,8 @@
     "owner": [
       "its-me-abhishek"
     ],
-    "rating": 0,
-    "updated": "2024-06-05",
+    "rating": 1,
+    "updated": "2024-06-06",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -10128,22 +10128,6 @@
     "rating": 0,
     "updated": "2023-12-30",
     "url": "https://github.com/muazzammullah/Wrapper_for_TaskWarrior"
-  },
-  {
-    "archived": false,
-    "description": "add toggl integration to taskwarrior",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "Apache License 2.0",
-    "name": "toggl4taskwarrior",
-    "owner": [
-      "mverburg"
-    ],
-    "rating": 0,
-    "updated": "2021-08-06",
-    "url": "https://github.com/mverburg/toggl4taskwarrior"
   },
   {
     "archived": false,
