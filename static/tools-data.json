@@ -653,7 +653,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 92,
+    "rating": 93,
     "updated": "2024-06-05",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -813,7 +813,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 171,
+    "rating": 172,
     "updated": "2024-04-17",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1213,8 +1213,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 724,
-    "updated": "2024-05-23",
+    "rating": 725,
+    "updated": "2024-06-07",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1245,7 +1245,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 146,
+    "rating": 147,
     "updated": "2024-01-02",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1758,7 +1758,7 @@
       "LanHikari22"
     ],
     "rating": 1,
-    "updated": "2023-12-26",
+    "updated": "2024-06-07",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -4029,7 +4029,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 384,
+    "rating": 385,
     "updated": "2024-04-28",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4605,7 +4605,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 88,
+    "rating": 89,
     "updated": "2024-01-05",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -4925,7 +4925,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 284,
+    "rating": 285,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -5526,7 +5526,7 @@
     "description": "Four Years Productivity Manager: A productivity manager for the Four Year Workflow.",
     "dormant": false,
     "language": [
-      "Shell"
+      "Rust"
     ],
     "license": null,
     "name": "fypm",
@@ -5534,7 +5534,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-06-05",
+    "updated": "2024-06-07",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -6932,7 +6932,7 @@
   {
     "archived": false,
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "PHP"
     ],
@@ -7086,7 +7086,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-06",
+    "updated": "2024-06-07",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -8125,7 +8125,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1355,
+    "rating": 1356,
     "updated": "2024-06-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10046,7 +10046,7 @@
       "mrusme"
     ],
     "rating": 58,
-    "updated": "2024-05-31",
+    "updated": "2024-06-07",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -10654,7 +10654,7 @@
       "nolash"
     ],
     "rating": 0,
-    "updated": "2023-04-30",
+    "updated": "2024-06-07",
     "url": "https://github.com/nolash/feedwarrior"
   },
   {
