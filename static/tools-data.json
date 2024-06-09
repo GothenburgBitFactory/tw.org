@@ -813,7 +813,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 172,
+    "rating": 173,
     "updated": "2024-04-17",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1213,7 +1213,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 725,
+    "rating": 728,
     "updated": "2024-06-07",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1229,8 +1229,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 64,
-    "updated": "2024-06-05",
+    "rating": 65,
+    "updated": "2024-06-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3251,6 +3251,22 @@
   },
   {
     "archived": false,
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "aws-taskwarrior-server",
+    "owner": [
+      "adrijh"
+    ],
+    "rating": 0,
+    "updated": "2024-06-08",
+    "url": "https://github.com/adrijh/aws-taskwarrior-server"
+  },
+  {
+    "archived": false,
     "description": "Make and maintain a daily pushups routine via taskwarrior and pgp integration",
     "dormant": true,
     "language": [
@@ -4733,7 +4749,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 135,
+    "rating": 136,
     "updated": "2024-04-23",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -5534,7 +5550,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-06-07",
+    "updated": "2024-06-08",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7086,7 +7102,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-07",
+    "updated": "2024-06-08",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -8125,7 +8141,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1356,
+    "rating": 1357,
     "updated": "2024-06-03",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10046,7 +10062,7 @@
       "mrusme"
     ],
     "rating": 58,
-    "updated": "2024-06-07",
+    "updated": "2024-06-08",
     "url": "https://github.com/mrusme/dotfiles"
   },
   {
@@ -13213,7 +13229,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 820,
+    "rating": 821,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -13278,7 +13294,7 @@
       "trev-dev"
     ],
     "rating": 8,
-    "updated": "2023-10-12",
+    "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
   {
