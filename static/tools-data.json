@@ -685,7 +685,7 @@
     "owner": [
       "CarlosNihelton"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-05-08",
     "url": "https://github.com/CarlosNihelton/todoist-taskwarrior"
   },
@@ -979,6 +979,22 @@
   },
   {
     "archived": false,
+    "description": "Simple script to make adding new tasks to taskwarrior projects easier",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "Taskwarrior-adder",
+    "owner": [
+      "DjaEm"
+    ],
+    "rating": 0,
+    "updated": "2024-06-10",
+    "url": "https://github.com/DjaEm/Taskwarrior-adder"
+  },
+  {
+    "archived": false,
     "description": null,
     "dormant": true,
     "language": [
@@ -1230,7 +1246,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 66,
-    "updated": "2024-06-08",
+    "updated": "2024-06-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1245,7 +1261,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 147,
+    "rating": 146,
     "updated": "2024-01-02",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -5550,7 +5566,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-06-08",
+    "updated": "2024-06-10",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7102,7 +7118,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-09",
+    "updated": "2024-06-10",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -8141,8 +8157,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1360,
-    "updated": "2024-06-03",
+    "rating": 1362,
+    "updated": "2024-06-10",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -13117,7 +13133,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 521,
+    "rating": 522,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -13390,7 +13406,7 @@
       "ulrichschinz"
     ],
     "rating": 0,
-    "updated": "2024-05-24",
+    "updated": "2024-06-10",
     "url": "https://github.com/ulrichschinz/taskwarrior"
   },
   {
