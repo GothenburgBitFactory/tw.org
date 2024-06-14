@@ -990,7 +990,7 @@
       "DjaEm"
     ],
     "rating": 0,
-    "updated": "2024-06-10",
+    "updated": "2024-06-13",
     "url": "https://github.com/DjaEm/Taskwarrior-adder"
   },
   {
@@ -1229,7 +1229,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 728,
+    "rating": 729,
     "updated": "2024-06-07",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1246,7 +1246,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 66,
-    "updated": "2024-06-10",
+    "updated": "2024-06-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2084,7 +2084,7 @@
   {
     "archived": false,
     "description": "Backend using Nodejs, MongoDB, Express",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -3326,7 +3326,7 @@
       "ak-arsalan"
     ],
     "rating": 0,
-    "updated": "2024-06-05",
+    "updated": "2024-06-13",
     "url": "https://github.com/ak-arsalan/cli-taskwarrior-and-restapi-automation"
   },
   {
@@ -4061,7 +4061,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 386,
+    "rating": 387,
     "updated": "2024-04-28",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4190,7 +4190,7 @@
       "bgregos"
     ],
     "rating": 248,
-    "updated": "2024-04-09",
+    "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
   {
@@ -5566,7 +5566,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-06-10",
+    "updated": "2024-06-13",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -5582,7 +5582,7 @@
       "dnaaun"
     ],
     "rating": 1,
-    "updated": "2024-04-27",
+    "updated": "2024-06-12",
     "url": "https://github.com/dnaaun/dotfiles"
   },
   {
@@ -6014,7 +6014,7 @@
       "eug-vs"
     ],
     "rating": 0,
-    "updated": "2024-06-09",
+    "updated": "2024-06-14",
     "url": "https://github.com/eug-vs/nextwarrior"
   },
   {
@@ -7118,7 +7118,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-10",
+    "updated": "2024-06-13",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -7933,7 +7933,7 @@
     "owner": [
       "jspricke"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2024-05-15",
     "url": "https://github.com/jspricke/python-icstask"
   },
@@ -8046,7 +8046,7 @@
       "k4y4k"
     ],
     "rating": 4,
-    "updated": "2023-04-09",
+    "updated": "2024-06-14",
     "url": "https://github.com/k4y4k/dotfiles"
   },
   {
@@ -8157,8 +8157,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1362,
-    "updated": "2024-06-10",
+    "rating": 1363,
+    "updated": "2024-06-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8286,7 +8286,7 @@
       "knid"
     ],
     "rating": 1,
-    "updated": "2024-04-04",
+    "updated": "2024-06-13",
     "url": "https://github.com/knid/tasko"
   },
   {
@@ -10670,7 +10670,7 @@
       "nojhan"
     ],
     "rating": 1,
-    "updated": "2023-09-01",
+    "updated": "2024-06-13",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
   {
@@ -10798,7 +10798,7 @@
       "ogarcia"
     ],
     "rating": 101,
-    "updated": "2022-08-20",
+    "updated": "2024-06-12",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
   {
@@ -10861,7 +10861,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -11661,7 +11661,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 71,
+    "rating": 72,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -12509,7 +12509,7 @@
     "owner": [
       "soywod"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2022-10-10",
     "url": "https://github.com/soywod/unfog.vim"
   },
@@ -13406,7 +13406,7 @@
       "ulrichschinz"
     ],
     "rating": 0,
-    "updated": "2024-06-10",
+    "updated": "2024-06-12",
     "url": "https://github.com/ulrichschinz/taskwarrior"
   },
   {
