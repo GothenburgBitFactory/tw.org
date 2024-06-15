@@ -1229,7 +1229,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 729,
+    "rating": 730,
     "updated": "2024-06-07",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3588,7 +3588,7 @@
   {
     "archived": false,
     "description": "taskwarrior org-mode syncronisation",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -5566,7 +5566,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-06-13",
+    "updated": "2024-06-14",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7118,7 +7118,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-13",
+    "updated": "2024-06-14",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -8157,7 +8157,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1363,
+    "rating": 1364,
     "updated": "2024-06-11",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10077,7 +10077,7 @@
     "owner": [
       "mrusme"
     ],
-    "rating": 58,
+    "rating": 59,
     "updated": "2024-06-08",
     "url": "https://github.com/mrusme/dotfiles"
   },
@@ -11006,7 +11006,7 @@
       "paulchambaz"
     ],
     "rating": 0,
-    "updated": "2024-05-07",
+    "updated": "2024-06-14",
     "url": "https://github.com/paulchambaz/taiga-cli"
   },
   {
@@ -13293,7 +13293,7 @@
     "owner": [
       "tpeetz"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2023-02-23",
     "url": "https://github.com/tpeetz/pull-task"
   },
