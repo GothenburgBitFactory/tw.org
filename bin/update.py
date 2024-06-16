@@ -24,6 +24,19 @@ KEYWORDS = [
     "taskserver"
 ]
 
+# Categories for projects
+CATEGORIES = {
+    "taskd": ["taskserver"],
+    "taskserver": ["taskserver"],
+    "taskwarrior": ["taskwarrior2", "taskwarrior3"],
+    "taskwarrior2": ["taskwarrior2"],
+    "taskwarrior3": ["taskwarrior3"],
+}
+DEFAULT_CATEGORIES = [
+    "taskserver",
+    "taskwarrior2",
+]
+
 # The number of days at which point we consider a repository dormant (3 years)
 DAYS_DORMANT = 3 * 365
 
@@ -124,6 +137,7 @@ def from_github_repo(repo):
     Convert repo object from GitHub v3 API to our own format
 
     archived:    flag indicating whether the tool repository has been archived
+    categories:  list of tool categories
     description: description of the tool
     dormant:     flag indicating whether the tool is deemed dormant or not
     language:    language the tool is written in
@@ -136,6 +150,7 @@ def from_github_repo(repo):
     """
     data = {
         "archived": repo.archived,
+        "category": filter_categories(repo.topics),
         "description": repo.description,
         "dormant": is_dormant(repo.pushed_at),
         "language": [repo.language if repo.language is not None else "N/A"],
@@ -149,6 +164,24 @@ def from_github_repo(repo):
     }
 
     return data
+
+
+def filter_categories(topics):
+    if topics:
+        categories = []
+        log_debug("Found topics {}", topics)
+        for topic in topics:
+            if topic in CATEGORIES.keys():
+                categories.extend(CATEGORIES[topic])
+        if len(categories) == 0:
+            log_debug("No categories found, defaulting to {}", DEFAULT_CATEGORIES)
+            return DEFAULT_CATEGORIES
+        else:
+            log_debug("Mapped to {}", categories)
+            return categories
+    else:
+        log_debug("No topics found, defaulting to {}", DEFAULT_CATEGORIES)
+        return DEFAULT_CATEGORIES
 
 
 def is_dormant(pushed_at):
@@ -173,7 +206,7 @@ def calculate_sleep_core(headers):
     current_time = time.time()
     log_trace("Now is {}", current_time)
     diff = reset_time - current_time if reset_time > current_time else 0
-    log_trace("{}: {:.3f} s until rate limit reset ({})",resource_name, diff, reset_time)
+    log_trace("{}: {:.3f} s until rate limit reset ({})", resource_name, diff, reset_time)
     sleep_period = diff / remaining_requests if remaining_requests > 0 else diff + 5
     log_trace("{}: sleep {}", resource_name, sleep_period)
 
