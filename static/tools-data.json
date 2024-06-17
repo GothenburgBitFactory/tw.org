@@ -817,7 +817,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 94,
+    "rating": 96,
     "updated": "2024-06-15",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -904,6 +904,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -1598,7 +1599,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 6,
-    "updated": "2024-02-23",
+    "updated": "2024-06-16",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -1618,7 +1619,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2024-02-23",
+    "updated": "2024-06-16",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -2065,6 +2066,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskserver"
     ],
     "description": "Taskserver docker image with help scripts",
@@ -2784,6 +2786,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -3703,6 +3706,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -3723,6 +3727,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -3863,6 +3868,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -5443,6 +5449,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -8897,7 +8904,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-15",
+    "updated": "2024-06-16",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -9703,6 +9710,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -9723,6 +9731,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -9743,6 +9752,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -9763,6 +9773,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -10656,7 +10667,7 @@
     "owner": [
       "kvj"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2017-05-24",
     "url": "https://github.com/kvj/TaskwarriorC2"
   },
@@ -12203,8 +12214,7 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
+      "taskserver"
     ],
     "description": "Taskserver over AlpineLinux",
     "dormant": true,
@@ -13163,6 +13173,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskserver",
       "taskwarrior2",
       "taskwarrior3"
@@ -14577,7 +14588,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 72,
+    "rating": 73,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -16085,6 +16096,7 @@
     "archived": false,
     "category": [
       "taskserver",
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -16585,6 +16597,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -17486,6 +17499,7 @@
     "archived": false,
     "category": [
       "taskserver",
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -17506,6 +17520,7 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
       "taskserver",
       "taskwarrior2",
       "taskwarrior3"
