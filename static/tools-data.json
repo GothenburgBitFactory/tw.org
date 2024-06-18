@@ -1559,7 +1559,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 66,
-    "updated": "2024-06-16",
+    "updated": "2024-06-17",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1599,7 +1599,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 6,
-    "updated": "2024-06-16",
+    "updated": "2024-06-18",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -1619,7 +1619,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2024-06-16",
+    "updated": "2024-06-18",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -5483,7 +5483,7 @@
     "owner": [
       "bradyt"
     ],
-    "rating": 80,
+    "rating": 81,
     "updated": "2023-02-18",
     "url": "https://github.com/bradyt/taskw-dart"
   },
@@ -6304,7 +6304,7 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2024-05-22",
+    "updated": "2024-06-17",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
@@ -6964,7 +6964,7 @@
       "dmyna"
     ],
     "rating": 2,
-    "updated": "2024-06-14",
+    "updated": "2024-06-17",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -8904,7 +8904,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-16",
+    "updated": "2024-06-17",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -10207,8 +10207,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1364,
-    "updated": "2024-06-11",
+    "rating": 1367,
+    "updated": "2024-06-17",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -10790,6 +10790,26 @@
     "rating": 0,
     "updated": "2019-12-15",
     "url": "https://github.com/laugg/talk-taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Taskoverlord - Modern desktop client for Taskwarrior.",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskoverlord",
+    "owner": [
+      "lebriton"
+    ],
+    "rating": 0,
+    "updated": "2024-06-17",
+    "url": "https://github.com/lebriton/taskoverlord"
   },
   {
     "archived": false,
@@ -16111,7 +16131,7 @@
       "szaffarano"
     ],
     "rating": 10,
-    "updated": "2024-03-04",
+    "updated": "2024-06-17",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -16430,7 +16450,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 522,
+    "rating": 523,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
