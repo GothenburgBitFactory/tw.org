@@ -2,6 +2,8 @@
 title: "Taskwarrior - Taskserver Release History"
 ---
 
+NOTE: Taskserver is deprecated and only compatible with Taskwarrior 2.x.
+
 # Release History
 
 This is a summary of the Taskserver [ChangeLog](https://github.com/GothenburgBitFactory/taskserver/blob/master/ChangeLog) file.

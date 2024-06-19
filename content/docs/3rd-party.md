@@ -40,7 +40,6 @@ We encourage you to create such add-ons, but in doing so, there are some rules t
   When reading the JSON for a task, there may be attributes that you have never encountered before.
   If this is the case, you must not modify them in any way.
   This not only makes your application future-proof, but allows it to tolerate UDAs from other data sources.
-  It also prevents the Taskserver from stripping out *your* data.
 
 ## Guidelines
 

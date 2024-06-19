@@ -33,7 +33,7 @@ Version-specific features are labelled with the version in which they were first
   * `purge` {{< label >}}2.6.0{{< /label >}} - Completely removes tasks, rather than change status to `deleted`
   * `start` - Start working on a task, make active
   * `stop` - Stop working on a task, no longer active
-  * [`synchronize` - Syncs tasks with Taskserver](synchronize/)
+  * [`synchronize` - Syncs tasks with other instances](synchronize/)
   * `undo` - Revert last change
   * `version` - Version details and copyright
 

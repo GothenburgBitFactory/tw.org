@@ -85,6 +85,8 @@ None yet.
 
 ## Taskserver
 
+NOTE: Taskserver itself is deprecated and only compatible with Taskwarrior 2.x.
+
 ### Client Allow/Deny List [removed in 1.1.0]
 
 Taskserver initially supported the `client.allow` and `client.deny` settings which filtered connections.

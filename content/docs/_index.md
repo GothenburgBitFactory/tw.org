@@ -5,7 +5,7 @@ viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
 
-{{< lead >}}Here is the complete set of Taskwarrior and Taskserver documentation.{{< /lead >}}
+{{< lead >}}Here is the complete set of Taskwarrior documentation.{{< /lead >}}
 
 ## Getting Started
 
@@ -56,7 +56,7 @@ layout: single
 - [Deprecated Features](deprecated/)
 - [Philosophy](philosophy/)
 
-## Taskserver
+## Taskserver (deprecated, only compatible with Taskwarrior 2.x)
 - [Why do I need a Taskserver?](taskserver/why/)
 - [Taskserver Setup Guide](https://gothenburgbitfactory.org/taskserver-setup/)
 - [Taskserver Troubleshooting Guide](https://gothenburgbitfactory.org/taskserver-troubleshooting/)

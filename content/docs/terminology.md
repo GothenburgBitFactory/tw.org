@@ -4,7 +4,7 @@ title: "Taskwarrior - Terminology"
 
 # Terminology
 
-Taskwarrior and Taskserver use a lot of terminology that is not obvious.
+Taskwarrior uses a lot of terminology that is not obvious.
 Those terms are defined here.
 
 ## active
@@ -117,14 +117,6 @@ Taskwarrior has several built-in reports, some of which are modifiable via confi
 Additionally, you can create your own Custom Reports, where you can define the command, attributes show, length, filter, sorting and breaks.
 
 The [Report](../report/) gives a detailed explanation of how to use, modify and create reports.
-
-## daemon
-
-A daemon is the name given to a process that runs without interaction as a background process.
-Various server products are run as daemons, and are automatically launched on startup.
-Typically, daemons are named ending with 'd'.
-
-Taskserver (taskd) can be run as a daemon, using the `--daemon` command line argument.
 
 ## dateformat
 
@@ -474,12 +466,9 @@ The substitution syntax allows text replacement in task description and annotati
 
 ## sync
 
-Synchronization is a service provided by the Taskserver, and allows multiple sync clients to share data.
-The Taskserver knows how to merge tasks and handle incremental updates to minimize bandwidth used.
-
-Although you can achieve a similar capability using one of the many file-sharing services, the merging that happens is not aware of how to merge tasks.
-
-Starting with Taskwarrior 2.3.0, there is a `sync` command that can be configured to talk to a Taskserver.
+Synchronization is a process that and allows multiple Taskwarrior instances to share data.
+Each instance periodically connects to the server to gather changes made by other instances and to send changes made locally.
+This is initiated with the `task sync` command.
 
 ## tag
 
