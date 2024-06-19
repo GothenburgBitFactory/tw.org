@@ -111,6 +111,18 @@
             <td>
               <p>
                 <strong><a title="Project" data-bind="text: name, attr:{ href: url }"></a></strong>&ensp;
+                <span data-bind="visible: taskwarrior2" class="tooltip">
+                  <i class="bi bi-2-circle-fill"></i>
+                  <span class="tooltip-text">project is intended for Taskwarrior 2</span>
+                </span>
+                <span data-bind="visible: taskwarrior3" class="tooltip">
+                  <em class="bi bi-3-circle-fill"></em>
+                  <span class="tooltip-text">project is intended for Taskwarrior 3</span>
+                </span>
+                <span data-bind="visible: taskserver"  class="tooltip">
+                  <em class="bi bi-database-fill"></em>
+                  <span class="tooltip-text">project is intended for Taskserver</span>
+                </span>
                 <span data-bind="visible: dormant" class="tooltip">
                   <em class="bi bi-moon-stars"></em>
                   <span class="tooltip-text">project is dormant</span>

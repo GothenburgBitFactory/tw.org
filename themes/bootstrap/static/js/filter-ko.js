@@ -6,6 +6,9 @@ function Tool(data) {
     this.archived = data.archived;
     this.description = data.description;
     this.dormant = data.dormant && !data.archived;
+    this.taskwarrior2 = data.category.some(item => item === "taskwarrior2")
+    this.taskwarrior3 = data.category.some(item => item === "taskwarrior3")
+    this.taskserver = data.category.some(item => item === "taskserver")
     this.language = data.language;
     this.license = data.license;
     this.name = data.name;
