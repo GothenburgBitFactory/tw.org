@@ -13,7 +13,7 @@ Everything else can.
 ## Initial Assessment
 
 - Move the issue to the correct project.
-  for example, sometimes an issue is reported as a Taskwarrior bug, but is better handled in TaskChampion.
+  For example, sometimes an issue is reported as a Taskwarrior bug, but is better handled in TaskChampion.
 - Move the issue to the correct type, which means bug, feature or improvement.
   Sometimes it is not easy to distinguish, and some folks are clever about reporting a feature request in the form of a bug, assuming that bugs gets more attention than feature requests.
   We're not fooled by that.
