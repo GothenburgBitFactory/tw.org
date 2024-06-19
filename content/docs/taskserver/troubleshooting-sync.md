@@ -10,7 +10,15 @@ Please review the steps you took.
 
 It is always a good idea to make sure that you are using the latest release of Taskwarrior and Taskserver, not just because bugs are fixed that may help you, but also because the solutions below are geared toward the current releases.
 
-If you upgrade from an older release of Taskserver, you will need to follow the [upgrade instructions](../upgrade/).
+If you upgrade from an older release of Taskserver, you will need to follow the [upgrade instructions](../upgrade-3/).
+
+# Taskwarrior 3.x
+
+No suggestions yet - make a PR to add your troubleshooting tip here!
+
+# Taskwarrior 2.x / Taskserver
+
+Note that Taskserver does not work with TaskWarrior 3.x.
 
 ## Problems
 
