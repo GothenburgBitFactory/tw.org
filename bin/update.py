@@ -150,7 +150,7 @@ def from_github_repo(repo):
     """
     data = {
         "archived": repo.archived,
-        "category": filter_categories(repo.topics),
+        "category": sorted(filter_categories(repo.topics)),
         "description": repo.description,
         "dormant": is_dormant(repo.pushed_at),
         "language": [repo.language if repo.language is not None else "N/A"],
@@ -168,17 +168,17 @@ def from_github_repo(repo):
 
 def filter_categories(topics):
     if topics:
-        categories = []
+        categories = set()
         log_debug("Found topics {}", topics)
         for topic in topics:
             if topic in CATEGORIES.keys():
-                categories.extend(CATEGORIES[topic])
+                categories.update(CATEGORIES[topic])
         if len(categories) == 0:
             log_debug("No categories found, defaulting to {}", DEFAULT_CATEGORIES)
             return DEFAULT_CATEGORIES
         else:
             log_debug("Mapped to {}", categories)
-            return categories
+            return list(categories)
     else:
         log_debug("No topics found, defaulting to {}", DEFAULT_CATEGORIES)
         return DEFAULT_CATEGORIES

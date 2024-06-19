@@ -2066,7 +2066,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
       "taskserver"
     ],
     "description": "Taskserver docker image with help scripts",
@@ -13214,7 +13213,6 @@
     "archived": false,
     "category": [
       "taskserver",
-      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -16136,7 +16134,6 @@
     "archived": false,
     "category": [
       "taskserver",
-      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -17539,7 +17536,6 @@
     "archived": false,
     "category": [
       "taskserver",
-      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -17560,7 +17556,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
       "taskserver",
       "taskwarrior2",
       "taskwarrior3"
