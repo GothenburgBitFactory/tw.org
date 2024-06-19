@@ -4,12 +4,14 @@ title: "Taskwarrior - Synchronize"
 
 # synchronize
 
-The `synchronize` command, which first appeared in version 2.3.0, connects your Taskwarrior client to a [Taskserver](../../#taskserver) instance, uploads local changes, downloads remote changes, and merges the results.
-You can have several clients making local changes all of which sync to a single server instance, and they will all be kept up to date.
+The `synchronize` command, which first appeared in version 2.3.0, allows your Taskwarrior instance to share tasks with other instances.
+You can have several instances making local changes all of which sync to a single server, and they will all be kept up to date, with changes flowing from instance to instance.
 
-The Taskserver is designed to handle multiple clients that may not have synchronized recently, all with local changes, with only temporary network connectivity, and still do the right thing.
+The synchronization system is designed to handle multiple clients that may not have synchronized recently, all with local changes, with only temporary network connectivity, and still do the right thing.
 
-With a [correctly configured](../../taskserver/taskwarrior/) client, adding a task, or modifying an existing task, creates a local change that needs to be synced.
+With a correctly configured Taskwarrior, adding a task, or modifying an existing task, creates a local change that needs to be synced.
+See the `task-sync(5)` manpage for information on configuring Taskwarrior.
+
 Taskwarrior will add a footnote to all output if a `synchronize` is needed.
 
 ```
@@ -39,7 +41,7 @@ Sync successful.  1 changes uploaded.
 
 This shows a successful sync, uploading our one change.
 If there were remote changes to download, the message would include that.
-It is safe to sync as often as you wish, although it does waste some bandwidth setting up a TLS connection with the Taskserver.
+It is safe to sync as often as you wish.
 
 ```
 $ task sync
@@ -51,7 +53,7 @@ Sync successful.  No changes.
 ## Limitations
 
 - Network connectivity is required in order to sync.
-- Taskwarrior must be [correctly configured](../../taskserver/taskwarrior/) to connect to a Taskserver.
+- Taskwarrior must be correctly configured to connect to a server.
 
 ## See Also
 

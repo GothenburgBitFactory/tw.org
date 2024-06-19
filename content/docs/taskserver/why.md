@@ -2,6 +2,8 @@
 title: "Taskwarrior - Taskserver Why?"
 ---
 
+NOTE: Taskserver is deprecated and only compatible with Taskwarrior 2.x.
+
 # Why Do I Need a Taskserver?
 
 You may not need a Taskserver.

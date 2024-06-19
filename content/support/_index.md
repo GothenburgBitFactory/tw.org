@@ -23,7 +23,6 @@ There is an active and well-attended \#taskwarrior channel on libera.chat.
 ## Documentation
 
 There is [full online documentation](../docs/) to help you diagnose problems, or learn about features and usage.
-There is a very good chance that you are looking for either our [Taskserver Setup Guide](https://gothenburgbitfactory.org/taskserver-setup/) or [Taskserver Troubleshooting Guide](https://gothenburgbitfactory.org/taskserver-troubleshooting/).
 
 ## Manual pages
 
