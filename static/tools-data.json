@@ -2120,7 +2120,7 @@
       "KevCui"
     ],
     "rating": 19,
-    "updated": "2024-05-20",
+    "updated": "2024-06-18",
     "url": "https://github.com/KevCui/dotfiles"
   },
   {
@@ -2202,6 +2202,26 @@
     "rating": 0,
     "updated": "2023-11-14",
     "url": "https://github.com/KrivovDE/TaskServerFastAPI"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Laluyas"
+    ],
+    "rating": 0,
+    "updated": "2024-06-18",
+    "url": "https://github.com/Laluyas/TaskServer"
   },
   {
     "archived": false,
@@ -3762,7 +3782,7 @@
       "Zebradil"
     ],
     "rating": 64,
-    "updated": "2024-04-12",
+    "updated": "2024-06-18",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -5082,7 +5102,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 387,
+    "rating": 388,
     "updated": "2024-04-28",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8904,7 +8924,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-17",
+    "updated": "2024-06-18",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -10207,7 +10227,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1367,
+    "rating": 1369,
     "updated": "2024-06-17",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -16792,7 +16812,7 @@
       "ulrichschinz"
     ],
     "rating": 0,
-    "updated": "2024-06-12",
+    "updated": "2024-06-18",
     "url": "https://github.com/ulrichschinz/taskwarrior"
   },
   {
