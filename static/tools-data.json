@@ -2219,7 +2219,7 @@
       "Laluyas"
     ],
     "rating": 0,
-    "updated": "2024-06-18",
+    "updated": "2024-06-19",
     "url": "https://github.com/Laluyas/TaskServer"
   },
   {
@@ -2238,7 +2238,7 @@
     "owner": [
       "LanHikari22"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-06-07",
     "url": "https://github.com/LanHikari22/TTM"
   },
@@ -3780,7 +3780,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2024-06-18",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -4182,7 +4182,7 @@
       "ak-arsalan"
     ],
     "rating": 0,
-    "updated": "2024-06-15",
+    "updated": "2024-06-19",
     "url": "https://github.com/ak-arsalan/cli-taskwarrior-and-restapi-automation"
   },
   {
@@ -5102,7 +5102,7 @@
       "bergercookie"
     ],
     "rating": 388,
-    "updated": "2024-04-28",
+    "updated": "2024-06-19",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -5822,7 +5822,7 @@
     "owner": [
       "charmbracelet"
     ],
-    "rating": 89,
+    "rating": 90,
     "updated": "2024-01-05",
     "url": "https://github.com/charmbracelet/taskcli"
   },
@@ -8302,7 +8302,7 @@
     "owner": [
       "grovesteyn"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2024-05-24",
     "url": "https://github.com/grovesteyn/tchart"
   },
@@ -8923,7 +8923,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-18",
+    "updated": "2024-06-19",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -13386,7 +13386,7 @@
     "owner": [
       "nojhan"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-06-13",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
@@ -14626,7 +14626,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -15949,6 +15949,26 @@
     "rating": 2,
     "updated": "2024-04-29",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "testing taskwarrior and the fakestoreapi",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "pytest-examples",
+    "owner": [
+      "stubduffy"
+    ],
+    "rating": 0,
+    "updated": "2024-06-19",
+    "url": "https://github.com/stubduffy/pytest-examples"
   },
   {
     "archived": false,
