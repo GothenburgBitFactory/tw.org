@@ -84,6 +84,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Update TaskWarrior task urgency based on the density of task dues in time",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "TWDensity",
+    "owner": [
+      "00sapo"
+    ],
+    "rating": 2,
+    "updated": "2024-06-20",
+    "url": "https://github.com/00sapo/TWDensity"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -1018,7 +1038,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 173,
+    "rating": 172,
     "updated": "2024-04-17",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1559,7 +1579,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 66,
-    "updated": "2024-06-17",
+    "updated": "2024-06-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2338,7 +2358,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 33,
+    "rating": 32,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -5101,7 +5121,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 388,
+    "rating": 389,
     "updated": "2024-06-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8923,7 +8943,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-06-19",
+    "updated": "2024-06-20",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -9062,7 +9082,7 @@
     "owner": [
       "j6s"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2022-04-09",
     "url": "https://github.com/j6s/docker-taskwarrior-taskserver"
   },
@@ -10079,7 +10099,7 @@
     "description": "my dotfiles :)",
     "dormant": false,
     "language": [
-      "Emacs Lisp"
+      "Python"
     ],
     "license": null,
     "name": "dotfiles",
@@ -10087,7 +10107,7 @@
       "k4y4k"
     ],
     "rating": 4,
-    "updated": "2024-06-14",
+    "updated": "2024-06-20",
     "url": "https://github.com/k4y4k/dotfiles"
   },
   {
