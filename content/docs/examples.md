@@ -46,7 +46,9 @@ $ task 12 modify due:
 Create a task with a multi-line description.
 
 ```
-$ task add "Five syllables here Seven more syllables there Are you happy now?"
+$ task add "Five syllables here
+> Seven more syllables there
+> Are you happy now?"
 ```
 
 ## Filters
