@@ -67,12 +67,12 @@ data.location=~/.task
 There is only one entry in this file for `data.location`.
 This is because Taskwarrior has a built-in set of sensible defaults, and this configuration file only contains overrides to those defaults.
 
-That configuration variable named `data.location` points to your task data directory, which is currently empty:
+That configuration variable named `data.location` points to your task data directory, which contains an SQLite database.
+The database is currently empty because there are no tasks yet.
 
 ```
 $ ls ~/.task
-$
+taskchampion.sqlite3
 ```
 
-This is because there are no tasks yet.
 Typically, you won't need to look in that directory.
