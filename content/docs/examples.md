@@ -357,7 +357,7 @@ $ task _get 12.entry 12.modified
 Get the dimensions of my terminal window.
 
 ```
-$ task _get context.width context.height
+$ task _get tw.width tw.height
 ```
 
 Add a task, and set the wait date to 4 days before the due date.
