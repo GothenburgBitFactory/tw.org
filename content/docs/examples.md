@@ -302,13 +302,13 @@ Priority is now a [User Defined Attribute](../udas/) since version 2.4.3, and as
 Make priority `L` sort lower than no priority.
 
 ```
-$ task config -- uda.priority.values H,M,,L
+$ task config uda.priority.values H,M,,L
 ```
 
 I need more priority values for my workflow.
 
 ```
-$ task config -- uda.priority.values OMG,DoIt,Meh,Phfh,Nope,
+$ task config uda.priority.values OMG,DoIt,Meh,Phfh,Nope,
 ```
 
 How do I remove the priority from a task?
