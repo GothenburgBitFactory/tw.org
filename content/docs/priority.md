@@ -46,7 +46,7 @@ that is how you specify that an empty value is allowed.
 If you believe that a priority level of `L` should be the lowest value, lower even than no value, you can do this:
 
 ```
-$ task config -- uda.priority.values  H,M,,L
+$ task config uda.priority.values H,M,,L
 ```
 
 Those two commas indicate that the blank value lies between `M` and `L`.
@@ -54,7 +54,7 @@ Those two commas indicate that the blank value lies between `M` and `L`.
 If you would like priorities that represent severity, then you can do something like this:
 
 ```
-$ task config -- uda.priority.values Critical,Important,
+$ task config uda.priority.values Critical,Important,
 ```
 
 There is no practical limit on what values, or how many values you use.
