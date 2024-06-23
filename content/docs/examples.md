@@ -343,13 +343,15 @@ It can be used in your scripts, or when manipulating tasks at the command line.
 Get just the description for task 12.
 
 ```
-$ task _get 12.description Rake the leaves
+$ task _get 12.description
+Rake the leaves
 ```
 
 Show the creation timestamp, and last modification date for task 12.
 
 ```
-$ task _get 12.entry 12.modification 2000-04-04T01:02:31 2014-08-24T13:31:43
+$ task _get 12.entry 12.modified
+2000-04-04T01:02:31 2014-08-24T13:31:43
 ```
 
 Get the dimensions of my terminal window.
