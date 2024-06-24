@@ -87,3 +87,9 @@ Below are examples of each of the provided themes.
 ## solarized-light-256.theme
 
 [![Theme swatch](../../images/solarized-light-256.png)](../../images/solarized-light-256.png)
+
+## bubblegum-256.theme
+
+This theme was created in order to both be aesthetically pleasing and fix all [legibility issues I faced with every other theme](https://github.com/GothenburgBitFactory/taskwarrior/issues/3376).
+
+[![Theme swatch](../../images/bubblegum-256.png)](../../images/bubblegum-256.png)
