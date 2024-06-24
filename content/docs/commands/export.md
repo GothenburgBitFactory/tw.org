@@ -21,7 +21,7 @@ The JSON is formatted according to the [Taskwarrior JSON Format](https://github.
 
 ## Configuration
 
-There is a configuration setting `json.array` which defaults to 'off', but when set to 'on' generates a single JSON array, rather than a set of individual JSON objects.
+There is a configuration setting `json.array` which defaults to 'on', but when set to 'off' generates a set of individual JSON objects.
 In the example below you see a set of JSON objects (`{...}`), one per line:
 
 ```
