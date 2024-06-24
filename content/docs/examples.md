@@ -303,6 +303,10 @@ Make priority `L` sort lower than no priority.
 $ task config -- uda.priority.values H,M,,L
 ```
 
+Note that the above configuration only changes the sorting order.
+The `L` priority will still be considered higher than no priority in urgency calculations.
+To change the urgency calculation, you also need to adjust the urgency coefficients of the values.
+
 I need more priority values for my workflow.
 
 ```
