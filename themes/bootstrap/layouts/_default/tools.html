@@ -16,16 +16,56 @@
       <div class="col-md-2 main">
         <div class="well">
           <fieldset>
-            <legend>Search</legend>
-            <label>Search keywords
-            <input type="search" class="form-control"  placeholder="Search &hellip;" data-bind="textInput: query" autocomplete="off" />
-            </label>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" data-bind="checked: excludeDormant"/>
+            <label for="search">Search</label>
+            <input type="search" class="combo-input" id="search" autocomplete="off" placeholder="Keywords..."/>
+            <div class="checkbox search-filter category">
+              <label for="include-taskwarrior2">
+                <input type="checkbox" id="include-taskwarrior2" checked/>
                 <small>
-                  Exclude dormant projects&ensp;
                   <span class="tooltip">
+                    Taskwarrior 2&ensp;
+                    <em class="bi bi-2-circle-fill"></em>
+                    <span class="tooltip-text">
+                      Include projects intended for Taskwarrior 2.
+                    </span>
+                  </span>
+                </small>
+              </label>
+            </div>
+            <div class="checkbox search-filter category">
+              <label for="include-taskwarrior3">
+                <input type="checkbox" id="include-taskwarrior3" checked/>
+                <small>
+                  <span class="tooltip">
+                    Taskwarrior 3&ensp;
+                    <em class="bi bi-3-circle-fill"></em>
+                    <span class="tooltip-text">
+                      Include projects intended for Taskwarrior 2.
+                    </span>
+                  </span>
+                </small>
+              </label>
+            </div>
+            <div class="checkbox search-filter category">
+              <label for="include-taskserver">
+                <input type="checkbox" id="include-taskserver" checked/>
+                <small>
+                  <span class="tooltip">
+                    Taskserver&ensp;
+                    <em class="bi bi-database-fill"></em>
+                    <span class="tooltip-text">
+                      Include projects intended for Taskserver.
+                    </span>
+                  </span>
+                </small>
+              </label>
+            </div>
+            <div class="checkbox search-filter">
+              <label for="exclude-dormant">
+                <input type="checkbox" id="exclude-dormant"/>
+                <small>
+                  <span class="tooltip">
+                    Exclude dormant projects&ensp;
                     <em class="bi bi-moon-stars"></em>
                     <span class="tooltip-text">
                       A project is considered 'dormant' if its last update was more than 3 years ago.
@@ -34,12 +74,12 @@
                 </small>
               </label>
             </div>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" data-bind="checked: includeArchived"/>
+            <div class="checkbox search-filter">
+              <label for="include-archived">
+                <input type="checkbox" id="include-archived"/>
                 <small>
-                  Include archived projects&ensp;
                   <span class="tooltip">
+                    Include archived projects&ensp;
                     <em class="bi bi-archive"></em>
                     <span class="tooltip-text">
                       Include tools whose repository has been archived by their owner.
@@ -53,111 +93,44 @@
         </div>
         <div class="well">
           <fieldset>
-            <legend>Languages</legend>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="all" data-bind="checked: selectedAllLanguages"/>
-                <em>All</em>
-              </label>
-            </div>
-            <div class="checkbox" data-bind="foreach: languages">
-              <label>
-                <input type="checkbox" data-bind="checkedValue: $data, checked: $parent.LanguagesSelected"/>
-                <span data-bind="text: $data"></span>
-              </label>
-              <br>
-            </div>
-          </fieldset>
+              <label for="languages-combo" id="languages-combo-label">Languages</label>
+              <div class="combo js-multiselect" id="js-multiselect-languages">
+                <ul class="selected-options" id="languages-combo-selected"></ul>
+                <input type="text" name="language-input" id="languages-combo" placeholder="Select..." role="combobox" class="form-control combo-input" autocomplete="off" aria-labelledby="languages-combo-label"/>
+                <div class="combo-menu" role="listbox" id="languages-listbox"></div>
+              </div>
+
+              <label for="owners-combo" id="owners-combo-label">Owners</label>
+              <div class="combo js-multiselect" id="js-multiselect-owners">
+                <ul class="selected-options" id="owners-combo-selected"></ul>
+                <input type="text" name="owner-input" id="owners-combo" placeholder="Select..." role="combobox" class="form-control combo-input" autocomplete="off" aria-labelledby="owners-combo-label"/>
+                <div class="combo-menu" role="listbox" id="owners-listbox"></div>
+              </div>
+            </fieldset>
+          </div>
         </div>
-        <div class="well">
-          <fieldset>
-            <legend>Owners</legend>
-            <div class="checkbox">
-              <label>
-                <input type="checkbox" value="all" data-bind="checked: selectedAllOwners"/>
-                <em>All</em>
-              </label>
-            </div>
-            <div class="checkbox" data-bind="foreach: owners">
-              <label>
-                <input type="checkbox" data-bind="checkedValue: $data, checked: $parent.OwnersSelected"/>
-                <span data-bind="text: $data"></span>
-              </label>
-              <br>
-            </div >
-          </fieldset>
+        <div class="col-md-8 main">
+          <p class="lead" id="search-result-message">
+            Loading...
+          </p>
+          <table class="table table-striped" aria-label="tools table">
+            <thead>
+            <tr>
+              <th scope="col">Tool</th>
+              <th scope="col">Description</th>
+              <th scope="col">License</th>
+            </tr>
+            </thead>
+            <tbody id="tools-table" class="tools content row">
+
+            </tbody>
+          </table>
         </div>
-      </div>
-      <div class="col-md-8 main">
-        <p class="lead">
-          There
-          <span data-bind="visible: filteredTools().length != 1">are</span>
-          <span data-bind="visible: filteredTools().length == 1">is</span>
-          <span id="total_tools" data-bind="text: filteredTools().length">0</span>
-          <span data-bind="visible: filteredTools().length != 1">tools/extensions</span>
-          <span data-bind="visible: filteredTools().length == 1">tool/extension</span>
-          matching your search:
-        </p>
-        <table class="table table-striped" aria-label="tools table">
-          <thead>
-          <tr>
-            <th scope="col">Tool</th>
-            <th scope="col">Description</th>
-            <th scope="col">License</th>
-          </tr>
-          </thead>
-          <tbody class="tools content row" data-bind="foreach: filteredTools">
-          <tr>
-            <td>
-              <p>
-                <strong><a title="Project" data-bind="text: name, attr:{ href: url }"></a></strong>&ensp;
-                <span data-bind="visible: taskwarrior2" class="tooltip">
-                  <i class="bi bi-2-circle-fill"></i>
-                  <span class="tooltip-text">project is intended for Taskwarrior 2</span>
-                </span>
-                <span data-bind="visible: taskwarrior3" class="tooltip">
-                  <em class="bi bi-3-circle-fill"></em>
-                  <span class="tooltip-text">project is intended for Taskwarrior 3</span>
-                </span>
-                <span data-bind="visible: taskserver"  class="tooltip">
-                  <em class="bi bi-database-fill"></em>
-                  <span class="tooltip-text">project is intended for Taskserver</span>
-                </span>
-                <span data-bind="visible: dormant" class="tooltip">
-                  <em class="bi bi-moon-stars"></em>
-                  <span class="tooltip-text">project is dormant</span>
-                </span>
-                <span data-bind="visible: archived" class="tooltip">
-                  <em class="bi bi-archive"></em>
-                  <span class="tooltip-text">project has been archived</span>
-                </span><br>
-                <span data-bind="visible: owner.length > 0"><small>by <em title="Owners" data-bind="text: owner.join(', ')"></em></small></span>
-              </p>
-              <p>
-                <span>Rating: <span title="Rating" data-bind="text: rating"></span>&ensp;<em class="bi bi-star"></em></span>
-              </p>
-            </td>
-            <td>
-              <p data-bind="html: description"></p>
-              <p>
-                <small>
-                  <span data-bind="visible: language.length > 0">Language: <span data-bind="text: language"></span></span><br>
-                  Last update: <span title="Last update" data-bind="text: updated"></span>
-                </small>
-              </p>
-            </td>
-            <td>
-              <p title="License" data-bind="text: license"></p>
-            </td>
-          </tr>
-          </tbody>
-        </table>
       </div>
     </div>
-  </div>
-</main>
+  </main>
 
 {{ partial "footer.html" . }}
 
-<script src="{{ $baseUrl }}/js/knockout-3.5.1.js" type="text/javascript"></script>
-<script src="{{ $baseUrl }}/js/filter-ko.js" type="text/javascript" defer="defer"></script>
+<script src="{{ $baseUrl }}/js/multiselect.js" type="text/javascript"></script>
+<script src="{{ $baseUrl }}/js/filter.js" type="text/javascript"></script>

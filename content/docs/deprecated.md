@@ -35,11 +35,6 @@ The `sync` command in 2.3.0 replaces this functionality.
 
 Starting in 2.4.0, shadow files are replaced by an equivalent hook mechanism.
 
-### Attribute Modifiers [deprecated since 2.4.0]
-
-Attribute modifiers such as `project.startswith:Ab` are all deprecated starting with version 2.4.0.
-In the example above, the replacement is an algebraic expression, `project ~ ^ab`, which uses the `~` regex match operator, and `^Ab` which is a regular expression.
-
 ### Bare Word Search Terms [deprecated since 2.4.0]
 
 Simple words being interpreted as search terms is deprecated in 2.4.0 and will be removed in a future release.
@@ -68,12 +63,6 @@ The `_ids`, `_projects`, `_tags`, and `_uuids` helper commands are deprecated in
 ### Virtual tag `DUETODAY` [deprecated since 2.6.0]
 
 The `DUETODAY` virtual tag is a synonym for the more consistently named `TODAY` virtual tag.
-
-### Use of Boolean configuration values other than `0` or `1` [deprecated since 2.6.0]
-
-Deprecated use of alternate Boolean configuration settings.
-Use values "0" for off, and "1" for on.
-Avoid used of "on", "off", "true", "t", "false", "f", "yes", "y", "no", "n".
 
 ### DOM references: context.* [deprecated since 2.6.0]
 

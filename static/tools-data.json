@@ -217,7 +217,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 63,
+    "rating": 64,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -378,7 +378,7 @@
       "AceofSpades5757"
     ],
     "rating": 0,
-    "updated": "2024-03-31",
+    "updated": "2024-06-26",
     "url": "https://github.com/AceofSpades5757/tw-hook-elapsed"
   },
   {
@@ -1555,7 +1555,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 730,
+    "rating": 731,
     "updated": "2024-06-22",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1575,8 +1575,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 67,
-    "updated": "2024-06-24",
+    "rating": 68,
+    "updated": "2024-06-25",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -5056,7 +5056,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 391,
+    "rating": 394,
     "updated": "2024-06-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5700,26 +5700,6 @@
     "rating": 3,
     "updated": "2016-03-28",
     "url": "https://github.com/celador/CodeTask"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "A command-line tool to manage todo list and record time spent on tasks.",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "pomodoro-warriors",
-    "owner": [
-      "cf020031308"
-    ],
-    "rating": 52,
-    "updated": "2019-05-31",
-    "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
   {
     "archived": false,
@@ -8537,7 +8517,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2024-05-10",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -10101,7 +10081,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1373,
+    "rating": 1375,
     "updated": "2024-06-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11782,7 +11762,7 @@
       "maxjoehnk"
     ],
     "rating": 18,
-    "updated": "2024-05-25",
+    "updated": "2024-06-26",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13872,7 +13852,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -14341,7 +14321,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 174,
+    "rating": 175,
     "updated": "2024-04-01",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -14501,7 +14481,7 @@
     "owner": [
       "rmonico"
     ],
-    "rating": 5,
+    "rating": 7,
     "updated": "2024-06-03",
     "url": "https://github.com/rmonico/itask"
   },
@@ -16262,7 +16242,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 524,
+    "rating": 525,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -16305,6 +16285,26 @@
     "rating": 2,
     "updated": "2015-05-31",
     "url": "https://github.com/thufschmitt/twui"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Web UI for Task warrior",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "taskwarrior-web",
+    "owner": [
+      "tmahmood"
+    ],
+    "rating": 8,
+    "updated": "2024-06-26",
+    "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
     "archived": false,
