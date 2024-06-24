@@ -51,6 +51,10 @@ $ task config uda.priority.values H,M,,L
 
 Those two commas indicate that the blank value lies between `M` and `L`.
 
+Note that the above configuration only changes the sorting order.
+The `L` priority will still be considered higher than no priority in urgency calculations.
+To change the urgency calculation, you also need to adjust the urgency coefficients of the values.
+
 If you would like priorities that represent severity, then you can do something like this:
 
 ```
