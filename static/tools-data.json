@@ -837,8 +837,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 96,
-    "updated": "2024-06-22",
+    "rating": 97,
+    "updated": "2024-06-23",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -6902,26 +6902,6 @@
     "rating": 0,
     "updated": "2020-07-24",
     "url": "https://github.com/dkpeakbil/taskserver"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Four Years Productivity Manager: A productivity manager for the Four Year Workflow.",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "fypm",
-    "owner": [
-      "dmyna"
-    ],
-    "rating": 2,
-    "updated": "2024-06-22",
-    "url": "https://github.com/dmyna/fypm"
   },
   {
     "archived": false,
@@ -16486,7 +16466,7 @@
       "tpeetz"
     ],
     "rating": 4,
-    "updated": "2023-02-23",
+    "updated": "2024-06-23",
     "url": "https://github.com/tpeetz/pull-task"
   },
   {
