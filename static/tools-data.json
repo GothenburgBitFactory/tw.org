@@ -1036,7 +1036,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 172,
+    "rating": 173,
     "updated": "2024-04-17",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1576,7 +1576,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 67,
-    "updated": "2024-06-22",
+    "updated": "2024-06-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1596,7 +1596,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 24,
-    "updated": "2024-06-20",
+    "updated": "2024-06-25",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -1861,9 +1861,7 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2",
-      "taskwarrior3"
+      "taskwarrior2"
     ],
     "description": "Automatically installs Taskwarrior, Taskserver (TODO: and Timewarrior). This project aims to support automated installation of all Taskwarrior hook scripts, configuration flavours etc. with a single command.",
     "dormant": false,
@@ -5058,7 +5056,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 389,
+    "rating": 391,
     "updated": "2024-06-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8839,8 +8837,8 @@
     "owner": [
       "its-me-abhishek"
     ],
-    "rating": 1,
-    "updated": "2024-06-22",
+    "rating": 2,
+    "updated": "2024-06-24",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -10104,7 +10102,7 @@
       "kdheepak"
     ],
     "rating": 1373,
-    "updated": "2024-06-17",
+    "updated": "2024-06-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -17132,8 +17130,7 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
+      "taskwarrior2"
     ],
     "description": "Manage taskwarrior data with git.",
     "dormant": false,
