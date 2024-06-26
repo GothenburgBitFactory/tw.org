@@ -200,11 +200,7 @@ It's a bash script, and easily modifiable.
 ### Q: Why have attribute modifiers (`urgency.over:10`) rather than the more readable and algebraic form (`urgency>10`)?
 
 Taskwarrior already supports both forms.
-The attribute modifier form is older and predates more complex filter support.
 The algebraic form requires that you escape any characters that the shell will otherwise interpret.
-
-At some point the attribute modifier form will likely be deprecated.
-The algebraic form is already much more capable.
 
     $ task help
     ...
