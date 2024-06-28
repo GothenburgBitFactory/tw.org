@@ -8517,7 +8517,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2024-05-10",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9821,7 +9821,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 352,
+    "rating": 353,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -10081,7 +10081,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1375,
+    "rating": 1377,
     "updated": "2024-06-24",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11688,8 +11688,7 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
+      "taskwarrior2"
     ],
     "description": "A command line tool for migrating Todoist tasks to Taskwarrior",
     "dormant": true,
@@ -11862,7 +11861,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2024-05-20",
+    "updated": "2024-06-27",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -14481,7 +14480,7 @@
     "owner": [
       "rmonico"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2024-06-03",
     "url": "https://github.com/rmonico/itask"
   },
@@ -16302,8 +16301,8 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 8,
-    "updated": "2024-06-26",
+    "rating": 9,
+    "updated": "2024-06-27",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
@@ -16402,7 +16401,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 821,
+    "rating": 823,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -16823,7 +16822,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 474,
+    "rating": 475,
     "updated": "2023-10-17",
     "url": "https://github.com/vit-project/vit"
   },
@@ -17415,7 +17414,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
