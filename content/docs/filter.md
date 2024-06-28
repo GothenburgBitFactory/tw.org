@@ -51,8 +51,7 @@ To search for a word in the description or annotation:
 Here we see that 3 tasks have the word 'm..ting' in the description.
 This is a regular expression, although it can also be just a simple word.
 
-This assumes you have enabled regular expression support, using the `rc.regex`
-configuration setting.
+This assumes you haven't disabled regular expression support, using the `rc.regex` configuration setting.
 
 ## Complex Filters
 
