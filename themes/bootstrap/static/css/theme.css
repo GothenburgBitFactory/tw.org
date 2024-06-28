@@ -194,6 +194,7 @@ h4 .callout-warning {
   position: relative;
   display: inline-block;
   opacity: 1;
+  z-index: auto;
 }
 
 /* Tooltip text */
