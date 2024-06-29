@@ -39,9 +39,9 @@ You could also use:
     ...
 
 That is an example of a virtual tag, `TODAY`, which is not a real tag, but is something you can query, and is equivalent to the previous example.
-Additionally, you can use `DUE` which filters tasks that have a due date in the next week, or
-`WEEK` for all tasks due this week, including `YESTERDAY`, `TOMORROW`, `MONTH`
-and `YEAR`.
+Additionally, you can use `DUE` which filters tasks that have a due date today or within the next 7 days, or `WEEK` for all tasks due within the current calendar week, or `YESTERDAY`, `TOMORROW`, `MONTH` and `YEAR`.
+
+Note that number of days in which a task is considered `DUE` can be configured using the `rc.due` setting.
 
 You can find tasks that have any due date at all:
 
