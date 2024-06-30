@@ -106,32 +106,28 @@ Which has an implicit conjunction:
 
     status:pending and project:Home
 
-Now suppose we wanted to use a disjunction filter with the `ls` command:
+Now if we want to use a disjunction filter with the `ls` command:
 
     $ task project:Home or project:Garden list
 
 This is interpreted as:
 
-    status:pending and project:Home or project:Garden
-
-Do you see the precedence problem?
-The intended filter is this:
-
     status:pending and (project:Home or project:Garden)
 
 which includes the parentheses to group the disjunction.
-Going back to the original filter, we now know that it needs this form:
 
-    $ task (project:Home or project:Garden) list
+Now suppose we wanted to use the filter above with the `all` command:
+
+    $ task status:pending and (project:Home or project:Garden) all
     ...
 
-Except now, we have one more problem - those parentheses have special meaning to the shell, and must be escaped in one of the following ways:
+Now, we have one more problem - those parentheses have special meaning to the shell, and must be escaped in one of the following ways:
 
-    $ task \(project:Home or project:Garden\) list
+    $ task status:pending and \(project:Home or project:Garden\) list
     ...
-    $ task '(project:Home or project:Garden)' list
+    $ task status:pending and '(project:Home or project:Garden)' list
     ...
-    $ task "(project:Home or project:Garden)" list
+    $ task status:pending and "(project:Home or project:Garden)" list
 
 Note that there are many characters used by the taskwarrior command line that have special meaning to the shell, and as such must be properly escaped, as [described here](../escapes/).
 
