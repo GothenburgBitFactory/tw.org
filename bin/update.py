@@ -19,8 +19,10 @@ class LogLevel(IntEnum):
 
 
 # Keywords used to search for projects
-KEYWORDS = [
+TOPICS = [
     "taskwarrior",
+    "taskwarrior2",
+    "taskwarrior3",
     "taskserver"
 ]
 
@@ -86,7 +88,7 @@ def log_error(message, *args):
     log_message(message, *args, label="ERROR")
 
 
-def search_github(names, keywords):
+def search_github(names, topics):
     """
     Search GitHub for repos where `keyword` is contained in the description, name, or topic.
     """
@@ -99,33 +101,30 @@ def search_github(names, keywords):
         log_debug("Querying GitHub for repository '{}'", name)
         results.append(from_github_repo(client.get_repo(name)))
 
-    total = 0
-    log_debug("Processing {} keywords", len(keywords))
-    for keyword in keywords:
-        for qualifier in ["topic", "name,description"]:
-            log_info("Querying GitHub for repositories with keyword '{}' in '{}'...", keyword, qualifier)
-            repos = client.search_repositories(keyword, **{"in": f"{qualifier}"})
-            log_debug("Found {} repositories", repos.totalCount)
-            total += repos.totalCount
+    total = len(results)
+    log_info("Querying GitHub for repositories with '{}' as topic...", ' OR '.join(topics))
+    repos = client.search_repositories(' OR '.join(topics), **{"in": "topic"})
+    log_debug("Found {} repositories", repos.totalCount)
+    total += repos.totalCount
 
-            try:
-                for repo in repos:
-                    if len(results) % 30 == 0:
-                        rate_limits = client.get_rate_limit()
-                        log_debug("Rate limits:\n- core: {}\n- search: {}", rate_limits.core, rate_limits.search)
-                        log_debug("Rate limits: {}", rate_limits.raw_data)
-                        calculate_sleep_search(rate_limits)
+    try:
+        for repo in repos:
+            if len(results) % 30 == 0:
+                rate_limits = client.get_rate_limit()
+                log_debug("Rate limits:\n- core: {}\n- search: {}", rate_limits.core, rate_limits.search)
+                log_debug("Rate limits: {}", rate_limits.raw_data)
+                calculate_sleep_search(rate_limits)
 
-                    results.append(from_github_repo(repo))
-                    log_debug("Adding '{}' as {}/{}", repo.html_url, len(results), total)
+            results.append(from_github_repo(repo))
+            log_debug("Adding '{}' as {}/{}", repo.html_url, len(results), total)
 
-                    sleep_period = calculate_sleep_core(repo.raw_headers)
+            sleep_period = calculate_sleep_core(repo.raw_headers)
 
-                    log_debug("Sleeping {:.3f} s", sleep_period)
-                    time.sleep(sleep_period)
-            except GithubException as e:
-                log_error("Encountered exception {} with headers {}", e, e.headers)
-                raise e
+            log_debug("Sleeping {:.3f} s", sleep_period)
+            time.sleep(sleep_period)
+    except GithubException as e:
+        log_error("Encountered exception {} with headers {}", e, e.headers)
+        raise e
 
     log_info("Received {} entries from GitHub", len(results))
 
@@ -177,7 +176,7 @@ def filter_categories(topics):
             log_debug("No categories found, defaulting to {}", DEFAULT_CATEGORIES)
             return DEFAULT_CATEGORIES
         else:
-            log_debug("Mapped to {}", categories)
+            log_debug("Mapped to {}", list(categories))
             return list(categories)
     else:
         log_debug("No topics found, defaulting to {}", DEFAULT_CATEGORIES)
@@ -303,7 +302,7 @@ if __name__ == "__main__":
 
     log_info("Updating tool listing...")
     log_info("Querying GitHub...")
-    tools = search_github(includes["github"], KEYWORDS)
+    tools = search_github(includes["github"], TOPICS)
     log_info("Filtering {} tools ...", len(tools))
     tools = filter_tools(tools)
     log_info("Adding {} manual includes ...", len(includes["manual"]))
