@@ -13,7 +13,7 @@ The `project` attribute has a lot of functionality associated with it, and this 
 
 Other attributes, such as `priority` do not have much associated functionality.
 In fact, beyond storing the value, allowing modification, sorting and inclusion in reports, the `priority` field contributes nothing.
-This is why `priority` is not really a core attribute, and will be migrated out of the code and into configuration.
+This is why `priority` is not really a core attribute, but a built-in UDA.
 
 Occasionally people will ask for new attributes, because their workflow includes more metadata than Taskwarrior supports.
 A very common request is for an
@@ -104,8 +104,6 @@ A report containing an attribute that is an orphan UDA is not a valid report.
 
 ## Other UDA Uses
 
-The `priority` attribute is soon to be replaced by a UDA equivalent.
-This is not something that anyone will notice, but it will make for a smaller, more stable core product.
-UDAs are useful for other capabilities though.
+UDAs are useful for other capabilities.
 An example would be the import of bugs from a Request Tracker.
 The additional metadata in the Request Tracker could be created as UDAs in taskwarrior, which will then allow for a full import without data loss.
