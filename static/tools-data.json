@@ -97,7 +97,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-06-21",
     "url": "https://github.com/00sapo/TWDensity"
   },
@@ -838,7 +838,7 @@
       "CCExtractor"
     ],
     "rating": 98,
-    "updated": "2024-07-01",
+    "updated": "2024-07-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1036,8 +1036,8 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 174,
-    "updated": "2024-04-17",
+    "rating": 175,
+    "updated": "2024-07-03",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
@@ -1576,7 +1576,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 68,
-    "updated": "2024-06-29",
+    "updated": "2024-07-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2253,7 +2253,7 @@
       "LanHikari22"
     ],
     "rating": 2,
-    "updated": "2024-06-07",
+    "updated": "2024-07-02",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -5056,7 +5056,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 394,
+    "rating": 395,
     "updated": "2024-07-01",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5296,7 +5296,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -6916,7 +6916,7 @@
       "dmyna"
     ],
     "rating": 3,
-    "updated": "2024-07-01",
+    "updated": "2024-07-02",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -8115,7 +8115,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -8842,8 +8842,7 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
+      "taskwarrior3"
     ],
     "description": "Built for Taskserver Project in GSoC'24 @CCExtractor",
     "dormant": false,
@@ -9859,7 +9858,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 354,
+    "rating": 356,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -10119,7 +10118,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1382,
+    "rating": 1383,
     "updated": "2024-07-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11781,6 +11780,26 @@
     "rating": 10,
     "updated": "2024-04-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Taskwarrior with intentions",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "tawi",
+    "owner": [
+      "mattsmida"
+    ],
+    "rating": 0,
+    "updated": "2024-07-02",
+    "url": "https://github.com/mattsmida/tawi"
   },
   {
     "archived": false,
@@ -14948,6 +14967,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Better recursive task management for TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-better-recur",
+    "owner": [
+      "scottyob"
+    ],
+    "rating": 0,
+    "updated": "2024-07-02",
+    "url": "https://github.com/scottyob/taskwarrior-better-recur"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Taskwarrior extension for vscode",
     "dormant": false,
     "language": [
@@ -16329,7 +16368,7 @@
       "taskwarrior2",
       "taskwarrior3"
     ],
-    "description": "Web UI for Task warrior",
+    "description": "Minimalistic web UI for Task warrior",
     "dormant": false,
     "language": [
       "Rust"
@@ -16340,7 +16379,7 @@
       "tmahmood"
     ],
     "rating": 11,
-    "updated": "2024-06-29",
+    "updated": "2024-07-02",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
@@ -16640,7 +16679,7 @@
       "ulrichschinz"
     ],
     "rating": 0,
-    "updated": "2024-07-01",
+    "updated": "2024-07-02",
     "url": "https://github.com/ulrichschinz/taskwarrior"
   },
   {
@@ -16702,6 +16741,26 @@
     "rating": 0,
     "updated": "2018-04-20",
     "url": "https://github.com/unifiDa/eisenTask"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "AI Secretary, Ollama with Taskwarrior and LLM",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "AI_Secretary",
+    "owner": [
+      "unintended-giraffe"
+    ],
+    "rating": 0,
+    "updated": "2024-07-02",
+    "url": "https://github.com/unintended-giraffe/AI_Secretary"
   },
   {
     "archived": false,
