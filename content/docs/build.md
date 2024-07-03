@@ -16,12 +16,11 @@ You'll need these tools:
 - C++ compiler, currently gcc 4.7+ or clang 3.3+ for full C++11 support
 - rustc
 - cargo
-- Python 2.7 or later (for tests)
+- Python 3 or later (for tests)
 - Bash (for tests)
 
 You'll need these libraries:
 
-- [GnuTLS](https://www.gnutls.org/)
 - libuuid (unless on Darwin/BSD)
 
 Specifically the development versions, `uuid-dev` on Debian, for example.
@@ -40,23 +39,22 @@ The `stable` branch always represents the more recently released version, and sh
 
 ```
 $ cd taskwarrior.git
-$ git checkout stable                # 'stable' is the current branch matching the latest release.
-$ cmake -DCMAKE_BUILD_TYPE=release . # 'release' for performance.
-$ make                               # Just build it.
+$ git checkout stable                             # 'stable' is the current branch matching the latest release.
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release  # Out-of-source build in Release mode
+$ cmake --build build                             # Just build it.
 ```
 
 ## Building the Dev Branch
 
 The `develop` branch contains the latest changes.
 Choose this branch if you want to work on the code, or if you want to try out the latest features.
+More information on testing and building can be seen [here](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/contrib/development.md).
 
 ```
 $ cd taskwarrior.git
-$ git checkout develop               # Dev branch
-$ git submodule init                 # Register submodule
-$ git submodule update               # Get the submodule
-$ cmake -DCMAKE_BUILD_TYPE=debug .   # debug or release, default: neither
-$ make VERBOSE=1                     # Shows details
+$ git checkout develop                          # Dev branch
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Debug  # Out-of-source build in Debug mode
+$ cmake --build build                           # Just build it.
 ```
 
 Build the debug type if you want symbols in the binary.
@@ -67,11 +65,11 @@ There are scripts to facilitate running the test suite.
 In particular, the [vramsteg](https://gothenburgbitfactory.org/projects/vramsteg/) utility provides blinkenlights for test progress.
 
 ```
-$ cd taskwarrior.git/test
-$ make VERBOSE=1     # Shows details
-$ ./run_all          # Runs all tests silently > all.log
-$ ./problems         # Find errors in all.log
+$ cd taskwarrior.git
+$ cmake --build build --target build_tests
 ```
+
+This will build and run the whole test suite.
 
 ## Submitting a Patch
 

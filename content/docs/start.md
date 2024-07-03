@@ -29,7 +29,7 @@ Five good reasons to use Taskwarrior
 
 3. Taskwarrior has an active and friendly community, providing support and various forms of help to new and experienced users. [Start here](../../support/) for a list of support options.
    Need an immediate answer - check your man pages and [online docs](../).
-   Need to ask someone a question? try IRC #taskwarrior on libera.chat.
+   Need to ask someone a question? Checkout our [Discord Server](https://discord.gg/eRXEHk8w62).
 
 4. Taskwarrior is open in as many ways as it can be:
    - It is [free and open source](https://github.com/GothenburgBitFactory/taskwarrior), using the MIT license
