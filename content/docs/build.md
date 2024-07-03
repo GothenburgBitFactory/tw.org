@@ -67,6 +67,7 @@ In particular, the [vramsteg](https://gothenburgbitfactory.org/projects/vramsteg
 ```
 $ cd taskwarrior.git
 $ cmake --build build --target build_tests
+$ ctest --test-dir build
 ```
 
 This will build and run the whole test suite.
