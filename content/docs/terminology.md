@@ -260,13 +260,13 @@ A filter is essentially an algebraic expression that must evaluate to`True` for 
 Most commands accept filters.
 See [Filters](../filter/) for a more complete discussion.
 
-## gc
+## rebuilding
 
-Taskwarrior performs a Garbage Collect (gc) operation whenever it is necessary.
-Tasks that are deleted and completed are moved from the`pending.data` file to the `completed.data` file.
-This process keeps the`pending.data` file compact and fast to read, and keeps the ID numbers as low as possible.
+Taskwarrior performs a "rebuild" operation whenever it is necessary.
+Tasks that are deleted and completed are moved out of the "working set."
+This process keeps the working set compact and fast to read, and keeps the ID numbers as low as possible.
 
-Although gc can be disabled, to keep the ID numbers static, [this is considered a bad idea](../ids/).
+Although rebuilding can be disabled, to keep the ID numbers static, [this is considered a bad idea](../ids/).
 
 ## hooks
 
@@ -612,7 +612,7 @@ See [Urgency](../urgency/).
 ## UUID
 
 A **U**niversally **U**nique **ID**entifier is a 128-bit number used to uniquely identify a task.
-Whereas the ID of a task is simply a line number in the `pending.data` file, the UUID is permanent.
+Whereas the ID of a task is simply a line number in the "working set", the UUID is permanent.
 
 You can use ID and UUID interchangeably, although the ID is much more convenient.
 
