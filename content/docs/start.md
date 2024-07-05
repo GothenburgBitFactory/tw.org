@@ -102,7 +102,7 @@ There are several ways for you to get a copy of Taskwarrior:
 - Install a binary package.
   Your operating system probably already has a binary package available.
   These packages are usually named 'task'.
-- Download a release tarball, from [here](../../download/), then make sure you have libuuid-dev (maybe called uuid-dev) and gnutls-dev installed.
+- Download a release tarball, from [here](../../download/), then make sure you have libuuid-dev (maybe called uuid-dev) installed.
   Then using cmake, GCC 4.7 / Clang 3.3, [build Taskwarrior](../build/).
 - Using [git](https://git-scm.com), clone the code repository, switch to the current development branch, and [build Taskwarrior](../build/).
 
