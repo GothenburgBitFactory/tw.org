@@ -837,8 +837,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 99,
-    "updated": "2024-07-02",
+    "rating": 100,
+    "updated": "2024-07-04",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1556,7 +1556,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 732,
-    "updated": "2024-06-22",
+    "updated": "2024-07-05",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1575,8 +1575,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 68,
-    "updated": "2024-07-02",
+    "rating": 69,
+    "updated": "2024-07-04",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3626,7 +3626,7 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "Rust"
     ],
     "license": null,
     "name": "SideBar",
@@ -3634,7 +3634,7 @@
       "WaldLumen"
     ],
     "rating": 0,
-    "updated": "2024-07-03",
+    "updated": "2024-07-04",
     "url": "https://github.com/WaldLumen/SideBar"
   },
   {
@@ -5678,7 +5678,7 @@
       "catanadj"
     ],
     "rating": 5,
-    "updated": "2024-07-03",
+    "updated": "2024-07-04",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -10138,7 +10138,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1383,
+    "rating": 1384,
     "updated": "2024-07-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11328,26 +11328,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Taswarrior scripts",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "taskwarrior-scripts",
-    "owner": [
-      "loonies"
-    ],
-    "rating": 0,
-    "updated": "2019-05-20",
-    "url": "https://github.com/loonies/taskwarrior-scripts"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": null,
     "dormant": false,
     "language": [
@@ -11818,7 +11798,7 @@
       "mattsmida"
     ],
     "rating": 0,
-    "updated": "2024-07-02",
+    "updated": "2024-07-04",
     "url": "https://github.com/mattsmida/tawi"
   },
   {
@@ -13787,26 +13767,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Build Taskwarrior client from a Makefile using FPM",
-    "dormant": true,
-    "language": [
-      "Makefile"
-    ],
-    "license": "MIT License",
-    "name": "fpm-taskwarrior",
-    "owner": [
-      "philipsd6"
-    ],
-    "rating": 0,
-    "updated": "2017-04-14",
-    "url": "https://github.com/philipsd6/fpm-taskwarrior"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Build Taskwarrior server from a Makefile using FPM!",
     "dormant": true,
     "language": [
@@ -14497,7 +14457,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 74,
+    "rating": 75,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -16498,7 +16458,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 824,
+    "rating": 823,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
