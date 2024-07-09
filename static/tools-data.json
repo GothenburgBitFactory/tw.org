@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-07",
+    "updated": "2024-07-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3502,6 +3502,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "productive desktop environment setup.",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": "MIT License",
+    "name": "kaizen",
+    "owner": [
+      "TheRiceCold"
+    ],
+    "rating": 22,
+    "updated": "2024-07-07",
+    "url": "https://github.com/TheRiceCold/kaizen"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -3656,7 +3676,7 @@
       "WaldLumen"
     ],
     "rating": 1,
-    "updated": "2024-07-07",
+    "updated": "2024-07-08",
     "url": "https://github.com/WaldLumen/SideBar"
   },
   {
@@ -4179,7 +4199,7 @@
       "ak-arsalan"
     ],
     "rating": 0,
-    "updated": "2024-06-19",
+    "updated": "2024-07-08",
     "url": "https://github.com/ak-arsalan/cli-taskwarrior-and-restapi-automation"
   },
   {
@@ -5098,7 +5118,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 397,
+    "rating": 395,
     "updated": "2024-07-01",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5909,7 +5929,7 @@
       "taskwarrior2"
     ],
     "description": "Simple taskwarrior notifications in rust",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Rust"
     ],
@@ -5919,7 +5939,7 @@
       "chess-seventh"
     ],
     "rating": 1,
-    "updated": "2020-09-29",
+    "updated": "2024-07-08",
     "url": "https://github.com/chess-seventh/rusty-warrior"
   },
   {
@@ -6958,7 +6978,7 @@
       "dmyna"
     ],
     "rating": 3,
-    "updated": "2024-07-02",
+    "updated": "2024-07-09",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -10160,7 +10180,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1384,
+    "rating": 1385,
     "updated": "2024-07-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -15480,7 +15500,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2024-07-07",
+    "updated": "2024-07-09",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -16981,7 +17001,7 @@
       "vit-project"
     ],
     "rating": 475,
-    "updated": "2024-07-07",
+    "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
   {
