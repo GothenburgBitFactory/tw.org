@@ -217,7 +217,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-08",
+    "updated": "2024-07-09",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 25,
-    "updated": "2024-06-25",
+    "updated": "2024-07-09",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2275,7 +2275,7 @@
       "LanHikari22"
     ],
     "rating": 2,
-    "updated": "2024-07-06",
+    "updated": "2024-07-09",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -3516,7 +3516,7 @@
       "TheRiceCold"
     ],
     "rating": 22,
-    "updated": "2024-07-07",
+    "updated": "2024-07-09",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -5081,6 +5081,26 @@
     "rating": 0,
     "updated": "2024-04-04",
     "url": "https://github.com/behance218/taskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "\"Decorate your home. It gives the illusion that your life is more interesting than it really is.\" \u00a0\u00a0\u00a0\u00a0\u2014\u00a0\u00a0Charles M. Schulz",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "dotfiles",
+    "owner": [
+      "benelan"
+    ],
+    "rating": 0,
+    "updated": "2024-06-25",
+    "url": "https://github.com/benelan/dotfiles"
   },
   {
     "archived": false,
@@ -8207,6 +8227,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "Taskserver",
+    "owner": [
+      "goursunderpandey"
+    ],
+    "rating": 0,
+    "updated": "2024-07-09",
+    "url": "https://github.com/goursunderpandey/Taskserver"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "If you ever wanted to track your time with mite in a workflow around taskwarrior, this is for you!",
     "dormant": false,
     "language": [
@@ -8618,7 +8658,7 @@
       "huantrinh1802"
     ],
     "rating": 26,
-    "updated": "2024-05-10",
+    "updated": "2024-07-10",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
   {
@@ -10180,7 +10220,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1385,
+    "rating": 1386,
     "updated": "2024-07-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11860,7 +11900,7 @@
       "mattsmida"
     ],
     "rating": 0,
-    "updated": "2024-07-05",
+    "updated": "2024-07-09",
     "url": "https://github.com/mattsmida/tawi"
   },
   {
@@ -16400,7 +16440,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 526,
+    "rating": 524,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -16761,7 +16801,7 @@
       "ulrichschinz"
     ],
     "rating": 0,
-    "updated": "2024-07-03",
+    "updated": "2024-07-09",
     "url": "https://github.com/ulrichschinz/taskwarrior"
   },
   {
@@ -17000,7 +17040,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 475,
+    "rating": 473,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
