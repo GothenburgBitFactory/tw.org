@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 100,
+    "rating": 101,
     "updated": "2024-07-07",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1038,7 +1038,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 176,
+    "rating": 177,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-09",
+    "updated": "2024-07-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1597,8 +1597,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 25,
-    "updated": "2024-07-09",
+    "rating": 26,
+    "updated": "2024-07-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2255,7 +2255,7 @@
       "Laluyas"
     ],
     "rating": 0,
-    "updated": "2024-06-19",
+    "updated": "2024-07-10",
     "url": "https://github.com/Laluyas/TaskServer"
   },
   {
@@ -6998,7 +6998,7 @@
       "dmyna"
     ],
     "rating": 3,
-    "updated": "2024-07-09",
+    "updated": "2024-07-10",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -8058,7 +8058,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-05-18",
+    "updated": "2024-07-10",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -10220,7 +10220,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1386,
+    "rating": 1387,
     "updated": "2024-07-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12020,7 +12020,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2024-06-27",
+    "updated": "2024-07-10",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -15540,7 +15540,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2024-07-09",
+    "updated": "2024-07-10",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -16801,7 +16801,7 @@
       "ulrichschinz"
     ],
     "rating": 0,
-    "updated": "2024-07-09",
+    "updated": "2024-07-10",
     "url": "https://github.com/ulrichschinz/taskwarrior"
   },
   {
