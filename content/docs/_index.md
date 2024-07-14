@@ -56,16 +56,12 @@ layout: single
 - [Deprecated Features](deprecated/)
 - [Philosophy](philosophy/)
 
-## Taskserver (deprecated, only compatible with Taskwarrior 2.x)
-- [Why do I need a Taskserver?](taskserver/why/)
-- [Taskserver Setup Guide](https://gothenburgbitfactory.org/taskserver-setup/)
-- [Taskserver Troubleshooting Guide](https://gothenburgbitfactory.org/taskserver-troubleshooting/)
-
 ## Tasksh
 - [Reviewing tasks using tasksh](review/) {{< label >}}1.1.0{{< /label >}}
 
 ## Other Projects
 - [Timewarrior Home Page](https://timewarrior.net)
+- [Taskserver Home Page](https://gothenburgbitfactory.org/taskd/)
 - [Clog Home Page](https://gothenburgbitfactory.org/clog/)
 
 ## Integrating with Taskwarrior
@@ -82,5 +78,4 @@ layout: single
 
 ## About
 - [Taskwarrior Release History](history/)
-- [Taskserver Release History](history_td/)
 - [MIT License](license/)
