@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 101,
+    "rating": 103,
     "updated": "2024-07-07",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-11",
+    "updated": "2024-07-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3516,7 +3516,7 @@
       "TheRiceCold"
     ],
     "rating": 23,
-    "updated": "2024-07-09",
+    "updated": "2024-07-13",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -5138,7 +5138,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 395,
+    "rating": 396,
     "updated": "2024-07-01",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5740,7 +5740,7 @@
       "catanadj"
     ],
     "rating": 5,
-    "updated": "2024-07-07",
+    "updated": "2024-07-13",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -8957,7 +8957,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2024-07-03",
+    "updated": "2024-07-13",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -10220,7 +10220,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1390,
+    "rating": 1392,
     "updated": "2024-07-01",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14579,7 +14579,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 78,
+    "rating": 79,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -15540,7 +15540,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2024-07-11",
+    "updated": "2024-07-13",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -17040,7 +17040,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 473,
+    "rating": 474,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
