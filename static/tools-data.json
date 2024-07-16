@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-13",
+    "updated": "2024-07-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3516,7 +3516,7 @@
       "TheRiceCold"
     ],
     "rating": 23,
-    "updated": "2024-07-13",
+    "updated": "2024-07-15",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -5138,7 +5138,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 396,
+    "rating": 397,
     "updated": "2024-07-01",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5309,7 +5309,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -5740,7 +5740,7 @@
       "catanadj"
     ],
     "rating": 5,
-    "updated": "2024-07-13",
+    "updated": "2024-07-15",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -6378,7 +6378,7 @@
     "owner": [
       "contrun"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-08-19",
     "url": "https://github.com/contrun/taskwarrior-terminal-kanban"
   },
@@ -8337,7 +8337,7 @@
     "owner": [
       "grovesteyn"
     ],
-    "rating": 34,
+    "rating": 33,
     "updated": "2024-05-24",
     "url": "https://github.com/grovesteyn/tchart"
   },
@@ -9036,7 +9036,7 @@
     "owner": [
       "j-jith"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2023-08-04",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
@@ -9960,7 +9960,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 356,
+    "rating": 357,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -10221,7 +10221,7 @@
       "kdheepak"
     ],
     "rating": 1393,
-    "updated": "2024-07-01",
+    "updated": "2024-07-15",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
