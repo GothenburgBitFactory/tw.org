@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-15",
+    "updated": "2024-07-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2275,7 +2275,7 @@
       "LanHikari22"
     ],
     "rating": 2,
-    "updated": "2024-07-12",
+    "updated": "2024-07-16",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -3515,8 +3515,8 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 23,
-    "updated": "2024-07-15",
+    "rating": 24,
+    "updated": "2024-07-16",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -5099,7 +5099,7 @@
       "benelan"
     ],
     "rating": 0,
-    "updated": "2024-06-25",
+    "updated": "2024-07-16",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -5138,7 +5138,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 397,
+    "rating": 398,
     "updated": "2024-07-01",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6198,7 +6198,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2023-01-12",
     "url": "https://github.com/coddingtonbear/python-taskwarrior"
   },
@@ -8927,6 +8927,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "irinbenny"
+    ],
+    "rating": 0,
+    "updated": "2024-07-16",
+    "url": "https://github.com/irinbenny/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "A small script that purge all tasks from taskwarrior that are completed or deleted.",
     "dormant": true,
     "language": [
@@ -10220,7 +10240,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1393,
+    "rating": 1395,
     "updated": "2024-07-15",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -16801,7 +16821,7 @@
       "ulrichschinz"
     ],
     "rating": 0,
-    "updated": "2024-07-10",
+    "updated": "2024-07-16",
     "url": "https://github.com/ulrichschinz/taskwarrior"
   },
   {
