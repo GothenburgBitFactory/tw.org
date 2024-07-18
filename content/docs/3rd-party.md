@@ -16,8 +16,7 @@ We encourage you to create such add-ons, but in doing so, there are some rules t
 - Produce, consume and handle UTF8 text properly.
   UTF8 is the only text encoding supported by Taskwarrior.
 - Don't attempt to read the database.
-  Here's why: the database format might change in future versions.
-  Additionally, you will need to handle the rebuild operations, implement the task "unwait" feature, observe user defined attribute handling restrictions, and implement recurring task synthesis all of which require `.taskrc` and default value access.
+  Here's why: the database format might change in future versions, and there are important relationships between tables in the database which must be maintained, or tasks may be corrupted.
   You would essentially be rewriting the data access and configuration portion of Taskwarrior, which is a major undertaking.
   To support filters you would also need to evaluate the supported clauses, provide DOM access and implement aliases.
 - Use the `export` command to query data from Taskwarrior.
@@ -43,5 +42,5 @@ We encourage you to create such add-ons, but in doing so, there are some rules t
 - If you need to store additional data, consider putting it in the `~/.task` directory.
 - There are many helper commands designed to assist add-on scripts such as shell completion scripts.
   These commands all begin with an underscore, see them with this command: `task help | grep ' _'`.
-- Familiarize yourself with the means of forcing color on or off, disabling word wrapping, disabling bulk operation limitations, disabling confirmation, disabling rebuilding, modifying verbosity and so on.
+- Familiarize yourself with the means of forcing color on or off, disabling word wrapping, disabling bulk operation limitations, disabling confirmation, disabling rebuilding the working set, modifying verbosity and so on.
   There are ways around almost all the restrictions, and while these don't make sense for regular users, they can be critical for add-on authors.

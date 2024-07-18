@@ -19,14 +19,14 @@ One nice side effect of this mechanism is that the ID numbers of pending tasks r
 
 One downside is that ID numbers change occasionally, although in a predictable way.
 
-## Rebuilding
+## Rebuilding the Working Set
 
 When a task is marked as deleted, it gets a new status, and an `end` attribute, among other things.
 The task is still in the working set, but it doesn't belong there.
 There is an operation called "rebuilding" that is automatically run by taskwarrior to move tasks out of the working set.
 When moving tasks out of the working set, the ID numbers are changed, because they should be a sequence with no gaps assigned to all tasks in the working set.
 
-But rebuilding is only run occasionally: it is run immediately before any report that displays ID numbers, but not when a task is modified in any way.
+But the working set is only rebuilt occasionally: immediately before any report that displays ID numbers, but not when a task is modified in any way.
 The reason is concerned with general usage.
 Here is a typical taskwarrior usage scenario for a few commands:
 
