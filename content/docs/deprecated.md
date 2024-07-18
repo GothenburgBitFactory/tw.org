@@ -4,7 +4,7 @@ title: "Taskwarrior - Deprecated Features"
 
 # Deprecated Features
 
-Taskwarrior, Taskserver, Tasksh and Timewarrior have many features.
+Taskwarrior, Tasksh, and Timewarrior have many features.
 With each release new features are added, and sometimes features are removed.
 A feature may be removed if it has been superseded by something better, is no longer relevant, or is very troublesome.
 
@@ -52,8 +52,8 @@ Urgency inheritance changes with 2.4.5, and this settings will no longer be used
 ### ISO Date and Time non-extended formats. [deprecated since 2.4.5]
 
 The non-extended formats are just strings of numbers without separators.
-Here is an extended date `2015-06-25` and here is the unextended date `20150625`, which looks like a number or even an abbreviated UUID.
-Here is an extended time `12:34:56`, and an unextended time `123456`, with the same issue.
+Here is an extended date `2015-06-25` and here is the non-extended date `20150625`, which looks like a number or even an abbreviated UUID.
+Here is an extended time `12:34:56`, and an non-extended time `123456`, with the same issue.
 The non-extended forms will be removed.
 
 ### Helper commands for unique lists [deprecated since 2.4.5]
@@ -71,16 +71,6 @@ The dom references `context.program`, `context.args`, `context.width`, and `cont
 ## Tasksh
 
 None yet.
-
-## Taskserver
-
-NOTE: Taskserver itself is deprecated and only compatible with Taskwarrior 2.x.
-
-### Client Allow/Deny List [removed in 1.1.0]
-
-Taskserver initially supported the `client.allow` and `client.deny` settings which filtered connections.
-The intention was to be able to decline misbehaving clients.
-This has proved to be a configuration problem for some, and the mechanism is easily spoofed, so it will be removed.
 
 ## Timewarrior
 
