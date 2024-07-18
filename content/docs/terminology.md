@@ -260,10 +260,10 @@ A filter is essentially an algebraic expression that must evaluate to`True` for 
 Most commands accept filters.
 See [Filters](../filter/) for a more complete discussion.
 
-## rebuilding
+## Rebuilding the Working Set (a.k.a. GC)
 
-Taskwarrior performs a "rebuild" operation whenever it is necessary.
-Tasks that are deleted and completed are moved out of the "working set."
+Taskwarrior rebuilds the "working set" whenever it is necessary.
+Tasks that are deleted and completed are moved out of the working set.
 This process keeps the working set compact and fast to read, and keeps the ID numbers as low as possible.
 
 Although rebuilding can be disabled, to keep the ID numbers static, [this is considered a bad idea](../ids/).
