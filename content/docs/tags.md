@@ -61,7 +61,7 @@ Because this is a tag interface, we can also invert it:
 This shows only tasks that are not due today.
 
 Virtual tags are built in to Taskwarrior.
-They are evaluated at run time, which means they do not require direct metadata, and therefore do not occupy space in the data files, but are determined according to the state of the task in the same way that the complex filter example above is determined.
+They are evaluated at run time, which means they do not require direct metadata, and therefore do not occupy space in the database, but are determined according to the state of the task in the same way that the complex filter example above is determined.
 
 Thus virtual tags combine the simplicity of the tag interface with more complex defined conditions, for convenience.
 
