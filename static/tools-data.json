@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-17",
+    "updated": "2024-07-19",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2275,7 +2275,7 @@
       "LanHikari22"
     ],
     "rating": 2,
-    "updated": "2024-07-17",
+    "updated": "2024-07-19",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -3515,7 +3515,7 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2024-07-16",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
@@ -5119,7 +5119,7 @@
       "benelan"
     ],
     "rating": 0,
-    "updated": "2024-07-16",
+    "updated": "2024-07-19",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -5159,7 +5159,7 @@
       "bergercookie"
     ],
     "rating": 398,
-    "updated": "2024-07-01",
+    "updated": "2024-07-19",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -7012,13 +7012,13 @@
     "language": [
       "Rust"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "fypm",
     "owner": [
       "dmyna"
     ],
     "rating": 3,
-    "updated": "2024-07-17",
+    "updated": "2024-07-20",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -8997,7 +8997,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2024-07-13",
+    "updated": "2024-07-19",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -10260,7 +10260,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1396,
+    "rating": 1400,
     "updated": "2024-07-15",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11940,7 +11940,7 @@
       "mattsmida"
     ],
     "rating": 0,
-    "updated": "2024-07-09",
+    "updated": "2024-07-19",
     "url": "https://github.com/mattsmida/tawi"
   },
   {
@@ -13499,7 +13499,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2023-09-18",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
