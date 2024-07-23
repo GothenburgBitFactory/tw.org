@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-21",
+    "updated": "2024-07-22",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 28,
-    "updated": "2024-07-21",
+    "updated": "2024-07-22",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -5119,7 +5119,7 @@
       "benelan"
     ],
     "rating": 0,
-    "updated": "2024-07-21",
+    "updated": "2024-07-22",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -5158,7 +5158,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 398,
+    "rating": 399,
     "updated": "2024-07-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8247,26 +8247,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "Taskserver",
-    "owner": [
-      "goursunderpandey"
-    ],
-    "rating": 0,
-    "updated": "2024-07-09",
-    "url": "https://github.com/goursunderpandey/Taskserver"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "If you ever wanted to track your time with mite in a workflow around taskwarrior, this is for you!",
     "dormant": false,
     "language": [
@@ -8678,7 +8658,7 @@
       "huantrinh1802"
     ],
     "rating": 26,
-    "updated": "2024-07-20",
+    "updated": "2024-07-22",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
   {
@@ -10281,7 +10261,7 @@
       "kdheepak"
     ],
     "rating": 1401,
-    "updated": "2024-07-15",
+    "updated": "2024-07-22",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -11952,16 +11932,36 @@
     "description": "Taskwarrior with intentions",
     "dormant": false,
     "language": [
-      "Python"
+      "N/A"
     ],
-    "license": "MIT License",
+    "license": null,
     "name": "tawi",
     "owner": [
       "mattsmida"
     ],
     "rating": 0,
-    "updated": "2024-07-19",
+    "updated": "2024-07-22",
     "url": "https://github.com/mattsmida/tawi"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Taskwarrior with intentions",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "tawi-dev",
+    "owner": [
+      "mattsmida"
+    ],
+    "rating": 0,
+    "updated": "2024-07-22",
+    "url": "https://github.com/mattsmida/tawi-dev"
   },
   {
     "archived": false,
@@ -13659,7 +13659,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
