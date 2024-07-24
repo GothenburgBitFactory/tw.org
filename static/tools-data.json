@@ -537,7 +537,7 @@
     "owner": [
       "AlexanderBrevig"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2022-08-17",
     "url": "https://github.com/AlexanderBrevig/tree-sitter-task"
   },
@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-22",
+    "updated": "2024-07-23",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -7408,7 +7408,7 @@
       "taskwarrior3"
     ],
     "description": "Utilities for Handling Taskwarrior Data",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "R"
     ],
@@ -7418,7 +7418,7 @@
       "enricoschumann"
     ],
     "rating": 0,
-    "updated": "2020-06-08",
+    "updated": "2024-07-23",
     "url": "https://github.com/enricoschumann/taskwarrior.utils"
   },
   {
@@ -8658,7 +8658,7 @@
       "huantrinh1802"
     ],
     "rating": 26,
-    "updated": "2024-07-22",
+    "updated": "2024-07-23",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
   {
@@ -8991,13 +8991,13 @@
     "language": [
       "TypeScript"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "ccsync",
     "owner": [
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2024-07-20",
+    "updated": "2024-07-23",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -10000,7 +10000,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 358,
+    "rating": 359,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -10260,7 +10260,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1401,
+    "rating": 1402,
     "updated": "2024-07-22",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14639,7 +14639,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 80,
+    "rating": 81,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
