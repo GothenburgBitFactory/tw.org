@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-23",
+    "updated": "2024-07-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3515,7 +3515,7 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2024-07-16",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
@@ -8657,7 +8657,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2024-07-23",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8997,7 +8997,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2024-07-23",
+    "updated": "2024-07-24",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -10260,7 +10260,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1402,
+    "rating": 1401,
     "updated": "2024-07-22",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10415,13 +10415,13 @@
     "language": [
       "Shell"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "tasko",
     "owner": [
       "knid"
     ],
     "rating": 1,
-    "updated": "2024-06-13",
+    "updated": "2024-07-24",
     "url": "https://github.com/knid/tasko"
   },
   {
@@ -14639,7 +14639,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 81,
+    "rating": 82,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
