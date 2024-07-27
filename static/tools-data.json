@@ -1248,7 +1248,7 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Simple script to make adding new tasks to taskwarrior projects easier",
+    "description": "Simple scripts to make adding new tasks to taskwarrior projects easier",
     "dormant": false,
     "language": [
       "Python"
@@ -1259,7 +1259,7 @@
       "DjaEm"
     ],
     "rating": 0,
-    "updated": "2024-06-13",
+    "updated": "2024-07-26",
     "url": "https://github.com/DjaEm/Taskwarrior-adder"
   },
   {
@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 69,
-    "updated": "2024-07-25",
+    "updated": "2024-07-26",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 29,
-    "updated": "2024-07-22",
+    "updated": "2024-07-26",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -8044,8 +8044,8 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
+      "taskwarrior2",
+      "taskwarrior3"
     ],
     "description": "A repository of custom themes I use in taskwarrior",
     "dormant": false,
@@ -8997,7 +8997,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2024-07-24",
+    "updated": "2024-07-26",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -9107,7 +9107,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -16561,7 +16561,7 @@
       "tmahmood"
     ],
     "rating": 13,
-    "updated": "2024-07-25",
+    "updated": "2024-07-26",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
@@ -16660,7 +16660,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 827,
+    "rating": 828,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
