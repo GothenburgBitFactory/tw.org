@@ -1,0 +1,105 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+function show_usage()
+{
+  cat <<EOF
+Usage: review-tools [TOOLS_BLACKLIST_FILE]
+EOF
+}
+
+function show_help()
+{
+  cat <<EOF
+NAME
+    check-links – check links on given website
+
+SYNOPSIS
+    check-links [--clean] [--no-extern] [URL]
+
+DESCRIPTION
+    This is a wrapper for the LinkChecker [1] validator.
+
+    When called without arguments, the URL is set to http://localhost:1313, which is the default Hugo local URL.
+    When checking external links is not deactivated, the number of requests per second is limited to 3 to avoid GitHub rate limiting.
+
+    On the first run, the script creates an virtual environment in 'venv-lc' at the repository root and installs all required dependencies.
+    For later calls, only updates to 'requirements-lc.txt' are applied.
+
+    [1] See https://linkchecker.github.io/linkchecker/index.html
+
+OPTIONS
+    --clean
+        Recreate the virtual environment before running the check.
+        This installs the latest version of LinkChecker and updates requirements-lc.txt
+
+    --no-extern
+        Do not check external URLs
+
+    -h, --help
+        Show this help and exit
+EOF
+}
+
+OPTIONS=()
+REPO_ROOT="$( git rev-parse --show-toplevel )"
+VENV_DIR="${REPO_ROOT}/venv-lc"
+REQUIREMENTS_TXT="${REPO_ROOT}/bin/requirements-lc.txt"
+
+until [[ -z "${1-}" ]] ; do
+  case "${1}" in
+    --clean)
+      DO_CLEANUP="yes"
+      ;;
+    --no-extern)
+      CHECK_EXTERN="no"
+      ;;
+    --help)
+      show_help
+      exit 1
+      ;;
+    --*)
+      echo "Unknown long option '${1}'"
+      show_usage
+      exit 1
+      ;;
+    -*)
+      echo "Unknown short option '${1}'"
+      show_usage
+      exit 1
+      ;;
+    *)
+      URL="${1}"
+      ;;
+  esac
+  shift
+done
+
+if [[ "${DO_CLEANUP-"no"}" = "yes" ]] ; then
+  echo "Removing virtual environment..."
+  rm -rf "${VENV_DIR}"
+  rm -f "${REQUIREMENTS_TXT}"
+fi
+
+if [[ ! -d "${VENV_DIR}" ]] ; then
+  echo "Creating virtual environment..."
+  python3 -m venv "${VENV_DIR}"
+  "${VENV_DIR}/bin/pip" install --upgrade pip
+fi
+
+if [[ ! -e "${REQUIREMENTS_TXT}" ]] ; then
+  "${VENV_DIR}/bin/pip" install linkchecker
+  "${VENV_DIR}/bin/pip" freeze > "${REQUIREMENTS_TXT}"
+else
+  "${VENV_DIR}/bin/pip" install -r "${REQUIREMENTS_TXT}" >/dev/null
+fi
+
+if [[ "${CHECK_EXTERN-"yes"}" == "yes" ]] ; then
+  OPTIONS+=( "--check-extern" "--config" "${REPO_ROOT}/bin/linkcheckerrc" )
+fi
+
+echo "Checking links on ${URL-"http://localhost:1313"}..."
+"${VENV_DIR}/bin/linkchecker" "${OPTIONS[@]}" \
+                              --o html \
+                              "${URL-"http://localhost:1313"}" > linkcheck.html
