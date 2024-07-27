@@ -1,0 +1,224 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+function show_usage()
+{
+  cat <<EOF
+Usage: review-tools [TOOLS_BLACKLIST_FILE]
+EOF
+}
+
+function show_help()
+{
+  cat <<EOF
+NAME
+    review-tools – review current blacklist and new tools
+
+SYNOPSIS
+    review-tools [TOOLS_BLACKLIST_FILE]
+
+DESCRIPTION
+    Review current blacklist and new tools that have been added since last review.
+
+    When called without arguments, the blacklist at 'bin/blacklist.json' in the tw.org repository is loaded.
+    If not empty, the script queries whether one wants to review the current blacklist entries (default 'no').
+    Next, it determines the new entries in 'static/tools-data.json' by examining its Git history since the last review.
+    The timestamp of the last review is retrieved from '.review-timestamp' at the repository root.
+    If not present, all entries in 'static/tools-data.json' are listed for review.
+    If there are new entries, the script queries whether one wants to review them.
+    After the review, the script updates the review timestamp to the current date.
+
+    At all reviewer input queries, pressing return enters the default value.
+
+    *Reviewing blacklist entries*
+    For each entry in the blacklist, the script opens its URL in the browser.
+    If an URL returns a 404, it is automatically removed from the blacklist.
+    The reviewer can then decide whether the entry should be
+      * kept ('y', default),
+      * removed ('n'), or
+      * updated ('u')
+
+    *Reviewing new tool entries*
+    For each new tool, the script opens its URL in the browser.
+    The reviewer can then decide whether the tool should be blacklisted ('y') or not ('n', default).
+    If the reviewer decides to blacklist a tool, the scripts asks to specify a reason for it which is entered in 'blacklist.json'.
+
+    The review-tools script requires the ['jq' utility](https://jqlang.github.io/jq/) to be installed.
+
+OPTIONS
+    -h, --help
+        Show this help and exit
+EOF
+}
+
+# Associative array for the blacklist entries
+declare -A TOOLS_BLACKLIST
+# Array for new entries in the tools list
+declare -a URLS
+# The repository root
+REPO_ROOT="$( git rev-parse --show-toplevel )"
+
+function load_blacklist() {
+    local tools_blacklist_file="${1?"Path to blacklist is missing!"}"
+
+    while read -r key value ; do
+      TOOLS_BLACKLIST["${key}"]="${value}"
+    done < <( jq -r 'to_entries[] | .key+" "+.value' "${tools_blacklist_file}" )
+}
+
+function review_blacklist()
+{
+  if [[ "${#TOOLS_BLACKLIST[@]}" -eq 0 ]] ; then
+    echo "Current blacklist is emtpy!"
+  else
+    read -r -p "Review current blacklist (${#TOOLS_BLACKLIST[@]} items)? (y/N): " confirm
+
+    if [[ "${confirm:-"n"}" =~ [yY] ]] ; then
+      echo "Reviewing ${#TOOLS_BLACKLIST[@]} entries..."
+      review_blacklist_entries
+    fi
+  fi
+}
+
+function review_blacklist_entries()
+{
+  for url in "${!TOOLS_BLACKLIST[@]}" ; do
+    response=$( curl -s -o /dev/null -w "%{http_code}" -L "${url}" )
+    if [[ "${response}" -eq 404 ]] ; then
+      echo "Repository '${url}' does no longer exist, purging..."
+      unset TOOLS_BLACKLIST["${url}"]
+      continue
+    elif [[ "${response}" -ne 200 ]] ; then
+        echo "Unhandled status code '${response}' for ${url}!"
+        exit 1
+    fi
+
+    open -g -u "${url}"
+    echo "${url} was blacklisted because it '${TOOLS_BLACKLIST["${url}"]}'"
+    read -r -p "Keep ${url} in blacklist? (Y/n/u): " confirm
+
+    if [[ "${confirm:-"y"}" =~ [nN] ]] ; then
+      unset TOOLS_BLACKLIST["${url}"]
+    elif [[ "${confirm:-"y"}" =~ [uU] ]] ; then
+      read -r -p "Update reason: because it ... " reason
+      TOOLS_BLACKLIST["${url}"]="${reason}"
+    fi
+  done
+}
+
+function find_new_tools_since_last_review()
+{
+  load_review_timestamp
+  readarray -t URLS < <( get_added_urls )
+}
+
+function review_new_tools()
+{
+  if [[ "${#URLS[@]}" -eq 0 ]] ; then
+    echo "No new tools found to review!"
+    update_review_timestamp
+  else
+    read -r -p "Review ${#URLS[@]} new tools${LAST_REVIEW_TIMESTAMP+", added since ${LAST_REVIEW_TIMESTAMP}"}? (Y/n): " confirm
+
+    if [[ "${confirm:-"y"}" =~ [yY] ]] ; then
+      echo "Reviewing ${#URLS[@]} tools${LAST_REVIEW_TIMESTAMP+", added since ${LAST_REVIEW_TIMESTAMP}"}..."
+      review_added_urls
+      update_review_timestamp
+    fi
+  fi
+}
+
+function review_added_urls()
+{
+  for url in "${URLS[@]}" ; do
+    open -g "${url}"
+
+    read -r -p "Blacklist ${url}? (y/N): " confirm
+
+    if [[ "${confirm:-"n"}" =~ [nN] ]] ; then
+      continue
+    fi
+
+    read -r -p "Specify reason: because it ... " reason
+
+    TOOLS_BLACKLIST+=( ["${url}"]="${reason}" )
+  done
+}
+
+function update_blacklist()
+{
+  local tools_blacklist_file="${1?"Path to blacklist is missing!"}"
+
+  echo "Writing ${#TOOLS_BLACKLIST[@]} entries to '${tools_blacklist_file}'..."
+  (
+    local first_line
+    echo "{"
+    for key in "${!TOOLS_BLACKLIST[@]}" ; do
+      echo "${first_line+","}\"${key}\": \"${TOOLS_BLACKLIST[${key}]}\""
+      first_line="no"
+    done
+    echo "}"
+  ) | jq --sort-keys --indent 2 > "${tools_blacklist_file}"
+}
+
+function get_added_urls()
+{
+  git log -p \
+      ${LAST_REVIEW_TIMESTAMP+"--since=${LAST_REVIEW_TIMESTAMP}"} \
+      --full-diff \
+      "**/tools-data.json" \
+       | grep -E "^\+\s+\"url\"" \
+       | grep -vE "^\+\s+\"url\": null" \
+       | sed -e "s|.*\"url\": \"\(.*\)\"|\1|" \
+       | sort -u
+}
+
+function load_review_timestamp()
+{
+  if [[ -e "${REPO_ROOT}/.review-timestamp" ]] ; then source "${REPO_ROOT}/.review-timestamp" ; fi
+}
+
+function update_review_timestamp()
+{
+  echo "LAST_REVIEW_TIMESTAMP=$( git log -1 --format=%cd --date=short )" > "${REPO_ROOT}/.review-timestamp"
+}
+
+function require_tool()
+{
+  if ! command -v "${1}" >/dev/null 2>&1 ; then
+    echo "Required tool '${1}' is either inaccessible or not installed!"
+    exit 1
+  fi
+}
+
+require_tool "jq"
+
+until [[ -z "${1-}" ]] ; do
+  case "${1}" in
+    --help)
+      show_help
+      exit 1
+      ;;
+    --*)
+      echo "Unknown long option '${1}'"
+      show_usage
+      exit 1
+      ;;
+    -*)
+      echo "Unknown short option '${1}'"
+      show_usage
+      exit 1
+      ;;
+    *)
+      TOOLS_BLACKLIST_FILE="${1}"
+      ;;
+  esac
+  shift
+done
+
+load_blacklist "${TOOLS_BLACKLIST_FILE-"${REPO_ROOT}/bin/blacklist.json"}"
+review_blacklist
+find_new_tools_since_last_review
+review_new_tools
+update_blacklist "${TOOLS_BLACKLIST_FILE-"${REPO_ROOT}/bin/blacklist.json"}"
