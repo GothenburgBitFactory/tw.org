@@ -8,7 +8,7 @@ Taskwarrior supports date and time values.
 Date fields are used to track task creation, due date, scheduled date, end date and so on, as well as providing a date type for use with [UDA](../udas/) fields.
 
 Whichever format is used to accept and display date and time, Taskwarrior resolves it to a UTC epoch value, accurate to one second.
-This is called Unix Time, POSIX time, or Epoch time.
+This is called [Unix Time](https://en.wikipedia.org/wiki/Unix_time), POSIX time, or Epoch time.
 
 But you have full control over the format entered and the format displayed, and this document is a demonstration of this.
 
@@ -17,14 +17,14 @@ But you have full control over the format entered and the format displayed, and 
 Let us begin with an example of specifying a due date when the task is created:
 
 ```
-$ task add Pay the rent due:2015-01-31
+$ task add Pay the rent due:2024-01-31
 ```
 
 Or adding a due date to an existing task:
 
 ```
 $ task add Pay the rent
-$ task 1 modify due:2015-01-31
+$ task 1 modify due:2024-01-31
 ```
 
 Finally, removing a due date from a task:
@@ -138,26 +138,24 @@ Here is the full set:
 
 * `now`                        - Current local date and time.
 * `today`                      - Current local date, with time 00:00:00.
-* `sod`                        - Local date of the start of the next day, with time 00:00:00. Same as `tomorrow`.
+* `sod`                        - Current local date, with time 00:00:00. Same as `today`.
 * `eod`                        - Current local date, with time 23:59:59.
 * `yesterday`                  - Local date for yesterday, with time 00:00:00.
-* `tomorrow`                   - Local date for tomorrow, with time 00:00:00. Same as `sod`.
+* `tomorrow`                   - Local date for tomorrow, with time 00:00:00.
 * `monday`, `tuesday`, ...     - Local date for the specified day, after today, with time 00:00:00. Can be shortened, e.g. `mon`, `tue` {{< label >}}2.6.0{{< /label >}} Can be capitalized, e.g. `Monday`, `Tue`
 * `january`, `february`, ...   - Local date for the specified month, 1st day, with time 00:00:00. Can be shortened, e.g. `jan`, `feb`. {{< label >}}2.6.0{{< /label >}} Can be capitalized, e.g. `January`, `Feb`.
-* `later`, `someday`           - Local 2038-01-18, with time 00:00:00. A date far away, with semantically meaningful to GTD users.
-* `soy`                        - Local date for the next year, January 1st, with time 00:00:00.
-* `eoy`                        - Local date for this year, December 31st, with time 00:00:00.
-* `soq`                        - Local date for the start of the next quarter (January, April, July, October), 1st, with time 00:00:00.
+* `later`, `someday`           - Local 9999-12-30, with time 00:00:00. A date far away, with a meaning to GTD users.
+* `soy`                        - Local date for the current year, January 1st, with time 00:00:00.
+* `eoy`                        - Local date for the current year, December 31st, with time 23:59:59.
+* `soq`                        - Local date for the current quarter (January, April, July, October), 1st, with time 00:00:00.
 * `eoq`                        - Local date for the end of the current quarter (March, June, September, December), last day of the month, with time 23:59:59.
-* `som`                        - Local date for the 1st day of the next month, with time 00:00:00.
-* `socm`                       - Local date for the 1st day of the current month, with time 00:00:00.
-* `eom`, `eocm`                - Local date for the last day of the current month, with time 23:59:59.
-* `sow`                        - Local date for the next Sunday, with time 00:00:00.
-* `socw`                       - Local date for the last Sunday, with time 00:00:00.
-* `eow`, `eocw`                - Local date for the end of the week, Saturday night, with time 00:00:00.
-* `soww`                       - Local date for the start of the work week, next Monday, with time 00:00:00.
+* `som`                        - Local date for the 1st day of the current month, with time 00:00:00.
+* `eom`                        - Local date for the last day of the current month, with time 23:59:59.
+* `sow`                        - Local date for the start of the current week, Monday with time 00:00:00.
+* `eow`                        - Local date for the end of the current week, Sunday night, with time 23:59:59.
+* `soww`                       - Local date for the start of the work week, Monday, with time 00:00:00.
 * `eoww`                       - Local date for the end of the work week, Friday night, with time 23:59:59.
-* `1st`, `2nd`, ...           - Local date for the next Nth day, with time 00:00:00.
+* `1st`, `2nd`, ...            - Local date for the next Nth day, with time 00:00:00.
 * `goodfriday`                 - Local date for the next Good Friday, with time 00:00:00.
 * `easter`                     - Local date for the next Easter Sunday, with time 00:00:00.
 * `eastermonday`               - Local date for the next Easter Monday, with time 00:00:00.
@@ -166,7 +164,19 @@ Here is the full set:
 * `midsommar`                  - Local date for the Saturday after June 20th, with time 00:00:00. Swedish.
 * `midsommarafton`             - Local date for the Friday after June 19th, with time 00:00:00. Swedish.
 
-The synonyms are supported in addition to `rc.dateformat`
+For a visual representation of some of the dates look at [Named Dates](../named_dates/).
+
+The synonyms are supported in addition to `rc.dateformat`.
+
+Close to every synonym also support including a modifier `n` for next or `p` for previous, such as:
+* `sonw`                      - Local date for the next Monday, with time 00:00:00.
+* `sopw`                      - Local date for the previous Monday, with time 00:00:00.
+
+In order to play around with the dates and to better understand which date is which one can also use `task calc` to calculate dates.
+
+```
+$ task calc sony
+```
 
 ## ISO-8601 Format {{< label >}}2.4.0{{< /label >}}
 
