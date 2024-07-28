@@ -16,9 +16,9 @@ Please [report any abuse](mailto:support@gothenburgbitfactory.org).
 Your questions have been compiled into a [multi-product FAQ](faq/).
 Take a look here - there is a good chance your question is already answered.
 
-## IRC
+## Discord
 
-There is an active and well-attended \#taskwarrior channel on libera.chat.
+If you want to get in touch with the community, use the [Discord Server](https://discord.gg/eRXEHk8w62) and hit the [#help-wanted](https://discord.com/channels/796949983734661191/796988698813923398) channel.
 
 ## Documentation
 

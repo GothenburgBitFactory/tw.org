@@ -9,8 +9,8 @@ title: "Taskwarrior - What's next?"
 ## Latest stable release
 
 **Taskwarrior {{< current_release "version" >}}** (Released {{< current_release "date" >}}):
-[task-{{< current_release "version" >}}.tar.gz]({{< current_release "url" >}})  
-SHA256 {{< current_release "sha256" >}}  
+[task-{{< current_release "version" >}}.tar.gz]({{< current_release "url" >}})
+SHA256 {{< current_release "sha256" >}}
 [Changelog](https://github.com/GothenburgBitFactory/taskwarrior/blob/stable/ChangeLog)
 
 Command reference taskwarrior 2.5.3:
@@ -28,11 +28,11 @@ $ ls
 task-{{< current_release "version" >}}.tar.gz
 $ tar xzvf task-{{< current_release "version" >}}.tar.gz
 $ cd task-{{< current_release "version" >}}
-$ cmake -DCMAKE_BUILD_TYPE=release .
+$ cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
+$ cmake --build build
 ...
-$ make
 ...
-$ sudo make install
+$ sudo cmake --install build
 ```
 
 Please note, that Cygwin is not supported anymore.
@@ -48,7 +48,7 @@ On startup, task will check to see if it can find the configuration file and tas
 | [Debian sid](https://packages.debian.org/sid/utils/taskwarrior)                       | `sudo apt-get install taskwarrior`                                                                                                                                                                                          | Debian sid                 |
 | [Debian](https://backports.debian.org/Instructions/)                                  | `sudo apt-get install taskwarrior`                                                                                                                                                                                          | 7.x Wheezy                 |
 | [Ubuntu](https://packages.ubuntu.com/search?keywords=taskwarrior)                     | `sudo apt-get install taskwarrior`                                                                                                                                                                                          | 10.10 Maverick Meerkat     |
-| [Fedora](https://apps.fedoraproject.org/packages/task)                                | `yum install task`                                                                                                                                                                                                          | Fedora 18                  |
+| [Fedora](https://apps.fedoraproject.org/packages/task)                                | `sudo dnf install task`                                                                                                                                                                                                          | Fedora 18                  |
 | Red Hat Enterprise Linux                                                              | `task` has been submitted to the EPEL repositories of Fedora.<br/>Please refer to the [EPEL documentation](https://fedoraproject.org/wiki/EPEL/FAQ#howtouse)                                                                | \-                         |
 | [OpenSUSE](https://software.opensuse.org/package/taskwarrior?search_term=taskwarrior) | `zypper install taskwarrior`                                                                                                                                                                                                | openSUSE 12.2              |
 | [Archlinux](https://archlinux.org/packages/extra/x86_64/task/)                        | `pacman -S task`                                                                                                                                                                                                            | \-                         |
