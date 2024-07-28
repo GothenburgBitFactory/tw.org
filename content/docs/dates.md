@@ -144,7 +144,7 @@ Here is the full set:
 * `tomorrow`                   - Local date for tomorrow, with time 00:00:00.
 * `monday`, `tuesday`, ...     - Local date for the specified day, after today, with time 00:00:00. Can be shortened, e.g. `mon`, `tue` {{< label >}}2.6.0{{< /label >}} Can be capitalized, e.g. `Monday`, `Tue`
 * `january`, `february`, ...   - Local date for the specified month, 1st day, with time 00:00:00. Can be shortened, e.g. `jan`, `feb`. {{< label >}}2.6.0{{< /label >}} Can be capitalized, e.g. `January`, `Feb`.
-* `later`, `someday`           - Local 9999-12-30, with time 00:00:00. A date far away, with semantically meaningful to GTD users.
+* `later`, `someday`           - Local 9999-12-30, with time 00:00:00. A date far away, with a meaning to GTD users.
 * `soy`                        - Local date for the current year, January 1st, with time 00:00:00.
 * `eoy`                        - Local date for the current year, December 31st, with time 23:59:59.
 * `soq`                        - Local date for the current quarter (January, April, July, October), 1st, with time 00:00:00.

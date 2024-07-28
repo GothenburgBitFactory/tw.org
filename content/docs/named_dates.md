@@ -46,7 +46,7 @@ For this, use a precise date format.
 The months of the year are interpreted as the first day of the next month of that name in the future.
 To specify a month in the past, use a different date format.
 
-* `jan`, `january`, `Janurary`    - The date of the nearest future January 1st, at 0:00:00 local.
+* `jan`, `january`, `January`    - The date of the nearest future January 1st, at 0:00:00 local.
 
 
 ## Year Dates
@@ -74,7 +74,7 @@ Bellow figure illustrates some of the cases.
                               |       |
                               v       v
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
-| DEC | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | Jan |
+| Dec | Jan | Feb | Mar | Apr | May | Jun | Jul | Aug | Sep | Oct | Nov | Dec | Jan |
 +-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+-----+
       ^                 ^           ^     ^           ^                       ^
       |                 |           |     |           |                       |
