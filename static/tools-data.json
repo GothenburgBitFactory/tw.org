@@ -938,7 +938,7 @@
     "owner": [
       "Colorless-Green-Ideas"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-12-07",
     "url": "https://github.com/Colorless-Green-Ideas/django-taskd"
   },
@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 70,
-    "updated": "2024-07-26",
+    "updated": "2024-07-29",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1597,8 +1597,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 31,
-    "updated": "2024-07-26",
+    "rating": 32,
+    "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -8240,7 +8240,7 @@
     "owner": [
       "jrabbit"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-06-03",
     "url": "https://github.com/jrabbit/taskd-redshirt"
   },
@@ -8540,7 +8540,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1404,
+    "rating": 1405,
     "updated": "2024-07-22",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13581,7 +13581,7 @@
       "tmahmood"
     ],
     "rating": 13,
-    "updated": "2024-07-26",
+    "updated": "2024-07-28",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
