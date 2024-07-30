@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 32,
-    "updated": "2024-07-28",
+    "updated": "2024-07-29",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3336,7 +3336,7 @@
       "WaldLumen"
     ],
     "rating": 1,
-    "updated": "2024-07-25",
+    "updated": "2024-07-29",
     "url": "https://github.com/WaldLumen/SideBar"
   },
   {
@@ -3438,7 +3438,7 @@
       "Zebradil"
     ],
     "rating": 65,
-    "updated": "2024-07-06",
+    "updated": "2024-07-29",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4359,7 +4359,7 @@
       "benelan"
     ],
     "rating": 0,
-    "updated": "2024-07-22",
+    "updated": "2024-07-29",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -7496,7 +7496,7 @@
     "owner": [
       "j-jith"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2023-08-04",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
@@ -8540,8 +8540,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1405,
-    "updated": "2024-07-22",
+    "rating": 1406,
+    "updated": "2024-07-29",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -12159,7 +12159,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 83,
+    "rating": 84,
     "updated": "2024-03-20",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
