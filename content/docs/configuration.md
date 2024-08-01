@@ -17,15 +17,15 @@ This file is really just a list of settings for which you wish to override those
 ## Config Command
 
 The `config` command can be used to modify your `.taskrc` file.
-In this example we enable regular expression support in filters, by doing this:
+In this example we disable regular expression support in filters, by doing this:
 
 ```
-$ task config regex on
-Are you sure you want to change the value of 'regex' from 'off' to 'on'? (yes/no) yes
+$ task config regex off
+Are you sure you want to change the value of 'regex' from 'on' to 'off'? (yes/no) yes
 Config file ~/.taskrc modified.
 ```
 
-You can use 'on', or '1', 'yes' or 'true', all of which are synonyms which will enable the feature.
+You can use 'off', or '0', 'no' or 'false', all of which are synonyms which will disable the feature.
 You are asked to confirm the change, which is controlled by the `confirmation` setting which of course you can disable with:
 
 ```
@@ -78,7 +78,7 @@ The file included is expected to contain Taskwarrior configuration settings, or 
 The `config` command makes permanent changes to your `.taskrc` files, but you can temporarily override these settings for a single command, using this technique:
 
 ```
-$ task rc.regex=on /[Tt]otal/ list
+$ task rc.regex=off /[ISSUE-5]/ list
 ```
 
 One possible use of this feature is to override the `data.location` setting to use an alternate task list:
