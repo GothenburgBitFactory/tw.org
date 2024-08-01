@@ -1577,8 +1577,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 70,
-    "updated": "2024-07-29",
+    "rating": 71,
+    "updated": "2024-07-31",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 32,
-    "updated": "2024-07-29",
+    "updated": "2024-07-31",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -4398,7 +4398,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 399,
+    "rating": 400,
     "updated": "2024-07-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4920,7 +4920,7 @@
       "catanadj"
     ],
     "rating": 5,
-    "updated": "2024-07-15",
+    "updated": "2024-07-30",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -5778,7 +5778,7 @@
       "dmyna"
     ],
     "rating": 4,
-    "updated": "2024-07-27",
+    "updated": "2024-07-31",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -5920,6 +5920,26 @@
     "rating": 1,
     "updated": "2015-05-17",
     "url": "https://github.com/dropofwill/task_time"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "todotxt-taskwarrior-todoist",
+    "owner": [
+      "drybr4nch"
+    ],
+    "rating": 0,
+    "updated": "2024-08-01",
+    "url": "https://github.com/drybr4nch/todotxt-taskwarrior-todoist"
   },
   {
     "archived": false,
@@ -6908,7 +6928,7 @@
       "taskwarrior3"
     ],
     "description": "A task manager based on taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -7117,8 +7137,8 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 27,
-    "updated": "2024-07-23",
+    "rating": 28,
+    "updated": "2024-07-30",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
   {
@@ -7437,7 +7457,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2024-07-26",
+    "updated": "2024-07-31",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -8440,7 +8460,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -9960,7 +9980,7 @@
       "matthiasbeyer"
     ],
     "rating": 10,
-    "updated": "2024-04-01",
+    "updated": "2024-08-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -10020,7 +10040,7 @@
       "maxjoehnk"
     ],
     "rating": 18,
-    "updated": "2024-07-06",
+    "updated": "2024-07-30",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -12200,7 +12220,7 @@
       "rmonico"
     ],
     "rating": 9,
-    "updated": "2024-06-03",
+    "updated": "2024-07-30",
     "url": "https://github.com/rmonico/itask"
   },
   {
