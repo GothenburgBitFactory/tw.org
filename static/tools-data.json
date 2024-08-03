@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 71,
-    "updated": "2024-08-01",
+    "updated": "2024-08-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 32,
-    "updated": "2024-07-31",
+    "updated": "2024-08-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -4359,7 +4359,7 @@
       "benelan"
     ],
     "rating": 0,
-    "updated": "2024-07-29",
+    "updated": "2024-08-02",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -5938,7 +5938,7 @@
       "drybr4nch"
     ],
     "rating": 0,
-    "updated": "2024-08-01",
+    "updated": "2024-08-02",
     "url": "https://github.com/drybr4nch/todotxt-taskwarrior-todoist"
   },
   {
@@ -7137,7 +7137,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2024-08-01",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8561,7 +8561,7 @@
       "kdheepak"
     ],
     "rating": 1407,
-    "updated": "2024-07-29",
+    "updated": "2024-08-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -13780,7 +13780,7 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
