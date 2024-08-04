@@ -758,7 +758,7 @@
       "ArtUshak"
     ],
     "rating": 0,
-    "updated": "2022-02-13",
+    "updated": "2024-08-03",
     "url": "https://github.com/ArtUshak/asana2taskwarrior"
   },
   {
@@ -4920,7 +4920,7 @@
       "catanadj"
     ],
     "rating": 5,
-    "updated": "2024-07-30",
+    "updated": "2024-08-03",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -5138,7 +5138,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 136,
+    "rating": 137,
     "updated": "2024-04-23",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -5778,7 +5778,7 @@
       "dmyna"
     ],
     "rating": 4,
-    "updated": "2024-07-31",
+    "updated": "2024-08-03",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -5938,7 +5938,7 @@
       "drybr4nch"
     ],
     "rating": 0,
-    "updated": "2024-08-02",
+    "updated": "2024-08-03",
     "url": "https://github.com/drybr4nch/todotxt-taskwarrior-todoist"
   },
   {
@@ -6937,7 +6937,7 @@
     "owner": [
       "hadronized"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2021-07-31",
     "url": "https://github.com/hadronized/toodoux"
   },
@@ -8560,7 +8560,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1407,
+    "rating": 1408,
     "updated": "2024-08-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9003,26 +9003,6 @@
     "rating": 7,
     "updated": "2018-08-21",
     "url": "https://github.com/languitar/taskwarrior-emails"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Taskoverlord - Modern desktop client for Taskwarrior.",
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskoverlord",
-    "owner": [
-      "lebriton"
-    ],
-    "rating": 0,
-    "updated": "2024-06-21",
-    "url": "https://github.com/lebriton/taskoverlord"
   },
   {
     "archived": false,
@@ -11118,7 +11098,7 @@
     "owner": [
       "niknow"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2016-02-07",
     "url": "https://github.com/niknow/eisenmux"
   },
@@ -13700,7 +13680,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 828,
+    "rating": 829,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
