@@ -97,10 +97,14 @@ h4 .callout-warning {
 .alert-dismissable{
   color: #494949;
   background-color: #f3f2f2;
-  border-color:#d6e9c6;
+  border-color: #d2d2d2;
 }
 
 .alert-dismissable h3 {
+  margin-top: 0;
+}
+
+.alert-warning h3 {
   margin-top: 0;
 }
 
