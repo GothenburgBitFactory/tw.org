@@ -217,7 +217,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 103,
+    "rating": 104,
     "updated": "2024-07-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -4058,7 +4058,7 @@
     "owner": [
       "andrey-utkin"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2023-06-06",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
@@ -5938,7 +5938,7 @@
       "drybr4nch"
     ],
     "rating": 0,
-    "updated": "2024-08-03",
+    "updated": "2024-08-04",
     "url": "https://github.com/drybr4nch/todotxt-taskwarrior-todoist"
   },
   {
@@ -8560,7 +8560,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1408,
+    "rating": 1409,
     "updated": "2024-08-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9291,7 +9291,7 @@
       "taskwarrior2"
     ],
     "description": "A taskwarrior hook that enables automatic and multi-line annotations.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -10768,6 +10768,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Extending taskwarrior with useful tools.",
+    "dormant": false,
+    "language": [
+      "Ruby"
+    ],
+    "license": "MIT License",
+    "name": "taskby",
+    "owner": [
+      "n-at-han-k"
+    ],
+    "rating": 0,
+    "updated": "2024-08-04",
+    "url": "https://github.com/n-at-han-k/taskby"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Rust bindings for taskwarrior",
     "dormant": false,
     "language": [
@@ -12160,7 +12180,7 @@
       "ribelo"
     ],
     "rating": 84,
-    "updated": "2024-03-20",
+    "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
   {
@@ -12880,7 +12900,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2024-07-21",
+    "updated": "2024-08-04",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14020,7 +14040,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 476,
+    "rating": 477,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
@@ -14242,6 +14262,26 @@
     "rating": 0,
     "updated": "2024-02-12",
     "url": "https://github.com/xor111xor/taskwarrior-hook-notify"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Configuration files",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "MIT License",
+    "name": "dotfiles",
+    "owner": [
+      "xzmtx"
+    ],
+    "rating": 0,
+    "updated": "2024-08-04",
+    "url": "https://github.com/xzmtx/dotfiles"
   },
   {
     "archived": false,
