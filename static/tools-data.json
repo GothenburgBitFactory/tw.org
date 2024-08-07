@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 71,
-    "updated": "2024-08-05",
+    "updated": "2024-08-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1597,8 +1597,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 32,
-    "updated": "2024-08-02",
+    "rating": 33,
+    "updated": "2024-08-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2781,10 +2781,10 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
+      "taskwarrior2",
+      "taskwarrior3"
     ],
-    "description": "Little helper for displaying taks from TaskWarrior",
+    "description": "A little helper for displaying tasks from TaskWarrior",
     "dormant": false,
     "language": [
       "Lua"
@@ -2795,7 +2795,7 @@
       "Praczet"
     ],
     "rating": 0,
-    "updated": "2024-08-05",
+    "updated": "2024-08-06",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
   {
@@ -3458,7 +3458,7 @@
       "Zebradil"
     ],
     "rating": 65,
-    "updated": "2024-07-29",
+    "updated": "2024-08-06",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4418,7 +4418,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 402,
+    "rating": 403,
     "updated": "2024-07-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4879,7 +4879,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 96,
+    "rating": 97,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -5798,7 +5798,7 @@
       "dmyna"
     ],
     "rating": 4,
-    "updated": "2024-08-05",
+    "updated": "2024-08-06",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -5958,7 +5958,7 @@
       "drybr4nch"
     ],
     "rating": 0,
-    "updated": "2024-08-04",
+    "updated": "2024-08-07",
     "url": "https://github.com/drybr4nch/todotxt-taskwarrior-todoist"
   },
   {
@@ -7523,8 +7523,7 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
+      "taskwarrior2"
     ],
     "description": "Creates an HTML Kanban view from taskwarrior",
     "dormant": false,
@@ -8580,7 +8579,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1409,
+    "rating": 1411,
     "updated": "2024-08-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14299,8 +14298,8 @@
     "owner": [
       "xzmtx"
     ],
-    "rating": 0,
-    "updated": "2024-08-05",
+    "rating": 1,
+    "updated": "2024-08-06",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
