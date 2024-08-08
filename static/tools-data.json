@@ -1616,7 +1616,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 148,
+    "rating": 147,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -2784,7 +2784,7 @@
       "taskwarrior2",
       "taskwarrior3"
     ],
-    "description": "A little helper for displaying tasks from TaskWarrior",
+    "description": "A little helper for displaying tasks from TaskWarrior in NeoVim Dashboard",
     "dormant": false,
     "language": [
       "Lua"
@@ -2794,8 +2794,8 @@
     "owner": [
       "Praczet"
     ],
-    "rating": 0,
-    "updated": "2024-08-06",
+    "rating": 1,
+    "updated": "2024-08-07",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
   {
@@ -5798,7 +5798,7 @@
       "dmyna"
     ],
     "rating": 4,
-    "updated": "2024-08-06",
+    "updated": "2024-08-07",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -5958,7 +5958,7 @@
       "drybr4nch"
     ],
     "rating": 0,
-    "updated": "2024-08-07",
+    "updated": "2024-08-08",
     "url": "https://github.com/drybr4nch/todotxt-taskwarrior-todoist"
   },
   {
@@ -7477,7 +7477,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2024-07-31",
+    "updated": "2024-08-07",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -8579,7 +8579,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1411,
+    "rating": 1412,
     "updated": "2024-08-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
