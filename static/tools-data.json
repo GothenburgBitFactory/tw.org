@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 104,
+    "rating": 105,
     "updated": "2024-07-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1577,8 +1577,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 71,
-    "updated": "2024-08-07",
+    "rating": 72,
+    "updated": "2024-08-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2795,7 +2795,7 @@
       "Praczet"
     ],
     "rating": 1,
-    "updated": "2024-08-07",
+    "updated": "2024-08-08",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
   {
@@ -5798,7 +5798,7 @@
       "dmyna"
     ],
     "rating": 4,
-    "updated": "2024-08-07",
+    "updated": "2024-08-08",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -8519,8 +8519,8 @@
     "owner": [
       "juzim"
     ],
-    "rating": 8,
-    "updated": "2022-09-12",
+    "rating": 9,
+    "updated": "2024-08-08",
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
   {
@@ -8579,7 +8579,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1412,
+    "rating": 1416,
     "updated": "2024-08-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10039,7 +10039,7 @@
       "maxjoehnk"
     ],
     "rating": 18,
-    "updated": "2024-07-30",
+    "updated": "2024-08-08",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -14059,7 +14059,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 477,
+    "rating": 478,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
