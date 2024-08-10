@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 105,
+    "rating": 106,
     "updated": "2024-07-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 72,
-    "updated": "2024-08-08",
+    "updated": "2024-08-09",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1597,7 +1597,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2024-08-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2795,7 +2795,7 @@
       "Praczet"
     ],
     "rating": 1,
-    "updated": "2024-08-08",
+    "updated": "2024-08-09",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
   {
@@ -3676,11 +3676,11 @@
     "license": null,
     "name": "gold",
     "owner": [
-      "adamschmalhofer"
+      "adaschma"
     ],
     "rating": 0,
     "updated": "2018-09-23",
-    "url": "https://github.com/adamschmalhofer/gold"
+    "url": "https://github.com/adaschma/gold"
   },
   {
     "archived": false,
@@ -5798,7 +5798,7 @@
       "dmyna"
     ],
     "rating": 4,
-    "updated": "2024-08-08",
+    "updated": "2024-08-09",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -6340,6 +6340,26 @@
     "rating": 1,
     "updated": "2023-09-12",
     "url": "https://github.com/eyenx/docker-taskwarriorweb"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "farshanafasmin"
+    ],
+    "rating": 0,
+    "updated": "2024-08-09",
+    "url": "https://github.com/farshanafasmin/taskServer"
   },
   {
     "archived": false,
@@ -7178,7 +7198,7 @@
       "huantrinh1802"
     ],
     "rating": 0,
-    "updated": "2024-05-11",
+    "updated": "2024-08-09",
     "url": "https://github.com/huantrinh1802/taskwarrior_flow"
   },
   {
@@ -12665,8 +12685,7 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
+      "taskwarrior2"
     ],
     "description": "Get all of you Google Tasks into Taskwarrior, where they belong.",
     "dormant": true,
@@ -13619,7 +13638,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2024-07-28",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14258,7 +14277,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2024-05-06",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
