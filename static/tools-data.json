@@ -697,7 +697,7 @@
     "owner": [
       "AnotherKamila"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2019-03-05",
     "url": "https://github.com/AnotherKamila/tasksched"
   },
@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 107,
+    "rating": 108,
     "updated": "2024-07-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1038,7 +1038,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 178,
+    "rating": 179,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1577,7 +1577,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 72,
+    "rating": 73,
     "updated": "2024-08-09",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 34,
-    "updated": "2024-08-07",
+    "updated": "2024-08-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -1676,7 +1676,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 62,
+    "rating": 63,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -1739,6 +1739,26 @@
     "rating": 2,
     "updated": "2020-10-04",
     "url": "https://github.com/HTunne/task-vue"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServerRepo",
+    "owner": [
+      "HardikPanwar"
+    ],
+    "rating": 0,
+    "updated": "2024-08-12",
+    "url": "https://github.com/HardikPanwar/TaskServerRepo"
   },
   {
     "archived": false,
@@ -2374,7 +2394,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 32,
+    "rating": 31,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -2795,7 +2815,7 @@
       "Praczet"
     ],
     "rating": 1,
-    "updated": "2024-08-09",
+    "updated": "2024-08-12",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
   {
@@ -2896,7 +2916,7 @@
       "RafaelPalomar"
     ],
     "rating": 0,
-    "updated": "2024-04-17",
+    "updated": "2024-08-12",
     "url": "https://github.com/RafaelPalomar/taskwarrior-portable"
   },
   {
@@ -3006,7 +3026,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -3457,7 +3477,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2024-08-06",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -4419,7 +4439,7 @@
       "bergercookie"
     ],
     "rating": 405,
-    "updated": "2024-08-10",
+    "updated": "2024-08-12",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -4638,7 +4658,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 74,
+    "rating": 75,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -5158,7 +5178,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 137,
+    "rating": 138,
     "updated": "2024-04-23",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -5958,7 +5978,7 @@
       "drybr4nch"
     ],
     "rating": 0,
-    "updated": "2024-08-08",
+    "updated": "2024-08-11",
     "url": "https://github.com/drybr4nch/todotxt-taskwarrior-todoist"
   },
   {
@@ -8439,7 +8459,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 359,
+    "rating": 360,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8560,7 +8580,7 @@
       "juzim"
     ],
     "rating": 9,
-    "updated": "2024-08-08",
+    "updated": "2024-08-11",
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
   {
@@ -8619,8 +8639,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1416,
-    "updated": "2024-08-05",
+    "rating": 1417,
+    "updated": "2024-08-12",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -10079,7 +10099,7 @@
       "maxjoehnk"
     ],
     "rating": 18,
-    "updated": "2024-08-08",
+    "updated": "2024-08-12",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13758,7 +13778,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 829,
+    "rating": 830,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -14098,7 +14118,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 478,
+    "rating": 480,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
@@ -14338,7 +14358,7 @@
       "xzmtx"
     ],
     "rating": 1,
-    "updated": "2024-08-10",
+    "updated": "2024-08-12",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
