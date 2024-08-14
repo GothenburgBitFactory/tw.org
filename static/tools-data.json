@@ -1597,7 +1597,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2024-08-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4438,7 +4438,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 405,
+    "rating": 406,
     "updated": "2024-08-12",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7537,7 +7537,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-08-10",
+    "updated": "2024-08-13",
     "url": "https://github.com/its-me-abhishek/gsoc-report"
   },
   {
@@ -8580,7 +8580,7 @@
       "juzim"
     ],
     "rating": 9,
-    "updated": "2024-08-11",
+    "updated": "2024-08-13",
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
   {
@@ -8639,7 +8639,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1417,
+    "rating": 1418,
     "updated": "2024-08-12",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10828,7 +10828,7 @@
       "taskwarrior2"
     ],
     "description": "A tool to interact with taskwarrior quicklky",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -14358,7 +14358,7 @@
       "xzmtx"
     ],
     "rating": 1,
-    "updated": "2024-08-12",
+    "updated": "2024-08-13",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
