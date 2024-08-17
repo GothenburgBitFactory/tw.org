@@ -145,6 +145,8 @@ You just start/stop tasks using Taskwarrior, and Timewarrior will start/stop tra
 If you start/stop in Timewarrior, it does not control Taskwarrior.
 
 ## Taskserver
+Taskserver is generally deprecated and can only be used with the Taskwarrior 2.6.2 release.
+Please read over [Upgrading to Taskwarrio 3](/docs/upgrade-3/) for more details on the upgrade and a brief explanaition of the new storage backend.
 
 ### Q: How do I set up Taskserver to use LetsEncrypt certs?
 
