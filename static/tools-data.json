@@ -217,7 +217,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 66,
+    "rating": 67,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 108,
+    "rating": 109,
     "updated": "2024-07-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1558,7 +1558,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 732,
-    "updated": "2024-07-12",
+    "updated": "2024-08-17",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1578,7 +1578,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 73,
-    "updated": "2024-08-09",
+    "updated": "2024-08-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1597,7 +1597,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2024-08-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -1616,7 +1616,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 147,
+    "rating": 146,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1787,7 +1787,7 @@
       "taskwarrior2"
     ],
     "description": "A hook to add starting task from taskwarrior to jrnl",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -2137,6 +2137,26 @@
     "rating": 0,
     "updated": "2022-03-16",
     "url": "https://github.com/JurajMarcin/docker-taskd"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "my personal docker config for taskserver",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskserver-docker",
+    "owner": [
+      "Kangonaut"
+    ],
+    "rating": 0,
+    "updated": "2024-08-18",
+    "url": "https://github.com/Kangonaut/taskserver-docker"
   },
   {
     "archived": false,
@@ -2575,7 +2595,7 @@
       "MythicalCow"
     ],
     "rating": 17,
-    "updated": "2024-04-19",
+    "updated": "2024-08-16",
     "url": "https://github.com/MythicalCow/vayu"
   },
   {
@@ -2837,6 +2857,26 @@
     "rating": 0,
     "updated": "2023-09-28",
     "url": "https://github.com/Pradeep1G/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A simple to do app for your terminal inspired by taskwarrior.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "taskgophers",
+    "owner": [
+      "PriviteraStefano"
+    ],
+    "rating": 0,
+    "updated": "2024-08-18",
+    "url": "https://github.com/PriviteraStefano/taskgophers"
   },
   {
     "archived": false,
@@ -4438,8 +4478,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 406,
-    "updated": "2024-08-12",
+    "rating": 407,
+    "updated": "2024-08-18",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -5967,26 +6007,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "todotxt-taskwarrior-todoist",
-    "owner": [
-      "drybr4nch"
-    ],
-    "rating": 0,
-    "updated": "2024-08-11",
-    "url": "https://github.com/drybr4nch/todotxt-taskwarrior-todoist"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "HTML exporter for Taskwarrior based on ",
     "dormant": true,
     "language": [
@@ -7198,7 +7218,7 @@
       "huantrinh1802"
     ],
     "rating": 29,
-    "updated": "2024-08-01",
+    "updated": "2024-08-16",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
   {
@@ -7537,7 +7557,7 @@
       "its-me-abhishek"
     ],
     "rating": 1,
-    "updated": "2024-08-13",
+    "updated": "2024-08-18",
     "url": "https://github.com/its-me-abhishek/gsoc-report"
   },
   {
@@ -8459,7 +8479,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 360,
+    "rating": 361,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8639,7 +8659,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1418,
+    "rating": 1422,
     "updated": "2024-08-12",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9919,7 +9939,7 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-06-01",
     "url": "https://github.com/maralorn/taskwarrior-git-backend"
   },
@@ -10099,7 +10119,7 @@
       "maxjoehnk"
     ],
     "rating": 18,
-    "updated": "2024-08-12",
+    "updated": "2024-08-17",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11478,7 +11498,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 81,
+    "rating": 80,
     "updated": "2024-05-19",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -14358,7 +14378,7 @@
       "xzmtx"
     ],
     "rating": 1,
-    "updated": "2024-08-13",
+    "updated": "2024-08-17",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
