@@ -4,7 +4,7 @@
 <main role="main">
   <div class="container">
     <div class="row">
-      <div class="col-md-10 main">
+      <div class="col-lg-10 main">
         <article>
           <section>
             {{ .Content }}
@@ -13,122 +13,128 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-md-2 main">
-        <div class="well">
-          <fieldset>
-            <label for="search">Search</label>
-            <input type="search" class="combo-input" id="search" autocomplete="off" placeholder="Keywords..."/>
-            <div class="checkbox search-filter category">
-              <label for="include-taskwarrior2">
-                <input type="checkbox" id="include-taskwarrior2" checked/>
-                <small>
-                  <span class="tooltip">
-                    Taskwarrior 2&ensp;
-                    <em class="bi bi-2-circle-fill"></em>
-                    <span class="tooltip-text">
-                      Include projects intended for Taskwarrior 2.
+      <div class="col-lg-2 main">
+        <div class="card text-bg-light mb-3">
+          <div class="card-body">
+            <fieldset>
+              <div class="mb-2">
+                <label class="form-label" for="search">Search</label>
+                <input type="search" class="form-control form-control-sm" id="search" autocomplete="off" placeholder="Keywords..."/>
+              </div>
+              <div class="checkbox mb-1 search-filter category">
+                <label for="include-taskwarrior2" class="d-flex">
+                  <input type="checkbox" class="form-check-input me-2" id="include-taskwarrior2" checked/>
+                  <small>
+                    <span class="tooltip">
+                      Taskwarrior 2&ensp;
+                      <em class="bi bi-2-circle-fill"></em>
+                      <span class="tooltip-text">
+                        Include projects intended for Taskwarrior 2.
+                      </span>
                     </span>
-                  </span>
-                </small>
-              </label>
-            </div>
-            <div class="checkbox search-filter category">
-              <label for="include-taskwarrior3">
-                <input type="checkbox" id="include-taskwarrior3" checked/>
-                <small>
-                  <span class="tooltip">
-                    Taskwarrior 3&ensp;
-                    <em class="bi bi-3-circle-fill"></em>
-                    <span class="tooltip-text">
-                      Include projects intended for Taskwarrior 2.
+                  </small>
+                </label>
+              </div>
+              <div class="checkbox mb-1 search-filter category">
+                <label for="include-taskwarrior3" class="d-flex">
+                  <input type="checkbox" class="form-check-input me-2" id="include-taskwarrior3" checked/>
+                  <small>
+                    <span class="tooltip">
+                      Taskwarrior 3&ensp;
+                      <em class="bi bi-3-circle-fill"></em>
+                      <span class="tooltip-text">
+                        Include projects intended for Taskwarrior 2.
+                      </span>
                     </span>
-                  </span>
-                </small>
-              </label>
-            </div>
-            <div class="checkbox search-filter category">
-              <label for="include-taskserver">
-                <input type="checkbox" id="include-taskserver" checked/>
-                <small>
-                  <span class="tooltip">
-                    Taskserver&ensp;
-                    <em class="bi bi-database-fill"></em>
-                    <span class="tooltip-text">
-                      Include projects intended for Taskserver.
+                  </small>
+                </label>
+              </div>
+              <div class="checkbox mb-1 search-filter category">
+                <label for="include-taskserver" class="d-flex">
+                  <input type="checkbox" class="form-check-input me-2" id="include-taskserver" checked/>
+                  <small>
+                    <span class="tooltip">
+                      Taskserver&ensp;
+                      <em class="bi bi-database-fill"></em>
+                      <span class="tooltip-text">
+                        Include projects intended for Taskserver.
+                      </span>
                     </span>
-                  </span>
-                </small>
-              </label>
-            </div>
-            <div class="checkbox search-filter">
-              <label for="exclude-dormant">
-                <input type="checkbox" id="exclude-dormant"/>
-                <small>
-                  <span class="tooltip">
-                    Exclude dormant projects&ensp;
-                    <em class="bi bi-moon-stars"></em>
-                    <span class="tooltip-text">
-                      A project is considered 'dormant' if its last update was more than 3 years ago.
+                  </small>
+                </label>
+              </div>
+              <div class="checkbox mb-1 search-filter">
+                <label for="exclude-dormant" class="d-flex">
+                  <input type="checkbox" class="form-check-input me-2" id="exclude-dormant"/>
+                  <small>
+                    <span class="tooltip">
+                      Exclude dormant projects&ensp;
+                      <em class="bi bi-moon-stars"></em>
+                      <span class="tooltip-text">
+                        A project is considered 'dormant' if its last update was more than 3 years ago.
+                      </span>
                     </span>
-                  </span>
-                </small>
-              </label>
-            </div>
-            <div class="checkbox search-filter">
-              <label for="include-archived">
-                <input type="checkbox" id="include-archived"/>
-                <small>
-                  <span class="tooltip">
-                    Include archived projects&ensp;
-                    <em class="bi bi-archive"></em>
-                    <span class="tooltip-text">
-                      Include tools whose repository has been archived by their owner.
-                      Note that those are no longer maintained!
+                  </small>
+                </label>
+              </div>
+              <div class="checkbox search-filter">
+                <label for="include-archived" class="d-flex">
+                  <input type="checkbox" class="form-check-input me-2" id="include-archived"/>
+                  <small>
+                    <span class="tooltip">
+                      Include archived projects&ensp;
+                      <em class="bi bi-archive"></em>
+                      <span class="tooltip-text">
+                        Include tools whose repository has been archived by their owner.
+                        Note that those are no longer maintained!
+                      </span>
                     </span>
-                  </span>
-                </small>
-              </label>
-            </div>
-          </fieldset>
+                  </small>
+                </label>
+              </div>
+            </fieldset>
+          </div>
         </div>
-        <div class="well">
-          <fieldset>
-              <label for="languages-combo" id="languages-combo-label">Languages</label>
-              <div class="combo js-multiselect" id="js-multiselect-languages">
+        <div class="card text-bg-light mb-3">
+          <div class="card-body">
+            <fieldset>
+              <label class="form-label" for="languages-combo" id="languages-combo-label">Languages</label>
+              <div class="combo mb-3 js-multiselect" id="js-multiselect-languages">
                 <ul class="selected-options" id="languages-combo-selected"></ul>
-                <input type="text" name="language-input" id="languages-combo" placeholder="Select..." role="combobox" class="form-control combo-input" autocomplete="off" aria-labelledby="languages-combo-label"/>
+                <input type="text" name="language-input" id="languages-combo" placeholder="Select..." role="combobox" class="form-control form-control-sm" autocomplete="off" aria-labelledby="languages-combo-label"/>
                 <div class="combo-menu" role="listbox" id="languages-listbox"></div>
               </div>
 
-              <label for="owners-combo" id="owners-combo-label">Owners</label>
+              <label class="form-label" for="owners-combo" id="owners-combo-label">Owners</label>
               <div class="combo js-multiselect" id="js-multiselect-owners">
                 <ul class="selected-options" id="owners-combo-selected"></ul>
-                <input type="text" name="owner-input" id="owners-combo" placeholder="Select..." role="combobox" class="form-control combo-input" autocomplete="off" aria-labelledby="owners-combo-label"/>
+                <input type="text" name="owner-input" id="owners-combo" placeholder="Select..." role="combobox" class="form-control form-control-sm" autocomplete="off" aria-labelledby="owners-combo-label"/>
                 <div class="combo-menu" role="listbox" id="owners-listbox"></div>
               </div>
             </fieldset>
           </div>
         </div>
-        <div class="col-md-8 main">
-          <p class="lead" id="search-result-message">
-            Loading...
-          </p>
-          <table class="table table-striped" aria-label="tools table">
-            <thead>
-            <tr>
-              <th scope="col">Tool</th>
-              <th scope="col">Description</th>
-              <th scope="col">License</th>
-            </tr>
-            </thead>
-            <tbody id="tools-table" class="tools content row">
+      </div>
+      <div class="col-lg-8 main">
+        <p class="lead" id="search-result-message">
+          Loading...
+        </p>
+        <table class="table table-striped" aria-label="tools table">
+          <thead>
+          <tr>
+            <th scope="col">Tool</th>
+            <th scope="col">Description</th>
+            <th scope="col">License</th>
+          </tr>
+          </thead>
+          <tbody id="tools-table">
 
-            </tbody>
-          </table>
-        </div>
+          </tbody>
+        </table>
       </div>
     </div>
-  </main>
+  </div>
+</main>
 
 {{ partial "footer.html" . }}
 

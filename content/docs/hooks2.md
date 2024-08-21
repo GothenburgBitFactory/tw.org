@@ -2,7 +2,7 @@
 title: "Taskwarrior - Hooks v2"
 ---
 
-## Hooks v2
+# Hooks v2
 
 The API defined here is the [Hooks v2] API.
 This API is part of the TaskWarrior 2.4.3 release.

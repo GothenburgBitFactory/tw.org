@@ -8,9 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" href="{{ $baseUrl }}/images/favicon.ico">
   <title>{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
-  <link rel="stylesheet" href="{{ $baseUrl }}/css/highlight/{{ with .Site.Params.highlightStyle }}{{ . }}{{ else }}default{{ end }}.css">
+  <link rel="stylesheet" href="{{ $baseUrl }}/css/highlight/default.css">
   <link rel="stylesheet" href="{{ $baseUrl }}/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ $baseUrl }}/css/bootstrap-theme.min.css">
   <link rel="stylesheet" href="{{ $baseUrl }}/css/theme.css">
   <link rel="stylesheet" href="{{ $baseUrl }}/css/multiselect.css">
   <link rel="stylesheet" href="{{ $baseUrl }}/css/bootstrap-icons/bootstrap-icons.min.css">
@@ -19,24 +18,19 @@
 <body role="document">
 
 <!-- Fixed navbar -->
-<nav class="navbar navbar-inverse navbar-fixed-top">
+<nav class="navbar navbar-expand-md bg-body-secondary fixed-top" data-bs-theme="dark">
   <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ $baseUrl }}/">{{ .Site.Title }}</a>
-    </div>
+    <a class="navbar-brand" href="{{ $baseUrl }}/">{{ .Site.Title }}</a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbar" aria-expanded="false" aria-controls="navbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
     <div id="navbar" class="navbar-collapse collapse">
-      <ul class="nav navbar-nav">
-        <li {{ if ( hasSuffix $currentDir "/news" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/news/">News</a></li>
-        <li {{ if ( hasSuffix $currentDir "/docs" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/docs/">Docs</a></li>
-        <li {{ if ( hasSuffix $currentDir "/download" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/download/">Download</a></li>
-        <li {{ if ( hasSuffix $currentDir "/support" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/support/">Support</a></li>
-        <li {{ if ( hasSuffix $currentDir "/tools" ) }}class="active"{{ end }}><a href="{{ $baseUrl }}/tools/">Tools</a></li>
+      <ul class="navbar-nav ms-3">
+        <li class="nav-item" ><a class="nav-link {{ if ( hasSuffix $currentDir "/news" ) }}active{{ end }}" href="{{ $baseUrl }}/news/">News</a></li>
+        <li class="nav-item" ><a class="nav-link {{ if ( hasSuffix $currentDir "/docs" ) }}active{{ end }}" href="{{ $baseUrl }}/docs/">Docs</a></li>
+        <li class="nav-item" ><a class="nav-link {{ if ( hasSuffix $currentDir "/download" ) }}active{{ end }}" href="{{ $baseUrl }}/download/">Download</a></li>
+        <li class="nav-item" ><a class="nav-link {{ if ( hasSuffix $currentDir "/support" ) }}active{{ end }}" href="{{ $baseUrl }}/support/">Support</a></li>
+        <li class="nav-item" ><a class="nav-link {{ if ( hasSuffix $currentDir "/tools" ) }}active{{ end }}" href="{{ $baseUrl }}/tools/">Tools</a></li>
         {{ $url := .Permalink }}
         {{ with .Site.Menus.main }}
         {{ range $menu := . }}

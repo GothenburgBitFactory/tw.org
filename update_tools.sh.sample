@@ -5,5 +5,5 @@
 
 export GITHUB_API_KEY=abcdefghijklmnopqrstuvwxyz
 
-./tools/update.py html/tools/tools-data.js
+./bin/update.py html/tools/tools-data.js
 

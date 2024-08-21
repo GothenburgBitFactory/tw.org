@@ -1,19 +1,10 @@
-html {
-  position: relative;
-  min-height: 100%;
-}
-
 body {
   height: 100vh;
-  padding-top: 51px;
+  padding-top: 56px;
   padding-bottom: 0;
   display: flex;
   flex-flow: column;
   justify-content: space-between;
-}
-
-body > .container {
-  padding: 60px 15px 0
 }
 
 main > .container {
@@ -21,56 +12,37 @@ main > .container {
   padding-bottom: 20px;
 }
 
+@media (min-width: 1140px) {
+  .container {
+    max-width: 1170px;
+  }
+}
+
 img {
   width: 100%;
   border-radius: 4px;
+}
+
+.hljs {
+  background-color: inherit;
+}
+
+pre {
+  padding: .75rem 1.25rem;
+  background-color: var(--bs-tertiary-bg);
+  border-radius: var(--bs-border-radius);
+  border: 1px solid var(--bs-border-color);
+  font-size: 13px;
 }
 
 pre code {
   white-space: pre;
 }
 
-table {
-  width: 100%;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-td, th {
-  padding: 8px;
-  line-height: 1.428571429;
-  vertical-align: top;
-  border-top: 1px solid #ddd;
-}
-
-dl dd {
-  margin-left: 40px;
-}
-
-dl dt {
-  margin-left: 20px;
-}
-
 footer {
   width: 100%;
   padding: 20px 0;
   line-height: 20px;
-  background-color: #333;
-}
-
-footer .container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-between;
-}
-
-.footer-item {
-  margin: 0 10px
-}
-
-footer .container:before {
-  content: none;
 }
 
 .banner h1 {
@@ -94,18 +66,12 @@ h4 .callout-warning {
   color: #f0ad4e
 }
 
-.alert-dismissable{
-  color: #494949;
+.alert-light {
   background-color: #f3f2f2;
-  border-color:#d6e9c6;
-}
-
-.alert-dismissable h3 {
-  margin-top: 0;
 }
 
 .banner {
-  background-color: #eee;
+  background-color: #619693;
   color: inherit;
   margin-bottom: 0;
   padding: 10px 10px;
@@ -146,20 +112,25 @@ h4 .callout-warning {
 }
 
 .navbar-brand {
-  padding-left: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
+
 .navbar-brand::before {
-  content: url(../images/tw.svg);
-  margin-left: -36px;
-  margin-top: -4px;
-  position: absolute;
+  content: "";
+  background-image: url(../images/tw.svg);
+  background-size: contain;
+  width: 30px;
+  height: 30px;
+  margin-right: 0.5rem;
 }
 
 .sidebar-toc {
   position: fixed;
   background: #C4CBB728;
   background: rgba(196, 203, 183, 0.16);
-  padding: 5px 20px;
+  padding: 16px 20px 5px 20px;
   border-radius: 10px;
 }
 
@@ -255,4 +226,54 @@ h4 .callout-warning {
   -moz-box-orient: vertical;
   -ms-box-orient: vertical;
   -webkit-line-clamp: 2; /* number of lines to show */
+}
+
+/* Make the badge padding smaller than Bootstrap's default */
+.badge {
+  --bs-badge-padding-x: 0.50em;
+}
+
+/* Text rendered inside GoAT looks better with a smaller font size */
+.goat svg {
+  font-size: 14px;
+}
+
+/** 
+ * Bootsrap 5 has table styles as opt-in by adding the class .table to <table>.
+ * However Hugo converts Markdown tables to HTML directly, and there are
+ * currently no Hugo render hooks for tables. As a workaround, we copy the
+ * styles for .table in bootstrap.css to the table tag here.
+ */
+table {
+  --bs-table-color-type: initial;
+  --bs-table-bg-type: initial;
+  --bs-table-color-state: initial;
+  --bs-table-bg-state: initial;
+  --bs-table-color: var(--bs-emphasis-color);
+  --bs-table-bg: var(--bs-body-bg);
+  --bs-table-border-color: var(--bs-border-color);
+  --bs-table-accent-bg: transparent;
+  --bs-table-striped-color: var(--bs-emphasis-color);
+  --bs-table-striped-bg: rgba(var(--bs-emphasis-color-rgb), 0.05);
+  --bs-table-active-color: var(--bs-emphasis-color);
+  --bs-table-active-bg: rgba(var(--bs-emphasis-color-rgb), 0.1);
+  --bs-table-hover-color: var(--bs-emphasis-color);
+  --bs-table-hover-bg: rgba(var(--bs-emphasis-color-rgb), 0.075);
+  width: 100%;
+  margin-bottom: 1rem;
+  vertical-align: top;
+  border-color: var(--bs-table-border-color);
+}
+table > :not(caption) > * > * {
+  padding: 0.5rem 0.5rem;
+  color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
+  background-color: var(--bs-table-bg);
+  border-bottom-width: var(--bs-border-width);
+  box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+}
+table > tbody {
+  vertical-align: inherit;
+}
+table > thead {
+  vertical-align: bottom;
 }

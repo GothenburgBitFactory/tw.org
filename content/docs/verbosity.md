@@ -35,7 +35,7 @@ The value in this case consists of two tokens which cause footnotes to be shown 
 * footnote   - Shows information after the task list, such as configuration overrides.
 * label      - Shows column labels for tabular output.
 * new-id     - Provides feedback on any new task with IDs (and UUIDs for new deleted or completed tasks).
-* new-uuid   - Provides feedback on any new task with UUIDs. Overrides new-id. Useful for automation.{{< label >}}2.6.0{{< /label >}}
+* new-uuid   - Provides feedback on any new task with UUIDs. Overrides new-id. Useful for automation. {{< label >}}2.6.0{{< /label >}}
 * affected   - Shows how many tasks were affected by a bulk modification.
 * edit       - Shows a preamble and additional text in the template when using the `edit` command.
 * special    - Shows feedback when special tags are used.
@@ -43,5 +43,5 @@ The value in this case consists of two tokens which cause footnotes to be shown 
 * sync       - Shows feedback during sync.
 * filter     - Shows the complete filter used. {{< label >}}2.4.0{{< /label >}}
 * override   - Shows in the header if TASKDATA or TASKRC are overridden. {{< label >}}2.6.0{{< /label >}}
-* unwait     - Notification whe a task leaves the `waiting` state. Displayed in the footnote.{{< label >}}2.5.0{{< /label >}}
+* unwait     - Notification whe a task leaves the `waiting` state. Displayed in the footnote. {{< label >}}2.5.0{{< /label >}}
 * context    - Show the current context. Displayed in footnote. {{< label >}}2.5.0{{< /label >}}

@@ -2,8 +2,8 @@
 {{ partial "header.html" . }}
 
 <main role="main">
-  <div class="banner" style="background-color:#619693;">
-    <div class="container" style="color: #cccccc">
+  <div class="banner">
+    <div class="container text-light my-4">
       <div class="col-md-12">
         <h1>Welcome to Taskwarrior</h1>
         <p class="lead">
@@ -11,46 +11,45 @@
           It is flexible, fast, and unobtrusive.
           It does its job then gets out of your way.
         </p>
-        <p>
-          <img src="images/swatch.png" style="width:50%;" alt="Taskwarrior samples.">
-          <br>
-          <br>
-        </p>
-        <p class="lead">
-          New User?&nbsp;&nbsp;&nbsp;<a class="btn btn-success btn-lg" href="docs/start/" role="button">Start
+        <img src="images/swatch.png" class="mb-4" style="width:50%;" alt="Taskwarrior samples.">
+        <p class="lead d-flex align-items-baseline">
+          New User?&nbsp;&nbsp;&nbsp;<a class="btn btn-primary btn-lg" href="docs/start/" role="button">Start
           here...</a>
-        </p></div>
+        </p>
+      </div>
     </div>
   </div>
   <div class="container">
-    <div class="col-md-9">
-      <h2>News</h2>
-      {{ range first 2 .Site.RegularPages }}
-      <div class="alert alert-dismissable">
-        {{ .Content }}
-      </div>
-      {{ end }}
-      <a href="news/">More news...</a>
-      <h2>Help</h2>
-      <p>
-        Need help?
-        Take a look at our <a href="support/">support page</a>.
-      </p>
-      <p>
-        Looking to learn?
-        Take a look at our <a href="docs/">online documentation</a>.
-      </p>
-    </div>
-    <div class="col-md-3">
-      <div class="alert alert-success">
-        <h4><strong>Questions?</strong></h4>
-        <div class="small">
-          <p>
-            Try our <a href="support/faq/">FAQ</a>, a growing list of curated questions and answers.
-          </p>
+    <div class="row">
+      <div class="col-lg-9">
+        <h2>News</h2>
+        {{ range first 2 .Site.RegularPages }}
+        <div class="alert alert-light">
+          {{ .Content }}
         </div>
+        {{ end }}
+        <a href="news/">More news...</a>
+        <h2 class="mt-4">Help</h2>
+        <p>
+          Need help?
+          Take a look at our <a href="support/">support page</a>.
+        </p>
+        <p>
+          Looking to learn?
+          Take a look at our <a href="docs/">online documentation</a>.
+        </p>
       </div>
-      {{ partial "get_the_code.html" . }}
+      <div class="col-lg-3">
+        <div class="alert alert-success">
+          <h4><strong>Questions?</strong></h4>
+          <div class="small">
+            <p class="mb-0">
+              Try our <a href="support/faq/">FAQ</a>, a growing list of curated questions and answers.
+            </p>
+          </div>
+        </div>
+        {{ partial "get_the_code.html" . }}
+      </div>
     </div>
   </div>
 </main>
