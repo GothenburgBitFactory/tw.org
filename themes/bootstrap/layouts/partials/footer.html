@@ -1,60 +1,77 @@
 {{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
 
-<footer>
+<footer class="bg-body-secondary" data-bs-theme="dark">
   <div class="container">
-    <div class="footer-item">
-      <p class="text-muted">
-        Get Involved
-        <br>
-        <a href="https://github.com/GothenburgBitFactory/taskwarrior/issues"><em class="bi bi-github"></em>&ensp;Submit a bug</a>
-        <br>
-        <a href="https://github.com/GothenburgBitFactory/taskwarrior"><em class="bi bi-github"></em>&ensp;Clone the code</a>
-      </p>
-    </div>
-    <div class="footer-item">
-      <p class="text-muted">
-        Related Sites
-        <br>
-        <a href="https://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
-        <br>
-        <a href="https://holidata.net">holidata.net</a>
-        <br>
-        <a href="https://timewarrior.net">timewarrior.net</a>
-      </p>
-    </div>
-    <div class="footer-item">
-      <p class="text-muted">
-        Contact
-        <br>
-        <a href="mailto:support@gothenburgbitfactory.org"><em class="bi bi-envelope-fill"></em>&ensp;Email</a>
-        <br>
-        <a href="https://twitter.com/taskwarrior"><em class="bi bi-twitter"></em>&ensp;Twitter</a>
-      </p>
-    </div>
-    <div class="footer-item">
-      <div class="text-muted">
-        Donate
-        <br>
-        <a href="https://github.com/sponsors/GothenburgBitFactory"><em class="bi bi-github"></em>&ensp;GitHub sponsors</a>
+    <div class="row justify-content-between"> 
+      <div class="col-6 col-lg-auto text-muted">
+        <h6>Get Involved</h6>
+        <ul class="list-unstyled">
+          <li class="mb-1">
+            <a class="link-underline link-underline-opacity-0" href="https://github.com/GothenburgBitFactory/taskwarrior/issues">
+              <em class="bi bi-github"></em>&ensp;Submit a bug
+            </a>
+          </li>
+          <li class="mb-1">
+            <a class="link-underline link-underline-opacity-0" href="https://github.com/GothenburgBitFactory/taskwarrior">
+              <em class="bi bi-github"></em>&ensp;Clone the code
+            </a>
+          </li>
+        </ul>
       </div>
-    </div>
-    <div class="footer-item">
-      <p class="text-muted">
-        Copyright &copy; {{ now.Year }} <a href="https://github.com/GothenburgBitFactory">Gothenburg Bit Factory</a>
-      </p>
-      <p class="text-muted">
-        Powered by <a href="https://gohugo.io">Hugo</a>
-      </p>
+      <div class="col-6 col-lg-auto text-muted">
+        <h6>Related Sites</h6>
+        <ul class="list-unstyled">
+          <li class="mb-1">
+            <a class="link-underline link-underline-opacity-0" href="https://gothenburgbitfactory.org">gothenburgbitfactory.org</a>
+          </li>
+          <li class="mb-1">
+            <a class="link-underline link-underline-opacity-0" href="https://holidata.net">holidata.net</a>
+          </li>
+          <li class="mb-1">
+            <a class="link-underline link-underline-opacity-0" href="https://timewarrior.net">timewarrior.net</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-auto text-muted">
+        <h6>Contact</h6>
+        <ul class="list-unstyled">
+          <li class="mb-1">
+            <a class="link-underline link-underline-opacity-0" href="mailto:support@gothenburgbitfactory.org">
+              <em class="bi bi-envelope-fill"></em>&ensp;Email
+            </a>
+          </li>
+          <li class="mb-1">
+            <a class="link-underline link-underline-opacity-0" href="https://twitter.com/taskwarrior">
+              <em class="bi bi-twitter"></em>&ensp;Twitter
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-6 col-lg-auto text-muted">
+        <h6>Donate</h6>
+        <ul class="list-unstyled">
+          <li class="mb-1">
+            <a class="link-underline link-underline-opacity-0" href="https://github.com/sponsors/GothenburgBitFactory">
+              <em class="bi bi-github"></em>&ensp;GitHub sponsors
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-auto text-muted">
+        <p>
+          Copyright &copy; {{ now.Year }} <a class="link-underline link-underline-opacity-0" href="https://github.com/GothenburgBitFactory">Gothenburg Bit Factory</a>
+        </p>
+        <p>
+          Powered by <a class="link-underline link-underline-opacity-0" href="https://gohugo.io">Hugo</a>
+        </p>
+      </div>
     </div>
   </div>
 </footer>
 
-<script src="{{ $baseUrl }}/js/jquery.min.js"></script>
 <script src="{{ $baseUrl }}/js/bootstrap.min.js"></script>
-<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="{{ $baseUrl }}/js/highlight.pack.js"></script>
 <script>hljs.initHighlightingOnLoad();</script>
-<script src="{{ $baseUrl }}/js/ie10-viewport-bug-workaround.js"></script>
 
 </body>
 </html>

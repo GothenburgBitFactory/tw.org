@@ -23,22 +23,23 @@ let useCategories;
 
 
 /** Load the tools that are not archived. */
-$.getJSON('../tools-data.json', function(toolsData) {
-  sortedTools = sortTools(toolsData);
-  languages = populateLanguages(sortedTools);
-  owners = populateOwners(sortedTools);
+fetch('../tools-data.json')
+  .then(response => response.json())
+  .then(toolsData => {
+    sortedTools = sortTools(toolsData);
+    languages = populateLanguages(sortedTools);
+    owners = populateOwners(sortedTools);
 
-  useCategories = sortedTools[0].category !== undefined;
-  if (useCategories) {
-    categories = populateCategories(sortedTools)
-    selectedCategories = new Set(categories);
-  }
+    useCategories = sortedTools[0].category !== undefined;
+    if (useCategories) {
+      categories = populateCategories(sortedTools)
+      selectedCategories = new Set(categories);
+    }
 
-  populateToolsKeywords(sortedTools);
-  fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
-  initFormProcessors();
-});
-
+    populateToolsKeywords(sortedTools);
+    fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
+    initFormProcessors();
+  });
 
 /** Given the tools data, return it sorted by rating and name. */
 function sortTools(toolsData) {
@@ -121,7 +122,7 @@ function populateToolsKeywords(tools) {
  * If owners is empty, use all owners.
  */
 function fillToolsTable(tools, selectedLanguages, selectedOwners) {
-    $('#tools-table').empty();
+    document.getElementById('tools-table').textContent = '';
     let numMatchingTools = 0;
     for (let tool of tools) {
         const languageMatch = tool.language.some(lang => selectedLanguages.has(lang));
@@ -142,7 +143,8 @@ function fillToolsTable(tools, selectedLanguages, selectedOwners) {
           && (searchMatch(searchTerms, tool.keywords))
         ) {
             numMatchingTools++;
-            $('#tools-table').append(makeTableRow(tool));
+            const toolsTable = document.getElementById('tools-table');
+            toolsTable.insertAdjacentHTML('beforeend', makeTableRow(tool));
         }
     }
     updateSearchResultMessage(numMatchingTools)

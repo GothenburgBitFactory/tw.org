@@ -1,0 +1,8 @@
+{{/*
+Bootstap 5's h2 and h3 sizes are very similar, which doesn't look good on
+hierarchical documents. This hook changes the style of h3 to match h4, and so
+on.
+*/}}
+<h{{ .Level }} {{ if and (ge .Level 3) (lt .Level 6) }}class="h{{ add .Level 1 }}"{{end}} id="{{ .Anchor }}">
+  {{- .Text | safeHTML -}}
+</h{{ .Level }}>

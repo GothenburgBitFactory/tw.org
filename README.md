@@ -43,7 +43,7 @@ $ python3 -m venv venv
 $ source venv/bin/activate
 
 # Install dependencies
-$ pip install -r tools/requirements.txt
+$ pip install -r bin/requirements.txt
 ```
 
 
