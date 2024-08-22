@@ -1038,7 +1038,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 179,
+    "rating": 180,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1308,6 +1308,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Script to add my schedule to taskwarrior from icalendar streams.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "pytask",
+    "owner": [
+      "EivindSul"
+    ],
+    "rating": 1,
+    "updated": "2024-08-20",
+    "url": "https://github.com/EivindSul/pytask"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": null,
     "dormant": false,
     "language": [
@@ -1557,8 +1577,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 732,
-    "updated": "2024-08-17",
+    "rating": 733,
+    "updated": "2024-08-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1578,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 73,
-    "updated": "2024-08-15",
+    "updated": "2024-08-19",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1598,7 +1618,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 37,
-    "updated": "2024-08-13",
+    "updated": "2024-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2835,7 +2855,7 @@
       "Praczet"
     ],
     "rating": 1,
-    "updated": "2024-08-12",
+    "updated": "2024-08-21",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
   {
@@ -3315,7 +3335,7 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2024-07-16",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
@@ -4478,8 +4498,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 407,
-    "updated": "2024-08-18",
+    "rating": 409,
+    "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -5858,7 +5878,7 @@
       "dmyna"
     ],
     "rating": 4,
-    "updated": "2024-08-14",
+    "updated": "2024-08-19",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7217,7 +7237,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2024-08-16",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8659,8 +8679,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1422,
-    "updated": "2024-08-12",
+    "rating": 1425,
+    "updated": "2024-08-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -10119,7 +10139,7 @@
       "maxjoehnk"
     ],
     "rating": 18,
-    "updated": "2024-08-17",
+    "updated": "2024-08-20",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -12289,7 +12309,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -13638,7 +13658,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 524,
+    "rating": 525,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -13798,7 +13818,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 830,
+    "rating": 831,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -14378,7 +14398,7 @@
       "xzmtx"
     ],
     "rating": 1,
-    "updated": "2024-08-17",
+    "updated": "2024-08-20",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
