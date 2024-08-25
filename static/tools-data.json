@@ -1038,7 +1038,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 180,
+    "rating": 181,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1597,7 +1597,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2024-08-19",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -3336,7 +3336,7 @@
       "TheRiceCold"
     ],
     "rating": 28,
-    "updated": "2024-07-16",
+    "updated": "2024-08-23",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -3480,7 +3480,7 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskserver",
       "taskwarrior2",
@@ -3538,7 +3538,7 @@
       "Zebradil"
     ],
     "rating": 66,
-    "updated": "2024-08-06",
+    "updated": "2024-08-24",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4969,6 +4969,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A wrapper for https://taskwarrior.org/",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "task-wrapper",
+    "owner": [
+      "bytesmith-ahmad"
+    ],
+    "rating": 0,
+    "updated": "2024-08-23",
+    "url": "https://github.com/bytesmith-ahmad/task-wrapper"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Subtasks in taskwarrior",
     "dormant": false,
     "language": [
@@ -5877,7 +5897,7 @@
     "owner": [
       "dmyna"
     ],
-    "rating": 4,
+    "rating": 3,
     "updated": "2024-08-19",
     "url": "https://github.com/dmyna/fypm"
   },
@@ -8679,7 +8699,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1426,
+    "rating": 1424,
     "updated": "2024-08-19",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10139,7 +10159,7 @@
       "maxjoehnk"
     ],
     "rating": 18,
-    "updated": "2024-08-20",
+    "updated": "2024-08-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11478,7 +11498,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 16,
+    "rating": 15,
     "updated": "2023-09-18",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
@@ -13018,7 +13038,7 @@
       "smemsh"
     ],
     "rating": 0,
-    "updated": "2024-08-22",
+    "updated": "2024-08-23",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14398,7 +14418,7 @@
       "xzmtx"
     ],
     "rating": 1,
-    "updated": "2024-08-20",
+    "updated": "2024-08-23",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
