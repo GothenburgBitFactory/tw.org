@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 109,
+    "rating": 110,
     "updated": "2024-07-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1201,6 +1201,26 @@
     "rating": 0,
     "updated": "2020-12-14",
     "url": "https://github.com/DerHabicht/twinput"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A kanban TUI for taskwarrior, written in Go",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "twkb",
+    "owner": [
+      "DerTimonius"
+    ],
+    "rating": 4,
+    "updated": "2024-08-25",
+    "url": "https://github.com/DerTimonius/twkb"
   },
   {
     "archived": false,
@@ -1578,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 733,
-    "updated": "2024-08-20",
+    "updated": "2024-08-26",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1617,7 +1637,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2024-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -1966,7 +1986,7 @@
       "taskwarrior2"
     ],
     "description": "Repo for my tasks app in Linux (taskwarrior and timew)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -2434,7 +2454,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -3538,7 +3558,7 @@
       "Zebradil"
     ],
     "rating": 66,
-    "updated": "2024-08-24",
+    "updated": "2024-08-25",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4498,7 +4518,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 409,
+    "rating": 410,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5039,7 +5059,7 @@
     "owner": [
       "catanadj"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2024-08-03",
     "url": "https://github.com/catanadj/tasksultan"
   },
@@ -8700,7 +8720,7 @@
       "kdheepak"
     ],
     "rating": 1424,
-    "updated": "2024-08-19",
+    "updated": "2024-08-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -10748,7 +10768,7 @@
       "taskwarrior2"
     ],
     "description": "Git hooks for TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -13037,7 +13057,7 @@
     "owner": [
       "smemsh"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-08-23",
     "url": "https://github.com/smemsh/taskwtools"
   },
@@ -13838,7 +13858,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 831,
+    "rating": 833,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -14418,7 +14438,7 @@
       "xzmtx"
     ],
     "rating": 1,
-    "updated": "2024-08-23",
+    "updated": "2024-08-26",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
