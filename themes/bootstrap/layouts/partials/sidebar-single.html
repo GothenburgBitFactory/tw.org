@@ -1,6 +1,6 @@
 {{ $baseUrl := .Site.BaseURL | replaceRE "/$" "" }}
 {{ $url := .Permalink }}
-{{ if in .TableOfContents "li" }}
+{{ if in .TableOfContents "<a href" }}
 <div class="col-lg-3 offset-lg-1 doc-sidebar">
   <div id="sidebar">
     <div class="sidebar-module">
