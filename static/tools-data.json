@@ -838,7 +838,7 @@
       "CCExtractor"
     ],
     "rating": 110,
-    "updated": "2024-07-27",
+    "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1218,7 +1218,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 4,
+    "rating": 6,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1597,8 +1597,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 733,
-    "updated": "2024-08-26",
+    "rating": 734,
+    "updated": "2024-08-30",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1618,7 +1618,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 74,
-    "updated": "2024-08-19",
+    "updated": "2024-08-30",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1637,7 +1637,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2024-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -1716,7 +1716,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 63,
+    "rating": 65,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -2177,6 +2177,26 @@
     "rating": 0,
     "updated": "2022-03-16",
     "url": "https://github.com/JurajMarcin/docker-taskd"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A natural language frontend for TaskWarrior powered by AI.",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "tasky",
+    "owner": [
+      "KGB33"
+    ],
+    "rating": 0,
+    "updated": "2024-08-29",
+    "url": "https://github.com/KGB33/tasky"
   },
   {
     "archived": false,
@@ -2875,7 +2895,7 @@
       "Praczet"
     ],
     "rating": 1,
-    "updated": "2024-08-21",
+    "updated": "2024-08-27",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
   {
@@ -3355,7 +3375,7 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2024-08-23",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
@@ -4479,7 +4499,7 @@
       "benelan"
     ],
     "rating": 0,
-    "updated": "2024-08-02",
+    "updated": "2024-08-30",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -4518,7 +4538,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 410,
+    "rating": 413,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4678,7 +4698,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 251,
+    "rating": 252,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -6348,7 +6368,7 @@
       "taskwarrior2"
     ],
     "description": "Taskwarrior <-> Google Calendar bridge",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -6357,7 +6377,7 @@
     "owner": [
       "erikh"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2021-08-29",
     "url": "https://github.com/erikh/calwarrior"
   },
@@ -6818,7 +6838,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-07-10",
+    "updated": "2024-08-30",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7277,7 +7297,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2024-08-16",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -7866,7 +7886,7 @@
       "taskwarrior2"
     ],
     "description": "Tool to migrate from Trello to Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -8719,7 +8739,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1424,
+    "rating": 1454,
     "updated": "2024-08-26",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8802,6 +8822,26 @@
     "rating": 0,
     "updated": "2022-07-05",
     "url": "https://github.com/kellya/tw-spaceduck"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "This tool will allow you to create a task list more easily based on a project. (task warrior)",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskwarrior_tasklist",
+    "owner": [
+      "kelvinauta"
+    ],
+    "rating": 0,
+    "updated": "2024-08-30",
+    "url": "https://github.com/kelvinauta/taskwarrior_tasklist"
   },
   {
     "archived": false,
@@ -10046,6 +10086,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Taskwarrior iOS app",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskchamp-docs",
+    "owner": [
+      "marriagav"
+    ],
+    "rating": 2,
+    "updated": "2024-08-27",
+    "url": "https://github.com/marriagav/taskchamp-docs"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -10178,7 +10238,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2024-08-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -13758,7 +13818,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 15,
+    "rating": 52,
     "updated": "2024-07-28",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -13858,7 +13918,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 833,
+    "rating": 834,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -14198,7 +14258,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 480,
+    "rating": 481,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
@@ -14438,7 +14498,7 @@
       "xzmtx"
     ],
     "rating": 1,
-    "updated": "2024-08-26",
+    "updated": "2024-08-29",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
