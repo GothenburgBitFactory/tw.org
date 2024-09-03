@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 110,
+    "rating": 112,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1038,7 +1038,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 181,
+    "rating": 182,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1218,7 +1218,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 6,
+    "rating": 11,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1618,7 +1618,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 74,
-    "updated": "2024-08-30",
+    "updated": "2024-09-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1637,7 +1637,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 39,
+    "rating": 41,
     "updated": "2024-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4538,7 +4538,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 413,
+    "rating": 416,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4698,7 +4698,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 252,
+    "rating": 253,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -5938,7 +5938,7 @@
       "dmyna"
     ],
     "rating": 3,
-    "updated": "2024-08-19",
+    "updated": "2024-09-01",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7182,6 +7182,26 @@
     "url": "https://github.com/hickey/taskwarrior-smartsheet"
   },
   {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Taskwarrior clone made in Go",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "Other",
+    "name": "tasknight-cli",
+    "owner": [
+      "hossokawa"
+    ],
+    "rating": 0,
+    "updated": "2024-09-01",
+    "url": "https://github.com/hossokawa/tasknight-cli"
+  },
+  {
     "archived": true,
     "category": [
       "taskserver",
@@ -7617,7 +7637,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2024-08-07",
+    "updated": "2024-09-01",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -7695,7 +7715,7 @@
     "owner": [
       "j-jith"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2023-08-04",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
@@ -8355,7 +8375,7 @@
     "owner": [
       "joshir3"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-05-30",
     "url": "https://github.com/joshir3/TaskWarriorOpenAI"
   },
@@ -8739,8 +8759,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1454,
-    "updated": "2024-08-26",
+    "rating": 1455,
+    "updated": "2024-09-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -8839,8 +8859,8 @@
     "owner": [
       "kelvinauta"
     ],
-    "rating": 0,
-    "updated": "2024-08-30",
+    "rating": 1,
+    "updated": "2024-09-02",
     "url": "https://github.com/kelvinauta/taskwarrior_tasklist"
   },
   {
@@ -10179,7 +10199,7 @@
       "matthiasbeyer"
     ],
     "rating": 10,
-    "updated": "2024-08-01",
+    "updated": "2024-09-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -10980,26 +11000,6 @@
     "rating": 3,
     "updated": "2021-08-13",
     "url": "https://github.com/mythmon/taskwarrior-rofi"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Extending taskwarrior with useful tools.",
-    "dormant": false,
-    "language": [
-      "Ruby"
-    ],
-    "license": "MIT License",
-    "name": "taskby",
-    "owner": [
-      "n-at-han-k"
-    ],
-    "rating": 0,
-    "updated": "2024-08-04",
-    "url": "https://github.com/n-at-han-k/taskby"
   },
   {
     "archived": false,
@@ -13818,7 +13818,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 52,
+    "rating": 54,
     "updated": "2024-07-28",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14498,7 +14498,7 @@
       "xzmtx"
     ],
     "rating": 1,
-    "updated": "2024-08-29",
+    "updated": "2024-09-01",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
