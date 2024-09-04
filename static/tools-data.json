@@ -1038,7 +1038,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 182,
+    "rating": 183,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1618,7 +1618,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 74,
-    "updated": "2024-09-02",
+    "updated": "2024-09-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1637,7 +1637,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 41,
+    "rating": 43,
     "updated": "2024-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2474,7 +2474,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -3375,7 +3375,7 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2024-08-23",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
@@ -3698,7 +3698,7 @@
     "owner": [
       "abesto"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
   },
@@ -4538,7 +4538,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 416,
+    "rating": 419,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6240,26 +6240,6 @@
     "rating": 15,
     "updated": "2022-12-07",
     "url": "https://github.com/encima/flask-task"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "2way sync for taskwarrior and todoist",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "twtdi",
-    "owner": [
-      "energiya"
-    ],
-    "rating": 0,
-    "updated": "2020-11-25",
-    "url": "https://github.com/energiya/twtdi"
   },
   {
     "archived": false,
@@ -8759,7 +8739,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1455,
+    "rating": 1457,
     "updated": "2024-09-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10258,7 +10238,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2024-08-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -12238,7 +12218,7 @@
     "owner": [
       "quantonganh"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2023-10-05",
     "url": "https://github.com/quantonganh/taskwarrior-tui"
   },
@@ -13758,7 +13738,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 525,
+    "rating": 526,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -13918,7 +13898,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 834,
+    "rating": 835,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -14419,7 +14399,7 @@
       "wrvsrx"
     ],
     "rating": 0,
-    "updated": "2024-07-21",
+    "updated": "2024-09-03",
     "url": "https://github.com/wrvsrx/taskwarrior-to-dot"
   },
   {
@@ -14577,7 +14557,7 @@
     "owner": [
       "yanick"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2019-05-01",
     "url": "https://github.com/yanick/Taskwarrior-Kusarigama"
   },
