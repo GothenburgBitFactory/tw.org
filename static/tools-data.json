@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 112,
+    "rating": 113,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1597,7 +1597,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 734,
+    "rating": 735,
     "updated": "2024-08-30",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1637,7 +1637,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 43,
+    "rating": 44,
     "updated": "2024-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3578,7 +3578,7 @@
       "Zebradil"
     ],
     "rating": 66,
-    "updated": "2024-08-25",
+    "updated": "2024-09-04",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4538,7 +4538,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 419,
+    "rating": 421,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6008,7 +6008,7 @@
       "taskwarrior2"
     ],
     "description": "Clojure wrapper for Taskserver",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Clojure"
     ],
@@ -8739,7 +8739,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1457,
+    "rating": 1459,
     "updated": "2024-09-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14238,7 +14238,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 481,
+    "rating": 482,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
@@ -14381,26 +14381,6 @@
     "rating": 6,
     "updated": "2022-02-13",
     "url": "https://github.com/winpat/taskwarrior.el"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Haskell"
-    ],
-    "license": "MIT License",
-    "name": "taskwarrior-to-dot",
-    "owner": [
-      "wrvsrx"
-    ],
-    "rating": 0,
-    "updated": "2024-09-03",
-    "url": "https://github.com/wrvsrx/taskwarrior-to-dot"
   },
   {
     "archived": true,
