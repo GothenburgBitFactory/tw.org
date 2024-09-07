@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 113,
+    "rating": 115,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1907,7 +1907,7 @@
       "taskwarrior2"
     ],
     "description": "Makes latex templates for all your course work (assignments, lecture summaries, etc.), generates taskwarrior commands, enables syncing all course tasks with google calendar, sets up pseudo-anonymous old exam solution collaboration.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "TeX"
     ],
@@ -2055,7 +2055,7 @@
     "owner": [
       "JensErat"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2017-07-18",
     "url": "https://github.com/JensErat/docker-taskd"
   },
@@ -3376,7 +3376,7 @@
       "TheRiceCold"
     ],
     "rating": 30,
-    "updated": "2024-08-23",
+    "updated": "2024-09-06",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -4538,7 +4538,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 421,
+    "rating": 425,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4959,7 +4959,7 @@
     "owner": [
       "brp-optics"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2020-06-19",
     "url": "https://github.com/brp-optics/taskmc"
   },
@@ -5619,7 +5619,7 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2024-06-17",
+    "updated": "2024-09-06",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
@@ -5957,7 +5957,7 @@
     "owner": [
       "dominicdoty"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2019-10-15",
     "url": "https://github.com/dominicdoty/canvas_warrior"
   },
@@ -7297,7 +7297,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2024-08-16",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8559,7 +8559,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 361,
+    "rating": 362,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8739,7 +8739,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1459,
+    "rating": 1462,
     "updated": "2024-09-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10225,6 +10225,46 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Simple python library for communicating with TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "taskl",
+    "owner": [
+      "mawigh"
+    ],
+    "rating": 0,
+    "updated": "2024-09-06",
+    "url": "https://github.com/mawigh/taskl"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Simple webinterface for TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Jinja"
+    ],
+    "license": "MIT License",
+    "name": "taskweb",
+    "owner": [
+      "mawigh"
+    ],
+    "rating": 0,
+    "updated": "2024-08-01",
+    "url": "https://github.com/mawigh/taskweb"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -11618,7 +11658,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 101,
+    "rating": 102,
     "updated": "2024-06-12",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -11858,7 +11898,7 @@
     "owner": [
       "philipreinken"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2024-04-05",
     "url": "https://github.com/philipreinken/docker-taskd"
   },
@@ -13798,7 +13838,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2024-07-28",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -13898,7 +13938,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 835,
+    "rating": 836,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
