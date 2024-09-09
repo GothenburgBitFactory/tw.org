@@ -1218,7 +1218,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 11,
+    "rating": 13,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 735,
-    "updated": "2024-08-30",
+    "updated": "2024-09-08",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1618,7 +1618,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 74,
-    "updated": "2024-09-07",
+    "updated": "2024-09-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -4389,7 +4389,7 @@
       "taskwarrior2"
     ],
     "description": "Wrapper to use a Taskwarrior database per Git repository.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -7357,7 +7357,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -8739,7 +8739,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1462,
+    "rating": 1463,
     "updated": "2024-09-02",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9019,7 +9019,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2019-11-07",
     "url": "https://github.com/kostajh/task-git"
   },
@@ -10099,7 +10099,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-08-27",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -12869,7 +12869,7 @@
       "taskwarrior2"
     ],
     "description": "gnome shell extension for integration of taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -14457,7 +14457,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2024-05-06",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
@@ -14498,7 +14498,7 @@
       "xzmtx"
     ],
     "rating": 1,
-    "updated": "2024-09-01",
+    "updated": "2024-09-08",
     "url": "https://github.com/xzmtx/dotfiles"
   },
   {
