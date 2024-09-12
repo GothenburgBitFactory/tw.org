@@ -1218,7 +1218,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 15,
+    "rating": 17,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1597,7 +1597,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 735,
+    "rating": 736,
     "updated": "2024-09-08",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -4181,6 +4181,26 @@
     "rating": 4,
     "updated": "2018-08-06",
     "url": "https://github.com/anazimok/taskwarrior-workflow"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Obsidian plugin which supports creation of tasks",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "taskwarrior",
+    "owner": [
+      "anderamko"
+    ],
+    "rating": 0,
+    "updated": "2024-09-11",
+    "url": "https://github.com/anderamko/taskwarrior"
   },
   {
     "archived": false,
@@ -8559,7 +8579,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 362,
+    "rating": 363,
     "updated": "2023-09-20",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8739,7 +8759,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1467,
+    "rating": 1469,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12088,6 +12108,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Dart"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior",
+    "owner": [
+      "prateeksachan510"
+    ],
+    "rating": 0,
+    "updated": "2024-09-11",
+    "url": "https://github.com/prateeksachan510/taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Typescript utility that displays currently active taskwarrior task in i3status bar.",
     "dormant": true,
     "language": [
@@ -13958,7 +13998,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 836,
+    "rating": 837,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
