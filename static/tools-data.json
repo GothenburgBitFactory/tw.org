@@ -4558,7 +4558,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 426,
+    "rating": 427,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5945,6 +5945,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Nix"
+    ],
+    "license": null,
+    "name": "taskwarrior-web-server",
+    "owner": [
+      "dltompki"
+    ],
+    "rating": 0,
+    "updated": "2024-09-15",
+    "url": "https://github.com/dltompki/taskwarrior-web-server"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2"
     ],
     "description": "Four Years Productivity Manager: A productivity manager for the Four Year Workflow.",
@@ -6838,7 +6858,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-08-30",
+    "updated": "2024-09-15",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -12458,7 +12478,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 85,
+    "rating": 86,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
