@@ -9,7 +9,6 @@ const taskserverCheckbox = document.getElementById('include-taskserver')
 const excludeDormantCheckbox = document.getElementById('exclude-dormant');
 const includeArchivedCheckbox = document.getElementById('include-archived');
 const searchResultMessage = document.getElementById('search-result-message');
-const SEARCH_WAIT_TIME = 400;
 const CHECKB0X_WAIT_TIME = 200;
 const LOADING_MESSAGE = "Loading...";
 let sortedTools = [];
@@ -258,10 +257,6 @@ function updateSearchResultMessage(numTools) {
 /** Initialize the form processors. */
 function initFormProcessors() {
   // Form handlers
-  search.addEventListener('keyup', (e) => {
-    searchResultMessage.innerHTML = LOADING_MESSAGE;
-    debouncedHandleSearch(e);
-  });
   excludeDormantCheckbox.addEventListener('click', (e) => {
     searchResultMessage.innerHTML = LOADING_MESSAGE;
     debouncedHandleDormantCheckbox(e);
@@ -333,14 +328,3 @@ function handleCategoryCheckbox(e) {
 const debouncedHandleCategoryCheckbox = debounce((e) => {
   handleCategoryCheckbox(e);
 }, CHECKB0X_WAIT_TIME);
-
-
-/** On search, refill the tools table. */
-function handleSearch(e) {
-  searchTerms = e.target.value.toLowerCase().trim().split(' ');
-  if (searchTerms.length === 1 && searchTerms[0] === '') searchTerms = [];
-  fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
-}
-const debouncedHandleSearch = debounce((e) => {
-  handleSearch(e);
-}, SEARCH_WAIT_TIME);
