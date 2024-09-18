@@ -1,7 +1,7 @@
 "use strict";
 
-let excludeDormant = false;
-let excludeArchived = true;
+let excludeDormant = document.getElementById('exclude-dormant').checked
+let includeArchived = document.getElementById('include-archived').checked;
 let searchTerms = [];
 const taskwarrior2Checkbox = document.getElementById('include-taskwarrior2')
 const taskwarrior3Checkbox = document.getElementById('include-taskwarrior3')
@@ -33,7 +33,13 @@ fetch('../tools-data.json')
     useCategories = sortedTools[0].category !== undefined;
     if (useCategories) {
       categories = populateCategories(sortedTools)
-      selectedCategories = new Set(categories);
+
+      // filter unchecked categories
+      selectedCategories = new Set(categories.filter((e) =>
+        [taskserverCheckbox, taskwarrior2Checkbox, taskwarrior3Checkbox]
+        .filter((f) => f.checked)
+        .map((f) => f.id.split('-')[1])
+        .includes(e)));
     }
 
     populateToolsKeywords(sortedTools);
@@ -139,7 +145,7 @@ function fillToolsTable(tools, selectedLanguages, selectedOwners) {
           && (selectedOwners.size === 0 || ownerMatch)
           && categoryMatch
           && (!excludeDormant || !tool.dormant)
-          && (!excludeArchived || !tool.archived)
+          && ((includeArchived && tool.archived) || !tool.archived)
           && (searchMatch(searchTerms, tool.keywords))
         ) {
             numMatchingTools++;
@@ -296,7 +302,7 @@ function initFormProcessors() {
 
 /** When the archived checkbox is clicked, refill the tools table. */
 function handleArchivedCheckbox() {
-  excludeArchived = !excludeArchived;
+  includeArchived = !includeArchived;
   fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
 }
 const debouncedHandleArchivedCheckbox = debounce((e) => {
