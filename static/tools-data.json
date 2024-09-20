@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 737,
-    "updated": "2024-09-14",
+    "updated": "2024-09-19",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1618,7 +1618,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 75,
-    "updated": "2024-09-08",
+    "updated": "2024-09-19",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3578,7 +3578,7 @@
       "Zebradil"
     ],
     "rating": 66,
-    "updated": "2024-09-13",
+    "updated": "2024-09-19",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3779,7 +3779,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2023-01-10",
+    "updated": "2024-09-19",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -4578,7 +4578,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2024-08-10",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
@@ -5951,7 +5951,7 @@
     "description": null,
     "dormant": false,
     "language": [
-      "Nix"
+      "Rust"
     ],
     "license": null,
     "name": "taskwarrior-web-server",
@@ -5959,7 +5959,7 @@
       "dltompki"
     ],
     "rating": 0,
-    "updated": "2024-09-15",
+    "updated": "2024-09-19",
     "url": "https://github.com/dltompki/taskwarrior-web-server"
   },
   {
@@ -6120,6 +6120,26 @@
     "rating": 1,
     "updated": "2015-05-17",
     "url": "https://github.com/dropofwill/task_time"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "A neovim wrapper/plugin to use taskwarrior inside neovim",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "neowarrior.nvim",
+    "owner": [
+      "duckdm"
+    ],
+    "rating": 8,
+    "updated": "2024-09-19",
+    "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
     "archived": false,
@@ -8779,7 +8799,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1469,
+    "rating": 1470,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13898,7 +13918,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2024-09-07",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14018,7 +14038,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 838,
+    "rating": 839,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
