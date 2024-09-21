@@ -1598,7 +1598,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 737,
-    "updated": "2024-09-19",
+    "updated": "2024-09-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1620,26 +1620,6 @@
     "rating": 75,
     "updated": "2024-09-19",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "The sync server for Taskchampion",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "taskchampion-sync-server",
-    "owner": [
-      "GothenburgBitFactory"
-    ],
-    "rating": 44,
-    "updated": "2024-08-20",
-    "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
     "archived": false,
@@ -3578,7 +3558,7 @@
       "Zebradil"
     ],
     "rating": 66,
-    "updated": "2024-09-19",
+    "updated": "2024-09-20",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3779,7 +3759,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2024-09-19",
+    "updated": "2024-09-20",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -4218,7 +4198,7 @@
     "owner": [
       "andrey-utkin"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2023-06-06",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
@@ -6137,8 +6117,8 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 8,
-    "updated": "2024-09-19",
+    "rating": 9,
+    "updated": "2024-09-20",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -6878,7 +6858,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-09-15",
+    "updated": "2024-09-20",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -8799,7 +8779,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1470,
+    "rating": 1471,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10339,7 +10319,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-09-18",
+    "updated": "2024-09-20",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
