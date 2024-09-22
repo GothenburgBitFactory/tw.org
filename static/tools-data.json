@@ -217,7 +217,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 67,
+    "rating": 68,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 116,
+    "rating": 117,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1620,6 +1620,26 @@
     "rating": 75,
     "updated": "2024-09-19",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "The sync server for Taskchampion",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "taskchampion-sync-server",
+    "owner": [
+      "GothenburgBitFactory"
+    ],
+    "rating": 44,
+    "updated": "2024-08-20",
+    "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
     "archived": false,
@@ -4638,7 +4658,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2023-01-22",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
@@ -6118,7 +6138,7 @@
       "duckdm"
     ],
     "rating": 9,
-    "updated": "2024-09-20",
+    "updated": "2024-09-21",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -13137,7 +13157,7 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2022-09-11",
     "url": "https://github.com/skbolton/neorg-taskwarrior"
   },
@@ -13898,7 +13918,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 61,
+    "rating": 63,
     "updated": "2024-09-07",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
