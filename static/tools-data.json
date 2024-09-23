@@ -1597,8 +1597,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 737,
-    "updated": "2024-09-20",
+    "rating": 738,
+    "updated": "2024-09-23",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1637,7 +1637,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2024-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -1656,7 +1656,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 146,
+    "rating": 147,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1716,7 +1716,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3678,7 +3678,7 @@
     "owner": [
       "aaschmid"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2020-02-09",
     "url": "https://github.com/aaschmid/taskwarrior-java-client"
   },
@@ -4718,7 +4718,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 253,
+    "rating": 254,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -8799,7 +8799,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1471,
+    "rating": 1473,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10399,7 +10399,7 @@
       "me-and"
     ],
     "rating": 0,
-    "updated": "2024-07-10",
+    "updated": "2024-09-22",
     "url": "https://github.com/me-and/asmodeus"
   },
   {
@@ -12228,6 +12228,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A collection of Taskwarrior hooks for Salesforce and other platforms",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "task-hooks",
+    "owner": [
+      "push-eax"
+    ],
+    "rating": 0,
+    "updated": "2024-09-22",
+    "url": "https://github.com/push-eax/task-hooks"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Taskwarrior sync server.",
     "dormant": false,
     "language": [
@@ -13918,7 +13938,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 63,
+    "rating": 64,
     "updated": "2024-09-07",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14378,7 +14398,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 484,
+    "rating": 485,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
