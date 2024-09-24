@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 117,
+    "rating": 118,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1038,7 +1038,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 183,
+    "rating": 184,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1597,7 +1597,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 738,
+    "rating": 739,
     "updated": "2024-09-23",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1617,8 +1617,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 75,
-    "updated": "2024-09-19",
+    "rating": 76,
+    "updated": "2024-09-23",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -4558,7 +4558,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 428,
+    "rating": 429,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4718,7 +4718,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 254,
+    "rating": 255,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -6137,8 +6137,8 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 9,
-    "updated": "2024-09-21",
+    "rating": 10,
+    "updated": "2024-09-23",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -7677,7 +7677,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2024-09-09",
+    "updated": "2024-09-23",
     "url": "https://github.com/its-me-abhishek/ccsync"
   },
   {
@@ -14398,7 +14398,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 485,
+    "rating": 486,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
