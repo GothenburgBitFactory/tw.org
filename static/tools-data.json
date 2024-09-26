@@ -1617,8 +1617,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 76,
-    "updated": "2024-09-23",
+    "rating": 77,
+    "updated": "2024-09-25",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1677,7 +1677,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 6,
-    "updated": "2024-06-18",
+    "updated": "2024-09-24",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -1697,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2024-06-18",
+    "updated": "2024-09-24",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -1716,7 +1716,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 66,
+    "rating": 67,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3375,7 +3375,7 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2024-09-06",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
@@ -5319,7 +5319,7 @@
       "cinatic"
     ],
     "rating": 138,
-    "updated": "2024-04-23",
+    "updated": "2024-09-24",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
   {
@@ -5959,7 +5959,7 @@
       "dltompki"
     ],
     "rating": 0,
-    "updated": "2024-09-19",
+    "updated": "2024-09-24",
     "url": "https://github.com/dltompki/taskwarrior-web-server"
   },
   {
@@ -5977,7 +5977,7 @@
     "owner": [
       "dmyna"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2024-09-01",
     "url": "https://github.com/dmyna/fypm"
   },
@@ -6137,8 +6137,8 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 10,
-    "updated": "2024-09-23",
+    "rating": 12,
+    "updated": "2024-09-25",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -8739,7 +8739,7 @@
     "owner": [
       "juzim"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2024-08-13",
     "url": "https://github.com/juzim/taskwarrior2todo.txt"
   },
@@ -8799,7 +8799,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1473,
+    "rating": 1476,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11718,7 +11718,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 102,
+    "rating": 103,
     "updated": "2024-06-12",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -12239,7 +12239,7 @@
       "push-eax"
     ],
     "rating": 0,
-    "updated": "2024-09-22",
+    "updated": "2024-09-24",
     "url": "https://github.com/push-eax/task-hooks"
   },
   {
@@ -12559,7 +12559,7 @@
       "rmonico"
     ],
     "rating": 9,
-    "updated": "2024-07-30",
+    "updated": "2024-09-25",
     "url": "https://github.com/rmonico/itask"
   },
   {
