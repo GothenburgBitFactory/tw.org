@@ -1218,7 +1218,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1697,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2024-09-24",
+    "updated": "2024-09-27",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -6138,7 +6138,7 @@
       "duckdm"
     ],
     "rating": 12,
-    "updated": "2024-09-26",
+    "updated": "2024-09-27",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -7358,7 +7358,7 @@
       "huantrinh1802"
     ],
     "rating": 33,
-    "updated": "2024-08-16",
+    "updated": "2024-09-27",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
   {
@@ -10159,7 +10159,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2024-08-27",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -10880,6 +10880,26 @@
     "rating": 3,
     "updated": "2019-05-01",
     "url": "https://github.com/mpoquet/taskwarrior-scripts"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "a flake to provide taskwarrior tools for nixos",
+    "dormant": false,
+    "language": [
+      "Nix"
+    ],
+    "license": null,
+    "name": "taskwarrior-flake",
+    "owner": [
+      "mrVanDalo"
+    ],
+    "rating": 0,
+    "updated": "2024-09-27",
+    "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
     "archived": false,
@@ -13937,7 +13957,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2024-09-07",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
