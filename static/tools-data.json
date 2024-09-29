@@ -837,7 +837,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 118,
+    "rating": 119,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -6138,7 +6138,7 @@
       "duckdm"
     ],
     "rating": 12,
-    "updated": "2024-09-27",
+    "updated": "2024-09-28",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -8799,7 +8799,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1476,
+    "rating": 1477,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14789,7 +14789,7 @@
       "taskwarrior2"
     ],
     "description": "task management and note taking system based on taskwarrior and vim(rewrite of task-management)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
