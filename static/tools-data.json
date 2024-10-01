@@ -1267,6 +1267,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "c++ Task service",
+    "dormant": true,
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "DiegoViqueira"
+    ],
+    "rating": 0,
+    "updated": "2017-11-29",
+    "url": "https://github.com/DiegoViqueira/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Simple scripts to make adding new tasks to taskwarrior projects easier",
     "dormant": false,
     "language": [
@@ -1617,7 +1637,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 78,
-    "updated": "2024-09-25",
+    "updated": "2024-10-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1637,7 +1657,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 45,
-    "updated": "2024-08-20",
+    "updated": "2024-10-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -5357,7 +5377,7 @@
     "owner": [
       "claui"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2023-07-19",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
@@ -5537,7 +5557,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 287,
+    "rating": 288,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -6137,7 +6157,7 @@
       "duckdm"
     ],
     "rating": 12,
-    "updated": "2024-09-28",
+    "updated": "2024-09-30",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -8779,7 +8799,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1477,
+    "rating": 1478,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14397,7 +14417,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 487,
+    "rating": 489,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
