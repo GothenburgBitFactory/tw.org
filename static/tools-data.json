@@ -1057,7 +1057,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 184,
+    "rating": 182,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1237,7 +1237,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1616,7 +1616,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 739,
+    "rating": 740,
     "updated": "2024-09-23",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1657,7 +1657,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 45,
-    "updated": "2024-10-01",
+    "updated": "2024-10-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3395,7 +3395,7 @@
       "TheRiceCold"
     ],
     "rating": 32,
-    "updated": "2024-09-06",
+    "updated": "2024-10-01",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -3697,7 +3697,7 @@
     "owner": [
       "aaschmid"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2020-02-09",
     "url": "https://github.com/aaschmid/taskwarrior-java-client"
   },
@@ -4162,6 +4162,46 @@
     "url": "https://github.com/almostnobody/task2org"
   },
   {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A tasklib clone built with Dart",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "Mozilla Public License 2.0",
+    "name": "dart-taskwarrior",
+    "owner": [
+      "aloysb"
+    ],
+    "rating": 0,
+    "updated": "2023-07-04",
+    "url": "https://github.com/aloysb/dart-taskwarrior"
+  },
+  {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A taskwarrior client for mobile.",
+    "dormant": false,
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "tw",
+    "owner": [
+      "aloysb"
+    ],
+    "rating": 0,
+    "updated": "2023-06-19",
+    "url": "https://github.com/aloysb/tw"
+  },
+  {
     "archived": false,
     "category": [
       "taskserver",
@@ -4577,7 +4617,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 429,
+    "rating": 431,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4737,7 +4777,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 255,
+    "rating": 254,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -6157,7 +6197,7 @@
       "duckdm"
     ],
     "rating": 12,
-    "updated": "2024-09-30",
+    "updated": "2024-10-02",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -6616,7 +6656,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 149,
+    "rating": 150,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -6847,7 +6887,7 @@
       "taskwarrior3"
     ],
     "description": "A basic taskd server",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -7376,8 +7416,8 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 34,
-    "updated": "2024-09-30",
+    "rating": 36,
+    "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
   {
@@ -7536,7 +7576,7 @@
     "owner": [
       "ifben"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-02-16",
     "url": "https://github.com/ifben/task2ntfy"
   },
@@ -8799,7 +8839,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1478,
+    "rating": 1477,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13957,7 +13997,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2024-09-07",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
