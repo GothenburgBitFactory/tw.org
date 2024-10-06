@@ -837,7 +837,7 @@
       "CCExtractor"
     ],
     "rating": 2,
-    "updated": "2024-09-29",
+    "updated": "2024-10-04",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 119,
+    "rating": 120,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1057,7 +1057,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 182,
+    "rating": 183,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1237,7 +1237,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1636,7 +1636,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 78,
+    "rating": 79,
     "updated": "2024-10-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -1656,8 +1656,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 45,
-    "updated": "2024-10-02",
+    "rating": 46,
+    "updated": "2024-10-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2900,6 +2900,46 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Another taskwarrior tui",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "taskwarrior-tui",
+    "owner": [
+      "Piitschy"
+    ],
+    "rating": 0,
+    "updated": "2024-10-05",
+    "url": "https://github.com/Piitschy/taskwarrior-tui"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "My personal cusomization of the LazyVim config",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "Apache License 2.0",
+    "name": "lazyvim-config",
+    "owner": [
+      "Praczet"
+    ],
+    "rating": 0,
+    "updated": "2024-10-04",
+    "url": "https://github.com/Praczet/lazyvim-config"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -3394,7 +3434,7 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2024-10-01",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
@@ -3708,7 +3748,7 @@
       "taskwarrior2"
     ],
     "description": "Scripts for an easier GTD workflow with Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -4398,7 +4438,7 @@
       "ataraskov"
     ],
     "rating": 0,
-    "updated": "2022-07-08",
+    "updated": "2024-10-03",
     "url": "https://github.com/ataraskov/task-dashboard"
   },
   {
@@ -4617,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 431,
+    "rating": 433,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4837,7 +4877,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 76,
+    "rating": 77,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -6197,7 +6237,7 @@
       "duckdm"
     ],
     "rating": 12,
-    "updated": "2024-10-02",
+    "updated": "2024-10-03",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -6937,7 +6977,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-09-26",
+    "updated": "2024-10-04",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7416,7 +7456,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8659,8 +8699,8 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 364,
-    "updated": "2023-09-20",
+    "rating": 365,
+    "updated": "2024-10-03",
     "url": "https://github.com/jschlatow/taskopen"
   },
   {
@@ -8839,7 +8879,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1477,
+    "rating": 1480,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10199,7 +10239,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2024-08-27",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -10379,7 +10419,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-09-20",
+    "updated": "2024-10-05",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -12578,7 +12618,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 86,
+    "rating": 85,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -13037,7 +13077,7 @@
     "owner": [
       "sgaraud"
     ],
-    "rating": 49,
+    "rating": 48,
     "updated": "2021-09-08",
     "url": "https://github.com/sgaraud/gnome-extension-taskwarrior"
   },
@@ -13997,7 +14037,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 66,
+    "rating": 67,
     "updated": "2024-09-07",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
