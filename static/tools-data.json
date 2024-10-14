@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 121,
+    "rating": 122,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1237,7 +1237,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1637,7 +1637,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 79,
-    "updated": "2024-10-01",
+    "updated": "2024-10-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1656,7 +1656,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2024-10-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2908,13 +2908,13 @@
     "language": [
       "Go"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "taskwarrior-tui",
     "owner": [
       "Piitschy"
     ],
     "rating": 0,
-    "updated": "2024-10-05",
+    "updated": "2024-10-13",
     "url": "https://github.com/Piitschy/taskwarrior-tui"
   },
   {
@@ -3434,8 +3434,8 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 34,
-    "updated": "2024-10-07",
+    "rating": 37,
+    "updated": "2024-10-13",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -3637,7 +3637,7 @@
       "Zebradil"
     ],
     "rating": 66,
-    "updated": "2024-09-26",
+    "updated": "2024-10-11",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4657,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 433,
+    "rating": 435,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4817,7 +4817,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 254,
+    "rating": 255,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -5738,7 +5738,7 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2024-09-18",
+    "updated": "2024-10-13",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
@@ -5860,6 +5860,26 @@
     "rating": 27,
     "updated": "2022-04-14",
     "url": "https://github.com/dakuten/taskwarrior-polybar"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Spaceship prompt section displaying number of pending Taskwarrior tasks",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "spaceship-taskwarrior",
+    "owner": [
+      "danarth"
+    ],
+    "rating": 0,
+    "updated": "2024-10-08",
+    "url": "https://github.com/danarth/spaceship-taskwarrior"
   },
   {
     "archived": false,
@@ -6076,7 +6096,7 @@
     "owner": [
       "dmyna"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2024-09-01",
     "url": "https://github.com/dmyna/fypm"
   },
@@ -6236,8 +6256,8 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 12,
-    "updated": "2024-10-06",
+    "rating": 13,
+    "updated": "2024-10-09",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -6679,26 +6699,6 @@
     "rating": 4,
     "updated": "2013-02-21",
     "url": "https://github.com/fdev31/taskiwi"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Alfred Workflow to manage taskwarrior",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "alfred-taskwarrior",
-    "owner": [
-      "fl83"
-    ],
-    "rating": 0,
-    "updated": "2018-11-14",
-    "url": "https://github.com/fl83/alfred-taskwarrior"
   },
   {
     "archived": false,
@@ -8719,7 +8719,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 365,
+    "rating": 366,
     "updated": "2024-10-03",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8899,7 +8899,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1481,
+    "rating": 1488,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -8982,6 +8982,26 @@
     "rating": 0,
     "updated": "2022-07-05",
     "url": "https://github.com/kellya/tw-spaceduck"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Task Warrior Scheduled Based Evidence CLI #taskwarrior",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskwarrior-sbe-cli",
+    "owner": [
+      "kelvinauta"
+    ],
+    "rating": 0,
+    "updated": "2024-10-13",
+    "url": "https://github.com/kelvinauta/taskwarrior-sbe-cli"
   },
   {
     "archived": false,
@@ -9422,6 +9442,26 @@
     "rating": 0,
     "updated": "2018-08-08",
     "url": "https://github.com/leifdenby/twsync"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior_utils",
+    "owner": [
+      "lfruin"
+    ],
+    "rating": 0,
+    "updated": "2024-10-13",
+    "url": "https://github.com/lfruin/taskwarrior_utils"
   },
   {
     "archived": false,
@@ -10259,7 +10299,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 6,
+    "rating": 8,
     "updated": "2024-08-27",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -12698,7 +12738,7 @@
       "rmonico"
     ],
     "rating": 0,
-    "updated": "2024-05-06",
+    "updated": "2024-10-08",
     "url": "https://github.com/rmonico/taskwarrior-reminder"
   },
   {
@@ -13957,7 +13997,7 @@
     "owner": [
       "thehunmonkgroup"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2024-02-07",
     "url": "https://github.com/thehunmonkgroup/onenote"
   },
@@ -14057,7 +14097,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 67,
+    "rating": 68,
     "updated": "2024-09-07",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14517,7 +14557,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 489,
+    "rating": 490,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
