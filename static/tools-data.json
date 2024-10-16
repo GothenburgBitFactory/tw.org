@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 123,
+    "rating": 124,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1656,7 +1656,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2024-10-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4178,7 +4178,7 @@
       "allgreed"
     ],
     "rating": 0,
-    "updated": "2024-07-27",
+    "updated": "2024-10-15",
     "url": "https://github.com/allgreed/tw-ical-feed"
   },
   {
@@ -6256,7 +6256,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2024-10-09",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -8899,7 +8899,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1488,
+    "rating": 1489,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14078,7 +14078,7 @@
       "tmahmood"
     ],
     "rating": 68,
-    "updated": "2024-09-07",
+    "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
