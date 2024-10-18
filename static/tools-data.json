@@ -1057,7 +1057,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 183,
+    "rating": 184,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -3637,7 +3637,7 @@
       "Zebradil"
     ],
     "rating": 66,
-    "updated": "2024-10-11",
+    "updated": "2024-10-17",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4657,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 436,
+    "rating": 437,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -12285,6 +12285,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "my taskwarrior config",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwarrior",
+    "owner": [
+      "plateena"
+    ],
+    "rating": 0,
+    "updated": "2024-10-17",
+    "url": "https://github.com/plateena/taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -14717,7 +14737,7 @@
       "xingheng"
     ],
     "rating": 16,
-    "updated": "2024-05-06",
+    "updated": "2024-10-17",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
   {
