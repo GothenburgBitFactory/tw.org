@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 124,
+    "rating": 125,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -937,7 +937,7 @@
       "ChrisKSeal"
     ],
     "rating": 1,
-    "updated": "2024-02-02",
+    "updated": "2024-10-18",
     "url": "https://github.com/ChrisKSeal/taskjira"
   },
   {
@@ -1057,7 +1057,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 184,
+    "rating": 185,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1616,8 +1616,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 740,
-    "updated": "2024-09-23",
+    "rating": 741,
+    "updated": "2024-10-18",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1637,7 +1637,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 79,
-    "updated": "2024-10-16",
+    "updated": "2024-10-18",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2673,7 +2673,7 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2024-08-16",
     "url": "https://github.com/MythicalCow/vayu"
   },
@@ -2913,7 +2913,7 @@
     "owner": [
       "Piitschy"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-10-16",
     "url": "https://github.com/Piitschy/taskwarrior-tui"
   },
@@ -4297,7 +4297,7 @@
     "owner": [
       "anderamko"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-09-11",
     "url": "https://github.com/anderamko/taskwarrior"
   },
@@ -4657,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 437,
+    "rating": 438,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6097,7 +6097,7 @@
       "dmyna"
     ],
     "rating": 6,
-    "updated": "2024-09-01",
+    "updated": "2024-10-18",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -8719,7 +8719,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 366,
+    "rating": 367,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9079,7 +9079,7 @@
     "owner": [
       "kgoettler"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2023-09-09",
     "url": "https://github.com/kgoettler/tasksync"
   },
@@ -10479,7 +10479,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-10-05",
+    "updated": "2024-10-18",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11758,7 +11758,7 @@
     "owner": [
       "nojhan"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2024-10-14",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
@@ -12299,7 +12299,7 @@
       "plateena"
     ],
     "rating": 0,
-    "updated": "2024-10-17",
+    "updated": "2024-10-18",
     "url": "https://github.com/plateena/taskwarrior"
   },
   {
@@ -12678,7 +12678,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 85,
+    "rating": 86,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -12797,7 +12797,7 @@
     "owner": [
       "robwhitaker"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2022-09-14",
     "url": "https://github.com/robwhitaker/taskwarrior-habitica-bridge"
   },
