@@ -1636,7 +1636,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 79,
+    "rating": 80,
     "updated": "2024-10-18",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -1656,7 +1656,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 49,
+    "rating": 51,
     "updated": "2024-10-17",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4657,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 438,
+    "rating": 439,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6997,7 +6997,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-10-04",
+    "updated": "2024-10-19",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7476,7 +7476,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9382,6 +9382,26 @@
     "rating": 7,
     "updated": "2018-08-21",
     "url": "https://github.com/languitar/taskwarrior-emails"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "TaskOverlord - Modern desktop client for Taskwarrior.",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskoverlord",
+    "owner": [
+      "lebriton"
+    ],
+    "rating": 0,
+    "updated": "2024-10-19",
+    "url": "https://github.com/lebriton/taskoverlord"
   },
   {
     "archived": false,
@@ -12299,7 +12319,7 @@
       "plateena"
     ],
     "rating": 0,
-    "updated": "2024-10-18",
+    "updated": "2024-10-19",
     "url": "https://github.com/plateena/taskwarrior"
   },
   {
@@ -14557,7 +14577,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 491,
+    "rating": 490,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
