@@ -7,7 +7,7 @@ title: "Taskwarrior - Best Practices"
 If you have installed Taskwarrior and gone through the intro and some of the tutorials, you may be wondering how to start using some features to help you organize your work.
 This is a simple tutorial, not intended to be complete, or methodology-specific, but just a start, to get you thinking about your task list, and how you might better rely on it.
 
-The default report (the report that runs when you just enter `task`) is the`next` report.
+The default report (the report that runs when you just enter `task`) is the `next` report.
 This is a report where the tasks are sorted by urgency, with the most urgent at the top.
 The report cuts off after one page, so it is really just a list of the most urgent tasks.
 With a few tips to follow, the `next` report can be your most valuable resource.
