@@ -2403,6 +2403,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskserver-docker-flake",
+    "owner": [
+      "LarsZauberer"
+    ],
+    "rating": 0,
+    "updated": "2024-10-21",
+    "url": "https://github.com/LarsZauberer/taskserver-docker-flake"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "A vim plugin for doing GTD with Taskwarrior",
     "dormant": true,
     "language": [
@@ -3434,7 +3454,7 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2024-10-13",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
@@ -6257,7 +6277,7 @@
       "duckdm"
     ],
     "rating": 14,
-    "updated": "2024-10-09",
+    "updated": "2024-10-21",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -8719,7 +8739,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 367,
+    "rating": 368,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8899,7 +8919,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1492,
+    "rating": 1493,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9000,7 +9020,7 @@
       "kelvinauta"
     ],
     "rating": 0,
-    "updated": "2024-10-13",
+    "updated": "2024-10-21",
     "url": "https://github.com/kelvinauta/taskwarrior-sbe-cli"
   },
   {
@@ -9400,7 +9420,7 @@
       "lebriton"
     ],
     "rating": 0,
-    "updated": "2024-10-20",
+    "updated": "2024-10-21",
     "url": "https://github.com/lebriton/taskoverlord"
   },
   {
