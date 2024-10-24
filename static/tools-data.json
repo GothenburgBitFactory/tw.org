@@ -217,7 +217,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 69,
+    "rating": 68,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -1637,7 +1637,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 81,
-    "updated": "2024-10-22",
+    "updated": "2024-10-23",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3657,7 +3657,7 @@
       "Zebradil"
     ],
     "rating": 66,
-    "updated": "2024-10-17",
+    "updated": "2024-10-23",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4677,7 +4677,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 439,
+    "rating": 440,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8739,7 +8739,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 368,
+    "rating": 367,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8919,7 +8919,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1494,
+    "rating": 1493,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12088,26 +12088,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "This is a fork of https://bitbucket.org/kvorobyev/taskwarriorandroid",
-    "dormant": true,
-    "language": [
-      "C++"
-    ],
-    "license": "MIT License",
-    "name": "taskwarriorandroid",
-    "owner": [
-      "petercommand"
-    ],
-    "rating": 0,
-    "updated": "2019-08-18",
-    "url": "https://github.com/petercommand/taskwarriorandroid"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Taskwarrior and timewarrior widget for awesome",
     "dormant": false,
     "language": [
@@ -12441,6 +12421,26 @@
     "rating": 0,
     "updated": "2018-05-08",
     "url": "https://github.com/psychopenguin/taskd-docker"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "This is a fork of https://bitbucket.org/kvorobyev/taskwarriorandroid",
+    "dormant": true,
+    "language": [
+      "C++"
+    ],
+    "license": "MIT License",
+    "name": "taskwarriorandroid",
+    "owner": [
+      "ptrcmd"
+    ],
+    "rating": 0,
+    "updated": "2019-08-18",
+    "url": "https://github.com/ptrcmd/taskwarriorandroid"
   },
   {
     "archived": false,
@@ -13376,7 +13376,7 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2022-09-11",
     "url": "https://github.com/skbolton/neorg-taskwarrior"
   },
@@ -14077,7 +14077,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 528,
+    "rating": 529,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14257,7 +14257,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 839,
+    "rating": 840,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
