@@ -1057,7 +1057,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 186,
+    "rating": 188,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1617,7 +1617,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 743,
-    "updated": "2024-10-18",
+    "updated": "2024-10-24",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1656,7 +1656,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2024-10-17",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2396,26 +2396,6 @@
     "rating": 2,
     "updated": "2024-07-19",
     "url": "https://github.com/LanHikari22/TTM"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskserver-docker-flake",
-    "owner": [
-      "LarsZauberer"
-    ],
-    "rating": 0,
-    "updated": "2024-10-21",
-    "url": "https://github.com/LarsZauberer/taskserver-docker-flake"
   },
   {
     "archived": false,
@@ -7496,7 +7476,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8919,7 +8899,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1493,
+    "rating": 1494,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10519,7 +10499,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-10-22",
+    "updated": "2024-10-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
