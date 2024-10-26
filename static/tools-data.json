@@ -9000,7 +9000,7 @@
       "kelvinauta"
     ],
     "rating": 0,
-    "updated": "2024-10-22",
+    "updated": "2024-10-25",
     "url": "https://github.com/kelvinauta/taskwarrior-sbe-cli"
   },
   {
@@ -12817,7 +12817,7 @@
     "owner": [
       "robwhitaker"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2022-09-14",
     "url": "https://github.com/robwhitaker/taskwarrior-habitica-bridge"
   },
@@ -14989,7 +14989,7 @@
       "taskwarrior2"
     ],
     "description": "Integrate taskwarrior and REMIND",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
