@@ -7096,7 +7096,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -8899,7 +8899,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1494,
+    "rating": 1495,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9519,7 +9519,7 @@
     "owner": [
       "lharding"
     ],
-    "rating": 116,
+    "rating": 117,
     "updated": "2024-03-12",
     "url": "https://github.com/lharding/tasknc"
   },
@@ -12669,7 +12669,7 @@
       "taskwarrior2"
     ],
     "description": "Self-hostable Telegram bot to interface with Taskwarrior through the inthe.am api",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -13356,7 +13356,7 @@
     "owner": [
       "skbolton"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2022-09-11",
     "url": "https://github.com/skbolton/neorg-taskwarrior"
   },
@@ -14057,7 +14057,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 529,
+    "rating": 530,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14117,7 +14117,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 71,
+    "rating": 72,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
