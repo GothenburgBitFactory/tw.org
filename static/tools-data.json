@@ -1637,7 +1637,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 81,
-    "updated": "2024-10-23",
+    "updated": "2024-10-27",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2953,7 +2953,7 @@
     "owner": [
       "Praczet"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-08-27",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
@@ -4657,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 440,
+    "rating": 441,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9050,7 +9050,7 @@
       "taskwarrior2"
     ],
     "description": "custom .taskrc and .vit/config.ini files",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -12698,7 +12698,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 86,
+    "rating": 87,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
