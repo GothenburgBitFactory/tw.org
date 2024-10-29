@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 125,
+    "rating": 126,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1656,7 +1656,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 53,
+    "rating": 55,
     "updated": "2024-10-17",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3636,8 +3636,8 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 66,
-    "updated": "2024-10-23",
+    "rating": 67,
+    "updated": "2024-10-28",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4657,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 441,
+    "rating": 442,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5417,7 +5417,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 138,
+    "rating": 139,
     "updated": "2024-09-24",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -6096,7 +6096,7 @@
     "owner": [
       "dmyna"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2024-10-18",
     "url": "https://github.com/dmyna/fypm"
   },
@@ -8719,7 +8719,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 367,
+    "rating": 368,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8899,7 +8899,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1495,
+    "rating": 1496,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10499,7 +10499,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-10-24",
+    "updated": "2024-10-28",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11629,7 +11629,7 @@
       "taskwarrior3"
     ],
     "description": "Installs taskserver to sync tasks with taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Jinja"
     ],
@@ -12299,7 +12299,7 @@
       "plateena"
     ],
     "rating": 0,
-    "updated": "2024-10-19",
+    "updated": "2024-10-28",
     "url": "https://github.com/plateena/taskwarrior"
   },
   {
@@ -12698,7 +12698,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 87,
+    "rating": 88,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -13417,7 +13417,7 @@
       "smemsh"
     ],
     "rating": 1,
-    "updated": "2024-08-23",
+    "updated": "2024-10-28",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14117,7 +14117,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 72,
+    "rating": 73,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
