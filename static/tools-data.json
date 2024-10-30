@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 126,
+    "rating": 129,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1637,7 +1637,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 81,
-    "updated": "2024-10-27",
+    "updated": "2024-10-29",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -9870,7 +9870,7 @@
       "taskwarrior2"
     ],
     "description": "A crontab setup to export a Time Of Day system variable, as a filter for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -13087,6 +13087,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Little summary utility for TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "taskwarrior-summary",
+    "owner": [
+      "scottyob"
+    ],
+    "rating": 0,
+    "updated": "2024-10-29",
+    "url": "https://github.com/scottyob/taskwarrior-summary"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Taskwarrior extension for vscode",
     "dormant": false,
     "language": [
@@ -13417,7 +13437,7 @@
       "smemsh"
     ],
     "rating": 1,
-    "updated": "2024-10-28",
+    "updated": "2024-10-29",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
