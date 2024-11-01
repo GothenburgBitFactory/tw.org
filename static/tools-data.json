@@ -3637,7 +3637,7 @@
       "Zebradil"
     ],
     "rating": 67,
-    "updated": "2024-10-28",
+    "updated": "2024-10-31",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4657,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 442,
+    "rating": 443,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4677,7 +4677,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2024-08-10",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
@@ -6097,7 +6097,7 @@
       "dmyna"
     ],
     "rating": 7,
-    "updated": "2024-10-18",
+    "updated": "2024-10-31",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7536,7 +7536,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -8790,7 +8790,7 @@
       "taskwarrior3"
     ],
     "description": "GUI organizer based on Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "C++"
     ],
@@ -9000,7 +9000,7 @@
       "kelvinauta"
     ],
     "rating": 0,
-    "updated": "2024-10-25",
+    "updated": "2024-10-31",
     "url": "https://github.com/kelvinauta/taskwarrior-sbe-cli"
   },
   {
@@ -10399,7 +10399,7 @@
       "matthiasbeyer"
     ],
     "rating": 10,
-    "updated": "2024-09-01",
+    "updated": "2024-11-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -14257,7 +14257,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 840,
+    "rating": 841,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
