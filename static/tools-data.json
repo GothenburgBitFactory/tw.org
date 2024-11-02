@@ -1637,7 +1637,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 81,
-    "updated": "2024-10-31",
+    "updated": "2024-11-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -4657,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 443,
+    "rating": 444,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4937,7 +4937,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 517,
+    "rating": 518,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5968,7 +5968,7 @@
       "taskwarrior2"
     ],
     "description": "Simple & fast Taskwarrior web frontend",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -6086,7 +6086,7 @@
     "category": [
       "taskwarrior2"
     ],
-    "description": "Four Years Productivity Manager: A productivity manager for the Four Year Workflow.",
+    "description": "Four Years Productivity Manager: A productivity manager for the Four Years Workflow.",
     "dormant": false,
     "language": [
       "Rust"
@@ -6096,7 +6096,7 @@
     "owner": [
       "dmyna"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2024-10-31",
     "url": "https://github.com/dmyna/fypm"
   },
@@ -10499,7 +10499,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-10-28",
+    "updated": "2024-11-01",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -12299,7 +12299,7 @@
       "plateena"
     ],
     "rating": 0,
-    "updated": "2024-10-28",
+    "updated": "2024-11-01",
     "url": "https://github.com/plateena/taskwarrior"
   },
   {
@@ -12638,7 +12638,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 175,
+    "rating": 176,
     "updated": "2024-04-01",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -13437,7 +13437,7 @@
       "smemsh"
     ],
     "rating": 1,
-    "updated": "2024-10-30",
+    "updated": "2024-11-01",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
