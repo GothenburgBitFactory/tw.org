@@ -1656,7 +1656,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 55,
+    "rating": 56,
     "updated": "2024-10-31",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2394,7 +2394,7 @@
       "LanHikari22"
     ],
     "rating": 2,
-    "updated": "2024-07-19",
+    "updated": "2024-11-02",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -4178,7 +4178,7 @@
       "allgreed"
     ],
     "rating": 0,
-    "updated": "2024-10-15",
+    "updated": "2024-11-02",
     "url": "https://github.com/allgreed/tw-ical-feed"
   },
   {
@@ -4657,7 +4657,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 444,
+    "rating": 445,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5417,7 +5417,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 139,
+    "rating": 140,
     "updated": "2024-09-24",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -6256,7 +6256,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2024-10-21",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -8799,7 +8799,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -8899,7 +8899,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1496,
+    "rating": 1497,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9850,7 +9850,7 @@
       "taskwarrior2"
     ],
     "description": "16color and 256color, light and dark theme files for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -14597,7 +14597,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 491,
+    "rating": 492,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
