@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 129,
+    "rating": 130,
     "updated": "2024-08-30",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -2213,7 +2213,7 @@
     "owner": [
       "KGB33"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-08-29",
     "url": "https://github.com/KGB33/tasky"
   },
@@ -2394,7 +2394,7 @@
       "LanHikari22"
     ],
     "rating": 2,
-    "updated": "2024-11-02",
+    "updated": "2024-11-04",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -3434,8 +3434,8 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 41,
-    "updated": "2024-10-13",
+    "rating": 42,
+    "updated": "2024-11-04",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -3637,7 +3637,7 @@
       "Zebradil"
     ],
     "rating": 67,
-    "updated": "2024-10-31",
+    "updated": "2024-11-04",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -6256,8 +6256,8 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 16,
-    "updated": "2024-10-21",
+    "rating": 18,
+    "updated": "2024-11-04",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -7476,7 +7476,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 42,
+    "rating": 43,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
