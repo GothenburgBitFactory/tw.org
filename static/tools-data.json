@@ -117,7 +117,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-11-05",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 130,
-    "updated": "2024-11-05",
+    "updated": "2024-11-06",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1657,7 +1657,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 81,
-    "updated": "2024-11-01",
+    "updated": "2024-11-06",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1676,8 +1676,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 57,
-    "updated": "2024-10-31",
+    "rating": 58,
+    "updated": "2024-11-06",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3455,7 +3455,7 @@
       "TheRiceCold"
     ],
     "rating": 42,
-    "updated": "2024-11-04",
+    "updated": "2024-11-06",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -10559,7 +10559,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-11-01",
+    "updated": "2024-11-06",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11228,7 +11228,7 @@
       "taskwarrior2"
     ],
     "description": "Task Warrior Server",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Makefile"
     ],
@@ -14317,7 +14317,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 842,
+    "rating": 843,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
