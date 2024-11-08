@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2024-11-05",
+    "updated": "2024-11-07",
     "url": "https://github.com/00sapo/taskcheck"
   },
   {
@@ -1657,7 +1657,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 81,
-    "updated": "2024-11-06",
+    "updated": "2024-11-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1677,7 +1677,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 58,
-    "updated": "2024-11-06",
+    "updated": "2024-11-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3455,7 +3455,7 @@
       "TheRiceCold"
     ],
     "rating": 42,
-    "updated": "2024-11-06",
+    "updated": "2024-11-07",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -3575,7 +3575,7 @@
       "Whorohit"
     ],
     "rating": 0,
-    "updated": "2024-11-05",
+    "updated": "2024-11-07",
     "url": "https://github.com/Whorohit/taskserver"
   },
   {
@@ -3677,7 +3677,7 @@
       "Zebradil"
     ],
     "rating": 67,
-    "updated": "2024-11-04",
+    "updated": "2024-11-07",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -7516,7 +7516,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 44,
+    "rating": 45,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
