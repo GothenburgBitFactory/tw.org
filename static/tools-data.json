@@ -1755,7 +1755,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 68,
+    "rating": 67,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -2856,6 +2856,26 @@
     "rating": 0,
     "updated": "2022-08-15",
     "url": "https://github.com/Olichss/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A taskwarrior inspired script that provides a CLI for manipulating todo-notes from Joplin.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "Taskwarrior-JP",
+    "owner": [
+      "OzwaldFR"
+    ],
+    "rating": 0,
+    "updated": "2024-11-09",
+    "url": "https://github.com/OzwaldFR/Taskwarrior-JP"
   },
   {
     "archived": false,
@@ -4184,6 +4204,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A wrapper for https://taskwarrior.org/",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "task-wrapper",
+    "owner": [
+      "algorist-ahmad"
+    ],
+    "rating": 0,
+    "updated": "2024-08-23",
+    "url": "https://github.com/algorist-ahmad/task-wrapper"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -5168,26 +5208,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A wrapper for https://taskwarrior.org/",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "task-wrapper",
-    "owner": [
-      "bytesmith-ahmad"
-    ],
-    "rating": 0,
-    "updated": "2024-08-23",
-    "url": "https://github.com/bytesmith-ahmad/task-wrapper"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Subtasks in taskwarrior",
     "dormant": false,
     "language": [
@@ -5797,7 +5817,7 @@
     "owner": [
       "contrun"
     ],
-    "rating": 6,
+    "rating": 5,
     "updated": "2022-08-19",
     "url": "https://github.com/contrun/taskwarrior-terminal-kanban"
   },
@@ -7076,7 +7096,7 @@
     "owner": [
       "garykl"
     ],
-    "rating": 33,
+    "rating": 32,
     "updated": "2021-04-13",
     "url": "https://github.com/garykl/task2dot"
   },
@@ -11938,7 +11958,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 80,
+    "rating": 79,
     "updated": "2024-05-19",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -14317,7 +14337,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 843,
+    "rating": 842,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -14657,7 +14677,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 493,
+    "rating": 492,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
@@ -14836,7 +14856,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2024-10-17",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
