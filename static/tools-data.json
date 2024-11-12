@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 131,
+    "rating": 132,
     "updated": "2024-11-06",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -2860,10 +2860,10 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
+      "taskwarrior2",
+      "taskwarrior3"
     ],
-    "description": "A taskwarrior inspired script that provides a CLI for manipulating todo-notes from Joplin.",
+    "description": "A taskwarrior inspired script that provides a CLI for manipulating todo-notes stored in Joplin.",
     "dormant": false,
     "language": [
       "Python"
@@ -3184,6 +3184,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "Ranjith1110"
+    ],
+    "rating": 0,
+    "updated": "2024-11-11",
+    "url": "https://github.com/Ranjith1110/taskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Just a little script to help me with Taskwarrior",
     "dormant": true,
     "language": [
@@ -3474,8 +3494,8 @@
     "owner": [
       "TheRiceCold"
     ],
-    "rating": 42,
-    "updated": "2024-11-10",
+    "rating": 43,
+    "updated": "2024-11-11",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -3575,7 +3595,7 @@
       "WaldLumen"
     ],
     "rating": 1,
-    "updated": "2024-10-30",
+    "updated": "2024-11-11",
     "url": "https://github.com/WaldLumen/SideBar"
   },
   {
@@ -4737,7 +4757,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 446,
+    "rating": 447,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5637,7 +5657,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2020-10-12",
     "url": "https://github.com/coddingtonbear/nagios-taskserver-plugin"
   },
@@ -5657,7 +5677,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2023-01-12",
     "url": "https://github.com/coddingtonbear/python-taskwarrior"
   },
@@ -5677,7 +5697,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2020-12-15",
     "url": "https://github.com/coddingtonbear/taskwarrior-inthe.am"
   },
@@ -6776,7 +6796,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 151,
+    "rating": 150,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -8966,6 +8986,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Julia"
+    ],
+    "license": null,
+    "name": "taskwarrior-builder",
+    "owner": [
+      "kdheepak"
+    ],
+    "rating": 0,
+    "updated": "2024-11-11",
+    "url": "https://github.com/kdheepak/taskwarrior-builder"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -8979,7 +9019,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1502,
+    "rating": 1501,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10579,7 +10619,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-11-06",
+    "updated": "2024-11-11",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -14337,7 +14377,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 842,
+    "rating": 841,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
