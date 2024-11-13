@@ -117,8 +117,8 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 2,
-    "updated": "2024-11-11",
+    "rating": 3,
+    "updated": "2024-11-13",
     "url": "https://github.com/00sapo/taskcheck"
   },
   {
@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 132,
+    "rating": 133,
     "updated": "2024-11-06",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -2874,7 +2874,7 @@
       "OzwaldFR"
     ],
     "rating": 0,
-    "updated": "2024-11-09",
+    "updated": "2024-11-12",
     "url": "https://github.com/OzwaldFR/Taskwarrior-JP"
   },
   {
@@ -3495,7 +3495,7 @@
       "TheRiceCold"
     ],
     "rating": 43,
-    "updated": "2024-11-11",
+    "updated": "2024-11-12",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -6176,7 +6176,7 @@
     "owner": [
       "dmyna"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2024-11-11",
     "url": "https://github.com/dmyna/fypm"
   },
@@ -9019,7 +9019,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1501,
+    "rating": 1503,
     "updated": "2024-09-09",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9890,7 +9890,7 @@
       "taskwarrior2"
     ],
     "description": "taskwarrior export scripts",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Perl"
     ],
@@ -9900,7 +9900,7 @@
       "linuxcaffe"
     ],
     "rating": 7,
-    "updated": "2018-08-22",
+    "updated": "2024-11-12",
     "url": "https://github.com/linuxcaffe/tw-import-export-scripts"
   },
   {
@@ -9922,26 +9922,6 @@
     "rating": 4,
     "updated": "2016-08-14",
     "url": "https://github.com/linuxcaffe/tw-sched-sh"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "a script to install my taskwarrior scripts",
-    "dormant": true,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "tw-script-install-sh",
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 0,
-    "updated": "2016-10-03",
-    "url": "https://github.com/linuxcaffe/tw-script-install-sh"
   },
   {
     "archived": false,
