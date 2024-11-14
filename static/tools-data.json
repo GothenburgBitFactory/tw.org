@@ -1077,7 +1077,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 188,
+    "rating": 189,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1257,7 +1257,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -3495,7 +3495,7 @@
       "TheRiceCold"
     ],
     "rating": 43,
-    "updated": "2024-11-12",
+    "updated": "2024-11-13",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -4757,7 +4757,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 447,
+    "rating": 449,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6177,7 +6177,7 @@
       "dmyna"
     ],
     "rating": 9,
-    "updated": "2024-11-11",
+    "updated": "2024-11-13",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -7556,7 +7556,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 45,
+    "rating": 46,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9019,8 +9019,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1503,
-    "updated": "2024-09-09",
+    "rating": 1504,
+    "updated": "2024-11-13",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -9499,7 +9499,7 @@
     "owner": [
       "languitar"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2018-08-21",
     "url": "https://github.com/languitar/taskwarrior-emails"
   },
@@ -11697,7 +11697,7 @@
     "owner": [
       "niknow"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2016-02-07",
     "url": "https://github.com/niknow/eisenmux"
   },
@@ -14437,7 +14437,7 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
@@ -14617,7 +14617,7 @@
     "owner": [
       "unifiDa"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2018-04-20",
     "url": "https://github.com/unifiDa/eisenTask"
   },
