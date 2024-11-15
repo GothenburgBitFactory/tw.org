@@ -97,7 +97,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2024-06-21",
     "url": "https://github.com/00sapo/TWDensity"
   },
@@ -117,8 +117,8 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 3,
-    "updated": "2024-11-13",
+    "rating": 5,
+    "updated": "2024-11-14",
     "url": "https://github.com/00sapo/taskcheck"
   },
   {
@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 133,
+    "rating": 135,
     "updated": "2024-11-06",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1257,7 +1257,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2024-08-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1637,7 +1637,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 743,
-    "updated": "2024-10-24",
+    "updated": "2024-11-14",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1676,7 +1676,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 59,
+    "rating": 60,
     "updated": "2024-11-09",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2874,7 +2874,7 @@
       "OzwaldFR"
     ],
     "rating": 0,
-    "updated": "2024-11-12",
+    "updated": "2024-11-14",
     "url": "https://github.com/OzwaldFR/Taskwarrior-JP"
   },
   {
@@ -4277,7 +4277,7 @@
     "owner": [
       "allgreed"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-11-02",
     "url": "https://github.com/allgreed/tw-ical-feed"
   },
@@ -4537,7 +4537,7 @@
     "owner": [
       "ataraskov"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-10-03",
     "url": "https://github.com/ataraskov/task-dashboard"
   },
@@ -4718,7 +4718,7 @@
       "benelan"
     ],
     "rating": 0,
-    "updated": "2024-09-16",
+    "updated": "2024-11-14",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -4757,7 +4757,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 449,
+    "rating": 450,
     "updated": "2024-08-19",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6177,7 +6177,7 @@
       "dmyna"
     ],
     "rating": 9,
-    "updated": "2024-11-13",
+    "updated": "2024-11-14",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -6336,7 +6336,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2024-11-05",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -7576,7 +7576,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-09-26",
     "url": "https://github.com/huantrinh1802/taskwarrior_flow"
   },
@@ -9020,7 +9020,7 @@
       "kdheepak"
     ],
     "rating": 1504,
-    "updated": "2024-11-13",
+    "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -9139,7 +9139,7 @@
     "owner": [
       "kelvinauta"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-09-02",
     "url": "https://github.com/kelvinauta/taskwarrior_tasklist"
   },
@@ -9519,7 +9519,7 @@
     "owner": [
       "lebriton"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-10-21",
     "url": "https://github.com/lebriton/taskoverlord"
   },
@@ -14317,7 +14317,7 @@
     "owner": [
       "tom-doerr"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-09-10",
     "url": "https://github.com/tom-doerr/taskwarrior-fzf"
   },
