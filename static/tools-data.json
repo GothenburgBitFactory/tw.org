@@ -964,6 +964,26 @@
     "archived": false,
     "category": [
       "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "Colin-Stark"
+    ],
+    "rating": 0,
+    "updated": "2024-11-16",
+    "url": "https://github.com/Colin-Stark/taskserver"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -1637,7 +1657,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 743,
-    "updated": "2024-11-15",
+    "updated": "2024-11-16",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1657,7 +1677,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 82,
-    "updated": "2024-11-07",
+    "updated": "2024-11-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1677,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 60,
-    "updated": "2024-11-09",
+    "updated": "2024-11-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -6177,7 +6197,7 @@
       "dmyna"
     ],
     "rating": 9,
-    "updated": "2024-11-15",
+    "updated": "2024-11-17",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -8819,7 +8839,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 368,
+    "rating": 369,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9019,7 +9039,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1504,
+    "rating": 1505,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10140,7 +10160,7 @@
       "luiscberrocal"
     ],
     "rating": 0,
-    "updated": "2024-11-15",
+    "updated": "2024-11-16",
     "url": "https://github.com/luiscberrocal/time-master"
   },
   {
