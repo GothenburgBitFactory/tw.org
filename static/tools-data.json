@@ -1656,7 +1656,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 743,
+    "rating": 744,
     "updated": "2024-11-16",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1696,8 +1696,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 60,
-    "updated": "2024-11-16",
+    "rating": 61,
+    "updated": "2024-11-17",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3515,7 +3515,7 @@
       "TheRiceCold"
     ],
     "rating": 43,
-    "updated": "2024-11-15",
+    "updated": "2024-11-17",
     "url": "https://github.com/TheRiceCold/kaizen"
   },
   {
@@ -4777,8 +4777,8 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 450,
-    "updated": "2024-08-19",
+    "rating": 451,
+    "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -6197,7 +6197,7 @@
       "dmyna"
     ],
     "rating": 9,
-    "updated": "2024-11-17",
+    "updated": "2024-11-18",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -9039,7 +9039,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1505,
+    "rating": 1506,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12838,7 +12838,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 89,
+    "rating": 90,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
