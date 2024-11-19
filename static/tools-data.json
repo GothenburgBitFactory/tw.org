@@ -876,8 +876,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 135,
-    "updated": "2024-11-06",
+    "rating": 136,
+    "updated": "2024-11-18",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -9039,7 +9039,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1506,
+    "rating": 1507,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12838,7 +12838,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 90,
+    "rating": 92,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
