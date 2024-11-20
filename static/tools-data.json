@@ -1656,7 +1656,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 744,
+    "rating": 746,
     "updated": "2024-11-16",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1696,8 +1696,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 61,
-    "updated": "2024-11-17",
+    "rating": 63,
+    "updated": "2024-11-19",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3014,7 +3014,7 @@
       "Praczet"
     ],
     "rating": 2,
-    "updated": "2024-08-27",
+    "updated": "2024-11-19",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
   {
@@ -5947,6 +5947,26 @@
       "taskwarrior2",
       "taskwarrior3"
     ],
+    "description": "Soho vibes for Taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "rose-pine-taskwarrior",
+    "owner": [
+      "d2718nis"
+    ],
+    "rating": 0,
+    "updated": "2024-11-19",
+    "url": "https://github.com/d2718nis/rose-pine-taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
     "description": "merely just a script showing the most urgent task and allowing it to be marked done",
     "dormant": false,
     "language": [
@@ -6197,7 +6217,7 @@
       "dmyna"
     ],
     "rating": 9,
-    "updated": "2024-11-18",
+    "updated": "2024-11-19",
     "url": "https://github.com/dmyna/fypm"
   },
   {
@@ -8839,7 +8859,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 369,
+    "rating": 371,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9039,7 +9059,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1507,
+    "rating": 1508,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10160,7 +10180,7 @@
       "luiscberrocal"
     ],
     "rating": 0,
-    "updated": "2024-11-16",
+    "updated": "2024-11-19",
     "url": "https://github.com/luiscberrocal/time-master"
   },
   {
@@ -11737,7 +11757,7 @@
     "owner": [
       "niknow"
     ],
-    "rating": 11,
+    "rating": 10,
     "updated": "2016-02-07",
     "url": "https://github.com/niknow/eisenmux"
   },
@@ -14697,7 +14717,7 @@
     "owner": [
       "unifiDa"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2018-04-20",
     "url": "https://github.com/unifiDa/eisenTask"
   },
@@ -14777,7 +14797,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 493,
+    "rating": 494,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
