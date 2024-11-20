@@ -1,7 +1,7 @@
 "use strict";
 
-let excludeDormant = false;
-let excludeArchived = true;
+let excludeDormant = document.getElementById('exclude-dormant').checked
+let includeArchived = document.getElementById('include-archived').checked;
 let searchTerms = [];
 const taskwarrior2Checkbox = document.getElementById('include-taskwarrior2')
 const taskwarrior3Checkbox = document.getElementById('include-taskwarrior3')
@@ -9,7 +9,6 @@ const taskserverCheckbox = document.getElementById('include-taskserver')
 const excludeDormantCheckbox = document.getElementById('exclude-dormant');
 const includeArchivedCheckbox = document.getElementById('include-archived');
 const searchResultMessage = document.getElementById('search-result-message');
-const SEARCH_WAIT_TIME = 400;
 const CHECKB0X_WAIT_TIME = 200;
 const LOADING_MESSAGE = "Loading...";
 let sortedTools = [];
@@ -33,7 +32,13 @@ fetch('../tools-data.json')
     useCategories = sortedTools[0].category !== undefined;
     if (useCategories) {
       categories = populateCategories(sortedTools)
-      selectedCategories = new Set(categories);
+
+      // filter unchecked categories
+      selectedCategories = new Set(categories.filter((e) =>
+        [taskserverCheckbox, taskwarrior2Checkbox, taskwarrior3Checkbox]
+        .filter((f) => f.checked)
+        .map((f) => f.id.split('-')[1])
+        .includes(e)));
     }
 
     populateToolsKeywords(sortedTools);
@@ -139,7 +144,7 @@ function fillToolsTable(tools, selectedLanguages, selectedOwners) {
           && (selectedOwners.size === 0 || ownerMatch)
           && categoryMatch
           && (!excludeDormant || !tool.dormant)
-          && (!excludeArchived || !tool.archived)
+          && ((includeArchived && tool.archived) || !tool.archived)
           && (searchMatch(searchTerms, tool.keywords))
         ) {
             numMatchingTools++;
@@ -252,10 +257,6 @@ function updateSearchResultMessage(numTools) {
 /** Initialize the form processors. */
 function initFormProcessors() {
   // Form handlers
-  search.addEventListener('keyup', (e) => {
-    searchResultMessage.innerHTML = LOADING_MESSAGE;
-    debouncedHandleSearch(e);
-  });
   excludeDormantCheckbox.addEventListener('click', (e) => {
     searchResultMessage.innerHTML = LOADING_MESSAGE;
     debouncedHandleDormantCheckbox(e);
@@ -296,7 +297,7 @@ function initFormProcessors() {
 
 /** When the archived checkbox is clicked, refill the tools table. */
 function handleArchivedCheckbox() {
-  excludeArchived = !excludeArchived;
+  includeArchived = !includeArchived;
   fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
 }
 const debouncedHandleArchivedCheckbox = debounce((e) => {
@@ -327,14 +328,3 @@ function handleCategoryCheckbox(e) {
 const debouncedHandleCategoryCheckbox = debounce((e) => {
   handleCategoryCheckbox(e);
 }, CHECKB0X_WAIT_TIME);
-
-
-/** On search, refill the tools table. */
-function handleSearch(e) {
-  searchTerms = e.target.value.toLowerCase().trim().split(' ');
-  if (searchTerms.length === 1 && searchTerms[0] === '') searchTerms = [];
-  fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
-}
-const debouncedHandleSearch = debounce((e) => {
-  handleSearch(e);
-}, SEARCH_WAIT_TIME);
