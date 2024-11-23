@@ -28,12 +28,6 @@ There is [full online documentation](../docs/) to help you diagnose problems, or
 
 Help and manual pages are available at the command-line with the following commands: `task help`, `man task`, `man taskrc`, `man task-color`, and `man task-sync`.
 
-## Email
-
-You can ask for help at <support@gothenburgbitfactory.org> or the [User Mailinglist](https://groups.google.com/forum/#!forum/taskwarrior-user).
-We request that you first look around at the [full online documentation](../docs/), to give yourself a chance to answer your own question.
-Remember, there is only a small group of volunteers reading these.
-
 ## Issue Tracking
 
 Use our [issue tracker](https://github.com/GothenburgBitFactory/taskwarrior/issues) on GitHub to see if your problem is reported, fixed, or needs to be reported.
@@ -46,6 +40,6 @@ Want to request a feature or improvement?
 
 Are you a developer?
 You might be looking for other tools, continuous integration reports, or beta downloads.
-Come on over to our workshop at [gothenburgbitfactory.org](https://gothenburgbitfactory.org) or ask questions at the [Developer Mailinglist](https://groups.google.com/forum/#!forum/taskwarrior-dev).
+Come on over to our workshop at [gothenburgbitfactory.org](https://gothenburgbitfactory.org).
 
-Our [source repositories](https://github.com/GothenburgBitFactory) are on Github.
+Our [source repositories](https://github.com/GothenburgBitFactory) are on GitHub.
