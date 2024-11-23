@@ -40,6 +40,6 @@ Want to request a feature or improvement?
 
 Are you a developer?
 You might be looking for other tools, continuous integration reports, or beta downloads.
-Come on over to our workshop at [gothenburgbitfactory.org](https://gothenburgbitfactory.org) or ask questions at the [Developer Mailinglist](https://groups.google.com/forum/#!forum/taskwarrior-dev).
+Come on over to our workshop at [gothenburgbitfactory.org](https://gothenburgbitfactory.org).
 
 Our [source repositories](https://github.com/GothenburgBitFactory) are on GitHub.
