@@ -2713,7 +2713,7 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2024-08-16",
     "url": "https://github.com/MythicalCow/vayu"
   },
@@ -6158,7 +6158,7 @@
       "djotaku"
     ],
     "rating": 2,
-    "updated": "2024-04-20",
+    "updated": "2024-11-23",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
   {
@@ -7576,7 +7576,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9206,8 +9206,7 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
+      "taskwarrior2"
     ],
     "description": "Bi-directional syncing between Taskwarrior and Todoist",
     "dormant": false,
@@ -9822,26 +9821,6 @@
     "rating": 2,
     "updated": "2015-09-05",
     "url": "https://github.com/linuxcaffe/taskdata"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "an archive of the lates version of the taskwarrior 2.6.2 branch",
-    "dormant": false,
-    "language": [
-      "CMake"
-    ],
-    "license": null,
-    "name": "taskwarrior262",
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 0,
-    "updated": "2024-11-22",
-    "url": "https://github.com/linuxcaffe/taskwarrior262"
   },
   {
     "archived": false,
