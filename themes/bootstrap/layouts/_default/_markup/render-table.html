@@ -1,0 +1,37 @@
+{{/*
+Extends the defaul Hugo table rendering
+(https://gohugo.io/render-hooks/tables/#example) to support Bootstrap 5's
+responsive tables by adding a wrapper div with a "table-responsive" class and
+by adding the class "table" to the table element.
+*/}}
+<div class="table-responsive">
+  <table class="table">
+    {{- range $k, $v := .Attributes }}
+      {{- if $v }}
+        {{- printf " %s=%q" $k $v | safeHTMLAttr }}
+      {{- end }}
+    {{- end }}
+    <thead>
+      {{- range .THead }}
+        <tr>
+          {{- range . }}
+            <th {{ printf "style=%q" (printf "text-align: %s" .Alignment) | safeHTMLAttr }}>
+              {{- .Text -}}
+            </th>
+          {{- end }}
+        </tr>
+      {{- end }}
+    </thead>
+    <tbody>
+      {{- range .TBody }}
+        <tr>
+          {{- range . }}
+            <td {{ printf "style=%q" (printf "text-align: %s" .Alignment) | safeHTMLAttr }}>
+              {{- .Text -}}
+            </td>
+          {{- end }}
+        </tr>
+      {{- end }}
+    </tbody>
+  </table>
+</div>
