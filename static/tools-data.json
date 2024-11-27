@@ -117,8 +117,8 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 5,
-    "updated": "2024-11-25",
+    "rating": 6,
+    "updated": "2024-11-26",
     "url": "https://github.com/00sapo/taskcheck"
   },
   {
@@ -1677,7 +1677,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 83,
-    "updated": "2024-11-22",
+    "updated": "2024-11-27",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1697,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 63,
-    "updated": "2024-11-25",
+    "updated": "2024-11-26",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -4278,7 +4278,7 @@
       "allgreed"
     ],
     "rating": 2,
-    "updated": "2024-11-02",
+    "updated": "2024-11-26",
     "url": "https://github.com/allgreed/tw-ical-feed"
   },
   {
@@ -4718,7 +4718,7 @@
       "benelan"
     ],
     "rating": 0,
-    "updated": "2024-11-14",
+    "updated": "2024-11-26",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -13615,7 +13615,7 @@
     "owner": [
       "smemsh"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-11-01",
     "url": "https://github.com/smemsh/taskwtools"
   },
