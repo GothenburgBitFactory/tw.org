@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 137,
+    "rating": 138,
     "updated": "2024-11-21",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1697,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 63,
-    "updated": "2024-11-26",
+    "updated": "2024-11-27",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -9039,7 +9039,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1520,
+    "rating": 1522,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10638,7 +10638,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-11-21",
+    "updated": "2024-11-27",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11567,7 +11567,7 @@
       "taskwarrior2"
     ],
     "description": "Delete overdue, recurring & duplicate taskwarrior tasks",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -13736,7 +13736,7 @@
       "spivi269"
     ],
     "rating": 0,
-    "updated": "2024-11-25",
+    "updated": "2024-11-27",
     "url": "https://github.com/spivi269/waybar-taskwarrior-hook"
   },
   {
@@ -14296,7 +14296,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 531,
+    "rating": 532,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
