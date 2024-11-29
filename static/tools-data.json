@@ -1676,8 +1676,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 83,
-    "updated": "2024-11-27",
+    "rating": 84,
+    "updated": "2024-11-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2533,7 +2533,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -4278,7 +4278,7 @@
       "allgreed"
     ],
     "rating": 2,
-    "updated": "2024-11-26",
+    "updated": "2024-11-28",
     "url": "https://github.com/allgreed/tw-ical-feed"
   },
   {
@@ -4757,7 +4757,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 453,
+    "rating": 454,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7196,7 +7196,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -9039,7 +9039,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1522,
+    "rating": 1524,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13736,7 +13736,7 @@
       "spivi269"
     ],
     "rating": 0,
-    "updated": "2024-11-27",
+    "updated": "2024-11-28",
     "url": "https://github.com/spivi269/waybar-taskwarrior-hook"
   },
   {
@@ -14356,7 +14356,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 74,
+    "rating": 75,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14666,6 +14666,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskServerArjun",
+    "owner": [
+      "ufsgit"
+    ],
+    "rating": 0,
+    "updated": "2024-11-28",
+    "url": "https://github.com/ufsgit/taskServerArjun"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "My taskworrior configuration",
     "dormant": false,
     "language": [
@@ -14761,7 +14781,7 @@
     "url": "https://github.com/unintended-giraffe/AI_Secretary"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskserver",
       "taskwarrior2"
