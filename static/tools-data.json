@@ -1007,6 +1007,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "taskwarrior tooling experiment with go and bubbletea",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "btask",
+    "owner": [
+      "Comradin"
+    ],
+    "rating": 0,
+    "updated": "2024-12-01",
+    "url": "https://github.com/Comradin/btask"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Generate kanban style HTML pages from taskwarrior databases",
     "dormant": false,
     "language": [
@@ -1677,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 84,
-    "updated": "2024-11-30",
+    "updated": "2024-12-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1696,7 +1716,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2024-11-30",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3918,7 +3938,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2024-10-07",
+    "updated": "2024-12-01",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -4278,7 +4298,7 @@
       "allgreed"
     ],
     "rating": 2,
-    "updated": "2024-11-30",
+    "updated": "2024-12-01",
     "url": "https://github.com/allgreed/tw-ical-feed"
   },
   {
@@ -7957,7 +7977,7 @@
       "ivishalgandhi"
     ],
     "rating": 0,
-    "updated": "2024-11-22",
+    "updated": "2024-12-01",
     "url": "https://github.com/ivishalgandhi/taskwarrior-web-ui"
   },
   {
@@ -12837,7 +12857,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 93,
+    "rating": 94,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14596,7 +14616,7 @@
     "owner": [
       "tschaefer"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-10-28",
     "url": "https://github.com/tschaefer/taskwarrior-calendar"
   },
@@ -15280,26 +15300,6 @@
     "rating": 0,
     "updated": "2017-06-09",
     "url": "https://github.com/yunghuffy/champain-taskwarrior_server"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "The name of TaskWarrior is really lame.",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "Taskoto",
-    "owner": [
-      "yyc94"
-    ],
-    "rating": 0,
-    "updated": "2024-11-30",
-    "url": "https://github.com/yyc94/Taskoto"
   },
   {
     "archived": false,
