@@ -3155,7 +3155,7 @@
       "RafaelPalomar"
     ],
     "rating": 0,
-    "updated": "2024-10-07",
+    "updated": "2024-12-04",
     "url": "https://github.com/RafaelPalomar/taskwarrior-portable"
   },
   {
@@ -8060,7 +8060,7 @@
     "url": "https://github.com/j6s/docker-taskwarrior-taskserver"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskserver",
       "taskwarrior2"
@@ -8859,7 +8859,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 372,
+    "rating": 373,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -12857,7 +12857,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 94,
+    "rating": 95,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14107,7 +14107,7 @@
       "taskwarrior2"
     ],
     "description": "A pluggable system for tasklib based TaskWarrior hooks. Faster, less boilerplate code!",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Python"
     ],
@@ -14117,7 +14117,7 @@
       "tbabej"
     ],
     "rating": 46,
-    "updated": "2021-01-28",
+    "updated": "2024-12-05",
     "url": "https://github.com/tbabej/taskpirate"
   },
   {
