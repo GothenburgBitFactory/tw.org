@@ -3737,7 +3737,7 @@
       "Zebradil"
     ],
     "rating": 67,
-    "updated": "2024-11-20",
+    "updated": "2024-12-05",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4737,7 +4737,7 @@
     "owner": [
       "benelan"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-12-02",
     "url": "https://github.com/benelan/dotfiles"
   },
@@ -4777,7 +4777,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 457,
+    "rating": 458,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7596,7 +7596,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 50,
+    "rating": 51,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8859,7 +8859,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 373,
+    "rating": 375,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9059,7 +9059,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1528,
+    "rating": 1529,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
