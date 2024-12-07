@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 140,
+    "rating": 141,
     "updated": "2024-11-21",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1663,8 +1663,8 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
+      "taskwarrior2",
+      "taskwarrior3"
     ],
     "description": "Pull github, bitbucket, and trac issues into taskwarrior",
     "dormant": false,
@@ -4777,7 +4777,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 458,
+    "rating": 459,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7596,7 +7596,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 51,
+    "rating": 52,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8386,7 +8386,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dockerfile"
     ],
