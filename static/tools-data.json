@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 141,
+    "rating": 142,
     "updated": "2024-11-21",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -5298,7 +5298,7 @@
     "owner": [
       "catanadj"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2024-08-03",
     "url": "https://github.com/catanadj/tasksultan"
   },
@@ -9059,7 +9059,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1529,
+    "rating": 1530,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10667,6 +10667,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Point of reference for my personal [taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) productivity flow",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-flow",
+    "owner": [
+      "maxxieb"
+    ],
+    "rating": 0,
+    "updated": "2023-03-21",
+    "url": "https://github.com/maxxieb/taskwarrior-flow"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Calendar tui with taskwarrior integration",
     "dormant": false,
     "language": [
@@ -10680,26 +10700,6 @@
     "rating": 0,
     "updated": "2022-01-24",
     "url": "https://github.com/mbpowers/taskcalrs"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Point of reference for my personal [taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) productivity flow",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "taskwarrior-flow",
-    "owner": [
-      "mbrydak"
-    ],
-    "rating": 0,
-    "updated": "2023-03-21",
-    "url": "https://github.com/mbrydak/taskwarrior-flow"
   },
   {
     "archived": false,
@@ -14856,7 +14856,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 496,
+    "rating": 497,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
