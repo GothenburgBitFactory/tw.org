@@ -1117,7 +1117,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 191,
+    "rating": 192,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1697,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 84,
-    "updated": "2024-12-08",
+    "updated": "2024-12-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1795,7 +1795,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 67,
+    "rating": 68,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3034,7 +3034,7 @@
       "Praczet"
     ],
     "rating": 3,
-    "updated": "2024-11-21",
+    "updated": "2024-12-09",
     "url": "https://github.com/Praczet/little-taskwarrior.nvim"
   },
   {
@@ -3437,26 +3437,6 @@
     "rating": 0,
     "updated": "2023-03-24",
     "url": "https://github.com/SunGodRamen/task-driven-development"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "a template rust project using my local vim and taskwarrior config setup",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "template_rust",
-    "owner": [
-      "SunGodRamen"
-    ],
-    "rating": 0,
-    "updated": "2023-03-24",
-    "url": "https://github.com/SunGodRamen/template_rust"
   },
   {
     "archived": false,
@@ -7187,7 +7167,7 @@
       "taskwarrior3"
     ],
     "description": "This program will export the taskwarrior results into a markdown table.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -8859,7 +8839,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 375,
+    "rating": 377,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9059,7 +9039,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1530,
+    "rating": 1532,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11997,7 +11977,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2023-09-18",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
