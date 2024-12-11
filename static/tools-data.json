@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 141,
+    "rating": 142,
     "updated": "2024-11-21",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -3437,6 +3437,26 @@
     "rating": 0,
     "updated": "2023-03-24",
     "url": "https://github.com/SunGodRamen/task-driven-development"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "a template rust project using my local vim and taskwarrior config setup",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "template_rust",
+    "owner": [
+      "SunGodRamen"
+    ],
+    "rating": 0,
+    "updated": "2023-03-24",
+    "url": "https://github.com/SunGodRamen/template_rust"
   },
   {
     "archived": false,
