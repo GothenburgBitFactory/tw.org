@@ -1697,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 84,
-    "updated": "2024-12-10",
+    "updated": "2024-12-11",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3659,6 +3659,26 @@
     "url": "https://github.com/YR-ZR0/gjallarhorn"
   },
   {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "For now, just some random handmade hooks",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskwarrior",
+    "owner": [
+      "Yarg-mirror"
+    ],
+    "rating": 0,
+    "updated": "2024-12-11",
+    "url": "https://github.com/Yarg-mirror/taskwarrior"
+  },
+  {
     "archived": true,
     "category": [
       "taskserver",
@@ -4937,7 +4957,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 254,
+    "rating": 255,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -10658,7 +10678,7 @@
       "maxjoehnk"
     ],
     "rating": 22,
-    "updated": "2024-12-03",
+    "updated": "2024-12-11",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -12857,7 +12877,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 95,
+    "rating": 96,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -13756,7 +13776,7 @@
       "spivi269"
     ],
     "rating": 0,
-    "updated": "2024-12-08",
+    "updated": "2024-12-11",
     "url": "https://github.com/spivi269/waybar-taskwarrior-hook"
   },
   {
