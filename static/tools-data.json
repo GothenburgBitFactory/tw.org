@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 142,
-    "updated": "2024-11-21",
+    "updated": "2024-12-12",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1716,7 +1716,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 65,
+    "rating": 66,
     "updated": "2024-11-30",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4797,7 +4797,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 460,
+    "rating": 461,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5757,7 +5757,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 290,
+    "rating": 291,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -9079,7 +9079,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1532,
+    "rating": 1533,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12877,7 +12877,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 96,
+    "rating": 97,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
