@@ -1117,7 +1117,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 192,
+    "rating": 191,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1716,8 +1716,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 66,
-    "updated": "2024-11-30",
+    "rating": 67,
+    "updated": "2024-12-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -4797,7 +4797,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 461,
+    "rating": 462,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4957,7 +4957,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 255,
+    "rating": 254,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -6236,7 +6236,7 @@
     "owner": [
       "dmyna"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2024-11-19",
     "url": "https://github.com/dmyna/fypm"
   },
@@ -7239,6 +7239,26 @@
     "rating": 26,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "CSS"
+    ],
+    "license": null,
+    "name": "TaskWarriors",
+    "owner": [
+      "googlebume"
+    ],
+    "rating": 0,
+    "updated": "2024-12-13",
+    "url": "https://github.com/googlebume/TaskWarriors"
   },
   {
     "archived": false,
@@ -8879,7 +8899,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 377,
+    "rating": 378,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9079,7 +9099,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1533,
+    "rating": 1534,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14336,7 +14356,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 532,
+    "rating": 531,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14876,7 +14896,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 497,
+    "rating": 495,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
