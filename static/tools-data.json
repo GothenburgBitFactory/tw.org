@@ -1676,7 +1676,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 747,
+    "rating": 748,
     "updated": "2024-11-16",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1697,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 84,
-    "updated": "2024-12-11",
+    "updated": "2024-12-14",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -7257,7 +7257,7 @@
       "googlebume"
     ],
     "rating": 0,
-    "updated": "2024-12-13",
+    "updated": "2024-12-14",
     "url": "https://github.com/googlebume/TaskWarriors"
   },
   {
@@ -9099,7 +9099,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1534,
+    "rating": 1535,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12577,7 +12577,7 @@
     "owner": [
       "proxypoke"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2018-05-17",
     "url": "https://github.com/proxypoke/git-task"
   },
@@ -14356,7 +14356,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 531,
+    "rating": 532,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14667,7 +14667,7 @@
       "taskwarrior3"
     ],
     "description": "a bridge for taskwarrior inside ubuntu subsystem",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -14896,7 +14896,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 495,
+    "rating": 496,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
