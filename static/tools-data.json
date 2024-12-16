@@ -876,8 +876,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 142,
-    "updated": "2024-12-12",
+    "rating": 143,
+    "updated": "2024-12-15",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1697,7 +1697,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 84,
-    "updated": "2024-12-14",
+    "updated": "2024-12-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1717,7 +1717,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 67,
-    "updated": "2024-12-13",
+    "updated": "2024-12-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -6476,7 +6476,7 @@
     "owner": [
       "echo-bravo-yahoo"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2024-03-11",
     "url": "https://github.com/echo-bravo-yahoo/ego-rock"
   },
@@ -7257,7 +7257,7 @@
       "googlebume"
     ],
     "rating": 0,
-    "updated": "2024-12-14",
+    "updated": "2024-12-15",
     "url": "https://github.com/googlebume/TaskWarriors"
   },
   {
@@ -9099,7 +9099,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1535,
+    "rating": 1538,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
