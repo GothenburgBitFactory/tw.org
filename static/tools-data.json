@@ -78,7 +78,7 @@
       "00dani"
     ],
     "rating": 0,
-    "updated": "2024-05-10",
+    "updated": "2024-12-17",
     "url": "https://github.com/00dani/dot-task"
   },
   {
@@ -577,7 +577,7 @@
     "owner": [
       "AlexanderBrevig"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2021-02-23",
     "url": "https://github.com/AlexanderBrevig/twgcals"
   },
@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 143,
+    "rating": 145,
     "updated": "2024-12-15",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -2017,6 +2017,26 @@
     "rating": 17,
     "updated": "2024-05-28",
     "url": "https://github.com/HiveMinds/tw-install"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "SideBar",
+    "owner": [
+      "HomosekRub"
+    ],
+    "rating": 1,
+    "updated": "2024-11-11",
+    "url": "https://github.com/HomosekRub/SideBar"
   },
   {
     "archived": false,
@@ -3601,26 +3621,6 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "SideBar",
-    "owner": [
-      "WaldLumen"
-    ],
-    "rating": 1,
-    "updated": "2024-11-11",
-    "url": "https://github.com/WaldLumen/SideBar"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -4797,7 +4797,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 464,
+    "rating": 466,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9099,7 +9099,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1538,
+    "rating": 1539,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10518,8 +10518,8 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 11,
-    "updated": "2024-08-27",
+    "rating": 12,
+    "updated": "2024-12-17",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
   {
@@ -12498,7 +12498,7 @@
       "plateena"
     ],
     "rating": 0,
-    "updated": "2024-11-01",
+    "updated": "2024-12-17",
     "url": "https://github.com/plateena/taskwarrior"
   },
   {
