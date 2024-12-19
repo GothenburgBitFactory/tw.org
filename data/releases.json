@@ -1,5 +1,13 @@
 [
   {
+    "version": "3.3.0",
+    "date": "2024-11-12",
+    "name": "task-3.3.0",
+    "tarball": "task-3.3.0.tar.gz",
+    "url": "https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.3.0/task-3.3.0.tar.gz",
+    "sha256": "7fd1e3571f673679758f001b5f44963eee59fd0d2cac887a5807cf2fd90856a1"
+  },
+  {
     "version": "3.2.0",
     "date": "2024-11-12",
     "name": "task-3.2.0",
