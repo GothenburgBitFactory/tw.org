@@ -717,7 +717,7 @@
     "owner": [
       "AnotherKamila"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2019-03-05",
     "url": "https://github.com/AnotherKamila/tasksched"
   },
@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 4,
-    "updated": "2024-12-18",
+    "updated": "2024-12-19",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -896,8 +896,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 146,
-    "updated": "2024-12-15",
+    "rating": 147,
+    "updated": "2024-12-19",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1717,7 +1717,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 85,
-    "updated": "2024-12-18",
+    "updated": "2024-12-19",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3034,7 +3034,7 @@
       "Piitschy"
     ],
     "rating": 1,
-    "updated": "2024-10-16",
+    "updated": "2024-12-19",
     "url": "https://github.com/Piitschy/taskwarrior-tui"
   },
   {
@@ -3694,7 +3694,7 @@
     "owner": [
       "Yarg-mirror"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-12-11",
     "url": "https://github.com/Yarg-mirror/taskwarrior"
   },
@@ -4477,7 +4477,7 @@
     "owner": [
       "andrey-utkin"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2023-06-06",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
@@ -4817,7 +4817,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 466,
+    "rating": 467,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5037,7 +5037,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 79,
+    "rating": 80,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -5878,7 +5878,7 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2024-10-13",
+    "updated": "2024-12-19",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
@@ -6416,7 +6416,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2024-11-29",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -7656,7 +7656,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8037,7 +8037,7 @@
       "ivishalgandhi"
     ],
     "rating": 0,
-    "updated": "2024-12-01",
+    "updated": "2024-12-19",
     "url": "https://github.com/ivishalgandhi/taskwarrior-web-ui"
   },
   {
@@ -9119,7 +9119,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1540,
+    "rating": 1541,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9418,7 +9418,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2019-11-07",
     "url": "https://github.com/kostajh/task-git"
   },
@@ -10717,7 +10717,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2024-12-11",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -10897,7 +10897,7 @@
     "owner": [
       "mikebobroski"
     ],
-    "rating": 48,
+    "rating": 49,
     "updated": "2017-12-22",
     "url": "https://github.com/mikebobroski/tasknote"
   },
@@ -12322,7 +12322,7 @@
     "url": "https://github.com/phepp/todoist-taskwarrior-integration"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskserver",
       "taskwarrior2"
@@ -12338,7 +12338,7 @@
       "philipreinken"
     ],
     "rating": 4,
-    "updated": "2024-04-05",
+    "updated": "2024-12-19",
     "url": "https://github.com/philipreinken/docker-taskd"
   },
   {
@@ -12917,7 +12917,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 97,
+    "rating": 98,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -13915,7 +13915,7 @@
     "owner": [
       "stackedsax"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2016-05-24",
     "url": "https://github.com/stackedsax/taskwarrior_scripts"
   },
@@ -14436,7 +14436,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 75,
+    "rating": 76,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14456,7 +14456,7 @@
     "owner": [
       "tmcw-up-for-adoption"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2012-12-11",
     "url": "https://github.com/tmcw-up-for-adoption/xtw"
   },
@@ -14556,7 +14556,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 846,
+    "rating": 847,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -14916,7 +14916,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 498,
+    "rating": 499,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
