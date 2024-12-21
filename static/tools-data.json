@@ -858,7 +858,7 @@
       "BrianHicks"
     ],
     "rating": 0,
-    "updated": "2024-12-18",
+    "updated": "2024-12-20",
     "url": "https://github.com/BrianHicks/task-sched"
   },
   {
@@ -1736,7 +1736,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2024-12-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -1775,7 +1775,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2024-09-26",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
@@ -3133,7 +3133,7 @@
     "owner": [
       "Procoder16"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-08-24",
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
   },
@@ -4237,7 +4237,7 @@
     "owner": [
       "alepeh"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2020-09-20",
     "url": "https://github.com/alepeh/taskwarrior-apple-reminders"
   },
@@ -4417,7 +4417,7 @@
     "owner": [
       "amracks"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2017-04-10",
     "url": "https://github.com/amracks/tgs"
   },
@@ -4477,7 +4477,7 @@
     "owner": [
       "andrey-utkin"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2023-06-06",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
@@ -4817,7 +4817,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 467,
+    "rating": 468,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5278,7 +5278,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 98,
+    "rating": 99,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -6246,7 +6246,7 @@
     "category": [
       "taskwarrior2"
     ],
-    "description": "Four Years Productivity Manager: A productivity manager for the Four Years Workflow.",
+    "description": "The Dark Souls of productivity.",
     "dormant": false,
     "language": [
       "Rust"
@@ -6256,7 +6256,7 @@
     "owner": [
       "dmyna"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2024-11-19",
     "url": "https://github.com/dmyna/fypm"
   },
@@ -6716,7 +6716,7 @@
     "owner": [
       "erikh"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2021-08-29",
     "url": "https://github.com/erikh/calwarrior"
   },
@@ -8037,7 +8037,7 @@
       "ivishalgandhi"
     ],
     "rating": 0,
-    "updated": "2024-12-19",
+    "updated": "2024-12-20",
     "url": "https://github.com/ivishalgandhi/taskwarrior-web-ui"
   },
   {
@@ -8115,7 +8115,7 @@
     "owner": [
       "j6s"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2022-04-09",
     "url": "https://github.com/j6s/docker-taskwarrior-taskserver"
   },
@@ -8235,7 +8235,7 @@
     "owner": [
       "jbarratt"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2012-09-06",
     "url": "https://github.com/jbarratt/AlfredTaskwarrior"
   },
@@ -10538,7 +10538,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 17,
+    "rating": 19,
     "updated": "2024-12-17",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -11296,7 +11296,7 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2022-02-22",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
@@ -11336,7 +11336,7 @@
     "owner": [
       "mrschyte"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2021-08-25",
     "url": "https://github.com/mrschyte/taskwarrior-hooks"
   },
@@ -14716,7 +14716,7 @@
     "owner": [
       "tzok"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2012-04-19",
     "url": "https://github.com/tzok/taskattach"
   },
@@ -15195,7 +15195,7 @@
     "owner": [
       "yanick"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2018-10-11",
     "url": "https://github.com/yanick/nvim-taskwarrior"
   },
