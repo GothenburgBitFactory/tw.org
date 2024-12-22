@@ -3978,7 +3978,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2024-12-01",
+    "updated": "2024-12-21",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -5338,7 +5338,7 @@
     "owner": [
       "catanadj"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2024-08-03",
     "url": "https://github.com/catanadj/tasksultan"
   },
@@ -5504,8 +5504,7 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
+      "taskwarrior2"
     ],
     "description": "TaskKhalReschedulWarrior",
     "dormant": false,
@@ -6240,25 +6239,6 @@
     "rating": 0,
     "updated": "2024-09-30",
     "url": "https://github.com/dltompki/taskwarrior-web-server"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2"
-    ],
-    "description": "The Dark Souls of productivity.",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "fypm",
-    "owner": [
-      "dmyna"
-    ],
-    "rating": 11,
-    "updated": "2024-11-19",
-    "url": "https://github.com/dmyna/fypm"
   },
   {
     "archived": false,
@@ -10718,7 +10698,7 @@
       "maxjoehnk"
     ],
     "rating": 24,
-    "updated": "2024-12-11",
+    "updated": "2024-12-21",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -12940,6 +12920,25 @@
     "rating": 0,
     "updated": "2021-08-19",
     "url": "https://github.com/richnetdesign/todoist-taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2"
+    ],
+    "description": "The Dark Souls of productivity.",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "fypm",
+    "owner": [
+      "rikagaku"
+    ],
+    "rating": 11,
+    "updated": "2024-12-21",
+    "url": "https://github.com/rikagaku/fypm"
   },
   {
     "archived": false,
