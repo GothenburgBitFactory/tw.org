@@ -896,7 +896,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 147,
+    "rating": 148,
     "updated": "2024-12-19",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1716,8 +1716,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 85,
-    "updated": "2024-12-19",
+    "rating": 86,
+    "updated": "2024-12-22",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1736,7 +1736,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 69,
+    "rating": 70,
     "updated": "2024-12-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4817,7 +4817,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 468,
+    "rating": 469,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7636,7 +7636,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8899,7 +8899,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 378,
+    "rating": 379,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -8959,7 +8959,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2023-07-16",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
@@ -9859,7 +9859,7 @@
       "linuxcaffe"
     ],
     "rating": 5,
-    "updated": "2022-09-03",
+    "updated": "2024-12-23",
     "url": "https://github.com/linuxcaffe/task-timelog-hook"
   },
   {
@@ -10519,7 +10519,7 @@
       "marriagav"
     ],
     "rating": 19,
-    "updated": "2024-12-17",
+    "updated": "2024-12-22",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
   {
@@ -10698,7 +10698,7 @@
       "maxjoehnk"
     ],
     "rating": 24,
-    "updated": "2024-12-21",
+    "updated": "2024-12-22",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13295,7 +13295,7 @@
     "owner": [
       "scottyob"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-07-05",
     "url": "https://github.com/scottyob/taskwarrior-better-recur"
   },
