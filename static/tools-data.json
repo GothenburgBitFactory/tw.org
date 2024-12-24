@@ -896,7 +896,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 148,
+    "rating": 149,
     "updated": "2024-12-19",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1137,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 191,
+    "rating": 192,
     "updated": "2024-07-05",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1736,7 +1736,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 70,
+    "rating": 71,
     "updated": "2024-12-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4977,7 +4977,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 254,
+    "rating": 255,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -6146,6 +6146,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A GUI for TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Astro"
+    ],
+    "license": null,
+    "name": "taskninja",
+    "owner": [
+      "devbydaniel"
+    ],
+    "rating": 0,
+    "updated": "2024-12-23",
+    "url": "https://github.com/devbydaniel/taskninja"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "An opinionated web interface for taskwarrior",
     "dormant": false,
     "language": [
@@ -7137,7 +7157,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-10-19",
+    "updated": "2024-12-23",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9099,7 +9119,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1541,
+    "rating": 1542,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11386,6 +11406,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A taskwarrior client for extracting data in different formats, initially markdown",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "tasks",
+    "owner": [
+      "msoulier"
+    ],
+    "rating": 0,
+    "updated": "2024-12-23",
+    "url": "https://github.com/msoulier/tasks"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Web app to provide access to taskwarrior tasks",
     "dormant": false,
     "language": [
@@ -12897,7 +12937,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 98,
+    "rating": 99,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -13195,7 +13235,7 @@
     "owner": [
       "samxsmith"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2022-02-17",
     "url": "https://github.com/samxsmith/taskwarrior-pomodoro"
   },
@@ -14375,7 +14415,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 532,
+    "rating": 533,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14555,7 +14595,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 847,
+    "rating": 848,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -14955,7 +14995,7 @@
     "owner": [
       "voidcase"
     ],
-    "rating": 4,
+    "rating": 3,
     "updated": "2020-06-26",
     "url": "https://github.com/voidcase/taskseq"
   },
@@ -15095,7 +15135,7 @@
       "xingheng"
     ],
     "rating": 17,
-    "updated": "2024-10-17",
+    "updated": "2024-12-23",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
   {
