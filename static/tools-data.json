@@ -896,8 +896,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 149,
-    "updated": "2024-12-24",
+    "rating": 151,
+    "updated": "2024-12-26",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1696,7 +1696,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 748,
+    "rating": 749,
     "updated": "2024-11-16",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3987,6 +3987,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Resolve conflicts from syncing taskwarrior (taskchampion.sqlite3) databases with syncthing",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "Apache License 2.0",
+    "name": "syncthing-task-resolve",
+    "owner": [
+      "adam-gaia"
+    ],
+    "rating": 0,
+    "updated": "2024-12-27",
+    "url": "https://github.com/adam-gaia/syncthing-task-resolve"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": null,
     "dormant": false,
     "language": [
@@ -4837,7 +4857,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 470,
+    "rating": 471,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6437,7 +6457,7 @@
       "duckdm"
     ],
     "rating": 22,
-    "updated": "2024-11-29",
+    "updated": "2024-12-26",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -7836,7 +7856,7 @@
     "owner": [
       "ifben"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2023-02-16",
     "url": "https://github.com/ifben/task2ntfy"
   },
@@ -9139,7 +9159,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1543,
+    "rating": 1544,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14615,7 +14635,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 850,
+    "rating": 851,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -14958,6 +14978,26 @@
     "rating": 11,
     "updated": "2016-01-25",
     "url": "https://github.com/venturecommunism/meteor-taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "vijaypembi"
+    ],
+    "rating": 0,
+    "updated": "2024-12-26",
+    "url": "https://github.com/vijaypembi/taskserver"
   },
   {
     "archived": false,
