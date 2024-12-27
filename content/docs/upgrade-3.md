@@ -9,7 +9,7 @@ However, the way tasks are stored and synchronized has been completely rewritten
 To upgrade, you will need to import your task data into Taskwarrior 3.
 Read on for details.
 
-## Upgading Your Tasks
+## Upgrading Your Tasks
 
 Install Taskwarrior 3, then import your tasks.
 Taskwarrior hooks run during import, so disable them during this invocation with `rc.hooks=0`:
