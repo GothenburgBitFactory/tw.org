@@ -896,8 +896,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 151,
-    "updated": "2024-12-26",
+    "rating": 152,
+    "updated": "2024-12-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -3195,7 +3195,7 @@
       "RafaelPalomar"
     ],
     "rating": 0,
-    "updated": "2024-12-04",
+    "updated": "2024-12-27",
     "url": "https://github.com/RafaelPalomar/taskwarrior-portable"
   },
   {
@@ -9159,7 +9159,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1544,
+    "rating": 1545,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9658,7 +9658,7 @@
     "owner": [
       "lebriton"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-10-21",
     "url": "https://github.com/lebriton/taskoverlord"
   },
@@ -10758,7 +10758,7 @@
       "maxjoehnk"
     ],
     "rating": 24,
-    "updated": "2024-12-22",
+    "updated": "2024-12-27",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -12977,7 +12977,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 99,
+    "rating": 100,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14635,7 +14635,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 851,
+    "rating": 852,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
