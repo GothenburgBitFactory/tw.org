@@ -1327,6 +1327,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "waybar-taskwarrior.rs",
+    "owner": [
+      "DestinyofYeet"
+    ],
+    "rating": 0,
+    "updated": "2024-12-28",
+    "url": "https://github.com/DestinyofYeet/waybar-taskwarrior.rs"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "A taskServer which is I created on january 2024",
     "dormant": false,
     "language": [
@@ -1697,7 +1717,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 749,
-    "updated": "2024-11-16",
+    "updated": "2024-12-28",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -4977,7 +4997,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-04-18",
     "url": "https://github.com/bergercookie/voice_to_taskwarrior"
   },
@@ -7197,7 +7217,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-12-24",
+    "updated": "2024-12-28",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -11000,6 +11020,26 @@
     "rating": 0,
     "updated": "2022-02-13",
     "url": "https://github.com/mmattocks/AjrJihadi"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A tool to synchronize your TaskWarrior task list into a file in an Obsidian vault.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "obsidian-taskwarrior-bridge",
+    "owner": [
+      "mmmucky"
+    ],
+    "rating": 0,
+    "updated": "2024-12-28",
+    "url": "https://github.com/mmmucky/obsidian-taskwarrior-bridge"
   },
   {
     "archived": false,
