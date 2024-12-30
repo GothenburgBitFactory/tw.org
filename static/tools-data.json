@@ -1338,7 +1338,7 @@
       "DestinyofYeet"
     ],
     "rating": 0,
-    "updated": "2024-12-28",
+    "updated": "2024-12-29",
     "url": "https://github.com/DestinyofYeet/waybar-taskwarrior.rs"
   },
   {
@@ -1736,7 +1736,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 87,
+    "rating": 88,
     "updated": "2024-12-25",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -3215,7 +3215,7 @@
       "RafaelPalomar"
     ],
     "rating": 0,
-    "updated": "2024-12-27",
+    "updated": "2024-12-30",
     "url": "https://github.com/RafaelPalomar/taskwarrior-portable"
   },
   {
@@ -7716,7 +7716,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9179,7 +9179,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1545,
+    "rating": 1547,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11030,7 +11030,7 @@
     "description": "A tool to synchronize your TaskWarrior task list into a file in an Obsidian vault.",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "GNU General Public License v3.0",
     "name": "obsidian-taskwarrior-bridge",
@@ -11038,7 +11038,7 @@
       "mmmucky"
     ],
     "rating": 0,
-    "updated": "2024-12-28",
+    "updated": "2024-12-29",
     "url": "https://github.com/mmmucky/obsidian-taskwarrior-bridge"
   },
   {
