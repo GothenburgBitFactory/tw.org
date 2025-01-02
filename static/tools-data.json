@@ -1716,7 +1716,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 748,
+    "rating": 749,
     "updated": "2024-12-28",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1736,8 +1736,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 90,
-    "updated": "2024-12-30",
+    "rating": 91,
+    "updated": "2025-01-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3817,7 +3817,7 @@
       "Zebradil"
     ],
     "rating": 67,
-    "updated": "2024-12-05",
+    "updated": "2025-01-01",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -5338,7 +5338,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 99,
+    "rating": 100,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -6476,7 +6476,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2024-12-26",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -9179,7 +9179,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1549,
+    "rating": 1550,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9661,26 +9661,6 @@
     "rating": 9,
     "updated": "2018-08-21",
     "url": "https://github.com/languitar/taskwarrior-emails"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "TaskOverlord - Modern desktop client for Taskwarrior.",
-    "dormant": false,
-    "language": [
-      "TypeScript"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskoverlord",
-    "owner": [
-      "lebriton"
-    ],
-    "rating": 3,
-    "updated": "2024-10-21",
-    "url": "https://github.com/lebriton/taskoverlord"
   },
   {
     "archived": false,
@@ -12097,7 +12077,7 @@
     "owner": [
       "nojhan"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2024-10-14",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
@@ -13056,7 +13036,7 @@
     "owner": [
       "rikagaku"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2024-12-21",
     "url": "https://github.com/rikagaku/fypm"
   },
@@ -15055,7 +15035,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 499,
+    "rating": 501,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
