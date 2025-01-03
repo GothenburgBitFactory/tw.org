@@ -858,7 +858,7 @@
       "BrianHicks"
     ],
     "rating": 0,
-    "updated": "2024-12-20",
+    "updated": "2025-01-02",
     "url": "https://github.com/BrianHicks/task-sched"
   },
   {
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 73,
-    "updated": "2024-12-16",
+    "updated": "2025-01-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -6296,7 +6296,7 @@
     "owner": [
       "djotaku"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-11-23",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
@@ -9179,7 +9179,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1550,
+    "rating": 1551,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10578,8 +10578,8 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 20,
-    "updated": "2024-12-22",
+    "rating": 21,
+    "updated": "2025-01-02",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
   {
@@ -13160,26 +13160,6 @@
     "url": "https://github.com/roylez/alfred_taskwarrior"
   },
   {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Sync toodledo with taskwarrior",
-    "dormant": true,
-    "language": [
-      "Ruby"
-    ],
-    "license": null,
-    "name": "syncwarrior",
-    "owner": [
-      "roylez"
-    ],
-    "rating": 1,
-    "updated": "2013-06-19",
-    "url": "https://github.com/roylez/syncwarrior"
-  },
-  {
     "archived": true,
     "category": [
       "taskserver",
@@ -14615,7 +14595,7 @@
     "owner": [
       "tom-doerr"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-09-10",
     "url": "https://github.com/tom-doerr/taskwarrior-fzf"
   },
