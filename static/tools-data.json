@@ -858,7 +858,7 @@
       "BrianHicks"
     ],
     "rating": 0,
-    "updated": "2025-01-02",
+    "updated": "2025-01-03",
     "url": "https://github.com/BrianHicks/task-sched"
   },
   {
@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 4,
-    "updated": "2024-12-19",
+    "updated": "2025-01-03",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1317,7 +1317,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2024-12-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1737,7 +1737,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 91,
-    "updated": "2025-01-02",
+    "updated": "2025-01-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 73,
-    "updated": "2025-01-02",
+    "updated": "2025-01-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -4877,7 +4877,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 471,
+    "rating": 473,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6296,7 +6296,7 @@
     "owner": [
       "djotaku"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2024-11-23",
     "url": "https://github.com/djotaku/taskwarrior_web"
   },
@@ -9179,7 +9179,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1551,
+    "rating": 1552,
     "updated": "2024-11-14",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12707,26 +12707,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "This is a fork of https://bitbucket.org/kvorobyev/taskwarriorandroid",
-    "dormant": true,
-    "language": [
-      "C++"
-    ],
-    "license": "MIT License",
-    "name": "taskwarriorandroid",
-    "owner": [
-      "ptrcmd"
-    ],
-    "rating": 0,
-    "updated": "2019-08-18",
-    "url": "https://github.com/ptrcmd/taskwarriorandroid"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Taskwarrior sync server.",
     "dormant": false,
     "language": [
@@ -12997,7 +12977,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 100,
+    "rating": 99,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -13158,6 +13138,26 @@
     "rating": 16,
     "updated": "2016-03-30",
     "url": "https://github.com/roylez/alfred_taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Sync toodledo with taskwarrior",
+    "dormant": true,
+    "language": [
+      "Ruby"
+    ],
+    "license": null,
+    "name": "syncwarrior",
+    "owner": [
+      "roylez"
+    ],
+    "rating": 1,
+    "updated": "2013-06-19",
+    "url": "https://github.com/roylez/syncwarrior"
   },
   {
     "archived": true,
@@ -14515,7 +14515,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 76,
+    "rating": 77,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
