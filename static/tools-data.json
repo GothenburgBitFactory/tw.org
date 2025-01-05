@@ -1137,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 193,
+    "rating": 194,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1737,7 +1737,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 91,
-    "updated": "2025-01-03",
+    "updated": "2025-01-04",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1756,7 +1756,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2025-01-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4838,7 +4838,7 @@
       "benelan"
     ],
     "rating": 2,
-    "updated": "2024-12-25",
+    "updated": "2025-01-04",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -6476,7 +6476,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2024-12-26",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -9179,8 +9179,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1552,
-    "updated": "2024-11-14",
+    "rating": 1553,
+    "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
