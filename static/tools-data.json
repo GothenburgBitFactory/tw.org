@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2025-01-03",
     "url": "https://github.com/CCExtractor/ccsync"
   },
@@ -1736,7 +1736,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 91,
+    "rating": 92,
     "updated": "2025-01-04",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -1835,7 +1835,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -7217,7 +7217,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2024-12-28",
+    "updated": "2025-01-05",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7776,7 +7776,7 @@
     "owner": [
       "humblehacker"
     ],
-    "rating": 61,
+    "rating": 62,
     "updated": "2014-05-15",
     "url": "https://github.com/humblehacker/taskwarrior-ios"
   },
@@ -8016,7 +8016,7 @@
     "owner": [
       "isaacs4m"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-01-28",
     "url": "https://github.com/isaacs4m/taskwarrior-purge"
   },
@@ -9179,7 +9179,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1553,
+    "rating": 1555,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
