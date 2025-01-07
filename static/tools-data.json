@@ -117,7 +117,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2024-12-03",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -237,7 +237,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 67,
+    "rating": 68,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -858,7 +858,7 @@
       "BrianHicks"
     ],
     "rating": 0,
-    "updated": "2025-01-03",
+    "updated": "2025-01-06",
     "url": "https://github.com/BrianHicks/task-sched"
   },
   {
@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 5,
-    "updated": "2025-01-03",
+    "updated": "2025-01-06",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1737,7 +1737,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 92,
-    "updated": "2025-01-04",
+    "updated": "2025-01-06",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2793,7 +2793,7 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2024-08-16",
     "url": "https://github.com/MythicalCow/vayu"
   },
@@ -3816,7 +3816,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 67,
+    "rating": 68,
     "updated": "2025-01-01",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -4420,6 +4420,26 @@
     "rating": 0,
     "updated": "2021-06-14",
     "url": "https://github.com/almostnobody/task2org"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "merely just a script showing the most urgent task and allowing it to be marked done",
+    "dormant": true,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskwarrior-polybar",
+    "owner": [
+      "alo0oz"
+    ],
+    "rating": 0,
+    "updated": "2017-06-12",
+    "url": "https://github.com/alo0oz/taskwarrior-polybar"
   },
   {
     "archived": true,
@@ -5616,7 +5636,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 141,
+    "rating": 142,
     "updated": "2024-09-24",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -6063,26 +6083,6 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "merely just a script showing the most urgent task and allowing it to be marked done",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "taskwarrior-polybar",
-    "owner": [
-      "dakuten"
-    ],
-    "rating": 28,
-    "updated": "2022-04-14",
-    "url": "https://github.com/dakuten/taskwarrior-polybar"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -6519,26 +6519,6 @@
     "rating": 7,
     "updated": "2021-03-14",
     "url": "https://github.com/dylandoamaral/taskwarrior-sky-fedora"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Hook of Taskwarrior on start/stop task for run recurring timer of notify",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "taskwarrior-hook-notify",
-    "owner": [
-      "ealdoshkin"
-    ],
-    "rating": 0,
-    "updated": "2024-02-12",
-    "url": "https://github.com/ealdoshkin/taskwarrior-hook-notify"
   },
   {
     "archived": false,
@@ -9179,7 +9159,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1555,
+    "rating": 1558,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11159,6 +11139,26 @@
     "rating": 0,
     "updated": "2021-04-06",
     "url": "https://github.com/monkeyxite/obsidian-taskwarsync-plugin"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskwarrior-data",
+    "owner": [
+      "mountwebs"
+    ],
+    "rating": 0,
+    "updated": "2025-01-06",
+    "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
     "archived": false,
@@ -14595,7 +14595,7 @@
     "owner": [
       "tom-doerr"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2024-09-10",
     "url": "https://github.com/tom-doerr/taskwarrior-fzf"
   },
