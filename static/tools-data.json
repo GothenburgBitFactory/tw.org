@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 6,
-    "updated": "2025-01-07",
+    "updated": "2025-01-08",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1737,7 +1737,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 93,
-    "updated": "2025-01-07",
+    "updated": "2025-01-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3817,7 +3817,7 @@
       "Zebradil"
     ],
     "rating": 68,
-    "updated": "2025-01-01",
+    "updated": "2025-01-08",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -7197,7 +7197,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-01-07",
+    "updated": "2025-01-08",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7312,13 +7312,13 @@
       "CSS"
     ],
     "license": null,
-    "name": "TaskWarriors",
+    "name": "TaskWarriors-hackathon",
     "owner": [
       "googlebume"
     ],
     "rating": 0,
     "updated": "2024-12-15",
-    "url": "https://github.com/googlebume/TaskWarriors"
+    "url": "https://github.com/googlebume/TaskWarriors-hackathon"
   },
   {
     "archived": false,
@@ -9159,7 +9159,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1560,
+    "rating": 1561,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10558,7 +10558,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2025-01-02",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -10737,7 +10737,7 @@
       "maxjoehnk"
     ],
     "rating": 24,
-    "updated": "2024-12-27",
+    "updated": "2025-01-08",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11156,7 +11156,7 @@
       "mountwebs"
     ],
     "rating": 0,
-    "updated": "2025-01-07",
+    "updated": "2025-01-08",
     "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
@@ -13055,7 +13055,7 @@
       "rmonico"
     ],
     "rating": 0,
-    "updated": "2024-10-08",
+    "updated": "2025-01-08",
     "url": "https://github.com/rmonico/taskwarrior-reminder"
   },
   {
@@ -14274,7 +14274,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2024-12-05",
     "url": "https://github.com/tbabej/taskpirate"
   },
