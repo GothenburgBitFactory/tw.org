@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 6,
-    "updated": "2025-01-08",
+    "updated": "2025-01-09",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -896,7 +896,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 155,
+    "rating": 156,
     "updated": "2024-12-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -6477,7 +6477,7 @@
       "duckdm"
     ],
     "rating": 24,
-    "updated": "2024-12-26",
+    "updated": "2025-01-09",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -6776,7 +6776,7 @@
     "owner": [
       "eug-vs"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-06-14",
     "url": "https://github.com/eug-vs/nextwarrior"
   },
@@ -11156,7 +11156,7 @@
       "mountwebs"
     ],
     "rating": 0,
-    "updated": "2025-01-08",
+    "updated": "2025-01-09",
     "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
