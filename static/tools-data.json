@@ -858,7 +858,7 @@
       "BrianHicks"
     ],
     "rating": 0,
-    "updated": "2025-01-07",
+    "updated": "2025-01-10",
     "url": "https://github.com/BrianHicks/task-sched"
   },
   {
@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 6,
-    "updated": "2025-01-09",
+    "updated": "2025-01-10",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1756,7 +1756,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 74,
+    "rating": 75,
     "updated": "2025-01-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -1835,7 +1835,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 69,
+    "rating": 70,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -5177,7 +5177,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 519,
+    "rating": 520,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5477,7 +5477,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 52,
+    "rating": 53,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -6476,7 +6476,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2025-01-09",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -7197,7 +7197,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-01-08",
+    "updated": "2025-01-10",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9019,7 +9019,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2023-07-16",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
@@ -11156,7 +11156,7 @@
       "mountwebs"
     ],
     "rating": 0,
-    "updated": "2025-01-09",
+    "updated": "2025-01-10",
     "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
@@ -15034,7 +15034,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 501,
+    "rating": 502,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
