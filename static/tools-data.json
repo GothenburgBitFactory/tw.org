@@ -897,7 +897,7 @@
       "CCExtractor"
     ],
     "rating": 156,
-    "updated": "2024-12-27",
+    "updated": "2025-01-11",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1737,7 +1737,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 93,
-    "updated": "2025-01-08",
+    "updated": "2025-01-11",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -4897,7 +4897,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 473,
+    "rating": 474,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -4997,7 +4997,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2023-01-22",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
@@ -5117,7 +5117,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 80,
+    "rating": 81,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -7197,7 +7197,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-01-10",
+    "updated": "2025-01-11",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7696,7 +7696,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 56,
+    "rating": 57,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -11156,7 +11156,7 @@
       "mountwebs"
     ],
     "rating": 0,
-    "updated": "2025-01-10",
+    "updated": "2025-01-11",
     "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
@@ -11395,7 +11395,7 @@
     "owner": [
       "mrschyte"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2021-08-25",
     "url": "https://github.com/mrschyte/taskwarrior-hooks"
   },
@@ -11476,7 +11476,7 @@
       "msoulier"
     ],
     "rating": 0,
-    "updated": "2024-12-23",
+    "updated": "2025-01-11",
     "url": "https://github.com/msoulier/tasks"
   },
   {
@@ -12076,7 +12076,7 @@
     "owner": [
       "nojhan"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2024-10-14",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
@@ -13015,7 +13015,7 @@
     "owner": [
       "rikagaku"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2025-01-07",
     "url": "https://github.com/rikagaku/fypm"
   },
@@ -13034,7 +13034,7 @@
     "owner": [
       "rmonico"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2024-09-25",
     "url": "https://github.com/rmonico/itask"
   },
@@ -14534,7 +14534,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 77,
+    "rating": 78,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14654,7 +14654,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 853,
+    "rating": 854,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15486,7 +15486,7 @@
       "taskwarrior2"
     ],
     "description": "a small cli to keep track of my current and next task with taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
