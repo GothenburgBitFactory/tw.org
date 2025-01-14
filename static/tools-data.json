@@ -1137,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 194,
+    "rating": 195,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1737,7 +1737,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 93,
-    "updated": "2025-01-11",
+    "updated": "2025-01-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 76,
-    "updated": "2025-01-03",
+    "updated": "2025-01-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -7086,6 +7086,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Edit a note per project in Taskwarrior",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "task-project-note",
+    "owner": [
+      "fromheten"
+    ],
+    "rating": 0,
+    "updated": "2025-01-13",
+    "url": "https://github.com/fromheten/task-project-note"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": null,
     "dormant": true,
     "language": [
@@ -7696,7 +7716,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 57,
+    "rating": 58,
     "updated": "2024-10-02",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9159,7 +9179,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1562,
+    "rating": 1563,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11476,7 +11496,7 @@
       "msoulier"
     ],
     "rating": 0,
-    "updated": "2025-01-11",
+    "updated": "2025-01-13",
     "url": "https://github.com/msoulier/tasks"
   },
   {
@@ -12976,7 +12996,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 99,
+    "rating": 100,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14474,7 +14494,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 533,
+    "rating": 534,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14534,7 +14554,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 78,
+    "rating": 79,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15034,7 +15054,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 502,
+    "rating": 503,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
