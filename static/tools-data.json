@@ -1737,7 +1737,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 93,
-    "updated": "2025-01-13",
+    "updated": "2025-01-14",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1756,8 +1756,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 76,
-    "updated": "2025-01-13",
+    "rating": 78,
+    "updated": "2025-01-14",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3401,6 +3401,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Small and simple task manager widget for obsidian and powered by taskwarrior.",
+    "dormant": false,
+    "language": [
+      "Svelte"
+    ],
+    "license": "MIT License",
+    "name": "obsidian-tw-task-wiki",
+    "owner": [
+      "SntTGR"
+    ],
+    "rating": 11,
+    "updated": "2024-12-01",
+    "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -4897,7 +4917,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 474,
+    "rating": 476,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8979,7 +8999,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 380,
+    "rating": 381,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9179,7 +9199,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1563,
+    "rating": 1564,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11176,7 +11196,7 @@
       "mountwebs"
     ],
     "rating": 0,
-    "updated": "2025-01-11",
+    "updated": "2025-01-14",
     "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
@@ -13019,25 +13039,6 @@
     "rating": 0,
     "updated": "2021-08-19",
     "url": "https://github.com/richnetdesign/todoist-taskwarrior"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2"
-    ],
-    "description": "The Dark Souls of productivity.",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": "MIT License",
-    "name": "fypm",
-    "owner": [
-      "rikagaku"
-    ],
-    "rating": 13,
-    "updated": "2025-01-07",
-    "url": "https://github.com/rikagaku/fypm"
   },
   {
     "archived": false,
