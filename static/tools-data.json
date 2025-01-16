@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 6,
-    "updated": "2025-01-10",
+    "updated": "2025-01-15",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1736,8 +1736,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 93,
-    "updated": "2025-01-14",
+    "rating": 94,
+    "updated": "2025-01-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1756,7 +1756,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 78,
+    "rating": 77,
     "updated": "2025-01-14",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2105,7 +2105,7 @@
       "taskwarrior2"
     ],
     "description": "PyQt GUI for TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -6497,7 +6497,7 @@
       "duckdm"
     ],
     "rating": 25,
-    "updated": "2025-01-09",
+    "updated": "2025-01-15",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -8999,7 +8999,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 381,
+    "rating": 382,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
