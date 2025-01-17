@@ -858,7 +858,7 @@
       "BrianHicks"
     ],
     "rating": 0,
-    "updated": "2025-01-10",
+    "updated": "2025-01-16",
     "url": "https://github.com/BrianHicks/task-sched"
   },
   {
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 77,
-    "updated": "2025-01-14",
+    "updated": "2025-01-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -1835,7 +1835,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 70,
+    "rating": 71,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -4917,7 +4917,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 476,
+    "rating": 477,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9030,7 +9030,7 @@
       "taskwarrior2"
     ],
     "description": "GUI for visualizing completed Taskwarrior tasks.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Java"
     ],
@@ -9199,7 +9199,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1564,
+    "rating": 1565,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11196,7 +11196,7 @@
       "mountwebs"
     ],
     "rating": 0,
-    "updated": "2025-01-14",
+    "updated": "2025-01-16",
     "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
