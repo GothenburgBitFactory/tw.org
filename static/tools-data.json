@@ -966,6 +966,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Neovim plugin to interact and integrate taskwarrior within neovim",
+    "dormant": false,
+    "language": [
+      "Lua"
+    ],
+    "license": "MIT License",
+    "name": "taskforge.nvim",
+    "owner": [
+      "ChrisGVE"
+    ],
+    "rating": 0,
+    "updated": "2025-01-17",
+    "url": "https://github.com/ChrisGVE/taskforge.nvim"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Scripts to help me synchronise JIRA and taskwarrior",
     "dormant": false,
     "language": [
@@ -1137,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 195,
+    "rating": 196,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1736,7 +1756,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 94,
+    "rating": 95,
     "updated": "2025-01-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -5439,7 +5459,7 @@
       "catanadj"
     ],
     "rating": 8,
-    "updated": "2024-08-03",
+    "updated": "2025-01-17",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -6496,7 +6516,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2025-01-15",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -7237,7 +7257,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-01-11",
+    "updated": "2025-01-17",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9079,7 +9099,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -9928,26 +9948,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A Taskwarrior hook that logs task start/stop times to a file that (h)ledger can read",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "task-timelog-hook",
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 5,
-    "updated": "2024-12-23",
-    "url": "https://github.com/linuxcaffe/task-timelog-hook"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "a taskwarrior utility program to directly manipulate task *.data files",
     "dormant": true,
     "language": [
@@ -10001,26 +10001,6 @@
     "rating": 6,
     "updated": "2021-08-04",
     "url": "https://github.com/linuxcaffe/tw-ann-hook"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "(placeholder for) a script to help \"fix\" taskwarrior duplicate uuids",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "tw-fix-sh",
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 0,
-    "updated": "2016-12-06",
-    "url": "https://github.com/linuxcaffe/tw-fix-sh"
   },
   {
     "archived": false,
@@ -10114,13 +10094,33 @@
       "N/A"
     ],
     "license": null,
-    "name": "tw-themes-config",
+    "name": "tw-themes",
     "owner": [
       "linuxcaffe"
     ],
     "rating": 1,
     "updated": "2021-11-02",
-    "url": "https://github.com/linuxcaffe/tw-themes-config"
+    "url": "https://github.com/linuxcaffe/tw-themes"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A Taskwarrior hook that logs task start/stop times to a file that (h)ledger can read",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "tw-timelog-hook",
+    "owner": [
+      "linuxcaffe"
+    ],
+    "rating": 5,
+    "updated": "2024-12-23",
+    "url": "https://github.com/linuxcaffe/tw-timelog-hook"
   },
   {
     "archived": false,
@@ -10188,19 +10188,19 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "taskwarrior \"wizard\" script, to help users with various tw-related things",
+    "description": "my vitrc file, loaded with keybindings to all taskwarrior features",
     "dormant": true,
     "language": [
       "N/A"
     ],
     "license": null,
-    "name": "tw-wiz-sh",
+    "name": "tw-vitrc",
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 0,
-    "updated": "2015-12-24",
-    "url": "https://github.com/linuxcaffe/tw-wiz-sh"
+    "rating": 1,
+    "updated": "2016-11-30",
+    "url": "https://github.com/linuxcaffe/tw-vitrc"
   },
   {
     "archived": false,
@@ -10221,26 +10221,6 @@
     "rating": 1,
     "updated": "2015-08-17",
     "url": "https://github.com/linuxcaffe/tw-workflow-hook"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "my vitrc file, loaded with keybindings to all taskwarrior features",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "vitrc",
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 1,
-    "updated": "2016-11-30",
-    "url": "https://github.com/linuxcaffe/vitrc"
   },
   {
     "archived": false,
@@ -12956,7 +12936,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 177,
+    "rating": 178,
     "updated": "2024-04-01",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -13306,7 +13286,7 @@
       "taskwarrior2"
     ],
     "description": "Some utils built on top of taskwarrior tools",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -15055,7 +15035,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 503,
+    "rating": 504,
     "updated": "2024-07-08",
     "url": "https://github.com/vit-project/vit"
   },
