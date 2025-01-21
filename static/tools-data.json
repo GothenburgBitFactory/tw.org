@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 95,
-    "updated": "2025-01-16",
+    "updated": "2025-01-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3659,7 +3659,7 @@
     "url": "https://github.com/Tylryan/taskwarrior-config"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskserver",
       "taskwarrior2"
@@ -3679,7 +3679,7 @@
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskserver",
       "taskwarrior2"
@@ -4957,7 +4957,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2024-08-10",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
@@ -5517,7 +5517,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -7401,7 +7401,7 @@
     "url": "https://github.com/gorrioncillo/TaskwarriorHolidaysGcalendar"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskserver",
       "taskwarrior2"
@@ -9219,7 +9219,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1565,
+    "rating": 1566,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
