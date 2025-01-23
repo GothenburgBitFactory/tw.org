@@ -1,6 +1,9 @@
 name: Deploy Taskwarrior site to GitHub Pages
 
 on:
+  cron:
+    # Run every Saturday at 00:00 UTC
+    - schedule: "0 0 * * 6"
   # Runs on pushes targeting the default branch
   push:
     branches: ["master"]
