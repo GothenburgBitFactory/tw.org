@@ -977,7 +977,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-01-22",
+    "updated": "2025-01-23",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 198,
+    "rating": 199,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 95,
-    "updated": "2025-01-22",
+    "updated": "2025-01-23",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1776,7 +1776,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 77,
+    "rating": 78,
     "updated": "2025-01-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4057,7 +4057,7 @@
     "owner": [
       "adam-gaia"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-12-27",
     "url": "https://github.com/adam-gaia/syncthing-task-resolve"
   },
@@ -4937,7 +4937,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 478,
+    "rating": 479,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -10777,7 +10777,7 @@
       "maxjoehnk"
     ],
     "rating": 24,
-    "updated": "2025-01-08",
+    "updated": "2025-01-23",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11196,7 +11196,7 @@
       "mountwebs"
     ],
     "rating": 0,
-    "updated": "2025-01-22",
+    "updated": "2025-01-23",
     "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
@@ -14555,7 +14555,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 86,
+    "rating": 92,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
