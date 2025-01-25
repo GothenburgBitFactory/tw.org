@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 6,
-    "updated": "2025-01-21",
+    "updated": "2025-01-24",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -977,7 +977,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-01-23",
+    "updated": "2025-01-24",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 95,
-    "updated": "2025-01-23",
+    "updated": "2025-01-25",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 78,
-    "updated": "2025-01-16",
+    "updated": "2025-01-25",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3434,7 +3434,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -4937,7 +4937,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 479,
+    "rating": 480,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7257,7 +7257,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-01-22",
+    "updated": "2025-01-24",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9219,7 +9219,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1567,
+    "rating": 1568,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10807,7 +10807,7 @@
       "taskwarrior2"
     ],
     "description": "Calendar tui with taskwarrior integration",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -10999,6 +10999,26 @@
     "rating": 1,
     "updated": "2019-03-03",
     "url": "https://github.com/mingsu/mutt2task"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "A simple CLI for Taskwarrior, built with Huh and Go.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "todo",
+    "owner": [
+      "mkiene"
+    ],
+    "rating": 0,
+    "updated": "2025-01-24",
+    "url": "https://github.com/mkiene/todo"
   },
   {
     "archived": false,
@@ -11196,7 +11216,7 @@
       "mountwebs"
     ],
     "rating": 0,
-    "updated": "2025-01-23",
+    "updated": "2025-01-24",
     "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
@@ -14555,7 +14575,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 92,
+    "rating": 93,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14755,7 +14775,7 @@
     "owner": [
       "trev-dev"
     ],
-    "rating": 10,
+    "rating": 9,
     "updated": "2024-06-08",
     "url": "https://github.com/trev-dev/timew-billable"
   },
