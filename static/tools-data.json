@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 200,
+    "rating": 201,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 95,
-    "updated": "2025-01-27",
+    "updated": "2025-01-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1776,8 +1776,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 80,
-    "updated": "2025-01-25",
+    "rating": 81,
+    "updated": "2025-01-29",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -1855,7 +1855,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 71,
+    "rating": 72,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3856,7 +3856,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2025-01-08",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -4938,7 +4938,7 @@
       "benelan"
     ],
     "rating": 2,
-    "updated": "2025-01-04",
+    "updated": "2025-01-28",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -4977,7 +4977,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 481,
+    "rating": 482,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9059,7 +9059,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 381,
+    "rating": 383,
     "updated": "2024-10-14",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9259,7 +9259,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1571,
+    "rating": 1573,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11256,7 +11256,7 @@
       "mountwebs"
     ],
     "rating": 0,
-    "updated": "2025-01-27",
+    "updated": "2025-01-28",
     "url": "https://github.com/mountwebs/taskwarrior-data"
   },
   {
@@ -14615,7 +14615,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 96,
+    "rating": 97,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
