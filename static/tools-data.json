@@ -1776,8 +1776,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 81,
-    "updated": "2025-01-29",
+    "rating": 80,
+    "updated": "2025-02-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2354,7 +2354,7 @@
       "KGB33"
     ],
     "rating": 2,
-    "updated": "2024-08-29",
+    "updated": "2025-02-03",
     "url": "https://github.com/KGB33/tasky"
   },
   {
@@ -5499,7 +5499,7 @@
       "catanadj"
     ],
     "rating": 8,
-    "updated": "2025-02-01",
+    "updated": "2025-02-03",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -9259,7 +9259,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1573,
+    "rating": 1574,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14698,6 +14698,26 @@
     "rating": 4,
     "updated": "2024-09-10",
     "url": "https://github.com/tom-doerr/taskwarrior-fzf"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A Streamlit-based GUI for TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-gui",
+    "owner": [
+      "tom-doerr"
+    ],
+    "rating": 0,
+    "updated": "2025-02-03",
+    "url": "https://github.com/tom-doerr/taskwarrior-gui"
   },
   {
     "archived": false,
