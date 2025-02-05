@@ -1756,8 +1756,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 94,
-    "updated": "2025-02-01",
+    "rating": 95,
+    "updated": "2025-02-04",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1776,7 +1776,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 80,
+    "rating": 81,
     "updated": "2025-02-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4657,7 +4657,7 @@
     "owner": [
       "arcnmx"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2019-05-07",
     "url": "https://github.com/arcnmx/task-blocks"
   },
@@ -4977,7 +4977,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 486,
+    "rating": 487,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6556,7 +6556,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 26,
+    "rating": 28,
     "updated": "2025-01-19",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -7796,7 +7796,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 58,
+    "rating": 59,
     "updated": "2025-01-31",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -10717,7 +10717,7 @@
     "owner": [
       "matthiasbeyer"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2025-02-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
@@ -11155,7 +11155,7 @@
     "owner": [
       "mokrunka"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2015-03-08",
     "url": "https://github.com/mokrunka/taskwarrior-blocks-capsule"
   },
@@ -13076,7 +13076,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 100,
+    "rating": 101,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
