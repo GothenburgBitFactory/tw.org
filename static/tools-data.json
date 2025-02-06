@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 95,
-    "updated": "2025-02-04",
+    "updated": "2025-02-05",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 81,
-    "updated": "2025-02-03",
+    "updated": "2025-02-05",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2813,7 +2813,7 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2024-08-16",
     "url": "https://github.com/MythicalCow/vayu"
   },
@@ -4458,7 +4458,7 @@
       "allgreed"
     ],
     "rating": 0,
-    "updated": "2025-01-27",
+    "updated": "2025-02-05",
     "url": "https://github.com/allgreed/cron"
   },
   {
@@ -4777,7 +4777,7 @@
     "owner": [
       "avli"
     ],
-    "rating": 15,
+    "rating": 14,
     "updated": "2018-03-11",
     "url": "https://github.com/avli/taskwarrior"
   },
@@ -4938,7 +4938,7 @@
       "benelan"
     ],
     "rating": 2,
-    "updated": "2025-02-01",
+    "updated": "2025-02-05",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -4977,7 +4977,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 487,
+    "rating": 488,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7297,7 +7297,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-01-30",
+    "updated": "2025-02-05",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9259,7 +9259,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1574,
+    "rating": 1575,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14615,7 +14615,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 97,
+    "rating": 98,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
