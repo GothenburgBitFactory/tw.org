@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 6,
-    "updated": "2025-01-24",
+    "updated": "2025-02-06",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 200,
+    "rating": 201,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 95,
-    "updated": "2025-02-05",
+    "updated": "2025-02-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1776,8 +1776,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 81,
-    "updated": "2025-02-05",
+    "rating": 82,
+    "updated": "2025-02-06",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -1855,7 +1855,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -10638,7 +10638,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2025-01-02",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -14615,7 +14615,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 98,
+    "rating": 99,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14755,7 +14755,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 853,
+    "rating": 854,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
