@@ -896,7 +896,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 157,
+    "rating": 158,
     "updated": "2025-01-26",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -977,7 +977,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-02-01",
+    "updated": "2025-02-08",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -13076,7 +13076,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 101,
+    "rating": 102,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -15136,7 +15136,7 @@
       "vit-project"
     ],
     "rating": 508,
-    "updated": "2024-07-08",
+    "updated": "2025-02-08",
     "url": "https://github.com/vit-project/vit"
   },
   {
