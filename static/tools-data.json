@@ -207,26 +207,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Scans paper and puts tasks into taskwarrior",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": "Creative Commons Zero v1.0 Universal",
-    "name": "scantotask",
-    "owner": [
-      "5balls"
-    ],
-    "rating": 0,
-    "updated": "2023-10-17",
-    "url": "https://github.com/5balls/scantotask"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "A tmux-based dashboard for taskwarrior",
     "dormant": true,
     "language": [
@@ -876,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2025-02-06",
     "url": "https://github.com/CCExtractor/ccsync"
   },
@@ -977,7 +957,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-02-08",
+    "updated": "2025-02-09",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -1157,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 201,
+    "rating": 202,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1776,7 +1756,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 82,
+    "rating": 83,
     "updated": "2025-02-06",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4977,7 +4957,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 488,
+    "rating": 489,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9059,7 +9039,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 383,
+    "rating": 384,
     "updated": "2025-01-31",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9259,7 +9239,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1575,
+    "rating": 1576,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9789,7 +9769,7 @@
       "taskwarrior2"
     ],
     "description": "taskwarrior dependecy tree in your terminal",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -14615,7 +14595,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 99,
+    "rating": 101,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15218,6 +15198,26 @@
     "rating": 1,
     "updated": "2022-04-04",
     "url": "https://github.com/weinshec/taskw"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A kanban TUI for taskwarrior, written in Go",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "twkb",
+    "owner": [
+      "wellgroomedg"
+    ],
+    "rating": 8,
+    "updated": "2025-02-09",
+    "url": "https://github.com/wellgroomedg/twkb"
   },
   {
     "archived": false,
