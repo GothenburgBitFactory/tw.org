@@ -207,6 +207,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Scans paper and puts tasks into taskwarrior",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "Creative Commons Zero v1.0 Universal",
+    "name": "scantotask",
+    "owner": [
+      "5balls"
+    ],
+    "rating": 0,
+    "updated": "2023-10-17",
+    "url": "https://github.com/5balls/scantotask"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "A tmux-based dashboard for taskwarrior",
     "dormant": true,
     "language": [
@@ -1736,8 +1756,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 95,
-    "updated": "2025-02-07",
+    "rating": 96,
+    "updated": "2025-02-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3215,7 +3235,7 @@
       "RafaelPalomar"
     ],
     "rating": 0,
-    "updated": "2024-12-30",
+    "updated": "2025-02-10",
     "url": "https://github.com/RafaelPalomar/taskwarrior-portable"
   },
   {
@@ -4957,7 +4977,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 489,
+    "rating": 490,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9239,7 +9259,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1576,
+    "rating": 1578,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9918,7 +9938,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2017-11-11",
     "url": "https://github.com/liloman/pomodoroTasks2"
   },
@@ -13285,6 +13305,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "rutSimanTov"
+    ],
+    "rating": 0,
+    "updated": "2025-02-10",
+    "url": "https://github.com/rutSimanTov/taskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Interface between Git Issues and TaskWarrior",
     "dormant": true,
     "language": [
@@ -15198,26 +15238,6 @@
     "rating": 1,
     "updated": "2022-04-04",
     "url": "https://github.com/weinshec/taskw"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A kanban TUI for taskwarrior, written in Go",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "twkb",
-    "owner": [
-      "wellgroomedg"
-    ],
-    "rating": 8,
-    "updated": "2025-02-09",
-    "url": "https://github.com/wellgroomedg/twkb"
   },
   {
     "archived": false,
