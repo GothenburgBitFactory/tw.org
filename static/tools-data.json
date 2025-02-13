@@ -1337,7 +1337,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2024-12-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1816,7 +1816,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2024-09-26",
+    "updated": "2025-02-12",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -4357,7 +4357,7 @@
     "owner": [
       "alepeh"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2020-09-20",
     "url": "https://github.com/alepeh/taskwarrior-apple-reminders"
   },
@@ -5499,7 +5499,7 @@
       "catanadj"
     ],
     "rating": 8,
-    "updated": "2025-02-03",
+    "updated": "2025-02-12",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -10817,7 +10817,7 @@
       "maxjoehnk"
     ],
     "rating": 24,
-    "updated": "2025-01-23",
+    "updated": "2025-02-12",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -12176,7 +12176,7 @@
     "owner": [
       "nojhan"
     ],
-    "rating": 7,
+    "rating": 6,
     "updated": "2024-10-14",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
@@ -13046,26 +13046,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Self-hostable Telegram bot to interface with Taskwarrior through the inthe.am api",
-    "dormant": true,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "tg-taskwarrior-bot",
-    "owner": [
-      "rhnvrm"
-    ],
-    "rating": 2,
-    "updated": "2021-10-26",
-    "url": "https://github.com/rhnvrm/tg-taskwarrior-bot"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": null,
     "dormant": false,
     "language": [
@@ -13308,7 +13288,7 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "C#"
     ],
     "license": null,
     "name": "taskServer",
@@ -13316,7 +13296,7 @@
       "rutSimanTov"
     ],
     "rating": 0,
-    "updated": "2025-02-10",
+    "updated": "2025-02-12",
     "url": "https://github.com/rutSimanTov/taskServer"
   },
   {
@@ -14425,6 +14405,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A kanban TUI for taskwarrior, written in Go",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "twkb",
+    "owner": [
+      "tepidphotogra"
+    ],
+    "rating": 0,
+    "updated": "2025-02-12",
+    "url": "https://github.com/tepidphotogra/twkb"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "A simply query interface for Taskwarrior",
     "dormant": true,
     "language": [
@@ -14775,7 +14775,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 855,
+    "rating": 856,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15334,7 +15334,7 @@
     "owner": [
       "xingheng"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2024-12-23",
     "url": "https://github.com/xingheng/taskwarrior-data"
   },
