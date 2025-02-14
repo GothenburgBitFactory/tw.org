@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 96,
-    "updated": "2025-02-12",
+    "updated": "2025-02-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1816,7 +1816,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 7,
-    "updated": "2025-02-12",
+    "updated": "2025-02-13",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -1836,7 +1836,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 1,
-    "updated": "2024-09-27",
+    "updated": "2025-02-13",
     "url": "https://github.com/GothenburgBitFactory/taskserver-troubleshooting"
   },
   {
@@ -2255,7 +2255,7 @@
       "Jimmy2027"
     ],
     "rating": 0,
-    "updated": "2024-10-22",
+    "updated": "2025-02-13",
     "url": "https://github.com/Jimmy2027/gh_taskw"
   },
   {
@@ -9259,7 +9259,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1582,
+    "rating": 1584,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11067,7 +11067,7 @@
       "taskwarrior2"
     ],
     "description": "Muslim prayer times for TaskWarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -13046,6 +13046,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Self-hostable Telegram bot to interface with Taskwarrior through the inthe.am api",
+    "dormant": true,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "tg-taskwarrior-bot",
+    "owner": [
+      "rhnvrm"
+    ],
+    "rating": 2,
+    "updated": "2021-10-26",
+    "url": "https://github.com/rhnvrm/tg-taskwarrior-bot"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": null,
     "dormant": false,
     "language": [
@@ -13875,7 +13895,7 @@
       "smemsh"
     ],
     "rating": 2,
-    "updated": "2025-01-12",
+    "updated": "2025-02-13",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14398,26 +14418,6 @@
     "rating": 3,
     "updated": "2015-01-26",
     "url": "https://github.com/tbabej/taskwarrior-tag_expire-hook"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A kanban TUI for taskwarrior, written in Go",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "twkb",
-    "owner": [
-      "tepidphotogra"
-    ],
-    "rating": 0,
-    "updated": "2025-02-12",
-    "url": "https://github.com/tepidphotogra/twkb"
   },
   {
     "archived": false,
@@ -15286,7 +15286,7 @@
       "taskwarrior3"
     ],
     "description": "An interactive emacs frontend to taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Emacs Lisp"
     ],
