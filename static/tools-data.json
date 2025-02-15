@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 202,
+    "rating": 203,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 96,
-    "updated": "2025-02-13",
+    "updated": "2025-02-14",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1776,7 +1776,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 83,
+    "rating": 84,
     "updated": "2025-02-06",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2633,7 +2633,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -4938,7 +4938,7 @@
       "benelan"
     ],
     "rating": 2,
-    "updated": "2025-02-05",
+    "updated": "2025-02-14",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -9259,7 +9259,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1584,
+    "rating": 1586,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13895,7 +13895,7 @@
       "smemsh"
     ],
     "rating": 2,
-    "updated": "2025-02-13",
+    "updated": "2025-02-14",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14598,6 +14598,26 @@
     "rating": 0,
     "updated": "2016-03-03",
     "url": "https://github.com/thewellington/taskwarrior.widget"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A kanban TUI for taskwarrior, written in Go",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "twkb",
+    "owner": [
+      "thornymusic"
+    ],
+    "rating": 0,
+    "updated": "2025-02-14",
+    "url": "https://github.com/thornymusic/twkb"
   },
   {
     "archived": false,
