@@ -11,7 +11,7 @@ Read on for details.
 
 ## Upgrading Your Tasks
 
-Install Taskwarrior 3, then import your tasks.
+Install Taskwarrior 3.3.0 or higher, then import your tasks.
 Taskwarrior hooks run during import, so disable them during this invocation with `rc.hooks=0`:
 
 ```
