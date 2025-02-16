@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 203,
+    "rating": 204,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1757,7 +1757,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 96,
-    "updated": "2025-02-14",
+    "updated": "2025-02-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 84,
-    "updated": "2025-02-06",
+    "updated": "2025-02-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2255,7 +2255,7 @@
       "Jimmy2027"
     ],
     "rating": 0,
-    "updated": "2025-02-13",
+    "updated": "2025-02-15",
     "url": "https://github.com/Jimmy2027/gh_taskw"
   },
   {
@@ -5499,7 +5499,7 @@
       "catanadj"
     ],
     "rating": 8,
-    "updated": "2025-02-12",
+    "updated": "2025-02-15",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -9259,7 +9259,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1586,
+    "rating": 1587,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12136,7 +12136,7 @@
     "owner": [
       "nocejo"
     ],
-    "rating": 15,
+    "rating": 14,
     "updated": "2015-05-25",
     "url": "https://github.com/nocejo/trev"
   },
@@ -14655,7 +14655,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 102,
+    "rating": 103,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
