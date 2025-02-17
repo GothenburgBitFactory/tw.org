@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2025-02-06",
     "url": "https://github.com/CCExtractor/ccsync"
   },
@@ -896,7 +896,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 158,
+    "rating": 159,
     "updated": "2025-01-26",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -959,6 +959,26 @@
     "rating": 0,
     "updated": "2023-12-13",
     "url": "https://github.com/Cemile15/taskserver"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "taskwarrior configuration as submodule",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "config.task",
+    "owner": [
+      "ChrisGVE"
+    ],
+    "rating": 0,
+    "updated": "2025-02-16",
+    "url": "https://github.com/ChrisGVE/config.task"
   },
   {
     "archived": false,
@@ -1777,7 +1797,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 84,
-    "updated": "2025-02-15",
+    "updated": "2025-02-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3054,7 +3074,7 @@
       "Pete-Hamlin"
     ],
     "rating": 6,
-    "updated": "2024-01-16",
+    "updated": "2025-02-16",
     "url": "https://github.com/Pete-Hamlin/gtd-rust-taskwarrior"
   },
   {
@@ -4057,7 +4077,7 @@
     "owner": [
       "adam-gaia"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-12-27",
     "url": "https://github.com/adam-gaia/syncthing-task-resolve"
   },
@@ -4657,7 +4677,7 @@
     "owner": [
       "arcnmx"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2019-05-07",
     "url": "https://github.com/arcnmx/task-blocks"
   },
@@ -5499,7 +5519,7 @@
       "catanadj"
     ],
     "rating": 8,
-    "updated": "2025-02-15",
+    "updated": "2025-02-16",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -5600,6 +5620,26 @@
     "rating": 0,
     "updated": "2017-03-12",
     "url": "https://github.com/chazu/ansible-role-taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A CLI/TUI wrapping up taskwarrior",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "taskmage",
+    "owner": [
+      "cherryramatisdev"
+    ],
+    "rating": 0,
+    "updated": "2025-02-16",
+    "url": "https://github.com/cherryramatisdev/taskmage"
   },
   {
     "archived": false,
@@ -6556,7 +6596,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2025-01-19",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -9059,7 +9099,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 384,
+    "rating": 385,
     "updated": "2025-01-31",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9958,7 +9998,7 @@
     "owner": [
       "liloman"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2017-03-29",
     "url": "https://github.com/liloman/warriors"
   },
@@ -13895,7 +13935,7 @@
       "smemsh"
     ],
     "rating": 2,
-    "updated": "2025-02-14",
+    "updated": "2025-02-16",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14575,7 +14615,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 537,
+    "rating": 538,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14615,7 +14655,7 @@
     "owner": [
       "thornymusic"
     ],
-    "rating": 0,
+    "rating": 15,
     "updated": "2025-02-14",
     "url": "https://github.com/thornymusic/twkb"
   },
