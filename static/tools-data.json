@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 96,
-    "updated": "2025-02-15",
+    "updated": "2025-02-17",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1797,7 +1797,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 84,
-    "updated": "2025-02-16",
+    "updated": "2025-02-17",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -1875,7 +1875,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 74,
+    "rating": 75,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3074,7 +3074,7 @@
       "Pete-Hamlin"
     ],
     "rating": 6,
-    "updated": "2025-02-16",
+    "updated": "2025-02-17",
     "url": "https://github.com/Pete-Hamlin/gtd-rust-taskwarrior"
   },
   {
@@ -3454,7 +3454,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -5637,7 +5637,7 @@
     "owner": [
       "cherryramatisdev"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-02-16",
     "url": "https://github.com/cherryramatisdev/taskmage"
   },
@@ -9299,7 +9299,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1587,
+    "rating": 1588,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13406,7 +13406,7 @@
       "taskwarrior2"
     ],
     "description": "A simple pomodoro tool for task warrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -14356,7 +14356,7 @@
       "szaffarano"
     ],
     "rating": 10,
-    "updated": "2024-11-25",
+    "updated": "2025-02-17",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -14655,7 +14655,7 @@
     "owner": [
       "thornymusic"
     ],
-    "rating": 15,
+    "rating": 14,
     "updated": "2025-02-14",
     "url": "https://github.com/thornymusic/twkb"
   },
@@ -14835,7 +14835,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 856,
+    "rating": 857,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15215,7 +15215,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 508,
+    "rating": 509,
     "updated": "2025-02-08",
     "url": "https://github.com/vit-project/vit"
   },
