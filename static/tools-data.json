@@ -1177,7 +1177,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 205,
+    "rating": 206,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1756,8 +1756,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 749,
-    "updated": "2024-12-28",
+    "rating": 750,
+    "updated": "2025-02-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1796,7 +1796,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 84,
+    "rating": 86,
     "updated": "2025-02-18",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3074,7 +3074,7 @@
       "Pete-Hamlin"
     ],
     "rating": 6,
-    "updated": "2025-02-18",
+    "updated": "2025-02-20",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -3417,6 +3417,26 @@
     "rating": 0,
     "updated": "2021-09-29",
     "url": "https://github.com/RvstFyth/rofi-taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "SakibFakir69"
+    ],
+    "rating": 0,
+    "updated": "2025-02-20",
+    "url": "https://github.com/SakibFakir69/taskserver"
   },
   {
     "archived": false,
@@ -7836,7 +7856,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 60,
+    "rating": 61,
     "updated": "2025-01-31",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9299,7 +9319,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1590,
+    "rating": 1591,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10857,7 +10877,7 @@
       "maxjoehnk"
     ],
     "rating": 24,
-    "updated": "2025-02-12",
+    "updated": "2025-02-20",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
