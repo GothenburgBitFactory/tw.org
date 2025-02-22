@@ -1776,8 +1776,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 96,
-    "updated": "2025-02-19",
+    "rating": 97,
+    "updated": "2025-02-21",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1797,7 +1797,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 86,
-    "updated": "2025-02-18",
+    "updated": "2025-02-21",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3074,7 +3074,7 @@
       "Pete-Hamlin"
     ],
     "rating": 6,
-    "updated": "2025-02-20",
+    "updated": "2025-02-21",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -3694,7 +3694,7 @@
     "owner": [
       "Tylryan"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-05-09",
     "url": "https://github.com/Tylryan/taskwarrior-config"
   },
@@ -4978,7 +4978,7 @@
       "benelan"
     ],
     "rating": 2,
-    "updated": "2025-02-14",
+    "updated": "2025-02-21",
     "url": "https://github.com/benelan/dotfiles"
   },
   {
@@ -6916,7 +6916,7 @@
     "owner": [
       "eug-vs"
     ],
-    "rating": 1,
+    "rating": 0,
     "updated": "2024-06-14",
     "url": "https://github.com/eug-vs/nextwarrior"
   },
@@ -9319,7 +9319,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1591,
+    "rating": 1594,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12236,7 +12236,7 @@
     "owner": [
       "nojhan"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2024-10-14",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
@@ -14635,7 +14635,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 538,
+    "rating": 539,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
