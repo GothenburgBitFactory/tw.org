@@ -896,7 +896,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 162,
+    "rating": 163,
     "updated": "2025-02-19",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1357,7 +1357,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2024-12-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 98,
-    "updated": "2025-02-22",
+    "updated": "2025-02-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1835,7 +1835,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2025-02-13",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
@@ -2833,7 +2833,7 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 26,
+    "rating": 28,
     "updated": "2024-08-16",
     "url": "https://github.com/MythicalCow/vayu"
   },
@@ -3255,7 +3255,7 @@
       "RafaelPalomar"
     ],
     "rating": 0,
-    "updated": "2025-02-11",
+    "updated": "2025-02-24",
     "url": "https://github.com/RafaelPalomar/taskwarrior-portable"
   },
   {
@@ -5559,7 +5559,7 @@
       "catanadj"
     ],
     "rating": 8,
-    "updated": "2025-02-16",
+    "updated": "2025-02-24",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -9339,7 +9339,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1595,
+    "rating": 1597,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10718,7 +10718,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2025-01-02",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -10896,8 +10896,8 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 24,
-    "updated": "2025-02-20",
+    "rating": 25,
+    "updated": "2025-02-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13675,7 +13675,7 @@
     "owner": [
       "sgaraud"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2021-09-08",
     "url": "https://github.com/sgaraud/gnome-extension-taskwarrior"
   },
