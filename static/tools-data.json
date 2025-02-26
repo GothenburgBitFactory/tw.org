@@ -628,26 +628,6 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "Amanyara21"
-    ],
-    "rating": 0,
-    "updated": "2024-03-20",
-    "url": "https://github.com/Amanyara21/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
     "dormant": true,
     "language": [
       "CSS"
@@ -876,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-02-06",
     "url": "https://github.com/CCExtractor/ccsync"
   },
@@ -1593,6 +1573,26 @@
       "JavaScript"
     ],
     "license": null,
+    "name": "taskserver",
+    "owner": [
+      "Fawzi-Barry"
+    ],
+    "rating": 0,
+    "updated": "2025-02-25",
+    "url": "https://github.com/Fawzi-Barry/taskserver"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
     "name": "taskServer",
     "owner": [
       "FmHasibul"
@@ -1776,8 +1776,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 98,
-    "updated": "2025-02-24",
+    "rating": 97,
+    "updated": "2025-02-25",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1796,7 +1796,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 86,
+    "rating": 87,
     "updated": "2025-02-22",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3897,7 +3897,7 @@
       "Zebradil"
     ],
     "rating": 70,
-    "updated": "2025-01-31",
+    "updated": "2025-02-26",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4607,6 +4607,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "amanyara88"
+    ],
+    "rating": 0,
+    "updated": "2024-03-20",
+    "url": "https://github.com/amanyara88/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Taskwarrior git sync hooks",
     "dormant": true,
     "language": [
@@ -5197,7 +5217,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 255,
+    "rating": 256,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -13396,7 +13416,7 @@
       "rutSimanTov"
     ],
     "rating": 0,
-    "updated": "2025-02-12",
+    "updated": "2025-02-25",
     "url": "https://github.com/rutSimanTov/taskServer"
   },
   {
@@ -13506,7 +13526,7 @@
       "taskwarrior2"
     ],
     "description": "A tool to parse Tandoor shopping lists to Taskwarrior todo entries",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -15175,7 +15195,7 @@
     "owner": [
       "unintended-giraffe"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-07-02",
     "url": "https://github.com/unintended-giraffe/AI_Secretary"
   },
