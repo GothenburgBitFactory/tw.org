@@ -1,0 +1,106 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+function show_usage()
+{
+  cat <<EOF
+Usage: announce-meeting DATE
+EOF
+}
+
+function show_help()
+{
+  cat <<EOF
+NAME
+    announce-meeting – create a GBF meeting announcement
+
+SYNOPSIS
+    announce-meeting DATE
+
+DESCRIPTION
+    This script creates new news item for a GBF community meeting announcement.
+    The meeting will take place on the given DATE, the announcement will be published a week before.
+    The text of the announcement is taken from the archetype 'community-meeting-announcement.md'.
+
+    DATE has to be given in the format YYYY-MM-DD.
+
+OPTIONS
+    -f, --force
+        Overwrite an already existing news item with the same name.
+    -h, --help
+        Show this help and exit
+EOF
+}
+
+REPO_ROOT="$( git rev-parse --show-toplevel )"
+OS="$( uname -s )"
+
+if ! command -v hugo &> /dev/null ; then
+  echo "Hugo is not installed or cannot be found!"
+  exit 1
+fi
+
+until [[ -z "${1-}" ]] ; do
+  case "${1}" in
+    --force|-f)
+      FORCE="yes"
+      ;;
+    --help)
+      show_help
+      exit 1
+      ;;
+    --*)
+      echo "Unknown long option '${1}'"
+      show_usage
+      exit 1
+      ;;
+    -*)
+      echo "Unknown short option '${1}'"
+      show_usage
+      exit 1
+      ;;
+    *)
+      DATE="${1}"
+      ;;
+  esac
+  shift
+done
+
+if [[ -z "${DATE-}" ]] ; then
+  echo "Missing DATE"
+  show_usage
+  exit 1
+elif [[ ! "${DATE}" =~ ^[0-9]{4}-[0-9]{2}-[0-9]{2}$ ]] ; then
+  echo "Invalid DATE format, has to be YYYY-MM-DD"
+  show_usage
+  exit 1
+fi
+
+case "${OS}" in
+  Linux)
+    PUBLISH_DATE=$( date -d "${DATE} - 7 days" +%Y-%m-%d )
+    ;;
+  Darwin)
+    PUBLISH_DATE=$( date -v -7d -j -f "%Y-%m-%d" "${DATE}" +%Y-%m-%d )
+    ;;
+  *)
+    echo "Unsupported operating system"
+    exit 1
+    ;;
+esac
+
+if [[ ${FORCE-"no"} == "yes" ]] ; then
+  rm -rf "${REPO_ROOT}/content/news/news.${PUBLISH_DATE//-/}.md"
+fi
+
+hugo new "news/news.${PUBLISH_DATE//-/}.md" --kind community-meeting-announcement --clock "${PUBLISH_DATE}T00:00:00Z"
+
+case "${OS}" in
+  Linux)
+    sed -i -e "s/%DATE%/${DATE}/g" "content/news/news.${PUBLISH_DATE//-/}.md"
+    ;;
+  Darwin)
+    sed -i "" -e "s/%DATE%/${DATE}/g" "content/news/news.${PUBLISH_DATE//-/}.md"
+    ;;
+esac
