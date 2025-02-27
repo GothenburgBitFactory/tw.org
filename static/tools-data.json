@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 9,
-    "updated": "2025-02-06",
+    "updated": "2025-02-26",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 97,
-    "updated": "2025-02-25",
+    "updated": "2025-02-26",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1797,7 +1797,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 87,
-    "updated": "2025-02-22",
+    "updated": "2025-02-27",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3074,7 +3074,7 @@
       "Pete-Hamlin"
     ],
     "rating": 6,
-    "updated": "2025-02-21",
+    "updated": "2025-02-26",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -3474,7 +3474,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -5057,7 +5057,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 490,
+    "rating": 491,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -11536,7 +11536,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-02-18",
+    "updated": "2025-02-26",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -12846,6 +12846,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A kanban TUI for taskwarrior, written in Go",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "twkb",
+    "owner": [
+      "prizebungal"
+    ],
+    "rating": 0,
+    "updated": "2025-02-26",
+    "url": "https://github.com/prizebungal/twkb"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Typescript utility that displays currently active taskwarrior task in i3status bar.",
     "dormant": true,
     "language": [
@@ -13416,7 +13436,7 @@
       "rutSimanTov"
     ],
     "rating": 0,
-    "updated": "2025-02-25",
+    "updated": "2025-02-26",
     "url": "https://github.com/rutSimanTov/taskServer"
   },
   {
@@ -14715,7 +14735,7 @@
     "owner": [
       "thornymusic"
     ],
-    "rating": 15,
+    "rating": 13,
     "updated": "2025-02-14",
     "url": "https://github.com/thornymusic/twkb"
   },
@@ -15275,7 +15295,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 508,
+    "rating": 509,
     "updated": "2025-02-23",
     "url": "https://github.com/vit-project/vit"
   },
