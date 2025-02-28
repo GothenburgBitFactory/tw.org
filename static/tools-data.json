@@ -237,7 +237,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 68,
+    "rating": 69,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 9,
-    "updated": "2025-02-26",
+    "updated": "2025-02-27",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -977,7 +977,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-02-09",
+    "updated": "2025-02-27",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -1358,7 +1358,7 @@
       "DestinyofYeet"
     ],
     "rating": 0,
-    "updated": "2025-01-27",
+    "updated": "2025-02-27",
     "url": "https://github.com/DestinyofYeet/waybar-taskwarrior.rs"
   },
   {
@@ -1756,7 +1756,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 752,
+    "rating": 753,
     "updated": "2025-02-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 97,
-    "updated": "2025-02-26",
+    "updated": "2025-02-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -4417,7 +4417,7 @@
     "owner": [
       "alexrios"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-07-02",
     "url": "https://github.com/alexrios/obsidian-taskwarrior"
   },
@@ -5057,7 +5057,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 491,
+    "rating": 492,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5277,7 +5277,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 81,
+    "rating": 82,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -7761,26 +7761,6 @@
     "url": "https://github.com/hickey/taskwarrior-smartsheet"
   },
   {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Taskwarrior clone made in Go",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "Other",
-    "name": "tasknight-cli",
-    "owner": [
-      "hossokawa"
-    ],
-    "rating": 0,
-    "updated": "2024-09-01",
-    "url": "https://github.com/hossokawa/tasknight-cli"
-  },
-  {
     "archived": true,
     "category": [
       "taskserver",
@@ -9359,7 +9339,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1597,
+    "rating": 1600,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11536,7 +11516,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-02-26",
+    "updated": "2025-02-27",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -12846,26 +12826,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A kanban TUI for taskwarrior, written in Go",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "twkb",
-    "owner": [
-      "prizebungal"
-    ],
-    "rating": 0,
-    "updated": "2025-02-26",
-    "url": "https://github.com/prizebungal/twkb"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Typescript utility that displays currently active taskwarrior task in i3status bar.",
     "dormant": true,
     "language": [
@@ -13196,7 +13156,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 102,
+    "rating": 103,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14735,7 +14695,7 @@
     "owner": [
       "thornymusic"
     ],
-    "rating": 13,
+    "rating": 12,
     "updated": "2025-02-14",
     "url": "https://github.com/thornymusic/twkb"
   },
@@ -15245,6 +15205,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Gamified cli task/habit/expense tracker inspired by taskwarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "Quest-Log",
+    "owner": [
+      "vebli"
+    ],
+    "rating": 0,
+    "updated": "2025-02-27",
+    "url": "https://github.com/vebli/Quest-Log"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "taskwarrior client in meteor.js",
     "dormant": true,
     "language": [
@@ -15295,7 +15275,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 509,
+    "rating": 510,
     "updated": "2025-02-23",
     "url": "https://github.com/vit-project/vit"
   },
