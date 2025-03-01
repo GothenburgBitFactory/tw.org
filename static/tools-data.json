@@ -977,7 +977,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-02-27",
+    "updated": "2025-02-28",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -1776,7 +1776,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 97,
+    "rating": 98,
     "updated": "2025-02-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -4187,6 +4187,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "ahtisham0100"
+    ],
+    "rating": 0,
+    "updated": "2025-02-28",
+    "url": "https://github.com/ahtisham0100/taskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Email yourself status updates from TaskWarrior",
     "dormant": true,
     "language": [
@@ -6386,6 +6406,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "devSadakat"
+    ],
+    "rating": 0,
+    "updated": "2025-02-28",
+    "url": "https://github.com/devSadakat/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "A GUI for TaskWarrior",
     "dormant": false,
     "language": [
@@ -7876,7 +7916,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 61,
+    "rating": 62,
     "updated": "2025-01-31",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9139,7 +9179,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 385,
+    "rating": 386,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9159,7 +9199,7 @@
     "owner": [
       "jspricke"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2025-02-01",
     "url": "https://github.com/jspricke/python-icstask"
   },
@@ -9339,7 +9379,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1600,
+    "rating": 1602,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10718,7 +10758,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2025-01-02",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -14695,7 +14735,7 @@
     "owner": [
       "thornymusic"
     ],
-    "rating": 12,
+    "rating": 8,
     "updated": "2025-02-14",
     "url": "https://github.com/thornymusic/twkb"
   },
@@ -14735,7 +14775,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 103,
+    "rating": 104,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15275,7 +15315,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 510,
+    "rating": 511,
     "updated": "2025-02-23",
     "url": "https://github.com/vit-project/vit"
   },
@@ -15315,7 +15355,7 @@
     "owner": [
       "voidcase"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2020-06-26",
     "url": "https://github.com/voidcase/taskseq"
   },
