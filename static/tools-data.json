@@ -977,7 +977,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-02-28",
+    "updated": "2025-03-01",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -1756,7 +1756,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 753,
+    "rating": 754,
     "updated": "2025-02-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1796,8 +1796,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 87,
-    "updated": "2025-02-27",
+    "rating": 86,
+    "updated": "2025-03-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -1815,7 +1815,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 148,
+    "rating": 149,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -4198,7 +4198,7 @@
       "ahtisham0100"
     ],
     "rating": 0,
-    "updated": "2025-02-28",
+    "updated": "2025-03-01",
     "url": "https://github.com/ahtisham0100/taskServer"
   },
   {
@@ -9379,7 +9379,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1602,
+    "rating": 1603,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11556,7 +11556,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-02-27",
+    "updated": "2025-03-02",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -12416,7 +12416,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 102,
+    "rating": 103,
     "updated": "2024-06-12",
     "url": "https://github.com/ogarcia/trellowarrior"
   },
@@ -15659,6 +15659,26 @@
     "rating": 1,
     "updated": "2019-02-25",
     "url": "https://github.com/yitsushi/taskwarrior-docker"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskwarrior-iSH-Mac-syn",
+    "owner": [
+      "yongli-abc"
+    ],
+    "rating": 0,
+    "updated": "2025-03-01",
+    "url": "https://github.com/yongli-abc/taskwarrior-iSH-Mac-syn"
   },
   {
     "archived": false,
