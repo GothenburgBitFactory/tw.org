@@ -33,7 +33,7 @@ OPTIONS
 EOF
 }
 
-REPO_ROOT="$( git rev-parse --show-toplevel )"
+REPO_ROOT="${BASH_SOURCE[0]%/bin/*}"
 OS="$( uname -s )"
 
 if ! command -v hugo &> /dev/null ; then
@@ -94,13 +94,16 @@ if [[ ${FORCE-"no"} == "yes" ]] ; then
   rm -rf "${REPO_ROOT}/content/news/news.${PUBLISH_DATE//-/}.md"
 fi
 
-hugo new "news/news.${PUBLISH_DATE//-/}.md" --kind community-meeting-announcement --clock "${PUBLISH_DATE}T00:00:00Z"
+hugo new "news/news.${PUBLISH_DATE//-/}.md" \
+     --source="${REPO_ROOT}" \
+     --kind community-meeting-announcement \
+     --clock "${PUBLISH_DATE}T00:00:00Z"
 
 case "${OS}" in
   Linux)
-    sed -i -e "s/%DATE%/${DATE}/g" "content/news/news.${PUBLISH_DATE//-/}.md"
+    sed -i -e "s/%DATE%/${DATE}/g" "${REPO_ROOT}/content/news/news.${PUBLISH_DATE//-/}.md"
     ;;
   Darwin)
-    sed -i "" -e "s/%DATE%/${DATE}/g" "content/news/news.${PUBLISH_DATE//-/}.md"
+    sed -i "" -e "s/%DATE%/${DATE}/g" "${REPO_ROOT}/content/news/news.${PUBLISH_DATE//-/}.md"
     ;;
 esac
