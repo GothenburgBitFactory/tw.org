@@ -1,5 +1,4 @@
 ---
-lang: en
 title: 'Taskwarrior - Documentation'
 viewport: 'width=device-width, initial-scale=1'
 layout: single

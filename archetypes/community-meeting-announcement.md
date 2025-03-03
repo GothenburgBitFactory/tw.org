@@ -1,7 +1,6 @@
 ---
 title: "GBF community meeting"
 date: {{ .Date }}
-lang: en
 ---
 
 ### GBF Community Meeting

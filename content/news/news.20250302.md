@@ -1,7 +1,6 @@
 ---
 title: "GBF community meeting"
 date: 2025-03-02T00:00:00Z
-lang: en
 ---
 
 ### GBF Community Meeting
