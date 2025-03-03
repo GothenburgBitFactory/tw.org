@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 163,
+    "rating": 164,
     "updated": "2025-02-19",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -977,7 +977,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-03-01",
+    "updated": "2025-03-02",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -3474,7 +3474,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -4118,7 +4118,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2025-01-29",
+    "updated": "2025-03-02",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -4717,7 +4717,7 @@
     "owner": [
       "andrey-utkin"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2023-06-06",
     "url": "https://github.com/andrey-utkin/taskdb"
   },
@@ -5077,7 +5077,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 492,
+    "rating": 493,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6696,7 +6696,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2025-01-19",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -9379,7 +9379,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1603,
+    "rating": 1604,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11295,7 +11295,7 @@
     "owner": [
       "mokrunka"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2020-12-28",
     "url": "https://github.com/mokrunka/taskwarrior-capsules"
   },
@@ -14014,7 +14014,7 @@
     "owner": [
       "smemsh"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2025-02-16",
     "url": "https://github.com/smemsh/taskwtools"
   },
@@ -14735,7 +14735,7 @@
     "owner": [
       "thornymusic"
     ],
-    "rating": 8,
+    "rating": 7,
     "updated": "2025-02-14",
     "url": "https://github.com/thornymusic/twkb"
   },
@@ -14775,7 +14775,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 104,
+    "rating": 105,
     "updated": "2024-10-15",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15677,7 +15677,7 @@
       "yongli-abc"
     ],
     "rating": 0,
-    "updated": "2025-03-01",
+    "updated": "2025-03-02",
     "url": "https://github.com/yongli-abc/taskwarrior-iSH-Mac-syn"
   },
   {
