@@ -126,7 +126,7 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 - [#1547: task project!=PROJECTNAME does not work (Regression)](https://github.com/GothenburgBitFactory/taskwarrior/issues/1547) fixed
 - [#1569: cmake complains "test" is not a valid target (on arch linux)](https://github.com/GothenburgBitFactory/taskwarrior/issues/1569) fixed
 - [#1579: Setting defaultheight:0 makes burndown command hang](https://github.com/GothenburgBitFactory/taskwarrior/issues/1579) fixed
-- [#1658: due.not:<date> excludes only tasks scheduled at midnight](https://github.com/GothenburgBitFactory/taskwarrior/issues/1658) fixed
+- [#1658: due.not:&lt;date&gt; excludes only tasks scheduled at midnight](https://github.com/GothenburgBitFactory/taskwarrior/issues/1658) fixed
 - [#1659: Running "task anystringatall" does not filter anything](https://github.com/GothenburgBitFactory/taskwarrior/issues/1659) fixed
 - Task: Fish shell completion fixed for OSX
 - Task: Day names and month names are now specifiable using abbreviations
@@ -156,7 +156,7 @@ For a full list, see the [full Git history](https://github.com/GothenburgBitFact
 
 2015-07-25
 
-- [#1665: 'edit' should process or reject <mods> arguments](https://github.com/GothenburgBitFactory/taskwarrior/issues/1665) fixed
+- [#1665: 'edit' should process or reject &lt;mods&gt; arguments](https://github.com/GothenburgBitFactory/taskwarrior/issues/1665) fixed
 - Task: RX: Was missing REG_ENHANCED, which omits \d support
 - Task: Commands that do not accept filters or modifications now generate an error when extra arguments are specified
 - Task: There are now a class of command to which `context` does not apply

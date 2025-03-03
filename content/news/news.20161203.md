@@ -50,6 +50,6 @@ The Taskserver codebase is being cleaned up in preparation for a major fix and t
 | 2016-11-25 | - tw.org: Fixed typos in [task-2.5.1.ref.pdf](../../download/task-2.5.1.ref.pdf) online                                                       |
 |            | - WWW: HTTP now served and deployed by [caddy](https://caddyserver.com)                                                                       |
 | 2016-11-26 | - Taskd: Inherited bug fixes from Taskwarrior                                                                                                 |
-| 2016-11-27 | - libshared: join() now supports vector<int>                                                                                                  |
+| 2016-11-27 | - libshared: join() now supports vector&lt;int&gt;                                                                                            |
 |            | - libshared: Improved Path tests                                                                                                              |
 |            | - libshared: Migrated find functions from Taskd                                                                                               |
