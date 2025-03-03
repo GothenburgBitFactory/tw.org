@@ -33,7 +33,7 @@ OPTIONS
 EOF
 }
 
-REPO_ROOT="${BASH_SOURCE[0]%/bin/*}"
+REPO_ROOT=$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )
 OS="$( uname -s )"
 
 if ! command -v hugo &> /dev/null ; then
