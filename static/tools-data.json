@@ -977,7 +977,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-03-02",
+    "updated": "2025-03-03",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -1337,7 +1337,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2024-12-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1756,7 +1756,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 754,
+    "rating": 755,
     "updated": "2025-02-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 98,
-    "updated": "2025-02-28",
+    "updated": "2025-03-04",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1797,7 +1797,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 86,
-    "updated": "2025-03-01",
+    "updated": "2025-03-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -5077,7 +5077,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 493,
+    "rating": 495,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8206,26 +8206,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A small script that purge all tasks from taskwarrior that are completed or deleted.",
-    "dormant": true,
-    "language": [
-      "Shell"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "taskwarrior-purge",
-    "owner": [
-      "isaacs4m"
-    ],
-    "rating": 2,
-    "updated": "2021-01-28",
-    "url": "https://github.com/isaacs4m/taskwarrior-purge"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Final report for Google Summer of Code 2024 - Taskserver Project",
     "dormant": false,
     "language": [
@@ -9379,7 +9359,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1604,
+    "rating": 1605,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10937,7 +10917,7 @@
       "maxjoehnk"
     ],
     "rating": 25,
-    "updated": "2025-02-24",
+    "updated": "2025-03-03",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13436,7 +13416,7 @@
       "rutSimanTov"
     ],
     "rating": 0,
-    "updated": "2025-02-26",
+    "updated": "2025-03-03",
     "url": "https://github.com/rutSimanTov/taskServer"
   },
   {
@@ -14015,7 +13995,7 @@
       "smemsh"
     ],
     "rating": 3,
-    "updated": "2025-02-16",
+    "updated": "2025-03-03",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14735,7 +14715,7 @@
     "owner": [
       "thornymusic"
     ],
-    "rating": 7,
+    "rating": 5,
     "updated": "2025-02-14",
     "url": "https://github.com/thornymusic/twkb"
   },
@@ -14775,8 +14755,8 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 105,
-    "updated": "2024-10-15",
+    "rating": 107,
+    "updated": "2025-03-03",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
@@ -15442,6 +15422,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A kanban TUI for taskwarrior, written in Go",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "twkb",
+    "owner": [
+      "wingedhuman"
+    ],
+    "rating": 0,
+    "updated": "2025-03-03",
+    "url": "https://github.com/wingedhuman/twkb"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -15677,7 +15677,7 @@
       "yongli-abc"
     ],
     "rating": 0,
-    "updated": "2025-03-02",
+    "updated": "2025-03-03",
     "url": "https://github.com/yongli-abc/taskwarrior-iSH-Mac-syn"
   },
   {
