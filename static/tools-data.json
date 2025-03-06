@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 164,
+    "rating": 165,
     "updated": "2025-02-19",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 98,
-    "updated": "2025-03-04",
+    "updated": "2025-03-05",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3074,7 +3074,7 @@
       "Pete-Hamlin"
     ],
     "rating": 6,
-    "updated": "2025-03-04",
+    "updated": "2025-03-05",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -7437,7 +7437,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-02-18",
+    "updated": "2025-03-05",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9179,7 +9179,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 386,
+    "rating": 387,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -12527,7 +12527,7 @@
       "taskwarrior2"
     ],
     "description": "Taskwarrior module for polybar",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
@@ -13435,8 +13435,8 @@
     "owner": [
       "rutSimanTov"
     ],
-    "rating": 0,
-    "updated": "2025-03-03",
+    "rating": 1,
+    "updated": "2025-03-05",
     "url": "https://github.com/rutSimanTov/taskServer"
   },
   {
@@ -14735,7 +14735,7 @@
     "owner": [
       "thornymusic"
     ],
-    "rating": 4,
+    "rating": 3,
     "updated": "2025-02-14",
     "url": "https://github.com/thornymusic/twkb"
   },
@@ -14775,7 +14775,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 113,
+    "rating": 115,
     "updated": "2025-03-03",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14915,7 +14915,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 857,
+    "rating": 858,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15442,26 +15442,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A kanban TUI for taskwarrior, written in Go",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "twkb",
-    "owner": [
-      "wingedhuman"
-    ],
-    "rating": 0,
-    "updated": "2025-03-03",
-    "url": "https://github.com/wingedhuman/twkb"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -15697,7 +15677,7 @@
       "yongli-abc"
     ],
     "rating": 0,
-    "updated": "2025-03-04",
+    "updated": "2025-03-05",
     "url": "https://github.com/yongli-abc/taskwarrior-iSH-Mac-syn"
   },
   {
