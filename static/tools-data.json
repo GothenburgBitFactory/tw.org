@@ -977,7 +977,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-03-03",
+    "updated": "2025-03-06",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 208,
+    "rating": 209,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1358,7 +1358,7 @@
       "DestinyofYeet"
     ],
     "rating": 0,
-    "updated": "2025-02-27",
+    "updated": "2025-03-06",
     "url": "https://github.com/DestinyofYeet/waybar-taskwarrior.rs"
   },
   {
@@ -1756,7 +1756,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 755,
+    "rating": 756,
     "updated": "2025-02-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1776,8 +1776,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 98,
-    "updated": "2025-03-05",
+    "rating": 99,
+    "updated": "2025-03-06",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1796,7 +1796,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 87,
+    "rating": 88,
     "updated": "2025-03-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -1815,7 +1815,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 149,
+    "rating": 150,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1875,7 +1875,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 75,
+    "rating": 76,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3074,7 +3074,7 @@
       "Pete-Hamlin"
     ],
     "rating": 6,
-    "updated": "2025-03-05",
+    "updated": "2025-03-06",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -5097,7 +5097,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 6,
+    "rating": 5,
     "updated": "2024-08-10",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
@@ -5599,7 +5599,7 @@
       "catanadj"
     ],
     "rating": 8,
-    "updated": "2025-02-24",
+    "updated": "2025-03-06",
     "url": "https://github.com/catanadj/tasksultan"
   },
   {
@@ -9179,7 +9179,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 387,
+    "rating": 388,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9379,7 +9379,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1607,
+    "rating": 1609,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9718,7 +9718,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 138,
+    "rating": 139,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -13436,7 +13436,7 @@
       "rutSimanTov"
     ],
     "rating": 1,
-    "updated": "2025-03-05",
+    "updated": "2025-03-06",
     "url": "https://github.com/rutSimanTov/taskServer"
   },
   {
@@ -14695,7 +14695,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 540,
+    "rating": 541,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14735,7 +14735,7 @@
     "owner": [
       "thornymusic"
     ],
-    "rating": 3,
+    "rating": 2,
     "updated": "2025-02-14",
     "url": "https://github.com/thornymusic/twkb"
   },
@@ -14775,7 +14775,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 115,
+    "rating": 116,
     "updated": "2025-03-03",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
