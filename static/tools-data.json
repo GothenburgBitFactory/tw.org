@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 9,
-    "updated": "2025-02-27",
+    "updated": "2025-03-07",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1776,8 +1776,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 99,
-    "updated": "2025-03-06",
+    "rating": 100,
+    "updated": "2025-03-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3113,7 +3113,7 @@
     "owner": [
       "Praczet"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-10-04",
     "url": "https://github.com/Praczet/lazyvim-config"
   },
@@ -5077,7 +5077,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 495,
+    "rating": 496,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5177,7 +5177,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2023-01-22",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
@@ -13750,6 +13750,26 @@
       "JavaScript"
     ],
     "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "shahabhusain"
+    ],
+    "rating": 0,
+    "updated": "2025-03-07",
+    "url": "https://github.com/shahabhusain/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
     "name": "taskServer",
     "owner": [
       "shahanasherin-p"
@@ -15035,7 +15055,7 @@
     "owner": [
       "tschaefer"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2023-10-28",
     "url": "https://github.com/tschaefer/taskwarrior-calendar"
   },
