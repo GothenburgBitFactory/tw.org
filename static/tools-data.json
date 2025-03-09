@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 9,
-    "updated": "2025-03-07",
+    "updated": "2025-03-08",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 100,
-    "updated": "2025-03-07",
+    "updated": "2025-03-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3103,26 +3103,6 @@
       "taskwarrior2",
       "taskwarrior3"
     ],
-    "description": "My personal cusomization of the LazyVim config",
-    "dormant": false,
-    "language": [
-      "Lua"
-    ],
-    "license": "Apache License 2.0",
-    "name": "lazyvim-config",
-    "owner": [
-      "Praczet"
-    ],
-    "rating": 1,
-    "updated": "2024-10-04",
-    "url": "https://github.com/Praczet/lazyvim-config"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
     "description": "A little helper for displaying tasks from TaskWarrior in NeoVim Dashboard",
     "dormant": false,
     "language": [
@@ -3474,7 +3454,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -7916,7 +7896,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 63,
+    "rating": 64,
     "updated": "2025-01-31",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -11556,7 +11536,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-03-02",
+    "updated": "2025-03-09",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -14715,7 +14695,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 541,
+    "rating": 542,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14898,6 +14878,26 @@
     "rating": 0,
     "updated": "2025-02-03",
     "url": "https://github.com/tom-doerr/taskwarrior-gui"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior_helpers",
+    "owner": [
+      "tom-doerr"
+    ],
+    "rating": 0,
+    "updated": "2025-03-08",
+    "url": "https://github.com/tom-doerr/taskwarrior_helpers"
   },
   {
     "archived": false,
