@@ -5,7 +5,7 @@ set -euo pipefail
 function show_usage()
 {
   cat <<EOF
-Usage: review-tools [TOOLS_BLACKLIST_FILE]
+Usage: check-links [--clean] [--no-extern] [URL]
 EOF
 }
 
