@@ -13,7 +13,7 @@ All support avenues are listed at the [Support](../../support/) page.
 If you find you have any questions, you can get answers in several ways.
 The website has user forums, issue tracking and online documentation, including this tutorial.
 
-There is also a [Command reference PDF](../../download/task-latest.ref.pdf) that we recommend you download and use.
+There is also a [Command reference PDF](../../download/task-2.5.3.ref.pdf) that we recommend you download and use.
 It shows all the supported commands and options at a glance.
 
 ## FAQ

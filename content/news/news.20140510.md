@@ -15,4 +15,4 @@ Dirk also previewed the new command reference shown here:
 
 [![](../../images/ref230.png)](../../images/ref230.png)
 
-You can get the [Reference Sheet PDF](../../download/task-latest.ref.pdf) from the download page.
+You can get the [Reference Sheet PDF](../../download/task-2.3.0.ref.pdf) from the download page.
