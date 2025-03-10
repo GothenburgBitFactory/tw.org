@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2025-03-08",
     "url": "https://github.com/CCExtractor/ccsync"
   },
@@ -1796,7 +1796,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 88,
+    "rating": 90,
     "updated": "2025-03-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -5337,7 +5337,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 520,
+    "rating": 521,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -6036,7 +6036,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 293,
+    "rating": 294,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -7696,7 +7696,7 @@
     "owner": [
       "hadronized"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2021-07-31",
     "url": "https://github.com/hadronized/toodoux"
   },
@@ -9159,7 +9159,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 388,
+    "rating": 389,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9359,7 +9359,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1609,
+    "rating": 1610,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10917,7 +10917,7 @@
       "maxjoehnk"
     ],
     "rating": 25,
-    "updated": "2025-03-04",
+    "updated": "2025-03-09",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13435,7 +13435,7 @@
     "owner": [
       "ryansb"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2012-02-03",
     "url": "https://github.com/ryansb/gitwarrior"
   },
@@ -14775,7 +14775,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 116,
+    "rating": 117,
     "updated": "2025-03-03",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
