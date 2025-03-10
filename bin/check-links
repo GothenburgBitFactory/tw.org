@@ -86,13 +86,13 @@ if [[ ! -d "${VENV_DIR}" ]] ; then
   echo "Creating virtual environment..."
   python3 -m venv "${VENV_DIR}"
   "${VENV_DIR}/bin/pip" install --upgrade pip
-fi
 
-if [[ ! -e "${REQUIREMENTS_TXT}" ]] ; then
-  "${VENV_DIR}/bin/pip" install linkchecker
-  "${VENV_DIR}/bin/pip" freeze > "${REQUIREMENTS_TXT}"
-else
-  "${VENV_DIR}/bin/pip" install -r "${REQUIREMENTS_TXT}" >/dev/null
+  if [[ ! -e "${REQUIREMENTS_TXT}" ]] ; then
+    "${VENV_DIR}/bin/pip" install linkchecker
+    "${VENV_DIR}/bin/pip" freeze > "${REQUIREMENTS_TXT}"
+  else
+    "${VENV_DIR}/bin/pip" install -r "${REQUIREMENTS_TXT}" >/dev/null
+  fi
 fi
 
 if [[ "${CHECK_EXTERN-"yes"}" == "yes" ]] ; then
