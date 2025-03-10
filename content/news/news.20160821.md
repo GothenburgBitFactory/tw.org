@@ -34,7 +34,7 @@ Here are the features in 1.0.0:
 - [Uses the Taskwarrior support channels](../../support/)
 - Dedicated site <https://timewarrior.net>
 - [Full online documentation](https://timewarrior.net/docs/)
-- [Detailed tutorial](https://timewarrior.net/docs/tutorial/)
+- [Detailed tutorial](https://timewarrior.net/tutorial/)
 
 Timewarrior is a new project, and needs [your feedback](mailto:support@timewarrior.net).
 Please let us know how Timewarrior does and does not meet your needs.
