@@ -117,7 +117,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2025-03-04",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 209,
+    "rating": 210,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1337,7 +1337,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2024-12-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1797,7 +1797,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 90,
-    "updated": "2025-03-03",
+    "updated": "2025-03-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -4647,6 +4647,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A kanban TUI for taskwarrior, written in Go",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "twkb",
+    "owner": [
+      "amusedtuitio"
+    ],
+    "rating": 0,
+    "updated": "2025-03-10",
+    "url": "https://github.com/amusedtuitio/twkb"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Taskwarrior Workflow for Alfred v2",
     "dormant": true,
     "language": [
@@ -5007,26 +5027,6 @@
       "taskwarrior2",
       "taskwarrior3"
     ],
-    "description": "\"Decorate your home. It gives the illusion that your life is more interesting than it really is.\" \u00a0\u00a0\u00a0\u00a0\u2014\u00a0\u00a0Charles M. Schulz",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "dotfiles",
-    "owner": [
-      "benelan"
-    ],
-    "rating": 3,
-    "updated": "2025-02-21",
-    "url": "https://github.com/benelan/dotfiles"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
     "description": "\ud83d\udd04 Synchronize items from two different sources",
     "dormant": false,
     "language": [
@@ -5337,7 +5337,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 521,
+    "rating": 522,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5518,7 +5518,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 100,
+    "rating": 101,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -5637,7 +5637,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -6676,7 +6676,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2025-01-19",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -6736,7 +6736,7 @@
     "owner": [
       "echo-bravo-yahoo"
     ],
-    "rating": 9,
+    "rating": 8,
     "updated": "2024-03-11",
     "url": "https://github.com/echo-bravo-yahoo/ego-rock"
   },
@@ -7516,7 +7516,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 26,
+    "rating": 28,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -7896,7 +7896,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 64,
+    "rating": 65,
     "updated": "2025-01-31",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9159,7 +9159,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 389,
+    "rating": 390,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9698,7 +9698,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 139,
+    "rating": 140,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -11096,7 +11096,7 @@
     "owner": [
       "mikebobroski"
     ],
-    "rating": 49,
+    "rating": 50,
     "updated": "2017-12-22",
     "url": "https://github.com/mikebobroski/tasknote"
   },
@@ -12456,7 +12456,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -13695,7 +13695,7 @@
     "owner": [
       "sgaraud"
     ],
-    "rating": 48,
+    "rating": 49,
     "updated": "2021-09-08",
     "url": "https://github.com/sgaraud/gnome-extension-taskwarrior"
   },
@@ -13885,7 +13885,7 @@
       "taskwarrior2"
     ],
     "description": "Migrate tasks out of online services",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -14655,7 +14655,7 @@
     "owner": [
       "thehunmonkgroup"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2024-02-07",
     "url": "https://github.com/thehunmonkgroup/onenote"
   },
@@ -14775,7 +14775,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 117,
+    "rating": 120,
     "updated": "2025-03-03",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -14875,7 +14875,7 @@
     "owner": [
       "tom-doerr"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-02-03",
     "url": "https://github.com/tom-doerr/taskwarrior-gui"
   },
@@ -15335,7 +15335,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 511,
+    "rating": 512,
     "updated": "2025-02-23",
     "url": "https://github.com/vit-project/vit"
   },
@@ -15395,7 +15395,7 @@
     "owner": [
       "vrutkovs"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2018-10-05",
     "url": "https://github.com/vrutkovs/telch"
   },
