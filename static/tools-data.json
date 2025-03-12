@@ -147,6 +147,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A simple MCP Server for Taskwarrior",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "mcp-taskwarrior",
+    "owner": [
+      "0xbeedao"
+    ],
+    "rating": 0,
+    "updated": "2025-03-12",
+    "url": "https://github.com/0xbeedao/mcp-taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "An \u00fcbersicht widget for taskwarrior",
     "dormant": false,
     "language": [
@@ -1157,7 +1177,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 210,
+    "rating": 212,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1357,7 +1377,7 @@
     "owner": [
       "DestinyofYeet"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-03-06",
     "url": "https://github.com/DestinyofYeet/waybar-taskwarrior.rs"
   },
@@ -1777,7 +1797,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 100,
-    "updated": "2025-03-08",
+    "updated": "2025-03-11",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1796,8 +1816,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 90,
-    "updated": "2025-03-10",
+    "rating": 91,
+    "updated": "2025-03-11",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -4657,7 +4677,7 @@
     "owner": [
       "amusedtuitio"
     ],
-    "rating": 0,
+    "rating": 14,
     "updated": "2025-03-10",
     "url": "https://github.com/amusedtuitio/twkb"
   },
@@ -5277,7 +5297,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 82,
+    "rating": 83,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -7417,7 +7437,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-03-05",
+    "updated": "2025-03-11",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -14134,7 +14154,7 @@
     "owner": [
       "spivi269"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-12-11",
     "url": "https://github.com/spivi269/waybar-taskwarrior-hook"
   },
@@ -14695,7 +14715,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 542,
+    "rating": 543,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14935,7 +14955,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 858,
+    "rating": 859,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15235,7 +15255,7 @@
     "owner": [
       "unintended-giraffe"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-07-02",
     "url": "https://github.com/unintended-giraffe/AI_Secretary"
   },
