@@ -2,11 +2,11 @@
   "task": {
     "name": "Taskwarrior",
     "stable": {
-      "version": "3.3.0",
-      "url": "https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.3.0/task-3.3.0.tar.gz"
+      "version": "3.4.0",
+      "url": "https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.4.0/task-3.4.0.tar.gz"
     },
     "develop": {
-      "version": "3.4.0",
+      "version": "3.5.0",
       "url": "https://github.com/GothenburgBitFactory/taskwarrior/tree/develop"
     }
   },
