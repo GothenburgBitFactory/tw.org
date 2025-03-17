@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2025-03-15",
     "url": "https://github.com/CCExtractor/ccsync"
   },
@@ -897,7 +897,7 @@
       "CCExtractor"
     ],
     "rating": 168,
-    "updated": "2025-03-12",
+    "updated": "2025-03-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1816,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 93,
+    "rating": 94,
     "updated": "2025-03-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2364,7 +2364,7 @@
       "taskserver"
     ],
     "description": "Taskserver docker image with help scripts",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -3196,6 +3196,27 @@
     "rating": 7,
     "updated": "2022-08-24",
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": null,
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
+    "name": "taskd-dc",
+    "owner": [
+      "QantumEntangled"
+    ],
+    "rating": 0,
+    "updated": "2018-11-19",
+    "url": "https://github.com/QantumEntangled/taskd-dc"
   },
   {
     "archived": false,
@@ -4646,26 +4667,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A kanban TUI for taskwarrior, written in Go",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "twkb",
-    "owner": [
-      "amusedtuitio"
-    ],
-    "rating": 130,
-    "updated": "2025-03-10",
-    "url": "https://github.com/amusedtuitio/twkb"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Taskwarrior Workflow for Alfred v2",
     "dormant": true,
     "language": [
@@ -5517,7 +5518,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 101,
+    "rating": 100,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -6186,7 +6187,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dockerfile"
     ],
@@ -9358,7 +9359,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1616,
+    "rating": 1618,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13415,7 +13416,7 @@
       "rutSimanTov"
     ],
     "rating": 1,
-    "updated": "2025-03-15",
+    "updated": "2025-03-16",
     "url": "https://github.com/rutSimanTov/taskServer"
   },
   {
@@ -14934,7 +14935,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 860,
+    "rating": 862,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15055,7 +15056,7 @@
       "tschaefer"
     ],
     "rating": 2,
-    "updated": "2023-10-28",
+    "updated": "2025-03-16",
     "url": "https://github.com/tschaefer/taskwarrior-calendar"
   },
   {
@@ -15354,7 +15355,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 512,
+    "rating": 513,
     "updated": "2025-02-23",
     "url": "https://github.com/vit-project/vit"
   },
