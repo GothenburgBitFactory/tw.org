@@ -896,8 +896,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 168,
-    "updated": "2025-03-16",
+    "rating": 167,
+    "updated": "2025-03-17",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -997,7 +997,7 @@
       "ChrisGVE"
     ],
     "rating": 1,
-    "updated": "2025-03-14",
+    "updated": "2025-03-17",
     "url": "https://github.com/ChrisGVE/taskforge.nvim"
   },
   {
@@ -1177,7 +1177,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 213,
+    "rating": 215,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1357,7 +1357,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2024-12-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1528,7 +1528,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dockerfile"
     ],
@@ -3103,6 +3103,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "taskwarrior-hooks",
+    "owner": [
+      "Pete-Hamlin"
+    ],
+    "rating": 0,
+    "updated": "2025-03-17",
+    "url": "https://github.com/Pete-Hamlin/taskwarrior-hooks"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Another taskwarrior tui",
     "dormant": false,
     "language": [
@@ -3196,27 +3216,6 @@
     "rating": 7,
     "updated": "2022-08-24",
     "url": "https://github.com/Procoder16/task-warrior-mobile-app"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": null,
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "BSD 3-Clause \"New\" or \"Revised\" License",
-    "name": "taskd-dc",
-    "owner": [
-      "QantumEntangled"
-    ],
-    "rating": 0,
-    "updated": "2018-11-19",
-    "url": "https://github.com/QantumEntangled/taskd-dc"
   },
   {
     "archived": false,
@@ -5057,7 +5056,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 499,
+    "rating": 500,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9359,7 +9358,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1618,
+    "rating": 1621,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13176,7 +13175,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 104,
+    "rating": 105,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -13416,7 +13415,7 @@
       "rutSimanTov"
     ],
     "rating": 1,
-    "updated": "2025-03-16",
+    "updated": "2025-03-17",
     "url": "https://github.com/rutSimanTov/taskServer"
   },
   {
