@@ -1578,7 +1578,7 @@
       "EvgeniiNaumenko"
     ],
     "rating": 0,
-    "updated": "2025-03-18",
+    "updated": "2025-03-19",
     "url": "https://github.com/EvgeniiNaumenko/TaskServer"
   },
   {
@@ -2556,26 +2556,6 @@
     "rating": 0,
     "updated": "2024-07-07",
     "url": "https://github.com/Ks3216/TASKWARRIOR-FLUTTER-PROJECT"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "Laluyas"
-    ],
-    "rating": 0,
-    "updated": "2024-07-14",
-    "url": "https://github.com/Laluyas/TaskServer"
   },
   {
     "archived": false,
@@ -4823,26 +4803,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskServer",
-    "owner": [
-      "ashikjoseph"
-    ],
-    "rating": 0,
-    "updated": "2024-07-17",
-    "url": "https://github.com/ashikjoseph/taskServer"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -5076,7 +5036,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 500,
+    "rating": 502,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5296,7 +5256,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 83,
+    "rating": 84,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -9178,7 +9138,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 391,
+    "rating": 392,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9378,7 +9338,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1620,
+    "rating": 1621,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13434,8 +13394,8 @@
     "owner": [
       "rutSimanTov"
     ],
-    "rating": 1,
-    "updated": "2025-03-17",
+    "rating": 0,
+    "updated": "2025-03-19",
     "url": "https://github.com/rutSimanTov/taskServer"
   },
   {
