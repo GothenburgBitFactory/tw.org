@@ -896,7 +896,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 168,
+    "rating": 169,
     "updated": "2025-03-17",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1570,7 +1570,7 @@
     "description": null,
     "dormant": false,
     "language": [
-      "JavaScript"
+      "TypeScript"
     ],
     "license": null,
     "name": "TaskServer",
@@ -1578,7 +1578,7 @@
       "EvgeniiNaumenko"
     ],
     "rating": 0,
-    "updated": "2025-03-19",
+    "updated": "2025-03-20",
     "url": "https://github.com/EvgeniiNaumenko/TaskServer"
   },
   {
@@ -2556,6 +2556,26 @@
     "rating": 0,
     "updated": "2024-07-07",
     "url": "https://github.com/Ks3216/TASKWARRIOR-FLUTTER-PROJECT"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Laluyas"
+    ],
+    "rating": 0,
+    "updated": "2024-07-14",
+    "url": "https://github.com/Laluyas/TaskServer"
   },
   {
     "archived": false,
@@ -4803,6 +4823,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "ashikjoseph"
+    ],
+    "rating": 0,
+    "updated": "2024-07-17",
+    "url": "https://github.com/ashikjoseph/taskServer"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -5036,7 +5076,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 502,
+    "rating": 504,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5256,7 +5296,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 84,
+    "rating": 85,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -6656,7 +6696,7 @@
       "duckdm"
     ],
     "rating": 30,
-    "updated": "2025-01-19",
+    "updated": "2025-03-20",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -7396,7 +7436,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-03-12",
+    "updated": "2025-03-20",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -7875,7 +7915,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 66,
+    "rating": 67,
     "updated": "2025-01-31",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9338,7 +9378,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1621,
+    "rating": 1623,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10756,7 +10796,7 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
@@ -13155,7 +13195,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 105,
+    "rating": 106,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14674,7 +14714,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 543,
+    "rating": 544,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14914,7 +14954,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 864,
+    "rating": 865,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
