@@ -1177,7 +1177,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 220,
+    "rating": 221,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -3114,7 +3114,7 @@
       "Pete-Hamlin"
     ],
     "rating": 6,
-    "updated": "2025-03-24",
+    "updated": "2025-03-25",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -3134,7 +3134,7 @@
       "Pete-Hamlin"
     ],
     "rating": 0,
-    "updated": "2025-03-23",
+    "updated": "2025-03-25",
     "url": "https://github.com/Pete-Hamlin/taskwarrior-hooks"
   },
   {
@@ -3493,7 +3493,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -4896,7 +4896,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -5076,7 +5076,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 504,
+    "rating": 505,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5716,7 +5716,7 @@
     "owner": [
       "cherryramatisdev"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2025-02-16",
     "url": "https://github.com/cherryramatisdev/taskmage"
   },
@@ -6696,7 +6696,7 @@
       "duckdm"
     ],
     "rating": 32,
-    "updated": "2025-03-20",
+    "updated": "2025-03-25",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
   {
@@ -7006,7 +7006,7 @@
       "taskwarrior3"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -9178,7 +9178,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 393,
+    "rating": 394,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9378,7 +9378,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1629,
+    "rating": 1630,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10757,7 +10757,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2025-03-24",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -10956,7 +10956,7 @@
       "maxjoehnk"
     ],
     "rating": 25,
-    "updated": "2025-03-22",
+    "updated": "2025-03-25",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13833,7 +13833,7 @@
     "owner": [
       "shushcat"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2017-11-26",
     "url": "https://github.com/shushcat/taskgv"
   },
@@ -14974,7 +14974,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 866,
+    "rating": 867,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15414,7 +15414,7 @@
     "owner": [
       "voidcase"
     ],
-    "rating": 5,
+    "rating": 4,
     "updated": "2020-06-26",
     "url": "https://github.com/voidcase/taskseq"
   },
