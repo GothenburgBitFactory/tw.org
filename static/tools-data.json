@@ -1357,7 +1357,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 38,
+    "rating": 40,
     "updated": "2024-12-25",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -2573,7 +2573,7 @@
     "owner": [
       "LanHikari22"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-11-04",
     "url": "https://github.com/LanHikari22/TTM"
   },
@@ -11714,7 +11714,7 @@
     "owner": [
       "msoulier"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-01-26",
     "url": "https://github.com/msoulier/tasks"
   },
@@ -11877,6 +11877,26 @@
     "rating": 4,
     "updated": "2016-06-14",
     "url": "https://github.com/nasoym/task_tools"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Scripts for syncing tasks between your obsidian repository and taskwarrior",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "obsidian-taskwarrior-sync",
+    "owner": [
+      "nbossard"
+    ],
+    "rating": 0,
+    "updated": "2025-03-27",
+    "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
   {
     "archived": false,
@@ -13769,26 +13789,6 @@
       "JavaScript"
     ],
     "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "shahabhusain"
-    ],
-    "rating": 0,
-    "updated": "2025-03-07",
-    "url": "https://github.com/shahabhusain/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
     "name": "taskServer",
     "owner": [
       "shahanasherin-p"
@@ -14534,7 +14534,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 47,
+    "rating": 48,
     "updated": "2024-12-05",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -14694,7 +14694,7 @@
     "owner": [
       "thehunmonkgroup"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2024-02-07",
     "url": "https://github.com/thehunmonkgroup/onenote"
   },
@@ -14814,8 +14814,8 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 123,
-    "updated": "2025-03-23",
+    "rating": 122,
+    "updated": "2025-03-28",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
