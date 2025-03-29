@@ -1796,7 +1796,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 757,
+    "rating": 761,
     "updated": "2025-02-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1855,7 +1855,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 150,
+    "rating": 151,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -4146,6 +4146,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A tiny todo list app, in the style of Taskwarrior, written to learn Rust",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "rust-task",
+    "owner": [
+      "adam-nelson-kunai"
+    ],
+    "rating": 0,
+    "updated": "2025-03-28",
+    "url": "https://github.com/adam-nelson-kunai/rust-task"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "reward system for taskwarrior",
     "dormant": true,
     "language": [
@@ -5296,7 +5316,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 86,
+    "rating": 87,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -5656,7 +5676,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 55,
+    "rating": 54,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -8155,7 +8175,7 @@
     "owner": [
       "initBasti"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-02-14",
     "url": "https://github.com/initBasti/context-switch-warrior"
   },
@@ -9258,7 +9278,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 17,
+    "rating": 16,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -9378,7 +9398,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1630,
+    "rating": 1629,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10757,8 +10777,8 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 4,
-    "updated": "2025-03-24",
+    "rating": 6,
+    "updated": "2025-03-28",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -11895,7 +11915,7 @@
       "nbossard"
     ],
     "rating": 0,
-    "updated": "2025-03-27",
+    "updated": "2025-03-28",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
   {
@@ -14734,7 +14754,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 545,
+    "rating": 546,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -14814,7 +14834,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 122,
+    "rating": 123,
     "updated": "2025-03-28",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15374,7 +15394,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 514,
+    "rating": 515,
     "updated": "2025-02-23",
     "url": "https://github.com/vit-project/vit"
   },
