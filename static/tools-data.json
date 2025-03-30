@@ -1016,9 +1016,29 @@
     "owner": [
       "ChrisKSeal"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-10-18",
     "url": "https://github.com/ChrisKSeal/taskjira"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A lightweight REST API backend for a task management application.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Christian-Kammerath"
+    ],
+    "rating": 0,
+    "updated": "2025-03-30",
+    "url": "https://github.com/Christian-Kammerath/TaskServer"
   },
   {
     "archived": false,
@@ -1855,7 +1875,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 151,
+    "rating": 150,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1915,7 +1935,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 76,
+    "rating": 75,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -7456,7 +7476,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-03-20",
+    "updated": "2025-03-29",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9398,7 +9418,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1629,
+    "rating": 1631,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9737,7 +9757,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 140,
+    "rating": 141,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -10237,7 +10257,7 @@
     "owner": [
       "linuxcaffe"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2024-11-12",
     "url": "https://github.com/linuxcaffe/tw-import-export-scripts"
   },
@@ -11595,7 +11615,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-03-23",
+    "updated": "2025-03-30",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -11915,7 +11935,7 @@
       "nbossard"
     ],
     "rating": 0,
-    "updated": "2025-03-28",
+    "updated": "2025-03-29",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
   {
@@ -12215,7 +12235,7 @@
     "owner": [
       "nkakouros-original"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2021-10-28",
     "url": "https://github.com/nkakouros-original/ansible-role-taskserver"
   },
@@ -14834,7 +14854,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 123,
+    "rating": 124,
     "updated": "2025-03-28",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
