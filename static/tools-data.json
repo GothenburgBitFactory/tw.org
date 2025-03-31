@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 95,
+    "rating": 96,
     "updated": "2025-03-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -1875,7 +1875,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 150,
+    "rating": 151,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -3133,7 +3133,7 @@
     "owner": [
       "Pete-Hamlin"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2025-03-26",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
@@ -6735,7 +6735,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2025-03-25",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -9418,7 +9418,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1631,
+    "rating": 1633,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10792,13 +10792,13 @@
     "language": [
       "Swift"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "taskchamp",
     "owner": [
       "marriagav"
     ],
     "rating": 6,
-    "updated": "2025-03-28",
+    "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -11935,7 +11935,7 @@
       "nbossard"
     ],
     "rating": 0,
-    "updated": "2025-03-29",
+    "updated": "2025-03-30",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
   {
@@ -13674,7 +13674,7 @@
     "owner": [
       "scottyob"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2024-07-05",
     "url": "https://github.com/scottyob/taskwarrior-better-recur"
   },
@@ -14094,7 +14094,7 @@
       "smemsh"
     ],
     "rating": 3,
-    "updated": "2025-03-24",
+    "updated": "2025-03-31",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14855,7 +14855,7 @@
       "tmahmood"
     ],
     "rating": 124,
-    "updated": "2025-03-28",
+    "updated": "2025-03-31",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
