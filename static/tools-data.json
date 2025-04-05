@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 10,
+    "rating": 9,
     "updated": "2025-03-24",
     "url": "https://github.com/CCExtractor/ccsync"
   },
@@ -1837,7 +1837,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 763,
-    "updated": "2025-02-20",
+    "updated": "2025-04-04",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 103,
+    "rating": 104,
     "updated": "2025-03-14",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -2434,7 +2434,7 @@
       "KGB33"
     ],
     "rating": 2,
-    "updated": "2025-02-03",
+    "updated": "2025-04-04",
     "url": "https://github.com/KGB33/tasky"
   },
   {
@@ -3643,26 +3643,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Project template that enforces documentation and project lifecycle across tools; nvim, taskwarrior, drawio, using githooks to enforce and automate tracking.",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "task-driven-development",
-    "owner": [
-      "SunGodRamen"
-    ],
-    "rating": 0,
-    "updated": "2023-03-24",
-    "url": "https://github.com/SunGodRamen/task-driven-development"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "a template rust project using my local vim and taskwarrior config setup",
     "dormant": false,
     "language": [
@@ -4139,6 +4119,26 @@
     "rating": 0,
     "updated": "2023-03-30",
     "url": "https://github.com/absolutelink/taskwarrior-docker"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "taskwarrior mcp!",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-mcp",
+    "owner": [
+      "acebaggins"
+    ],
+    "rating": 0,
+    "updated": "2025-04-04",
+    "url": "https://github.com/acebaggins/taskwarrior-mcp"
   },
   {
     "archived": false,
@@ -11655,7 +11655,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-03-30",
+    "updated": "2025-04-04",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -11665,7 +11665,7 @@
       "taskwarrior3"
     ],
     "description": "A collection of taskwarrior hooks written in rust (because of speed)",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "Rust"
     ],
@@ -11675,7 +11675,7 @@
       "mrVanDalo"
     ],
     "rating": 14,
-    "updated": "2022-02-22",
+    "updated": "2025-04-04",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
   {
@@ -13715,7 +13715,7 @@
       "scottyob"
     ],
     "rating": 3,
-    "updated": "2024-07-05",
+    "updated": "2025-04-04",
     "url": "https://github.com/scottyob/taskwarrior-better-recur"
   },
   {
@@ -13755,7 +13755,7 @@
       "scottyob"
     ],
     "rating": 0,
-    "updated": "2024-10-29",
+    "updated": "2025-04-04",
     "url": "https://github.com/scottyob/taskwarrior-summary"
   },
   {
@@ -15525,7 +15525,7 @@
       "taskwarrior2"
     ],
     "description": "Taskwarrior hooks application for extended note taking",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
