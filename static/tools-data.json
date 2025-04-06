@@ -877,7 +877,7 @@
       "CCExtractor"
     ],
     "rating": 9,
-    "updated": "2025-03-24",
+    "updated": "2025-04-05",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1837,7 +1837,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 763,
-    "updated": "2025-04-04",
+    "updated": "2025-04-05",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -2576,6 +2576,26 @@
     "rating": 0,
     "updated": "2024-07-07",
     "url": "https://github.com/Ks3216/TASKWARRIOR-FLUTTER-PROJECT"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Bash scripts and .NET program for automating TaskWarrior and TimeWarrior tasks creation and exporting process",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "DailyPlanner",
+    "owner": [
+      "KsenoxCr"
+    ],
+    "rating": 0,
+    "updated": "2025-04-05",
+    "url": "https://github.com/KsenoxCr/DailyPlanner"
   },
   {
     "archived": false,
@@ -4137,7 +4157,7 @@
       "acebaggins"
     ],
     "rating": 0,
-    "updated": "2025-04-04",
+    "updated": "2025-04-06",
     "url": "https://github.com/acebaggins/taskwarrior-mcp"
   },
   {
@@ -9438,7 +9458,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1639,
+    "rating": 1642,
     "updated": "2025-01-04",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10698,7 +10718,7 @@
       "maralorn"
     ],
     "rating": 12,
-    "updated": "2023-07-31",
+    "updated": "2025-04-05",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -10817,7 +10837,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 7,
+    "rating": 9,
     "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -12575,7 +12595,7 @@
     "owner": [
       "oleg-fiksel"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2017-10-24",
     "url": "https://github.com/oleg-fiksel/ansible-taskd"
   },
