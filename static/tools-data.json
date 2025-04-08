@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 763,
+    "rating": 762,
     "updated": "2025-04-05",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -4157,7 +4157,7 @@
       "acebaggins"
     ],
     "rating": 0,
-    "updated": "2025-04-06",
+    "updated": "2025-04-07",
     "url": "https://github.com/acebaggins/taskwarrior-mcp"
   },
   {
@@ -6135,7 +6135,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 295,
+    "rating": 296,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -7755,7 +7755,7 @@
     "owner": [
       "grovesteyn"
     ],
-    "rating": 34,
+    "rating": 33,
     "updated": "2024-05-24",
     "url": "https://github.com/grovesteyn/tchart"
   },
@@ -9258,7 +9258,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 396,
+    "rating": 395,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9458,8 +9458,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1642,
-    "updated": "2025-01-04",
+    "rating": 1643,
+    "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -9797,7 +9797,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 141,
+    "rating": 140,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -10898,7 +10898,7 @@
       "marty-oehme"
     ],
     "rating": 0,
-    "updated": "2025-04-01",
+    "updated": "2025-04-07",
     "url": "https://github.com/marty-oehme/topen"
   },
   {
@@ -11994,8 +11994,8 @@
     "owner": [
       "nbossard"
     ],
-    "rating": 0,
-    "updated": "2025-04-03",
+    "rating": 1,
+    "updated": "2025-04-07",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
   {
@@ -14634,7 +14634,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 48,
+    "rating": 49,
     "updated": "2024-12-05",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -15074,7 +15074,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 869,
+    "rating": 870,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
