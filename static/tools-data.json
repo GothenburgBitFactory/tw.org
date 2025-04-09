@@ -896,7 +896,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 172,
+    "rating": 171,
     "updated": "2025-03-17",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1857,7 +1857,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 104,
-    "updated": "2025-03-14",
+    "updated": "2025-04-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1876,8 +1876,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 96,
-    "updated": "2025-03-15",
+    "rating": 97,
+    "updated": "2025-04-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2434,7 +2434,7 @@
       "KGB33"
     ],
     "rating": 2,
-    "updated": "2025-04-04",
+    "updated": "2025-04-08",
     "url": "https://github.com/KGB33/tasky"
   },
   {
@@ -4583,6 +4583,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A wrapper for Taskwarrior to extend its functionality: automated imports, email reminders, calendar export, etc.",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "todo",
+    "owner": [
+      "algorist-ahmad"
+    ],
+    "rating": 0,
+    "updated": "2025-04-08",
+    "url": "https://github.com/algorist-ahmad/todo"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -5156,7 +5176,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 507,
+    "rating": 508,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6496,7 +6516,7 @@
       "devSadakat"
     ],
     "rating": 0,
-    "updated": "2025-03-31",
+    "updated": "2025-04-08",
     "url": "https://github.com/devSadakat/TaskServer"
   },
   {
@@ -8624,26 +8644,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Python app for use with Taskwarrior + Bugwarrior to align priorities and due dates to open sprints in JIRA",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "jtmote",
-    "owner": [
-      "jdcasey"
-    ],
-    "rating": 1,
-    "updated": "2017-10-06",
-    "url": "https://github.com/jdcasey/jtmote"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "TaskWarrior -> Remind converter",
     "dormant": true,
     "language": [
@@ -9458,7 +9458,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1643,
+    "rating": 1645,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10898,7 +10898,7 @@
       "marty-oehme"
     ],
     "rating": 0,
-    "updated": "2025-04-07",
+    "updated": "2025-04-08",
     "url": "https://github.com/marty-oehme/topen"
   },
   {
@@ -11995,7 +11995,7 @@
       "nbossard"
     ],
     "rating": 1,
-    "updated": "2025-04-07",
+    "updated": "2025-04-08",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
   {
@@ -14914,7 +14914,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 126,
+    "rating": 127,
     "updated": "2025-04-06",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
