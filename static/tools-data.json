@@ -1197,7 +1197,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 222,
+    "rating": 223,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -13186,7 +13186,7 @@
       "taskwarrior2"
     ],
     "description": "A fork of the default on-modify hook from Taskwarrior to change how tags are transferred to Timewarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -14914,7 +14914,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 128,
+    "rating": 129,
     "updated": "2025-04-06",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15074,7 +15074,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 870,
+    "rating": 869,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15474,7 +15474,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 517,
+    "rating": 518,
     "updated": "2025-02-23",
     "url": "https://github.com/vit-project/vit"
   },
