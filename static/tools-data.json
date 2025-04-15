@@ -117,7 +117,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2025-03-04",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -3553,7 +3553,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -4996,7 +4996,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -5399,26 +5399,6 @@
     "rating": 87,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Don't forget to pay your Drinks! Add a taskwarrior-task if your matemat balance is critical.",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "matetask",
-    "owner": [
-      "blastmaster"
-    ],
-    "rating": 0,
-    "updated": "2016-04-07",
-    "url": "https://github.com/blastmaster/matetask"
   },
   {
     "archived": false,
@@ -7458,6 +7438,26 @@
     "rating": 1,
     "updated": "2019-05-20",
     "url": "https://github.com/fsimkovic/taskwarrior-pomodoro"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": " Uses data from taskwarrior and timewarrior to indicate which task should be done next ",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "scheduler",
+    "owner": [
+      "ftapajos"
+    ],
+    "rating": 0,
+    "updated": "2025-04-14",
+    "url": "https://github.com/ftapajos/scheduler"
   },
   {
     "archived": false,
@@ -10837,7 +10837,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 9,
+    "rating": 11,
     "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -11056,7 +11056,7 @@
       "maxjoehnk"
     ],
     "rating": 25,
-    "updated": "2025-03-25",
+    "updated": "2025-04-14",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11994,8 +11994,8 @@
     "owner": [
       "nbossard"
     ],
-    "rating": 1,
-    "updated": "2025-04-13",
+    "rating": 2,
+    "updated": "2025-04-14",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
   {
@@ -14634,7 +14634,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 49,
+    "rating": 50,
     "updated": "2024-12-05",
     "url": "https://github.com/tbabej/taskpirate"
   },
