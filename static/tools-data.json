@@ -3174,7 +3174,7 @@
       "Pete-Hamlin"
     ],
     "rating": 7,
-    "updated": "2025-04-13",
+    "updated": "2025-04-17",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -7945,26 +7945,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Solarized color scheme for taskwarrior",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskwarrior-solarized",
-    "owner": [
-      "hpainter"
-    ],
-    "rating": 3,
-    "updated": "2015-01-07",
-    "url": "https://github.com/hpainter/taskwarrior-solarized"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": null,
     "dormant": false,
     "language": [
@@ -9458,7 +9438,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1652,
+    "rating": 1651,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14915,7 +14895,7 @@
       "tmahmood"
     ],
     "rating": 129,
-    "updated": "2025-04-16",
+    "updated": "2025-04-17",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
@@ -15474,7 +15454,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 518,
+    "rating": 517,
     "updated": "2025-02-23",
     "url": "https://github.com/vit-project/vit"
   },
