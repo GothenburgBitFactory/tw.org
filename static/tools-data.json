@@ -208,7 +208,7 @@
       "taskwarrior2"
     ],
     "description": "Bakalari -> Taskwarrior syncing",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -2177,26 +2177,6 @@
     "rating": 17,
     "updated": "2024-05-28",
     "url": "https://github.com/HiveMinds/tw-install"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "SideBar",
-    "owner": [
-      "HomosekRub"
-    ],
-    "rating": 1,
-    "updated": "2024-11-11",
-    "url": "https://github.com/HomosekRub/SideBar"
   },
   {
     "archived": false,
@@ -5176,7 +5156,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 511,
+    "rating": 512,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5677,7 +5657,7 @@
     "owner": [
       "catanadj"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-03-06",
     "url": "https://github.com/catanadj/tasksultan"
   },
@@ -6775,7 +6755,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2025-04-03",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -7938,6 +7918,26 @@
     "rating": 3,
     "updated": "2015-02-16",
     "url": "https://github.com/hpainter/task-toggl"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Solarized color scheme for taskwarrior",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-solarized",
+    "owner": [
+      "hpainter"
+    ],
+    "rating": 3,
+    "updated": "2015-01-07",
+    "url": "https://github.com/hpainter/taskwarrior-solarized"
   },
   {
     "archived": false,
@@ -9438,7 +9438,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1651,
+    "rating": 1653,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14894,7 +14894,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 129,
+    "rating": 130,
     "updated": "2025-04-17",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15597,6 +15597,26 @@
     "rating": 6,
     "updated": "2022-02-13",
     "url": "https://github.com/winpat/taskwarrior.el"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Tools and printables for my GTD workflow",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskwarrior-extras",
+    "owner": [
+      "wlbirula"
+    ],
+    "rating": 0,
+    "updated": "2025-04-18",
+    "url": "https://github.com/wlbirula/taskwarrior-extras"
   },
   {
     "archived": true,
