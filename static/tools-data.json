@@ -2181,6 +2181,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "SideBar",
+    "owner": [
+      "HomosekRub"
+    ],
+    "rating": 1,
+    "updated": "2024-11-11",
+    "url": "https://github.com/HomosekRub/SideBar"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -3036,26 +3056,6 @@
     "rating": 0,
     "updated": "2021-06-11",
     "url": "https://github.com/Nitesh7664/taskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Opinionated bash script designed to make it easier (and prettier) to create new tasks for Taskwarrior",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": "MIT License",
-    "name": "nt",
-    "owner": [
-      "OctavioSardi"
-    ],
-    "rating": 1,
-    "updated": "2024-07-03",
-    "url": "https://github.com/OctavioSardi/nt"
   },
   {
     "archived": false,
@@ -9438,7 +9438,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1653,
+    "rating": 1656,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11655,7 +11655,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-04-13",
+    "updated": "2025-04-20",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -14895,7 +14895,7 @@
       "tmahmood"
     ],
     "rating": 130,
-    "updated": "2025-04-17",
+    "updated": "2025-04-19",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
