@@ -1204,6 +1204,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Build files for compiling statically-linked taskwarrior binaries on Android",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "taskwarrior-android",
+    "owner": [
+      "DISTREAT"
+    ],
+    "rating": 0,
+    "updated": "2025-04-21",
+    "url": "https://github.com/DISTREAT/taskwarrior-android"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -1857,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 106,
-    "updated": "2025-04-12",
+    "updated": "2025-04-21",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2177,26 +2197,6 @@
     "rating": 17,
     "updated": "2024-05-28",
     "url": "https://github.com/HiveMinds/tw-install"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "SideBar",
-    "owner": [
-      "HomosekRub"
-    ],
-    "rating": 1,
-    "updated": "2024-11-11",
-    "url": "https://github.com/HomosekRub/SideBar"
   },
   {
     "archived": false,
@@ -4136,7 +4136,7 @@
     "owner": [
       "acebaggins"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-04-07",
     "url": "https://github.com/acebaggins/taskwarrior-mcp"
   },
@@ -4976,7 +4976,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -10367,26 +10367,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A crontab setup to export a Time Of Day system variable, as a filter for taskwarrior",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "tw-tod-crontab",
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 0,
-    "updated": "2021-10-30",
-    "url": "https://github.com/linuxcaffe/tw-tod-crontab"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "taskwarrior time-of-day script",
     "dormant": true,
     "language": [
@@ -10577,7 +10557,7 @@
     "owner": [
       "lyz-code"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2018-07-04",
     "url": "https://github.com/lyz-code/taskban"
   },
@@ -13681,6 +13661,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A CLI Wrapper for TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "Other",
+    "name": "taskr",
+    "owner": [
+      "schizoprada"
+    ],
+    "rating": 0,
+    "updated": "2025-04-21",
+    "url": "https://github.com/schizoprada/taskr"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -14895,7 +14895,7 @@
       "tmahmood"
     ],
     "rating": 130,
-    "updated": "2025-04-19",
+    "updated": "2025-04-21",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
@@ -15175,7 +15175,7 @@
       "tschaefer"
     ],
     "rating": 3,
-    "updated": "2025-03-16",
+    "updated": "2025-04-21",
     "url": "https://github.com/tschaefer/taskwarrior-calendar"
   },
   {
