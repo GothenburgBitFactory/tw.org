@@ -1218,7 +1218,7 @@
       "DISTREAT"
     ],
     "rating": 0,
-    "updated": "2025-04-21",
+    "updated": "2025-04-22",
     "url": "https://github.com/DISTREAT/taskwarrior-android"
   },
   {
@@ -1896,7 +1896,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 97,
+    "rating": 98,
     "updated": "2025-04-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4976,7 +4976,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -5500,6 +5500,26 @@
     "rating": 0,
     "updated": "2018-03-19",
     "url": "https://github.com/bradyt/taskdsetup"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Asana/Taskwarrior bidirectional sync with comments",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "asana-warrior",
+    "owner": [
+      "bretwardjames"
+    ],
+    "rating": 0,
+    "updated": "2025-04-22",
+    "url": "https://github.com/bretwardjames/asana-warrior"
   },
   {
     "archived": true,
@@ -9368,26 +9388,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A simple pomodoro timer that integrates with taskwarrior. Because there aren't enough of those.",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "pomodoro-warrior",
-    "owner": [
-      "kanderoo"
-    ],
-    "rating": 0,
-    "updated": "2023-07-07",
-    "url": "https://github.com/kanderoo/pomodoro-warrior"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Taskwarrior module for the prezto framework",
     "dormant": true,
     "language": [
@@ -10858,7 +10858,7 @@
       "marty-oehme"
     ],
     "rating": 0,
-    "updated": "2025-04-10",
+    "updated": "2025-04-22",
     "url": "https://github.com/marty-oehme/topen"
   },
   {
@@ -11955,7 +11955,7 @@
       "nbossard"
     ],
     "rating": 2,
-    "updated": "2025-04-15",
+    "updated": "2025-04-22",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
   {
@@ -13675,7 +13675,7 @@
       "schizoprada"
     ],
     "rating": 0,
-    "updated": "2025-04-21",
+    "updated": "2025-04-22",
     "url": "https://github.com/schizoprada/taskr"
   },
   {
@@ -15175,7 +15175,7 @@
       "tschaefer"
     ],
     "rating": 3,
-    "updated": "2025-04-21",
+    "updated": "2025-04-22",
     "url": "https://github.com/tschaefer/taskwarrior-calendar"
   },
   {
@@ -15454,8 +15454,8 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 517,
-    "updated": "2025-02-23",
+    "rating": 518,
+    "updated": "2025-04-22",
     "url": "https://github.com/vit-project/vit"
   },
   {
