@@ -1217,7 +1217,7 @@
     "owner": [
       "DISTREAT"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-04-22",
     "url": "https://github.com/DISTREAT/taskwarrior-android"
   },
@@ -1757,7 +1757,7 @@
       "Gabz-Araujo"
     ],
     "rating": 0,
-    "updated": "2025-04-01",
+    "updated": "2025-04-23",
     "url": "https://github.com/Gabz-Araujo/taskwarrior-nvim"
   },
   {
@@ -1877,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 106,
-    "updated": "2025-04-21",
+    "updated": "2025-04-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3533,7 +3533,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -4566,7 +4566,7 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A wrapper for Taskwarrior to extend its functionality: automated imports, email reminders, calendar export, etc.",
+    "description": "CLI front-end to Taskwarrior with more functionalities: automated imports, email reminders, calendar export, etc.",
     "dormant": false,
     "language": [
       "Shell"
@@ -5319,6 +5319,26 @@
     "rating": 257,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "program to convert plaintext tasks file into taskwarrior",
+    "dormant": false,
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "taskwarrior_convert_plaintext",
+    "owner": [
+      "blackthorne7"
+    ],
+    "rating": 0,
+    "updated": "2025-04-24",
+    "url": "https://github.com/blackthorne7/taskwarrior_convert_plaintext"
   },
   {
     "archived": false,
@@ -7456,7 +7476,7 @@
       "ftapajos"
     ],
     "rating": 0,
-    "updated": "2025-04-14",
+    "updated": "2025-04-24",
     "url": "https://github.com/ftapajos/scheduler"
   },
   {
@@ -10797,7 +10817,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -15454,7 +15474,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 518,
+    "rating": 519,
     "updated": "2025-04-22",
     "url": "https://github.com/vit-project/vit"
   },
