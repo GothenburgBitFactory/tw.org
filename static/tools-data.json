@@ -1212,13 +1212,13 @@
     "language": [
       "Shell"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "taskwarrior-android",
     "owner": [
       "DISTREAT"
     ],
     "rating": 1,
-    "updated": "2025-04-22",
+    "updated": "2025-04-25",
     "url": "https://github.com/DISTREAT/taskwarrior-android"
   },
   {
@@ -1418,7 +1418,7 @@
       "DestinyofYeet"
     ],
     "rating": 1,
-    "updated": "2025-03-06",
+    "updated": "2025-04-24",
     "url": "https://github.com/DestinyofYeet/waybar-taskwarrior.rs"
   },
   {
@@ -3533,7 +3533,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -5156,7 +5156,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 511,
+    "rating": 512,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5530,7 +5530,7 @@
     "description": "Asana/Taskwarrior bidirectional sync with comments",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": null,
     "name": "asana-warrior",
@@ -5538,7 +5538,7 @@
       "bretwardjames"
     ],
     "rating": 0,
-    "updated": "2025-04-22",
+    "updated": "2025-04-25",
     "url": "https://github.com/bretwardjames/asana-warrior"
   },
   {
@@ -9458,7 +9458,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1656,
+    "rating": 1657,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11036,7 +11036,7 @@
       "maxjoehnk"
     ],
     "rating": 25,
-    "updated": "2025-04-14",
+    "updated": "2025-04-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11974,7 +11974,7 @@
     "owner": [
       "nbossard"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2025-04-22",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
