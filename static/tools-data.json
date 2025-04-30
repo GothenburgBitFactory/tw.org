@@ -1975,7 +1975,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 76,
+    "rating": 77,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3298,7 +3298,7 @@
     "url": "https://github.com/QantumEntangled/taskwarrior-web-dc"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskserver",
       "taskwarrior2"
@@ -4956,7 +4956,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -5416,7 +5416,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 522,
+    "rating": 523,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5518,7 +5518,7 @@
       "bretwardjames"
     ],
     "rating": 0,
-    "updated": "2025-04-28",
+    "updated": "2025-04-30",
     "url": "https://github.com/bretwardjames/asana-warrior"
   },
   {
@@ -9298,7 +9298,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 396,
+    "rating": 397,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9403,6 +9403,26 @@
     "url": "https://github.com/juraph-dev/emacs-taskwarrior-export"
   },
   {
+    "archived": true,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Ansible-driven configuration management for maintaining a preferred environment (base system and app dotfiles / configurations)",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "swiss-army",
+    "owner": [
+      "justjwheelin"
+    ],
+    "rating": 49,
+    "updated": "2020-08-29",
+    "url": "https://github.com/justjwheelin/swiss-army"
+  },
+  {
     "archived": false,
     "category": [
       "taskserver",
@@ -9478,7 +9498,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1656,
+    "rating": 1657,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11995,7 +12015,7 @@
       "nbossard"
     ],
     "rating": 3,
-    "updated": "2025-04-22",
+    "updated": "2025-04-29",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
   {
@@ -12194,7 +12214,7 @@
     "owner": [
       "neuhalje"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2019-05-27",
     "url": "https://github.com/neuhalje/docker-mua-and-friends"
   },
@@ -13874,7 +13894,7 @@
     "owner": [
       "sgaraud"
     ],
-    "rating": 49,
+    "rating": 50,
     "updated": "2021-09-08",
     "url": "https://github.com/sgaraud/gnome-extension-taskwarrior"
   },
@@ -14654,7 +14674,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 51,
+    "rating": 52,
     "updated": "2024-12-05",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -14934,8 +14954,8 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 131,
-    "updated": "2025-04-28",
+    "rating": 133,
+    "updated": "2025-04-29",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
@@ -15494,7 +15514,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 520,
+    "rating": 521,
     "updated": "2025-04-22",
     "url": "https://github.com/vit-project/vit"
   },
