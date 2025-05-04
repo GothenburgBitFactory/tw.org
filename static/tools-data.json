@@ -1877,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 107,
-    "updated": "2025-05-02",
+    "updated": "2025-05-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -4539,26 +4539,6 @@
     "rating": 11,
     "updated": "2014-02-12",
     "url": "https://github.com/alfredopalhares/cookbook-taskwarrior"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "CLI front-end to Taskwarrior with more functionalities: automated imports, email reminders, calendar export, etc.",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": null,
-    "name": "todo",
-    "owner": [
-      "algorist-ahmad"
-    ],
-    "rating": 0,
-    "updated": "2025-05-01",
-    "url": "https://github.com/algorist-ahmad/todo"
   },
   {
     "archived": false,
@@ -9298,7 +9278,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 398,
+    "rating": 399,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -11695,7 +11675,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-04-27",
+    "updated": "2025-05-04",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -15114,7 +15094,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 870,
+    "rating": 869,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15514,7 +15494,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 522,
+    "rating": 523,
     "updated": "2025-04-22",
     "url": "https://github.com/vit-project/vit"
   },
@@ -15898,6 +15878,26 @@
     "rating": 0,
     "updated": "2025-03-05",
     "url": "https://github.com/yongli-abc/taskwarrior-iSH-Mac-syn"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "task management and note taking system based on taskwarrior and vim(rewrite of task-management)",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskmanager",
+    "owner": [
+      "youzark"
+    ],
+    "rating": 0,
+    "updated": "2021-09-28",
+    "url": "https://github.com/youzark/taskmanager"
   },
   {
     "archived": false,
