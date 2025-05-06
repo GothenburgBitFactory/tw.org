@@ -1202,7 +1202,7 @@
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskwarrior2",
       "taskwarrior3"
@@ -1222,7 +1222,7 @@
     "url": "https://github.com/DISTREAT/taskwarrior-android"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskwarrior2",
       "taskwarrior3"
@@ -1238,7 +1238,7 @@
       "DISTREAT"
     ],
     "rating": 0,
-    "updated": "2025-05-04",
+    "updated": "2025-05-05",
     "url": "https://github.com/DISTREAT/taskwarrior-android-app"
   },
   {
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 765,
+    "rating": 766,
     "updated": "2025-05-02",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3194,7 +3194,7 @@
       "Pete-Hamlin"
     ],
     "rating": 0,
-    "updated": "2025-03-26",
+    "updated": "2025-05-05",
     "url": "https://github.com/Pete-Hamlin/taskwarrior-hooks"
   },
   {
@@ -5136,7 +5136,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 512,
+    "rating": 513,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7676,7 +7676,7 @@
       "googlebume"
     ],
     "rating": 0,
-    "updated": "2024-12-15",
+    "updated": "2025-05-05",
     "url": "https://github.com/googlebume/TaskWarriors-hackathon"
   },
   {
@@ -13774,7 +13774,7 @@
     "owner": [
       "scottyob"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2025-04-04",
     "url": "https://github.com/scottyob/taskwarrior-better-recur"
   },
@@ -15114,7 +15114,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 869,
+    "rating": 870,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
@@ -15514,7 +15514,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 522,
+    "rating": 521,
     "updated": "2025-04-22",
     "url": "https://github.com/vit-project/vit"
   },
