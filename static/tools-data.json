@@ -1197,7 +1197,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 222,
+    "rating": 223,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 107,
-    "updated": "2025-05-03",
+    "updated": "2025-05-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1916,7 +1916,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 98,
+    "rating": 99,
     "updated": "2025-04-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4056,7 +4056,7 @@
     "owner": [
       "aaschmid"
     ],
-    "rating": 17,
+    "rating": 16,
     "updated": "2020-02-09",
     "url": "https://github.com/aaschmid/taskwarrior-java-client"
   },
@@ -6155,7 +6155,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 298,
+    "rating": 299,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -7235,7 +7235,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 152,
+    "rating": 153,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -9498,7 +9498,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1658,
+    "rating": 1659,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11714,7 +11714,7 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2025-04-04",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
@@ -12976,7 +12976,7 @@
       "plateena"
     ],
     "rating": 0,
-    "updated": "2025-04-13",
+    "updated": "2025-05-06",
     "url": "https://github.com/plateena/taskwarrior"
   },
   {
@@ -15114,7 +15114,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 870,
+    "rating": 871,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
