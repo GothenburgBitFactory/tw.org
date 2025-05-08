@@ -476,7 +476,7 @@ $ task all
 Do I have the latest released version?
 
 ```
-$ curl https://gothenburgbitfactory.org/latest/task
+$ curl -s https://taskwarrior.org/download/|grep -Eo 'v[0-9].{1,4}'
 $ task --version 
-2.5.3
+3.x.x
 ```
