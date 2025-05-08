@@ -424,26 +424,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A baikal plugin that synchronizes iCal TODO events with various remote storages  such as Taskwarrior",
-    "dormant": false,
-    "language": [
-      "PHP"
-    ],
-    "license": null,
-    "name": "baikal-storage-plugin",
-    "owner": [
-      "Aerex"
-    ],
-    "rating": 1,
-    "updated": "2023-08-18",
-    "url": "https://github.com/Aerex/baikal-storage-plugin"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -1876,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 766,
+    "rating": 767,
     "updated": "2025-05-02",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -2923,6 +2903,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Task_2 \u0417\u0430\u0434\u0430\u043d\u0438\u0435 \u043d\u0430 \u043e\u0431\u0440\u0430\u0431\u043e\u0442\u043a\u0443 \u0441\u0435\u0440\u0432\u0435\u0440\u0430",
+    "dormant": false,
+    "language": [
+      "C#"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "MrDokter"
+    ],
+    "rating": 0,
+    "updated": "2025-05-07",
+    "url": "https://github.com/MrDokter/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": null,
     "dormant": false,
     "language": [
@@ -3553,7 +3553,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -5756,7 +5756,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 54,
+    "rating": 55,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -6795,7 +6795,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2025-04-03",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -7655,7 +7655,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 31,
+    "rating": 33,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -9498,7 +9498,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1659,
+    "rating": 1660,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9837,7 +9837,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 140,
+    "rating": 141,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -10857,7 +10857,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -11075,7 +11075,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2025-05-02",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -13355,7 +13355,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 109,
+    "rating": 110,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14474,7 +14474,7 @@
       "strawpants"
     ],
     "rating": 2,
-    "updated": "2024-12-18",
+    "updated": "2025-05-07",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
   {
@@ -14954,7 +14954,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 133,
+    "rating": 134,
     "updated": "2025-05-04",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
