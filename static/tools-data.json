@@ -3523,6 +3523,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "SalnaMohanan"
+    ],
+    "rating": 0,
+    "updated": "2025-05-08",
+    "url": "https://github.com/SalnaMohanan/taskserver"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Shows taskwarrior status as a tray icon",
     "dormant": false,
     "language": [
@@ -4156,7 +4176,7 @@
     "owner": [
       "acebaggins"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-04-07",
     "url": "https://github.com/acebaggins/taskwarrior-mcp"
   },
@@ -5136,7 +5156,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 513,
+    "rating": 515,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5537,7 +5557,7 @@
     "owner": [
       "bretwardjames"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-04-26",
     "url": "https://github.com/bretwardjames/reminder-warrior"
   },
@@ -6256,7 +6276,7 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2024-12-19",
+    "updated": "2025-05-08",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
@@ -11142,26 +11162,6 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": null,
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "task_gcal_sync",
-    "owner": [
-      "mehdidc"
-    ],
-    "rating": 0,
-    "updated": "2018-05-13",
-    "url": "https://github.com/mehdidc/task_gcal_sync"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -15514,7 +15514,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 521,
+    "rating": 522,
     "updated": "2025-04-22",
     "url": "https://github.com/vit-project/vit"
   },
