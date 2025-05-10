@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 174,
+    "rating": 173,
     "updated": "2025-03-17",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1177,7 +1177,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 223,
+    "rating": 224,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1877,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 107,
-    "updated": "2025-05-07",
+    "updated": "2025-05-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2576,26 +2576,6 @@
     "rating": 0,
     "updated": "2024-07-07",
     "url": "https://github.com/Ks3216/TASKWARRIOR-FLUTTER-PROJECT"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Bash scripts and .NET program for automating TaskWarrior and TimeWarrior tasks creation and exporting process",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "DailyPlanner",
-    "owner": [
-      "KsenoxCr"
-    ],
-    "rating": 0,
-    "updated": "2025-04-05",
-    "url": "https://github.com/KsenoxCr/DailyPlanner"
   },
   {
     "archived": false,
@@ -4976,7 +4956,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -5176,7 +5156,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2024-08-10",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
@@ -8365,6 +8345,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskserver",
+    "owner": [
+      "ithavk"
+    ],
+    "rating": 0,
+    "updated": "2025-05-09",
+    "url": "https://github.com/ithavk/taskserver"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Final report for Google Summer of Code 2024 - Taskserver Project",
     "dormant": false,
     "language": [
@@ -8378,6 +8378,26 @@
     "rating": 2,
     "updated": "2024-08-18",
     "url": "https://github.com/its-me-abhishek/gsoc-report"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Final report and work-log for Google Summer of Code 2025 - Taskserver II Project",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "gsoc25-report",
+    "owner": [
+      "its-me-abhishek"
+    ],
+    "rating": 1,
+    "updated": "2025-05-09",
+    "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
     "archived": true,
@@ -9318,7 +9338,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 400,
+    "rating": 401,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9518,7 +9538,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1660,
+    "rating": 1661,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11096,7 +11116,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-05-02",
+    "updated": "2025-05-09",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -14955,7 +14975,7 @@
       "tmahmood"
     ],
     "rating": 134,
-    "updated": "2025-05-04",
+    "updated": "2025-05-09",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
@@ -15978,26 +15998,6 @@
     "rating": 0,
     "updated": "2017-06-09",
     "url": "https://github.com/yunghuffy/champain-taskwarrior_server"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "a small cli to keep track of my current and next task with taskwarrior",
-    "dormant": true,
-    "language": [
-      "Go"
-    ],
-    "license": "Other",
-    "name": "current-next",
-    "owner": [
-      "zacharyfrederick"
-    ],
-    "rating": 0,
-    "updated": "2022-01-11",
-    "url": "https://github.com/zacharyfrederick/current-next"
   },
   {
     "archived": false,
