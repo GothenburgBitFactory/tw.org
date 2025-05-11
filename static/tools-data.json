@@ -3553,7 +3553,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -5136,7 +5136,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 515,
+    "rating": 516,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8035,7 +8035,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 70,
+    "rating": 71,
     "updated": "2025-01-31",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8348,7 +8348,7 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "JavaScript"
     ],
     "license": null,
     "name": "taskserver",
@@ -8356,7 +8356,7 @@
       "ithavk"
     ],
     "rating": 0,
-    "updated": "2025-05-09",
+    "updated": "2025-05-10",
     "url": "https://github.com/ithavk/taskserver"
   },
   {
@@ -8395,8 +8395,8 @@
     "owner": [
       "its-me-abhishek"
     ],
-    "rating": 1,
-    "updated": "2025-05-09",
+    "rating": 2,
+    "updated": "2025-05-10",
     "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
@@ -11715,7 +11715,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-05-04",
+    "updated": "2025-05-11",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
