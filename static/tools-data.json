@@ -337,7 +337,7 @@
     "owner": [
       "ABeehive"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2020-08-03",
     "url": "https://github.com/ABeehive/TaskWarrior-recur-with-until"
   },
@@ -1896,7 +1896,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 99,
+    "rating": 100,
     "updated": "2025-04-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4197,28 +4197,8 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2025-03-02",
+    "updated": "2025-05-11",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A tiny todo list app, in the style of Taskwarrior, written to learn Rust",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "rust-task",
-    "owner": [
-      "adam-nelson-kunai"
-    ],
-    "rating": 0,
-    "updated": "2025-03-28",
-    "url": "https://github.com/adam-nelson-kunai/rust-task"
   },
   {
     "archived": false,
@@ -4956,7 +4936,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -9538,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1661,
+    "rating": 1662,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11238,6 +11218,26 @@
     "rating": 2,
     "updated": "2018-07-06",
     "url": "https://github.com/mhoff/itask"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Display active taskwarrior task status on the panel",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "taskPanel",
+    "owner": [
+      "microfuge"
+    ],
+    "rating": 0,
+    "updated": "2025-05-11",
+    "url": "https://github.com/microfuge/taskPanel"
   },
   {
     "archived": true,
@@ -13794,7 +13794,7 @@
     "owner": [
       "scottyob"
     ],
-    "rating": 4,
+    "rating": 6,
     "updated": "2025-04-04",
     "url": "https://github.com/scottyob/taskwarrior-better-recur"
   },
@@ -14974,7 +14974,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 134,
+    "rating": 135,
     "updated": "2025-05-09",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
