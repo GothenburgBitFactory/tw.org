@@ -1177,7 +1177,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 224,
+    "rating": 223,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1877,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 107,
-    "updated": "2025-05-10",
+    "updated": "2025-05-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 100,
-    "updated": "2025-04-15",
+    "updated": "2025-05-12",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -4156,7 +4156,7 @@
     "owner": [
       "acebaggins"
     ],
-    "rating": 2,
+    "rating": 5,
     "updated": "2025-04-07",
     "url": "https://github.com/acebaggins/taskwarrior-mcp"
   },
@@ -5116,7 +5116,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 516,
+    "rating": 517,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6135,7 +6135,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 299,
+    "rating": 300,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -7536,7 +7536,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-04-16",
+    "updated": "2025-05-12",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -8557,26 +8557,6 @@
     "rating": 69,
     "updated": "2018-07-12",
     "url": "https://github.com/jackdesert/freecinc"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Project management s/w based on taskwarrior and inspired by GTD and cardo(tiddlywiki)",
-    "dormant": false,
-    "language": [
-      "Svelte"
-    ],
-    "license": null,
-    "name": "tw-pm",
-    "owner": [
-      "jahagirdar"
-    ],
-    "rating": 0,
-    "updated": "2023-01-30",
-    "url": "https://github.com/jahagirdar/tw-pm"
   },
   {
     "archived": false,
@@ -11162,6 +11142,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": null,
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "task_gcal_sync",
+    "owner": [
+      "mehdidc"
+    ],
+    "rating": 0,
+    "updated": "2018-05-13",
+    "url": "https://github.com/mehdidc/task_gcal_sync"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -13375,7 +13375,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 110,
+    "rating": 111,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14894,7 +14894,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 550,
+    "rating": 549,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
