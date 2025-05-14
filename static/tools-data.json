@@ -117,7 +117,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2025-05-02",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 173,
+    "rating": 174,
     "updated": "2025-03-17",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 100,
-    "updated": "2025-05-12",
+    "updated": "2025-05-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2493,7 +2493,7 @@
     "owner": [
       "KevinBockelandt"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2016-02-13",
     "url": "https://github.com/KevinBockelandt/TaskwarriorWidget"
   },
@@ -2734,7 +2734,7 @@
       "MCP-Mirror"
     ],
     "rating": 0,
-    "updated": "2025-03-23",
+    "updated": "2025-05-13",
     "url": "https://github.com/MCP-Mirror/awwaiid_mcp-server-taskwarrior"
   },
   {
@@ -3553,7 +3553,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -5116,7 +5116,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 517,
+    "rating": 518,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5356,7 +5356,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 86,
+    "rating": 87,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -7215,7 +7215,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 153,
+    "rating": 154,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -9498,7 +9498,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1662,
+    "rating": 1664,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10857,7 +10857,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -14974,8 +14974,8 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 135,
-    "updated": "2025-05-09",
+    "rating": 136,
+    "updated": "2025-05-13",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
