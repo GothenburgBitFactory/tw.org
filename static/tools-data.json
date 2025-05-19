@@ -5617,7 +5617,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 100,
+    "rating": 101,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -8015,7 +8015,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 71,
+    "rating": 72,
     "updated": "2025-01-31",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9498,7 +9498,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1667,
+    "rating": 1666,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
