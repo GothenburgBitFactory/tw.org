@@ -407,26 +407,6 @@
       "taskwarrior2",
       "taskwarrior3"
     ],
-    "description": "Taskwarrior hook to add an `elapsed` UDA field, and to persist `start` field.",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "tw-hook-elapsed",
-    "owner": [
-      "AceofSpades5757"
-    ],
-    "rating": 0,
-    "updated": "2024-06-26",
-    "url": "https://github.com/AceofSpades5757/tw-hook-elapsed"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
     "description": "Synchronize between Taskwarrior and iCalendar TODO events",
     "dormant": false,
     "language": [
@@ -722,6 +702,26 @@
     "url": "https://github.com/AnotherKamila/taskwarrior-tools"
   },
   {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "This was fun, but now I am using Taskwarrior with my own Tasksched",
+    "dormant": true,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "MIT License",
+    "name": "todo-viewer",
+    "owner": [
+      "AnotherKamila"
+    ],
+    "rating": 0,
+    "updated": "2017-11-30",
+    "url": "https://github.com/AnotherKamila/todo-viewer"
+  },
+  {
     "archived": false,
     "category": [
       "taskwarrior2",
@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 176,
+    "rating": 177,
     "updated": "2025-03-17",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -5116,7 +5116,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 522,
+    "rating": 523,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -12335,7 +12335,7 @@
     "owner": [
       "nkakouros-original"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2021-10-28",
     "url": "https://github.com/nkakouros-original/ansible-role-taskserver"
   },
@@ -15534,7 +15534,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 521,
+    "rating": 523,
     "updated": "2025-04-22",
     "url": "https://github.com/vit-project/vit"
   },
