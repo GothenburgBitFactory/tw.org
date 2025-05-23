@@ -407,6 +407,26 @@
       "taskwarrior2",
       "taskwarrior3"
     ],
+    "description": "Taskwarrior hook to add an `elapsed` UDA field, and to persist `start` field.",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "tw-hook-elapsed",
+    "owner": [
+      "AceofSpades5757"
+    ],
+    "rating": 0,
+    "updated": "2024-06-26",
+    "url": "https://github.com/AceofSpades5757/tw-hook-elapsed"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
     "description": "Synchronize between Taskwarrior and iCalendar TODO events",
     "dormant": false,
     "language": [
@@ -700,26 +720,6 @@
     "rating": 1,
     "updated": "2018-02-22",
     "url": "https://github.com/AnotherKamila/taskwarrior-tools"
-  },
-  {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "This was fun, but now I am using Taskwarrior with my own Tasksched",
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": "MIT License",
-    "name": "todo-viewer",
-    "owner": [
-      "AnotherKamila"
-    ],
-    "rating": 0,
-    "updated": "2017-11-30",
-    "url": "https://github.com/AnotherKamila/todo-viewer"
   },
   {
     "archived": false,
@@ -1837,7 +1837,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 768,
-    "updated": "2025-05-02",
+    "updated": "2025-05-22",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -7536,7 +7536,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-05-12",
+    "updated": "2025-05-22",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
