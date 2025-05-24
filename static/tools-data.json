@@ -407,26 +407,6 @@
       "taskwarrior2",
       "taskwarrior3"
     ],
-    "description": "Taskwarrior hook to add an `elapsed` UDA field, and to persist `start` field.",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "tw-hook-elapsed",
-    "owner": [
-      "AceofSpades5757"
-    ],
-    "rating": 0,
-    "updated": "2024-06-26",
-    "url": "https://github.com/AceofSpades5757/tw-hook-elapsed"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
     "description": "Synchronize between Taskwarrior and iCalendar TODO events",
     "dormant": false,
     "language": [
@@ -1877,7 +1857,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 101,
-    "updated": "2025-05-13",
+    "updated": "2025-05-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2913,7 +2893,7 @@
     "owner": [
       "MythicalCow"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2024-08-16",
     "url": "https://github.com/MythicalCow/vayu"
   },
@@ -9625,6 +9605,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Kevin's Taskwarrior hooks",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "taskwarrior-hooks",
+    "owner": [
+      "kevincojean"
+    ],
+    "rating": 0,
+    "updated": "2025-05-23",
+    "url": "https://github.com/kevincojean/taskwarrior-hooks"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -10738,7 +10738,7 @@
       "maralorn"
     ],
     "rating": 12,
-    "updated": "2025-04-05",
+    "updated": "2025-05-23",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -12174,7 +12174,7 @@
     "owner": [
       "nerab"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2025-02-11",
     "url": "https://github.com/nerab/twdeps"
   },
