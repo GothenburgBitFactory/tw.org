@@ -35,6 +35,8 @@ jobs:
   # This should match the job in test.yml
   build:
     runs-on: ubuntu-latest
+    env:
+      HUGO_VERSION: 0.146.7
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -44,7 +46,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: '0.134.1'
+          hugo-version: ${{ env.HUGO_VERSION }}
+          extended: true
 
       - name: Install Dart Sass
         run: sudo snap install dart-sass
