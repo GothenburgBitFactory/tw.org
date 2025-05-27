@@ -476,7 +476,8 @@ $ task all
 Do I have the latest released version?
 
 ```
-$ curl https://gothenburgbitfactory.org/latest/task
+$ curl -L https://gothenburgbitfactory.org/task/latest
+{{< current_release "version" >}}
 $ task --version 
-2.5.3
+{{< current_release "version" >}}
 ```
