@@ -4043,26 +4043,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A fully configurable HTTP frontend for showing views of your taskwarrior TODO list.",
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskproxy",
-    "owner": [
-      "abesto"
-    ],
-    "rating": 0,
-    "updated": "2015-01-26",
-    "url": "https://github.com/abesto/taskproxy"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -4537,7 +4517,7 @@
       "allgreed"
     ],
     "rating": 1,
-    "updated": "2025-05-28",
+    "updated": "2025-05-29",
     "url": "https://github.com/allgreed/cron"
   },
   {
@@ -5376,7 +5356,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 523,
+    "rating": 524,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -8544,6 +8524,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Taskwarrior scripts to track tasks in directories",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "tw_by_dir",
+    "owner": [
+      "jacostag"
+    ],
+    "rating": 0,
+    "updated": "2025-05-29",
+    "url": "https://github.com/jacostag/tw_by_dir"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Fizzy compliant taskwarrior configs",
     "dormant": true,
     "language": [
@@ -9478,7 +9478,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1671,
+    "rating": 1672,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11076,7 +11076,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-05-09",
+    "updated": "2025-05-29",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -15134,7 +15134,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 875,
+    "rating": 876,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
