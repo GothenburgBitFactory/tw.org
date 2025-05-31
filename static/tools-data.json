@@ -816,7 +816,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2025-04-05",
     "url": "https://github.com/CCExtractor/ccsync"
   },
@@ -1137,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 224,
+    "rating": 225,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1938,26 +1938,6 @@
     "rating": 77,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "taskwarrior-workpoint-report",
-    "owner": [
-      "GyroZepelix"
-    ],
-    "rating": 0,
-    "updated": "2024-05-12",
-    "url": "https://github.com/GyroZepelix/taskwarrior-workpoint-report"
   },
   {
     "archived": false,
@@ -4039,6 +4019,26 @@
     "rating": 13,
     "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A fully configurable HTTP frontend for showing views of your taskwarrior TODO list.",
+    "dormant": true,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskproxy",
+    "owner": [
+      "abesto"
+    ],
+    "rating": 0,
+    "updated": "2015-01-26",
+    "url": "https://github.com/abesto/taskproxy"
   },
   {
     "archived": false,
@@ -9478,7 +9478,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1672,
+    "rating": 1674,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12034,7 +12034,7 @@
     "owner": [
       "nbossard"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2025-05-02",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
@@ -14894,7 +14894,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 549,
+    "rating": 550,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
