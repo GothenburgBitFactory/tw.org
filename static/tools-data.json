@@ -836,7 +836,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 177,
+    "rating": 178,
     "updated": "2025-05-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1358,7 +1358,7 @@
       "DerTimonius"
     ],
     "rating": 42,
-    "updated": "2024-12-25",
+    "updated": "2025-06-01",
     "url": "https://github.com/DerTimonius/twkb"
   },
   {
@@ -1857,7 +1857,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 103,
-    "updated": "2025-05-24",
+    "updated": "2025-06-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2118,26 +2118,6 @@
     "rating": 0,
     "updated": "2025-05-28",
     "url": "https://github.com/Hillbillyer/taskwarrior"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A webapp to visualize and use Taskwarrior as a kanban. (Like trello.com)",
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "tw-Kanban",
-    "owner": [
-      "Hirschiii"
-    ],
-    "rating": 0,
-    "updated": "2023-03-08",
-    "url": "https://github.com/Hirschiii/tw-Kanban"
   },
   {
     "archived": false,
@@ -3020,6 +3000,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "The TaskWarrior sync server that just wants to hide",
+    "dormant": false,
+    "language": [
+      "Zig"
+    ],
+    "license": null,
+    "name": "taskcoward",
+    "owner": [
+      "Oppen"
+    ],
+    "rating": 0,
+    "updated": "2025-06-01",
+    "url": "https://github.com/Oppen/taskcoward"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -3064,7 +3064,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dart"
     ],
@@ -6095,7 +6095,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 300,
+    "rating": 301,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -9478,7 +9478,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1674,
+    "rating": 1675,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10788,7 +10788,7 @@
       "taskwarrior2"
     ],
     "description": "An experimental task-sync alternative via git written in Haskell",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Haskell"
     ],
@@ -14894,7 +14894,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 550,
+    "rating": 551,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -15535,7 +15535,7 @@
       "vit-project"
     ],
     "rating": 524,
-    "updated": "2025-04-22",
+    "updated": "2025-06-01",
     "url": "https://github.com/vit-project/vit"
   },
   {
