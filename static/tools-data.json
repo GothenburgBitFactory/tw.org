@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 18,
-    "updated": "2025-05-27",
+    "updated": "2025-06-02",
     "url": "https://github.com/00sapo/taskcheck"
   },
   {
@@ -817,7 +817,7 @@
       "CCExtractor"
     ],
     "rating": 11,
-    "updated": "2025-04-05",
+    "updated": "2025-06-02",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -836,7 +836,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 178,
+    "rating": 179,
     "updated": "2025-05-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1137,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 225,
+    "rating": 226,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 103,
+    "rating": 104,
     "updated": "2025-06-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2118,6 +2118,26 @@
     "rating": 0,
     "updated": "2025-05-28",
     "url": "https://github.com/Hillbillyer/taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A webapp to visualize and use Taskwarrior as a kanban. (Like trello.com)",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "tw-Kanban",
+    "owner": [
+      "Hirschiii"
+    ],
+    "rating": 0,
+    "updated": "2023-03-08",
+    "url": "https://github.com/Hirschiii/tw-Kanban"
   },
   {
     "archived": false,
@@ -3014,7 +3034,7 @@
       "Oppen"
     ],
     "rating": 0,
-    "updated": "2025-06-01",
+    "updated": "2025-06-02",
     "url": "https://github.com/Oppen/taskcoward"
   },
   {
@@ -4137,7 +4157,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2025-05-20",
+    "updated": "2025-06-02",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -5076,7 +5096,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 525,
+    "rating": 526,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5236,7 +5256,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 257,
+    "rating": 258,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -7975,7 +7995,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2025-05-26",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -8336,7 +8356,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2025-05-14",
+    "updated": "2025-06-02",
     "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
@@ -9338,7 +9358,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2023-07-16",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
@@ -9478,7 +9498,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1675,
+    "rating": 1679,
     "updated": "2025-04-07",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10737,7 +10757,7 @@
     "owner": [
       "maralorn"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2025-05-23",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
@@ -13794,7 +13814,7 @@
     "owner": [
       "scottyob"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2025-04-04",
     "url": "https://github.com/scottyob/taskwarrior-better-recur"
   },
@@ -14383,26 +14403,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A collection of utils for taskwarrior",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskwarrior_utils",
-    "owner": [
-      "srikanthsastry"
-    ],
-    "rating": 0,
-    "updated": "2019-12-25",
-    "url": "https://github.com/srikanthsastry/taskwarrior_utils"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Taskwarrior command for placing tasks on a shelf",
     "dormant": true,
     "language": [
@@ -14974,7 +14974,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 139,
+    "rating": 140,
     "updated": "2025-05-13",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
