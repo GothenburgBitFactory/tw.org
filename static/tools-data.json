@@ -817,7 +817,7 @@
       "CCExtractor"
     ],
     "rating": 12,
-    "updated": "2025-06-04",
+    "updated": "2025-06-05",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -836,7 +836,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 179,
+    "rating": 181,
     "updated": "2025-06-03",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -2903,26 +2903,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Script which adds tasks to taskwarrior with a bunch of intervals (due dates)",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "task-interval",
-    "owner": [
-      "Necior"
-    ],
-    "rating": 0,
-    "updated": "2016-02-18",
-    "url": "https://github.com/Necior/task-interval"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Trello export for Taskwarrior",
     "dormant": true,
     "language": [
@@ -4059,6 +4039,26 @@
     "rating": 13,
     "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A fully configurable HTTP frontend for showing views of your taskwarrior TODO list.",
+    "dormant": true,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskproxy",
+    "owner": [
+      "abesto"
+    ],
+    "rating": 0,
+    "updated": "2015-01-26",
+    "url": "https://github.com/abesto/taskproxy"
   },
   {
     "archived": false,
@@ -6236,7 +6236,7 @@
       "codekie"
     ],
     "rating": 1,
-    "updated": "2025-05-08",
+    "updated": "2025-06-05",
     "url": "https://github.com/codekie/spartaaa"
   },
   {
@@ -9518,8 +9518,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1680,
-    "updated": "2025-04-07",
+    "rating": 1681,
+    "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -10897,7 +10897,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -15554,7 +15554,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 525,
+    "rating": 526,
     "updated": "2025-06-01",
     "url": "https://github.com/vit-project/vit"
   },
