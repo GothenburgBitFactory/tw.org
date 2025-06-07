@@ -1875,7 +1875,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 152,
+    "rating": 153,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -5096,7 +5096,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 528,
+    "rating": 529,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7456,7 +7456,7 @@
       "ftapajos"
     ],
     "rating": 3,
-    "updated": "2025-05-16",
+    "updated": "2025-06-06",
     "url": "https://github.com/ftapajos/scheduler"
   },
   {
@@ -10808,7 +10808,7 @@
       "taskwarrior2"
     ],
     "description": "A tree viewer for taskwarrior tasks in rust with gtk+.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -15554,7 +15554,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 526,
+    "rating": 527,
     "updated": "2025-06-01",
     "url": "https://github.com/vit-project/vit"
   },
