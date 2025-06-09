@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 18,
-    "updated": "2025-06-07",
+    "updated": "2025-06-08",
     "url": "https://github.com/00sapo/taskcheck"
   },
   {
@@ -836,7 +836,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 181,
+    "rating": 182,
     "updated": "2025-06-03",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1816,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 767,
+    "rating": 768,
     "updated": "2025-06-04",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3034,7 +3034,7 @@
       "Oppen"
     ],
     "rating": 0,
-    "updated": "2025-06-02",
+    "updated": "2025-06-08",
     "url": "https://github.com/Oppen/taskcoward"
   },
   {
@@ -3513,7 +3513,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -3966,7 +3966,7 @@
       "taskwarrior2"
     ],
     "description": "ncurses interface for Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -5096,7 +5096,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 529,
+    "rating": 530,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7350,13 +7350,13 @@
     "language": [
       "Shell"
     ],
-    "license": "GNU General Public License v3.0",
+    "license": "MIT License",
     "name": "Email2taskwarrior",
     "owner": [
       "frasom"
     ],
     "rating": 0,
-    "updated": "2022-09-03",
+    "updated": "2025-06-08",
     "url": "https://github.com/frasom/Email2taskwarrior"
   },
   {
@@ -9318,7 +9318,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 406,
+    "rating": 407,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1681,
+    "rating": 1686,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14714,7 +14714,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 53,
+    "rating": 54,
     "updated": "2024-12-05",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -15154,7 +15154,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 877,
+    "rating": 878,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
