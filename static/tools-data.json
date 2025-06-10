@@ -257,7 +257,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 69,
+    "rating": 70,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -817,7 +817,7 @@
       "CCExtractor"
     ],
     "rating": 12,
-    "updated": "2025-06-07",
+    "updated": "2025-06-09",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1816,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 768,
+    "rating": 769,
     "updated": "2025-06-04",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1837,7 +1837,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 111,
-    "updated": "2025-05-26",
+    "updated": "2025-06-09",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -5196,7 +5196,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2023-01-22",
     "url": "https://github.com/bergercookie/tw-hooks"
   },
@@ -5716,7 +5716,7 @@
     "owner": [
       "cf020031308"
     ],
-    "rating": 55,
+    "rating": 54,
     "updated": "2019-05-31",
     "url": "https://github.com/cf020031308/pomodoro-warriors"
   },
@@ -5955,7 +5955,7 @@
     "owner": [
       "claui"
     ],
-    "rating": 10,
+    "rating": 9,
     "updated": "2023-07-19",
     "url": "https://github.com/claui/vscode-taskwarrior"
   },
@@ -8376,7 +8376,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2025-06-07",
+    "updated": "2025-06-09",
     "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1686,
+    "rating": 1687,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -15154,7 +15154,7 @@
     "owner": [
       "tools-life"
     ],
-    "rating": 878,
+    "rating": 879,
     "updated": "2024-04-26",
     "url": "https://github.com/tools-life/taskwiki"
   },
