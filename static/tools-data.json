@@ -137,8 +137,8 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 0,
-    "updated": "2025-06-10",
+    "rating": 1,
+    "updated": "2025-06-11",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 226,
+    "rating": 227,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 769,
+    "rating": 770,
     "updated": "2025-06-04",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 111,
+    "rating": 113,
     "updated": "2025-06-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 105,
+    "rating": 106,
     "updated": "2025-06-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3915,7 +3915,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 70,
+    "rating": 71,
     "updated": "2025-06-10",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -7635,7 +7635,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1687,
+    "rating": 1690,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12575,7 +12575,7 @@
     "owner": [
       "nyarly"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2023-09-18",
     "url": "https://github.com/nyarly/rofi-taskwarrior"
   },
