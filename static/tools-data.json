@@ -837,7 +837,7 @@
       "CCExtractor"
     ],
     "rating": 12,
-    "updated": "2025-06-09",
+    "updated": "2025-06-12",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1690,
+    "rating": 1692,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13415,7 +13415,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 112,
+    "rating": 113,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14761,6 +14761,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Proper project management with Taskwarrior in vim.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "Other",
+    "name": "taskwiki",
+    "owner": [
+      "tbabej"
+    ],
+    "rating": 879,
+    "updated": "2024-04-26",
+    "url": "https://github.com/tbabej/taskwiki"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -15137,26 +15157,6 @@
     "rating": 1,
     "updated": "2018-03-11",
     "url": "https://github.com/tomdurrant/taskwarrior-toggl-hook"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Proper project management with Taskwarrior in vim.",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "Other",
-    "name": "taskwiki",
-    "owner": [
-      "tools-life"
-    ],
-    "rating": 879,
-    "updated": "2024-04-26",
-    "url": "https://github.com/tools-life/taskwiki"
   },
   {
     "archived": false,
