@@ -2574,7 +2574,7 @@
       "LanHikari22"
     ],
     "rating": 4,
-    "updated": "2024-11-04",
+    "updated": "2025-06-14",
     "url": "https://github.com/LanHikari22/TTM"
   },
   {
@@ -3134,7 +3134,7 @@
       "Pete-Hamlin"
     ],
     "rating": 0,
-    "updated": "2025-05-05",
+    "updated": "2025-06-14",
     "url": "https://github.com/Pete-Hamlin/taskwarrior-hooks"
   },
   {
@@ -4039,26 +4039,6 @@
     "rating": 13,
     "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A fully configurable HTTP frontend for showing views of your taskwarrior TODO list.",
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskproxy",
-    "owner": [
-      "abesto"
-    ],
-    "rating": 0,
-    "updated": "2015-01-26",
-    "url": "https://github.com/abesto/taskproxy"
   },
   {
     "archived": false,
@@ -5096,7 +5076,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 530,
+    "rating": 531,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -10897,7 +10877,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 19,
+    "rating": 21,
     "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -10917,7 +10897,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2025-03-24",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -11755,7 +11735,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-06-08",
+    "updated": "2025-06-15",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -14664,6 +14644,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Python module wrapping Taskwarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "pytaskwarrior",
+    "owner": [
+      "sznicolas"
+    ],
+    "rating": 0,
+    "updated": "2025-06-14",
+    "url": "https://github.com/sznicolas/pytaskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Hook for task warrior that stores stop and start times in task annotations",
     "dormant": true,
     "language": [
@@ -15454,7 +15454,7 @@
     "owner": [
       "unintended-giraffe"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2024-07-02",
     "url": "https://github.com/unintended-giraffe/AI_Secretary"
   },
