@@ -117,7 +117,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2025-06-08",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-11",
+    "updated": "2025-06-15",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 227,
+    "rating": 228,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 113,
+    "rating": 114,
     "updated": "2025-06-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -4039,6 +4039,26 @@
     "rating": 13,
     "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A fully configurable HTTP frontend for showing views of your taskwarrior TODO list.",
+    "dormant": true,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskproxy",
+    "owner": [
+      "abesto"
+    ],
+    "rating": 0,
+    "updated": "2015-01-26",
+    "url": "https://github.com/abesto/taskproxy"
   },
   {
     "archived": false,
@@ -9498,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1694,
+    "rating": 1695,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
