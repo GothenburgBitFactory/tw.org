@@ -837,7 +837,7 @@
       "CCExtractor"
     ],
     "rating": 12,
-    "updated": "2025-06-12",
+    "updated": "2025-06-16",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -856,8 +856,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 183,
-    "updated": "2025-06-03",
+    "rating": 184,
+    "updated": "2025-06-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -8561,10 +8561,10 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
+      "taskwarrior2",
+      "taskwarrior3"
     ],
-    "description": "Taskwarrior scripts to track tasks in directories",
+    "description": "Taskwarrior scripts to improve your tasks workflow",
     "dormant": false,
     "language": [
       "Shell"
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1695,
+    "rating": 1696,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
