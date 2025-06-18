@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-15",
+    "updated": "2025-06-17",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 184,
-    "updated": "2025-06-16",
+    "updated": "2025-06-17",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 770,
+    "rating": 772,
     "updated": "2025-06-04",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -2154,7 +2154,7 @@
     "owner": [
       "HiveMinds"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2024-05-28",
     "url": "https://github.com/HiveMinds/tw-install"
   },
@@ -2205,7 +2205,7 @@
       "taskwarrior2"
     ],
     "description": "Simple server for running distributed python tasks on multiple devices",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -3916,7 +3916,7 @@
       "Zebradil"
     ],
     "rating": 71,
-    "updated": "2025-06-10",
+    "updated": "2025-06-17",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4039,26 +4039,6 @@
     "rating": 13,
     "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A fully configurable HTTP frontend for showing views of your taskwarrior TODO list.",
-    "dormant": true,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "taskproxy",
-    "owner": [
-      "abesto"
-    ],
-    "rating": 0,
-    "updated": "2015-01-26",
-    "url": "https://github.com/abesto/taskproxy"
   },
   {
     "archived": false,
@@ -5096,7 +5076,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 531,
+    "rating": 532,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8561,6 +8541,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Taskwarrior extension for ulauncher",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior-ulauncher",
+    "owner": [
+      "jacostag"
+    ],
+    "rating": 0,
+    "updated": "2025-06-17",
+    "url": "https://github.com/jacostag/taskwarrior-ulauncher"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -9318,7 +9318,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 407,
+    "rating": 408,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1696,
+    "rating": 1697,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10778,7 +10778,7 @@
       "maralorn"
     ],
     "rating": 14,
-    "updated": "2025-05-23",
+    "updated": "2025-06-17",
     "url": "https://github.com/maralorn/haskell-taskwarrior"
   },
   {
@@ -11774,7 +11774,7 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2025-04-04",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
@@ -15574,7 +15574,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 527,
+    "rating": 528,
     "updated": "2025-06-01",
     "url": "https://github.com/vit-project/vit"
   },
