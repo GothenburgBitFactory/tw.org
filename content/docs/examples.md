@@ -101,8 +101,8 @@ Search for `pattern` in description and annotations:
 
 ```
 $ task /pattern/ list
-$ task rc.seach.case.sensitive:yes /pattern/ list
-$ task rc.seach.case.sensitive:no  /pattern/ list
+$ task rc.search.case.sensitive:yes /pattern/ list
+$ task rc.search.case.sensitive:no  /pattern/ list
 ```
 
 Search for tasks with no project.
