@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-19",
+    "updated": "2025-06-20",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 184,
-    "updated": "2025-06-18",
+    "updated": "2025-06-20",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 772,
+    "rating": 773,
     "updated": "2025-06-04",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -5776,7 +5776,7 @@
     "owner": [
       "cherryramatisdev"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2025-02-16",
     "url": "https://github.com/cherryramatisdev/taskmage"
   },
@@ -6278,26 +6278,6 @@
     "rating": 0,
     "updated": "2022-03-16",
     "url": "https://github.com/csams/taskwarrior-deployment"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A small collection of scripts to make a multi-user taskwarrior setup.",
-    "dormant": false,
-    "language": [
-      "Shell"
-    ],
-    "license": "The Unlicense",
-    "name": "task-multiuser",
-    "owner": [
-      "cyberoperations-club"
-    ],
-    "rating": 1,
-    "updated": "2023-07-06",
-    "url": "https://github.com/cyberoperations-club/task-multiuser"
   },
   {
     "archived": false,
@@ -7975,7 +7955,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 75,
+    "rating": 76,
     "updated": "2025-05-26",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9498,7 +9478,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1699,
+    "rating": 1700,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14249,13 +14229,13 @@
       "Go"
     ],
     "license": "BSD 2-Clause \"Simplified\" License",
-    "name": "tasksamuari",
+    "name": "tasksamurai",
     "owner": [
       "snonux"
     ],
     "rating": 0,
-    "updated": "2025-06-19",
-    "url": "https://github.com/snonux/tasksamuari"
+    "updated": "2025-06-20",
+    "url": "https://github.com/snonux/tasksamurai"
   },
   {
     "archived": true,
