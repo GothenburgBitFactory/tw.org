@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-20",
+    "updated": "2025-06-21",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -856,7 +856,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 184,
+    "rating": 185,
     "updated": "2025-06-20",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -6715,7 +6715,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2025-04-03",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -9529,7 +9529,7 @@
       "taskwarrior2"
     ],
     "description": "utility to loop through adding tasks to a taskwarrior project",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -11715,7 +11715,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-06-15",
+    "updated": "2025-06-22",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -14234,7 +14234,7 @@
       "snonux"
     ],
     "rating": 0,
-    "updated": "2025-06-20",
+    "updated": "2025-06-21",
     "url": "https://github.com/snonux/tasksamurai"
   },
   {
@@ -15594,7 +15594,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 528,
+    "rating": 529,
     "updated": "2025-06-01",
     "url": "https://github.com/vit-project/vit"
   },
