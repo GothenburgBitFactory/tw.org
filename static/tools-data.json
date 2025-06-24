@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-22",
+    "updated": "2025-06-23",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 114,
+    "rating": 115,
     "updated": "2025-06-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -4856,7 +4856,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -9498,7 +9498,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1701,
+    "rating": 1705,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10937,7 +10937,7 @@
     "owner": [
       "marty-oehme"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-04-22",
     "url": "https://github.com/marty-oehme/topen"
   },
@@ -10956,7 +10956,7 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
@@ -14234,7 +14234,7 @@
       "snonux"
     ],
     "rating": 0,
-    "updated": "2025-06-22",
+    "updated": "2025-06-23",
     "url": "https://github.com/snonux/tasksamurai"
   },
   {
@@ -14714,8 +14714,8 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 1,
-    "updated": "2025-06-20",
+    "rating": 5,
+    "updated": "2025-06-23",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
   {
@@ -14814,7 +14814,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 880,
+    "rating": 881,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
