@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-23",
+    "updated": "2025-06-24",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 185,
-    "updated": "2025-06-20",
+    "updated": "2025-06-24",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -3134,7 +3134,7 @@
       "Pete-Hamlin"
     ],
     "rating": 0,
-    "updated": "2025-06-14",
+    "updated": "2025-06-24",
     "url": "https://github.com/Pete-Hamlin/taskwarrior-hooks"
   },
   {
@@ -5096,7 +5096,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 532,
+    "rating": 533,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5756,7 +5756,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 123,
+    "rating": 124,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -6698,6 +6698,26 @@
     "rating": 5,
     "updated": "2017-06-08",
     "url": "https://github.com/dropofwill/rtasklib"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A taskwarrior plugin that adds time tracking and reporting features (still WIP)",
+    "dormant": true,
+    "language": [
+      "Ruby"
+    ],
+    "license": "MIT License",
+    "name": "task_time",
+    "owner": [
+      "dropofwill"
+    ],
+    "rating": 1,
+    "updated": "2015-05-17",
+    "url": "https://github.com/dropofwill/task_time"
   },
   {
     "archived": false,
@@ -11096,7 +11116,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-05-29",
+    "updated": "2025-06-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11677,26 +11697,6 @@
     "rating": 0,
     "updated": "2023-11-01",
     "url": "https://github.com/mpenning/taskwarrior_notes"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Taskwarrior hook to log start/stop time intervals into a CSV file.",
-    "dormant": true,
-    "language": [
-      "D"
-    ],
-    "license": "GNU General Public License v3.0",
-    "name": "logwarrior",
-    "owner": [
-      "mpoquet"
-    ],
-    "rating": 1,
-    "updated": "2019-09-12",
-    "url": "https://github.com/mpoquet/logwarrior"
   },
   {
     "archived": false,
@@ -14234,7 +14234,7 @@
       "snonux"
     ],
     "rating": 0,
-    "updated": "2025-06-23",
+    "updated": "2025-06-24",
     "url": "https://github.com/snonux/tasksamurai"
   },
   {
@@ -14714,7 +14714,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2025-06-23",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
@@ -15595,7 +15595,7 @@
       "vit-project"
     ],
     "rating": 529,
-    "updated": "2025-06-01",
+    "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
   {
@@ -16156,7 +16156,7 @@
       "zudochkin"
     ],
     "rating": 0,
-    "updated": "2025-06-18",
+    "updated": "2025-06-24",
     "url": "https://github.com/zudochkin/taskwarrior-alfredworkflow"
   },
   {
