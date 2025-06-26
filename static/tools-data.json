@@ -866,6 +866,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "HTML"
+    ],
+    "license": null,
+    "name": "taskwarrior-dashboard",
+    "owner": [
+      "Calebp98"
+    ],
+    "rating": 0,
+    "updated": "2025-06-25",
+    "url": "https://github.com/Calebp98/taskwarrior-dashboard"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Repo for taskwarrior tasks",
     "dormant": true,
     "language": [
@@ -6702,26 +6722,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A taskwarrior plugin that adds time tracking and reporting features (still WIP)",
-    "dormant": true,
-    "language": [
-      "Ruby"
-    ],
-    "license": "MIT License",
-    "name": "task_time",
-    "owner": [
-      "dropofwill"
-    ],
-    "rating": 1,
-    "updated": "2015-05-17",
-    "url": "https://github.com/dropofwill/task_time"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -12054,7 +12054,7 @@
     "owner": [
       "nbossard"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2025-05-02",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
@@ -14714,8 +14714,8 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 6,
-    "updated": "2025-06-23",
+    "rating": 7,
+    "updated": "2025-06-25",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
   {
