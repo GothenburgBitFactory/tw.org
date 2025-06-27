@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-24",
+    "updated": "2025-06-26",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -877,7 +877,7 @@
       "Calebp98"
     ],
     "rating": 0,
-    "updated": "2025-06-25",
+    "updated": "2025-06-26",
     "url": "https://github.com/Calebp98/taskwarrior-dashboard"
   },
   {
@@ -1268,7 +1268,7 @@
       "taskwarrior3"
     ],
     "description": "a php lib for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "PHP"
     ],
@@ -1916,7 +1916,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 108,
+    "rating": 109,
     "updated": "2025-06-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -7416,7 +7416,7 @@
       "ftapajos"
     ],
     "rating": 3,
-    "updated": "2025-06-06",
+    "updated": "2025-06-26",
     "url": "https://github.com/ftapajos/scheduler"
   },
   {
@@ -14714,7 +14714,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2025-06-25",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
@@ -16156,7 +16156,7 @@
       "zudochkin"
     ],
     "rating": 0,
-    "updated": "2025-06-24",
+    "updated": "2025-06-26",
     "url": "https://github.com/zudochkin/taskwarrior-alfredworkflow"
   },
   {
