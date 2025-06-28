@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-26",
+    "updated": "2025-06-27",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -3134,7 +3134,7 @@
       "Pete-Hamlin"
     ],
     "rating": 8,
-    "updated": "2025-05-02",
+    "updated": "2025-06-27",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -7416,7 +7416,7 @@
       "ftapajos"
     ],
     "rating": 3,
-    "updated": "2025-06-26",
+    "updated": "2025-06-27",
     "url": "https://github.com/ftapajos/scheduler"
   },
   {
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1705,
+    "rating": 1706,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13395,7 +13395,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 113,
+    "rating": 114,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14234,7 +14234,7 @@
       "snonux"
     ],
     "rating": 0,
-    "updated": "2025-06-24",
+    "updated": "2025-06-27",
     "url": "https://github.com/snonux/tasksamurai"
   },
   {
@@ -14493,7 +14493,7 @@
     "owner": [
       "strawpants"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2025-05-07",
     "url": "https://github.com/strawpants/kanboard_taskwarrior"
   },
@@ -14714,7 +14714,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-06-25",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
