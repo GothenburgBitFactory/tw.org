@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-27",
+    "updated": "2025-06-29",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 773,
+    "rating": 772,
     "updated": "2025-06-04",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -5276,7 +5276,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 259,
+    "rating": 258,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1706,
+    "rating": 1708,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13126,7 +13126,7 @@
       "taskwarrior2"
     ],
     "description": "Taskwarrior sync server.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dockerfile"
     ],
@@ -13335,7 +13335,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 180,
+    "rating": 179,
     "updated": "2024-04-01",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -14214,7 +14214,7 @@
       "smemsh"
     ],
     "rating": 3,
-    "updated": "2025-04-30",
+    "updated": "2025-06-29",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14655,7 +14655,7 @@
       "sznicolas"
     ],
     "rating": 0,
-    "updated": "2025-06-14",
+    "updated": "2025-06-29",
     "url": "https://github.com/sznicolas/pytaskwarrior"
   },
   {
@@ -14714,7 +14714,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2025-06-25",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
