@@ -117,7 +117,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2025-06-08",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-06-29",
+    "updated": "2025-06-30",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -557,7 +557,7 @@
     "owner": [
       "AlexanderBrevig"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2022-08-17",
     "url": "https://github.com/AlexanderBrevig/tree-sitter-task"
   },
@@ -7416,7 +7416,7 @@
       "ftapajos"
     ],
     "rating": 3,
-    "updated": "2025-06-27",
+    "updated": "2025-06-30",
     "url": "https://github.com/ftapajos/scheduler"
   },
   {
@@ -7845,26 +7845,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Use a Raspberry Pi and a touch display to tasks from taskwarrior",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskshow",
-    "owner": [
-      "hickey"
-    ],
-    "rating": 0,
-    "updated": "2019-11-12",
-    "url": "https://github.com/hickey/taskshow"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": null,
     "dormant": true,
     "language": [
@@ -8098,6 +8078,26 @@
     "rating": 0,
     "updated": "2020-10-25",
     "url": "https://github.com/husjon/polybar_module-taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "TaskServer2",
+    "owner": [
+      "iLtc"
+    ],
+    "rating": 0,
+    "updated": "2025-06-30",
+    "url": "https://github.com/iLtc/TaskServer2"
   },
   {
     "archived": false,
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1708,
+    "rating": 1710,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14655,7 +14655,7 @@
       "sznicolas"
     ],
     "rating": 0,
-    "updated": "2025-06-29",
+    "updated": "2025-06-30",
     "url": "https://github.com/sznicolas/pytaskwarrior"
   },
   {
@@ -14714,7 +14714,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2025-06-25",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
@@ -14974,7 +14974,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 551,
+    "rating": 552,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
