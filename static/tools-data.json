@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-07-01",
+    "updated": "2025-07-02",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -177,7 +177,7 @@
     "owner": [
       "0xbeedao"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-03-12",
     "url": "https://github.com/0xbeedao/mcp-taskwarrior"
   },
@@ -837,7 +837,7 @@
       "CCExtractor"
     ],
     "rating": 12,
-    "updated": "2025-06-16",
+    "updated": "2025-07-02",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 185,
-    "updated": "2025-06-24",
+    "updated": "2025-07-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 115,
-    "updated": "2025-06-10",
+    "updated": "2025-07-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -4896,7 +4896,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -9518,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1710,
+    "rating": 1713,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11115,7 +11115,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 26,
+    "rating": 25,
     "updated": "2025-06-24",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -14234,7 +14234,7 @@
       "snonux"
     ],
     "rating": 0,
-    "updated": "2025-06-28",
+    "updated": "2025-07-02",
     "url": "https://github.com/snonux/tasksamurai"
   },
   {
@@ -14814,7 +14814,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 881,
+    "rating": 882,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
