@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 20,
-    "updated": "2025-06-08",
+    "updated": "2025-07-03",
     "url": "https://github.com/00sapo/taskcheck"
   },
   {
@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-07-02",
+    "updated": "2025-07-03",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 185,
-    "updated": "2025-07-02",
+    "updated": "2025-07-03",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 115,
-    "updated": "2025-07-02",
+    "updated": "2025-07-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -4096,7 +4096,7 @@
     "owner": [
       "acebaggins"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2025-04-07",
     "url": "https://github.com/acebaggins/taskwarrior-mcp"
   },
@@ -8356,7 +8356,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2025-06-09",
+    "updated": "2025-07-03",
     "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
@@ -14655,7 +14655,7 @@
       "sznicolas"
     ],
     "rating": 0,
-    "updated": "2025-06-30",
+    "updated": "2025-07-03",
     "url": "https://github.com/sznicolas/pytaskwarrior"
   },
   {
@@ -14714,7 +14714,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2025-06-25",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
