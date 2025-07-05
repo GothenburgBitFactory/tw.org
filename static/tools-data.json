@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-07-03",
+    "updated": "2025-07-04",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -3643,26 +3643,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "a template rust project using my local vim and taskwarrior config setup",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "template_rust",
-    "owner": [
-      "SunGodRamen"
-    ],
-    "rating": 0,
-    "updated": "2023-03-24",
-    "url": "https://github.com/SunGodRamen/template_rust"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Time tracking web/cli app based on Taskwarrior",
     "dormant": true,
     "language": [
@@ -5478,7 +5458,7 @@
       "bretwardjames"
     ],
     "rating": 0,
-    "updated": "2025-05-15",
+    "updated": "2025-07-04",
     "url": "https://github.com/bretwardjames/asana-warrior"
   },
   {
@@ -5915,7 +5895,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 147,
+    "rating": 148,
     "updated": "2024-09-24",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -10760,6 +10740,26 @@
     "rating": 1,
     "updated": "2023-04-28",
     "url": "https://github.com/manyids2/taskwar.nvim"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Allows creating additional Markdown note files for tasks. Works well with tools like Obsidian or Silverbullet.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-notes",
+    "owner": [
+      "marad"
+    ],
+    "rating": 0,
+    "updated": "2025-07-04",
+    "url": "https://github.com/marad/taskwarrior-notes"
   },
   {
     "archived": false,
