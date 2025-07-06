@@ -10,6 +10,7 @@ title: "Taskwarrior - What's next?"
 
 **Taskwarrior {{< current_release "version" >}}** (Released {{< current_release "date" >}}):
 [task-{{< current_release "version" >}}.tar.gz]({{< current_release "url" >}})
+
 SHA256 {{< text-break >}}{{< current_release "sha256" >}}{{< /text-break >}}
 [Changelog](https://github.com/GothenburgBitFactory/taskwarrior/blob/stable/ChangeLog)
 

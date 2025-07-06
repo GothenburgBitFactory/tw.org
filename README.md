@@ -24,6 +24,10 @@ For more complex changes, here is how to build the documentation locally:
    hugo server -D -w --bind 0.0.0.0 -b http://<hostname>
    ```
 
+## Updating Taskwarrior Versions
+
+To record a new release of Taskwarrior, run `bin/tw-release vX.Y.Z` and make a PR for the result.
+
 ## Updating Tools
 
 This repository has automation for searching GitHub for projects related to Taskwarrior and including them in the "Tools" page.

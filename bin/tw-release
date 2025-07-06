@@ -1,0 +1,89 @@
+#!/usr/bin/env bash
+
+set -euo pipefail
+
+# The version with the `v` prefix.
+VERSION="${1}"
+# ..and without the `v` prefix.
+ERSION="${VERSION#v}"
+URL="https://github.com/GothenburgBitFactory/taskwarrior/releases/download/${VERSION}/task-${ERSION}.tar.gz"
+PUBLISH_DATE="$(date +%Y-%m-%d)"
+
+REPO_ROOT=$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )
+
+if [ -z "${VERSION}" ] || [ "${VERSION}" = "${ERSION}" ]; then
+    echo "USAGE: tw-release vX.Y.Z"
+    exit 1
+fi
+
+for cmd in curl pandoc jq; do
+    if ! command -v $cmd &> /dev/null ; then
+      echo "$cmd is not installed or cannot be found!"
+      exit 1
+    fi
+done
+
+WORKDIR=$(mktemp -d)
+trap 'cd / && rm -rf -- "$WORKDIR"' EXIT
+
+echo "# Downloading ${VERSION} tarball"
+
+curl -ssL --fail "${URL}" -o "${WORKDIR}/task.tar.gz"
+
+echo "# Updating Manpages"
+tar -C "${WORKDIR}" --strip-components 2 "task-${ERSION}/doc/man" -zxf "${WORKDIR}/task.tar.gz"
+for manpage in $(ls "${WORKDIR}/man"); do
+    manpage=${manpage%.in}
+    echo "## Converting ${manpage}"
+    sed -e 's/${PACKAGE_STRING}/task ${ERSION}/' < "${WORKDIR}/man/${manpage}.in" > "${WORKDIR}/man/${manpage}"
+    (
+        cat <<EOF
+---
+title: 'Taskwarrior - ${manpage} for task-${ERSION}'
+viewport: 'width=device-width, initial-scale=1'
+layout: single
+---
+EOF
+        pandoc -s -f man -t markdown_strict "${WORKDIR}/man/${manpage}"
+    ) > "${REPO_ROOT}/content/docs/man/${manpage}.md"
+done
+
+echo "# Updating data/projects.json"
+projects=$(< "${REPO_ROOT}/data/projects.json")
+projects=$(echo -E "${projects}" | \
+    jq --arg ersion "${ERSION}" '.task.stable.version = $ersion')
+projects=$(echo -E "${projects}" | \
+    jq --arg ersion "${ERSION}" '.task.stable.url |= gsub("[0-9]+.[0-9]+.[0-9]+"; $ersion)')
+echo -E "${projects}" > "${REPO_ROOT}/data/projects.json" 
+
+echo "# Updating data/releases.json"
+releases=$(< "${REPO_ROOT}/data/releases.json")
+releases=$(echo -E "${releases}" | \
+    jq \
+        --arg ersion "${ERSION}" \
+        --arg date "${PUBLISH_DATE}" \
+        --arg name "task-${ERSION}" \
+        --arg url "${URL}" \
+        --arg sha256 "$(sha256sum "${WORKDIR}/task.tar.gz" | cut -d' ' -f 1)" \
+        '. |= [{
+            "version": $ersion,
+            "date": $date,
+            "name": $name,
+            "url": $url,
+            "sha256": $sha256
+        }] + .')
+echo -E "${releases}" > "${REPO_ROOT}/data/releases.json" 
+
+echo "# Creating news item"
+cat <<EOF > "content/news/news.${PUBLISH_DATE//-/}.md"
+---
+title: "Taskwarrior ${ERSION} Released"
+date: "${PUBLISH_DATE}T00:00:00Z"
+---
+
+### Taskwarrior ${ERSION} Released
+
+See [the GitHub release
+page](https://github.com/GothenburgBitFactory/taskwarrior/releases/tag/${VERSION})
+for details.
+EOF
