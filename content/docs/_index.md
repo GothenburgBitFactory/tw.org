@@ -32,6 +32,13 @@ layout: single
 - [Named Dates](named_dates/) {{< label >}}2.4.0{{< /label >}}
 - [Duration Values](durations/) {{< label >}}2.4.0{{< /label >}}
 
+## Manual Pages
+
+- [task(1)](man/task.1)
+- [task-color(5)](man/task-color.5)
+- [task-sync(5)](man/task-sync.5)
+- [taskrc(5)](man/taskrc.5)
+
 ## Configuring Taskwarrior
 
 - [Configuration](configuration/)

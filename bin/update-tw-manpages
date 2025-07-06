@@ -1,0 +1,46 @@
+#!/usr/bin/env bash
+
+set -e
+
+# The version with the `v` prefix.
+VERSION="${1}"
+# ..and without the `v` prefix.
+ERSION="${VERSION#v}"
+
+REPO_ROOT=$( cd "$( dirname "${BASH_SOURCE[0]}" )/.." && pwd )
+
+if [ -z "${VERSION}" ] || [ "${VERSION}" = "${ERSION}" ]; then
+    echo "USAGE: update-tw-manpages vX.Y.Z"
+    exit 1
+fi
+
+for cmd in curl pandoc; do
+    if ! command -v $cmd &> /dev/null ; then
+      echo "$cmd is not installed or cannot be found!"
+      exit 1
+    fi
+done
+
+WORKDIR=$(mktemp -d)
+trap 'cd / && rm -rf -- "$WORKDIR"' EXIT
+
+echo "## Downloading ${VERSION} tarball"
+
+curl -ssL --fail "https://github.com/GothenburgBitFactory/taskwarrior/releases/download/${VERSION}/task-${ERSION}.tar.gz" | \
+    tar -C "${WORKDIR}" -zx --strip-components 3 "task-${ERSION}/doc/man"
+
+for manpage in $(ls "${WORKDIR}"); do
+    manpage=${manpage%.in}
+    echo "## Converting ${manpage}"
+    sed -e 's/${PACKAGE_STRING}/task ${ERSION}/' < "${WORKDIR}/${manpage}.in" > "${WORKDIR}/${manpage}"
+    (
+        cat <<EOF
+---
+title: 'Taskwarrior - ${manpage}'
+viewport: 'width=device-width, initial-scale=1'
+layout: single
+---
+EOF
+        pandoc -s -f man -t markdown_strict "${WORKDIR}/${manpage}"
+    ) > "${REPO_ROOT}/content/docs/man/${manpage}.md"
+done

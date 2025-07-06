@@ -24,6 +24,10 @@ For more complex changes, here is how to build the documentation locally:
    hugo server -D -w --bind 0.0.0.0 -b http://<hostname>
    ```
 
+## Updating TaskWarrior Manpages
+
+To update the manpages in `content/docs/man`, run `bin/update-tw-manpages`. You will need pandoc and curl installed.
+
 ## Updating Tools
 
 This repository has automation for searching GitHub for projects related to Taskwarrior and including them in the "Tools" page.
