@@ -837,7 +837,7 @@
       "CCExtractor"
     ],
     "rating": 12,
-    "updated": "2025-07-02",
+    "updated": "2025-07-06",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -876,7 +876,7 @@
     "owner": [
       "Calebp98"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-06-26",
     "url": "https://github.com/Calebp98/taskwarrior-dashboard"
   },
@@ -1397,7 +1397,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 42,
+    "rating": 43,
     "updated": "2025-06-01",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 772,
+    "rating": 773,
     "updated": "2025-06-04",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -4836,7 +4836,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -5776,7 +5776,7 @@
     "owner": [
       "cherryramatisdev"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2025-02-16",
     "url": "https://github.com/cherryramatisdev/taskmage"
   },
@@ -8534,7 +8534,7 @@
     "owner": [
       "jacostag"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-06-18",
     "url": "https://github.com/jacostag/taskwarrior_utils"
   },
@@ -10937,7 +10937,7 @@
     "owner": [
       "marty-oehme"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-04-22",
     "url": "https://github.com/marty-oehme/topen"
   },
@@ -13375,7 +13375,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 114,
+    "rating": 115,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14213,7 +14213,7 @@
     "owner": [
       "snonux"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-07-02",
     "url": "https://github.com/snonux/tasksamurai"
   },
@@ -14333,7 +14333,7 @@
     "owner": [
       "spivi269"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-12-11",
     "url": "https://github.com/spivi269/waybar-taskwarrior-hook"
   },
@@ -15535,7 +15535,7 @@
       "vbeljan"
     ],
     "rating": 0,
-    "updated": "2025-07-05",
+    "updated": "2025-07-06",
     "url": "https://github.com/vbeljan/taskserver"
   },
   {
