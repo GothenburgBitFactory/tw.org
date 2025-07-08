@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 185,
-    "updated": "2025-07-03",
+    "updated": "2025-07-07",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1177,7 +1177,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 228,
+    "rating": 229,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 115,
-    "updated": "2025-07-03",
+    "updated": "2025-07-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -9478,7 +9478,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1714,
+    "rating": 1715,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14635,7 +14635,7 @@
       "sznicolas"
     ],
     "rating": 0,
-    "updated": "2025-07-03",
+    "updated": "2025-07-07",
     "url": "https://github.com/sznicolas/pytaskwarrior"
   },
   {
@@ -14954,7 +14954,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 552,
+    "rating": 553,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -15034,7 +15034,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 142,
+    "rating": 144,
     "updated": "2025-05-13",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15535,7 +15535,7 @@
       "vbeljan"
     ],
     "rating": 0,
-    "updated": "2025-07-06",
+    "updated": "2025-07-07",
     "url": "https://github.com/vbeljan/taskserver"
   },
   {
@@ -15594,7 +15594,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 529,
+    "rating": 530,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
