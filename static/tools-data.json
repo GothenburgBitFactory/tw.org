@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 115,
-    "updated": "2025-07-07",
+    "updated": "2025-07-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3643,6 +3643,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "a template rust project using my local vim and taskwarrior config setup",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "template_rust",
+    "owner": [
+      "SunGodRamen"
+    ],
+    "rating": 0,
+    "updated": "2023-03-24",
+    "url": "https://github.com/SunGodRamen/template_rust"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Time tracking web/cli app based on Taskwarrior",
     "dormant": true,
     "language": [
@@ -4159,26 +4179,6 @@
     "rating": 0,
     "updated": "2025-01-26",
     "url": "https://github.com/aehabdelouadoud/tasknify"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Make and maintain a daily pushups routine via taskwarrior and pgp integration",
-    "dormant": true,
-    "language": [
-      "Ruby"
-    ],
-    "license": "MIT License",
-    "name": "pushupwarrior",
-    "owner": [
-      "agrathwohl"
-    ],
-    "rating": 0,
-    "updated": "2015-06-02",
-    "url": "https://github.com/agrathwohl/pushupwarrior"
   },
   {
     "archived": false,
@@ -4876,7 +4876,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -5736,7 +5736,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 124,
+    "rating": 125,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -7555,7 +7555,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 34,
+    "rating": 33,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -8316,7 +8316,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2025-07-03",
+    "updated": "2025-07-08",
     "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
@@ -9478,7 +9478,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1715,
+    "rating": 1716,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10877,7 +10877,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 21,
+    "rating": 20,
     "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -14694,7 +14694,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2025-06-25",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
