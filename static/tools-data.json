@@ -1917,7 +1917,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 110,
-    "updated": "2025-07-11",
+    "updated": "2025-07-12",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3134,7 +3134,7 @@
       "Pete-Hamlin"
     ],
     "rating": 8,
-    "updated": "2025-06-27",
+    "updated": "2025-07-12",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -4816,7 +4816,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -7402,6 +7402,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Reflector: a smart introspective bridge for Reminders and Taskwarrior",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "reflector",
+    "owner": [
+      "fuzzyweapon"
+    ],
+    "rating": 0,
+    "updated": "2025-07-12",
+    "url": "https://github.com/fuzzyweapon/reflector"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -8336,7 +8356,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2025-07-08",
+    "updated": "2025-07-12",
     "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
@@ -9498,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1717,
+    "rating": 1719,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11715,7 +11735,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-07-06",
+    "updated": "2025-07-13",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -13240,26 +13260,6 @@
     "url": "https://github.com/radarsymphony/taskwarrior-hooks"
   },
   {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Python tool to sync action itens from TreeLine to TaskWarrior tasks",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "TLTWFeeder",
-    "owner": [
-      "rafaelbes"
-    ],
-    "rating": 0,
-    "updated": "2024-01-04",
-    "url": "https://github.com/rafaelbes/TLTWFeeder"
-  },
-  {
     "archived": true,
     "category": [
       "taskwarrior2",
@@ -14214,7 +14214,7 @@
       "snonux"
     ],
     "rating": 1,
-    "updated": "2025-07-09",
+    "updated": "2025-07-12",
     "url": "https://github.com/snonux/tasksamurai"
   },
   {
