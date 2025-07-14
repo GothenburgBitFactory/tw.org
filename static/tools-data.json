@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-07-11",
+    "updated": "2025-07-13",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 185,
-    "updated": "2025-07-09",
+    "updated": "2025-07-13",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1917,7 +1917,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 110,
-    "updated": "2025-07-12",
+    "updated": "2025-07-13",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3134,7 +3134,7 @@
       "Pete-Hamlin"
     ],
     "rating": 8,
-    "updated": "2025-07-12",
+    "updated": "2025-07-13",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -5296,7 +5296,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 87,
+    "rating": 88,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -8356,7 +8356,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2025-07-12",
+    "updated": "2025-07-13",
     "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
@@ -14694,7 +14694,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2025-06-25",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
