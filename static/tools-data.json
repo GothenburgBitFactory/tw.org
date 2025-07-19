@@ -1177,7 +1177,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 229,
+    "rating": 230,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -4816,7 +4816,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -5736,7 +5736,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 125,
+    "rating": 126,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -7840,26 +7840,6 @@
     "url": "https://github.com/hickey/taskwarrior-smartsheet"
   },
   {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "taskwarrior",
-    "owner": [
-      "hmdfrds"
-    ],
-    "rating": 0,
-    "updated": "2025-07-10",
-    "url": "https://github.com/hmdfrds/taskwarrior"
-  },
-  {
     "archived": true,
     "category": [
       "taskserver",
@@ -9518,7 +9498,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1725,
+    "rating": 1729,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13260,6 +13240,26 @@
     "url": "https://github.com/radarsymphony/taskwarrior-hooks"
   },
   {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Python tool to sync action itens from TreeLine to TaskWarrior tasks",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "TLTWFeeder",
+    "owner": [
+      "rafaelbes"
+    ],
+    "rating": 0,
+    "updated": "2024-01-04",
+    "url": "https://github.com/rafaelbes/TLTWFeeder"
+  },
+  {
     "archived": true,
     "category": [
       "taskwarrior2",
@@ -14794,7 +14794,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 882,
+    "rating": 883,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
