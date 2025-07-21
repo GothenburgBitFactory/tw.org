@@ -1876,8 +1876,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 774,
-    "updated": "2025-06-04",
+    "rating": 775,
+    "updated": "2025-07-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -5296,7 +5296,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 88,
+    "rating": 89,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -9269,7 +9269,7 @@
       "taskwarrior2"
     ],
     "description": "Convert TaskWarrior tasks into ics format, for calendars",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
