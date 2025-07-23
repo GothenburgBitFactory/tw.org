@@ -837,7 +837,7 @@
       "CCExtractor"
     ],
     "rating": 12,
-    "updated": "2025-07-06",
+    "updated": "2025-07-22",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1177,7 +1177,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 230,
+    "rating": 232,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1877,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 775,
-    "updated": "2025-07-20",
+    "updated": "2025-07-22",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -3838,27 +3838,6 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Personal collection of docker service files",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "docker-services",
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 0,
-    "updated": "2024-05-01",
-    "url": "https://github.com/Zebradil/docker-services"
-  },
-  {
     "archived": false,
     "category": [
       "taskserver",
@@ -5056,7 +5035,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 538,
+    "rating": 539,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -10877,7 +10856,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2025-03-30",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -11096,7 +11075,7 @@
       "maxjoehnk"
     ],
     "rating": 25,
-    "updated": "2025-06-24",
+    "updated": "2025-07-22",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11278,6 +11257,26 @@
     "rating": 50,
     "updated": "2017-12-22",
     "url": "https://github.com/mikebobroski/tasknote"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": "MIT License",
+    "name": "mcp-server-taskwarrior",
+    "owner": [
+      "mikeysrecipes"
+    ],
+    "rating": 0,
+    "updated": "2025-07-22",
+    "url": "https://github.com/mikeysrecipes/mcp-server-taskwarrior"
   },
   {
     "archived": false,
@@ -14694,7 +14693,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2025-06-25",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
@@ -15594,7 +15593,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 530,
+    "rating": 531,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
