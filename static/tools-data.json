@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-07-25",
+    "updated": "2025-07-28",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1877,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 776,
-    "updated": "2025-07-24",
+    "updated": "2025-07-28",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1935,7 +1935,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 154,
+    "rating": 155,
     "updated": "2024-07-28",
     "url": "https://github.com/GothenburgBitFactory/tasklib"
   },
@@ -1995,7 +1995,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 79,
+    "rating": 80,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -4856,7 +4856,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -13146,7 +13146,7 @@
       "taskwarrior3"
     ],
     "description": "Hooks for taskwarrior.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
