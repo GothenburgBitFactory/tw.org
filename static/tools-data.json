@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-07-28",
+    "updated": "2025-07-30",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -780,6 +780,26 @@
     "rating": 0,
     "updated": "2017-02-04",
     "url": "https://github.com/BellCrow/TaskServer-Client"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "a mobile first taskwarrior ui",
+    "dormant": false,
+    "language": [
+      "Nix"
+    ],
+    "license": "MIT License",
+    "name": "taskbane",
+    "owner": [
+      "BerkeleyTrue"
+    ],
+    "rating": 0,
+    "updated": "2025-07-30",
+    "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
     "archived": false,
@@ -1877,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 776,
-    "updated": "2025-07-29",
+    "updated": "2025-07-30",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1917,7 +1937,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 112,
-    "updated": "2025-07-30",
+    "updated": "2025-07-31",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3838,27 +3858,6 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Personal collection of docker service files",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "docker-services",
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 0,
-    "updated": "2024-05-01",
-    "url": "https://github.com/Zebradil/docker-services"
-  },
-  {
     "archived": false,
     "category": [
       "taskserver",
@@ -4856,7 +4855,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -7955,7 +7954,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 77,
+    "rating": 78,
     "updated": "2025-05-26",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -7975,7 +7974,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2024-09-26",
     "url": "https://github.com/huantrinh1802/taskwarrior_flow"
   },
@@ -9298,7 +9297,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 411,
+    "rating": 412,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9498,7 +9497,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1733,
+    "rating": 1737,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10940,6 +10939,26 @@
     "rating": 2,
     "updated": "2025-04-22",
     "url": "https://github.com/marty-oehme/topen"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "mise-taskwarrior",
+    "owner": [
+      "massa"
+    ],
+    "rating": 0,
+    "updated": "2025-07-31",
+    "url": "https://github.com/massa/mise-taskwarrior"
   },
   {
     "archived": false,
