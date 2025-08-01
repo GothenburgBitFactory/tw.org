@@ -876,7 +876,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 187,
+    "rating": 188,
     "updated": "2025-07-27",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 776,
-    "updated": "2025-07-30",
+    "updated": "2025-07-31",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -3243,26 +3243,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A simple to do app for your terminal inspired by taskwarrior.",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "taskgophers",
-    "owner": [
-      "PriviteraStefano"
-    ],
-    "rating": 0,
-    "updated": "2024-08-18",
-    "url": "https://github.com/PriviteraStefano/taskgophers"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Task warrior is a mobile app for both iOS and android developed to simulate the real task warrior which is an open source CLI based todo app that runs from the terminal. This mobile app also syncs task with the Taskserver.",
     "dormant": false,
     "language": [
@@ -3856,6 +3836,27 @@
     "rating": 3,
     "updated": "2019-01-07",
     "url": "https://github.com/Zebradil/Skribe"
+  },
+  {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Personal collection of docker service files",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "docker-services",
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 0,
+    "updated": "2024-05-01",
+    "url": "https://github.com/Zebradil/docker-services"
   },
   {
     "archived": false,
@@ -5055,7 +5056,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 549,
+    "rating": 550,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -10877,7 +10878,7 @@
       "marriagav"
     ],
     "rating": 23,
-    "updated": "2025-03-30",
+    "updated": "2025-07-31",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -10949,9 +10950,9 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "Shell"
     ],
-    "license": null,
+    "license": "MIT License",
     "name": "mise-taskwarrior",
     "owner": [
       "massa"
