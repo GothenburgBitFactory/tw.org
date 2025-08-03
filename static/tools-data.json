@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-08-01",
+    "updated": "2025-08-02",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -798,7 +798,7 @@
       "BerkeleyTrue"
     ],
     "rating": 0,
-    "updated": "2025-08-01",
+    "updated": "2025-08-02",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -1936,8 +1936,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 112,
-    "updated": "2025-08-01",
+    "rating": 113,
+    "updated": "2025-08-03",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3236,6 +3236,26 @@
     "rating": 0,
     "updated": "2023-09-28",
     "url": "https://github.com/Pradeep1G/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A simple to do app for your terminal inspired by taskwarrior.",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": null,
+    "name": "taskgophers",
+    "owner": [
+      "PriviteraStefano"
+    ],
+    "rating": 0,
+    "updated": "2024-08-18",
+    "url": "https://github.com/PriviteraStefano/taskgophers"
   },
   {
     "archived": false,
@@ -9498,7 +9518,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1737,
+    "rating": 1739,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10877,7 +10897,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2025-07-31",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -11755,7 +11775,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-07-27",
+    "updated": "2025-08-03",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
