@@ -798,7 +798,7 @@
       "BerkeleyTrue"
     ],
     "rating": 0,
-    "updated": "2025-08-03",
+    "updated": "2025-08-04",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 776,
-    "updated": "2025-08-03",
+    "updated": "2025-08-04",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1937,7 +1937,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 113,
-    "updated": "2025-08-03",
+    "updated": "2025-08-04",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3456,6 +3456,26 @@
     "rating": 0,
     "updated": "2021-09-29",
     "url": "https://github.com/RvstFyth/rofi-taskwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Self Hosted FDroid client repo for Taskwarrior Flutter  ",
+    "dormant": false,
+    "language": [
+      "CSS"
+    ],
+    "license": null,
+    "name": "taskwarrior_flutter_nightly",
+    "owner": [
+      "SGI-CAPP-AT2"
+    ],
+    "rating": 0,
+    "updated": "2025-08-04",
+    "url": "https://github.com/SGI-CAPP-AT2/taskwarrior_flutter_nightly"
   },
   {
     "archived": false,
@@ -5056,7 +5076,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 551,
+    "rating": 552,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5336,7 +5356,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 524,
+    "rating": 525,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -9518,7 +9538,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1739,
+    "rating": 1740,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9529,7 +9549,7 @@
       "taskwarrior2"
     ],
     "description": "A python script supporting my kanban workflow for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -13933,7 +13953,7 @@
     "owner": [
       "sh78"
     ],
-    "rating": 11,
+    "rating": 10,
     "updated": "2018-07-20",
     "url": "https://github.com/sh78/google-tasks-taskwarrior-import"
   },
@@ -15054,7 +15074,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 147,
+    "rating": 148,
     "updated": "2025-05-13",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
