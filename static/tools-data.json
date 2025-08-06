@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 12,
-    "updated": "2025-07-25",
+    "updated": "2025-08-05",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -4137,7 +4137,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2025-06-02",
+    "updated": "2025-08-05",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -4536,7 +4536,7 @@
     "owner": [
       "almostnobody"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2021-06-14",
     "url": "https://github.com/almostnobody/task2org"
   },
@@ -9438,7 +9438,7 @@
     "owner": [
       "juraph-dev"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2024-05-11",
     "url": "https://github.com/juraph-dev/emacs-taskwarrior-export"
   },
@@ -9538,7 +9538,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1740,
+    "rating": 1742,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
