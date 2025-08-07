@@ -798,7 +798,7 @@
       "BerkeleyTrue"
     ],
     "rating": 0,
-    "updated": "2025-08-04",
+    "updated": "2025-08-06",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 776,
-    "updated": "2025-08-04",
+    "updated": "2025-08-06",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -3858,27 +3858,6 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Personal collection of docker service files",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "docker-services",
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 0,
-    "updated": "2024-05-01",
-    "url": "https://github.com/Zebradil/docker-services"
-  },
-  {
     "archived": false,
     "category": [
       "taskserver",
@@ -4987,7 +4966,7 @@
       "taskwarrior2"
     ],
     "description": "Gtk wrapper for TaskWarrior written in Python",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "N/A"
     ],
@@ -9538,7 +9517,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1742,
+    "rating": 1743,
     "updated": "2025-06-05",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9908,7 +9887,7 @@
       "taskwarrior2"
     ],
     "description": "A GCP docker image for TaskWarrior's TaskServer",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -15634,7 +15613,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 534,
+    "rating": 535,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
