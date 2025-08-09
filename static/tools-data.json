@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-08-07",
+    "updated": "2025-08-08",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1936,7 +1936,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 114,
+    "rating": 115,
     "updated": "2025-08-04",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3858,27 +3858,6 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Personal collection of docker service files",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "docker-services",
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 0,
-    "updated": "2024-05-01",
-    "url": "https://github.com/Zebradil/docker-services"
-  },
-  {
     "archived": false,
     "category": [
       "taskserver",
@@ -5756,7 +5735,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 128,
+    "rating": 129,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -6146,7 +6125,7 @@
       "taskwarrior2"
     ],
     "description": "Simple OSX tray application allowing you to use Pomodoro techniques with Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Swift"
     ],
@@ -6735,7 +6714,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 37,
+    "rating": 38,
     "updated": "2025-04-03",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -9558,8 +9537,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1747,
-    "updated": "2025-06-05",
+    "rating": 1748,
+    "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
@@ -11944,6 +11923,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A taskwarrior client for extracting data in different formats, initially markdown",
+    "dormant": false,
+    "language": [
+      "Go"
+    ],
+    "license": "MIT License",
+    "name": "tasks",
+    "owner": [
+      "msoulier"
+    ],
+    "rating": 1,
+    "updated": "2025-01-26",
+    "url": "https://github.com/msoulier/tasks"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Web app to provide access to taskwarrior tasks",
     "dormant": false,
     "language": [
@@ -13984,7 +13983,7 @@
       "taskwarrior3"
     ],
     "description": "The missing piece between browser and taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "HTML"
     ],
@@ -15074,7 +15073,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 148,
+    "rating": 149,
     "updated": "2025-05-13",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15514,7 +15513,7 @@
     "owner": [
       "unintended-giraffe"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2024-07-02",
     "url": "https://github.com/unintended-giraffe/AI_Secretary"
   },
