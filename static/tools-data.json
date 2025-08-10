@@ -138,7 +138,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-08-08",
+    "updated": "2025-08-09",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1417,7 +1417,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2025-06-01",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -7805,7 +7805,7 @@
       "taskwarrior2"
     ],
     "description": "This Perl script is used for exporting daily tasks, tracked in taskwarrior, to an Obsidian document.",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Perl"
     ],
@@ -7975,7 +7975,7 @@
       "huantrinh1802"
     ],
     "rating": 79,
-    "updated": "2025-05-26",
+    "updated": "2025-08-09",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
   {
@@ -9537,7 +9537,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1748,
+    "rating": 1749,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10917,7 +10917,7 @@
       "marriagav"
     ],
     "rating": 24,
-    "updated": "2025-07-31",
+    "updated": "2025-08-09",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -11794,7 +11794,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-08-03",
+    "updated": "2025-08-10",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
