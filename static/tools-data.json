@@ -64,6 +64,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Taskwarrior and Timewarrior config using XDG, as much as they allow",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "dot-task",
+    "owner": [
+      "00dani"
+    ],
+    "rating": 0,
+    "updated": "2025-02-11",
+    "url": "https://github.com/00dani/dot-task"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -778,7 +798,7 @@
       "BerkeleyTrue"
     ],
     "rating": 0,
-    "updated": "2025-08-13",
+    "updated": "2025-08-14",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -5226,6 +5246,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A CRM for TaskWarrior-TimeWarrior integration",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": null,
+    "name": "company-cli",
+    "owner": [
+      "bizkite-co"
+    ],
+    "rating": 0,
+    "updated": "2025-08-14",
+    "url": "https://github.com/bizkite-co/company-cli"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "program to convert plaintext tasks file into taskwarrior",
     "dormant": false,
     "language": [
@@ -6375,7 +6415,7 @@
     "owner": [
       "dathanb"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2024-12-02",
     "url": "https://github.com/dathanb/taskwarrior-focus"
   },
@@ -9338,7 +9378,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 410,
+    "rating": 411,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -11924,26 +11964,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A taskwarrior client for extracting data in different formats, initially markdown",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": "MIT License",
-    "name": "tasks",
-    "owner": [
-      "msoulier"
-    ],
-    "rating": 1,
-    "updated": "2025-01-26",
-    "url": "https://github.com/msoulier/tasks"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Web app to provide access to taskwarrior tasks",
     "dormant": false,
     "language": [
@@ -12655,7 +12675,7 @@
     "owner": [
       "ogarcia"
     ],
-    "rating": 78,
+    "rating": 77,
     "updated": "2024-05-19",
     "url": "https://github.com/ogarcia/docker-taskd"
   },
@@ -14854,7 +14874,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 884,
+    "rating": 883,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
@@ -15095,7 +15115,7 @@
       "timcase"
     ],
     "rating": 0,
-    "updated": "2025-08-13",
+    "updated": "2025-08-15",
     "url": "https://github.com/timcase/taskchampion-rb"
   },
   {
