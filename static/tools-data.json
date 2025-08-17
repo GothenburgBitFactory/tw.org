@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-08-15",
+    "updated": "2025-08-16",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -778,7 +778,7 @@
       "BerkeleyTrue"
     ],
     "rating": 0,
-    "updated": "2025-08-15",
+    "updated": "2025-08-16",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 188,
-    "updated": "2025-08-13",
+    "updated": "2025-08-16",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 778,
+    "rating": 779,
     "updated": "2025-08-06",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1956,7 +1956,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 8,
-    "updated": "2025-04-09",
+    "updated": "2025-08-16",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -3874,7 +3874,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 71,
+    "rating": 72,
     "updated": "2025-08-15",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -5208,7 +5208,7 @@
     "description": "A CRM for TaskWarrior-TimeWarrior integration",
     "dormant": false,
     "language": [
-      "Shell"
+      "Python"
     ],
     "license": null,
     "name": "cocli",
@@ -5216,7 +5216,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-08-15",
+    "updated": "2025-08-16",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -8703,6 +8703,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Complimentary CLI to taskwarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-enhanced",
+    "owner": [
+      "jeanlucthumm"
+    ],
+    "rating": 0,
+    "updated": "2025-08-16",
+    "url": "https://github.com/jeanlucthumm/taskwarrior-enhanced"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "TaskWarrior -> Remind converter",
     "dormant": true,
     "language": [
@@ -11015,7 +11035,7 @@
     "owner": [
       "matt-snider"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2019-10-15",
     "url": "https://github.com/matt-snider/todoist-taskwarrior"
   },
@@ -11794,7 +11814,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-08-10",
+    "updated": "2025-08-17",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
