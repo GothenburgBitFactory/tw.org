@@ -39,11 +39,10 @@ While they may work most of the time, such configurations can cause corruption a
 ## How To Sync
 
 To set up sync, you will need a server.
-Several options are available:
+Two options are available:
 
  - One of the commercial cloud-storage providers; or
  - A TaskChampion sync server running on an Internet-accessible system of your own or provided by someone else.
- - A "local" server on your filesystem:
 
 Taskwarrior can use a cloud-storage provider, such as AWS S3 or Google Cloud Storage, to synchronize tasks.
 This carries a small cost, and also requires some expertise in the cloud provider configuration to set up.
@@ -52,8 +51,5 @@ Some S3-compatible storage services are also supported.
 The [TaskChampion sync server](https://github.com/GothenburgBitFactory/taskchampion-sync-server) is easy to run on a server such as a VPS or web hosting provider.
 It can be deployed in a variety of ways and can be configured simply for a single-user or extended to support multiple users.
 The [sync server documentation](https://gothenburgbitfactory.org/taskchampion-sync-server/) describes the server configuration options in detail.
-
-A local server is suitable for synchronizing tools running on the same system.
-This is an unusual configuration, but is simple to set up.
 
 Refer to the [`task-sync(5)`](https://taskwarrior.org/docs/man/task-sync.5/) manpage for details on configuring synchronization.
