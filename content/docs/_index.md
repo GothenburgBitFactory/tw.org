@@ -59,6 +59,7 @@ layout: single
 - [DOM - Document Object Model](dom/)
 - [JSON Import/Export Format](https://github.com/GothenburgBitFactory/taskwarrior/blob/develop/doc/devel/rfcs/task.md)
 - [Task Representation](task/)
+- [Syncing Tasks](sync/) {{< label >}}3.0.0{{< /label >}}
 - [Deprecated Features](deprecated/)
 - [Philosophy](philosophy/)
 
