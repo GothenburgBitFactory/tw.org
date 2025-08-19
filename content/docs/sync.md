@@ -32,7 +32,7 @@ Thus any tool that uses TaskChampion can synchronize with Taskwarrior.
 
 ### Do Not Use External Sync Tools
 
-Past versions of Taskwarrior used a simpler format for storing task data, and with some care it was possible to use file-synchronization tools like SyncThing or `rsync` to synchronize tasks.
+Past versions of Taskwarrior used a simpler format for storing task data, and with some care it was possible to use file-synchronization tools like Syncthing or `rsync` to synchronize tasks.
 As of Taskwarrior 3.0, tasks are stored in a local database in a format that is not amenable to this sort of synchronization.
 While they may work most of the time, such configurations can cause corruption and are not supported.
 
