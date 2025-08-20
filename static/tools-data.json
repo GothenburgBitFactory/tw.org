@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-08-18",
+    "updated": "2025-08-19",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -428,7 +428,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "C++"
     ],
@@ -644,26 +644,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "a cli based todo program inspired by Taskwarrior and Todo.txt",
-    "dormant": true,
-    "language": [
-      "C++"
-    ],
-    "license": null,
-    "name": "ToDo",
-    "owner": [
-      "Anno2003"
-    ],
-    "rating": 0,
-    "updated": "2021-04-16",
-    "url": "https://github.com/Anno2003/ToDo"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -778,7 +758,7 @@
       "BerkeleyTrue"
     ],
     "rating": 2,
-    "updated": "2025-08-18",
+    "updated": "2025-08-19",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -1897,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 115,
-    "updated": "2025-08-12",
+    "updated": "2025-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3838,6 +3818,27 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Personal collection of docker service files",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "docker-services",
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 0,
+    "updated": "2024-05-01",
+    "url": "https://github.com/Zebradil/docker-services"
+  },
+  {
     "archived": false,
     "category": [
       "taskserver",
@@ -3875,7 +3876,7 @@
       "Zebradil"
     ],
     "rating": 72,
-    "updated": "2025-08-15",
+    "updated": "2025-08-19",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -6245,7 +6246,7 @@
       "taskwarrior2"
     ],
     "description": "A simple terminal kanban for taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -9557,7 +9558,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1756,
+    "rating": 1758,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11237,6 +11238,26 @@
     "rating": 0,
     "updated": "2024-10-06",
     "url": "https://github.com/me-and/asmodeus"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "a Wrapper to share tasks between humans and AI agents",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-ng",
+    "owner": [
+      "meirm"
+    ],
+    "rating": 0,
+    "updated": "2025-08-19",
+    "url": "https://github.com/meirm/taskwarrior-ng"
   },
   {
     "archived": false,
