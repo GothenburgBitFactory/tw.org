@@ -758,7 +758,7 @@
       "BerkeleyTrue"
     ],
     "rating": 2,
-    "updated": "2025-08-19",
+    "updated": "2025-08-20",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 779,
+    "rating": 780,
     "updated": "2025-08-06",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1897,7 +1897,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 116,
-    "updated": "2025-08-18",
+    "updated": "2025-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -1936,7 +1936,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 8,
-    "updated": "2025-08-16",
+    "updated": "2025-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskserver-setup"
   },
   {
@@ -5036,7 +5036,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 550,
+    "rating": 551,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5895,7 +5895,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 148,
+    "rating": 149,
     "updated": "2024-09-24",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -9358,7 +9358,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 411,
+    "rating": 412,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -11175,7 +11175,7 @@
     "owner": [
       "maxjoehnk"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2025-08-12",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
@@ -14044,7 +14044,7 @@
       "taskwarrior2"
     ],
     "description": "Microsoft To-Do integration with Taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Go"
     ],
