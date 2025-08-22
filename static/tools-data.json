@@ -758,7 +758,7 @@
       "BerkeleyTrue"
     ],
     "rating": 2,
-    "updated": "2025-08-20",
+    "updated": "2025-08-21",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -1157,7 +1157,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 232,
+    "rating": 233,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1857,7 +1857,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 780,
-    "updated": "2025-08-06",
+    "updated": "2025-08-21",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -5036,7 +5036,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 551,
+    "rating": 552,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -6478,26 +6478,6 @@
     "rating": 0,
     "updated": "2025-04-08",
     "url": "https://github.com/devSadakat/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A GUI for TaskWarrior",
-    "dormant": false,
-    "language": [
-      "Astro"
-    ],
-    "license": null,
-    "name": "taskninja",
-    "owner": [
-      "devbydaniel"
-    ],
-    "rating": 0,
-    "updated": "2024-12-24",
-    "url": "https://github.com/devbydaniel/taskninja"
   },
   {
     "archived": false,
@@ -9558,7 +9538,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1758,
+    "rating": 1760,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10937,7 +10917,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2025-08-18",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -13375,7 +13355,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 179,
+    "rating": 180,
     "updated": "2024-04-01",
     "url": "https://github.com/ralphbean/taskw"
   },
