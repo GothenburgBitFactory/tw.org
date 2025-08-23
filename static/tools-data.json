@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 780,
+    "rating": 781,
     "updated": "2025-08-21",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 115,
+    "rating": 116,
     "updated": "2025-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -3513,7 +3513,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2024-12-01",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -4003,26 +4003,6 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "A quick and dirty script to synchronize Taskwarrior and an IMAP mailbox",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "ImapTW",
-    "owner": [
-      "abrochier"
-    ],
-    "rating": 0,
-    "updated": "2022-02-22",
-    "url": "https://github.com/abrochier/ImapTW"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -4339,6 +4319,26 @@
     "rating": 2,
     "updated": "2016-06-10",
     "url": "https://github.com/alcarithemad/tasks"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Proyecto para manejo de tareas con IA y TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "Apache License 2.0",
+    "name": "taskflow-ai",
+    "owner": [
+      "alejandrodazal"
+    ],
+    "rating": 0,
+    "updated": "2025-08-22",
+    "url": "https://github.com/alejandrodazal/taskflow-ai"
   },
   {
     "archived": false,
@@ -4796,7 +4796,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -6478,6 +6478,26 @@
     "rating": 0,
     "updated": "2025-04-08",
     "url": "https://github.com/devSadakat/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A GUI for TaskWarrior",
+    "dormant": false,
+    "language": [
+      "Astro"
+    ],
+    "license": null,
+    "name": "taskninja",
+    "owner": [
+      "devbydaniel"
+    ],
+    "rating": 0,
+    "updated": "2024-12-24",
+    "url": "https://github.com/devbydaniel/taskninja"
   },
   {
     "archived": false,
@@ -8336,7 +8356,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2025-07-13",
+    "updated": "2025-08-22",
     "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
