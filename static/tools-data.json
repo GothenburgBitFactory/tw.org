@@ -417,7 +417,7 @@
     "owner": [
       "Aerex"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2022-07-05",
     "url": "https://github.com/Aerex/icaltask"
   },
@@ -644,6 +644,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "a cli based todo program inspired by Taskwarrior and Todo.txt",
+    "dormant": true,
+    "language": [
+      "C++"
+    ],
+    "license": null,
+    "name": "ToDo",
+    "owner": [
+      "Anno2003"
+    ],
+    "rating": 0,
+    "updated": "2021-04-16",
+    "url": "https://github.com/Anno2003/ToDo"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -758,7 +778,7 @@
       "BerkeleyTrue"
     ],
     "rating": 2,
-    "updated": "2025-08-21",
+    "updated": "2025-08-23",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -1856,8 +1876,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 781,
-    "updated": "2025-08-21",
+    "rating": 782,
+    "updated": "2025-08-23",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1896,7 +1916,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 116,
+    "rating": 117,
     "updated": "2025-08-20",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2613,7 +2633,7 @@
     "owner": [
       "LikiPiki"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-05-11",
     "url": "https://github.com/LikiPiki/taskwarriorExtension"
   },
@@ -3818,27 +3838,6 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Personal collection of docker service files",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "docker-services",
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 0,
-    "updated": "2024-05-01",
-    "url": "https://github.com/Zebradil/docker-services"
-  },
-  {
     "archived": false,
     "category": [
       "taskserver",
@@ -5036,7 +5035,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 552,
+    "rating": 553,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5976,7 +5975,7 @@
       "clobrano"
     ],
     "rating": 0,
-    "updated": "2025-08-03",
+    "updated": "2025-08-23",
     "url": "https://github.com/clobrano/TaskwarriorAgenda"
   },
   {
@@ -7638,26 +7637,6 @@
     "rating": 1,
     "updated": "2021-02-28",
     "url": "https://github.com/gorrioncillo/TaskwarriorHolidaysGcalendar"
-  },
-  {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "If you ever wanted to track your time with mite in a workflow around taskwarrior, this is for you!",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "mitewarrior",
-    "owner": [
-      "grasegger"
-    ],
-    "rating": 2,
-    "updated": "2023-04-03",
-    "url": "https://github.com/grasegger/mitewarrior"
   },
   {
     "archived": false,
@@ -9558,7 +9537,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1760,
+    "rating": 1762,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10938,7 +10917,7 @@
       "marriagav"
     ],
     "rating": 25,
-    "updated": "2025-08-18",
+    "updated": "2025-08-23",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -11835,7 +11814,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-08-17",
+    "updated": "2025-08-24",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -12274,7 +12253,7 @@
     "owner": [
       "nerab"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2025-02-11",
     "url": "https://github.com/nerab/twdeps"
   },
@@ -15095,7 +15074,7 @@
       "timcase"
     ],
     "rating": 0,
-    "updated": "2025-08-18",
+    "updated": "2025-08-23",
     "url": "https://github.com/timcase/taskchampion-rb"
   },
   {
@@ -15674,7 +15653,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 536,
+    "rating": 537,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
