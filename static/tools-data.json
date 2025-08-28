@@ -97,7 +97,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2025-07-03",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-08-19",
+    "updated": "2025-08-27",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -778,7 +778,7 @@
       "BerkeleyTrue"
     ],
     "rating": 2,
-    "updated": "2025-08-26",
+    "updated": "2025-08-27",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -1019,26 +1019,6 @@
     "rating": 0,
     "updated": "2025-04-03",
     "url": "https://github.com/Christian-Kammerath/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskserver",
-    "owner": [
-      "Colin-Stark"
-    ],
-    "rating": 0,
-    "updated": "2024-11-16",
-    "url": "https://github.com/Colin-Stark/taskserver"
   },
   {
     "archived": false,
@@ -1897,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 116,
-    "updated": "2025-08-25",
+    "updated": "2025-08-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -5056,7 +5036,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 555,
+    "rating": 556,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -8220,6 +8200,26 @@
     "url": "https://github.com/ilulillirillion/ansible_taskwarrior_role"
   },
   {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "taskServer",
+    "owner": [
+      "imon-n"
+    ],
+    "rating": 0,
+    "updated": "2025-08-27",
+    "url": "https://github.com/imon-n/taskServer"
+  },
+  {
     "archived": true,
     "category": [
       "taskwarrior2",
@@ -8376,7 +8376,7 @@
       "its-me-abhishek"
     ],
     "rating": 2,
-    "updated": "2025-08-24",
+    "updated": "2025-08-27",
     "url": "https://github.com/its-me-abhishek/gsoc25-report"
   },
   {
@@ -9578,7 +9578,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1765,
+    "rating": 1766,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11196,7 +11196,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-08-24",
+    "updated": "2025-08-27",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -14274,7 +14274,7 @@
       "smemsh"
     ],
     "rating": 3,
-    "updated": "2025-08-26",
+    "updated": "2025-08-27",
     "url": "https://github.com/smemsh/taskwtools"
   },
   {
@@ -14754,7 +14754,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2025-08-13",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
