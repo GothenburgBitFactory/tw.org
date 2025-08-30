@@ -857,7 +857,7 @@
       "CCExtractor"
     ],
     "rating": 188,
-    "updated": "2025-08-26",
+    "updated": "2025-08-29",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 782,
+    "rating": 783,
     "updated": "2025-08-23",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3054,7 +3054,7 @@
       "OzwaldFR"
     ],
     "rating": 1,
-    "updated": "2024-11-24",
+    "updated": "2025-08-29",
     "url": "https://github.com/OzwaldFR/Taskwarrior-JP"
   },
   {
@@ -3982,26 +3982,6 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "A quick and dirty script to synchronize Taskwarrior and an IMAP mailbox",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "ImapTW",
-    "owner": [
-      "abrochier"
-    ],
-    "rating": 0,
-    "updated": "2022-02-22",
-    "url": "https://github.com/abrochier/ImapTW"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -4328,15 +4308,15 @@
     "description": "Proyecto para manejo de tareas con IA y TaskWarrior",
     "dormant": false,
     "language": [
-      "Python"
+      "HTML"
     ],
-    "license": "Apache License 2.0",
+    "license": "MIT License",
     "name": "taskflow-ai",
     "owner": [
       "alejandrodazal"
     ],
     "rating": 0,
-    "updated": "2025-08-22",
+    "updated": "2025-08-29",
     "url": "https://github.com/alejandrodazal/taskflow-ai"
   },
   {
@@ -4795,7 +4775,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -7974,7 +7954,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 80,
+    "rating": 81,
     "updated": "2025-08-09",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9597,7 +9577,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1768,
+    "rating": 1769,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14773,7 +14753,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 17,
+    "rating": 18,
     "updated": "2025-08-13",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
@@ -15134,7 +15114,7 @@
       "tmahmood"
     ],
     "rating": 151,
-    "updated": "2025-05-13",
+    "updated": "2025-08-29",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
