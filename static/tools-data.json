@@ -644,26 +644,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "a cli based todo program inspired by Taskwarrior and Todo.txt",
-    "dormant": true,
-    "language": [
-      "C++"
-    ],
-    "license": null,
-    "name": "ToDo",
-    "owner": [
-      "Anno2003"
-    ],
-    "rating": 0,
-    "updated": "2021-04-16",
-    "url": "https://github.com/Anno2003/ToDo"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -778,7 +758,7 @@
       "BerkeleyTrue"
     ],
     "rating": 2,
-    "updated": "2025-08-28",
+    "updated": "2025-08-31",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -7615,7 +7595,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2022-11-08",
     "url": "https://github.com/gkssjovi/trackwarrior"
   },
@@ -10998,7 +10978,7 @@
       "marriagav"
     ],
     "rating": 26,
-    "updated": "2025-08-24",
+    "updated": "2025-08-31",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -11137,7 +11117,7 @@
       "matthiasbeyer"
     ],
     "rating": 13,
-    "updated": "2025-05-01",
+    "updated": "2025-09-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
