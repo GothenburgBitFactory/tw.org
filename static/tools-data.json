@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-08-30",
+    "updated": "2025-09-02",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -758,7 +758,7 @@
       "BerkeleyTrue"
     ],
     "rating": 2,
-    "updated": "2025-08-31",
+    "updated": "2025-09-02",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -837,7 +837,7 @@
       "CCExtractor"
     ],
     "rating": 188,
-    "updated": "2025-09-01",
+    "updated": "2025-09-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1877,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 119,
-    "updated": "2025-08-20",
+    "updated": "2025-09-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3094,7 +3094,7 @@
       "Pete-Hamlin"
     ],
     "rating": 8,
-    "updated": "2025-07-13",
+    "updated": "2025-09-02",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -3796,6 +3796,27 @@
     "rating": 3,
     "updated": "2019-01-07",
     "url": "https://github.com/Zebradil/Skribe"
+  },
+  {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Personal collection of docker service files",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "docker-services",
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 0,
+    "updated": "2024-05-01",
+    "url": "https://github.com/Zebradil/docker-services"
   },
   {
     "archived": false,
@@ -5315,7 +5336,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 525,
+    "rating": 526,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -10957,7 +10978,7 @@
       "marriagav"
     ],
     "rating": 26,
-    "updated": "2025-08-31",
+    "updated": "2025-09-03",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -11267,7 +11288,7 @@
     "description": "a Wrapper to share tasks between humans and AI agents",
     "dormant": false,
     "language": [
-      "Python"
+      "TypeScript"
     ],
     "license": "MIT License",
     "name": "taskwarrior-ng",
@@ -11275,7 +11296,7 @@
       "meirm"
     ],
     "rating": 0,
-    "updated": "2025-08-26",
+    "updated": "2025-09-03",
     "url": "https://github.com/meirm/taskwarrior-ng"
   },
   {
@@ -11873,7 +11894,7 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2025-04-04",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
@@ -12594,7 +12615,7 @@
     "owner": [
       "nojhan"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2024-10-14",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
@@ -15133,7 +15154,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 153,
+    "rating": 154,
     "updated": "2025-08-29",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15756,6 +15777,26 @@
     "rating": 7,
     "updated": "2018-10-05",
     "url": "https://github.com/vrutkovs/telch"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "My personal scripts and configs to tune TaskWarrior to my preferences",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-scripts",
+    "owner": [
+      "warrenleitner"
+    ],
+    "rating": 0,
+    "updated": "2025-09-03",
+    "url": "https://github.com/warrenleitner/taskwarrior-scripts"
   },
   {
     "archived": false,
