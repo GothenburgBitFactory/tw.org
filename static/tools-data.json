@@ -758,7 +758,7 @@
       "BerkeleyTrue"
     ],
     "rating": 2,
-    "updated": "2025-09-02",
+    "updated": "2025-09-03",
     "url": "https://github.com/BerkeleyTrue/taskbane"
   },
   {
@@ -1677,7 +1677,7 @@
     "owner": [
       "Fongshway"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-12-18",
     "url": "https://github.com/Fongshway/twpm"
   },
@@ -3094,7 +3094,7 @@
       "Pete-Hamlin"
     ],
     "rating": 8,
-    "updated": "2025-09-02",
+    "updated": "2025-09-03",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -5217,7 +5217,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-08-16",
+    "updated": "2025-09-03",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -14715,7 +14715,7 @@
       "szaffarano"
     ],
     "rating": 10,
-    "updated": "2025-08-28",
+    "updated": "2025-09-03",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -15787,7 +15787,7 @@
     "description": "My personal scripts and configs to tune TaskWarrior to my preferences",
     "dormant": false,
     "language": [
-      "N/A"
+      "Shell"
     ],
     "license": "MIT License",
     "name": "taskwarrior-scripts",
