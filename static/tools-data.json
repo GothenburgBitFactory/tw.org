@@ -1678,7 +1678,7 @@
       "Fongshway"
     ],
     "rating": 3,
-    "updated": "2022-12-18",
+    "updated": "2025-09-04",
     "url": "https://github.com/Fongshway/twpm"
   },
   {
@@ -3856,7 +3856,7 @@
       "Zebradil"
     ],
     "rating": 72,
-    "updated": "2025-08-19",
+    "updated": "2025-09-04",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3983,26 +3983,6 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "A quick and dirty script to synchronize Taskwarrior and an IMAP mailbox",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "ImapTW",
-    "owner": [
-      "abrochier"
-    ],
-    "rating": 0,
-    "updated": "2022-02-22",
-    "url": "https://github.com/abrochier/ImapTW"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -4077,7 +4057,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2025-08-05",
+    "updated": "2025-09-04",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -4836,7 +4816,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 24,
+    "rating": 26,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -5196,7 +5176,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 259,
+    "rating": 258,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -15154,8 +15134,8 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 154,
-    "updated": "2025-08-29",
+    "rating": 155,
+    "updated": "2025-09-04",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
@@ -16298,6 +16278,26 @@
     "rating": 0,
     "updated": "2025-06-26",
     "url": "https://github.com/zudochkin/taskwarrior-alfredworkflow"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Integrate sjtu canvas to taskwarrior",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TwCanvas",
+    "owner": [
+      "zzjc1234"
+    ],
+    "rating": 1,
+    "updated": "2025-09-04",
+    "url": "https://github.com/zzjc1234/TwCanvas"
   },
   {
     "archived": false,
