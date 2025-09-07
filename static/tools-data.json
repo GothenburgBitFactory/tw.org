@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-09-05",
+    "updated": "2025-09-06",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1137,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 234,
+    "rating": 235,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1857,7 +1857,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 117,
-    "updated": "2025-09-01",
+    "updated": "2025-09-06",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 119,
+    "rating": 118,
     "updated": "2025-09-02",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -5035,7 +5035,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 556,
+    "rating": 557,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5596,7 +5596,7 @@
     "owner": [
       "cakira"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2023-04-17",
     "url": "https://github.com/cakira/subtaskwarrior"
   },
@@ -9034,7 +9034,7 @@
       "johnconnor-sec"
     ],
     "rating": 0,
-    "updated": "2025-09-05",
+    "updated": "2025-09-06",
     "url": "https://github.com/johnconnor-sec/taskopen-go"
   },
   {
@@ -11215,7 +11215,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-08-27",
+    "updated": "2025-09-06",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11414,7 +11414,7 @@
     "owner": [
       "mikebobroski"
     ],
-    "rating": 50,
+    "rating": 51,
     "updated": "2017-12-22",
     "url": "https://github.com/mikebobroski/tasknote"
   },
@@ -11874,7 +11874,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-08-31",
+    "updated": "2025-09-07",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -14793,7 +14793,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2025-08-13",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
@@ -16314,7 +16314,7 @@
     "owner": [
       "zzjc1234"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-09-04",
     "url": "https://github.com/zzjc1234/TwCanvas"
   },
