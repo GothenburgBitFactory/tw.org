@@ -1137,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 235,
+    "rating": 236,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1358,7 +1358,7 @@
       "DerTimonius"
     ],
     "rating": 47,
-    "updated": "2025-06-01",
+    "updated": "2025-09-07",
     "url": "https://github.com/DerTimonius/twkb"
   },
   {
@@ -1678,7 +1678,7 @@
       "Fongshway"
     ],
     "rating": 3,
-    "updated": "2025-09-04",
+    "updated": "2025-09-07",
     "url": "https://github.com/Fongshway/twpm"
   },
   {
@@ -6287,7 +6287,7 @@
     "description": null,
     "dormant": false,
     "language": [
-      "N/A"
+      "HTML"
     ],
     "license": null,
     "name": "taskwarrior-sync",
@@ -6295,7 +6295,7 @@
       "cryptoskillz"
     ],
     "rating": 0,
-    "updated": "2025-09-05",
+    "updated": "2025-09-07",
     "url": "https://github.com/cryptoskillz/taskwarrior-sync"
   },
   {
@@ -7659,6 +7659,26 @@
     "url": "https://github.com/gorrioncillo/TaskwarriorHolidaysGcalendar"
   },
   {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "If you ever wanted to track your time with mite in a workflow around taskwarrior, this is for you!",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "mitewarrior",
+    "owner": [
+      "grasegger"
+    ],
+    "rating": 2,
+    "updated": "2023-04-03",
+    "url": "https://github.com/grasegger/mitewarrior"
+  },
+  {
     "archived": false,
     "category": [
       "taskserver",
@@ -7674,7 +7694,7 @@
     "owner": [
       "greenrd"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2014-03-08",
     "url": "https://github.com/greenrd/taskwarrior-mode"
   },
@@ -9397,7 +9417,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 413,
+    "rating": 414,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9597,7 +9617,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1773,
+    "rating": 1774,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13334,7 +13354,7 @@
     "owner": [
       "quandangv"
     ],
-    "rating": 11,
+    "rating": 12,
     "updated": "2022-10-24",
     "url": "https://github.com/quandangv/polybar-warrior"
   },
@@ -14132,7 +14152,7 @@
     "owner": [
       "simachri"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2022-11-07",
     "url": "https://github.com/simachri/twtodo-rs"
   },
@@ -15153,7 +15173,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 155,
+    "rating": 156,
     "updated": "2025-09-04",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
