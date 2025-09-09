@@ -836,7 +836,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 188,
+    "rating": 187,
     "updated": "2025-09-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1678,7 +1678,7 @@
       "Fongshway"
     ],
     "rating": 3,
-    "updated": "2025-09-07",
+    "updated": "2025-09-08",
     "url": "https://github.com/Fongshway/twpm"
   },
   {
@@ -1857,7 +1857,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 117,
-    "updated": "2025-09-06",
+    "updated": "2025-09-08",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -3493,7 +3493,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2025-08-24",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -5975,7 +5975,7 @@
       "clobrano"
     ],
     "rating": 0,
-    "updated": "2025-08-23",
+    "updated": "2025-09-08",
     "url": "https://github.com/clobrano/TaskwarriorAgenda"
   },
   {
@@ -7657,26 +7657,6 @@
     "rating": 1,
     "updated": "2021-02-28",
     "url": "https://github.com/gorrioncillo/TaskwarriorHolidaysGcalendar"
-  },
-  {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "If you ever wanted to track your time with mite in a workflow around taskwarrior, this is for you!",
-    "dormant": false,
-    "language": [
-      "Rust"
-    ],
-    "license": null,
-    "name": "mitewarrior",
-    "owner": [
-      "grasegger"
-    ],
-    "rating": 2,
-    "updated": "2023-04-03",
-    "url": "https://github.com/grasegger/mitewarrior"
   },
   {
     "archived": false,
@@ -15613,7 +15593,7 @@
     "owner": [
       "unintended-giraffe"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2024-07-02",
     "url": "https://github.com/unintended-giraffe/AI_Secretary"
   },
