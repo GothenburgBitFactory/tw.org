@@ -1857,7 +1857,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 117,
-    "updated": "2025-09-08",
+    "updated": "2025-09-09",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1877,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 118,
-    "updated": "2025-09-02",
+    "updated": "2025-09-09",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -6295,7 +6295,7 @@
       "cryptoskillz"
     ],
     "rating": 0,
-    "updated": "2025-09-07",
+    "updated": "2025-09-09",
     "url": "https://github.com/cryptoskillz/taskwarrior-sync"
   },
   {
@@ -9397,7 +9397,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 414,
+    "rating": 413,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
