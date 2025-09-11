@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-09-06",
+    "updated": "2025-09-10",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1857,7 +1857,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 117,
-    "updated": "2025-09-09",
+    "updated": "2025-09-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1877,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 118,
-    "updated": "2025-09-09",
+    "updated": "2025-09-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3034,7 +3034,7 @@
       "OzwaldFR"
     ],
     "rating": 1,
-    "updated": "2025-08-29",
+    "updated": "2025-09-10",
     "url": "https://github.com/OzwaldFR/Taskwarrior-JP"
   },
   {
@@ -3676,26 +3676,6 @@
     "rating": 0,
     "updated": "2017-09-06",
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
-  },
-  {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "tasktree",
-    "owner": [
-      "Tzrlk"
-    ],
-    "rating": 0,
-    "updated": "2017-11-28",
-    "url": "https://github.com/Tzrlk/tasktree"
   },
   {
     "archived": false,
@@ -5155,7 +5135,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2021-04-18",
     "url": "https://github.com/bergercookie/voice_to_taskwarrior"
   },
@@ -6295,7 +6275,7 @@
       "cryptoskillz"
     ],
     "rating": 0,
-    "updated": "2025-09-09",
+    "updated": "2025-09-10",
     "url": "https://github.com/cryptoskillz/taskwarrior-sync"
   },
   {
