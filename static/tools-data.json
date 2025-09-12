@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-09-10",
+    "updated": "2025-09-11",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 783,
+    "rating": 784,
     "updated": "2025-08-23",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3533,7 +3533,7 @@
     "owner": [
       "Spredzy"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2020-06-19",
     "url": "https://github.com/Spredzy/ics2task"
   },
@@ -3676,6 +3676,26 @@
     "rating": 0,
     "updated": "2017-09-06",
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
+  },
+  {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "tasktree",
+    "owner": [
+      "Tzrlk"
+    ],
+    "rating": 0,
+    "updated": "2017-11-28",
+    "url": "https://github.com/Tzrlk/tasktree"
   },
   {
     "archived": false,
@@ -6275,7 +6295,7 @@
       "cryptoskillz"
     ],
     "rating": 0,
-    "updated": "2025-09-10",
+    "updated": "2025-09-11",
     "url": "https://github.com/cryptoskillz/taskwarrior-sync"
   },
   {
@@ -14223,7 +14243,7 @@
       "taskwarrior2"
     ],
     "description": "taskwarrior integration into neorg",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Lua"
     ],
