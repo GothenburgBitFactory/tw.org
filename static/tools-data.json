@@ -1117,7 +1117,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2022-11-09",
     "url": "https://github.com/DCsunset/taskwarrior-lib"
   },
@@ -1137,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 237,
+    "rating": 238,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 117,
+    "rating": 118,
     "updated": "2025-09-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -3814,7 +3814,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 72,
+    "rating": 73,
     "updated": "2025-09-04",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -4795,7 +4795,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 27,
+    "rating": 29,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -4995,7 +4995,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 557,
+    "rating": 558,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5255,7 +5255,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 89,
+    "rating": 90,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -7714,7 +7714,7 @@
     "owner": [
       "grovesteyn"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2024-05-24",
     "url": "https://github.com/grovesteyn/tchart"
   },
@@ -9417,7 +9417,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 18,
+    "rating": 19,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -10916,7 +10916,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 26,
+    "rating": 28,
     "updated": "2025-09-03",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -11155,7 +11155,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-09-13",
+    "updated": "2025-09-14",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13564,7 +13564,7 @@
       "taskwarrior2"
     ],
     "description": "Sync Taskwarrior tasks with Habitica",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Haskell"
     ],
@@ -14813,7 +14813,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 884,
+    "rating": 885,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
