@@ -1837,7 +1837,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 118,
-    "updated": "2025-09-10",
+    "updated": "2025-09-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 118,
+    "rating": 119,
     "updated": "2025-09-10",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3094,7 +3094,7 @@
       "Pete-Hamlin"
     ],
     "rating": 0,
-    "updated": "2025-06-24",
+    "updated": "2025-09-15",
     "url": "https://github.com/Pete-Hamlin/taskwarrior-hooks"
   },
   {
@@ -3776,6 +3776,27 @@
     "rating": 3,
     "updated": "2019-01-07",
     "url": "https://github.com/Zebradil/Skribe"
+  },
+  {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Personal collection of docker service files",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "docker-services",
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 0,
+    "updated": "2024-05-01",
+    "url": "https://github.com/Zebradil/docker-services"
   },
   {
     "archived": false,
@@ -5015,7 +5036,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2024-08-10",
     "url": "https://github.com/bergercookie/taskw-ng"
   },
@@ -5055,7 +5076,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2021-03-28",
     "url": "https://github.com/bergercookie/taskwarrior-deno"
   },
@@ -9537,7 +9558,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1773,
+    "rating": 1774,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10977,7 +10998,7 @@
       "marty-oehme"
     ],
     "rating": 2,
-    "updated": "2025-04-22",
+    "updated": "2025-09-15",
     "url": "https://github.com/marty-oehme/topen"
   },
   {
@@ -11155,7 +11176,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-09-14",
+    "updated": "2025-09-15",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -14973,7 +14994,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 554,
+    "rating": 555,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
