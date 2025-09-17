@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 118,
+    "rating": 117,
     "updated": "2025-09-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -5076,7 +5076,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 2,
+    "rating": 1,
     "updated": "2021-03-28",
     "url": "https://github.com/bergercookie/taskwarrior-deno"
   },
@@ -5276,7 +5276,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 90,
+    "rating": 89,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -9558,7 +9558,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1774,
+    "rating": 1777,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11176,7 +11176,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-09-15",
+    "updated": "2025-09-16",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11248,7 +11248,7 @@
     "description": "a Wrapper to share tasks between humans and AI agents",
     "dormant": false,
     "language": [
-      "TypeScript"
+      "Python"
     ],
     "license": "MIT License",
     "name": "taskwarrior-ng",
@@ -11256,7 +11256,7 @@
       "meirm"
     ],
     "rating": 0,
-    "updated": "2025-09-03",
+    "updated": "2025-09-16",
     "url": "https://github.com/meirm/taskwarrior-ng"
   },
   {
@@ -12766,7 +12766,7 @@
       "taskwarrior3"
     ],
     "description": "A python CLI that extends taskwarrior for productivity scoreboard & gamification (quantified self)",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
