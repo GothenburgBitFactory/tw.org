@@ -4057,7 +4057,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2025-09-04",
+    "updated": "2025-09-18",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -5557,7 +5557,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 101,
+    "rating": 102,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -5956,7 +5956,7 @@
       "clobrano"
     ],
     "rating": 0,
-    "updated": "2025-09-08",
+    "updated": "2025-09-18",
     "url": "https://github.com/clobrano/TaskwarriorAgenda"
   },
   {
@@ -7325,6 +7325,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A Rust library for Taskwarrior 3.x integration with TaskChampion backend support",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "taskwarrior3lib-rs",
+    "owner": [
+      "frigidplatypus"
+    ],
+    "rating": 0,
+    "updated": "2025-09-18",
+    "url": "https://github.com/frigidplatypus/taskwarrior3lib-rs"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Edit a note per project in Taskwarrior",
     "dormant": false,
     "language": [
@@ -7496,7 +7516,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-06-03",
+    "updated": "2025-09-18",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9558,7 +9578,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1779,
+    "rating": 1776,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11176,7 +11196,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-09-16",
+    "updated": "2025-09-18",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13824,6 +13844,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A tool to parse Tandoor shopping lists to Taskwarrior todo entries",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "tandoor-task",
+    "owner": [
+      "scattenlaeufer"
+    ],
+    "rating": 0,
+    "updated": "2022-02-25",
+    "url": "https://github.com/scattenlaeufer/tandoor-task"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "A CLI Wrapper for TaskWarrior",
     "dormant": false,
     "language": [
@@ -14754,7 +14794,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2025-08-13",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
