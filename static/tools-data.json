@@ -1658,7 +1658,7 @@
       "Fongshway"
     ],
     "rating": 3,
-    "updated": "2025-09-08",
+    "updated": "2025-09-19",
     "url": "https://github.com/Fongshway/twpm"
   },
   {
@@ -3778,27 +3778,6 @@
     "url": "https://github.com/Zebradil/Skribe"
   },
   {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Personal collection of docker service files",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "docker-services",
-    "owner": [
-      "Zebradil"
-    ],
-    "rating": 0,
-    "updated": "2024-05-01",
-    "url": "https://github.com/Zebradil/docker-services"
-  },
-  {
     "archived": false,
     "category": [
       "taskserver",
@@ -4057,7 +4036,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2025-09-18",
+    "updated": "2025-09-19",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -4816,7 +4795,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -7336,7 +7315,7 @@
       "frigidplatypus"
     ],
     "rating": 0,
-    "updated": "2025-09-18",
+    "updated": "2025-09-19",
     "url": "https://github.com/frigidplatypus/taskwarrior3lib-rs"
   },
   {
@@ -8744,46 +8723,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "TypeScript"
-    ],
-    "license": null,
-    "name": "taskwarrior-vscode-extension",
-    "owner": [
-      "jeka1331"
-    ],
-    "rating": 1,
-    "updated": "2023-04-26",
-    "url": "https://github.com/jeka1331/taskwarrior-vscode-extension"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": false,
-    "language": [
-      "Dockerfile"
-    ],
-    "license": null,
-    "name": "taskwarrior_rest_api",
-    "owner": [
-      "jeka1331"
-    ],
-    "rating": 0,
-    "updated": "2022-11-21",
-    "url": "https://github.com/jeka1331/taskwarrior_rest_api"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "A Taskwarrior Web Application",
     "dormant": true,
     "language": [
@@ -9015,7 +8954,7 @@
       "johnconnor-sec"
     ],
     "rating": 0,
-    "updated": "2025-09-06",
+    "updated": "2025-09-19",
     "url": "https://github.com/johnconnor-sec/taskopen-go"
   },
   {
@@ -9378,7 +9317,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 412,
+    "rating": 413,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9578,7 +9517,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1776,
+    "rating": 1778,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11196,7 +11135,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-09-18",
+    "updated": "2025-09-19",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11994,7 +11933,7 @@
     "owner": [
       "mtesauro"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2023-05-07",
     "url": "https://github.com/mtesauro/httask"
   },
@@ -13844,26 +13783,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A tool to parse Tandoor shopping lists to Taskwarrior todo entries",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "tandoor-task",
-    "owner": [
-      "scattenlaeufer"
-    ],
-    "rating": 0,
-    "updated": "2022-02-25",
-    "url": "https://github.com/scattenlaeufer/tandoor-task"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "A CLI Wrapper for TaskWarrior",
     "dormant": false,
     "language": [
@@ -14076,6 +13995,46 @@
     "rating": 3,
     "updated": "2022-08-08",
     "url": "https://github.com/shenlebantongying/Taskwarrior-Connector"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "taskwarrior-vscode-extension",
+    "owner": [
+      "shifttabctrlalt"
+    ],
+    "rating": 1,
+    "updated": "2023-04-26",
+    "url": "https://github.com/shifttabctrlalt/taskwarrior-vscode-extension"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "Dockerfile"
+    ],
+    "license": null,
+    "name": "taskwarrior_rest_api",
+    "owner": [
+      "shifttabctrlalt"
+    ],
+    "rating": 0,
+    "updated": "2022-11-21",
+    "url": "https://github.com/shifttabctrlalt/taskwarrior_rest_api"
   },
   {
     "archived": false,
