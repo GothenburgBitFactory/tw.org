@@ -1658,7 +1658,7 @@
       "Fongshway"
     ],
     "rating": 3,
-    "updated": "2025-09-19",
+    "updated": "2025-09-20",
     "url": "https://github.com/Fongshway/twpm"
   },
   {
@@ -1816,8 +1816,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 785,
-    "updated": "2025-09-17",
+    "rating": 787,
+    "updated": "2025-09-21",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -3776,6 +3776,27 @@
     "rating": 3,
     "updated": "2019-01-07",
     "url": "https://github.com/Zebradil/Skribe"
+  },
+  {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Personal collection of docker service files",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": null,
+    "name": "docker-services",
+    "owner": [
+      "Zebradil"
+    ],
+    "rating": 0,
+    "updated": "2024-05-01",
+    "url": "https://github.com/Zebradil/docker-services"
   },
   {
     "archived": false,
@@ -9517,7 +9538,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1778,
+    "rating": 1780,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11794,7 +11815,7 @@
       "mrVanDalo"
     ],
     "rating": 1,
-    "updated": "2025-09-14",
+    "updated": "2025-09-21",
     "url": "https://github.com/mrVanDalo/taskwarrior-flake"
   },
   {
@@ -13783,6 +13804,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A tool to parse Tandoor shopping lists to Taskwarrior todo entries",
+    "dormant": true,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "tandoor-task",
+    "owner": [
+      "scattenlaeufer"
+    ],
+    "rating": 0,
+    "updated": "2022-02-25",
+    "url": "https://github.com/scattenlaeufer/tandoor-task"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "A CLI Wrapper for TaskWarrior",
     "dormant": false,
     "language": [
@@ -14833,7 +14874,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 886,
+    "rating": 887,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
@@ -15093,7 +15134,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 157,
+    "rating": 158,
     "updated": "2025-09-04",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
