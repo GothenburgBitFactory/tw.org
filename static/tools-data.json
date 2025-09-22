@@ -1658,7 +1658,7 @@
       "Fongshway"
     ],
     "rating": 3,
-    "updated": "2025-09-20",
+    "updated": "2025-09-21",
     "url": "https://github.com/Fongshway/twpm"
   },
   {
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 117,
+    "rating": 118,
     "updated": "2025-09-15",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -5716,7 +5716,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 127,
+    "rating": 128,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -10547,26 +10547,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "A taskwarrior taskpirate hook to initiate actions on task start",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "tw-workflow-hook",
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 1,
-    "updated": "2015-08-17",
-    "url": "https://github.com/linuxcaffe/tw-workflow-hook"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Taswarrior scripts",
     "dormant": true,
     "language": [
@@ -10918,7 +10898,7 @@
       "marriagav"
     ],
     "rating": 28,
-    "updated": "2025-09-03",
+    "updated": "2025-09-21",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -11156,7 +11136,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-09-19",
+    "updated": "2025-09-21",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -13797,26 +13777,6 @@
     "rating": 1,
     "updated": "2014-08-13",
     "url": "https://github.com/sanjayankur31/task-theme"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A tool to parse Tandoor shopping lists to Taskwarrior todo entries",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "tandoor-task",
-    "owner": [
-      "scattenlaeufer"
-    ],
-    "rating": 0,
-    "updated": "2022-02-25",
-    "url": "https://github.com/scattenlaeufer/tandoor-task"
   },
   {
     "archived": false,
