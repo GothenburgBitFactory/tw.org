@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-09-24",
+    "updated": "2025-09-26",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1856,8 +1856,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 118,
-    "updated": "2025-09-24",
+    "rating": 119,
+    "updated": "2025-09-26",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 122,
+    "rating": 123,
     "updated": "2025-09-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4815,7 +4815,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -8924,7 +8924,7 @@
       "taskwarrior2"
     ],
     "description": "Docker Container for taskwarrior/taskd",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dockerfile"
     ],
@@ -9377,7 +9377,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 414,
+    "rating": 415,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -10956,7 +10956,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 29,
+    "rating": 30,
     "updated": "2025-09-23",
     "url": "https://github.com/marriagav/taskchamp"
   },
