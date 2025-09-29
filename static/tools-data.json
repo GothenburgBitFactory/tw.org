@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 123,
+    "rating": 124,
     "updated": "2025-09-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -9577,7 +9577,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1788,
+    "rating": 1790,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10957,7 +10957,7 @@
       "marriagav"
     ],
     "rating": 30,
-    "updated": "2025-09-27",
+    "updated": "2025-09-28",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -14953,7 +14953,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 888,
+    "rating": 889,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
@@ -15004,7 +15004,7 @@
       "taskwarrior2"
     ],
     "description": "Add Taskwarrior tasks by text through Gmail's API",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
