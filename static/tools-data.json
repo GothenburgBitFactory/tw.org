@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-09-27",
+    "updated": "2025-09-29",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -836,7 +836,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 188,
+    "rating": 187,
     "updated": "2025-09-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1678,7 +1678,7 @@
       "Fongshway"
     ],
     "rating": 3,
-    "updated": "2025-09-21",
+    "updated": "2025-09-29",
     "url": "https://github.com/Fongshway/twpm"
   },
   {
@@ -1836,8 +1836,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 788,
-    "updated": "2025-09-21",
+    "rating": 787,
+    "updated": "2025-09-29",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 124,
+    "rating": 123,
     "updated": "2025-09-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4815,7 +4815,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 31,
+    "rating": 30,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -9577,7 +9577,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1790,
+    "rating": 1788,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
