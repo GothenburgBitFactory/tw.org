@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-09-30",
+    "updated": "2025-10-02",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -836,7 +836,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 187,
+    "rating": 188,
     "updated": "2025-09-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1137,7 +1137,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 239,
+    "rating": 240,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -16345,7 +16345,7 @@
       "taskwarrior2"
     ],
     "description": "personal scripts for automating taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
