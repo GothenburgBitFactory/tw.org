@@ -836,7 +836,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 188,
+    "rating": 189,
     "updated": "2025-09-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 119,
+    "rating": 120,
     "updated": "2025-09-26",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -2536,26 +2536,6 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "TTM",
-    "owner": [
-      "LanHikari22"
-    ],
-    "rating": 4,
-    "updated": "2025-06-14",
-    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -5035,7 +5015,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 12,
+    "rating": 11,
     "updated": "2023-12-31",
     "url": "https://github.com/bergercookie/item_synchronizer"
   },
@@ -5055,7 +5035,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 561,
+    "rating": 560,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5236,7 +5216,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-09-24",
+    "updated": "2025-10-04",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -7314,7 +7294,7 @@
     "owner": [
       "fplourde"
     ],
-    "rating": 21,
+    "rating": 22,
     "updated": "2020-12-29",
     "url": "https://github.com/fplourde/Taskwarrior-habitica-hooks"
   },
@@ -7555,7 +7535,7 @@
       "garretpatten"
     ],
     "rating": 2,
-    "updated": "2023-05-01",
+    "updated": "2025-10-04",
     "url": "https://github.com/garretpatten/taskwarrior-themes"
   },
   {
@@ -9397,7 +9377,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 415,
+    "rating": 416,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -10977,7 +10957,7 @@
       "marriagav"
     ],
     "rating": 30,
-    "updated": "2025-10-01",
+    "updated": "2025-10-03",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -13354,7 +13334,7 @@
     "owner": [
       "quandangv"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2022-10-24",
     "url": "https://github.com/quandangv/polybar-warrior"
   },
@@ -13514,7 +13494,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 118,
+    "rating": 119,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14873,7 +14853,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2025-08-13",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
