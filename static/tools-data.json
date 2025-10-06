@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-10-02",
+    "updated": "2025-10-05",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -6814,7 +6814,7 @@
     "owner": [
       "ecocode"
     ],
-    "rating": 2,
+    "rating": 1,
     "updated": "2023-09-15",
     "url": "https://github.com/ecocode/notmuch-taskwarrior"
   },
@@ -9477,7 +9477,7 @@
     "owner": [
       "juraph-dev"
     ],
-    "rating": 3,
+    "rating": 2,
     "updated": "2024-05-11",
     "url": "https://github.com/juraph-dev/emacs-taskwarrior-export"
   },
@@ -9577,7 +9577,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1789,
+    "rating": 1790,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12413,7 +12413,7 @@
     "owner": [
       "niknow"
     ],
-    "rating": 7,
+    "rating": 8,
     "updated": "2016-08-07",
     "url": "https://github.com/niknow/TaskArena"
   },
@@ -15773,7 +15773,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 535,
+    "rating": 536,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
@@ -15933,7 +15933,7 @@
     "owner": [
       "winpat"
     ],
-    "rating": 8,
+    "rating": 7,
     "updated": "2022-02-13",
     "url": "https://github.com/winpat/taskwarrior.el"
   },
