@@ -384,26 +384,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": true,
-    "language": [
-      "HTML"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "Aacgectyuoki"
-    ],
-    "rating": 0,
-    "updated": "2021-04-10",
-    "url": "https://github.com/Aacgectyuoki/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -1137,7 +1117,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 240,
+    "rating": 241,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1806,6 +1786,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": true,
+    "language": [
+      "HTML"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Gaya3-888"
+    ],
+    "rating": 0,
+    "updated": "2021-04-10",
+    "url": "https://github.com/Gaya3-888/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Sends your Assignments, Homework and Tests from Inna to TaskWarrior",
     "dormant": true,
     "language": [
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 787,
+    "rating": 788,
     "updated": "2025-09-29",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3835,7 +3835,7 @@
       "Zebradil"
     ],
     "rating": 73,
-    "updated": "2025-09-04",
+    "updated": "2025-10-07",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -5035,7 +5035,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 560,
+    "rating": 561,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7405,7 +7405,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": true,
+    "dormant": false,
     "language": [
       "C++"
     ],
@@ -7415,7 +7415,7 @@
       "frznlogic"
     ],
     "rating": 0,
-    "updated": "2016-01-01",
+    "updated": "2025-10-07",
     "url": "https://github.com/frznlogic/qml-taskwarrior-executioner"
   },
   {
@@ -11274,7 +11274,7 @@
     "owner": [
       "meirm"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-09-16",
     "url": "https://github.com/meirm/taskwarrior-ng"
   },
@@ -15213,7 +15213,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 158,
+    "rating": 159,
     "updated": "2025-09-04",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
