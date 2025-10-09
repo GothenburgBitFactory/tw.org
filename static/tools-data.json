@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 123,
+    "rating": 125,
     "updated": "2025-09-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -5035,7 +5035,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 561,
+    "rating": 562,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5216,7 +5216,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-10-06",
+    "updated": "2025-10-09",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -6295,7 +6295,7 @@
       "cryptoskillz"
     ],
     "rating": 0,
-    "updated": "2025-10-06",
+    "updated": "2025-10-08",
     "url": "https://github.com/cryptoskillz/taskwarrior-sync"
   },
   {
@@ -6577,6 +6577,26 @@
     "rating": 1,
     "updated": "2020-10-05",
     "url": "https://github.com/digital-plumbers-union/taskwarrior-operator"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Workflow automation for TaskWarrior + Obsidian with Claude Desktop MCP integration",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "plorp",
+    "owner": [
+      "dimatosj"
+    ],
+    "rating": 0,
+    "updated": "2025-10-08",
+    "url": "https://github.com/dimatosj/plorp"
   },
   {
     "archived": false,
@@ -7455,7 +7475,7 @@
       "ftapajos"
     ],
     "rating": 4,
-    "updated": "2025-10-01",
+    "updated": "2025-10-08",
     "url": "https://github.com/ftapajos/scheduler"
   },
   {
@@ -9377,7 +9397,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 417,
+    "rating": 418,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9577,7 +9597,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1790,
+    "rating": 1792,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13534,7 +13554,7 @@
       "rmonico"
     ],
     "rating": 11,
-    "updated": "2025-06-03",
+    "updated": "2025-10-08",
     "url": "https://github.com/rmonico/itask"
   },
   {
@@ -15773,7 +15793,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 537,
+    "rating": 538,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
