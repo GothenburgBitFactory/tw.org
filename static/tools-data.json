@@ -97,7 +97,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2025-07-03",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-10-06",
+    "updated": "2025-10-09",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1786,26 +1786,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": null,
-    "dormant": true,
-    "language": [
-      "HTML"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "Gaya3-888"
-    ],
-    "rating": 0,
-    "updated": "2021-04-10",
-    "url": "https://github.com/Gaya3-888/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Sends your Assignments, Homework and Tests from Inna to TaskWarrior",
     "dormant": true,
     "language": [
@@ -2361,6 +2341,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": true,
+    "language": [
+      "HTML"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Jswnt5"
+    ],
+    "rating": 0,
+    "updated": "2021-04-10",
+    "url": "https://github.com/Jswnt5/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver"
     ],
     "description": "Taskserver docker image with help scripts",
@@ -2536,6 +2536,26 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TTM",
+    "owner": [
+      "LanHikari22"
+    ],
+    "rating": 4,
+    "updated": "2025-06-14",
+    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -5035,7 +5055,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 562,
+    "rating": 563,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -7575,7 +7595,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-09-24",
+    "updated": "2025-10-09",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9597,7 +9617,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1792,
+    "rating": 1793,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11217,26 +11237,6 @@
     "rating": 26,
     "updated": "2025-09-25",
     "url": "https://github.com/maxjoehnk/sidenotes"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Point of reference for my personal [taskwarrior](https://github.com/GothenburgBitFactory/taskwarrior) productivity flow",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "taskwarrior-flow",
-    "owner": [
-      "maxxieb"
-    ],
-    "rating": 0,
-    "updated": "2023-03-21",
-    "url": "https://github.com/maxxieb/taskwarrior-flow"
   },
   {
     "archived": false,
