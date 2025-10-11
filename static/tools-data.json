@@ -97,7 +97,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2025-07-03",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -1816,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 788,
+    "rating": 789,
     "updated": "2025-09-29",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -5215,7 +5215,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 258,
+    "rating": 259,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -6774,7 +6774,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 38,
+    "rating": 39,
     "updated": "2025-04-03",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -7455,7 +7455,7 @@
       "frznlogic"
     ],
     "rating": 0,
-    "updated": "2025-10-07",
+    "updated": "2025-10-10",
     "url": "https://github.com/frznlogic/qml-taskwarrior-executioner"
   },
   {
@@ -8034,7 +8034,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 82,
+    "rating": 83,
     "updated": "2025-08-09",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9417,7 +9417,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 418,
+    "rating": 419,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9617,7 +9617,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1793,
+    "rating": 1794,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -15313,7 +15313,7 @@
     "owner": [
       "tom-doerr"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2024-09-10",
     "url": "https://github.com/tom-doerr/taskwarrior-fzf"
   },
