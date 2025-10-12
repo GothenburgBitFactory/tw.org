@@ -257,7 +257,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 70,
+    "rating": 71,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 120,
+    "rating": 121,
     "updated": "2025-10-07",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -1856,8 +1856,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 125,
-    "updated": "2025-09-24",
+    "rating": 126,
+    "updated": "2025-10-11",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3040,6 +3040,26 @@
   {
     "archived": false,
     "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Simple terminal UI for taskwarrior commands",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "MIT License",
+    "name": "lazytask",
+    "owner": [
+      "OsamaMahmood"
+    ],
+    "rating": 0,
+    "updated": "2025-10-11",
+    "url": "https://github.com/OsamaMahmood/lazytask"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -3854,7 +3874,7 @@
     "owner": [
       "Zebradil"
     ],
-    "rating": 73,
+    "rating": 74,
     "updated": "2025-10-07",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
@@ -3975,29 +3995,9 @@
     "owner": [
       "abesto"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "A quick and dirty script to synchronize Taskwarrior and an IMAP mailbox",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "ImapTW",
-    "owner": [
-      "abrochier"
-    ],
-    "rating": 0,
-    "updated": "2022-02-22",
-    "url": "https://github.com/abrochier/ImapTW"
   },
   {
     "archived": false,
@@ -5055,7 +5055,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 563,
+    "rating": 564,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5315,7 +5315,7 @@
     "owner": [
       "blampe"
     ],
-    "rating": 90,
+    "rating": 91,
     "updated": "2023-04-04",
     "url": "https://github.com/blampe/taskwarrior-reminders"
   },
@@ -5355,7 +5355,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 526,
+    "rating": 527,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -5596,7 +5596,7 @@
     "owner": [
       "burnison"
     ],
-    "rating": 102,
+    "rating": 103,
     "updated": "2018-11-22",
     "url": "https://github.com/burnison/tasksync"
   },
@@ -5755,7 +5755,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 128,
+    "rating": 129,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -5914,7 +5914,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 149,
+    "rating": 150,
     "updated": "2024-09-24",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -6154,7 +6154,7 @@
     "owner": [
       "coddingtonbear"
     ],
-    "rating": 303,
+    "rating": 304,
     "updated": "2022-08-08",
     "url": "https://github.com/coddingtonbear/taskwarrior-pomodoro"
   },
@@ -6609,14 +6609,34 @@
     "language": [
       "Python"
     ],
-    "license": null,
-    "name": "plorp",
+    "license": "MIT License",
+    "name": "brainplorp",
     "owner": [
       "dimatosj"
     ],
     "rating": 0,
-    "updated": "2025-10-08",
-    "url": "https://github.com/dimatosj/plorp"
+    "updated": "2025-10-11",
+    "url": "https://github.com/dimatosj/brainplorp"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Homebrew tap for brainplorp - TaskWarrior + Obsidian workflow automation",
+    "dormant": false,
+    "language": [
+      "Ruby"
+    ],
+    "license": null,
+    "name": "homebrew-brainplorp",
+    "owner": [
+      "dimatosj"
+    ],
+    "rating": 0,
+    "updated": "2025-10-11",
+    "url": "https://github.com/dimatosj/homebrew-brainplorp"
   },
   {
     "archived": false,
@@ -6774,7 +6794,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2025-04-03",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -7054,7 +7074,7 @@
     "owner": [
       "erickt"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2016-04-03",
     "url": "https://github.com/erickt/task-hookrs"
   },
@@ -7234,7 +7254,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 155,
+    "rating": 156,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -7634,7 +7654,7 @@
     "owner": [
       "garykl"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2021-04-13",
     "url": "https://github.com/garykl/task2dot"
   },
@@ -8513,7 +8533,7 @@
     "owner": [
       "j-jith"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2023-08-04",
     "url": "https://github.com/j-jith/taskwarrior-kanban"
   },
@@ -9477,7 +9497,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2023-07-16",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
@@ -9617,7 +9637,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1794,
+    "rating": 1798,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9976,7 +9996,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 141,
+    "rating": 142,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -11016,7 +11036,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2025-03-24",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
@@ -13514,7 +13534,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 119,
+    "rating": 120,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -13653,7 +13673,7 @@
     "owner": [
       "roylez"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2016-03-30",
     "url": "https://github.com/roylez/alfred_taskwarrior"
   },
@@ -13773,7 +13793,7 @@
     "owner": [
       "ryansb"
     ],
-    "rating": 16,
+    "rating": 17,
     "updated": "2012-02-03",
     "url": "https://github.com/ryansb/gitwarrior"
   },
@@ -14752,7 +14772,7 @@
     "owner": [
       "svenhertle"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2015-03-01",
     "url": "https://github.com/svenhertle/tasktime"
   },
@@ -14853,7 +14873,7 @@
     "owner": [
       "taskswamp"
     ],
-    "rating": 43,
+    "rating": 44,
     "updated": "2021-05-28",
     "url": "https://github.com/taskswamp/taskswamp"
   },
@@ -14973,7 +14993,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 889,
+    "rating": 890,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
@@ -15013,7 +15033,7 @@
     "owner": [
       "teranex"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2023-04-25",
     "url": "https://github.com/teranex/vimwiki-tasks"
   },
@@ -15133,7 +15153,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 556,
+    "rating": 557,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
