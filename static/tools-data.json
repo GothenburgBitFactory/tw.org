@@ -97,7 +97,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2025-07-03",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -1816,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 789,
+    "rating": 790,
     "updated": "2025-09-29",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -2536,26 +2536,6 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "TTM",
-    "owner": [
-      "LanHikari22"
-    ],
-    "rating": 4,
-    "updated": "2025-06-14",
-    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -3718,26 +3698,6 @@
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
   },
   {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "tasktree",
-    "owner": [
-      "Tzrlk"
-    ],
-    "rating": 0,
-    "updated": "2017-11-28",
-    "url": "https://github.com/Tzrlk/tasktree"
-  },
-  {
     "archived": false,
     "category": [
       "taskserver",
@@ -3875,7 +3835,7 @@
       "Zebradil"
     ],
     "rating": 74,
-    "updated": "2025-10-07",
+    "updated": "2025-10-12",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -6615,7 +6575,7 @@
       "dimatosj"
     ],
     "rating": 0,
-    "updated": "2025-10-11",
+    "updated": "2025-10-12",
     "url": "https://github.com/dimatosj/brainplorp"
   },
   {
@@ -6635,7 +6595,7 @@
       "dimatosj"
     ],
     "rating": 0,
-    "updated": "2025-10-11",
+    "updated": "2025-10-12",
     "url": "https://github.com/dimatosj/homebrew-brainplorp"
   },
   {
@@ -11017,7 +10977,7 @@
       "marriagav"
     ],
     "rating": 31,
-    "updated": "2025-10-06",
+    "updated": "2025-10-12",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -12804,7 +12764,7 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "MCP Server for TaskWarrior!",
+    "description": "MCP Server for TaskWarrior / GTD Tools",
     "dormant": false,
     "language": [
       "TypeScript"
@@ -12815,7 +12775,7 @@
       "omniwaifu"
     ],
     "rating": 0,
-    "updated": "2025-05-13",
+    "updated": "2025-10-13",
     "url": "https://github.com/omniwaifu/taskwarrior-mcp"
   },
   {
@@ -13497,6 +13457,26 @@
     "rating": 0,
     "updated": "2024-02-07",
     "url": "https://github.com/raspbeguy/ITwarrior"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A simple task server",
+    "dormant": false,
+    "language": [
+      "EJS"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "raylin01"
+    ],
+    "rating": 1,
+    "updated": "2025-10-12",
+    "url": "https://github.com/raylin01/TaskServer"
   },
   {
     "archived": false,
