@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-10-14",
+    "updated": "2025-10-15",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -2540,6 +2540,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TTM",
+    "owner": [
+      "LanHikari22"
+    ],
+    "rating": 4,
+    "updated": "2025-06-14",
+    "url": "https://github.com/LanHikari22/TTM"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -3034,7 +3054,7 @@
       "OsamaMahmood"
     ],
     "rating": 0,
-    "updated": "2025-10-14",
+    "updated": "2025-10-15",
     "url": "https://github.com/OsamaMahmood/lazytask"
   },
   {
@@ -4815,7 +4835,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 30,
+    "rating": 31,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -6575,7 +6595,7 @@
       "dimatosj"
     ],
     "rating": 0,
-    "updated": "2025-10-14",
+    "updated": "2025-10-15",
     "url": "https://github.com/dimatosj/brainplorp"
   },
   {
@@ -9597,7 +9617,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1797,
+    "rating": 1799,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10977,7 +10997,7 @@
       "marriagav"
     ],
     "rating": 31,
-    "updated": "2025-10-14",
+    "updated": "2025-10-15",
     "url": "https://github.com/marriagav/taskchamp"
   },
   {
@@ -10997,7 +11017,7 @@
       "marriagav"
     ],
     "rating": 35,
-    "updated": "2025-03-24",
+    "updated": "2025-10-15",
     "url": "https://github.com/marriagav/taskchamp-docs"
   },
   {
@@ -13521,26 +13541,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "todoist-taskwarrior",
-    "owner": [
-      "richnetdesign"
-    ],
-    "rating": 0,
-    "updated": "2021-08-19",
-    "url": "https://github.com/richnetdesign/todoist-taskwarrior"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2"
     ],
     "description": "iTask stands for *I*nteractive *Task*warrior. Its a CLI frontend to easier the use of Taskwarrior.",
@@ -13856,26 +13856,6 @@
     "rating": 0,
     "updated": "2025-09-23",
     "url": "https://github.com/sandeep9062/taskserver"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A repository where I play around with taskwarrior theme files",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "task-theme",
-    "owner": [
-      "sanjayankur31"
-    ],
-    "rating": 1,
-    "updated": "2014-08-13",
-    "url": "https://github.com/sanjayankur31/task-theme"
   },
   {
     "archived": false,
