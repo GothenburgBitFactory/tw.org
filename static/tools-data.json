@@ -97,7 +97,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2025-07-03",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 12,
-    "updated": "2025-10-01",
+    "updated": "2025-10-16",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1786,6 +1786,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": null,
+    "dormant": true,
+    "language": [
+      "HTML"
+    ],
+    "license": null,
+    "name": "TaskServer",
+    "owner": [
+      "Gaya3-888"
+    ],
+    "rating": 0,
+    "updated": "2021-04-10",
+    "url": "https://github.com/Gaya3-888/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Sends your Assignments, Homework and Tests from Inna to TaskWarrior",
     "dormant": true,
     "language": [
@@ -1836,8 +1856,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 121,
-    "updated": "2025-10-15",
+    "rating": 122,
+    "updated": "2025-10-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1857,7 +1877,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 126,
-    "updated": "2025-10-15",
+    "updated": "2025-10-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2341,26 +2361,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": null,
-    "dormant": true,
-    "language": [
-      "HTML"
-    ],
-    "license": null,
-    "name": "TaskServer",
-    "owner": [
-      "Jswnt5"
-    ],
-    "rating": 0,
-    "updated": "2021-04-10",
-    "url": "https://github.com/Jswnt5/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskserver"
     ],
     "description": "Taskserver docker image with help scripts",
@@ -2536,26 +2536,6 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "TTM",
-    "owner": [
-      "LanHikari22"
-    ],
-    "rating": 4,
-    "updated": "2025-06-14",
-    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -3054,7 +3034,7 @@
       "OsamaMahmood"
     ],
     "rating": 0,
-    "updated": "2025-10-15",
+    "updated": "2025-10-16",
     "url": "https://github.com/OsamaMahmood/lazytask"
   },
   {
@@ -3716,6 +3696,26 @@
     "rating": 0,
     "updated": "2017-09-06",
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
+  },
+  {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "tasktree",
+    "owner": [
+      "Tzrlk"
+    ],
+    "rating": 0,
+    "updated": "2017-11-28",
+    "url": "https://github.com/Tzrlk/tasktree"
   },
   {
     "archived": false,
@@ -5216,7 +5216,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-10-09",
+    "updated": "2025-10-16",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -9617,7 +9617,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1799,
+    "rating": 1800,
     "updated": "2025-08-08",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10996,7 +10996,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2025-10-15",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -13863,6 +13863,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A repository where I play around with taskwarrior theme files",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "task-theme",
+    "owner": [
+      "sanjayankur31"
+    ],
+    "rating": 1,
+    "updated": "2014-08-13",
+    "url": "https://github.com/sanjayankur31/task-theme"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "A CLI Wrapper for TaskWarrior",
     "dormant": false,
     "language": [
@@ -14953,7 +14973,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 890,
+    "rating": 891,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
@@ -15194,7 +15214,7 @@
       "timcase"
     ],
     "rating": 0,
-    "updated": "2025-09-24",
+    "updated": "2025-10-16",
     "url": "https://github.com/timcase/taskchampion-rb"
   },
   {
