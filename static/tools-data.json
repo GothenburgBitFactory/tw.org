@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-10-19",
+    "updated": "2025-10-20",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -796,7 +796,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2025-10-19",
     "url": "https://github.com/CCExtractor/ccsync"
   },
@@ -816,7 +816,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 187,
+    "rating": 188,
     "updated": "2025-09-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -2653,7 +2653,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 37,
+    "rating": 36,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -3034,7 +3034,7 @@
       "OsamaMahmood"
     ],
     "rating": 0,
-    "updated": "2025-10-16",
+    "updated": "2025-10-20",
     "url": "https://github.com/OsamaMahmood/lazytask"
   },
   {
@@ -3053,7 +3053,7 @@
     "owner": [
       "OzwaldFR"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-09-10",
     "url": "https://github.com/OzwaldFR/Taskwarrior-JP"
   },
@@ -3114,7 +3114,7 @@
       "Pete-Hamlin"
     ],
     "rating": 8,
-    "updated": "2025-10-19",
+    "updated": "2025-10-20",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -5216,7 +5216,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-10-19",
+    "updated": "2025-10-20",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -5735,7 +5735,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 130,
+    "rating": 131,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -6295,7 +6295,7 @@
       "cryptoskillz"
     ],
     "rating": 0,
-    "updated": "2025-10-08",
+    "updated": "2025-10-20",
     "url": "https://github.com/cryptoskillz/taskwarrior-sync"
   },
   {
@@ -9617,8 +9617,8 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1801,
-    "updated": "2025-08-08",
+    "rating": 1804,
+    "updated": "2025-10-20",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
