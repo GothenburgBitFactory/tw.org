@@ -1,5 +1,5 @@
 ---
-title: 'Taskwarrior - taskrc.5 for task-3.4.1'
+title: 'Taskwarrior - taskrc.5 for task-3.4.2'
 viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
@@ -1070,6 +1070,10 @@ A special sort value of "none" indicates that no sorting is required,
 and tasks will be presented in the order (if any) in which they are
 selected.
 
+A special sort value of "random" indicates that the tasks will be sorted
+in a random order. Each time a report with 'sort:random' is run, a new
+random order will be generated.
+
 **report.X.filter**  
 This adds a filter to the report X so that only tasks matching the
 filter criteria are displayed in the generated report.
@@ -1154,7 +1158,7 @@ understand anything about it. For example if you define a UDA named
 'estimate', Taskwarrior will not know that this value is weeks, hours,
 minutes, money, or some other resource count.
 
-**uda.&lt;name&gt;.type=string|numeric|date|duration**  
+**uda.&lt;name&gt;.type=string|numeric|uuid|date|duration**  
 
 Defines a UDA called '&lt;name&gt;', of the specified type.
 
