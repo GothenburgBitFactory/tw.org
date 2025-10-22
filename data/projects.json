@@ -2,8 +2,8 @@
   "task": {
     "name": "Taskwarrior",
     "stable": {
-      "version": "3.4.1",
-      "url": "https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.4.1/task-3.4.1.tar.gz"
+      "version": "3.4.2",
+      "url": "https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.4.2/task-3.4.2.tar.gz"
     }
   },
   "tasksh": {

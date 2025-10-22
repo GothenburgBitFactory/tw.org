@@ -1,5 +1,5 @@
 ---
-title: 'Taskwarrior - task-sync.5 for task-3.4.1'
+title: 'Taskwarrior - task-sync.5 for task-3.4.2'
 viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
@@ -45,8 +45,8 @@ periodically, such as via **cron**(8)**.**
 Taskwarrior provides several options for synchronizing your tasks:
 
 \- To a server specifically designed to handle Taskwarrior data. + To a
-cloud storage provider. Currently only GCP is supported. - To a local,
-on-disk file.
+cloud storage provider. Currently both AWS and GCP are supported. - To a
+local, on-disk file.
 
 For most of these, you will need an encryption secret used to encrypt
 and decrypt your tasks. This can be any secret string, and must match
@@ -132,7 +132,9 @@ Then configure Taskwarrior with:
 
 To synchronize your tasks to AWS, select a region near you and use the
 AWS console to create a new S3 bucket. The default settings for the
-bucket are adequate.
+bucket are adequate. In particular, ensure that no lifecycle policies
+are enabled, as they may automatically delete or transition objects,
+potentially impacting data availability.
 
 You will also need an AWS IAM user with the following policy, where
 BUCKETNAME is the name of the bucket. The same user can be configured
