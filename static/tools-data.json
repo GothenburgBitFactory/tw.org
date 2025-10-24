@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-10-22",
+    "updated": "2025-10-23",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -796,8 +796,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 15,
-    "updated": "2025-10-22",
+    "rating": 18,
+    "updated": "2025-10-23",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -3134,7 +3134,7 @@
       "Pete-Hamlin"
     ],
     "rating": 8,
-    "updated": "2025-10-20",
+    "updated": "2025-10-23",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -7635,7 +7635,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-10-21",
+    "updated": "2025-10-23",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -12103,26 +12103,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Docker for taskserver, try to run it on a free cloud service.",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": "Apache License 2.0",
-    "name": "docker_taskserver",
-    "owner": [
-      "nachose"
-    ],
-    "rating": 0,
-    "updated": "2024-05-04",
-    "url": "https://github.com/nachose/docker_taskserver"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "Simple GUI client for Taskwarrior",
     "dormant": true,
     "language": [
@@ -12794,7 +12774,7 @@
     "owner": [
       "omniwaifu"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-10-13",
     "url": "https://github.com/omniwaifu/taskwarrior-mcp"
   },
