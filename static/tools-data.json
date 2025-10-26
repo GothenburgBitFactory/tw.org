@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-10-24",
+    "updated": "2025-10-25",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -796,8 +796,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 19,
-    "updated": "2025-10-24",
+    "rating": 20,
+    "updated": "2025-10-25",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -816,7 +816,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 188,
+    "rating": 190,
     "updated": "2025-09-02",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1876,7 +1876,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 128,
+    "rating": 129,
     "updated": "2025-10-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -9617,7 +9617,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1808,
+    "rating": 1809,
     "updated": "2025-10-20",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14953,7 +14953,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 891,
+    "rating": 892,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
