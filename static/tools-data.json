@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 20,
-    "updated": "2025-10-25",
+    "updated": "2025-10-26",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1407,26 +1407,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Simple scripts to make adding new tasks to taskwarrior projects easier",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "Taskwarrior-adder",
-    "owner": [
-      "DjaEm"
-    ],
-    "rating": 0,
-    "updated": "2024-07-26",
-    "url": "https://github.com/DjaEm/Taskwarrior-adder"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": null,
     "dormant": true,
     "language": [
@@ -1836,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 791,
+    "rating": 789,
     "updated": "2025-09-29",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -2673,7 +2653,7 @@
     "owner": [
       "M0nster3"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2022-12-24",
     "url": "https://github.com/M0nster3/ITaskServers"
   },
@@ -6079,6 +6059,26 @@
     "url": "https://github.com/coaxial/docker-taskserver"
   },
   {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "A beautiful, modern integration between Taskwarrior and Waybar for managing tasks directly from your status bar.",
+    "dormant": false,
+    "language": [
+      "Shell"
+    ],
+    "license": "MIT License",
+    "name": "taskwarrior-waybar",
+    "owner": [
+      "coccor"
+    ],
+    "rating": 0,
+    "updated": "2025-10-26",
+    "url": "https://github.com/coccor/taskwarrior-waybar"
+  },
+  {
     "archived": true,
     "category": [
       "taskwarrior2",
@@ -6335,7 +6335,7 @@
       "cryptoskillz"
     ],
     "rating": 0,
-    "updated": "2025-10-20",
+    "updated": "2025-10-26",
     "url": "https://github.com/cryptoskillz/taskwarrior-sync"
   },
   {
@@ -9417,7 +9417,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 419,
+    "rating": 412,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
