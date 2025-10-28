@@ -1837,7 +1837,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 123,
-    "updated": "2025-10-16",
+    "updated": "2025-10-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 129,
+    "rating": 131,
     "updated": "2025-10-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2413,7 +2413,7 @@
     "owner": [
       "KevinBockelandt"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2016-02-13",
     "url": "https://github.com/KevinBockelandt/TaskwarriorWidget"
   },
@@ -3033,8 +3033,8 @@
     "owner": [
       "OsamaMahmood"
     ],
-    "rating": 1,
-    "updated": "2025-10-20",
+    "rating": 2,
+    "updated": "2025-10-27",
     "url": "https://github.com/OsamaMahmood/lazytask"
   },
   {
@@ -4176,7 +4176,7 @@
       "ak-arsalan"
     ],
     "rating": 0,
-    "updated": "2024-07-12",
+    "updated": "2025-10-27",
     "url": "https://github.com/ak-arsalan/cli-taskwarrior-and-restapi-automation"
   },
   {
@@ -5055,7 +5055,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 567,
+    "rating": 568,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9618,7 +9618,7 @@
       "kdheepak"
     ],
     "rating": 1809,
-    "updated": "2025-10-20",
+    "updated": "2025-10-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
   {
