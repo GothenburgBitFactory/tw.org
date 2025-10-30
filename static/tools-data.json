@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-10-28",
+    "updated": "2025-10-29",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1117,7 +1117,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 242,
+    "rating": 243,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1816,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 790,
+    "rating": 789,
     "updated": "2025-09-29",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 131,
+    "rating": 132,
     "updated": "2025-10-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3698,26 +3698,6 @@
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
   },
   {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "tasktree",
-    "owner": [
-      "Tzrlk"
-    ],
-    "rating": 0,
-    "updated": "2017-11-28",
-    "url": "https://github.com/Tzrlk/tasktree"
-  },
-  {
     "archived": false,
     "category": [
       "taskserver",
@@ -4576,7 +4556,7 @@
       "alxn0"
     ],
     "rating": 0,
-    "updated": "2025-10-28",
+    "updated": "2025-10-29",
     "url": "https://github.com/alxn0/tasktimer"
   },
   {
@@ -5256,7 +5236,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-10-28",
+    "updated": "2025-10-29",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -5775,7 +5755,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 132,
+    "rating": 133,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -9180,6 +9160,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "A modern, beautiful web interface for TaskWarrior with multiple themes and real-time task management",
+    "dormant": false,
+    "language": [
+      "TypeScript"
+    ],
+    "license": null,
+    "name": "task-warlock",
+    "owner": [
+      "jonestristand"
+    ],
+    "rating": 0,
+    "updated": "2025-10-29",
+    "url": "https://github.com/jonestristand/task-warlock"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -9637,7 +9637,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1809,
+    "rating": 1810,
     "updated": "2025-10-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11016,7 +11016,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2025-10-15",
     "url": "https://github.com/marriagav/taskchamp"
   },
