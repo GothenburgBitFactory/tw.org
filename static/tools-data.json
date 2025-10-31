@@ -637,7 +637,7 @@
     "owner": [
       "AnotherKamila"
     ],
-    "rating": 39,
+    "rating": 40,
     "updated": "2019-03-05",
     "url": "https://github.com/AnotherKamila/tasksched"
   },
@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 20,
-    "updated": "2025-10-26",
+    "updated": "2025-10-30",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1117,7 +1117,7 @@
     "owner": [
       "DCsunset"
     ],
-    "rating": 243,
+    "rating": 242,
     "updated": "2024-12-31",
     "url": "https://github.com/DCsunset/taskwarrior-webui"
   },
@@ -1816,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 789,
+    "rating": 790,
     "updated": "2025-09-29",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 132,
+    "rating": 134,
     "updated": "2025-10-16",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2516,26 +2516,6 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "TTM",
-    "owner": [
-      "LanHikari22"
-    ],
-    "rating": 4,
-    "updated": "2025-06-14",
-    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -3698,6 +3678,26 @@
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
   },
   {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "tasktree",
+    "owner": [
+      "Tzrlk"
+    ],
+    "rating": 0,
+    "updated": "2017-11-28",
+    "url": "https://github.com/Tzrlk/tasktree"
+  },
+  {
     "archived": false,
     "category": [
       "taskserver",
@@ -4556,7 +4556,7 @@
       "alxn0"
     ],
     "rating": 0,
-    "updated": "2025-10-29",
+    "updated": "2025-10-30",
     "url": "https://github.com/alxn0/tasktimer"
   },
   {
@@ -4815,7 +4815,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -5355,7 +5355,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 527,
+    "rating": 528,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -6634,7 +6634,7 @@
     "owner": [
       "dimatosj"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-10-15",
     "url": "https://github.com/dimatosj/brainplorp"
   },
@@ -9174,7 +9174,7 @@
       "jonestristand"
     ],
     "rating": 0,
-    "updated": "2025-10-29",
+    "updated": "2025-10-30",
     "url": "https://github.com/jonestristand/task-warlock"
   },
   {
@@ -9437,7 +9437,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 412,
+    "rating": 413,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9637,7 +9637,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1810,
+    "rating": 1811,
     "updated": "2025-10-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11764,7 +11764,7 @@
       "taskwarrior2"
     ],
     "description": "Rust version of https://github.com/mozram/Taskwarrior-sync",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Rust"
     ],
@@ -12114,7 +12114,7 @@
       "n8henrie"
     ],
     "rating": 1,
-    "updated": "2024-03-18",
+    "updated": "2025-10-30",
     "url": "https://github.com/n8henrie/taskwarrior-rs"
   },
   {
@@ -15793,7 +15793,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 541,
+    "rating": 542,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
