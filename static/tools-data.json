@@ -1488,7 +1488,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "JavaScript"
     ],
@@ -3493,7 +3493,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2025-08-24",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -3676,26 +3676,6 @@
     "rating": 0,
     "updated": "2017-09-06",
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
-  },
-  {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "tasktree",
-    "owner": [
-      "Tzrlk"
-    ],
-    "rating": 0,
-    "updated": "2017-11-28",
-    "url": "https://github.com/Tzrlk/tasktree"
   },
   {
     "archived": false,
@@ -4018,6 +3998,26 @@
     "rating": 8,
     "updated": "2025-04-07",
     "url": "https://github.com/acebaggins/taskwarrior-mcp"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Taskwarrior CLI task management",
+    "dormant": false,
+    "language": [
+      "Ruby"
+    ],
+    "license": null,
+    "name": "Private_Config",
+    "owner": [
+      "achillean-heni-Klas"
+    ],
+    "rating": 0,
+    "updated": "2025-11-01",
+    "url": "https://github.com/achillean-heni-Klas/Private_Config"
   },
   {
     "archived": false,
@@ -5355,7 +5355,7 @@
     "owner": [
       "blindFS"
     ],
-    "rating": 528,
+    "rating": 529,
     "updated": "2019-05-22",
     "url": "https://github.com/blindFS/vim-taskwarrior"
   },
@@ -7635,7 +7635,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-10-23",
+    "updated": "2025-10-31",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -9437,7 +9437,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 413,
+    "rating": 414,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9517,7 +9517,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2021-10-31",
     "url": "https://github.com/jubnzv/qtask"
   },
@@ -9637,7 +9637,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1811,
+    "rating": 1815,
     "updated": "2025-10-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -13534,7 +13534,7 @@
     "owner": [
       "ribelo"
     ],
-    "rating": 120,
+    "rating": 121,
     "updated": "2024-08-04",
     "url": "https://github.com/ribelo/taskwarrior.nvim"
   },
@@ -14973,7 +14973,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 892,
+    "rating": 895,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
