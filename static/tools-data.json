@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-10-29",
+    "updated": "2025-11-01",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -257,7 +257,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 71,
+    "rating": 72,
     "updated": "2018-12-08",
     "url": "https://github.com/8ware/task-dashboard"
   },
@@ -277,7 +277,7 @@
     "owner": [
       "8ware"
     ],
-    "rating": 31,
+    "rating": 32,
     "updated": "2016-04-13",
     "url": "https://github.com/8ware/task-gantt"
   },
@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 20,
-    "updated": "2025-10-30",
+    "updated": "2025-11-01",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1337,7 +1337,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 46,
+    "rating": 47,
     "updated": "2025-09-07",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1816,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 790,
+    "rating": 791,
     "updated": "2025-09-29",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 123,
+    "rating": 124,
     "updated": "2025-10-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -1857,7 +1857,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 134,
-    "updated": "2025-10-16",
+    "updated": "2025-11-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -1935,7 +1935,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 82,
+    "rating": 83,
     "updated": "2024-05-26",
     "url": "https://github.com/GothenburgBitFactory/taskshell"
   },
@@ -3093,7 +3093,7 @@
     "owner": [
       "Pete-Hamlin"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-10-23",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
@@ -3678,6 +3678,26 @@
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
   },
   {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "tasktree",
+    "owner": [
+      "Tzrlk"
+    ],
+    "rating": 0,
+    "updated": "2017-11-28",
+    "url": "https://github.com/Tzrlk/tasktree"
+  },
+  {
     "archived": false,
     "category": [
       "taskserver",
@@ -3995,7 +4015,7 @@
     "owner": [
       "acebaggins"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-04-07",
     "url": "https://github.com/acebaggins/taskwarrior-mcp"
   },
@@ -4556,7 +4576,7 @@
       "alxn0"
     ],
     "rating": 0,
-    "updated": "2025-10-30",
+    "updated": "2025-11-01",
     "url": "https://github.com/alxn0/tasktimer"
   },
   {
@@ -4815,7 +4835,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -4855,7 +4875,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 32,
+    "rating": 33,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -5616,7 +5636,7 @@
     "owner": [
       "cakira"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2023-04-17",
     "url": "https://github.com/cakira/subtaskwarrior"
   },
@@ -5755,7 +5775,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 133,
+    "rating": 134,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -5795,7 +5815,7 @@
     "owner": [
       "cherryramatisdev"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2025-02-16",
     "url": "https://github.com/cherryramatisdev/taskmage"
   },
@@ -5874,7 +5894,7 @@
     "owner": [
       "chess-seventh"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2025-08-24",
     "url": "https://github.com/chess-seventh/TaskKhalReschedulWarrior"
   },
@@ -6294,7 +6314,7 @@
     "owner": [
       "contrun"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2022-08-19",
     "url": "https://github.com/contrun/taskwarrior-terminal-kanban"
   },
@@ -7534,7 +7554,7 @@
     "owner": [
       "ftapajos"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2025-10-08",
     "url": "https://github.com/ftapajos/scheduler"
   },
@@ -7714,7 +7734,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2021-12-09",
     "url": "https://github.com/gkssjovi/taskmd"
   },
@@ -8074,7 +8094,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2024-09-26",
     "url": "https://github.com/huantrinh1802/taskwarrior_flow"
   },
@@ -8533,7 +8553,7 @@
     "owner": [
       "j-jith"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2016-07-11",
     "url": "https://github.com/j-jith/vim-taskwarrior-kanban"
   },
@@ -9508,7 +9528,7 @@
       "taskwarrior3"
     ],
     "description": "GUI organizer based on Taskwarrior",
-    "dormant": true,
+    "dormant": false,
     "language": [
       "C++"
     ],
@@ -9518,7 +9538,7 @@
       "jubnzv"
     ],
     "rating": 20,
-    "updated": "2021-10-31",
+    "updated": "2025-11-01",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
@@ -9637,7 +9657,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1815,
+    "rating": 1817,
     "updated": "2025-10-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9657,7 +9677,7 @@
     "owner": [
       "keigezellig"
     ],
-    "rating": 20,
+    "rating": 21,
     "updated": "2022-08-04",
     "url": "https://github.com/keigezellig/kanbanwarrior"
   },
@@ -9757,7 +9777,7 @@
     "owner": [
       "kelvinauta"
     ],
-    "rating": 5,
+    "rating": 6,
     "updated": "2024-09-02",
     "url": "https://github.com/kelvinauta/taskwarrior_tasklist"
   },
@@ -9996,7 +10016,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 142,
+    "rating": 143,
     "updated": "2021-05-19",
     "url": "https://github.com/kostajh/taskwarrior-time-tracking-hook"
   },
@@ -11016,7 +11036,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 33,
+    "rating": 34,
     "updated": "2025-10-15",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -11255,7 +11275,7 @@
       "maxjoehnk"
     ],
     "rating": 26,
-    "updated": "2025-09-25",
+    "updated": "2025-11-01",
     "url": "https://github.com/maxjoehnk/sidenotes"
   },
   {
@@ -11913,7 +11933,7 @@
     "owner": [
       "mrVanDalo"
     ],
-    "rating": 19,
+    "rating": 20,
     "updated": "2025-04-04",
     "url": "https://github.com/mrVanDalo/taskwarrior-hooks"
   },
@@ -12433,7 +12453,7 @@
     "owner": [
       "niknow"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2016-08-07",
     "url": "https://github.com/niknow/TaskArena"
   },
@@ -12634,7 +12654,7 @@
     "owner": [
       "nojhan"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2024-10-14",
     "url": "https://github.com/nojhan/taskwarrior-deluxe"
   },
@@ -13454,7 +13474,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 180,
+    "rating": 181,
     "updated": "2024-04-01",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -13933,7 +13953,7 @@
     "owner": [
       "scottyob"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2025-04-04",
     "url": "https://github.com/scottyob/taskwarrior-better-recur"
   },
@@ -14953,7 +14973,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2015-01-26",
     "url": "https://github.com/tbabej/taskwarrior-tag_expire-hook"
   },
@@ -14973,7 +14993,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 895,
+    "rating": 896,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
@@ -15673,7 +15693,7 @@
     "owner": [
       "unintended-giraffe"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2024-07-02",
     "url": "https://github.com/unintended-giraffe/AI_Secretary"
   },
@@ -15793,7 +15813,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 542,
+    "rating": 544,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
