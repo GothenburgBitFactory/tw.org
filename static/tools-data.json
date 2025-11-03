@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-11-01",
+    "updated": "2025-11-02",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 20,
-    "updated": "2025-11-01",
+    "updated": "2025-11-02",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1028,7 +1028,7 @@
       "taskwarrior2"
     ],
     "description": "Generate kanban style HTML pages from taskwarrior databases",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Python"
     ],
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 124,
+    "rating": 125,
     "updated": "2025-10-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 134,
+    "rating": 135,
     "updated": "2025-11-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -5075,7 +5075,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 569,
+    "rating": 570,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9657,7 +9657,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1817,
+    "rating": 1819,
     "updated": "2025-10-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11036,7 +11036,7 @@
     "owner": [
       "marriagav"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2025-10-15",
     "url": "https://github.com/marriagav/taskchamp"
   },
@@ -15253,7 +15253,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 162,
+    "rating": 163,
     "updated": "2025-09-04",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
