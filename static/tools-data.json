@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 20,
-    "updated": "2025-11-02",
+    "updated": "2025-11-03",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -2516,6 +2516,26 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TTM",
+    "owner": [
+      "LanHikari22"
+    ],
+    "rating": 4,
+    "updated": "2025-06-14",
+    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -4576,7 +4596,7 @@
       "alxn0"
     ],
     "rating": 0,
-    "updated": "2025-11-01",
+    "updated": "2025-11-03",
     "url": "https://github.com/alxn0/tasktimer"
   },
   {
@@ -5075,7 +5095,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 570,
+    "rating": 571,
     "updated": "2024-11-17",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5256,7 +5276,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-10-29",
+    "updated": "2025-11-03",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -8814,7 +8834,7 @@
       "jeanlucthumm"
     ],
     "rating": 0,
-    "updated": "2025-08-18",
+    "updated": "2025-11-03",
     "url": "https://github.com/jeanlucthumm/taskwarrior-enhanced"
   },
   {
@@ -13175,7 +13195,7 @@
       "plateena"
     ],
     "rating": 0,
-    "updated": "2025-06-18",
+    "updated": "2025-11-03",
     "url": "https://github.com/plateena/taskwarrior"
   },
   {
@@ -13876,26 +13896,6 @@
     "rating": 0,
     "updated": "2025-09-23",
     "url": "https://github.com/sandeep9062/taskserver"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A repository where I play around with taskwarrior theme files",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "task-theme",
-    "owner": [
-      "sanjayankur31"
-    ],
-    "rating": 1,
-    "updated": "2014-08-13",
-    "url": "https://github.com/sanjayankur31/task-theme"
   },
   {
     "archived": false,
@@ -15813,7 +15813,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 544,
+    "rating": 545,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
