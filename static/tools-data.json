@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-11-02",
+    "updated": "2025-11-04",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -796,8 +796,8 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 20,
-    "updated": "2025-11-03",
+    "rating": 21,
+    "updated": "2025-11-04",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 135,
+    "rating": 136,
     "updated": "2025-11-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -5276,7 +5276,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-11-03",
+    "updated": "2025-11-04",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -14933,7 +14933,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 54,
+    "rating": 53,
     "updated": "2024-12-05",
     "url": "https://github.com/tbabej/taskpirate"
   },
@@ -15813,7 +15813,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 545,
+    "rating": 546,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
