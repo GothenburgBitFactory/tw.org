@@ -1088,7 +1088,7 @@
       "taskwarrior3"
     ],
     "description": "A Node.js library for interacting with taskwarrior",
-    "dormant": false,
+    "dormant": true,
     "language": [
       "TypeScript"
     ],
@@ -1337,7 +1337,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 48,
+    "rating": 49,
     "updated": "2025-09-07",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 138,
+    "rating": 140,
     "updated": "2025-11-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -2516,26 +2516,6 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "TTM",
-    "owner": [
-      "LanHikari22"
-    ],
-    "rating": 4,
-    "updated": "2025-06-14",
-    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -3696,6 +3676,26 @@
     "rating": 0,
     "updated": "2017-09-06",
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
+  },
+  {
+    "archived": true,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
+    "dormant": true,
+    "language": [
+      "N/A"
+    ],
+    "license": "MIT License",
+    "name": "tasktree",
+    "owner": [
+      "Tzrlk"
+    ],
+    "rating": 0,
+    "updated": "2017-11-28",
+    "url": "https://github.com/Tzrlk/tasktree"
   },
   {
     "archived": false,
@@ -9657,7 +9657,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1833,
+    "rating": 1834,
     "updated": "2025-11-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -14913,7 +14913,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 25,
+    "rating": 26,
     "updated": "2025-10-18",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
@@ -15173,7 +15173,7 @@
     "owner": [
       "theunraveler"
     ],
-    "rating": 557,
+    "rating": 558,
     "updated": "2019-09-09",
     "url": "https://github.com/theunraveler/taskwarrior-web"
   },
@@ -15273,7 +15273,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 164,
+    "rating": 165,
     "updated": "2025-09-04",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
