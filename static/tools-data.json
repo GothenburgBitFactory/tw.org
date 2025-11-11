@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-11-07",
+    "updated": "2025-11-10",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1783,26 +1783,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Sends your Assignments, Homework and Tests from Inna to TaskWarrior",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "InnaTasks",
-    "owner": [
-      "Glitch-is"
-    ],
-    "rating": 0,
-    "updated": "2015-01-12",
-    "url": "https://github.com/Glitch-is/InnaTasks"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -2516,6 +2496,26 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TTM",
+    "owner": [
+      "LanHikari22"
+    ],
+    "rating": 4,
+    "updated": "2025-06-14",
+    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -3623,6 +3623,46 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Initial task server that uses v1 of the TaskTakout OpenAPI spec",
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "TaskServer1",
+    "owner": [
+      "TaskTakeout"
+    ],
+    "rating": 0,
+    "updated": "2025-11-10",
+    "url": "https://github.com/TaskTakeout/TaskServer1"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "An example of a simple Task Server intended for a single user only",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": null,
+    "name": "TaskServerSingleUser",
+    "owner": [
+      "TaskTakeout"
+    ],
+    "rating": 0,
+    "updated": "2025-11-10",
+    "url": "https://github.com/TaskTakeout/TaskServerSingleUser"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Python script for synchronizing a gmail label and taskwarrior tasks",
     "dormant": true,
     "language": [
@@ -3676,26 +3716,6 @@
     "rating": 0,
     "updated": "2017-09-06",
     "url": "https://github.com/Tzrlk/docker-taskwarrior"
-  },
-  {
-    "archived": true,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A customised interface for taskwarrior focusing on task chains and dependencies.",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "tasktree",
-    "owner": [
-      "Tzrlk"
-    ],
-    "rating": 0,
-    "updated": "2017-11-28",
-    "url": "https://github.com/Tzrlk/tasktree"
   },
   {
     "archived": false,
@@ -4076,7 +4096,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2025-11-08",
+    "updated": "2025-11-10",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -5476,7 +5496,7 @@
     "owner": [
       "bretwardjames"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-07-04",
     "url": "https://github.com/bretwardjames/asana-warrior"
   },
@@ -5775,7 +5795,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 135,
+    "rating": 136,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -9657,7 +9677,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1834,
+    "rating": 1836,
     "updated": "2025-11-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10579,26 +10599,6 @@
     "rating": 6,
     "updated": "2016-10-29",
     "url": "https://github.com/linuxcaffe/tw-subtask-sh"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "16color and 256color, light and dark theme files for taskwarrior",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "tw-themes",
-    "owner": [
-      "linuxcaffe"
-    ],
-    "rating": 1,
-    "updated": "2021-11-02",
-    "url": "https://github.com/linuxcaffe/tw-themes"
   },
   {
     "archived": false,
@@ -13896,26 +13896,6 @@
     "rating": 0,
     "updated": "2025-09-23",
     "url": "https://github.com/sandeep9062/taskserver"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "A repository where I play around with taskwarrior theme files",
-    "dormant": true,
-    "language": [
-      "N/A"
-    ],
-    "license": "MIT License",
-    "name": "task-theme",
-    "owner": [
-      "sanjayankur31"
-    ],
-    "rating": 1,
-    "updated": "2014-08-13",
-    "url": "https://github.com/sanjayankur31/task-theme"
   },
   {
     "archived": false,
