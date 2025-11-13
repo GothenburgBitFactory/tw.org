@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-11-11",
+    "updated": "2025-11-12",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1817,7 +1817,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 793,
-    "updated": "2025-11-05",
+    "updated": "2025-11-12",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -1856,7 +1856,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 140,
+    "rating": 141,
     "updated": "2025-11-01",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4055,7 +4055,7 @@
     "owner": [
       "acebaggins"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2025-04-07",
     "url": "https://github.com/acebaggins/taskwarrior-mcp"
   },
@@ -4116,7 +4116,7 @@
       "adam-gaia"
     ],
     "rating": 1,
-    "updated": "2025-11-10",
+    "updated": "2025-11-12",
     "url": "https://github.com/adam-gaia/todoist-taskwarrior-sync"
   },
   {
@@ -9697,7 +9697,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1836,
+    "rating": 1837,
     "updated": "2025-11-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -10937,7 +10937,7 @@
       "marad"
     ],
     "rating": 0,
-    "updated": "2025-07-11",
+    "updated": "2025-11-12",
     "url": "https://github.com/marad/taskwarrior-notes"
   },
   {
@@ -13235,7 +13235,7 @@
       "polyntsov"
     ],
     "rating": 3,
-    "updated": "2023-02-24",
+    "updated": "2025-11-12",
     "url": "https://github.com/polyntsov/togglwarrior"
   },
   {
