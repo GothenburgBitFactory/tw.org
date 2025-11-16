@@ -80,9 +80,11 @@ fi
 case "${OS}" in
   Linux)
     PUBLISH_DATE=$( date -d "${DATE} - 7 days" +%Y-%m-%d )
+    EXPIRY_DATE=$( date -d "${DATE} + 1 day" +%Y-%m-%d )
     ;;
   Darwin)
     PUBLISH_DATE=$( date -v -7d -j -f "%Y-%m-%d" "${DATE}" +%Y-%m-%d )
+    EXPIRY_DATE=$( date -v +1d -j -f "%Y-%m-%d" "${DATE}" +%Y-%m-%d )
     ;;
   *)
     echo "Unsupported operating system"
@@ -102,8 +104,10 @@ hugo new "news/news.${PUBLISH_DATE//-/}.md" \
 case "${OS}" in
   Linux)
     sed -i -e "s/%DATE%/${DATE}/g" "${REPO_ROOT}/content/news/news.${PUBLISH_DATE//-/}.md"
+    sed -i -e "s/%EXPIRES%/${EXPIRY_DATE}T00:00:00Z/g" "${REPO_ROOT}/content/news/news.${PUBLISH_DATE//-/}.md"
     ;;
   Darwin)
     sed -i "" -e "s/%DATE%/${DATE}/g" "${REPO_ROOT}/content/news/news.${PUBLISH_DATE//-/}.md"
+    sed -i "" -e "s/%EXPIRES%/${EXPIRY_DATE}T00:00:00Z/g" "${REPO_ROOT}/content/news/news.${PUBLISH_DATE//-/}.md"
     ;;
 esac

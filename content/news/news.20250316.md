@@ -1,6 +1,7 @@
 ---
 title: "GBF community meeting"
 date: 2025-03-16T00:00:00Z
+expiryDate: 2025-03-30T00:00:00Z
 ---
 
 ### GBF Community Meeting

@@ -23,7 +23,8 @@
     <div class="row">
       <div class="col-lg-9">
         <h2>News</h2>
-        {{ range first 2 .Site.RegularPages }}
+        {{ $news := where .Site.RegularPages "Section" "news" }}
+        {{ range first 2 $news }}
         <div class="alert alert-light">
           {{ .Content }}
         </div>

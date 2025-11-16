@@ -1,6 +1,7 @@
 ---
 title: "GBF community meeting"
 date: {{ .Date }}
+expiryDate: %EXPIRES%
 ---
 
 ### GBF Community Meeting
