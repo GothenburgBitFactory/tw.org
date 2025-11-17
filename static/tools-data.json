@@ -1816,8 +1816,8 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 793,
-    "updated": "2025-11-15",
+    "rating": 794,
+    "updated": "2025-11-16",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -2516,6 +2516,26 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TTM",
+    "owner": [
+      "LanHikari22"
+    ],
+    "rating": 4,
+    "updated": "2025-06-14",
+    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -5954,7 +5974,7 @@
     "owner": [
       "cinatic"
     ],
-    "rating": 150,
+    "rating": 151,
     "updated": "2024-09-24",
     "url": "https://github.com/cinatic/taskwhisperer"
   },
@@ -6804,26 +6824,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": null,
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "taskwarrior-asana-sync",
-    "owner": [
-      "drkarl"
-    ],
-    "rating": 4,
-    "updated": "2012-10-18",
-    "url": "https://github.com/drkarl/taskwarrior-asana-sync"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": "A Ruby wrapper around the TaskWarrior command line tool",
     "dormant": true,
     "language": [
@@ -7314,7 +7314,7 @@
     "owner": [
       "flickerfly"
     ],
-    "rating": 157,
+    "rating": 158,
     "updated": "2021-03-17",
     "url": "https://github.com/flickerfly/taskwarrior-notifications"
   },
@@ -7641,26 +7641,6 @@
   {
     "archived": false,
     "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "A repository of custom themes I use in taskwarrior",
-    "dormant": false,
-    "language": [
-      "N/A"
-    ],
-    "license": null,
-    "name": "taskwarrior-themes",
-    "owner": [
-      "garretpatten"
-    ],
-    "rating": 2,
-    "updated": "2025-10-04",
-    "url": "https://github.com/garretpatten/taskwarrior-themes"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -7754,7 +7734,7 @@
     "owner": [
       "gkssjovi"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2021-12-09",
     "url": "https://github.com/gkssjovi/taskmd"
   },
@@ -8693,7 +8673,7 @@
     "owner": [
       "jacostag"
     ],
-    "rating": 1,
+    "rating": 2,
     "updated": "2025-07-17",
     "url": "https://github.com/jacostag/taskwarrior_utils"
   },
@@ -13199,7 +13179,7 @@
     "url": "https://github.com/plateena/taskwarrior"
   },
   {
-    "archived": false,
+    "archived": true,
     "category": [
       "taskwarrior2",
       "taskwarrior3"
