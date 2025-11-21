@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-11-19",
+    "updated": "2025-11-20",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -817,7 +817,7 @@
       "CCExtractor"
     ],
     "rating": 194,
-    "updated": "2025-11-19",
+    "updated": "2025-11-20",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1797,7 +1797,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 795,
-    "updated": "2025-11-19",
+    "updated": "2025-11-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -3855,7 +3855,7 @@
       "Zebradil"
     ],
     "rating": 74,
-    "updated": "2025-10-12",
+    "updated": "2025-11-20",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -9457,7 +9457,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 414,
+    "rating": 415,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9538,7 +9538,7 @@
       "jubnzv"
     ],
     "rating": 20,
-    "updated": "2025-11-17",
+    "updated": "2025-11-20",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
@@ -9657,7 +9657,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1841,
+    "rating": 1842,
     "updated": "2025-11-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12266,7 +12266,7 @@
     "description": "Taskwarrior stickies-like app for mac",
     "dormant": false,
     "language": [
-      "Shell"
+      "Swift"
     ],
     "license": null,
     "name": "taskwarrior-stickies",
@@ -12274,7 +12274,7 @@
       "ndp190"
     ],
     "rating": 0,
-    "updated": "2025-09-14",
+    "updated": "2025-11-20",
     "url": "https://github.com/ndp190/taskwarrior-stickies"
   },
   {
@@ -13474,7 +13474,7 @@
     "owner": [
       "ralphbean"
     ],
-    "rating": 181,
+    "rating": 182,
     "updated": "2024-04-01",
     "url": "https://github.com/ralphbean/taskw"
   },
@@ -14813,8 +14813,8 @@
     "owner": [
       "szaffarano"
     ],
-    "rating": 10,
-    "updated": "2025-09-03",
+    "rating": 11,
+    "updated": "2025-11-20",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -14993,7 +14993,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 898,
+    "rating": 899,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
@@ -15514,7 +15514,7 @@
       "tschaefer"
     ],
     "rating": 3,
-    "updated": "2025-08-12",
+    "updated": "2025-11-20",
     "url": "https://github.com/tschaefer/taskwarrior-calendar"
   },
   {
