@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 27,
-    "updated": "2025-11-19",
+    "updated": "2025-11-21",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1467,26 +1467,6 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Script to add my schedule to taskwarrior from icalendar streams.",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "pytask",
-    "owner": [
-      "EivindSul"
-    ],
-    "rating": 1,
-    "updated": "2024-08-22",
-    "url": "https://github.com/EivindSul/pytask"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
     "description": null,
     "dormant": true,
     "language": [
@@ -1796,7 +1776,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 795,
+    "rating": 796,
     "updated": "2025-11-20",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -3855,7 +3835,7 @@
       "Zebradil"
     ],
     "rating": 74,
-    "updated": "2025-11-20",
+    "updated": "2025-11-21",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -4055,7 +4035,7 @@
     "owner": [
       "achillean-heni-Klas"
     ],
-    "rating": 0,
+    "rating": 4,
     "updated": "2025-11-13",
     "url": "https://github.com/achillean-heni-Klas/Private_Config"
   },
@@ -5096,7 +5076,7 @@
       "bergercookie"
     ],
     "rating": 578,
-    "updated": "2024-11-17",
+    "updated": "2025-11-21",
     "url": "https://github.com/bergercookie/syncall"
   },
   {
@@ -6854,7 +6834,7 @@
     "owner": [
       "duckdm"
     ],
-    "rating": 41,
+    "rating": 42,
     "updated": "2025-04-03",
     "url": "https://github.com/duckdm/neowarrior.nvim"
   },
@@ -9538,7 +9518,7 @@
       "jubnzv"
     ],
     "rating": 20,
-    "updated": "2025-11-20",
+    "updated": "2025-11-21",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
@@ -9657,7 +9637,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1842,
+    "rating": 1844,
     "updated": "2025-11-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -12924,6 +12904,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Bidirectional synchronization between TaskWarrior and CalDAV servers.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "twcaldav",
+    "owner": [
+      "pcaro90"
+    ],
+    "rating": 0,
+    "updated": "2025-11-22",
+    "url": "https://github.com/pcaro90/twcaldav"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Time management bot (wrapper around Taskwarrior)",
     "dormant": true,
     "language": [
@@ -13374,7 +13374,7 @@
     "owner": [
       "quandangv"
     ],
-    "rating": 13,
+    "rating": 14,
     "updated": "2022-10-24",
     "url": "https://github.com/quandangv/polybar-warrior"
   },
@@ -14123,7 +14123,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Dockerfile"
     ],
