@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-11-20",
+    "updated": "2025-11-22",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -817,7 +817,7 @@
       "CCExtractor"
     ],
     "rating": 194,
-    "updated": "2025-11-20",
+    "updated": "2025-11-22",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
   {
@@ -1460,6 +1460,26 @@
     "rating": 0,
     "updated": "2025-06-22",
     "url": "https://github.com/EdistuovilA/taskserver"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Script to add my schedule to taskwarrior from icalendar streams.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "pytask",
+    "owner": [
+      "EivindSul"
+    ],
+    "rating": 1,
+    "updated": "2024-08-22",
+    "url": "https://github.com/EivindSul/pytask"
   },
   {
     "archived": false,
@@ -2476,26 +2496,6 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "TTM",
-    "owner": [
-      "LanHikari22"
-    ],
-    "rating": 4,
-    "updated": "2025-06-14",
-    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -9437,7 +9437,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 415,
+    "rating": 416,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9637,7 +9637,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1844,
+    "rating": 1846,
     "updated": "2025-11-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -15253,8 +15253,8 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 164,
-    "updated": "2025-09-04",
+    "rating": 165,
+    "updated": "2025-11-22",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
   {
