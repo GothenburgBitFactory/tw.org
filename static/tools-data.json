@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-11-23",
+    "updated": "2025-11-24",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -1467,6 +1467,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Script to add my schedule to taskwarrior from icalendar streams.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "pytask",
+    "owner": [
+      "EivindSul"
+    ],
+    "rating": 1,
+    "updated": "2024-08-22",
+    "url": "https://github.com/EivindSul/pytask"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": null,
     "dormant": true,
     "language": [
@@ -1776,7 +1796,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 796,
+    "rating": 797,
     "updated": "2025-11-24",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1797,7 +1817,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 127,
-    "updated": "2025-11-17",
+    "updated": "2025-11-25",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -1817,7 +1837,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 144,
-    "updated": "2025-11-18",
+    "updated": "2025-11-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -2994,7 +3014,7 @@
       "OsamaMahmood"
     ],
     "rating": 2,
-    "updated": "2025-10-27",
+    "updated": "2025-11-24",
     "url": "https://github.com/OsamaMahmood/lazytask"
   },
   {
@@ -3324,7 +3344,7 @@
       "taskwarrior2"
     ],
     "description": null,
-    "dormant": false,
+    "dormant": true,
     "language": [
       "Shell"
     ],
@@ -4635,7 +4655,7 @@
     "owner": [
       "amracks"
     ],
-    "rating": 12,
+    "rating": 13,
     "updated": "2017-04-10",
     "url": "https://github.com/amracks/tgs"
   },
@@ -5075,7 +5095,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 578,
+    "rating": 579,
     "updated": "2025-11-21",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5596,7 +5616,7 @@
     "owner": [
       "brutus"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2021-03-25",
     "url": "https://github.com/brutus/taskwarrior-local"
   },
@@ -6355,7 +6375,7 @@
       "cryptoskillz"
     ],
     "rating": 0,
-    "updated": "2025-10-26",
+    "updated": "2025-11-24",
     "url": "https://github.com/cryptoskillz/taskwarrior-sync"
   },
   {
@@ -7474,7 +7494,7 @@
     "owner": [
       "frigidplatypus"
     ],
-    "rating": 0,
+    "rating": 1,
     "updated": "2025-09-22",
     "url": "https://github.com/frigidplatypus/taskwarrior3lib-rs"
   },
@@ -9637,7 +9657,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1847,
+    "rating": 1852,
     "updated": "2025-11-06",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11953,7 +11973,7 @@
     "owner": [
       "mrschyte"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2021-08-25",
     "url": "https://github.com/mrschyte/taskwarrior-hooks"
   },
@@ -13314,7 +13334,7 @@
     "owner": [
       "pztrn"
     ],
-    "rating": 2,
+    "rating": 3,
     "updated": "2022-07-28",
     "url": "https://github.com/pztrn/taskwarrior_hooks"
   },
@@ -14893,7 +14913,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 26,
+    "rating": 27,
     "updated": "2025-10-18",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
