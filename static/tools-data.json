@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 27,
-    "updated": "2025-11-21",
+    "updated": "2025-11-25",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1836,7 +1836,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 144,
+    "rating": 145,
     "updated": "2025-11-24",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -3855,7 +3855,7 @@
       "Zebradil"
     ],
     "rating": 74,
-    "updated": "2025-11-21",
+    "updated": "2025-11-25",
     "url": "https://github.com/Zebradil/powerline-taskwarrior"
   },
   {
@@ -3978,26 +3978,6 @@
     "rating": 14,
     "updated": "2021-10-04",
     "url": "https://github.com/abesto/gtd"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "A quick and dirty script to synchronize Taskwarrior and an IMAP mailbox",
-    "dormant": true,
-    "language": [
-      "Python"
-    ],
-    "license": null,
-    "name": "ImapTW",
-    "owner": [
-      "abrochier"
-    ],
-    "rating": 0,
-    "updated": "2022-02-22",
-    "url": "https://github.com/abrochier/ImapTW"
   },
   {
     "archived": false,
@@ -5795,7 +5775,7 @@
     "owner": [
       "charm-and-friends"
     ],
-    "rating": 136,
+    "rating": 137,
     "updated": "2025-06-04",
     "url": "https://github.com/charm-and-friends/taskcli"
   },
@@ -9457,7 +9437,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 416,
+    "rating": 417,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -12274,7 +12254,7 @@
       "ndp190"
     ],
     "rating": 0,
-    "updated": "2025-11-20",
+    "updated": "2025-11-25",
     "url": "https://github.com/ndp190/taskwarrior-stickies"
   },
   {
@@ -15273,7 +15253,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 165,
+    "rating": 166,
     "updated": "2025-11-22",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
