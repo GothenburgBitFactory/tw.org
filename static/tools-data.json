@@ -1337,7 +1337,7 @@
     "owner": [
       "DerTimonius"
     ],
-    "rating": 50,
+    "rating": 51,
     "updated": "2025-09-07",
     "url": "https://github.com/DerTimonius/twkb"
   },
@@ -1817,7 +1817,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 145,
-    "updated": "2025-11-24",
+    "updated": "2025-11-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
   {
@@ -3103,6 +3103,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "Simple sync client for taskwarrior to caldav",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": null,
+    "name": "tw-caldav",
+    "owner": [
+      "Pete-Hamlin"
+    ],
+    "rating": 0,
+    "updated": "2025-11-28",
+    "url": "https://github.com/Pete-Hamlin/tw-caldav"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "Another taskwarrior tui",
     "dormant": false,
     "language": [
@@ -3516,6 +3536,26 @@
     "rating": 4,
     "updated": "2020-06-19",
     "url": "https://github.com/Spredzy/ics2task"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": null,
+    "dormant": false,
+    "language": [
+      "JavaScript"
+    ],
+    "license": null,
+    "name": "backend-taskserver",
+    "owner": [
+      "Srijapotha"
+    ],
+    "rating": 0,
+    "updated": "2025-11-28",
+    "url": "https://github.com/Srijapotha/backend-taskserver"
   },
   {
     "archived": false,
@@ -8034,7 +8074,7 @@
     "owner": [
       "huantrinh1802"
     ],
-    "rating": 84,
+    "rating": 83,
     "updated": "2025-08-09",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
@@ -9617,7 +9657,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1854,
+    "rating": 1855,
     "updated": "2025-11-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11477,26 +11517,6 @@
     "rating": 1,
     "updated": "2019-03-03",
     "url": "https://github.com/mingsu/mutt2task"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "A simple CLI for Taskwarrior, built with Huh and Go.",
-    "dormant": false,
-    "language": [
-      "Go"
-    ],
-    "license": null,
-    "name": "todo",
-    "owner": [
-      "mkiene"
-    ],
-    "rating": 1,
-    "updated": "2025-01-27",
-    "url": "https://github.com/mkiene/todo"
   },
   {
     "archived": false,
@@ -15200,26 +15220,6 @@
   {
     "archived": false,
     "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "Ruby bindings for TaskChampion, the task database that powers Taskwarrior.",
-    "dormant": false,
-    "language": [
-      "Ruby"
-    ],
-    "license": null,
-    "name": "taskchampion-rb",
-    "owner": [
-      "timcase"
-    ],
-    "rating": 1,
-    "updated": "2025-10-16",
-    "url": "https://github.com/timcase/taskchampion-rb"
-  },
-  {
-    "archived": false,
-    "category": [
       "taskwarrior2",
       "taskwarrior3"
     ],
@@ -16013,7 +16013,7 @@
       "xnileshtiwari"
     ],
     "rating": 2,
-    "updated": "2025-11-27",
+    "updated": "2025-11-28",
     "url": "https://github.com/xnileshtiwari/omarchy-waybar"
   },
   {
