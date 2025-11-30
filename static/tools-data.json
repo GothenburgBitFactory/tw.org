@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-11-27",
+    "updated": "2025-11-29",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 28,
-    "updated": "2025-11-27",
+    "updated": "2025-11-29",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -816,7 +816,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 195,
+    "rating": 196,
     "updated": "2025-11-22",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1776,7 +1776,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 798,
+    "rating": 799,
     "updated": "2025-11-26",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -5699,6 +5699,26 @@
     "rating": 10,
     "updated": "2025-03-06",
     "url": "https://github.com/catanadj/tasksultan"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
+    "description": "Chain recurrence and calendar based anchors for TaskWarrior.",
+    "dormant": false,
+    "language": [
+      "N/A"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "tw-nautical",
+    "owner": [
+      "catanadj"
+    ],
+    "rating": 0,
+    "updated": "2025-11-29",
+    "url": "https://github.com/catanadj/tw-nautical"
   },
   {
     "archived": false,
@@ -13796,26 +13816,6 @@
     "rating": 17,
     "updated": "2012-02-03",
     "url": "https://github.com/ryansb/gitwarrior"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "todos web app using laravel, hopefully can support taskwarrior API",
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "laravel_tw_todos",
-    "owner": [
-      "sakarimov"
-    ],
-    "rating": 0,
-    "updated": "2023-05-17",
-    "url": "https://github.com/sakarimov/laravel_tw_todos"
   },
   {
     "archived": false,
