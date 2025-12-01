@@ -97,7 +97,7 @@
     "owner": [
       "00sapo"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2025-07-03",
     "url": "https://github.com/00sapo/taskcheck"
   },
@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-11-29",
+    "updated": "2025-11-30",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 28,
-    "updated": "2025-11-29",
+    "updated": "2025-11-30",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1816,7 +1816,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 145,
+    "rating": 146,
     "updated": "2025-11-28",
     "url": "https://github.com/GothenburgBitFactory/taskchampion-sync-server"
   },
@@ -4855,7 +4855,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -5095,7 +5095,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 579,
+    "rating": 580,
     "updated": "2025-11-21",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -9677,7 +9677,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1855,
+    "rating": 1858,
     "updated": "2025-11-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11196,7 +11196,7 @@
       "matthiasbeyer"
     ],
     "rating": 13,
-    "updated": "2025-10-01",
+    "updated": "2025-12-01",
     "url": "https://github.com/matthiasbeyer/task-hookrs"
   },
   {
@@ -14993,7 +14993,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 899,
+    "rating": 900,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
@@ -16092,7 +16092,7 @@
     "owner": [
       "yanick"
     ],
-    "rating": 23,
+    "rating": 24,
     "updated": "2019-05-01",
     "url": "https://github.com/yanick/Taskwarrior-Kusarigama"
   },
