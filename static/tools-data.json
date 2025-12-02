@@ -816,7 +816,7 @@
     "owner": [
       "CCExtractor"
     ],
-    "rating": 196,
+    "rating": 197,
     "updated": "2025-11-22",
     "url": "https://github.com/CCExtractor/taskwarrior-flutter"
   },
@@ -1777,7 +1777,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 799,
-    "updated": "2025-11-26",
+    "updated": "2025-12-02",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
   {
@@ -4725,6 +4725,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "My personal taskwarrior hooks",
+    "dormant": false,
+    "language": [
+      "Rust"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior-hooks",
+    "owner": [
+      "apoelstra"
+    ],
+    "rating": 0,
+    "updated": "2025-12-01",
+    "url": "https://github.com/apoelstra/taskwarrior-hooks"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "taskwarrior blocks: attribute for inverse dependencies",
     "dormant": true,
     "language": [
@@ -5276,7 +5296,7 @@
       "bizkite-co"
     ],
     "rating": 0,
-    "updated": "2025-11-05",
+    "updated": "2025-12-01",
     "url": "https://github.com/bizkite-co/cocli"
   },
   {
@@ -5706,19 +5726,19 @@
       "taskserver",
       "taskwarrior2"
     ],
-    "description": "Chain recurrence and calendar based anchors for TaskWarrior.",
+    "description": "TaskWarrior's missing scheduling layer -- express real-world patterns in plain English and then execute with flawless precision.",
     "dormant": false,
     "language": [
-      "N/A"
+      "Python"
     ],
     "license": "GNU General Public License v3.0",
-    "name": "tw-nautical",
+    "name": "taskwarrior-nautical",
     "owner": [
       "catanadj"
     ],
-    "rating": 0,
-    "updated": "2025-11-29",
-    "url": "https://github.com/catanadj/tw-nautical"
+    "rating": 2,
+    "updated": "2025-12-01",
+    "url": "https://github.com/catanadj/taskwarrior-nautical"
   },
   {
     "archived": false,
@@ -9477,7 +9497,7 @@
     "owner": [
       "jschlatow"
     ],
-    "rating": 417,
+    "rating": 418,
     "updated": "2025-02-19",
     "url": "https://github.com/jschlatow/taskopen"
   },
@@ -9558,7 +9578,7 @@
       "jubnzv"
     ],
     "rating": 20,
-    "updated": "2025-11-21",
+    "updated": "2025-12-01",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
@@ -15233,7 +15253,7 @@
     "owner": [
       "tmahmood"
     ],
-    "rating": 166,
+    "rating": 167,
     "updated": "2025-11-22",
     "url": "https://github.com/tmahmood/taskwarrior-web"
   },
@@ -15313,7 +15333,7 @@
     "owner": [
       "tom-doerr"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2024-09-10",
     "url": "https://github.com/tom-doerr/taskwarrior-fzf"
   },
@@ -15793,7 +15813,7 @@
     "owner": [
       "vit-project"
     ],
-    "rating": 550,
+    "rating": 551,
     "updated": "2025-06-24",
     "url": "https://github.com/vit-project/vit"
   },
