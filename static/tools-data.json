@@ -118,7 +118,7 @@
       "00sapo"
     ],
     "rating": 1,
-    "updated": "2025-12-03",
+    "updated": "2025-12-04",
     "url": "https://github.com/00sapo/taskwarrior-appimage"
   },
   {
@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 28,
-    "updated": "2025-12-03",
+    "updated": "2025-12-04",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -2480,6 +2480,26 @@
   {
     "archived": false,
     "category": [
+      "taskwarrior2",
+      "taskwarrior3"
+    ],
+    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "MIT License",
+    "name": "TTM",
+    "owner": [
+      "LanHikari22"
+    ],
+    "rating": 4,
+    "updated": "2025-06-14",
+    "url": "https://github.com/LanHikari22/TTM"
+  },
+  {
+    "archived": false,
+    "category": [
       "taskserver",
       "taskwarrior2"
     ],
@@ -3054,7 +3074,7 @@
       "Pete-Hamlin"
     ],
     "rating": 9,
-    "updated": "2025-11-17",
+    "updated": "2025-12-04",
     "url": "https://github.com/Pete-Hamlin/projwarrior"
   },
   {
@@ -3473,7 +3493,7 @@
     "owner": [
       "SntTGR"
     ],
-    "rating": 35,
+    "rating": 36,
     "updated": "2025-08-24",
     "url": "https://github.com/SntTGR/obsidian-tw-task-wiki"
   },
@@ -4855,7 +4875,7 @@
     "owner": [
       "audit-brands"
     ],
-    "rating": 15,
+    "rating": 16,
     "updated": "2025-06-22",
     "url": "https://github.com/audit-brands/claude_taskwarrior_sync"
   },
@@ -4895,7 +4915,7 @@
     "owner": [
       "awwaiid"
     ],
-    "rating": 36,
+    "rating": 37,
     "updated": "2025-03-16",
     "url": "https://github.com/awwaiid/mcp-server-taskwarrior"
   },
@@ -5095,7 +5115,7 @@
     "owner": [
       "bergercookie"
     ],
-    "rating": 581,
+    "rating": 582,
     "updated": "2025-11-21",
     "url": "https://github.com/bergercookie/syncall"
   },
@@ -5255,7 +5275,7 @@
     "owner": [
       "bgregos"
     ],
-    "rating": 259,
+    "rating": 260,
     "updated": "2024-06-11",
     "url": "https://github.com/bgregos/foreground"
   },
@@ -6934,7 +6954,7 @@
     "owner": [
       "echo-bravo-yahoo"
     ],
-    "rating": 8,
+    "rating": 9,
     "updated": "2024-03-11",
     "url": "https://github.com/echo-bravo-yahoo/ego-rock"
   },
@@ -7434,7 +7454,7 @@
     "owner": [
       "fplourde"
     ],
-    "rating": 22,
+    "rating": 23,
     "updated": "2020-12-29",
     "url": "https://github.com/fplourde/Taskwarrior-habitica-hooks"
   },
@@ -9558,7 +9578,7 @@
       "jubnzv"
     ],
     "rating": 20,
-    "updated": "2025-12-03",
+    "updated": "2025-12-04",
     "url": "https://github.com/jubnzv/qtask"
   },
   {
@@ -9677,7 +9697,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1860,
+    "rating": 1861,
     "updated": "2025-11-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -9996,7 +10016,7 @@
     "owner": [
       "kostajh"
     ],
-    "rating": 28,
+    "rating": 29,
     "updated": "2019-11-07",
     "url": "https://github.com/kostajh/task-git"
   },
@@ -11853,7 +11873,7 @@
     "owner": [
       "mpcjanssen"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2018-06-17",
     "url": "https://github.com/mpcjanssen/taskwarrior-windows"
   },
@@ -12193,7 +12213,7 @@
     "owner": [
       "nbossard"
     ],
-    "rating": 6,
+    "rating": 7,
     "updated": "2025-05-02",
     "url": "https://github.com/nbossard/obsidian-taskwarrior-sync"
   },
@@ -12834,7 +12854,7 @@
     "owner": [
       "onlyphantom"
     ],
-    "rating": 16,
+    "rating": 18,
     "updated": "2022-09-16",
     "url": "https://github.com/onlyphantom/taskquant"
   },
@@ -13673,7 +13693,7 @@
     "owner": [
       "robwhitaker"
     ],
-    "rating": 14,
+    "rating": 15,
     "updated": "2022-09-14",
     "url": "https://github.com/robwhitaker/taskwarrior-habitica-bridge"
   },
@@ -13816,26 +13836,6 @@
     "rating": 17,
     "updated": "2012-02-03",
     "url": "https://github.com/ryansb/gitwarrior"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskserver",
-      "taskwarrior2"
-    ],
-    "description": "todos web app using laravel, hopefully can support taskwarrior API",
-    "dormant": false,
-    "language": [
-      "JavaScript"
-    ],
-    "license": null,
-    "name": "laravel_tw_todos",
-    "owner": [
-      "sakarimov"
-    ],
-    "rating": 0,
-    "updated": "2023-05-17",
-    "url": "https://github.com/sakarimov/laravel_tw_todos"
   },
   {
     "archived": false,
@@ -14072,7 +14072,7 @@
     "owner": [
       "sh78"
     ],
-    "rating": 10,
+    "rating": 11,
     "updated": "2018-07-20",
     "url": "https://github.com/sh78/google-tasks-taskwarrior-import"
   },
@@ -14834,7 +14834,7 @@
       "szaffarano"
     ],
     "rating": 11,
-    "updated": "2025-11-20",
+    "updated": "2025-12-04",
     "url": "https://github.com/szaffarano/gotas"
   },
   {
@@ -14913,7 +14913,7 @@
     "owner": [
       "taskvanguard"
     ],
-    "rating": 27,
+    "rating": 28,
     "updated": "2025-10-18",
     "url": "https://github.com/taskvanguard/taskvanguard"
   },
@@ -15693,7 +15693,7 @@
     "owner": [
       "unintended-giraffe"
     ],
-    "rating": 9,
+    "rating": 10,
     "updated": "2024-07-02",
     "url": "https://github.com/unintended-giraffe/AI_Secretary"
   },
@@ -16112,7 +16112,7 @@
     "owner": [
       "yanick"
     ],
-    "rating": 24,
+    "rating": 25,
     "updated": "2019-05-01",
     "url": "https://github.com/yanick/Taskwarrior-Kusarigama"
   },
