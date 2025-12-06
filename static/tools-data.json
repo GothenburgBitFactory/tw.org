@@ -797,7 +797,7 @@
       "CCExtractor"
     ],
     "rating": 28,
-    "updated": "2025-12-04",
+    "updated": "2025-12-05",
     "url": "https://github.com/CCExtractor/ccsync"
   },
   {
@@ -1776,7 +1776,7 @@
     "owner": [
       "GothenburgBitFactory"
     ],
-    "rating": 799,
+    "rating": 800,
     "updated": "2025-12-02",
     "url": "https://github.com/GothenburgBitFactory/bugwarrior"
   },
@@ -1797,7 +1797,7 @@
       "GothenburgBitFactory"
     ],
     "rating": 128,
-    "updated": "2025-11-25",
+    "updated": "2025-12-06",
     "url": "https://github.com/GothenburgBitFactory/taskchampion"
   },
   {
@@ -2476,26 +2476,6 @@
     "rating": 0,
     "updated": "2024-07-14",
     "url": "https://github.com/Laluyas/TaskServer"
-  },
-  {
-    "archived": false,
-    "category": [
-      "taskwarrior2",
-      "taskwarrior3"
-    ],
-    "description": "Docker-based time/task/notes environment to be used over the CLI anywhere",
-    "dormant": false,
-    "language": [
-      "Python"
-    ],
-    "license": "MIT License",
-    "name": "TTM",
-    "owner": [
-      "LanHikari22"
-    ],
-    "rating": 4,
-    "updated": "2025-06-14",
-    "url": "https://github.com/LanHikari22/TTM"
   },
   {
     "archived": false,
@@ -5726,6 +5706,26 @@
       "taskserver",
       "taskwarrior2"
     ],
+    "description": "A visual dependency canvas and command generator for Taskwarrior.",
+    "dormant": false,
+    "language": [
+      "Python"
+    ],
+    "license": "GNU General Public License v3.0",
+    "name": "taskwarrior-canvas",
+    "owner": [
+      "catanadj"
+    ],
+    "rating": 0,
+    "updated": "2025-12-05",
+    "url": "https://github.com/catanadj/taskwarrior-canvas"
+  },
+  {
+    "archived": false,
+    "category": [
+      "taskserver",
+      "taskwarrior2"
+    ],
     "description": "TaskWarrior's missing scheduling layer -- express real-world patterns in plain English and then execute with flawless precision.",
     "dormant": false,
     "language": [
@@ -5736,7 +5736,7 @@
     "owner": [
       "catanadj"
     ],
-    "rating": 3,
+    "rating": 4,
     "updated": "2025-12-03",
     "url": "https://github.com/catanadj/taskwarrior-nautical"
   },
@@ -7695,7 +7695,7 @@
       "garybgenett"
     ],
     "rating": 16,
-    "updated": "2025-11-15",
+    "updated": "2025-12-05",
     "url": "https://github.com/garybgenett/tasks"
   },
   {
@@ -8115,7 +8115,7 @@
       "huantrinh1802"
     ],
     "rating": 83,
-    "updated": "2025-08-09",
+    "updated": "2025-12-05",
     "url": "https://github.com/huantrinh1802/m_taskwarrior_d.nvim"
   },
   {
@@ -9557,7 +9557,7 @@
     "owner": [
       "jubnzv"
     ],
-    "rating": 34,
+    "rating": 35,
     "updated": "2023-07-16",
     "url": "https://github.com/jubnzv/go-taskwarrior"
   },
@@ -9697,7 +9697,7 @@
     "owner": [
       "kdheepak"
     ],
-    "rating": 1861,
+    "rating": 1860,
     "updated": "2025-11-27",
     "url": "https://github.com/kdheepak/taskwarrior-tui"
   },
@@ -11673,7 +11673,7 @@
     "owner": [
       "mokrunka"
     ],
-    "rating": 4,
+    "rating": 5,
     "updated": "2015-03-08",
     "url": "https://github.com/mokrunka/taskwarrior-blocks-capsule"
   },
@@ -15013,7 +15013,7 @@
     "owner": [
       "tbabej"
     ],
-    "rating": 900,
+    "rating": 899,
     "updated": "2025-06-14",
     "url": "https://github.com/tbabej/taskwiki"
   },
