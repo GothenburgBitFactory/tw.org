@@ -17,6 +17,35 @@
         <div class="card text-bg-light mb-3">
           <div class="card-body">
             <fieldset>
+              <div class="mb-3">
+                <label class="form-label">Filter mode</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="categoryMode" id="mode-any" value="any" checked>
+                  <label class="form-check-label" for="mode-any">
+                    <small>
+                      <span class="tooltip">
+                        match any
+                        <span class="tooltip-text">
+                          boolean OR
+                        </span>
+                      </span>
+                    </small>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="categoryMode" id="mode-all" value="all">
+                  <label class="form-check-label" for="mode-all">
+                    <small>
+                      <span class="tooltip">
+                        match all
+                        <span class="tooltip-text">
+                          boolean AND
+                        </span>
+                      </span>
+                    </small>
+                  </label>
+                </div>
+              </div>
               <div class="mb-2">
                 <label class="form-label" for="search">Search</label>
                 <input type="search" class="form-control form-control-sm" id="search" autocomplete="off" placeholder="Keywords..."/>
