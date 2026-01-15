@@ -23,7 +23,9 @@ This shows tasks that have the `HOME` tag, but do not have the `WORK` tag.
 This is a very simple and easy to use mechanism, but it does require that your tasks are properly tagged.
 In other words, it is based directly on task metadata.
 
-A tag may be any single word that does not start with a digit, punctuation, or mathematical operator.
+User-created tags can contain any glyphs, but cannot contain whitespace, and cannot start with a digit, or certain special characters such as math operators.  See the `task(1)` man page under `+tag|-tag` for the full list of invalid starting characters.
+
+Note that fully upper-case tags are reserved as *Virtual Tags* (see below).
 
 ## Complex Filters
 
