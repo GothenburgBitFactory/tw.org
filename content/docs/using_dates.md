@@ -27,7 +27,7 @@ Now your task has an associated `due` date, to help you determine when you need 
 
 The default `due` time is at 0:00 on the date specified.
 A hook for configuring this time is [https://github.com/tbabej/task.default-date-time](https://github.com/tbabej/task.default-date-time).
-See [hooks_guide](docs/hooks_guide.md) for details of hooks.
+See [hooks_guide](/docs/hooks_guide) for details of hooks.
 
 But what effect does this have on Taskwarrior? How can it be used to best advantage?
 
