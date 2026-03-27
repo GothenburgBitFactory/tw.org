@@ -124,7 +124,7 @@ For display purposes, there are two additional elements:
 * `j`   - 1, 2 or 3 digit day-of-year number, sometimes referred to as a Julian date, eg '1', '11', or '365'
 * `J`   - 3 digit day of year number, sometimes referred to as a Julian date, eg '001', '011', or '365'
 
-## Synonyms {{< label >}}2.4.0{{< /label >}}
+## Synonyms
 
 In addition to formatted dates, you can use a date synonym instead:
 
@@ -178,7 +178,7 @@ In order to play around with the dates and to better understand which date is wh
 $ task calc sony
 ```
 
-## ISO-8601 Format {{< label >}}2.4.0{{< /label >}}
+## ISO-8601 Format
 
 The ISO-8601 standard defines an unambiguous format for specifying date and time around the world.
 Taskwarrior supports the following formats defined by ISO-8601:
