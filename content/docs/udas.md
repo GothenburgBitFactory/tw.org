@@ -30,7 +30,7 @@ It is intended that, once configured, a UDA is indistinguishable from core attri
 
 ## Data Types
 
-A UDA has a type, which may be one `string`, `numeric`, `date` or `duration`. If a UDA has type `date`, then it will naturally only accept date values, just like the core attribute `due`.
+A UDA has a type, which may be one `string`, `numeric`, `date`, `duration` or `uuid`. If a UDA has type `date`, then it will naturally only accept date values, just like the core attribute `due`.
 The `string` UDA type is special, in that a list of acceptable values may also be provided, and taskwarrior will only allow modifications if the new value is in the list.
 
 ## Example: estimate
