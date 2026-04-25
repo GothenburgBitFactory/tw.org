@@ -167,6 +167,7 @@ Here is a list of examples:
 * `P1Y2M3D`           - One year, two months and three days. This is an imprecise value.
 * `PT50S`             - Fifty seconds.
 * `PT40M`             - Forty minutes.
+* `-PT30M`            - Negative thirty minutes.
 * `PT40M50S`          - Forty minutes and fifty seconds.
 * `PT12H`             - Twelve hours.
 * `PT12H50S`          - Twelve hours and fifty seconds.
