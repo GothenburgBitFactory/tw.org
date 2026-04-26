@@ -4,7 +4,7 @@ title: "Taskwarrior - Durations"
 
 # Durations
 
-Taskwarrior supports duration values.
+Taskwarrior supports duration values, including negative durations.
 In the core, durations are used directly in one place - the `recur` attribute, used for recurring tasks.
 For example, here is a recurring task that recurs every monday:
 
@@ -167,7 +167,6 @@ Here is a list of examples:
 * `P1Y2M3D`           - One year, two months and three days. This is an imprecise value.
 * `PT50S`             - Fifty seconds.
 * `PT40M`             - Forty minutes.
-* `-PT30M`            - Negative thirty minutes.
 * `PT40M50S`          - Forty minutes and fifty seconds.
 * `PT12H`             - Twelve hours.
 * `PT12H50S`          - Twelve hours and fifty seconds.
@@ -177,3 +176,41 @@ Here is a list of examples:
 
 Precise values include days, hours, minutes, seconds.
 Year and month are not precise because they vary, and can only be made precise if the duration is anchored to a known date.
+
+## Negative Durations
+
+Taskwarrior supports negative duration values in ISO-8601 format.
+Negative durations are specified by prefixing the ISO-8601 duration with a `-` sign, before the `P`.
+
+* `-PT30S`      Negative thirty seconds.
+* `-PT40M`      Negative forty minutes.
+* `-PT12H`      Negative twelve hours.
+* `-P3D`        Negative three days.
+* `-P2M`        Negative two months. This is an imprecise value.
+* `-P1Y`        Negative one year. This is an imprecise value.
+* `-P1Y2M3DT12H40M50S` Negative one year, two months, three days, twelve hours, forty minutes and fifty seconds. This is an imprecise value.
+
+## Display format
+
+When Taskwarrior displays a duration value, it uses a human-readable format rather than the ISO-8601 designated format.
+For durations larger than one day, the format is `<days>d <HH>:<MM>:<SS>`, for example:
+
+    2d 12:03:04
+
+For durations smaller than one day, the format is `<HH>:<MM>:<SS>`, for example:
+
+    1:02:03
+
+Negative durations use the same format with a leading `-` sign.
+For negative durations larger than one day:
+
+    -2d 12:03:04
+
+For negative durations smaller than one day:
+
+    -1:02:03
+
+Note that the `-` sign applies to the entire duration, not just the days component.
+In the example `-2d 12:03:04`, the full value is negative — that is, negative 2 days, 12 hours, 3 minutes, and 4 seconds.
+This could be misinterpreted to mean negative 2 days but positive 12 hours, 3 minutes, and 4 seconds, but that is not the case.
+The entire duration is negative.
