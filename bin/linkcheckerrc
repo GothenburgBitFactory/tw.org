@@ -1,2 +1,7 @@
 [checking]
-maxrequestspersecond=3
+maxrequestspersecond=1
+
+[filtering]
+ignorewarningsforurls=
+  ^https://github.com/login ^http-redirected
+  ^https://github.com/GothenburgBitFactory/timewarrior/releases/ ^http-redirected

@@ -55,6 +55,9 @@ until [[ -z "${1-}" ]] ; do
     --no-extern)
       CHECK_EXTERN="no"
       ;;
+    --verbose)
+      VERBOSE="yes"
+      ;;
     --help)
       show_help
       exit 1
@@ -97,6 +100,10 @@ fi
 
 if [[ "${CHECK_EXTERN-"yes"}" == "yes" ]] ; then
   OPTIONS+=( "--check-extern" "--config" "${REPO_ROOT}/bin/linkcheckerrc" )
+fi
+
+if [[ "${VERBOSE-"no"}" == "yes" ]] ; then
+  OPTIONS+=( "--verbose" )
 fi
 
 echo "Checking links on ${URL-"http://localhost:1313"}..."
