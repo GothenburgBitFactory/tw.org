@@ -1,5 +1,12 @@
 [
   {
+    "version": "3.5.0",
+    "date": "2026-08-16",
+    "name": "task-3.5.0",
+    "url": "https://github.com/GothenburgBitFactory/taskwarrior/releases/download/v3.5.0/task-3.5.0.tar.gz",
+    "sha256": "9ea64b411f8314414f440ec765dfdf5a86c9f6159df47e2f60cff3db6b31157a"
+  },
+  {
     "version": "3.4.2",
     "date": "2025-10-21",
     "name": "task-3.4.2",
