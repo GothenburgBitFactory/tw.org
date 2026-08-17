@@ -1,5 +1,5 @@
 ---
-title: "Taskwarrior 3.4.2 Released"
+title: "Taskwarrior 3.5.0 Released"
 date: "2026-08-16T00:00:00Z"
 ---
 
