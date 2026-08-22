@@ -1,5 +1,5 @@
 ---
-title: 'Taskwarrior - task-sync.5 for task-3.4.2'
+title: 'Taskwarrior - task-sync.5 for task-3.5.0'
 viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
@@ -46,7 +46,7 @@ Taskwarrior provides several options for synchronizing your tasks:
 
 \- To a server specifically designed to handle Taskwarrior data. + To a
 cloud storage provider. Currently both AWS and GCP are supported. - To a
-local, on-disk file.
+local, on-disk file. - Via a git repository (local or remote).
 
 For most of these, you will need an encryption secret used to encrypt
 and decrypt your tasks. This can be any secret string, and must match
@@ -208,6 +208,38 @@ tasks locally. To configure local sync:
 
 The default configuration is to sync to a database in the task directory
 ("data.location").
+
+## Git Synchronization
+
+To synchronize your tasks using a git repository, configure the path to
+a local git repository and the branch to use:
+
+        $ task config sync.git.local_path     /path/to/local/repo
+        $ task config sync.git.branch         taskchampion
+        $ task config sync.encryption_secret  <encryption_secret>
+
+The repository will be created if it does not exist. It is recommended
+to use a dedicated branch.
+
+For remote sync (push and pull), also configure a remote:
+
+        $ task config sync.git.remote         origin
+
+The remote can be a named remote such as "origin" or a full git URL such
+as "git@myserver.com:/path/to/repo.git". Authentication is handled
+entirely by the git credential system; for remote sync, "git push" and
+"git pull" must work without prompts (use SSH keys or a credential
+helper).
+
+It is possible to operate offline while keeping the remote configured.
+WANRING: If another replica also syncs with the remote, you will not be
+able to go back to syncing from this replica.
+
+        $ task config sync.git.local_only     true
+
+If a non-standard git binary is needed, its path can be specified:
+
+        $ task config sync.git.git_path       /path/to/git
 
 # RUNNING TASKCHAMPION-SYNC-SERVER
 

@@ -1,5 +1,5 @@
 ---
-title: 'Taskwarrior - task.1 for task-3.4.2'
+title: 'Taskwarrior - task.1 for task-3.5.0'
 viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
@@ -11,6 +11,7 @@ task - A command line todo manager.
 
 **task &lt;filter&gt; &lt;command&gt; \[ &lt;mods&gt; | &lt;args&gt;
 \]**  
+**task --help**  
 **task --version**
 
 # DESCRIPTION
@@ -120,11 +121,14 @@ predefined in Taskwarrior. The output and sort behavior of these reports
 can be configured in the configuration file. See also the man page
 taskrc(5). There are also other read subcommands that are not reports.
 
+**task --help**  
+Displays the same usage and command documentation as the 'task help'
+command.
+
 **task --version**  
-This is the only conventional command line argument that Taskwarrior
-supports, and is intended for add-on scripts to verify the version
-number of an installed Taskwarrior without invoking the mechanisms that
-create default files.
+This command line argument is intended for add-on scripts to verify the
+version number of an installed Taskwarrior without invoking the
+mechanisms that create default files.
 
 **task &lt;filter&gt;**  
 With no command specified, the default command is run, and the filter
@@ -153,6 +157,9 @@ alias to the 'burndown.weekly' report. Is affected by the context.
 
 **task &lt;filter&gt; burndown.monthly**  
 Shows a graphical burndown chart, by month. Is affected by the context.
+
+**task &lt;filter&gt; burndown.annual**  
+Shows a graphical burndown chart, by year. Is affected by the context.
 
 **task calendar \[due|&lt;month&gt; &lt;year&gt;|&lt;year&gt;\] \[y\]**  
 Shows a monthly calendar with due tasks marked. Shows one horizontal
@@ -187,8 +194,6 @@ Exports all tasks in the JSON format. Redirect the output to a file, if
 you wish to save it, or pipe it to another command or script to convert
 it to another format. You'll find these example scripts online at
 &lt;https://taskwarrior.org/tools/&gt;:
-
-<!-- -->
 
       export-csv.pl
       export-sql.py
@@ -235,8 +240,6 @@ Applies the filter then extracts only the task IDs and presents them as
 a space-separated list. This is useful as input to a task command, to
 achieve this:
 
-<!-- -->
-
       task $(task project:Home ids) modify priority:H
 
 This example first gets the IDs for the project:Home filter, then sets
@@ -251,8 +254,6 @@ This command is mainly of use to external scripts.
 Applies the filter on all tasks (even deleted and completed tasks) then
 extracts only the task UUIDs and presents them as a space-separated
 list. This is useful as input to a task command, to achieve this:
-
-<!-- -->
 
       task $(task project:Home status:completed uuids) modify status:pending
 
@@ -421,8 +422,6 @@ configuration. This command either modifies the 'name' setting with a
 new value of 'value', or adds a new entry that is equivalent to
 'name=value':
 
-<!-- -->
-
         task config name value
 
 This command sets a blank value. This has the effect of suppressing any
@@ -571,8 +570,6 @@ for use by third-party applications.
 Reports a unique set of attribute values. For example, to see all the
 active projects:
 
-<!-- -->
-
       task +PENDING _unique project
 
 **task &lt;filter&gt; \_uuids**  
@@ -609,8 +606,6 @@ Shows the UUIDs and descriptions of matching tasks.
 **task \_get &lt;DOM&gt; \[&lt;DOM&gt; ...\]**  
 Accesses and displays the DOM reference(s). Used to extract individual
 values from tasks, or the system. Supported DOM references are:
-
-<!-- -->
 
       rc.<name>
       tw.syncneeded
@@ -654,13 +649,18 @@ run. When modifying tasks, it is safe to rely on the last displayed ID.
 Always run a report to check you have the right ID for a task. IDs can
 be given to task as a sequence, for example:
 
-<!-- -->
-
     task 1,4-10,19 delete
 
 **+tag|-tag**  
 Tags are arbitrary words associated with a task. Use + to add a tag
 and - to remove a tag from a task. A task can have any quantity of tags.
+Tags cannot contain whitespace, and cannot start with any of the special
+characters:
+
+see also taskwarrior:src/Lexer.cpp isSingleCharOperator() see also
+taskchampion:src/task/task.rs INVALID\_TAG\_CHARACTERS
+
+        +-*/()<>^!%=~
 
 Certain tags (called 'special tags'), can be used to affect the way
 tasks are treated. For example, if a task has the special tag 'nocolor',
@@ -932,39 +932,24 @@ reports. The expected and desired date format is determined by the
 configuration variable *dateformat*
 
 > Exact specification  
->
-> <!-- -->
->
 >       task ... due:7/14/2008
 >
 > ISO-8601  
->
-> <!-- -->
->
 >       task ... due:2013-03-14T22:30:00Z
 >
 > Relative wording  
->
-> <!-- -->
->
 >       task ... due:now
 >       task ... due:today
 >       task ... due:yesterday
 >       task ... due:tomorrow
 >
 > Day number with ordinal  
->
-> <!-- -->
->
 >       task ... due:23rd
 >       task ... due:3wks
 >       task ... due:1day
 >       task ... due:9hrs
 >
 > Start of next (work) week (Monday), calendar week (Sunday or Monday), month, quarter and year  
->
-> <!-- -->
->
 >       task ... due:sow
 >       task ... due:soww
 >       task ... due:socw
@@ -973,9 +958,6 @@ configuration variable *dateformat*
 >       task ... due:soy
 >
 > End of current (work) week (Friday), calendar week (Saturday or Sunday), month, quarter and year  
->
-> <!-- -->
->
 >       task ... due:eow
 >       task ... due:eoww
 >       task ... due:eocw
@@ -984,24 +966,15 @@ configuration variable *dateformat*
 >       task ... due:eoy
 >
 > At some point or later  
->
-> <!-- -->
->
 >       task ... wait:later
 >       task ... wait:someday
 >
 > This sets the wait date to 12/30/9999.
 >
 > Next occurring weekday  
->
-> <!-- -->
->
 >       task ... due:fri
 >
 > Predictable holidays  
->
-> <!-- -->
->
 >       task ... due:goodfriday
 >       task ... due:easter
 >       task ... due:eastermonday
