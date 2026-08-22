@@ -3,12 +3,14 @@
 let excludeDormant = document.getElementById('exclude-dormant').checked
 let includeArchived = document.getElementById('include-archived').checked;
 let searchTerms = [];
+const search = document.getElementById('search')
 const taskwarrior2Checkbox = document.getElementById('include-taskwarrior2')
 const taskwarrior3Checkbox = document.getElementById('include-taskwarrior3')
 const taskserverCheckbox = document.getElementById('include-taskserver')
 const excludeDormantCheckbox = document.getElementById('exclude-dormant');
 const includeArchivedCheckbox = document.getElementById('include-archived');
 const searchResultMessage = document.getElementById('search-result-message');
+const SEARCH_WAIT_TIME = 400;
 const CHECKB0X_WAIT_TIME = 200;
 const LOADING_MESSAGE = "Loading...";
 let sortedTools = [];
@@ -46,15 +48,15 @@ fetch('https://raw.githubusercontent.com/GothenburgBitFactory/gbf-tools-listing/
     initFormProcessors();
   });
 
+
 /** Given the tools data, return it sorted by rating and name. */
 function sortTools(toolsData) {
-  const sortedTools = toolsData.sort((a, b) => {
+    return toolsData.sort((a, b) => {
       if (b.rating === a.rating) {
           return a.name.localeCompare(b.name);
       }
       return b.rating - a.rating;
   });
-  return sortedTools;
 }
 
 
@@ -90,7 +92,7 @@ function populateCategories(sortedTools) {
 
 
 /**
- * Populate all of the tools in the given sortedTools with keywords.
+ * Populate all the tools in the given sortedTools with keywords.
  * sortedTools[i].keywords is an array of each of the strings in the tool's:
  * - description
  * - license
@@ -156,9 +158,11 @@ function fillToolsTable(tools, selectedLanguages, selectedOwners) {
 }
 
 
-/** If searchTerm is in keywords (even as a partial match), return true. */
-function searchMatch(searchTerm, keywords) {
-  return searchTerm.every(t => keywords.has(t));
+/** If every searchTerm is a substring of some keyword, return true. */
+function searchMatch(searchTerms, keywords) {
+  return searchTerms.every(t =>
+    [...keywords].some(k => k.includes(t))
+  );
 }
 
 
@@ -257,6 +261,10 @@ function updateSearchResultMessage(numTools) {
 /** Initialize the form processors. */
 function initFormProcessors() {
   // Form handlers
+  search.addEventListener('keyup', (e) => {
+    searchResultMessage.innerHTML = LOADING_MESSAGE;
+    debouncedHandleSearch(e);
+  });
   excludeDormantCheckbox.addEventListener('click', (e) => {
     searchResultMessage.innerHTML = LOADING_MESSAGE;
     debouncedHandleDormantCheckbox(e);
@@ -300,6 +308,7 @@ function handleArchivedCheckbox() {
   includeArchived = !includeArchived;
   fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
 }
+
 const debouncedHandleArchivedCheckbox = debounce((e) => {
   handleArchivedCheckbox(e);
 }, CHECKB0X_WAIT_TIME);
@@ -310,9 +319,11 @@ function handleDormantCheckbox() {
   excludeDormant = !excludeDormant;
   fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
 }
+
 const debouncedHandleDormantCheckbox = debounce((e) => {
   handleDormantCheckbox(e);
 }, CHECKB0X_WAIT_TIME);
+
 
 /** When a category checkbox is clicked, toggle that category. */
 function handleCategoryCheckbox(e) {
@@ -325,6 +336,19 @@ function handleCategoryCheckbox(e) {
   }
   fillToolsTable(sortedTools, selectedLanguages, selectedOwners)
 }
+
 const debouncedHandleCategoryCheckbox = debounce((e) => {
   handleCategoryCheckbox(e);
 }, CHECKB0X_WAIT_TIME);
+
+
+/** On search, refill the tools table. */
+function handleSearch(e) {
+  searchTerms = e.target.value.toLowerCase().trim().split(' ');
+  if (searchTerms.length === 1 && searchTerms[0] === '') searchTerms = [];
+  fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
+}
+
+const debouncedHandleSearch = debounce((e) => {
+  handleSearch(e);
+}, SEARCH_WAIT_TIME);
