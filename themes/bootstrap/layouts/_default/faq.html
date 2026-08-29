@@ -7,8 +7,15 @@
         <article>
           {{.Content}}
         </article>
-        {{ range $topic := (slice "Taskwarrior" "Taskserver" "Taskshell" "Timewarrior") }}
+        {{ range $topic := (slice "General" "Taskwarrior" "Taskserver" "Taskshell" "Timewarrior") }}
         <h2>{{ $topic }}</h2>
+        {{ if eq $topic "Taskserver" }}
+        <div class="alert alert-warning" role="alert">
+          Taskserver is generally deprecated and can only be used with the Taskwarrior 2.6.2 release.
+          Please read over <a href="/docs/upgrade-3/">Upgrading to Taskwarrior 3</a> for more details on the upgrade and
+          a brief explanation of the new storage backend.
+        </div>
+        {{ end }}
         <ul>
           {{ range (where $.Pages ".Params.topic" $topic) }}
           <li>
