@@ -182,21 +182,22 @@ For example:
   0
   ```
 
-Tags can be accessed as a single item as an `<attribute>`, of the individual tags can be accessed:
+Tags can be accessed as a single item as an `<attribute>`, or the individual tags can be accessed:
 
 * `tags.<literal>` - {{< label >}}2.4.0{{< /label >}} Direct access, per-tag, for example:
   ```
-  $ task _get 1.tag.home
+  $ task _get 1.tags.home
   home
   ```
-  If the tag is present, it is shown, otherwise the result is blank, and Taskwarrior exits with a non-zero status.
+  If the tag is present, it is shown, otherwise the result is blank.
+  Taskwarrior exits with status 0 either way.
   ```
-  $ task _get 1.tag.DUE
+  $ task _get 1.tags.DUE
   DUE
-  $ task _get 1.tag.OVERDUE
+  $ task _get 1.tags.OVERDUE
   ```
 
-  Workѕ for virtual tags too, in the same manner.
+  Works for virtual tags too.
 
 Annotations are compound data structures, with two elements, which are `description` and `entry`.
 Annotations are accessed by an ordinal.
