@@ -53,6 +53,46 @@ This is a regular expression, although it can also be just a simple word.
 
 This assumes you haven't disabled regular expression support, using the `rc.regex` configuration setting.
 
+## Presence and Absence
+
+The `none` and `any` modifiers match on whether an attribute has a value at all.
+With `none` you match tasks that have no value for an attribute, and with `any` you match tasks that have a value, whatever it is.
+
+    $ task priority.any: count
+    2
+
+Here we see that 2 tasks have any priority assigned.
+The inverse is `none`:
+
+    $ task priority.none: count
+    18
+
+Now we see the 18 tasks that do not have a priority.
+
+An empty value is equivalent to the `none` modifier, so `priority:` is the same as `priority.none:`.
+Conversely, a bare attribute name with no value at all is shorthand for the `any` modifier, so these are the same:
+
+    $ task priority count
+    $ task priority.any: count
+
+and both list the tasks that have a priority.
+
+The same works for other attributes:
+
+    $ task project.any: count
+    19
+    $ task project.none: count
+    81
+    $ task recur.any: count
+    1
+    $ task recur.none: count
+    19
+
+For tags, use the `+tag` and `-tag` forms shown above.
+
+Note that `attribute:any` is not the modifier form, but a literal value comparison, and only `attribute.any:` means 'has a value'.
+See the 'ATTRIBUTE MODIFIERS' section of the `task` man page for the complete list of modifiers.
+
 ## Complex Filters
 
 Filters gain complexity by adding more filter terms and logic.
