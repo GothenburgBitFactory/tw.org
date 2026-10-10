@@ -17,6 +17,9 @@ let sortedTools = [];
 let owners = new Set();  // owners, languages, categories become arrays.
 let languages = new Set();
 let categories = new Set();
+let categoryFilterMode = 'any'; // 'any' or 'all'
+const categoryModeAny = document.getElementById('mode-any');
+const categoryModeAll = document.getElementById('mode-all');
 const selectedLanguages = new Set();
 const selectedOwners = new Set();
 let selectedCategories = new Set();
@@ -136,7 +139,13 @@ function fillToolsTable(tools, selectedLanguages, selectedOwners) {
         const ownerMatch = tool.owner.some(o => selectedOwners.has(o));
         let categoryMatch;
         if (useCategories) {
-          categoryMatch = tool.category.some(c => selectedCategories.has(c));
+          if (categoryFilterMode === 'any') {
+            // OR logic: show if ANY category matches
+            categoryMatch = tool.category.some(c => selectedCategories.has(c));
+          } else {
+            // AND logic: show only if ALL categories match
+            categoryMatch = tool.category.every(c => selectedCategories.has(c));
+          }
         } else {
           categoryMatch = true;
         }
@@ -287,6 +296,17 @@ function initFormProcessors() {
     taskserverCheckbox.addEventListener('click', (e) => {
       searchResultMessage.innerHTML = LOADING_MESSAGE;
       debouncedHandleCategoryCheckbox(e);
+    });
+    categoryModeAny.addEventListener('change', () => {
+      categoryFilterMode = 'any';
+      searchResultMessage.innerHTML = LOADING_MESSAGE;
+      fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
+    });
+  
+    categoryModeAll.addEventListener('change', () => {
+      categoryFilterMode = 'all';
+      searchResultMessage.innerHTML = LOADING_MESSAGE;
+      fillToolsTable(sortedTools, selectedLanguages, selectedOwners);
     });
   }
 
