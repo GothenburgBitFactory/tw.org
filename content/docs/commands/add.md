@@ -30,7 +30,7 @@ Are you happy now?"
 
 It is a good idea to quote task descriptions to avoid some problems with the shell, although not necessary.
 The (outer) quotes are not considered part of the description, in fact Taskwarrior never sees them because the shell removes them first.
-Dealing with shell issues is covered in detail in the [Escaping Shell Characters](#) page.
+Dealing with shell issues is covered in detail in the [Escaping Command Line Characters](https://taskwarrior.org/docs/escapes/) page.
 
 ## Other Attributes
 
