@@ -466,7 +466,7 @@ The substitution syntax allows text replacement in task description and annotati
 
 ## sync
 
-Synchronization is a process that and allows multiple Taskwarrior instances to share data.
+Synchronization is a process that allows multiple Taskwarrior instances to share data.
 Each instance periodically connects to the server to gather changes made by other instances and to send changes made locally.
 This is initiated with the `task sync` command.
 
