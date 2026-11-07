@@ -164,7 +164,6 @@ Here is a list of examples:
 * `P1Y`               - One year. This is an imprecise value.
 * `P1Y3D`             - One year and three days. This is an imprecise value.
 * `P1Y2M`             - One year and two months. This is an imprecise value.
-* `P1Y2M3D`           - One year, two months and three days. This is an imprecise value.
 * `PT50S`             - Fifty seconds.
 * `PT40M`             - Forty minutes.
 * `PT40M50S`          - Forty minutes and fifty seconds.
@@ -172,7 +171,6 @@ Here is a list of examples:
 * `PT12H50S`          - Twelve hours and fifty seconds.
 * `PT12H40M`          - Twelve hours and forty minutes.
 * `PT12H40M50S`       - Twelve hours, forty minutes and fifty seconds.
-* `P1Y2M3DT12H40M50S` - One year, two months, three days, twelve hours, forty minutes and fifty seconds. This is an imprecise value.
 
 Precise values include days, hours, minutes, seconds.
 Year and month are not precise because they vary, and can only be made precise if the duration is anchored to a known date.
@@ -188,7 +186,6 @@ Negative durations are specified by prefixing the ISO-8601 duration with a `-` s
 * `-P3D`        Negative three days.
 * `-P2M`        Negative two months. This is an imprecise value.
 * `-P1Y`        Negative one year. This is an imprecise value.
-* `-P1Y2M3DT12H40M50S` Negative one year, two months, three days, twelve hours, forty minutes and fifty seconds. This is an imprecise value.
 
 ## Display format
 
