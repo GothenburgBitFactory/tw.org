@@ -1,7 +1,7 @@
 beautifulsoup4==4.14.3
 certifi==2026.10.19
 charset-normalizer==3.4.7
-dnspython==2.9.0
+dnspython==2.9.2
 idna==3.15
 LinkChecker==10.6.0
 requests==2.33.1
