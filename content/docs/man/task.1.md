@@ -1,5 +1,5 @@
 ---
-title: 'Taskwarrior - task.1 for task-3.5.0'
+title: 'Taskwarrior - task.1 for task-3.6.0'
 viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
@@ -195,6 +195,8 @@ you wish to save it, or pipe it to another command or script to convert
 it to another format. You'll find these example scripts online at
 &lt;https://taskwarrior.org/tools/&gt;:
 
+<!-- -->
+
       export-csv.pl
       export-sql.py
       export-xml.py
@@ -240,6 +242,8 @@ Applies the filter then extracts only the task IDs and presents them as
 a space-separated list. This is useful as input to a task command, to
 achieve this:
 
+<!-- -->
+
       task $(task project:Home ids) modify priority:H
 
 This example first gets the IDs for the project:Home filter, then sets
@@ -254,6 +258,8 @@ This command is mainly of use to external scripts.
 Applies the filter on all tasks (even deleted and completed tasks) then
 extracts only the task UUIDs and presents them as a space-separated
 list. This is useful as input to a task command, to achieve this:
+
+<!-- -->
 
       task $(task project:Home status:completed uuids) modify status:pending
 
@@ -422,6 +428,8 @@ configuration. This command either modifies the 'name' setting with a
 new value of 'value', or adds a new entry that is equivalent to
 'name=value':
 
+<!-- -->
+
         task config name value
 
 This command sets a blank value. This has the effect of suppressing any
@@ -570,6 +578,8 @@ for use by third-party applications.
 Reports a unique set of attribute values. For example, to see all the
 active projects:
 
+<!-- -->
+
       task +PENDING _unique project
 
 **task &lt;filter&gt; \_uuids**  
@@ -607,6 +617,8 @@ Shows the UUIDs and descriptions of matching tasks.
 Accesses and displays the DOM reference(s). Used to extract individual
 values from tasks, or the system. Supported DOM references are:
 
+<!-- -->
+
       rc.<name>
       tw.syncneeded
       tw.program
@@ -626,8 +638,10 @@ values from tasks, or the system. Supported DOM references are:
 Note that the 'rc.&lt;name&gt;' reference may need to be escaped using
 '--' to prevent the reference from being interpreted as an override.
 
-Note that if the DOM reference is not valid, or the reference evaluates
-to a missing value, the command exits with 1.
+Note that if the DOM reference is not valid, the command exits with 2.
+If the reference evaluates to a missing value, such as an unset
+attribute or a task that does not exist, the output is empty and the
+command exits with 0.
 
 Additionally, some components of the attributes of particular types may
 be extracted by DOM references.
@@ -648,6 +662,8 @@ task may therefore change, but only when a report that displays IDs is
 run. When modifying tasks, it is safe to rely on the last displayed ID.
 Always run a report to check you have the right ID for a task. IDs can
 be given to task as a sequence, for example:
+
+<!-- -->
 
     task 1,4-10,19 delete
 
@@ -684,12 +700,13 @@ virtual tags are:
         DELETED      Matches if the task has deleted status
         DUE          Matches if the task is due within the next 7 days (See rc.due)
         INSTANCE     Matches if the task is a recurrent instance
+        ITERATIVE    Matches if the task has iterative status
         LATEST       Matches if the task is the newest added task
         MONTH        Matches if the task is due this month
         ORPHAN       Matches if the task has any orphaned UDA values
         OVERDUE      Matches if the task is overdue
         PARENT       Matches if the task is a parent (deprecated in 2.6.0)
-        PENDING      Matches if the task has pending status
+        PENDING      Matches if the task has pending or iterative status
         PRIORITY     Matches if the task has a priority
         PROJECT      Matches if the task has a project
         QUARTER      Matches if the task is due this quarter
@@ -714,7 +731,7 @@ to attempt to add or remove a virtual tag.
 **project:&lt;project-name&gt;**  
 Specifies the project to which a task is related to.
 
-**status:pending|deleted|completed|waiting|recurring**  
+**status:pending|deleted|completed|waiting|recurring|iterative**  
 Specifies the state of the task.
 
 **priority:H|M|L or priority:**  
@@ -725,6 +742,17 @@ Specifies the due-date of a task.
 
 **recur:&lt;frequency&gt;**  
 Specifies the frequency of a recurrence of a task.
+
+**iter:&lt;interval&gt;**  
+Makes the task iterative (experimental). Completing it creates the next
+task in the series, with its dates moved forward by the interval. Needs
+an iter\_type and at least one of due, scheduled or wait. See
+**task-iterative**(5).
+
+**iter\_type:fixed|fixed+|chained**  
+How the next date of an iterative task is chosen: the next interval from
+the original due date, the next interval on or after now, or the next
+interval from completion. See **task-iterative**(5).
 
 **scheduled:&lt;ready-date&gt;**  
 Specifies the date after which a task can be accomplished.
@@ -878,15 +906,12 @@ equal if the left operand starts with the right operand. The *==*
 operator tests for exact equality. The *!=* and *!==* operators are the
 negation of *=* and *==* respectively. The negation operator is *!*.
 
-Note that the parentheses are required when using a logical operator
-other than the 'and' operator. The reason is that some reports contain
-filters that must be combined with the command line. Consider this
-example:
+Some reports contain filters that are combined with the command line
+filter. Consider this example:
 
       task project:Home or project:Garden list
 
-While this looks correct, it is not. The 'list' report contains a filter
-of:
+The 'list' report contains a filter of:
 
       task show report.list.filter
 
@@ -894,22 +919,21 @@ of:
       -----------------  --------------
       report.list.filter status:pending
 
-Which means the example is really:
-
-      task status:pending project:Home or project:Garden list
-
-The implied 'and' operator makes it:
-
-      task status:pending and project:Home or project:Garden list
-
-This is a precedence error - the 'and' and 'or' need to be grouped using
-parentheses, like this:
+Taskwarrior puts parentheses around the command line filter before
+combining it with the report filter, so the example is really:
 
       task status:pending and ( project:Home or project:Garden ) list
 
-The original example therefore must be entered as:
+No parentheses are needed here. They are still needed when you mix 'and'
+and 'or' in your own filter, because 'and' binds more tightly than 'or'.
+This example lists all Home tasks, but only the Garden tasks tagged
+'weekend':
 
-      task '( project:Home or project:Garden )' list
+      task project:Home or project:Garden +weekend list
+
+To list the 'weekend' tasks in either project, group the 'or':
+
+      task '( project:Home or project:Garden )' +weekend list
 
 This includes quotes to escape the parentheses, so that the shell
 doesn't interpret them and hide them from Taskwarrior.
@@ -932,49 +956,77 @@ reports. The expected and desired date format is determined by the
 configuration variable *dateformat*
 
 > Exact specification  
+>
+> <!-- -->
+>
 >       task ... due:7/14/2008
 >
 > ISO-8601  
+>
+> <!-- -->
+>
 >       task ... due:2013-03-14T22:30:00Z
 >
 > Relative wording  
+>
+> <!-- -->
+>
 >       task ... due:now
 >       task ... due:today
 >       task ... due:yesterday
 >       task ... due:tomorrow
 >
 > Day number with ordinal  
+>
+> <!-- -->
+>
 >       task ... due:23rd
 >       task ... due:3wks
 >       task ... due:1day
 >       task ... due:9hrs
 >
-> Start of next (work) week (Monday), calendar week (Sunday or Monday), month, quarter and year  
+> Start of current week or work week (Monday), month, quarter and year  
+>
+> <!-- -->
+>
 >       task ... due:sow
 >       task ... due:soww
->       task ... due:socw
 >       task ... due:som
 >       task ... due:soq
 >       task ... due:soy
 >
-> End of current (work) week (Friday), calendar week (Saturday or Sunday), month, quarter and year  
+> End of current week (Sunday), work week (Friday), month, quarter and year  
+>
+> <!-- -->
+>
 >       task ... due:eow
 >       task ... due:eoww
->       task ... due:eocw
 >       task ... due:eom
 >       task ... due:eoq
 >       task ... due:eoy
 >
+> On a Sunday, soww and eoww refer to the work week that starts the next
+> day.
+>
 > At some point or later  
+>
+> <!-- -->
+>
 >       task ... wait:later
 >       task ... wait:someday
 >
 > This sets the wait date to 12/30/9999.
 >
 > Next occurring weekday  
+>
+> <!-- -->
+>
 >       task ... due:fri
 >
 > Predictable holidays  
+>
+> <!-- -->
+>
 >       task ... due:goodfriday
 >       task ... due:easter
 >       task ... due:eastermonday
@@ -1017,6 +1069,9 @@ abbreviated.
 >
 > biannual, biyearly, 2yr  
 > Every two years.
+>
+> *Iterative tasks*  
+> accept these frequencies and other forms. See **task-iterative**(5).
 
 # CONTEXT
 
@@ -1288,7 +1343,8 @@ information.
 
 # SEE ALSO
 
-**taskrc(5),** **task-color(5),** **task-sync(5)**
+**taskrc(5),** **task-color(5),** **task-iterative(5),**
+**task-sync(5)**
 
 For more information regarding Taskwarrior, see the following:
 

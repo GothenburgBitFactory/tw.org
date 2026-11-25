@@ -1,5 +1,5 @@
 ---
-title: 'Taskwarrior - task-sync.5 for task-3.5.0'
+title: 'Taskwarrior - task-sync.5 for task-3.6.0'
 viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
@@ -198,6 +198,23 @@ the default profile, or an instance profile, set
         $ task config sync.aws.bucket              <bucket-name>
         $ task config sync.aws.default_credentials true
 
+## S3-Compatible Storage
+
+To synchronize with an S3-compatible storage service other than AWS,
+configure the service's endpoint URL in addition to the region, bucket,
+credentials, and encryption secret described above:
+
+        $ task config sync.aws.endpoint_url        <endpoint-url>
+
+Some S3-compatible services require path-style bucket URLs. To enable
+them, set:
+
+        $ task config sync.aws.force_path_style    true
+
+The endpoint URL must include the scheme, such as ‘http://’ or
+‘https://’. Consult the storage service's documentation for the region
+and URL style it requires.
+
 ## Local Synchronization
 
 In order to take advantage of synchronization's side effect of saving
@@ -310,7 +327,7 @@ information.
 
 # SEE ALSO
 
-**task(1),** **taskrc(5),** **task-color(5),**
+**task(1),** **taskrc(5),** **task-color(5),** **task-iterative(5)**
 
 For more information regarding Taskwarrior, see the following:
 

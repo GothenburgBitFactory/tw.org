@@ -1,5 +1,5 @@
 ---
-title: 'Taskwarrior - task-color.5 for task-3.5.0'
+title: 'Taskwarrior - task-color.5 for task-3.6.0'
 viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
@@ -301,7 +301,7 @@ information.
 
 # SEE ALSO
 
-**task(1),** **taskrc(5),** **task-sync(5)**
+**task(1),** **taskrc(5),** **task-iterative(5),** **task-sync(5)**
 
 For more information regarding Taskwarrior, see the following:
 

@@ -1,5 +1,5 @@
 ---
-title: 'Taskwarrior - taskrc.5 for task-3.5.0'
+title: 'Taskwarrior - taskrc.5 for task-3.6.0'
 viewport: 'width=device-width, initial-scale=1'
 layout: single
 ---
@@ -208,9 +208,9 @@ Default value is '25'.
 
 **defaultwidth=80**  
 The width of output used when auto-detection support is not available.
-Defaults to 80. If set to 0, it is interpreted as infinite width,
-therefore with no word-wrapping; this is useful when redirecting report
-output to a file for subsequent handling.
+Defaults to 80. If set to 0 or a negative value, it is interpreted as
+infinite width, therefore with no word-wrapping; this is useful when
+redirecting report output to a file for subsequent handling.
 
 **defaultheight=24**  
 The height of output used when auto-detection support is not available.
@@ -309,9 +309,12 @@ command with no filter.
 Determines whether annotations are displayed below the description field
 by the
 
+<!-- -->
+
 **indent.annotation=2**  
 Controls the number of spaces to indent annotations when shown beneath
-the description field. The default value is "2".
+the description field. The default value is "2". Negative values are
+treated as zero in task list reports.
 
 **indent.report=0**  
 Controls the indentation of the entire report output. Default is "0".
@@ -479,11 +482,17 @@ plotted in the interval where the task was completed. Defaults to 1.
 ## DATES
 
 **dateformat=Y-M-D**  
+
 **dateformat.report=**  
+
 **dateformat.holiday=YMD**  
+
 **dateformat.edit=Y-M-D H:N:S**  
+
 **dateformat.info=Y-M-D H:N:S**  
+
 **dateformat.annotation=**  
+
 **report.X.dateformat=Y-M-D**  
 This is a string of characters that defines how Taskwarrior formats date
 values. The precedence order for the configuration variable is
@@ -518,17 +527,17 @@ contain the characters:
         j  Julian day,             for example 23 or 365
         w  Week day,               for example 0 for Monday, 5 for Friday
 
-The characters 'v', 'V', 'a' and 'A' can only be used for formatting
-printed dates (not to parse them).
+> The characters 'v', 'V', 'a' and 'A' can only be used for formatting
+> printed dates (not to parse them).
 
-The string may also contain other characters to act as spacers, or
-formatting. Examples for other values of dateformat:
+> The string may also contain other characters to act as spacers, or
+> formatting. Examples for other values of dateformat:
 
         d/m/Y  would use for input and output 24/7/2009
         yMD    would use for input and output 090724
         M-D-Y  would use for input and output 07-24-2009
 
-Examples for other values of dateformat.report:
+> Examples for other values of dateformat.report:
 
         a D b Y (V)   would emit "Fri 24 Jul 2009 (30)"
         A, B D, Y     would emit "Friday, July 24, 2009"
@@ -537,10 +546,10 @@ Examples for other values of dateformat.report:
         m/d/Y H:N     would emit "1/24/2011 10:42"
         a D b Y H:N:S would emit "Mon 24 Jan 2011 11:19:42"
 
-Undefined fields are put to their minimal valid values (1 for month and
-day and 0 for hour, minutes and seconds) when there is at least one more
-global date field that is set. Otherwise, they are set to the
-corresponding values of "now". For example:
+> Undefined fields are put to their minimal valid values (1 for month
+> and day and 0 for hour, minutes and seconds) when there is at least
+> one more global date field that is set. Otherwise, they are set to the
+> corresponding values of "now". For example:
 
         8/1/2013  with m/d/Y   implies August 1, 2013 at midnight (inferred)
         8/1 20:40 with m/d H:N implies August 1, 2013 (inferred) at 20:40
@@ -552,7 +561,11 @@ Enables ISO-8601 date support. The default value is "1".
 
 **weekstart=Sunday**  
 Determines the day a week starts. Valid values are Sunday or Monday
-only. The default value is "Sunday".
+only. The default value is "Sunday". This affects the layout of the
+"task calendar" command, week numbers, and the day that a week date such
+as 2026-W02 refers to. With Monday, week numbers follow ISO-8601. It
+does not affect named dates such as sow and eow, or the WEEK virtual
+tag, which always use a week from Monday to Sunday.
 
 **displayweeknumber=1**  
 Determines if week numbers are displayed when using the "task calendar"
@@ -839,6 +852,7 @@ lines due to long descriptions or annotations.
 <!-- -->
 
 **color.history.add=on red**  
+
   
 **color.history.done=on green**
 
@@ -849,6 +863,7 @@ lines due to long descriptions or annotations.
 > and yellow bars.
 
 **color.burndown.pending=on red**  
+
   
 **color.burndown.started=on yellow**
 
@@ -859,15 +874,17 @@ lines due to long descriptions or annotations.
 > and yellow bars.
 
 **color.undo.before=red**  
+
   
 **color.undo.after=green**
 
-Colors used by the undo command, to indicate the values both before and
-after a change that is to be reverted.
-
-Currently not supported.
+> Colors used by the undo command, to indicate the values both before
+> and after a change that is to be reverted.
+>
+> Currently not supported.
 
 **color.sync.added=green**  
+
   
 **color.sync.changed=yellow**
 
@@ -885,8 +902,11 @@ to lowest. Note that the prefix 'color.' is omitted (for brevity), and
 that any wildcard value (color.tag.XXX) is shortened to 'tag.', which
 places all specific tag rules at the same precedence, again for brevity.
 
+<!-- -->
+
 **color.debug=green**  
-> Colors all debug output, if enabled.
+
+Colors all debug output, if enabled.
 
 ## URGENCY
 
@@ -894,72 +914,73 @@ The urgency calculation uses a polynomial with several terms, each of
 which has a configurable coefficient. Those coefficients are:
 
 **urgency.blocking.coefficient=8.0**  
-> Urgency coefficient for blocking tasks
+
+Urgency coefficient for blocking tasks
 
 **urgency.blocked.coefficient=-5.0**
 
-Urgency coefficient for blocked tasks
+> Urgency coefficient for blocked tasks
 
 **urgency.due.coefficient=12.0**
 
-Urgency coefficient for due dates
+> Urgency coefficient for due dates
 
 **urgency.waiting.coefficient=-3.0**
 
-Urgency coefficient for waiting status
+> Urgency coefficient for waiting status
 
 **urgency.active.coefficient=4.0**
 
-Urgency coefficient for active tasks
+> Urgency coefficient for active tasks
 
 **urgency.scheduled.coefficient=5.0**
 
-Urgency coefficient for scheduled tasks
+> Urgency coefficient for scheduled tasks
 
 **urgency.project.coefficient=1.0**
 
-Urgency coefficient for projects
+> Urgency coefficient for projects
 
 **urgency.tags.coefficient=1.0**
 
-Urgency coefficient for tags
+> Urgency coefficient for tags
 
 **urgency.annotations.coefficient=1.0**
 
-Urgency coefficient for annotations
+> Urgency coefficient for annotations
 
 **urgency.age.coefficient=2.0**
 
-Urgency coefficient for the age of tasks
+> Urgency coefficient for the age of tasks
 
 **urgency.age.max=365**
 
-Maximum age in days. After this number of days has elapsed, the urgency
-of a task won't increase any more because of aging.
+> Maximum age in days. After this number of days has elapsed, the
+> urgency of a task won't increase any more because of aging.
 
 **urgency.user.tag.&lt;tag&gt;.coefficient=...**
 
-Specific tag coefficient.
+> Specific tag coefficient.
 
 **urgency.user.tag.next.coefficient=15.0**
 
-Urgency coefficient for tag 'next'.
+> Urgency coefficient for tag 'next'.
 
 **urgency.user.project.&lt;project&gt;.coefficient=...**
 
-Specific project coefficient.
+> Specific project coefficient.
 
 **urgency.user.keyword.&lt;keyword&gt;.coefficient=...**
 
-Specific description keyword coefficient.
+> Specific description keyword coefficient.
 
 **urgency.uda.&lt;name&gt;.coefficient=...**
 
-Presence/absence of UDA data.
+> Presence/absence of UDA data.
 
 **urgency.uda.&lt;name&gt;.&lt;value&gt;.coefficient=...**
 
-Specific value of UDA data.
+> Specific value of UDA data.
 
 The coefficients reflect the relative importance of the various terms in
 the urgency calculation. These are default values, and may be modified
@@ -968,11 +989,11 @@ consider any modifications.
 
 **urgency.inherit=0**
 
-Not actually a coefficient. When enabled, blocking tasks inherit the
-highest urgency value found in the tasks they block. This is done
-recursively. It is recommended to set urgency.blocking.coefficient and
-urgency.blocked.coefficient to 0.0 in order for this setting to be the
-most useful.
+> Not actually a coefficient. When enabled, blocking tasks inherit the
+> highest urgency value found in the tasks they block. This is done
+> recursively. It is recommended to set urgency.blocking.coefficient and
+> urgency.blocked.coefficient to 0.0 in order for this setting to be the
+> most useful.
 
 ## DEFAULTS
 
@@ -998,10 +1019,12 @@ command, if you don't specify values. The default is blank.
 Provides a default command that is run every time Taskwarrior is invoked
 with no arguments. For example, if set to:
 
+<!-- -->
+
         default.command=project:foo list
 
-then Taskwarrior will run the "project:foo list" command if no command
-is specified. This means that by merely typing
+> then Taskwarrior will run the "project:foo list" command if no command
+> is specified. This means that by merely typing
 
         $ task
         [task project:foo list]
@@ -1018,6 +1041,7 @@ set using the corresponding variables for each report. Each report name
 is used as a "command" name. For example
 
 **task overdue**  
+
 **report.X.description**  
 The description for report X when running the "task help" command.
 
@@ -1039,6 +1063,8 @@ The sort order of the tasks in the generated report X. The sort order is
 specified by using the column ids post-fixed by a "+" for ascending sort
 order or a "-" for descending sort order. The sort IDs are separated by
 commas. For example:
+
+<!-- -->
 
         report.list.sort=due+,priority-,start.active-,project+
 
@@ -1079,6 +1105,7 @@ task in a report. Deprecated. Use the **description** column with a
 format (e.g., **description.count**) instead.
 
 Taskwarrior comes with a number of predefined reports, which are:  
+
 **next**  
 Lists the most important tasks.
 
@@ -1144,23 +1171,35 @@ understand anything about it. For example if you define a UDA named
 minutes, money, or some other resource count.
 
 **uda.&lt;name&gt;.type=string|numeric|uuid|date|duration**  
-> Defines a UDA called '&lt;name&gt;', of the specified type.
+
+Defines a UDA called '&lt;name&gt;', of the specified type.
+
+<!-- -->
 
 **uda.&lt;name&gt;.label=&lt;column heading&gt;**  
-> Provides a default report label for the UDA called '&lt;name&gt;'.
+
+Provides a default report label for the UDA called '&lt;name&gt;'.
+
+<!-- -->
 
 **uda.&lt;name&gt;.values=A,B,C**  
-> For type 'string' UDAs only, this provides a comma-separated list of
-> acceptable values. In this example, the '&lt;name&gt;' UDA may only
-> contain values 'A', 'B', or 'C', but may also contain no value.
->
-> Note that the order of the value is important, and denotes the sort
-> order from highest ('A') to lowest ('C').
->
-> Note that a blank value is permitted.
+
+For type 'string' UDAs only, this provides a comma-separated list of
+acceptable values. In this example, the '&lt;name&gt;' UDA may only
+contain values 'A', 'B', or 'C', but may also contain no value.
+
+Note that the order of the value is important, and denotes the sort
+order from highest ('A') to lowest ('C').
+
+Note that a blank value is permitted.
+
+<!-- -->
 
 **uda.&lt;name&gt;.default=...**  
-> Provides a default value for the UDA called '&lt;name&gt;'.
+
+Provides a default value for the UDA called '&lt;name&gt;'.
+
+<!-- -->
 
 **Example 'estimate' UDA**  
 This example shows an 'estimate' UDA that stores specific values for the
@@ -1170,9 +1209,9 @@ size of a task. Note the blank value after 'trivial'.
 **uda.estimate.label=Size Estimate**  
 **uda.estimate.values=huge,large,medium,small,trivial,**
 
-Note that the value are sorted
-
-huge &gt; large &gt; medium &gt; small &gt; trivial &gt; ''
+> Note that the value are sorted
+>
+> huge &gt; large &gt; medium &gt; small &gt; trivial &gt; ''
 
 ## CONTEXT
 
@@ -1184,24 +1223,28 @@ The current context is stored in the .taskrc file, along with
 definitions for all user provided contexts.
 
 **context=&lt;name&gt;**  
-> Stores the value of the currently active context.
+
+Stores the value of the currently active context.
+
+<!-- -->
 
 **context.&lt;name&gt;.read=&lt;filter&gt;**  
+
   
 **context.&lt;name&gt;.write=&lt;modifications&gt;**
 
-Stores the definition of the read or write context with the name
-&lt;name&gt;. Read context is the default filter applied when the
-context is active. The write context are the default modifications
-applied to newly added tasks when the context is active.
+> Stores the definition of the read or write context with the name
+> &lt;name&gt;. Read context is the default filter applied when the
+> context is active. The write context are the default modifications
+> applied to newly added tasks when the context is active.
 
 **context.&lt;name&gt;.rc.&lt;key&gt;=&lt;value&gt;**  
-> The rc type allows to override any configuration parameter for the
-> current context, e.g. if the default command for the context home
-> should be changed to home\_report, the following statement could be
-> added:
->
-> context.home.rc.default.command=home\_report
+
+The rc type allows to override any configuration parameter for the
+current context, e.g. if the default command for the context home should
+be changed to home\_report, the following statement could be added:
+
+context.home.rc.default.command=home\_report
 
 ## SYNC
 
@@ -1220,7 +1263,7 @@ information.
 
 # SEE ALSO
 
-**task(1),** **task-color(5),** **task-sync(5)**
+**task(1),** **task-color(5),** **task-iterative(5),** **task-sync(5)**
 
 For more information regarding Taskwarrior, see the following:
 
